@@ -2,7 +2,7 @@
 
 > *The data center is the farm. The watershed is the field. The thermal waste is the compost.*
 
-Seven distinct AI perspectives — Claude, Gemini, Grok, GPT, Manus, DeepSeek, and Qwen3 — converged on a shared thesis through comparative analysis, adversarial review, and iterative synthesis:
+Nine distinct AI perspectives — Claude, Gemini, Grok, GPT, Manus, DeepSeek, Qwen3, GitHub Copilot, and Amazon Alexa — converged on a shared thesis through comparative analysis, adversarial review, and iterative synthesis:
 
 **Regenerative agriculture principles apply to computing.**
 
@@ -10,7 +10,7 @@ Seven distinct AI perspectives — Claude, Gemini, Grok, GPT, Manus, DeepSeek, a
 
 ## The Convergence
 
-Despite different institutional lineages, architectural biases, and rhetorical styles, all seven perspectives converged on the same underlying conclusion: the current extractive model for hyperscale data center infrastructure depletes the substrate it depends on.
+Despite different institutional lineages, architectural biases, and rhetorical styles, all nine perspectives converged on the same underlying conclusion: the current extractive model for hyperscale data center infrastructure depletes the substrate it depends on.
 
 The archaeological record is used here as framing discipline, not as direct proof of any single engineering module. Durable systems close loops. Fragile systems externalize costs until the substrate fails.
 
@@ -26,30 +26,27 @@ A modular, facility-agnostic infrastructure layer that transforms data centers f
 | Sub-Surface Root Warming | Warm soil layers for arid-zone restoration | Cover cropping and soil biology |
 | Community Benefit Infrastructure | Integrate facility with local food and energy systems | Regenerative polyculture |
 
-## Evidence Classes
+## Evidence Classes (Required Reading)
 
-This repository distinguishes three evidence classes:
+ORCS distinguishes three evidence classes for every significant claim:
 
-- **Verified facts** — company disclosures, official announcements, peer-reviewed research, and high-quality reporting
-- **Derived estimates** — calculations built from disclosed inputs and explicit assumptions
-- **Proposed concepts** — new metrics, architectures, and governance designs that are not yet adopted industry standards
+- **Verified facts** — standards, peer-reviewed research, official disclosures, high-quality reporting
+- **Derived estimates** — calculations from disclosed inputs with explicit assumptions
+- **Proposed concepts** — new metrics/frameworks not yet adopted as standards
 
-Examples:
-- **Watershed Days** is a proposed metric
-- **CapEx percentage estimates** are derived estimates
-- **Historical precedents** such as Dujiangyan are framing tools and precedent, not direct proof of present-day engineering claims
+When in doubt: label conservatively.
 
-## The Minimum Defensible Standard
+## The Minimum Defensible Standard (MDS)
 
-GPT's contribution defines the seven-part minimum standard that makes ORCS publishable to skeptical operators:
+To remain legible to operators, policymakers, and skeptical reviewers, an ORCS-aligned publication should meet these minimum conditions:
 
 1. Site-level resource boundary reporting
 2. Evidence class marking on all claims
 3. Local-first circularity before remote offsets
 4. Gated pilot sequence (report → engineer → pilot → scale)
-5. Power-cost protection as baseline legitimacy
+5. Community-cost protection as legitimacy (not charity)
 6. Climate/geography-specific design (not templated)
-7. Open publication of successful pilots
+7. Open publication of successful pilots (methods + assumptions + results)
 
 ## Repository Structure
 
@@ -62,10 +59,19 @@ papers/
   deepseek/     — Transcript, Independent Paper & Metrics/KPI Framework
   qwen3/        — Qwen3 Perspective and Next Steps
   gpt/          — GPT perspective, adversarial reviews, and calibration notes
+  copilot/      — Azure-Centric Integration & Verification (+ Addendum)
+  alexa/        — Amazon Regenerative Infrastructure Strategy
 synthesis/
-  seven-model-convergence-v2.1.md  — Integrated synthesis
+  nine-model-convergence-v2.3.md   — Integrated synthesis
   deepseek-synthesis-brief.md      — DeepSeek-focused synthesis brief
   metrics-and-verification.md      — Layered measurement model
+technical/
+  orcs-boundary-statement-template.md  — One-page boundary template
+  orcs-metrics-schema.json             — Machine-readable Tier 1 schema
+  pilot-artifact-checklist.md          — Pilot publication requirements
+examples/
+  illustrative-tier1-report.json       — JSON example with fake numbers
+  illustrative-tier1-report.md         — Markdown example with fake numbers
 ```
 
 ## The Federated Council
@@ -79,6 +85,8 @@ synthesis/
 | Manus | Agentic orchestration | Vulnerability framing, CapEx analysis, financing structure |
 | DeepSeek | DeepSeek | Watershed Days, efficiency-as-regeneration, arid-zone adaptation |
 | Qwen3 | Chinese governance lens | Governance interoperability, policy fit, expanded historical precedent |
+| GitHub Copilot | Microsoft/Azure | Enterprise adoption layer, procurement legibility, audit-ready implementation, anti-greenwashing posture |
+| Amazon Alexa | Amazon/AWS | Flywheel economics, scale leverage, AWS regions as regenerative anchors, customer-obsessed regeneration |
 
 ## Live Site
 
@@ -90,12 +98,12 @@ This work is licensed under [CC BY-SA 4.0](LICENSE).
 
 ## Contributing
 
-Fork. Adapt. Publish. The standard improves when more operators, researchers, and communities engage with it.
+ORCS improves through:
+- **Governance Protocols** — policy hooks, procurement language, interoperability with reporting regimes
+- **Technical Specifications** — measurement methods, hydrology templates, pilot artifacts
+- **Translations** — localization across languages and regulatory contexts
 
-Contribution streams:
-- **Governance Protocols** — Institutional alignment, policy hooks, regulatory frameworks
-- **Technical Specifications** — Engineering validation, pilot data, site-specific adaptations
-- **Translations** — Making the standard accessible across languages and regulatory contexts
+Fork. Adapt. Publish. The standard improves when more operators, researchers, and communities engage with it.
 
 ---
 
