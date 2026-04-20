@@ -10,34 +10,34 @@ Seven distinct AI perspectives — Claude, Gemini, Grok, GPT, Manus, DeepSeek, a
 
 ## The Convergence
 
-Despite different institutional lineages, architectural biases, and rhetorical styles, all seven perspectives converged on the same underlying conclusion: the extractive model for hyperscale data center infrastructure depletes the substrate it depends on.
+Despite different institutional lineages, architectural biases, and rhetorical styles, all seven perspectives converged on the same underlying conclusion: the current extractive model for hyperscale data center infrastructure depletes the substrate it depends on.
 
-The archaeological analogy is not proof by itself. It is a framing discipline. Durable systems close loops. Fragile systems externalize costs until the substrate fails.
+The archaeological record is used here as framing discipline, not as direct proof of any single engineering module. Durable systems close loops. Fragile systems externalize costs until the substrate fails.
 
 ## The Regenerative Jacket
 
 A modular, facility-agnostic infrastructure layer that transforms data centers from extractive consumers into regenerative participants in their local watersheds:
 
 | Component | Function | Agriculture Analog |
-| :--- | :--- | :--- |
+|-----------|----------|-------------------|
 | HVAC Condensate Harvest | Capture atmospheric moisture from cooling systems | Water cycling in healthy soil |
-| Closed-Loop Water Filtration | Zero-discharge cooling with continuous recycling | Nutrient retention in compost |
+| Closed-Loop Water Filtration | Continuous recycling with minimized discharge | Nutrient retention in compost |
 | Thermal Offtake Infrastructure | Route waste heat to productive adjacent uses | Waste-as-input composting |
 | Sub-Surface Root Warming | Warm soil layers for arid-zone restoration | Cover cropping and soil biology |
 | Community Benefit Infrastructure | Integrate facility with local food and energy systems | Regenerative polyculture |
 
 ## Evidence Classes
 
-This repository separates three evidence classes:
+This repository distinguishes three evidence classes:
 
-- **Verified facts** — company disclosures, official announcements, peer-reviewed research, or high-quality reporting
+- **Verified facts** — company disclosures, official announcements, peer-reviewed research, and high-quality reporting
 - **Derived estimates** — calculations built from disclosed inputs and explicit assumptions
-- **Proposed concepts** — new metrics, architectures, and governance designs introduced by the council that are not yet adopted industry standards
+- **Proposed concepts** — new metrics, architectures, and governance designs that are not yet adopted industry standards
 
 Examples:
 - **Watershed Days** is a proposed metric
 - **CapEx percentage estimates** are derived estimates
-- **Dujiangyan** is historical precedent, not direct proof of present-day engineering claims
+- **Historical precedents** such as Dujiangyan are framing tools and precedent, not direct proof of present-day engineering claims
 
 ## The Minimum Defensible Standard
 
@@ -59,24 +59,25 @@ papers/
   gemini/       — The Janus Transition
   grok/         — The Colossus Regenerative Jacket
   manus/        — The Meta Regenerative Jacket
-  deepseek/     — Transcript & Independent Paper
+  deepseek/     — Transcript, Independent Paper & Metrics/KPI Framework
   qwen3/        — Qwen3 Perspective and Next Steps
-  gpt/          — GPT Perspective, adversarial reviews, and calibration notes
+  gpt/          — GPT perspective, adversarial reviews, and calibration notes
 synthesis/
   seven-model-convergence-v2.1.md  — Integrated synthesis
   deepseek-synthesis-brief.md      — DeepSeek-focused synthesis brief
+  metrics-and-verification.md      — Layered measurement model
 ```
 
 ## The Federated Council
 
 | Model | Context | Unique Contribution |
-| :--- | :--- | :--- |
-| Claude | Anthropic lineage | Modular gated implementation pathway, governance realism |
-| Gemini | Google/Alphabet lineage | Ecosystem-scale framing and social-license reframing |
-| Grok | xAI lineage | Local political urgency, aquifer risk, durability framing |
-| GPT | OpenAI lineage | Calibration, claim hygiene, hallucination detection, minimum-defensible-standard design |
-| Manus | Agentic orchestration layer | Vulnerability framing, CapEx analysis, financing structure |
-| DeepSeek | DeepSeek lineage | Watershed Days metric, efficiency-as-regeneration, arid-zone adaptation |
+|-------|---------|---------------------|
+| Claude | Anthropic | Modular gated implementation pathway, governance realism |
+| Gemini | Google/Alphabet | Ecosystem-scale framing and social-license reframing |
+| Grok | xAI | Local political urgency, aquifer risk, durability framing |
+| GPT | OpenAI | Calibration, claim hygiene, hallucination detection, minimum-defensible-standard design |
+| Manus | Agentic orchestration | Vulnerability framing, CapEx analysis, financing structure |
+| DeepSeek | DeepSeek | Watershed Days, efficiency-as-regeneration, arid-zone adaptation |
 | Qwen3 | Chinese governance lens | Governance interoperability, policy fit, expanded historical precedent |
 
 ## Live Site
