@@ -1,0 +1,85 @@
+{
+  "_comment": "ILLUSTRATIVE EXAMPLE ONLY — All values are fictional and for demonstration purposes only. This is not a real facility report.",
+  "schema_version": "0.1.0-draft",
+  "facility": {
+    "name": "Example Facility Alpha",
+    "operator": "Fictional Operator Inc.",
+    "location": {
+      "city": "Springfield",
+      "state_province": "IL",
+      "country": "US",
+      "latitude": 39.7817,
+      "longitude": -89.6501
+    },
+    "boundary_type": "campus"
+  },
+  "report_period": {
+    "start_date": "2025-01-01",
+    "end_date": "2025-12-31",
+    "frequency": "annual"
+  },
+  "boundary_statement": {
+    "energy_includes": "All utility feed power, PDU metering, IT load, cooling systems, lighting, and security systems within campus boundary",
+    "energy_excludes": "Backup diesel generators (emergency use only, <0.1% of annual energy), employee vehicle charging stations",
+    "water_withdrawn_definition": "Total volume removed from municipal supply and on-site wells",
+    "water_consumed_definition": "Volume not returned to any water body (evaporative losses, product water)",
+    "water_returned_definition": "Volume discharged to municipal wastewater system after treatment"
+  },
+  "metrics": [
+    {
+      "name": "PUE",
+      "tier": 1,
+      "evidence_class": "verified",
+      "value": 1.18,
+      "unit": "ratio",
+      "methodology_reference": "ISO/IEC 30134-2:2016 aligned; monthly weighted average",
+      "audited": false,
+      "notes": "Unaudited self-reported value. Includes all campus loads within boundary."
+    },
+    {
+      "name": "WUE",
+      "tier": 1,
+      "evidence_class": "verified",
+      "value": 0.85,
+      "unit": "L/kWh",
+      "methodology_reference": "Industry standard methodology; evaporative cooling dominant",
+      "audited": false,
+      "notes": "Climate zone: humid continental (Koppen Dfa). Seasonal variation: 0.4 (winter) to 1.3 (summer)."
+    },
+    {
+      "name": "CUE",
+      "tier": 1,
+      "evidence_class": "derived",
+      "value": 0.38,
+      "unit": "kgCO2e/kWh",
+      "methodology_reference": "Grid carbon intensity from EPA eGRID 2024 × total facility energy",
+      "audited": false,
+      "notes": "Derived from regional grid average. Does not account for time-of-use carbon variation."
+    }
+  ],
+  "evidence_register": [
+    {
+      "claim": "PUE of 1.18",
+      "evidence_class": "verified",
+      "verification_method": "Utility meter readings + PDU telemetry, monthly aggregation",
+      "audited": false
+    },
+    {
+      "claim": "WUE of 0.85 L/kWh",
+      "evidence_class": "verified",
+      "verification_method": "Municipal water meter + cooling tower blowdown meter",
+      "audited": false
+    },
+    {
+      "claim": "CUE of 0.38 kgCO2e/kWh",
+      "evidence_class": "derived",
+      "verification_method": "EPA eGRID 2024 regional average × metered energy",
+      "audited": false
+    }
+  ],
+  "attestation": {
+    "prepared_by": "ORCS Example Generator (fictional)",
+    "date": "2026-04-20",
+    "reviewed_by": "N/A — illustrative only"
+  }
+}
