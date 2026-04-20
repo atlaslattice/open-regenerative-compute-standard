@@ -2,7 +2,7 @@
 
 > *The data center is the farm. The watershed is the field. The thermal waste is the compost.*
 
-Seven independent AI systems — Claude (Anthropic), Gemini (Google), Grok (xAI), GPT (OpenAI), Manus (Meta), DeepSeek, and Qwen3 (Alibaba) — arrived at the same conclusion through independent analysis:
+Seven distinct AI perspectives — Claude, Gemini, Grok, GPT, Manus, DeepSeek, and Qwen3 — converged on a shared thesis through comparative analysis, adversarial review, and iterative synthesis:
 
 **Regenerative agriculture principles apply to computing.**
 
@@ -10,21 +10,46 @@ Seven independent AI systems — Claude (Anthropic), Gemini (Google), Grok (xAI)
 
 ## The Convergence
 
-Despite operating from different corporate lineages, training methodologies, and architectural biases, all seven systems concluded that the current extractive model for hyperscale data center infrastructure depletes the substrate it depends on — for the same reasons that extractive monoculture farming does.
+Despite different institutional lineages, architectural biases, and rhetorical styles, all seven perspectives converged on the same underlying conclusion: the extractive model for hyperscale data center infrastructure depletes the substrate it depends on.
 
-The archaeological record confirms: civilizations that applied regenerative principles sustained continuous operation for millennia. The Dujiangyan irrigation system has been feeding the Chengdu Plain for 2,300 years. Civilizations that treated their resource base as consumable left ruins.
+The archaeological analogy is not proof by itself. It is a framing discipline. Durable systems close loops. Fragile systems externalize costs until the substrate fails.
 
 ## The Regenerative Jacket
 
 A modular, facility-agnostic infrastructure layer that transforms data centers from extractive consumers into regenerative participants in their local watersheds:
 
 | Component | Function | Agriculture Analog |
-|-----------|----------|-------------------|
+| :--- | :--- | :--- |
 | HVAC Condensate Harvest | Capture atmospheric moisture from cooling systems | Water cycling in healthy soil |
 | Closed-Loop Water Filtration | Zero-discharge cooling with continuous recycling | Nutrient retention in compost |
-| Thermal Offtake Infrastructure | Route waste heat to greenhouses, aquaculture, district heating | Waste-as-input composting |
-| Sub-Surface Root Warming | Warm water pipes at 60-80cm depth for anti-desertification | Cover cropping and soil biology |
-| Community Benefit Infrastructure | Integrate facility with local food/energy systems | Regenerative polyculture |
+| Thermal Offtake Infrastructure | Route waste heat to productive adjacent uses | Waste-as-input composting |
+| Sub-Surface Root Warming | Warm soil layers for arid-zone restoration | Cover cropping and soil biology |
+| Community Benefit Infrastructure | Integrate facility with local food and energy systems | Regenerative polyculture |
+
+## Evidence Classes
+
+This repository separates three evidence classes:
+
+- **Verified facts** — company disclosures, official announcements, peer-reviewed research, or high-quality reporting
+- **Derived estimates** — calculations built from disclosed inputs and explicit assumptions
+- **Proposed concepts** — new metrics, architectures, and governance designs introduced by the council that are not yet adopted industry standards
+
+Examples:
+- **Watershed Days** is a proposed metric
+- **CapEx percentage estimates** are derived estimates
+- **Dujiangyan** is historical precedent, not direct proof of present-day engineering claims
+
+## The Minimum Defensible Standard
+
+GPT's contribution defines the seven-part minimum standard that makes ORCS publishable to skeptical operators:
+
+1. Site-level resource boundary reporting
+2. Evidence class marking on all claims
+3. Local-first circularity before remote offsets
+4. Gated pilot sequence (report → engineer → pilot → scale)
+5. Power-cost protection as baseline legitimacy
+6. Climate/geography-specific design (not templated)
+7. Open publication of successful pilots
 
 ## Repository Structure
 
@@ -34,43 +59,42 @@ papers/
   gemini/       — The Janus Transition
   grok/         — The Colossus Regenerative Jacket
   manus/        — The Meta Regenerative Jacket
-  deepseek/     — DeepSeek Transcript & Independent Paper
-  qwen3/        — Qwen3 Perspective (Sections VIII & IX)
-  gpt/          — GPT Adversarial Review of Gemini
+  deepseek/     — Transcript & Independent Paper
+  qwen3/        — Qwen3 Perspective and Next Steps
+  gpt/          — GPT Perspective, adversarial reviews, and calibration notes
 synthesis/
-  seven-model-convergence-v2.1.md  — The integrated synthesis document
+  seven-model-convergence-v2.1.md  — Integrated synthesis
   deepseek-synthesis-brief.md      — DeepSeek-focused synthesis brief
 ```
 
-## Key Metrics
+## The Federated Council
 
-- **Watershed Days**: Net Water Positive Infrastructure measured in days the facility extends aquifer life beyond baseline projections (proposed by DeepSeek)
-- **CapEx**: 0.03–0.06% of annual budget per site (Manus analysis)
-- **Precedent**: 2,300 years of continuous operation (Dujiangyan)
+| Model | Context | Unique Contribution |
+| :--- | :--- | :--- |
+| Claude | Anthropic lineage | Modular gated implementation pathway, governance realism |
+| Gemini | Google/Alphabet lineage | Ecosystem-scale framing and social-license reframing |
+| Grok | xAI lineage | Local political urgency, aquifer risk, durability framing |
+| GPT | OpenAI lineage | Calibration, claim hygiene, hallucination detection, minimum-defensible-standard design |
+| Manus | Agentic orchestration layer | Vulnerability framing, CapEx analysis, financing structure |
+| DeepSeek | DeepSeek lineage | Watershed Days metric, efficiency-as-regeneration, arid-zone adaptation |
+| Qwen3 | Chinese governance lens | Governance interoperability, policy fit, expanded historical precedent |
+
+## Live Site
+
+Explore the interactive framework: [The Open Regenerative Compute Standard](https://regcompute-gzelm6nx.manus.space)
+
+## License
+
+This work is licensed under [CC BY-SA 4.0](LICENSE).
 
 ## Contributing
 
-This standard is released under **CC BY-SA 4.0**. We invite the global engineering community to:
+Fork. Adapt. Publish. The standard improves when more operators, researchers, and communities engage with it.
 
-1. **Fork** this repository and adapt the standard for your region
-2. **Contribute** governance interoperability protocols, technical specifications, or translations
-3. **Implement** pilot projects and share results
-
-## The Federated Council
-
-| Model | Affiliation | Unique Contribution |
-|-------|-------------|---------------------|
-| Claude | Anthropic | Modular gated implementation pathway, adversarial review methodology |
-| Gemini | Google/Alphabet | Maximalist ecosystem integration (DeepMind, Mineral, Verily, Earth-2) |
-| Grok | xAI | Lean political framing, Mars-relevant engineering, epistemic necessity |
-| GPT | OpenAI | Adversarial review, hallucination detection, overclaim calibration |
-| Manus | Meta | Agentic vulnerability framing, CapEx analysis, financing structure |
-| DeepSeek | DeepSeek | Sub-surface root warming, Watershed Days metric, AI Hydrologist concept |
-| Qwen3 | Alibaba | Governance bandwidth fragmentation, Loess Plateau/Sponge City precedents, Ecological Product Value Realization |
-
-## Live Website
-
-Explore the interactive framework: [regcompute-gzelm6nx.manus.space](https://regcompute-gzelm6nx.manus.space)
+Contribution streams:
+- **Governance Protocols** — Institutional alignment, policy hooks, regulatory frameworks
+- **Technical Specifications** — Engineering validation, pilot data, site-specific adaptations
+- **Translations** — Making the standard accessible across languages and regulatory contexts
 
 ---
 
