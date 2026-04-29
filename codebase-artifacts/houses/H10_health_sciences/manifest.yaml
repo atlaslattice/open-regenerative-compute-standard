@@ -1,55 +1,10 @@
 house:
   id: H10
   name: Health Sciences
-  spheres:
-  - 109
-  - 110
-  - 111
-  - 112
-  - 113
-  - 114
-  - 115
-  - 116
-  - 117
-  - 118
-  - 119
-  - 120
-coverage:
+  sphere_range: 109-120
   total_spheres: 12
-  covered: 1
-  gaps: 11
-  coverage_pct: 8.3
 modules:
-- id: M42
-  name: Neural Data Sovereignty
-  status: SPEC
-  spheres:
-  - 118
 - id: M43
-  name: Neural Consent Manager
-  status: SPEC
-  spheres:
-  - 118
-gap_spheres:
-- sphere_id: 109
-  sphere_name: Medicine
-- sphere_id: 110
-  sphere_name: Surgery
-- sphere_id: 111
-  sphere_name: Psychiatry
-- sphere_id: 112
-  sphere_name: Nursing
-- sphere_id: 113
-  sphere_name: Dentistry
-- sphere_id: 114
-  sphere_name: Optometry
-- sphere_id: 115
-  sphere_name: Pharmacy
-- sphere_id: 116
-  sphere_name: Public Health Admin
-- sphere_id: 117
-  sphere_name: Rehabilitation
-- sphere_id: 119
-  sphere_name: Epidemiology
-- sphere_id: 120
-  sphere_name: Nutrition
+  name: Neural Data Sovereignty Module
+module_count: 1
+coverage: 1 modules assigned

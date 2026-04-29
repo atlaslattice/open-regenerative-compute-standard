@@ -1,47 +1,8 @@
 house:
   id: H03
   name: Social Sciences
-  spheres:
-  - 25
-  - 26
-  - 27
-  - 28
-  - 29
-  - 30
-  - 31
-  - 32
-  - 33
-  - 34
-  - 35
-  - 36
-coverage:
+  sphere_range: 25-36
   total_spheres: 12
-  covered: 0
-  gaps: 12
-  coverage_pct: 0.0
 modules: []
-gap_spheres:
-- sphere_id: 25
-  sphere_name: Psychology
-- sphere_id: 26
-  sphere_name: Sociology
-- sphere_id: 27
-  sphere_name: Anthropology
-- sphere_id: 28
-  sphere_name: Economics
-- sphere_id: 29
-  sphere_name: Political Science
-- sphere_id: 30
-  sphere_name: Geography
-- sphere_id: 31
-  sphere_name: Demography
-- sphere_id: 32
-  sphere_name: Criminology
-- sphere_id: 33
-  sphere_name: Communication Studies
-- sphere_id: 34
-  sphere_name: Development Studies
-- sphere_id: 35
-  sphere_name: Gender Studies
-- sphere_id: 36
-  sphere_name: Urban Studies
+module_count: 0
+coverage: 0 modules assigned

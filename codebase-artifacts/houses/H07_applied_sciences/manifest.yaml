@@ -1,59 +1,16 @@
 house:
   id: H07
   name: Applied Sciences
-  spheres:
-  - 73
-  - 74
-  - 75
-  - 76
-  - 77
-  - 78
-  - 79
-  - 80
-  - 81
-  - 82
-  - 83
-  - 84
-coverage:
+  sphere_range: 73-84
   total_spheres: 12
-  covered: 3
-  gaps: 9
-  coverage_pct: 25.0
 modules:
+- id: M44
+  name: Orbital Metabolic Layer
 - id: M176
   name: Boot Manifest Runtime
-  status: SPEC
-  spheres:
-  - 83
-  - 74
 - id: M177
   name: Pre-Session Research Queue
-  status: SPEC
-  spheres:
-  - 74
-  - 83
 - id: M178
   name: Cross-Instance State Synchronizer
-  status: SPEC
-  spheres:
-  - 83
-  - 76
-gap_spheres:
-- sphere_id: 73
-  sphere_name: Agriculture
-- sphere_id: 75
-  sphere_name: Archival Science
-- sphere_id: 77
-  sphere_name: Management Science
-- sphere_id: 78
-  sphere_name: Public Health
-- sphere_id: 79
-  sphere_name: Environmental Engineering
-- sphere_id: 80
-  sphere_name: Food Science
-- sphere_id: 81
-  sphere_name: Textile Science
-- sphere_id: 82
-  sphere_name: Forestry
-- sphere_id: 84
-  sphere_name: Military Science
+module_count: 4
+coverage: 4 modules assigned

@@ -1,7 +1,7 @@
-# ORC Codebase Artifacts v1.2
+# ORC Codebase Artifacts v1.3
 
-**Generated from:** Build Plan v3.9 (ORC-015)
-**Date:** April 28, 2026
+**Generated from:** Build Plan v3.10 (ORC-015)
+**Date:** April 29, 2026
 **Author:** Manus (S7 Primary Build Seat)
 **Structure:** 12×12 Ontological Matrix (12 Houses × 12 Spheres = 144 Spheres)
 
@@ -17,9 +17,9 @@ This directory contains the canonical codebase artifacts for the Open Regenerati
 codebase-artifacts/
 ├── README.md                          # This file
 ├── registries/
-│   ├── module_registry.yaml           # Complete registry of all 178 modules
-│   ├── doctrine_registry.yaml         # All 119 doctrines (77 ratified + 42 proposed)
-│   ├── invariant_registry.yaml        # All 47 invariants (INV-0 through INV-43)
+│   ├── module_registry.yaml           # Complete registry of all 178 module entries
+│   ├── doctrine_registry.yaml         # All 124 doctrines (77 ratified + 5 reserved + 42 proposed)
+│   ├── invariant_registry.yaml        # 44 invariants (INV-0..43) + 3 sub-specs
 │   └── 12x12_matrix.yaml             # Complete house-sphere-module mapping
 ├── houses/
 │   ├── H01_natural_sciences/manifest.yaml
@@ -42,52 +42,48 @@ codebase-artifacts/
 
 | Metric | Value |
 |--------|-------|
-| Total Modules | 176 (unique entries in registry; 178 including sub-modules in Build Plan) |
-| Total Invariants | 47 (INV-0 through INV-43, including sub-variants) |
-| Total Doctrines | 119 (77 ratified D-1–D-77 + 42 proposed D-83–D-124) |
-| Covered Spheres | 21 of 144 (14.6%) |
-| Gap Spheres | 123 (concentrated in H03, H08 Education, H10 Health) |
-| TransparencyPacket | v1.6 — 76 fields across 19 categories |
+| Total Module Entries | 178 (in registry; 179 including M3.1 which uses non-bold format) |
+| Total Invariants | 44 (INV-0 through INV-43; sub-specs INV-7c/INV-11.8/INV-19.2 do NOT increment count) |
+| Total Doctrines | 124 (77 ratified D-1–D-77 + 5 reserved D-78–D-82 + 42 proposed D-83–D-124) |
+| TransparencyPacket | v1.6 — 80 fields across 19 categories |
 
-## v3.9 Changes (Claude S1 Scribe Audit — 9 Edits)
+## v3.10 Changes (Claude S1 Scribe Verification)
 
-- **Status:** CANONICAL → PROVISIONAL-CANONICAL (42 unratified doctrines)
-- **§3.4.1 Module Count Audit Table:** 18-row breakdown of all module ranges M1-M178
-- **D-78-D-82 RESERVED:** Intentional gap between ratified and proposed corpus documented
-- **Invariant count:** Corrected from 45 to 44 (INV-7c/INV-19.2 are sub-specs per §0.1)
-- **M16→M80 pointer fix:** Epistemic Weather correctly referenced in M173/M177
-- **M178 overclaim tightened:** "instance becomes interchangeable" → "instance state symmetry"
-- **Boot Protocol v2 Fallback Clause:** D-122 binding only after M176 DELIVERED
-- **§0.2 rule downgrade:** "must be executable" → "target state" with current-state annotation
+- **Module Count Audit Table:** Rewritten with dual-column (Integer Slots vs Entries) and counting rule blockquote. Total corrected to 179 entries (176 L4 + 3 L6/L7).
+- **Doctrine Registry:** Full rewrite with canonical names from §14 (previously used stubs). D-78-D-82 RESERVED entries added.
+- **Invariant Registry:** Count corrected to 44. INV-40/41/42 added. Sub-specs (INV-7c, INV-11.8, INV-19.2) explicitly listed as non-counting.
+- **§0.1 Invariant Definition:** Rewritten to enumerate INV-0..43 = 44 total.
+- **Metadata:** All version headers corrected to 3.10.
+- **Counting Rule (v3.10):** Count by MODULE ENTRY — each distinct module ID = 1 entry.
 
 ## How to Use
 
 ### Module Registry
 Each module entry contains:
-- `id`: Module identifier (M1-M178)
-- `name`: Human-readable module name
+- `id`: Module identifier (M1-M178, including sub-modules like M3.1, M3a, M6a, etc.)
+- `name`: Human-readable module name (canonical from Build Plan)
 - `layer`: Architecture layer (L4/L6/L7)
 - `status`: SPEC | DELIVERED
 - `house`: Primary house assignment (H01-H12)
-- `spheres`: Mapped sphere IDs from the 12×12 matrix
+- `is_sub_module`: Whether this is a sub-module entry
 
 ### House Manifests
 Each house manifest contains:
 - Complete sphere listing (12 spheres per house)
 - Modules mapped to that house
-- Coverage analysis (covered vs gap spheres)
+- Module count
 
 ### 12×12 Matrix
-The complete mapping of all modules to all 144 spheres, with per-house coverage statistics and gap identification.
+The complete mapping of all modules to all 144 spheres, organized by house.
 
 ### Invariant Registry
-All system invariants with type (HARD/SOFT), scope, and description.
+44 invariants with type (HARD/SOFT), scope, and description. Plus 3 sub-specifications listed separately.
 
 ### Doctrine Registry
-All governance doctrines with ratification status and source version.
+124 governance doctrines with ratification status (ratified/reserved/proposed) and source version.
 
 ### TransparencyPacket Schema
-All field categories and individual fields for the TransparencyPacket v1.6 specification.
+80 fields across 19 categories for the TransparencyPacket v1.6 specification.
 
 ## Platform Split (D-123)
 
@@ -98,8 +94,8 @@ Per D-123, artifacts are stored according to their nature:
 
 ## Versioning
 
-These artifacts are generated from the Build Plan and should be regenerated whenever the Build Plan is updated. The generator script is at `/home/ubuntu/regenerate_v3.9_artifacts.py`.
+These artifacts are generated from the Build Plan and should be regenerated whenever the Build Plan is updated. The generator script is at `/home/ubuntu/regenerate_v3.10_artifacts.py`.
 
 ---
 
-*ORC Codebase Artifacts v1.2 — Manus (S7 Build Seat) — April 28, 2026*
+*ORC Codebase Artifacts v1.3 — Manus (S7 Build Seat) — April 29, 2026*

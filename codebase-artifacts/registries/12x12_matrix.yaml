@@ -1,849 +1,388 @@
 metadata:
-  version: '3.8'
-  generated: '2026-04-28'
-  houses: 12
-  spheres_per_house: 12
+  version: '3.10'
+  source: Build Plan v3.10 (ORC-015)
   total_spheres: 144
-  total_covered_spheres: 21
-  total_coverage_pct: 14.6
+  total_houses: 12
 houses:
   H01:
     name: Natural Sciences
-    total_spheres: 12
-    covered_spheres: 2
-    coverage_pct: 16.7
     spheres:
-      1:
-        name: Biology
-        modules:
-        - M51
-        covered: true
-      2:
-        name: Chemistry
-        modules: []
-        covered: false
-      3:
-        name: Physics
-        modules: []
-        covered: false
-      4:
-        name: Earth Sciences
-        modules: []
-        covered: false
-      5:
-        name: Astronomy
-        modules: []
-        covered: false
-      6:
-        name: Environmental Science
-        modules:
-        - M5
-        - M20
-        - M41
-        - M49
-        - M50
-        - M52
-        - M54
-        - M55
-        - M90
-        - M91
-        - M101
-        - M107
-        - M127
-        - M137
-        - M149
-        - M151
-        covered: true
-      7:
-        name: Oceanography
-        modules: []
-        covered: false
-      8:
-        name: Meteorology
-        modules: []
-        covered: false
-      9:
-        name: Geology
-        modules: []
-        covered: false
-      10:
-        name: Ecology
-        modules: []
-        covered: false
-      11:
-        name: Zoology
-        modules: []
-        covered: false
-      12:
-        name: Botany
-        modules: []
-        covered: false
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    modules:
+    - M25
+    - M25a
+    - M25b
+    - M25c
+    - M50
+    - M51
+    - M52
+    - M53
+    - M54
+    - M55
+    - M56
+    - M88
+    - M89
+    - M90
+    - M91
+    - M99
+    - M100
+    - M101
+    - M102
+    - M103
+    - M105
+    - M106
+    - M107
+    - M108
+    module_count: 24
   H02:
     name: Formal Sciences
-    total_spheres: 12
-    covered_spheres: 1
-    coverage_pct: 8.3
     spheres:
-      13:
-        name: Mathematics
-        modules: []
-        covered: false
-      14:
-        name: Computer Science
-        modules:
-        - M1
-        - M3.1
-        - M4
-        - M7
-        - M8
-        - M10
-        - M16
-        - M29
-        - M30
-        - M31
-        - M33
-        - M34
-        - M39
-        - M62
-        - M64
-        - M65
-        - M66
-        - M67
-        - M69
-        - M72
-        - M73
-        - M74
-        - M75
-        - M78
-        - M79
-        - M80
-        - M81
-        - M111
-        - M140
-        - M157
-        covered: true
-      15:
-        name: Statistics
-        modules: []
-        covered: false
-      16:
-        name: Logic
-        modules: []
-        covered: false
-      17:
-        name: Systems Theory
-        modules: []
-        covered: false
-      18:
-        name: Information Theory
-        modules: []
-        covered: false
-      19:
-        name: Decision Theory
-        modules: []
-        covered: false
-      20:
-        name: Game Theory
-        modules: []
-        covered: false
-      21:
-        name: Operations Research
-        modules: []
-        covered: false
-      22:
-        name: Cryptography
-        modules: []
-        covered: false
-      23:
-        name: Formal Linguistics
-        modules: []
-        covered: false
-      24:
-        name: Category Theory
-        modules: []
-        covered: false
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    modules:
+    - M1
+    - M2
+    - M3
+    - M3.1
+    - M3a
+    - M4
+    - M5
+    - M6
+    - M6a
+    - M6b
+    - M7
+    - M8
+    - M9
+    - M10
+    - M11
+    - M12
+    - M13
+    - M14
+    - M15
+    - M15a
+    - M16
+    - M17
+    - M17a
+    - M17b
+    - M34
+    - M57
+    - M58
+    - M59
+    - M60
+    - M61
+    - M62
+    - M63
+    - M64
+    - M65
+    - M66
+    - M67
+    - M71
+    - M72
+    - M73
+    - M74
+    - M75
+    - M76
+    - M77
+    - M78
+    - M79
+    - M80
+    - M81
+    - M104
+    - M116
+    - M117
+    - M139
+    - M140
+    - M141
+    - M157
+    - M173
+    module_count: 55
   H03:
     name: Social Sciences
-    total_spheres: 12
-    covered_spheres: 0
-    coverage_pct: 0.0
     spheres:
-      25:
-        name: Psychology
-        modules: []
-        covered: false
-      26:
-        name: Sociology
-        modules: []
-        covered: false
-      27:
-        name: Anthropology
-        modules: []
-        covered: false
-      28:
-        name: Economics
-        modules: []
-        covered: false
-      29:
-        name: Political Science
-        modules: []
-        covered: false
-      30:
-        name: Geography
-        modules: []
-        covered: false
-      31:
-        name: Demography
-        modules: []
-        covered: false
-      32:
-        name: Criminology
-        modules: []
-        covered: false
-      33:
-        name: Communication Studies
-        modules: []
-        covered: false
-      34:
-        name: Development Studies
-        modules: []
-        covered: false
-      35:
-        name: Gender Studies
-        modules: []
-        covered: false
-      36:
-        name: Urban Studies
-        modules: []
-        covered: false
+    - 25
+    - 26
+    - 27
+    - 28
+    - 29
+    - 30
+    - 31
+    - 32
+    - 33
+    - 34
+    - 35
+    - 36
+    modules: []
+    module_count: 0
   H04:
     name: Technology
-    total_spheres: 12
-    covered_spheres: 0
-    coverage_pct: 0.0
     spheres:
-      37:
-        name: Electrical Engineering
-        modules: []
-        covered: false
-      38:
-        name: Mechanical Engineering
-        modules: []
-        covered: false
-      39:
-        name: Civil Engineering
-        modules: []
-        covered: false
-      40:
-        name: Chemical Engineering
-        modules: []
-        covered: false
-      41:
-        name: Aerospace Engineering
-        modules: []
-        covered: false
-      42:
-        name: Biomedical Engineering
-        modules: []
-        covered: false
-      43:
-        name: Nuclear Engineering
-        modules: []
-        covered: false
-      44:
-        name: Materials Science
-        modules: []
-        covered: false
-      45:
-        name: Nanotechnology
-        modules: []
-        covered: false
-      46:
-        name: Robotics
-        modules: []
-        covered: false
-      47:
-        name: Telecommunications
-        modules: []
-        covered: false
-      48:
-        name: Software Engineering
-        modules: []
-        covered: false
+    - 37
+    - 38
+    - 39
+    - 40
+    - 41
+    - 42
+    - 43
+    - 44
+    - 45
+    - 46
+    - 47
+    - 48
+    modules:
+    - M18
+    - M19
+    - M20
+    - M21
+    - M22
+    - M26
+    - M28
+    - M29
+    - M30
+    - M31
+    - M32
+    - M33
+    - M40
+    - M41
+    - M42
+    - M45
+    - M46
+    - M47
+    - M48
+    - M49
+    - M85
+    - M86
+    - M112
+    - M113
+    - M114
+    - M115
+    - M126
+    - M127
+    - M128
+    - M129
+    - M130
+    - M131
+    - M132
+    - M133
+    - M134
+    - M135
+    - M136
+    - M137
+    - M138
+    module_count: 39
   H05:
     name: Arts
-    total_spheres: 12
-    covered_spheres: 8
-    coverage_pct: 66.7
     spheres:
-      49:
-        name: Visual Arts
-        modules:
-        - M158
-        - M162a
-        - M162b
-        - M163
-        - M165
-        covered: true
-      50:
-        name: Performing Arts
-        modules:
-        - M164
-        - M175
-        covered: true
-      51:
-        name: Music
-        modules:
-        - M159
-        - M162a
-        - M162b
-        - M165
-        covered: true
-      52:
-        name: Motion/Dance
-        modules: []
-        covered: false
-      53:
-        name: Theater/Immersive
-        modules: []
-        covered: false
-      54:
-        name: Film
-        modules:
-        - M117
-        - M160
-        - M162a
-        - M162b
-        - M165
-        - M175
-        covered: true
-      55:
-        name: Interactive/Gaming
-        modules:
-        - M167
-        - M168
-        - M169
-        - M170
-        covered: true
-      56:
-        name: Cultural Heritage
-        modules:
-        - M171
-        covered: true
-      57:
-        name: Design
-        modules:
-        - M161
-        - M165
-        - M175
-        covered: true
-      58:
-        name: Environmental Art
-        modules:
-        - M166
-        covered: true
-      59:
-        name: Digital Art
-        modules: []
-        covered: false
-      60:
-        name: Literary Arts
-        modules: []
-        covered: false
+    - 49
+    - 50
+    - 51
+    - 52
+    - 53
+    - 54
+    - 55
+    - 56
+    - 57
+    - 58
+    - 59
+    - 60
+    modules:
+    - M158
+    - M159
+    - M160
+    - M161
+    - M162a
+    - M162b
+    - M163
+    - M164
+    - M165
+    - M166
+    - M167
+    - M168
+    - M169
+    - M170
+    - M171
+    - M172
+    - M175
+    module_count: 17
   H06:
     name: Humanities
-    total_spheres: 12
-    covered_spheres: 1
-    coverage_pct: 8.3
     spheres:
-      61:
-        name: Philosophy
-        modules: []
-        covered: false
-      62:
-        name: History
-        modules: []
-        covered: false
-      63:
-        name: Literature
-        modules: []
-        covered: false
-      64:
-        name: Linguistics
-        modules:
-        - M24
-        - M25
-        - M61
-        - M150
-        - M153
-        covered: true
-      65:
-        name: Religious Studies
-        modules: []
-        covered: false
-      66:
-        name: Classics
-        modules: []
-        covered: false
-      67:
-        name: Archaeology
-        modules: []
-        covered: false
-      68:
-        name: Art History
-        modules: []
-        covered: false
-      69:
-        name: Musicology
-        modules: []
-        covered: false
-      70:
-        name: Cultural Studies
-        modules: []
-        covered: false
-      71:
-        name: Ethics
-        modules: []
-        covered: false
-      72:
-        name: Aesthetics
-        modules: []
-        covered: false
+    - 61
+    - 62
+    - 63
+    - 64
+    - 65
+    - 66
+    - 67
+    - 68
+    - 69
+    - 70
+    - 71
+    - 72
+    modules:
+    - M148
+    - M149
+    - M150
+    - M151
+    - M152
+    - M153
+    - M154
+    - M155
+    module_count: 8
   H07:
     name: Applied Sciences
-    total_spheres: 12
-    covered_spheres: 3
-    coverage_pct: 25.0
     spheres:
-      73:
-        name: Agriculture
-        modules: []
-        covered: false
-      74:
-        name: Library Science
-        modules:
-        - M176
-        - M177
-        covered: true
-      75:
-        name: Archival Science
-        modules: []
-        covered: false
-      76:
-        name: Networks/IT
-        modules:
-        - M2
-        - M9
-        - M12
-        - M13
-        - M14
-        - M15
-        - M15a
-        - M23
-        - M44
-        - M45
-        - M46
-        - M47
-        - M48
-        - M53
-        - M84
-        - M89
-        - M105
-        - M112
-        - M114
-        - M115
-        - M120
-        - M121
-        - M122
-        - M124
-        - M125
-        - M130
-        - M131
-        - M134
-        - M135
-        - M152
-        - M170
-        - M172
-        - M173
-        - M174
-        - M178
-        covered: true
-      77:
-        name: Management Science
-        modules: []
-        covered: false
-      78:
-        name: Public Health
-        modules: []
-        covered: false
-      79:
-        name: Environmental Engineering
-        modules: []
-        covered: false
-      80:
-        name: Food Science
-        modules: []
-        covered: false
-      81:
-        name: Textile Science
-        modules: []
-        covered: false
-      82:
-        name: Forestry
-        modules: []
-        covered: false
-      83:
-        name: Information Systems
-        modules:
-        - M11
-        - M32
-        - M176
-        - M177
-        - M178
-        covered: true
-      84:
-        name: Military Science
-        modules: []
-        covered: false
+    - 73
+    - 74
+    - 75
+    - 76
+    - 77
+    - 78
+    - 79
+    - 80
+    - 81
+    - 82
+    - 83
+    - 84
+    modules:
+    - M44
+    - M176
+    - M177
+    - M178
+    module_count: 4
   H08:
     name: Education
-    total_spheres: 12
-    covered_spheres: 0
-    coverage_pct: 0.0
     spheres:
-      85:
-        name: Pedagogy
-        modules: []
-        covered: false
-      86:
-        name: Curriculum Design
-        modules: []
-        covered: false
-      87:
-        name: Educational Technology
-        modules: []
-        covered: false
-      88:
-        name: Special Education
-        modules: []
-        covered: false
-      89:
-        name: Higher Education
-        modules: []
-        covered: false
-      90:
-        name: Adult Education
-        modules: []
-        covered: false
-      91:
-        name: Early Childhood
-        modules: []
-        covered: false
-      92:
-        name: Assessment
-        modules: []
-        covered: false
-      93:
-        name: Educational Psychology
-        modules: []
-        covered: false
-      94:
-        name: Comparative Education
-        modules: []
-        covered: false
-      95:
-        name: Educational Policy
-        modules: []
-        covered: false
-      96:
-        name: Distance Learning
-        modules: []
-        covered: false
+    - 85
+    - 86
+    - 87
+    - 88
+    - 89
+    - 90
+    - 91
+    - 92
+    - 93
+    - 94
+    - 95
+    - 96
+    modules: []
+    module_count: 0
   H09:
     name: Life Sciences
-    total_spheres: 12
-    covered_spheres: 2
-    coverage_pct: 16.7
     spheres:
-      97:
-        name: Anatomy
-        modules: []
-        covered: false
-      98:
-        name: Genetics
-        modules: []
-        covered: false
-      99:
-        name: Agriculture/Agronomy
-        modules:
-        - M99
-        - M102
-        - M104
-        - M106
-        - M116
-        covered: true
-      100:
-        name: Animal Science
-        modules:
-        - M100
-        - M103
-        covered: true
-      101:
-        name: Marine Biology
-        modules: []
-        covered: false
-      102:
-        name: Microbiology
-        modules: []
-        covered: false
-      103:
-        name: Virology
-        modules: []
-        covered: false
-      104:
-        name: Immunology
-        modules: []
-        covered: false
-      105:
-        name: Pharmacology
-        modules: []
-        covered: false
-      106:
-        name: Toxicology
-        modules: []
-        covered: false
-      107:
-        name: Parasitology
-        modules: []
-        covered: false
-      108:
-        name: Hydrology
-        modules: []
-        covered: false
+    - 97
+    - 98
+    - 99
+    - 100
+    - 101
+    - 102
+    - 103
+    - 104
+    - 105
+    - 106
+    - 107
+    - 108
+    modules: []
+    module_count: 0
   H10:
     name: Health Sciences
-    total_spheres: 12
-    covered_spheres: 1
-    coverage_pct: 8.3
     spheres:
-      109:
-        name: Medicine
-        modules: []
-        covered: false
-      110:
-        name: Surgery
-        modules: []
-        covered: false
-      111:
-        name: Psychiatry
-        modules: []
-        covered: false
-      112:
-        name: Nursing
-        modules: []
-        covered: false
-      113:
-        name: Dentistry
-        modules: []
-        covered: false
-      114:
-        name: Optometry
-        modules: []
-        covered: false
-      115:
-        name: Pharmacy
-        modules: []
-        covered: false
-      116:
-        name: Public Health Admin
-        modules: []
-        covered: false
-      117:
-        name: Rehabilitation
-        modules: []
-        covered: false
-      118:
-        name: Neuroscience
-        modules:
-        - M42
-        - M43
-        covered: true
-      119:
-        name: Epidemiology
-        modules: []
-        covered: false
-      120:
-        name: Nutrition
-        modules: []
-        covered: false
+    - 109
+    - 110
+    - 111
+    - 112
+    - 113
+    - 114
+    - 115
+    - 116
+    - 117
+    - 118
+    - 119
+    - 120
+    modules:
+    - M43
+    module_count: 1
   H11:
     name: Commerce & Industry
-    total_spheres: 12
-    covered_spheres: 1
-    coverage_pct: 8.3
     spheres:
-      121:
-        name: Accounting
-        modules: []
-        covered: false
-      122:
-        name: Finance
-        modules: []
-        covered: false
-      123:
-        name: Marketing
-        modules: []
-        covered: false
-      124:
-        name: Supply Chain
-        modules: []
-        covered: false
-      125:
-        name: Human Resources
-        modules: []
-        covered: false
-      126:
-        name: Entrepreneurship
-        modules: []
-        covered: false
-      127:
-        name: Real Estate
-        modules: []
-        covered: false
-      128:
-        name: Insurance
-        modules: []
-        covered: false
-      129:
-        name: Banking
-        modules: []
-        covered: false
-      130:
-        name: International Trade
-        modules: []
-        covered: false
-      131:
-        name: Tourism
-        modules: []
-        covered: false
-      132:
-        name: Public Administration
-        modules:
-        - M18
-        - M19
-        - M36
-        - M56
-        - M60
-        - M85
-        - M86
-        - M108
-        - M136
-        - M141
-        - M172
-        - M173
-        covered: true
+    - 121
+    - 122
+    - 123
+    - 124
+    - 125
+    - 126
+    - 127
+    - 128
+    - 129
+    - 130
+    - 131
+    - 132
+    modules:
+    - M87
+    - M109
+    - M110
+    - M111
+    module_count: 4
   H12:
     name: Law & Governance
-    total_spheres: 12
-    covered_spheres: 2
-    coverage_pct: 16.7
     spheres:
-      133:
-        name: Constitutional Law
-        modules: []
-        covered: false
-      134:
-        name: Criminal Law
-        modules: []
-        covered: false
-      135:
-        name: Civil Law
-        modules: []
-        covered: false
-      136:
-        name: International Law
-        modules: []
-        covered: false
-      137:
-        name: Environmental Law
-        modules: []
-        covered: false
-      138:
-        name: Intellectual Property
-        modules: []
-        covered: false
-      139:
-        name: Privacy Law
-        modules:
-        - M3
-        - M59
-        - M113
-        - M119
-        - M123
-        covered: true
-      140:
-        name: Public Policy
-        modules:
-        - M6
-        - M17
-        - M17a
-        - M17b
-        - M21
-        - M22
-        - M26
-        - M27
-        - M28
-        - M35
-        - M37
-        - M38
-        - M40
-        - M57
-        - M58
-        - M63
-        - M68
-        - M70
-        - M71
-        - M76
-        - M77
-        - M82
-        - M83
-        - M87
-        - M88
-        - M109
-        - M110
-        - M118
-        - M126
-        - M128
-        - M129
-        - M132
-        - M133
-        - M138
-        - M139
-        - M142
-        - M143
-        - M144
-        - M145
-        - M146
-        - M147
-        - M148
-        - M154
-        - M155
-        - M156
-        - M174
-        covered: true
-      141:
-        name: Administrative Law
-        modules: []
-        covered: false
-      142:
-        name: Human Rights
-        modules: []
-        covered: false
-      143:
-        name: Tax Law
-        modules: []
-        covered: false
-      144:
-        name: Jurisprudence
-        modules: []
-        covered: false
+    - 133
+    - 134
+    - 135
+    - 136
+    - 137
+    - 138
+    - 139
+    - 140
+    - 141
+    - 142
+    - 143
+    - 144
+    modules:
+    - M23
+    - M24
+    - M27
+    - M35
+    - M68
+    - M69
+    - M70
+    - M82
+    - M83
+    - M84
+    - M118
+    - M119
+    - M120
+    - M121
+    - M122
+    - M123
+    - M124
+    - M125
+    - M142
+    - M143
+    - M144
+    - M145
+    - M146
+    - M147
+    - M156
+    - M174
+    module_count: 26

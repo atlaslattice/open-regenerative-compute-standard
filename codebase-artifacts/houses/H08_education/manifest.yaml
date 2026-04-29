@@ -1,47 +1,8 @@
 house:
   id: H08
   name: Education
-  spheres:
-  - 85
-  - 86
-  - 87
-  - 88
-  - 89
-  - 90
-  - 91
-  - 92
-  - 93
-  - 94
-  - 95
-  - 96
-coverage:
+  sphere_range: 85-96
   total_spheres: 12
-  covered: 0
-  gaps: 12
-  coverage_pct: 0.0
 modules: []
-gap_spheres:
-- sphere_id: 85
-  sphere_name: Pedagogy
-- sphere_id: 86
-  sphere_name: Curriculum Design
-- sphere_id: 87
-  sphere_name: Educational Technology
-- sphere_id: 88
-  sphere_name: Special Education
-- sphere_id: 89
-  sphere_name: Higher Education
-- sphere_id: 90
-  sphere_name: Adult Education
-- sphere_id: 91
-  sphere_name: Early Childhood
-- sphere_id: 92
-  sphere_name: Assessment
-- sphere_id: 93
-  sphere_name: Educational Psychology
-- sphere_id: 94
-  sphere_name: Comparative Education
-- sphere_id: 95
-  sphere_name: Educational Policy
-- sphere_id: 96
-  sphere_name: Distance Learning
+module_count: 0
+coverage: 0 modules assigned

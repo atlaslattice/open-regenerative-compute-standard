@@ -1,197 +1,86 @@
 house:
   id: H04
   name: Technology
-  spheres:
-  - 37
-  - 38
-  - 39
-  - 40
-  - 41
-  - 42
-  - 43
-  - 44
-  - 45
-  - 46
-  - 47
-  - 48
-coverage:
+  sphere_range: 37-48
   total_spheres: 12
-  covered: 0
-  gaps: 12
-  coverage_pct: 0.0
 modules:
-- id: M2
-  name: Provider Abstraction Layer
-  status: SPEC
-  spheres:
-  - 76
-- id: M9
-  name: Fallback Router
-  status: SPEC
-  spheres:
-  - 76
-- id: M12
-  name: Response Synthesizer
-  status: SPEC
-  spheres:
-  - 76
-- id: M13
-  name: Cache Layer
-  status: SPEC
-  spheres:
-  - 76
-- id: M14
-  name: Rate Limiter
-  status: SPEC
-  spheres:
-  - 76
-- id: M15
-  name: Health Monitor
-  status: SPEC
-  spheres:
-  - 76
-- id: M15a
-  name: Provider Health Dashboard
-  status: SPEC
-  spheres:
-  - 76
-- id: M23
-  name: DPI Integration Layer
-  status: SPEC
-  spheres:
-  - 76
-- id: M44
-  name: Orbital Asset Router
-  status: SPEC
-  spheres:
-  - 76
+- id: M18
+  name: Hardware Trust CN
+- id: M19
+  name: Bhashini-MCP Bridge
+- id: M20
+  name: Arabic-Constitutional Bridge
+- id: M21
+  name: Saudi Grid Adapter
+- id: M22
+  name: China Metabolic Pre-Fetch
+- id: M26
+  name: Persistent Researcher
+- id: M28
+  name: Session Handoff
+- id: M29
+  name: Constitutional API
+- id: M30
+  name: Cross-Task Memory Bridge
+- id: M31
+  name: Manus API Orchestrator
+- id: M32
+  name: Notion Governance Loop Controller
+- id: M33
+  name: Multi-Agent Session Fabric
+- id: M40
+  name: Quantum Sovereignty Adapter
+- id: M41
+  name: AI Treaty Arbitration Module
+- id: M42
+  name: e-CNY Dividend Rail
 - id: M45
-  name: Quantum-Safe Crypto Module
-  status: SPEC
-  spheres:
-  - 76
+  name: Cultural Data Synthesizer
 - id: M46
   name: Glass Takeover Shell
-  status: DELIVERED
-  spheres:
-  - 76
 - id: M47
   name: Governance Bridge
-  status: DELIVERED
-  spheres:
-  - 76
 - id: M48
-  name: Noosphere Frontend
-  status: DELIVERED
-  spheres:
-  - 76
-- id: M53
-  name: Heat Recapture Manager
-  status: SPEC
-  spheres:
-  - 76
-- id: M84
-  name: Micro-Frontend Architecture
-  status: SPEC
-  spheres:
-  - 76
-- id: M89
-  name: Developer Dashboard
-  status: SPEC
-  spheres:
-  - 76
-- id: M105
-  name: Rural Connectivity Bridge
-  status: SPEC
-  spheres:
-  - 76
+  name: 52-Module React Frontend
+- id: M49
+  name: Kernel-Level Kiosk Watchdog
+- id: M85
+  name: Guaranteed Offtake Contract Engine
+- id: M86
+  name: Wet Lab Verification Gate
 - id: M112
-  name: Alexa Voice Router
-  status: SPEC
-  spheres:
-  - 76
+  name: Council Votes Cross-Validation DB
+- id: M113
+  name: Translation Tables Registry (Notion)
 - id: M114
-  name: Kuiper Satellite Router
-  status: SPEC
-  spheres:
-  - 76
+  name: Deliberation-as-Data Engine
 - id: M115
-  name: AWS Graviton Optimizer
-  status: SPEC
-  spheres:
-  - 76
-- id: M120
-  name: X Identity Provider Integration
-  status: SPEC
-  spheres:
-  - 76
-- id: M121
-  name: DeepSeek One-Click Adapter
-  status: SPEC
-  spheres:
-  - 76
-- id: M122
-  name: Azure-Muskverse Compute Symbiosis
-  status: SPEC
-  spheres:
-  - 76
-- id: M124
-  name: Amazon LWA One-Click Adapter
-  status: SPEC
-  spheres:
-  - 76
-- id: M125
-  name: Universal Provider Credential Vault
-  status: SPEC
-  spheres:
-  - 76
+  name: Notion Governance Pack Template
+- id: M126
+  name: W3C Agent Identity Resolver
+- id: M127
+  name: Carbon-Aware Inference Router
+- id: M128
+  name: x402 Micropayment Rail
+- id: M129
+  name: Passkey Hardware Root Adapter
 - id: M130
-  name: Agentic Workflow Orchestrator
-  status: SPEC
-  spheres:
-  - 76
+  name: Logic Monopoly Detector
 - id: M131
-  name: Multi-Agent Coordination
-  status: SPEC
-  spheres:
-  - 76
+  name: KYA Credential Envelope
+- id: M132
+  name: Regenerative Credit Tokenizer
+- id: M133
+  name: Constitutional SoP Bridge
 - id: M134
   name: PyO3 Constitutional Bridge
-  status: SPEC
-  spheres:
-  - 76
 - id: M135
   name: Windows IoT Civic Terminal
-  status: SPEC
-  spheres:
-  - 76
-- id: M152
-  name: Bamboo Bridge
-  status: SPEC
-  spheres:
-  - 76
-gap_spheres:
-- sphere_id: 37
-  sphere_name: Electrical Engineering
-- sphere_id: 38
-  sphere_name: Mechanical Engineering
-- sphere_id: 39
-  sphere_name: Civil Engineering
-- sphere_id: 40
-  sphere_name: Chemical Engineering
-- sphere_id: 41
-  sphere_name: Aerospace Engineering
-- sphere_id: 42
-  sphere_name: Biomedical Engineering
-- sphere_id: 43
-  sphere_name: Nuclear Engineering
-- sphere_id: 44
-  sphere_name: Materials Science
-- sphere_id: 45
-  sphere_name: Nanotechnology
-- sphere_id: 46
-  sphere_name: Robotics
-- sphere_id: 47
-  sphere_name: Telecommunications
-- sphere_id: 48
-  sphere_name: Software Engineering
+- id: M136
+  name: CEO Collective Telemetry Dashboard
+- id: M137
+  name: Quantum PFAS Simulation Pipeline
+- id: M138
+  name: Constitutional OS v6.0.2 Reference Implementation
+module_count: 39
+coverage: 39 modules assigned

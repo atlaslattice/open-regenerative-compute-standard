@@ -1,95 +1,16 @@
 house:
   id: H11
   name: Commerce & Industry
-  spheres:
-  - 121
-  - 122
-  - 123
-  - 124
-  - 125
-  - 126
-  - 127
-  - 128
-  - 129
-  - 130
-  - 131
-  - 132
-coverage:
+  sphere_range: 121-132
   total_spheres: 12
-  covered: 1
-  gaps: 11
-  coverage_pct: 8.3
 modules:
-- id: M18
-  name: Regenerative Dividend Calculator
-  status: SPEC
-  spheres:
-  - 132
-- id: M19
-  name: Community Benefit Tracker
-  status: SPEC
-  spheres:
-  - 132
-- id: M36
-  name: Budget Transparency Dashboard
-  status: SPEC
-  spheres:
-  - 132
-- id: M56
-  name: Community Engagement Portal
-  status: SPEC
-  spheres:
-  - 132
-- id: M60
-  name: Accessibility Engine
-  status: SPEC
-  spheres:
-  - 132
-- id: M85
-  name: Stakeholder View Engine
-  status: SPEC
-  spheres:
-  - 132
-- id: M86
-  name: Farmer Dashboard
-  status: SPEC
-  spheres:
-  - 132
-- id: M108
-  name: Community Grain Exchange
-  status: SPEC
-  spheres:
-  - 132
-- id: M136
-  name: CEO Collective Telemetry Dashboard
-  status: SPEC
-  spheres:
-  - 132
-- id: M141
-  name: Trace Marketplace Revenue Engine
-  status: SPEC
-  spheres:
-  - 132
-gap_spheres:
-- sphere_id: 121
-  sphere_name: Accounting
-- sphere_id: 122
-  sphere_name: Finance
-- sphere_id: 123
-  sphere_name: Marketing
-- sphere_id: 124
-  sphere_name: Supply Chain
-- sphere_id: 125
-  sphere_name: Human Resources
-- sphere_id: 126
-  sphere_name: Entrepreneurship
-- sphere_id: 127
-  sphere_name: Real Estate
-- sphere_id: 128
-  sphere_name: Insurance
-- sphere_id: 129
-  sphere_name: Banking
-- sphere_id: 130
-  sphere_name: International Trade
-- sphere_id: 131
-  sphere_name: Tourism
+- id: M87
+  name: Utility Redemption Engine
+- id: M109
+  name: Bezosverse Flywheel Symbiosis Engine
+- id: M110
+  name: Commerce-Physical Integration Router
+- id: M111
+  name: Notion Ratification & Lock Engine
+module_count: 4
+coverage: 4 modules assigned

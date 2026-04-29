@@ -1,119 +1,106 @@
 metadata:
   version: '1.6'
-  generated: '2026-04-28'
-  source: ORC-015 Build Plan v3.9
+  source: Build Plan v3.10
+  generated_by: Manus S7
+  total_fields: 80
+  total_categories: 19
 categories:
   routing:
-    fields:
-    - provider_id
-    - sphere_id
-    - confidence
-    - latency_ms
-    - cost_estimate
-    - fallback_triggered
-    - provider_share_measured
-    - concentration_alert
-  consent:
-    fields:
-    - consent_level
-    - consent_method
-    - consent_timestamp
-    - data_categories
+  - provider_id
+  - model_id
+  - sphere_id
+  - confidence_score
+  - tss_score
+  - routing_reason
+  - fallback_chain
+  - latency_ms
+  sovereignty:
+  - jurisdiction
+  - data_residency
+  - dpi_compliance
+  - cultural_frame
+  - sovereign_override
+  provenance:
+  - decision_hash
+  - parent_hash
+  - timestamp
+  - audit_trail
+  - human_attestor
   metabolic:
-    fields:
-    - energy_kwh
-    - water_liters
-    - carbon_kg
-    - heat_recaptured_pct
-  audit:
-    fields:
-    - trace_id
-    - provenance_chain
-    - audit_method
-    - pqc_signed
-  governance:
-    fields:
-    - doctrine_applied
-    - invariant_checked
-    - dissent_recorded
-    - claim_tier
-  creative:
-    fields:
-    - provenance_method
-    - license_tier
-    - consent_level
-    - attribution_chain_length
-    - influence_confidence
-    - provenance_redundancy
-    - cross_media_split
-    - performer_consent_verified
-    - provenance_tier
-  gaming:
-    fields:
-    - franchise_consent_tier
-    - content_rating_jurisdiction
-    - esports_integrity_mode
-    - cloud_sovereignty_region
-    - preservation_status
-    - civic_compute_offload
-    - civic_compute_preemptible
-    - enterprise_video_governance_applied
-  provider:
-    fields:
-    - retaliation_score
-    - degradation_baseline_delta
-  identity:
-    fields:
-    - federation_method
-    - hardware_root
-    - consent_binding_id
-    - provider_count_active
-  bridge:
-    fields:
-    - pyo3_version
-    - gil_released
-    - async_mode
-  quantum:
-    fields:
-    - provider
-    - qubits_used
-    - algorithm
-    - inv0_cleared
-  platform:
-    fields:
-    - deployment_type
-    - secure_boot_verified
-  simulation:
-    fields:
-    - tpu_count
-    - success_rate
-    - cost_per_million
-  tos:
-    fields:
-    - provider_tos_version
-    - compliance_status
-    - retention_mode
-  water:
-    fields:
-    - downstream_quality_delta
-    - nutrient_cap_status
-    - monitoring_station_certified
+  - compute_cost
+  - energy_kwh
+  - carbon_grams
+  - water_liters
+  - cooling_overhead
+  economic:
+  - digital_dividend_pct
+  - provider_payment
+  - user_cost
+  - subsidy_applied
+  transparency:
+  - packet_version
+  - classification_tier
+  - redaction_reason
+  - golden_trace_id
+  consent:
+  - user_consent_level
+  - data_scope
+  - retention_period
+  - withdrawal_mechanism
   federation:
-    fields:
-    - node_id
-    - sovereignty_zone
-    - cross_border_consent
+  - ceo_collective_vote
+  - federation_complementarity
+  - gap_sphere_flag
+  - provider_substitution
+  stacked_incentives:
+  - stacked_incentives_observable
+  - incentive_alignment_score
+  - coi_disclosure
+  water:
+  - vwb_score
+  - water_source
+  - downstream_quality
+  - nutrient_runoff
+  - inv19_compliance
+  tos:
+  - tos_version
+  - tos_compliance_status
+  - tos_review_date
+  - henderson_defense_applicable
+  creative:
+  - style_sovereignty_consent
+  - attribution_chain
+  - influence_estimation
+  - provenance_tier
+  gaming:
+  - game_ip_consent
+  - content_rating
+  - esports_integrity
+  - cloud_gaming_latency
+  - preservation_status
+  provider_monitoring:
+  - routing_share_pct
+  - retaliation_flag
+  - safe_harbor_status
+  - enterprise_wrapper_flag
   boot:
-    fields:
-    - manifest_version
-    - references_resolved
-    - fetch_on_demand_count
+  - manifest_version
+  - manifest_freshness_hours
+  - boot_source
+  - manifest_hash
   research_queue:
-    fields:
-    - items_pending
-    - priority_distribution
+  - pre_session_queries
+  - research_queue_depth
+  - cache_hit_rate
   sync:
-    fields:
-    - manifest_hash
-    - drift_detected
-    - platform_split_compliant
+  - state_sync_status
+  - cross_instance_delta
+  - last_sync_timestamp
+  kinetic:
+  - kinetic_rights_consent
+  - haptic_data_scope
+  - motion_capture_consent
+  distribution:
+  - distribution_channel
+  - feedback_loop_flag
+  - market_concentration_index

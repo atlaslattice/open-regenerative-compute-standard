@@ -1,128 +1,56 @@
 house:
   id: H01
   name: Natural Sciences
-  spheres:
-  - 1
-  - 2
-  - 3
-  - 4
-  - 5
-  - 6
-  - 7
-  - 8
-  - 9
-  - 10
-  - 11
-  - 12
-coverage:
+  sphere_range: 1-12
   total_spheres: 12
-  covered: 2
-  gaps: 10
-  coverage_pct: 16.7
 modules:
-- id: M5
-  name: Metabolic Accounting Engine
-  status: SPEC
-  spheres:
-  - 6
-- id: M20
-  name: Environmental Impact Monitor
-  status: SPEC
-  spheres:
-  - 6
-- id: M41
-  name: Metabolic Accountability Engine
-  status: SPEC
-  spheres:
-  - 6
-- id: M49
-  name: Carbon-Aware Scheduler
-  status: SPEC
-  spheres:
-  - 6
-- id: M50
-  name: Water Quality Monitor
-  status: SPEC
-  spheres:
-  - 6
-- id: M51
-  name: Biodiversity Impact Tracker
-  status: SPEC
-  spheres:
-  - 1
-- id: M52
-  name: Renewable Energy Optimizer
-  status: SPEC
-  spheres:
-  - 6
-- id: M54
-  name: E-Waste Lifecycle Tracker
-  status: SPEC
-  spheres:
-  - 6
-- id: M55
-  name: Noise Pollution Monitor
-  status: SPEC
-  spheres:
-  - 6
-- id: M90
-  name: PFAS Detection Pipeline
-  status: SPEC
-  spheres:
-  - 6
-- id: M91
-  name: VWB Sustainability Ceiling
-  status: SPEC
-  spheres:
-  - 6
-- id: M101
-  name: Water Watershed Manager
-  status: SPEC
-  spheres:
-  - 6
-- id: M107
-  name: Weather Integration Engine
-  status: SPEC
-  spheres:
-  - 6
-- id: M127
-  name: Carbon-Aware Router
-  status: SPEC
-  spheres:
-  - 6
-- id: M137
-  name: Quantum PFAS Simulation Pipeline
-  status: SPEC
-  spheres:
-  - 6
-- id: M149
-  name: VWB v1.1 Sustainability Ceiling
-  status: SPEC
-  spheres:
-  - 6
-- id: M151
+- id: M25
+  name: Digital Mandate of Heaven
+- id: M25a
+  name: VWB Calculator
+- id: M25b
+  name: Regional Water Accounting Profiles
+- id: M25c
   name: Water TransparencyPacket
-  status: SPEC
-  spheres:
-  - 6
-gap_spheres:
-- sphere_id: 2
-  sphere_name: Chemistry
-- sphere_id: 3
-  sphere_name: Physics
-- sphere_id: 4
-  sphere_name: Earth Sciences
-- sphere_id: 5
-  sphere_name: Astronomy
-- sphere_id: 7
-  sphere_name: Oceanography
-- sphere_id: 8
-  sphere_name: Meteorology
-- sphere_id: 9
-  sphere_name: Geology
-- sphere_id: 10
-  sphere_name: Ecology
-- sphere_id: 11
-  sphere_name: Zoology
-- sphere_id: 12
-  sphere_name: Botany
+- id: M50
+  name: Soil Pulse API (Proof-of-Biological-Work)
+- id: M51
+  name: Spatial HUD Bridge
+- id: M52
+  name: UDS Fast-Path
+- id: M53
+  name: Constitutional Interoperability Treaty Protocol
+- id: M54
+  name: Regenerative Compute Certificate (RCC) Standard
+- id: M55
+  name: Qwen3-VL Spatial Reasoning Bridge
+- id: M56
+  name: Civilizational Frame Detection API
+- id: M88
+  name: Consensus Threshold Calibrator
+- id: M89
+  name: Predictive Nutrient Cycling Engine
+- id: M90
+  name: Molecular Sovereignty Verifier
+- id: M91
+  name: Kinetic Sovereign Credit
+- id: M99
+  name: Predictive Nutrient Routing Engine
+- id: M100
+  name: Molecular Sovereignty Engine
+- id: M101
+  name: Kinetic Sovereign Credit Engine
+- id: M102
+  name: Cognitive Diversity Weighting
+- id: M103
+  name: Enhanced TSS+ (Muskverse Primacy)
+- id: M105
+  name: Cross-Provider Symbiosis Router
+- id: M106
+  name: CEO Collective Deliberation Kernel v2
+- id: M107
+  name: Civilizational Frame Detector
+- id: M108
+  name: Federation Substrate Health Dashboard
+module_count: 24
+coverage: 24 modules assigned

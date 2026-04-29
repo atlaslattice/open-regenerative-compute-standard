@@ -1,70 +1,24 @@
 house:
   id: H06
   name: Humanities
-  spheres:
-  - 61
-  - 62
-  - 63
-  - 64
-  - 65
-  - 66
-  - 67
-  - 68
-  - 69
-  - 70
-  - 71
-  - 72
-coverage:
+  sphere_range: 61-72
   total_spheres: 12
-  covered: 1
-  gaps: 11
-  coverage_pct: 8.3
 modules:
-- id: M24
-  name: Cultural Frame Engine
-  status: SPEC
-  spheres:
-  - 64
-- id: M25
-  name: Three-Body Validator
-  status: SPEC
-  spheres:
-  - 64
-- id: M61
-  name: Multi-Language Router
-  status: SPEC
-  spheres:
-  - 64
+- id: M148
+  name: JinnSeek Sovereign Deployment
+- id: M149
+  name: VWB v1.1 Sustainability Ceiling Engine
 - id: M150
-  name: Mandate of Heaven
-  status: SPEC
-  spheres:
-  - 64
+  name: Mandate of Heaven Scoring Engine
+- id: M151
+  name: Water TransparencyPacket Extension
+- id: M152
+  name: Bamboo Bridge Universal Protocol Translator
 - id: M153
-  name: Three-Body Reasoning
-  status: SPEC
-  spheres:
-  - 64
-gap_spheres:
-- sphere_id: 61
-  sphere_name: Philosophy
-- sphere_id: 62
-  sphere_name: History
-- sphere_id: 63
-  sphere_name: Literature
-- sphere_id: 65
-  sphere_name: Religious Studies
-- sphere_id: 66
-  sphere_name: Classics
-- sphere_id: 67
-  sphere_name: Archaeology
-- sphere_id: 68
-  sphere_name: Art History
-- sphere_id: 69
-  sphere_name: Musicology
-- sphere_id: 70
-  sphere_name: Cultural Studies
-- sphere_id: 71
-  sphere_name: Ethics
-- sphere_id: 72
-  sphere_name: Aesthetics
+  name: Three-Body Constitutional Reasoning Engine
+- id: M154
+  name: v6.0.4 Council Round 3 Integration Patch
+- id: M155
+  name: v6.0.6 VWB Sovereignty Extension
+module_count: 8
+coverage: 8 modules assigned

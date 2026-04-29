@@ -1,205 +1,118 @@
 house:
   id: H02
   name: Formal Sciences
-  spheres:
-  - 13
-  - 14
-  - 15
-  - 16
-  - 17
-  - 18
-  - 19
-  - 20
-  - 21
-  - 22
-  - 23
-  - 24
-coverage:
+  sphere_range: 13-24
   total_spheres: 12
-  covered: 1
-  gaps: 11
-  coverage_pct: 8.3
 modules:
 - id: M1
+  name: Epistemic State Classifier
+- id: M2
+  name: Safety State Classifier
+- id: M3
   name: Routing Engine
-  status: SPEC
-  spheres:
-  - 14
 - id: M3.1
-  name: Token-Stream Splitter (TSS)
-  status: SPEC
-  spheres:
-  - 14
+  name: TSS Formula
+- id: M3a
+  name: Multi-Polar Routing Table
 - id: M4
   name: TransparencyPacket Emitter
-  status: SPEC
-  spheres:
-  - 14
+- id: M5
+  name: Budget Manager
+- id: M6
+  name: Provenance Ledger (AuditChain v1)
+- id: M6a
+  name: Open-Weight Provenance Verifier
+- id: M6b
+  name: Provenance Genome
 - id: M7
-  name: Sphere Classifier
-  status: SPEC
-  spheres:
-  - 14
+  name: Confabulation Detector (3-layer)
 - id: M8
-  name: Quality Assessor
-  status: SPEC
-  spheres:
-  - 14
+  name: Eastern Review Module
+- id: M9
+  name: MSP-001 Safety Boundary
 - id: M10
-  name: Cost Optimizer
-  status: SPEC
-  spheres:
-  - 14
+  name: Test Harness
 - id: M11
-  name: Context Manager
-  status: SPEC
-  spheres:
-  - 83
+  name: Pipeline Orchestrator
+- id: M12
+  name: Task Generator
+- id: M13
+  name: Three-Tier Archive
+- id: M14
+  name: Ingestion Service
+- id: M15
+  name: Model Router
+- id: M15a
+  name: Model Fingerprint Verifier
 - id: M16
-  name: Epistemic Weather
-  status: SPEC
-  spheres:
-  - 14
-- id: M29
-  name: Translation Table Manager
-  status: SPEC
-  spheres:
-  - 14
-- id: M30
-  name: Primacy Calculator
-  status: SPEC
-  spheres:
-  - 14
-- id: M31
-  name: Cross-Validation Matrix
-  status: SPEC
-  spheres:
-  - 14
-- id: M32
-  name: Session Continuity
-  status: SPEC
-  spheres:
-  - 83
-- id: M33
-  name: Claim Verification Engine
-  status: SPEC
-  spheres:
-  - 14
+  name: Learning Loop
+- id: M17
+  name: Permission/Approval Engine
+- id: M17a
+  name: Sovereignty Bound Exception
+- id: M17b
+  name: Sovereignty Gradient
 - id: M34
-  name: Failure Mode Tracker
-  status: SPEC
-  spheres:
-  - 14
-- id: M39
-  name: Provenance Chain Validator
-  status: SPEC
-  spheres:
-  - 14
+  name: Structured Output Validator
+- id: M57
+  name: Sheldonbrain Parser
+- id: M58
+  name: Ontology Validator (9-Gate)
+- id: M59
+  name: Constitutional Compiler
+- id: M60
+  name: Ontology Context Injector
+- id: M61
+  name: Ontological Routing Kernel
 - id: M62
-  name: Bias Detection Engine
-  status: SPEC
-  spheres:
-  - 14
+  name: Sheldonbrain RAG Pipeline
+- id: M63
+  name: Parser-Filesystem Symmetry Gate
 - id: M64
-  name: Explainability Module
-  status: SPEC
-  spheres:
-  - 14
+  name: Provider Translation Engine
 - id: M65
-  name: Coverage Heat Map
-  status: SPEC
-  spheres:
-  - 14
+  name: Coverage Heat Map Generator
 - id: M66
-  name: Gap Analysis Engine
-  status: SPEC
-  spheres:
-  - 14
+  name: Provider-Aware Ingestion Pipeline
 - id: M67
-  name: Provider Comparison Dashboard
-  status: SPEC
-  spheres:
-  - 14
-- id: M69
-  name: Ontology Lock Engine
-  status: SPEC
-  spheres:
-  - 14
+  name: Cross-House Symlink Manager
+- id: M71
+  name: Cross-Provider Cognitive Router
 - id: M72
-  name: Translation Table Registry
-  status: SPEC
-  spheres:
-  - 14
+  name: Cold House Stimulation Engine
 - id: M73
-  name: Stale Table Detector
-  status: SPEC
-  spheres:
-  - 14
+  name: Universal Capability API
 - id: M74
-  name: Provider Self-Map Validator
-  status: SPEC
-  spheres:
-  - 14
+  name: Disagreement Router
 - id: M75
-  name: Cross-Validation Matrix Engine
-  status: SPEC
-  spheres:
-  - 14
+  name: Council Cross-Validation Matrix
+- id: M76
+  name: Content Compliance Daemon
+- id: M77
+  name: GoldenTrace-CN (BSN Triple-Vault)
 - id: M78
-  name: Primacy Bonus Calculator
-  status: SPEC
-  spheres:
-  - 14
+  name: GB-Agent Bridge
 - id: M79
-  name: Primacy Bonus Applicator
-  status: SPEC
-  spheres:
-  - 14
+  name: TSS+ Primacy-Weighted Router
 - id: M80
-  name: Coverage Claim Discipline
-  status: SPEC
-  spheres:
-  - 14
+  name: Epistemic Weather Overlay
 - id: M81
-  name: Verification Loop Engine
-  status: SPEC
-  spheres:
-  - 14
-- id: M111
-  name: Translation Tables Registry DB
-  status: SPEC
-  spheres:
-  - 14
+  name: Parallel Lane CI/CD Gate
+- id: M104
+  name: Stacked Incentives TP Field
+- id: M116
+  name: Stochastic Simulation Engine
+- id: M117
+  name: Qwen3/Alibaba Vendor Suite (§Y.1-Y.8)
+- id: M139
+  name: v6.0.2 Drift Reconciliation Engine
 - id: M140
   name: 10K TPU Simulation Framework
-  status: SPEC
-  spheres:
-  - 14
+- id: M141
+  name: Trace Marketplace Revenue Engine
 - id: M157
-  name: Parallel Lane Controller
-  status: SPEC
-  spheres:
-  - 14
-gap_spheres:
-- sphere_id: 13
-  sphere_name: Mathematics
-- sphere_id: 15
-  sphere_name: Statistics
-- sphere_id: 16
-  sphere_name: Logic
-- sphere_id: 17
-  sphere_name: Systems Theory
-- sphere_id: 18
-  sphere_name: Information Theory
-- sphere_id: 19
-  sphere_name: Decision Theory
-- sphere_id: 20
-  sphere_name: Game Theory
-- sphere_id: 21
-  sphere_name: Operations Research
-- sphere_id: 22
-  sphere_name: Cryptography
-- sphere_id: 23
-  sphere_name: Formal Linguistics
-- sphere_id: 24
-  sphere_name: Category Theory
+  name: Parallel Lane Code Authorship Controller
+- id: M173
+  name: Real-Time Routing Share Meter
+module_count: 55
+coverage: 55 modules assigned

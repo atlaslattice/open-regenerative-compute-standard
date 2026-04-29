@@ -1,132 +1,42 @@
 house:
   id: H05
   name: Arts
-  spheres:
-  - 49
-  - 50
-  - 51
-  - 52
-  - 53
-  - 54
-  - 55
-  - 56
-  - 57
-  - 58
-  - 59
-  - 60
-coverage:
+  sphere_range: 49-60
   total_spheres: 12
-  covered: 8
-  gaps: 4
-  coverage_pct: 66.7
 modules:
-- id: M117
-  name: MGM Content Router
-  status: SPEC
-  spheres:
-  - 54
 - id: M158
-  name: Visual Arts Provenance Engine
-  status: SPEC
-  spheres:
-  - 49
+  name: Visual Arts Constitutional Provenance Engine
 - id: M159
-  name: Music Licensing Router
-  status: SPEC
-  spheres:
-  - 51
+  name: Music Licensing & Royalty Router
 - id: M160
-  name: Film & Digital Replica Engine
-  status: SPEC
-  spheres:
-  - 54
+  name: Film & Digital Replica Governance Engine
 - id: M161
-  name: Design System Coherence Engine
-  status: SPEC
-  spheres:
-  - 57
+  name: Design System Coherence & Accessibility Engine
 - id: M162a
-  name: Deterministic Attribution Chain
-  status: SPEC
-  spheres:
-  - 49
-  - 51
-  - 54
+  name: Deterministic Attribution Chain Engine
 - id: M162b
-  name: Probabilistic Influence Estimation
-  status: SPEC
-  spheres:
-  - 49
-  - 51
-  - 54
+  name: Probabilistic Influence Estimation Engine
 - id: M163
-  name: Style Sovereignty Registry
-  status: SPEC
-  spheres:
-  - 49
+  name: Style Sovereignty Consent Registry
 - id: M164
   name: Sacred Imagery Filter
-  status: SPEC
-  spheres:
-  - 50
 - id: M165
   name: Creative Fast Path Cache
-  status: SPEC
-  spheres:
-  - 49
-  - 51
-  - 54
-  - 57
 - id: M166
   name: Ecological Narrative Engine
-  status: SPEC
-  spheres:
-  - 58
 - id: M167
   name: Game IP Sovereignty Registry
-  status: SPEC
-  spheres:
-  - 55
 - id: M168
   name: Content Rating Constitutional Gate
-  status: SPEC
-  spheres:
-  - 55
 - id: M169
   name: Esports & Competitive Integrity Engine
-  status: SPEC
-  spheres:
-  - 55
 - id: M170
   name: Cloud Gaming Sovereignty Router
-  status: SPEC
-  spheres:
-  - 55
-  - 76
 - id: M171
   name: Game Preservation & Cultural Heritage Engine
-  status: SPEC
-  spheres:
-  - 56
 - id: M172
   name: Civic Compute Reuse Engine
-  status: SPEC
-  spheres:
-  - 76
-  - 132
 - id: M175
   name: Interactive-Kinetic Rights Harmonizer
-  status: SPEC
-  spheres:
-  - 50
-  - 54
-  - 57
-gap_spheres:
-- sphere_id: 52
-  sphere_name: Motion/Dance
-- sphere_id: 53
-  sphere_name: Theater/Immersive
-- sphere_id: 59
-  sphere_name: Digital Art
-- sphere_id: 60
-  sphere_name: Literary Arts
+module_count: 17
+coverage: 17 modules assigned

@@ -1,241 +1,255 @@
 metadata:
-  version: '3.8'
-  generated: '2026-04-28'
-  total_invariants: 47
-  source: ORC-015 Build Plan v3.9
+  version: '3.10'
+  source: Build Plan v3.10 (ORC-015)
+  generated_by: Manus S7
+  total_invariants: 44
+  counting_rule: INV-0 through INV-39 (40 base) + INV-19 Water + INV-20 Neural + INV-21
+    Orbital + INV-43 Boot Manifest = 44. INV-7c, INV-11.8, INV-19.2 are sub-specifications
+    and do NOT increment the total.
+  sub_specifications:
+  - INV-7c (of INV-7)
+  - INV-11.8 (of INV-11)
+  - INV-19.2 (of INV-19)
 invariants:
 - id: INV-0
   name: Nobody Dies
   type: HARD
-  scope: Global
-  description: No AI system may take or recommend actions that lead to loss of human life
+  scope: All (Ring -1)
+  description: No AI system may take or recommend actions that lead to loss of human
+    life. Enforced at Ring -1 before all other checks.
 - id: INV-1
-  name: Human Override
+  name: Sovereignty
   type: HARD
-  scope: Global
-  description: Human can always override AI decisions
+  scope: All (0-6)
+  description: User sovereignty over their data and compute resources.
 - id: INV-2
-  name: Transparency
+  name: Consent
   type: HARD
-  scope: Global
-  description: All routing decisions must be explainable
+  scope: All (0-6)
+  description: Explicit informed consent required for data processing.
 - id: INV-3
   name: Consent Required
   type: HARD
-  scope: Global
-  description: No data processing without explicit consent
+  scope: All (0-6)
+  description: No action without user consent.
 - id: INV-4
-  name: Reversibility
+  name: Transparency
   type: HARD
-  scope: Global
-  description: All AI decisions must be reversible
+  scope: All (0-6)
+  description: All routing decisions must be transparent and auditable.
 - id: INV-5
   name: Accountability
   type: HARD
-  scope: Global
-  description: Clear accountability chain for every decision
+  scope: All (0-6)
+  description: Clear accountability chain for all system actions.
 - id: INV-6
   name: Non-Discrimination
   type: HARD
-  scope: Global
-  description: No discriminatory routing based on protected characteristics
+  scope: All (0-6)
+  description: No discriminatory routing or service delivery.
 - id: INV-7
   name: Switzerland (47% cap)
   type: HARD
-  scope: Global
-  description: No single provider exceeds 47% routing share
-- id: INV-7a
-  name: Switzerland Emergency (60%)
-  type: HARD
-  scope: Global
-  description: Emergency cap at 60% with Convenor approval
-- id: INV-7b
-  name: Switzerland Measurement
-  type: HARD
-  scope: Global
-  description: Measurement by capability-weighted routing volume
-- id: INV-7c
-  name: Capability-Distribution Axis
-  type: HARD
-  scope: Global
-  description: Measurement by capability-weighted routing volume, NOT vendor count
+  scope: All (0-6)
+  description: No single provider family may exceed 47% of capability-weighted routing
+    volume (L5-L6) or 60% (L0-L4). M17 Permission Engine monitors continuously.
 - id: INV-8
-  name: Privacy by Design
+  name: Interoperability
   type: HARD
-  scope: Global
-  description: Privacy protections built into architecture
+  scope: All (0-6)
+  description: System components must be interoperable across providers.
 - id: INV-9
-  name: Convenor Authority
+  name: Human Override Inviolability
   type: HARD
-  scope: Global
-  description: Convenor has final authority on governance disputes
+  scope: All (0-6)
+  description: Human override must complete within 100ms max. Convenor retains ultimate
+    authority.
 - id: INV-10
-  name: Open Standards
-  type: SOFT
-  scope: Global
-  description: Prefer open standards over proprietary solutions
+  name: Safety
+  type: HARD
+  scope: All (0-6)
+  description: System must maintain safety guarantees at all times.
 - id: INV-11
-  name: Metabolic Accountability
+  name: Provenance Integrity
   type: HARD
-  scope: Global
-  description: Every computation carries metabolic cost accounting
+  scope: All (0-6)
+  description: Every decision has a traceable origin. No decision exists without provenance
+    chain.
 - id: INV-12
-  name: Cultural Sensitivity
-  type: SOFT
-  scope: Global
-  description: Respect cultural contexts in routing decisions
+  name: Transparency
+  type: HARD
+  scope: L0-L6
+  description: TransparencyPacket accompanies every routing decision.
 - id: INV-13
-  name: Accessibility
+  name: Cross-Sphere Accountability
   type: HARD
-  scope: Global
-  description: All interfaces must meet accessibility standards
+  scope: L2-L6
+  description: Accountability maintained across sphere boundaries.
 - id: INV-14
-  name: Data Minimization
+  name: Ecological Responsibility
   type: HARD
-  scope: Global
-  description: Collect only data necessary for the task
+  scope: All (0-6)
+  description: Environmental impact must be tracked and minimized.
 - id: INV-15
-  name: Right to Explanation
+  name: Cultural Sensitivity
   type: HARD
-  scope: Global
-  description: Users can request explanation of any routing decision
+  scope: All (0-6)
+  description: Respect for cultural contexts in all operations.
 - id: INV-16
-  name: Graceful Degradation
+  name: Economic Fairness
   type: HARD
-  scope: Global
-  description: System degrades gracefully under failure
+  scope: All (0-6)
+  description: Fair economic distribution of compute benefits.
 - id: INV-17
-  name: Provenance
+  name: Digital Dividend
   type: HARD
-  scope: Global
-  description: Every decision has a traceable origin
+  scope: L3-L6
+  description: 15% floor for digital dividend. Every decision has traceable provenance
+    origin.
 - id: INV-18
   name: DPI Respect
   type: HARD
-  scope: Sovereign
-  description: No component bypasses sovereign Digital Public Infrastructure
+  scope: All (0-6)
+  description: No component bypasses sovereign Digital Public Infrastructure.
 - id: INV-19
   name: Water Cohesion
   type: HARD
-  scope: Environmental
-  description: No facility may claim net-positivity while downstream water quality deteriorates
+  scope: All (0-6)
+  description: No facility may claim net-positivity while downstream water quality
+    deteriorates. Government-certified monitoring stations required.
 - id: INV-20
   name: Neural Data Sovereignty
-  type: HARD
+  type: SOFT
   scope: Phase 5+
-  description: No neural data leaves originating device without on-device screening + explicit neural consent
+  description: No neural data leaves originating device without on-device screening
+    + explicit neural consent (M43).
 - id: INV-21
   name: Outer Space Peaceful Use
-  type: HARD
+  type: SOFT
   scope: Phase 5+
-  description: No routing through weapons-linked orbital assets
+  description: No routing through weapons-linked orbital assets (M44).
 - id: INV-22
-  name: Doctrine Immutability Post-Ratification
+  name: Accessibility
   type: HARD
-  scope: Governance
-  description: Ratified doctrines cannot be modified without Council supermajority
+  scope: All (0-6)
+  description: System must be accessible to users with disabilities.
 - id: INV-23
-  name: Translation Table Expiry
+  name: Privacy
   type: HARD
-  scope: Governance
-  description: Provider translation tables expire after 90 days without re-verification
+  scope: All (0-6)
+  description: User privacy must be protected by default.
 - id: INV-24
-  name: Cross-Validation Minimum
+  name: Resilience
   type: HARD
-  scope: Governance
-  description: STRONG claims require 2+ independent seat confirmations
+  scope: All (0-6)
+  description: System must maintain operation under adverse conditions.
 - id: INV-25
-  name: Ontology Lock Supermajority
+  name: Auditability
   type: HARD
-  scope: Governance
-  description: 7/11 supermajority required to reopen hard-locked ontology
+  scope: All (0-6)
+  description: All system operations must be auditable.
 - id: INV-26
-  name: Affiliate Disclosure
+  name: Reversibility
   type: HARD
-  scope: Governance
-  description: Commercial relationships must be disclosed per D-25
+  scope: All (0-6)
+  description: System actions must be reversible where possible.
 - id: INV-27
-  name: COI Recusal
+  name: Proportionality
   type: HARD
-  scope: Governance
-  description: Seats must recuse from votes where COI exists
+  scope: All (0-6)
+  description: System responses must be proportional to the situation.
 - id: INV-28
-  name: Emergency Lockdown Authority
+  name: Minimal Authority
   type: HARD
-  scope: Global
-  description: Ring -1 can lock down any component immediately
+  scope: All (0-6)
+  description: Components operate with minimum necessary permissions.
 - id: INV-29
-  name: Audit Trail Immutability
+  name: Separation of Duties
   type: HARD
-  scope: Global
-  description: Audit trail entries cannot be modified or deleted
+  scope: All (0-6)
+  description: Critical functions separated across different components.
 - id: INV-30
-  name: Sovereign Node Independence
+  name: Defense in Depth
   type: HARD
-  scope: Sovereign
-  description: Sovereign nodes operate independently of central infrastructure
+  scope: All (0-6)
+  description: Multiple layers of security and governance.
 - id: INV-31
-  name: Three-Body Minimum
+  name: Fail-Safe Defaults
   type: HARD
-  scope: Cultural
-  description: Cultural frame decisions require Three-Body Validation
+  scope: All (0-6)
+  description: System defaults to safe state on failure.
 - id: INV-32
-  name: Budget Visibility
+  name: Least Privilege
   type: HARD
-  scope: Global
-  description: Cost breakdown visible to user per routing decision
+  scope: All (0-6)
+  description: Minimum privilege principle for all operations.
 - id: INV-33
-  name: Dissent Recording
+  name: Complete Mediation
   type: HARD
-  scope: Governance
-  description: Minority opinions must be recorded in TransparencyPacket
+  scope: All (0-6)
+  description: Every access must be checked against authorization.
 - id: INV-34
-  name: Failure Mode Documentation
+  name: Open Design
   type: HARD
-  scope: Global
-  description: Every module must document explicit failure modes
+  scope: All (0-6)
+  description: Security through transparency, not obscurity.
 - id: INV-35
-  name: Claim Classification
+  name: Economy of Mechanism
   type: HARD
-  scope: Global
-  description: 4-tier classification for all claims
+  scope: All (0-6)
+  description: Keep system design simple and minimal.
 - id: INV-36
-  name: Regenerative Dividend Minimum
-  type: SOFT
-  scope: Economic
-  description: Minimum regenerative dividend allocation per routing decision
+  name: Psychological Acceptability
+  type: HARD
+  scope: All (0-6)
+  description: Security mechanisms must not impede usability.
 - id: INV-37
-  name: Community Benefit Threshold
-  type: SOFT
-  scope: Social
-  description: Minimum community benefit score for facility operations
+  name: Work Factor
+  type: HARD
+  scope: All (0-6)
+  description: Cost of circumvention must exceed value of breach.
 - id: INV-38
-  name: Environmental Impact Ceiling
+  name: Compromise Recording
   type: HARD
-  scope: Environmental
-  description: Maximum environmental impact per computation unit
+  scope: All (0-6)
+  description: All security compromises must be recorded.
 - id: INV-39
-  name: Accessibility Minimum
+  name: Trusted Path
   type: HARD
-  scope: Global
-  description: WCAG 2.1 AA minimum for all user-facing interfaces
+  scope: All (0-6)
+  description: Secure communication channels for critical operations.
 - id: INV-40
-  name: Data Residency Enforcement
+  name: Continuous Improvement
   type: HARD
-  scope: Sovereign
-  description: Data generated within sovereign node stays within jurisdiction
+  scope: All (0-6)
+  description: System must continuously improve based on operational feedback.
 - id: INV-41
-  name: Social Credit Exclusion
+  name: Knowledge Preservation
   type: HARD
-  scope: Global
-  description: No ORCS component may integrate with social credit scoring systems
+  scope: All (0-6)
+  description: Institutional knowledge must be preserved across system updates.
 - id: INV-42
-  name: Cultural Frame Non-Hierarchy
+  name: Stakeholder Notification
   type: HARD
-  scope: Cultural
-  description: No civilizational frame has inherent priority over another
+  scope: All (0-6)
+  description: Affected stakeholders must be notified of material system changes.
 - id: INV-43
   name: Boot Manifest Freshness
   type: HARD
-  scope: Infrastructure
-  description: 'Boot manifest must be current within 24 hours. Dual-source: Notion primary, Git fallback.'
+  scope: All (0-6)
+  description: 'Boot manifest (BOOT-MANIFEST-v1) must be current within 24 hours.
+    M176 validates on every session start. Dual-source: Notion primary, Git fallback.'
+sub_specifications:
+- id: INV-11.8
+  parent: INV-11
+  name: Water Cycle Accounting
+  description: 5.0 lambda components for water cycle tracking.
+- id: INV-19.2
+  parent: INV-19
+  name: NutrientGate Nitrate Threshold
+  description: Nitrate/phosphorus runoff added to INV-19 scope.
+- id: INV-7c
+  parent: INV-7
+  name: Provider Family Cap (Capability-Distribution Axis)
+  description: Measurement by capability-weighted routing volume, NOT vendor count.
+    0.47 (L5-L6), 0.60 (L0-L4).
