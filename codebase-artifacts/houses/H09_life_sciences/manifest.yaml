@@ -1,0 +1,78 @@
+house:
+  id: H09
+  name: Life Sciences
+  spheres:
+  - 97
+  - 98
+  - 99
+  - 100
+  - 101
+  - 102
+  - 103
+  - 104
+  - 105
+  - 106
+  - 107
+  - 108
+coverage:
+  total_spheres: 12
+  covered: 2
+  gaps: 10
+  coverage_pct: 16.7
+modules:
+- id: M99
+  name: Indiana Agricultural Router
+  status: SPEC
+  spheres:
+  - 99
+- id: M100
+  name: Soil Health Monitor
+  status: SPEC
+  spheres:
+  - 100
+- id: M102
+  name: Crop Rotation Optimizer
+  status: SPEC
+  spheres:
+  - 99
+- id: M103
+  name: Livestock Welfare Monitor
+  status: SPEC
+  spheres:
+  - 100
+- id: M104
+  name: Farm-to-Table Provenance
+  status: SPEC
+  spheres:
+  - 99
+- id: M106
+  name: Agricultural AI Advisor
+  status: SPEC
+  spheres:
+  - 99
+- id: M116
+  name: Whole Foods Supply Chain
+  status: SPEC
+  spheres:
+  - 99
+gap_spheres:
+- sphere_id: 97
+  sphere_name: Anatomy
+- sphere_id: 98
+  sphere_name: Genetics
+- sphere_id: 101
+  sphere_name: Marine Biology
+- sphere_id: 102
+  sphere_name: Microbiology
+- sphere_id: 103
+  sphere_name: Virology
+- sphere_id: 104
+  sphere_name: Immunology
+- sphere_id: 105
+  sphere_name: Pharmacology
+- sphere_id: 106
+  sphere_name: Toxicology
+- sphere_id: 107
+  sphere_name: Parasitology
+- sphere_id: 108
+  sphere_name: Hydrology

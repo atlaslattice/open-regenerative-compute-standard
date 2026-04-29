@@ -1,0 +1,119 @@
+metadata:
+  version: '1.6'
+  generated: '2026-04-28'
+  source: ORC-015 Build Plan v3.8
+categories:
+  routing:
+    fields:
+    - provider_id
+    - sphere_id
+    - confidence
+    - latency_ms
+    - cost_estimate
+    - fallback_triggered
+    - provider_share_measured
+    - concentration_alert
+  consent:
+    fields:
+    - consent_level
+    - consent_method
+    - consent_timestamp
+    - data_categories
+  metabolic:
+    fields:
+    - energy_kwh
+    - water_liters
+    - carbon_kg
+    - heat_recaptured_pct
+  audit:
+    fields:
+    - trace_id
+    - provenance_chain
+    - audit_method
+    - pqc_signed
+  governance:
+    fields:
+    - doctrine_applied
+    - invariant_checked
+    - dissent_recorded
+    - claim_tier
+  creative:
+    fields:
+    - provenance_method
+    - license_tier
+    - consent_level
+    - attribution_chain_length
+    - influence_confidence
+    - provenance_redundancy
+    - cross_media_split
+    - performer_consent_verified
+    - provenance_tier
+  gaming:
+    fields:
+    - franchise_consent_tier
+    - content_rating_jurisdiction
+    - esports_integrity_mode
+    - cloud_sovereignty_region
+    - preservation_status
+    - civic_compute_offload
+    - civic_compute_preemptible
+    - enterprise_video_governance_applied
+  provider:
+    fields:
+    - retaliation_score
+    - degradation_baseline_delta
+  identity:
+    fields:
+    - federation_method
+    - hardware_root
+    - consent_binding_id
+    - provider_count_active
+  bridge:
+    fields:
+    - pyo3_version
+    - gil_released
+    - async_mode
+  quantum:
+    fields:
+    - provider
+    - qubits_used
+    - algorithm
+    - inv0_cleared
+  platform:
+    fields:
+    - deployment_type
+    - secure_boot_verified
+  simulation:
+    fields:
+    - tpu_count
+    - success_rate
+    - cost_per_million
+  tos:
+    fields:
+    - provider_tos_version
+    - compliance_status
+    - retention_mode
+  water:
+    fields:
+    - downstream_quality_delta
+    - nutrient_cap_status
+    - monitoring_station_certified
+  federation:
+    fields:
+    - node_id
+    - sovereignty_zone
+    - cross_border_consent
+  boot:
+    fields:
+    - manifest_version
+    - references_resolved
+    - fetch_on_demand_count
+  research_queue:
+    fields:
+    - items_pending
+    - priority_distribution
+  sync:
+    fields:
+    - manifest_hash
+    - drift_detected
+    - platform_split_compliant

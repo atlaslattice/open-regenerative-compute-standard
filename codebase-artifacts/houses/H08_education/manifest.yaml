@@ -2,44 +2,46 @@ house:
   id: H08
   name: Education
   spheres:
-    85: Primary Education
-    86: Secondary Education
-    87: Higher Education
-    88: Vocational Training
-    89: Special Education
-    90: Educational Technology
-    91: Curriculum Design
-    92: Educational Psychology
-    93: Distance Learning
-    94: Adult Education
-    95: Early Childhood
-    96: Assessment
-modules: {}
+  - 85
+  - 86
+  - 87
+  - 88
+  - 89
+  - 90
+  - 91
+  - 92
+  - 93
+  - 94
+  - 95
+  - 96
 coverage:
   total_spheres: 12
-  covered_spheres: 0
-  gap_spheres:
-  - sphere: 85
-    name: Primary Education
-  - sphere: 86
-    name: Secondary Education
-  - sphere: 87
-    name: Higher Education
-  - sphere: 88
-    name: Vocational Training
-  - sphere: 89
-    name: Special Education
-  - sphere: 90
-    name: Educational Technology
-  - sphere: 91
-    name: Curriculum Design
-  - sphere: 92
-    name: Educational Psychology
-  - sphere: 93
-    name: Distance Learning
-  - sphere: 94
-    name: Adult Education
-  - sphere: 95
-    name: Early Childhood
-  - sphere: 96
-    name: Assessment
+  covered: 0
+  gaps: 12
+  coverage_pct: 0.0
+modules: []
+gap_spheres:
+- sphere_id: 85
+  sphere_name: Pedagogy
+- sphere_id: 86
+  sphere_name: Curriculum Design
+- sphere_id: 87
+  sphere_name: Educational Technology
+- sphere_id: 88
+  sphere_name: Special Education
+- sphere_id: 89
+  sphere_name: Higher Education
+- sphere_id: 90
+  sphere_name: Adult Education
+- sphere_id: 91
+  sphere_name: Early Childhood
+- sphere_id: 92
+  sphere_name: Assessment
+- sphere_id: 93
+  sphere_name: Educational Psychology
+- sphere_id: 94
+  sphere_name: Comparative Education
+- sphere_id: 95
+  sphere_name: Educational Policy
+- sphere_id: 96
+  sphere_name: Distance Learning

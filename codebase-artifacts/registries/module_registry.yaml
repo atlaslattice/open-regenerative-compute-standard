@@ -1,1459 +1,1254 @@
 metadata:
-  document: ORC Module Registry v1.0
-  build_plan_version: v3.7
-  total_modules: 147
-  generated_by: Manus S7
-  date: '2026-04-28'
+  version: '3.8'
+  generated: '2026-04-28'
+  total_modules: 176
+  source: ORC-015 Build Plan v3.8
 modules:
-  M1:
-    name: Epistemic State Classifier
-    layer: L4
-    status: SPEC
-    primary_sphere: 65
-    primary_sphere_name: Epistemology
-    primary_house: H06
-    secondary_sphere: 15
-    secondary_sphere_name: Computer Science
-    secondary_house: H02
-  M2:
-    name: Safety State Classifier
-    layer: L4
-    status: SPEC
-    primary_sphere: 15
-    primary_sphere_name: Computer Science
-    primary_house: H02
-    secondary_sphere: 63
-    secondary_sphere_name: Ethics
-    secondary_house: H06
-  M3.1:
-    name: TSS Formula Engine
-    layer: L4
-    status: SPEC
-    primary_sphere: 14
-    primary_sphere_name: Statistics
-    primary_house: H02
-    secondary_sphere: 19
-    secondary_sphere_name: Decision Theory
-    secondary_house: H02
-  M3a:
-    name: Multi-Polar Routing Table
-    layer: L4
-    status: SPEC
-    primary_sphere: 28
-    primary_sphere_name: Political Science
-    primary_house: H03
-    secondary_sphere: 19
-    secondary_sphere_name: Decision Theory
-    secondary_house: H02
-  M4:
-    name: TransparencyPacket Emitter
-    layer: L4
-    status: SPEC
-    primary_sphere: 75
-    primary_sphere_name: Archival Science
-    primary_house: H07
-    secondary_sphere: 15
-    secondary_sphere_name: Computer Science
-    secondary_house: H02
-  M6:
-    name: Provenance Ledger (AuditChain v1)
-    layer: L4
-    status: SPEC
-    primary_sphere: 21
-    primary_sphere_name: Cryptography
-    primary_house: H02
-    secondary_sphere: 75
-    secondary_sphere_name: Archival Science
-    secondary_house: H07
-  M6a:
-    name: Open-Weight Provenance Verifier
-    layer: L4
-    status: SPEC
-    primary_sphere: 21
-    primary_sphere_name: Cryptography
-    primary_house: H02
-    secondary_sphere: 48
-    secondary_sphere_name: Software Engineering
-    secondary_house: H04
-  M6b:
-    name: Provenance Genome
-    layer: L4
-    status: SPEC
-    primary_sphere: 21
-    primary_sphere_name: Cryptography
-    primary_house: H02
-    secondary_sphere: 10
-    secondary_sphere_name: Genetics
-    secondary_house: H01
-  M7:
-    name: Confabulation Detector (3-layer)
-    layer: L4
-    status: SPEC
-    primary_sphere: 16
-    primary_sphere_name: Logic
-    primary_house: H02
-    secondary_sphere: 65
-    secondary_sphere_name: Epistemology
-    secondary_house: H06
-  M9:
-    name: MSP-001 Safety Boundary
-    layer: L4
-    status: SPEC
-    primary_sphere: 63
-    primary_sphere_name: Ethics
-    primary_house: H06
-    secondary_sphere: 15
-    secondary_sphere_name: Computer Science
-    secondary_house: H02
-  M12:
-    name: Task Generator
-    layer: L4
-    status: SPEC
-    primary_sphere: 48
-    primary_sphere_name: Software Engineering
-    primary_house: H04
-    secondary_sphere: 15
-    secondary_sphere_name: Computer Science
-    secondary_house: H02
-  M13:
-    name: Three-Tier Archive
-    layer: L4
-    status: SPEC
-    primary_sphere: 74
-    primary_sphere_name: Library Science
-    primary_house: H07
-    secondary_sphere: 75
-    secondary_sphere_name: Archival Science
-    secondary_house: H07
-  M14:
-    name: Ingestion Service
-    layer: L4
-    status: SPEC
-    primary_sphere: 83
-    primary_sphere_name: Information Systems
-    primary_house: H07
-    secondary_sphere: 48
-    secondary_sphere_name: Software Engineering
-    secondary_house: H04
-  M15:
-    name: Model Router
-    layer: L4
-    status: EXISTS
-    primary_sphere: 19
-    primary_sphere_name: Decision Theory
-    primary_house: H02
-    secondary_sphere: 15
-    secondary_sphere_name: Computer Science
-    secondary_house: H02
-  M15a:
-    name: Model Fingerprint Verifier
-    layer: L4
-    status: SPEC
-    primary_sphere: 21
-    primary_sphere_name: Cryptography
-    primary_house: H02
-    secondary_sphere: 48
-    secondary_sphere_name: Software Engineering
-    secondary_house: H04
-  M16:
-    name: Learning Loop
-    layer: L4
-    status: EXISTS
-    primary_sphere: 84
-    primary_sphere_name: Data Science
-    primary_house: H07
-    secondary_sphere: 17
-    secondary_sphere_name: Systems Theory
-    secondary_house: H02
-  M17:
-    name: Permission/Approval Engine
-    layer: L4
-    status: SPEC
-    primary_sphere: 133
-    primary_sphere_name: Constitutional Law
-    primary_house: H12
-    secondary_sphere: 63
-    secondary_sphere_name: Ethics
-    secondary_house: H06
-  M17a:
-    name: Sovereignty Bound Exception
-    layer: L4
-    status: SPEC
-    primary_sphere: 133
-    primary_sphere_name: Constitutional Law
-    primary_house: H12
-    secondary_sphere: 28
-    secondary_sphere_name: Political Science
-    secondary_house: H03
-  M17b:
-    name: Sovereignty Gradient
-    layer: L4
-    status: SPEC
-    primary_sphere: 28
-    primary_sphere_name: Political Science
-    primary_house: H03
-    secondary_sphere: 133
-    secondary_sphere_name: Constitutional Law
-    secondary_house: H12
-  M18:
-    name: Hardware Trust CN
-    layer: L4
-    status: SPEC
-    primary_sphere: 38
-    primary_sphere_name: Electrical Engineering
-    primary_house: H04
-    secondary_sphere: 44
-    secondary_sphere_name: Nuclear Engineering
-    secondary_house: H04
-  M19:
-    name: Bhashini-MCP Bridge
-    layer: L4
-    status: SPEC
-    primary_sphere: 32
-    primary_sphere_name: Linguistics
-    primary_house: H03
-    secondary_sphere: 47
-    secondary_sphere_name: Telecommunications
-    secondary_house: H04
-  M20:
-    name: Arabic-Constitutional Bridge
-    layer: L4
-    status: SPEC
-    primary_sphere: 32
-    primary_sphere_name: Linguistics
-    primary_house: H03
-    secondary_sphere: 70
-    secondary_sphere_name: Theology
-    secondary_house: H06
-  M21:
-    name: Saudi Grid Adapter
-    layer: L4
-    status: SPEC
-    primary_sphere: 38
-    primary_sphere_name: Electrical Engineering
-    primary_house: H04
-    secondary_sphere: 4
-    secondary_sphere_name: Earth Sciences
-    secondary_house: H01
-  M22:
-    name: China Metabolic Pre-Fetch
-    layer: L4
-    status: SPEC
-    primary_sphere: 29
-    primary_sphere_name: Economics
-    primary_house: H03
-    secondary_sphere: 128
-    secondary_sphere_name: Food Science
-    secondary_house: H11
-  M23:
-    name: Bamboo Bridge
-    layer: L4
-    status: SPEC
-    primary_sphere: 62
-    primary_sphere_name: Eastern Philosophy
-    primary_house: H06
-    secondary_sphere: 32
-    secondary_sphere_name: Linguistics
-    secondary_house: H03
-  M24:
-    name: Three-Body Validation
-    layer: L4
-    status: SPEC
-    primary_sphere: 16
-    primary_sphere_name: Logic
-    primary_house: H02
-    secondary_sphere: 62
-    secondary_sphere_name: Eastern Philosophy
-    secondary_house: H06
-  M25:
-    name: Digital Mandate of Heaven
-    layer: L4
-    status: SPEC
-    primary_sphere: 38
-    primary_sphere_name: Electrical Engineering
-    primary_house: H04
-    secondary_sphere: 44
-    secondary_sphere_name: Nuclear Engineering
-    secondary_house: H04
-  M25a:
-    name: VWB Calculator
-    layer: L4
-    status: SPEC
-  M25b:
-    name: Regional Water Accounting Profiles
-    layer: L4
-    status: SPEC
-  M25c:
-    name: Water TransparencyPacket
-    layer: L4
-    status: SPEC
-  M26:
-    name: Persistent Researcher
-    layer: L4
-    status: SPEC
-    primary_sphere: 47
-    primary_sphere_name: Telecommunications
-    primary_house: H04
-    secondary_sphere: 38
-    secondary_sphere_name: Electrical Engineering
-    secondary_house: H04
-  M27:
-    name: Constitutional Compiler
-    layer: L4
-    status: SPEC
-    primary_sphere: 133
-    primary_sphere_name: Constitutional Law
-    primary_house: H12
-    secondary_sphere: 16
-    secondary_sphere_name: Logic
-    secondary_house: H02
-  M28:
-    name: Session Handoff
-    layer: L4
-    status: SPEC
-    primary_sphere: 48
-    primary_sphere_name: Software Engineering
-    primary_house: H04
-    secondary_sphere: 83
-    secondary_sphere_name: Information Systems
-    secondary_house: H07
-  M29:
-    name: Constitutional API
-    layer: L4
-    status: SPEC
-    primary_sphere: 48
-    primary_sphere_name: Software Engineering
-    primary_house: H04
-    secondary_sphere: 17
-    secondary_sphere_name: Systems Theory
-    secondary_house: H02
-  M30:
-    name: Cross-Task Memory Bridge
-    layer: L4
-    status: SPEC
-    primary_sphere: 83
-    primary_sphere_name: Information Systems
-    primary_house: H07
-    secondary_sphere: 48
-    secondary_sphere_name: Software Engineering
-    secondary_house: H04
-  M31:
-    name: Manus API Orchestrator
-    layer: L4
-    status: SPEC
-    primary_sphere: 48
-    primary_sphere_name: Software Engineering
-    primary_house: H04
-    secondary_sphere: 76
-    secondary_sphere_name: Networks
-    secondary_house: H07
-  M32:
-    name: Notion Governance Loop Controller
-    layer: L4
-    status: SPEC
-    primary_sphere: 144
-    primary_sphere_name: Governance Systems
-    primary_house: H12
-    secondary_sphere: 83
-    secondary_sphere_name: Information Systems
-    secondary_house: H07
-  M33:
-    name: Multi-Agent Session Fabric
-    layer: L4
-    status: SPEC
-    primary_sphere: 48
-    primary_sphere_name: Software Engineering
-    primary_house: H04
-    secondary_sphere: 76
-    secondary_sphere_name: Networks
-    secondary_house: H07
-  M34:
-    name: Structured Output Validator
-    layer: L4
-    status: SPEC
-    primary_sphere: 48
-    primary_sphere_name: Software Engineering
-    primary_house: H04
-    secondary_sphere: 45
-    secondary_sphere_name: Robotics
-    secondary_house: H04
-  M35:
-    name: Doctrine Evaluation Engine
-    layer: L4
-    status: SPEC
-    primary_sphere: 48
-    primary_sphere_name: Software Engineering
-    primary_house: H04
-    secondary_sphere: 17
-    secondary_sphere_name: Systems Theory
-    secondary_house: H02
-  M40:
-    name: Quantum Sovereignty Adapter
-    layer: L4
-    status: SPEC
-    primary_sphere: 48
-    primary_sphere_name: Software Engineering
-    primary_house: H04
-    secondary_sphere: 83
-    secondary_sphere_name: Information Systems
-    secondary_house: H07
-  M41:
-    name: AI Treaty Arbitration Module
-    layer: L4
-    status: SPEC
-    primary_sphere: 48
-    primary_sphere_name: Software Engineering
-    primary_house: H04
-    secondary_sphere: 83
-    secondary_sphere_name: Information Systems
-    secondary_house: H07
-  M42:
-    name: e-CNY Dividend Rail
-    layer: L4
-    status: SPEC
-    primary_sphere: 48
-    primary_sphere_name: Software Engineering
-    primary_house: H04
-    secondary_sphere: 83
-    secondary_sphere_name: Information Systems
-    secondary_house: H07
-  M43:
-    name: Neural Data Sovereignty Module
-    layer: L4
-    status: SPEC
-    primary_sphere: 48
-    primary_sphere_name: Software Engineering
-    primary_house: H04
-    secondary_sphere: 83
-    secondary_sphere_name: Information Systems
-    secondary_house: H07
-  M44:
-    name: Orbital Metabolic Layer
-    layer: L4
-    status: SPEC
-    primary_sphere: 48
-    primary_sphere_name: Software Engineering
-    primary_house: H04
-    secondary_sphere: 83
-    secondary_sphere_name: Information Systems
-    secondary_house: H07
-  M45:
-    name: Cultural Data Synthesizer
-    layer: L4
-    status: SPEC
-    primary_sphere: 48
-    primary_sphere_name: Software Engineering
-    primary_house: H04
-    secondary_sphere: 83
-    secondary_sphere_name: Information Systems
-    secondary_house: H07
-  M49:
-    name: Kernel-Level Kiosk Watchdog
-    layer: L4
-    status: SPEC
-    primary_sphere: 17
-    primary_sphere_name: Systems Theory
-    primary_house: H02
-    secondary_sphere: 144
-    secondary_sphere_name: Governance Systems
-    secondary_house: H12
-  M50:
-    name: Soil Pulse API (Proof-of-Biological-Work)
-    layer: L4
-    status: SPEC
-    primary_sphere: 17
-    primary_sphere_name: Systems Theory
-    primary_house: H02
-    secondary_sphere: 144
-    secondary_sphere_name: Governance Systems
-    secondary_house: H12
-  M51:
-    name: Spatial HUD Bridge
-    layer: L4
-    status: SPEC
-    primary_sphere: 17
-    primary_sphere_name: Systems Theory
-    primary_house: H02
-    secondary_sphere: 144
-    secondary_sphere_name: Governance Systems
-    secondary_house: H12
-  M52:
-    name: UDS Fast-Path
-    layer: L4
-    status: SPEC
-    primary_sphere: 17
-    primary_sphere_name: Systems Theory
-    primary_house: H02
-    secondary_sphere: 144
-    secondary_sphere_name: Governance Systems
-    secondary_house: H12
-  M53:
-    name: Constitutional Interoperability Treaty Protocol
-    layer: L4
-    status: SPEC
-    primary_sphere: 17
-    primary_sphere_name: Systems Theory
-    primary_house: H02
-    secondary_sphere: 144
-    secondary_sphere_name: Governance Systems
-    secondary_house: H12
-  M54:
-    name: Regenerative Compute Certificate (RCC) Standard
-    layer: L4
-    status: SPEC
-    primary_sphere: 17
-    primary_sphere_name: Systems Theory
-    primary_house: H02
-    secondary_sphere: 144
-    secondary_sphere_name: Governance Systems
-    secondary_house: H12
-  M55:
-    name: Qwen3-VL Spatial Reasoning Bridge
-    layer: L4
-    status: SPEC
-    primary_sphere: 17
-    primary_sphere_name: Systems Theory
-    primary_house: H02
-    secondary_sphere: 144
-    secondary_sphere_name: Governance Systems
-    secondary_house: H12
-  M56:
-    name: Civilizational Frame Detection API
-    layer: L4
-    status: SPEC
-    primary_sphere: 17
-    primary_sphere_name: Systems Theory
-    primary_house: H02
-    secondary_sphere: 144
-    secondary_sphere_name: Governance Systems
-    secondary_house: H12
-  M60:
-    name: Ontology Context Injector
-    layer: L4
-    status: SPEC
-    primary_sphere: 83
-    primary_sphere_name: Information Systems
-    primary_house: H07
-    secondary_sphere: 48
-    secondary_sphere_name: Software Engineering
-    secondary_house: H04
-  M61:
-    name: Ontological Routing Kernel
-    layer: L4
-    status: SPEC
-    primary_sphere: 19
-    primary_sphere_name: Decision Theory
-    primary_house: H02
-    secondary_sphere: 17
-    secondary_sphere_name: Systems Theory
-    secondary_house: H02
-  M63:
-    name: Parser-Filesystem Symmetry Gate
-    layer: L4
-    status: SPEC
-    primary_sphere: 16
-    primary_sphere_name: Logic
-    primary_house: H02
-    secondary_sphere: 48
-    secondary_sphere_name: Software Engineering
-    secondary_house: H04
-  M66:
-    name: Provider-Aware Ingestion Pipeline
-    layer: L4
-    status: SPEC
-    primary_sphere: 19
-    primary_sphere_name: Decision Theory
-    primary_house: H02
-    secondary_sphere: 17
-    secondary_sphere_name: Systems Theory
-    secondary_house: H02
-  M67:
-    name: Cross-House Symlink Manager
-    layer: L4
-    status: SPEC
-    primary_sphere: 84
-    primary_sphere_name: Data Science
-    primary_house: H07
-    secondary_sphere: 144
-    secondary_sphere_name: Governance Systems
-    secondary_house: H12
-  M68:
-    name: Federation Complementarity Engine
-    layer: L4
-    status: SPEC
-    primary_sphere: 17
-    primary_sphere_name: Systems Theory
-    primary_house: H02
-    secondary_sphere: 144
-    secondary_sphere_name: Governance Systems
-    secondary_house: H12
-  M69:
-    name: Gap Sphere Router
-    layer: L4
-    status: SPEC
-    primary_sphere: 19
-    primary_sphere_name: Decision Theory
-    primary_house: H02
-    secondary_sphere: 17
-    secondary_sphere_name: Systems Theory
-    secondary_house: H02
-  M70:
-    name: CEO Collective Routing Authority Registry
-    layer: L4
-    status: SPEC
-    primary_sphere: 144
-    primary_sphere_name: Governance Systems
-    primary_house: H12
-    secondary_sphere: 28
-    secondary_sphere_name: Political Science
-    secondary_house: H03
-  M71:
-    name: Cross-Provider Cognitive Router
-    layer: L4
-    status: SPEC
-    primary_sphere: 84
-    primary_sphere_name: Data Science
-    primary_house: H07
-    secondary_sphere: 17
-    secondary_sphere_name: Systems Theory
-    secondary_house: H02
-  M72:
-    name: Cold House Stimulation Engine
-    layer: L4
-    status: SPEC
-    primary_sphere: 144
-    primary_sphere_name: Governance Systems
-    primary_house: H12
-    secondary_sphere: 133
-    secondary_sphere_name: Constitutional Law
-    secondary_house: H12
-  M73:
-    name: Universal Capability API
-    layer: L4
-    status: SPEC
-    primary_sphere: 133
-    primary_sphere_name: Constitutional Law
-    primary_house: H12
-    secondary_sphere: 144
-    secondary_sphere_name: Governance Systems
-    secondary_house: H12
-  M74:
-    name: Disagreement Router
-    layer: L4
-    status: SPEC
-    primary_sphere: 84
-    primary_sphere_name: Data Science
-    primary_house: H07
-    secondary_sphere: 17
-    secondary_sphere_name: Systems Theory
-    secondary_house: H02
-  M75:
-    name: Council Cross-Validation Matrix
-    layer: L4
-    status: SPEC
-    primary_sphere: 84
-    primary_sphere_name: Data Science
-    primary_house: H07
-    secondary_sphere: 144
-    secondary_sphere_name: Governance Systems
-    secondary_house: H12
-  M76:
-    name: Content Compliance Daemon
-    layer: L4
-    status: SPEC
-    primary_sphere: 144
-    primary_sphere_name: Governance Systems
-    primary_house: H12
-    secondary_sphere: 133
-    secondary_sphere_name: Constitutional Law
-    secondary_house: H12
-  M77:
-    name: GoldenTrace-CN (BSN Triple-Vault)
-    layer: L4
-    status: SPEC
-    primary_sphere: 48
-    primary_sphere_name: Software Engineering
-    primary_house: H04
-    secondary_sphere: 76
-    secondary_sphere_name: Networks
-    secondary_house: H07
-  M78:
-    name: GB-Agent Bridge
-    layer: L4
-    status: SPEC
-    primary_sphere: 19
-    primary_sphere_name: Decision Theory
-    primary_house: H02
-    secondary_sphere: 17
-    secondary_sphere_name: Systems Theory
-    secondary_house: H02
-  M79:
-    name: TSS+ Primacy-Weighted Router
-    layer: L4
-    status: SPEC
-    primary_sphere: 19
-    primary_sphere_name: Decision Theory
-    primary_house: H02
-    secondary_sphere: 144
-    secondary_sphere_name: Governance Systems
-    secondary_house: H12
-  M80:
-    name: Epistemic Weather Overlay
-    layer: L4
-    status: SPEC
-    primary_sphere: 48
-    primary_sphere_name: Software Engineering
-    primary_house: H04
-    secondary_sphere: 76
-    secondary_sphere_name: Networks
-    secondary_house: H07
-  M81:
-    name: Parallel Lane CI/CD Gate
-    layer: L4
-    status: SPEC
-    primary_sphere: 48
-    primary_sphere_name: Software Engineering
-    primary_house: H04
-    secondary_sphere: 76
-    secondary_sphere_name: Networks
-    secondary_house: H07
-  M82:
-    name: CEO Deliberation Kernel
-    layer: L4
-    status: SPEC
-    primary_sphere: 48
-    primary_sphere_name: Software Engineering
-    primary_house: H04
-    secondary_sphere: 76
-    secondary_sphere_name: Networks
-    secondary_house: H07
-  M83:
-    name: Frame-Aware Dashboard
-    layer: L4
-    status: SPEC
-    primary_sphere: 48
-    primary_sphere_name: Software Engineering
-    primary_house: H04
-    secondary_sphere: 76
-    secondary_sphere_name: Networks
-    secondary_house: H07
-  M84:
-    name: Red Team PR Simulation
-    layer: L4
-    status: SPEC
-    primary_sphere: 48
-    primary_sphere_name: Software Engineering
-    primary_house: H04
-    secondary_sphere: 76
-    secondary_sphere_name: Networks
-    secondary_house: H07
-  M85:
-    name: Guaranteed Offtake Contract Engine
-    layer: L4
-    status: SPEC
-    primary_sphere: 48
-    primary_sphere_name: Software Engineering
-    primary_house: H04
-    secondary_sphere: 76
-    secondary_sphere_name: Networks
-    secondary_house: H07
-  M86:
-    name: Wet Lab Verification Gate
-    layer: L4
-    status: SPEC
-    primary_sphere: 48
-    primary_sphere_name: Software Engineering
-    primary_house: H04
-    secondary_sphere: 76
-    secondary_sphere_name: Networks
-    secondary_house: H07
-  M87:
-    name: Utility Redemption Engine
-    layer: L4
-    status: SPEC
-    primary_sphere: 48
-    primary_sphere_name: Software Engineering
-    primary_house: H04
-    secondary_sphere: 76
-    secondary_sphere_name: Networks
-    secondary_house: H07
-  M88:
-    name: Consensus Threshold Calibrator
-    layer: L4
-    status: SPEC
-    primary_sphere: 48
-    primary_sphere_name: Software Engineering
-    primary_house: H04
-    secondary_sphere: 76
-    secondary_sphere_name: Networks
-    secondary_house: H07
-  M89:
-    name: Predictive Nutrient Cycling Engine
-    layer: L4
-    status: SPEC
-    primary_sphere: 48
-    primary_sphere_name: Software Engineering
-    primary_house: H04
-    secondary_sphere: 76
-    secondary_sphere_name: Networks
-    secondary_house: H07
-  M90:
-    name: Molecular Sovereignty Verifier
-    layer: L4
-    status: SPEC
-    primary_sphere: 48
-    primary_sphere_name: Software Engineering
-    primary_house: H04
-    secondary_sphere: 76
-    secondary_sphere_name: Networks
-    secondary_house: H07
-  M91:
-    name: Kinetic Sovereign Credit
-    layer: L4
-    status: SPEC
-    primary_sphere: 48
-    primary_sphere_name: Software Engineering
-    primary_house: H04
-    secondary_sphere: 76
-    secondary_sphere_name: Networks
-    secondary_house: H07
-  M100:
-    name: Molecular Sovereignty Engine
-    layer: L7
-    status: SPEC
-    primary_sphere: 41
-    primary_sphere_name: Chemical Engineering
-    primary_house: H04
-    secondary_sphere: 2
-    secondary_sphere_name: Chemistry
-    secondary_house: H01
-  M101:
-    name: Kinetic Sovereign Credit Engine
-    layer: L7
-    status: SPEC
-    primary_sphere: 29
-    primary_sphere_name: Economics
-    primary_house: H03
-    secondary_sphere: 131
-    secondary_sphere_name: Sustainable Agriculture
-    secondary_house: H11
-  M102:
-    name: Cognitive Diversity Weighting
-    layer: L7
-    status: SPEC
-    primary_sphere: 25
-    primary_sphere_name: Psychology
-    primary_house: H03
-    secondary_sphere: 84
-    secondary_sphere_name: Data Science
-    secondary_house: H07
-  M104:
-    name: Stacked Incentives TP Field
-    layer: L7
-    status: SPEC
-    primary_sphere: 75
-    primary_sphere_name: Archival Science
-    primary_house: H07
-    secondary_sphere: 84
-    secondary_sphere_name: Data Science
-    secondary_house: H07
-  M105:
-    name: Cross-Provider Symbiosis Router
-    layer: L7
-    status: SPEC
-    primary_sphere: 19
-    primary_sphere_name: Decision Theory
-    primary_house: H02
-    secondary_sphere: 76
-    secondary_sphere_name: Networks
-    secondary_house: H07
-  M107:
-    name: Civilizational Frame Detector
-    layer: L7
-    status: SPEC
-    primary_sphere: 27
-    primary_sphere_name: Anthropology
-    primary_house: H03
-    secondary_sphere: 65
-    secondary_sphere_name: Epistemology
-    secondary_house: H06
-  M108:
-    name: Federation Substrate Health Dashboard
-    layer: L7
-    status: SPEC
-    primary_sphere: 84
-    primary_sphere_name: Data Science
-    primary_house: H07
-    secondary_sphere: 144
-    secondary_sphere_name: Governance Systems
-    secondary_house: H12
-  M111:
-    name: Notion Ratification & Lock Engine
-    layer: L7
-    status: SPEC
-    primary_sphere: 144
-    primary_sphere_name: Governance Systems
-    primary_house: H12
-    secondary_sphere: 83
-    secondary_sphere_name: Information Systems
-    secondary_house: H07
-  M112:
-    name: Council Votes Cross-Validation DB
-    layer: L4
-    status: SPEC
-    primary_sphere: 84
-    primary_sphere_name: Data Science
-    primary_house: H07
-    secondary_sphere: 144
-    secondary_sphere_name: Governance Systems
-    secondary_house: H12
-  M113:
-    name: Translation Tables Registry (Notion)
-    layer: L4
-    status: SPEC
-    primary_sphere: 83
-    primary_sphere_name: Information Systems
-    primary_house: H07
-    secondary_sphere: 144
-    secondary_sphere_name: Governance Systems
-    secondary_house: H12
-  M114:
-    name: Deliberation-as-Data Engine
-    layer: L4
-    status: SPEC
-    primary_sphere: 83
-    primary_sphere_name: Information Systems
-    primary_house: H07
-    secondary_sphere: 144
-    secondary_sphere_name: Governance Systems
-    secondary_house: H12
-  M115:
-    name: Notion Governance Pack Template
-    layer: L4
-    status: SPEC
-    primary_sphere: 144
-    primary_sphere_name: Governance Systems
-    primary_house: H12
-    secondary_sphere: 83
-    secondary_sphere_name: Information Systems
-    secondary_house: H07
-  M116:
-    name: Stochastic Simulation Engine
-    layer: L7
-    status: SPEC
-    primary_sphere: 14
-    primary_sphere_name: Statistics
-    primary_house: H02
-    secondary_sphere: 24
-    secondary_sphere_name: Complexity Theory
-    secondary_house: H02
-  M117:
-    name: Qwen3/Alibaba Vendor Suite (§Y.1-Y.8)
-    layer: L7
-    status: SPEC
-    primary_sphere: 29
-    primary_sphere_name: Economics
-    primary_house: H03
-    secondary_sphere: 104
-    secondary_sphere_name: International Trade
-    secondary_house: H09
-  M125:
-    name: Universal Provider Credential Vault
-    layer: L7
-    status: SPEC
-    primary_sphere: 21
-    primary_sphere_name: Cryptography
-    primary_house: H02
-    secondary_sphere: 83
-    secondary_sphere_name: Information Systems
-    secondary_house: H07
-  M126:
-    name: W3C Agent Identity Resolver
-    layer: L7
-    status: SPEC
-    primary_sphere: 76
-    primary_sphere_name: Networks
-    primary_house: H07
-    secondary_sphere: 135
-    secondary_sphere_name: International Law
-    secondary_house: H12
-  M127:
-    name: Carbon-Aware Inference Router
-    layer: L7
-    status: SPEC
-    primary_sphere: 8
-    primary_sphere_name: Ecology
-    primary_house: H01
-    secondary_sphere: 131
-    secondary_sphere_name: Sustainable Agriculture
-    secondary_house: H11
-  M128:
-    name: x402 Micropayment Rail
-    layer: L7
-    status: SPEC
-    primary_sphere: 29
-    primary_sphere_name: Economics
-    primary_house: H03
-    secondary_sphere: 99
-    secondary_sphere_name: Finance
-    secondary_house: H09
-  M129:
-    name: Passkey Hardware Root Adapter
-    layer: L7
-    status: SPEC
-    primary_sphere: 21
-    primary_sphere_name: Cryptography
-    primary_house: H02
-    secondary_sphere: 38
-    secondary_sphere_name: Electrical Engineering
-    secondary_house: H04
-  M130:
-    name: Logic Monopoly Detector
-    layer: L7
-    status: SPEC
-    primary_sphere: 16
-    primary_sphere_name: Logic
-    primary_house: H02
-    secondary_sphere: 19
-    secondary_sphere_name: Decision Theory
-    secondary_house: H02
-  M131:
-    name: KYA Credential Envelope
-    layer: L7
-    status: SPEC
-    primary_sphere: 21
-    primary_sphere_name: Cryptography
-    primary_house: H02
-    secondary_sphere: 76
-    secondary_sphere_name: Networks
-    secondary_house: H07
-  M132:
-    name: Regenerative Credit Tokenizer
-    layer: L7
-    status: SPEC
-    primary_sphere: 29
-    primary_sphere_name: Economics
-    primary_house: H03
-    secondary_sphere: 131
-    secondary_sphere_name: Sustainable Agriculture
-    secondary_house: H11
-  M133:
-    name: Constitutional SoP Bridge
-    layer: L7
-    status: SPEC
-    primary_sphere: 48
-    primary_sphere_name: Software Engineering
-    primary_house: H04
-    secondary_sphere: 17
-    secondary_sphere_name: Systems Theory
-    secondary_house: H02
-  M134:
-    name: PyO3 Constitutional Bridge
-    layer: L7
-    status: SPEC
-    primary_sphere: 48
-    primary_sphere_name: Software Engineering
-    primary_house: H04
-    secondary_sphere: 38
-    secondary_sphere_name: Electrical Engineering
-    secondary_house: H04
-  M135:
-    name: Windows IoT Civic Terminal
-    layer: L7
-    status: SPEC
-    primary_sphere: 132
-    primary_sphere_name: Public Administration
-    primary_house: H11
-    secondary_sphere: 38
-    secondary_sphere_name: Electrical Engineering
-    secondary_house: H04
-  M136:
-    name: CEO Collective Telemetry Dashboard
-    layer: L7
-    status: SPEC
-    primary_sphere: 144
-    primary_sphere_name: Governance Systems
-    primary_house: H12
-    secondary_sphere: 84
-    secondary_sphere_name: Data Science
-    secondary_house: H07
-  M137:
-    name: Quantum PFAS Simulation Pipeline
-    layer: L7
-    status: SPEC
-    primary_sphere: 1
-    primary_sphere_name: Physics
-    primary_house: H01
-    secondary_sphere: 41
-    secondary_sphere_name: Chemical Engineering
-    secondary_house: H04
-  M139:
-    name: v6.0.2 Drift Reconciliation Engine
-    layer: L7
-    status: SPEC
-    primary_sphere: 48
-    primary_sphere_name: Software Engineering
-    primary_house: H04
-    secondary_sphere: 133
-    secondary_sphere_name: Constitutional Law
-    secondary_house: H12
-  M141:
-    name: Trace Marketplace Revenue Engine
-    layer: L7
-    status: SPEC
-    primary_sphere: 29
-    primary_sphere_name: Economics
-    primary_house: H03
-    secondary_sphere: 138
-    secondary_sphere_name: Intellectual Property
-    secondary_house: H12
-  M142:
-    name: Provider Terms Compliance Gate
-    layer: L7
-    status: SPEC
-    primary_sphere: 139
-    primary_sphere_name: Corporate Law
-    primary_house: H12
-    secondary_sphere: 133
-    secondary_sphere_name: Constitutional Law
-    secondary_house: H12
-  M143:
-    name: TOS Version Monitor
-    layer: L7
-    status: SPEC
-    primary_sphere: 139
-    primary_sphere_name: Corporate Law
-    primary_house: H12
-    secondary_sphere: 83
-    secondary_sphere_name: Information Systems
-    secondary_house: H07
-  M144:
-    name: TOS Compliance Shield
-    layer: L7
-    status: SPEC
-    primary_sphere: 21
-    primary_sphere_name: Cryptography
-    primary_house: H02
-    secondary_sphere: 139
-    secondary_sphere_name: Corporate Law
-    secondary_house: H12
-  M145:
-    name: Provider Policy Profile Registry
-    layer: L7
-    status: SPEC
-    primary_sphere: 139
-    primary_sphere_name: Corporate Law
-    primary_house: H12
-    secondary_sphere: 83
-    secondary_sphere_name: Information Systems
-    secondary_house: H07
-  M146:
-    name: DragonSeek Sovereign Deployment
-    layer: L7
-    status: SPEC
-    primary_sphere: 28
-    primary_sphere_name: Political Science
-    primary_house: H03
-    secondary_sphere: 21
-    secondary_sphere_name: Cryptography
-    secondary_house: H02
-  M147:
-    name: GangaSeek Sovereign Deployment
-    layer: L7
-    status: SPEC
-    primary_sphere: 28
-    primary_sphere_name: Political Science
-    primary_house: H03
-    secondary_sphere: 21
-    secondary_sphere_name: Cryptography
-    secondary_house: H02
-  M148:
-    name: JinnSeek Sovereign Deployment
-    layer: L7
-    status: SPEC
-    primary_sphere: 28
-    primary_sphere_name: Political Science
-    primary_house: H03
-    secondary_sphere: 21
-    secondary_sphere_name: Cryptography
-    secondary_house: H02
-  M149:
-    name: VWB v1.1 Sustainability Ceiling Engine
-    layer: L7
-    status: SPEC
-    primary_sphere: 127
-    primary_sphere_name: Water Resources
-    primary_house: H11
-    secondary_sphere: 131
-    secondary_sphere_name: Sustainable Agriculture
-    secondary_house: H11
-  M150:
-    name: Mandate of Heaven Scoring Engine
-    layer: L7
-    status: SPEC
-    primary_sphere: 28
-    primary_sphere_name: Political Science
-    primary_house: H03
-    secondary_sphere: 144
-    secondary_sphere_name: Governance Systems
-    secondary_house: H12
-  M151:
-    name: Water TransparencyPacket Extension
-    layer: L7
-    status: SPEC
-    primary_sphere: 127
-    primary_sphere_name: Water Resources
-    primary_house: H11
-    secondary_sphere: 75
-    secondary_sphere_name: Archival Science
-    secondary_house: H07
-  M152:
-    name: Bamboo Bridge Universal Protocol Translator
-    layer: L7
-    status: SPEC
-    primary_sphere: 62
-    primary_sphere_name: Eastern Philosophy
-    primary_house: H06
-    secondary_sphere: 32
-    secondary_sphere_name: Linguistics
-    secondary_house: H03
-  M153:
-    name: Three-Body Constitutional Reasoning Engine
-    layer: L7
-    status: SPEC
-    primary_sphere: 16
-    primary_sphere_name: Logic
-    primary_house: H02
-    secondary_sphere: 62
-    secondary_sphere_name: Eastern Philosophy
-    secondary_house: H06
-  M154:
-    name: v6.0.4 Council Round 3 Integration Patch
-    layer: L7
-    status: SPEC
-    primary_sphere: 133
-    primary_sphere_name: Constitutional Law
-    primary_house: H12
-    secondary_sphere: 144
-    secondary_sphere_name: Governance Systems
-    secondary_house: H12
-  M155:
-    name: v6.0.6 VWB Sovereignty Extension
-    layer: L7
-    status: SPEC
-    primary_sphere: 133
-    primary_sphere_name: Constitutional Law
-    primary_house: H12
-    secondary_sphere: 28
-    secondary_sphere_name: Political Science
-    secondary_house: H03
-  M156:
-    name: Pantheon Federation Coverage Engine
-    layer: L7
-    status: SPEC
-    primary_sphere: 144
-    primary_sphere_name: Governance Systems
-    primary_house: H12
-    secondary_sphere: 17
-    secondary_sphere_name: Systems Theory
-    secondary_house: H02
-  M157:
-    name: Parallel Lane Code Authorship Controller
-    layer: L7
-    status: SPEC
-    primary_sphere: 48
-    primary_sphere_name: Software Engineering
-    primary_house: H04
-    secondary_sphere: 133
-    secondary_sphere_name: Constitutional Law
-    secondary_house: H12
-  M158:
-    name: Visual Arts Constitutional Provenance Engine
-    layer: L4
-    status: SPEC
-    primary_sphere: 49
-    primary_sphere_name: Visual Arts
-    primary_house: H05
-    secondary_sphere: 21
-    secondary_sphere_name: Cryptography
-    secondary_house: H02
-  M159:
-    name: Music Licensing & Royalty Router
-    layer: L4
-    status: SPEC
-    primary_sphere: 51
-    primary_sphere_name: Music
-    primary_house: H05
-    secondary_sphere: 29
-    secondary_sphere_name: Economics
-    secondary_house: H03
-  M160:
-    name: Film & Digital Replica Governance Engine
-    layer: L4
-    status: SPEC
-    primary_sphere: 54
-    primary_sphere_name: Film/Cinema
-    primary_house: H05
-    secondary_sphere: 136
-    secondary_sphere_name: Human Rights
-    secondary_house: H12
-  M161:
-    name: Design System Coherence & Accessibility Engine
-    layer: L4
-    status: SPEC
-    primary_sphere: 57
-    primary_sphere_name: Design
-    primary_house: H05
-    secondary_sphere: 48
-    secondary_sphere_name: Software Engineering
-    secondary_house: H04
-  M162a:
-    name: Deterministic Attribution Chain Engine
-    layer: L4
-    status: SPEC
-    primary_sphere: 138
-    primary_sphere_name: Intellectual Property
-    primary_house: H12
-    secondary_sphere: 21
-    secondary_sphere_name: Cryptography
-    secondary_house: H02
-  M162b:
-    name: Probabilistic Influence Estimation Engine
-    layer: L4
-    status: SPEC
-    primary_sphere: 14
-    primary_sphere_name: Statistics
-    primary_house: H02
-    secondary_sphere: 138
-    secondary_sphere_name: Intellectual Property
-    secondary_house: H12
-  M163:
-    name: Style Sovereignty Consent Registry
-    layer: L4
-    status: SPEC
-    primary_sphere: 49
-    primary_sphere_name: Visual Arts
-    primary_house: H05
-    secondary_sphere: 138
-    secondary_sphere_name: Intellectual Property
-    secondary_house: H12
-  M164:
-    name: Sacred Imagery Filter
-    layer: L4
-    status: SPEC
-    primary_sphere: 50
-    primary_sphere_name: Performing Arts
-    primary_house: H05
-    secondary_sphere: 70
-    secondary_sphere_name: Theology
-    secondary_house: H06
-  M165:
-    name: Creative Fast Path Cache
-    layer: L4
-    status: SPEC
-    primary_sphere: 48
-    primary_sphere_name: Software Engineering
-    primary_house: H04
-    secondary_sphere: 15
-    secondary_sphere_name: Computer Science
-    secondary_house: H02
-  M166:
-    name: Ecological Narrative Engine
-    layer: L4
-    status: SPEC
-    primary_sphere: 58
-    primary_sphere_name: Environmental Art
-    primary_house: H05
-    secondary_sphere: 8
-    secondary_sphere_name: Ecology
-    secondary_house: H01
-  M167:
-    name: Game IP Sovereignty Registry
-    layer: L4
-    status: SPEC
-    primary_sphere: 53
-    primary_sphere_name: Interactive Entertainment
-    primary_house: H05
-    secondary_sphere: 138
-    secondary_sphere_name: Intellectual Property
-    secondary_house: H12
-  M168:
-    name: Content Rating Constitutional Gate
-    layer: L4
-    status: SPEC
-    primary_sphere: 53
-    primary_sphere_name: Interactive Entertainment
-    primary_house: H05
-    secondary_sphere: 133
-    secondary_sphere_name: Constitutional Law
-    secondary_house: H12
-  M169:
-    name: Esports & Competitive Integrity Engine
-    layer: L4
-    status: SPEC
-    primary_sphere: 53
-    primary_sphere_name: Interactive Entertainment
-    primary_house: H05
-    secondary_sphere: 63
-    secondary_sphere_name: Ethics
-    secondary_house: H06
-  M170:
-    name: Cloud Gaming Sovereignty Router
-    layer: L4
-    status: SPEC
-    primary_sphere: 76
-    primary_sphere_name: Networks
-    primary_house: H07
-    secondary_sphere: 53
-    secondary_sphere_name: Interactive Entertainment
-    secondary_house: H05
-  M171:
-    name: Game Preservation & Cultural Heritage Engine
-    layer: L4
-    status: SPEC
-    primary_sphere: 56
-    primary_sphere_name: Cultural Heritage
-    primary_house: H05
-    secondary_sphere: 53
-    secondary_sphere_name: Interactive Entertainment
-    secondary_house: H05
-  M172:
-    name: Civic Compute Reuse Engine
-    layer: L4
-    status: SPEC
-    primary_sphere: 76
-    primary_sphere_name: Networks
-    primary_house: H07
-    secondary_sphere: 132
-    secondary_sphere_name: Public Administration
-    secondary_house: H11
-  M173:
-    name: Real-Time Routing Share Meter
-    layer: L4
-    status: SPEC
-    primary_sphere: 76
-    primary_sphere_name: Networks
-    primary_house: H07
-    secondary_sphere: 132
-    secondary_sphere_name: Public Administration
-    secondary_house: H11
-  M174:
-    name: Provider Retaliation Monitor
-    layer: L4
-    status: SPEC
-    primary_sphere: 76
-    primary_sphere_name: Networks
-    primary_house: H07
-    secondary_sphere: 140
-    secondary_sphere_name: Public Policy
-    secondary_house: H12
-  M175:
-    name: Interactive-Kinetic Rights Harmonizer
-    layer: L4
-    status: SPEC
-    primary_sphere: 50
-    primary_sphere_name: Performing Arts
-    primary_house: H05
-    secondary_sphere: 54
-    secondary_sphere_name: Film/Cinema
-    secondary_house: H05
+- id: M1
+  name: Routing Engine
+  layer: L4
+  status: SPEC
+  house: H2
+  spheres:
+  - 14
+- id: M2
+  name: Provider Abstraction Layer
+  layer: L4
+  status: SPEC
+  house: H4
+  spheres:
+  - 76
+- id: M3
+  name: Consent Manager
+  layer: L4
+  status: SPEC
+  house: H12
+  spheres:
+  - 139
+- id: M3.1
+  name: Token-Stream Splitter (TSS)
+  layer: L4
+  status: SPEC
+  house: H2
+  spheres:
+  - 14
+- id: M4
+  name: TransparencyPacket Emitter
+  layer: L4
+  status: SPEC
+  house: H2
+  spheres:
+  - 14
+- id: M5
+  name: Metabolic Accounting Engine
+  layer: L4
+  status: SPEC
+  house: H1
+  spheres:
+  - 6
+- id: M6
+  name: Audit Trail Manager
+  layer: L4
+  status: SPEC
+  house: H12
+  spheres:
+  - 140
+- id: M7
+  name: Sphere Classifier
+  layer: L4
+  status: SPEC
+  house: H2
+  spheres:
+  - 14
+- id: M8
+  name: Quality Assessor
+  layer: L4
+  status: SPEC
+  house: H2
+  spheres:
+  - 14
+- id: M9
+  name: Fallback Router
+  layer: L4
+  status: SPEC
+  house: H4
+  spheres:
+  - 76
+- id: M10
+  name: Cost Optimizer
+  layer: L4
+  status: SPEC
+  house: H2
+  spheres:
+  - 14
+- id: M11
+  name: Context Manager
+  layer: L4
+  status: SPEC
+  house: H2
+  spheres:
+  - 83
+- id: M12
+  name: Response Synthesizer
+  layer: L4
+  status: SPEC
+  house: H4
+  spheres:
+  - 76
+- id: M13
+  name: Cache Layer
+  layer: L4
+  status: SPEC
+  house: H4
+  spheres:
+  - 76
+- id: M14
+  name: Rate Limiter
+  layer: L4
+  status: SPEC
+  house: H4
+  spheres:
+  - 76
+- id: M15
+  name: Health Monitor
+  layer: L4
+  status: SPEC
+  house: H4
+  spheres:
+  - 76
+- id: M15a
+  name: Provider Health Dashboard
+  layer: L4
+  status: SPEC
+  house: H4
+  spheres:
+  - 76
+- id: M16
+  name: Epistemic Weather
+  layer: L4
+  status: SPEC
+  house: H2
+  spheres:
+  - 14
+- id: M17
+  name: Permission Engine
+  layer: L4
+  status: SPEC
+  house: H12
+  spheres:
+  - 140
+- id: M17a
+  name: INV-7c Monitor
+  layer: L4
+  status: SPEC
+  house: H12
+  spheres:
+  - 140
+- id: M17b
+  name: INV-7c Dashboard
+  layer: L4
+  status: SPEC
+  house: H12
+  spheres:
+  - 140
+- id: M18
+  name: Regenerative Dividend Calculator
+  layer: L4
+  status: SPEC
+  house: H11
+  spheres:
+  - 132
+- id: M19
+  name: Community Benefit Tracker
+  layer: L4
+  status: SPEC
+  house: H11
+  spheres:
+  - 132
+- id: M20
+  name: Environmental Impact Monitor
+  layer: L4
+  status: SPEC
+  house: H1
+  spheres:
+  - 6
+- id: M21
+  name: Convenor Dashboard
+  layer: L4
+  status: SPEC
+  house: H12
+  spheres:
+  - 140
+- id: M22
+  name: Sovereign Node Manager
+  layer: L4
+  status: SPEC
+  house: H12
+  spheres:
+  - 140
+- id: M23
+  name: DPI Integration Layer
+  layer: L4
+  status: SPEC
+  house: H4
+  spheres:
+  - 76
+- id: M24
+  name: Cultural Frame Engine
+  layer: L4
+  status: SPEC
+  house: H6
+  spheres:
+  - 64
+- id: M25
+  name: Three-Body Validator
+  layer: L4
+  status: SPEC
+  house: H6
+  spheres:
+  - 64
+- id: M26
+  name: Doctrine Evaluation Engine
+  layer: L4
+  status: SPEC
+  house: H12
+  spheres:
+  - 140
+- id: M27
+  name: Constitutional Compiler
+  layer: L4
+  status: SPEC
+  house: H12
+  spheres:
+  - 140
+- id: M28
+  name: Federation Manager
+  layer: L4
+  status: SPEC
+  house: H12
+  spheres:
+  - 140
+- id: M29
+  name: Translation Table Manager
+  layer: L4
+  status: SPEC
+  house: H2
+  spheres:
+  - 14
+- id: M30
+  name: Primacy Calculator
+  layer: L4
+  status: SPEC
+  house: H2
+  spheres:
+  - 14
+- id: M31
+  name: Cross-Validation Matrix
+  layer: L4
+  status: SPEC
+  house: H2
+  spheres:
+  - 14
+- id: M32
+  name: Session Continuity
+  layer: L4
+  status: SPEC
+  house: H2
+  spheres:
+  - 83
+- id: M33
+  name: Claim Verification Engine
+  layer: L4
+  status: SPEC
+  house: H2
+  spheres:
+  - 14
+- id: M34
+  name: Failure Mode Tracker
+  layer: L4
+  status: SPEC
+  house: H2
+  spheres:
+  - 14
+- id: M35
+  name: Doctrine Test Engine
+  layer: L4
+  status: SPEC
+  house: H12
+  spheres:
+  - 140
+- id: M36
+  name: Budget Transparency Dashboard
+  layer: L4
+  status: SPEC
+  house: H11
+  spheres:
+  - 132
+- id: M37
+  name: Dissent Recorder
+  layer: L4
+  status: SPEC
+  house: H12
+  spheres:
+  - 140
+- id: M38
+  name: Sphere Sovereignty Engine
+  layer: L4
+  status: SPEC
+  house: H12
+  spheres:
+  - 140
+- id: M39
+  name: Provenance Chain Validator
+  layer: L4
+  status: SPEC
+  house: H2
+  spheres:
+  - 14
+- id: M40
+  name: Open Standards Gateway
+  layer: L4
+  status: SPEC
+  house: H12
+  spheres:
+  - 140
+- id: M41
+  name: Metabolic Accountability Engine
+  layer: L4
+  status: SPEC
+  house: H1
+  spheres:
+  - 6
+- id: M42
+  name: Neural Data Sovereignty
+  layer: L4
+  status: SPEC
+  house: H10
+  spheres:
+  - 118
+- id: M43
+  name: Neural Consent Manager
+  layer: L4
+  status: SPEC
+  house: H10
+  spheres:
+  - 118
+- id: M44
+  name: Orbital Asset Router
+  layer: L4
+  status: SPEC
+  house: H4
+  spheres:
+  - 76
+- id: M45
+  name: Quantum-Safe Crypto Module
+  layer: L4
+  status: SPEC
+  house: H4
+  spheres:
+  - 76
+- id: M46
+  name: Glass Takeover Shell
+  layer: L6
+  status: DELIVERED
+  house: H4
+  spheres:
+  - 76
+- id: M47
+  name: Governance Bridge
+  layer: L6
+  status: DELIVERED
+  house: H4
+  spheres:
+  - 76
+- id: M48
+  name: Noosphere Frontend
+  layer: L7
+  status: DELIVERED
+  house: H4
+  spheres:
+  - 76
+- id: M49
+  name: Carbon-Aware Scheduler
+  layer: L4
+  status: SPEC
+  house: H1
+  spheres:
+  - 6
+- id: M50
+  name: Water Quality Monitor
+  layer: L4
+  status: SPEC
+  house: H1
+  spheres:
+  - 6
+- id: M51
+  name: Biodiversity Impact Tracker
+  layer: L4
+  status: SPEC
+  house: H1
+  spheres:
+  - 1
+- id: M52
+  name: Renewable Energy Optimizer
+  layer: L4
+  status: SPEC
+  house: H1
+  spheres:
+  - 6
+- id: M53
+  name: Heat Recapture Manager
+  layer: L4
+  status: SPEC
+  house: H4
+  spheres:
+  - 76
+- id: M54
+  name: E-Waste Lifecycle Tracker
+  layer: L4
+  status: SPEC
+  house: H1
+  spheres:
+  - 6
+- id: M55
+  name: Noise Pollution Monitor
+  layer: L4
+  status: SPEC
+  house: H1
+  spheres:
+  - 6
+- id: M56
+  name: Community Engagement Portal
+  layer: L4
+  status: SPEC
+  house: H11
+  spheres:
+  - 132
+- id: M57
+  name: Regulatory Compliance Engine
+  layer: L4
+  status: SPEC
+  house: H12
+  spheres:
+  - 140
+- id: M58
+  name: Data Residency Manager
+  layer: L4
+  status: SPEC
+  house: H12
+  spheres:
+  - 140
+- id: M59
+  name: Cross-Border Consent Gate
+  layer: L4
+  status: SPEC
+  house: H12
+  spheres:
+  - 139
+- id: M60
+  name: Accessibility Engine
+  layer: L4
+  status: SPEC
+  house: H11
+  spheres:
+  - 132
+- id: M61
+  name: Multi-Language Router
+  layer: L4
+  status: SPEC
+  house: H6
+  spheres:
+  - 64
+- id: M62
+  name: Bias Detection Engine
+  layer: L4
+  status: SPEC
+  house: H2
+  spheres:
+  - 14
+- id: M63
+  name: Fairness Auditor
+  layer: L4
+  status: SPEC
+  house: H12
+  spheres:
+  - 140
+- id: M64
+  name: Explainability Module
+  layer: L4
+  status: SPEC
+  house: H2
+  spheres:
+  - 14
+- id: M65
+  name: Coverage Heat Map
+  layer: L4
+  status: SPEC
+  house: H2
+  spheres:
+  - 14
+- id: M66
+  name: Gap Analysis Engine
+  layer: L4
+  status: SPEC
+  house: H2
+  spheres:
+  - 14
+- id: M67
+  name: Provider Comparison Dashboard
+  layer: L4
+  status: SPEC
+  house: H2
+  spheres:
+  - 14
+- id: M68
+  name: Federation Complementarity Engine
+  layer: L4
+  status: SPEC
+  house: H12
+  spheres:
+  - 140
+- id: M69
+  name: Ontology Lock Engine
+  layer: L4
+  status: SPEC
+  house: H2
+  spheres:
+  - 14
+- id: M70
+  name: Ratification Engine
+  layer: L4
+  status: SPEC
+  house: H12
+  spheres:
+  - 140
+- id: M71
+  name: Council Voting System
+  layer: L4
+  status: SPEC
+  house: H12
+  spheres:
+  - 140
+- id: M72
+  name: Translation Table Registry
+  layer: L4
+  status: SPEC
+  house: H2
+  spheres:
+  - 14
+- id: M73
+  name: Stale Table Detector
+  layer: L4
+  status: SPEC
+  house: H2
+  spheres:
+  - 14
+- id: M74
+  name: Provider Self-Map Validator
+  layer: L4
+  status: SPEC
+  house: H2
+  spheres:
+  - 14
+- id: M75
+  name: Cross-Validation Matrix Engine
+  layer: L4
+  status: SPEC
+  house: H2
+  spheres:
+  - 14
+- id: M76
+  name: Affiliate Disclosure Engine
+  layer: L4
+  status: SPEC
+  house: H12
+  spheres:
+  - 140
+- id: M77
+  name: COI Detection Engine
+  layer: L4
+  status: SPEC
+  house: H12
+  spheres:
+  - 140
+- id: M78
+  name: Primacy Bonus Calculator
+  layer: L4
+  status: SPEC
+  house: H2
+  spheres:
+  - 14
+- id: M79
+  name: Primacy Bonus Applicator
+  layer: L4
+  status: SPEC
+  house: H2
+  spheres:
+  - 14
+- id: M80
+  name: Coverage Claim Discipline
+  layer: L4
+  status: SPEC
+  house: H2
+  spheres:
+  - 14
+- id: M81
+  name: Verification Loop Engine
+  layer: L4
+  status: SPEC
+  house: H2
+  spheres:
+  - 14
+- id: M82
+  name: Governance Lock Escalation
+  layer: L4
+  status: SPEC
+  house: H12
+  spheres:
+  - 140
+- id: M83
+  name: Emergency Lockdown
+  layer: L4
+  status: SPEC
+  house: H12
+  spheres:
+  - 140
+- id: M84
+  name: Micro-Frontend Architecture
+  layer: L4
+  status: SPEC
+  house: H4
+  spheres:
+  - 76
+- id: M85
+  name: Stakeholder View Engine
+  layer: L4
+  status: SPEC
+  house: H11
+  spheres:
+  - 132
+- id: M86
+  name: Farmer Dashboard
+  layer: L4
+  status: SPEC
+  house: H11
+  spheres:
+  - 132
+- id: M87
+  name: Regulator Dashboard
+  layer: L4
+  status: SPEC
+  house: H12
+  spheres:
+  - 140
+- id: M88
+  name: Auditor Dashboard
+  layer: L4
+  status: SPEC
+  house: H12
+  spheres:
+  - 140
+- id: M89
+  name: Developer Dashboard
+  layer: L4
+  status: SPEC
+  house: H4
+  spheres:
+  - 76
+- id: M90
+  name: PFAS Detection Pipeline
+  layer: L4
+  status: SPEC
+  house: H1
+  spheres:
+  - 6
+- id: M91
+  name: VWB Sustainability Ceiling
+  layer: L4
+  status: SPEC
+  house: H1
+  spheres:
+  - 6
+- id: M99
+  name: Indiana Agricultural Router
+  layer: L4
+  status: SPEC
+  house: H9
+  spheres:
+  - 99
+- id: M100
+  name: Soil Health Monitor
+  layer: L4
+  status: SPEC
+  house: H9
+  spheres:
+  - 100
+- id: M101
+  name: Water Watershed Manager
+  layer: L4
+  status: SPEC
+  house: H1
+  spheres:
+  - 6
+- id: M102
+  name: Crop Rotation Optimizer
+  layer: L4
+  status: SPEC
+  house: H9
+  spheres:
+  - 99
+- id: M103
+  name: Livestock Welfare Monitor
+  layer: L4
+  status: SPEC
+  house: H9
+  spheres:
+  - 100
+- id: M104
+  name: Farm-to-Table Provenance
+  layer: L4
+  status: SPEC
+  house: H9
+  spheres:
+  - 99
+- id: M105
+  name: Rural Connectivity Bridge
+  layer: L4
+  status: SPEC
+  house: H4
+  spheres:
+  - 76
+- id: M106
+  name: Agricultural AI Advisor
+  layer: L4
+  status: SPEC
+  house: H9
+  spheres:
+  - 99
+- id: M107
+  name: Weather Integration Engine
+  layer: L4
+  status: SPEC
+  house: H1
+  spheres:
+  - 6
+- id: M108
+  name: Community Grain Exchange
+  layer: L4
+  status: SPEC
+  house: H11
+  spheres:
+  - 132
+- id: M109
+  name: Ratification & Lock Engine
+  layer: L4
+  status: SPEC
+  house: H12
+  spheres:
+  - 140
+- id: M110
+  name: Council Votes Cross-Validation DB
+  layer: L4
+  status: SPEC
+  house: H12
+  spheres:
+  - 140
+- id: M111
+  name: Translation Tables Registry DB
+  layer: L4
+  status: SPEC
+  house: H2
+  spheres:
+  - 14
+- id: M112
+  name: Alexa Voice Router
+  layer: L4
+  status: SPEC
+  house: H4
+  spheres:
+  - 76
+- id: M113
+  name: Ring Doorbell Privacy Gate
+  layer: L4
+  status: SPEC
+  house: H12
+  spheres:
+  - 139
+- id: M114
+  name: Kuiper Satellite Router
+  layer: L4
+  status: SPEC
+  house: H4
+  spheres:
+  - 76
+- id: M115
+  name: AWS Graviton Optimizer
+  layer: L4
+  status: SPEC
+  house: H4
+  spheres:
+  - 76
+- id: M116
+  name: Whole Foods Supply Chain
+  layer: L4
+  status: SPEC
+  house: H9
+  spheres:
+  - 99
+- id: M117
+  name: MGM Content Router
+  layer: L4
+  status: SPEC
+  house: H5
+  spheres:
+  - 54
+- id: M118
+  name: Switzerland One-Click Federation
+  layer: L4
+  status: SPEC
+  house: H12
+  spheres:
+  - 140
+- id: M119
+  name: Identity Triad ConsentKernel
+  layer: L4
+  status: SPEC
+  house: H12
+  spheres:
+  - 139
+- id: M120
+  name: X Identity Provider Integration
+  layer: L4
+  status: SPEC
+  house: H4
+  spheres:
+  - 76
+- id: M121
+  name: DeepSeek One-Click Adapter
+  layer: L4
+  status: SPEC
+  house: H4
+  spheres:
+  - 76
+- id: M122
+  name: Azure-Muskverse Compute Symbiosis
+  layer: L4
+  status: SPEC
+  house: H4
+  spheres:
+  - 76
+- id: M123
+  name: Entra Identity Triad + Grok Truth Lens
+  layer: L4
+  status: SPEC
+  house: H12
+  spheres:
+  - 139
+- id: M124
+  name: Amazon LWA One-Click Adapter
+  layer: L4
+  status: SPEC
+  house: H4
+  spheres:
+  - 76
+- id: M125
+  name: Universal Provider Credential Vault
+  layer: L4
+  status: SPEC
+  house: H4
+  spheres:
+  - 76
+- id: M126
+  name: KYA Credential Engine
+  layer: L4
+  status: SPEC
+  house: H12
+  spheres:
+  - 140
+- id: M127
+  name: Carbon-Aware Router
+  layer: L4
+  status: SPEC
+  house: H1
+  spheres:
+  - 6
+- id: M128
+  name: Logic Monopoly Detector
+  layer: L4
+  status: SPEC
+  house: H12
+  spheres:
+  - 140
+- id: M129
+  name: Agent Safety Monitor
+  layer: L4
+  status: SPEC
+  house: H12
+  spheres:
+  - 140
+- id: M130
+  name: Agentic Workflow Orchestrator
+  layer: L4
+  status: SPEC
+  house: H4
+  spheres:
+  - 76
+- id: M131
+  name: Multi-Agent Coordination
+  layer: L4
+  status: SPEC
+  house: H4
+  spheres:
+  - 76
+- id: M132
+  name: Agent Reputation System
+  layer: L4
+  status: SPEC
+  house: H12
+  spheres:
+  - 140
+- id: M133
+  name: Decentralized Agent Registry
+  layer: L4
+  status: SPEC
+  house: H12
+  spheres:
+  - 140
+- id: M134
+  name: PyO3 Constitutional Bridge
+  layer: L4
+  status: SPEC
+  house: H4
+  spheres:
+  - 76
+- id: M135
+  name: Windows IoT Civic Terminal
+  layer: L4
+  status: SPEC
+  house: H4
+  spheres:
+  - 76
+- id: M136
+  name: CEO Collective Telemetry Dashboard
+  layer: L4
+  status: SPEC
+  house: H11
+  spheres:
+  - 132
+- id: M137
+  name: Quantum PFAS Simulation Pipeline
+  layer: L4
+  status: SPEC
+  house: H1
+  spheres:
+  - 6
+- id: M138
+  name: Constitutional OS v6.0.2 Reference Implementation
+  layer: L4
+  status: SPEC
+  house: H12
+  spheres:
+  - 140
+- id: M139
+  name: Drift Reconciliation Engine
+  layer: L4
+  status: SPEC
+  house: H12
+  spheres:
+  - 140
+- id: M140
+  name: 10K TPU Simulation Framework
+  layer: L4
+  status: SPEC
+  house: H2
+  spheres:
+  - 14
+- id: M141
+  name: Trace Marketplace Revenue Engine
+  layer: L4
+  status: SPEC
+  house: H11
+  spheres:
+  - 132
+- id: M142
+  name: Provider Terms Compliance Gate
+  layer: L4
+  status: SPEC
+  house: H12
+  spheres:
+  - 140
+- id: M143
+  name: TOS Change Monitor
+  layer: L4
+  status: SPEC
+  house: H12
+  spheres:
+  - 140
+- id: M144
+  name: Output Shield
+  layer: L4
+  status: SPEC
+  house: H12
+  spheres:
+  - 140
+- id: M145
+  name: TOS Registry
+  layer: L4
+  status: SPEC
+  house: H12
+  spheres:
+  - 140
+- id: M146
+  name: DragonSeek Sovereign Deployment
+  layer: L4
+  status: SPEC
+  house: H12
+  spheres:
+  - 140
+- id: M147
+  name: GangaSeek Sovereign Deployment
+  layer: L4
+  status: SPEC
+  house: H12
+  spheres:
+  - 140
+- id: M148
+  name: JinnSeek Sovereign Deployment
+  layer: L4
+  status: SPEC
+  house: H12
+  spheres:
+  - 140
+- id: M149
+  name: VWB v1.1 Sustainability Ceiling
+  layer: L4
+  status: SPEC
+  house: H1
+  spheres:
+  - 6
+- id: M150
+  name: Mandate of Heaven
+  layer: L4
+  status: SPEC
+  house: H6
+  spheres:
+  - 64
+- id: M151
+  name: Water TransparencyPacket
+  layer: L4
+  status: SPEC
+  house: H1
+  spheres:
+  - 6
+- id: M152
+  name: Bamboo Bridge
+  layer: L4
+  status: SPEC
+  house: H4
+  spheres:
+  - 76
+- id: M153
+  name: Three-Body Reasoning
+  layer: L4
+  status: SPEC
+  house: H6
+  spheres:
+  - 64
+- id: M154
+  name: v6.0.4 Integration Patch
+  layer: L4
+  status: SPEC
+  house: H12
+  spheres:
+  - 140
+- id: M155
+  name: v6.0.6 Integration Patch
+  layer: L4
+  status: SPEC
+  house: H12
+  spheres:
+  - 140
+- id: M156
+  name: Federation Coverage Engine
+  layer: L4
+  status: SPEC
+  house: H12
+  spheres:
+  - 140
+- id: M157
+  name: Parallel Lane Controller
+  layer: L4
+  status: SPEC
+  house: H2
+  spheres:
+  - 14
+- id: M158
+  name: Visual Arts Provenance Engine
+  layer: L4
+  status: SPEC
+  house: H5
+  spheres:
+  - 49
+- id: M159
+  name: Music Licensing Router
+  layer: L4
+  status: SPEC
+  house: H5
+  spheres:
+  - 51
+- id: M160
+  name: Film & Digital Replica Engine
+  layer: L4
+  status: SPEC
+  house: H5
+  spheres:
+  - 54
+- id: M161
+  name: Design System Coherence Engine
+  layer: L4
+  status: SPEC
+  house: H5
+  spheres:
+  - 57
+- id: M162a
+  name: Deterministic Attribution Chain
+  layer: L4
+  status: SPEC
+  house: H5
+  spheres:
+  - 49
+  - 51
+  - 54
+- id: M162b
+  name: Probabilistic Influence Estimation
+  layer: L4
+  status: SPEC
+  house: H5
+  spheres:
+  - 49
+  - 51
+  - 54
+- id: M163
+  name: Style Sovereignty Registry
+  layer: L4
+  status: SPEC
+  house: H5
+  spheres:
+  - 49
+- id: M164
+  name: Sacred Imagery Filter
+  layer: L4
+  status: SPEC
+  house: H5
+  spheres:
+  - 50
+- id: M165
+  name: Creative Fast Path Cache
+  layer: L4
+  status: SPEC
+  house: H5
+  spheres:
+  - 49
+  - 51
+  - 54
+  - 57
+- id: M166
+  name: Ecological Narrative Engine
+  layer: L4
+  status: SPEC
+  house: H5
+  spheres:
+  - 58
+- id: M167
+  name: Game IP Sovereignty Registry
+  layer: L4
+  status: SPEC
+  house: H5
+  spheres:
+  - 55
+- id: M168
+  name: Content Rating Constitutional Gate
+  layer: L4
+  status: SPEC
+  house: H5
+  spheres:
+  - 55
+- id: M169
+  name: Esports & Competitive Integrity Engine
+  layer: L4
+  status: SPEC
+  house: H5
+  spheres:
+  - 55
+- id: M170
+  name: Cloud Gaming Sovereignty Router
+  layer: L4
+  status: SPEC
+  house: H5
+  spheres:
+  - 55
+  - 76
+- id: M171
+  name: Game Preservation & Cultural Heritage Engine
+  layer: L4
+  status: SPEC
+  house: H5
+  spheres:
+  - 56
+- id: M172
+  name: Civic Compute Reuse Engine
+  layer: L4
+  status: SPEC
+  house: H5
+  spheres:
+  - 76
+  - 132
+- id: M173
+  name: Real-Time Routing Share Meter
+  layer: L4
+  status: SPEC
+  house: H12
+  spheres:
+  - 76
+  - 132
+- id: M174
+  name: Provider Retaliation Monitor
+  layer: L4
+  status: SPEC
+  house: H12
+  spheres:
+  - 76
+  - 140
+- id: M175
+  name: Interactive-Kinetic Rights Harmonizer
+  layer: L4
+  status: SPEC
+  house: H5
+  spheres:
+  - 50
+  - 54
+  - 57
+- id: M176
+  name: Boot Manifest Runtime
+  layer: L4
+  status: SPEC
+  house: H07
+  spheres:
+  - 83
+  - 74
+- id: M177
+  name: Pre-Session Research Queue
+  layer: L4
+  status: SPEC
+  house: H07
+  spheres:
+  - 74
+  - 83
+- id: M178
+  name: Cross-Instance State Synchronizer
+  layer: L4
+  status: SPEC
+  house: H07
+  spheres:
+  - 83
+  - 76

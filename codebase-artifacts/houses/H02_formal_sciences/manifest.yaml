@@ -2,353 +2,204 @@ house:
   id: H02
   name: Formal Sciences
   spheres:
-    13: Mathematics
-    14: Statistics
-    15: Computer Science
-    16: Logic
-    17: Systems Theory
-    18: Information Theory
-    19: Decision Theory
-    20: Game Theory
-    21: Cryptography
-    22: Formal Linguistics
-    23: Automata Theory
-    24: Complexity Theory
-modules:
-  M116:
-    name: Stochastic Simulation Engine
-    primary_sphere: 14
-    layer: L7
-    status: SPEC
-  M140:
-    name: Unknown
-    primary_sphere: 14
-    layer: L7
-    status: SPEC
-  M162b:
-    name: Probabilistic Influence Estimation Engine
-    primary_sphere: 14
-    layer: L4
-    status: SPEC
-  M3.1:
-    name: TSS Formula Engine
-    primary_sphere: 14
-    layer: L4
-    status: SPEC
-  M1:
-    name: Epistemic State Classifier
-    primary_sphere: 65
-    layer: L4
-    status: SPEC
-  M2:
-    name: Safety State Classifier
-    primary_sphere: 15
-    layer: L4
-    status: SPEC
-  M3:
-    name: Unknown
-    primary_sphere: 19
-    layer: L4
-    status: SPEC
-  M4:
-    name: TransparencyPacket Emitter
-    primary_sphere: 75
-    layer: L4
-    status: SPEC
-  M9:
-    name: MSP-001 Safety Boundary
-    primary_sphere: 63
-    layer: L4
-    status: SPEC
-  M10:
-    name: Unknown
-    primary_sphere: 48
-    layer: L4
-    status: SPEC
-  M12:
-    name: Task Generator
-    primary_sphere: 48
-    layer: L4
-    status: SPEC
-  M15:
-    name: Model Router
-    primary_sphere: 19
-    layer: L4
-    status: EXISTS
-  M138:
-    name: Unknown
-    primary_sphere: 48
-    layer: L7
-    status: SPEC
-  M165:
-    name: Creative Fast Path Cache
-    primary_sphere: 48
-    layer: L4
-    status: SPEC
-  M7:
-    name: Confabulation Detector (3-layer)
-    primary_sphere: 16
-    layer: L4
-    status: SPEC
-  M24:
-    name: Three-Body Validation
-    primary_sphere: 16
-    layer: L4
-    status: SPEC
-  M27:
-    name: Constitutional Compiler
-    primary_sphere: 133
-    layer: L4
-    status: SPEC
-  M58:
-    name: Unknown
-    primary_sphere: 16
-    layer: L4
-    status: SPEC
-  M63:
-    name: Parser-Filesystem Symmetry Gate
-    primary_sphere: 16
-    layer: L4
-    status: SPEC
-  M130:
-    name: Logic Monopoly Detector
-    primary_sphere: 16
-    layer: L7
-    status: SPEC
-  M153:
-    name: Three-Body Constitutional Reasoning Engine
-    primary_sphere: 16
-    layer: L7
-    status: SPEC
-  M11:
-    name: Unknown
-    primary_sphere: 48
-    layer: L4
-    status: SPEC
-  M16:
-    name: Learning Loop
-    primary_sphere: 84
-    layer: L4
-    status: EXISTS
-  M29:
-    name: Constitutional API
-    primary_sphere: 48
-    layer: L4
-    status: SPEC
-  M35:
-    name: Doctrine Evaluation Engine
-    primary_sphere: 48
-    layer: L4
-    status: SPEC
-  M49:
-    name: Kernel-Level Kiosk Watchdog
-    primary_sphere: 17
-    layer: L4
-    status: SPEC
-  M50:
-    name: Soil Pulse API (Proof-of-Biological-Work)
-    primary_sphere: 17
-    layer: L4
-    status: SPEC
-  M51:
-    name: Spatial HUD Bridge
-    primary_sphere: 17
-    layer: L4
-    status: SPEC
-  M52:
-    name: UDS Fast-Path
-    primary_sphere: 17
-    layer: L4
-    status: SPEC
-  M53:
-    name: Constitutional Interoperability Treaty Protocol
-    primary_sphere: 17
-    layer: L4
-    status: SPEC
-  M54:
-    name: Regenerative Compute Certificate (RCC) Standard
-    primary_sphere: 17
-    layer: L4
-    status: SPEC
-  M55:
-    name: Qwen3-VL Spatial Reasoning Bridge
-    primary_sphere: 17
-    layer: L4
-    status: SPEC
-  M56:
-    name: Civilizational Frame Detection API
-    primary_sphere: 17
-    layer: L4
-    status: SPEC
-  M61:
-    name: Ontological Routing Kernel
-    primary_sphere: 19
-    layer: L4
-    status: SPEC
-  M64:
-    name: Unknown
-    primary_sphere: 17
-    layer: L4
-    status: SPEC
-  M65:
-    name: Unknown
-    primary_sphere: 84
-    layer: L4
-    status: SPEC
-  M66:
-    name: Provider-Aware Ingestion Pipeline
-    primary_sphere: 19
-    layer: L4
-    status: SPEC
-  M68:
-    name: Federation Complementarity Engine
-    primary_sphere: 17
-    layer: L4
-    status: SPEC
-  M69:
-    name: Gap Sphere Router
-    primary_sphere: 19
-    layer: L4
-    status: SPEC
-  M71:
-    name: Cross-Provider Cognitive Router
-    primary_sphere: 84
-    layer: L4
-    status: SPEC
-  M74:
-    name: Disagreement Router
-    primary_sphere: 84
-    layer: L4
-    status: SPEC
-  M78:
-    name: GB-Agent Bridge
-    primary_sphere: 19
-    layer: L4
-    status: SPEC
-  M133:
-    name: Constitutional SoP Bridge
-    primary_sphere: 48
-    layer: L7
-    status: SPEC
-  M156:
-    name: Pantheon Federation Coverage Engine
-    primary_sphere: 144
-    layer: L7
-    status: SPEC
-  M3a:
-    name: Multi-Polar Routing Table
-    primary_sphere: 28
-    layer: L4
-    status: SPEC
-  M79:
-    name: TSS+ Primacy-Weighted Router
-    primary_sphere: 19
-    layer: L4
-    status: SPEC
-  M103:
-    name: Unknown
-    primary_sphere: 19
-    layer: L7
-    status: SPEC
-  M105:
-    name: Cross-Provider Symbiosis Router
-    primary_sphere: 19
-    layer: L7
-    status: SPEC
-  M6:
-    name: Provenance Ledger (AuditChain v1)
-    primary_sphere: 21
-    layer: L4
-    status: SPEC
-  M6a:
-    name: Open-Weight Provenance Verifier
-    primary_sphere: 21
-    layer: L4
-    status: SPEC
-  M6b:
-    name: Provenance Genome
-    primary_sphere: 21
-    layer: L4
-    status: SPEC
-  M15a:
-    name: Model Fingerprint Verifier
-    primary_sphere: 21
-    layer: L4
-    status: SPEC
-  M119:
-    name: Unknown
-    primary_sphere: 21
-    layer: L7
-    status: SPEC
-  M121:
-    name: Unknown
-    primary_sphere: 21
-    layer: L7
-    status: SPEC
-  M123:
-    name: Unknown
-    primary_sphere: 21
-    layer: L7
-    status: SPEC
-  M125:
-    name: Universal Provider Credential Vault
-    primary_sphere: 21
-    layer: L7
-    status: SPEC
-  M129:
-    name: Passkey Hardware Root Adapter
-    primary_sphere: 21
-    layer: L7
-    status: SPEC
-  M131:
-    name: KYA Credential Envelope
-    primary_sphere: 21
-    layer: L7
-    status: SPEC
-  M144:
-    name: TOS Compliance Shield
-    primary_sphere: 21
-    layer: L7
-    status: SPEC
-  M146:
-    name: DragonSeek Sovereign Deployment
-    primary_sphere: 28
-    layer: L7
-    status: SPEC
-  M147:
-    name: GangaSeek Sovereign Deployment
-    primary_sphere: 28
-    layer: L7
-    status: SPEC
-  M148:
-    name: JinnSeek Sovereign Deployment
-    primary_sphere: 28
-    layer: L7
-    status: SPEC
-  M158:
-    name: Visual Arts Constitutional Provenance Engine
-    primary_sphere: 49
-    layer: L4
-    status: SPEC
-  M162a:
-    name: Deterministic Attribution Chain Engine
-    primary_sphere: 138
-    layer: L4
-    status: SPEC
-  M57:
-    name: Unknown
-    primary_sphere: 22
-    layer: L4
-    status: SPEC
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 18
+  - 19
+  - 20
+  - 21
+  - 22
+  - 23
+  - 24
 coverage:
   total_spheres: 12
-  covered_spheres: 8
-  gap_spheres:
-  - sphere: 13
-    name: Mathematics
-  - sphere: 18
-    name: Information Theory
-  - sphere: 20
-    name: Game Theory
-  - sphere: 23
-    name: Automata Theory
+  covered: 1
+  gaps: 11
+  coverage_pct: 8.3
+modules:
+- id: M1
+  name: Routing Engine
+  status: SPEC
+  spheres:
+  - 14
+- id: M3.1
+  name: Token-Stream Splitter (TSS)
+  status: SPEC
+  spheres:
+  - 14
+- id: M4
+  name: TransparencyPacket Emitter
+  status: SPEC
+  spheres:
+  - 14
+- id: M7
+  name: Sphere Classifier
+  status: SPEC
+  spheres:
+  - 14
+- id: M8
+  name: Quality Assessor
+  status: SPEC
+  spheres:
+  - 14
+- id: M10
+  name: Cost Optimizer
+  status: SPEC
+  spheres:
+  - 14
+- id: M11
+  name: Context Manager
+  status: SPEC
+  spheres:
+  - 83
+- id: M16
+  name: Epistemic Weather
+  status: SPEC
+  spheres:
+  - 14
+- id: M29
+  name: Translation Table Manager
+  status: SPEC
+  spheres:
+  - 14
+- id: M30
+  name: Primacy Calculator
+  status: SPEC
+  spheres:
+  - 14
+- id: M31
+  name: Cross-Validation Matrix
+  status: SPEC
+  spheres:
+  - 14
+- id: M32
+  name: Session Continuity
+  status: SPEC
+  spheres:
+  - 83
+- id: M33
+  name: Claim Verification Engine
+  status: SPEC
+  spheres:
+  - 14
+- id: M34
+  name: Failure Mode Tracker
+  status: SPEC
+  spheres:
+  - 14
+- id: M39
+  name: Provenance Chain Validator
+  status: SPEC
+  spheres:
+  - 14
+- id: M62
+  name: Bias Detection Engine
+  status: SPEC
+  spheres:
+  - 14
+- id: M64
+  name: Explainability Module
+  status: SPEC
+  spheres:
+  - 14
+- id: M65
+  name: Coverage Heat Map
+  status: SPEC
+  spheres:
+  - 14
+- id: M66
+  name: Gap Analysis Engine
+  status: SPEC
+  spheres:
+  - 14
+- id: M67
+  name: Provider Comparison Dashboard
+  status: SPEC
+  spheres:
+  - 14
+- id: M69
+  name: Ontology Lock Engine
+  status: SPEC
+  spheres:
+  - 14
+- id: M72
+  name: Translation Table Registry
+  status: SPEC
+  spheres:
+  - 14
+- id: M73
+  name: Stale Table Detector
+  status: SPEC
+  spheres:
+  - 14
+- id: M74
+  name: Provider Self-Map Validator
+  status: SPEC
+  spheres:
+  - 14
+- id: M75
+  name: Cross-Validation Matrix Engine
+  status: SPEC
+  spheres:
+  - 14
+- id: M78
+  name: Primacy Bonus Calculator
+  status: SPEC
+  spheres:
+  - 14
+- id: M79
+  name: Primacy Bonus Applicator
+  status: SPEC
+  spheres:
+  - 14
+- id: M80
+  name: Coverage Claim Discipline
+  status: SPEC
+  spheres:
+  - 14
+- id: M81
+  name: Verification Loop Engine
+  status: SPEC
+  spheres:
+  - 14
+- id: M111
+  name: Translation Tables Registry DB
+  status: SPEC
+  spheres:
+  - 14
+- id: M140
+  name: 10K TPU Simulation Framework
+  status: SPEC
+  spheres:
+  - 14
+- id: M157
+  name: Parallel Lane Controller
+  status: SPEC
+  spheres:
+  - 14
+gap_spheres:
+- sphere_id: 13
+  sphere_name: Mathematics
+- sphere_id: 15
+  sphere_name: Statistics
+- sphere_id: 16
+  sphere_name: Logic
+- sphere_id: 17
+  sphere_name: Systems Theory
+- sphere_id: 18
+  sphere_name: Information Theory
+- sphere_id: 19
+  sphere_name: Decision Theory
+- sphere_id: 20
+  sphere_name: Game Theory
+- sphere_id: 21
+  sphere_name: Operations Research
+- sphere_id: 22
+  sphere_name: Cryptography
+- sphere_id: 23
+  sphere_name: Formal Linguistics
+- sphere_id: 24
+  sphere_name: Category Theory

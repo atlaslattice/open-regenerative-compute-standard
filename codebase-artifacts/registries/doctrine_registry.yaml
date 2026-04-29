@@ -1,473 +1,484 @@
 metadata:
-  document: ORC Doctrine Registry v1.0
-  build_plan_version: v3.7
-  total_ratified: 77
-  total_proposed: 39
-  total: 116
-  generated_by: Manus S7
-  date: '2026-04-28'
+  version: '3.8'
+  generated: '2026-04-28'
+  total_doctrines: 119
+  ratified: 77
+  proposed: 42
+  source: ORC-015 Build Plan v3.8
 doctrines:
-  D-1:
-    name: Ratified Doctrine 1
-    status: RATIFIED
-    source: v6.0.3
-  D-2:
-    name: Ratified Doctrine 2
-    status: RATIFIED
-    source: v6.0.3
-  D-3:
-    name: Ratified Doctrine 3
-    status: RATIFIED
-    source: v6.0.3
-  D-4:
-    name: Ratified Doctrine 4
-    status: RATIFIED
-    source: v6.0.3
-  D-5:
-    name: Ratified Doctrine 5
-    status: RATIFIED
-    source: v6.0.3
-  D-6:
-    name: Ratified Doctrine 6
-    status: RATIFIED
-    source: v6.0.3
-  D-7:
-    name: Ratified Doctrine 7
-    status: RATIFIED
-    source: v6.0.3
-  D-8:
-    name: Ratified Doctrine 8
-    status: RATIFIED
-    source: v6.0.3
-  D-9:
-    name: Ratified Doctrine 9
-    status: RATIFIED
-    source: v6.0.3
-  D-10:
-    name: Ratified Doctrine 10
-    status: RATIFIED
-    source: v6.0.3
-  D-11:
-    name: Ratified Doctrine 11
-    status: RATIFIED
-    source: v6.0.3
-  D-12:
-    name: Ratified Doctrine 12
-    status: RATIFIED
-    source: v6.0.3
-  D-13:
-    name: Ratified Doctrine 13
-    status: RATIFIED
-    source: v6.0.3
-  D-14:
-    name: Ratified Doctrine 14
-    status: RATIFIED
-    source: v6.0.3
-  D-15:
-    name: Ratified Doctrine 15
-    status: RATIFIED
-    source: v6.0.3
-  D-16:
-    name: Ratified Doctrine 16
-    status: RATIFIED
-    source: v6.0.3
-  D-17:
-    name: Ratified Doctrine 17
-    status: RATIFIED
-    source: v6.0.3
-  D-18:
-    name: Ratified Doctrine 18
-    status: RATIFIED
-    source: v6.0.3
-  D-19:
-    name: Ratified Doctrine 19
-    status: RATIFIED
-    source: v6.0.3
-  D-20:
-    name: Ratified Doctrine 20
-    status: RATIFIED
-    source: v6.0.3
-  D-21:
-    name: Ratified Doctrine 21
-    status: RATIFIED
-    source: v6.0.3
-  D-22:
-    name: Ratified Doctrine 22
-    status: RATIFIED
-    source: v6.0.3
-  D-23:
-    name: Ratified Doctrine 23
-    status: RATIFIED
-    source: v6.0.3
-  D-24:
-    name: Ratified Doctrine 24
-    status: RATIFIED
-    source: v6.0.3
-  D-25:
-    name: Affiliate Disclosure
-    status: RATIFIED
-    source: v6.0.3
-  D-26:
-    name: Ratified Doctrine 26
-    status: RATIFIED
-    source: v6.0.3
-  D-27:
-    name: Ratified Doctrine 27
-    status: RATIFIED
-    source: v6.0.3
-  D-28:
-    name: Ratified Doctrine 28
-    status: RATIFIED
-    source: v6.0.3
-  D-29:
-    name: Ratified Doctrine 29
-    status: RATIFIED
-    source: v6.0.3
-  D-30:
-    name: Ratified Doctrine 30
-    status: RATIFIED
-    source: v6.0.3
-  D-31:
-    name: Ratified Doctrine 31
-    status: RATIFIED
-    source: v6.0.3
-  D-32:
-    name: Ratified Doctrine 32
-    status: RATIFIED
-    source: v6.0.3
-  D-33:
-    name: Ratified Doctrine 33
-    status: RATIFIED
-    source: v6.0.3
-  D-34:
-    name: Ratified Doctrine 34
-    status: RATIFIED
-    source: v6.0.3
-  D-35:
-    name: Ratified Doctrine 35
-    status: RATIFIED
-    source: v6.0.3
-  D-36:
-    name: Ratified Doctrine 36
-    status: RATIFIED
-    source: v6.0.3
-  D-37:
-    name: Ratified Doctrine 37
-    status: RATIFIED
-    source: v6.0.3
-  D-38:
-    name: Ratified Doctrine 38
-    status: RATIFIED
-    source: v6.0.3
-  D-39:
-    name: Ratified Doctrine 39
-    status: RATIFIED
-    source: v6.0.3
-  D-40:
-    name: Ratified Doctrine 40
-    status: RATIFIED
-    source: v6.0.3
-  D-41:
-    name: Ratified Doctrine 41
-    status: RATIFIED
-    source: v6.0.3
-  D-42:
-    name: Ratified Doctrine 42
-    status: RATIFIED
-    source: v6.0.3
-  D-43:
-    name: Ratified Doctrine 43
-    status: RATIFIED
-    source: v6.0.3
-  D-44:
-    name: Ratified Doctrine 44
-    status: RATIFIED
-    source: v6.0.3
-  D-45:
-    name: Ratified Doctrine 45
-    status: RATIFIED
-    source: v6.0.3
-  D-46:
-    name: Ratified Doctrine 46
-    status: RATIFIED
-    source: v6.0.3
-  D-47:
-    name: Ratified Doctrine 47
-    status: RATIFIED
-    source: v6.0.3
-  D-48:
-    name: Ratified Doctrine 48
-    status: RATIFIED
-    source: v6.0.3
-  D-49:
-    name: Ratified Doctrine 49
-    status: RATIFIED
-    source: v6.0.3
-  D-50:
-    name: Ratified Doctrine 50
-    status: RATIFIED
-    source: v6.0.3
-  D-51:
-    name: Ratified Doctrine 51
-    status: RATIFIED
-    source: v6.0.3
-  D-52:
-    name: Ratified Doctrine 52
-    status: RATIFIED
-    source: v6.0.3
-  D-53:
-    name: Ratified Doctrine 53
-    status: RATIFIED
-    source: v6.0.3
-  D-54:
-    name: Ratified Doctrine 54
-    status: RATIFIED
-    source: v6.0.3
-  D-55:
-    name: Ratified Doctrine 55
-    status: RATIFIED
-    source: v6.0.3
-  D-56:
-    name: Ratified Doctrine 56
-    status: RATIFIED
-    source: v6.0.3
-  D-57:
-    name: Ratified Doctrine 57
-    status: RATIFIED
-    source: v6.0.3
-  D-58:
-    name: Ratified Doctrine 58
-    status: RATIFIED
-    source: v6.0.3
-  D-59:
-    name: Ratified Doctrine 59
-    status: RATIFIED
-    source: v6.0.3
-  D-60:
-    name: Ratified Doctrine 60
-    status: RATIFIED
-    source: v6.0.3
-  D-61:
-    name: Operator Override
-    status: RATIFIED
-    source: v6.0.3
-  D-62:
-    name: Ratified Doctrine 62
-    status: RATIFIED
-    source: v6.0.3
-  D-63:
-    name: Ratified Doctrine 63
-    status: RATIFIED
-    source: v6.0.3
-  D-64:
-    name: Ratified Doctrine 64
-    status: RATIFIED
-    source: v6.0.3
-  D-65:
-    name: Ratified Doctrine 65
-    status: RATIFIED
-    source: v6.0.3
-  D-66:
-    name: Ratified Doctrine 66
-    status: RATIFIED
-    source: v6.0.3
-  D-67:
-    name: Ratified Doctrine 67
-    status: RATIFIED
-    source: v6.0.3
-  D-68:
-    name: VWB Sovereignty Extension
-    status: RATIFIED
-    source: v6.0.4
-  D-69:
-    name: PFAS Precautionary Principle
-    status: RATIFIED
-    source: v6.0.4
-  D-70:
-    name: Water Cohesion
-    status: RATIFIED
-    source: v6.0.4
-  D-71:
-    name: Sovereignty Gradient
-    status: RATIFIED
-    source: v6.0.4
-  D-72:
-    name: Three-Body Reasoning
-    status: RATIFIED
-    source: v6.0.4
-  D-73:
-    name: Bamboo Bridge
-    status: RATIFIED
-    source: v6.0.5
-  D-74:
-    name: Mandate of Heaven
-    status: RATIFIED
-    source: v6.0.5
-  D-75:
-    name: Water TransparencyPacket
-    status: RATIFIED
-    source: v6.0.5
-  D-76:
-    name: Digital Public Infrastructure
-    status: RATIFIED
-    source: v6.0.6
-  D-77:
-    name: Sovereignty Bound Exception
-    status: RATIFIED
-    source: v6.0.6
-  D-83:
-    name: Filesystem-as-Ontology
-    status: PROPOSED
-    source: v2.2
-  D-84:
-    name: Provider Self-Map Obligation
-    status: PROPOSED
-    source: v2.3
-  D-85:
-    name: Cross-Validation Minimum
-    status: PROPOSED
-    source: v2.5
-  D-86:
-    name: Ontology Lock Threshold
-    status: PROPOSED
-    source: v2.5
-  D-87:
-    name: Capability Commonwealth
-    status: PROPOSED
-    source: v2.6
-  D-88:
-    name: Predictive Nutrient Routing
-    status: PROPOSED
-    source: v2.7
-  D-89:
-    name: Molecular Sovereignty
-    status: PROPOSED
-    source: v2.7
-  D-90:
-    name: Kinetic Sovereign Credit
-    status: PROPOSED
-    source: v2.7
-  D-91:
-    name: Notion-as-Constitutional-Runtime-Surface
-    status: PROPOSED
-    source: v2.8
-  D-92:
-    name: Simulation-Before-Deploy
-    status: PROPOSED
-    source: v2.8
-  D-93:
-    name: One-Click Federation Minimum
-    status: PROPOSED
-    source: v2.9
-  D-94:
-    name: Identity Triad Requirement
-    status: PROPOSED
-    source: v2.9
-  D-95:
-    name: Agent Identity Resolution
-    status: PROPOSED
-    source: v3.0
-  D-96:
-    name: Carbon-Aware Routing Preference
-    status: PROPOSED
-    source: v3.0
-  D-97:
-    name: Micropayment Rail Integration
-    status: PROPOSED
-    source: v3.0
-  D-98:
-    name: PyO3 Bridge Stability
-    status: PROPOSED
-    source: v3.1
-  D-99:
-    name: Functional Diversity Requirement
-    status: PROPOSED
-    source: v3.1
-  D-100:
-    name: Drift Reconciliation Before Ratification
-    status: PROPOSED
-    source: v3.2
-  D-101:
-    name: Simulation Canonical Status
-    status: PROPOSED
-    source: v3.2
-  D-102:
-    name: Quarterly TOS Review
-    status: PROPOSED
-    source: v3.3
-  D-103:
-    name: Provider Substitution on TOS Violation
-    status: PROPOSED
-    source: v3.3
-  D-104:
-    name: Content-Minimized Transparency
-    status: PROPOSED
-    source: v3.3
-  D-105:
-    name: Henderson Defense Non-Reliance
-    status: PROPOSED
-    source: v3.3
-  D-106:
-    name: Style Sovereignty
-    status: PROPOSED
-    source: v3.5
-  D-107:
-    name: Triple-Redundant Provenance
-    status: PROPOSED
-    source: v3.5
-  D-108:
-    name: Ecological Narrative Integration
-    status: PROPOSED
-    source: v3.5
-  D-109:
-    name: Provider Non-Cooperation Handling
-    status: PROPOSED
-    source: v3.5
-  D-110:
-    name: Game IP Franchise Consent Hierarchy
-    status: PROPOSED
-    source: v3.6
-  D-111:
-    name: Competitive Integrity Absolute
-    status: PROPOSED
-    source: v3.6
-  D-112:
-    name: Modder Sovereignty
-    status: PROPOSED
-    source: v3.6
-  D-113:
-    name: Provenance-at-Creation
-    status: PROPOSED
-    source: v3.6
-  D-114:
-    name: Civic Compute Reuse
-    status: PROPOSED
-    source: v3.6
-  D-115:
-    name: Provenance Tier Classification
-    status: PROPOSED
-    source: v3.7
-  D-116:
-    name: Attribution Hypothesis Discipline
-    status: PROPOSED
-    source: v3.7
-  D-117:
-    name: Capability vs Routing Distinction
-    status: PROPOSED
-    source: v3.7
-  D-118:
-    name: Enterprise Wrapper Non-Immunity
-    status: PROPOSED
-    source: v3.7
-  D-119:
-    name: Distribution Feedback Loop Recognition
-    status: PROPOSED
-    source: v3.7
-  D-120:
-    name: Style Similarity Calibration
-    status: PROPOSED
-    source: v3.7
-  D-121:
-    name: Payments Boundary
-    status: PROPOSED
-    source: v3.7
+- id: D-1
+  name: Consent Primacy
+  status: RATIFIED
+  version: v6.0.3
+- id: D-2
+  name: Metabolic Transparency
+  status: RATIFIED
+  version: v6.0.3
+- id: D-3
+  name: Sovereign Node Rights
+  status: RATIFIED
+  version: v6.0.3
+- id: D-4
+  name: Provider Neutrality
+  status: RATIFIED
+  version: v6.0.3
+- id: D-5
+  name: Cultural Frame Respect
+  status: RATIFIED
+  version: v6.0.3
+- id: D-6
+  name: Environmental Accountability
+  status: RATIFIED
+  version: v6.0.3
+- id: D-7
+  name: Verify-Before-Vault
+  status: RATIFIED
+  version: v6.0.3
+- id: D-8
+  name: Community Benefit
+  status: RATIFIED
+  version: v6.0.3
+- id: D-9
+  name: Open Standards Preference
+  status: RATIFIED
+  version: v6.0.3
+- id: D-10
+  name: Graceful Degradation
+  status: RATIFIED
+  version: v6.0.3
+- id: D-11
+  name: Metabolic Accountability
+  status: RATIFIED
+  version: v6.0.3
+- id: D-12
+  name: Data Minimization
+  status: RATIFIED
+  version: v6.0.3
+- id: D-13
+  name: Right to Explanation
+  status: RATIFIED
+  version: v6.0.3
+- id: D-14
+  name: Accessibility First
+  status: RATIFIED
+  version: v6.0.3
+- id: D-15
+  name: Dissent Preservation
+  status: RATIFIED
+  version: v6.0.3
+- id: D-16
+  name: Failure Mode Documentation
+  status: RATIFIED
+  version: v6.0.3
+- id: D-17
+  name: Provenance Chain Integrity
+  status: RATIFIED
+  version: v6.0.3
+- id: D-18
+  name: Budget Transparency
+  status: RATIFIED
+  version: v6.0.3
+- id: D-19
+  name: Non-Discrimination
+  status: RATIFIED
+  version: v6.0.3
+- id: D-20
+  name: Reversibility
+  status: RATIFIED
+  version: v6.0.3
+- id: D-21
+  name: Human Override
+  status: RATIFIED
+  version: v6.0.3
+- id: D-22
+  name: Budget Transparency
+  status: RATIFIED
+  version: v6.0.3
+- id: D-23
+  name: Privacy by Design
+  status: RATIFIED
+  version: v6.0.3
+- id: D-24
+  name: Accountability Chain
+  status: RATIFIED
+  version: v6.0.3
+- id: D-25
+  name: COI Disclosure
+  status: RATIFIED
+  version: v6.0.3
+- id: D-26
+  name: Cross-Validation Requirement
+  status: RATIFIED
+  version: v6.0.3
+- id: D-27
+  name: Translation Table Integrity
+  status: RATIFIED
+  version: v6.0.3
+- id: D-28
+  name: Ontology Lock Protocol
+  status: RATIFIED
+  version: v6.0.3
+- id: D-29
+  name: Affiliate Mapping
+  status: RATIFIED
+  version: v6.0.3
+- id: D-30
+  name: Emergency Lockdown
+  status: RATIFIED
+  version: v6.0.3
+- id: D-31
+  name: Audit Trail Immutability
+  status: RATIFIED
+  version: v6.0.3
+- id: D-32
+  name: Sovereign Independence
+  status: RATIFIED
+  version: v6.0.3
+- id: D-33
+  name: Sphere Sovereignty
+  status: RATIFIED
+  version: v6.0.3
+- id: D-34
+  name: Three-Body Minimum
+  status: RATIFIED
+  version: v6.0.3
+- id: D-35
+  name: Claim Classification
+  status: RATIFIED
+  version: v6.0.3
+- id: D-36
+  name: Regenerative Dividend
+  status: RATIFIED
+  version: v6.0.3
+- id: D-37
+  name: Community Threshold
+  status: RATIFIED
+  version: v6.0.3
+- id: D-38
+  name: Environmental Ceiling
+  status: RATIFIED
+  version: v6.0.3
+- id: D-39
+  name: Accessibility Minimum
+  status: RATIFIED
+  version: v6.0.3
+- id: D-40
+  name: Data Residency
+  status: RATIFIED
+  version: v6.0.3
+- id: D-41
+  name: Social Credit Exclusion
+  status: RATIFIED
+  version: v6.0.3
+- id: D-42
+  name: Cultural Non-Hierarchy
+  status: RATIFIED
+  version: v6.0.3
+- id: D-43
+  name: Provider Health Monitoring
+  status: RATIFIED
+  version: v6.0.3
+- id: D-44
+  name: Provenance Chain Integrity
+  status: RATIFIED
+  version: v6.0.3
+- id: D-45
+  name: Rate Limiting Fairness
+  status: RATIFIED
+  version: v6.0.3
+- id: D-46
+  name: Cache Coherence
+  status: RATIFIED
+  version: v6.0.3
+- id: D-47
+  name: Context Window Management
+  status: RATIFIED
+  version: v6.0.3
+- id: D-48
+  name: Response Quality Minimum
+  status: RATIFIED
+  version: v6.0.3
+- id: D-49
+  name: Cost Optimization Transparency
+  status: RATIFIED
+  version: v6.0.3
+- id: D-50
+  name: Fallback Routing Rules
+  status: RATIFIED
+  version: v6.0.3
+- id: D-51
+  name: Health Check Frequency
+  status: RATIFIED
+  version: v6.0.3
+- id: D-52
+  name: Permission Granularity
+  status: RATIFIED
+  version: v6.0.3
+- id: D-53
+  name: Epistemic Weather Reporting
+  status: RATIFIED
+  version: v6.0.3
+- id: D-54
+  name: Federation Complementarity
+  status: RATIFIED
+  version: v6.0.3
+- id: D-55
+  name: Coverage Claim Discipline
+  status: RATIFIED
+  version: v6.0.3
+- id: D-56
+  name: Verification Loop
+  status: RATIFIED
+  version: v6.0.3
+- id: D-57
+  name: Governance Lock Escalation
+  status: RATIFIED
+  version: v6.0.3
+- id: D-58
+  name: Micro-Frontend Isolation
+  status: RATIFIED
+  version: v6.0.3
+- id: D-59
+  name: Claim Verification
+  status: RATIFIED
+  version: v6.0.3
+- id: D-60
+  name: Failure Mode Taxonomy
+  status: RATIFIED
+  version: v6.0.3
+- id: D-61
+  name: Constitutional Validator / Project Glasswing
+  status: RATIFIED
+  version: v6.0.3
+- id: D-62
+  name: Stakeholder View Separation
+  status: RATIFIED
+  version: v6.0.3
+- id: D-63
+  name: Dashboard Accessibility
+  status: RATIFIED
+  version: v6.0.3
+- id: D-64
+  name: PFAS Detection Protocol
+  status: RATIFIED
+  version: v6.0.3
+- id: D-65
+  name: VWB Sustainability Methodology
+  status: RATIFIED
+  version: v6.0.3
+- id: D-66
+  name: Agricultural Data Sovereignty
+  status: RATIFIED
+  version: v6.0.3
+- id: D-67
+  name: Open Constitutional Standards Adoption Pathway
+  status: RATIFIED
+  version: v6.0.3
+- id: D-68
+  name: Open-Weight Audit Sovereignty
+  status: RATIFIED
+  version: v6.0.4
+- id: D-69
+  name: Vendor Exclusion Procedures
+  status: RATIFIED
+  version: v6.0.4
+- id: D-70
+  name: Sovereign Deployment Pathways
+  status: RATIFIED
+  version: v6.0.4
+- id: D-71
+  name: Maximum Allowable Transparency
+  status: RATIFIED
+  version: v6.0.4
+- id: D-72
+  name: Sphere 144 Observation Rights
+  status: RATIFIED
+  version: v6.0.4
+- id: D-73
+  name: Social Credit System Exclusion
+  status: RATIFIED
+  version: v6.0.5
+- id: D-74
+  name: Sovereign Data Residency
+  status: RATIFIED
+  version: v6.0.5
+- id: D-75
+  name: Cultural Frame Non-Hierarchy
+  status: RATIFIED
+  version: v6.0.5
+- id: D-76
+  name: Substrate-Before-Framing
+  status: RATIFIED
+  version: v6.0.6
+- id: D-77
+  name: Sovereign Methodology Profile Pattern
+  status: RATIFIED
+  version: v6.0.6
+- id: D-83
+  name: Routing Preference Hierarchy
+  status: PROPOSED
+  version: v2.2
+- id: D-84
+  name: Provider Capability Declaration
+  status: PROPOSED
+  version: v2.3
+- id: D-85
+  name: Cross-Validation Protocol
+  status: PROPOSED
+  version: v2.5
+- id: D-86
+  name: Seat Rotation
+  status: PROPOSED
+  version: v2.5
+- id: D-87
+  name: Federation Governance
+  status: PROPOSED
+  version: v2.6
+- id: D-88
+  name: Metabolic Budget Allocation
+  status: PROPOSED
+  version: v2.7
+- id: D-89
+  name: Sovereign Node Certification
+  status: PROPOSED
+  version: v2.7
+- id: D-90
+  name: Cultural Frame Validation
+  status: PROPOSED
+  version: v2.7
+- id: D-91
+  name: Notion-as-Constitutional-Runtime-Surface
+  status: PROPOSED
+  version: v2.8
+- id: D-92
+  name: Council Deliberation Protocol
+  status: PROPOSED
+  version: v2.8
+- id: D-93
+  name: One-Click Federation
+  status: PROPOSED
+  version: v2.9
+- id: D-94
+  name: Identity Triad
+  status: PROPOSED
+  version: v2.9
+- id: D-95
+  name: Novel Research Integration
+  status: PROPOSED
+  version: v3.0
+- id: D-96
+  name: KYA Credential Standard
+  status: PROPOSED
+  version: v3.0
+- id: D-97
+  name: Agent Safety Framework
+  status: PROPOSED
+  version: v3.0
+- id: D-98
+  name: PyO3 Bridge Standard
+  status: PROPOSED
+  version: v3.1
+- id: D-99
+  name: Quantum Simulation Protocol
+  status: PROPOSED
+  version: v3.1
+- id: D-100
+  name: Drift Reconciliation
+  status: PROPOSED
+  version: v3.2
+- id: D-101
+  name: Simulation Canonicalization
+  status: PROPOSED
+  version: v3.2
+- id: D-102
+  name: Quarterly TOS Review
+  status: PROPOSED
+  version: v3.3
+- id: D-103
+  name: Provider-Specific Retention Modes
+  status: PROPOSED
+  version: v3.3
+- id: D-104
+  name: Content-Minimized Transparency
+  status: PROPOSED
+  version: v3.3
+- id: D-105
+  name: Henderson Defense Non-Reliance
+  status: PROPOSED
+  version: v3.3
+- id: D-106
+  name: Style Sovereignty
+  status: PROPOSED
+  version: v3.5
+- id: D-107
+  name: Attribution Chain Immutability
+  status: PROPOSED
+  version: v3.5
+- id: D-108
+  name: Regenerative Creative Economics
+  status: PROPOSED
+  version: v3.5
+- id: D-109
+  name: Provider Non-Cooperation Handling
+  status: PROPOSED
+  version: v3.5
+- id: D-110
+  name: Game IP Franchise Consent Hierarchy
+  status: PROPOSED
+  version: v3.6
+- id: D-111
+  name: Competitive Integrity Absolute
+  status: PROPOSED
+  version: v3.6
+- id: D-112
+  name: Modder Sovereignty
+  status: PROPOSED
+  version: v3.6
+- id: D-113
+  name: Provenance-at-Creation
+  status: PROPOSED
+  version: v3.6
+- id: D-114
+  name: Civic Compute Reuse
+  status: PROPOSED
+  version: v3.6
+- id: D-115
+  name: Provenance Tier Classification
+  status: PROPOSED
+  version: v3.7
+- id: D-116
+  name: Attribution Hypothesis Discipline
+  status: PROPOSED
+  version: v3.7
+- id: D-117
+  name: Capability vs Routing Distinction
+  status: PROPOSED
+  version: v3.7
+- id: D-118
+  name: Enterprise Wrapper Non-Immunity
+  status: PROPOSED
+  version: v3.7
+- id: D-119
+  name: Distribution Feedback Loop Recognition
+  status: PROPOSED
+  version: v3.7
+- id: D-120
+  name: Style Similarity Calibration
+  status: PROPOSED
+  version: v3.7
+- id: D-121
+  name: Payments Boundary
+  status: PROPOSED
+  version: v3.7
+- id: D-122
+  name: Manifest-as-Boot-Payload
+  status: PROPOSED
+  version: v3.8
+- id: D-123
+  name: Platform Split
+  status: PROPOSED
+  version: v3.8
+- id: D-124
+  name: Instance Interchangeability
+  status: PROPOSED
+  version: v3.8

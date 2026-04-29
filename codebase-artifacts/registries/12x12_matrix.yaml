@@ -1,1085 +1,849 @@
 metadata:
-  document: 12×12 Ontological Matrix v1.0
-  build_plan_version: v3.7
-  total_houses: 12
+  version: '3.8'
+  generated: '2026-04-28'
+  houses: 12
+  spheres_per_house: 12
   total_spheres: 144
-  total_modules: 147
-  generated_by: Manus S7
-  date: '2026-04-28'
-matrix:
+  total_covered_spheres: 21
+  total_coverage_pct: 14.6
+houses:
   H01:
     name: Natural Sciences
+    total_spheres: 12
+    covered_spheres: 2
+    coverage_pct: 16.7
     spheres:
       1:
-        name: Physics
-        module_count: 1
+        name: Biology
         modules:
-        - M137
+        - M51
+        covered: true
       2:
         name: Chemistry
-        module_count: 1
-        modules:
-        - M100
+        modules: []
+        covered: false
       3:
-        name: Biology
-        module_count: 0
-        modules:
-        - GAP
+        name: Physics
+        modules: []
+        covered: false
       4:
         name: Earth Sciences
-        module_count: 1
-        modules:
-        - M21
+        modules: []
+        covered: false
       5:
         name: Astronomy
-        module_count: 1
-        modules:
-        - M103
+        modules: []
+        covered: false
       6:
-        name: Oceanography
-        module_count: 0
+        name: Environmental Science
         modules:
-        - GAP
-      7:
-        name: Meteorology
-        module_count: 0
-        modules:
-        - GAP
-      8:
-        name: Ecology
-        module_count: 2
-        modules:
+        - M5
+        - M20
+        - M41
+        - M49
+        - M50
+        - M52
+        - M54
+        - M55
+        - M90
+        - M91
+        - M101
+        - M107
         - M127
-        - M166
+        - M137
+        - M149
+        - M151
+        covered: true
+      7:
+        name: Oceanography
+        modules: []
+        covered: false
+      8:
+        name: Meteorology
+        modules: []
+        covered: false
       9:
-        name: Paleontology
-        module_count: 0
-        modules:
-        - GAP
+        name: Geology
+        modules: []
+        covered: false
       10:
-        name: Genetics
-        module_count: 1
-        modules:
-        - M6b
+        name: Ecology
+        modules: []
+        covered: false
       11:
-        name: Neuroscience
-        module_count: 0
-        modules:
-        - GAP
+        name: Zoology
+        modules: []
+        covered: false
       12:
-        name: Materials Science
-        module_count: 0
-        modules:
-        - GAP
-    coverage: 6/12
-    gap_count: 6
+        name: Botany
+        modules: []
+        covered: false
   H02:
     name: Formal Sciences
+    total_spheres: 12
+    covered_spheres: 1
+    coverage_pct: 8.3
     spheres:
       13:
         name: Mathematics
-        module_count: 0
-        modules:
-        - GAP
+        modules: []
+        covered: false
       14:
-        name: Statistics
-        module_count: 4
-        modules:
-        - M116
-        - M140
-        - M162b
-        - M3.1
-      15:
         name: Computer Science
-        module_count: 10
         modules:
         - M1
-        - M2
-        - M3
+        - M3.1
         - M4
-        - M9
-        - M10
-        - M12
-        - M15
-        - M138
-        - M165
-      16:
-        name: Logic
-        module_count: 7
-        modules:
         - M7
-        - M24
-        - M27
-        - M58
-        - M63
-        - M130
-        - M153
-      17:
-        name: Systems Theory
-        module_count: 23
-        modules:
-        - M11
+        - M8
+        - M10
         - M16
         - M29
-        - M35
-        - M49
-        - M50
-        - M51
-        - M52
-        - M53
-        - M54
-        - M55
-        - M56
-        - M61
+        - M30
+        - M31
+        - M33
+        - M34
+        - M39
+        - M62
         - M64
         - M65
         - M66
-        - M68
+        - M67
         - M69
-        - M71
+        - M72
+        - M73
         - M74
-        - M78
-        - M133
-        - M156
-      18:
-        name: Information Theory
-        module_count: 0
-        modules:
-        - GAP
-      19:
-        name: Decision Theory
-        module_count: 12
-        modules:
-        - M3
-        - M3a
-        - M15
-        - M61
-        - M66
-        - M69
+        - M75
         - M78
         - M79
-        - M103
-        - M105
-        - M130
-        - M3.1
+        - M80
+        - M81
+        - M111
+        - M140
+        - M157
+        covered: true
+      15:
+        name: Statistics
+        modules: []
+        covered: false
+      16:
+        name: Logic
+        modules: []
+        covered: false
+      17:
+        name: Systems Theory
+        modules: []
+        covered: false
+      18:
+        name: Information Theory
+        modules: []
+        covered: false
+      19:
+        name: Decision Theory
+        modules: []
+        covered: false
       20:
         name: Game Theory
-        module_count: 0
-        modules:
-        - GAP
+        modules: []
+        covered: false
       21:
-        name: Cryptography
-        module_count: 16
-        modules:
-        - M6
-        - M6a
-        - M6b
-        - M15a
-        - M119
-        - M121
-        - M123
-        - M125
-        - M129
-        - M131
-        - M144
-        - M146
-        - M147
-        - M148
-        - M158
-        - M162a
+        name: Operations Research
+        modules: []
+        covered: false
       22:
-        name: Formal Linguistics
-        module_count: 1
-        modules:
-        - M57
+        name: Cryptography
+        modules: []
+        covered: false
       23:
-        name: Automata Theory
-        module_count: 0
-        modules:
-        - GAP
+        name: Formal Linguistics
+        modules: []
+        covered: false
       24:
-        name: Complexity Theory
-        module_count: 2
-        modules:
-        - M116
-        - M140
-    coverage: 8/12
-    gap_count: 4
+        name: Category Theory
+        modules: []
+        covered: false
   H03:
     name: Social Sciences
+    total_spheres: 12
+    covered_spheres: 0
+    coverage_pct: 0.0
     spheres:
       25:
         name: Psychology
-        module_count: 1
-        modules:
-        - M102
+        modules: []
+        covered: false
       26:
         name: Sociology
-        module_count: 0
-        modules:
-        - GAP
+        modules: []
+        covered: false
       27:
         name: Anthropology
-        module_count: 1
-        modules:
-        - M107
+        modules: []
+        covered: false
       28:
-        name: Political Science
-        module_count: 11
-        modules:
-        - M3a
-        - M17a
-        - M17b
-        - M70
-        - M106
-        - M121
-        - M146
-        - M147
-        - M148
-        - M150
-        - M155
-      29:
         name: Economics
-        module_count: 11
-        modules:
-        - M5
-        - M22
-        - M101
-        - M109
-        - M110
-        - M117
-        - M124
-        - M128
-        - M132
-        - M141
-        - M159
+        modules: []
+        covered: false
+      29:
+        name: Political Science
+        modules: []
+        covered: false
       30:
         name: Geography
-        module_count: 0
-        modules:
-        - GAP
+        modules: []
+        covered: false
       31:
         name: Demography
-        module_count: 0
-        modules:
-        - GAP
+        modules: []
+        covered: false
       32:
-        name: Linguistics
-        module_count: 4
-        modules:
-        - M19
-        - M20
-        - M23
-        - M152
-      33:
-        name: Archaeology
-        module_count: 0
-        modules:
-        - GAP
-      34:
         name: Criminology
-        module_count: 0
-        modules:
-        - GAP
+        modules: []
+        covered: false
+      33:
+        name: Communication Studies
+        modules: []
+        covered: false
+      34:
+        name: Development Studies
+        modules: []
+        covered: false
       35:
-        name: Social Work
-        module_count: 0
-        modules:
-        - GAP
+        name: Gender Studies
+        modules: []
+        covered: false
       36:
-        name: Urban Planning
-        module_count: 0
-        modules:
-        - GAP
-    coverage: 5/12
-    gap_count: 7
+        name: Urban Studies
+        modules: []
+        covered: false
   H04:
     name: Technology
+    total_spheres: 12
+    covered_spheres: 0
+    coverage_pct: 0.0
     spheres:
       37:
-        name: Engineering
-        module_count: 0
-        modules:
-        - GAP
-      38:
         name: Electrical Engineering
-        module_count: 8
-        modules:
-        - M18
-        - M21
-        - M25
-        - M26
-        - M122
-        - M129
-        - M134
-        - M135
-      39:
+        modules: []
+        covered: false
+      38:
         name: Mechanical Engineering
-        module_count: 0
-        modules:
-        - GAP
-      40:
+        modules: []
+        covered: false
+      39:
         name: Civil Engineering
-        module_count: 0
-        modules:
-        - GAP
-      41:
+        modules: []
+        covered: false
+      40:
         name: Chemical Engineering
-        module_count: 2
-        modules:
-        - M100
-        - M137
-      42:
+        modules: []
+        covered: false
+      41:
         name: Aerospace Engineering
-        module_count: 0
-        modules:
-        - GAP
-      43:
+        modules: []
+        covered: false
+      42:
         name: Biomedical Engineering
-        module_count: 0
-        modules:
-        - GAP
-      44:
+        modules: []
+        covered: false
+      43:
         name: Nuclear Engineering
-        module_count: 2
-        modules:
-        - M18
-        - M25
+        modules: []
+        covered: false
+      44:
+        name: Materials Science
+        modules: []
+        covered: false
       45:
-        name: Robotics
-        module_count: 1
-        modules:
-        - M34
-      46:
         name: Nanotechnology
-        module_count: 0
-        modules:
-        - GAP
+        modules: []
+        covered: false
+      46:
+        name: Robotics
+        modules: []
+        covered: false
       47:
         name: Telecommunications
-        module_count: 2
-        modules:
-        - M19
-        - M26
+        modules: []
+        covered: false
       48:
         name: Software Engineering
-        module_count: 52
-        modules:
-        - M6a
-        - M10
-        - M11
-        - M12
-        - M14
-        - M15a
-        - M28
-        - M29
-        - M30
-        - M31
-        - M33
-        - M34
-        - M35
-        - M36
-        - M37
-        - M38
-        - M39
-        - M40
-        - M41
-        - M42
-        - M43
-        - M44
-        - M45
-        - M46
-        - M47
-        - M48
-        - M57
-        - M58
-        - M59
-        - M60
-        - M62
-        - M63
-        - M77
-        - M80
-        - M81
-        - M82
-        - M83
-        - M84
-        - M85
-        - M86
-        - M87
-        - M88
-        - M89
-        - M90
-        - M91
-        - M133
-        - M134
-        - M138
-        - M139
-        - M157
-        - M161
-        - M165
-    coverage: 6/12
-    gap_count: 6
+        modules: []
+        covered: false
   H05:
     name: Arts
+    total_spheres: 12
+    covered_spheres: 8
+    coverage_pct: 66.7
     spheres:
       49:
         name: Visual Arts
-        module_count: 2
         modules:
         - M158
+        - M162a
+        - M162b
         - M163
+        - M165
+        covered: true
       50:
         name: Performing Arts
-        module_count: 2
         modules:
         - M164
         - M175
+        covered: true
       51:
         name: Music
-        module_count: 1
         modules:
         - M159
+        - M162a
+        - M162b
+        - M165
+        covered: true
       52:
         name: Motion/Dance
-        module_count: 0
-        modules:
-        - GAP
+        modules: []
+        covered: false
       53:
-        name: Interactive Entertainment
-        module_count: 5
+        name: Theater/Immersive
+        modules: []
+        covered: false
+      54:
+        name: Film
+        modules:
+        - M117
+        - M160
+        - M162a
+        - M162b
+        - M165
+        - M175
+        covered: true
+      55:
+        name: Interactive/Gaming
         modules:
         - M167
         - M168
         - M169
         - M170
-        - M171
-      54:
-        name: Film/Cinema
-        module_count: 2
-        modules:
-        - M160
-        - M175
-      55:
-        name: Literature
-        module_count: 0
-        modules:
-        - GAP
+        covered: true
       56:
         name: Cultural Heritage
-        module_count: 1
         modules:
         - M171
+        covered: true
       57:
         name: Design
-        module_count: 1
         modules:
         - M161
+        - M165
+        - M175
+        covered: true
       58:
         name: Environmental Art
-        module_count: 1
         modules:
         - M166
+        covered: true
       59:
-        name: Architecture
-        module_count: 0
-        modules:
-        - GAP
+        name: Digital Art
+        modules: []
+        covered: false
       60:
-        name: Fashion
-        module_count: 0
-        modules:
-        - GAP
-    coverage: 8/12
-    gap_count: 4
+        name: Literary Arts
+        modules: []
+        covered: false
   H06:
-    name: Philosophy & Religion
+    name: Humanities
+    total_spheres: 12
+    covered_spheres: 1
+    coverage_pct: 8.3
     spheres:
       61:
-        name: Western Philosophy
-        module_count: 0
-        modules:
-        - GAP
+        name: Philosophy
+        modules: []
+        covered: false
       62:
-        name: Eastern Philosophy
-        module_count: 5
-        modules:
-        - M8
-        - M23
-        - M24
-        - M152
-        - M153
+        name: History
+        modules: []
+        covered: false
       63:
-        name: Ethics
-        module_count: 5
-        modules:
-        - M2
-        - M8
-        - M9
-        - M17
-        - M169
+        name: Literature
+        modules: []
+        covered: false
       64:
-        name: Metaphysics
-        module_count: 0
+        name: Linguistics
         modules:
-        - GAP
+        - M24
+        - M25
+        - M61
+        - M150
+        - M153
+        covered: true
       65:
-        name: Epistemology
-        module_count: 3
-        modules:
-        - M1
-        - M7
-        - M107
+        name: Religious Studies
+        modules: []
+        covered: false
       66:
-        name: Aesthetics
-        module_count: 0
-        modules:
-        - GAP
+        name: Classics
+        modules: []
+        covered: false
       67:
-        name: Logic (Phil.)
-        module_count: 0
-        modules:
-        - GAP
+        name: Archaeology
+        modules: []
+        covered: false
       68:
-        name: Philosophy of Mind
-        module_count: 0
-        modules:
-        - GAP
+        name: Art History
+        modules: []
+        covered: false
       69:
-        name: Philosophy of Science
-        module_count: 0
-        modules:
-        - GAP
+        name: Musicology
+        modules: []
+        covered: false
       70:
-        name: Theology
-        module_count: 2
-        modules:
-        - M20
-        - M164
+        name: Cultural Studies
+        modules: []
+        covered: false
       71:
-        name: Comparative Religion
-        module_count: 0
-        modules:
-        - GAP
+        name: Ethics
+        modules: []
+        covered: false
       72:
-        name: Secular Ethics
-        module_count: 0
-        modules:
-        - GAP
-    coverage: 4/12
-    gap_count: 8
+        name: Aesthetics
+        modules: []
+        covered: false
   H07:
-    name: Information & Communication
+    name: Applied Sciences
+    total_spheres: 12
+    covered_spheres: 3
+    coverage_pct: 25.0
     spheres:
       73:
-        name: Journalism
-        module_count: 0
-        modules:
-        - GAP
+        name: Agriculture
+        modules: []
+        covered: false
       74:
         name: Library Science
-        module_count: 1
         modules:
-        - M13
+        - M176
+        - M177
+        covered: true
       75:
         name: Archival Science
-        module_count: 5
-        modules:
-        - M4
-        - M6
-        - M13
-        - M104
-        - M151
+        modules: []
+        covered: false
       76:
-        name: Networks
-        module_count: 30
+        name: Networks/IT
         modules:
-        - M31
-        - M33
+        - M2
+        - M9
+        - M12
+        - M13
+        - M14
+        - M15
+        - M15a
+        - M23
+        - M44
+        - M45
         - M46
         - M47
-        - M77
-        - M80
-        - M81
-        - M82
-        - M83
+        - M48
+        - M53
         - M84
-        - M85
-        - M86
-        - M87
-        - M88
         - M89
-        - M90
-        - M91
         - M105
-        - M118
-        - M119
+        - M112
+        - M114
+        - M115
         - M120
+        - M121
         - M122
-        - M123
         - M124
-        - M126
+        - M125
+        - M130
         - M131
+        - M134
+        - M135
+        - M152
         - M170
         - M172
         - M173
         - M174
+        - M178
+        covered: true
       77:
-        name: Media Studies
-        module_count: 0
-        modules:
-        - GAP
+        name: Management Science
+        modules: []
+        covered: false
       78:
-        name: Publishing
-        module_count: 0
-        modules:
-        - GAP
+        name: Public Health
+        modules: []
+        covered: false
       79:
-        name: Broadcasting
-        module_count: 0
-        modules:
-        - GAP
+        name: Environmental Engineering
+        modules: []
+        covered: false
       80:
-        name: Advertising
-        module_count: 0
-        modules:
-        - GAP
+        name: Food Science
+        modules: []
+        covered: false
       81:
-        name: Public Relations
-        module_count: 0
-        modules:
-        - GAP
+        name: Textile Science
+        modules: []
+        covered: false
       82:
-        name: Digital Media
-        module_count: 2
-        modules:
-        - M48
-        - M120
+        name: Forestry
+        modules: []
+        covered: false
       83:
         name: Information Systems
-        module_count: 22
         modules:
-        - M14
-        - M28
-        - M30
+        - M11
         - M32
-        - M36
-        - M37
-        - M38
-        - M39
-        - M40
-        - M41
-        - M42
-        - M43
-        - M44
-        - M45
-        - M60
-        - M111
-        - M113
-        - M114
-        - M115
-        - M125
-        - M143
-        - M145
+        - M176
+        - M177
+        - M178
+        covered: true
       84:
-        name: Data Science
-        module_count: 12
-        modules:
-        - M16
-        - M62
-        - M65
-        - M67
-        - M71
-        - M74
-        - M75
-        - M102
-        - M104
-        - M108
-        - M112
-        - M136
-    coverage: 6/12
-    gap_count: 6
+        name: Military Science
+        modules: []
+        covered: false
   H08:
     name: Education
+    total_spheres: 12
+    covered_spheres: 0
+    coverage_pct: 0.0
     spheres:
       85:
-        name: Primary Education
-        module_count: 0
-        modules:
-        - GAP
+        name: Pedagogy
+        modules: []
+        covered: false
       86:
-        name: Secondary Education
-        module_count: 0
-        modules:
-        - GAP
-      87:
-        name: Higher Education
-        module_count: 0
-        modules:
-        - GAP
-      88:
-        name: Vocational Training
-        module_count: 0
-        modules:
-        - GAP
-      89:
-        name: Special Education
-        module_count: 0
-        modules:
-        - GAP
-      90:
-        name: Educational Technology
-        module_count: 0
-        modules:
-        - GAP
-      91:
         name: Curriculum Design
-        module_count: 0
-        modules:
-        - GAP
-      92:
-        name: Educational Psychology
-        module_count: 0
-        modules:
-        - GAP
-      93:
-        name: Distance Learning
-        module_count: 0
-        modules:
-        - GAP
-      94:
+        modules: []
+        covered: false
+      87:
+        name: Educational Technology
+        modules: []
+        covered: false
+      88:
+        name: Special Education
+        modules: []
+        covered: false
+      89:
+        name: Higher Education
+        modules: []
+        covered: false
+      90:
         name: Adult Education
-        module_count: 0
-        modules:
-        - GAP
-      95:
+        modules: []
+        covered: false
+      91:
         name: Early Childhood
-        module_count: 0
-        modules:
-        - GAP
-      96:
+        modules: []
+        covered: false
+      92:
         name: Assessment
-        module_count: 0
-        modules:
-        - GAP
-    coverage: 0/12
-    gap_count: 12
+        modules: []
+        covered: false
+      93:
+        name: Educational Psychology
+        modules: []
+        covered: false
+      94:
+        name: Comparative Education
+        modules: []
+        covered: false
+      95:
+        name: Educational Policy
+        modules: []
+        covered: false
+      96:
+        name: Distance Learning
+        modules: []
+        covered: false
   H09:
-    name: Commerce & Economics
+    name: Life Sciences
+    total_spheres: 12
+    covered_spheres: 2
+    coverage_pct: 16.7
     spheres:
       97:
-        name: Microeconomics
-        module_count: 0
-        modules:
-        - GAP
+        name: Anatomy
+        modules: []
+        covered: false
       98:
-        name: Macroeconomics
-        module_count: 0
-        modules:
-        - GAP
+        name: Genetics
+        modules: []
+        covered: false
       99:
-        name: Finance
-        module_count: 1
+        name: Agriculture/Agronomy
         modules:
-        - M128
+        - M99
+        - M102
+        - M104
+        - M106
+        - M116
+        covered: true
       100:
-        name: Accounting
-        module_count: 1
+        name: Animal Science
         modules:
-        - M5
+        - M100
+        - M103
+        covered: true
       101:
-        name: Marketing
-        module_count: 0
-        modules:
-        - GAP
+        name: Marine Biology
+        modules: []
+        covered: false
       102:
-        name: Management
-        module_count: 0
-        modules:
-        - GAP
+        name: Microbiology
+        modules: []
+        covered: false
       103:
-        name: Entrepreneurship
-        module_count: 0
-        modules:
-        - GAP
+        name: Virology
+        modules: []
+        covered: false
       104:
-        name: International Trade
-        module_count: 1
-        modules:
-        - M117
+        name: Immunology
+        modules: []
+        covered: false
       105:
-        name: Banking
-        module_count: 0
-        modules:
-        - GAP
+        name: Pharmacology
+        modules: []
+        covered: false
       106:
-        name: Insurance
-        module_count: 0
-        modules:
-        - GAP
+        name: Toxicology
+        modules: []
+        covered: false
       107:
-        name: Real Estate
-        module_count: 0
-        modules:
-        - GAP
+        name: Parasitology
+        modules: []
+        covered: false
       108:
-        name: Supply Chain
-        module_count: 2
-        modules:
-        - M109
-        - M110
-    coverage: 4/12
-    gap_count: 8
+        name: Hydrology
+        modules: []
+        covered: false
   H10:
-    name: Health & Medicine
+    name: Health Sciences
+    total_spheres: 12
+    covered_spheres: 1
+    coverage_pct: 8.3
     spheres:
       109:
         name: Medicine
-        module_count: 0
-        modules:
-        - GAP
+        modules: []
+        covered: false
       110:
         name: Surgery
-        module_count: 0
-        modules:
-        - GAP
+        modules: []
+        covered: false
       111:
-        name: Pharmacology
-        module_count: 0
-        modules:
-        - GAP
+        name: Psychiatry
+        modules: []
+        covered: false
       112:
         name: Nursing
-        module_count: 0
-        modules:
-        - GAP
+        modules: []
+        covered: false
       113:
-        name: Public Health
-        module_count: 0
-        modules:
-        - GAP
-      114:
-        name: Epidemiology
-        module_count: 0
-        modules:
-        - GAP
-      115:
-        name: Psychiatry
-        module_count: 0
-        modules:
-        - GAP
-      116:
         name: Dentistry
-        module_count: 0
-        modules:
-        - GAP
+        modules: []
+        covered: false
+      114:
+        name: Optometry
+        modules: []
+        covered: false
+      115:
+        name: Pharmacy
+        modules: []
+        covered: false
+      116:
+        name: Public Health Admin
+        modules: []
+        covered: false
       117:
-        name: Veterinary
-        module_count: 0
-        modules:
-        - GAP
+        name: Rehabilitation
+        modules: []
+        covered: false
       118:
-        name: Nutrition
-        module_count: 1
+        name: Neuroscience
         modules:
-        - M99
+        - M42
+        - M43
+        covered: true
       119:
-        name: Physical Therapy
-        module_count: 0
-        modules:
-        - GAP
+        name: Epidemiology
+        modules: []
+        covered: false
       120:
-        name: Radiology
-        module_count: 0
-        modules:
-        - GAP
-    coverage: 1/12
-    gap_count: 11
+        name: Nutrition
+        modules: []
+        covered: false
   H11:
-    name: Agriculture & Environment
+    name: Commerce & Industry
+    total_spheres: 12
+    covered_spheres: 1
+    coverage_pct: 8.3
     spheres:
       121:
-        name: Agronomy
-        module_count: 1
-        modules:
-        - M99
+        name: Accounting
+        modules: []
+        covered: false
       122:
-        name: Horticulture
-        module_count: 0
-        modules:
-        - GAP
+        name: Finance
+        modules: []
+        covered: false
       123:
-        name: Animal Husbandry
-        module_count: 0
-        modules:
-        - GAP
+        name: Marketing
+        modules: []
+        covered: false
       124:
-        name: Forestry
-        module_count: 0
-        modules:
-        - GAP
+        name: Supply Chain
+        modules: []
+        covered: false
       125:
-        name: Fisheries
-        module_count: 0
-        modules:
-        - GAP
+        name: Human Resources
+        modules: []
+        covered: false
       126:
-        name: Soil Science
-        module_count: 0
-        modules:
-        - GAP
+        name: Entrepreneurship
+        modules: []
+        covered: false
       127:
-        name: Water Resources
-        module_count: 2
-        modules:
-        - M149
-        - M151
+        name: Real Estate
+        modules: []
+        covered: false
       128:
-        name: Food Science
-        module_count: 1
-        modules:
-        - M22
+        name: Insurance
+        modules: []
+        covered: false
       129:
-        name: Agricultural Economics
-        module_count: 0
-        modules:
-        - GAP
+        name: Banking
+        modules: []
+        covered: false
       130:
-        name: Pest Management
-        module_count: 0
-        modules:
-        - GAP
+        name: International Trade
+        modules: []
+        covered: false
       131:
-        name: Sustainable Agriculture
-        module_count: 4
-        modules:
-        - M101
-        - M127
-        - M132
-        - M149
+        name: Tourism
+        modules: []
+        covered: false
       132:
         name: Public Administration
-        module_count: 3
         modules:
-        - M135
+        - M18
+        - M19
+        - M36
+        - M56
+        - M60
+        - M85
+        - M86
+        - M108
+        - M136
+        - M141
         - M172
         - M173
-    coverage: 5/12
-    gap_count: 7
+        covered: true
   H12:
     name: Law & Governance
+    total_spheres: 12
+    covered_spheres: 2
+    coverage_pct: 16.7
     spheres:
       133:
         name: Constitutional Law
-        module_count: 14
+        modules: []
+        covered: false
+      134:
+        name: Criminal Law
+        modules: []
+        covered: false
+      135:
+        name: Civil Law
+        modules: []
+        covered: false
+      136:
+        name: International Law
+        modules: []
+        covered: false
+      137:
+        name: Environmental Law
+        modules: []
+        covered: false
+      138:
+        name: Intellectual Property
+        modules: []
+        covered: false
+      139:
+        name: Privacy Law
         modules:
+        - M3
+        - M59
+        - M113
+        - M119
+        - M123
+        covered: true
+      140:
+        name: Public Policy
+        modules:
+        - M6
         - M17
         - M17a
         - M17b
+        - M21
+        - M22
+        - M26
         - M27
-        - M59
-        - M72
-        - M73
+        - M28
+        - M35
+        - M37
+        - M38
+        - M40
+        - M57
+        - M58
+        - M63
+        - M68
+        - M70
+        - M71
         - M76
-        - M139
-        - M142
-        - M154
-        - M155
-        - M157
-        - M168
-      134:
-        name: Criminal Law
-        module_count: 0
-        modules:
-        - GAP
-      135:
-        name: International Law
-        module_count: 1
-        modules:
+        - M77
+        - M82
+        - M83
+        - M87
+        - M88
+        - M109
+        - M110
+        - M118
         - M126
-      136:
-        name: Human Rights
-        module_count: 1
-        modules:
-        - M160
-      137:
-        name: Environmental Law
-        module_count: 0
-        modules:
-        - GAP
-      138:
-        name: Intellectual Property
-        module_count: 5
-        modules:
-        - M141
-        - M162a
-        - M162b
-        - M163
-        - M167
-      139:
-        name: Corporate Law
-        module_count: 4
-        modules:
+        - M128
+        - M129
+        - M132
+        - M133
+        - M138
+        - M139
         - M142
         - M143
         - M144
         - M145
-      140:
-        name: Public Policy
-        module_count: 1
-        modules:
-        - M174
-      141:
-        name: Diplomacy
-        module_count: 0
-        modules:
-        - GAP
-      142:
-        name: Military Science
-        module_count: 0
-        modules:
-        - GAP
-      143:
-        name: Intelligence
-        module_count: 0
-        modules:
-        - GAP
-      144:
-        name: Governance Systems
-        module_count: 30
-        modules:
-        - M32
-        - M49
-        - M50
-        - M51
-        - M52
-        - M53
-        - M54
-        - M55
-        - M56
-        - M64
-        - M67
-        - M68
-        - M70
-        - M72
-        - M73
-        - M75
-        - M76
-        - M79
-        - M106
-        - M108
-        - M111
-        - M112
-        - M113
-        - M114
-        - M115
-        - M118
-        - M136
-        - M150
+        - M146
+        - M147
+        - M148
         - M154
+        - M155
         - M156
-    coverage: 7/12
-    gap_count: 5
-summary:
-  total_covered_spheres: 60
-  total_gap_spheres: 84
-  coverage_percentage: 41.7%
+        - M174
+        covered: true
+      141:
+        name: Administrative Law
+        modules: []
+        covered: false
+      142:
+        name: Human Rights
+        modules: []
+        covered: false
+      143:
+        name: Tax Law
+        modules: []
+        covered: false
+      144:
+        name: Jurisprudence
+        modules: []
+        covered: false

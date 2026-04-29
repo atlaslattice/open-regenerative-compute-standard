@@ -1,0 +1,305 @@
+house:
+  id: H12
+  name: Law & Governance
+  spheres:
+  - 133
+  - 134
+  - 135
+  - 136
+  - 137
+  - 138
+  - 139
+  - 140
+  - 141
+  - 142
+  - 143
+  - 144
+coverage:
+  total_spheres: 12
+  covered: 2
+  gaps: 10
+  coverage_pct: 16.7
+modules:
+- id: M3
+  name: Consent Manager
+  status: SPEC
+  spheres:
+  - 139
+- id: M6
+  name: Audit Trail Manager
+  status: SPEC
+  spheres:
+  - 140
+- id: M17
+  name: Permission Engine
+  status: SPEC
+  spheres:
+  - 140
+- id: M17a
+  name: INV-7c Monitor
+  status: SPEC
+  spheres:
+  - 140
+- id: M17b
+  name: INV-7c Dashboard
+  status: SPEC
+  spheres:
+  - 140
+- id: M21
+  name: Convenor Dashboard
+  status: SPEC
+  spheres:
+  - 140
+- id: M22
+  name: Sovereign Node Manager
+  status: SPEC
+  spheres:
+  - 140
+- id: M26
+  name: Doctrine Evaluation Engine
+  status: SPEC
+  spheres:
+  - 140
+- id: M27
+  name: Constitutional Compiler
+  status: SPEC
+  spheres:
+  - 140
+- id: M28
+  name: Federation Manager
+  status: SPEC
+  spheres:
+  - 140
+- id: M35
+  name: Doctrine Test Engine
+  status: SPEC
+  spheres:
+  - 140
+- id: M37
+  name: Dissent Recorder
+  status: SPEC
+  spheres:
+  - 140
+- id: M38
+  name: Sphere Sovereignty Engine
+  status: SPEC
+  spheres:
+  - 140
+- id: M40
+  name: Open Standards Gateway
+  status: SPEC
+  spheres:
+  - 140
+- id: M57
+  name: Regulatory Compliance Engine
+  status: SPEC
+  spheres:
+  - 140
+- id: M58
+  name: Data Residency Manager
+  status: SPEC
+  spheres:
+  - 140
+- id: M59
+  name: Cross-Border Consent Gate
+  status: SPEC
+  spheres:
+  - 139
+- id: M63
+  name: Fairness Auditor
+  status: SPEC
+  spheres:
+  - 140
+- id: M68
+  name: Federation Complementarity Engine
+  status: SPEC
+  spheres:
+  - 140
+- id: M70
+  name: Ratification Engine
+  status: SPEC
+  spheres:
+  - 140
+- id: M71
+  name: Council Voting System
+  status: SPEC
+  spheres:
+  - 140
+- id: M76
+  name: Affiliate Disclosure Engine
+  status: SPEC
+  spheres:
+  - 140
+- id: M77
+  name: COI Detection Engine
+  status: SPEC
+  spheres:
+  - 140
+- id: M82
+  name: Governance Lock Escalation
+  status: SPEC
+  spheres:
+  - 140
+- id: M83
+  name: Emergency Lockdown
+  status: SPEC
+  spheres:
+  - 140
+- id: M87
+  name: Regulator Dashboard
+  status: SPEC
+  spheres:
+  - 140
+- id: M88
+  name: Auditor Dashboard
+  status: SPEC
+  spheres:
+  - 140
+- id: M109
+  name: Ratification & Lock Engine
+  status: SPEC
+  spheres:
+  - 140
+- id: M110
+  name: Council Votes Cross-Validation DB
+  status: SPEC
+  spheres:
+  - 140
+- id: M113
+  name: Ring Doorbell Privacy Gate
+  status: SPEC
+  spheres:
+  - 139
+- id: M118
+  name: Switzerland One-Click Federation
+  status: SPEC
+  spheres:
+  - 140
+- id: M119
+  name: Identity Triad ConsentKernel
+  status: SPEC
+  spheres:
+  - 139
+- id: M123
+  name: Entra Identity Triad + Grok Truth Lens
+  status: SPEC
+  spheres:
+  - 139
+- id: M126
+  name: KYA Credential Engine
+  status: SPEC
+  spheres:
+  - 140
+- id: M128
+  name: Logic Monopoly Detector
+  status: SPEC
+  spheres:
+  - 140
+- id: M129
+  name: Agent Safety Monitor
+  status: SPEC
+  spheres:
+  - 140
+- id: M132
+  name: Agent Reputation System
+  status: SPEC
+  spheres:
+  - 140
+- id: M133
+  name: Decentralized Agent Registry
+  status: SPEC
+  spheres:
+  - 140
+- id: M138
+  name: Constitutional OS v6.0.2 Reference Implementation
+  status: SPEC
+  spheres:
+  - 140
+- id: M139
+  name: Drift Reconciliation Engine
+  status: SPEC
+  spheres:
+  - 140
+- id: M142
+  name: Provider Terms Compliance Gate
+  status: SPEC
+  spheres:
+  - 140
+- id: M143
+  name: TOS Change Monitor
+  status: SPEC
+  spheres:
+  - 140
+- id: M144
+  name: Output Shield
+  status: SPEC
+  spheres:
+  - 140
+- id: M145
+  name: TOS Registry
+  status: SPEC
+  spheres:
+  - 140
+- id: M146
+  name: DragonSeek Sovereign Deployment
+  status: SPEC
+  spheres:
+  - 140
+- id: M147
+  name: GangaSeek Sovereign Deployment
+  status: SPEC
+  spheres:
+  - 140
+- id: M148
+  name: JinnSeek Sovereign Deployment
+  status: SPEC
+  spheres:
+  - 140
+- id: M154
+  name: v6.0.4 Integration Patch
+  status: SPEC
+  spheres:
+  - 140
+- id: M155
+  name: v6.0.6 Integration Patch
+  status: SPEC
+  spheres:
+  - 140
+- id: M156
+  name: Federation Coverage Engine
+  status: SPEC
+  spheres:
+  - 140
+- id: M173
+  name: Real-Time Routing Share Meter
+  status: SPEC
+  spheres:
+  - 76
+  - 132
+- id: M174
+  name: Provider Retaliation Monitor
+  status: SPEC
+  spheres:
+  - 76
+  - 140
+gap_spheres:
+- sphere_id: 133
+  sphere_name: Constitutional Law
+- sphere_id: 134
+  sphere_name: Criminal Law
+- sphere_id: 135
+  sphere_name: Civil Law
+- sphere_id: 136
+  sphere_name: International Law
+- sphere_id: 137
+  sphere_name: Environmental Law
+- sphere_id: 138
+  sphere_name: Intellectual Property
+- sphere_id: 141
+  sphere_name: Administrative Law
+- sphere_id: 142
+  sphere_name: Human Rights
+- sphere_id: 143
+  sphere_name: Tax Law
+- sphere_id: 144
+  sphere_name: Jurisprudence

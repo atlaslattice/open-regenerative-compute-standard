@@ -2,67 +2,127 @@ house:
   id: H01
   name: Natural Sciences
   spheres:
-    1: Physics
-    2: Chemistry
-    3: Biology
-    4: Earth Sciences
-    5: Astronomy
-    6: Oceanography
-    7: Meteorology
-    8: Ecology
-    9: Paleontology
-    10: Genetics
-    11: Neuroscience
-    12: Materials Science
-modules:
-  M137:
-    name: Quantum PFAS Simulation Pipeline
-    primary_sphere: 1
-    layer: L7
-    status: SPEC
-  M100:
-    name: Molecular Sovereignty Engine
-    primary_sphere: 41
-    layer: L7
-    status: SPEC
-  M21:
-    name: Saudi Grid Adapter
-    primary_sphere: 38
-    layer: L4
-    status: SPEC
-  M103:
-    name: Unknown
-    primary_sphere: 19
-    layer: L7
-    status: SPEC
-  M127:
-    name: Carbon-Aware Inference Router
-    primary_sphere: 8
-    layer: L7
-    status: SPEC
-  M166:
-    name: Ecological Narrative Engine
-    primary_sphere: 58
-    layer: L4
-    status: SPEC
-  M6b:
-    name: Provenance Genome
-    primary_sphere: 21
-    layer: L4
-    status: SPEC
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
 coverage:
   total_spheres: 12
-  covered_spheres: 6
-  gap_spheres:
-  - sphere: 3
-    name: Biology
-  - sphere: 6
-    name: Oceanography
-  - sphere: 7
-    name: Meteorology
-  - sphere: 9
-    name: Paleontology
-  - sphere: 11
-    name: Neuroscience
-  - sphere: 12
-    name: Materials Science
+  covered: 2
+  gaps: 10
+  coverage_pct: 16.7
+modules:
+- id: M5
+  name: Metabolic Accounting Engine
+  status: SPEC
+  spheres:
+  - 6
+- id: M20
+  name: Environmental Impact Monitor
+  status: SPEC
+  spheres:
+  - 6
+- id: M41
+  name: Metabolic Accountability Engine
+  status: SPEC
+  spheres:
+  - 6
+- id: M49
+  name: Carbon-Aware Scheduler
+  status: SPEC
+  spheres:
+  - 6
+- id: M50
+  name: Water Quality Monitor
+  status: SPEC
+  spheres:
+  - 6
+- id: M51
+  name: Biodiversity Impact Tracker
+  status: SPEC
+  spheres:
+  - 1
+- id: M52
+  name: Renewable Energy Optimizer
+  status: SPEC
+  spheres:
+  - 6
+- id: M54
+  name: E-Waste Lifecycle Tracker
+  status: SPEC
+  spheres:
+  - 6
+- id: M55
+  name: Noise Pollution Monitor
+  status: SPEC
+  spheres:
+  - 6
+- id: M90
+  name: PFAS Detection Pipeline
+  status: SPEC
+  spheres:
+  - 6
+- id: M91
+  name: VWB Sustainability Ceiling
+  status: SPEC
+  spheres:
+  - 6
+- id: M101
+  name: Water Watershed Manager
+  status: SPEC
+  spheres:
+  - 6
+- id: M107
+  name: Weather Integration Engine
+  status: SPEC
+  spheres:
+  - 6
+- id: M127
+  name: Carbon-Aware Router
+  status: SPEC
+  spheres:
+  - 6
+- id: M137
+  name: Quantum PFAS Simulation Pipeline
+  status: SPEC
+  spheres:
+  - 6
+- id: M149
+  name: VWB v1.1 Sustainability Ceiling
+  status: SPEC
+  spheres:
+  - 6
+- id: M151
+  name: Water TransparencyPacket
+  status: SPEC
+  spheres:
+  - 6
+gap_spheres:
+- sphere_id: 2
+  sphere_name: Chemistry
+- sphere_id: 3
+  sphere_name: Physics
+- sphere_id: 4
+  sphere_name: Earth Sciences
+- sphere_id: 5
+  sphere_name: Astronomy
+- sphere_id: 7
+  sphere_name: Oceanography
+- sphere_id: 8
+  sphere_name: Meteorology
+- sphere_id: 9
+  sphere_name: Geology
+- sphere_id: 10
+  sphere_name: Ecology
+- sphere_id: 11
+  sphere_name: Zoology
+- sphere_id: 12
+  sphere_name: Botany
