@@ -4,7 +4,7 @@ metadata:
   total_doctrines: 119
   ratified: 77
   proposed: 42
-  source: ORC-015 Build Plan v3.8
+  source: ORC-015 Build Plan v3.9
 doctrines:
 - id: D-1
   name: Consent Primacy
@@ -473,12 +473,12 @@ doctrines:
 - id: D-122
   name: Manifest-as-Boot-Payload
   status: PROPOSED
-  version: v3.8
+  version: v3.9
 - id: D-123
   name: Platform Split
   status: PROPOSED
-  version: v3.8
+  version: v3.9
 - id: D-124
   name: Instance Interchangeability
   status: PROPOSED
-  version: v3.8
+  version: v3.9

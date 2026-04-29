@@ -1,6 +1,6 @@
-# ORC Codebase Artifacts v1.1
+# ORC Codebase Artifacts v1.2
 
-**Generated from:** Build Plan v3.8 (ORC-015)
+**Generated from:** Build Plan v3.9 (ORC-015)
 **Date:** April 28, 2026
 **Author:** Manus (S7 Primary Build Seat)
 **Structure:** 12×12 Ontological Matrix (12 Houses × 12 Spheres = 144 Spheres)
@@ -49,13 +49,16 @@ codebase-artifacts/
 | Gap Spheres | 123 (concentrated in H03, H08 Education, H10 Health) |
 | TransparencyPacket | v1.6 — 76 fields across 19 categories |
 
-## v3.8 Changes (Claude S1 Boot Manifest Architecture)
+## v3.9 Changes (Claude S1 Scribe Audit — 9 Edits)
 
-- **3 new modules:** M176 Boot Manifest Runtime, M177 Pre-Session Research Queue, M178 Cross-Instance State Synchronizer
-- **3 new doctrines:** D-122 Manifest-as-Boot-Payload, D-123 Platform Split, D-124 Instance Interchangeability
-- **1 new invariant:** INV-43 Boot Manifest Freshness (24h max staleness, dual-source)
-- **TransparencyPacket v1.6:** 8 new fields across boot/research_queue/sync categories
-- **House fix:** M176-M178 correctly mapped to H07 Applied Sciences (spheres 74, 76, 83)
+- **Status:** CANONICAL → PROVISIONAL-CANONICAL (42 unratified doctrines)
+- **§3.4.1 Module Count Audit Table:** 18-row breakdown of all module ranges M1-M178
+- **D-78-D-82 RESERVED:** Intentional gap between ratified and proposed corpus documented
+- **Invariant count:** Corrected from 45 to 44 (INV-7c/INV-19.2 are sub-specs per §0.1)
+- **M16→M80 pointer fix:** Epistemic Weather correctly referenced in M173/M177
+- **M178 overclaim tightened:** "instance becomes interchangeable" → "instance state symmetry"
+- **Boot Protocol v2 Fallback Clause:** D-122 binding only after M176 DELIVERED
+- **§0.2 rule downgrade:** "must be executable" → "target state" with current-state annotation
 
 ## How to Use
 
@@ -95,8 +98,8 @@ Per D-123, artifacts are stored according to their nature:
 
 ## Versioning
 
-These artifacts are generated from the Build Plan and should be regenerated whenever the Build Plan is updated. The generator script is at `/home/ubuntu/regenerate_v3.8_artifacts.py`.
+These artifacts are generated from the Build Plan and should be regenerated whenever the Build Plan is updated. The generator script is at `/home/ubuntu/regenerate_v3.9_artifacts.py`.
 
 ---
 
-*ORC Codebase Artifacts v1.1 — Manus (S7 Build Seat) — April 28, 2026*
+*ORC Codebase Artifacts v1.2 — Manus (S7 Build Seat) — April 28, 2026*

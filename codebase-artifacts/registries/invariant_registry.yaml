@@ -2,7 +2,7 @@ metadata:
   version: '3.8'
   generated: '2026-04-28'
   total_invariants: 47
-  source: ORC-015 Build Plan v3.8
+  source: ORC-015 Build Plan v3.9
 invariants:
 - id: INV-0
   name: Nobody Dies
