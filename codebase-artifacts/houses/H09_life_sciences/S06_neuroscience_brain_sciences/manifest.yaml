@@ -1,0 +1,13 @@
+sphere:
+  id: H09-S06
+  house: H09
+  house_name: Life Sciences
+  sphere_id: S06
+  sphere_name: Neuroscience & Brain Sciences
+  sphere_number: 102
+modules: []
+invariants: []
+coverage:
+  module_count: 0
+  invariant_count: 0
+  status: EMPTY

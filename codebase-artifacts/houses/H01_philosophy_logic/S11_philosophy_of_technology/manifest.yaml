@@ -1,0 +1,13 @@
+sphere:
+  id: H01-S11
+  house: H01
+  house_name: Philosophy & Logic
+  sphere_id: S11
+  sphere_name: Philosophy of Technology
+  sphere_number: 11
+modules: []
+invariants: []
+coverage:
+  module_count: 0
+  invariant_count: 0
+  status: EMPTY

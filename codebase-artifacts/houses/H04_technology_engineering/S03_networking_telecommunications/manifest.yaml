@@ -1,0 +1,26 @@
+sphere:
+  id: H04-S03
+  house: H04
+  house_name: Technology & Engineering
+  sphere_id: S03
+  sphere_name: Networking & Telecommunications
+  sphere_number: 39
+modules:
+- id: M94
+  name: Network Protocol Analyzer
+  status: SPEC
+- id: M102
+  name: API Gateway
+  status: SPEC
+- id: M118
+  name: Switzerland Layer (Neutral Routing)
+  status: SPEC
+invariants:
+- id: INV-42
+  name: Stakeholder Notification
+  type: SOFT
+  scope: Federation
+coverage:
+  module_count: 3
+  invariant_count: 1
+  status: POPULATED

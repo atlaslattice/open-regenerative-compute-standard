@@ -1,0 +1,111 @@
+house:
+  id: H04
+  name: Technology & Engineering
+  sphere_count: 12
+  populated_spheres: 12
+total_modules: 25
+total_invariants: 9
+modules:
+- id: M100
+  name: Code Quality Analyzer
+  sphere: S01
+- id: M101
+  name: Model Training Monitor
+  sphere: S04
+- id: M102
+  name: API Gateway
+  sphere: S03
+- id: M103
+  name: Aerospace Simulation Engine
+  sphere: S07
+- id: M104
+  name: Franchise Consent Manager
+  sphere: S04
+- id: M118
+  name: Switzerland Layer (Neutral Routing)
+  sphere: S03
+- id: M119
+  name: Threat Intelligence Feed
+  sphere: S11
+- id: M120
+  name: CI/CD Pipeline Manager
+  sphere: S01
+- id: M121
+  name: Federated Learning Coordinator
+  sphere: S04
+- id: M122
+  name: FPGA Configuration Manager
+  sphere: S02
+- id: M123
+  name: Autonomous Vehicle Interface
+  sphere: S05
+- id: M124
+  name: Renewable Energy Tracker
+  sphere: S06
+- id: M125
+  name: Medical Device Interface
+  sphere: S08
+- id: M126
+  name: Structural Analysis Engine
+  sphere: S09
+- id: M127
+  name: Civic Compute Coordinator
+  sphere: S10
+- id: M128
+  name: CEO Collective Governance Module
+  sphere: S10
+- id: M174
+  name: Provider Retaliation Monitor
+  sphere: S11
+- id: M92
+  name: Software Architecture Validator
+  sphere: S01
+- id: M93
+  name: ML Pipeline Orchestrator
+  sphere: S04
+- id: M94
+  name: Network Protocol Analyzer
+  sphere: S03
+- id: M95
+  name: Hardware Abstraction Layer
+  sphere: S02
+- id: M96
+  name: Robotics Control Interface
+  sphere: S05
+- id: M97
+  name: Energy Grid Optimizer
+  sphere: S06
+- id: M98
+  name: Security Audit Engine
+  sphere: S11
+- id: M99
+  name: UX Accessibility Validator
+  sphere: S12
+invariants:
+- id: INV-19
+  name: Privacy Protection
+  sphere: S11
+- id: INV-19.2
+  name: Privacy Protection (Biometric)
+  sphere: S11
+- id: INV-21
+  name: Graceful Degradation
+  sphere: S01
+- id: INV-29
+  name: Autonomous Systems Safety
+  sphere: S05
+- id: INV-35
+  name: Child Safety
+  sphere: S12
+- id: INV-39
+  name: Energy Efficiency
+  sphere: S06
+- id: INV-42
+  name: Stakeholder Notification
+  sphere: S03
+- id: INV-6
+  name: Security Baseline
+  sphere: S11
+- id: INV-8
+  name: Availability SLA
+  sphere: S01

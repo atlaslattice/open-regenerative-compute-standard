@@ -1,0 +1,16 @@
+sphere:
+  id: H12-S12
+  house: H12
+  house_name: Law & Governance
+  sphere_id: S12
+  sphere_name: Comparative & Transnational Law
+  sphere_number: 144
+modules:
+- id: M154
+  name: Comparative Law Engine
+  status: SPEC
+invariants: []
+coverage:
+  module_count: 1
+  invariant_count: 0
+  status: POPULATED

@@ -1,0 +1,17 @@
+sphere:
+  id: H08-S04
+  house: H08
+  house_name: Education & Pedagogy
+  sphere_id: S04
+  sphere_name: Special Education & Inclusive Design
+  sphere_number: 88
+modules: []
+invariants:
+- id: INV-31
+  name: Accessibility
+  type: HARD
+  scope: Universal
+coverage:
+  module_count: 0
+  invariant_count: 1
+  status: POPULATED

@@ -1,0 +1,26 @@
+sphere:
+  id: H07-S04
+  house: H07
+  house_name: Applied Sciences
+  sphere_id: S04
+  sphere_name: Information Systems & Data Science
+  sphere_number: 76
+modules:
+- id: M134
+  name: Data Warehouse Manager
+  status: SPEC
+- id: M176
+  name: Boot Manifest Runtime
+  status: SPEC
+- id: M178
+  name: Cross-Instance State Synchronizer
+  status: SPEC
+invariants:
+- id: INV-43
+  name: Boot Manifest Freshness
+  type: HARD
+  scope: System
+coverage:
+  module_count: 3
+  invariant_count: 1
+  status: POPULATED

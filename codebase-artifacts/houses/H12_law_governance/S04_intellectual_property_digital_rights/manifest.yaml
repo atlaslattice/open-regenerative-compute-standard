@@ -1,0 +1,23 @@
+sphere:
+  id: H12-S04
+  house: H12
+  house_name: Law & Governance
+  sphere_id: S04
+  sphere_name: Intellectual Property & Digital Rights
+  sphere_number: 136
+modules:
+- id: M144
+  name: IP Rights Manager
+  status: SPEC
+- id: M158
+  name: Patent Prior Art Searcher
+  status: SPEC
+invariants:
+- id: INV-10
+  name: IP Protection
+  type: HARD
+  scope: Content
+coverage:
+  module_count: 2
+  invariant_count: 1
+  status: POPULATED

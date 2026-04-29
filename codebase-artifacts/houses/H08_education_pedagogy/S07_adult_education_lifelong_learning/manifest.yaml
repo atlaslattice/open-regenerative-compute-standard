@@ -1,0 +1,13 @@
+sphere:
+  id: H08-S07
+  house: H08
+  house_name: Education & Pedagogy
+  sphere_id: S07
+  sphere_name: Adult Education & Lifelong Learning
+  sphere_number: 91
+modules: []
+invariants: []
+coverage:
+  module_count: 0
+  invariant_count: 0
+  status: EMPTY

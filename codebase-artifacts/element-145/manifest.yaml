@@ -1,0 +1,11 @@
+element:
+  id: 145
+  name: Element 145 — Unified Sovereign Kernel
+  description: The meta-element that unifies all 144 spheres. The AI-native kernel
+    that orchestrates routing, governance, and constitutional enforcement across all
+    houses and spheres. ORC-012 TDD v0.2.
+  references:
+  - ORC-012 TDD v0.2
+  - SHUGS Lattice WP-004
+  - Build Plan §3.5 Innovation Registry
+  status: CANONICAL

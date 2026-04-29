@@ -1,16 +1,42 @@
 house:
   id: H07
   name: Applied Sciences
-  sphere_range: 73-84
-  total_spheres: 12
+  sphere_count: 12
+  populated_spheres: 6
+total_modules: 8
+total_invariants: 3
 modules:
-- id: M44
-  name: Orbital Metabolic Layer
+- id: M129
+  name: Agricultural Data Pipeline
+  sphere: S01
+- id: M132
+  name: Water Quality Monitor
+  sphere: S02
+- id: M133
+  name: Urban Planning Simulator
+  sphere: S03
+- id: M134
+  name: Data Warehouse Manager
+  sphere: S04
+- id: M135
+  name: Supply Chain Optimizer
+  sphere: S05
 - id: M176
   name: Boot Manifest Runtime
+  sphere: S04
 - id: M177
   name: Pre-Session Research Queue
+  sphere: S08
 - id: M178
   name: Cross-Instance State Synchronizer
-module_count: 4
-coverage: 4 modules assigned
+  sphere: S04
+invariants:
+- id: INV-28
+  name: Food Safety
+  sphere: S01
+- id: INV-41
+  name: Knowledge Preservation
+  sphere: S08
+- id: INV-43
+  name: Boot Manifest Freshness
+  sphere: S04

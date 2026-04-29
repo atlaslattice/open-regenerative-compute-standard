@@ -1,0 +1,23 @@
+sphere:
+  id: H05-S01
+  house: H05
+  house_name: Arts & Creative Expression
+  sphere_id: S01
+  sphere_name: Visual Arts & Design
+  sphere_number: 49
+modules:
+- id: M105
+  name: Visual Style Transfer Engine
+  status: SPEC
+- id: M110
+  name: Attribution Tracker
+  status: SPEC
+invariants:
+- id: INV-25
+  name: Creative Attribution
+  type: HARD
+  scope: Content
+coverage:
+  module_count: 2
+  invariant_count: 1
+  status: POPULATED

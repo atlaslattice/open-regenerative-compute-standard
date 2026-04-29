@@ -1,0 +1,13 @@
+sphere:
+  id: H03-S10
+  house: H03
+  house_name: Natural Sciences
+  sphere_id: S10
+  sphere_name: Thermodynamics & Statistical Mechanics
+  sphere_number: 34
+modules: []
+invariants: []
+coverage:
+  module_count: 0
+  invariant_count: 0
+  status: EMPTY

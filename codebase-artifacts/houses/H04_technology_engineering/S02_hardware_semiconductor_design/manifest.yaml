@@ -1,0 +1,19 @@
+sphere:
+  id: H04-S02
+  house: H04
+  house_name: Technology & Engineering
+  sphere_id: S02
+  sphere_name: Hardware & Semiconductor Design
+  sphere_number: 38
+modules:
+- id: M95
+  name: Hardware Abstraction Layer
+  status: SPEC
+- id: M122
+  name: FPGA Configuration Manager
+  status: SPEC
+invariants: []
+coverage:
+  module_count: 2
+  invariant_count: 0
+  status: POPULATED

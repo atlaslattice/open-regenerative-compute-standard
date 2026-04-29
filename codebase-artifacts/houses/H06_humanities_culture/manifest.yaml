@@ -1,0 +1,15 @@
+house:
+  id: H06
+  name: Humanities & Culture
+  sphere_count: 12
+  populated_spheres: 2
+total_modules: 0
+total_invariants: 2
+modules: []
+invariants:
+- id: INV-14
+  name: Cultural Sensitivity
+  sphere: S05
+- id: INV-26
+  name: Historical Accuracy
+  sphere: S01

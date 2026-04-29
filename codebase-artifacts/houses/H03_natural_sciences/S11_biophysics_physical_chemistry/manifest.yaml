@@ -1,0 +1,13 @@
+sphere:
+  id: H03-S11
+  house: H03
+  house_name: Natural Sciences
+  sphere_id: S11
+  sphere_name: Biophysics & Physical Chemistry
+  sphere_number: 35
+modules: []
+invariants: []
+coverage:
+  module_count: 0
+  invariant_count: 0
+  status: EMPTY

@@ -1,0 +1,13 @@
+sphere:
+  id: H03-S06
+  house: H03
+  house_name: Natural Sciences
+  sphere_id: S06
+  sphere_name: Oceanography & Marine Science
+  sphere_number: 30
+modules: []
+invariants: []
+coverage:
+  module_count: 0
+  invariant_count: 0
+  status: EMPTY

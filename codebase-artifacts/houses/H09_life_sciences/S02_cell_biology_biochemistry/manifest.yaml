@@ -1,0 +1,13 @@
+sphere:
+  id: H09-S02
+  house: H09
+  house_name: Life Sciences
+  sphere_id: S02
+  sphere_name: Cell Biology & Biochemistry
+  sphere_number: 98
+modules: []
+invariants: []
+coverage:
+  module_count: 0
+  invariant_count: 0
+  status: EMPTY

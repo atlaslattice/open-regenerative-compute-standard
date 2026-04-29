@@ -1,0 +1,16 @@
+sphere:
+  id: H05-S05
+  house: H05
+  house_name: Arts & Creative Expression
+  sphere_id: S05
+  sphere_name: Theater & Performance
+  sphere_number: 53
+modules:
+- id: M162a
+  name: Immersive Theater Engine
+  status: SPEC
+invariants: []
+coverage:
+  module_count: 1
+  invariant_count: 0
+  status: POPULATED

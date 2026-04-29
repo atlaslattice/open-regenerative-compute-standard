@@ -1,0 +1,17 @@
+sphere:
+  id: H11-S08
+  house: H11
+  house_name: Social Sciences
+  sphere_id: S08
+  sphere_name: Criminology & Justice Studies
+  sphere_number: 128
+modules: []
+invariants:
+- id: INV-34
+  name: Anti-Discrimination
+  type: HARD
+  scope: Universal
+coverage:
+  module_count: 0
+  invariant_count: 1
+  status: POPULATED

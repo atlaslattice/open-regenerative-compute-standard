@@ -1,0 +1,20 @@
+sphere:
+  id: H12-S11
+  house: H12
+  house_name: Law & Governance
+  sphere_id: S11
+  sphere_name: Dispute Resolution & Arbitration
+  sphere_number: 143
+modules:
+- id: M153
+  name: Arbitration Protocol
+  status: SPEC
+invariants:
+- id: INV-20
+  name: Dispute Resolution
+  type: SOFT
+  scope: Federation
+coverage:
+  module_count: 1
+  invariant_count: 1
+  status: POPULATED

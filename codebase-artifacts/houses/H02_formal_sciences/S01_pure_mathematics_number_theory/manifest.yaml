@@ -1,0 +1,34 @@
+sphere:
+  id: H02-S01
+  house: H02
+  house_name: Formal Sciences
+  sphere_id: S01
+  sphere_name: Pure Mathematics & Number Theory
+  sphere_number: 13
+modules:
+- id: M10
+  name: Mathematical Proof Engine
+  status: SPEC
+- id: M22
+  name: Theorem Prover
+  status: SPEC
+- id: M28
+  name: Number Theory Utilities
+  status: SPEC
+- id: M44
+  name: Constructive Mathematics Module
+  status: SPEC
+- id: M56
+  name: Proof Assistant Interface
+  status: SPEC
+- id: M68
+  name: Gödel Incompleteness Tracker
+  status: SPEC
+- id: M84
+  name: Axiom Consistency Checker
+  status: SPEC
+invariants: []
+coverage:
+  module_count: 7
+  invariant_count: 0
+  status: POPULATED

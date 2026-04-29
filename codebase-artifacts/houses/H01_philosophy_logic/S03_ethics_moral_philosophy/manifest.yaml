@@ -1,0 +1,32 @@
+sphere:
+  id: H01-S03
+  house: H01
+  house_name: Philosophy & Logic
+  sphere_id: S03
+  sphere_name: Ethics & Moral Philosophy
+  sphere_number: 3
+modules:
+- id: M7
+  name: Ethics Engine
+  status: SPEC
+invariants:
+- id: INV-0
+  name: Human Consent Supremacy
+  type: HARD
+  scope: Universal
+- id: INV-3
+  name: Transparency Obligation
+  type: HARD
+  scope: Universal
+- id: INV-11
+  name: Ethical Boundaries
+  type: HARD
+  scope: Universal
+- id: INV-11.8
+  name: Ethical Boundaries (Biological)
+  type: HARD
+  scope: H09/H10
+coverage:
+  module_count: 1
+  invariant_count: 4
+  status: POPULATED

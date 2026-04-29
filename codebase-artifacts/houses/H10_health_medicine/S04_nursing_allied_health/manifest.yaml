@@ -1,0 +1,13 @@
+sphere:
+  id: H10-S04
+  house: H10
+  house_name: Health & Medicine
+  sphere_id: S04
+  sphere_name: Nursing & Allied Health
+  sphere_number: 112
+modules: []
+invariants: []
+coverage:
+  module_count: 0
+  invariant_count: 0
+  status: EMPTY

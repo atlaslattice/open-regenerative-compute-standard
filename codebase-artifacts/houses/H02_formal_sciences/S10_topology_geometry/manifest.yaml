@@ -1,0 +1,34 @@
+sphere:
+  id: H02-S10
+  house: H02
+  house_name: Formal Sciences
+  sphere_id: S10
+  sphere_name: Topology & Geometry
+  sphere_number: 22
+modules:
+- id: M14
+  name: Topological Data Analyzer
+  status: SPEC
+- id: M27
+  name: Geometric Reasoning Module
+  status: SPEC
+- id: M35
+  name: Manifold Learning Module
+  status: SPEC
+- id: M51
+  name: Knot Theory Module
+  status: SPEC
+- id: M62
+  name: Persistent Homology Engine
+  status: SPEC
+- id: M73
+  name: Differential Geometry Engine
+  status: SPEC
+- id: M89
+  name: Algebraic Topology Module
+  status: SPEC
+invariants: []
+coverage:
+  module_count: 7
+  invariant_count: 0
+  status: POPULATED

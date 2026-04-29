@@ -1,0 +1,13 @@
+sphere:
+  id: H11-S09
+  house: H11
+  house_name: Social Sciences
+  sphere_id: S09
+  sphere_name: Social Work & Welfare
+  sphere_number: 129
+modules: []
+invariants: []
+coverage:
+  module_count: 0
+  invariant_count: 0
+  status: EMPTY

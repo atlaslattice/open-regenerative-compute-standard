@@ -1,0 +1,78 @@
+house:
+  id: H05
+  name: Arts & Creative Expression
+  sphere_count: 12
+  populated_spheres: 12
+total_modules: 22
+total_invariants: 1
+modules:
+- id: M105
+  name: Visual Style Transfer Engine
+  sphere: S01
+- id: M106
+  name: Music Generation Pipeline
+  sphere: S02
+- id: M107
+  name: Creative Writing Assistant
+  sphere: S03
+- id: M108
+  name: Video Production Pipeline
+  sphere: S04
+- id: M109
+  name: Digital Art Generator
+  sphere: S07
+- id: M110
+  name: Attribution Tracker
+  sphere: S01
+- id: M111
+  name: Style Fingerprint Detector
+  sphere: S02
+- id: M112
+  name: Derivative Work Analyzer
+  sphere: S03
+- id: M113
+  name: Fair Use Evaluator
+  sphere: S04
+- id: M162a
+  name: Immersive Theater Engine
+  sphere: S05
+- id: M162b
+  name: Spatial Computing Interface
+  sphere: S11
+- id: M163
+  name: Architectural Visualization
+  sphere: S06
+- id: M164
+  name: Computational Photography
+  sphere: S09
+- id: M165
+  name: Generative Craft Engine
+  sphere: S10
+- id: M166
+  name: Animation Pipeline
+  sphere: S12
+- id: M167
+  name: Game IP Sovereignty Registry
+  sphere: S08
+- id: M168
+  name: Content Rating Constitutional Gate
+  sphere: S08
+- id: M169
+  name: Esports & Competitive Integrity Engine
+  sphere: S08
+- id: M170
+  name: Cloud Gaming Sovereignty Router
+  sphere: S08
+- id: M171
+  name: Game Preservation & Cultural Heritage Engine
+  sphere: S08
+- id: M172
+  name: Civic Compute Reuse Engine
+  sphere: S08
+- id: M175
+  name: Interactive-Kinetic Rights Harmonizer
+  sphere: S11
+invariants:
+- id: INV-25
+  name: Creative Attribution
+  sphere: S01

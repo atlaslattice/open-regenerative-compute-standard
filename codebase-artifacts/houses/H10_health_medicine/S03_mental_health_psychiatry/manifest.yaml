@@ -1,0 +1,13 @@
+sphere:
+  id: H10-S03
+  house: H10
+  house_name: Health & Medicine
+  sphere_id: S03
+  sphere_name: Mental Health & Psychiatry
+  sphere_number: 111
+modules: []
+invariants: []
+coverage:
+  module_count: 0
+  invariant_count: 0
+  status: EMPTY

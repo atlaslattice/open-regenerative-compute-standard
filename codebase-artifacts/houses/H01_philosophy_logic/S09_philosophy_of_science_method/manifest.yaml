@@ -1,0 +1,13 @@
+sphere:
+  id: H01-S09
+  house: H01
+  house_name: Philosophy & Logic
+  sphere_id: S09
+  sphere_name: Philosophy of Science & Method
+  sphere_number: 9
+modules: []
+invariants: []
+coverage:
+  module_count: 0
+  invariant_count: 0
+  status: EMPTY

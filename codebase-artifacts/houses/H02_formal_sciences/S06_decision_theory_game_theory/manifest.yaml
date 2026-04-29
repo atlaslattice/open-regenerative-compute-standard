@@ -1,0 +1,37 @@
+sphere:
+  id: H02-S06
+  house: H02
+  house_name: Formal Sciences
+  sphere_id: S06
+  sphere_name: Decision Theory & Game Theory
+  sphere_number: 18
+modules:
+- id: M9
+  name: Game Theory Optimizer
+  status: SPEC
+- id: M21
+  name: Strategic Reasoning Engine
+  status: SPEC
+- id: M31
+  name: Mechanism Design Module
+  status: SPEC
+- id: M43
+  name: Auction Theory Engine
+  status: SPEC
+- id: M55
+  name: Voting Theory Module
+  status: SPEC
+- id: M67
+  name: Nash Equilibrium Finder
+  status: SPEC
+- id: M78
+  name: Cooperative Game Solver
+  status: SPEC
+- id: M91
+  name: Social Choice Function
+  status: SPEC
+invariants: []
+coverage:
+  module_count: 8
+  invariant_count: 0
+  status: POPULATED

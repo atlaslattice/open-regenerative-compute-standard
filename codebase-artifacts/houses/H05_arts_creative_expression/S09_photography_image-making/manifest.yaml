@@ -1,0 +1,16 @@
+sphere:
+  id: H05-S09
+  house: H05
+  house_name: Arts & Creative Expression
+  sphere_id: S09
+  sphere_name: Photography & Image-Making
+  sphere_number: 57
+modules:
+- id: M164
+  name: Computational Photography
+  status: SPEC
+invariants: []
+coverage:
+  module_count: 1
+  invariant_count: 0
+  status: POPULATED

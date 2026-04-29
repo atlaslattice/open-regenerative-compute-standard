@@ -1,0 +1,19 @@
+sphere:
+  id: H12-S05
+  house: H12
+  house_name: Law & Governance
+  sphere_id: S05
+  sphere_name: Environmental & Climate Law
+  sphere_number: 137
+modules:
+- id: M147
+  name: Environmental Compliance Tracker
+  status: SPEC
+- id: M159
+  name: Carbon Credit Validator
+  status: SPEC
+invariants: []
+coverage:
+  module_count: 2
+  invariant_count: 0
+  status: POPULATED

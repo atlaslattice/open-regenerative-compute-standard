@@ -1,0 +1,16 @@
+sphere:
+  id: H05-S10
+  house: H05
+  house_name: Arts & Creative Expression
+  sphere_id: S10
+  sphere_name: Craft & Material Arts
+  sphere_number: 58
+modules:
+- id: M165
+  name: Generative Craft Engine
+  status: SPEC
+invariants: []
+coverage:
+  module_count: 1
+  invariant_count: 0
+  status: POPULATED

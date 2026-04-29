@@ -1,0 +1,13 @@
+sphere:
+  id: H01-S08
+  house: H01
+  house_name: Philosophy & Logic
+  sphere_id: S08
+  sphere_name: Political Philosophy & Justice
+  sphere_number: 8
+modules: []
+invariants: []
+coverage:
+  module_count: 0
+  invariant_count: 0
+  status: EMPTY

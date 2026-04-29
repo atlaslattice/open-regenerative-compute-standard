@@ -1,0 +1,13 @@
+sphere:
+  id: H08-S12
+  house: H08
+  house_name: Education & Pedagogy
+  sphere_id: S12
+  sphere_name: Indigenous & Place-Based Education
+  sphere_number: 96
+modules: []
+invariants: []
+coverage:
+  module_count: 0
+  invariant_count: 0
+  status: EMPTY

@@ -1,0 +1,13 @@
+sphere:
+  id: H03-S01
+  house: H03
+  house_name: Natural Sciences
+  sphere_id: S01
+  sphere_name: Physics & Cosmology
+  sphere_number: 25
+modules: []
+invariants: []
+coverage:
+  module_count: 0
+  invariant_count: 0
+  status: EMPTY

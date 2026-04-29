@@ -1,0 +1,13 @@
+sphere:
+  id: H10-S05
+  house: H10
+  house_name: Health & Medicine
+  sphere_id: S05
+  sphere_name: Nutrition & Dietetics
+  sphere_number: 113
+modules: []
+invariants: []
+coverage:
+  module_count: 0
+  invariant_count: 0
+  status: EMPTY

@@ -1,0 +1,13 @@
+sphere:
+  id: H06-S09
+  house: H06
+  house_name: Humanities & Culture
+  sphere_id: S09
+  sphere_name: Gender & Sexuality Studies
+  sphere_number: 69
+modules: []
+invariants: []
+coverage:
+  module_count: 0
+  invariant_count: 0
+  status: EMPTY

@@ -1,0 +1,13 @@
+sphere:
+  id: H03-S04
+  house: H03
+  house_name: Natural Sciences
+  sphere_id: S04
+  sphere_name: Astronomy & Astrophysics
+  sphere_number: 28
+modules: []
+invariants: []
+coverage:
+  module_count: 0
+  invariant_count: 0
+  status: EMPTY

@@ -1,1096 +1,916 @@
 metadata:
-  version: '3.12'
-  source: Build Plan v3.11 (ORC-015)
-  generated_by: Manus S7
-  total_module_entries: 178
-  counting_rule: Count by module entry. 164 L4 base integers + 12 sub-modules = 176
-    L4 entries + 3 L6/L7 = 179 total entries.
-  l4_entries: 176
-  l6l7_entries: 3
-  sub_modules:
-  - M3.1
-  - M3a
-  - M6a
-  - M6b
-  - M15a
-  - M17a
-  - M17b
-  - M25a
-  - M25b
-  - M25c
-  - M162a
-  - M162b
-  reserved_gaps:
-  - M36-M39 (never allocated)
-  - M93-M98 (Indiana Genesis renumbering)
-  replaced:
-  - M162 -> M162a + M162b
+  version: '3.14'
+  generated_from: COMPLETE_BUILD_PLAN_v3.14.md
+  total_modules: 182
+  total_houses_with_modules: 10
 modules:
-- id: M1
-  name: Epistemic State Classifier
-  layer: L4
-  house: H02
-  is_sub_module: false
+- id: M8
+  name: Epistemic Integrity Validator
+  house: H01
+  sphere: S02
   status: SPEC
-- id: M2
-  name: Safety State Classifier
-  layer: L4
-  house: H02
-  is_sub_module: false
-  status: SPEC
-- id: M3
-  name: Routing Engine
-  layer: L4
-  house: H02
-  is_sub_module: false
-  status: SPEC
-- id: M3.1
-  name: TSS Formula
-  layer: L4
-  house: H02
-  is_sub_module: true
-  status: SPEC
-- id: M3a
-  name: Multi-Polar Routing Table
-  layer: L4
-  house: H02
-  is_sub_module: true
-  status: SPEC
-- id: M4
-  name: TransparencyPacket Emitter
-  layer: L4
-  house: H02
-  is_sub_module: false
-  status: SPEC
-- id: M5
-  name: Budget Manager
-  layer: L4
-  house: H02
-  is_sub_module: false
-  status: SPEC
-- id: M6
-  name: Provenance Ledger (AuditChain v1)
-  layer: L4
-  house: H02
-  is_sub_module: false
-  status: SPEC
-- id: M6a
-  name: Open-Weight Provenance Verifier
-  layer: L4
-  house: H02
-  is_sub_module: true
-  status: SPEC
-- id: M6b
-  name: Provenance Genome
-  layer: L4
-  house: H02
-  is_sub_module: true
+- id: M8a
+  name: Epistemic Integrity CN Adapter
+  house: H01
+  sphere: S02
   status: SPEC
 - id: M7
-  name: Confabulation Detector (3-layer)
-  layer: L4
-  house: H02
-  is_sub_module: false
-  status: SPEC
-- id: M8
-  name: Eastern Review Module
-  layer: L4
-  house: H02
-  is_sub_module: false
-  status: SPEC
-- id: M9
-  name: MSP-001 Safety Boundary
-  layer: L4
-  house: H02
-  is_sub_module: false
+  name: Ethics Engine
+  house: H01
+  sphere: S03
   status: SPEC
 - id: M10
-  name: Test Harness
-  layer: L4
+  name: Mathematical Proof Engine
   house: H02
-  is_sub_module: false
-  status: SPEC
-- id: M11
-  name: Pipeline Orchestrator
-  layer: L4
-  house: H02
-  is_sub_module: false
-  status: SPEC
-- id: M12
-  name: Task Generator
-  layer: L4
-  house: H02
-  is_sub_module: false
-  status: SPEC
-- id: M13
-  name: Three-Tier Archive
-  layer: L4
-  house: H02
-  is_sub_module: false
-  status: SPEC
-- id: M14
-  name: Ingestion Service
-  layer: L4
-  house: H02
-  is_sub_module: false
-  status: SPEC
-- id: M15
-  name: Model Router
-  layer: L4
-  house: H02
-  is_sub_module: false
-  status: SPEC
-- id: M15a
-  name: Model Fingerprint Verifier
-  layer: L4
-  house: H02
-  is_sub_module: true
-  status: SPEC
-- id: M16
-  name: Learning Loop
-  layer: L4
-  house: H02
-  is_sub_module: false
-  status: SPEC
-- id: M17
-  name: Permission/Approval Engine
-  layer: L4
-  house: H02
-  is_sub_module: false
-  status: SPEC
-- id: M17a
-  name: Sovereignty Bound Exception
-  layer: L4
-  house: H02
-  is_sub_module: true
-  status: SPEC
-- id: M17b
-  name: Sovereignty Gradient
-  layer: L4
-  house: H02
-  is_sub_module: true
-  status: SPEC
-- id: M18
-  name: Hardware Trust CN
-  layer: L4
-  house: H04
-  is_sub_module: false
-  status: SPEC
-- id: M19
-  name: Bhashini-MCP Bridge
-  layer: L4
-  house: H04
-  is_sub_module: false
-  status: SPEC
-- id: M20
-  name: Arabic-Constitutional Bridge
-  layer: L4
-  house: H04
-  is_sub_module: false
-  status: SPEC
-- id: M21
-  name: Saudi Grid Adapter
-  layer: L4
-  house: H04
-  is_sub_module: false
+  sphere: S01
   status: SPEC
 - id: M22
-  name: China Metabolic Pre-Fetch
-  layer: L4
-  house: H04
-  is_sub_module: false
-  status: SPEC
-- id: M23
-  name: Bamboo Bridge
-  layer: L4
-  house: H12
-  is_sub_module: false
-  status: SPEC
-- id: M24
-  name: Three-Body Validation
-  layer: L4
-  house: H12
-  is_sub_module: false
-  status: SPEC
-- id: M25
-  name: Digital Mandate of Heaven
-  layer: L4
-  house: H01
-  is_sub_module: false
-  status: SPEC
-- id: M25a
-  name: VWB Calculator
-  layer: L4
-  house: H01
-  is_sub_module: true
-  status: SPEC
-- id: M25b
-  name: Regional Water Accounting Profiles
-  layer: L4
-  house: H01
-  is_sub_module: true
-  status: SPEC
-- id: M25c
-  name: Water TransparencyPacket
-  layer: L4
-  house: H01
-  is_sub_module: true
-  status: SPEC
-- id: M26
-  name: Persistent Researcher
-  layer: L4
-  house: H04
-  is_sub_module: false
-  status: SPEC
-- id: M27
-  name: Constitutional Compiler
-  layer: L4
-  house: H12
-  is_sub_module: false
+  name: Theorem Prover
+  house: H02
+  sphere: S01
   status: SPEC
 - id: M28
-  name: Session Handoff
-  layer: L4
-  house: H04
-  is_sub_module: false
-  status: SPEC
-- id: M29
-  name: Constitutional API
-  layer: L4
-  house: H04
-  is_sub_module: false
-  status: SPEC
-- id: M30
-  name: Cross-Task Memory Bridge
-  layer: L4
-  house: H04
-  is_sub_module: false
-  status: SPEC
-- id: M31
-  name: Manus API Orchestrator
-  layer: L4
-  house: H04
-  is_sub_module: false
-  status: SPEC
-- id: M32
-  name: Notion Governance Loop Controller
-  layer: L4
-  house: H04
-  is_sub_module: false
-  status: SPEC
-- id: M33
-  name: Multi-Agent Session Fabric
-  layer: L4
-  house: H04
-  is_sub_module: false
-  status: SPEC
-- id: M34
-  name: Structured Output Validator
-  layer: L4
+  name: Number Theory Utilities
   house: H02
-  is_sub_module: false
-  status: SPEC
-- id: M35
-  name: Doctrine Evaluation Engine
-  layer: L4
-  house: H12
-  is_sub_module: false
-  status: SPEC
-- id: M40
-  name: Quantum Sovereignty Adapter
-  layer: L4
-  house: H04
-  is_sub_module: false
-  status: SPEC
-- id: M41
-  name: AI Treaty Arbitration Module
-  layer: L4
-  house: H04
-  is_sub_module: false
-  status: SPEC
-- id: M42
-  name: e-CNY Dividend Rail
-  layer: L4
-  house: H04
-  is_sub_module: false
-  status: SPEC
-- id: M43
-  name: Neural Data Sovereignty Module
-  layer: L4
-  house: H10
-  is_sub_module: false
+  sphere: S01
   status: SPEC
 - id: M44
-  name: Orbital Metabolic Layer
-  layer: L4
-  house: H07
-  is_sub_module: false
-  status: SPEC
-- id: M45
-  name: Cultural Data Synthesizer
-  layer: L4
-  house: H04
-  is_sub_module: false
-  status: SPEC
-- id: M46
-  name: Glass Takeover Shell
-  layer: L6/L7
-  house: H04
-  is_sub_module: false
-  status: SPEC
-- id: M47
-  name: Governance Bridge
-  layer: L6/L7
-  house: H04
-  is_sub_module: false
-  status: SPEC
-- id: M48
-  name: 52-Module React Frontend
-  layer: L6/L7
-  house: H04
-  is_sub_module: false
-  status: SPEC
-- id: M49
-  name: Kernel-Level Kiosk Watchdog
-  layer: L4
-  house: H04
-  is_sub_module: false
-  status: SPEC
-- id: M50
-  name: Soil Pulse API (Proof-of-Biological-Work)
-  layer: L4
-  house: H01
-  is_sub_module: false
-  status: SPEC
-- id: M51
-  name: Spatial HUD Bridge
-  layer: L4
-  house: H01
-  is_sub_module: false
-  status: SPEC
-- id: M52
-  name: UDS Fast-Path
-  layer: L4
-  house: H01
-  is_sub_module: false
-  status: SPEC
-- id: M53
-  name: Constitutional Interoperability Treaty Protocol
-  layer: L4
-  house: H01
-  is_sub_module: false
-  status: SPEC
-- id: M54
-  name: Regenerative Compute Certificate (RCC) Standard
-  layer: L4
-  house: H01
-  is_sub_module: false
-  status: SPEC
-- id: M55
-  name: Qwen3-VL Spatial Reasoning Bridge
-  layer: L4
-  house: H01
-  is_sub_module: false
+  name: Constructive Mathematics Module
+  house: H02
+  sphere: S01
   status: SPEC
 - id: M56
-  name: Civilizational Frame Detection API
-  layer: L4
-  house: H01
-  is_sub_module: false
-  status: SPEC
-- id: M57
-  name: Sheldonbrain Parser
-  layer: L4
+  name: Proof Assistant Interface
   house: H02
-  is_sub_module: false
-  status: SPEC
-- id: M58
-  name: Ontology Validator (9-Gate)
-  layer: L4
-  house: H02
-  is_sub_module: false
-  status: SPEC
-- id: M59
-  name: Constitutional Compiler
-  layer: L4
-  house: H02
-  is_sub_module: false
-  status: SPEC
-- id: M60
-  name: Ontology Context Injector
-  layer: L4
-  house: H02
-  is_sub_module: false
-  status: SPEC
-- id: M61
-  name: Ontological Routing Kernel
-  layer: L4
-  house: H02
-  is_sub_module: false
-  status: SPEC
-- id: M62
-  name: Sheldonbrain RAG Pipeline
-  layer: L4
-  house: H02
-  is_sub_module: false
-  status: SPEC
-- id: M63
-  name: Parser-Filesystem Symmetry Gate
-  layer: L4
-  house: H02
-  is_sub_module: false
-  status: SPEC
-- id: M64
-  name: Provider Translation Engine
-  layer: L4
-  house: H02
-  is_sub_module: false
-  status: SPEC
-- id: M65
-  name: Coverage Heat Map Generator
-  layer: L4
-  house: H02
-  is_sub_module: false
-  status: SPEC
-- id: M66
-  name: Provider-Aware Ingestion Pipeline
-  layer: L4
-  house: H02
-  is_sub_module: false
-  status: SPEC
-- id: M67
-  name: Cross-House Symlink Manager
-  layer: L4
-  house: H02
-  is_sub_module: false
+  sphere: S01
   status: SPEC
 - id: M68
-  name: Federation Complementarity Engine
-  layer: L4
-  house: H12
-  is_sub_module: false
-  status: SPEC
-- id: M69
-  name: Gap Sphere Router
-  layer: L4
-  house: H12
-  is_sub_module: false
-  status: SPEC
-- id: M70
-  name: CEO Collective Routing Authority Registry
-  layer: L4
-  house: H12
-  is_sub_module: false
-  status: SPEC
-- id: M71
-  name: Cross-Provider Cognitive Router
-  layer: L4
+  name: Gödel Incompleteness Tracker
   house: H02
-  is_sub_module: false
-  status: SPEC
-- id: M72
-  name: Cold House Stimulation Engine
-  layer: L4
-  house: H02
-  is_sub_module: false
-  status: SPEC
-- id: M73
-  name: Universal Capability API
-  layer: L4
-  house: H02
-  is_sub_module: false
-  status: SPEC
-- id: M74
-  name: Disagreement Router
-  layer: L4
-  house: H02
-  is_sub_module: false
-  status: SPEC
-- id: M75
-  name: Council Cross-Validation Matrix
-  layer: L4
-  house: H02
-  is_sub_module: false
-  status: SPEC
-- id: M76
-  name: Content Compliance Daemon
-  layer: L4
-  house: H02
-  is_sub_module: false
-  status: SPEC
-- id: M77
-  name: GoldenTrace-CN (BSN Triple-Vault)
-  layer: L4
-  house: H02
-  is_sub_module: false
-  status: SPEC
-- id: M78
-  name: GB-Agent Bridge
-  layer: L4
-  house: H02
-  is_sub_module: false
-  status: SPEC
-- id: M79
-  name: TSS+ Primacy-Weighted Router
-  layer: L4
-  house: H02
-  is_sub_module: false
-  status: SPEC
-- id: M80
-  name: Epistemic Weather Overlay
-  layer: L4
-  house: H02
-  is_sub_module: false
-  status: SPEC
-- id: M81
-  name: Parallel Lane CI/CD Gate
-  layer: L4
-  house: H02
-  is_sub_module: false
-  status: SPEC
-- id: M82
-  name: CEO Deliberation Kernel
-  layer: L4
-  house: H12
-  is_sub_module: false
-  status: SPEC
-- id: M83
-  name: Frame-Aware Dashboard
-  layer: L4
-  house: H12
-  is_sub_module: false
+  sphere: S01
   status: SPEC
 - id: M84
-  name: Red Team PR Simulation
-  layer: L4
-  house: H12
-  is_sub_module: false
-  status: SPEC
-- id: M85
-  name: Guaranteed Offtake Contract Engine
-  layer: L4
-  house: H04
-  is_sub_module: false
-  status: SPEC
-- id: M86
-  name: Wet Lab Verification Gate
-  layer: L4
-  house: H04
-  is_sub_module: false
-  status: SPEC
-- id: M87
-  name: Utility Redemption Engine
-  layer: L4
-  house: H11
-  is_sub_module: false
-  status: SPEC
-- id: M88
-  name: Consensus Threshold Calibrator
-  layer: L4
-  house: H01
-  is_sub_module: false
-  status: SPEC
-- id: M89
-  name: Predictive Nutrient Cycling Engine
-  layer: L4
-  house: H01
-  is_sub_module: false
-  status: SPEC
-- id: M90
-  name: Molecular Sovereignty Verifier
-  layer: L4
-  house: H01
-  is_sub_module: false
-  status: SPEC
-- id: M91
-  name: Kinetic Sovereign Credit
-  layer: L4
-  house: H01
-  is_sub_module: false
-  status: SPEC
-- id: M99
-  name: Predictive Nutrient Routing Engine
-  layer: L4
-  house: H01
-  is_sub_module: false
-  status: SPEC
-- id: M100
-  name: Molecular Sovereignty Engine
-  layer: L4
-  house: H01
-  is_sub_module: false
-  status: SPEC
-- id: M101
-  name: Kinetic Sovereign Credit Engine
-  layer: L4
-  house: H01
-  is_sub_module: false
-  status: SPEC
-- id: M102
-  name: Cognitive Diversity Weighting
-  layer: L4
-  house: H01
-  is_sub_module: false
-  status: SPEC
-- id: M103
-  name: Enhanced TSS+ (Muskverse Primacy)
-  layer: L4
-  house: H01
-  is_sub_module: false
-  status: SPEC
-- id: M104
-  name: Stacked Incentives TP Field
-  layer: L4
+  name: Axiom Consistency Checker
   house: H02
-  is_sub_module: false
+  sphere: S01
   status: SPEC
-- id: M105
-  name: Cross-Provider Symbiosis Router
-  layer: L4
-  house: H01
-  is_sub_module: false
-  status: SPEC
-- id: M106
-  name: CEO Collective Deliberation Kernel v2
-  layer: L4
-  house: H01
-  is_sub_module: false
-  status: SPEC
-- id: M107
-  name: Civilizational Frame Detector
-  layer: L4
-  house: H01
-  is_sub_module: false
-  status: SPEC
-- id: M108
-  name: Federation Substrate Health Dashboard
-  layer: L4
-  house: H01
-  is_sub_module: false
-  status: SPEC
-- id: M109
-  name: Bezosverse Flywheel Symbiosis Engine
-  layer: L4
-  house: H11
-  is_sub_module: false
-  status: SPEC
-- id: M110
-  name: Commerce-Physical Integration Router
-  layer: L4
-  house: H11
-  is_sub_module: false
-  status: SPEC
-- id: M111
-  name: Notion Ratification & Lock Engine
-  layer: L4
-  house: H11
-  is_sub_module: false
-  status: SPEC
-- id: M112
-  name: Council Votes Cross-Validation DB
-  layer: L4
-  house: H04
-  is_sub_module: false
-  status: SPEC
-- id: M113
-  name: Translation Tables Registry (Notion)
-  layer: L4
-  house: H04
-  is_sub_module: false
-  status: SPEC
-- id: M114
-  name: Deliberation-as-Data Engine
-  layer: L4
-  house: H04
-  is_sub_module: false
-  status: SPEC
-- id: M115
-  name: Notion Governance Pack Template
-  layer: L4
-  house: H04
-  is_sub_module: false
-  status: SPEC
-- id: M116
-  name: Stochastic Simulation Engine
-  layer: L4
+- id: M16
+  name: Statistical Inference Engine
   house: H02
-  is_sub_module: false
-  status: SPEC
-- id: M117
-  name: Qwen3/Alibaba Vendor Suite (§Y.1-Y.8)
-  layer: L4
-  house: H02
-  is_sub_module: false
-  status: SPEC
-- id: M118
-  name: Switzerland One-Click Federation Layer
-  layer: L4
-  house: H12
-  is_sub_module: false
-  status: SPEC
-- id: M119
-  name: Identity Triad ConsentKernel Policy Engine
-  layer: L4
-  house: H12
-  is_sub_module: false
-  status: SPEC
-- id: M120
-  name: X Identity Provider Integration
-  layer: L4
-  house: H12
-  is_sub_module: false
-  status: SPEC
-- id: M121
-  name: DeepSeek One-Click Adapter (Chinese Sovereignty)
-  layer: L4
-  house: H12
-  is_sub_module: false
-  status: SPEC
-- id: M122
-  name: Azure-Muskverse Compute Symbiosis
-  layer: L4
-  house: H12
-  is_sub_module: false
-  status: SPEC
-- id: M123
-  name: Entra Identity Triad + Grok Truth Lens
-  layer: L4
-  house: H12
-  is_sub_module: false
-  status: SPEC
-- id: M124
-  name: Amazon LWA One-Click Adapter (Alexa Integration)
-  layer: L4
-  house: H12
-  is_sub_module: false
-  status: SPEC
-- id: M125
-  name: Universal Provider Credential Vault
-  layer: L4
-  house: H12
-  is_sub_module: false
-  status: SPEC
-- id: M126
-  name: W3C Agent Identity Resolver
-  layer: L4
-  house: H04
-  is_sub_module: false
-  status: SPEC
-- id: M127
-  name: Carbon-Aware Inference Router
-  layer: L4
-  house: H04
-  is_sub_module: false
-  status: SPEC
-- id: M128
-  name: x402 Micropayment Rail
-  layer: L4
-  house: H04
-  is_sub_module: false
-  status: SPEC
-- id: M129
-  name: Passkey Hardware Root Adapter
-  layer: L4
-  house: H04
-  is_sub_module: false
-  status: SPEC
-- id: M130
-  name: Logic Monopoly Detector
-  layer: L4
-  house: H04
-  is_sub_module: false
-  status: SPEC
-- id: M131
-  name: KYA Credential Envelope
-  layer: L4
-  house: H04
-  is_sub_module: false
-  status: SPEC
-- id: M132
-  name: Regenerative Credit Tokenizer
-  layer: L4
-  house: H04
-  is_sub_module: false
-  status: SPEC
-- id: M133
-  name: Constitutional SoP Bridge
-  layer: L4
-  house: H04
-  is_sub_module: false
-  status: SPEC
-- id: M134
-  name: PyO3 Constitutional Bridge
-  layer: L4
-  house: H04
-  is_sub_module: false
-  status: SPEC
-- id: M135
-  name: Windows IoT Civic Terminal
-  layer: L4
-  house: H04
-  is_sub_module: false
-  status: SPEC
-- id: M136
-  name: CEO Collective Telemetry Dashboard
-  layer: L4
-  house: H04
-  is_sub_module: false
-  status: SPEC
-- id: M137
-  name: Quantum PFAS Simulation Pipeline
-  layer: L4
-  house: H04
-  is_sub_module: false
-  status: SPEC
-- id: M138
-  name: Constitutional OS v6.0.2 Reference Implementation
-  layer: L4
-  house: H04
-  is_sub_module: false
-  status: SPEC
-- id: M139
-  name: v6.0.2 Drift Reconciliation Engine
-  layer: L4
-  house: H02
-  is_sub_module: false
-  status: SPEC
-- id: M140
-  name: 10K TPU Simulation Framework
-  layer: L4
-  house: H02
-  is_sub_module: false
-  status: SPEC
-- id: M141
-  name: Trace Marketplace Revenue Engine
-  layer: L4
-  house: H02
-  is_sub_module: false
-  status: SPEC
-- id: M142
-  name: Provider Terms Compliance Gate
-  layer: L4
-  house: H12
-  is_sub_module: false
-  status: SPEC
-- id: M143
-  name: TOS Version Monitor
-  layer: L4
-  house: H12
-  is_sub_module: false
-  status: SPEC
-- id: M144
-  name: TOS Compliance Shield
-  layer: L4
-  house: H12
-  is_sub_module: false
-  status: SPEC
-- id: M145
-  name: Provider Policy Profile Registry
-  layer: L4
-  house: H12
-  is_sub_module: false
-  status: SPEC
-- id: M146
-  name: DragonSeek Sovereign Deployment
-  layer: L4
-  house: H12
-  is_sub_module: false
-  status: SPEC
-- id: M147
-  name: GangaSeek Sovereign Deployment
-  layer: L4
-  house: H12
-  is_sub_module: false
-  status: SPEC
-- id: M148
-  name: JinnSeek Sovereign Deployment
-  layer: L4
-  house: H06
-  is_sub_module: false
-  status: SPEC
-- id: M149
-  name: VWB v1.1 Sustainability Ceiling Engine
-  layer: L4
-  house: H06
-  is_sub_module: false
-  status: SPEC
-- id: M150
-  name: Mandate of Heaven Scoring Engine
-  layer: L4
-  house: H06
-  is_sub_module: false
-  status: SPEC
-- id: M151
-  name: Water TransparencyPacket Extension
-  layer: L4
-  house: H06
-  is_sub_module: false
-  status: SPEC
-- id: M152
-  name: Bamboo Bridge Universal Protocol Translator
-  layer: L4
-  house: H06
-  is_sub_module: false
-  status: SPEC
-- id: M153
-  name: Three-Body Constitutional Reasoning Engine
-  layer: L4
-  house: H06
-  is_sub_module: false
-  status: SPEC
-- id: M154
-  name: v6.0.4 Council Round 3 Integration Patch
-  layer: L4
-  house: H06
-  is_sub_module: false
-  status: SPEC
-- id: M155
-  name: v6.0.6 VWB Sovereignty Extension
-  layer: L4
-  house: H06
-  is_sub_module: false
-  status: SPEC
-- id: M156
-  name: Pantheon Federation Coverage Engine
-  layer: L4
-  house: H12
-  is_sub_module: false
-  status: SPEC
-- id: M157
-  name: Parallel Lane Code Authorship Controller
-  layer: L4
-  house: H02
-  is_sub_module: false
-  status: SPEC
-- id: M158
-  name: Visual Arts Constitutional Provenance Engine
-  layer: L4
-  house: H05
-  is_sub_module: false
-  status: SPEC
-- id: M159
-  name: Music Licensing & Royalty Router
-  layer: L4
-  house: H05
-  is_sub_module: false
-  status: SPEC
-- id: M160
-  name: Film & Digital Replica Governance Engine
-  layer: L4
-  house: H05
-  is_sub_module: false
-  status: SPEC
-- id: M161
-  name: Design System Coherence & Accessibility Engine
-  layer: L4
-  house: H05
-  is_sub_module: false
-  status: SPEC
-- id: M162a
-  name: Deterministic Attribution Chain Engine
-  layer: L4
-  house: H05
-  is_sub_module: true
-  status: SPEC
-- id: M162b
-  name: Probabilistic Influence Estimation Engine
-  layer: L4
-  house: H05
-  is_sub_module: true
-  status: SPEC
-- id: M163
-  name: Style Sovereignty Consent Registry
-  layer: L4
-  house: H05
-  is_sub_module: false
-  status: SPEC
-- id: M164
-  name: Sacred Imagery Filter
-  layer: L4
-  house: H05
-  is_sub_module: false
-  status: SPEC
-- id: M165
-  name: Creative Fast Path Cache
-  layer: L4
-  house: H05
-  is_sub_module: false
-  status: SPEC
-- id: M166
-  name: Ecological Narrative Engine
-  layer: L4
-  house: H05
-  is_sub_module: false
-  status: SPEC
-- id: M167
-  name: Game IP Sovereignty Registry
-  layer: L4
-  house: H05
-  is_sub_module: false
-  status: SPEC
-- id: M168
-  name: Content Rating Constitutional Gate
-  layer: L4
-  house: H05
-  is_sub_module: false
-  status: SPEC
-- id: M169
-  name: Esports & Competitive Integrity Engine
-  layer: L4
-  house: H05
-  is_sub_module: false
-  status: SPEC
-- id: M170
-  name: Cloud Gaming Sovereignty Router
-  layer: L4
-  house: H05
-  is_sub_module: false
-  status: SPEC
-- id: M171
-  name: Game Preservation & Cultural Heritage Engine
-  layer: L4
-  house: H05
-  is_sub_module: false
-  status: SPEC
-- id: M172
-  name: Civic Compute Reuse Engine
-  layer: L4
-  house: H05
-  is_sub_module: false
+  sphere: S02
   status: SPEC
 - id: M173
   name: Real-Time Routing Share Meter
-  layer: L4
   house: H02
-  is_sub_module: false
+  sphere: S02
+  status: SPEC
+- id: M29
+  name: Bayesian Network Engine
+  house: H02
+  sphere: S02
+  status: SPEC
+- id: M3.1
+  name: Trust Scoring System (TSS)
+  house: H02
+  sphere: S02
+  status: SPEC
+- id: M46
+  name: Monte Carlo Simulator
+  house: H02
+  sphere: S02
+  status: SPEC
+- id: M74
+  name: Hypothesis Testing Framework
+  house: H02
+  sphere: S02
+  status: SPEC
+- id: M79
+  name: Primacy Bonus Calculator
+  house: H02
+  sphere: S02
+  status: SPEC
+- id: M80
+  name: Epistemic Weather Engine
+  house: H02
+  sphere: S02
+  status: SPEC
+- id: M1
+  name: Sovereign Router Core
+  house: H02
+  sphere: S03
+  status: SPEC
+- id: M15
+  name: Algorithm Optimizer
+  house: H02
+  sphere: S03
+  status: SPEC
+- id: M15a
+  name: Algorithm Optimizer CN Adapter
+  house: H02
+  sphere: S03
+  status: SPEC
+- id: M18
+  name: Distributed Consensus Protocol
+  house: H02
+  sphere: S03
+  status: SPEC
+- id: M40
+  name: Parallel Algorithm Scheduler
+  house: H02
+  sphere: S03
+  status: SPEC
+- id: M52
+  name: Distributed Hash Table
+  house: H02
+  sphere: S03
+  status: SPEC
+- id: M63
+  name: Parser Symmetry Gate
+  house: H02
+  sphere: S03
+  status: SPEC
+- id: M76
+  name: Consensus Finality Checker
+  house: H02
+  sphere: S03
+  status: SPEC
+- id: M82
+  name: Load Balancer
+  house: H02
+  sphere: S03
+  status: SPEC
+- id: M23
+  name: Information Security Module
+  house: H02
+  sphere: S04
+  status: SPEC
+- id: M23a
+  name: Information Security CN Adapter
+  house: H02
+  sphere: S04
+  status: SPEC
+- id: M3
+  name: Consent & Provenance Engine
+  house: H02
+  sphere: S04
+  status: SPEC
+- id: M3a
+  name: Consent Engine Extension
+  house: H02
+  sphere: S04
+  status: SPEC
+- id: M42
+  name: Zero-Knowledge Proof Module
+  house: H02
+  sphere: S04
+  status: SPEC
+- id: M53
+  name: Homomorphic Encryption Engine
+  house: H02
+  sphere: S04
+  status: SPEC
+- id: M6
+  name: Cryptographic Primitives
+  house: H02
+  sphere: S04
+  status: SPEC
+- id: M65
+  name: Metadata Enrichment Pipeline
+  house: H02
+  sphere: S04
+  status: SPEC
+- id: M6a
+  name: Cryptographic Primitives Extension A
+  house: H02
+  sphere: S04
+  status: SPEC
+- id: M6b
+  name: Cryptographic Primitives Extension B
+  house: H02
+  sphere: S04
+  status: SPEC
+- id: M6c
+  name: BSN Anchoring Adapter
+  house: H02
+  sphere: S04
+  status: SPEC
+- id: M77
+  name: Secure Multi-Party Computation
+  house: H02
+  sphere: S04
+  status: SPEC
+- id: M90
+  name: Post-Quantum Cryptography
+  house: H02
+  sphere: S04
+  status: SPEC
+- id: M17
+  name: Systems Dynamics Modeler
+  house: H02
+  sphere: S05
+  status: SPEC
+- id: M2
+  name: Constitutional Kernel
+  house: H02
+  sphere: S05
+  status: SPEC
+- id: M30
+  name: Feedback Control Analyzer
+  house: H02
+  sphere: S05
+  status: SPEC
+- id: M41
+  name: Emergent Behavior Detector
+  house: H02
+  sphere: S05
+  status: SPEC
+- id: M54
+  name: Agent-Based Modeling Framework
+  house: H02
+  sphere: S05
+  status: SPEC
+- id: M66
+  name: Feedback Loop Detector
+  house: H02
+  sphere: S05
+  status: SPEC
+- id: M75
+  name: Cross-Validation Matrix
+  house: H02
+  sphere: S05
+  status: SPEC
+- id: M81
+  name: Resilience Scoring Module
+  house: H02
+  sphere: S05
+  status: SPEC
+- id: M21
+  name: Strategic Reasoning Engine
+  house: H02
+  sphere: S06
+  status: SPEC
+- id: M31
+  name: Mechanism Design Module
+  house: H02
+  sphere: S06
+  status: SPEC
+- id: M43
+  name: Auction Theory Engine
+  house: H02
+  sphere: S06
+  status: SPEC
+- id: M55
+  name: Voting Theory Module
+  house: H02
+  sphere: S06
+  status: SPEC
+- id: M67
+  name: Nash Equilibrium Finder
+  house: H02
+  sphere: S06
+  status: SPEC
+- id: M78
+  name: Cooperative Game Solver
+  house: H02
+  sphere: S06
+  status: SPEC
+- id: M9
+  name: Game Theory Optimizer
+  house: H02
+  sphere: S06
+  status: SPEC
+- id: M91
+  name: Social Choice Function
+  house: H02
+  sphere: S06
+  status: SPEC
+- id: M13
+  name: Formal Language Processor
+  house: H02
+  sphere: S07
+  status: SPEC
+- id: M26
+  name: Grammar Induction Engine
+  house: H02
+  sphere: S07
+  status: SPEC
+- id: M45
+  name: Type Theory Checker
+  house: H02
+  sphere: S07
+  status: SPEC
+- id: M57
+  name: Context-Free Grammar Parser
+  house: H02
+  sphere: S07
+  status: SPEC
+- id: M69
+  name: Regular Expression Optimizer
+  house: H02
+  sphere: S07
+  status: SPEC
+- id: M85
+  name: Pushdown Automaton Simulator
+  house: H02
+  sphere: S07
+  status: SPEC
+- id: M11
+  name: Category Theory Framework
+  house: H02
+  sphere: S08
+  status: SPEC
+- id: M24
+  name: Algebraic Structure Validator
+  house: H02
+  sphere: S08
+  status: SPEC
+- id: M34
+  name: Homological Algebra Engine
+  house: H02
+  sphere: S08
+  status: SPEC
+- id: M47
+  name: Representation Theory Module
+  house: H02
+  sphere: S08
+  status: SPEC
+- id: M58
+  name: Group Theory Computations
+  house: H02
+  sphere: S08
+  status: SPEC
+- id: M70
+  name: Ring Theory Module
+  house: H02
+  sphere: S08
+  status: SPEC
+- id: M86
+  name: Galois Theory Module
+  house: H02
+  sphere: S08
+  status: SPEC
+- id: M20
+  name: Computational Bounds Verifier
+  house: H02
+  sphere: S09
+  status: SPEC
+- id: M32
+  name: Space-Time Complexity Mapper
+  house: H02
+  sphere: S09
+  status: SPEC
+- id: M49
+  name: Circuit Complexity Analyzer
+  house: H02
+  sphere: S09
+  status: SPEC
+- id: M5
+  name: Complexity Analyzer
+  house: H02
+  sphere: S09
+  status: SPEC
+- id: M60
+  name: Parameterized Complexity Module
+  house: H02
+  sphere: S09
+  status: SPEC
+- id: M72
+  name: Approximation Algorithm Library
+  house: H02
+  sphere: S09
+  status: SPEC
+- id: M88
+  name: Streaming Algorithm Library
+  house: H02
+  sphere: S09
+  status: SPEC
+- id: M14
+  name: Topological Data Analyzer
+  house: H02
+  sphere: S10
+  status: SPEC
+- id: M27
+  name: Geometric Reasoning Module
+  house: H02
+  sphere: S10
+  status: SPEC
+- id: M35
+  name: Manifold Learning Module
+  house: H02
+  sphere: S10
+  status: SPEC
+- id: M51
+  name: Knot Theory Module
+  house: H02
+  sphere: S10
+  status: SPEC
+- id: M62
+  name: Persistent Homology Engine
+  house: H02
+  sphere: S10
+  status: SPEC
+- id: M73
+  name: Differential Geometry Engine
+  house: H02
+  sphere: S10
+  status: SPEC
+- id: M89
+  name: Algebraic Topology Module
+  house: H02
+  sphere: S10
+  status: SPEC
+- id: M19
+  name: Model Checker
+  house: H02
+  sphere: S11
+  status: SPEC
+- id: M33
+  name: Temporal Logic Verifier
+  house: H02
+  sphere: S11
+  status: SPEC
+- id: M4
+  name: Formal Verification Module
+  house: H02
+  sphere: S11
+  status: SPEC
+- id: M50
+  name: SAT/SMT Solver
+  house: H02
+  sphere: S11
+  status: SPEC
+- id: M61
+  name: Bisimulation Checker
+  house: H02
+  sphere: S11
+  status: SPEC
+- id: M64
+  name: Constitutional Compiler
+  house: H02
+  sphere: S11
+  status: SPEC
+- id: M83
+  name: Invariant Monitor
+  house: H02
+  sphere: S11
+  status: SPEC
+- id: M12
+  name: Quantum Computing Interface
+  house: H02
+  sphere: S12
+  status: SPEC
+- id: M25
+  name: Quantum Algorithm Library
+  house: H02
+  sphere: S12
+  status: SPEC
+- id: M25a
+  name: Quantum Algorithm Extension A
+  house: H02
+  sphere: S12
+  status: SPEC
+- id: M25b
+  name: Quantum Algorithm Extension B
+  house: H02
+  sphere: S12
+  status: SPEC
+- id: M25c
+  name: Quantum Algorithm Extension C
+  house: H02
+  sphere: S12
+  status: SPEC
+- id: M48
+  name: Quantum Error Correction
+  house: H02
+  sphere: S12
+  status: SPEC
+- id: M59
+  name: Quantum Simulation Engine
+  house: H02
+  sphere: S12
+  status: SPEC
+- id: M71
+  name: Quantum Key Distribution
+  house: H02
+  sphere: S12
+  status: SPEC
+- id: M87
+  name: Quantum Entanglement Tracker
+  house: H02
+  sphere: S12
+  status: SPEC
+- id: M130
+  name: Wet Lab Verification Gate
+  house: H03
+  sphere: S02
+  status: SPEC
+- id: M131
+  name: Environmental Impact Assessor
+  house: H03
+  sphere: S07
+  status: SPEC
+- id: M100
+  name: Code Quality Analyzer
+  house: H04
+  sphere: S01
+  status: SPEC
+- id: M120
+  name: CI/CD Pipeline Manager
+  house: H04
+  sphere: S01
+  status: SPEC
+- id: M92
+  name: Software Architecture Validator
+  house: H04
+  sphere: S01
+  status: SPEC
+- id: M122
+  name: FPGA Configuration Manager
+  house: H04
+  sphere: S02
+  status: SPEC
+- id: M95
+  name: Hardware Abstraction Layer
+  house: H04
+  sphere: S02
+  status: SPEC
+- id: M102
+  name: API Gateway
+  house: H04
+  sphere: S03
+  status: SPEC
+- id: M118
+  name: Switzerland Layer (Neutral Routing)
+  house: H04
+  sphere: S03
+  status: SPEC
+- id: M94
+  name: Network Protocol Analyzer
+  house: H04
+  sphere: S03
+  status: SPEC
+- id: M101
+  name: Model Training Monitor
+  house: H04
+  sphere: S04
+  status: SPEC
+- id: M104
+  name: Franchise Consent Manager
+  house: H04
+  sphere: S04
+  status: SPEC
+- id: M121
+  name: Federated Learning Coordinator
+  house: H04
+  sphere: S04
+  status: SPEC
+- id: M93
+  name: ML Pipeline Orchestrator
+  house: H04
+  sphere: S04
+  status: SPEC
+- id: M123
+  name: Autonomous Vehicle Interface
+  house: H04
+  sphere: S05
+  status: SPEC
+- id: M96
+  name: Robotics Control Interface
+  house: H04
+  sphere: S05
+  status: SPEC
+- id: M124
+  name: Renewable Energy Tracker
+  house: H04
+  sphere: S06
+  status: SPEC
+- id: M97
+  name: Energy Grid Optimizer
+  house: H04
+  sphere: S06
+  status: SPEC
+- id: M103
+  name: Aerospace Simulation Engine
+  house: H04
+  sphere: S07
+  status: SPEC
+- id: M125
+  name: Medical Device Interface
+  house: H04
+  sphere: S08
+  status: SPEC
+- id: M126
+  name: Structural Analysis Engine
+  house: H04
+  sphere: S09
+  status: SPEC
+- id: M127
+  name: Civic Compute Coordinator
+  house: H04
+  sphere: S10
+  status: SPEC
+- id: M128
+  name: CEO Collective Governance Module
+  house: H04
+  sphere: S10
+  status: SPEC
+- id: M119
+  name: Threat Intelligence Feed
+  house: H04
+  sphere: S11
   status: SPEC
 - id: M174
   name: Provider Retaliation Monitor
-  layer: L4
-  house: H12
-  is_sub_module: false
+  house: H04
+  sphere: S11
+  status: SPEC
+- id: M98
+  name: Security Audit Engine
+  house: H04
+  sphere: S11
+  status: SPEC
+- id: M99
+  name: UX Accessibility Validator
+  house: H04
+  sphere: S12
+  status: SPEC
+- id: M105
+  name: Visual Style Transfer Engine
+  house: H05
+  sphere: S01
+  status: SPEC
+- id: M110
+  name: Attribution Tracker
+  house: H05
+  sphere: S01
+  status: SPEC
+- id: M106
+  name: Music Generation Pipeline
+  house: H05
+  sphere: S02
+  status: SPEC
+- id: M111
+  name: Style Fingerprint Detector
+  house: H05
+  sphere: S02
+  status: SPEC
+- id: M107
+  name: Creative Writing Assistant
+  house: H05
+  sphere: S03
+  status: SPEC
+- id: M112
+  name: Derivative Work Analyzer
+  house: H05
+  sphere: S03
+  status: SPEC
+- id: M108
+  name: Video Production Pipeline
+  house: H05
+  sphere: S04
+  status: SPEC
+- id: M113
+  name: Fair Use Evaluator
+  house: H05
+  sphere: S04
+  status: SPEC
+- id: M162a
+  name: Immersive Theater Engine
+  house: H05
+  sphere: S05
+  status: SPEC
+- id: M163
+  name: Architectural Visualization
+  house: H05
+  sphere: S06
+  status: SPEC
+- id: M109
+  name: Digital Art Generator
+  house: H05
+  sphere: S07
+  status: SPEC
+- id: M167
+  name: Game IP Sovereignty Registry
+  house: H05
+  sphere: S08
+  status: SPEC
+- id: M168
+  name: Content Rating Constitutional Gate
+  house: H05
+  sphere: S08
+  status: SPEC
+- id: M169
+  name: Esports & Competitive Integrity Engine
+  house: H05
+  sphere: S08
+  status: SPEC
+- id: M170
+  name: Cloud Gaming Sovereignty Router
+  house: H05
+  sphere: S08
+  status: SPEC
+- id: M171
+  name: Game Preservation & Cultural Heritage Engine
+  house: H05
+  sphere: S08
+  status: SPEC
+- id: M172
+  name: Civic Compute Reuse Engine
+  house: H05
+  sphere: S08
+  status: SPEC
+- id: M164
+  name: Computational Photography
+  house: H05
+  sphere: S09
+  status: SPEC
+- id: M165
+  name: Generative Craft Engine
+  house: H05
+  sphere: S10
+  status: SPEC
+- id: M162b
+  name: Spatial Computing Interface
+  house: H05
+  sphere: S11
   status: SPEC
 - id: M175
   name: Interactive-Kinetic Rights Harmonizer
-  layer: L4
   house: H05
-  is_sub_module: false
+  sphere: S11
+  status: SPEC
+- id: M166
+  name: Animation Pipeline
+  house: H05
+  sphere: S12
+  status: SPEC
+- id: M129
+  name: Agricultural Data Pipeline
+  house: H07
+  sphere: S01
+  status: SPEC
+- id: M132
+  name: Water Quality Monitor
+  house: H07
+  sphere: S02
+  status: SPEC
+- id: M133
+  name: Urban Planning Simulator
+  house: H07
+  sphere: S03
+  status: SPEC
+- id: M134
+  name: Data Warehouse Manager
+  house: H07
+  sphere: S04
   status: SPEC
 - id: M176
   name: Boot Manifest Runtime
-  layer: L4
   house: H07
-  is_sub_module: false
-  status: SPEC
-- id: M177
-  name: Pre-Session Research Queue
-  layer: L4
-  house: H07
-  is_sub_module: false
+  sphere: S04
   status: SPEC
 - id: M178
   name: Cross-Instance State Synchronizer
-  layer: L4
   house: H07
-  is_sub_module: false
+  sphere: S04
+  status: SPEC
+- id: M135
+  name: Supply Chain Optimizer
+  house: H07
+  sphere: S05
+  status: SPEC
+- id: M177
+  name: Pre-Session Research Queue
+  house: H07
+  sphere: S08
+  status: SPEC
+- id: M136
+  name: Genomic Analysis Pipeline
+  house: H09
+  sphere: S01
+  status: SPEC
+- id: M137
+  name: Synthetic Biology Designer
+  house: H09
+  sphere: S11
+  status: SPEC
+- id: M138
+  name: Health Informatics Engine
+  house: H10
+  sphere: S08
+  status: SPEC
+- id: M139
+  name: Economic Modeling Engine
+  house: H11
+  sphere: S01
+  status: SPEC
+- id: M140
+  name: Policy Impact Analyzer
+  house: H11
+  sphere: S02
+  status: SPEC
+- id: M141
+  name: Behavioral Pattern Detector
+  house: H11
+  sphere: S04
+  status: SPEC
+- id: M143
+  name: Constitutional Rights Validator
+  house: H12
+  sphere: S01
+  status: SPEC
+- id: M155
+  name: Consent Audit Trail
+  house: H12
+  sphere: S01
+  status: SPEC
+- id: M145
+  name: Treaty Compliance Checker
+  house: H12
+  sphere: S02
+  status: SPEC
+- id: M156
+  name: Sanctions Compliance Module
+  house: H12
+  sphere: S02
+  status: SPEC
+- id: M146
+  name: Corporate Governance Module
+  house: H12
+  sphere: S03
+  status: SPEC
+- id: M157
+  name: Contract Analyzer
+  house: H12
+  sphere: S03
+  status: SPEC
+- id: M144
+  name: IP Rights Manager
+  house: H12
+  sphere: S04
+  status: SPEC
+- id: M158
+  name: Patent Prior Art Searcher
+  house: H12
+  sphere: S04
+  status: SPEC
+- id: M147
+  name: Environmental Compliance Tracker
+  house: H12
+  sphere: S05
+  status: SPEC
+- id: M159
+  name: Carbon Credit Validator
+  house: H12
+  sphere: S05
+  status: SPEC
+- id: M148
+  name: Criminal Law Database
+  house: H12
+  sphere: S06
+  status: SPEC
+- id: M160
+  name: Evidence Chain Manager
+  house: H12
+  sphere: S06
+  status: SPEC
+- id: M149
+  name: Regulatory Change Monitor
+  house: H12
+  sphere: S07
+  status: SPEC
+- id: M161
+  name: Regulatory Sandbox Interface
+  house: H12
+  sphere: S07
+  status: SPEC
+- id: M150
+  name: Labor Rights Validator
+  house: H12
+  sphere: S08
+  status: SPEC
+- id: M142
+  name: TOS Compliance Engine
+  house: H12
+  sphere: S09
+  status: SPEC
+- id: M151
+  name: Cyber Law Compliance
+  house: H12
+  sphere: S09
+  status: SPEC
+- id: M152
+  name: Indigenous Rights Protector
+  house: H12
+  sphere: S10
+  status: SPEC
+- id: M153
+  name: Arbitration Protocol
+  house: H12
+  sphere: S11
+  status: SPEC
+- id: M154
+  name: Comparative Law Engine
+  house: H12
+  sphere: S12
   status: SPEC

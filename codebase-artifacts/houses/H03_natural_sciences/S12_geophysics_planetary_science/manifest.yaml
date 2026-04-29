@@ -1,0 +1,13 @@
+sphere:
+  id: H03-S12
+  house: H03
+  house_name: Natural Sciences
+  sphere_id: S12
+  sphere_name: Geophysics & Planetary Science
+  sphere_number: 36
+modules: []
+invariants: []
+coverage:
+  module_count: 0
+  invariant_count: 0
+  status: EMPTY

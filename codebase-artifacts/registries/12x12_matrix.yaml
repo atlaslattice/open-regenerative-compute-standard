@@ -1,388 +1,595 @@
 metadata:
-  version: '3.12'
-  source: Build Plan v3.11 (ORC-015)
+  version: '3.14'
   total_spheres: 144
-  total_houses: 12
-houses:
+  element_145: true
+  populated_spheres: 74
+  coverage_percentage: 51.4
+coverage:
   H01:
-    name: Natural Sciences
-    spheres:
-    - 1
-    - 2
-    - 3
-    - 4
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    modules:
-    - M25
-    - M25a
-    - M25b
-    - M25c
-    - M50
-    - M51
-    - M52
-    - M53
-    - M54
-    - M55
-    - M56
-    - M88
-    - M89
-    - M90
-    - M91
-    - M99
-    - M100
-    - M101
-    - M102
-    - M103
-    - M105
-    - M106
-    - M107
-    - M108
-    module_count: 24
+    S01:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S02:
+      modules: 2
+      invariants: 0
+      status: POPULATED
+    S03:
+      modules: 1
+      invariants: 4
+      status: POPULATED
+    S04:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S05:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S06:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S07:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S08:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S09:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S10:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S11:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S12:
+      modules: 0
+      invariants: 0
+      status: EMPTY
   H02:
-    name: Formal Sciences
-    spheres:
-    - 13
-    - 14
-    - 15
-    - 16
-    - 17
-    - 18
-    - 19
-    - 20
-    - 21
-    - 22
-    - 23
-    - 24
-    modules:
-    - M1
-    - M2
-    - M3
-    - M3.1
-    - M3a
-    - M4
-    - M5
-    - M6
-    - M6a
-    - M6b
-    - M7
-    - M8
-    - M9
-    - M10
-    - M11
-    - M12
-    - M13
-    - M14
-    - M15
-    - M15a
-    - M16
-    - M17
-    - M17a
-    - M17b
-    - M34
-    - M57
-    - M58
-    - M59
-    - M60
-    - M61
-    - M62
-    - M63
-    - M64
-    - M65
-    - M66
-    - M67
-    - M71
-    - M72
-    - M73
-    - M74
-    - M75
-    - M76
-    - M77
-    - M78
-    - M79
-    - M80
-    - M81
-    - M104
-    - M116
-    - M117
-    - M139
-    - M140
-    - M141
-    - M157
-    - M173
-    module_count: 55
+    S01:
+      modules: 7
+      invariants: 0
+      status: POPULATED
+    S02:
+      modules: 8
+      invariants: 2
+      status: POPULATED
+    S03:
+      modules: 9
+      invariants: 2
+      status: POPULATED
+    S04:
+      modules: 13
+      invariants: 2
+      status: POPULATED
+    S05:
+      modules: 8
+      invariants: 3
+      status: POPULATED
+    S06:
+      modules: 8
+      invariants: 0
+      status: POPULATED
+    S07:
+      modules: 6
+      invariants: 0
+      status: POPULATED
+    S08:
+      modules: 7
+      invariants: 0
+      status: POPULATED
+    S09:
+      modules: 7
+      invariants: 1
+      status: POPULATED
+    S10:
+      modules: 7
+      invariants: 0
+      status: POPULATED
+    S11:
+      modules: 7
+      invariants: 0
+      status: POPULATED
+    S12:
+      modules: 9
+      invariants: 0
+      status: POPULATED
   H03:
-    name: Social Sciences
-    spheres:
-    - 25
-    - 26
-    - 27
-    - 28
-    - 29
-    - 30
-    - 31
-    - 32
-    - 33
-    - 34
-    - 35
-    - 36
-    modules: []
-    module_count: 0
+    S01:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S02:
+      modules: 1
+      invariants: 0
+      status: POPULATED
+    S03:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S04:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S05:
+      modules: 0
+      invariants: 1
+      status: POPULATED
+    S06:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S07:
+      modules: 1
+      invariants: 1
+      status: POPULATED
+    S08:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S09:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S10:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S11:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S12:
+      modules: 0
+      invariants: 0
+      status: EMPTY
   H04:
-    name: Technology
-    spheres:
-    - 37
-    - 38
-    - 39
-    - 40
-    - 41
-    - 42
-    - 43
-    - 44
-    - 45
-    - 46
-    - 47
-    - 48
-    modules:
-    - M18
-    - M19
-    - M20
-    - M21
-    - M22
-    - M26
-    - M28
-    - M29
-    - M30
-    - M31
-    - M32
-    - M33
-    - M40
-    - M41
-    - M42
-    - M45
-    - M46
-    - M47
-    - M48
-    - M49
-    - M85
-    - M86
-    - M112
-    - M113
-    - M114
-    - M115
-    - M126
-    - M127
-    - M128
-    - M129
-    - M130
-    - M131
-    - M132
-    - M133
-    - M134
-    - M135
-    - M136
-    - M137
-    - M138
-    module_count: 39
+    S01:
+      modules: 3
+      invariants: 2
+      status: POPULATED
+    S02:
+      modules: 2
+      invariants: 0
+      status: POPULATED
+    S03:
+      modules: 3
+      invariants: 1
+      status: POPULATED
+    S04:
+      modules: 4
+      invariants: 0
+      status: POPULATED
+    S05:
+      modules: 2
+      invariants: 1
+      status: POPULATED
+    S06:
+      modules: 2
+      invariants: 1
+      status: POPULATED
+    S07:
+      modules: 1
+      invariants: 0
+      status: POPULATED
+    S08:
+      modules: 1
+      invariants: 0
+      status: POPULATED
+    S09:
+      modules: 1
+      invariants: 0
+      status: POPULATED
+    S10:
+      modules: 2
+      invariants: 0
+      status: POPULATED
+    S11:
+      modules: 3
+      invariants: 3
+      status: POPULATED
+    S12:
+      modules: 1
+      invariants: 1
+      status: POPULATED
   H05:
-    name: Arts
-    spheres:
-    - 49
-    - 50
-    - 51
-    - 52
-    - 53
-    - 54
-    - 55
-    - 56
-    - 57
-    - 58
-    - 59
-    - 60
-    modules:
-    - M158
-    - M159
-    - M160
-    - M161
-    - M162a
-    - M162b
-    - M163
-    - M164
-    - M165
-    - M166
-    - M167
-    - M168
-    - M169
-    - M170
-    - M171
-    - M172
-    - M175
-    module_count: 17
+    S01:
+      modules: 2
+      invariants: 1
+      status: POPULATED
+    S02:
+      modules: 2
+      invariants: 0
+      status: POPULATED
+    S03:
+      modules: 2
+      invariants: 0
+      status: POPULATED
+    S04:
+      modules: 2
+      invariants: 0
+      status: POPULATED
+    S05:
+      modules: 1
+      invariants: 0
+      status: POPULATED
+    S06:
+      modules: 1
+      invariants: 0
+      status: POPULATED
+    S07:
+      modules: 1
+      invariants: 0
+      status: POPULATED
+    S08:
+      modules: 6
+      invariants: 0
+      status: POPULATED
+    S09:
+      modules: 1
+      invariants: 0
+      status: POPULATED
+    S10:
+      modules: 1
+      invariants: 0
+      status: POPULATED
+    S11:
+      modules: 2
+      invariants: 0
+      status: POPULATED
+    S12:
+      modules: 1
+      invariants: 0
+      status: POPULATED
   H06:
-    name: Humanities
-    spheres:
-    - 61
-    - 62
-    - 63
-    - 64
-    - 65
-    - 66
-    - 67
-    - 68
-    - 69
-    - 70
-    - 71
-    - 72
-    modules:
-    - M148
-    - M149
-    - M150
-    - M151
-    - M152
-    - M153
-    - M154
-    - M155
-    module_count: 8
+    S01:
+      modules: 0
+      invariants: 1
+      status: POPULATED
+    S02:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S03:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S04:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S05:
+      modules: 0
+      invariants: 1
+      status: POPULATED
+    S06:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S07:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S08:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S09:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S10:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S11:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S12:
+      modules: 0
+      invariants: 0
+      status: EMPTY
   H07:
-    name: Applied Sciences
-    spheres:
-    - 73
-    - 74
-    - 75
-    - 76
-    - 77
-    - 78
-    - 79
-    - 80
-    - 81
-    - 82
-    - 83
-    - 84
-    modules:
-    - M44
-    - M176
-    - M177
-    - M178
-    module_count: 4
+    S01:
+      modules: 1
+      invariants: 1
+      status: POPULATED
+    S02:
+      modules: 1
+      invariants: 0
+      status: POPULATED
+    S03:
+      modules: 1
+      invariants: 0
+      status: POPULATED
+    S04:
+      modules: 3
+      invariants: 1
+      status: POPULATED
+    S05:
+      modules: 1
+      invariants: 0
+      status: POPULATED
+    S06:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S07:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S08:
+      modules: 1
+      invariants: 1
+      status: POPULATED
+    S09:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S10:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S11:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S12:
+      modules: 0
+      invariants: 0
+      status: EMPTY
   H08:
-    name: Education
-    spheres:
-    - 85
-    - 86
-    - 87
-    - 88
-    - 89
-    - 90
-    - 91
-    - 92
-    - 93
-    - 94
-    - 95
-    - 96
-    modules: []
-    module_count: 0
+    S01:
+      modules: 0
+      invariants: 1
+      status: POPULATED
+    S02:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S03:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S04:
+      modules: 0
+      invariants: 1
+      status: POPULATED
+    S05:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S06:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S07:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S08:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S09:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S10:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S11:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S12:
+      modules: 0
+      invariants: 0
+      status: EMPTY
   H09:
-    name: Life Sciences
-    spheres:
-    - 97
-    - 98
-    - 99
-    - 100
-    - 101
-    - 102
-    - 103
-    - 104
-    - 105
-    - 106
-    - 107
-    - 108
-    modules: []
-    module_count: 0
+    S01:
+      modules: 1
+      invariants: 0
+      status: POPULATED
+    S02:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S03:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S04:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S05:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S06:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S07:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S08:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S09:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S10:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S11:
+      modules: 1
+      invariants: 0
+      status: POPULATED
+    S12:
+      modules: 0
+      invariants: 1
+      status: POPULATED
   H10:
-    name: Health Sciences
-    spheres:
-    - 109
-    - 110
-    - 111
-    - 112
-    - 113
-    - 114
-    - 115
-    - 116
-    - 117
-    - 118
-    - 119
-    - 120
-    modules:
-    - M43
-    module_count: 1
+    S01:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S02:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S03:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S04:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S05:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S06:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S07:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S08:
+      modules: 1
+      invariants: 0
+      status: POPULATED
+    S09:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S10:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S11:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S12:
+      modules: 0
+      invariants: 1
+      status: POPULATED
   H11:
-    name: Commerce & Industry
-    spheres:
-    - 121
-    - 122
-    - 123
-    - 124
-    - 125
-    - 126
-    - 127
-    - 128
-    - 129
-    - 130
-    - 131
-    - 132
-    modules:
-    - M87
-    - M109
-    - M110
-    - M111
-    module_count: 4
+    S01:
+      modules: 1
+      invariants: 1
+      status: POPULATED
+    S02:
+      modules: 1
+      invariants: 1
+      status: POPULATED
+    S03:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S04:
+      modules: 1
+      invariants: 0
+      status: POPULATED
+    S05:
+      modules: 0
+      invariants: 1
+      status: POPULATED
+    S06:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S07:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S08:
+      modules: 0
+      invariants: 1
+      status: POPULATED
+    S09:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S10:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S11:
+      modules: 0
+      invariants: 0
+      status: EMPTY
+    S12:
+      modules: 0
+      invariants: 1
+      status: POPULATED
   H12:
-    name: Law & Governance
-    spheres:
-    - 133
-    - 134
-    - 135
-    - 136
-    - 137
-    - 138
-    - 139
-    - 140
-    - 141
-    - 142
-    - 143
-    - 144
-    modules:
-    - M23
-    - M24
-    - M27
-    - M35
-    - M68
-    - M69
-    - M70
-    - M82
-    - M83
-    - M84
-    - M118
-    - M119
-    - M120
-    - M121
-    - M122
-    - M123
-    - M124
-    - M125
-    - M142
-    - M143
-    - M144
-    - M145
-    - M146
-    - M147
-    - M156
-    - M174
-    module_count: 26
+    S01:
+      modules: 2
+      invariants: 2
+      status: POPULATED
+    S02:
+      modules: 2
+      invariants: 1
+      status: POPULATED
+    S03:
+      modules: 2
+      invariants: 0
+      status: POPULATED
+    S04:
+      modules: 2
+      invariants: 1
+      status: POPULATED
+    S05:
+      modules: 2
+      invariants: 0
+      status: POPULATED
+    S06:
+      modules: 2
+      invariants: 0
+      status: POPULATED
+    S07:
+      modules: 2
+      invariants: 0
+      status: POPULATED
+    S08:
+      modules: 1
+      invariants: 1
+      status: POPULATED
+    S09:
+      modules: 2
+      invariants: 4
+      status: POPULATED
+    S10:
+      modules: 1
+      invariants: 1
+      status: POPULATED
+    S11:
+      modules: 1
+      invariants: 1
+      status: POPULATED
+    S12:
+      modules: 1
+      invariants: 0
+      status: POPULATED

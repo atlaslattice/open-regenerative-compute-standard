@@ -1,0 +1,13 @@
+sphere:
+  id: H10-S10
+  house: H10
+  house_name: Health & Medicine
+  sphere_id: S10
+  sphere_name: Pediatrics & Child Health
+  sphere_number: 118
+modules: []
+invariants: []
+coverage:
+  module_count: 0
+  invariant_count: 0
+  status: EMPTY

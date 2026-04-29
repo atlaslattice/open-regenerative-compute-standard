@@ -1,0 +1,13 @@
+sphere:
+  id: H01-S04
+  house: H01
+  house_name: Philosophy & Logic
+  sphere_id: S04
+  sphere_name: Metaphysics & Ontology
+  sphere_number: 4
+modules: []
+invariants: []
+coverage:
+  module_count: 0
+  invariant_count: 0
+  status: EMPTY

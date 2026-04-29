@@ -1,0 +1,13 @@
+sphere:
+  id: H06-S12
+  house: H06
+  house_name: Humanities & Culture
+  sphere_id: S12
+  sphere_name: Heritage & Memory Studies
+  sphere_number: 72
+modules: []
+invariants: []
+coverage:
+  module_count: 0
+  invariant_count: 0
+  status: EMPTY

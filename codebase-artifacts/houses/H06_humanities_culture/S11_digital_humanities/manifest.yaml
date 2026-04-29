@@ -1,0 +1,13 @@
+sphere:
+  id: H06-S11
+  house: H06
+  house_name: Humanities & Culture
+  sphere_id: S11
+  sphere_name: Digital Humanities
+  sphere_number: 71
+modules: []
+invariants: []
+coverage:
+  module_count: 0
+  invariant_count: 0
+  status: EMPTY

@@ -1,0 +1,16 @@
+sphere:
+  id: H03-S02
+  house: H03
+  house_name: Natural Sciences
+  sphere_id: S02
+  sphere_name: Chemistry & Materials Science
+  sphere_number: 26
+modules:
+- id: M130
+  name: Wet Lab Verification Gate
+  status: SPEC
+invariants: []
+coverage:
+  module_count: 1
+  invariant_count: 0
+  status: POPULATED

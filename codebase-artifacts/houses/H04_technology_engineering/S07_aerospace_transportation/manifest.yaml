@@ -1,0 +1,16 @@
+sphere:
+  id: H04-S07
+  house: H04
+  house_name: Technology & Engineering
+  sphere_id: S07
+  sphere_name: Aerospace & Transportation
+  sphere_number: 43
+modules:
+- id: M103
+  name: Aerospace Simulation Engine
+  status: SPEC
+invariants: []
+coverage:
+  module_count: 1
+  invariant_count: 0
+  status: POPULATED

@@ -1,0 +1,19 @@
+sphere:
+  id: H05-S02
+  house: H05
+  house_name: Arts & Creative Expression
+  sphere_id: S02
+  sphere_name: Music & Sound Arts
+  sphere_number: 50
+modules:
+- id: M106
+  name: Music Generation Pipeline
+  status: SPEC
+- id: M111
+  name: Style Fingerprint Detector
+  status: SPEC
+invariants: []
+coverage:
+  module_count: 2
+  invariant_count: 0
+  status: POPULATED

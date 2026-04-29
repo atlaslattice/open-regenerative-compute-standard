@@ -1,118 +1,327 @@
 house:
   id: H02
   name: Formal Sciences
-  sphere_range: 13-24
-  total_spheres: 12
+  sphere_count: 12
+  populated_spheres: 12
+total_modules: 96
+total_invariants: 10
 modules:
 - id: M1
-  name: Epistemic State Classifier
-- id: M2
-  name: Safety State Classifier
-- id: M3
-  name: Routing Engine
-- id: M3.1
-  name: TSS Formula
-- id: M3a
-  name: Multi-Polar Routing Table
-- id: M4
-  name: TransparencyPacket Emitter
-- id: M5
-  name: Budget Manager
-- id: M6
-  name: Provenance Ledger (AuditChain v1)
-- id: M6a
-  name: Open-Weight Provenance Verifier
-- id: M6b
-  name: Provenance Genome
-- id: M7
-  name: Confabulation Detector (3-layer)
-- id: M8
-  name: Eastern Review Module
-- id: M9
-  name: MSP-001 Safety Boundary
+  name: Sovereign Router Core
+  sphere: S03
 - id: M10
-  name: Test Harness
+  name: Mathematical Proof Engine
+  sphere: S01
 - id: M11
-  name: Pipeline Orchestrator
+  name: Category Theory Framework
+  sphere: S08
 - id: M12
-  name: Task Generator
+  name: Quantum Computing Interface
+  sphere: S12
 - id: M13
-  name: Three-Tier Archive
+  name: Formal Language Processor
+  sphere: S07
 - id: M14
-  name: Ingestion Service
+  name: Topological Data Analyzer
+  sphere: S10
 - id: M15
-  name: Model Router
+  name: Algorithm Optimizer
+  sphere: S03
 - id: M15a
-  name: Model Fingerprint Verifier
+  name: Algorithm Optimizer CN Adapter
+  sphere: S03
 - id: M16
-  name: Learning Loop
+  name: Statistical Inference Engine
+  sphere: S02
 - id: M17
-  name: Permission/Approval Engine
-- id: M17a
-  name: Sovereignty Bound Exception
-- id: M17b
-  name: Sovereignty Gradient
-- id: M34
-  name: Structured Output Validator
-- id: M57
-  name: Sheldonbrain Parser
-- id: M58
-  name: Ontology Validator (9-Gate)
-- id: M59
-  name: Constitutional Compiler
-- id: M60
-  name: Ontology Context Injector
-- id: M61
-  name: Ontological Routing Kernel
-- id: M62
-  name: Sheldonbrain RAG Pipeline
-- id: M63
-  name: Parser-Filesystem Symmetry Gate
-- id: M64
-  name: Provider Translation Engine
-- id: M65
-  name: Coverage Heat Map Generator
-- id: M66
-  name: Provider-Aware Ingestion Pipeline
-- id: M67
-  name: Cross-House Symlink Manager
-- id: M71
-  name: Cross-Provider Cognitive Router
-- id: M72
-  name: Cold House Stimulation Engine
-- id: M73
-  name: Universal Capability API
-- id: M74
-  name: Disagreement Router
-- id: M75
-  name: Council Cross-Validation Matrix
-- id: M76
-  name: Content Compliance Daemon
-- id: M77
-  name: GoldenTrace-CN (BSN Triple-Vault)
-- id: M78
-  name: GB-Agent Bridge
-- id: M79
-  name: TSS+ Primacy-Weighted Router
-- id: M80
-  name: Epistemic Weather Overlay
-- id: M81
-  name: Parallel Lane CI/CD Gate
-- id: M104
-  name: Stacked Incentives TP Field
-- id: M116
-  name: Stochastic Simulation Engine
-- id: M117
-  name: Qwen3/Alibaba Vendor Suite (§Y.1-Y.8)
-- id: M139
-  name: v6.0.2 Drift Reconciliation Engine
-- id: M140
-  name: 10K TPU Simulation Framework
-- id: M141
-  name: Trace Marketplace Revenue Engine
-- id: M157
-  name: Parallel Lane Code Authorship Controller
+  name: Systems Dynamics Modeler
+  sphere: S05
 - id: M173
   name: Real-Time Routing Share Meter
-module_count: 55
-coverage: 55 modules assigned
+  sphere: S02
+- id: M18
+  name: Distributed Consensus Protocol
+  sphere: S03
+- id: M19
+  name: Model Checker
+  sphere: S11
+- id: M2
+  name: Constitutional Kernel
+  sphere: S05
+- id: M20
+  name: Computational Bounds Verifier
+  sphere: S09
+- id: M21
+  name: Strategic Reasoning Engine
+  sphere: S06
+- id: M22
+  name: Theorem Prover
+  sphere: S01
+- id: M23
+  name: Information Security Module
+  sphere: S04
+- id: M23a
+  name: Information Security CN Adapter
+  sphere: S04
+- id: M24
+  name: Algebraic Structure Validator
+  sphere: S08
+- id: M25
+  name: Quantum Algorithm Library
+  sphere: S12
+- id: M25a
+  name: Quantum Algorithm Extension A
+  sphere: S12
+- id: M25b
+  name: Quantum Algorithm Extension B
+  sphere: S12
+- id: M25c
+  name: Quantum Algorithm Extension C
+  sphere: S12
+- id: M26
+  name: Grammar Induction Engine
+  sphere: S07
+- id: M27
+  name: Geometric Reasoning Module
+  sphere: S10
+- id: M28
+  name: Number Theory Utilities
+  sphere: S01
+- id: M29
+  name: Bayesian Network Engine
+  sphere: S02
+- id: M3
+  name: Consent & Provenance Engine
+  sphere: S04
+- id: M3.1
+  name: Trust Scoring System (TSS)
+  sphere: S02
+- id: M30
+  name: Feedback Control Analyzer
+  sphere: S05
+- id: M31
+  name: Mechanism Design Module
+  sphere: S06
+- id: M32
+  name: Space-Time Complexity Mapper
+  sphere: S09
+- id: M33
+  name: Temporal Logic Verifier
+  sphere: S11
+- id: M34
+  name: Homological Algebra Engine
+  sphere: S08
+- id: M35
+  name: Manifold Learning Module
+  sphere: S10
+- id: M3a
+  name: Consent Engine Extension
+  sphere: S04
+- id: M4
+  name: Formal Verification Module
+  sphere: S11
+- id: M40
+  name: Parallel Algorithm Scheduler
+  sphere: S03
+- id: M41
+  name: Emergent Behavior Detector
+  sphere: S05
+- id: M42
+  name: Zero-Knowledge Proof Module
+  sphere: S04
+- id: M43
+  name: Auction Theory Engine
+  sphere: S06
+- id: M44
+  name: Constructive Mathematics Module
+  sphere: S01
+- id: M45
+  name: Type Theory Checker
+  sphere: S07
+- id: M46
+  name: Monte Carlo Simulator
+  sphere: S02
+- id: M47
+  name: Representation Theory Module
+  sphere: S08
+- id: M48
+  name: Quantum Error Correction
+  sphere: S12
+- id: M49
+  name: Circuit Complexity Analyzer
+  sphere: S09
+- id: M5
+  name: Complexity Analyzer
+  sphere: S09
+- id: M50
+  name: SAT/SMT Solver
+  sphere: S11
+- id: M51
+  name: Knot Theory Module
+  sphere: S10
+- id: M52
+  name: Distributed Hash Table
+  sphere: S03
+- id: M53
+  name: Homomorphic Encryption Engine
+  sphere: S04
+- id: M54
+  name: Agent-Based Modeling Framework
+  sphere: S05
+- id: M55
+  name: Voting Theory Module
+  sphere: S06
+- id: M56
+  name: Proof Assistant Interface
+  sphere: S01
+- id: M57
+  name: Context-Free Grammar Parser
+  sphere: S07
+- id: M58
+  name: Group Theory Computations
+  sphere: S08
+- id: M59
+  name: Quantum Simulation Engine
+  sphere: S12
+- id: M6
+  name: Cryptographic Primitives
+  sphere: S04
+- id: M60
+  name: Parameterized Complexity Module
+  sphere: S09
+- id: M61
+  name: Bisimulation Checker
+  sphere: S11
+- id: M62
+  name: Persistent Homology Engine
+  sphere: S10
+- id: M63
+  name: Parser Symmetry Gate
+  sphere: S03
+- id: M64
+  name: Constitutional Compiler
+  sphere: S11
+- id: M65
+  name: Metadata Enrichment Pipeline
+  sphere: S04
+- id: M66
+  name: Feedback Loop Detector
+  sphere: S05
+- id: M67
+  name: Nash Equilibrium Finder
+  sphere: S06
+- id: M68
+  name: Gödel Incompleteness Tracker
+  sphere: S01
+- id: M69
+  name: Regular Expression Optimizer
+  sphere: S07
+- id: M6a
+  name: Cryptographic Primitives Extension A
+  sphere: S04
+- id: M6b
+  name: Cryptographic Primitives Extension B
+  sphere: S04
+- id: M6c
+  name: BSN Anchoring Adapter
+  sphere: S04
+- id: M70
+  name: Ring Theory Module
+  sphere: S08
+- id: M71
+  name: Quantum Key Distribution
+  sphere: S12
+- id: M72
+  name: Approximation Algorithm Library
+  sphere: S09
+- id: M73
+  name: Differential Geometry Engine
+  sphere: S10
+- id: M74
+  name: Hypothesis Testing Framework
+  sphere: S02
+- id: M75
+  name: Cross-Validation Matrix
+  sphere: S05
+- id: M76
+  name: Consensus Finality Checker
+  sphere: S03
+- id: M77
+  name: Secure Multi-Party Computation
+  sphere: S04
+- id: M78
+  name: Cooperative Game Solver
+  sphere: S06
+- id: M79
+  name: Primacy Bonus Calculator
+  sphere: S02
+- id: M80
+  name: Epistemic Weather Engine
+  sphere: S02
+- id: M81
+  name: Resilience Scoring Module
+  sphere: S05
+- id: M82
+  name: Load Balancer
+  sphere: S03
+- id: M83
+  name: Invariant Monitor
+  sphere: S11
+- id: M84
+  name: Axiom Consistency Checker
+  sphere: S01
+- id: M85
+  name: Pushdown Automaton Simulator
+  sphere: S07
+- id: M86
+  name: Galois Theory Module
+  sphere: S08
+- id: M87
+  name: Quantum Entanglement Tracker
+  sphere: S12
+- id: M88
+  name: Streaming Algorithm Library
+  sphere: S09
+- id: M89
+  name: Algebraic Topology Module
+  sphere: S10
+- id: M9
+  name: Game Theory Optimizer
+  sphere: S06
+- id: M90
+  name: Post-Quantum Cryptography
+  sphere: S04
+- id: M91
+  name: Social Choice Function
+  sphere: S06
+invariants:
+- id: INV-12
+  name: Auditability
+  sphere: S05
+- id: INV-2
+  name: Data Sovereignty
+  sphere: S04
+- id: INV-22
+  name: Cryptographic Integrity
+  sphere: S04
+- id: INV-37
+  name: Algorithm Transparency
+  sphere: S03
+- id: INV-4
+  name: Feedback Integrity
+  sphere: S05
+- id: INV-40
+  name: Continuous Improvement
+  sphere: S05
+- id: INV-5
+  name: Multi-Provider Mandate
+  sphere: S03
+- id: INV-7
+  name: Quality Floor
+  sphere: S02
+- id: INV-7c
+  name: Provider Cap (47%/60%)
+  sphere: S02
+- id: INV-9
+  name: Performance Baseline
+  sphere: S09

@@ -1,0 +1,49 @@
+sphere:
+  id: H02-S05
+  house: H02
+  house_name: Formal Sciences
+  sphere_id: S05
+  sphere_name: Systems Theory & Cybernetics
+  sphere_number: 17
+modules:
+- id: M2
+  name: Constitutional Kernel
+  status: SPEC
+- id: M17
+  name: Systems Dynamics Modeler
+  status: SPEC
+- id: M30
+  name: Feedback Control Analyzer
+  status: SPEC
+- id: M41
+  name: Emergent Behavior Detector
+  status: SPEC
+- id: M54
+  name: Agent-Based Modeling Framework
+  status: SPEC
+- id: M66
+  name: Feedback Loop Detector
+  status: SPEC
+- id: M75
+  name: Cross-Validation Matrix
+  status: SPEC
+- id: M81
+  name: Resilience Scoring Module
+  status: SPEC
+invariants:
+- id: INV-4
+  name: Feedback Integrity
+  type: HARD
+  scope: System
+- id: INV-12
+  name: Auditability
+  type: HARD
+  scope: System
+- id: INV-40
+  name: Continuous Improvement
+  type: SOFT
+  scope: System
+coverage:
+  module_count: 8
+  invariant_count: 3
+  status: POPULATED

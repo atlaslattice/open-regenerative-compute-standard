@@ -1,0 +1,20 @@
+sphere:
+  id: H12-S10
+  house: H12
+  house_name: Law & Governance
+  sphere_id: S10
+  sphere_name: Indigenous & Customary Law
+  sphere_number: 142
+modules:
+- id: M152
+  name: Indigenous Rights Protector
+  status: SPEC
+invariants:
+- id: INV-33
+  name: Indigenous Rights
+  type: HARD
+  scope: Content
+coverage:
+  module_count: 1
+  invariant_count: 1
+  status: POPULATED

@@ -1,0 +1,13 @@
+sphere:
+  id: H11-S11
+  house: H11
+  house_name: Social Sciences
+  sphere_id: S11
+  sphere_name: Labor Studies & Industrial Relations
+  sphere_number: 131
+modules: []
+invariants: []
+coverage:
+  module_count: 0
+  invariant_count: 0
+  status: EMPTY

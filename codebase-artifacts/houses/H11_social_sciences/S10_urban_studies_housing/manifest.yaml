@@ -1,0 +1,13 @@
+sphere:
+  id: H11-S10
+  house: H11
+  house_name: Social Sciences
+  sphere_id: S10
+  sphere_name: Urban Studies & Housing
+  sphere_number: 130
+modules: []
+invariants: []
+coverage:
+  module_count: 0
+  invariant_count: 0
+  status: EMPTY

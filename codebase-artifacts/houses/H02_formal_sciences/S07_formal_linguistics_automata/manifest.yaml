@@ -1,0 +1,31 @@
+sphere:
+  id: H02-S07
+  house: H02
+  house_name: Formal Sciences
+  sphere_id: S07
+  sphere_name: Formal Linguistics & Automata
+  sphere_number: 19
+modules:
+- id: M13
+  name: Formal Language Processor
+  status: SPEC
+- id: M26
+  name: Grammar Induction Engine
+  status: SPEC
+- id: M45
+  name: Type Theory Checker
+  status: SPEC
+- id: M57
+  name: Context-Free Grammar Parser
+  status: SPEC
+- id: M69
+  name: Regular Expression Optimizer
+  status: SPEC
+- id: M85
+  name: Pushdown Automaton Simulator
+  status: SPEC
+invariants: []
+coverage:
+  module_count: 6
+  invariant_count: 0
+  status: POPULATED

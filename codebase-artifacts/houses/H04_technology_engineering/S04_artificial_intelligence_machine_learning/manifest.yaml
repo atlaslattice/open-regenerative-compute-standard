@@ -1,0 +1,25 @@
+sphere:
+  id: H04-S04
+  house: H04
+  house_name: Technology & Engineering
+  sphere_id: S04
+  sphere_name: Artificial Intelligence & Machine Learning
+  sphere_number: 40
+modules:
+- id: M93
+  name: ML Pipeline Orchestrator
+  status: SPEC
+- id: M101
+  name: Model Training Monitor
+  status: SPEC
+- id: M104
+  name: Franchise Consent Manager
+  status: SPEC
+- id: M121
+  name: Federated Learning Coordinator
+  status: SPEC
+invariants: []
+coverage:
+  module_count: 4
+  invariant_count: 0
+  status: POPULATED

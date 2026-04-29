@@ -1,0 +1,13 @@
+sphere:
+  id: H01-S12
+  house: H01
+  house_name: Philosophy & Logic
+  sphere_id: S12
+  sphere_name: Comparative & Cross-Cultural Philosophy
+  sphere_number: 12
+modules: []
+invariants: []
+coverage:
+  module_count: 0
+  invariant_count: 0
+  status: EMPTY

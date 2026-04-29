@@ -1,0 +1,13 @@
+sphere:
+  id: H11-S06
+  house: H11
+  house_name: Social Sciences
+  sphere_id: S06
+  sphere_name: Development Studies
+  sphere_number: 126
+modules: []
+invariants: []
+coverage:
+  module_count: 0
+  invariant_count: 0
+  status: EMPTY

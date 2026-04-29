@@ -1,0 +1,20 @@
+sphere:
+  id: H12-S08
+  house: H12
+  house_name: Law & Governance
+  sphere_id: S08
+  sphere_name: Labor & Employment Law
+  sphere_number: 140
+modules:
+- id: M150
+  name: Labor Rights Validator
+  status: SPEC
+invariants:
+- id: INV-30
+  name: Labor Rights
+  type: HARD
+  scope: Federation
+coverage:
+  module_count: 1
+  invariant_count: 1
+  status: POPULATED

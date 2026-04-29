@@ -1,0 +1,17 @@
+sphere:
+  id: H11-S12
+  house: H11
+  house_name: Social Sciences
+  sphere_id: S12
+  sphere_name: Peace & Conflict Studies
+  sphere_number: 132
+modules: []
+invariants:
+- id: INV-27
+  name: Conflict Sensitivity
+  type: SOFT
+  scope: Content
+coverage:
+  module_count: 0
+  invariant_count: 1
+  status: POPULATED

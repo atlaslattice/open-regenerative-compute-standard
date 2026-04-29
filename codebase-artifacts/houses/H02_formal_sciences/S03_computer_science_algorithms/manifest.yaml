@@ -1,0 +1,48 @@
+sphere:
+  id: H02-S03
+  house: H02
+  house_name: Formal Sciences
+  sphere_id: S03
+  sphere_name: Computer Science & Algorithms
+  sphere_number: 15
+modules:
+- id: M1
+  name: Sovereign Router Core
+  status: SPEC
+- id: M15
+  name: Algorithm Optimizer
+  status: SPEC
+- id: M15a
+  name: Algorithm Optimizer CN Adapter
+  status: SPEC
+- id: M18
+  name: Distributed Consensus Protocol
+  status: SPEC
+- id: M40
+  name: Parallel Algorithm Scheduler
+  status: SPEC
+- id: M52
+  name: Distributed Hash Table
+  status: SPEC
+- id: M63
+  name: Parser Symmetry Gate
+  status: SPEC
+- id: M76
+  name: Consensus Finality Checker
+  status: SPEC
+- id: M82
+  name: Load Balancer
+  status: SPEC
+invariants:
+- id: INV-5
+  name: Multi-Provider Mandate
+  type: HARD
+  scope: Routing
+- id: INV-37
+  name: Algorithm Transparency
+  type: HARD
+  scope: System
+coverage:
+  module_count: 9
+  invariant_count: 2
+  status: POPULATED

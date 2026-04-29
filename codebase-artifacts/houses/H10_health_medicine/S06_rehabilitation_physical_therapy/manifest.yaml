@@ -1,0 +1,13 @@
+sphere:
+  id: H10-S06
+  house: H10
+  house_name: Health & Medicine
+  sphere_id: S06
+  sphere_name: Rehabilitation & Physical Therapy
+  sphere_number: 114
+modules: []
+invariants: []
+coverage:
+  module_count: 0
+  invariant_count: 0
+  status: EMPTY

@@ -1,0 +1,13 @@
+sphere:
+  id: H09-S04
+  house: H09
+  house_name: Life Sciences
+  sphere_id: S04
+  sphere_name: Botany & Plant Sciences
+  sphere_number: 100
+modules: []
+invariants: []
+coverage:
+  module_count: 0
+  invariant_count: 0
+  status: EMPTY

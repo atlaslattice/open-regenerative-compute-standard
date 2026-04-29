@@ -1,0 +1,13 @@
+sphere:
+  id: H11-S07
+  house: H11
+  house_name: Social Sciences
+  sphere_id: S07
+  sphere_name: Demography & Population Studies
+  sphere_number: 127
+modules: []
+invariants: []
+coverage:
+  module_count: 0
+  invariant_count: 0
+  status: EMPTY

@@ -1,0 +1,15 @@
+house:
+  id: H08
+  name: Education & Pedagogy
+  sphere_count: 12
+  populated_spheres: 2
+total_modules: 0
+total_invariants: 2
+modules: []
+invariants:
+- id: INV-16
+  name: Educational Integrity
+  sphere: S01
+- id: INV-31
+  name: Accessibility
+  sphere: S04

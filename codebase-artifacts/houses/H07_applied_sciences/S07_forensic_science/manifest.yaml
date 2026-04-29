@@ -1,0 +1,13 @@
+sphere:
+  id: H07-S07
+  house: H07
+  house_name: Applied Sciences
+  sphere_id: S07
+  sphere_name: Forensic Science
+  sphere_number: 79
+modules: []
+invariants: []
+coverage:
+  module_count: 0
+  invariant_count: 0
+  status: EMPTY

@@ -1,0 +1,17 @@
+sphere:
+  id: H03-S05
+  house: H03
+  house_name: Natural Sciences
+  sphere_id: S05
+  sphere_name: Atmospheric & Climate Science
+  sphere_number: 29
+modules: []
+invariants:
+- id: INV-32
+  name: Climate Accountability
+  type: SOFT
+  scope: System
+coverage:
+  module_count: 0
+  invariant_count: 1
+  status: POPULATED

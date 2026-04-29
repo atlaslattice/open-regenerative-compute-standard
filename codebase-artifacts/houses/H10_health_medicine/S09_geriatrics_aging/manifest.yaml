@@ -1,0 +1,13 @@
+sphere:
+  id: H10-S09
+  house: H10
+  house_name: Health & Medicine
+  sphere_id: S09
+  sphere_name: Geriatrics & Aging
+  sphere_number: 117
+modules: []
+invariants: []
+coverage:
+  module_count: 0
+  invariant_count: 0
+  status: EMPTY

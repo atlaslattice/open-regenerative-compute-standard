@@ -1,0 +1,23 @@
+sphere:
+  id: H04-S06
+  house: H04
+  house_name: Technology & Engineering
+  sphere_id: S06
+  sphere_name: Energy Systems & Sustainability
+  sphere_number: 42
+modules:
+- id: M97
+  name: Energy Grid Optimizer
+  status: SPEC
+- id: M124
+  name: Renewable Energy Tracker
+  status: SPEC
+invariants:
+- id: INV-39
+  name: Energy Efficiency
+  type: SOFT
+  scope: System
+coverage:
+  module_count: 2
+  invariant_count: 1
+  status: POPULATED

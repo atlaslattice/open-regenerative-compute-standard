@@ -1,0 +1,31 @@
+sphere:
+  id: H05-S08
+  house: H05
+  house_name: Arts & Creative Expression
+  sphere_id: S08
+  sphere_name: Gaming & Interactive Media
+  sphere_number: 56
+modules:
+- id: M167
+  name: Game IP Sovereignty Registry
+  status: SPEC
+- id: M168
+  name: Content Rating Constitutional Gate
+  status: SPEC
+- id: M169
+  name: Esports & Competitive Integrity Engine
+  status: SPEC
+- id: M170
+  name: Cloud Gaming Sovereignty Router
+  status: SPEC
+- id: M171
+  name: Game Preservation & Cultural Heritage Engine
+  status: SPEC
+- id: M172
+  name: Civic Compute Reuse Engine
+  status: SPEC
+invariants: []
+coverage:
+  module_count: 6
+  invariant_count: 0
+  status: POPULATED

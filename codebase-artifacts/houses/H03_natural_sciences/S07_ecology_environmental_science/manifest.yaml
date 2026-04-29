@@ -1,0 +1,20 @@
+sphere:
+  id: H03-S07
+  house: H03
+  house_name: Natural Sciences
+  sphere_id: S07
+  sphere_name: Ecology & Environmental Science
+  sphere_number: 31
+modules:
+- id: M131
+  name: Environmental Impact Assessor
+  status: SPEC
+invariants:
+- id: INV-15
+  name: Environmental Responsibility
+  type: SOFT
+  scope: System
+coverage:
+  module_count: 1
+  invariant_count: 1
+  status: POPULATED

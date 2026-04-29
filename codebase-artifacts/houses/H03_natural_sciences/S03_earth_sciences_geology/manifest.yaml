@@ -1,0 +1,13 @@
+sphere:
+  id: H03-S03
+  house: H03
+  house_name: Natural Sciences
+  sphere_id: S03
+  sphere_name: Earth Sciences & Geology
+  sphere_number: 27
+modules: []
+invariants: []
+coverage:
+  module_count: 0
+  invariant_count: 0
+  status: EMPTY

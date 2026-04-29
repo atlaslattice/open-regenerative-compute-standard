@@ -1,0 +1,27 @@
+sphere:
+  id: H12-S01
+  house: H12
+  house_name: Law & Governance
+  sphere_id: S01
+  sphere_name: Constitutional Law & Human Rights
+  sphere_number: 133
+modules:
+- id: M143
+  name: Constitutional Rights Validator
+  status: SPEC
+- id: M155
+  name: Consent Audit Trail
+  status: SPEC
+invariants:
+- id: INV-1
+  name: Constitutional Primacy
+  type: HARD
+  scope: Universal
+- id: INV-18
+  name: Legal Compliance
+  type: HARD
+  scope: Universal
+coverage:
+  module_count: 2
+  invariant_count: 2
+  status: POPULATED

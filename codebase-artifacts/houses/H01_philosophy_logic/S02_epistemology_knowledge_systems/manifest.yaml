@@ -1,0 +1,19 @@
+sphere:
+  id: H01-S02
+  house: H01
+  house_name: Philosophy & Logic
+  sphere_id: S02
+  sphere_name: Epistemology & Knowledge Systems
+  sphere_number: 2
+modules:
+- id: M8
+  name: Epistemic Integrity Validator
+  status: SPEC
+- id: M8a
+  name: Epistemic Integrity CN Adapter
+  status: SPEC
+invariants: []
+coverage:
+  module_count: 2
+  invariant_count: 0
+  status: POPULATED

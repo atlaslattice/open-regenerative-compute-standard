@@ -1,0 +1,15 @@
+house:
+  id: H10
+  name: Health & Medicine
+  sphere_count: 12
+  populated_spheres: 2
+total_modules: 1
+total_invariants: 1
+modules:
+- id: M138
+  name: Health Informatics Engine
+  sphere: S08
+invariants:
+- id: INV-17
+  name: Health Safety
+  sphere: S12

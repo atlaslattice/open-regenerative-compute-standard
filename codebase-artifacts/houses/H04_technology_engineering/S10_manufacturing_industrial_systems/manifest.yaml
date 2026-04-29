@@ -1,0 +1,19 @@
+sphere:
+  id: H04-S10
+  house: H04
+  house_name: Technology & Engineering
+  sphere_id: S10
+  sphere_name: Manufacturing & Industrial Systems
+  sphere_number: 46
+modules:
+- id: M127
+  name: Civic Compute Coordinator
+  status: SPEC
+- id: M128
+  name: CEO Collective Governance Module
+  status: SPEC
+invariants: []
+coverage:
+  module_count: 2
+  invariant_count: 0
+  status: POPULATED

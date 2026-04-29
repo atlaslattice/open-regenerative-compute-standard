@@ -1,0 +1,19 @@
+sphere:
+  id: H12-S06
+  house: H12
+  house_name: Law & Governance
+  sphere_id: S06
+  sphere_name: Criminal Law & Procedure
+  sphere_number: 138
+modules:
+- id: M148
+  name: Criminal Law Database
+  status: SPEC
+- id: M160
+  name: Evidence Chain Manager
+  status: SPEC
+invariants: []
+coverage:
+  module_count: 2
+  invariant_count: 0
+  status: POPULATED

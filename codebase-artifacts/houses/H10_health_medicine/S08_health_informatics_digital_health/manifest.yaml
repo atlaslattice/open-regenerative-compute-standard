@@ -1,0 +1,16 @@
+sphere:
+  id: H10-S08
+  house: H10
+  house_name: Health & Medicine
+  sphere_id: S08
+  sphere_name: Health Informatics & Digital Health
+  sphere_number: 116
+modules:
+- id: M138
+  name: Health Informatics Engine
+  status: SPEC
+invariants: []
+coverage:
+  module_count: 1
+  invariant_count: 0
+  status: POPULATED

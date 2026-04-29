@@ -1,0 +1,19 @@
+sphere:
+  id: H05-S03
+  house: H05
+  house_name: Arts & Creative Expression
+  sphere_id: S03
+  sphere_name: Literature & Creative Writing
+  sphere_number: 51
+modules:
+- id: M107
+  name: Creative Writing Assistant
+  status: SPEC
+- id: M112
+  name: Derivative Work Analyzer
+  status: SPEC
+invariants: []
+coverage:
+  module_count: 2
+  invariant_count: 0
+  status: POPULATED

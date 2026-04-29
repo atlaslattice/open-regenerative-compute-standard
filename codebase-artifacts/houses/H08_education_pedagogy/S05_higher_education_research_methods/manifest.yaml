@@ -1,0 +1,13 @@
+sphere:
+  id: H08-S05
+  house: H08
+  house_name: Education & Pedagogy
+  sphere_id: S05
+  sphere_name: Higher Education & Research Methods
+  sphere_number: 89
+modules: []
+invariants: []
+coverage:
+  module_count: 0
+  invariant_count: 0
+  status: EMPTY

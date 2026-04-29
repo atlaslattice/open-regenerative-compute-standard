@@ -1,0 +1,16 @@
+sphere:
+  id: H04-S08
+  house: H04
+  house_name: Technology & Engineering
+  sphere_id: S08
+  sphere_name: Biomedical Engineering
+  sphere_number: 44
+modules:
+- id: M125
+  name: Medical Device Interface
+  status: SPEC
+invariants: []
+coverage:
+  module_count: 1
+  invariant_count: 0
+  status: POPULATED

@@ -1,0 +1,34 @@
+sphere:
+  id: H04-S11
+  house: H04
+  house_name: Technology & Engineering
+  sphere_id: S11
+  sphere_name: Cybersecurity & Privacy Engineering
+  sphere_number: 47
+modules:
+- id: M98
+  name: Security Audit Engine
+  status: SPEC
+- id: M119
+  name: Threat Intelligence Feed
+  status: SPEC
+- id: M174
+  name: Provider Retaliation Monitor
+  status: SPEC
+invariants:
+- id: INV-6
+  name: Security Baseline
+  type: HARD
+  scope: System
+- id: INV-19
+  name: Privacy Protection
+  type: HARD
+  scope: Universal
+- id: INV-19.2
+  name: Privacy Protection (Biometric)
+  type: HARD
+  scope: H09/H10
+coverage:
+  module_count: 3
+  invariant_count: 3
+  status: POPULATED

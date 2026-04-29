@@ -1,0 +1,23 @@
+sphere:
+  id: H04-S05
+  house: H04
+  house_name: Technology & Engineering
+  sphere_id: S05
+  sphere_name: Robotics & Automation
+  sphere_number: 41
+modules:
+- id: M96
+  name: Robotics Control Interface
+  status: SPEC
+- id: M123
+  name: Autonomous Vehicle Interface
+  status: SPEC
+invariants:
+- id: INV-29
+  name: Autonomous Systems Safety
+  type: HARD
+  scope: H04
+coverage:
+  module_count: 2
+  invariant_count: 1
+  status: POPULATED

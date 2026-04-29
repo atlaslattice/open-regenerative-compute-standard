@@ -1,0 +1,20 @@
+sphere:
+  id: H11-S02
+  house: H11
+  house_name: Social Sciences
+  sphere_id: S02
+  sphere_name: Political Science & Governance
+  sphere_number: 122
+modules:
+- id: M140
+  name: Policy Impact Analyzer
+  status: SPEC
+invariants:
+- id: INV-38
+  name: Democratic Process Protection
+  type: HARD
+  scope: Content
+coverage:
+  module_count: 1
+  invariant_count: 1
+  status: POPULATED

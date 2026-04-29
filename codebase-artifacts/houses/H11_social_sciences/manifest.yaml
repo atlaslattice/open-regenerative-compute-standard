@@ -1,0 +1,33 @@
+house:
+  id: H11
+  name: Social Sciences
+  sphere_count: 12
+  populated_spheres: 6
+total_modules: 3
+total_invariants: 5
+modules:
+- id: M139
+  name: Economic Modeling Engine
+  sphere: S01
+- id: M140
+  name: Policy Impact Analyzer
+  sphere: S02
+- id: M141
+  name: Behavioral Pattern Detector
+  sphere: S04
+invariants:
+- id: INV-13
+  name: Economic Fairness
+  sphere: S01
+- id: INV-23
+  name: Geopolitical Neutrality
+  sphere: S05
+- id: INV-27
+  name: Conflict Sensitivity
+  sphere: S12
+- id: INV-34
+  name: Anti-Discrimination
+  sphere: S08
+- id: INV-38
+  name: Democratic Process Protection
+  sphere: S02

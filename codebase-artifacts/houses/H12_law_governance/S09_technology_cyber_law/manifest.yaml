@@ -1,0 +1,35 @@
+sphere:
+  id: H12-S09
+  house: H12
+  house_name: Law & Governance
+  sphere_id: S09
+  sphere_name: Technology & Cyber Law
+  sphere_number: 141
+modules:
+- id: M142
+  name: TOS Compliance Engine
+  status: SPEC
+- id: M151
+  name: Cyber Law Compliance
+  status: SPEC
+invariants:
+- id: INV-44
+  name: TOS Compliance
+  type: HARD
+  scope: Routing
+- id: INV-44a
+  name: Safe Harbor Verification
+  type: HARD
+  scope: Routing
+- id: INV-44b
+  name: Quarterly Re-verification
+  type: HARD
+  scope: Routing
+- id: INV-44c
+  name: Mid-Quarter Change Detection
+  type: HARD
+  scope: Routing
+coverage:
+  module_count: 2
+  invariant_count: 4
+  status: POPULATED

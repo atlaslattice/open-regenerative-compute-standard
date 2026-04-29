@@ -1,0 +1,13 @@
+sphere:
+  id: H08-S06
+  house: H08
+  house_name: Education & Pedagogy
+  sphere_id: S06
+  sphere_name: Early Childhood Education
+  sphere_number: 90
+modules: []
+invariants: []
+coverage:
+  module_count: 0
+  invariant_count: 0
+  status: EMPTY

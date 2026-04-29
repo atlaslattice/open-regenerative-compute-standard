@@ -1,0 +1,13 @@
+sphere:
+  id: H10-S01
+  house: H10
+  house_name: Health & Medicine
+  sphere_id: S01
+  sphere_name: Clinical Medicine & Surgery
+  sphere_number: 109
+modules: []
+invariants: []
+coverage:
+  module_count: 0
+  invariant_count: 0
+  status: EMPTY

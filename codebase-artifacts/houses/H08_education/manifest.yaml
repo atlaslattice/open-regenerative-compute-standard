@@ -1,8 +1,0 @@
-house:
-  id: H08
-  name: Education
-  sphere_range: 85-96
-  total_spheres: 12
-modules: []
-module_count: 0
-coverage: 0 modules assigned

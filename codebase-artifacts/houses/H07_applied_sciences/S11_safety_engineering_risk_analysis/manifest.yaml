@@ -1,0 +1,13 @@
+sphere:
+  id: H07-S11
+  house: H07
+  house_name: Applied Sciences
+  sphere_id: S11
+  sphere_name: Safety Engineering & Risk Analysis
+  sphere_number: 83
+modules: []
+invariants: []
+coverage:
+  module_count: 0
+  invariant_count: 0
+  status: EMPTY

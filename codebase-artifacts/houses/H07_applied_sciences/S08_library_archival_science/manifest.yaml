@@ -1,0 +1,20 @@
+sphere:
+  id: H07-S08
+  house: H07
+  house_name: Applied Sciences
+  sphere_id: S08
+  sphere_name: Library & Archival Science
+  sphere_number: 80
+modules:
+- id: M177
+  name: Pre-Session Research Queue
+  status: SPEC
+invariants:
+- id: INV-41
+  name: Knowledge Preservation
+  type: SOFT
+  scope: System
+coverage:
+  module_count: 1
+  invariant_count: 1
+  status: POPULATED

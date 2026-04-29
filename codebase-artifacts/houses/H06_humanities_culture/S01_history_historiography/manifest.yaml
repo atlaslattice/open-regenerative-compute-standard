@@ -1,0 +1,17 @@
+sphere:
+  id: H06-S01
+  house: H06
+  house_name: Humanities & Culture
+  sphere_id: S01
+  sphere_name: History & Historiography
+  sphere_number: 61
+modules: []
+invariants:
+- id: INV-26
+  name: Historical Accuracy
+  type: SOFT
+  scope: Content
+coverage:
+  module_count: 0
+  invariant_count: 1
+  status: POPULATED

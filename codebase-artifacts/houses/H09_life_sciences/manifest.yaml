@@ -1,8 +1,18 @@
 house:
   id: H09
   name: Life Sciences
-  sphere_range: 97-108
-  total_spheres: 12
-modules: []
-module_count: 0
-coverage: 0 modules assigned
+  sphere_count: 12
+  populated_spheres: 3
+total_modules: 2
+total_invariants: 1
+modules:
+- id: M136
+  name: Genomic Analysis Pipeline
+  sphere: S01
+- id: M137
+  name: Synthetic Biology Designer
+  sphere: S11
+invariants:
+- id: INV-24
+  name: Biodiversity Protection
+  sphere: S12

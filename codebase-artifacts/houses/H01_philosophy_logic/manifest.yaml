@@ -1,0 +1,30 @@
+house:
+  id: H01
+  name: Philosophy & Logic
+  sphere_count: 12
+  populated_spheres: 2
+total_modules: 3
+total_invariants: 4
+modules:
+- id: M7
+  name: Ethics Engine
+  sphere: S03
+- id: M8
+  name: Epistemic Integrity Validator
+  sphere: S02
+- id: M8a
+  name: Epistemic Integrity CN Adapter
+  sphere: S02
+invariants:
+- id: INV-0
+  name: Human Consent Supremacy
+  sphere: S03
+- id: INV-11
+  name: Ethical Boundaries
+  sphere: S03
+- id: INV-11.8
+  name: Ethical Boundaries (Biological)
+  sphere: S03
+- id: INV-3
+  name: Transparency Obligation
+  sphere: S03

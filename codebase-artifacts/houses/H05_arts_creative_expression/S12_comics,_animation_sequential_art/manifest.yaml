@@ -1,0 +1,16 @@
+sphere:
+  id: H05-S12
+  house: H05
+  house_name: Arts & Creative Expression
+  sphere_id: S12
+  sphere_name: Comics, Animation & Sequential Art
+  sphere_number: 60
+modules:
+- id: M166
+  name: Animation Pipeline
+  status: SPEC
+invariants: []
+coverage:
+  module_count: 1
+  invariant_count: 0
+  status: POPULATED

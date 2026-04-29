@@ -1,0 +1,13 @@
+sphere:
+  id: H08-S02
+  house: H08
+  house_name: Education & Pedagogy
+  sphere_id: S02
+  sphere_name: Curriculum Design & Assessment
+  sphere_number: 86
+modules: []
+invariants: []
+coverage:
+  module_count: 0
+  invariant_count: 0
+  status: EMPTY

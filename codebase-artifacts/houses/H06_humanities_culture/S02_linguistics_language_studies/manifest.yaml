@@ -1,0 +1,13 @@
+sphere:
+  id: H06-S02
+  house: H06
+  house_name: Humanities & Culture
+  sphere_id: S02
+  sphere_name: Linguistics & Language Studies
+  sphere_number: 62
+modules: []
+invariants: []
+coverage:
+  module_count: 0
+  invariant_count: 0
+  status: EMPTY

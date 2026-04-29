@@ -1,0 +1,16 @@
+sphere:
+  id: H09-S11
+  house: H09
+  house_name: Life Sciences
+  sphere_id: S11
+  sphere_name: Synthetic Biology & Bioengineering
+  sphere_number: 107
+modules:
+- id: M137
+  name: Synthetic Biology Designer
+  status: SPEC
+invariants: []
+coverage:
+  module_count: 1
+  invariant_count: 0
+  status: POPULATED

@@ -1,0 +1,17 @@
+sphere:
+  id: H11-S05
+  house: H11
+  house_name: Social Sciences
+  sphere_id: S05
+  sphere_name: International Relations & Diplomacy
+  sphere_number: 125
+modules: []
+invariants:
+- id: INV-23
+  name: Geopolitical Neutrality
+  type: SOFT
+  scope: Routing
+coverage:
+  module_count: 0
+  invariant_count: 1
+  status: POPULATED

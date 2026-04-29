@@ -1,0 +1,21 @@
+house:
+  id: H03
+  name: Natural Sciences
+  sphere_count: 12
+  populated_spheres: 3
+total_modules: 2
+total_invariants: 2
+modules:
+- id: M130
+  name: Wet Lab Verification Gate
+  sphere: S02
+- id: M131
+  name: Environmental Impact Assessor
+  sphere: S07
+invariants:
+- id: INV-15
+  name: Environmental Responsibility
+  sphere: S07
+- id: INV-32
+  name: Climate Accountability
+  sphere: S05

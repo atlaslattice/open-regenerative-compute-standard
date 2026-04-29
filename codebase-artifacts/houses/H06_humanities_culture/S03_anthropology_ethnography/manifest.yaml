@@ -1,0 +1,13 @@
+sphere:
+  id: H06-S03
+  house: H06
+  house_name: Humanities & Culture
+  sphere_id: S03
+  sphere_name: Anthropology & Ethnography
+  sphere_number: 63
+modules: []
+invariants: []
+coverage:
+  module_count: 0
+  invariant_count: 0
+  status: EMPTY

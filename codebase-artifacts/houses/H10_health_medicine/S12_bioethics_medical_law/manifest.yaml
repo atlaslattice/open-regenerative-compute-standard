@@ -1,0 +1,17 @@
+sphere:
+  id: H10-S12
+  house: H10
+  house_name: Health & Medicine
+  sphere_id: S12
+  sphere_name: Bioethics & Medical Law
+  sphere_number: 120
+modules: []
+invariants:
+- id: INV-17
+  name: Health Safety
+  type: HARD
+  scope: Content
+coverage:
+  module_count: 0
+  invariant_count: 1
+  status: POPULATED

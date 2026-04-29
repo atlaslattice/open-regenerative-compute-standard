@@ -1,0 +1,13 @@
+sphere:
+  id: H09-S10
+  house: H09
+  house_name: Life Sciences
+  sphere_id: S10
+  sphere_name: Marine Biology
+  sphere_number: 106
+modules: []
+invariants: []
+coverage:
+  module_count: 0
+  invariant_count: 0
+  status: EMPTY

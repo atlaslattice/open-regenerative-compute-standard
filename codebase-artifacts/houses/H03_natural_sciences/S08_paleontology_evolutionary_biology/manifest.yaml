@@ -1,0 +1,13 @@
+sphere:
+  id: H03-S08
+  house: H03
+  house_name: Natural Sciences
+  sphere_id: S08
+  sphere_name: Paleontology & Evolutionary Biology
+  sphere_number: 32
+modules: []
+invariants: []
+coverage:
+  module_count: 0
+  invariant_count: 0
+  status: EMPTY

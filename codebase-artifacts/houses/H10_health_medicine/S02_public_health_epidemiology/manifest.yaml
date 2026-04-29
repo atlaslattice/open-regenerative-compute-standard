@@ -1,0 +1,13 @@
+sphere:
+  id: H10-S02
+  house: H10
+  house_name: Health & Medicine
+  sphere_id: S02
+  sphere_name: Public Health & Epidemiology
+  sphere_number: 110
+modules: []
+invariants: []
+coverage:
+  module_count: 0
+  invariant_count: 0
+  status: EMPTY

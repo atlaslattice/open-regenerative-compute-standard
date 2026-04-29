@@ -1,0 +1,20 @@
+sphere:
+  id: H11-S01
+  house: H11
+  house_name: Social Sciences
+  sphere_id: S01
+  sphere_name: Economics & Political Economy
+  sphere_number: 121
+modules:
+- id: M139
+  name: Economic Modeling Engine
+  status: SPEC
+invariants:
+- id: INV-13
+  name: Economic Fairness
+  type: SOFT
+  scope: Federation
+coverage:
+  module_count: 1
+  invariant_count: 1
+  status: POPULATED

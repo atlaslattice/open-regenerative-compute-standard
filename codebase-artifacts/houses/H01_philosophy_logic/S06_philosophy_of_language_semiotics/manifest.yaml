@@ -1,0 +1,13 @@
+sphere:
+  id: H01-S06
+  house: H01
+  house_name: Philosophy & Logic
+  sphere_id: S06
+  sphere_name: Philosophy of Language & Semiotics
+  sphere_number: 6
+modules: []
+invariants: []
+coverage:
+  module_count: 0
+  invariant_count: 0
+  status: EMPTY

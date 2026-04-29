@@ -1,0 +1,19 @@
+sphere:
+  id: H05-S11
+  house: H05
+  house_name: Arts & Creative Expression
+  sphere_id: S11
+  sphere_name: Dance & Movement Arts
+  sphere_number: 59
+modules:
+- id: M162b
+  name: Spatial Computing Interface
+  status: SPEC
+- id: M175
+  name: Interactive-Kinetic Rights Harmonizer
+  status: SPEC
+invariants: []
+coverage:
+  module_count: 2
+  invariant_count: 0
+  status: POPULATED

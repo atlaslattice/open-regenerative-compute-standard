@@ -1,0 +1,17 @@
+sphere:
+  id: H09-S12
+  house: H09
+  house_name: Life Sciences
+  sphere_id: S12
+  sphere_name: Conservation Biology & Biodiversity
+  sphere_number: 108
+modules: []
+invariants:
+- id: INV-24
+  name: Biodiversity Protection
+  type: SOFT
+  scope: H09
+coverage:
+  module_count: 0
+  invariant_count: 1
+  status: POPULATED

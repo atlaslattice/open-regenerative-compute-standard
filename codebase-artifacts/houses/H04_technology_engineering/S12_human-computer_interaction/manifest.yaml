@@ -1,0 +1,20 @@
+sphere:
+  id: H04-S12
+  house: H04
+  house_name: Technology & Engineering
+  sphere_id: S12
+  sphere_name: Human-Computer Interaction
+  sphere_number: 48
+modules:
+- id: M99
+  name: UX Accessibility Validator
+  status: SPEC
+invariants:
+- id: INV-35
+  name: Child Safety
+  type: HARD
+  scope: Universal
+coverage:
+  module_count: 1
+  invariant_count: 1
+  status: POPULATED

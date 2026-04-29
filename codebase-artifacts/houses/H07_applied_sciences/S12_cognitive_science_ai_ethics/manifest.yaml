@@ -1,0 +1,13 @@
+sphere:
+  id: H07-S12
+  house: H07
+  house_name: Applied Sciences
+  sphere_id: S12
+  sphere_name: Cognitive Science & AI Ethics
+  sphere_number: 84
+modules: []
+invariants: []
+coverage:
+  module_count: 0
+  invariant_count: 0
+  status: EMPTY

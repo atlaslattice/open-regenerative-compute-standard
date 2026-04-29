@@ -1,0 +1,16 @@
+sphere:
+  id: H09-S01
+  house: H09
+  house_name: Life Sciences
+  sphere_id: S01
+  sphere_name: Molecular Biology & Genetics
+  sphere_number: 97
+modules:
+- id: M136
+  name: Genomic Analysis Pipeline
+  status: SPEC
+invariants: []
+coverage:
+  module_count: 1
+  invariant_count: 0
+  status: POPULATED

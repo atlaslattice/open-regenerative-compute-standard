@@ -1,0 +1,60 @@
+sphere:
+  id: H02-S04
+  house: H02
+  house_name: Formal Sciences
+  sphere_id: S04
+  sphere_name: Information Theory & Cryptography
+  sphere_number: 16
+modules:
+- id: M3
+  name: Consent & Provenance Engine
+  status: SPEC
+- id: M3a
+  name: Consent Engine Extension
+  status: SPEC
+- id: M6
+  name: Cryptographic Primitives
+  status: SPEC
+- id: M6a
+  name: Cryptographic Primitives Extension A
+  status: SPEC
+- id: M6b
+  name: Cryptographic Primitives Extension B
+  status: SPEC
+- id: M6c
+  name: BSN Anchoring Adapter
+  status: SPEC
+- id: M23
+  name: Information Security Module
+  status: SPEC
+- id: M23a
+  name: Information Security CN Adapter
+  status: SPEC
+- id: M42
+  name: Zero-Knowledge Proof Module
+  status: SPEC
+- id: M53
+  name: Homomorphic Encryption Engine
+  status: SPEC
+- id: M65
+  name: Metadata Enrichment Pipeline
+  status: SPEC
+- id: M77
+  name: Secure Multi-Party Computation
+  status: SPEC
+- id: M90
+  name: Post-Quantum Cryptography
+  status: SPEC
+invariants:
+- id: INV-2
+  name: Data Sovereignty
+  type: HARD
+  scope: Universal
+- id: INV-22
+  name: Cryptographic Integrity
+  type: HARD
+  scope: System
+coverage:
+  module_count: 13
+  invariant_count: 2
+  status: POPULATED

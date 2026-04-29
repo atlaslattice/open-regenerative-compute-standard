@@ -1,0 +1,13 @@
+sphere:
+  id: H09-S05
+  house: H09
+  house_name: Life Sciences
+  sphere_id: S05
+  sphere_name: Zoology & Animal Sciences
+  sphere_number: 101
+modules: []
+invariants: []
+coverage:
+  module_count: 0
+  invariant_count: 0
+  status: EMPTY

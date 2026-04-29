@@ -1,0 +1,19 @@
+sphere:
+  id: H05-S04
+  house: H05
+  house_name: Arts & Creative Expression
+  sphere_id: S04
+  sphere_name: Film & Moving Image
+  sphere_number: 52
+modules:
+- id: M108
+  name: Video Production Pipeline
+  status: SPEC
+- id: M113
+  name: Fair Use Evaluator
+  status: SPEC
+invariants: []
+coverage:
+  module_count: 2
+  invariant_count: 0
+  status: POPULATED

@@ -1,0 +1,13 @@
+sphere:
+  id: H10-S07
+  house: H10
+  house_name: Health & Medicine
+  sphere_id: S07
+  sphere_name: Traditional & Complementary Medicine
+  sphere_number: 115
+modules: []
+invariants: []
+coverage:
+  module_count: 0
+  invariant_count: 0
+  status: EMPTY

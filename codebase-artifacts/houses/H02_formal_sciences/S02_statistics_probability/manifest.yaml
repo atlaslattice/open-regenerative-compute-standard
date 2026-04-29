@@ -1,0 +1,45 @@
+sphere:
+  id: H02-S02
+  house: H02
+  house_name: Formal Sciences
+  sphere_id: S02
+  sphere_name: Statistics & Probability
+  sphere_number: 14
+modules:
+- id: M3.1
+  name: Trust Scoring System (TSS)
+  status: SPEC
+- id: M16
+  name: Statistical Inference Engine
+  status: SPEC
+- id: M29
+  name: Bayesian Network Engine
+  status: SPEC
+- id: M46
+  name: Monte Carlo Simulator
+  status: SPEC
+- id: M74
+  name: Hypothesis Testing Framework
+  status: SPEC
+- id: M79
+  name: Primacy Bonus Calculator
+  status: SPEC
+- id: M80
+  name: Epistemic Weather Engine
+  status: SPEC
+- id: M173
+  name: Real-Time Routing Share Meter
+  status: SPEC
+invariants:
+- id: INV-7
+  name: Quality Floor
+  type: SOFT
+  scope: Routing
+- id: INV-7c
+  name: Provider Cap (47%/60%)
+  type: HARD
+  scope: Routing
+coverage:
+  module_count: 8
+  invariant_count: 2
+  status: POPULATED

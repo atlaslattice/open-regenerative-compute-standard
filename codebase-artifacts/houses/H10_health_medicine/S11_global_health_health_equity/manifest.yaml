@@ -1,0 +1,13 @@
+sphere:
+  id: H10-S11
+  house: H10
+  house_name: Health & Medicine
+  sphere_id: S11
+  sphere_name: Global Health & Health Equity
+  sphere_number: 119
+modules: []
+invariants: []
+coverage:
+  module_count: 0
+  invariant_count: 0
+  status: EMPTY

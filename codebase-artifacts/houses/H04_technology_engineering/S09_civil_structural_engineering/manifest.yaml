@@ -1,0 +1,16 @@
+sphere:
+  id: H04-S09
+  house: H04
+  house_name: Technology & Engineering
+  sphere_id: S09
+  sphere_name: Civil & Structural Engineering
+  sphere_number: 45
+modules:
+- id: M126
+  name: Structural Analysis Engine
+  status: SPEC
+invariants: []
+coverage:
+  module_count: 1
+  invariant_count: 0
+  status: POPULATED

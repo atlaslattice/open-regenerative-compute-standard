@@ -1,0 +1,13 @@
+sphere:
+  id: H01-S01
+  house: H01
+  house_name: Philosophy & Logic
+  sphere_id: S01
+  sphere_name: Formal Logic & Proof Theory
+  sphere_number: 1
+modules: []
+invariants: []
+coverage:
+  module_count: 0
+  invariant_count: 0
+  status: EMPTY

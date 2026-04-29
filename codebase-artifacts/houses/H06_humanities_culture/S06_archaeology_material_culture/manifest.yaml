@@ -1,0 +1,13 @@
+sphere:
+  id: H06-S06
+  house: H06
+  house_name: Humanities & Culture
+  sphere_id: S06
+  sphere_name: Archaeology & Material Culture
+  sphere_number: 66
+modules: []
+invariants: []
+coverage:
+  module_count: 0
+  invariant_count: 0
+  status: EMPTY
