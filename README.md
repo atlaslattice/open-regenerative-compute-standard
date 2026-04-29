@@ -2,7 +2,7 @@
 
 > *The data center is the farm. The watershed is the field. The thermal waste is the compost.*
 
-Nine distinct AI perspectives — Claude, Gemini, Grok, GPT, Manus, DeepSeek, Qwen3, GitHub Copilot, and Amazon Alexa — converged on a shared thesis through comparative analysis, adversarial review, and iterative synthesis:
+Twelve AI perspectives — Claude, Gemini, Grok, GPT, Manus, DeepSeek, Qwen3, GitHub Copilot, Amazon Alexa, Notion AI, Llama, and Mistral — converge through a 12-seat Pantheon Council on a shared thesis:
 
 **Regenerative agriculture principles apply to computing.**
 
@@ -88,9 +88,20 @@ examples/
 | GitHub Copilot | Microsoft/Azure | Enterprise adoption layer, procurement legibility, audit-ready implementation, anti-greenwashing posture |
 | Amazon Alexa | Amazon/AWS | Flywheel economics, scale leverage, AWS regions as regenerative anchors, customer-obsessed regeneration |
 
+## Related Repositories
+
+| Repository | Purpose |
+|------------|--------|
+| **[aluminum-os](https://github.com/atlaslattice/aluminum-os)** | The 12×12+1 codebase — 144 sphere directories + Element 145 sovereign kernel. 182 module stubs, YAML registries, all governance artifacts in ontological positions. |
+| **This repo** (open-regenerative-compute-standard) | Governance specifications, papers, synthesis documents, council reviews. |
+
 ## Live Site
 
 Explore the interactive framework: [The Open Regenerative Compute Standard](https://regcompute-gzelm6nx.manus.space)
+
+## Build Plan
+
+The canonical governance document is the **Build Plan** (currently v3.14, 5,124 lines). It defines all 182 modules, 45 invariants, 125 doctrines, 188 risks, and 45 appendices. The Build Plan is maintained in both this repo and the aluminum-os repo.
 
 ## License
 
