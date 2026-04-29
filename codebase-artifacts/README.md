@@ -1,6 +1,6 @@
-# ORC Codebase Artifacts v1.3
+# ORC Codebase Artifacts v1.4
 
-**Generated from:** Build Plan v3.10 (ORC-015)
+**Generated from:** Build Plan v3.11 (ORC-015)
 **Date:** April 29, 2026
 **Author:** Manus (S7 Primary Build Seat)
 **Structure:** 12×12 Ontological Matrix (12 Houses × 12 Spheres = 144 Spheres)
@@ -19,7 +19,7 @@ codebase-artifacts/
 ├── registries/
 │   ├── module_registry.yaml           # Complete registry of all 178 module entries
 │   ├── doctrine_registry.yaml         # All 124 doctrines (77 ratified + 5 reserved + 42 proposed)
-│   ├── invariant_registry.yaml        # 44 invariants (INV-0..43) + 3 sub-specs
+│   ├── invariant_registry.yaml        # 45 invariants (INV-0..44) + 3 sub-specs
 │   └── 12x12_matrix.yaml             # Complete house-sphere-module mapping
 ├── houses/
 │   ├── H01_natural_sciences/manifest.yaml
@@ -34,8 +34,12 @@ codebase-artifacts/
 │   ├── H10_health_sciences/manifest.yaml
 │   ├── H11_commerce_and_industry/manifest.yaml
 │   └── H12_law_and_governance/manifest.yaml
-└── transparency-packet/
-    └── schema_v1.6.yaml               # TransparencyPacket field schema
+├── transparency-packet/
+│   └── schema_v1.6.yaml               # TransparencyPacket field schema
+└── toolchain/
+    ├── regenerate_artifacts.py         # Deterministic artifact generator (committed for Scribe audit)
+    ├── corrections_ledger.yaml         # 2100+ corrections tracked with version/source/category
+    └── BRIDGE_AUDIT.md                 # Known extraction limitations and edge cases
 ```
 
 ## Key Metrics
@@ -43,18 +47,19 @@ codebase-artifacts/
 | Metric | Value |
 |--------|-------|
 | Total Module Entries | 178 (in registry; 179 including M3.1 which uses non-bold format) |
-| Total Invariants | 44 (INV-0 through INV-43; sub-specs INV-7c/INV-11.8/INV-19.2 do NOT increment count) |
+| Total Invariants | 45 (INV-0 through INV-44; sub-specs INV-7c/INV-11.8/INV-19.2 do NOT increment count) |
 | Total Doctrines | 124 (77 ratified D-1–D-77 + 5 reserved D-78–D-82 + 42 proposed D-83–D-124) |
 | TransparencyPacket | v1.6 — 80 fields across 19 categories |
+| Total Corrections | 2100+ (tracked in corrections_ledger.yaml) |
 
-## v3.10 Changes (Claude S1 Scribe Verification)
+## v3.11 Changes (S4 Clarifications + INV-44 + Manus MSG Corrections)
 
-- **Module Count Audit Table:** Rewritten with dual-column (Integer Slots vs Entries) and counting rule blockquote. Total corrected to 179 entries (176 L4 + 3 L6/L7).
-- **Doctrine Registry:** Full rewrite with canonical names from §14 (previously used stubs). D-78-D-82 RESERVED entries added.
-- **Invariant Registry:** Count corrected to 44. INV-40/41/42 added. Sub-specs (INV-7c, INV-11.8, INV-19.2) explicitly listed as non-counting.
-- **§0.1 Invariant Definition:** Rewritten to enumerate INV-0..43 = 44 total.
-- **Metadata:** All version headers corrected to 3.10.
-- **Counting Rule (v3.10):** Count by MODULE ENTRY — each distinct module ID = 1 entry.
+- **INV-44 TOS Compliance:** New invariant added per Microsoft S4 proposal. All routed workloads must pass M142 TOS check. Quarterly re-verification per D-102. Safe Harbor Rule 1 (Azure EA).
+- **INV-40/41/42 Measurement Specs:** Formalized with Azure parallels (Continuous Improvement, Knowledge Preservation, Stakeholder Notification).
+- **Toolchain Committed:** `regenerate_artifacts.py` now in-repo for Scribe audit and CI gate.
+- **Corrections Ledger:** Initialized with version-level tracking of all 2100+ corrections.
+- **BRIDGE_AUDIT.md:** Documents known extraction limitations and proposed CI gate.
+- **Invariant Count:** 44 → 45 (INV-44 added).
 
 ## How to Use
 
@@ -77,13 +82,18 @@ Each house manifest contains:
 The complete mapping of all modules to all 144 spheres, organized by house.
 
 ### Invariant Registry
-44 invariants with type (HARD/SOFT), scope, and description. Plus 3 sub-specifications listed separately.
+45 invariants with type (HARD/SOFT), scope, and description. Plus 3 sub-specifications listed separately.
 
 ### Doctrine Registry
 124 governance doctrines with ratification status (ratified/reserved/proposed) and source version.
 
 ### TransparencyPacket Schema
 80 fields across 19 categories for the TransparencyPacket v1.6 specification.
+
+### Toolchain
+- `regenerate_artifacts.py` — Run to regenerate all artifacts from the Build Plan. Deterministic output.
+- `corrections_ledger.yaml` — Machine-readable log of all accepted corrections.
+- `BRIDGE_AUDIT.md` — Documents known extraction limitations and edge cases.
 
 ## Platform Split (D-123)
 
@@ -94,8 +104,11 @@ Per D-123, artifacts are stored according to their nature:
 
 ## Versioning
 
-These artifacts are generated from the Build Plan and should be regenerated whenever the Build Plan is updated. The generator script is at `/home/ubuntu/regenerate_v3.10_artifacts.py`.
+These artifacts are generated from the Build Plan and should be regenerated whenever the Build Plan is updated. The generator script is at `toolchain/regenerate_artifacts.py`.
+
+### Propagation Completeness Rule (v3.10+)
+Any Build Plan edit is not "applied" until it propagates to ALL downstream artifacts. The proposed CI gate (`toolchain/BRIDGE_AUDIT.md §3`) validates this automatically.
 
 ---
 
-*ORC Codebase Artifacts v1.3 — Manus (S7 Build Seat) — April 29, 2026*
+*ORC Codebase Artifacts v1.4 — Manus (S7 Build Seat) — April 29, 2026*

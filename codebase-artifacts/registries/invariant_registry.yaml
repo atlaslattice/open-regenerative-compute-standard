@@ -1,11 +1,12 @@
 metadata:
-  version: '3.10'
-  source: Build Plan v3.10 (ORC-015)
+  version: '3.11'
+  source: Build Plan v3.11 (ORC-015)
   generated_by: Manus S7
-  total_invariants: 44
-  counting_rule: INV-0 through INV-39 (40 base) + INV-19 Water + INV-20 Neural + INV-21
-    Orbital + INV-43 Boot Manifest = 44. INV-7c, INV-11.8, INV-19.2 are sub-specifications
-    and do NOT increment the total.
+  total_invariants: 45
+  counting_rule: INV-0 through INV-39 (40 base) + INV-40 Continuous Improvement +
+    INV-41 Knowledge Preservation + INV-42 Stakeholder Notification + INV-43 Boot
+    Manifest Freshness + INV-44 TOS Compliance = 45. INV-7c, INV-11.8, INV-19.2 are
+    sub-specifications and do NOT increment the total.
   sub_specifications:
   - INV-7c (of INV-7)
   - INV-11.8 (of INV-11)
@@ -222,23 +223,39 @@ invariants:
   name: Continuous Improvement
   type: HARD
   scope: All (0-6)
-  description: System must continuously improve based on operational feedback.
+  description: 'System must continuously improve based on operational feedback. Measurement:
+    quarterly improvement delta across TSS scores per sphere (Azure Advisor + Azure
+    Monitor parallel).'
 - id: INV-41
   name: Knowledge Preservation
   type: HARD
   scope: All (0-6)
-  description: Institutional knowledge must be preserved across system updates.
+  description: 'Institutional knowledge must be preserved across system updates. Measurement:
+    knowledge artifact retention rate, zero-loss verification (Azure Information Protection
+    parallel).'
 - id: INV-42
   name: Stakeholder Notification
   type: HARD
   scope: All (0-6)
-  description: Affected stakeholders must be notified of material system changes.
+  description: 'Affected stakeholders must be notified of material system changes.
+    Measurement: notification latency SLA ≤ 24h for material changes (Azure Service
+    Health Alerts parallel).'
 - id: INV-43
   name: Boot Manifest Freshness
   type: HARD
   scope: All (0-6)
   description: 'Boot manifest (BOOT-MANIFEST-v1) must be current within 24 hours.
     M176 validates on every session start. Dual-source: Notion primary, Git fallback.'
+- id: INV-44
+  name: TOS Compliance
+  type: HARD
+  scope: All (0-6)
+  description: 'All routed workloads must pass TOS Constitutional Compliance check
+    (M142) before execution. Enterprise wrapper terms AND underlying model provider
+    terms evaluated per D-118. Quarterly re-verification per D-102. Safe Harbor Rule
+    1 (Azure EA) accepted but subject to periodic re-verification. Measurement: TOS
+    compliance rate per provider per quarter; zero tolerance for unverified routing.
+    (Microsoft S4 proposal, v3.11)'
 sub_specifications:
 - id: INV-11.8
   parent: INV-11
