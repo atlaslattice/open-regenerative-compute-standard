@@ -1,0 +1,85 @@
+house:
+  id: H11
+  name: Agriculture & Environment
+  spheres:
+    121: Agronomy
+    122: Horticulture
+    123: Animal Husbandry
+    124: Forestry
+    125: Fisheries
+    126: Soil Science
+    127: Water Resources
+    128: Food Science
+    129: Agricultural Economics
+    130: Pest Management
+    131: Sustainable Agriculture
+    132: Public Administration
+modules:
+  M99:
+    name: Unknown
+    primary_sphere: 118
+    layer: L7
+    status: SPEC
+  M149:
+    name: VWB v1.1 Sustainability Ceiling Engine
+    primary_sphere: 127
+    layer: L7
+    status: SPEC
+  M151:
+    name: Water TransparencyPacket Extension
+    primary_sphere: 127
+    layer: L7
+    status: SPEC
+  M22:
+    name: China Metabolic Pre-Fetch
+    primary_sphere: 29
+    layer: L4
+    status: SPEC
+  M101:
+    name: Kinetic Sovereign Credit Engine
+    primary_sphere: 29
+    layer: L7
+    status: SPEC
+  M127:
+    name: Carbon-Aware Inference Router
+    primary_sphere: 8
+    layer: L7
+    status: SPEC
+  M132:
+    name: Regenerative Credit Tokenizer
+    primary_sphere: 29
+    layer: L7
+    status: SPEC
+  M135:
+    name: Windows IoT Civic Terminal
+    primary_sphere: 132
+    layer: L7
+    status: SPEC
+  M172:
+    name: Civic Compute Reuse Engine
+    primary_sphere: 76
+    layer: L4
+    status: SPEC
+  M173:
+    name: Real-Time Routing Share Meter
+    primary_sphere: 76
+    layer: L4
+    status: SPEC
+coverage:
+  total_spheres: 12
+  covered_spheres: 5
+  gap_spheres:
+  - sphere: 122
+    name: Horticulture
+  - sphere: 123
+    name: Animal Husbandry
+  - sphere: 124
+    name: Forestry
+  - sphere: 125
+    name: Fisheries
+  - sphere: 126
+    name: Soil Science
+  - sphere: 129
+    name: Agricultural Economics
+  - sphere: 130
+    name: Pest Management

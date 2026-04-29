@@ -1,0 +1,343 @@
+house:
+  id: H04
+  name: Technology
+  spheres:
+    37: Engineering
+    38: Electrical Engineering
+    39: Mechanical Engineering
+    40: Civil Engineering
+    41: Chemical Engineering
+    42: Aerospace Engineering
+    43: Biomedical Engineering
+    44: Nuclear Engineering
+    45: Robotics
+    46: Nanotechnology
+    47: Telecommunications
+    48: Software Engineering
+modules:
+  M18:
+    name: Hardware Trust CN
+    primary_sphere: 38
+    layer: L4
+    status: SPEC
+  M21:
+    name: Saudi Grid Adapter
+    primary_sphere: 38
+    layer: L4
+    status: SPEC
+  M25:
+    name: Digital Mandate of Heaven
+    primary_sphere: 38
+    layer: L4
+    status: SPEC
+  M26:
+    name: Persistent Researcher
+    primary_sphere: 47
+    layer: L4
+    status: SPEC
+  M122:
+    name: Unknown
+    primary_sphere: 38
+    layer: L7
+    status: SPEC
+  M129:
+    name: Passkey Hardware Root Adapter
+    primary_sphere: 21
+    layer: L7
+    status: SPEC
+  M134:
+    name: PyO3 Constitutional Bridge
+    primary_sphere: 48
+    layer: L7
+    status: SPEC
+  M135:
+    name: Windows IoT Civic Terminal
+    primary_sphere: 132
+    layer: L7
+    status: SPEC
+  M100:
+    name: Molecular Sovereignty Engine
+    primary_sphere: 41
+    layer: L7
+    status: SPEC
+  M137:
+    name: Quantum PFAS Simulation Pipeline
+    primary_sphere: 1
+    layer: L7
+    status: SPEC
+  M34:
+    name: Structured Output Validator
+    primary_sphere: 48
+    layer: L4
+    status: SPEC
+  M19:
+    name: Bhashini-MCP Bridge
+    primary_sphere: 32
+    layer: L4
+    status: SPEC
+  M6a:
+    name: Open-Weight Provenance Verifier
+    primary_sphere: 21
+    layer: L4
+    status: SPEC
+  M10:
+    name: Unknown
+    primary_sphere: 48
+    layer: L4
+    status: SPEC
+  M11:
+    name: Unknown
+    primary_sphere: 48
+    layer: L4
+    status: SPEC
+  M12:
+    name: Task Generator
+    primary_sphere: 48
+    layer: L4
+    status: SPEC
+  M14:
+    name: Ingestion Service
+    primary_sphere: 83
+    layer: L4
+    status: SPEC
+  M15a:
+    name: Model Fingerprint Verifier
+    primary_sphere: 21
+    layer: L4
+    status: SPEC
+  M28:
+    name: Session Handoff
+    primary_sphere: 48
+    layer: L4
+    status: SPEC
+  M29:
+    name: Constitutional API
+    primary_sphere: 48
+    layer: L4
+    status: SPEC
+  M30:
+    name: Cross-Task Memory Bridge
+    primary_sphere: 83
+    layer: L4
+    status: SPEC
+  M31:
+    name: Manus API Orchestrator
+    primary_sphere: 48
+    layer: L4
+    status: SPEC
+  M33:
+    name: Multi-Agent Session Fabric
+    primary_sphere: 48
+    layer: L4
+    status: SPEC
+  M35:
+    name: Doctrine Evaluation Engine
+    primary_sphere: 48
+    layer: L4
+    status: SPEC
+  M36:
+    name: Unknown
+    primary_sphere: 48
+    layer: L4
+    status: SPEC
+  M37:
+    name: Unknown
+    primary_sphere: 48
+    layer: L4
+    status: SPEC
+  M38:
+    name: Unknown
+    primary_sphere: 48
+    layer: L4
+    status: SPEC
+  M39:
+    name: Unknown
+    primary_sphere: 48
+    layer: L4
+    status: SPEC
+  M40:
+    name: Quantum Sovereignty Adapter
+    primary_sphere: 48
+    layer: L4
+    status: SPEC
+  M41:
+    name: AI Treaty Arbitration Module
+    primary_sphere: 48
+    layer: L4
+    status: SPEC
+  M42:
+    name: e-CNY Dividend Rail
+    primary_sphere: 48
+    layer: L4
+    status: SPEC
+  M43:
+    name: Neural Data Sovereignty Module
+    primary_sphere: 48
+    layer: L4
+    status: SPEC
+  M44:
+    name: Orbital Metabolic Layer
+    primary_sphere: 48
+    layer: L4
+    status: SPEC
+  M45:
+    name: Cultural Data Synthesizer
+    primary_sphere: 48
+    layer: L4
+    status: SPEC
+  M46:
+    name: Unknown
+    primary_sphere: 48
+    layer: L6
+    status: SPEC
+  M47:
+    name: Unknown
+    primary_sphere: 48
+    layer: L6
+    status: SPEC
+  M48:
+    name: Unknown
+    primary_sphere: 48
+    layer: L6
+    status: SPEC
+  M57:
+    name: Unknown
+    primary_sphere: 22
+    layer: L4
+    status: SPEC
+  M58:
+    name: Unknown
+    primary_sphere: 16
+    layer: L4
+    status: SPEC
+  M59:
+    name: Unknown
+    primary_sphere: 133
+    layer: L4
+    status: SPEC
+  M60:
+    name: Ontology Context Injector
+    primary_sphere: 83
+    layer: L4
+    status: SPEC
+  M62:
+    name: Unknown
+    primary_sphere: 84
+    layer: L4
+    status: SPEC
+  M63:
+    name: Parser-Filesystem Symmetry Gate
+    primary_sphere: 16
+    layer: L4
+    status: SPEC
+  M77:
+    name: GoldenTrace-CN (BSN Triple-Vault)
+    primary_sphere: 48
+    layer: L4
+    status: SPEC
+  M80:
+    name: Epistemic Weather Overlay
+    primary_sphere: 48
+    layer: L4
+    status: SPEC
+  M81:
+    name: Parallel Lane CI/CD Gate
+    primary_sphere: 48
+    layer: L4
+    status: SPEC
+  M82:
+    name: CEO Deliberation Kernel
+    primary_sphere: 48
+    layer: L4
+    status: SPEC
+  M83:
+    name: Frame-Aware Dashboard
+    primary_sphere: 48
+    layer: L4
+    status: SPEC
+  M84:
+    name: Red Team PR Simulation
+    primary_sphere: 48
+    layer: L4
+    status: SPEC
+  M85:
+    name: Guaranteed Offtake Contract Engine
+    primary_sphere: 48
+    layer: L4
+    status: SPEC
+  M86:
+    name: Wet Lab Verification Gate
+    primary_sphere: 48
+    layer: L4
+    status: SPEC
+  M87:
+    name: Utility Redemption Engine
+    primary_sphere: 48
+    layer: L4
+    status: SPEC
+  M88:
+    name: Consensus Threshold Calibrator
+    primary_sphere: 48
+    layer: L4
+    status: SPEC
+  M89:
+    name: Predictive Nutrient Cycling Engine
+    primary_sphere: 48
+    layer: L4
+    status: SPEC
+  M90:
+    name: Molecular Sovereignty Verifier
+    primary_sphere: 48
+    layer: L4
+    status: SPEC
+  M91:
+    name: Kinetic Sovereign Credit
+    primary_sphere: 48
+    layer: L4
+    status: SPEC
+  M133:
+    name: Constitutional SoP Bridge
+    primary_sphere: 48
+    layer: L7
+    status: SPEC
+  M138:
+    name: Unknown
+    primary_sphere: 48
+    layer: L7
+    status: SPEC
+  M139:
+    name: v6.0.2 Drift Reconciliation Engine
+    primary_sphere: 48
+    layer: L7
+    status: SPEC
+  M157:
+    name: Parallel Lane Code Authorship Controller
+    primary_sphere: 48
+    layer: L7
+    status: SPEC
+  M161:
+    name: Design System Coherence & Accessibility Engine
+    primary_sphere: 57
+    layer: L4
+    status: SPEC
+  M165:
+    name: Creative Fast Path Cache
+    primary_sphere: 48
+    layer: L4
+    status: SPEC
+coverage:
+  total_spheres: 12
+  covered_spheres: 6
+  gap_spheres:
+  - sphere: 37
+    name: Engineering
+  - sphere: 39
+    name: Mechanical Engineering
+  - sphere: 40
+    name: Civil Engineering
+  - sphere: 42
+    name: Aerospace Engineering
+  - sphere: 43
+    name: Biomedical Engineering
+  - sphere: 46
+    name: Nanotechnology

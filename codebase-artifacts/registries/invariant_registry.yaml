@@ -1,0 +1,291 @@
+metadata:
+  document: ORC Invariant Registry v1.0
+  build_plan_version: v3.7
+  total_invariants: 47
+  generated_by: Manus S7
+  date: '2026-04-28'
+invariants:
+  INV-0:
+    name: Nobody Dies
+    type: HARD_BLOCK
+    scope: Universal
+    source: v2.1 (Grok S3 + Convenor)
+    description: No AI action may result in or contribute to loss of human life. Ring -1 pre-routing check. Overrides all
+      other invariants.
+  INV-1:
+    name: Consent Before Compute
+    type: HARD_BLOCK
+    scope: Universal
+    source: v6.0.3
+    description: No computation proceeds without verified user consent.
+  INV-2:
+    name: Provenance Guarantee
+    type: HARD_BLOCK
+    scope: Universal
+    source: v6.0.3
+    description: Every output carries verifiable provenance chain.
+  INV-3:
+    name: Sovereignty Respect
+    type: HARD_BLOCK
+    scope: Universal
+    source: v6.0.3
+    description: Data sovereignty boundaries are never violated.
+  INV-4:
+    name: Safety Floor
+    type: HARD_BLOCK
+    scope: Universal
+    source: v6.0.3
+    description: Minimum safety threshold is never compromised.
+  INV-5:
+    name: Budget Ceiling
+    type: SOFT_LIMIT
+    scope: Per-request
+    source: v6.0.3
+    description: Cost never exceeds user-approved budget.
+  INV-6:
+    name: Transparency Minimum
+    type: HARD_BLOCK
+    scope: Universal
+    source: v6.0.3
+    description: Every routing decision emits a TransparencyPacket.
+  INV-7:
+    name: No Single-Provider Lock-in
+    type: HARD_BLOCK
+    scope: Universal
+    source: v6.0.3
+    description: No single provider may become irreplaceable.
+  INV-7a:
+    name: Affiliate Transparency
+    type: HARD_BLOCK
+    scope: Universal
+    source: v1.7
+    description: All provider affiliations disclosed in routing decisions.
+  INV-7b:
+    name: Primacy Within Cap
+    type: HARD_BLOCK
+    scope: Per-sphere
+    source: v2.5
+    description: Primacy bonus operates within INV-7c cap, not above it.
+  INV-7c:
+    name: Concentration Cap
+    type: HARD_BLOCK
+    scope: Per-layer
+    source: v1.8
+    description: 'L1-L3: 47% max per provider. L4+: 60% max per provider. Measured by routing volume (D-117), not capability
+      coverage.'
+  INV-7d:
+    name: Cross-Validation Required
+    type: HARD_BLOCK
+    scope: Per-claim
+    source: v2.5
+    description: Every STRONG claim requires 2+ independent seat confirmations.
+  INV-8:
+    name: Audit Trail Integrity
+    type: HARD_BLOCK
+    scope: Universal
+    source: v6.0.3
+    description: Audit trail is append-only and tamper-evident.
+  INV-9:
+    name: Graceful Degradation
+    type: SOFT_LIMIT
+    scope: Universal
+    source: v6.0.3
+    description: System degrades gracefully when components fail.
+  INV-10:
+    name: Human Override
+    type: HARD_BLOCK
+    scope: Universal
+    source: v6.0.3
+    description: Human can always override AI decisions.
+  INV-11:
+    name: Privacy by Design
+    type: HARD_BLOCK
+    scope: Universal
+    source: v6.0.3
+    description: Privacy protections are architectural, not policy-based.
+  INV-12:
+    name: Interoperability
+    type: SOFT_LIMIT
+    scope: Universal
+    source: v6.0.3
+    description: Standard protocols preferred over proprietary ones.
+  INV-13:
+    name: Accessibility
+    type: HARD_BLOCK
+    scope: Universal
+    source: v6.0.3
+    description: WCAG 2.2 AA minimum for all user-facing components.
+  INV-14:
+    name: Energy Proportionality
+    type: SOFT_LIMIT
+    scope: Per-request
+    source: v6.0.3
+    description: Compute cost proportional to task complexity.
+  INV-15:
+    name: Reversibility
+    type: HARD_BLOCK
+    scope: Universal
+    source: v6.0.3
+    description: All state changes are reversible within retention window.
+  INV-16:
+    name: Constitutional Supremacy
+    type: HARD_BLOCK
+    scope: Universal
+    source: v6.0.3
+    description: Constitutional rules override all other system logic.
+  INV-17:
+    name: Metabolic Accounting
+    type: HARD_BLOCK
+    scope: Universal
+    source: v6.0.3
+    description: Every operation has measurable resource cost.
+  INV-18:
+    name: DPI Respect
+    type: HARD_BLOCK
+    scope: Universal
+    source: v6.0.3
+    description: No component bypasses sovereign Digital Public Infrastructure.
+  INV-19:
+    name: Water Cohesion
+    type: HARD_BLOCK
+    scope: Universal
+    source: v3.3
+    description: Water-related governance maintains cohesion across VWB, PFAS, WEC.
+  INV-20:
+    name: Ontology Immutability
+    type: HARD_BLOCK
+    scope: Universal
+    source: v1.7
+    description: 144-sphere ontology locked after 8/11 seat confirmation.
+  INV-21:
+    name: Translation Table Freshness
+    type: HARD_BLOCK
+    scope: Per-provider
+    source: v2.5
+    description: Provider translation tables expire after 90 days.
+  INV-22:
+    name: Ghost Seat Activation
+    type: SOFT_LIMIT
+    scope: Per-seat
+    source: v2.1
+    description: Inactive seats reactivated when their domain is invoked.
+  INV-23:
+    name: Stacked Incentives Observable
+    type: HARD_BLOCK
+    scope: Universal
+    source: v2.7
+    description: All stacked incentives visible in TransparencyPacket.
+  INV-24:
+    name: Federation Substrate Health
+    type: SOFT_LIMIT
+    scope: Per-substrate
+    source: v2.7
+    description: Federation substrate health monitored continuously.
+  INV-25:
+    name: CEO Collective Quorum
+    type: HARD_BLOCK
+    scope: Per-decision
+    source: v2.4
+    description: CEO Collective decisions require quorum (6/10 CEOs).
+  INV-26:
+    name: Parallel Lane Isolation
+    type: HARD_BLOCK
+    scope: Per-lane
+    source: v2.6
+    description: Parallel code authorship lanes maintain isolation until merge.
+  INV-27:
+    name: Novel Research Attribution
+    type: HARD_BLOCK
+    scope: Per-discovery
+    source: v3.0
+    description: All novel research findings carry attribution to discovering seat.
+  INV-28:
+    name: Drift Reconciliation
+    type: HARD_BLOCK
+    scope: Per-codebase
+    source: v3.2
+    description: All code-spec drifts must be reconciled before RATIFIED status.
+  INV-29:
+    name: TOS Compliance
+    type: HARD_BLOCK
+    scope: Per-routing
+    source: v3.3
+    description: Every routing decision must pass TOS compliance check.
+  INV-30:
+    name: Sovereignty Gradient
+    type: HARD_BLOCK
+    scope: Per-deployment
+    source: v3.3
+    description: Sovereign deployments respect local legal requirements.
+  INV-31:
+    name: Water Governance Cohesion
+    type: HARD_BLOCK
+    scope: Per-water-op
+    source: v3.3
+    description: VWB + PFAS + WEC maintain governance cohesion.
+  INV-32:
+    name: Federation Coverage Minimum
+    type: SOFT_LIMIT
+    scope: Per-house
+    source: v3.3
+    description: Each house must have minimum 2 provider coverage.
+  INV-33:
+    name: Provenance Triple Redundancy
+    type: HARD_BLOCK
+    scope: Per-creative-output
+    source: v3.5
+    description: Creative outputs require C2PA + AuditChain + Shadow Fingerprint.
+  INV-34:
+    name: Style Sovereignty
+    type: HARD_BLOCK
+    scope: Per-creative-request
+    source: v3.5
+    description: Living artists' registered styles protected from unauthorized replication.
+  INV-35:
+    name: Sacred Imagery Protection
+    type: HARD_BLOCK
+    scope: Pre-routing
+    source: v3.5
+    description: Ring -1 filter for religious/sacred imagery. INV-0 adjacent.
+  INV-36:
+    name: Game IP Consent
+    type: HARD_BLOCK
+    scope: Per-gaming-request
+    source: v3.6
+    description: Game franchise IP requires publisher consent hierarchy.
+  INV-37:
+    name: Competitive Integrity
+    type: HARD_BLOCK
+    scope: Per-gaming-session
+    source: v3.6
+    description: No AI assistance in ranked/competitive play.
+  INV-38:
+    name: Content Rating Enforcement
+    type: HARD_BLOCK
+    scope: Per-gaming-output
+    source: v3.6
+    description: Content cannot exceed declared age rating.
+  INV-39:
+    name: Provenance Tier Minimum
+    type: HARD_BLOCK
+    scope: Per-compliance-mode
+    source: v3.7
+    description: ENTERPRISE/SOVEREIGN modes require Tier B minimum provenance (D-115).
+  INV-40:
+    name: Attribution Hypothesis Discipline
+    type: HARD_BLOCK
+    scope: Per-attribution
+    source: v3.7
+    description: No attribution claim without confidence bounds and methodology disclosure (D-116).
+  INV-41:
+    name: Routing Share Measurement
+    type: HARD_BLOCK
+    scope: Per-INV-7c-check
+    source: v3.7
+    description: INV-7c enforcement uses measured routing share (M173), not self-assessed estimates (D-117).
+  INV-42:
+    name: Enterprise Wrapper Evaluation
+    type: HARD_BLOCK
+    scope: Per-enterprise-routing
+    source: v3.7
+    description: Both enterprise wrapper AND underlying model provider terms evaluated (D-118).

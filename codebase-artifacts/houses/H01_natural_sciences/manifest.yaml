@@ -1,0 +1,68 @@
+house:
+  id: H01
+  name: Natural Sciences
+  spheres:
+    1: Physics
+    2: Chemistry
+    3: Biology
+    4: Earth Sciences
+    5: Astronomy
+    6: Oceanography
+    7: Meteorology
+    8: Ecology
+    9: Paleontology
+    10: Genetics
+    11: Neuroscience
+    12: Materials Science
+modules:
+  M137:
+    name: Quantum PFAS Simulation Pipeline
+    primary_sphere: 1
+    layer: L7
+    status: SPEC
+  M100:
+    name: Molecular Sovereignty Engine
+    primary_sphere: 41
+    layer: L7
+    status: SPEC
+  M21:
+    name: Saudi Grid Adapter
+    primary_sphere: 38
+    layer: L4
+    status: SPEC
+  M103:
+    name: Unknown
+    primary_sphere: 19
+    layer: L7
+    status: SPEC
+  M127:
+    name: Carbon-Aware Inference Router
+    primary_sphere: 8
+    layer: L7
+    status: SPEC
+  M166:
+    name: Ecological Narrative Engine
+    primary_sphere: 58
+    layer: L4
+    status: SPEC
+  M6b:
+    name: Provenance Genome
+    primary_sphere: 21
+    layer: L4
+    status: SPEC
+coverage:
+  total_spheres: 12
+  covered_spheres: 6
+  gap_spheres:
+  - sphere: 3
+    name: Biology
+  - sphere: 6
+    name: Oceanography
+  - sphere: 7
+    name: Meteorology
+  - sphere: 9
+    name: Paleontology
+  - sphere: 11
+    name: Neuroscience
+  - sphere: 12
+    name: Materials Science

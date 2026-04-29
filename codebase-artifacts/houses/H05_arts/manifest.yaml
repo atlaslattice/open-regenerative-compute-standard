@@ -1,0 +1,94 @@
+house:
+  id: H05
+  name: Arts
+  spheres:
+    49: Visual Arts
+    50: Performing Arts
+    51: Music
+    52: Motion/Dance
+    53: Interactive Entertainment
+    54: Film/Cinema
+    55: Literature
+    56: Cultural Heritage
+    57: Design
+    58: Environmental Art
+    59: Architecture
+    60: Fashion
+modules:
+  M158:
+    name: Visual Arts Constitutional Provenance Engine
+    primary_sphere: 49
+    layer: L4
+    status: SPEC
+  M163:
+    name: Style Sovereignty Consent Registry
+    primary_sphere: 49
+    layer: L4
+    status: SPEC
+  M164:
+    name: Sacred Imagery Filter
+    primary_sphere: 50
+    layer: L4
+    status: SPEC
+  M175:
+    name: Interactive-Kinetic Rights Harmonizer
+    primary_sphere: 50
+    layer: L4
+    status: SPEC
+  M159:
+    name: Music Licensing & Royalty Router
+    primary_sphere: 51
+    layer: L4
+    status: SPEC
+  M167:
+    name: Game IP Sovereignty Registry
+    primary_sphere: 53
+    layer: L4
+    status: SPEC
+  M168:
+    name: Content Rating Constitutional Gate
+    primary_sphere: 53
+    layer: L4
+    status: SPEC
+  M169:
+    name: Esports & Competitive Integrity Engine
+    primary_sphere: 53
+    layer: L4
+    status: SPEC
+  M170:
+    name: Cloud Gaming Sovereignty Router
+    primary_sphere: 76
+    layer: L4
+    status: SPEC
+  M171:
+    name: Game Preservation & Cultural Heritage Engine
+    primary_sphere: 56
+    layer: L4
+    status: SPEC
+  M160:
+    name: Film & Digital Replica Governance Engine
+    primary_sphere: 54
+    layer: L4
+    status: SPEC
+  M161:
+    name: Design System Coherence & Accessibility Engine
+    primary_sphere: 57
+    layer: L4
+    status: SPEC
+  M166:
+    name: Ecological Narrative Engine
+    primary_sphere: 58
+    layer: L4
+    status: SPEC
+coverage:
+  total_spheres: 12
+  covered_spheres: 8
+  gap_spheres:
+  - sphere: 52
+    name: Motion/Dance
+  - sphere: 55
+    name: Literature
+  - sphere: 59
+    name: Architecture
+  - sphere: 60
+    name: Fashion

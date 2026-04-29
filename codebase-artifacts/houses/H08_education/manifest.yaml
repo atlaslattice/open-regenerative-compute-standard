@@ -1,0 +1,45 @@
+house:
+  id: H08
+  name: Education
+  spheres:
+    85: Primary Education
+    86: Secondary Education
+    87: Higher Education
+    88: Vocational Training
+    89: Special Education
+    90: Educational Technology
+    91: Curriculum Design
+    92: Educational Psychology
+    93: Distance Learning
+    94: Adult Education
+    95: Early Childhood
+    96: Assessment
+modules: {}
+coverage:
+  total_spheres: 12
+  covered_spheres: 0
+  gap_spheres:
+  - sphere: 85
+    name: Primary Education
+  - sphere: 86
+    name: Secondary Education
+  - sphere: 87
+    name: Higher Education
+  - sphere: 88
+    name: Vocational Training
+  - sphere: 89
+    name: Special Education
+  - sphere: 90
+    name: Educational Technology
+  - sphere: 91
+    name: Curriculum Design
+  - sphere: 92
+    name: Educational Psychology
+  - sphere: 93
+    name: Distance Learning
+  - sphere: 94
+    name: Adult Education
+  - sphere: 95
+    name: Early Childhood
+  - sphere: 96
+    name: Assessment
