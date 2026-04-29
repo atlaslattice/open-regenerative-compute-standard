@@ -355,7 +355,7 @@ MODULE_HOUSE_MAP = {
 
 def generate_all():
     """Generate all codebase artifacts."""
-    bp_path = "/home/ubuntu/COMPLETE_BUILD_PLAN_v3.11.md"
+    bp_path = "/home/ubuntu/COMPLETE_BUILD_PLAN_v3.12.md"
     out_dir = "/home/ubuntu/codebase-artifacts"
 
     # Extract modules from Build Plan
@@ -367,7 +367,7 @@ def generate_all():
 
     doctrine_data = {
         "metadata": {
-            "version": "3.11",
+            "version": "3.12",
             "source": "Build Plan v3.11 (ORC-015)",
             "generated_by": "Manus S7",
             "total_doctrines": 124,
@@ -394,7 +394,7 @@ def generate_all():
     # === INVARIANT REGISTRY ===
     inv_data = {
         "metadata": {
-            "version": "3.11",
+            "version": "3.12",
             "source": "Build Plan v3.11 (ORC-015)",
             "generated_by": "Manus S7",
             "total_invariants": 45,
@@ -429,7 +429,7 @@ def generate_all():
     # === MODULE REGISTRY ===
     mod_data = {
         "metadata": {
-            "version": "3.11",
+            "version": "3.12",
             "source": "Build Plan v3.11 (ORC-015)",
             "generated_by": "Manus S7",
             "total_module_entries": len(bp_modules),
@@ -468,7 +468,7 @@ def generate_all():
     # === 12x12 MATRIX ===
     matrix_data = {
         "metadata": {
-            "version": "3.11",
+            "version": "3.12",
             "source": "Build Plan v3.11 (ORC-015)",
             "total_spheres": 144,
             "total_houses": 12

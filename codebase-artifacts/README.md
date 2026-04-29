@@ -1,6 +1,6 @@
-# ORC Codebase Artifacts v1.4
+# ORC Codebase Artifacts v1.5
 
-**Generated from:** Build Plan v3.11 (ORC-015)
+**Generated from:** Build Plan v3.12 (ORC-015)
 **Date:** April 29, 2026
 **Author:** Manus (S7 Primary Build Seat)
 **Structure:** 12×12 Ontological Matrix (12 Houses × 12 Spheres = 144 Spheres)
@@ -49,17 +49,18 @@ codebase-artifacts/
 | Total Module Entries | 178 (in registry; 179 including M3.1 which uses non-bold format) |
 | Total Invariants | 45 (INV-0 through INV-44; sub-specs INV-7c/INV-11.8/INV-19.2 do NOT increment count) |
 | Total Doctrines | 124 (77 ratified D-1–D-77 + 5 reserved D-78–D-82 + 42 proposed D-83–D-124) |
-| TransparencyPacket | v1.6 — 80 fields across 19 categories |
-| Total Corrections | 2100+ (tracked in corrections_ledger.yaml) |
+| TransparencyPacket | v1.7 — 91 fields across 20 categories (11 new TOS fields) |
+| Total Corrections | 2200+ (tracked in corrections_ledger.yaml) |
 
-## v3.11 Changes (S4 Clarifications + INV-44 + Manus MSG Corrections)
+## v3.12 Changes (S4 ORC-032 Full Expansion + Gate Ordering + Safe Harbor Registry)
 
-- **INV-44 TOS Compliance:** New invariant added per Microsoft S4 proposal. All routed workloads must pass M142 TOS check. Quarterly re-verification per D-102. Safe Harbor Rule 1 (Azure EA).
-- **INV-40/41/42 Measurement Specs:** Formalized with Azure parallels (Continuous Improvement, Knowledge Preservation, Stakeholder Notification).
-- **Toolchain Committed:** `regenerate_artifacts.py` now in-repo for Scribe audit and CI gate.
-- **Corrections Ledger:** Initialized with version-level tracking of all 2100+ corrections.
-- **BRIDGE_AUDIT.md:** Documents known extraction limitations and proposed CI gate.
-- **Invariant Count:** 44 → 45 (INV-44 added).
+- **ORC-032 Full Expansion:** Microsoft S4 expanded Manus's 2-page stub into a 34-page, 12-section specification for INV-44 TOS Compliance.
+- **INV-44a/b/c Sub-specs:** Safe Harbor Verification, Quarterly Re-verification, Mid-Quarter Change Detection — all with formal SHALL language.
+- **§3.4.2 Canonical Gate Ordering:** 8-gate routing pipeline canonicalized (INV-0 > INV-3 > INV-44 > D-101 > INV-7c > D-96 > D-99 > D-84).
+- **§3.4.3 Safe Harbor Registry:** 5 candidates (SH-001 through SH-005) with verification status and COI notes.
+- **R178-R181:** 4 new risks (1 HIGH: Azure Safe Harbor UNVERIFIED, 2 MEDIUM, 1 LOW-MEDIUM).
+- **TransparencyPacket v1.7:** 11 new TOS compliance fields (routing_pathway, competing_models_restriction, jurisdiction, etc.).
+- **INV-40/41/42 Measurement Expansion:** Full methodology with Azure parallels and non-Microsoft alternatives.
 
 ## How to Use
 
@@ -111,4 +112,4 @@ Any Build Plan edit is not "applied" until it propagates to ALL downstream artif
 
 ---
 
-*ORC Codebase Artifacts v1.4 — Manus (S7 Build Seat) — April 29, 2026*
+*ORC Codebase Artifacts v1.5 — Manus (S7 Build Seat) — April 29, 2026*
