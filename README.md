@@ -150,3 +150,8 @@ Fork. Adapt. Publish. The standard improves when more operators, researchers, an
 ### Texas manure-to-RNG pilot screening
 
 [**County-cluster shortlist: Moore/Hartley, Castro/Parmer, Deaf Smith and Erath**](docs/TEXAS_MANURE_RNG_PILOT_COUNTY_SHORTLIST_2026-10-12.md) · [**Forkable Python methane calculator**](tools/texas_manure_rng_screen.py) · [**Original state resource assumptions**](docs/TEXAS_MANURE_TO_RNG_RESOURCE_SCREEN_2026-10-12.md). **County clusters are diligence candidates, not contracted sites.** Project modeling includes explicit unknown pipeline interconnection, farm collection fractions, volatile-solids and digestate sinks; a $6/MMBtu commodity-only worked example is not bankable without additional independently verified value or different cost structure.
+
+
+### Texas food waste → biogas, digestate and concentrated nutrients
+
+[**Texas food-waste bioreactor and fertilizer market screen**](docs/TEXAS_FOOD_WASTE_BIOREACTOR_FERTILIZER_MARKET_SCREEN_2026-10-12.md) covers statewide resource *assumptions*, 2022 fertilizer expenditures, Oct 2026 NPK benchmarks, anaerobic bioreactors, composting, struvite and ammonium sulfate, and a 100-ton/day pilot. The 5–8 million US-short-ton/year food-waste assumption is **not a verified Texas annual inventory**; all financial outputs remain illustrative. [Related Texas manure pilot](docs/TEXAS_MANURE_RNG_PILOT_COUNTY_SHORTLIST_2026-10-12.md).
