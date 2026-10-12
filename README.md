@@ -160,3 +160,8 @@ Fork. Adapt. Publish. The standard improves when more operators, researchers, an
 ### U.S. fertilizer import displacement (Texas food-waste only)
 
 [**Texas food waste potential vs 2024 US fertilizer imports**](docs/TEXAS_FOOD_WASTE_US_FERTILIZER_IMPORT_OFFSET_2026-10-12.md) — hypothetical 25%-collected Texas resource: N ~0.04–0.21%, P2O5 ~0.04–0.25%, K2O ~0.01–0.06% of 2024 US gross nutrient imports. These are scenario ratios, not actual fertilizer sales or verified reductions in import shipments.
+
+
+### Texas state fertilizer self-sufficiency (corrected denominator)
+
+[**Texas food-waste recovery 25% / 50% / 75% and N/P/K independence screen**](docs/TEXAS_STATE_FERTILIZER_SELF_SUFFICIENCY_RECOVERY_25_50_75_2026-10-12.md) supersedes US-wide import percentages as the Texas decision baseline. The 5–8M short tons food-waste resource assumption and per-ton recoverable nutrients are unverified; Texas foreign imports, interstate purchases and physical N/P/K demand are not yet known. [Earlier US-import study](docs/TEXAS_FOOD_WASTE_US_FERTILIZER_IMPORT_OFFSET_2026-10-12.md) remains for provenance.
