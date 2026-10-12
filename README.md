@@ -121,3 +121,10 @@ Fork. Adapt. Publish. The standard improves when more operators, researchers, an
 *Work with the flow. Return what you take. Nurture the source.*
 
 **CC BY-SA 4.0 — The Federated Council — April 2026**
+
+
+## Public project navigation (October 12, 2026)
+
+**[START HERE — projects, simulator and evidence labels](docs/START_HERE_PUBLIC_INDEX_2026-10-12.md)** · [Corpus Christi and Jupiter](docs/US_SITE_COMPARISONS_2026-10-12.md) · [Domestic supply, reserves and export-policy comparison](docs/DOMESTIC_FIRST_RESERVES_EXPORT_POLICY_2026-10-12.md) · [Open engineering and funding gaps](docs/HELP_WANTED_RESOURCE_GAPS_2026-10-12.md) · [Public content and repository conventions](docs/PUBLIC_REPOSITORY_GOVERNANCE_2026-10-12.md).
+
+**Current limitations:** ORCS is research; no Atlas industrial deployment or partner adoption is implied, the full 84-module cross-site simulator is not established as integrated, and source studies distinguish observed, reported, derived, modeled and proposed claims. Existing research and Git histories are preserved.
