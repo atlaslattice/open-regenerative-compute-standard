@@ -25,7 +25,7 @@
 
 ## Corrected statewide synthetic mass balance
 Inherited public screening assumptions from [Texas RNG resource screen](./TEXAS_MANURE_TO_RNG_RESOURCE_SCREEN_2026-10-12.md): dairy 705k head × 55 kg wet manure/day × 75% collection × **18 m3 CH4/t wet collectable**; feedlot 2.54m × 25 kg/day × 55% × 13; hogs 1.13m × 5 kg/day × 65% × 12. Those 75%/55%/65% collection assumptions **are not measured Texas fractions**; methane yields also unvalidated. Results:
-- Dairy: gross wet **14.154m metric tons/yr**, screening collected **10.616m t/yr**, methane **191.1m m3/yr ≈ 6.75 Bcf/yr**.
+- Dairy: gross wet **14.153m metric tons/yr**, screening collected **10.615m t/yr**, methane **191.1m m3/yr ≈ 6.75 Bcf/yr**.
 - Feedlot: gross wet **23.178m metric tons/yr**, collected **12.748m t/yr**, methane **165.7m m3/yr ≈ 5.85 Bcf/yr**.
 - Hogs: gross wet **2.062m metric tons/yr**, collected **1.34m t/yr**, methane **16.1m m3/yr ≈ 0.57 Bcf/yr**.
 - Sum: **~39.39m t gross wet**, **~24.70m t assumed collectable**, **~372.9m m3/yr**, **~13.17 Bcf gross methane/yr**. At **95% methane recovery × 95% annual uptime**, illustrative clean methane becomes **~11.88 Bcf/yr**. Not metered feedstock or actual pipeline RNG.
@@ -35,7 +35,7 @@ Inherited public screening assumptions from [Texas RNG resource screen](./TEXAS_
 A screened farm/cluster with **5,000 dairy cows**, 55 kg/head/day, 75% recovered manure, 18 m3 CH4 per wet tonne:
 - 206.25 wet metric tons/day entering digester; **3,712.5 m3 CH4/day**; **~47.9 million ft3/year** gross methane (0.0479 Bcf/y).
 - After 95% recovery and 95% uptime: **~43.2 million ft3/y** delivered-clean-methane equivalent (0.0432 Bcf/y), **before pipeline gas specification, interconnection pressure restrictions and regulatory certification**.
-- At 0.03393 MMBtu/m3 CH4 lower heating value, ~45,984 MMBtu per year after losses, **approximately**; a hypothetical $6/MMBtu suggests **~$276k/year gross commodity value**, not revenues under a signed tariff nor ROI. Clean methane sales conventionally use HHV, so this is simply a consistent LHV engineering screen. It *excludes* any environmental/renewable-fuel credit value and avoided costs. No tipping, nutrient, water or carbon credits assumed.
+- At 0.03393 MMBtu/m3 CH4 lower heating value, ~41,494 MMBtu per year after losses, **approximately**; a hypothetical $6/MMBtu suggests **~$249k/year gross commodity value**, not revenues under a signed tariff nor ROI. Clean methane sales conventionally use HHV, so this is simply a consistent LHV engineering screen. It *excludes* any environmental/renewable-fuel credit value and avoided costs. No tipping, nutrient, water or carbon credits assumed.
 - **Core reality:** methane commodity value alone may not justify capital/operating costs. Farmer avoided manure handling costs, genuine lagoon methane mitigation, credit eligibility, co-digestion, and contracted energy offtake would need independent validation.
 
 ## Candidate decision gates — stop before commercial promises
