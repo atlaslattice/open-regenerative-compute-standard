@@ -185,3 +185,8 @@ Fork. Adapt. Publish. The standard improves when more operators, researchers, an
 ### US onsite food-waste processing — national 25/50/75 resource diversion
 
 [**US onsite bioreactor model: disposal cost vs processing 25%, 50%, 75%**](docs/US_NATIONAL_ONSITE_FOOD_WASTE_BIOREACTOR_25_50_75_2026-10-12.md) scales ReFED 2024 approximately 60 million short tons *food waste* against hypothetical half-cost onsite conversion. At an assumed $20/short ton processing target and EREF 2024 $62.63/short ton tonnage-weighted landfill tip benchmark, conditional direct handling-margin scenarios are ~$639M / $1.279B / $1.918B yearly **before capital, sorting, transport changes and existing beneficial uses**. Separate gas and nutrient coproduct estimates remain non-realized, no double-counting.
+
+
+### National industrial and agricultural import supply-chain atlas
+
+[**United States Industrial & Agricultural Import Supply Chain Atlas v0.1 — Oct 12 2026**](docs/US_NATIONAL_INDUSTRIAL_AGRICULTURAL_IMPORT_SUPPLY_CHAIN_ATLAS_V0_1_2026-10-12.md) establishes the comprehensive HS/NAICS coverage schema across fertilizers, critical metals, energy, industrial chemicals, machinery, food and agricultural inputs, with 2025 BEA/USDA/USGS/USITC source anchors, original production-to-importer provenance, US downstream users and circular-recovery opportunities. It is a **taxonomic first pass**, not a populated HS10-by-country-by-port full census, and no realized import offsets are claimed. Existing studies are preserved.
