@@ -31,3 +31,6 @@ Independent process engineers, hydrologists, energy systems analysts, wastewater
 ## Latest national commodity research
 
 [US supply security ledger v0.3](US_NATIONAL_SUPPLY_SECURITY_LEDGER_V0_3_2026-10-12.md): partial federal-estimate transcription, reproducible balances and aluminum scrap sensitivities; no complete customs census or realized credits.
+
+
+[Raw-material trade/reserve/recovery screen v0.4](US_RAW_MATERIAL_IMPORT_EXPORT_RESERVE_RECOVERY_V0_4_2026-10-12.md) expands to 25 material families; proposed 20% import-exposure reserve, circular/renewable routes and reproducible freight sensitivities.

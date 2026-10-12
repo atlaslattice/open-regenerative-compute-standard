@@ -1,0 +1,68 @@
+Food and Live Animals                                    130,073              177,537               126,339              170,336              121,071          156,244
+   Live animals other than fish                            1,706                3,673                 1,314                4,764                1,123            4,022
+   Meat and preparations                                  23,592               19,404                24,815               16,634               23,697           13,752
+   Dairy products and birds                                8,064                3,553                 6,980                3,977                6,869            3,525
+   Fish and preparations                                   5,113               25,830                 4,471               25,011                4,637           24,946
+   Cereals and preparations                               32,687               17,878                29,036               18,457               28,071           17,522
+   Vegetables and fruits                                  25,150               52,604                25,272               54,405               23,026           50,141
+   Sugar, preparations and honey                           2,657                6,880                 2,925                7,578                2,596            7,263
+   Coffee, tea, cocoa, and spices                          4,160               29,920                 3,894               20,762                3,367           17,425
+   Feeding stuff for animals                              14,768                5,258                15,662                5,297               16,720            5,080
+   Miscellaneous edible products                          12,176               12,537                11,969               13,450               10,965           12,567
+
+Beverages and Tobacco                                       6,774               29,372                7,177               33,562                6,615           31,616
+   Beverages                                                5,192               26,356                5,720               30,847                5,326           29,145
+   Tobacco and manufactures                                 1,582                3,016                1,457                2,716                1,289            2,470
+
+Crude Materials Except Fuels                              78,561                40,069               87,404               40,535               90,869           39,520
+   Hides, skins, and furskins, raw                           692                    28                  861                   30                  980               28
+   Oil seeds and oleaginuos fruits                        18,263                 1,137               27,120                1,211               30,403            1,471
+   Crude rubber                                            2,596                 3,137                2,675                3,118                2,486            2,753
+   Cork and wood                                           6,480                 8,467                6,952                9,170                6,830            9,388
+   Pulp and waste paper                                    7,633                 3,966                8,111                4,551                8,548            3,899
+   Textile fibers including waste                          6,924                 1,174                7,117                1,341                8,114            1,321
+   Crude fertilizers                                       3,096                 3,394                3,227                3,303                3,106            3,318
+   Metalliferous ores and metal scrap                     29,650                11,156               28,106                9,773               27,105            9,799
+   Crude animal and vegetable materials                    3,227                 7,609                3,237                8,036                3,296            7,542
+
+Mineral Fuels and Lubricants                             300,863              205,706               315,256              241,283              321,726          251,596
+   Coal, coke, and briquettes                             10,323                  894                14,688                  847               16,146            1,140
+   Petroleum products and preparations                   208,615              191,537               237,317              228,949              237,614          235,115
+   Gas, natural, and manufactured                         80,876               11,100                62,168                9,197               66,780           12,182
+   Electric current                                        1,049                2,175                 1,083                2,290                1,187            3,159
+
+Animal and Vegetable Oils                                   2,470               15,135                1,919               16,339                1,917           14,890
+   Animal oil and fat                                         419                1,637                  525                1,413                  599            1,555
+   Fixed vegetable fats and oil, crude                      1,790               10,681                1,107               12,224                  917           11,482
+   Animal or vegetable fats, processed                        261                2,817                  288                2,701                  400            1,853
+
+Chemicals and Related Products                           274,455              432,857               271,758              403,227              268,633          361,648
+   Organic chemicals                                      43,526               44,345                44,409               51,012               47,350           54,058
+   Inorganic chemicals                                    13,598               17,979                13,691               17,714               14,203           16,147
+   Dyeing, tanning and coloring materials                  7,527                4,866                 7,804                5,141                7,671            4,779
+   Medicinal and pharmaceutical products                  90,426              274,660                82,848              230,752               77,220          190,428
+   Essential oil and reinoids                             18,454               24,436                18,849               26,733               18,058           23,199
+   Fertilizers                                             3,460                8,334                 3,767                8,602                4,074            9,053
+   Plastics in primary forms                              40,349               17,095                42,511               19,054               41,590           18,013
+   Plastics in nonprimary forms                           16,091               15,066                16,427               15,614               15,486           14,451
+   Chemical materials and products                        41,024               26,076                41,451               28,606               42,981           31,520
+                                                           Part B: NOT Seasonally Adjusted
+
+                                   Exhibit 14. U.S. Trade in Goods by Principal Commodities
+                                   In millions of dollars. Details may not equal totals due to rounding. This exhibit is not additive.
+                                       (X) Not applicable. (-) Represents zero or less than one-half of measurement shown.
+                                                               2025                                      2024                                      2023
+                  Item (1)
+                                                  Exports               Imports              Exports              Imports                Exports          Imports
+
+Manufactured Goods by Material                          113,992              292,001               118,080              309,709              118,940          309,936
+   Leather and leather manufactures                         576                1,068                   631                1,165                  627            1,176
+   Rubber manufactures (4)                                9,644               28,878                 9,983               28,450               10,179           27,779
+   Cork and wood manufactures                             2,029               13,226                 2,372               13,978                2,372           13,317
+   Paper and paperboard                                  13,969               19,894                15,112               20,564               14,442           19,088
+   Textile yarn, fabris                                  10,231               29,279                10,526               31,925               10,900           30,224
+   Nonmetallic mineral manufactures (4)                  13,338               33,393                13,655               44,555               15,208           48,504
+   Iron and steel                                        14,574               33,615                16,701               40,666               17,575           43,351
+   Nonferrous metals                                     19,384               69,108                18,197               55,240               17,495           57,059
+   Manufactures of metals                                30,247               63,540                30,903               73,165               30,142           69,437
+

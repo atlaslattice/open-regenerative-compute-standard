@@ -205,3 +205,8 @@ Fork. Adapt. Publish. The standard improves when more operators, researchers, an
 ### US commodity supply ledger — v0.3
 
 [Versioned partial physical ledger: copper, aluminum, potash and phosphate](docs/US_NATIONAL_SUPPLY_SECURITY_LEDGER_V0_3_2026-10-12.md) adds 2025 USGS estimates, explicit stock/boundary reconciliation, runnable JSON-to-CSV arithmetic and hypothetical aluminum scrap diversion. Full customs data, certified reserves and actual recovery economics remain UNKNOWN; earlier versions preserved.
+
+
+### US raw-material supply-chain screen — v0.4
+
+[25 matched material families: imports, exports, 20% import-exposure reserve allowance, circular/renewable routes and freight economics](docs/US_RAW_MATERIAL_IMPORT_EXPORT_RESERVE_RECOVERY_V0_4_2026-10-12.md). Downloaded revised 2025 federal data and runnable code; broad family coverage, not a complete raw-only customs census. Actual grade-matched offsets and transport remain UNKNOWN.
