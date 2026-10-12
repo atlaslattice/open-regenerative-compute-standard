@@ -18,7 +18,7 @@ Texas total cattle includes beef cows, dairy cattle and feedlot stock. **Do not 
 - Days/year 365; wet manure kg/head/day illustrative dairy 55, feedlot beef 25, hog 5. These can be inconsistent with water added via flush, animal weight and feeding ration: require site samples.
 - Collectable share of gross wet manure scenarios: 75% dairy, 55% cattle on feed, 65% hog. **All are invented screening assumptions and not measured TX percentages**; do not confuse these with EPA's farm eligibility rule suggesting 90% regularly collected.
 - Yield low/mid/high in **m³ CH4 per wet metric tonne COLLECTED**: dairy 10/18/25; beef 8/13/20; hog 5/12/20. No digestion or upgrading uptime penalties included in these gross methane potentials. Numeric limits depend on volatile solids, feed moisture and BMP.
-- 35.3147 ft³ per m³ CH4; 0.0353 MMBtu lower heating value per m³ CH4 approximate using 35.8 MJ/m³ and 1055 MJ/MMBtu? Correct energy: 35.8 MJ/m³ / 1055.056 MJ/MMBtu = 0.03393 MMBtu/m³. Use **0.03393 MMBtu/m³ CH4 LHV**, not 0.0353. For RNG pipeline sales use HHV, gas specification and dry standard temperature/pressure explicitly, not this energy figure.
+- 35.3147 ft³ per m³ CH4; 35.8 MJ/m³ CH4 (lower heating value) ÷ 1055.056 MJ/MMBtu = approximately **0.03393 MMBtu per m³ CH4 LHV**, not 0.0353. For RNG pipeline sales use HHV, gas specification and dry standard temperature/pressure explicitly, not this energy figure.
 - Upgrading methane recovery sensitivity 90%/95%/98% and downtime 5%; no carbon credits, tipping fees, digestate product sales or environmental benefit monetize unless verified.
 
 ## Cohort volumes (three select confined cohorts only)
