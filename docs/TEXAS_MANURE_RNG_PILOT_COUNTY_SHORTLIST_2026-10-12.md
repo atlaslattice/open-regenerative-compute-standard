@@ -63,7 +63,7 @@ For the 5,000-head screening farm, ~41,494 MMBtu LHV/year is the hypothetical **
 
 | Hypothetical CAPEX | Hypothetical annual OPEX | Annual cash requirement | Breakeven commodity value ($/MMBtu LHV) |
 | ---: | ---: | ---: | ---: |
-| $5 million | $250,000 | $850,000 | ~$20.49 |
+| $5 million | $250,000 | $850,000 | ~$20.48 |
 | $10 million | $500,000 | $1,700,000 | ~$40.97 |
 | $20 million | $1,000,000 | $3,400,000 | ~$81.94 |
 
