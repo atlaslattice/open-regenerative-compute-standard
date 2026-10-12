@@ -100,7 +100,7 @@ def main():
     args=parser.parse_args()
     if args.self_test:
         self_test()
-        print("PASS: eleven numerical/boundary checks")
+        print("PASS: ten numerical/boundary checks")
     else:
         output=(dairy_module(price=args.gas_price) if args.dairy_site
                 else calculate(price_per_mmbtu=args.gas_price))
