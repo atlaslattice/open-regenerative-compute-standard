@@ -155,3 +155,8 @@ Fork. Adapt. Publish. The standard improves when more operators, researchers, an
 ### Texas food waste → biogas, digestate and concentrated nutrients
 
 [**Texas food-waste bioreactor and fertilizer market screen**](docs/TEXAS_FOOD_WASTE_BIOREACTOR_FERTILIZER_MARKET_SCREEN_2026-10-12.md) covers statewide resource *assumptions*, 2022 fertilizer expenditures, Oct 2026 NPK benchmarks, anaerobic bioreactors, composting, struvite and ammonium sulfate, and a 100-ton/day pilot. The 5–8 million US-short-ton/year food-waste assumption is **not a verified Texas annual inventory**; all financial outputs remain illustrative. [Related Texas manure pilot](docs/TEXAS_MANURE_RNG_PILOT_COUNTY_SHORTLIST_2026-10-12.md).
+
+
+### U.S. fertilizer import displacement (Texas food-waste only)
+
+[**Texas food waste potential vs 2024 US fertilizer imports**](docs/TEXAS_FOOD_WASTE_US_FERTILIZER_IMPORT_OFFSET_2026-10-12.md) — hypothetical 25%-collected Texas resource: N ~0.04–0.21%, P2O5 ~0.04–0.25%, K2O ~0.01–0.06% of 2024 US gross nutrient imports. These are scenario ratios, not actual fertilizer sales or verified reductions in import shipments.
