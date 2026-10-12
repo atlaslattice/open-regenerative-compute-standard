@@ -190,3 +190,8 @@ Fork. Adapt. Publish. The standard improves when more operators, researchers, an
 ### National industrial and agricultural import supply-chain atlas
 
 [**United States Industrial & Agricultural Import Supply Chain Atlas v0.1 — Oct 12 2026**](docs/US_NATIONAL_INDUSTRIAL_AGRICULTURAL_IMPORT_SUPPLY_CHAIN_ATLAS_V0_1_2026-10-12.md) establishes the comprehensive HS/NAICS coverage schema across fertilizers, critical metals, energy, industrial chemicals, machinery, food and agricultural inputs, with 2025 BEA/USDA/USGS/USITC source anchors, original production-to-importer provenance, US downstream users and circular-recovery opportunities. It is a **taxonomic first pass**, not a populated HS10-by-country-by-port full census, and no realized import offsets are claimed. Existing studies are preserved.
+
+
+### US import/export cross-check and national reserve-first surplus gate
+
+[**US national import–export cross-check, self-sufficiency + strategic reserves before export unlock and hidden-value domestic waste streams v0.1**](docs/US_IMPORT_EXPORT_CROSSCHECK_NATIONAL_RESERVE_FIRST_AND_WASTE_GOLD_V0_1_2026-10-12.md) formalizes user's **national, not merely Atlas-network, sufficiency rule** as a proposed lawful human-governed policy gate. Incorporates USDA 2025 agricultural $212B import/$171B export cross-check, EIA diesel export vs low inventories, USGS minerals trade/stock/recycled scrap, and waste-stream-to-refined-import screening. Full HTS10 export and import extraction remains outstanding and no existing legal export controls are asserted.
