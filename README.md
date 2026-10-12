@@ -165,3 +165,8 @@ Fork. Adapt. Publish. The standard improves when more operators, researchers, an
 ### Texas state fertilizer self-sufficiency (corrected denominator)
 
 [**Texas food-waste recovery 25% / 50% / 75% and N/P/K independence screen**](docs/TEXAS_STATE_FERTILIZER_SELF_SUFFICIENCY_RECOVERY_25_50_75_2026-10-12.md) supersedes US-wide import percentages as the Texas decision baseline. The 5–8M short tons food-waste resource assumption and per-ton recoverable nutrients are unverified; Texas foreign imports, interstate purchases and physical N/P/K demand are not yet known. [Earlier US-import study](docs/TEXAS_FOOD_WASTE_US_FERTILIZER_IMPORT_OFFSET_2026-10-12.md) remains for provenance.
+
+
+### Texas physical fertilizer purchases vs circular nutrients
+
+[**Texas-specific historical commercial N/P fertilizer purchase benchmark and 25/50/75% food-waste offset model**](docs/TEXAS_FERTILIZER_NUTRIENT_DEMAND_BASELINE_AND_25_50_75_OFFSETS_2026-10-12.md) compares hypothetical recoverable food-waste nutrients to EPA Texas 2017 purchases: nitrogen 608.141 million kg, P2O5 143.232 million kg; K2O and 2026 demand remain UNKNOWN. This is not a current Texas import-substitution estimate or a realized savings claim.
