@@ -145,3 +145,8 @@ Fork. Adapt. Publish. The standard improves when more operators, researchers, an
 ### Texas livestock methane recovery research
 
 [Texas manure-to-RNG screening ledger](docs/TEXAS_MANURE_TO_RNG_RESOURCE_SCREEN_2026-10-12.md) — 2026-10-12 screening assumptions for dairy, feedlot cattle, and hog manure collection; theoretical gas yields, exclusions, and requirements for engineering validation. Not measured methane or current RNG production.
+
+
+### Texas manure-to-RNG pilot screening
+
+[**County-cluster shortlist: Moore/Hartley, Castro/Parmer, Deaf Smith and Erath**](docs/TEXAS_MANURE_RNG_PILOT_COUNTY_SHORTLIST_2026-10-12.md) · [**Forkable Python methane calculator**](tools/texas_manure_rng_screen.py) · [**Original state resource assumptions**](docs/TEXAS_MANURE_TO_RNG_RESOURCE_SCREEN_2026-10-12.md). **County clusters are diligence candidates, not contracted sites.** Project modeling includes explicit unknown pipeline interconnection, farm collection fractions, volatile-solids and digestate sinks; a $6/MMBtu commodity-only worked example is not bankable without additional independently verified value or different cost structure.
