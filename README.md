@@ -175,3 +175,8 @@ Fork. Adapt. Publish. The standard improves when more operators, researchers, an
 ### Texas food-waste nutrient value vs extraction costs
 
 [**2026 NPK reference market value and 25/50/75 Texas food-waste recovery cost sensitivity**](docs/TEXAS_FOOD_WASTE_FERTILIZER_VALUE_VS_RECOVERY_COST_2026-10-12.md) compares ~$6–93M gross nutrient equivalent against deliberately hypothetical treatment operating costs, gate fees and methane energy. This is **not measured profit, vendor pricing, or realized imports displaced**, and requires laboratory nutrient assay and actual quotes.
+
+
+### Texas landfill baseline and China BIO01 comparison
+
+[**Avoided landfill disposal + freight vs integrated bioreactors, with China/Dongjiakou scope reconciliation**](docs/TEXAS_FOOD_WASTE_BASELINE_AVOIDED_DISPOSAL_CHINA_COMPARISON_2026-10-12.md) corrects the earlier fertilizer-only economic picture using TCEQ 2024 landfill average **$45.15/US short ton**, separate modeled freight, and independently attributed outputs. All plant costs/transport values remain scenario assumptions, and no realized profits or waste-offset credits are claimed.
