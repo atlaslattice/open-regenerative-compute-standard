@@ -140,3 +140,8 @@ Fork. Adapt. Publish. The standard improves when more operators, researchers, an
 [**Full public thread synthesis and delta register**](docs/THREAD_HANDOFF_FULL_SYNTHESIS_AND_DELTA_2026-10-12.md) · [**273-repository organization inventory**](docs/GITHUB_ORG_REPO_INVENTORY_2026-10-12.md) · [**eight full-text Notion research mirrors**](docs/notion-mirrors/README.md).
 
 **Snapshot scope:** 272 repositories public, one private/quarantined, ten archived; not all inspected or relicensed. Handoff summarizes the research without publishing personal circumstances. The full 84-module integrated simulator is not independently verified. Historical records remain intact.
+
+
+### Texas livestock methane recovery research
+
+[Texas manure-to-RNG screening ledger](docs/TEXAS_MANURE_TO_RNG_RESOURCE_SCREEN_2026-10-12.md) — 2026-10-12 screening assumptions for dairy, feedlot cattle, and hog manure collection; theoretical gas yields, exclusions, and requirements for engineering validation. Not measured methane or current RNG production.
