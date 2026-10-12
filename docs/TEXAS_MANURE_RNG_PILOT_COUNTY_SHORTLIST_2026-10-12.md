@@ -56,3 +56,17 @@ A screened farm/cluster with **5,000 dairy cows**, 55 kg/head/day, 75% recovered
 
 ## Public repository status
 Purely desktop/browser reproducible research at this stage. Related tracked blocker: [GitHub #5](https://github.com/atlaslattice/open-regenerative-compute-standard/issues/5). **NO realized commercial credits, operational claim, official partnership or field access.**
+
+
+## Unsubsidized single-module breakeven sensitivity — purely illustrative
+For the 5,000-head screening farm, ~41,494 MMBtu LHV/year is the hypothetical **clean methane energy after assumed 95% upgrader recovery and 95% uptime**. At illustrative $6/MMBtu LHV, energy commodity revenue is ~$249k/year, not a buyer bid. To demonstrate why commodity value alone can be inadequate, assume a **12% annualized capital charge** (hypothetical capital recovery inclusive of return and amortization; not a real financing offer) plus synthetic annual OPEX:
+
+| Hypothetical CAPEX | Hypothetical annual OPEX | Annual cash requirement | Breakeven commodity value ($/MMBtu LHV) |
+| ---: | ---: | ---: | ---: |
+| $5 million | $250,000 | $850,000 | ~$20.49 |
+| $10 million | $500,000 | $1,700,000 | ~$40.97 |
+| $20 million | $1,000,000 | $3,400,000 | ~$81.94 |
+
+These numbers are **not estimates of actual Texas digester construction or operating cost**. They omit all tax, depreciation, environmental credit/LCFS/RIN qualification, nutrient co-product and avoided manure-handling cashflows. The sole purpose is to reveal the required verified contracting/credits or lower-cost shared infrastructure for bankability. Do not combine renewable-energy certificate, RIN, LCFS and avoided-methane claims without checking eligibility, ownership and additionality.
+
+Executable (standard-library only) model: [Texas manure RNG calculator](../tools/texas_manure_rng_screen.py), including explicit livestock inventory cohort assumptions and self-checks. To test in an appropriately configured Python 3 environment: `python tools/texas_manure_rng_screen.py --self-test`. **The code has been published and read back but has not been confirmed as executed through GitHub CI.**
