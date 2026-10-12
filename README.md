@@ -180,3 +180,8 @@ Fork. Adapt. Publish. The standard improves when more operators, researchers, an
 ### Texas landfill baseline and China BIO01 comparison
 
 [**Avoided landfill disposal + freight vs integrated bioreactors, with China/Dongjiakou scope reconciliation**](docs/TEXAS_FOOD_WASTE_BASELINE_AVOIDED_DISPOSAL_CHINA_COMPARISON_2026-10-12.md) corrects the earlier fertilizer-only economic picture using TCEQ 2024 landfill average **$45.15/US short ton**, separate modeled freight, and independently attributed outputs. All plant costs/transport values remain scenario assumptions, and no realized profits or waste-offset credits are claimed.
+
+
+### US onsite food-waste processing — national 25/50/75 resource diversion
+
+[**US onsite bioreactor model: disposal cost vs processing 25%, 50%, 75%**](docs/US_NATIONAL_ONSITE_FOOD_WASTE_BIOREACTOR_25_50_75_2026-10-12.md) scales ReFED 2024 approximately 60 million short tons *food waste* against hypothetical half-cost onsite conversion. At an assumed $20/short ton processing target and EREF 2024 $62.63/short ton tonnage-weighted landfill tip benchmark, conditional direct handling-margin scenarios are ~$639M / $1.279B / $1.918B yearly **before capital, sorting, transport changes and existing beneficial uses**. Separate gas and nutrient coproduct estimates remain non-realized, no double-counting.
