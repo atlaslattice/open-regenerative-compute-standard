@@ -128,3 +128,8 @@ Fork. Adapt. Publish. The standard improves when more operators, researchers, an
 **[START HERE — projects, simulator and evidence labels](docs/START_HERE_PUBLIC_INDEX_2026-10-12.md)** · [Corpus Christi and Jupiter](docs/US_SITE_COMPARISONS_2026-10-12.md) · [Domestic supply, reserves and export-policy comparison](docs/DOMESTIC_FIRST_RESERVES_EXPORT_POLICY_2026-10-12.md) · [Open engineering and funding gaps](docs/HELP_WANTED_RESOURCE_GAPS_2026-10-12.md) · [Public content and repository conventions](docs/PUBLIC_REPOSITORY_GOVERNANCE_2026-10-12.md).
 
 **Current limitations:** ORCS is research; no Atlas industrial deployment or partner adoption is implied, the full 84-module cross-site simulator is not established as integrated, and source studies distinguish observed, reported, derived, modeled and proposed claims. Existing research and Git histories are preserved.
+
+
+### Public full-text Notion research mirrors
+
+[**Browse eight verified source-preserving research mirrors**](docs/notion-mirrors/README.md) — Corpus Christi water/resilience, Dongjiakou desal and LNG engineering, local SAF/reuse/gypsum, resident-benefit design, Jupiter arid-site comparison, China 2.0 synthesis and national-surplus/reserves policy. Historical originals remain in Notion; every mirror is marked NON-CANON and ZERO REALIZED CREDIT. The mirror index is dated; it is not an automated Notion synchronization.
