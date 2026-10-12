@@ -133,3 +133,10 @@ Fork. Adapt. Publish. The standard improves when more operators, researchers, an
 ### Public full-text Notion research mirrors
 
 [**Browse eight verified source-preserving research mirrors**](docs/notion-mirrors/README.md) — Corpus Christi water/resilience, Dongjiakou desal and LNG engineering, local SAF/reuse/gypsum, resident-benefit design, Jupiter arid-site comparison, China 2.0 synthesis and national-surplus/reserves policy. Historical originals remain in Notion; every mirror is marked NON-CANON and ZERO REALIZED CREDIT. The mirror index is dated; it is not an automated Notion synchronization.
+
+
+## Session handoff & organization inventory — October 12, 2026
+
+[**Full public thread synthesis and delta register**](docs/THREAD_HANDOFF_FULL_SYNTHESIS_AND_DELTA_2026-10-12.md) · [**273-repository organization inventory**](docs/GITHUB_ORG_REPO_INVENTORY_2026-10-12.md) · [**eight full-text Notion research mirrors**](docs/notion-mirrors/README.md).
+
+**Snapshot scope:** 272 repositories public, one private/quarantined, ten archived; not all inspected or relicensed. Handoff summarizes the research without publishing personal circumstances. The full 84-module integrated simulator is not independently verified. Historical records remain intact.
