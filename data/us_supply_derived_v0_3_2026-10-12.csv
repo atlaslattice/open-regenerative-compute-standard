@@ -1,0 +1,11 @@
+commodity,basis,production,imports,exports,net_imports,consumption,simple_supply,stock_change,stock_adjusted_supply,residual,imports_zero,reserve_gap,deliverable_surplus,export_gate
+copper_refined,copper content; refined trade,850,1700,110,1590,1700,2440,327,2113,413,False,,,NOT_SATISFIED_IMPORTS
+aluminum_products,crude and semi-fabricated products,2260,4400,890,3510,5700,5770,102,5668,-32,False,,,NOT_SATISFIED_IMPORTS
+aluminum_scrap,"scrap trade mass, not refined substitute",,890,2200,-1310,,,,,,False,,,NOT_SATISFIED_IMPORTS
+potash,K2O equivalent,500,5600,170,5430,5900,5930,,,,False,,,NOT_SATISFIED_IMPORTS
+phosphate_rock,marketable rock gross mass; not P2O5,20000,3400,,,21000,,-340,,,False,,,NOT_SATISFIED_IMPORTS
+copper_scrap,UNKNOWN,,,,,,,,,,,,,UNKNOWN
+nitrogen,UNKNOWN,,,,,,,,,,,,,UNKNOWN
+rare_earth_magnets,UNKNOWN,,,,,,,,,,,,,UNKNOWN
+battery_materials,UNKNOWN,,,,,,,,,,,,,UNKNOWN
+wheat_calendar_2025,UNKNOWN,,,,,,,,,,,,,UNKNOWN

@@ -1,0 +1,83 @@
+[
+  {
+    "capture": 0.25,
+    "assumed_yield": 0.7,
+    "scrap_diverted_kt": 550.0,
+    "potential_product_kt": 385.0,
+    "percent_gross_product_imports": 8.75,
+    "verified_import_displacement_kt": null,
+    "net_benefit": null
+  },
+  {
+    "capture": 0.25,
+    "assumed_yield": 0.85,
+    "scrap_diverted_kt": 550.0,
+    "potential_product_kt": 467.5,
+    "percent_gross_product_imports": 10.625,
+    "verified_import_displacement_kt": null,
+    "net_benefit": null
+  },
+  {
+    "capture": 0.25,
+    "assumed_yield": 0.95,
+    "scrap_diverted_kt": 550.0,
+    "potential_product_kt": 522.5,
+    "percent_gross_product_imports": 11.875,
+    "verified_import_displacement_kt": null,
+    "net_benefit": null
+  },
+  {
+    "capture": 0.5,
+    "assumed_yield": 0.7,
+    "scrap_diverted_kt": 1100.0,
+    "potential_product_kt": 770.0,
+    "percent_gross_product_imports": 17.5,
+    "verified_import_displacement_kt": null,
+    "net_benefit": null
+  },
+  {
+    "capture": 0.5,
+    "assumed_yield": 0.85,
+    "scrap_diverted_kt": 1100.0,
+    "potential_product_kt": 935.0,
+    "percent_gross_product_imports": 21.25,
+    "verified_import_displacement_kt": null,
+    "net_benefit": null
+  },
+  {
+    "capture": 0.5,
+    "assumed_yield": 0.95,
+    "scrap_diverted_kt": 1100.0,
+    "potential_product_kt": 1045.0,
+    "percent_gross_product_imports": 23.75,
+    "verified_import_displacement_kt": null,
+    "net_benefit": null
+  },
+  {
+    "capture": 0.75,
+    "assumed_yield": 0.7,
+    "scrap_diverted_kt": 1650.0,
+    "potential_product_kt": 1155.0,
+    "percent_gross_product_imports": 26.25,
+    "verified_import_displacement_kt": null,
+    "net_benefit": null
+  },
+  {
+    "capture": 0.75,
+    "assumed_yield": 0.85,
+    "scrap_diverted_kt": 1650.0,
+    "potential_product_kt": 1402.5,
+    "percent_gross_product_imports": 31.874999999999996,
+    "verified_import_displacement_kt": null,
+    "net_benefit": null
+  },
+  {
+    "capture": 0.75,
+    "assumed_yield": 0.95,
+    "scrap_diverted_kt": 1650.0,
+    "potential_product_kt": 1567.5,
+    "percent_gross_product_imports": 35.625,
+    "verified_import_displacement_kt": null,
+    "net_benefit": null
+  }
+]

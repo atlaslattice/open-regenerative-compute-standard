@@ -27,3 +27,7 @@ Nothing has been erased from existing repositories. Legacy archives remain searc
 ## Funding and collaboration
 
 Independent process engineers, hydrologists, energy systems analysts, wastewater operators, verification specialists, licensed reviewers, maintainers, and funders are needed. Open-source publication does not imply funded fieldwork. Read the Help Wanted document for clearly scoped needs.
+
+## Latest national commodity research
+
+[US supply security ledger v0.3](US_NATIONAL_SUPPLY_SECURITY_LEDGER_V0_3_2026-10-12.md): partial federal-estimate transcription, reproducible balances and aluminum scrap sensitivities; no complete customs census or realized credits.

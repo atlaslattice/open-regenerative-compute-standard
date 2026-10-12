@@ -200,3 +200,8 @@ Fork. Adapt. Publish. The standard improves when more operators, researchers, an
 ### US matched import/export physical balance and reserve-first pilot
 
 [**2025 US distillate flows, mineral old-scrap trade and national reserve gate — quantitative pilot v0.2**](docs/US_2025_MATCHED_TRADE_AND_RESERVE_GATE_PILOT_V0_2_2026-10-12.md) contains sourced EIA 2025 distillate production, imports, exports, demand and regional balances; USGS 2025 old-scrap exports/imports/domestic recycling; and traceable per-grade reserve and surplus tests. Full USITC line-level trade, mineral 2025 CSV normalization and true national reserves remain outstanding. Earlier studies are preserved.
+
+
+### US commodity supply ledger — v0.3
+
+[Versioned partial physical ledger: copper, aluminum, potash and phosphate](docs/US_NATIONAL_SUPPLY_SECURITY_LEDGER_V0_3_2026-10-12.md) adds 2025 USGS estimates, explicit stock/boundary reconciliation, runnable JSON-to-CSV arithmetic and hypothetical aluminum scrap diversion. Full customs data, certified reserves and actual recovery economics remain UNKNOWN; earlier versions preserved.
