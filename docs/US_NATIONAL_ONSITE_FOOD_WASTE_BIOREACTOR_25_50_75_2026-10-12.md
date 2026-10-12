@@ -55,3 +55,15 @@ for recovery in (0.25,0.50,0.75):
 
 ## Next evidence
 Confirm regional ReFED resource by sector/fate, cite on-site bioreactor vendor guarantees ($/ton and residence time), site sample/BMP and product maturity, local municipal rate contracts, power/gas offtake, actual residual and truck route costs, and one qualified facility inventory. Build county/metro allocation and prohibit processing edible food diverted from donation.
+
+
+## 2026-10-12 correction: user's $10 per WET METRIC TON processing target (authoritative requested sensitivity)
+The preceding document's **$20 per US short ton** model was a distinct half-cost scenario, not the user's **$10 per wet metric ton** cost target. The $10/wet-metric-ton case must be shown prominently and not silently conflated with the $20/US-short-ton scenario. Conversion: **$10/metric tonne = $9.0718474/US short ton**. National 60,000,000 US-short-ton food-waste envelope and EREF 2024 landfill benchmark $62.63/US-short-ton unchanged. Modeled avoided tipping less reactor processing cost:
+
+| Captured resource | US short tons/year | Baseline tipping avoided | $10/wet metric ton processing | Corrected direct delta |
+|---:|---:|---:|---:|---:|
+| 25% | 15,000,000 | $939,450,000 | $136,077,711 | **$803,372,289/year** |
+| 50% | 30,000,000 | $1,878,900,000 | $272,155,422 | **$1,606,744,578/year** |
+| 75% | 45,000,000 | $2,818,350,000 | $408,233,133 | **$2,410,116,867/year** |
+
+Difference in USD/US-short-ton: $62.63 − $9.0718474 ≈ **$53.56**. Gross tipping avoided is **not** a guaranteed avoided expense if diversion includes waste not previously landfilled, and onsite equipment often requires a product/offtake and sorting network. Excludes onsite CAPEX, maintenance not counted in $10, sorting/depackaging, power, transport of residues/outputs, marketing, and existing beneficial reuse. Earlier $20/US-short-ton results remain archived in preceding sections, labeled an alternate stress case, rather than deleted. No assertion that the $10/wet-metric-ton commercial cost is verified; this is an unvalidated engineering target, not a vendor quote.
