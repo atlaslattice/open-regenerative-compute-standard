@@ -170,3 +170,8 @@ Fork. Adapt. Publish. The standard improves when more operators, researchers, an
 ### Texas physical fertilizer purchases vs circular nutrients
 
 [**Texas-specific historical commercial N/P fertilizer purchase benchmark and 25/50/75% food-waste offset model**](docs/TEXAS_FERTILIZER_NUTRIENT_DEMAND_BASELINE_AND_25_50_75_OFFSETS_2026-10-12.md) compares hypothetical recoverable food-waste nutrients to EPA Texas 2017 purchases: nitrogen 608.141 million kg, P2O5 143.232 million kg; K2O and 2026 demand remain UNKNOWN. This is not a current Texas import-substitution estimate or a realized savings claim.
+
+
+### Texas food-waste nutrient value vs extraction costs
+
+[**2026 NPK reference market value and 25/50/75 Texas food-waste recovery cost sensitivity**](docs/TEXAS_FOOD_WASTE_FERTILIZER_VALUE_VS_RECOVERY_COST_2026-10-12.md) compares ~$6–93M gross nutrient equivalent against deliberately hypothetical treatment operating costs, gate fees and methane energy. This is **not measured profit, vendor pricing, or realized imports displaced**, and requires laboratory nutrient assay and actual quotes.
