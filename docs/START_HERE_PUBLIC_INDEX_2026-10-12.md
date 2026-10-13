@@ -40,3 +40,6 @@ Independent process engineers, hydrologists, energy systems analysts, wastewater
 
 
 [Consumption, circular GDP and throughput v0.6](US_CIRCULAR_ECONOMY_CONSUMPTION_THROUGHPUT_GDP_V0_6_2026-10-12.md): expanded primary-source mineral receipts, physical gaps, federal macro baselines and reproducible GDP sensitivities.
+
+
+[Gross transaction throughput v0.7](US_CIRCULAR_GROSS_TRANSACTION_THROUGHPUT_V0_7_2026-10-12.md): production/GDP/financial event layers; unverified all-flow benchmark and UNKNOWN actual tax base.

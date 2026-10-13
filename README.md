@@ -220,3 +220,8 @@ Fork. Adapt. Publish. The standard improves when more operators, researchers, an
 ### Circular economy, throughput and GDP — v0.6
 
 [Expanded consumption evidence and reproducible circular-economy GDP scenarios](docs/US_CIRCULAR_ECONOMY_CONSUMPTION_THROUGHPUT_GDP_V0_6_2026-10-12.md): 43 archived original USGS chapter receipts, 23 physical rows, a defined $478.512B import basket and direct BEA GDP/gross-output/input data. Payment settlement throughput is kept separate from GDP. Scenario multipliers and deployment fractions are uncalibrated sensitivities, not national forecasts; reserve-first exports and physical-gap imports remain current policy proposal.
+
+
+### Unrestricted transaction throughput — v0.7
+
+[Production flows, GDP and repeated gross transactions](docs/US_CIRCULAR_GROSS_TRANSACTION_THROUGHPUT_V0_7_2026-10-12.md): refined sector-ratio supply-chain proxy and an explicitly conditional turnover mapping using the user's $1.6Q working baseline. Gross transactions and tax bases are kept separate; no calibrated payment response or revenue forecast claimed.

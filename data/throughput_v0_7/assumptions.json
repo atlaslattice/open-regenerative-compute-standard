@@ -1,0 +1,64 @@
+{
+  "status": "SIMULATED throughput extension; approximate sector ratios and turnover bridge, not causal forecast",
+  "transaction_baseline_busd": 1600000,
+  "transaction_baseline_status": "User supplied 1.6Q gross benchmark; exact all-rail annual baseline unverified",
+  "reference_fedwire_busd": 1148267.267,
+  "mapping": {
+    "Hides, skins, and furskins, raw": "Agriculture, forestry, fishing, and hunting",
+    "Oil seeds and oleaginuos fruits": "Agriculture, forestry, fishing, and hunting",
+    "Crude rubber": "Agriculture, forestry, fishing, and hunting",
+    "Cork and wood": "Agriculture, forestry, fishing, and hunting",
+    "Pulp and waste paper": "Manufacturing",
+    "Textile fibers including waste": "Agriculture, forestry, fishing, and hunting",
+    "Crude fertilizers": "Mining",
+    "Metalliferous ores and metal scrap": "Manufacturing",
+    "Crude animal and vegetable materials": "Agriculture, forestry, fishing, and hunting",
+    "Coal, coke, and briquettes": "Mining",
+    "Petroleum products and preparations": "Manufacturing",
+    "Gas, natural, and manufactured": "Mining",
+    "Animal oil and fat": "Manufacturing",
+    "Fixed vegetable fats and oil, crude": "Manufacturing",
+    "Animal or vegetable fats, processed": "Manufacturing",
+    "Organic chemicals": "Manufacturing",
+    "Inorganic chemicals": "Manufacturing",
+    "Dyeing, tanning and coloring materials": "Manufacturing",
+    "Essential oil and reinoids": "Manufacturing",
+    "Fertilizers": "Manufacturing",
+    "Plastics in primary forms": "Manufacturing",
+    "Iron and steel": "Manufacturing",
+    "Nonferrous metals": "Manufacturing"
+  },
+  "mapping_status": "PROPOSED coarse producer-sector assignments; mixed groups unresolved",
+  "cases": [
+    {
+      "name": "limited",
+      "eligibility": 0.2,
+      "deployment": 0.25,
+      "domestic_input_fraction": 0.6,
+      "displacement_fraction": 0.15
+    },
+    {
+      "name": "middle",
+      "eligibility": 0.4,
+      "deployment": 0.5,
+      "domestic_input_fraction": 0.8,
+      "displacement_fraction": 0.15
+    },
+    {
+      "name": "expanded",
+      "eligibility": 0.6,
+      "deployment": 0.75,
+      "domestic_input_fraction": 0.95,
+      "displacement_fraction": 0.2
+    }
+  ],
+  "turnover_response_sensitivity": [
+    0,
+    0.5,
+    1,
+    2
+  ],
+  "tax_rate": null,
+  "tax_eligible_share": null,
+  "tax_revenue": null
+}

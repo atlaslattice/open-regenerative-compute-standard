@@ -1,0 +1,112 @@
+{
+  "status": "SIMULATED; aggregate payment/GDP ratio is a scaling assumption, not money velocity or estimated causal multiplier",
+  "user_transaction_to_gdp_ratio": 51.84486719613238,
+  "reference_fedwire_to_gdp_ratio": 37.20735247705055,
+  "cases": [
+    {
+      "case": "limited",
+      "imports_replaced_busd": 23.9256,
+      "before_displacement_gross_output_busd": 37.06354674842597,
+      "incremental_production_gross_output_busd": 31.504014736162073,
+      "incremental_gdp_busd": 12.89192350922528,
+      "percent_gdp": 0.04177375388990509,
+      "user_baseline_incremental_transactions_busd": 668.3800622384815,
+      "user_baseline_total_transactions_busd": 1600668.3800622385,
+      "reference_fedwire_incremental_transactions_busd": 479.67434211491945,
+      "actual_incremental_transactions": null,
+      "actual_taxable_base": null,
+      "tax_revenue": null
+    },
+    {
+      "case": "middle",
+      "imports_replaced_busd": 95.7024,
+      "before_displacement_gross_output_busd": 181.56433798400744,
+      "incremental_production_gross_output_busd": 154.3296872864063,
+      "incremental_gdp_busd": 63.10137817839843,
+      "percent_gdp": 0.20446766072199948,
+      "user_baseline_incremental_transactions_busd": 3271.482571551992,
+      "user_baseline_total_transactions_busd": 1603271.482571552,
+      "reference_fedwire_incremental_transactions_busd": 2347.8352196713363,
+      "actual_incremental_transactions": null,
+      "actual_taxable_base": null,
+      "tax_revenue": null
+    },
+    {
+      "case": "expanded",
+      "imports_replaced_busd": 215.33040000000003,
+      "before_displacement_gross_output_busd": 491.4850088511049,
+      "incremental_production_gross_output_busd": 393.18800708088395,
+      "incremental_gdp_busd": 160.63675752205873,
+      "percent_gdp": 0.5205119600342782,
+      "user_baseline_incremental_transactions_busd": 8328.191360548453,
+      "user_baseline_total_transactions_busd": 1608328.1913605484,
+      "reference_fedwire_incremental_transactions_busd": 5976.86845789374,
+      "actual_incremental_transactions": null,
+      "actual_taxable_base": null,
+      "tax_revenue": null
+    }
+  ],
+  "turnover_response_sensitivity": [
+    {
+      "case": "limited",
+      "response_factor": 0,
+      "incremental_transactions_busd": 0.0
+    },
+    {
+      "case": "limited",
+      "response_factor": 0.5,
+      "incremental_transactions_busd": 334.19003111924076
+    },
+    {
+      "case": "limited",
+      "response_factor": 1,
+      "incremental_transactions_busd": 668.3800622384815
+    },
+    {
+      "case": "limited",
+      "response_factor": 2,
+      "incremental_transactions_busd": 1336.760124476963
+    },
+    {
+      "case": "middle",
+      "response_factor": 0,
+      "incremental_transactions_busd": 0.0
+    },
+    {
+      "case": "middle",
+      "response_factor": 0.5,
+      "incremental_transactions_busd": 1635.741285775996
+    },
+    {
+      "case": "middle",
+      "response_factor": 1,
+      "incremental_transactions_busd": 3271.482571551992
+    },
+    {
+      "case": "middle",
+      "response_factor": 2,
+      "incremental_transactions_busd": 6542.965143103984
+    },
+    {
+      "case": "expanded",
+      "response_factor": 0,
+      "incremental_transactions_busd": 0.0
+    },
+    {
+      "case": "expanded",
+      "response_factor": 0.5,
+      "incremental_transactions_busd": 4164.095680274227
+    },
+    {
+      "case": "expanded",
+      "response_factor": 1,
+      "incremental_transactions_busd": 8328.191360548453
+    },
+    {
+      "case": "expanded",
+      "response_factor": 2,
+      "incremental_transactions_busd": 16656.382721096907
+    }
+  ],
+  "realized_credit": 0
+}
