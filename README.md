@@ -225,3 +225,8 @@ Fork. Adapt. Publish. The standard improves when more operators, researchers, an
 ### Unrestricted transaction throughput — v0.7
 
 [Production flows, GDP and repeated gross transactions](docs/US_CIRCULAR_GROSS_TRANSACTION_THROUGHPUT_V0_7_2026-10-12.md): refined sector-ratio supply-chain proxy and an explicitly conditional turnover mapping using the user's $1.6Q working baseline. Gross transactions and tax bases are kept separate; no calibrated payment response or revenue forecast claimed.
+
+
+### Public US dashboard source prototype — v0.1
+
+[US Resource & Resilience prototype](prototypes/us-resource-resilience-v0_1/README.md): additive DragonSeek fork with 23 national physical records, reserve/recovery simulations, explicit regional UNKNOWN values and a local Atlas-Intelligence wording/citation checker. Public, forkable early-stage modeling; no operational monitoring or realized benefit claimed. Source lineage and retained upstream license included.

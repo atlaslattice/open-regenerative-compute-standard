@@ -43,3 +43,8 @@ Independent process engineers, hydrologists, energy systems analysts, wastewater
 
 
 [Gross transaction throughput v0.7](US_CIRCULAR_GROSS_TRANSACTION_THROUGHPUT_V0_7_2026-10-12.md): production/GDP/financial event layers; unverified all-flow benchmark and UNKNOWN actual tax base.
+
+
+### Public US dashboard source prototype — v0.1
+
+[US Resource & Resilience prototype](../prototypes/us-resource-resilience-v0_1/README.md) (repository-root path: `prototypes/us-resource-resilience-v0_1/README.md`): additive DragonSeek fork with 23 national physical records, reserve/recovery simulations, explicit regional UNKNOWN values and a local Atlas-Intelligence wording/citation checker. Public, forkable early-stage modeling; no operational monitoring or realized benefit claimed. Source lineage and retained upstream license included.

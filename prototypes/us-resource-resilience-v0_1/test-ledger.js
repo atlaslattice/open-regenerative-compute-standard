@@ -1,0 +1,17 @@
+const assert=require('node:assert/strict');
+const L=require('./ledger.js');
+const verify=require('./ari_verifier.js');
+const row={annual_consumption:100,domestic_output_or_proxy:70};
+let r=L.calculate(row,10,5,.2,3);
+assert.equal(r.target,20);assert.equal(r.productionGap,20);assert.equal(r.reserveGap,15);assert.equal(r.importsNeeded,25);
+assert.equal(L.calculate({annual_consumption:100,domestic_output_or_proxy:150},0,0).exportCandidate,0);
+assert.equal(L.calculate(row).importsNeeded,null);
+assert.equal(L.calculate({annual_consumption:100,domestic_output_or_proxy:null},0,20).productionGap,null);
+assert.equal(L.selectRows([{...row,geo_level:'national'}],'48','48453').length,0);
+assert.throws(()=>L.validateRegional([{id:'copper',unit:'t',geo_level:'county',state_fips:'48',county_fips:'06001',annual_consumption:null,domestic_output_or_proxy:null}]));
+assert.throws(()=>L.calculate(row,0,0,.2,0));
+assert.equal(L.calculate(row,0,20).actualExportAuthorization,false);
+assert.equal(verify('[✓ VERIFIED] unsupported').overall_passed,false);
+assert.equal(verify('[◆ DESIGN_CHOICE] Empirically Confirmed').overall_passed,false);
+assert.equal(verify('[? NOT_VERIFIED] hypothesis').overall_passed,true);
+console.log('11 checks passed; no browser/live-feed or independent truth verification claimed.');

@@ -1,0 +1,30 @@
+{
+  "artifact_id": "US_RESOURCE_RESILIENCE_PROTOTYPE_V0_1",
+  "status": "CANDIDATE",
+  "canon": false,
+  "operational_deployment": false,
+  "authority": "none",
+  "originals_preserved": true,
+  "source_dashboard": {
+    "repo": "atlaslattice/manus-artifacts",
+    "commit": "34c8e681b0f0b12a8422ca0439db2fceb8fc355e",
+    "path": "research/dragonseek_1_6_1/index.html",
+    "sha256": "cfdad639778e005b92f488b6cc679ab24aadcb109ff1579259fd3e8dbdd640f3"
+  },
+  "source_catalog": {
+    "commit": "9188383d18704fa70fbb93dd7cd8b3556bd692fe",
+    "path": "research/dragonseek_1_1/evidence/planetary_data_adapter_inventory_v11.json"
+  },
+  "ledger": "ORCS v0.6 physical_consumption_gaps.csv, 2025; national proxies, not county records",
+  "live_fetch_acceptance": "NOT_TESTED_IN_BROWSER",
+  "regional_data_status": "UNKNOWN",
+  "pathogen_aviation_orbit_status": "STUB_NOT_CONNECTED",
+  "atlas_intelligence": {
+    "repo": "atlaslattice/Atlas-Intelligence",
+    "commit": "c17a50f3bd3f4f01e0ee22273aaf4fe18f1bc349",
+    "path": "src/lib/verifier.ts",
+    "use": "Local JS port; wording and citation presence only",
+    "license": "upstream/ATLAS_LICENSE.txt",
+    "firebase_and_llm_integration": "NOT_CONNECTED"
+  }
+}
