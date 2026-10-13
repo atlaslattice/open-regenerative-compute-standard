@@ -215,3 +215,8 @@ Fork. Adapt. Publish. The standard improves when more operators, researchers, an
 ### Consumption, production gaps and reserve-first exports — v0.5
 
 [Physical consumption, domestic production gaps and 20% domestic-use reserve model](docs/US_CONSUMPTION_SHORTFALL_RESERVE_FIRST_V0_5_2026-10-12.md). Latest user policy: imports remain permitted for verified production/grade/delivery gaps; the earlier blanket zero-import gate is superseded. Qualified additional waste recovery reduces import needs; exports follow consumption and stocked reserves. Runnable arithmetic; actual unmet demand and certified reserves UNKNOWN.
+
+
+### Circular economy, throughput and GDP — v0.6
+
+[Expanded consumption evidence and reproducible circular-economy GDP scenarios](docs/US_CIRCULAR_ECONOMY_CONSUMPTION_THROUGHPUT_GDP_V0_6_2026-10-12.md): 43 archived original USGS chapter receipts, 23 physical rows, a defined $478.512B import basket and direct BEA GDP/gross-output/input data. Payment settlement throughput is kept separate from GDP. Scenario multipliers and deployment fractions are uncalibrated sensitivities, not national forecasts; reserve-first exports and physical-gap imports remain current policy proposal.

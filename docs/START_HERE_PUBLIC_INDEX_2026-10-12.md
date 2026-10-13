@@ -37,3 +37,6 @@ Independent process engineers, hydrologists, energy systems analysts, wastewater
 
 
 [Consumption and production gaps v0.5](US_CONSUMPTION_SHORTFALL_RESERVE_FIRST_V0_5_2026-10-12.md): current gate permits imports for verified physical gaps and exports only after consumption plus stocked reserves; supersedes earlier zero-import requirement.
+
+
+[Consumption, circular GDP and throughput v0.6](US_CIRCULAR_ECONOMY_CONSUMPTION_THROUGHPUT_GDP_V0_6_2026-10-12.md): expanded primary-source mineral receipts, physical gaps, federal macro baselines and reproducible GDP sensitivities.

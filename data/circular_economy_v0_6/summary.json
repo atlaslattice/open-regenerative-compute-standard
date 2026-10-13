@@ -1,0 +1,76 @@
+{
+  "status": "SIMULATED assumptions, not calibrated GDP forecast",
+  "import_basket_busd": 478.512,
+  "trade_families_in_basket": 23,
+  "gdp_2025_busd": 30861.3,
+  "gross_output_2025_busd": 52797.06,
+  "intermediate_inputs_2025_busd": 21935.765,
+  "scenario_results": [
+    {
+      "name": "limited",
+      "import_replacement_busd": 23.925600000000003,
+      "direct_incremental_va_busd": 8.37396,
+      "multiplier_gross_va_busd": 10.048752,
+      "displaced_va_busd": 1.5073128,
+      "net_gdp_level_busd": 8.541439200000001,
+      "percent_2025_gdp": 0.02767686131173995,
+      "sum_10year_linear_ramp_gdp_busd": 46.9779156
+    },
+    {
+      "name": "middle",
+      "import_replacement_busd": 95.70240000000001,
+      "direct_incremental_va_busd": 47.851200000000006,
+      "multiplier_gross_va_busd": 71.77680000000001,
+      "displaced_va_busd": 10.766520000000002,
+      "net_gdp_level_busd": 61.01028000000001,
+      "percent_2025_gdp": 0.19769186651242823,
+      "sum_10year_linear_ramp_gdp_busd": 335.55654000000004
+    },
+    {
+      "name": "expanded",
+      "import_replacement_busd": 215.3304,
+      "direct_incremental_va_busd": 129.19824,
+      "multiplier_gross_va_busd": 232.556832,
+      "displaced_va_busd": 46.51136640000001,
+      "net_gdp_level_busd": 186.0454656,
+      "percent_2025_gdp": 0.6028439035296633,
+      "sum_10year_linear_ramp_gdp_busd": 1023.2500608
+    },
+    {
+      "name": "adverse",
+      "import_replacement_busd": 95.70240000000001,
+      "direct_incremental_va_busd": 28.710720000000002,
+      "multiplier_gross_va_busd": 31.581792000000004,
+      "displaced_va_busd": 45.0,
+      "net_gdp_level_busd": -13.418207999999996,
+      "percent_2025_gdp": -0.043479075735630056,
+      "sum_10year_linear_ramp_gdp_busd": -73.80014399999997
+    }
+  ],
+  "efficiency_savings_separate_from_gdp": [
+    {
+      "name": "limited",
+      "input_base_busd": 6426.66,
+      "addressable_input_busd": 642.666,
+      "gross_cost_saving_busd": 6.426660000000001,
+      "gdp_impact": null
+    },
+    {
+      "name": "middle",
+      "input_base_busd": 6426.66,
+      "addressable_input_busd": 1285.332,
+      "gross_cost_saving_busd": 32.133300000000006,
+      "gdp_impact": null
+    },
+    {
+      "name": "expanded",
+      "input_base_busd": 6426.66,
+      "addressable_input_busd": 1927.9979999999998,
+      "gross_cost_saving_busd": 96.3999,
+      "gdp_impact": null
+    }
+  ],
+  "physical_rows": 23,
+  "source_chapters": 43,
+  "realized_credit": 0
+}

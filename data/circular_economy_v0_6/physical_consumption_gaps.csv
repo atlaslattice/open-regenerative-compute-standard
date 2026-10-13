@@ -1,0 +1,24 @@
+id,unit,annual_consumption,domestic_output_or_proxy,annual_domestic_only_gap,reserve20_target,exports,imports,gap_with_exports_retained,actual_unmet_demand,certified_reserve_gap,boundary
+refined_copper,million tonnes Cu,1.7,0.85,0.85,0.34,0.11,1.7,0.9600000000000001,,,Reported refined use versus primary+secondary refinery production. Domestic direct-use scrap outside boundary. Full balance unresolved.
+copper_primary_plus_old_scrap,million tonnes Cu,2.2,0.95,1.2500000000000002,0.44000000000000006,,,,,,Apparent primary refined+old scrap; production proxy .790 primary +.160 old scrap. Rounded boundary consistent with ~57% import reliance; not additive to refined-copper row.
+aluminum,million tonnes,5.7,2.26,3.4400000000000004,1.1400000000000001,0.89,4.4,4.33,,,Apparent use versus primary+old-scrap recovery; excludes new scrap recirculation. Trade products and stocks broader than strict qualified metal boundary.
+potash,million tonnes K2O,5.9,0.5,5.4,1.1800000000000002,0.17,5.6,5.57,,,Production versus apparent consumption; producer-sales alternative gap 5.44 Mt. Imports largely supply existing demand.
+phosphate_rock,million tonnes marketable rock,21,20,1,4.2,,3.4,,,,Gross rock not P2O5; produced versus sold/used boundary yields different gaps. Producer-sales gap 3 Mt; production gap 1 Mt.
+distillate,million barrels,1426.504,1822.486,0,285.3008,456.168,57.989,60.18599999999992,,,Prior EIA 2025 pilot transcribed. Product supplied proxy; marketing stocks not certified strategic holdings. Regional/grade delivery UNKNOWN; residual adjustments unresolved.
+natural_gas,Bcf,33536.2,39288.6,0,6707.24,,,,,,"2025 historical STEO row retrieved Oct12: consumption91.88/d, dry production107.64/d; excludes marketed gas/ngls. Total exports/imports not retrieved; LNG alone not substituted."
+petroleum_total,million barrels,7519.000000000001,,,1503.8000000000002,,,,,,EIA rounded consumption proxy includes biofuels/NGLs; do not compare 13.6m b/d crude production alone to this total.
+steel,million tonnes,95,82,13,19.0,7,24,20,,,Domestic shipment basis82; not raw/finished conversion assumed. Published total trade rounded.
+zinc_refined,tonnes Zn,820000,220000,600000,164000.0,2000,600000,602000,,,Refined output includes secondary residues. Mine670kt and concentrate exports630kt are different stages; never add mine output.
+lead_refined,tonnes Pb,1500000,1000000,500000,300000.0,22000,520000,522000,,,Domestic secondary old-scrap refining; primary refinery zero. Mine concentrate not added.
+tin_refined_proxy,tonnes Sn,43000,9000,34000,8600.0,850,32000,34850,,,"Old-scrap table9000 used; narrative says10000, discrepancy flagged. New-scrap8000 excluded from additional supply; gap proxy not exact reconciliation."
+chromium,tonnes Cr,480000,100000,380000,96000.0,140000,520000,520000,,,Apparent consumption includes recycling; domestic secondary100kt. Reported consumption360kt different denominator.
+antimony,tonnes Sb,45000,4200,40800,9000.0,,,,,,700 primary smelter+3500 secondary; imported feedstock origin not proved. Total trade withheld here because individual categories include gross weights.
+natural_graphite,tonnes graphite,71000,0,71000,14200.0,8400,79000,79400,,,Mine output zero; unspecified incremental secondary recovery excluded pending assays. Synthetic graphite separate material.
+rare_earth_compounds_metals,tonnes REO equivalent,27000,8900,18100,5400.0,,,,,,Concentrate production51000 not refined supply; archive chapter vintage requires current-revision check; individual REE/magnets not interchangeable.
+titanium_sponge,tonnes,44000,0,44000,8800.0,63,44000,44063,,,Sponge grade; TiO2 pigment cannot substitute.
+titanium_dioxide_pigment,tonnes,900000,1000000,0,180000.0,330000,230000,230000,,,Separate pigment balance; do not add to titanium sponge.
+silver,tonnes Ag,9400,2100,7300,1880.0,300,7600,7600,,,Refinery primary1100+secondary1000. Stocks industry25+Treasury498+COMEX15000 not certified strategic holdings.
+nickel_total,tonnes Ni,220000,,,44000.0,,,,,,Apparent total consumption220kt; reported primary120kt and secondary130kt distinct. Primary domestic refined output withheld; cannot infer gap from mine10kt.
+cobalt,tonnes Co,9600,,,1920.0,4500,14000,,,,"Secondary2000 known, domestic qualified primary unavailable. Mine300 not directly refined supply. Estimated use8000 vs apparent9600; stocks industry1500+LME34."
+manganese,tonnes Mn,640000,,,128000.0,,,,,,Reported100% reliance. Mine zero but qualified total domestic secondary not quantified; trade gross ore/alloy cannot sum to Mn content.
+sulfur,tonnes S,9100000,8100000,1000000,1820000.0,1865000,3100000,2865000,,,"Federal indexed source not archive; sulfur content in sulfuric acid rows, not gross acid tonnes. Existing recovered refinery sulfur already included."

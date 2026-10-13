@@ -1,0 +1,58 @@
+{
+  "status": "SIMULATED sensitivity; uncalibrated national model, not forecast",
+  "GDP_impact": "annual steady-state GDP level equivalent at 2025 prices",
+  "scenarios": [
+    {
+      "name": "limited",
+      "eligible_import_fraction": 0.2,
+      "deployment_fraction": 0.25,
+      "incremental_direct_va_fraction": 0.35,
+      "va_multiplier": 1.2,
+      "displacement_fraction_of_gross_va": 0.15
+    },
+    {
+      "name": "middle",
+      "eligible_import_fraction": 0.4,
+      "deployment_fraction": 0.5,
+      "incremental_direct_va_fraction": 0.5,
+      "va_multiplier": 1.5,
+      "displacement_fraction_of_gross_va": 0.15
+    },
+    {
+      "name": "expanded",
+      "eligible_import_fraction": 0.6,
+      "deployment_fraction": 0.75,
+      "incremental_direct_va_fraction": 0.6,
+      "va_multiplier": 1.8,
+      "displacement_fraction_of_gross_va": 0.2
+    },
+    {
+      "name": "adverse",
+      "eligible_import_fraction": 0.4,
+      "deployment_fraction": 0.5,
+      "incremental_direct_va_fraction": 0.3,
+      "va_multiplier": 1.1,
+      "displacement_fraction_of_gross_va": 0,
+      "additional_displaced_gdp_busd": 45
+    }
+  ],
+  "efficiency_cases": [
+    {
+      "name": "limited",
+      "addressable_share": 0.1,
+      "cost_reduction": 0.01
+    },
+    {
+      "name": "middle",
+      "addressable_share": 0.2,
+      "cost_reduction": 0.025
+    },
+    {
+      "name": "expanded",
+      "addressable_share": 0.3,
+      "cost_reduction": 0.05
+    }
+  ],
+  "ramp_years": 10,
+  "notes": "Eligibility/deployment fractions are scenario assumptions unrelated to physical waste-capture fractions. VA multipliers not estimated from BEA I-O. Displacement deductions represent foregone domestic VA/crowding/transition; not OPEX or depreciation. Efficiency savings are separate, not added to GDP."
+}
