@@ -230,3 +230,8 @@ Fork. Adapt. Publish. The standard improves when more operators, researchers, an
 ### Public US dashboard source prototype — v0.1
 
 [US Resource & Resilience prototype](prototypes/us-resource-resilience-v0_1/README.md): additive DragonSeek fork with 23 national physical records, reserve/recovery simulations, explicit regional UNKNOWN values and a local Atlas-Intelligence wording/citation checker. Public, forkable early-stage modeling; no operational monitoring or realized benefit claimed. Source lineage and retained upstream license included.
+
+
+### Annual US simulator and data-access registry — v0.2
+
+[Public dashboard with annual simulator](prototypes/us-resource-resilience-v0_2/README.md): 23 national records; five reviewed 2021–2025 material histories; 1–100-year recovery/reserve/import sensitivities; 75 source-access entries and four successful anonymous server sample probes. Public accounts, restricted authorization and untested sources distinguished. No calibrated forecast, certified reserve or operational deployment claimed. v0.1 preserved.

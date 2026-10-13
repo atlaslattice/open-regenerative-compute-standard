@@ -1,0 +1,312 @@
+[
+  {
+    "id": "refined_copper",
+    "unit": "million tonnes Cu",
+    "observations": [
+      {
+        "year": 2021,
+        "consumption": 1.75,
+        "domestic_output_or_proxy": 0.98,
+        "imports": 0.919,
+        "exports": 0.048,
+        "reported_inventory": 0.117,
+        "status": "REPORTED"
+      },
+      {
+        "year": 2022,
+        "consumption": 1.72,
+        "domestic_output_or_proxy": 0.957,
+        "imports": 0.732,
+        "exports": 0.027,
+        "reported_inventory": 0.084,
+        "status": "REPORTED"
+      },
+      {
+        "year": 2023,
+        "consumption": 1.58,
+        "domestic_output_or_proxy": 0.882,
+        "imports": 0.771,
+        "exports": 0.029,
+        "reported_inventory": 0.128,
+        "status": "REPORTED"
+      },
+      {
+        "year": 2024,
+        "consumption": 1.58,
+        "domestic_output_or_proxy": 0.921,
+        "imports": 0.903,
+        "exports": 0.072,
+        "reported_inventory": 0.123,
+        "status": "REPORTED"
+      },
+      {
+        "year": 2025,
+        "consumption": 1.7,
+        "domestic_output_or_proxy": 0.85,
+        "imports": 1.7,
+        "exports": 0.11,
+        "reported_inventory": 0.45,
+        "status": "REPORTED / 2025 ESTIMATED"
+      }
+    ],
+    "consumption_cagr": -0.007220688869292391,
+    "production_cagr": -0.03495356105798508,
+    "source": {
+      "commodity": "copper",
+      "official_source": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-copper.pdf",
+      "archive_source": "https://github.com/pranava0x0/usgs-mineral-commodity-summaries/blob/25031d0f60fa0c508068145d6be6228fc4933d51/data/raw/mcs2026-copper.pdf",
+      "pdf_sha256": "c4971f7edfa38feefc51952c5f24889c46f468d936c6620d388233313ae8ae85",
+      "unit_note": "(Data in thousand metric tons, copper content, unless otherwise specified)",
+      "salient_table_text": "Salient Statistics\u2014United States:                                         2021     2022      2023     2024     2025e\nProduction:\n  Mine, recoverable                                                      1,230     1,230    1,130     1,050     1,000\n  Refinery:\n    Primary (from ore)                                                     931       917      843       882      790\n    Secondary (from scrap)                                                  49        40       39        39       60\nCopper recovered from old (post-consumer) scrap1                           169       152      137      e\n                                                                                                        140      160\nImports for consumption:\n  Ore and concentrate                                                       11        12        3        (2)       (2)\n  Refined                                                                  919       732      771       903     1,700\nExports:\n  Ore and concentrate                                                      344       351      339       326      340\n  Refined                                                                   48        27       29        72      110\nConsumption:\n  Reported, refined copper                                               1,750     1,720    1,580     1,580     1,700\n  Apparent, primary refined copper and copper from old scrap3            1,970     1,810    1,680     1,860     2,200\nPrice, annual average, cents per pound:\n  U.S. producer, cathode (COMEX + premium)                               432.3     410.8    395.3     431.8      490\n  COMEX, high-grade, first position                                      424.3     400.7    385.7     421.6      480\n  London Metal Exchange, grade A, cash                                   422.5     399.8    384.8     414.7      440\nStocks, refined, held by U.S. producers, consumers, and metal\n  exchanges, yearend                                                       117       84       128       123       450\nEmployment, mine and plant, number                                      11,400   12,000    12,600    13,000    13,000\nNet import reliance4 as a percentage of apparent consumption                44       41        42        45        57\n\n",
+      "status": "REPORTED archived original USGS PDF; current official byte equivalence not verified"
+    },
+    "certified_reserve": null,
+    "limitations": "Archived original federal PDF; current federal byte equivalence unverified. Reported inventories are not certified deliverable reserves. Four-year CAGR is descriptive, not a long-term forecast."
+  },
+  {
+    "id": "aluminum",
+    "unit": "million tonnes",
+    "observations": [
+      {
+        "year": 2021,
+        "consumption": 6.24,
+        "domestic_output_or_proxy": 2.409,
+        "imports": 4.94,
+        "exports": 0.9,
+        "reported_inventory": 1.87,
+        "status": "REPORTED"
+      },
+      {
+        "year": 2022,
+        "consumption": 6.91,
+        "domestic_output_or_proxy": 2.341,
+        "imports": 5.73,
+        "exports": 1.04,
+        "reported_inventory": 2.05,
+        "status": "REPORTED"
+      },
+      {
+        "year": 2023,
+        "consumption": 6.21,
+        "domestic_output_or_proxy": 2.31,
+        "imports": 4.9,
+        "exports": 1.24,
+        "reported_inventory": 1.82,
+        "status": "REPORTED"
+      },
+      {
+        "year": 2024,
+        "consumption": 5.83,
+        "domestic_output_or_proxy": 2.236,
+        "imports": 4.84,
+        "exports": 1.36,
+        "reported_inventory": 1.69,
+        "status": "REPORTED"
+      },
+      {
+        "year": 2025,
+        "consumption": 5.7,
+        "domestic_output_or_proxy": 2.26,
+        "imports": 4.4,
+        "exports": 0.89,
+        "reported_inventory": 1.8,
+        "status": "REPORTED / 2025 ESTIMATED"
+      }
+    ],
+    "consumption_cagr": -0.022374397611579888,
+    "production_cagr": -0.01583501429683698,
+    "source": {
+      "commodity": "aluminum",
+      "official_source": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-aluminum.pdf",
+      "archive_source": "https://github.com/pranava0x0/usgs-mineral-commodity-summaries/blob/25031d0f60fa0c508068145d6be6228fc4933d51/data/raw/mcs2026-aluminum.pdf",
+      "pdf_sha256": "2995b3e9e412eed53a9b565743dd8696a7fc0ae10e7f2d95266511a10b1fee30",
+      "unit_note": "(Data in thousand metric tons unless otherwise specified)",
+      "salient_table_text": "Salient Statistics\u2014United States:                                 2021      2022         2023     2024    2025e\nProduction:\n  Primary                                                          889        861          750      676      660\n  Secondary (from old scrap)                                     1,520      1,480        1,560    1,560    1,600\n  Secondary (from new scrap)                                     1,780      1,920        1,870    2,120    2,000\nImports for consumption:\n  Crude and semi-fabricated products                             4,940      5,730        4,900    4,840    4,400\n  Scrap                                                            679        685          677      700      890\nExports:\n  Crude and semi-fabricated products                               900      1,040        1,240    1,360      890\n  Scrap                                                          1,930      1,720        1,780    2,100    2,200\nConsumption, apparent2, 3                                        6,240      6,910        6,210    5,830    5,700\nSupply, apparent3, 4                                             8,020      8,820        8,070    7,950    7,700\nPrice, ingot, average U.S. market (spot), cents per pound5       138.5      152.6        125.9    129.5      180\nStocks, yearend:\n  Aluminum industry                                              1,870     2,050     1,820        1,690    1,800\n  London Metal Exchange (LME), U.S. warehouses6                     69         9         5           16        8\nEmployment, number7                                             28,900    30,200    30,500       29,900   30,000\nNet import reliance8 as a percentage of apparent consumption        61        66        63           62       60\n\n",
+      "status": "REPORTED archived original USGS PDF; current official byte equivalence not verified"
+    },
+    "certified_reserve": null,
+    "limitations": "Archived original federal PDF; current federal byte equivalence unverified. Reported inventories are not certified deliverable reserves. Four-year CAGR is descriptive, not a long-term forecast."
+  },
+  {
+    "id": "potash",
+    "unit": "million tonnes K2O",
+    "observations": [
+      {
+        "year": 2021,
+        "consumption": 6.9,
+        "domestic_output_or_proxy": 0.48,
+        "imports": 6.48,
+        "exports": 0.112,
+        "status": "REPORTED"
+      },
+      {
+        "year": 2022,
+        "consumption": 5.1,
+        "domestic_output_or_proxy": 0.43,
+        "imports": 4.94,
+        "exports": 0.267,
+        "status": "REPORTED"
+      },
+      {
+        "year": 2023,
+        "consumption": 5.9,
+        "domestic_output_or_proxy": 0.39,
+        "imports": 5.62,
+        "exports": 0.157,
+        "status": "REPORTED"
+      },
+      {
+        "year": 2024,
+        "consumption": 6.2,
+        "domestic_output_or_proxy": 0.41,
+        "imports": 5.97,
+        "exports": 0.15,
+        "status": "REPORTED"
+      },
+      {
+        "year": 2025,
+        "consumption": 5.9,
+        "domestic_output_or_proxy": 0.5,
+        "imports": 5.6,
+        "exports": 0.17,
+        "status": "REPORTED / 2025 ESTIMATED"
+      }
+    ],
+    "consumption_cagr": -0.03838610475238502,
+    "production_cagr": 0.01025775233831161,
+    "source": {
+      "commodity": "potash",
+      "official_source": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-potash.pdf",
+      "archive_source": "https://github.com/pranava0x0/usgs-mineral-commodity-summaries/blob/25031d0f60fa0c508068145d6be6228fc4933d51/data/raw/mcs2026-potash.pdf",
+      "pdf_sha256": "c2e6605e30ef764f50d400f609e6424da7e46f5d8751f6bf8b62ab58d5ad809b",
+      "unit_note": "[Data in thousand metric tons, potassium oxide (K2O) equivalent, unless otherwise specified]",
+      "salient_table_text": "Salient Statistics\u2014United States:                                        2021      2022      2023      2024     2025e\nProduction, marketable1                                                    480       430       390       410      500\nSales by producers, marketable1                                            490       400       400       420      460\nImports for consumption                                                  6,480     4,940     5,620     5,970    5,600\nExports                                                                    112       267       157       150      170\nConsumption, apparent1, 2                                                6,900     5,100     5,900     6,200    5,900\nPrice, average, f.o.b. mine, dollars per metric ton of K2O\n  equivalent:\n  All products3                                                          1,120     1,790     1,250     1,150    1,200\n  MOP                                                                      650       980       620       690      600\nEmployment, mine and mill, numbere                                         900       900       900       900      900\nNet import reliance4 as a percentage of apparent consumption                93        92        93        94       92\n\n",
+      "status": "REPORTED archived original USGS PDF; current official byte equivalence not verified"
+    },
+    "certified_reserve": null,
+    "limitations": "Archived original federal PDF; current federal byte equivalence unverified. Reported inventories are not certified deliverable reserves. Four-year CAGR is descriptive, not a long-term forecast."
+  },
+  {
+    "id": "phosphate_rock",
+    "unit": "million tonnes marketable rock",
+    "observations": [
+      {
+        "year": 2021,
+        "consumption": 24.4,
+        "domestic_output_or_proxy": 21.6,
+        "imports": 2.46,
+        "reported_inventory": 10.7,
+        "status": "REPORTED"
+      },
+      {
+        "year": 2022,
+        "consumption": 22.3,
+        "domestic_output_or_proxy": 19.8,
+        "imports": 2.5,
+        "reported_inventory": 10.6,
+        "status": "REPORTED"
+      },
+      {
+        "year": 2023,
+        "consumption": 22.6,
+        "domestic_output_or_proxy": 19.6,
+        "imports": 2.59,
+        "reported_inventory": 9.55,
+        "status": "REPORTED"
+      },
+      {
+        "year": 2024,
+        "consumption": 22.5,
+        "domestic_output_or_proxy": 19.4,
+        "imports": 3.39,
+        "reported_inventory": 8.74,
+        "status": "REPORTED"
+      },
+      {
+        "year": 2025,
+        "consumption": 21.0,
+        "domestic_output_or_proxy": 20.0,
+        "imports": 3.4,
+        "reported_inventory": 8.4,
+        "status": "REPORTED / 2025 ESTIMATED"
+      }
+    ],
+    "consumption_cagr": -0.03682019733742914,
+    "production_cagr": -0.01905634787242938,
+    "source": {
+      "commodity": "phosphate",
+      "official_source": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-phosphate.pdf",
+      "archive_source": "https://github.com/pranava0x0/usgs-mineral-commodity-summaries/blob/25031d0f60fa0c508068145d6be6228fc4933d51/data/raw/mcs2026-phosphate.pdf",
+      "pdf_sha256": "6aec496668eb9d9e5483a2ce23caa28f94a1201b64b75453965c35879200a4fc",
+      "unit_note": "(Data in thousand metric tons, marketable phosphate rock, unless otherwise specified)",
+      "salient_table_text": "Salient Statistics\u2014United States:                                   2021       2022         2023       2024    2025e\nProduction, marketable                                             21,600    e\n                                                                              19,800    e\n                                                                                         19,600    e\n                                                                                                    19,400    20,000\nSold or used by producers                                          21,900    e\n                                                                              19,800    e\n                                                                                         20,000    e\n                                                                                                    19,100    18,000\nImports for consumption                                             2,460      2,500       2,590      3,390    3,400\nConsumption, apparent1                                             24,400    e\n                                                                              22,300    e\n                                                                                         22,600    e\n                                                                                                    22,500    21,000\nPrice, average value, f.o.b. mine,2 dollars per metric ton             83        e\n                                                                                  99        e\n                                                                                             101         96      100\nStocks, producer, yearend                                          10,700    e\n                                                                              10,600      e\n                                                                                           9,550     e\n                                                                                                      8,740    8,400\nEmployment, mine and beneficiation plant, numbere                   2,000      1,900       2,000      2,000    1,900\nNet import reliance3 as a percentage of apparent consumption           11          12         16         18       16\n\n",
+      "status": "REPORTED archived original USGS PDF; current official byte equivalence not verified"
+    },
+    "certified_reserve": null,
+    "limitations": "Archived original federal PDF; current federal byte equivalence unverified. Reported inventories are not certified deliverable reserves. Four-year CAGR is descriptive, not a long-term forecast."
+  },
+  {
+    "id": "zinc_refined",
+    "unit": "tonnes Zn",
+    "observations": [
+      {
+        "year": 2021,
+        "consumption": 908000.0,
+        "domestic_output_or_proxy": 220000.0,
+        "imports": 701000.0,
+        "exports": 13000.0,
+        "reported_inventory": 114000.0,
+        "status": "REPORTED"
+      },
+      {
+        "year": 2022,
+        "consumption": 974000.0,
+        "domestic_output_or_proxy": 220000.0,
+        "imports": 762000.0,
+        "exports": 8000.0,
+        "reported_inventory": 133000.0,
+        "status": "REPORTED"
+      },
+      {
+        "year": 2023,
+        "consumption": 921000.0,
+        "domestic_output_or_proxy": 220000.0,
+        "imports": 705000.0,
+        "exports": 3000.0,
+        "reported_inventory": 105000.0,
+        "status": "REPORTED"
+      },
+      {
+        "year": 2024,
+        "consumption": 808000.0,
+        "domestic_output_or_proxy": 220000.0,
+        "imports": 590000.0,
+        "exports": 2000.0,
+        "reported_inventory": 110000.0,
+        "status": "REPORTED"
+      },
+      {
+        "year": 2025,
+        "consumption": 820000.0,
+        "domestic_output_or_proxy": 220000.0,
+        "imports": 600000.0,
+        "exports": 2000.0,
+        "reported_inventory": 110000.0,
+        "status": "REPORTED / 2025 ESTIMATED"
+      }
+    ],
+    "consumption_cagr": -0.025163007933448722,
+    "production_cagr": 0.0,
+    "source": {
+      "commodity": "zinc",
+      "official_source": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-zinc.pdf",
+      "archive_source": "https://github.com/pranava0x0/usgs-mineral-commodity-summaries/blob/25031d0f60fa0c508068145d6be6228fc4933d51/data/raw/mcs2026-zinc.pdf",
+      "pdf_sha256": "81f42c706a239392df03b26134cfffbafaaecc81193d7f3b1071f3eb68d40eca",
+      "unit_note": "(Data in thousand metric tons, zinc content, unless otherwise specified)",
+      "salient_table_text": "Salient Statistics\u2014United States:                                     2021       2022      2023     2024       2025e\nProduction:\n  Mine, zinc in concentrates                                           704        766        766     759        670\n  Refined zince, 1                                                     220        220        220     220        220\nImports for consumption:\n  Ores and concentrates                                                 13          5         18      18         20\n  Refined zinc                                                         701        762        705     590        600\nExports:\n  Ores and concentrates                                                644        644        641     660        630\n  Refined zinc                                                          13          8          3       2          2\nShipments from Government stockpile2                                    \u2014           1        NA      NA         NA\nConsumption, apparent, refined zinc3                                   908        974        921     808        820\nPrice, average, cents per pound:\n  North American4                                                     145.8     190.2      151.3    144.2       149\n  London Metal Exchange (LME), cash                                   136.3     158.1      120.1    126.0       130\nStocks, reported producer and consumer, refined zinc, yearend          114       133        105      110        110\nEmployment, number:\n  Mine and mill5                                                      2,480     2,500      2,630    2,510      2,600\n  Smelter, primary                                                      220       220        340      340        340\nNet import reliance6 as a percentage of apparent consumption:\n  Ores and concentrates                                                   E         E          E        E          E\n  Refined zinc                                                           76        77         76       73         73\n\n",
+      "status": "REPORTED archived original USGS PDF; current official byte equivalence not verified"
+    },
+    "certified_reserve": null,
+    "limitations": "Archived original federal PDF; current federal byte equivalence unverified. Reported inventories are not certified deliverable reserves. Four-year CAGR is descriptive, not a long-term forecast."
+  }
+]

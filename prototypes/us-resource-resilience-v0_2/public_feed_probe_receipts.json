@@ -1,0 +1,42 @@
+[
+  {
+    "id": "usgs_quakes",
+    "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
+    "http_status": 200,
+    "status": "FETCHED_JSON_SNAPSHOT",
+    "bytes": 6092,
+    "sha256": "793bda9e2ba1d818cb0fc68bfedd36ab1b605d3bac72d14a949a0dd902d9a1ba",
+    "retrieved_utc": "2026-10-13",
+    "browser_acceptance": "NOT_TESTED"
+  },
+  {
+    "id": "noaa_space_weather",
+    "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index.json",
+    "http_status": 200,
+    "status": "FETCHED_JSON_SNAPSHOT",
+    "bytes": 4334,
+    "sha256": "20a1f2e55a91e4c068d6676b0a00b788291c788ddee98a4e28827c148ce557af",
+    "retrieved_utc": "2026-10-13",
+    "browser_acceptance": "NOT_TESTED"
+  },
+  {
+    "id": "nws_weather",
+    "url": "https://api.weather.gov/points/30.2672,-97.7431",
+    "http_status": 200,
+    "status": "FETCHED_JSON_SNAPSHOT",
+    "bytes": 3919,
+    "sha256": "351a30ec9de675829173d5dd30339e02cc29aeab7c4823a90d470cb5ba8671f1",
+    "retrieved_utc": "2026-10-13",
+    "browser_acceptance": "NOT_TESTED"
+  },
+  {
+    "id": "fema_disasters",
+    "url": "https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries?$top=1",
+    "http_status": 200,
+    "status": "FETCHED_JSON_SNAPSHOT",
+    "bytes": 1156,
+    "sha256": "cbd67f063b593450662dab92f21b99f91c46a2abd59aedaaa946a9fb93867507",
+    "retrieved_utc": "2026-10-13",
+    "browser_acceptance": "NOT_TESTED"
+  }
+]
