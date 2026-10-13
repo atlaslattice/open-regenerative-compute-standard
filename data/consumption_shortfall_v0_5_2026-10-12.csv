@@ -1,0 +1,10 @@
+id,unit,annual_consumption,daily_average,annual_production,domestic_production_only_gap,existing_exports_retained_gap,reserve20_domestic_use_target,reported_stock_candidate,raw_stock_screen_gap,certified_reserve_gap,one_year_build_zero_initial_reserve_no_exports_gap,actual_unmet_demand,deliverable_grade_matched_shortfall
+refined_copper,million tonnes Cu,1.7,0.004657534246575342,0.85,0.85,0.9600000000000001,0.34,0.45,0,,1.19,,
+copper_primary_plus_old_scrap,million tonnes Cu,2.2,0.006027397260273973,0.95,1.2500000000000002,,0.44000000000000006,,,,1.6900000000000002,,
+aluminum,million tonnes,5.7,0.015616438356164384,2.26,3.4400000000000004,4.33,1.1400000000000001,1.808,0,,4.58,,
+potash,million tonnes K2O,5.9,0.016164383561643837,0.5,5.4,5.57,1.1800000000000002,,,,6.58,,
+phosphate_rock,million tonnes marketable rock,21,0.057534246575342465,20,1,,4.2,8.4,0,,5.199999999999999,,
+distillate,million barrels,1426.504,3.908230136986301,1822.486,0,60.18599999999992,285.3008,100.195,185.1058,,0,,
+natural_gas,Bcf,33536.2,91.88,39288.6,0,,6707.24,,,,954.8399999999965,,
+petroleum_total,million barrels,7519.000000000001,20.6,,,,1503.8000000000002,,,,,,
+steel,million tonnes,,,82,,,,,,,,,

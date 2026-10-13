@@ -1,0 +1,110 @@
+{
+  "version": "0.5",
+  "period": 2025,
+  "reserve_basis": "PROPOSED 20% annual domestic consumption; v0.4 import exposure allowance retained separately",
+  "rows": [
+    {
+      "id": "refined_copper",
+      "unit": "million tonnes Cu",
+      "consumption": 1.7,
+      "production": 0.85,
+      "exports": 0.11,
+      "imports": 1.7,
+      "stocks": 0.45,
+      "source": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-copper.pdf",
+      "boundary": "Reported refined use versus primary+secondary refinery production. Domestic direct-use scrap outside boundary. Full balance unresolved."
+    },
+    {
+      "id": "copper_primary_plus_old_scrap",
+      "unit": "million tonnes Cu",
+      "consumption": 2.2,
+      "production": 0.95,
+      "exports": null,
+      "imports": null,
+      "stocks": null,
+      "source": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-copper.pdf",
+      "boundary": "Apparent primary refined+old scrap; production proxy .790 primary +.160 old scrap. Rounded boundary consistent with ~57% import reliance; not additive to refined-copper row."
+    },
+    {
+      "id": "aluminum",
+      "unit": "million tonnes",
+      "consumption": 5.7,
+      "production": 2.26,
+      "exports": 0.89,
+      "imports": 4.4,
+      "stocks": 1.808,
+      "source": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-aluminum.pdf",
+      "boundary": "Apparent use versus primary+old-scrap recovery; excludes new scrap recirculation. Trade products and stocks broader than strict qualified metal boundary."
+    },
+    {
+      "id": "potash",
+      "unit": "million tonnes K2O",
+      "consumption": 5.9,
+      "production": 0.5,
+      "producer_sales": 0.46,
+      "exports": 0.17,
+      "imports": 5.6,
+      "stocks": null,
+      "source": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf",
+      "boundary": "Production versus apparent consumption; producer-sales alternative gap 5.44 Mt. Imports largely supply existing demand."
+    },
+    {
+      "id": "phosphate_rock",
+      "unit": "million tonnes marketable rock",
+      "consumption": 21,
+      "production": 20,
+      "producer_sales": 18,
+      "exports": null,
+      "imports": 3.4,
+      "stocks": 8.4,
+      "source": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf",
+      "boundary": "Gross rock not P2O5; produced versus sold/used boundary yields different gaps. Producer-sales gap 3 Mt; production gap 1 Mt."
+    },
+    {
+      "id": "distillate",
+      "unit": "million barrels",
+      "consumption": 1426.504,
+      "production": 1822.486,
+      "exports": 456.168,
+      "imports": 57.989,
+      "stocks": 100.195,
+      "source": "docs/US_2025_MATCHED_TRADE_AND_RESERVE_GATE_PILOT_V0_2_2026-10-12.md",
+      "boundary": "Prior EIA 2025 pilot transcribed. Product supplied proxy; marketing stocks not certified strategic holdings. Regional/grade delivery UNKNOWN; residual adjustments unresolved."
+    },
+    {
+      "id": "natural_gas",
+      "unit": "Bcf",
+      "consumption": 33536.2,
+      "production": 39288.6,
+      "exports": null,
+      "imports": null,
+      "stocks": null,
+      "source": "https://www.eia.gov/outlooks/steo/marketreview/natgas.php",
+      "boundary": "2025 historical STEO row retrieved Oct12: consumption91.88/d, dry production107.64/d; excludes marketed gas/ngls. Total exports/imports not retrieved; LNG alone not substituted."
+    },
+    {
+      "id": "petroleum_total",
+      "unit": "million barrels",
+      "consumption": 7519.000000000001,
+      "production": null,
+      "exports": null,
+      "imports": null,
+      "stocks": null,
+      "source": "https://www.eia.gov/tools/faqs/faq.php?id=33&t=10",
+      "boundary": "EIA rounded consumption proxy includes biofuels/NGLs; do not compare 13.6m b/d crude production alone to this total."
+    },
+    {
+      "id": "steel",
+      "unit": "million tonnes",
+      "consumption": null,
+      "production": 82,
+      "exports": null,
+      "imports": 19,
+      "stocks": null,
+      "capacity": 105,
+      "source": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf",
+      "boundary": "Raw steel production and finished imports incompatible; finished use not retrieved. Nominal raw capacity105 minus output82=23 Mt headroom, not certified qualified capacity."
+    }
+  ],
+  "import_policy": "Imports permitted for physical grade/location/delivery production and reserve gaps; earlier blanket zero-import export gate superseded. Profit margins alone do not define import need."
+}

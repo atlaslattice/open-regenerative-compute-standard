@@ -210,3 +210,8 @@ Fork. Adapt. Publish. The standard improves when more operators, researchers, an
 ### US raw-material supply-chain screen — v0.4
 
 [25 matched material families: imports, exports, 20% import-exposure reserve allowance, circular/renewable routes and freight economics](docs/US_RAW_MATERIAL_IMPORT_EXPORT_RESERVE_RECOVERY_V0_4_2026-10-12.md). Downloaded revised 2025 federal data and runnable code; broad family coverage, not a complete raw-only customs census. Actual grade-matched offsets and transport remain UNKNOWN.
+
+
+### Consumption, production gaps and reserve-first exports — v0.5
+
+[Physical consumption, domestic production gaps and 20% domestic-use reserve model](docs/US_CONSUMPTION_SHORTFALL_RESERVE_FIRST_V0_5_2026-10-12.md). Latest user policy: imports remain permitted for verified production/grade/delivery gaps; the earlier blanket zero-import gate is superseded. Qualified additional waste recovery reduces import needs; exports follow consumption and stocked reserves. Runnable arithmetic; actual unmet demand and certified reserves UNKNOWN.

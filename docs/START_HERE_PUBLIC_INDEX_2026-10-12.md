@@ -34,3 +34,6 @@ Independent process engineers, hydrologists, energy systems analysts, wastewater
 
 
 [Raw-material trade/reserve/recovery screen v0.4](US_RAW_MATERIAL_IMPORT_EXPORT_RESERVE_RECOVERY_V0_4_2026-10-12.md) expands to 25 material families; proposed 20% import-exposure reserve, circular/renewable routes and reproducible freight sensitivities.
+
+
+[Consumption and production gaps v0.5](US_CONSUMPTION_SHORTFALL_RESERVE_FIRST_V0_5_2026-10-12.md): current gate permits imports for verified physical gaps and exports only after consumption plus stocked reserves; supersedes earlier zero-import requirement.
