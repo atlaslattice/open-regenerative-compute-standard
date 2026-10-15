@@ -66,9 +66,9 @@ Only the feed inventory is knowable from representative seawater chemistry; thes
 | Potassium (element) | 0.40 | 6,140 | Fertilizer-product cost/grades matter |
 | Bromide (Br⁻, not Br₂) | 0.065 | 998 | Chemistry, reagent safety and buyers required |
 | Lithium (element) | 0.00018 | 2.76 | Seawater concentration generally uneconomic |
-| Deuterium (isotope) | ~0.000037 | ~0.57 | Very dilute; expensive isotope separation, no assumed energy generation |
+| Deuterium (isotope) | ~0.034 | ~525 | Very dilute; expensive isotope separation, no assumed energy generation |
 
-The **deuterium line is a first-order exploratory estimate** derived from ~0.0156% atom fraction D/H in seawater, seawater hydrogen mass fraction ~0.108 and 2x mass factor. It requires a precise composition basis and independent validation before use in a business case. Its feed inventory is not equivalent to salable heavy water.
+The **deuterium line is a first-order exploratory estimate** derived from ~0.0156% atom fraction D/H in seawater, seawater hydrogen mass fraction near 0.108 and ~2x isotope mass factor. This yields roughly 0.034 kg elemental D per m³ raw seawater, or ~525 tonnes per year in 15.35 million m³ feed. It requires a precise salinity/isotope assay before use in a business case. Most deuterium remains bound in ordinary water molecules and its feed inventory is emphatically not equivalent to separated, salable heavy water.
 
 ### Gypsum bound (critical)
 
