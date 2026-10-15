@@ -1,0 +1,22 @@
+# ORCS White Paper v1.2 — Corpus Christi Refinery, LNG, Desalination & Mineral Symbiosis
+
+**2026-10-14 | PUBLIC · NON-CANON · PHYSICAL DEPLOYMENT NOT ESTABLISHED**
+
+## Abstract
+The Corpus Christi/Port Aransas region offers an evidence-based **candidate** cluster for refinery modernization, thermal-energy recovery, dry-cooled AI optimization compute, wastewater reuse, seawater desalination and qualified minerals supply. The plants are separate privately controlled operations; co-location or cross-facility pipes, power, data and offtake are not assumed to exist.
+
+## Existing context and boundary
+Three principal Corpus refinery operators: Flint Hills, Valero and CITGO, with east/west processing areas; some regional condensate splitters are not full refineries. Flint Hills has **27 MW peak solar** and approximately **30 MW cogeneration** reported as existing, **not unallocated electricity**. Valero West uses an existing process-gas energy expander as an industrial precedent. New independent ORC and absorption-chilling gains require measured residual heat by temperature *after existing recovery*. A hypothetical 5×(20 MW thermal)×50% recovery×8% conversion gives 4 MW total electric, **not** 100 MW electric.
+The Cheniere Corpus LNG plant is an **export liquefaction** facility, which consumes cryogenic refrigeration. Dongjiakou Qingdao terminal receives and **regasifies imported LNG**, releasing recoverable cold; direct transplant of that free-cold claim to Texas is scientifically invalid. [Dongjiakou full cascade scientific audit](../notion-mirrors/2026-10-12-dongjiakou-lng-cascade-v05.md).
+
+## Harbor Island water/mineral scope
+A proposed, **not operating**, project: **100 million gallons/day finished freshwater**, approximately **191.2 MGD wastewater**, including distinct RO reject and pretreatment streams. Gross theoretical seawater-feed inventories published in [v1.0 ledger](../ORCS_DOMESTIC_MATERIALS_ABUNDANCE_TRADE_LEDGER_v1_0_2026-10-14.md): ~0.93 million tonnes/y magnesium **MgO equivalent**, ~27,900 tonnes/y bromine elemental content, ~196,000 tonnes/y potash **K2O equivalent**, plus salt/gypsum. **No actual site assay or saleable yield, and grade mismatch precludes claiming these as achieved US import offsets.** Deuterium isotope inventory is only a physical upper bound; RO does not extract deuterium; no research-grade output established.
+
+## Circular design
+Environmental aspiration: **zero routine liquid waste discharge** plus independent fish larvae/intake, salinity, benthic, heavy-metal, wetland, energy, air-emissions and residual-solid criteria. ZLD is not zero solid waste; any sludge-for-construction pathway needs leachability, chloride, structural and contamination certification. Qualified domestic industrial inputs at low prices, grade-specific strategic reserves, legally exportable surplus, gross and net cost savings, public water reliability, verified ecosystem outcomes all reported separately.
+Selective bromine/magnesium/potassium separation, membranes and energy-matched thermal crystallization compete; price of exported minerals must not be the only benefit, but neither are avoided liquid outfall costs automatically a transferable cash dividend if infrastructure must remain.
+**Freeze-sidecar illustrative only**: If 25% net freshwater recovered from separate hypothetical **150 MGD RO concentrate**, additional 37.5 MGD of water and concentrated mother liquor approximately 1.33× if dissolved content remains. Freeze latent cooling duty alone approximately **1.3 GWh thermal/day**, ignoring wash and refrigeration parasitics. Dongjiakou's cold cycle literature does not prove commercial high-salinity freeze performance for Harbor Island.
+Cold-chain and compute: evaluate modular 5 MW optimization/inference pilot expandable to 20 MW if real workloads, secured power and permits justify; compute liquid cooling can use isolated closed loops with dry heat rejection. Waste heat may be used for melting/reheating or other eligible sinks, **not** a source of refrigeration without an appropriate chiller and net energy input.
+
+## Deliverables for third parties
+Public assay protocol and flow diagrams; reconciled energy/exergy and water ledger; qualified mineral-product import displacement; chemical and solar heat-power costs; security and industrial zoning checks; costed comparison of offshore outfall baseline vs selective reuse vs verified ZLD. This document is research for independent engineering validation, not an official collaboration or recommended immediate construction.
