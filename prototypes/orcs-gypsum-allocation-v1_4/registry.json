@@ -1,0 +1,60 @@
+{
+  "version": "v1.4",
+  "data_status": "OFFICIAL_SOURCES_IDENTIFIED_NOT_DOWNLOADED",
+  "observations_ingested": 0,
+  "sources": [
+    {
+      "id": "usda_nrcs_ssurgo",
+      "agency": "USDA NRCS",
+      "url": "https://www.nrcs.usda.gov/resources/data-and-reports/soil-survey-geographic-database-ssurgo",
+      "purpose": "soils physical and chemical properties by map unit",
+      "access": "public bulk download or services",
+      "status": "NOT_INGESTED"
+    },
+    {
+      "id": "usda_nass_quickstats",
+      "agency": "USDA NASS",
+      "url": "https://www.nass.usda.gov/Quick_Stats/",
+      "purpose": "crop acreage and harvested yield by year/county",
+      "access": "public bulk; API key for API",
+      "status": "NOT_INGESTED"
+    },
+    {
+      "id": "usgs_gypsum_2026",
+      "agency": "USGS",
+      "url": "https://www.usgs.gov/data/mineral-commodity-summaries-2026-data-release",
+      "purpose": "national gypsum supply use import exports and prices by grade classification",
+      "access": "public CC0 release",
+      "status": "NOT_INGESTED"
+    },
+    {
+      "id": "nrcs_333",
+      "agency": "USDA NRCS",
+      "url": "https://www.nrcs.usda.gov/resources/guides-and-instructions/amending-soil-properties-with-gypsum-products-ac-333-conservation",
+      "purpose": "gypsum soil amendment practice",
+      "status": "REFERENCE_ONLY"
+    },
+    {
+      "id": "nrcs_610",
+      "agency": "USDA NRCS",
+      "url": "https://www.nrcs.usda.gov/resources/guides-and-instructions/saline-and-sodic-soil-management-ac-610-conservation-practice",
+      "purpose": "saline sodic soil management",
+      "status": "REFERENCE_ONLY"
+    }
+  ],
+  "prior_model_ceiling": [
+    {
+      "site": "Harbor Island (proposed)",
+      "gypsum_equivalent_t_per_year": 733000,
+      "quality": "THEORETICAL_COMPOSITION_CEILING",
+      "source": "docs/ORCS_CORPUS_HARBOR_ISLAND_ZLD_DOMESTIC_RESILIENCE_BRIEF_v0_9_2026-10-13.md"
+    },
+    {
+      "site": "Dongjiakou Node-001 model",
+      "gypsum_equivalent_min_t_per_year": 62700,
+      "gypsum_equivalent_max_t_per_year": 76900,
+      "quality": "MODELED_SEAWATER_STOICHIOMETRIC_CEILING",
+      "source": "atlaslattice/manus-artifacts/public_candidate_bundle_0001/nodes/dongjiakou_node_001/build/review/EVIDENCE_APPENDIX.md"
+    }
+  ]
+}
