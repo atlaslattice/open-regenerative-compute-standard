@@ -1,0 +1,238 @@
+{
+  "schema": "orcs.evidence-ledger.v1",
+  "release": "2026-10-16",
+  "status": "RESEARCH ONLY; all numeric producer outputs are dated and location-scoped; no saleable waste or ROI implied",
+  "rules": [
+    "Do not add categories with overlapping physical flows.",
+    "Dated external study performance must not be scaled to Maui.",
+    "Older annual tonnage multiplied by newer sample composition is a derived cross-period screen, never a measured annual recovered food-grade mass.",
+    "All industrial food culture inputs require separate food-grade QA and validated processing.",
+    "Do not double-count feedstocks already used for food, cattle feed, compost or other off-take."
+  ],
+  "records": [
+    {
+      "id": "wcs2025_central_maui_disposal",
+      "value": 295646,
+      "unit": "US_short_tons_in_FY2025",
+      "evidence": "MEASURED/ADMINISTRATIVE",
+      "scope": "Central Maui Landfill FY2025 disposal",
+      "source": "https://health.hawaii.gov/shwb/files/2026/10/Hawaii-Statewide-WCS-Final-Report_092926.pdf",
+      "locator": "Table 1-1, PDF p.11, report page 3"
+    },
+    {
+      "id": "wcs2026_maui_food_fraction",
+      "value": 9.12,
+      "unit": "percent_of_sampled_msw_mass",
+      "evidence": "SAMPLED_2026",
+      "scope": "Central Maui Landfill 2026 field sort, composite stream",
+      "source": "https://health.hawaii.gov/shwb/files/2026/10/Hawaii-Statewide-WCS-Final-Report_092926.pdf",
+      "locator": "Figure 5-18, PDF p.61, report page 53"
+    },
+    {
+      "id": "wcs2026_maui_other_organic_fraction",
+      "value": 17.13,
+      "unit": "percent_of_sampled_msw_mass",
+      "evidence": "SAMPLED_2026",
+      "scope": "Central Maui Landfill 2026 field sort, NOT food category",
+      "source": "https://health.hawaii.gov/shwb/files/2026/10/Hawaii-Statewide-WCS-Final-Report_092926.pdf",
+      "locator": "Figure 5-18, PDF p.61"
+    },
+    {
+      "id": "wcs_crossyear_food_estimate",
+      "value": 26963,
+      "unit": "US_short_tons_annually_CROSSYEAR_ONLY",
+      "evidence": "DERIVED_NOT_MEASURED",
+      "scope": "2026 composition times FY2025 landfill total; uncertain coverage, unusual loads and sampling",
+      "formula": "295646 * 0.0912",
+      "source": "https://health.hawaii.gov/shwb/files/2026/10/Hawaii-Statewide-WCS-Final-Report_092926.pdf",
+      "locator": "Table 1-1 and Figure 5-18"
+    },
+    {
+      "id": "wcs_crossyear_other_organics_estimate",
+      "value": 50644,
+      "unit": "US_short_tons_annually_CROSSYEAR_ONLY",
+      "evidence": "DERIVED_NOT_MEASURED",
+      "scope": "Nonfood organics, separate from food",
+      "formula": "295646 * 0.1713",
+      "source": "https://health.hawaii.gov/shwb/files/2026/10/Hawaii-Statewide-WCS-Final-Report_092926.pdf",
+      "locator": "Table 1-1 and Figure 5-18"
+    },
+    {
+      "id": "west_maui_schools_food_2024_25",
+      "value": 92633.14,
+      "unit": "pounds_cumulative_as_reported",
+      "evidence": "OPERATOR_REPORTED",
+      "scope": "West Maui Green Cycle five schools 2024/25 school year to date; compost already receiving stream",
+      "source": "https://westmauigreencycle.com/school-programs",
+      "locator": "School Food Waste Program"
+    },
+    {
+      "id": "mahi_pono_planted_2026",
+      "value": 14000,
+      "unit": "acres_more_than",
+      "evidence": "OPERATOR_REPORTED",
+      "scope": "As of Aug 1 2026, more than 14k acres planted, mixed crops; not surplus acres",
+      "source": "https://www.mahipono.com/facts-and-figures"
+    },
+    {
+      "id": "maui_food_innovation",
+      "value": 4000,
+      "unit": "square_feet",
+      "evidence": "INSTITUTION_REPORTED",
+      "scope": "Pilina food manufacturing/packaging; fungal reactor capacity UNKNOWN",
+      "source": "https://maui.hawaii.edu/foodinnovation/about"
+    },
+    {
+      "id": "fusarium_glucose_lab_yield",
+      "value": 0.15,
+      "unit": "g_dry_biomass_per_g_substrate_under_test_conditions",
+      "evidence": "EXTERNAL_PRIMARY_2026_LAB",
+      "scope": "F. venenatum A3/5 glucose condition, not Maui output",
+      "source": "https://www.sciencedirect.com/science/article/pii/S2772656826000990"
+    },
+    {
+      "id": "fusarium_fructose_lab_yield",
+      "value": 0.49,
+      "unit": "g_dry_biomass_per_g_substrate_under_test_conditions",
+      "evidence": "EXTERNAL_PRIMARY_2026_LAB",
+      "scope": "F. venenatum A3/5 fructose condition, slower growth, not Maui output",
+      "source": "https://www.sciencedirect.com/science/article/pii/S2772656826000990"
+    },
+    {
+      "id": "fusarium_expired_drink_titer",
+      "value": 18.37,
+      "uncertainty": 0.64,
+      "unit": "g_per_L_biomass",
+      "evidence": "EXTERNAL_PRIMARY_2026_LAB",
+      "scope": "2026 expired functional drink; not Maui",
+      "source": "https://www.sciencedirect.com/science/article/pii/S2772656826000990"
+    },
+    {
+      "id": "fusarium_synthetic_control_titer",
+      "value": 12.49,
+      "uncertainty": 1.21,
+      "unit": "g_per_L_biomass",
+      "evidence": "EXTERNAL_PRIMARY_2026_LAB",
+      "scope": "2026 matched control; not Maui",
+      "source": "https://www.sciencedirect.com/science/article/pii/S2772656826000990"
+    },
+    {
+      "id": "passionfruit_pectin_drypeel_bench",
+      "value": [
+        17,
+        26
+      ],
+      "unit": "g_galacturonic_acid_equiv_per_100g_dry_peel",
+      "evidence": "EXTERNAL_PRIMARY_2017_BENCH",
+      "scope": "Pectin enzyme extraction up to 7L bench; not Maui",
+      "source": "https://doi.org/10.1016/j.lwt.2017.02.024"
+    },
+    {
+      "id": "mahi_pono_lime_weekly_export_20261015",
+      "value": 80000,
+      "unit": "lb_of_whole_limes_per_week_MORE_THAN",
+      "evidence": "OPERATOR_REPORTED",
+      "scope": "Maui-grown whole-lime fresh export route via Kahului-Seattle-Canada; report Oct 15 2026; NOT peel or local juice process",
+      "source": "https://mauinow.com/2026/10/15/maui-grown-limes-take-flight-to-international-markets/",
+      "locator": "headline and first paragraphs",
+      "qualifier": ">80,000 lb/week; not validated perpetual weekly throughput"
+    },
+    {
+      "id": "mahi_pono_lime_export_cumulative_2026",
+      "value": 2000000,
+      "unit": "lb_whole_limes_APPROX_since_Feb2026",
+      "evidence": "OPERATOR_REPORTED",
+      "scope": "Reported Feb-Oct 15 2026 fresh limes outbound cargo, approximately; not annualized",
+      "source": "https://mauinow.com/2026/10/15/maui-grown-limes-take-flight-to-international-markets/",
+      "locator": "second paragraph",
+      "qualifier": "about 2 million pounds"
+    },
+    {
+      "id": "mahi_pono_packing_floor_2025",
+      "value": 117000,
+      "unit": "square_feet",
+      "evidence": "OPERATOR_REPORTED",
+      "scope": "M.P. Packing Co Puunene facility washes, grades and packs whole citrus; not a commercial juicing or peel-processing facility",
+      "source": "https://www.mahipono.com/news-and-updates/mahi-pono-packing-facility-opens",
+      "locator": "Nov 2023 posting corroborated by 2025 press",
+      "qualifier": "building area, not fermentation capacity"
+    },
+    {
+      "id": "maui_gold_2025_fresh_pineapple_weekly",
+      "value": 50,
+      "unit": "US_short_tons_fresh_whole_pineapples_per_week_AVERAGE",
+      "evidence": "OPERATOR_REPORTED",
+      "scope": "Maui Gold 2025 Haliimaile fresh crop average; whole fruit not waste peel or pulp",
+      "source": "https://mauinow.com/2025/10/22/maui-gold-pineapple-wants-to-ramp-up-to-full-production-but-deer-and-drought-stand-in-the-way/",
+      "locator": "operator annual discussion",
+      "qualifier": "reported average 2025 not current contract"
+    },
+    {
+      "id": "cml_2026_completed_sort_samples",
+      "value": 60,
+      "unit": "hand_sorted_msw_samples",
+      "evidence": "MEASURED/ADMINISTRATIVE",
+      "scope": "2026 Central Maui Landfill hand sorts, 36 commercial and 24 residential samples",
+      "source": "https://health.hawaii.gov/shwb/files/2026/10/Hawaii-Statewide-WCS-Final-Report_092926.pdf",
+      "locator": "Table 2-2 report page 14 and Attachment 2 pages 92-94",
+      "qualifier": "2026 study samples, not full annual weighbridge count"
+    },
+    {
+      "id": "cml_2026_commercial_food_share",
+      "value": 10.75,
+      "unit": "percent_sampled_commercial_msw_mass",
+      "evidence": "SAMPLED_2026",
+      "scope": "2026 CML commercial hand-sort sample food mass fraction",
+      "source": "https://health.hawaii.gov/shwb/files/2026/10/Hawaii-Statewide-WCS-Final-Report_092926.pdf",
+      "locator": "Figure 5-16 report page 51 and Attachment 2 page 93",
+      "qualifier": "sector-specific sample not annual municipal food material"
+    },
+    {
+      "id": "cml_2026_residential_food_share",
+      "value": 6.67,
+      "unit": "percent_sampled_residential_msw_mass",
+      "evidence": "SAMPLED_2026",
+      "scope": "2026 CML residential hand-sort sample food mass fraction",
+      "source": "https://health.hawaii.gov/shwb/files/2026/10/Hawaii-Statewide-WCS-Final-Report_092926.pdf",
+      "locator": "Figure 5-17 report page 52 and Attachment 2 page 94",
+      "qualifier": "sector-specific sample not annual municipal food material"
+    },
+    {
+      "id": "mfic_mixing_kettle_small",
+      "value": 35,
+      "unit": "US_gallons_nominal_kettle_capacity",
+      "evidence": "INSTITUTION_REPORTED",
+      "scope": "Maui Food Innovation Center UHMC food processing equipment (2023); NOT fermentation reactor",
+      "source": "https://www.hawaii.edu/news/2023/11/07/food-innovation-center-maui/",
+      "locator": "equipment description"
+    },
+    {
+      "id": "mfic_mixing_kettle_large",
+      "value": 65,
+      "unit": "US_gallons_nominal_kettle_capacity",
+      "evidence": "INSTITUTION_REPORTED",
+      "scope": "Maui Food Innovation Center UHMC food processing equipment (2023); NOT fermentation reactor",
+      "source": "https://www.hawaii.edu/news/2023/11/07/food-innovation-center-maui/",
+      "locator": "equipment description"
+    }
+  ],
+  "unknowns": [
+    "2026 Maui producer-specific annual clean food-grade peel, pulp and hydrolyzate tonnes",
+    "Maui certified fermentable sugar kg and cost from recovery plants",
+    "Maui local nitrogen and P feedstock qualification for human-food fungus",
+    "Maui F. venenatum strain, licensed plant, current FDA scope, COA",
+    "Validated Maui dry protein kilograms annually and full delivered cost",
+    "Maui food-grade citrus/lilikoi terpenes kg annually, GC-MS and residual crop fractions",
+    "Maui Unity Gel local ingredient provenance percent, sensory liking and shelf life",
+    "Hourly plant energy and process heat/cooling measured in pilot",
+    "M.P. Packing Co graded/export lime rejects kg/month and whether whole fruit is ever peeled/juiced on island",
+    "Maui Gold 2026 actually weighed processing-trim streams and on-island destination by month",
+    "Maui ʻulu realized intake and edible trimming mass, distinct from 2025 3k-to-30k lb/week goals",
+    "Actual COA food-grade terpene GC-MS, pectin and sugar recovery from Maui lots",
+    "Written MFIC permitted bioreactor capability and facility rental rates",
+    "Measured farm/packer food, compost and feed lot-level allocations without double counting"
+  ],
+  "version": "v0.6",
+  "parent": "research/maui_mycoprotein_evidence_ledger_v05.json",
+  "method_note": "Only raw operator/admin/sampled numbers appended; NO published weekly fresh-fruit volume is converted to hypothetical discarded peel. Cross-year 26,963 ton figure remains explicitly DERIVED_NOT_MEASURED."
+}
