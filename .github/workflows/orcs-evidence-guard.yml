@@ -1,0 +1,35 @@
+name: ORCS Evidence Guard
+
+on:
+  push:
+    paths:
+      - 'tools/orcs_evidence_guard_v01.py'
+      - 'tests/test_orcs_evidence_guard_v01.py'
+      - 'research/maui_mycoprotein_evidence_ledger_v05.json'
+      - 'research/maui_mycoprotein_evidence_ledger_v06.json'
+      - '.github/workflows/orcs-evidence-guard.yml'
+  pull_request:
+    paths:
+      - 'tools/orcs_evidence_guard_v01.py'
+      - 'tests/test_orcs_evidence_guard_v01.py'
+      - 'research/maui_mycoprotein_evidence_ledger_v05.json'
+      - 'research/maui_mycoprotein_evidence_ledger_v06.json'
+      - '.github/workflows/orcs-evidence-guard.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  evidence-integrity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Unit tests with negative fixtures
+        run: python -m unittest discover -s tests -p 'test_orcs_evidence_guard_v01.py' -v
+      - name: Validate Maui evidence ledger v0.5
+        run: python tools/orcs_evidence_guard_v01.py research/maui_mycoprotein_evidence_ledger_v05.json --json
+      - name: Validate Maui evidence ledger v0.6
+        run: python tools/orcs_evidence_guard_v01.py research/maui_mycoprotein_evidence_ledger_v06.json --json
