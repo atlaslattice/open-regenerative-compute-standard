@@ -1,0 +1,141 @@
+{
+  "schema": "orcs.evidence-ledger.v1",
+  "release": "2026-10-16",
+  "status": "RESEARCH ONLY / zero realized credit",
+  "rules": [
+    "Do not add categories with overlapping physical flows.",
+    "Dated external study performance must not be scaled to Maui.",
+    "Older annual tonnage multiplied by newer sample composition is a derived cross-period screen, never a measured annual recovered food-grade mass.",
+    "All industrial food culture inputs require separate food-grade QA and validated processing.",
+    "Do not double-count feedstocks already used for food, cattle feed, compost or other off-take."
+  ],
+  "records": [
+    {
+      "id": "wcs2025_central_maui_disposal",
+      "value": 295646,
+      "unit": "US_short_tons_in_FY2025",
+      "evidence": "MEASURED/ADMINISTRATIVE",
+      "scope": "Central Maui Landfill FY2025 disposal",
+      "source": "https://health.hawaii.gov/shwb/files/2026/10/Hawaii-Statewide-WCS-Final-Report_092926.pdf",
+      "locator": "Table 1-1, PDF p.11, report page 3"
+    },
+    {
+      "id": "wcs2026_maui_food_fraction",
+      "value": 9.12,
+      "unit": "percent_of_sampled_msw_mass",
+      "evidence": "SAMPLED_2026",
+      "scope": "Central Maui Landfill 2026 field sort, composite stream",
+      "source": "https://health.hawaii.gov/shwb/files/2026/10/Hawaii-Statewide-WCS-Final-Report_092926.pdf",
+      "locator": "Figure 5-18, PDF p.61, report page 53"
+    },
+    {
+      "id": "wcs2026_maui_other_organic_fraction",
+      "value": 17.13,
+      "unit": "percent_of_sampled_msw_mass",
+      "evidence": "SAMPLED_2026",
+      "scope": "Central Maui Landfill 2026 field sort, NOT food category",
+      "source": "https://health.hawaii.gov/shwb/files/2026/10/Hawaii-Statewide-WCS-Final-Report_092926.pdf",
+      "locator": "Figure 5-18, PDF p.61"
+    },
+    {
+      "id": "wcs_crossyear_food_estimate",
+      "value": 26963,
+      "unit": "US_short_tons_annually_CROSSYEAR_ONLY",
+      "evidence": "DERIVED_NOT_MEASURED",
+      "scope": "2026 composition times FY2025 landfill total; uncertain coverage, unusual loads and sampling",
+      "formula": "295646 * 0.0912",
+      "source": "https://health.hawaii.gov/shwb/files/2026/10/Hawaii-Statewide-WCS-Final-Report_092926.pdf",
+      "locator": "Table 1-1 and Figure 5-18"
+    },
+    {
+      "id": "wcs_crossyear_other_organics_estimate",
+      "value": 50644,
+      "unit": "US_short_tons_annually_CROSSYEAR_ONLY",
+      "evidence": "DERIVED_NOT_MEASURED",
+      "scope": "Nonfood organics, separate from food",
+      "formula": "295646 * 0.1713",
+      "source": "https://health.hawaii.gov/shwb/files/2026/10/Hawaii-Statewide-WCS-Final-Report_092926.pdf",
+      "locator": "Table 1-1 and Figure 5-18"
+    },
+    {
+      "id": "west_maui_schools_food_2024_25",
+      "value": 92633.14,
+      "unit": "pounds_cumulative_as_reported",
+      "evidence": "OPERATOR_REPORTED",
+      "scope": "West Maui Green Cycle five schools 2024/25 school year to date; compost already receiving stream",
+      "source": "https://westmauigreencycle.com/school-programs",
+      "locator": "School Food Waste Program"
+    },
+    {
+      "id": "mahi_pono_planted_2026",
+      "value": 14000,
+      "unit": "acres_more_than",
+      "evidence": "OPERATOR_REPORTED",
+      "scope": "As of Aug 1 2026, more than 14k acres planted, mixed crops; not surplus acres",
+      "source": "https://www.mahipono.com/facts-and-figures"
+    },
+    {
+      "id": "maui_food_innovation",
+      "value": 4000,
+      "unit": "square_feet",
+      "evidence": "INSTITUTION_REPORTED",
+      "scope": "Pilina food manufacturing/packaging; fungal reactor capacity UNKNOWN",
+      "source": "https://maui.hawaii.edu/foodinnovation/about"
+    },
+    {
+      "id": "fusarium_glucose_lab_yield",
+      "value": 0.15,
+      "unit": "g_dry_biomass_per_g_substrate_under_test_conditions",
+      "evidence": "EXTERNAL_PRIMARY_2026_LAB",
+      "scope": "F. venenatum A3/5 glucose condition, not Maui output",
+      "source": "https://www.sciencedirect.com/science/article/pii/S2772656826000990"
+    },
+    {
+      "id": "fusarium_fructose_lab_yield",
+      "value": 0.49,
+      "unit": "g_dry_biomass_per_g_substrate_under_test_conditions",
+      "evidence": "EXTERNAL_PRIMARY_2026_LAB",
+      "scope": "F. venenatum A3/5 fructose condition, slower growth, not Maui output",
+      "source": "https://www.sciencedirect.com/science/article/pii/S2772656826000990"
+    },
+    {
+      "id": "fusarium_expired_drink_titer",
+      "value": 18.37,
+      "uncertainty": 0.64,
+      "unit": "g_per_L_biomass",
+      "evidence": "EXTERNAL_PRIMARY_2026_LAB",
+      "scope": "2026 expired functional drink; not Maui",
+      "source": "https://www.sciencedirect.com/science/article/pii/S2772656826000990"
+    },
+    {
+      "id": "fusarium_synthetic_control_titer",
+      "value": 12.49,
+      "uncertainty": 1.21,
+      "unit": "g_per_L_biomass",
+      "evidence": "EXTERNAL_PRIMARY_2026_LAB",
+      "scope": "2026 matched control; not Maui",
+      "source": "https://www.sciencedirect.com/science/article/pii/S2772656826000990"
+    },
+    {
+      "id": "passionfruit_pectin_drypeel_bench",
+      "value": [
+        17,
+        26
+      ],
+      "unit": "g_galacturonic_acid_equiv_per_100g_dry_peel",
+      "evidence": "EXTERNAL_PRIMARY_2017_BENCH",
+      "scope": "Pectin enzyme extraction up to 7L bench; not Maui",
+      "source": "https://doi.org/10.1016/j.lwt.2017.02.024"
+    }
+  ],
+  "unknowns": [
+    "2026 Maui producer-specific annual clean food-grade peel, pulp and hydrolyzate tonnes",
+    "Maui certified fermentable sugar kg and cost from recovery plants",
+    "Maui local nitrogen and P feedstock qualification for human-food fungus",
+    "Maui F. venenatum strain, licensed plant, current FDA scope, COA",
+    "Validated Maui dry protein kilograms annually and full delivered cost",
+    "Maui food-grade citrus/lilikoi terpenes kg annually, GC-MS and residual crop fractions",
+    "Maui Unity Gel local ingredient provenance percent, sensory liking and shelf life",
+    "Hourly plant energy and process heat/cooling measured in pilot"
+  ]
+}
