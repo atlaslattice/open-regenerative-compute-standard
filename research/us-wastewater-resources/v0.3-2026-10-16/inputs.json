@@ -1,0 +1,779 @@
+{
+  "previous_nutrient_research": {
+    "schema_version": "1.0",
+    "research_version": "0.2",
+    "created_at": "2026-10-17",
+    "status": "RESEARCH_SCREENING_SCENARIOS_NOT_ENGINEERING_FORECAST",
+    "scope": "U.S. municipal wastewater non-water resources; source geographic/vintage boundaries differ. Does not cover all industrial, mine, agricultural, landfill-leachate, brackish or desal streams. No water reuse value included.",
+    "sources": {
+      "flow": {
+        "url": "https://www.epa.gov/nutrientpollution/sources-and-solutions-wastewater",
+        "basis": "EPA approximate 34 billion US gallons/day; not a new 2026 meter total."
+      },
+      "nitrogen": {
+        "url": "https://www.epa.gov/sites/default/files/2019-02/documents/nutrient-control-design-manual-state-tech.pdf",
+        "basis": "2009 EPA design review: total N 20\u201370 mg/L; ammonia-N about 60\u201370%. Scenario uses 40 mg/L and 65%, not measured national averages."
+      },
+      "potassium": {
+        "url": "https://www.nationalacademies.org/read/5175/chapter/4",
+        "basis": "1996 NRC secondary-effluent reference, based on older data: K typically 15 mg/L, range 10\u201330. Low-confidence screening assumption, not current national assay."
+      },
+      "phosphorus": {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41218528/",
+        "doi": "10.1016/j.scitotenv.2025.180851",
+        "basis": "2025 modeled CONUS budget: 200 largest plants handle 0.30 Mt P/year, nearly half of sewage P. Approximately 0.60 Mt total is inferred here. Listed disposal buckets total 131,000 t P/year in this largest-plant analysis; retain separately from already land-applied P."
+      },
+      "imports": {
+        "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf",
+        "basis": "USGS MCS2026 estimates for 2025: ammonia imports 1.9 Mt as N; potash imports 5.6 Mt as K2O; phosphate rock imports 3.4 Mt gross rock. Rock grade 30% P2O5 is an explicit conversion assumption, not measured import grade."
+      },
+      "biocrude": {
+        "url": "https://www.pnnl.gov/publications/municipal-wastewater-sludge-renewable-cost-effective-feedstock-transportation-biofuels",
+        "doi": "10.1016/j.jenvman.2020.110852",
+        "basis": "2020 techno-economic study: nearly 1 billion US gallons/year biocrude potential from sludge. Use 1 billion as rounded scenario reference, not operating output or finished diesel."
+      },
+      "methane": {
+        "url": "https://afdc.energy.gov/files/u/publication/biogas_potential_in_us.pdf",
+        "basis": "NREL August 2013 modeled wastewater methane potential 2,339,339 metric tonnes/year; dated gross potential, includes no current incremental baseline subtraction."
+      },
+      "crude_imports": {
+        "url": "https://www.eia.gov/TodayinEnergy/detail.php?id=67407",
+        "basis": "2025 U.S. crude imports approximately 6.2 million barrels/day. Biocrude ratios are volume context only, not energy/quality-equivalent replacement."
+      },
+      "gas_imports": {
+        "url": "https://www.eia.gov/dnav/ng/ng_move_impc_s1_a.htm",
+        "basis": "2025 gross natural gas imports 3,163.625 billion cubic feet. U.S. is a net gas exporter."
+      },
+      "sludge_reporting": {
+        "url": "https://www.epa.gov/biosolids/basic-information-about-sewage-sludge-and-biosolids",
+        "basis": "2024 submissions cover about 4 million dry metric tonnes generated and about 982,000 landfilled; reporting coverage and treated-solids boundary differ from untreated sludge feedstock studies. Not used to scale PNNL yields."
+      },
+      "deuterium": {
+        "url": "https://www.energy.gov/sites/default/files/2026-04/DOE-HDBK-1015-93_VOL2.pdf",
+        "basis": "Natural abundance varies; scenario assumes 150 atomic ppm. Inventory only, no isotope separation recovery, buyer, price or future fusion credit."
+      },
+      "fertilizer_prices": {
+        "url": "https://www.dtnpf.com/agriculture/web/ag/crops/article/2026/10/14/uan32-leads-fertilizer-prices-higher",
+        "published_at": "2026-10-14",
+        "observation_period": "2026-10-05/2026-10-09",
+        "source_type": "DTN original retailer survey",
+        "quote_basis": "U.S. average retail USD per short ton of product",
+        "prices": {
+          "anhydrous_ammonia": 977,
+          "DAP": 934,
+          "potash": 502
+        },
+        "limits": "Dated retail benchmark, not live exchange quote, wholesale/import unit value or recovered-product offtake contract."
+      },
+      "biopower_example": {
+        "url": "https://www.dcwater.com/about-dc-water/what-we-do/wastewater-treatment/blue-plains",
+        "basis": "Current operator page reports digestion-associated electricity supports about a quarter of plant power use; not a national performance assumption."
+      }
+    },
+    "baseline": {
+      "annual_wastewater_m3": 46976960239.44,
+      "total_N_assumption_mg_L": 40,
+      "ammonium_share_assumption": 0.65,
+      "total_N_inventory_t_year": 1879078.4095776002,
+      "ammonium_N_inventory_t_year": 1221400.9662254401,
+      "potassium_assumption_mg_L": 15,
+      "K_inventory_t_year": 704654.4035916001,
+      "K2O_equivalent_inventory_t_year": 848826.475050743,
+      "approx_total_sewage_P_t_year": 600000.0,
+      "largest_plants_disposal_P_subset_t_year": 131000,
+      "import_ammonia_t_N_year": 1900000.0,
+      "import_potash_t_K2O_year": 5600000.0,
+      "import_phosphate_rock_t_year": 3400000.0,
+      "assumed_import_rock_P2O5_fraction": 0.3,
+      "import_rock_P_equivalent_t_year": 445155.3537261322,
+      "conversion_P_to_P2O5": 2.29133490468481
+    },
+    "scenarios": [
+      {
+        "net_qualified_recovery_fraction_or_energy_deployment_share": 0.25,
+        "gross_nutrient_screen": {
+          "P_t_year": 150000.0,
+          "ammonium_N_t_year": 305350.24155636004,
+          "K2O_equivalent_t_year": 212206.61876268574,
+          "ammonia_gross_import_mass_equivalent_percent": 16.07106534507158,
+          "potash_gross_import_mass_equivalent_percent": 3.789403906476531,
+          "phosphate_rock_import_P_equivalent_percent_at_assumed_grade": 33.6961015394825,
+          "additionality": "NOT_ESTABLISHED; existing nutrient reuse not fully subtracted."
+        },
+        "largest_plants_disposal_P_subset": {
+          "P_t_year": 32750.0,
+          "P2O5_equivalent_t_year": 75041.21812842753,
+          "rock_import_P_equivalent_percent": 7.356982169453679,
+          "annual_output_equivalent_days_of_rock_import_P": 26.85298491850593,
+          "scope": "Subset of gross sewage P above; do not add. Recovery is conditional, not a measured future output.",
+          "P_only_replacement_value_usd_year": 129389545.75156789,
+          "value_limit": "Subset of gross P value, not additive. Excludes N/Mg coproduct credits, all costs and product availability differences."
+        },
+        "all_recovered_P_as_pure_struvite_illustration": {
+          "struvite_t_year": 1188473.650698291,
+          "N_contained_t_year": 67831.76677085593,
+          "Mg_required_t_year": 117704.46224775666,
+          "standalone_ammonium_N_after_struvite_t_year": 237518.4747855041,
+          "limits": "Alternative product route. N is included in overall nitrogen quantity; Mg is a reagent/feed requirement, not extra output. Added reagent mass is not recovered native waste mass. No struvite is additionally counted over recovered P.",
+          "P_N_replacement_value_usd_per_t_struvite": 573.6026596549317,
+          "value_limit": "P+N reference equivalent only, not observed struvite sales price; no premium or Mg credit assigned. Already included in P/N valuation."
+        },
+        "alternative_sludge_energy_routes": {
+          "HTL_biocrude_US_gallons_year": 250000000.0,
+          "HTL_biocrude_barrels_year": 5952380.952380952,
+          "crude_import_volume_comparison_percent": 0.2630305325842224,
+          "AD_methane_t_year": 584834.75,
+          "AD_methane_approx_billion_cubic_feet_year": 31.260857690581258,
+          "gross_natural_gas_import_volume_comparison_percent": 0.9881341085173261,
+          "limits": "HTL and AD are competing sludge routes here; do not sum their full potentials. Deployment share is applied to rounded literature potentials, not a process extraction yield. Existing energy recovery must be subtracted for incremental claims; upgrading energy/hydrogen/cleanup and product quality are not netted out."
+        },
+        "nutrient_valuation": {
+          "P_replacement_value_usd_year": 592623873.6713033,
+          "ammonium_N_replacement_value_usd_year": 401035892.05446965,
+          "K_replacement_value_usd_year": 195711189.28299034,
+          "total_P_N_K_replacement_value_usd_year": 1189370955.0087633,
+          "scope": "Gross retail nutrient replacement value. Includes existing recovery; not incremental profit, import savings, plant-gate sales or a guaranteed buyer price."
+        }
+      },
+      {
+        "net_qualified_recovery_fraction_or_energy_deployment_share": 0.5,
+        "gross_nutrient_screen": {
+          "P_t_year": 300000.0,
+          "ammonium_N_t_year": 610700.4831127201,
+          "K2O_equivalent_t_year": 424413.2375253715,
+          "ammonia_gross_import_mass_equivalent_percent": 32.14213069014316,
+          "potash_gross_import_mass_equivalent_percent": 7.578807812953062,
+          "phosphate_rock_import_P_equivalent_percent_at_assumed_grade": 67.392203078965,
+          "additionality": "NOT_ESTABLISHED; existing nutrient reuse not fully subtracted."
+        },
+        "largest_plants_disposal_P_subset": {
+          "P_t_year": 65500.0,
+          "P2O5_equivalent_t_year": 150082.43625685506,
+          "rock_import_P_equivalent_percent": 14.713964338907358,
+          "annual_output_equivalent_days_of_rock_import_P": 53.70596983701186,
+          "scope": "Subset of gross sewage P above; do not add. Recovery is conditional, not a measured future output.",
+          "P_only_replacement_value_usd_year": 258779091.50313577,
+          "value_limit": "Subset of gross P value, not additive. Excludes N/Mg coproduct credits, all costs and product availability differences."
+        },
+        "all_recovered_P_as_pure_struvite_illustration": {
+          "struvite_t_year": 2376947.301396582,
+          "N_contained_t_year": 135663.53354171186,
+          "Mg_required_t_year": 235408.92449551332,
+          "standalone_ammonium_N_after_struvite_t_year": 475036.9495710082,
+          "limits": "Alternative product route. N is included in overall nitrogen quantity; Mg is a reagent/feed requirement, not extra output. Added reagent mass is not recovered native waste mass. No struvite is additionally counted over recovered P.",
+          "P_N_replacement_value_usd_per_t_struvite": 573.6026596549317,
+          "value_limit": "P+N reference equivalent only, not observed struvite sales price; no premium or Mg credit assigned. Already included in P/N valuation."
+        },
+        "alternative_sludge_energy_routes": {
+          "HTL_biocrude_US_gallons_year": 500000000.0,
+          "HTL_biocrude_barrels_year": 11904761.904761905,
+          "crude_import_volume_comparison_percent": 0.5260610651684448,
+          "AD_methane_t_year": 1169669.5,
+          "AD_methane_approx_billion_cubic_feet_year": 62.521715381162515,
+          "gross_natural_gas_import_volume_comparison_percent": 1.9762682170346522,
+          "limits": "HTL and AD are competing sludge routes here; do not sum their full potentials. Deployment share is applied to rounded literature potentials, not a process extraction yield. Existing energy recovery must be subtracted for incremental claims; upgrading energy/hydrogen/cleanup and product quality are not netted out."
+        },
+        "nutrient_valuation": {
+          "P_replacement_value_usd_year": 1185247747.3426065,
+          "ammonium_N_replacement_value_usd_year": 802071784.1089393,
+          "K_replacement_value_usd_year": 391422378.5659807,
+          "total_P_N_K_replacement_value_usd_year": 2378741910.0175266,
+          "scope": "Gross retail nutrient replacement value. Includes existing recovery; not incremental profit, import savings, plant-gate sales or a guaranteed buyer price."
+        }
+      },
+      {
+        "net_qualified_recovery_fraction_or_energy_deployment_share": 0.75,
+        "gross_nutrient_screen": {
+          "P_t_year": 450000.0,
+          "ammonium_N_t_year": 916050.7246690801,
+          "K2O_equivalent_t_year": 636619.8562880573,
+          "ammonia_gross_import_mass_equivalent_percent": 48.21319603521474,
+          "potash_gross_import_mass_equivalent_percent": 11.368211719429594,
+          "phosphate_rock_import_P_equivalent_percent_at_assumed_grade": 101.0883046184475,
+          "additionality": "NOT_ESTABLISHED; existing nutrient reuse not fully subtracted."
+        },
+        "largest_plants_disposal_P_subset": {
+          "P_t_year": 98250.0,
+          "P2O5_equivalent_t_year": 225123.6543852826,
+          "rock_import_P_equivalent_percent": 22.070946508361036,
+          "annual_output_equivalent_days_of_rock_import_P": 80.55895475551779,
+          "scope": "Subset of gross sewage P above; do not add. Recovery is conditional, not a measured future output.",
+          "P_only_replacement_value_usd_year": 388168637.25470364,
+          "value_limit": "Subset of gross P value, not additive. Excludes N/Mg coproduct credits, all costs and product availability differences."
+        },
+        "all_recovered_P_as_pure_struvite_illustration": {
+          "struvite_t_year": 3565420.952094873,
+          "N_contained_t_year": 203495.30031256776,
+          "Mg_required_t_year": 353113.38674327,
+          "standalone_ammonium_N_after_struvite_t_year": 712555.4243565124,
+          "limits": "Alternative product route. N is included in overall nitrogen quantity; Mg is a reagent/feed requirement, not extra output. Added reagent mass is not recovered native waste mass. No struvite is additionally counted over recovered P.",
+          "P_N_replacement_value_usd_per_t_struvite": 573.6026596549317,
+          "value_limit": "P+N reference equivalent only, not observed struvite sales price; no premium or Mg credit assigned. Already included in P/N valuation."
+        },
+        "alternative_sludge_energy_routes": {
+          "HTL_biocrude_US_gallons_year": 750000000.0,
+          "HTL_biocrude_barrels_year": 17857142.85714286,
+          "crude_import_volume_comparison_percent": 0.7890915977526671,
+          "AD_methane_t_year": 1754504.25,
+          "AD_methane_approx_billion_cubic_feet_year": 93.78257307174377,
+          "gross_natural_gas_import_volume_comparison_percent": 2.9644023255519785,
+          "limits": "HTL and AD are competing sludge routes here; do not sum their full potentials. Deployment share is applied to rounded literature potentials, not a process extraction yield. Existing energy recovery must be subtracted for incremental claims; upgrading energy/hydrogen/cleanup and product quality are not netted out."
+        },
+        "nutrient_valuation": {
+          "P_replacement_value_usd_year": 1777871621.0139098,
+          "ammonium_N_replacement_value_usd_year": 1203107676.163409,
+          "K_replacement_value_usd_year": 587133567.8489711,
+          "total_P_N_K_replacement_value_usd_year": 3568112865.02629,
+          "scope": "Gross retail nutrient replacement value. Includes existing recovery; not incremental profit, import savings, plant-gate sales or a guaranteed buyer price."
+        }
+      }
+    ],
+    "sensitivity": {
+      "ammonium_N_inventory_t_year_at_TN_20_to_70_mgL_and_share_60_to_70_percent": [
+        563723.52287328,
+        2301871.05173256
+      ],
+      "K2O_inventory_t_year_at_K_10_to_30_mgL": [
+        565884.3167004953,
+        1697652.950101486
+      ],
+      "rock_import_P_t_year_at_grade_28_to_32_percent": [
+        415478.33014439006,
+        474832.3773078743
+      ]
+    },
+    "deuterium_inventory_only": {
+      "assumed_atomic_ppm": 150,
+      "native_D_t_year": 1575520.615295473,
+      "pure_D2O_mass_equivalent_t_year": 7833638.697838038,
+      "recovery_t_year": null,
+      "revenue_usd_year": null,
+      "limits": "Not separated D2O molecules or enriched product. No recovery or future energy production established; municipal water is not assumed enriched."
+    },
+    "unquantified_resources": [
+      "Sulfur/sulfate and sulfur from biogas cleanup: stream assays and route balances required.",
+      "Iron/aluminum coagulant reuse, calcium/magnesium, copper/zinc and other metals: site-specific inventories, separation and purity needed.",
+      "Sludge ash phosphorus is inside sewage phosphorus, not extra supply.",
+      "Biochar/ash, bioplastics/PHA and other carbon products compete with energy routes; no additive national yield assigned.",
+      "Industrial/mining/agricultural/landfill streams require separate nonoverlapping inventories."
+    ],
+    "accounting_limits": [
+      "Net recovery percentages include collection, extraction and qualification losses and are assumptions, not literature-proven national recoveries. 75% is an ambitious sensitivity.",
+      "Influent, centrate, effluent, sludge and ash are connected accounts; do not add their nutrient inventories.",
+      "Gross resource scenarios include existing reuse; the disposal-P subset isolates a narrower target but still requires site validation.",
+      "Mass equivalence is not verified import displacement. Product grade, crop availability, buyers, freight, permits and existing supply contracts determine actual displacement.",
+      "Ammonia import denominator excludes other imported nitrogen fertilizers; phosphate-rock denominator excludes finished phosphate imports. These are not all-fertilizer import shares.",
+      "Annual supply is not a stored strategic reserve. Source study dates range 1996\u20132025, with 2025 import comparison; do not label as observed 2026 fleet output.",
+      "The P/N/K dollar subtotal is a current-retail replacement-value screen, not total-resource revenue or profit. No PFAS/microplastic destruction or soil-use clearance is inferred."
+    ],
+    "nutrient_price_method": {
+      "short_ton_in_metric_tonnes": 0.90718474,
+      "grades": {
+        "anhydrous_ammonia_N_fraction": 0.82,
+        "DAP_N_fraction": 0.18,
+        "DAP_P2O5_fraction": 0.46,
+        "potash_K2O_fraction": 0.6
+      },
+      "USD_per_metric_tonne_elemental_N": 1313.3635985038134,
+      "USD_per_metric_tonne_P2O5": 1724.2463405928083,
+      "USD_per_metric_tonne_elemental_P": 3950.825824475355,
+      "USD_per_metric_tonne_K2O_equivalent": 922.2671301400711,
+      "equations": [
+        "N value = anhydrous product price / 0.90718474 / 0.82.",
+        "P2O5 residual value = (DAP product price / 0.90718474 - 0.18 * N value) / 0.46.",
+        "P value = P2O5 value * 2.29133490468481.",
+        "K2O value = potash product price / 0.90718474 / 0.60."
+      ],
+      "limits": [
+        "The DAP nitrogen component is subtracted before assigning a phosphorus value; no double nutrient credit.",
+        "No assumption of equal crop response, dissolution rate, purity or placement across products; site/crop comparisons remain necessary.",
+        "Magnesium, sulfur, calcium and trace nutrients have no new national quantified qualified output here, so no fabricated dollar value.",
+        "Do not add struvite product value to separately valued P/N. Added Mg/reagents are inputs and their market value is not recovered-waste income.",
+        "Nutrient recovery costs, finishing, freight, testing, residuals and capital have not been deducted.",
+        "Avoided treatment/disposal costs are not included and require a disjoint baseline comparison."
+      ]
+    },
+    "biopower_explanation": {
+      "route": [
+        "Anaerobic microorganisms break down sludge organics to biogas.",
+        "Clean biogas and use methane in engines/turbines/CHP for electricity and useful heat.",
+        "Digestate/return liquors retain nutrients for separately modeled recovery and contaminant management."
+      ],
+      "limits": [
+        "Digester gas supply, cleanup, parasitic loads, maintenance and air emissions affect usable net power.",
+        "Island-capable controls and electrical design are required for outage resilience.",
+        "Biocrude/HTL and digestion require explicit sludge allocation; do not credit full output from both routes."
+      ]
+    }
+  },
+  "parameters": {
+    "historic_wastewater_methane_potential_t_year": 2339339,
+    "methane_HHV_GJ_t": 55.5,
+    "CHP_electric_fraction_HHV": 0.35,
+    "CHP_heat_fraction_HHV": 0.4,
+    "CHP_electric_parasitic_fraction": 0.15,
+    "CHP_heat_fraction_available_for_external_offset": 0.5,
+    "CHP_capacity_factor": 0.9,
+    "electricity_avoided_proxy_USD_MWh": 97.7,
+    "electricity_wholesale_proxy_USD_MWh": 52,
+    "industrial_gas_USD_Mcf": 4.58,
+    "gas_MMBtu_Mcf": 1.037,
+    "displaced_boiler_efficiency": 0.85,
+    "Henry_Hub_USD_MMBtu": 2.95,
+    "RNG_gas_reserved_for_process_heat": 0.15,
+    "RNG_upgrade_methane_recovery": 0.95,
+    "Gulf_ULSD_USD_gal": 4.886,
+    "rounded_biocrude_potential_gal_year": 1000000000.0,
+    "HTL_finished_fuel_volume_yield": 0.7,
+    "HTL_diesel_fraction_finished": 0.75,
+    "electricity_gross_imports_MWh_2025": 30086248,
+    "gas_gross_imports_bcf_2025": 3163.625,
+    "distillate_gross_imports_bbl_2025": 57989000,
+    "crude_gross_imports_bpd_2025": 6200000.0,
+    "finance_rate": 0.08,
+    "finance_years": 20,
+    "CHP_capital_budget_USD_kW": {
+      "existing_gas_retrofit_budget": 3000,
+      "broader_retrofit_budget": 8000,
+      "major_new_train_budget": 20000
+    },
+    "CHP_variable_OM_USD_gross_kWh": 0.02,
+    "nutrient_realization_fraction": 0.75,
+    "nutrient_allin_USD_per_kg_qualified_nutrient": {
+      "lower_cost_stress": {
+        "P": 2,
+        "standalone_N": 1,
+        "K2O": 0.5
+      },
+      "middle_cost_stress": {
+        "P": 4,
+        "standalone_N": 2,
+        "K2O": 1.5
+      },
+      "higher_cost_stress": {
+        "P": 8,
+        "standalone_N": 4,
+        "K2O": 3
+      }
+    },
+    "wastewater_heat_delta_C": 5,
+    "wastewater_heat_accessible_fraction": 0.1,
+    "heat_pump_COP": 4
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "title": "EPA wastewater nutrient sources",
+      "url": "https://www.epa.gov/nutrientpollution/sources-and-solutions-wastewater",
+      "note": "Approximate national flow, not a new metered total."
+    },
+    {
+      "id": "S2",
+      "title": "EPA Nutrient Control Design Manual, 2009",
+      "url": "https://www.epa.gov/sites/default/files/2019-02/documents/nutrient-control-design-manual-state-tech.pdf",
+      "note": "Reference concentration ranges, not national assays."
+    },
+    {
+      "id": "S3",
+      "title": "National Research Council, 1996, composition tables",
+      "url": "https://www.nationalacademies.org/read/5175/chapter/4",
+      "note": "Old reference concentrations; low-confidence proxy."
+    },
+    {
+      "id": "S4",
+      "title": "Islam et al., 2025 phosphorus spatial budget",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41218528/",
+      "note": "doi:10.1016/j.scitotenv.2025.180851; modeled CONUS budget, includes existing reuse."
+    },
+    {
+      "id": "S5",
+      "title": "USGS Mineral Commodity Summaries 2026",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf",
+      "note": "2025 estimated import denominators; compare on elemental units."
+    },
+    {
+      "id": "S6",
+      "title": "DTN original retail survey, published October 14, 2026",
+      "url": "https://www.dtnpf.com/agriculture/web/ag/crops/article/2026/10/14/uan32-leads-fertilizer-prices-higher",
+      "note": "October 5-9 prices; retail replacement value, not plant-gate receipts."
+    },
+    {
+      "id": "S7",
+      "title": "NREL Biogas Potential in the United States, August 2013",
+      "url": "https://afdc.energy.gov/files/u/publication/biogas_potential_in_us.pdf",
+      "note": "Dated gross methane potential, not additional 2026 output."
+    },
+    {
+      "id": "S8",
+      "title": "Seiple et al., 2020 sludge HTL fleet model",
+      "url": "https://www.pnnl.gov/publications/municipal-wastewater-sludge-renewable-cost-effective-feedstock-transportation-biofuels",
+      "note": "doi:10.1016/j.jenvman.2020.110852; rounded biocrude potential."
+    },
+    {
+      "id": "S9",
+      "title": "EPA sewage sludge reporting, 2024 submissions",
+      "url": "https://www.epa.gov/biosolids/basic-information-about-sewage-sludge-and-biosolids",
+      "note": "Reporting subset; treated solids differ from untreated sludge feedstock."
+    },
+    {
+      "id": "S10",
+      "title": "EIA electricity prices, July 2026",
+      "url": "https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a",
+      "note": "Industrial national average 9.77 cents/kWh; proxy only."
+    },
+    {
+      "id": "S11",
+      "title": "EIA October 2026 electricity outlook",
+      "url": "https://www.eia.gov/outlooks/steo/report/elec_coal_renew.php",
+      "note": "2026 forecast wholesale average $52/MWh, not an offtake quote."
+    },
+    {
+      "id": "S12",
+      "title": "EIA Henry Hub spot prices, September 2026",
+      "url": "https://www.eia.gov/dnav/ng/ng_pri_fut_s1_m.htm",
+      "note": "Monthly spot benchmark $2.95/MMBtu."
+    },
+    {
+      "id": "S13",
+      "title": "EIA industrial natural gas prices, July 2026",
+      "url": "https://www.eia.gov/dnav/ng/hist/n3035us3m.htm",
+      "note": "Delivered national average $4.58/Mcf, not a plant contract."
+    },
+    {
+      "id": "S14",
+      "title": "EIA petroleum spot prices, September 2026",
+      "url": "https://www.eia.gov/dnav/pet/PET_PRI_SPT_S1_M.htm",
+      "note": "Gulf ULSD $4.886/gal; regional wholesale benchmark."
+    },
+    {
+      "id": "S15",
+      "title": "EIA electricity imports and exports, 2025",
+      "url": "https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_7_01",
+      "note": "30,086,248 MWh gross imports; network/time matching remains necessary."
+    },
+    {
+      "id": "S16",
+      "title": "EIA gas imports, 2025",
+      "url": "https://www.eia.gov/dnav/ng/ng_move_impc_s1_a.htm",
+      "note": "3,163.625 Bcf gross imports; U.S. net gas exporter."
+    },
+    {
+      "id": "S17",
+      "title": "EIA distillate imports, 2025",
+      "url": "https://www.eia.gov/dnav/pet/pet_move_imp_a_epd0_im0_mbbl_a.htm",
+      "note": "57,989,000 barrels; not solely road diesel."
+    },
+    {
+      "id": "S18",
+      "title": "EIA crude imports, 2025",
+      "url": "https://www.eia.gov/TodayinEnergy/detail.php?id=67407",
+      "note": "Approximately 6.2 million barrels/day; volume context only."
+    },
+    {
+      "id": "S19",
+      "title": "PNNL HYPOWERs preliminary economics, 2024",
+      "url": "https://fathoms.pnnl.gov/publications/hydrothermal-processing-wastewater-solids-hypowers-project-preliminary-techno-economic",
+      "note": "PNNL-36528; case-specific costs depend on policy credits, disposal and maturity."
+    },
+    {
+      "id": "S20",
+      "title": "PNNL site-specific first-plant design, 2024",
+      "url": "https://www.pnnl.gov/publications/site-specific-design-case-study-wet-waste-hydrothermal-liquefaction-and-biocrude",
+      "note": "PNNL-37046; first-plant design differs from mature-plant studies."
+    },
+    {
+      "id": "S21",
+      "title": "PNNL aqueous byproduct treatment, 2024",
+      "url": "https://www.pnnl.gov/publications/aqueous-phase-product-treatment-and-monetization-options-wet-waste-hydrothermal",
+      "note": "HTL aqueous carbon/nitrogen require treatment; not free disposal."
+    },
+    {
+      "id": "S22",
+      "title": "EPA CHP market analysis, October 2011",
+      "url": "https://www.epa.gov/sites/default/files/2015-07/documents/opportunities_for_combined_heat_and_power_at_wastewater_treatment_facilities_market_analysis_and_lessons_from_the_field.pdf",
+      "note": "Historical performance/cost context, not current full digester quotes."
+    },
+    {
+      "id": "S23",
+      "title": "EPA CHP procurement guidance",
+      "url": "https://www.epa.gov/chp/chp-project-development-steps",
+      "note": "Generic CHP installed ranges; excludes a complete new sludge train."
+    },
+    {
+      "id": "S24",
+      "title": "DOE wastewater energy baseline",
+      "url": "https://betterbuildingssolutioncenter.energy.gov/wastewater",
+      "note": "Historical sector electricity reference."
+    },
+    {
+      "id": "S25",
+      "title": "DOE wastewater efficiency measures",
+      "url": "https://betterbuildingssolutioncenter.energy.gov/wastewater-measure-evaluation",
+      "note": "Low/no-cost improvement reference, not independently additive to generation."
+    },
+    {
+      "id": "S26",
+      "title": "EPA 2026 PFAS destruction/disposal guidance",
+      "url": "https://www.epa.gov/pfas/fact-sheet-2026-interim-guidance-destruction-and-disposal-pfas",
+      "note": "Capture is not destruction; technology-specific validation required."
+    },
+    {
+      "id": "S27",
+      "title": "EPA Targeted National Sewage Sludge Survey",
+      "url": "https://www.epa.gov/biosolids/2006-targeted-national-sewage-sludge-survey-tnsss",
+      "note": "2006-07 samples; maxima/detection statistics are not present national mass loads."
+    },
+    {
+      "id": "S28",
+      "title": "Clean Water Services nutrient recovery",
+      "url": "https://cleanwaterservices.org/our-water/resource-recovery/nutrients/",
+      "note": "Operator-reported existing product, not additional supply."
+    },
+    {
+      "id": "S29",
+      "title": "DC Water Blue Plains",
+      "url": "https://www.dcwater.com/about-dc-water/what-we-do/wastewater-treatment/blue-plains",
+      "note": "Current operator description of existing energy recovery."
+    },
+    {
+      "id": "S30",
+      "title": "PNNL/DOE sewage heat-pump measurement case",
+      "url": "https://basc.pnnl.gov/case-studies/sitka-apartments-wastewater-heat-pump-measurement-and-verification",
+      "note": "Site case, not national performance."
+    },
+    {
+      "id": "S31",
+      "title": "Chakraborty et al., recovered iron coagulant, 2020",
+      "url": "https://hero.epa.gov/reference/8491945/",
+      "note": "doi:10.1016/j.seppur.2019.115894; acid/reuse and nutrient interactions."
+    },
+    {
+      "id": "S32",
+      "title": "DOE hydrogen isotope handbook",
+      "url": "https://www.energy.gov/sites/default/files/2026-04/DOE-HDBK-1015-93_VOL2.pdf",
+      "note": "Natural abundance reference; no recovered isotope revenue."
+    },
+    {
+      "id": "S33",
+      "title": "DOE sludge HTL national economic discussion, 2021",
+      "url": "https://www.energy.gov/cmei/fuels/articles/economics-poop-creating-biofuels",
+      "note": "Prior fleet-model disposal savings; not an extra generic credit."
+    },
+    {
+      "id": "S34",
+      "title": "PNNL HTL process development units",
+      "url": "https://www.pnnl.gov/htl-process-development-units",
+      "note": "Biocrude upgrading removes trace metals and heteroatoms."
+    },
+    {
+      "id": "S35",
+      "title": "EPA agricultural reuse resources",
+      "url": "https://www.epa.gov/waterreuse/reusing-water-agricultural-activities-resources",
+      "note": "Crop/end-use quality requirements; water-sales value excluded."
+    },
+    {
+      "id": "S36",
+      "title": "EPA Clean Watersheds Needs Survey 2022",
+      "url": "https://www.epa.gov/cwns/clean-watersheds-needs-survey-cwns-2022-report-and-data",
+      "note": "17,544 reported existing POTWs; different from ECHO permit count."
+    },
+    {
+      "id": "S37",
+      "title": "EPA wastewater flow definitions",
+      "url": "https://echo.epa.gov/help/loading-tool/reports/pollutant-loading-report-help-dmr",
+      "note": "Application, design and DMR flows differ; preserve periods."
+    },
+    {
+      "id": "S39",
+      "title": "Federal Biogas Opportunities Roadmap, 2014",
+      "url": "https://www.energy.gov/sites/default/files/2014/08/f18/Biogas%20Opportunities%20Roadmap%208-1-14_0.pdf",
+      "note": "Alternative WRRF electricity-potential reference; source scopes differ."
+    },
+    {
+      "id": "S38",
+      "title": "DOE heat-pump technology guidance",
+      "url": "https://betterbuildingssolutioncenter.energy.gov/onsite-energy/technologies",
+      "note": "Useful heat and electricity cost determine heat-pump value."
+    }
+  ],
+  "scope": "Full municipal-wastewater screening analysis with nonmunicipal extension register. Mixed source vintages; no measured 2026 national recovery forecast. Water reuse/sales excluded.",
+  "other_resources": [
+    {
+      "resource": "Organic nitrogen before treatment",
+      "illustrative_content_proxy_t_year": 657677.44335216,
+      "qualified_recovery_t_year": null,
+      "value_usd_year": null,
+      "basis": "Remainder of assumed influent total N outside ammonium account. Mineralization in digestion may make some recoverable, but no additional credit without a linked process balance."
+    },
+    {
+      "resource": "Magnesium in effluent",
+      "illustrative_content_proxy_t_year": 939539.2047888001,
+      "qualified_recovery_t_year": null,
+      "value_usd_year": null,
+      "basis": "S3 old typical secondary-effluent concentration 20 mg/L times approximate flow. Not current assay or recoverable output; process and purity unknown."
+    },
+    {
+      "resource": "Calcium in effluent",
+      "illustrative_content_proxy_t_year": 2348848.011972,
+      "qualified_recovery_t_year": null,
+      "value_usd_year": null,
+      "basis": "S3 old typical secondary-effluent concentration 50 mg/L times approximate flow. Not current assay or recoverable output; process and purity unknown."
+    },
+    {
+      "resource": "Sulfur in reported sludge",
+      "illustrative_content_proxy_t_year": 40000.0,
+      "qualified_recovery_t_year": null,
+      "value_usd_year": null,
+      "basis": "S3 old typical composition multiplied by S9 approximate 2024 reported treated-solids mass. Illustrative subset proxy, not nationally representative tonnage. Not added to nutrient/energy accounts."
+    },
+    {
+      "resource": "Iron in reported sludge",
+      "illustrative_content_proxy_t_year": 68000.0,
+      "qualified_recovery_t_year": null,
+      "value_usd_year": null,
+      "basis": "S3 old typical composition multiplied by S9 approximate 2024 reported treated-solids mass. Illustrative subset proxy, not nationally representative tonnage. Not added to nutrient/energy accounts."
+    },
+    {
+      "resource": "Aluminum in reported sludge",
+      "illustrative_content_proxy_t_year": 20000.0,
+      "qualified_recovery_t_year": null,
+      "value_usd_year": null,
+      "basis": "S3 old typical composition multiplied by S9 approximate 2024 reported treated-solids mass. Illustrative subset proxy, not nationally representative tonnage. Not added to nutrient/energy accounts."
+    },
+    {
+      "resource": "Zinc in reported sludge",
+      "illustrative_content_proxy_t_year": 4800.0,
+      "qualified_recovery_t_year": null,
+      "value_usd_year": null,
+      "basis": "S3 old typical composition multiplied by S9 approximate 2024 reported treated-solids mass. Illustrative subset proxy, not nationally representative tonnage. Not added to nutrient/energy accounts."
+    },
+    {
+      "resource": "Copper in reported sludge",
+      "illustrative_content_proxy_t_year": 3000.0,
+      "qualified_recovery_t_year": null,
+      "value_usd_year": null,
+      "basis": "S3 old typical composition multiplied by S9 approximate 2024 reported treated-solids mass. Illustrative subset proxy, not nationally representative tonnage. Not added to nutrient/energy accounts."
+    },
+    {
+      "resource": "Manganese in reported sludge",
+      "illustrative_content_proxy_t_year": 1000.0,
+      "qualified_recovery_t_year": null,
+      "value_usd_year": null,
+      "basis": "S3 old typical composition multiplied by S9 approximate 2024 reported treated-solids mass. Illustrative subset proxy, not nationally representative tonnage. Not added to nutrient/energy accounts."
+    },
+    {
+      "resource": "Silver/gold/critical metals",
+      "qualified_recovery_t_year": null,
+      "value_usd_year": null,
+      "basis": "S27 confirms broad analyte presence but does not establish modern national recoverable loads or saleable grades."
+    },
+    {
+      "resource": "Recovered iron/aluminum coagulants",
+      "qualified_recovery_t_year": null,
+      "value_usd_year": null,
+      "basis": "S31 shows a route; acid expense, contaminants and phosphorus recycling constrain net savings."
+    },
+    {
+      "resource": "Sludge ash phosphate",
+      "qualified_recovery_t_year": null,
+      "value_usd_year": null,
+      "basis": "Inside P inventory already; route-dependent speciation and heavy-metal separation required."
+    },
+    {
+      "resource": "Biochar/activated carbon/mineral residue",
+      "qualified_recovery_t_year": null,
+      "value_usd_year": null,
+      "basis": "Carbon-product route competes with energy; ash content, adsorption quality and contaminant behavior unverified."
+    },
+    {
+      "resource": "PHA/bioplastics/volatile fatty acids",
+      "qualified_recovery_t_year": null,
+      "value_usd_year": null,
+      "basis": "Alternative carbon allocation, no validated national conversion/offtake base here."
+    },
+    {
+      "resource": "Lithium/bromine/rare earths",
+      "qualified_recovery_t_year": null,
+      "value_usd_year": null,
+      "basis": "Municipal concentrations not inferred from seawater; targeted industrial/brine assays required."
+    },
+    {
+      "resource": "Hydrogen",
+      "qualified_recovery_t_year": null,
+      "value_usd_year": null,
+      "basis": "Alternative to methane/biocrude product allocation or external-energy electrolysis; no free extra energy credited."
+    },
+    {
+      "resource": "Deuterium",
+      "qualified_recovery_t_year": null,
+      "value_usd_year": null,
+      "basis": "Natural-isotope inventory retained separately; separation and market inputs missing."
+    }
+  ],
+  "gaps": [
+    {
+      "gap": "Physical stream and geography duplication",
+      "effect": "Cannot sum permits, outfalls, influent, centrate, sludge and ash.",
+      "next_evidence": "Unique plant/stream IDs, parent accounts and period-aligned mass balances."
+    },
+    {
+      "gap": "Existing reuse and energy recovery",
+      "effect": "Gross potential does not establish new supply.",
+      "next_evidence": "Current product, land-application, heat, electricity and flare baseline for each plant."
+    },
+    {
+      "gap": "Flow and chemistry",
+      "effect": "Generic concentrations cannot rank verified yields.",
+      "next_evidence": "Monthly flow, P fractions, NH4/TN, Mg/K/Ca/S, COD/VS, contaminants and uncertainty."
+    },
+    {
+      "gap": "Net electricity and heat",
+      "effect": "Installed MW is not usable or island-capable power.",
+      "next_evidence": "Parasitics, availability, heat sink, temperature, black-start, protection and storage."
+    },
+    {
+      "gap": "Processing cost and mature vs first plant",
+      "effect": "National profit unestablished.",
+      "next_evidence": "Engineering budget, labor, reagents, H2, catalysts, maintenance, financing and downtime."
+    },
+    {
+      "gap": "Residual treatment and PFAS/microplastics",
+      "effect": "Removal from water is not destruction or safe soil reuse.",
+      "next_evidence": "Mass closure to solids/air/water; destruction/byproduct testing; permitted residual destination."
+    },
+    {
+      "gap": "Buyer and crop suitability",
+      "effect": "Nutrient content is not guaranteed fertilizer displacement.",
+      "next_evidence": "Product grade, plant availability, customer demand, seasonal application and delivered cost."
+    },
+    {
+      "gap": "Policy credits",
+      "effect": "Credit dependence can change viability.",
+      "next_evidence": "Eligibility, credit price scenarios and zero-credit case; keep separate from commodity sales."
+    },
+    {
+      "gap": "Regional import replacement",
+      "effect": "National ratios do not establish a route.",
+      "next_evidence": "Destination purchases by product/origin, capacity, contracts, season and freight."
+    },
+    {
+      "gap": "All nonmunicipal streams",
+      "effect": "Total national all-wastewater inventory incomplete.",
+      "next_evidence": "Separate industrial/mining/landfill/agricultural registers with boundary checks."
+    }
+  ],
+  "accounting_rules": [
+    "25/50/75 nutrient fractions are net qualified-output assumptions; energy fractions are deployment shares of dated gross literature potentials, not equivalent recovery technology efficiencies.",
+    "No total annual profit is reported. Product replacement value, plant-gate receipts, avoided costs and policy credits are different accounts.",
+    "AD-CHP, AD-RNG and full-sludge HTL are alternatives here. A hybrid requires a separate explicit carbon/mass balance.",
+    "Struvite N is inside total recovered N; do not add it or charge separate nitrogen-recovery costs to it. Mg reagent costs belong in the P route.",
+    "CHP parasitic electricity is deducted once; heat reserved for internal process loads is not externally sold. Do not value the methane again after converting it to heat and power.",
+    "Heat pumps consume electricity; do not count delivered heat as recovered source energy alone.",
+    "Existing land application, generation, heat, products and baseline costs must be subtracted for additionality. Avoided expense must not be duplicated across nutrient and sludge trains.",
+    "Imported nutrient content, gross electricity/gas volumes and diesel volumes are physical comparisons, not verified monetary trade-deficit reductions. Net gas exports and electricity transmission constraints matter.",
+    "Old sludge composition times partial reported dry mass is a context proxy. Unknown qualified recovery/value is null, never zero-filled.",
+    "Water reuse volume and sales value remain excluded; thermal energy is a separate resource account.",
+    "Contaminants capture, soil-use clearance and destruction are distinct. No autonomous approvals, soil safety or emissions clearance inferred.",
+    "No speculative deuterium fuel sales, carbon-credit revenue or critical-metal revenue included."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "release": "v0.3",
+  "sha256": {
+    "KNOWN_GAPS.md": "1108df7a993cd63bdec8c4343b1e2ad240391694183da0d1d578a332c8260515",
+    "README.md": "05e6624682de055bef2f57eb5f30620d63f95585a996451d967a2bf8453f77db",
+    "SHA256.json": "8f3ad5b915cef45a1c8a65f391cd1e527cbd661fbd77efc3dc6ea7370755b59f",
+    "US_Wastewater_Full_Analysis_v03.zip": "327e1110852b0463d3f0535c680ea19c8539f80938f148381a2f8ae43c0feb49",
+    "US_Wastewater_Resources_Energy_Resilience_v03.pdf": "14a9432eeb859c2aad765c383d9ec14923cf435daf51f6bad90fb882f6ef8081",
+    "inputs.json": "65ce2c200764329b7109efa0757776990be03a969a41bf6d122c1fdb00d2376f",
+    "report.md": "a4035fc96d0d1776c7b4b344bc61cff70304c2e19014e70a7e35bd8df6c3306f",
+    "results.json": "082439f65c90afebc2d8c0549858dfed1a0cf491c950a0e7c879ba9f3d63a446",
+    "run_model.py": "4958076e78740d8e579708c504515341463cb5b619e2bd98b8f8733a0c7775b0",
+    "sources.json": "eec9292c27fa5e605d001984a2fc8df3c1c3d2d8fe8c0222df19ef485bc24d41",
+    "sources.md": "cc0eb1e5afb1695017d5a7423b529b8373d04c0d1a94447a0974f5a9293603de",
+    "test_model.py": "3b6134db34717f4e3402296fce46708e78b049a96dfc41df3939f0b56501966a"
+  }
+}

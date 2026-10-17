@@ -1,0 +1,236 @@
+[
+  {
+    "id": "S1",
+    "title": "EPA wastewater nutrient sources",
+    "url": "https://www.epa.gov/nutrientpollution/sources-and-solutions-wastewater",
+    "note": "Approximate national flow, not a new metered total."
+  },
+  {
+    "id": "S2",
+    "title": "EPA Nutrient Control Design Manual, 2009",
+    "url": "https://www.epa.gov/sites/default/files/2019-02/documents/nutrient-control-design-manual-state-tech.pdf",
+    "note": "Reference concentration ranges, not national assays."
+  },
+  {
+    "id": "S3",
+    "title": "National Research Council, 1996, composition tables",
+    "url": "https://www.nationalacademies.org/read/5175/chapter/4",
+    "note": "Old reference concentrations; low-confidence proxy."
+  },
+  {
+    "id": "S4",
+    "title": "Islam et al., 2025 phosphorus spatial budget",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41218528/",
+    "note": "doi:10.1016/j.scitotenv.2025.180851; modeled CONUS budget, includes existing reuse."
+  },
+  {
+    "id": "S5",
+    "title": "USGS Mineral Commodity Summaries 2026",
+    "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf",
+    "note": "2025 estimated import denominators; compare on elemental units."
+  },
+  {
+    "id": "S6",
+    "title": "DTN original retail survey, published October 14, 2026",
+    "url": "https://www.dtnpf.com/agriculture/web/ag/crops/article/2026/10/14/uan32-leads-fertilizer-prices-higher",
+    "note": "October 5-9 prices; retail replacement value, not plant-gate receipts."
+  },
+  {
+    "id": "S7",
+    "title": "NREL Biogas Potential in the United States, August 2013",
+    "url": "https://afdc.energy.gov/files/u/publication/biogas_potential_in_us.pdf",
+    "note": "Dated gross methane potential, not additional 2026 output."
+  },
+  {
+    "id": "S8",
+    "title": "Seiple et al., 2020 sludge HTL fleet model",
+    "url": "https://www.pnnl.gov/publications/municipal-wastewater-sludge-renewable-cost-effective-feedstock-transportation-biofuels",
+    "note": "doi:10.1016/j.jenvman.2020.110852; rounded biocrude potential."
+  },
+  {
+    "id": "S9",
+    "title": "EPA sewage sludge reporting, 2024 submissions",
+    "url": "https://www.epa.gov/biosolids/basic-information-about-sewage-sludge-and-biosolids",
+    "note": "Reporting subset; treated solids differ from untreated sludge feedstock."
+  },
+  {
+    "id": "S10",
+    "title": "EIA electricity prices, July 2026",
+    "url": "https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a",
+    "note": "Industrial national average 9.77 cents/kWh; proxy only."
+  },
+  {
+    "id": "S11",
+    "title": "EIA October 2026 electricity outlook",
+    "url": "https://www.eia.gov/outlooks/steo/report/elec_coal_renew.php",
+    "note": "2026 forecast wholesale average $52/MWh, not an offtake quote."
+  },
+  {
+    "id": "S12",
+    "title": "EIA Henry Hub spot prices, September 2026",
+    "url": "https://www.eia.gov/dnav/ng/ng_pri_fut_s1_m.htm",
+    "note": "Monthly spot benchmark $2.95/MMBtu."
+  },
+  {
+    "id": "S13",
+    "title": "EIA industrial natural gas prices, July 2026",
+    "url": "https://www.eia.gov/dnav/ng/hist/n3035us3m.htm",
+    "note": "Delivered national average $4.58/Mcf, not a plant contract."
+  },
+  {
+    "id": "S14",
+    "title": "EIA petroleum spot prices, September 2026",
+    "url": "https://www.eia.gov/dnav/pet/PET_PRI_SPT_S1_M.htm",
+    "note": "Gulf ULSD $4.886/gal; regional wholesale benchmark."
+  },
+  {
+    "id": "S15",
+    "title": "EIA electricity imports and exports, 2025",
+    "url": "https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_7_01",
+    "note": "30,086,248 MWh gross imports; network/time matching remains necessary."
+  },
+  {
+    "id": "S16",
+    "title": "EIA gas imports, 2025",
+    "url": "https://www.eia.gov/dnav/ng/ng_move_impc_s1_a.htm",
+    "note": "3,163.625 Bcf gross imports; U.S. net gas exporter."
+  },
+  {
+    "id": "S17",
+    "title": "EIA distillate imports, 2025",
+    "url": "https://www.eia.gov/dnav/pet/pet_move_imp_a_epd0_im0_mbbl_a.htm",
+    "note": "57,989,000 barrels; not solely road diesel."
+  },
+  {
+    "id": "S18",
+    "title": "EIA crude imports, 2025",
+    "url": "https://www.eia.gov/TodayinEnergy/detail.php?id=67407",
+    "note": "Approximately 6.2 million barrels/day; volume context only."
+  },
+  {
+    "id": "S19",
+    "title": "PNNL HYPOWERs preliminary economics, 2024",
+    "url": "https://fathoms.pnnl.gov/publications/hydrothermal-processing-wastewater-solids-hypowers-project-preliminary-techno-economic",
+    "note": "PNNL-36528; case-specific costs depend on policy credits, disposal and maturity."
+  },
+  {
+    "id": "S20",
+    "title": "PNNL site-specific first-plant design, 2024",
+    "url": "https://www.pnnl.gov/publications/site-specific-design-case-study-wet-waste-hydrothermal-liquefaction-and-biocrude",
+    "note": "PNNL-37046; first-plant design differs from mature-plant studies."
+  },
+  {
+    "id": "S21",
+    "title": "PNNL aqueous byproduct treatment, 2024",
+    "url": "https://www.pnnl.gov/publications/aqueous-phase-product-treatment-and-monetization-options-wet-waste-hydrothermal",
+    "note": "HTL aqueous carbon/nitrogen require treatment; not free disposal."
+  },
+  {
+    "id": "S22",
+    "title": "EPA CHP market analysis, October 2011",
+    "url": "https://www.epa.gov/sites/default/files/2015-07/documents/opportunities_for_combined_heat_and_power_at_wastewater_treatment_facilities_market_analysis_and_lessons_from_the_field.pdf",
+    "note": "Historical performance/cost context, not current full digester quotes."
+  },
+  {
+    "id": "S23",
+    "title": "EPA CHP procurement guidance",
+    "url": "https://www.epa.gov/chp/chp-project-development-steps",
+    "note": "Generic CHP installed ranges; excludes a complete new sludge train."
+  },
+  {
+    "id": "S24",
+    "title": "DOE wastewater energy baseline",
+    "url": "https://betterbuildingssolutioncenter.energy.gov/wastewater",
+    "note": "Historical sector electricity reference."
+  },
+  {
+    "id": "S25",
+    "title": "DOE wastewater efficiency measures",
+    "url": "https://betterbuildingssolutioncenter.energy.gov/wastewater-measure-evaluation",
+    "note": "Low/no-cost improvement reference, not independently additive to generation."
+  },
+  {
+    "id": "S26",
+    "title": "EPA 2026 PFAS destruction/disposal guidance",
+    "url": "https://www.epa.gov/pfas/fact-sheet-2026-interim-guidance-destruction-and-disposal-pfas",
+    "note": "Capture is not destruction; technology-specific validation required."
+  },
+  {
+    "id": "S27",
+    "title": "EPA Targeted National Sewage Sludge Survey",
+    "url": "https://www.epa.gov/biosolids/2006-targeted-national-sewage-sludge-survey-tnsss",
+    "note": "2006-07 samples; maxima/detection statistics are not present national mass loads."
+  },
+  {
+    "id": "S28",
+    "title": "Clean Water Services nutrient recovery",
+    "url": "https://cleanwaterservices.org/our-water/resource-recovery/nutrients/",
+    "note": "Operator-reported existing product, not additional supply."
+  },
+  {
+    "id": "S29",
+    "title": "DC Water Blue Plains",
+    "url": "https://www.dcwater.com/about-dc-water/what-we-do/wastewater-treatment/blue-plains",
+    "note": "Current operator description of existing energy recovery."
+  },
+  {
+    "id": "S30",
+    "title": "PNNL/DOE sewage heat-pump measurement case",
+    "url": "https://basc.pnnl.gov/case-studies/sitka-apartments-wastewater-heat-pump-measurement-and-verification",
+    "note": "Site case, not national performance."
+  },
+  {
+    "id": "S31",
+    "title": "Chakraborty et al., recovered iron coagulant, 2020",
+    "url": "https://hero.epa.gov/reference/8491945/",
+    "note": "doi:10.1016/j.seppur.2019.115894; acid/reuse and nutrient interactions."
+  },
+  {
+    "id": "S32",
+    "title": "DOE hydrogen isotope handbook",
+    "url": "https://www.energy.gov/sites/default/files/2026-04/DOE-HDBK-1015-93_VOL2.pdf",
+    "note": "Natural abundance reference; no recovered isotope revenue."
+  },
+  {
+    "id": "S33",
+    "title": "DOE sludge HTL national economic discussion, 2021",
+    "url": "https://www.energy.gov/cmei/fuels/articles/economics-poop-creating-biofuels",
+    "note": "Prior fleet-model disposal savings; not an extra generic credit."
+  },
+  {
+    "id": "S34",
+    "title": "PNNL HTL process development units",
+    "url": "https://www.pnnl.gov/htl-process-development-units",
+    "note": "Biocrude upgrading removes trace metals and heteroatoms."
+  },
+  {
+    "id": "S35",
+    "title": "EPA agricultural reuse resources",
+    "url": "https://www.epa.gov/waterreuse/reusing-water-agricultural-activities-resources",
+    "note": "Crop/end-use quality requirements; water-sales value excluded."
+  },
+  {
+    "id": "S36",
+    "title": "EPA Clean Watersheds Needs Survey 2022",
+    "url": "https://www.epa.gov/cwns/clean-watersheds-needs-survey-cwns-2022-report-and-data",
+    "note": "17,544 reported existing POTWs; different from ECHO permit count."
+  },
+  {
+    "id": "S37",
+    "title": "EPA wastewater flow definitions",
+    "url": "https://echo.epa.gov/help/loading-tool/reports/pollutant-loading-report-help-dmr",
+    "note": "Application, design and DMR flows differ; preserve periods."
+  },
+  {
+    "id": "S39",
+    "title": "Federal Biogas Opportunities Roadmap, 2014",
+    "url": "https://www.energy.gov/sites/default/files/2014/08/f18/Biogas%20Opportunities%20Roadmap%208-1-14_0.pdf",
+    "note": "Alternative WRRF electricity-potential reference; source scopes differ."
+  },
+  {
+    "id": "S38",
+    "title": "DOE heat-pump technology guidance",
+    "url": "https://betterbuildingssolutioncenter.energy.gov/onsite-energy/technologies",
+    "note": "Useful heat and electricity cost determine heat-pump value."
+  }
+]

@@ -235,3 +235,9 @@ Fork. Adapt. Publish. The standard improves when more operators, researchers, an
 ### Annual US simulator and data-access registry — v0.2
 
 [Public dashboard with annual simulator](prototypes/us-resource-resilience-v0_2/README.md): 23 national records; five reviewed 2021–2025 material histories; 1–100-year recovery/reserve/import sensitivities; 75 source-access entries and four successful anonymous server sample probes. Public accounts, restricted authorization and untested sources distinguished. No calibrated forecast, certified reserve or operational deployment claimed. v0.1 preserved.
+
+
+
+### U.S. wastewater resources, sludge energy and supply-chain resilience - v0.3
+
+[**Public research release: report, reproducible model, 39-source register and known gaps**](research/us-wastewater-resources/v0.3-2026-10-16/README.md). National municipal-wastewater nutrient and alternative sludge-energy screens with dated values, import-content comparisons and explicit cost sensitivities. **NON-CANON / ZERO REALIZED CREDIT:** modeled potential, not observed recovery, validated profit or actual import displacement. Earlier studies preserved.
