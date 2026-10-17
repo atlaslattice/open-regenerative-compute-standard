@@ -1,0 +1,4 @@
+scenario,additional_maui_mgd,additional_oahu_mgd,total_mgd,annual_billion_gallons,five_year_billion_gallons,annual_maui_tariff_proxy_usd,annual_oahu_tariff_proxy_usd,annual_combined_gross_tariff_proxy_usd,five_year_gross_tariff_proxy_usd,evidence_classification
+Conservative,0.5,5,5.5,2.0075,10.0375,94900,5110000,5204900,26024500,ILLUSTRATIVE_NOT_FORECAST
+Central planning,1.5,15,16.5,6.0225,30.1125,284700,15330000,15614700,78073500,ILLUSTRATIVE_NOT_FORECAST
+High infrastructure,3.45,30,33.45,12.20925,61.04625,654810,30660000,31314810,156574050,ILLUSTRATIVE_NOT_FORECAST
