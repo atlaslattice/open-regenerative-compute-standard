@@ -34,7 +34,7 @@ $180B is an **authorization and liquidity ceiling**, not proof of the federal su
 Appropriate standards must remain safety-based, protect environmental rights and tribal consultation, comply with procurement rules and due process, and not replace scientifically necessary site-specific permits.
 
 ## $1.5T capital financing assumptions
-Illustrative loan-equivalent $1.5T financed at fixed **5% for 30 years**, fully drawn at outset and level-payment: **$97.58B annual debt service**; **$2.927B trillion** of aggregate 30-year nominal payments (i.e. $2.927T). If loans are progressively drawn, effective annual payments, timing, interest accrual and reserve exposure change. Model nominal dollars and explicit inflation separately.
+Illustrative loan-equivalent $1.5T financed at fixed **5% for 30 years**, fully drawn at outset and level-payment: **$97.58B annual debt service**; **$2.927 trillion** of aggregate 30-year nominal payments (i.e. $2.927T). If loans are progressively drawn, effective annual payments, timing, interest accrual and reserve exposure change. Model nominal dollars and explicit inflation separately.
 
 The project's **approval target** is a minimum **1.50x benefit/cost in 5%-discounted present value**, net of operating and lifecycle costs, with bankable cash flows for debt repayment. Public value, monetary operating receipts, domestic gross output, GDP value added, imported materials displaced, and avoided costs must be separate accounts. *No guarantee* that the $1.5T stock of qualifying projects exists. Realized returns below 50% alone do not trigger automatic forfeiture when honest disclosure and competent operations are proven; deliberate misstatement or controllable failure does.
 
