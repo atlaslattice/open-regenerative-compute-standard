@@ -1,0 +1,1019 @@
+{
+  "version": "0.1",
+  "status": "NATIONAL SCREENING; ASSUMED ROLLOUT, NOT COMMITTED PROJECTS",
+  "county_count": 3144,
+  "state_plus_DC_count": 51,
+  "population_total": 334914895,
+  "loan_payment_per_1M": [
+    {
+      "rate": 0.03,
+      "years": 30,
+      "annual_payment_usd": 51019.25932025256
+    },
+    {
+      "rate": 0.05,
+      "years": 30,
+      "annual_payment_usd": 65051.43508027657
+    },
+    {
+      "rate": 0.07,
+      "years": 30,
+      "annual_payment_usd": 80586.40351111119
+    }
+  ],
+  "scenarios": [
+    {
+      "capture_fraction": 0.25,
+      "municipal_county_streams": {
+        "food": {
+          "wet_t": 8986096.21604387,
+          "nutrients": {
+            "qualified_total_t": {
+              "N": 45565.97780461798,
+              "P": 7134.67284045992,
+              "K2O": 17253.304734804235
+            },
+            "first_season_available_t": {
+              "N": 27339.586682770787,
+              "P": 5707.738272367937,
+              "K2O": 17253.304734804235
+            },
+            "incremental_qualified_t_assumed": {
+              "N": 45565.97780461798,
+              "P": 7134.67284045992,
+              "K2O": 17253.304734804235
+            },
+            "incremental_first_season_t_assumed": {
+              "N": 27339.586682770787,
+              "P": 5707.738272367937,
+              "K2O": 17253.304734804235
+            },
+            "gross_qualified_reference_usd": 103944701.67744932,
+            "incremental_first_season_reference_usd_assumed": 74369253.07719766
+          },
+          "methane_gross_t": 593932.3109800001,
+          "net_power_MWh": 1530792.18377,
+          "matched_heat_MMBtu": 5547066.28,
+          "power_heat_reference_usd": 178380863.38297498,
+          "power_heat_receipts_assumed_usd": 143402261.98383048,
+          "nutrient_receipts_assumed_usd": 55776939.80789824
+        },
+        "yard": {
+          "wet_t": 2388163.82805,
+          "nutrients": {
+            "qualified_total_t": {
+              "N": 7642.124249760001,
+              "P": 1222.7398799616,
+              "K2O": 4585.274549856001
+            },
+            "first_season_available_t": {
+              "N": 1528.4248499520002,
+              "P": 978.1919039692801,
+              "K2O": 4585.274549856001
+            },
+            "incremental_qualified_t_assumed": {
+              "N": 7642.124249760001,
+              "P": 1222.7398799616,
+              "K2O": 4585.274549856001
+            },
+            "incremental_first_season_t_assumed": {
+              "N": 1528.4248499520002,
+              "P": 978.1919039692801,
+              "K2O": 4585.274549856001
+            },
+            "gross_qualified_reference_usd": 19096567.972479776,
+            "incremental_first_season_reference_usd_assumed": 10100891.260556467
+          },
+          "qualified_compost_wet_t": 700528.0562280002,
+          "nutrient_receipts_assumed_usd": 7575668.44541735
+        },
+        "wood": {
+          "dry_t": 1088621.688,
+          "qualified_char_t": 261269.20512000003,
+          "char_sold_t_assumed": 65317.30128000001,
+          "char_receipts_assumed_usd": 19595190.384000003,
+          "contained_long_lived_CO2_equivalent_t_not_credit": 536472.7678464,
+          "exported_energy_credit": 0
+        },
+        "gate_mass_wet_t": 12644318.680093871,
+        "product_energy_receipts_assumed_usd": 226350060.62114608
+      },
+      "industrial_food": {
+        "wet_t": 208114.98324155,
+        "nutrients": {
+          "qualified_total_t": {
+            "N": 1055.2928078225925,
+            "P": 165.23663701432696,
+            "K2O": 399.5807678237761
+          },
+          "first_season_available_t": {
+            "N": 633.1756846935555,
+            "P": 132.18930961146157,
+            "K2O": 399.5807678237761
+          },
+          "incremental_qualified_t_assumed": {
+            "N": 1055.2928078225925,
+            "P": 165.23663701432696,
+            "K2O": 399.5807678237761
+          },
+          "incremental_first_season_t_assumed": {
+            "N": 633.1756846935555,
+            "P": 132.18930961146157,
+            "K2O": 399.5807678237761
+          },
+          "gross_qualified_reference_usd": 2407324.5297582587,
+          "incremental_first_season_reference_usd_assumed": 1722367.0307707307
+        },
+        "methane_gross_t": 13755.273700000002,
+        "net_power_MWh": 35452.63505,
+        "matched_heat_MMBtu": 128468.20000000001,
+        "power_heat_reference_usd": 4131241.141985545,
+        "power_heat_receipts_assumed_usd": 3321148.4310930446,
+        "nutrient_receipts_assumed_usd": 1291775.2730780481
+      },
+      "manure_national_unallocated": {
+        "wet_t": 37874962.895,
+        "dry_t": 3742137.0525,
+        "nutrients": {
+          "qualified_total_t": {
+            "N": 72719.92875840001,
+            "P": 16967.98337696,
+            "K2O": 84839.91688480001
+          },
+          "first_season_available_t": {
+            "N": 43631.957255040004,
+            "P": 13574.386701568,
+            "K2O": 84839.91688480001
+          },
+          "incremental_qualified_t_assumed": {
+            "N": 14543.985751680004,
+            "P": 3393.596675392,
+            "K2O": 16967.983376960005
+          },
+          "incremental_first_season_t_assumed": {
+            "N": 8726.391451008001,
+            "P": 2714.8773403136,
+            "K2O": 16967.983376960005
+          },
+          "gross_qualified_reference_usd": 240790318.45042342,
+          "incremental_first_season_reference_usd_assumed": 37835945.21941614
+        },
+        "net_power_MWh": 1370561.2168290913,
+        "methane_Nm3": 523899187.35,
+        "capex_usd": 1514998515.8000002,
+        "annual_debt_service_usd": 98552827.59727907,
+        "annual_OM_feedstock_reserve_usd": 445249666.055,
+        "annual_product_receipts_assumed_usd": 130963465.99421959,
+        "annual_margin_after_debt_usd": -412839027.6580595,
+        "break_even_service_fee_usd_wet_t": 10.900051012658807
+      },
+      "county_financing_cases": [
+        {
+          "case": "lower_budget",
+          "capex_usd": 5684078099.061548,
+          "annual_debt_service_usd": 369757437.45232415,
+          "annual_replacement_reserve_usd": 56840780.99061549,
+          "annual_fixed_OM_usd": 85261171.48592322,
+          "annual_variable_usd": 540281943.5832242,
+          "annual_product_energy_receipts_assumed_usd": 226350060.62114608,
+          "annual_gate_receipts_assumed_usd": 836278530.0,
+          "annual_margin_after_debt_usd": 10487257.109058976,
+          "DSCR_after_reserve": 1.0283625318839225,
+          "break_even_gate_fee_usd_wet_t": 65.30927397385166,
+          "target_DSCR_gate_fee_usd_wet_t": 71.15786806274376,
+          "population_in_nonnegative_counties": 269248298,
+          "county_positive_population_share_percent": 80.39304970297006,
+          "counties_nonnegative_margin": 621,
+          "counties_DSCR_at_least_1_2": 392,
+          "median_county_break_even_fee_usd_wet_t": 100.06293678080888
+        },
+        {
+          "case": "middle_budget",
+          "capex_usd": 14488274559.842596,
+          "annual_debt_service_usd": 942483051.9548233,
+          "annual_replacement_reserve_usd": 144882745.59842595,
+          "annual_fixed_OM_usd": 217324118.39763895,
+          "annual_variable_usd": 1001920153.1859789,
+          "annual_product_energy_receipts_assumed_usd": 226350060.62114608,
+          "annual_gate_receipts_assumed_usd": 836278530.0,
+          "annual_margin_after_debt_usd": -1243981478.5157208,
+          "DSCR_after_reserve": -0.3198979821818055,
+          "break_even_gate_fee_usd_wet_t": 164.52132069327732,
+          "target_DSCR_gate_fee_usd_wet_t": 179.42893376124889,
+          "population_in_nonnegative_counties": 0,
+          "county_positive_population_share_percent": 0.0,
+          "counties_nonnegative_margin": 0,
+          "counties_DSCR_at_least_1_2": 0,
+          "median_county_break_even_fee_usd_wet_t": 303.5359719211063
+        },
+        {
+          "case": "higher_budget",
+          "capex_usd": 30105605538.87642,
+          "annual_debt_service_usd": 1958412844.2646341,
+          "annual_replacement_reserve_usd": 301056055.3887642,
+          "annual_fixed_OM_usd": 451584083.0831463,
+          "annual_variable_usd": 1654890094.949892,
+          "annual_product_energy_receipts_assumed_usd": 226350060.62114608,
+          "annual_gate_receipts_assumed_usd": 836278530.0,
+          "annual_margin_after_debt_usd": -3303314487.0652905,
+          "DSCR_after_reserve": -0.6867304035200271,
+          "break_even_gate_fee_usd_wet_t": 327.3875897783492,
+          "target_DSCR_gate_fee_usd_wet_t": 358.36455095456176,
+          "population_in_nonnegative_counties": 0,
+          "county_positive_population_share_percent": 0.0,
+          "counties_nonnegative_margin": 0,
+          "counties_DSCR_at_least_1_2": 0,
+          "median_county_break_even_fee_usd_wet_t": 674.9242178479215
+        }
+      ],
+      "state_WW_financing_cases": [
+        {
+          "capex_usd_per_resident_at_mid_capture_assumed": 30,
+          "capex_usd": 5533723425.0,
+          "annual_debt_service_usd": 359976650.1335932,
+          "annual_OM_reserve_usd": 698459076.173613,
+          "annual_nutrient_receipts_assumed_usd": 892028216.2565725,
+          "annual_margin_after_debt_usd": -166407510.05063367
+        },
+        {
+          "capex_usd_per_resident_at_mid_capture_assumed": 75,
+          "capex_usd": 13069308562.5,
+          "annual_debt_service_usd": 850177277.4975715,
+          "annual_OM_reserve_usd": 886848704.611113,
+          "annual_nutrient_receipts_assumed_usd": 892028216.2565725,
+          "annual_margin_after_debt_usd": -844997765.8521119
+        },
+        {
+          "capex_usd_per_resident_at_mid_capture_assumed": 150,
+          "capex_usd": 25628617125.0,
+          "annual_debt_service_usd": 1667178323.1042018,
+          "annual_OM_reserve_usd": 1200831418.673613,
+          "annual_nutrient_receipts_assumed_usd": 892028216.2565725,
+          "annual_margin_after_debt_usd": -1975981525.5212421
+        },
+        {
+          "capex_usd_per_resident_at_mid_capture_assumed": 300,
+          "capex_usd": 50747234250.0,
+          "annual_debt_service_usd": 3301180414.3174624,
+          "annual_OM_reserve_usd": 1828796846.798613,
+          "annual_nutrient_receipts_assumed_usd": 892028216.2565725,
+          "annual_margin_after_debt_usd": -4237949044.859503
+        }
+      ],
+      "conditional_residues": [
+        {
+          "resource": "ag_residues",
+          "dry_t": 32545252.547500003,
+          "qualified_char_t": 7810860.611400001,
+          "char_sold_t_assumed": 1952715.1528500002,
+          "char_receipts_assumed_usd": 585814545.855,
+          "contained_long_lived_CO2_equivalent_t_not_credit": 16038300.455408,
+          "exported_energy_credit": 0,
+          "capex_usd": 19527151528.5,
+          "annual_cost_usd": 8175128323.871442,
+          "annual_margin_char_only_usd": -7589313778.016441,
+          "additional_nutrient_import_offset_t": 0
+        },
+        {
+          "resource": "forest_residues",
+          "dry_t": 6146176.6135,
+          "qualified_char_t": 1475082.38724,
+          "char_sold_t_assumed": 368770.59681,
+          "char_receipts_assumed_usd": 110631179.04300001,
+          "contained_long_lived_CO2_equivalent_t_not_credit": 3028835.8351328,
+          "exported_energy_credit": 0,
+          "capex_usd": 3687705968.1,
+          "annual_cost_usd": 1408374408.2015054,
+          "annual_margin_char_only_usd": -1297743229.1585054,
+          "additional_nutrient_import_offset_t": 0
+        }
+      ],
+      "poultry_reference_extension_excluded": {
+        "wet_t": 3150000.0,
+        "nutrients": {
+          "qualified_total_t": {
+            "N": 35280.0,
+            "P": 19796.05178744906,
+            "K2O": 34272.0
+          },
+          "first_season_available_t": {
+            "N": 17640.0,
+            "P": 15836.84142995925,
+            "K2O": 34272.0
+          },
+          "incremental_qualified_t_assumed": {
+            "N": 0.0,
+            "P": 0.0,
+            "K2O": 0.0
+          },
+          "incremental_first_season_t_assumed": {
+            "N": 0.0,
+            "P": 0.0,
+            "K2O": 0.0
+          },
+          "gross_qualified_reference_usd": 156154158.48370528,
+          "incremental_first_season_reference_usd_assumed": 0.0
+        },
+        "economic_model_status": "NOT PRICED; excluded from core aggregate"
+      },
+      "macro": {
+        "additional_qualified_nutrients_t_assumed": {
+          "N": 68807.38061388058,
+          "P": 11916.246032827847,
+          "K2O": 39206.14342944401
+        },
+        "additional_first_season_nutrients_t_assumed": {
+          "N": 38227.57866842434,
+          "P": 9532.996826262279,
+          "K2O": 39206.14342944401
+        },
+        "additional_first_season_nutrient_replacement_reference_usd": 124028456.58794099,
+        "combined_nutrients_physical_scenario_t": {
+          "N": 374157.6221702406,
+          "P": 161916.24603282785,
+          "K2O": 269639.64055972296
+        },
+        "combined_import_volume_context": {
+          "N_vs_ammonia_imports_percent": 19.692506430012664,
+          "P_vs_assumed_rock_import_P_percent": 36.37346872620163,
+          "K2O_vs_potash_imports_percent": 4.814993581423624
+        },
+        "new_food_manure_net_power_MWh": 2936806.0356490915,
+        "combined_including_prior_WW_net_power_MWh": 5619126.248409508,
+        "new_plus_WW_power_vs_gross_electricity_imports_percent": 18.676726484503842,
+        "struvite_P_supported_by_core_brine_t": 55622.94147154513,
+        "struvite_product_equivalent_t": 440709.33542176406,
+        "MgOH2_sales_diverted_t": 125675.69894851158,
+        "brine_MgOH2_gross_value_removed_usd": 62837849.474255785,
+        "brine_remaining_gross_proxy_usd": 73260756.41385944,
+        "brine_full_ZLD_30y_option_margin_usd": -465934707.68243766,
+        "brine_full_ZLD_30y_option_capex_usd": 590524238.304,
+        "industrial_food_finance_floor_margin_usd": -14305242.193448089,
+        "industrial_food_capex_floor_usd": 166491986.59324002,
+        "partial_programme_middle_margin_with_full_ZLD_usd": -4113041981.5709085
+      }
+    },
+    {
+      "capture_fraction": 0.5,
+      "municipal_county_streams": {
+        "food": {
+          "wet_t": 17972192.43208774,
+          "nutrients": {
+            "qualified_total_t": {
+              "N": 91131.95560923596,
+              "P": 14269.34568091984,
+              "K2O": 34506.60946960847
+            },
+            "first_season_available_t": {
+              "N": 54679.173365541574,
+              "P": 11415.476544735873,
+              "K2O": 34506.60946960847
+            },
+            "incremental_qualified_t_assumed": {
+              "N": 91131.95560923596,
+              "P": 14269.34568091984,
+              "K2O": 34506.60946960847
+            },
+            "incremental_first_season_t_assumed": {
+              "N": 54679.173365541574,
+              "P": 11415.476544735873,
+              "K2O": 34506.60946960847
+            },
+            "gross_qualified_reference_usd": 207889403.35489863,
+            "incremental_first_season_reference_usd_assumed": 148738506.1543953
+          },
+          "methane_gross_t": 1187864.6219600001,
+          "net_power_MWh": 3061584.36754,
+          "matched_heat_MMBtu": 11094132.56,
+          "power_heat_reference_usd": 356761726.76594996,
+          "power_heat_receipts_assumed_usd": 286804523.96766096,
+          "nutrient_receipts_assumed_usd": 111553879.61579648
+        },
+        "yard": {
+          "wet_t": 4776327.6561,
+          "nutrients": {
+            "qualified_total_t": {
+              "N": 15284.248499520001,
+              "P": 2445.4797599232,
+              "K2O": 9170.549099712001
+            },
+            "first_season_available_t": {
+              "N": 3056.8496999040003,
+              "P": 1956.3838079385603,
+              "K2O": 9170.549099712001
+            },
+            "incremental_qualified_t_assumed": {
+              "N": 15284.248499520001,
+              "P": 2445.4797599232,
+              "K2O": 9170.549099712001
+            },
+            "incremental_first_season_t_assumed": {
+              "N": 3056.8496999040003,
+              "P": 1956.3838079385603,
+              "K2O": 9170.549099712001
+            },
+            "gross_qualified_reference_usd": 38193135.94495955,
+            "incremental_first_season_reference_usd_assumed": 20201782.521112934
+          },
+          "qualified_compost_wet_t": 1401056.1124560004,
+          "nutrient_receipts_assumed_usd": 15151336.8908347
+        },
+        "wood": {
+          "dry_t": 2177243.376,
+          "qualified_char_t": 522538.41024000006,
+          "char_sold_t_assumed": 130634.60256000001,
+          "char_receipts_assumed_usd": 39190380.76800001,
+          "contained_long_lived_CO2_equivalent_t_not_credit": 1072945.5356928,
+          "exported_energy_credit": 0
+        },
+        "gate_mass_wet_t": 25288637.360187743,
+        "product_energy_receipts_assumed_usd": 452700121.24229217
+      },
+      "industrial_food": {
+        "wet_t": 416229.9664831,
+        "nutrients": {
+          "qualified_total_t": {
+            "N": 2110.585615645185,
+            "P": 330.4732740286539,
+            "K2O": 799.1615356475522
+          },
+          "first_season_available_t": {
+            "N": 1266.351369387111,
+            "P": 264.37861922292313,
+            "K2O": 799.1615356475522
+          },
+          "incremental_qualified_t_assumed": {
+            "N": 2110.585615645185,
+            "P": 330.4732740286539,
+            "K2O": 799.1615356475522
+          },
+          "incremental_first_season_t_assumed": {
+            "N": 1266.351369387111,
+            "P": 264.37861922292313,
+            "K2O": 799.1615356475522
+          },
+          "gross_qualified_reference_usd": 4814649.059516517,
+          "incremental_first_season_reference_usd_assumed": 3444734.0615414614
+        },
+        "methane_gross_t": 27510.547400000003,
+        "net_power_MWh": 70905.2701,
+        "matched_heat_MMBtu": 256936.40000000002,
+        "power_heat_reference_usd": 8262482.28397109,
+        "power_heat_receipts_assumed_usd": 6642296.862186089,
+        "nutrient_receipts_assumed_usd": 2583550.5461560963
+      },
+      "manure_national_unallocated": {
+        "wet_t": 75749925.79,
+        "dry_t": 7484274.105,
+        "nutrients": {
+          "qualified_total_t": {
+            "N": 145439.85751680002,
+            "P": 33935.96675392,
+            "K2O": 169679.83376960002
+          },
+          "first_season_available_t": {
+            "N": 87263.91451008001,
+            "P": 27148.773403136,
+            "K2O": 169679.83376960002
+          },
+          "incremental_qualified_t_assumed": {
+            "N": 29087.971503360008,
+            "P": 6787.193350784,
+            "K2O": 33935.96675392001
+          },
+          "incremental_first_season_t_assumed": {
+            "N": 17452.782902016002,
+            "P": 5429.7546806272,
+            "K2O": 33935.96675392001
+          },
+          "gross_qualified_reference_usd": 481580636.90084684,
+          "incremental_first_season_reference_usd_assumed": 75671890.43883228
+        },
+        "net_power_MWh": 2741122.4336581826,
+        "methane_Nm3": 1047798374.7,
+        "capex_usd": 3029997031.6000004,
+        "annual_debt_service_usd": 197105655.19455814,
+        "annual_OM_feedstock_reserve_usd": 890499332.11,
+        "annual_product_receipts_assumed_usd": 261926931.98843917,
+        "annual_margin_after_debt_usd": -825678055.316119,
+        "break_even_service_fee_usd_wet_t": 10.900051012658807
+      },
+      "county_financing_cases": [
+        {
+          "case": "lower_budget",
+          "capex_usd": 9796156198.123096,
+          "annual_debt_service_usd": 637254018.9584535,
+          "annual_replacement_reserve_usd": 97961561.98123096,
+          "annual_fixed_OM_usd": 146942342.97184643,
+          "annual_variable_usd": 1080563887.1664484,
+          "annual_product_energy_receipts_assumed_usd": 452700121.24229217,
+          "annual_gate_receipts_assumed_usd": 1672557060.0,
+          "annual_margin_after_debt_usd": 162535370.16431296,
+          "DSCR_after_reserve": 1.2550558573643293,
+          "break_even_gate_fee_usd_wet_t": 59.711469160174495,
+          "target_DSCR_gate_fee_usd_wet_t": 64.7513138135815,
+          "population_in_nonnegative_counties": 296197815,
+          "county_positive_population_share_percent": 88.43972585931121,
+          "counties_nonnegative_margin": 1009,
+          "counties_DSCR_at_least_1_2": 674,
+          "median_county_break_even_fee_usd_wet_t": 77.08830056365312
+        },
+        {
+          "case": "middle_budget",
+          "capex_usd": 22688549119.685192,
+          "annual_debt_service_usd": 1475922680.1248674,
+          "annual_replacement_reserve_usd": 226885491.19685194,
+          "annual_fixed_OM_usd": 340328236.7952779,
+          "annual_variable_usd": 2003840306.3719578,
+          "annual_product_energy_receipts_assumed_usd": 452700121.24229217,
+          "annual_gate_receipts_assumed_usd": 1672557060.0,
+          "annual_margin_after_debt_usd": -1921719533.2466629,
+          "DSCR_after_reserve": -0.302046210905899,
+          "break_even_gate_fee_usd_wet_t": 142.13010143856874,
+          "target_DSCR_gate_fee_usd_wet_t": 153.80271676459995,
+          "population_in_nonnegative_counties": 0,
+          "county_positive_population_share_percent": 0.0,
+          "counties_nonnegative_margin": 0,
+          "counties_DSCR_at_least_1_2": 0,
+          "median_county_break_even_fee_usd_wet_t": 211.63742705248322
+        },
+        {
+          "case": "higher_budget",
+          "capex_usd": 44491211077.75284,
+          "annual_debt_service_usd": 2894217129.0673203,
+          "annual_replacement_reserve_usd": 444912110.7775284,
+          "annual_fixed_OM_usd": 667368166.1662925,
+          "annual_variable_usd": 3309780189.899784,
+          "annual_product_energy_receipts_assumed_usd": 452700121.24229217,
+          "annual_gate_receipts_assumed_usd": 1672557060.0,
+          "annual_margin_after_debt_usd": -5191020414.6686325,
+          "DSCR_after_reserve": -0.7935836128305522,
+          "break_even_gate_fee_usd_wet_t": 271.4095416415777,
+          "target_DSCR_gate_fee_usd_wet_t": 294.2990084629394,
+          "population_in_nonnegative_counties": 0,
+          "county_positive_population_share_percent": 0.0,
+          "counties_nonnegative_margin": 0,
+          "counties_DSCR_at_least_1_2": 0,
+          "median_county_break_even_fee_usd_wet_t": 445.1778556763639
+        }
+      ],
+      "state_WW_financing_cases": [
+        {
+          "capex_usd_per_resident_at_mid_capture_assumed": 30,
+          "capex_usd": 10557446850.0,
+          "annual_debt_service_usd": 686777068.3762454,
+          "annual_OM_reserve_usd": 1384168152.347226,
+          "annual_nutrient_receipts_assumed_usd": 1784056432.513145,
+          "annual_margin_after_debt_usd": -286888788.2103263
+        },
+        {
+          "capex_usd_per_resident_at_mid_capture_assumed": 75,
+          "capex_usd": 25628617125.0,
+          "annual_debt_service_usd": 1667178323.1042018,
+          "annual_OM_reserve_usd": 1760947409.222226,
+          "annual_nutrient_receipts_assumed_usd": 1784056432.513145,
+          "annual_margin_after_debt_usd": -1644069299.8132827
+        },
+        {
+          "capex_usd_per_resident_at_mid_capture_assumed": 150,
+          "capex_usd": 50747234250.0,
+          "annual_debt_service_usd": 3301180414.3174624,
+          "annual_OM_reserve_usd": 2388912837.347226,
+          "annual_nutrient_receipts_assumed_usd": 1784056432.513145,
+          "annual_margin_after_debt_usd": -3906036819.1515436
+        },
+        {
+          "capex_usd_per_resident_at_mid_capture_assumed": 300,
+          "capex_usd": 100984468500.0,
+          "annual_debt_service_usd": 6569184596.743984,
+          "annual_OM_reserve_usd": 3644843693.597226,
+          "annual_nutrient_receipts_assumed_usd": 1784056432.513145,
+          "annual_margin_after_debt_usd": -8429971857.828065
+        }
+      ],
+      "conditional_residues": [
+        {
+          "resource": "ag_residues",
+          "dry_t": 65090505.095000006,
+          "qualified_char_t": 15621721.222800002,
+          "char_sold_t_assumed": 3905430.3057000004,
+          "char_receipts_assumed_usd": 1171629091.71,
+          "contained_long_lived_CO2_equivalent_t_not_credit": 32076600.910816,
+          "exported_energy_credit": 0,
+          "capex_usd": 39054303057.0,
+          "annual_cost_usd": 16350256647.742884,
+          "annual_margin_char_only_usd": -15178627556.032883,
+          "additional_nutrient_import_offset_t": 0
+        },
+        {
+          "resource": "forest_residues",
+          "dry_t": 12292353.227,
+          "qualified_char_t": 2950164.77448,
+          "char_sold_t_assumed": 737541.19362,
+          "char_receipts_assumed_usd": 221262358.08600003,
+          "contained_long_lived_CO2_equivalent_t_not_credit": 6057671.6702656,
+          "exported_energy_credit": 0,
+          "capex_usd": 7375411936.2,
+          "annual_cost_usd": 2816748816.403011,
+          "annual_margin_char_only_usd": -2595486458.317011,
+          "additional_nutrient_import_offset_t": 0
+        }
+      ],
+      "poultry_reference_extension_excluded": {
+        "wet_t": 6300000.0,
+        "nutrients": {
+          "qualified_total_t": {
+            "N": 70560.0,
+            "P": 39592.10357489812,
+            "K2O": 68544.0
+          },
+          "first_season_available_t": {
+            "N": 35280.0,
+            "P": 31673.6828599185,
+            "K2O": 68544.0
+          },
+          "incremental_qualified_t_assumed": {
+            "N": 0.0,
+            "P": 0.0,
+            "K2O": 0.0
+          },
+          "incremental_first_season_t_assumed": {
+            "N": 0.0,
+            "P": 0.0,
+            "K2O": 0.0
+          },
+          "gross_qualified_reference_usd": 312308316.96741056,
+          "incremental_first_season_reference_usd_assumed": 0.0
+        },
+        "economic_model_status": "NOT PRICED; excluded from core aggregate"
+      },
+      "macro": {
+        "additional_qualified_nutrients_t_assumed": {
+          "N": 137614.76122776116,
+          "P": 23832.492065655693,
+          "K2O": 78412.28685888802
+        },
+        "additional_first_season_nutrients_t_assumed": {
+          "N": 76455.15733684869,
+          "P": 19065.993652524558,
+          "K2O": 78412.28685888802
+        },
+        "additional_first_season_nutrient_replacement_reference_usd": 248056913.17588198,
+        "combined_nutrients_physical_scenario_t": {
+          "N": 748315.2443404812,
+          "P": 323832.4920656557,
+          "K2O": 539279.2811194459
+        },
+        "combined_import_volume_context": {
+          "N_vs_ammonia_imports_percent": 39.38501286002533,
+          "P_vs_assumed_rock_import_P_percent": 72.74693745240326,
+          "K2O_vs_potash_imports_percent": 9.629987162847248
+        },
+        "new_food_manure_net_power_MWh": 5873612.071298183,
+        "combined_including_prior_WW_net_power_MWh": 11238252.496819016,
+        "new_plus_WW_power_vs_gross_electricity_imports_percent": 37.353452969007684,
+        "struvite_P_supported_by_core_brine_t": 111245.88294309026,
+        "struvite_product_equivalent_t": 881418.6708435281,
+        "MgOH2_sales_diverted_t": 251351.39789702315,
+        "brine_MgOH2_gross_value_removed_usd": 125675698.94851157,
+        "brine_remaining_gross_proxy_usd": 146521512.82771888,
+        "brine_full_ZLD_30y_option_margin_usd": -392673951.26857823,
+        "brine_full_ZLD_30y_option_capex_usd": 590524238.304,
+        "industrial_food_finance_floor_margin_usd": -28610484.386896178,
+        "industrial_food_capex_floor_usd": 332983973.18648005,
+        "partial_programme_middle_margin_with_full_ZLD_usd": -7074718843.3698
+      }
+    },
+    {
+      "capture_fraction": 0.75,
+      "municipal_county_streams": {
+        "food": {
+          "wet_t": 26958288.648131613,
+          "nutrients": {
+            "qualified_total_t": {
+              "N": 136697.93341385393,
+              "P": 21404.01852137976,
+              "K2O": 51759.9142044127
+            },
+            "first_season_available_t": {
+              "N": 82018.76004831235,
+              "P": 17123.21481710381,
+              "K2O": 51759.9142044127
+            },
+            "incremental_qualified_t_assumed": {
+              "N": 136697.93341385393,
+              "P": 21404.01852137976,
+              "K2O": 51759.9142044127
+            },
+            "incremental_first_season_t_assumed": {
+              "N": 82018.76004831235,
+              "P": 17123.21481710381,
+              "K2O": 51759.9142044127
+            },
+            "gross_qualified_reference_usd": 311834105.032348,
+            "incremental_first_season_reference_usd_assumed": 223107759.23159295
+          },
+          "methane_gross_t": 1781796.93294,
+          "net_power_MWh": 4592376.551309999,
+          "matched_heat_MMBtu": 16641198.840000002,
+          "power_heat_reference_usd": 535142590.1489249,
+          "power_heat_receipts_assumed_usd": 430206785.95149136,
+          "nutrient_receipts_assumed_usd": 167330819.42369473
+        },
+        "yard": {
+          "wet_t": 7164491.48415,
+          "nutrients": {
+            "qualified_total_t": {
+              "N": 22926.372749280003,
+              "P": 3668.219639884801,
+              "K2O": 13755.823649568001
+            },
+            "first_season_available_t": {
+              "N": 4585.274549856001,
+              "P": 2934.5757119078407,
+              "K2O": 13755.823649568001
+            },
+            "incremental_qualified_t_assumed": {
+              "N": 22926.372749280003,
+              "P": 3668.219639884801,
+              "K2O": 13755.823649568001
+            },
+            "incremental_first_season_t_assumed": {
+              "N": 4585.274549856001,
+              "P": 2934.5757119078407,
+              "K2O": 13755.823649568001
+            },
+            "gross_qualified_reference_usd": 57289703.917439334,
+            "incremental_first_season_reference_usd_assumed": 30302673.7816694
+          },
+          "qualified_compost_wet_t": 2101584.1686840006,
+          "nutrient_receipts_assumed_usd": 22727005.33625205
+        },
+        "wood": {
+          "dry_t": 3265865.0640000002,
+          "qualified_char_t": 783807.61536,
+          "char_sold_t_assumed": 195951.90384,
+          "char_receipts_assumed_usd": 58785571.152,
+          "contained_long_lived_CO2_equivalent_t_not_credit": 1609418.3035392,
+          "exported_energy_credit": 0
+        },
+        "gate_mass_wet_t": 37932956.040281616,
+        "product_energy_receipts_assumed_usd": 679050181.8634381
+      },
+      "industrial_food": {
+        "wet_t": 624344.94972465,
+        "nutrients": {
+          "qualified_total_t": {
+            "N": 3165.8784234677773,
+            "P": 495.7099110429808,
+            "K2O": 1198.7423034713281
+          },
+          "first_season_available_t": {
+            "N": 1899.5270540806664,
+            "P": 396.5679288343847,
+            "K2O": 1198.7423034713281
+          },
+          "incremental_qualified_t_assumed": {
+            "N": 3165.8784234677773,
+            "P": 495.7099110429808,
+            "K2O": 1198.7423034713281
+          },
+          "incremental_first_season_t_assumed": {
+            "N": 1899.5270540806664,
+            "P": 396.5679288343847,
+            "K2O": 1198.7423034713281
+          },
+          "gross_qualified_reference_usd": 7221973.589274775,
+          "incremental_first_season_reference_usd_assumed": 5167101.092312193
+        },
+        "methane_gross_t": 41265.8211,
+        "net_power_MWh": 106357.90514999999,
+        "matched_heat_MMBtu": 385404.60000000003,
+        "power_heat_reference_usd": 12393723.425956633,
+        "power_heat_receipts_assumed_usd": 9963445.293279134,
+        "nutrient_receipts_assumed_usd": 3875325.8192341444
+      },
+      "manure_national_unallocated": {
+        "wet_t": 113624888.685,
+        "dry_t": 11226411.1575,
+        "nutrients": {
+          "qualified_total_t": {
+            "N": 218159.7862752,
+            "P": 50903.95013088001,
+            "K2O": 254519.75065440006
+          },
+          "first_season_available_t": {
+            "N": 130895.87176511998,
+            "P": 40723.16010470401,
+            "K2O": 254519.75065440006
+          },
+          "incremental_qualified_t_assumed": {
+            "N": 43631.957255040004,
+            "P": 10180.790026176002,
+            "K2O": 50903.95013088002
+          },
+          "incremental_first_season_t_assumed": {
+            "N": 26179.174353024,
+            "P": 8144.632020940802,
+            "K2O": 50903.95013088002
+          },
+          "gross_qualified_reference_usd": 722370955.3512702,
+          "incremental_first_season_reference_usd_assumed": 113507835.65824842
+        },
+        "net_power_MWh": 4111683.650487276,
+        "methane_Nm3": 1571697562.0500002,
+        "capex_usd": 4544995547.4,
+        "annual_debt_service_usd": 295658482.79183716,
+        "annual_OM_feedstock_reserve_usd": 1335748998.165,
+        "annual_product_receipts_assumed_usd": 392890397.98265886,
+        "annual_margin_after_debt_usd": -1238517082.9741783,
+        "break_even_service_fee_usd_wet_t": 10.900051012658805
+      },
+      "county_financing_cases": [
+        {
+          "case": "lower_budget",
+          "capex_usd": 13908234297.184647,
+          "annual_debt_service_usd": 904750600.464583,
+          "annual_replacement_reserve_usd": 139082342.97184646,
+          "annual_fixed_OM_usd": 208623514.4577697,
+          "annual_variable_usd": 1620845830.7496727,
+          "annual_product_energy_receipts_assumed_usd": 679050181.8634381,
+          "annual_gate_receipts_assumed_usd": 2508835590.0,
+          "annual_margin_after_debt_usd": 314583483.2195662,
+          "DSCR_after_reserve": 1.347701878349713,
+          "break_even_gate_fee_usd_wet_t": 57.845534222282126,
+          "target_DSCR_gate_fee_usd_wet_t": 62.61579573052744,
+          "population_in_nonnegative_counties": 310378112,
+          "county_positive_population_share_percent": 92.67372596253146,
+          "counties_nonnegative_margin": 1359,
+          "counties_DSCR_at_least_1_2": 902,
+          "median_county_break_even_fee_usd_wet_t": 69.43008849126785
+        },
+        {
+          "case": "middle_budget",
+          "capex_usd": 30888823679.527794,
+          "annual_debt_service_usd": 2009362308.2949119,
+          "annual_replacement_reserve_usd": 308888236.79527795,
+          "annual_fixed_OM_usd": 463332355.19291687,
+          "annual_variable_usd": 3005760459.5579367,
+          "annual_product_energy_receipts_assumed_usd": 679050181.8634381,
+          "annual_gate_receipts_assumed_usd": 2508835590.0,
+          "annual_margin_after_debt_usd": -2599457587.9776053,
+          "DSCR_after_reserve": -0.2936729116728738,
+          "break_even_gate_fee_usd_wet_t": 134.6663616869992,
+          "target_DSCR_gate_fee_usd_wet_t": 145.26064443238363,
+          "population_in_nonnegative_counties": 0,
+          "county_positive_population_share_percent": 0.0,
+          "counties_nonnegative_margin": 0,
+          "counties_DSCR_at_least_1_2": 0,
+          "median_county_break_even_fee_usd_wet_t": 181.00457876294215
+        },
+        {
+          "case": "higher_budget",
+          "capex_usd": 58876816616.62926,
+          "annual_debt_service_usd": 3830021413.870007,
+          "annual_replacement_reserve_usd": 588768166.1662925,
+          "annual_fixed_OM_usd": 883152249.2494389,
+          "annual_variable_usd": 4964670284.849676,
+          "annual_product_energy_receipts_assumed_usd": 679050181.8634381,
+          "annual_gate_receipts_assumed_usd": 2508835590.0,
+          "annual_margin_after_debt_usd": -7078726342.271976,
+          "DSCR_after_reserve": -0.8482210873905658,
+          "break_even_gate_fee_usd_wet_t": 252.75019226265388,
+          "target_DSCR_gate_fee_usd_wet_t": 272.9438276323986,
+          "population_in_nonnegative_counties": 0,
+          "county_positive_population_share_percent": 0.0,
+          "counties_nonnegative_margin": 0,
+          "counties_DSCR_at_least_1_2": 0,
+          "median_county_break_even_fee_usd_wet_t": 368.5957349525113
+        }
+      ],
+      "state_WW_financing_cases": [
+        {
+          "capex_usd_per_resident_at_mid_capture_assumed": 30,
+          "capex_usd": 15581170275.0,
+          "annual_debt_service_usd": 1013577486.6188976,
+          "annual_OM_reserve_usd": 2069877228.5208387,
+          "annual_nutrient_receipts_assumed_usd": 2676084648.769717,
+          "annual_margin_after_debt_usd": -407370066.3700191
+        },
+        {
+          "capex_usd_per_resident_at_mid_capture_assumed": 75,
+          "capex_usd": 38187925687.5,
+          "annual_debt_service_usd": 2484179368.710832,
+          "annual_OM_reserve_usd": 2635046113.8333387,
+          "annual_nutrient_receipts_assumed_usd": 2676084648.769717,
+          "annual_margin_after_debt_usd": -2443140833.7744536
+        },
+        {
+          "capex_usd_per_resident_at_mid_capture_assumed": 150,
+          "capex_usd": 75865851375.0,
+          "annual_debt_service_usd": 4935182505.530724,
+          "annual_OM_reserve_usd": 3576994256.0208387,
+          "annual_nutrient_receipts_assumed_usd": 2676084648.769717,
+          "annual_margin_after_debt_usd": -5836092112.781845
+        },
+        {
+          "capex_usd_per_resident_at_mid_capture_assumed": 300,
+          "capex_usd": 151221702750.0,
+          "annual_debt_service_usd": 9837188779.170506,
+          "annual_OM_reserve_usd": 5460890540.395839,
+          "annual_nutrient_receipts_assumed_usd": 2676084648.769717,
+          "annual_margin_after_debt_usd": -12621994670.796627
+        }
+      ],
+      "conditional_residues": [
+        {
+          "resource": "ag_residues",
+          "dry_t": 97635757.64250001,
+          "qualified_char_t": 23432581.834200006,
+          "char_sold_t_assumed": 5858145.4585500015,
+          "char_receipts_assumed_usd": 1757443637.5650005,
+          "contained_long_lived_CO2_equivalent_t_not_credit": 48114901.36622401,
+          "exported_energy_credit": 0,
+          "capex_usd": 58581454585.50001,
+          "annual_cost_usd": 24525384971.614326,
+          "annual_margin_char_only_usd": -22767941334.049324,
+          "additional_nutrient_import_offset_t": 0
+        },
+        {
+          "resource": "forest_residues",
+          "dry_t": 18438529.8405,
+          "qualified_char_t": 4425247.16172,
+          "char_sold_t_assumed": 1106311.79043,
+          "char_receipts_assumed_usd": 331893537.129,
+          "contained_long_lived_CO2_equivalent_t_not_credit": 9086507.505398402,
+          "exported_energy_credit": 0,
+          "capex_usd": 11063117904.300001,
+          "annual_cost_usd": 4225123224.604517,
+          "annual_margin_char_only_usd": -3893229687.475517,
+          "additional_nutrient_import_offset_t": 0
+        }
+      ],
+      "poultry_reference_extension_excluded": {
+        "wet_t": 9450000.0,
+        "nutrients": {
+          "qualified_total_t": {
+            "N": 105840.0,
+            "P": 59388.15536234718,
+            "K2O": 102816.0
+          },
+          "first_season_available_t": {
+            "N": 52920.0,
+            "P": 47510.52428987774,
+            "K2O": 102816.0
+          },
+          "incremental_qualified_t_assumed": {
+            "N": 0.0,
+            "P": 0.0,
+            "K2O": 0.0
+          },
+          "incremental_first_season_t_assumed": {
+            "N": 0.0,
+            "P": 0.0,
+            "K2O": 0.0
+          },
+          "gross_qualified_reference_usd": 468462475.4511158,
+          "incremental_first_season_reference_usd_assumed": 0.0
+        },
+        "economic_model_status": "NOT PRICED; excluded from core aggregate"
+      },
+      "macro": {
+        "additional_qualified_nutrients_t_assumed": {
+          "N": 206422.14184164171,
+          "P": 35748.73809848354,
+          "K2O": 117618.43028833205
+        },
+        "additional_first_season_nutrients_t_assumed": {
+          "N": 114682.73600527301,
+          "P": 28598.990478786836,
+          "K2O": 117618.43028833205
+        },
+        "additional_first_season_nutrient_replacement_reference_usd": 372085369.763823,
+        "combined_nutrients_physical_scenario_t": {
+          "N": 1122472.8665107219,
+          "P": 485748.73809848353,
+          "K2O": 808918.9216791689
+        },
+        "combined_import_volume_context": {
+          "N_vs_ammonia_imports_percent": 59.077519290038,
+          "P_vs_assumed_rock_import_P_percent": 109.12040617860488,
+          "K2O_vs_potash_imports_percent": 14.444980744270874
+        },
+        "new_food_manure_net_power_MWh": 8810418.106947277,
+        "combined_including_prior_WW_net_power_MWh": 16857378.745228525,
+        "new_plus_WW_power_vs_gross_electricity_imports_percent": 56.03017945351153,
+        "struvite_P_supported_by_core_brine_t": 166868.82441463543,
+        "struvite_product_equivalent_t": 1322128.0062652926,
+        "MgOH2_sales_diverted_t": 377027.09684553475,
+        "brine_MgOH2_gross_value_removed_usd": 188513548.42276737,
+        "brine_remaining_gross_proxy_usd": 219782269.2415783,
+        "brine_full_ZLD_30y_option_margin_usd": -319413194.8547188,
+        "brine_full_ZLD_30y_option_capex_usd": 590524238.304,
+        "industrial_food_finance_floor_margin_usd": -42915726.58034426,
+        "industrial_food_capex_floor_usd": 499475959.77972,
+        "partial_programme_middle_margin_with_full_ZLD_usd": -10036395705.168694
+      }
+    }
+  ]
+}

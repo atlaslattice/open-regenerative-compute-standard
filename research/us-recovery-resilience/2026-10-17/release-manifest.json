@@ -1,0 +1,55 @@
+{
+  "status": "SIMULATED / PROPOSED / NO REALIZED CREDIT",
+  "prototype_version": "0.8",
+  "publication_date_Central": "2026-10-17",
+  "files": {
+    "abc-summary.csv": {
+      "bytes": 2165,
+      "sha256": "aee406a0740129d31d06dca3a2216f279dd87417e9a67733cfea540031eb46b6"
+    },
+    "base-network-results.json": {
+      "bytes": 41631,
+      "sha256": "70b6a55e27b7277fd260a0221dc6591f474059f3cac84aebf4ac0879e56ed022"
+    },
+    "test_abc.py": {
+      "bytes": 3702,
+      "sha256": "0faaea22788fb62b2f3dec1bab1aede9a19d5e9448337903fd2ecdaf14169fbe"
+    },
+    "abc-results.json": {
+      "bytes": 107075,
+      "sha256": "f7b2d1a20cea0d3694bdc9fd7a72e56f8e3923725cb9e43c51e42dbaf045111e"
+    },
+    "ORCS_Recovery_Resilience_v08.zip": {
+      "bytes": 4805155,
+      "sha256": "c3402700eb3f8e6ffc328ecfb9cb2157711634f5c01da711bc5e7c763cb6f7c1"
+    },
+    "README.md": {
+      "bytes": 3617,
+      "sha256": "07dd9d30a49483e48662b9de32c237d5f385c3dcf2ca8b215f211fbbdbc61ac0"
+    },
+    "county-benefit-gates.csv": {
+      "bytes": 336936,
+      "sha256": "ed55ba5b9316bf0d2830c483ddfbd412719007c083e898b9cc0ce09d6a33f14e"
+    },
+    "scenario-inputs.json": {
+      "bytes": 2207,
+      "sha256": "3c34026b12dd583b2c939d88abf804df958b7b5328d80de26b0bcf7f47da7750"
+    },
+    "abc-annual.csv": {
+      "bytes": 29818,
+      "sha256": "60190a57ee30f75c84b598e9ff9ac4788fd5d4bfdb2357e0d98cd25be2a1ebad"
+    },
+    "WHITE_PAPER.md": {
+      "bytes": 27662,
+      "sha256": "dc5e1096c7afb130ea2a1f582c5b61b52369f0d65c295198fefc5b308367f47f"
+    },
+    "run_abc.py": {
+      "bytes": 8614,
+      "sha256": "12327b5213905468653953c09a31ed81bf4ea79c2700aee698ea5b084cb0b874"
+    },
+    "county-benefit-gates.json": {
+      "bytes": 1644582,
+      "sha256": "b2f5a68d6909294da01f87d9eea5a34ced2f67c45f0846f3f2194ba301d9f06b"
+    }
+  }
+}
