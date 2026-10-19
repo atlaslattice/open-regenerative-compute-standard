@@ -1,5 +1,12 @@
 # The Open Regenerative Compute Standard (ORCS)
 
+## Maui resilience simulator — public research release, October 19, 2026
+
+**[Maui Regenerative Resilience Simulator: water, energy, waste and recovery](sites/maui/README.md)** — a runnable 30-year / 168-hour Maui research prototype with 11 scenarios, 19 passing local tests, five retrieved public environmental feeds and dated evidence receipts. Covers Lahaina/West Maui, Kahului–Wailuku, Waikapū, Kīhei and North Shore planning, with independent Kanahā Pond/ecological safeguards. **Proposed infrastructure; incomplete financial model; no field deployment or implied partnership.**
+
+[Download simulator ZIP](sites/maui/Maui_ORCS_v1_2_Verified_Runnable.zip) · [Verified results](sites/maui/simulator-v1.2/VERIFICATION_v1_2.md) · [Maui contribution needs](sites/maui/CONTRIBUTING.md) · [Structured metadata](sites/maui/metadata.json)
+
+
 > *The data center is the farm. The watershed is the field. The thermal waste is the compost.*
 
 Twelve AI perspectives — Claude, Gemini, Grok, GPT, Manus, DeepSeek, Qwen3, GitHub Copilot, Amazon Alexa, Notion AI, Llama, and Mistral — converge through a 12-seat Pantheon Council on a shared thesis:

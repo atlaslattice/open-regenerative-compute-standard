@@ -1,0 +1,8 @@
+{
+  "url": "https://api.open-meteo.com/v1/forecast?latitude=20.8894&longitude=-156.4724&hourly=temperature_2m%2Cprecipitation%2Cwind_speed_10m%2Cwind_gusts_10m%2Cshortwave_radiation%2Crelative_humidity_2m%2Ccloud_cover&forecast_days=7&timezone=Pacific%2FHonolulu",
+  "retrieved_utc": "2026-10-19T13:55:26.875228+00:00",
+  "http_status": 200,
+  "sha256": "707b6c8c6eba684d98f541404411edb3c0241ebb283ade013bf7d05dd33708ef",
+  "bytes": 8832,
+  "content_type": "application/json; charset=utf-8"
+}

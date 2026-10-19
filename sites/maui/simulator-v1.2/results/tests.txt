@@ -1,0 +1,25 @@
+test_bioenergy_matches_annual_budget (test_hardening.HardenedContracts.test_bioenergy_matches_annual_budget) ... ok
+test_critical_priority_and_deficit_split (test_hardening.HardenedContracts.test_critical_priority_and_deficit_split) ... ok
+test_empty_weather_does_not_claim_forecast (test_hardening.HardenedContracts.test_empty_weather_does_not_claim_forecast) ... ok
+test_failed_refresh_retains_cache_as_stale (test_hardening.HardenedContracts.test_failed_refresh_retains_cache_as_stale) ... ok
+test_forecast_starts_current_hst_hour (test_hardening.HardenedContracts.test_forecast_starts_current_hst_hour) ... ok
+test_hourly_electric_balance_and_storage (test_hardening.HardenedContracts.test_hourly_electric_balance_and_storage) ... ok
+test_impossible_inputs_rejected_every_entry (test_hardening.HardenedContracts.test_impossible_inputs_rejected_every_entry) ... ok
+test_islanded_grid_never_exports (test_hardening.HardenedContracts.test_islanded_grid_never_exports) ... ok
+test_schema_units_and_timestamps_rejected (test_hardening.HardenedContracts.test_schema_units_and_timestamps_rejected) ... ok
+test_stale_and_future_cache_rejected (test_hardening.HardenedContracts.test_stale_and_future_cache_rejected) ... ok
+test_all_domains_unverified_until_measured (test_model.MauiSimulatorContractTests.test_all_domains_unverified_until_measured) ... ok
+test_biosolids_not_counted_again_as_landfill_food (test_model.MauiSimulatorContractTests.test_biosolids_not_counted_again_as_landfill_food) ... ok
+test_conditional_biofuel_excluded_from_cashflows (test_model.MauiSimulatorContractTests.test_conditional_biofuel_excluded_from_cashflows) ... ok
+test_counterfactual_zero_increment (test_model.MauiSimulatorContractTests.test_counterfactual_zero_increment) ... ok
+test_feedstock_splitting_no_double_count (test_model.MauiSimulatorContractTests.test_feedstock_splitting_no_double_count) ... ok
+test_live_weather_forecast_changes_week_output (test_model.MauiSimulatorContractTests.test_live_weather_forecast_changes_week_output) ... ok
+test_override_changes_results (test_model.MauiSimulatorContractTests.test_override_changes_results) ... ok
+test_storm_outage_and_unserved_load (test_model.MauiSimulatorContractTests.test_storm_outage_and_unserved_load) ... ok
+test_thirty_years_is_thirty (test_model.MauiSimulatorContractTests.test_thirty_years_is_thirty) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.040s
+
+OK
+forecast STALE_CACHE

@@ -1,0 +1,12 @@
+scenario,npv_screening_dollars,initial_capex_incomplete_dollars,water_substitution_mgd,diverted_short_tpy,weekly_grid_import_mwh,weekly_grid_export_mwh,weekly_critical_unserved_mwh,weekly_flexible_unserved_mwh,origin
+status_quo,0,0,0.0,0,139.51,0.0,0.0,0.0,SYNTHETIC
+retrofit_first,-115058864,52030000,0.822,28750.0,0.0,227.73,0.0,0.0,SYNTHETIC
+distributed,-158565373,105840000,1.641,45400.0,0.0,485.35,0.0,0.0,SYNTHETIC
+hybrid_htl,-245479722,192400000,1.846,51100.0,0.0,581.59,0.0,0.0,SYNTHETIC
+hybrid_compute,-286356272,221500000,1.846,51100.0,0.0,236.01,0.0,0.0,SYNTHETIC
+storm_outage,-291593127,221500000,1.846,51100.0,5.44,61.02,7.01,116.0,SYNTHETIC
+drought,-291743833,221500000,1.386,51100.0,0.0,294.48,0.0,0.0,SYNTHETIC
+fuel_shortage,-287859754,221500000,1.846,51100.0,0.0,236.01,0.0,0.0,SYNTHETIC
+wildfire,-291303789,221500000,1.846,51100.0,35.59,0.0,0.0,0.0,SYNTHETIC
+low_commodity_price,-286356272,221500000,1.846,51100.0,0.0,236.01,0.0,0.0,SYNTHETIC
+technology_underperformance,-288665727,221500000,1.846,51100.0,0.0,173.35,0.0,0.0,SYNTHETIC

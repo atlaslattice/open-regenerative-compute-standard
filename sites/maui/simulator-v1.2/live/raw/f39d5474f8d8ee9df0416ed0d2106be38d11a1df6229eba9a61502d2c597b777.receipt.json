@@ -1,0 +1,8 @@
+{
+  "url": "https://services.swpc.noaa.gov/products/noaa-scales.json",
+  "retrieved_utc": "2026-10-19T13:55:38.904131+00:00",
+  "http_status": 200,
+  "sha256": "f39d5474f8d8ee9df0416ed0d2106be38d11a1df6229eba9a61502d2c597b777",
+  "bytes": 1102,
+  "content_type": "application/json"
+}

@@ -1,0 +1,138 @@
+{
+  "scenario_runs": 11,
+  "http_checks": 11,
+  "summary": [
+    {
+      "scenario": "status_quo",
+      "npv_screening_dollars": 0,
+      "initial_capex_incomplete_dollars": 0,
+      "water_substitution_mgd": 0.0,
+      "diverted_short_tpy": 0,
+      "weekly_grid_import_mwh": 139.51,
+      "weekly_grid_export_mwh": 0.0,
+      "weekly_critical_unserved_mwh": 0.0,
+      "weekly_flexible_unserved_mwh": 0.0,
+      "origin": "SYNTHETIC"
+    },
+    {
+      "scenario": "retrofit_first",
+      "npv_screening_dollars": -115058864,
+      "initial_capex_incomplete_dollars": 52030000,
+      "water_substitution_mgd": 0.822,
+      "diverted_short_tpy": 28750.0,
+      "weekly_grid_import_mwh": 0.0,
+      "weekly_grid_export_mwh": 227.73,
+      "weekly_critical_unserved_mwh": 0.0,
+      "weekly_flexible_unserved_mwh": 0.0,
+      "origin": "SYNTHETIC"
+    },
+    {
+      "scenario": "distributed",
+      "npv_screening_dollars": -158565373,
+      "initial_capex_incomplete_dollars": 105840000,
+      "water_substitution_mgd": 1.641,
+      "diverted_short_tpy": 45400.0,
+      "weekly_grid_import_mwh": 0.0,
+      "weekly_grid_export_mwh": 485.35,
+      "weekly_critical_unserved_mwh": 0.0,
+      "weekly_flexible_unserved_mwh": 0.0,
+      "origin": "SYNTHETIC"
+    },
+    {
+      "scenario": "hybrid_htl",
+      "npv_screening_dollars": -245479722,
+      "initial_capex_incomplete_dollars": 192400000,
+      "water_substitution_mgd": 1.846,
+      "diverted_short_tpy": 51100.0,
+      "weekly_grid_import_mwh": 0.0,
+      "weekly_grid_export_mwh": 581.59,
+      "weekly_critical_unserved_mwh": 0.0,
+      "weekly_flexible_unserved_mwh": 0.0,
+      "origin": "SYNTHETIC"
+    },
+    {
+      "scenario": "hybrid_compute",
+      "npv_screening_dollars": -286356272,
+      "initial_capex_incomplete_dollars": 221500000,
+      "water_substitution_mgd": 1.846,
+      "diverted_short_tpy": 51100.0,
+      "weekly_grid_import_mwh": 0.0,
+      "weekly_grid_export_mwh": 236.01,
+      "weekly_critical_unserved_mwh": 0.0,
+      "weekly_flexible_unserved_mwh": 0.0,
+      "origin": "SYNTHETIC"
+    },
+    {
+      "scenario": "storm_outage",
+      "npv_screening_dollars": -291593127,
+      "initial_capex_incomplete_dollars": 221500000,
+      "water_substitution_mgd": 1.846,
+      "diverted_short_tpy": 51100.0,
+      "weekly_grid_import_mwh": 5.44,
+      "weekly_grid_export_mwh": 61.02,
+      "weekly_critical_unserved_mwh": 7.01,
+      "weekly_flexible_unserved_mwh": 116.0,
+      "origin": "SYNTHETIC"
+    },
+    {
+      "scenario": "drought",
+      "npv_screening_dollars": -291743833,
+      "initial_capex_incomplete_dollars": 221500000,
+      "water_substitution_mgd": 1.386,
+      "diverted_short_tpy": 51100.0,
+      "weekly_grid_import_mwh": 0.0,
+      "weekly_grid_export_mwh": 294.48,
+      "weekly_critical_unserved_mwh": 0.0,
+      "weekly_flexible_unserved_mwh": 0.0,
+      "origin": "SYNTHETIC"
+    },
+    {
+      "scenario": "fuel_shortage",
+      "npv_screening_dollars": -287859754,
+      "initial_capex_incomplete_dollars": 221500000,
+      "water_substitution_mgd": 1.846,
+      "diverted_short_tpy": 51100.0,
+      "weekly_grid_import_mwh": 0.0,
+      "weekly_grid_export_mwh": 236.01,
+      "weekly_critical_unserved_mwh": 0.0,
+      "weekly_flexible_unserved_mwh": 0.0,
+      "origin": "SYNTHETIC"
+    },
+    {
+      "scenario": "wildfire",
+      "npv_screening_dollars": -291303789,
+      "initial_capex_incomplete_dollars": 221500000,
+      "water_substitution_mgd": 1.846,
+      "diverted_short_tpy": 51100.0,
+      "weekly_grid_import_mwh": 35.59,
+      "weekly_grid_export_mwh": 0.0,
+      "weekly_critical_unserved_mwh": 0.0,
+      "weekly_flexible_unserved_mwh": 0.0,
+      "origin": "SYNTHETIC"
+    },
+    {
+      "scenario": "low_commodity_price",
+      "npv_screening_dollars": -286356272,
+      "initial_capex_incomplete_dollars": 221500000,
+      "water_substitution_mgd": 1.846,
+      "diverted_short_tpy": 51100.0,
+      "weekly_grid_import_mwh": 0.0,
+      "weekly_grid_export_mwh": 236.01,
+      "weekly_critical_unserved_mwh": 0.0,
+      "weekly_flexible_unserved_mwh": 0.0,
+      "origin": "SYNTHETIC"
+    },
+    {
+      "scenario": "technology_underperformance",
+      "npv_screening_dollars": -288665727,
+      "initial_capex_incomplete_dollars": 221500000,
+      "water_substitution_mgd": 1.846,
+      "diverted_short_tpy": 51100.0,
+      "weekly_grid_import_mwh": 0.0,
+      "weekly_grid_export_mwh": 173.35,
+      "weekly_critical_unserved_mwh": 0.0,
+      "weekly_flexible_unserved_mwh": 0.0,
+      "origin": "SYNTHETIC"
+    }
+  ]
+}

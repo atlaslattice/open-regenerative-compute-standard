@@ -1,0 +1,8 @@
+{
+  "url": "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?date=latest&station=1615680&product=water_level&datum=MLLW&units=metric&time_zone=gmt&format=json&application=maui_orcs",
+  "retrieved_utc": "2026-10-19T13:55:32.746606+00:00",
+  "http_status": 200,
+  "sha256": "6c48a742af098d786981b7e7de7cc426fb5c91ae98956b226bba69fa986ed285",
+  "bytes": 181,
+  "content_type": "application/json;charset=UTF-8"
+}

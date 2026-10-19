@@ -1,0 +1,8 @@
+{
+  "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&latitude=20.8894&longitude=-156.4724&maxradiuskm=500&starttime=2026-10-12&orderby=time&limit=100",
+  "retrieved_utc": "2026-10-19T13:55:36.178799+00:00",
+  "http_status": 200,
+  "sha256": "c064199406448f0cd3c0848b5960f602477afc392166333e2d42dff4cb3ff42b",
+  "bytes": 73152,
+  "content_type": "application/json; charset=utf-8"
+}

@@ -1,0 +1,89 @@
+{
+  "version": "maui-v1.2-alpha-2026-10-19",
+  "scope": "Maui island demonstration; historical countywide numbers excluded unless verified island-only",
+  "evidence": "SIMULATED / PROPOSED; no realized credits",
+  "historical_disposed_food_short_tpy": 41000,
+  "historical_disposed_green_short_tpy": 32000,
+  "maui_wwtp_reference_mgd": 11.7,
+  "baseline_reuse_mgd_assumed": 3.5,
+  "potable_substitution_factor": 0.35,
+  "freshwater_reuse_demand_mgd": 9.0,
+  "food_dry_fraction": 0.25,
+  "sludge_dry_fraction": 0.15,
+  "htl_oil_yield_per_dry_tonne": 0.35,
+  "htl_upgraded_energy_fraction": 0.7,
+  "biocrude_hhv_mj_per_kg": 39.0,
+  "methane_m3_per_short_ton_food": 90,
+  "methane_electric_conversion_efficiency": 0.35,
+  "htl_electric_kwh_per_wet_short_ton": 95,
+  "htl_thermal_kwh_per_wet_short_ton": 300,
+  "htl_recoverable_heat_fraction": 0.25,
+  "ad_electric_kwh_per_wet_short_ton": 45,
+  "green_processing_kwh_per_short_ton": 25,
+  "baseline_wwtp_kwh_per_m3": 0.45,
+  "mbropt_wwtp_kwh_per_m3": 0.34,
+  "desal_kwh_per_m3": 3.5,
+  "reclaimed_water_kwh_per_m3": 0.18,
+  "microhaul_kwh_per_short_ton": 12,
+  "pv_solar_capacity_factor": 0.22,
+  "pv_derating": 0.82,
+  "ad_dispatch_annual_hours": 7500,
+  "data_center_pue": 1.3,
+  "data_center_it_mw": 0.0,
+  "data_center_heat_recovery_fraction": 0.0,
+  "annual_thermal_heat_demand_mwh": 3500,
+  "grid_purchase_dollars_per_kwh": 0.25,
+  "grid_export_dollars_per_kwh": 0.11,
+  "heat_purchase_dollars_per_kwh_thermal": 0.075,
+  "reclaimed_water_value_dollars_per_kgal": 3.0,
+  "imported_fuel_value_dollars_per_mwh": 130,
+  "landfill_cost_avoided_dollars_per_short_ton": 85,
+  "soil_product_value_dollars_per_short_ton": 18,
+  "annual_base_opex_dollars": 8500000,
+  "new_collection_opex_dollars_per_short_ton": 48,
+  "pv_capex_dollars_per_kw": 1500,
+  "digestion_capex_dollars": 22000000,
+  "water_capex_dollars": 60000000,
+  "microhaul_capex_dollars": 9000000,
+  "htl_capex_dollars": 40000000,
+  "data_center_capex_dollars_per_it_mw": 9500000,
+  "restoration_capex_dollars": 6000000,
+  "restoration_annual_opex_dollars": 360000,
+  "annual_maintenance_capex_fraction": 0.017,
+  "discount_rate": 0.07,
+  "asset_replacement_schedule": {
+    "battery_years": [
+      12,
+      24
+    ],
+    "membrane_years": [
+      7,
+      14,
+      21,
+      28
+    ],
+    "compute_years": [
+      6,
+      12,
+      18,
+      24
+    ]
+  },
+  "synthetic_hazard_events": {
+    "drought": [
+      2034,
+      2035,
+      2044
+    ],
+    "cyclone": [
+      2031,
+      2045
+    ],
+    "grid_outage": [
+      2029,
+      2038,
+      2051
+    ]
+  },
+  "ad_chp_recoverable_heat_fraction": 0.4
+}

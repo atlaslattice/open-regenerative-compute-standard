@@ -1,0 +1,81 @@
+{
+  "tested_utc": "2026-10-19T13:57:43.190654+00:00",
+  "python": "3.12.14",
+  "checks": [
+    {
+      "path": "/",
+      "expected": 200,
+      "actual": 200,
+      "bytes": 15449,
+      "sha256": "a02d7309380699eff96ed76823d637372be09ba1807d8983c6a16630feb488a1"
+    },
+    {
+      "path": "/api/catalog",
+      "expected": 200,
+      "actual": 200,
+      "bytes": 16821,
+      "sha256": "b50460c8fe5508eb75ea6e28108c2bed64e46550390b42850a6a08fc177f4fc6"
+    },
+    {
+      "path": "/api/live",
+      "expected": 200,
+      "actual": 200,
+      "bytes": 30058,
+      "sha256": "6487b202ceb43511f9f86a91aa216fddd9e251a8dadaa9e6d26aa198982403de"
+    },
+    {
+      "path": "/api/compare",
+      "expected": 200,
+      "actual": 200,
+      "bytes": 1737,
+      "sha256": "01038c0e95fa438ae9ee0bdc2f14eee40883d698b50858975b12885ecb639963"
+    },
+    {
+      "path": "/api/annual?scenario=hybrid_compute",
+      "expected": 200,
+      "actual": 200,
+      "bytes": 62381,
+      "sha256": "453614828e38d15ee86f398b7586f99578954323b95275b5aac837ee0d0b8282"
+    },
+    {
+      "path": "/api/dispatch?scenario=storm_outage",
+      "expected": 200,
+      "actual": 200,
+      "bytes": 80618,
+      "sha256": "4a4e1f0e30d7225a3b387a876ebeb60fd2ebdc762a6c372370a43c434fff6cd4"
+    },
+    {
+      "path": "/api/dispatch?scenario=hybrid_compute",
+      "expected": 200,
+      "actual": 200,
+      "bytes": 81064,
+      "sha256": "3c638d4883e36ae77c6978c140509cd80ceb9a9a6b9aa7ef386029e5439615e8"
+    },
+    {
+      "path": "/api/annual?scenario=missing",
+      "expected": 400,
+      "actual": 400,
+      "bytes": 29,
+      "sha256": "420f52aa9119c3d9a78ced28d2b811537bfa2a9bbe92f81a84c98bec9107b458"
+    },
+    {
+      "path": "/api/annual?solar_mw=-1",
+      "expected": 400,
+      "actual": 400,
+      "bytes": 46,
+      "sha256": "a61df1d491b3999846fd2a910085c7c355ccfc5547529f29282563187877e55e"
+    },
+    {
+      "path": "/api/annual?ad_share=.8&htl_share=.5",
+      "expected": 400,
+      "actual": 400,
+      "bytes": 47,
+      "sha256": "1db64ca6223ae5c49370a0e76db6c49955861fe6cafdbc83ccaeb8830bda2fc4"
+    },
+    {
+      "path": "/api/annual",
+      "method": "POST",
+      "actual": 405
+    }
+  ]
+}
