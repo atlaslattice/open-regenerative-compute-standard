@@ -1,0 +1,519 @@
+{
+  "status": "ILLUSTRATIVE FLOW AND CAPACITY MODEL; NOT A 2026 WASTE FORECAST, RESERVE OR PERFORMANCE GUARANTEE",
+  "source_data": {
+    "year": 2018,
+    "msw_generated_million_short_t_per_year": 292.36,
+    "msw_landfill_million_short_t_per_year": 146.12,
+    "cd_generated_million_short_t_per_year": 600.33,
+    "cd_landfill_million_short_t_per_year": 143.78,
+    "msw_landfill_metals_million_short_t_per_year": {
+      "ferrous": 10.53,
+      "aluminum": 2.66,
+      "other_nonferrous": 0.74
+    },
+    "cd_landfill_materials_rounded_million_short_t_per_year": {
+      "concrete": 71.2,
+      "wood": 29.6,
+      "gypsum_drywall": 13.2,
+      "ferrous_proxy_for_reported_metal": 1.1,
+      "brick_clay": 10.8,
+      "asphalt_shingles": 13.0,
+      "asphalt_pavement": 4.9
+    },
+    "sources": [
+      "https://www.epa.gov/facts-and-figures-about-materials-waste-and-recycling/national-overview-facts-and-figures-materials",
+      "https://www.epa.gov/facts-and-figures-about-materials-waste-and-recycling/construction-and-demolition-debris-material",
+      "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P1019BN2.TXT"
+    ]
+  },
+  "projection_convention": "Planning years 1-5 use the 2018 annual rate times (1+g)^(year-1). No growth from 2018 to a claimed 2026 level is assumed. Disposal shares and composition held constant.",
+  "assumptions": {
+    "target_units": 5000,
+    "states": 50,
+    "annual_unit_intake_t": 6000,
+    "ramp": [
+      0.1,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "capture": 0.8,
+    "buyer_acceptance": 0.9,
+    "refinery_yields": {
+      "ferrous": 0.95,
+      "aluminum": 0.95,
+      "copper": 0.97
+    },
+    "consumption_t_year_from_v07": {
+      "ferrous": 95000000,
+      "aluminum": 5700000,
+      "copper": 2200000
+    }
+  },
+  "projections": [
+    {
+      "annual_growth": 0,
+      "annual": [
+        {
+          "year": 1,
+          "baseline_multiplier": 1,
+          "msw_generated_t": 265224530.5864,
+          "msw_landfill_t": 132557834.2088,
+          "cd_generated_t": 544610214.9642,
+          "cd_landfill_t": 130435021.9172
+        },
+        {
+          "year": 2,
+          "baseline_multiplier": 1,
+          "msw_generated_t": 265224530.5864,
+          "msw_landfill_t": 132557834.2088,
+          "cd_generated_t": 544610214.9642,
+          "cd_landfill_t": 130435021.9172
+        },
+        {
+          "year": 3,
+          "baseline_multiplier": 1,
+          "msw_generated_t": 265224530.5864,
+          "msw_landfill_t": 132557834.2088,
+          "cd_generated_t": 544610214.9642,
+          "cd_landfill_t": 130435021.9172
+        },
+        {
+          "year": 4,
+          "baseline_multiplier": 1,
+          "msw_generated_t": 265224530.5864,
+          "msw_landfill_t": 132557834.2088,
+          "cd_generated_t": 544610214.9642,
+          "cd_landfill_t": 130435021.9172
+        },
+        {
+          "year": 5,
+          "baseline_multiplier": 1,
+          "msw_generated_t": 265224530.5864,
+          "msw_landfill_t": 132557834.2088,
+          "cd_generated_t": 544610214.9642,
+          "cd_landfill_t": 130435021.9172
+        }
+      ],
+      "five_year": {
+        "msw_generated_t": 1326122652.932,
+        "msw_landfill_t": 662789171.044,
+        "cd_generated_t": 2723051074.821,
+        "cd_landfill_t": 652175109.586,
+        "combined_generated_t": 4049173727.7530003,
+        "combined_landfill_t": 1314964280.63
+      },
+      "five_year_landfill_t_per_state_equal_split": 26299285.612600002
+    },
+    {
+      "annual_growth": 0.01,
+      "annual": [
+        {
+          "year": 1,
+          "baseline_multiplier": 1.0,
+          "msw_generated_t": 265224530.5864,
+          "msw_landfill_t": 132557834.2088,
+          "cd_generated_t": 544610214.9642,
+          "cd_landfill_t": 130435021.9172
+        },
+        {
+          "year": 2,
+          "baseline_multiplier": 1.01,
+          "msw_generated_t": 267876775.892264,
+          "msw_landfill_t": 133883412.550888,
+          "cd_generated_t": 550056317.113842,
+          "cd_landfill_t": 131739372.136372
+        },
+        {
+          "year": 3,
+          "baseline_multiplier": 1.0201,
+          "msw_generated_t": 270555543.65118665,
+          "msw_landfill_t": 135222246.67639688,
+          "cd_generated_t": 555556880.2849804,
+          "cd_landfill_t": 133056765.85773572
+        },
+        {
+          "year": 4,
+          "baseline_multiplier": 1.0303010000000001,
+          "msw_generated_t": 273261099.0876985,
+          "msw_landfill_t": 136574469.14316088,
+          "cd_generated_t": 561112449.0878303,
+          "cd_landfill_t": 134387333.5163131
+        },
+        {
+          "year": 5,
+          "baseline_multiplier": 1.04060401,
+          "msw_generated_t": 275993710.0785755,
+          "msw_landfill_t": 137940213.83459246,
+          "cd_generated_t": 566723573.5787085,
+          "cd_landfill_t": 135731206.85147622
+        }
+      ],
+      "five_year": {
+        "msw_generated_t": 1352911659.2961247,
+        "msw_landfill_t": 676178176.4138383,
+        "cd_generated_t": 2778059435.029561,
+        "cd_landfill_t": 665349700.2790971,
+        "combined_generated_t": 4130971094.3256855,
+        "combined_landfill_t": 1341527876.6929355
+      },
+      "five_year_landfill_t_per_state_equal_split": 26830557.53385871
+    },
+    {
+      "annual_growth": 0.02,
+      "annual": [
+        {
+          "year": 1,
+          "baseline_multiplier": 1.0,
+          "msw_generated_t": 265224530.5864,
+          "msw_landfill_t": 132557834.2088,
+          "cd_generated_t": 544610214.9642,
+          "cd_landfill_t": 130435021.9172
+        },
+        {
+          "year": 2,
+          "baseline_multiplier": 1.02,
+          "msw_generated_t": 270529021.198128,
+          "msw_landfill_t": 135208990.89297602,
+          "cd_generated_t": 555502419.263484,
+          "cd_landfill_t": 133043722.355544
+        },
+        {
+          "year": 3,
+          "baseline_multiplier": 1.0404,
+          "msw_generated_t": 275939601.6220906,
+          "msw_landfill_t": 137913170.71083552,
+          "cd_generated_t": 566612467.6487536,
+          "cd_landfill_t": 135704596.8026549
+        },
+        {
+          "year": 4,
+          "baseline_multiplier": 1.0612080000000002,
+          "msw_generated_t": 281458393.65453243,
+          "msw_landfill_t": 140671434.12505224,
+          "cd_generated_t": 577944717.0017289,
+          "cd_landfill_t": 138418688.738708
+        },
+        {
+          "year": 5,
+          "baseline_multiplier": 1.08243216,
+          "msw_generated_t": 287087561.527623,
+          "msw_landfill_t": 143484862.80755326,
+          "cd_generated_t": 589503611.3417634,
+          "cd_landfill_t": 141187062.51348212
+        }
+      ],
+      "five_year": {
+        "msw_generated_t": 1380239108.588774,
+        "msw_landfill_t": 689836292.7452171,
+        "cd_generated_t": 2834173430.2199297,
+        "cd_landfill_t": 678789092.327589,
+        "combined_generated_t": 4214412538.8087034,
+        "combined_landfill_t": 1368625385.0728061
+      },
+      "five_year_landfill_t_per_state_equal_split": 27372507.701456122
+    }
+  ],
+  "five_year_flat_landfill_material_pools_t_before_capture": {
+    "msw": {
+      "ferrous": 47763276.561,
+      "aluminum": 12065557.042000001,
+      "other_nonferrous": 3356583.538
+    },
+    "cd": {
+      "concrete": 322912849.80892354,
+      "wood": 134244667.89809182,
+      "gypsum_drywall": 59865865.4140139,
+      "ferrous_proxy_for_reported_metal": 4988822.1178344935,
+      "brick_clay": 48981162.61146592,
+      "asphalt_shingles": 58958806.8471349,
+      "asphalt_pavement": 22222934.88853547
+    }
+  },
+  "limitations": [
+    "C&D Al/Cu and MSW copper are not separately quantified in these tables. Copper shares 0/25/50% are sensitivities, not measured estimates; zero means no credit.",
+    "C&D reported metal is modeled as ferrous using the steel generation category as a proxy; material characterization is required.",
+    "Existing recovery and next-use tonnage excluded from incremental feed; no displacement/additionality audit has been performed.",
+    "Legacy fractions and all capture/yields remain synthetic. Average national disposal composition is not a site assay.",
+    "The 20t/day capacity is carried over as an assumption. C&D handling and crushing capability are not demonstrated; regional partners need independent capacity and cost verification.",
+    "No mineral, plastic, wood or organic product credited; gross mineral inventory is not saleable aggregate or refinery feed.",
+    "Residues and refining losses all assumed landfilled for the closed mass ledger. Actual treatment, soil management, oxidation and routing may differ.",
+    "Legacy C&D stock unknown; prior 10bn tonne legacy assumption is not a verified combined MSW+C&D inventory.",
+    "No automatic transfer of prior ROI, avoided-mining or carbon totals to these changed feed mixes. Fresh collection, preprocessing, residual treatment and partner economics need a new cost model.",
+    "Consumption-equivalent days assume all modeled finished output is retained domestically, qualifies for use, and is stored without withdrawals; Vault eligibility and demand by grade are unverified.",
+    "Industrial process wastes, wastewater sludge, mine tailings, vehicles and separate sector streams are not comprehensively included. Equal state splits are arithmetic only."
+  ],
+  "cases": [
+    {
+      "allocation": "legacy_only",
+      "shares": {
+        "legacy": 1.0,
+        "fresh_msw": 0,
+        "fresh_cd": 0
+      },
+      "assumed_copper_share_of_msw_other_nonferrous": 0,
+      "five_year_intake_by_stream_t": {
+        "legacy": 78000000.0,
+        "fresh_msw": 0.0,
+        "fresh_cd": 0.0
+      },
+      "five_year_finished_metal_t": {
+        "ferrous": 1600560.0,
+        "aluminum": 373464.0,
+        "copper": 163425.6
+      },
+      "gross_consumption_equivalent_stock_days": {
+        "ferrous": 6.149519999999999,
+        "aluminum": 23.9148,
+        "copper": 27.113792727272727
+      },
+      "fresh_finished_product_diversion_t": 0.0,
+      "legacy_finished_product_removed_t": 2137449.6,
+      "uncredited_residual_plus_conversion_loss_t": 75862550.4,
+      "fresh_landfill_addition_after_product_diversion_t": 1314964280.63,
+      "net_addition_to_buried_mass_after_legacy_product_removal_t": 1312826831.0300002,
+      "financial_roi": null
+    },
+    {
+      "allocation": "legacy_only",
+      "shares": {
+        "legacy": 1.0,
+        "fresh_msw": 0,
+        "fresh_cd": 0
+      },
+      "assumed_copper_share_of_msw_other_nonferrous": 0.25,
+      "five_year_intake_by_stream_t": {
+        "legacy": 78000000.0,
+        "fresh_msw": 0.0,
+        "fresh_cd": 0.0
+      },
+      "five_year_finished_metal_t": {
+        "ferrous": 1600560.0,
+        "aluminum": 373464.0,
+        "copper": 163425.6
+      },
+      "gross_consumption_equivalent_stock_days": {
+        "ferrous": 6.149519999999999,
+        "aluminum": 23.9148,
+        "copper": 27.113792727272727
+      },
+      "fresh_finished_product_diversion_t": 0.0,
+      "legacy_finished_product_removed_t": 2137449.6,
+      "uncredited_residual_plus_conversion_loss_t": 75862550.4,
+      "fresh_landfill_addition_after_product_diversion_t": 1314964280.63,
+      "net_addition_to_buried_mass_after_legacy_product_removal_t": 1312826831.0300002,
+      "financial_roi": null
+    },
+    {
+      "allocation": "legacy_only",
+      "shares": {
+        "legacy": 1.0,
+        "fresh_msw": 0,
+        "fresh_cd": 0
+      },
+      "assumed_copper_share_of_msw_other_nonferrous": 0.5,
+      "five_year_intake_by_stream_t": {
+        "legacy": 78000000.0,
+        "fresh_msw": 0.0,
+        "fresh_cd": 0.0
+      },
+      "five_year_finished_metal_t": {
+        "ferrous": 1600560.0,
+        "aluminum": 373464.0,
+        "copper": 163425.6
+      },
+      "gross_consumption_equivalent_stock_days": {
+        "ferrous": 6.149519999999999,
+        "aluminum": 23.9148,
+        "copper": 27.113792727272727
+      },
+      "fresh_finished_product_diversion_t": 0.0,
+      "legacy_finished_product_removed_t": 2137449.6,
+      "uncredited_residual_plus_conversion_loss_t": 75862550.4,
+      "fresh_landfill_addition_after_product_diversion_t": 1314964280.63,
+      "net_addition_to_buried_mass_after_legacy_product_removal_t": 1312826831.0300002,
+      "financial_roi": null
+    },
+    {
+      "allocation": "illustrative_integrated_40_30_30",
+      "shares": {
+        "legacy": 0.4,
+        "fresh_msw": 0.3,
+        "fresh_cd": 0.3
+      },
+      "assumed_copper_share_of_msw_other_nonferrous": 0,
+      "five_year_intake_by_stream_t": {
+        "legacy": 31200000.0,
+        "fresh_msw": 23400000.0,
+        "fresh_cd": 23400000.0
+      },
+      "five_year_finished_metal_t": {
+        "ferrous": 1916087.51842961,
+        "aluminum": 440754.99501779355,
+        "copper": 65370.24
+      },
+      "gross_consumption_equivalent_stock_days": {
+        "ferrous": 7.361809939229554,
+        "aluminum": 28.223784768683274,
+        "copper": 10.845517090909091
+      },
+      "fresh_finished_product_diversion_t": 1567232.9134474036,
+      "legacy_finished_product_removed_t": 854979.8400000001,
+      "uncredited_residual_plus_conversion_loss_t": 75577787.24655259,
+      "fresh_landfill_addition_after_product_diversion_t": 1313397047.7165527,
+      "net_addition_to_buried_mass_after_legacy_product_removal_t": 1312542067.8765528,
+      "financial_roi": null
+    },
+    {
+      "allocation": "illustrative_integrated_40_30_30",
+      "shares": {
+        "legacy": 0.4,
+        "fresh_msw": 0.3,
+        "fresh_cd": 0.3
+      },
+      "assumed_copper_share_of_msw_other_nonferrous": 0.25,
+      "five_year_intake_by_stream_t": {
+        "legacy": 31200000.0,
+        "fresh_msw": 23400000.0,
+        "fresh_cd": 23400000.0
+      },
+      "five_year_finished_metal_t": {
+        "ferrous": 1916087.51842961,
+        "aluminum": 440754.99501779355,
+        "copper": 86061.27202846974
+      },
+      "gross_consumption_equivalent_stock_days": {
+        "ferrous": 7.361809939229554,
+        "aluminum": 28.223784768683274,
+        "copper": 14.278347404723387
+      },
+      "fresh_finished_product_diversion_t": 1587923.945475873,
+      "legacy_finished_product_removed_t": 854979.8400000001,
+      "uncredited_residual_plus_conversion_loss_t": 75557096.21452413,
+      "fresh_landfill_addition_after_product_diversion_t": 1313376356.6845243,
+      "net_addition_to_buried_mass_after_legacy_product_removal_t": 1312521376.8445244,
+      "financial_roi": null
+    },
+    {
+      "allocation": "illustrative_integrated_40_30_30",
+      "shares": {
+        "legacy": 0.4,
+        "fresh_msw": 0.3,
+        "fresh_cd": 0.3
+      },
+      "assumed_copper_share_of_msw_other_nonferrous": 0.5,
+      "five_year_intake_by_stream_t": {
+        "legacy": 31200000.0,
+        "fresh_msw": 23400000.0,
+        "fresh_cd": 23400000.0
+      },
+      "five_year_finished_metal_t": {
+        "ferrous": 1916087.51842961,
+        "aluminum": 440754.99501779355,
+        "copper": 106752.30405693951
+      },
+      "gross_consumption_equivalent_stock_days": {
+        "ferrous": 7.361809939229554,
+        "aluminum": 28.223784768683274,
+        "copper": 17.71117771853769
+      },
+      "fresh_finished_product_diversion_t": 1608614.977504343,
+      "legacy_finished_product_removed_t": 854979.8400000001,
+      "uncredited_residual_plus_conversion_loss_t": 75536405.18249565,
+      "fresh_landfill_addition_after_product_diversion_t": 1313355665.6524959,
+      "net_addition_to_buried_mass_after_legacy_product_removal_t": 1312500685.812496,
+      "financial_roi": null
+    },
+    {
+      "allocation": "fresh_only_50_50",
+      "shares": {
+        "legacy": 0,
+        "fresh_msw": 0.5,
+        "fresh_cd": 0.5
+      },
+      "assumed_copper_share_of_msw_other_nonferrous": 0,
+      "five_year_intake_by_stream_t": {
+        "legacy": 0.0,
+        "fresh_msw": 39000000.0,
+        "fresh_cd": 39000000.0
+      },
+      "five_year_finished_metal_t": {
+        "ferrous": 2126439.1973826834,
+        "aluminum": 485615.6583629894,
+        "copper": 0.0
+      },
+      "gross_consumption_equivalent_stock_days": {
+        "ferrous": 8.170003232049257,
+        "aluminum": 31.09644128113879,
+        "copper": 0.0
+      },
+      "fresh_finished_product_diversion_t": 2612054.8557456727,
+      "legacy_finished_product_removed_t": 0.0,
+      "uncredited_residual_plus_conversion_loss_t": 75387945.14425433,
+      "fresh_landfill_addition_after_product_diversion_t": 1312352225.7742546,
+      "net_addition_to_buried_mass_after_legacy_product_removal_t": 1312352225.7742546,
+      "financial_roi": null
+    },
+    {
+      "allocation": "fresh_only_50_50",
+      "shares": {
+        "legacy": 0,
+        "fresh_msw": 0.5,
+        "fresh_cd": 0.5
+      },
+      "assumed_copper_share_of_msw_other_nonferrous": 0.25,
+      "five_year_intake_by_stream_t": {
+        "legacy": 0.0,
+        "fresh_msw": 39000000.0,
+        "fresh_cd": 39000000.0
+      },
+      "five_year_finished_metal_t": {
+        "ferrous": 2126439.1973826834,
+        "aluminum": 485615.6583629894,
+        "copper": 34485.05338078292
+      },
+      "gross_consumption_equivalent_stock_days": {
+        "ferrous": 8.170003232049257,
+        "aluminum": 31.09644128113879,
+        "copper": 5.721383856357167
+      },
+      "fresh_finished_product_diversion_t": 2646539.909126456,
+      "legacy_finished_product_removed_t": 0.0,
+      "uncredited_residual_plus_conversion_loss_t": 75353460.09087354,
+      "fresh_landfill_addition_after_product_diversion_t": 1312317740.7208736,
+      "net_addition_to_buried_mass_after_legacy_product_removal_t": 1312317740.7208736,
+      "financial_roi": null
+    },
+    {
+      "allocation": "fresh_only_50_50",
+      "shares": {
+        "legacy": 0,
+        "fresh_msw": 0.5,
+        "fresh_cd": 0.5
+      },
+      "assumed_copper_share_of_msw_other_nonferrous": 0.5,
+      "five_year_intake_by_stream_t": {
+        "legacy": 0.0,
+        "fresh_msw": 39000000.0,
+        "fresh_cd": 39000000.0
+      },
+      "five_year_finished_metal_t": {
+        "ferrous": 2126439.1973826834,
+        "aluminum": 485615.6583629894,
+        "copper": 68970.10676156584
+      },
+      "gross_consumption_equivalent_stock_days": {
+        "ferrous": 8.170003232049257,
+        "aluminum": 31.09644128113879,
+        "copper": 11.442767712714334
+      },
+      "fresh_finished_product_diversion_t": 2681024.9625072386,
+      "legacy_finished_product_removed_t": 0.0,
+      "uncredited_residual_plus_conversion_loss_t": 75318975.03749275,
+      "fresh_landfill_addition_after_product_diversion_t": 1312283255.6674929,
+      "net_addition_to_buried_mass_after_legacy_product_removal_t": 1312283255.6674929,
+      "financial_roi": null
+    }
+  ]
+}
