@@ -1,0 +1,365 @@
+{
+  "status": "SCREENING ONLY; environmental proxies and explicitly hypothetical shadow values, not verified credits",
+  "executed_case_count": 96,
+  "selected_case_count": 10,
+  "method": "Screening market-value-minus-cost proxy plus explicit carbon and resilience shadow sensitivities; not formal social cost-benefit appraisal, certified LCA, monetized reserve value or credit revenue.",
+  "unpriced_outcomes": [
+    "Water savings",
+    "Tailings/toxicity/biodiversity effects",
+    "Site remediation/land value",
+    "Methane release or avoided release",
+    "Verified shortage-loss avoidance"
+  ],
+  "rows": [
+    {
+      "location": "mainland",
+      "feed": "legacy_sensitivity",
+      "additionality_and_virgin_displacement_fraction": 0.5,
+      "shadow_carbon_usd_tco2e": 100,
+      "resilience_shadow_usd_finished_nonferrous_t": 0,
+      "accepted_metal_input_t_5yr": {
+        "ferrous": 648.0,
+        "aluminum": 151.20000000000002,
+        "copper": 64.8
+      },
+      "finished_metal_output_t_5yr": {
+        "ferrous": 615.6,
+        "aluminum": 143.64000000000001,
+        "copper": 62.855999999999995
+      },
+      "qualified_additional_nonferrous_t_5yr": 103.248,
+      "upstream_energy_saving_proxy_gwh_equivalent_before_extra_site_energy": 5.735287976629677,
+      "net_ghg_saving_proxy_tco2e_5yr": 1211.3923555036874,
+      "copper_ore_equivalent_t_5yr": 6983.999999999998,
+      "bauxite_equivalent_t_5yr_range": [
+        287.28000000000003,
+        430.9200000000001
+      ],
+      "iron_ore_equivalent_t_5yr": 453.59999999999997,
+      "gross_import_purchase_equivalent_usd_5yr_not_additive": 493830.0,
+      "initial_investment_usd": 500000,
+      "operator_net_cash_no_service_fee_usd_5yr": -3560547.1999999997,
+      "operator_roi_percent_no_service_fee": -712.10944,
+      "illustrative_climate_public_value_usd": 121139.23555036874,
+      "illustrative_resilience_public_value_usd": 0.0,
+      "expanded_net_value_proxy_usd_5yr": -3439407.964449631,
+      "expanded_return_proxy_percent_NOT_financial_roi": -687.8815928899262,
+      "remaining_unpriced_public_benefit_needed_for_system_break_even_usd_input_t": 114.64693214832103
+    },
+    {
+      "location": "mainland",
+      "feed": "legacy_sensitivity",
+      "additionality_and_virgin_displacement_fraction": 1.0,
+      "shadow_carbon_usd_tco2e": 100,
+      "resilience_shadow_usd_finished_nonferrous_t": 0,
+      "accepted_metal_input_t_5yr": {
+        "ferrous": 648.0,
+        "aluminum": 151.20000000000002,
+        "copper": 64.8
+      },
+      "finished_metal_output_t_5yr": {
+        "ferrous": 615.6,
+        "aluminum": 143.64000000000001,
+        "copper": 62.855999999999995
+      },
+      "qualified_additional_nonferrous_t_5yr": 206.496,
+      "upstream_energy_saving_proxy_gwh_equivalent_before_extra_site_energy": 11.470575953259354,
+      "net_ghg_saving_proxy_tco2e_5yr": 2625.344711007375,
+      "copper_ore_equivalent_t_5yr": 13967.999999999996,
+      "bauxite_equivalent_t_5yr_range": [
+        574.5600000000001,
+        861.8400000000001
+      ],
+      "iron_ore_equivalent_t_5yr": 907.1999999999999,
+      "gross_import_purchase_equivalent_usd_5yr_not_additive": 987660.0,
+      "initial_investment_usd": 500000,
+      "operator_net_cash_no_service_fee_usd_5yr": -3560547.1999999997,
+      "operator_roi_percent_no_service_fee": -712.10944,
+      "illustrative_climate_public_value_usd": 262534.47110073746,
+      "illustrative_resilience_public_value_usd": 0.0,
+      "expanded_net_value_proxy_usd_5yr": -3298012.7288992624,
+      "expanded_return_proxy_percent_NOT_financial_roi": -659.6025457798526,
+      "remaining_unpriced_public_benefit_needed_for_system_break_even_usd_input_t": 109.93375762997542
+    },
+    {
+      "location": "mainland",
+      "feed": "enriched_selected_stream",
+      "additionality_and_virgin_displacement_fraction": 0.5,
+      "shadow_carbon_usd_tco2e": 100,
+      "resilience_shadow_usd_finished_nonferrous_t": 0,
+      "accepted_metal_input_t_5yr": {
+        "ferrous": 2052.0,
+        "aluminum": 1026.0,
+        "copper": 513.0
+      },
+      "finished_metal_output_t_5yr": {
+        "ferrous": 1949.3999999999999,
+        "aluminum": 974.6999999999999,
+        "copper": 497.61
+      },
+      "qualified_additional_nonferrous_t_5yr": 736.155,
+      "upstream_energy_saving_proxy_gwh_equivalent_before_extra_site_energy": 32.33094931850083,
+      "net_ghg_saving_proxy_tco2e_5yr": 7208.130131317684,
+      "copper_ore_equivalent_t_5yr": 55289.99999999999,
+      "bauxite_equivalent_t_5yr_range": [
+        1949.3999999999999,
+        2924.1
+      ],
+      "iron_ore_equivalent_t_5yr": 1436.3999999999999,
+      "gross_import_purchase_equivalent_usd_5yr_not_additive": 3706425.0,
+      "initial_investment_usd": 500000,
+      "operator_net_cash_no_service_fee_usd_5yr": 2142667.000000002,
+      "operator_roi_percent_no_service_fee": 428.53340000000037,
+      "illustrative_climate_public_value_usd": 720813.0131317683,
+      "illustrative_resilience_public_value_usd": 0.0,
+      "expanded_net_value_proxy_usd_5yr": 2863480.0131317703,
+      "expanded_return_proxy_percent_NOT_financial_roi": 572.6960026263541,
+      "remaining_unpriced_public_benefit_needed_for_system_break_even_usd_input_t": 0.0
+    },
+    {
+      "location": "mainland",
+      "feed": "enriched_selected_stream",
+      "additionality_and_virgin_displacement_fraction": 1.0,
+      "shadow_carbon_usd_tco2e": 100,
+      "resilience_shadow_usd_finished_nonferrous_t": 0,
+      "accepted_metal_input_t_5yr": {
+        "ferrous": 2052.0,
+        "aluminum": 1026.0,
+        "copper": 513.0
+      },
+      "finished_metal_output_t_5yr": {
+        "ferrous": 1949.3999999999999,
+        "aluminum": 974.6999999999999,
+        "copper": 497.61
+      },
+      "qualified_additional_nonferrous_t_5yr": 1472.31,
+      "upstream_energy_saving_proxy_gwh_equivalent_before_extra_site_energy": 64.66189863700166,
+      "net_ghg_saving_proxy_tco2e_5yr": 14618.820262635369,
+      "copper_ore_equivalent_t_5yr": 110579.99999999999,
+      "bauxite_equivalent_t_5yr_range": [
+        3898.7999999999997,
+        5848.2
+      ],
+      "iron_ore_equivalent_t_5yr": 2872.7999999999997,
+      "gross_import_purchase_equivalent_usd_5yr_not_additive": 7412850.0,
+      "initial_investment_usd": 500000,
+      "operator_net_cash_no_service_fee_usd_5yr": 2142667.000000002,
+      "operator_roi_percent_no_service_fee": 428.53340000000037,
+      "illustrative_climate_public_value_usd": 1461882.026263537,
+      "illustrative_resilience_public_value_usd": 0.0,
+      "expanded_net_value_proxy_usd_5yr": 3604549.0262635387,
+      "expanded_return_proxy_percent_NOT_financial_roi": 720.9098052527078,
+      "remaining_unpriced_public_benefit_needed_for_system_break_even_usd_input_t": 0.0
+    },
+    {
+      "location": "maui_illustrative",
+      "feed": "legacy_sensitivity",
+      "additionality_and_virgin_displacement_fraction": 0.5,
+      "shadow_carbon_usd_tco2e": 100,
+      "resilience_shadow_usd_finished_nonferrous_t": 0,
+      "accepted_metal_input_t_5yr": {
+        "ferrous": 648.0,
+        "aluminum": 151.20000000000002,
+        "copper": 64.8
+      },
+      "finished_metal_output_t_5yr": {
+        "ferrous": 615.6,
+        "aluminum": 143.64000000000001,
+        "copper": 62.855999999999995
+      },
+      "qualified_additional_nonferrous_t_5yr": 103.248,
+      "upstream_energy_saving_proxy_gwh_equivalent_before_extra_site_energy": 5.735287976629677,
+      "net_ghg_saving_proxy_tco2e_5yr": 1033.3723555036872,
+      "copper_ore_equivalent_t_5yr": 6983.999999999998,
+      "bauxite_equivalent_t_5yr_range": [
+        287.28000000000003,
+        430.9200000000001
+      ],
+      "iron_ore_equivalent_t_5yr": 453.59999999999997,
+      "gross_import_purchase_equivalent_usd_5yr_not_additive": 493830.0,
+      "initial_investment_usd": 600000,
+      "operator_net_cash_no_service_fee_usd_5yr": -4126547.1999999997,
+      "operator_roi_percent_no_service_fee": -687.7578666666667,
+      "illustrative_climate_public_value_usd": 103337.23555036873,
+      "illustrative_resilience_public_value_usd": 0.0,
+      "expanded_net_value_proxy_usd_5yr": -4023209.964449631,
+      "expanded_return_proxy_percent_NOT_financial_roi": -670.5349940749385,
+      "remaining_unpriced_public_benefit_needed_for_system_break_even_usd_input_t": 134.1069988149877
+    },
+    {
+      "location": "maui_illustrative",
+      "feed": "legacy_sensitivity",
+      "additionality_and_virgin_displacement_fraction": 1.0,
+      "shadow_carbon_usd_tco2e": 100,
+      "resilience_shadow_usd_finished_nonferrous_t": 0,
+      "accepted_metal_input_t_5yr": {
+        "ferrous": 648.0,
+        "aluminum": 151.20000000000002,
+        "copper": 64.8
+      },
+      "finished_metal_output_t_5yr": {
+        "ferrous": 615.6,
+        "aluminum": 143.64000000000001,
+        "copper": 62.855999999999995
+      },
+      "qualified_additional_nonferrous_t_5yr": 206.496,
+      "upstream_energy_saving_proxy_gwh_equivalent_before_extra_site_energy": 11.470575953259354,
+      "net_ghg_saving_proxy_tco2e_5yr": 2447.324711007375,
+      "copper_ore_equivalent_t_5yr": 13967.999999999996,
+      "bauxite_equivalent_t_5yr_range": [
+        574.5600000000001,
+        861.8400000000001
+      ],
+      "iron_ore_equivalent_t_5yr": 907.1999999999999,
+      "gross_import_purchase_equivalent_usd_5yr_not_additive": 987660.0,
+      "initial_investment_usd": 600000,
+      "operator_net_cash_no_service_fee_usd_5yr": -4126547.1999999997,
+      "operator_roi_percent_no_service_fee": -687.7578666666667,
+      "illustrative_climate_public_value_usd": 244732.4711007375,
+      "illustrative_resilience_public_value_usd": 0.0,
+      "expanded_net_value_proxy_usd_5yr": -3881814.7288992624,
+      "expanded_return_proxy_percent_NOT_financial_roi": -646.9691214832104,
+      "remaining_unpriced_public_benefit_needed_for_system_break_even_usd_input_t": 129.39382429664207
+    },
+    {
+      "location": "maui_illustrative",
+      "feed": "enriched_selected_stream",
+      "additionality_and_virgin_displacement_fraction": 0.5,
+      "shadow_carbon_usd_tco2e": 100,
+      "resilience_shadow_usd_finished_nonferrous_t": 0,
+      "accepted_metal_input_t_5yr": {
+        "ferrous": 2052.0,
+        "aluminum": 1026.0,
+        "copper": 513.0
+      },
+      "finished_metal_output_t_5yr": {
+        "ferrous": 1949.3999999999999,
+        "aluminum": 974.6999999999999,
+        "copper": 497.61
+      },
+      "qualified_additional_nonferrous_t_5yr": 736.155,
+      "upstream_energy_saving_proxy_gwh_equivalent_before_extra_site_energy": 32.33094931850083,
+      "net_ghg_saving_proxy_tco2e_5yr": 6757.410131317684,
+      "copper_ore_equivalent_t_5yr": 55289.99999999999,
+      "bauxite_equivalent_t_5yr_range": [
+        1949.3999999999999,
+        2924.1
+      ],
+      "iron_ore_equivalent_t_5yr": 1436.3999999999999,
+      "gross_import_purchase_equivalent_usd_5yr_not_additive": 3706425.0,
+      "initial_investment_usd": 600000,
+      "operator_net_cash_no_service_fee_usd_5yr": 894917.0000000019,
+      "operator_roi_percent_no_service_fee": 149.15283333333363,
+      "illustrative_climate_public_value_usd": 675741.0131317684,
+      "illustrative_resilience_public_value_usd": 0.0,
+      "expanded_net_value_proxy_usd_5yr": 1570658.0131317703,
+      "expanded_return_proxy_percent_NOT_financial_roi": 261.7763355219617,
+      "remaining_unpriced_public_benefit_needed_for_system_break_even_usd_input_t": 0.0
+    },
+    {
+      "location": "maui_illustrative",
+      "feed": "enriched_selected_stream",
+      "additionality_and_virgin_displacement_fraction": 1.0,
+      "shadow_carbon_usd_tco2e": 100,
+      "resilience_shadow_usd_finished_nonferrous_t": 0,
+      "accepted_metal_input_t_5yr": {
+        "ferrous": 2052.0,
+        "aluminum": 1026.0,
+        "copper": 513.0
+      },
+      "finished_metal_output_t_5yr": {
+        "ferrous": 1949.3999999999999,
+        "aluminum": 974.6999999999999,
+        "copper": 497.61
+      },
+      "qualified_additional_nonferrous_t_5yr": 1472.31,
+      "upstream_energy_saving_proxy_gwh_equivalent_before_extra_site_energy": 64.66189863700166,
+      "net_ghg_saving_proxy_tco2e_5yr": 14168.100262635367,
+      "copper_ore_equivalent_t_5yr": 110579.99999999999,
+      "bauxite_equivalent_t_5yr_range": [
+        3898.7999999999997,
+        5848.2
+      ],
+      "iron_ore_equivalent_t_5yr": 2872.7999999999997,
+      "gross_import_purchase_equivalent_usd_5yr_not_additive": 7412850.0,
+      "initial_investment_usd": 600000,
+      "operator_net_cash_no_service_fee_usd_5yr": 894917.0000000019,
+      "operator_roi_percent_no_service_fee": 149.15283333333363,
+      "illustrative_climate_public_value_usd": 1416810.0262635367,
+      "illustrative_resilience_public_value_usd": 0.0,
+      "expanded_net_value_proxy_usd_5yr": 2311727.0262635387,
+      "expanded_return_proxy_percent_NOT_financial_roi": 385.28783771058977,
+      "remaining_unpriced_public_benefit_needed_for_system_break_even_usd_input_t": 0.0
+    },
+    {
+      "location": "maui_illustrative",
+      "feed": "enriched_selected_stream",
+      "additionality_and_virgin_displacement_fraction": 1.0,
+      "shadow_carbon_usd_tco2e": 100,
+      "resilience_shadow_usd_finished_nonferrous_t": 250,
+      "accepted_metal_input_t_5yr": {
+        "ferrous": 2052.0,
+        "aluminum": 1026.0,
+        "copper": 513.0
+      },
+      "finished_metal_output_t_5yr": {
+        "ferrous": 1949.3999999999999,
+        "aluminum": 974.6999999999999,
+        "copper": 497.61
+      },
+      "qualified_additional_nonferrous_t_5yr": 1472.31,
+      "upstream_energy_saving_proxy_gwh_equivalent_before_extra_site_energy": 64.66189863700166,
+      "net_ghg_saving_proxy_tco2e_5yr": 14168.100262635367,
+      "copper_ore_equivalent_t_5yr": 110579.99999999999,
+      "bauxite_equivalent_t_5yr_range": [
+        3898.7999999999997,
+        5848.2
+      ],
+      "iron_ore_equivalent_t_5yr": 2872.7999999999997,
+      "gross_import_purchase_equivalent_usd_5yr_not_additive": 7412850.0,
+      "initial_investment_usd": 600000,
+      "operator_net_cash_no_service_fee_usd_5yr": 894917.0000000019,
+      "operator_roi_percent_no_service_fee": 149.15283333333363,
+      "illustrative_climate_public_value_usd": 1416810.0262635367,
+      "illustrative_resilience_public_value_usd": 368077.5,
+      "expanded_net_value_proxy_usd_5yr": 2679804.5262635387,
+      "expanded_return_proxy_percent_NOT_financial_roi": 446.63408771058977,
+      "remaining_unpriced_public_benefit_needed_for_system_break_even_usd_input_t": 0.0
+    },
+    {
+      "location": "maui_illustrative",
+      "feed": "enriched_selected_stream",
+      "additionality_and_virgin_displacement_fraction": 1.0,
+      "shadow_carbon_usd_tco2e": 100,
+      "resilience_shadow_usd_finished_nonferrous_t": 1000,
+      "accepted_metal_input_t_5yr": {
+        "ferrous": 2052.0,
+        "aluminum": 1026.0,
+        "copper": 513.0
+      },
+      "finished_metal_output_t_5yr": {
+        "ferrous": 1949.3999999999999,
+        "aluminum": 974.6999999999999,
+        "copper": 497.61
+      },
+      "qualified_additional_nonferrous_t_5yr": 1472.31,
+      "upstream_energy_saving_proxy_gwh_equivalent_before_extra_site_energy": 64.66189863700166,
+      "net_ghg_saving_proxy_tco2e_5yr": 14168.100262635367,
+      "copper_ore_equivalent_t_5yr": 110579.99999999999,
+      "bauxite_equivalent_t_5yr_range": [
+        3898.7999999999997,
+        5848.2
+      ],
+      "iron_ore_equivalent_t_5yr": 2872.7999999999997,
+      "gross_import_purchase_equivalent_usd_5yr_not_additive": 7412850.0,
+      "initial_investment_usd": 600000,
+      "operator_net_cash_no_service_fee_usd_5yr": 894917.0000000019,
+      "operator_roi_percent_no_service_fee": 149.15283333333363,
+      "illustrative_climate_public_value_usd": 1416810.0262635367,
+      "illustrative_resilience_public_value_usd": 1472310.0,
+      "expanded_net_value_proxy_usd_5yr": 3784037.0262635387,
+      "expanded_return_proxy_percent_NOT_financial_roi": 630.6728377105898,
+      "remaining_unpriced_public_benefit_needed_for_system_break_even_usd_input_t": 0.0
+    }
+  ]
+}
