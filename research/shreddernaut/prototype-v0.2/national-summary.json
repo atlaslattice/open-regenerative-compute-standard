@@ -1,0 +1,1544 @@
+{
+  "status": "NATIONAL SCREENING SCENARIOS; NOT A DEPLOYMENT FORECAST OR VERIFIED RESOURCE RESERVE",
+  "executed_case_count": 32,
+  "assumptions": {
+    "status": "NATIONAL SCREENING SCENARIOS; NOT A DEPLOYMENT FORECAST OR VERIFIED RESOURCE RESERVE",
+    "states": 50,
+    "year_average_active_fraction_of_target": [
+      0.1,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "target_units_per_state_cases": [
+      10,
+      50,
+      100,
+      250
+    ],
+    "legacy_stock_t_assumption": 10000000000,
+    "shared_initial_engineering_fraction_of_unit_capital": 0.1,
+    "shared_annual_operations_fraction_of_unit_cash_cost": 0.05,
+    "additionality_cases": [
+      0.5,
+      1.0
+    ],
+    "shadow_carbon_usd_tco2e": 100,
+    "resilience_shadow_usd_finished_nonferrous_t": 0,
+    "domestic_delivery_fraction_assumption": 1.0,
+    "import_replacement_fraction_sensitivity": 1.0,
+    "annual_available_enriched_feed_t": null,
+    "annual_domestic_finished_copper_capacity_t": null,
+    "annual_domestic_finished_aluminum_capacity_t": null,
+    "program_cases": {
+      "targeted_metal_rich_conditional": {
+        "enriched_unit_share": 1.0,
+        "legacy_service_fee_usd_t": 0
+      },
+      "mixed_program_unfunded": {
+        "enriched_unit_share": 0.2,
+        "legacy_service_fee_usd_t": 0
+      },
+      "mixed_program_service_contract_sensitivity": {
+        "enriched_unit_share": 0.2,
+        "legacy_service_fee_usd_t": 150
+      },
+      "legacy_only_service_contract_sensitivity": {
+        "enriched_unit_share": 0.0,
+        "legacy_service_fee_usd_t": 150
+      }
+    },
+    "limitations": "Equal state allocation is arithmetic only. Enriched feed share is allocation of units to a different, unverified feedstock, not a national MSW composition estimate. Current feed supply and domestic processing capacity are unknown. Output tonnes, climate proxies and ROI require all original v0.3-v0.5 assumptions. This model has no commodity price equilibrium, labor/equipment manufacturing constraints, inflation, borrowing costs, delays, methane disturbance or national refinery-build cost. No economy-of-scale or 3D-printing savings assumed. Hawaii should use its separate island overlay."
+  },
+  "rows": [
+    {
+      "program": "targeted_metal_rich_conditional",
+      "target_units_per_state": 100,
+      "target_national_units": 5000,
+      "status": "CONDITIONAL; feed/processing capacity not verified",
+      "additionality_fraction": 0.5,
+      "five_year_active_unit_years": 13000.0,
+      "five_year_input_t": 78000000.0,
+      "five_year_legacy_input_t": 0.0,
+      "five_year_enriched_input_t": 78000000.0,
+      "legacy_stock_processed_once_percent": 0.0,
+      "initial_investment_usd": 2750000000.0,
+      "working_cash_envelope_at_full_fleet_usd": 800000000,
+      "five_year_finished_metal_t": {
+        "ferrous": 5068440.0,
+        "aluminum": 2534220.0,
+        "copper": 1293786.0
+      },
+      "five_year_accepted_metal_t": {
+        "ferrous": 5335200.0,
+        "aluminum": 2667600.0,
+        "copper": 1333800.0
+      },
+      "five_year_managed_residual_t": 68663400.0,
+      "operator_net_after_initial_investment_usd": 3605580400.0000052,
+      "operator_roi_percent": 131.11201454545474,
+      "five_year_service_payments_usd": 0.0,
+      "net_market_value_after_costs_excluding_transfers_usd": 3605580400.0000052,
+      "climate_public_value_proxy_usd": 1874113834.1425977,
+      "resilience_shadow_value_usd": 0.0,
+      "expanded_net_value_proxy_usd": 5479694234.142603,
+      "expanded_return_proxy_percent_NOT_financial_roi": 199.26160851427647,
+      "potential_import_replacement_t_NOT_actual": {
+        "copper": 646893.0,
+        "aluminum": 1267110.0
+      },
+      "gross_import_purchase_equivalent_usd_NOT_additive": 9636705000.0,
+      "bauxite_equivalent_t_range": [
+        5068440.0,
+        7602660.0
+      ],
+      "remaining_public_benefit_needed_usd_legacy_input_t": null,
+      "constraint_checks": [
+        {
+          "constraint": "annual_available_enriched_feed_t",
+          "required_year5_t": 30000000.0,
+          "capacity_limit_t": null,
+          "status": "UNKNOWN"
+        },
+        {
+          "constraint": "annual_domestic_finished_copper_capacity_t",
+          "required_year5_t": 497610.0,
+          "capacity_limit_t": null,
+          "status": "UNKNOWN"
+        },
+        {
+          "constraint": "annual_domestic_finished_aluminum_capacity_t",
+          "required_year5_t": 974700.0,
+          "capacity_limit_t": null,
+          "status": "UNKNOWN"
+        }
+      ],
+      "benefit_proxies": {
+        "net_ghg_saving_proxy_tco2e_5yr": 18741138.341425978,
+        "upstream_energy_saving_proxy_gwh_equivalent_before_extra_site_energy": 84060.46822810215,
+        "copper_ore_equivalent_t_5yr": 143753999.99999997,
+        "iron_ore_equivalent_t_5yr": 3734640.0
+      },
+      "annual": [
+        {
+          "year": 1,
+          "average_active_units": 500.0,
+          "input_t": 3000000.0,
+          "legacy_input_t": 0.0,
+          "selected_enriched_input_t": 3000000.0,
+          "finished_metal_t": {
+            "ferrous": 194940.0,
+            "aluminum": 97470.0,
+            "copper": 49761.0
+          },
+          "accepted_metal_t": {
+            "ferrous": 205200.0,
+            "aluminum": 102600.0,
+            "copper": 51300.0
+          },
+          "net_product_receipts_usd": 660692700.0000001,
+          "local_cash_operating_cost_usd": 396426000.0,
+          "shared_operations_allowance_usd": 19821300.0,
+          "service_payment_usd": 0.0,
+          "initial_investment_usd": 275000000.0,
+          "operator_cash_after_current_year_investment_usd": -30554599.99999988
+        },
+        {
+          "year": 2,
+          "average_active_units": 1250.0,
+          "input_t": 7500000.0,
+          "legacy_input_t": 0.0,
+          "selected_enriched_input_t": 7500000.0,
+          "finished_metal_t": {
+            "ferrous": 487350.0,
+            "aluminum": 243675.0,
+            "copper": 124402.5
+          },
+          "accepted_metal_t": {
+            "ferrous": 513000.0,
+            "aluminum": 256500.0,
+            "copper": 128250.0
+          },
+          "net_product_receipts_usd": 1651731750.0000005,
+          "local_cash_operating_cost_usd": 991065000.0,
+          "shared_operations_allowance_usd": 49553250.0,
+          "service_payment_usd": 0.0,
+          "initial_investment_usd": 412500000.0,
+          "operator_cash_after_current_year_investment_usd": 198613500.00000048
+        },
+        {
+          "year": 3,
+          "average_active_units": 2500.0,
+          "input_t": 15000000.0,
+          "legacy_input_t": 0.0,
+          "selected_enriched_input_t": 15000000.0,
+          "finished_metal_t": {
+            "ferrous": 974700.0,
+            "aluminum": 487350.0,
+            "copper": 248805.0
+          },
+          "accepted_metal_t": {
+            "ferrous": 1026000.0,
+            "aluminum": 513000.0,
+            "copper": 256500.0
+          },
+          "net_product_receipts_usd": 3303463500.000001,
+          "local_cash_operating_cost_usd": 1982130000.0,
+          "shared_operations_allowance_usd": 99106500.0,
+          "service_payment_usd": 0.0,
+          "initial_investment_usd": 687500000.0,
+          "operator_cash_after_current_year_investment_usd": 534727000.00000095
+        },
+        {
+          "year": 4,
+          "average_active_units": 3750.0,
+          "input_t": 22500000.0,
+          "legacy_input_t": 0.0,
+          "selected_enriched_input_t": 22500000.0,
+          "finished_metal_t": {
+            "ferrous": 1462050.0,
+            "aluminum": 731025.0,
+            "copper": 373207.5
+          },
+          "accepted_metal_t": {
+            "ferrous": 1539000.0,
+            "aluminum": 769500.0,
+            "copper": 384750.0
+          },
+          "net_product_receipts_usd": 4955195250.000002,
+          "local_cash_operating_cost_usd": 2973195000.0,
+          "shared_operations_allowance_usd": 148659750.0,
+          "service_payment_usd": 0.0,
+          "initial_investment_usd": 687500000.0,
+          "operator_cash_after_current_year_investment_usd": 1145840500.000002
+        },
+        {
+          "year": 5,
+          "average_active_units": 5000.0,
+          "input_t": 30000000.0,
+          "legacy_input_t": 0.0,
+          "selected_enriched_input_t": 30000000.0,
+          "finished_metal_t": {
+            "ferrous": 1949400.0,
+            "aluminum": 974700.0,
+            "copper": 497610.0
+          },
+          "accepted_metal_t": {
+            "ferrous": 2052000.0,
+            "aluminum": 1026000.0,
+            "copper": 513000.0
+          },
+          "net_product_receipts_usd": 6606927000.000002,
+          "local_cash_operating_cost_usd": 3964260000.0,
+          "shared_operations_allowance_usd": 198213000.0,
+          "service_payment_usd": 0.0,
+          "initial_investment_usd": 687500000.0,
+          "operator_cash_after_current_year_investment_usd": 1756954000.000002
+        }
+      ]
+    },
+    {
+      "program": "targeted_metal_rich_conditional",
+      "target_units_per_state": 100,
+      "target_national_units": 5000,
+      "status": "CONDITIONAL; feed/processing capacity not verified",
+      "additionality_fraction": 1.0,
+      "five_year_active_unit_years": 13000.0,
+      "five_year_input_t": 78000000.0,
+      "five_year_legacy_input_t": 0.0,
+      "five_year_enriched_input_t": 78000000.0,
+      "legacy_stock_processed_once_percent": 0.0,
+      "initial_investment_usd": 2750000000.0,
+      "working_cash_envelope_at_full_fleet_usd": 800000000,
+      "five_year_finished_metal_t": {
+        "ferrous": 5068440.0,
+        "aluminum": 2534220.0,
+        "copper": 1293786.0
+      },
+      "five_year_accepted_metal_t": {
+        "ferrous": 5335200.0,
+        "aluminum": 2667600.0,
+        "copper": 1333800.0
+      },
+      "five_year_managed_residual_t": 68663400.0,
+      "operator_net_after_initial_investment_usd": 3605580400.0000052,
+      "operator_roi_percent": 131.11201454545474,
+      "five_year_service_payments_usd": 0.0,
+      "net_market_value_after_costs_excluding_transfers_usd": 3605580400.0000052,
+      "climate_public_value_proxy_usd": 3800893268.2851954,
+      "resilience_shadow_value_usd": 0.0,
+      "expanded_net_value_proxy_usd": 7406473668.2852,
+      "expanded_return_proxy_percent_NOT_financial_roi": 269.3263152103709,
+      "potential_import_replacement_t_NOT_actual": {
+        "copper": 1293786.0,
+        "aluminum": 2534220.0
+      },
+      "gross_import_purchase_equivalent_usd_NOT_additive": 19273410000.0,
+      "bauxite_equivalent_t_range": [
+        10136880.0,
+        15205320.0
+      ],
+      "remaining_public_benefit_needed_usd_legacy_input_t": null,
+      "constraint_checks": [
+        {
+          "constraint": "annual_available_enriched_feed_t",
+          "required_year5_t": 30000000.0,
+          "capacity_limit_t": null,
+          "status": "UNKNOWN"
+        },
+        {
+          "constraint": "annual_domestic_finished_copper_capacity_t",
+          "required_year5_t": 497610.0,
+          "capacity_limit_t": null,
+          "status": "UNKNOWN"
+        },
+        {
+          "constraint": "annual_domestic_finished_aluminum_capacity_t",
+          "required_year5_t": 974700.0,
+          "capacity_limit_t": null,
+          "status": "UNKNOWN"
+        }
+      ],
+      "benefit_proxies": {
+        "net_ghg_saving_proxy_tco2e_5yr": 38008932.682851955,
+        "upstream_energy_saving_proxy_gwh_equivalent_before_extra_site_energy": 168120.9364562043,
+        "copper_ore_equivalent_t_5yr": 287507999.99999994,
+        "iron_ore_equivalent_t_5yr": 7469280.0
+      },
+      "annual": [
+        {
+          "year": 1,
+          "average_active_units": 500.0,
+          "input_t": 3000000.0,
+          "legacy_input_t": 0.0,
+          "selected_enriched_input_t": 3000000.0,
+          "finished_metal_t": {
+            "ferrous": 194940.0,
+            "aluminum": 97470.0,
+            "copper": 49761.0
+          },
+          "accepted_metal_t": {
+            "ferrous": 205200.0,
+            "aluminum": 102600.0,
+            "copper": 51300.0
+          },
+          "net_product_receipts_usd": 660692700.0000001,
+          "local_cash_operating_cost_usd": 396426000.0,
+          "shared_operations_allowance_usd": 19821300.0,
+          "service_payment_usd": 0.0,
+          "initial_investment_usd": 275000000.0,
+          "operator_cash_after_current_year_investment_usd": -30554599.99999988
+        },
+        {
+          "year": 2,
+          "average_active_units": 1250.0,
+          "input_t": 7500000.0,
+          "legacy_input_t": 0.0,
+          "selected_enriched_input_t": 7500000.0,
+          "finished_metal_t": {
+            "ferrous": 487350.0,
+            "aluminum": 243675.0,
+            "copper": 124402.5
+          },
+          "accepted_metal_t": {
+            "ferrous": 513000.0,
+            "aluminum": 256500.0,
+            "copper": 128250.0
+          },
+          "net_product_receipts_usd": 1651731750.0000005,
+          "local_cash_operating_cost_usd": 991065000.0,
+          "shared_operations_allowance_usd": 49553250.0,
+          "service_payment_usd": 0.0,
+          "initial_investment_usd": 412500000.0,
+          "operator_cash_after_current_year_investment_usd": 198613500.00000048
+        },
+        {
+          "year": 3,
+          "average_active_units": 2500.0,
+          "input_t": 15000000.0,
+          "legacy_input_t": 0.0,
+          "selected_enriched_input_t": 15000000.0,
+          "finished_metal_t": {
+            "ferrous": 974700.0,
+            "aluminum": 487350.0,
+            "copper": 248805.0
+          },
+          "accepted_metal_t": {
+            "ferrous": 1026000.0,
+            "aluminum": 513000.0,
+            "copper": 256500.0
+          },
+          "net_product_receipts_usd": 3303463500.000001,
+          "local_cash_operating_cost_usd": 1982130000.0,
+          "shared_operations_allowance_usd": 99106500.0,
+          "service_payment_usd": 0.0,
+          "initial_investment_usd": 687500000.0,
+          "operator_cash_after_current_year_investment_usd": 534727000.00000095
+        },
+        {
+          "year": 4,
+          "average_active_units": 3750.0,
+          "input_t": 22500000.0,
+          "legacy_input_t": 0.0,
+          "selected_enriched_input_t": 22500000.0,
+          "finished_metal_t": {
+            "ferrous": 1462050.0,
+            "aluminum": 731025.0,
+            "copper": 373207.5
+          },
+          "accepted_metal_t": {
+            "ferrous": 1539000.0,
+            "aluminum": 769500.0,
+            "copper": 384750.0
+          },
+          "net_product_receipts_usd": 4955195250.000002,
+          "local_cash_operating_cost_usd": 2973195000.0,
+          "shared_operations_allowance_usd": 148659750.0,
+          "service_payment_usd": 0.0,
+          "initial_investment_usd": 687500000.0,
+          "operator_cash_after_current_year_investment_usd": 1145840500.000002
+        },
+        {
+          "year": 5,
+          "average_active_units": 5000.0,
+          "input_t": 30000000.0,
+          "legacy_input_t": 0.0,
+          "selected_enriched_input_t": 30000000.0,
+          "finished_metal_t": {
+            "ferrous": 1949400.0,
+            "aluminum": 974700.0,
+            "copper": 497610.0
+          },
+          "accepted_metal_t": {
+            "ferrous": 2052000.0,
+            "aluminum": 1026000.0,
+            "copper": 513000.0
+          },
+          "net_product_receipts_usd": 6606927000.000002,
+          "local_cash_operating_cost_usd": 3964260000.0,
+          "shared_operations_allowance_usd": 198213000.0,
+          "service_payment_usd": 0.0,
+          "initial_investment_usd": 687500000.0,
+          "operator_cash_after_current_year_investment_usd": 1756954000.000002
+        }
+      ]
+    },
+    {
+      "program": "mixed_program_unfunded",
+      "target_units_per_state": 100,
+      "target_national_units": 5000,
+      "status": "CONDITIONAL; feed/processing capacity not verified",
+      "additionality_fraction": 0.5,
+      "five_year_active_unit_years": 13000.0,
+      "five_year_input_t": 78000000.0,
+      "five_year_legacy_input_t": 62400000.0,
+      "five_year_enriched_input_t": 15600000.0,
+      "legacy_stock_processed_once_percent": 0.624,
+      "initial_investment_usd": 2750000000.0,
+      "working_cash_envelope_at_full_fleet_usd": 800000000,
+      "five_year_finished_metal_t": {
+        "ferrous": 2294136.0000000005,
+        "aluminum": 805615.2000000002,
+        "copper": 389497.68000000005
+      },
+      "five_year_accepted_metal_t": {
+        "ferrous": 2414880.0000000005,
+        "aluminum": 848016.0000000001,
+        "copper": 401544.00000000006
+      },
+      "five_year_managed_residual_t": 74335560.0,
+      "operator_net_after_initial_investment_usd": -8258805535.999999,
+      "operator_roi_percent": -300.32020130909086,
+      "five_year_service_payments_usd": 0.0,
+      "net_market_value_after_costs_excluding_transfers_usd": -8258805535.999999,
+      "climate_public_value_proxy_usd": 626792376.7732866,
+      "resilience_shadow_value_usd": 0.0,
+      "expanded_net_value_proxy_usd": -7632013159.226712,
+      "expanded_return_proxy_percent_NOT_financial_roi": -277.5277512446077,
+      "potential_import_replacement_t_NOT_actual": {
+        "copper": 194748.84000000003,
+        "aluminum": 402807.6000000001
+      },
+      "gross_import_purchase_equivalent_usd_NOT_additive": 2954507400.0000005,
+      "bauxite_equivalent_t_range": [
+        1611230.4000000004,
+        2416845.6000000006
+      ],
+      "remaining_public_benefit_needed_usd_legacy_input_t": 122.30790319273578,
+      "constraint_checks": [
+        {
+          "constraint": "annual_available_enriched_feed_t",
+          "required_year5_t": 6000000.0,
+          "capacity_limit_t": null,
+          "status": "UNKNOWN"
+        },
+        {
+          "constraint": "annual_domestic_finished_copper_capacity_t",
+          "required_year5_t": 149806.80000000002,
+          "capacity_limit_t": null,
+          "status": "UNKNOWN"
+        },
+        {
+          "constraint": "annual_domestic_finished_aluminum_capacity_t",
+          "required_year5_t": 309852.00000000006,
+          "capacity_limit_t": null,
+          "status": "UNKNOWN"
+        }
+      ],
+      "benefit_proxies": {
+        "net_ghg_saving_proxy_tco2e_5yr": 6267923.767732866,
+        "upstream_energy_saving_proxy_gwh_equivalent_before_extra_site_energy": 28741.492637010157,
+        "copper_ore_equivalent_t_5yr": 43277519.99999999,
+        "iron_ore_equivalent_t_5yr": 1690416.0
+      },
+      "annual": [
+        {
+          "year": 1,
+          "average_active_units": 500.0,
+          "input_t": 3000000.0,
+          "legacy_input_t": 2400000.0,
+          "selected_enriched_input_t": 600000.0,
+          "finished_metal_t": {
+            "ferrous": 88236.00000000001,
+            "aluminum": 30985.2,
+            "copper": 14980.680000000002
+          },
+          "accepted_metal_t": {
+            "ferrous": 92880.00000000001,
+            "aluminum": 32616.000000000004,
+            "copper": 15444.000000000002
+          },
+          "net_product_receipts_usd": 205743564.00000006,
+          "local_cash_operating_cost_usd": 397734000.0,
+          "shared_operations_allowance_usd": 19886700.0,
+          "service_payment_usd": 0.0,
+          "initial_investment_usd": 275000000.0,
+          "operator_cash_after_current_year_investment_usd": -486877135.99999994
+        },
+        {
+          "year": 2,
+          "average_active_units": 1250.0,
+          "input_t": 7500000.0,
+          "legacy_input_t": 6000000.0,
+          "selected_enriched_input_t": 1500000.0,
+          "finished_metal_t": {
+            "ferrous": 220590.00000000003,
+            "aluminum": 77463.00000000001,
+            "copper": 37451.700000000004
+          },
+          "accepted_metal_t": {
+            "ferrous": 232200.00000000003,
+            "aluminum": 81540.00000000001,
+            "copper": 38610.00000000001
+          },
+          "net_product_receipts_usd": 514358910.0000001,
+          "local_cash_operating_cost_usd": 994335000.0,
+          "shared_operations_allowance_usd": 49716750.0,
+          "service_payment_usd": 0.0,
+          "initial_investment_usd": 412500000.0,
+          "operator_cash_after_current_year_investment_usd": -942192839.9999999
+        },
+        {
+          "year": 3,
+          "average_active_units": 2500.0,
+          "input_t": 15000000.0,
+          "legacy_input_t": 12000000.0,
+          "selected_enriched_input_t": 3000000.0,
+          "finished_metal_t": {
+            "ferrous": 441180.00000000006,
+            "aluminum": 154926.00000000003,
+            "copper": 74903.40000000001
+          },
+          "accepted_metal_t": {
+            "ferrous": 464400.00000000006,
+            "aluminum": 163080.00000000003,
+            "copper": 77220.00000000001
+          },
+          "net_product_receipts_usd": 1028717820.0000002,
+          "local_cash_operating_cost_usd": 1988670000.0,
+          "shared_operations_allowance_usd": 99433500.0,
+          "service_payment_usd": 0.0,
+          "initial_investment_usd": 687500000.0,
+          "operator_cash_after_current_year_investment_usd": -1746885679.9999998
+        },
+        {
+          "year": 4,
+          "average_active_units": 3750.0,
+          "input_t": 22500000.0,
+          "legacy_input_t": 18000000.0,
+          "selected_enriched_input_t": 4500000.0,
+          "finished_metal_t": {
+            "ferrous": 661770.0000000001,
+            "aluminum": 232389.00000000003,
+            "copper": 112355.1
+          },
+          "accepted_metal_t": {
+            "ferrous": 696600.0000000001,
+            "aluminum": 244620.00000000003,
+            "copper": 115830.00000000001
+          },
+          "net_product_receipts_usd": 1543076730.0000005,
+          "local_cash_operating_cost_usd": 2983005000.0,
+          "shared_operations_allowance_usd": 149150250.0,
+          "service_payment_usd": 0.0,
+          "initial_investment_usd": 687500000.0,
+          "operator_cash_after_current_year_investment_usd": -2276578519.9999995
+        },
+        {
+          "year": 5,
+          "average_active_units": 5000.0,
+          "input_t": 30000000.0,
+          "legacy_input_t": 24000000.0,
+          "selected_enriched_input_t": 6000000.0,
+          "finished_metal_t": {
+            "ferrous": 882360.0000000001,
+            "aluminum": 309852.00000000006,
+            "copper": 149806.80000000002
+          },
+          "accepted_metal_t": {
+            "ferrous": 928800.0000000001,
+            "aluminum": 326160.00000000006,
+            "copper": 154440.00000000003
+          },
+          "net_product_receipts_usd": 2057435640.0000005,
+          "local_cash_operating_cost_usd": 3977340000.0,
+          "shared_operations_allowance_usd": 198867000.0,
+          "service_payment_usd": 0.0,
+          "initial_investment_usd": 687500000.0,
+          "operator_cash_after_current_year_investment_usd": -2806271359.9999995
+        }
+      ]
+    },
+    {
+      "program": "mixed_program_unfunded",
+      "target_units_per_state": 100,
+      "target_national_units": 5000,
+      "status": "CONDITIONAL; feed/processing capacity not verified",
+      "additionality_fraction": 1.0,
+      "five_year_active_unit_years": 13000.0,
+      "five_year_input_t": 78000000.0,
+      "five_year_legacy_input_t": 62400000.0,
+      "five_year_enriched_input_t": 15600000.0,
+      "legacy_stock_processed_once_percent": 0.624,
+      "initial_investment_usd": 2750000000.0,
+      "working_cash_envelope_at_full_fleet_usd": 800000000,
+      "five_year_finished_metal_t": {
+        "ferrous": 2294136.0000000005,
+        "aluminum": 805615.2000000002,
+        "copper": 389497.68000000005
+      },
+      "five_year_accepted_metal_t": {
+        "ferrous": 2414880.0000000005,
+        "aluminum": 848016.0000000001,
+        "copper": 401544.00000000006
+      },
+      "five_year_managed_residual_t": 74335560.0,
+      "operator_net_after_initial_investment_usd": -8258805535.999999,
+      "operator_roi_percent": -300.32020130909086,
+      "five_year_service_payments_usd": 0.0,
+      "net_market_value_after_costs_excluding_transfers_usd": -8258805535.999999,
+      "climate_public_value_proxy_usd": 1306250353.546573,
+      "resilience_shadow_value_usd": 0.0,
+      "expanded_net_value_proxy_usd": -6952555182.453426,
+      "expanded_return_proxy_percent_NOT_financial_roi": -252.82018845285188,
+      "potential_import_replacement_t_NOT_actual": {
+        "copper": 389497.68000000005,
+        "aluminum": 805615.2000000002
+      },
+      "gross_import_purchase_equivalent_usd_NOT_additive": 5909014800.000001,
+      "bauxite_equivalent_t_range": [
+        3222460.8000000007,
+        4833691.200000001
+      ],
+      "remaining_public_benefit_needed_usd_legacy_input_t": 111.41915356495876,
+      "constraint_checks": [
+        {
+          "constraint": "annual_available_enriched_feed_t",
+          "required_year5_t": 6000000.0,
+          "capacity_limit_t": null,
+          "status": "UNKNOWN"
+        },
+        {
+          "constraint": "annual_domestic_finished_copper_capacity_t",
+          "required_year5_t": 149806.80000000002,
+          "capacity_limit_t": null,
+          "status": "UNKNOWN"
+        },
+        {
+          "constraint": "annual_domestic_finished_aluminum_capacity_t",
+          "required_year5_t": 309852.00000000006,
+          "capacity_limit_t": null,
+          "status": "UNKNOWN"
+        }
+      ],
+      "benefit_proxies": {
+        "net_ghg_saving_proxy_tco2e_5yr": 13062503.53546573,
+        "upstream_energy_saving_proxy_gwh_equivalent_before_extra_site_energy": 57482.98527402031,
+        "copper_ore_equivalent_t_5yr": 86555039.99999999,
+        "iron_ore_equivalent_t_5yr": 3380832.0
+      },
+      "annual": [
+        {
+          "year": 1,
+          "average_active_units": 500.0,
+          "input_t": 3000000.0,
+          "legacy_input_t": 2400000.0,
+          "selected_enriched_input_t": 600000.0,
+          "finished_metal_t": {
+            "ferrous": 88236.00000000001,
+            "aluminum": 30985.2,
+            "copper": 14980.680000000002
+          },
+          "accepted_metal_t": {
+            "ferrous": 92880.00000000001,
+            "aluminum": 32616.000000000004,
+            "copper": 15444.000000000002
+          },
+          "net_product_receipts_usd": 205743564.00000006,
+          "local_cash_operating_cost_usd": 397734000.0,
+          "shared_operations_allowance_usd": 19886700.0,
+          "service_payment_usd": 0.0,
+          "initial_investment_usd": 275000000.0,
+          "operator_cash_after_current_year_investment_usd": -486877135.99999994
+        },
+        {
+          "year": 2,
+          "average_active_units": 1250.0,
+          "input_t": 7500000.0,
+          "legacy_input_t": 6000000.0,
+          "selected_enriched_input_t": 1500000.0,
+          "finished_metal_t": {
+            "ferrous": 220590.00000000003,
+            "aluminum": 77463.00000000001,
+            "copper": 37451.700000000004
+          },
+          "accepted_metal_t": {
+            "ferrous": 232200.00000000003,
+            "aluminum": 81540.00000000001,
+            "copper": 38610.00000000001
+          },
+          "net_product_receipts_usd": 514358910.0000001,
+          "local_cash_operating_cost_usd": 994335000.0,
+          "shared_operations_allowance_usd": 49716750.0,
+          "service_payment_usd": 0.0,
+          "initial_investment_usd": 412500000.0,
+          "operator_cash_after_current_year_investment_usd": -942192839.9999999
+        },
+        {
+          "year": 3,
+          "average_active_units": 2500.0,
+          "input_t": 15000000.0,
+          "legacy_input_t": 12000000.0,
+          "selected_enriched_input_t": 3000000.0,
+          "finished_metal_t": {
+            "ferrous": 441180.00000000006,
+            "aluminum": 154926.00000000003,
+            "copper": 74903.40000000001
+          },
+          "accepted_metal_t": {
+            "ferrous": 464400.00000000006,
+            "aluminum": 163080.00000000003,
+            "copper": 77220.00000000001
+          },
+          "net_product_receipts_usd": 1028717820.0000002,
+          "local_cash_operating_cost_usd": 1988670000.0,
+          "shared_operations_allowance_usd": 99433500.0,
+          "service_payment_usd": 0.0,
+          "initial_investment_usd": 687500000.0,
+          "operator_cash_after_current_year_investment_usd": -1746885679.9999998
+        },
+        {
+          "year": 4,
+          "average_active_units": 3750.0,
+          "input_t": 22500000.0,
+          "legacy_input_t": 18000000.0,
+          "selected_enriched_input_t": 4500000.0,
+          "finished_metal_t": {
+            "ferrous": 661770.0000000001,
+            "aluminum": 232389.00000000003,
+            "copper": 112355.1
+          },
+          "accepted_metal_t": {
+            "ferrous": 696600.0000000001,
+            "aluminum": 244620.00000000003,
+            "copper": 115830.00000000001
+          },
+          "net_product_receipts_usd": 1543076730.0000005,
+          "local_cash_operating_cost_usd": 2983005000.0,
+          "shared_operations_allowance_usd": 149150250.0,
+          "service_payment_usd": 0.0,
+          "initial_investment_usd": 687500000.0,
+          "operator_cash_after_current_year_investment_usd": -2276578519.9999995
+        },
+        {
+          "year": 5,
+          "average_active_units": 5000.0,
+          "input_t": 30000000.0,
+          "legacy_input_t": 24000000.0,
+          "selected_enriched_input_t": 6000000.0,
+          "finished_metal_t": {
+            "ferrous": 882360.0000000001,
+            "aluminum": 309852.00000000006,
+            "copper": 149806.80000000002
+          },
+          "accepted_metal_t": {
+            "ferrous": 928800.0000000001,
+            "aluminum": 326160.00000000006,
+            "copper": 154440.00000000003
+          },
+          "net_product_receipts_usd": 2057435640.0000005,
+          "local_cash_operating_cost_usd": 3977340000.0,
+          "shared_operations_allowance_usd": 198867000.0,
+          "service_payment_usd": 0.0,
+          "initial_investment_usd": 687500000.0,
+          "operator_cash_after_current_year_investment_usd": -2806271359.9999995
+        }
+      ]
+    },
+    {
+      "program": "mixed_program_service_contract_sensitivity",
+      "target_units_per_state": 100,
+      "target_national_units": 5000,
+      "status": "CONDITIONAL; feed/processing capacity not verified",
+      "additionality_fraction": 0.5,
+      "five_year_active_unit_years": 13000.0,
+      "five_year_input_t": 78000000.0,
+      "five_year_legacy_input_t": 62400000.0,
+      "five_year_enriched_input_t": 15600000.0,
+      "legacy_stock_processed_once_percent": 0.624,
+      "initial_investment_usd": 2750000000.0,
+      "working_cash_envelope_at_full_fleet_usd": 800000000,
+      "five_year_finished_metal_t": {
+        "ferrous": 2294136.0000000005,
+        "aluminum": 805615.2000000002,
+        "copper": 389497.68000000005
+      },
+      "five_year_accepted_metal_t": {
+        "ferrous": 2414880.0000000005,
+        "aluminum": 848016.0000000001,
+        "copper": 401544.00000000006
+      },
+      "five_year_managed_residual_t": 74335560.0,
+      "operator_net_after_initial_investment_usd": 1101194464.0000005,
+      "operator_roi_percent": 40.04343505454547,
+      "five_year_service_payments_usd": 9360000000.0,
+      "net_market_value_after_costs_excluding_transfers_usd": -8258805536.0,
+      "climate_public_value_proxy_usd": 626792376.7732866,
+      "resilience_shadow_value_usd": 0.0,
+      "expanded_net_value_proxy_usd": -7632013159.226713,
+      "expanded_return_proxy_percent_NOT_financial_roi": -277.5277512446077,
+      "potential_import_replacement_t_NOT_actual": {
+        "copper": 194748.84000000003,
+        "aluminum": 402807.6000000001
+      },
+      "gross_import_purchase_equivalent_usd_NOT_additive": 2954507400.0000005,
+      "bauxite_equivalent_t_range": [
+        1611230.4000000004,
+        2416845.6000000006
+      ],
+      "remaining_public_benefit_needed_usd_legacy_input_t": 122.3079031927358,
+      "constraint_checks": [
+        {
+          "constraint": "annual_available_enriched_feed_t",
+          "required_year5_t": 6000000.0,
+          "capacity_limit_t": null,
+          "status": "UNKNOWN"
+        },
+        {
+          "constraint": "annual_domestic_finished_copper_capacity_t",
+          "required_year5_t": 149806.80000000002,
+          "capacity_limit_t": null,
+          "status": "UNKNOWN"
+        },
+        {
+          "constraint": "annual_domestic_finished_aluminum_capacity_t",
+          "required_year5_t": 309852.00000000006,
+          "capacity_limit_t": null,
+          "status": "UNKNOWN"
+        }
+      ],
+      "benefit_proxies": {
+        "net_ghg_saving_proxy_tco2e_5yr": 6267923.767732866,
+        "upstream_energy_saving_proxy_gwh_equivalent_before_extra_site_energy": 28741.492637010157,
+        "copper_ore_equivalent_t_5yr": 43277519.99999999,
+        "iron_ore_equivalent_t_5yr": 1690416.0
+      },
+      "annual": [
+        {
+          "year": 1,
+          "average_active_units": 500.0,
+          "input_t": 3000000.0,
+          "legacy_input_t": 2400000.0,
+          "selected_enriched_input_t": 600000.0,
+          "finished_metal_t": {
+            "ferrous": 88236.00000000001,
+            "aluminum": 30985.2,
+            "copper": 14980.680000000002
+          },
+          "accepted_metal_t": {
+            "ferrous": 92880.00000000001,
+            "aluminum": 32616.000000000004,
+            "copper": 15444.000000000002
+          },
+          "net_product_receipts_usd": 205743564.00000006,
+          "local_cash_operating_cost_usd": 397734000.0,
+          "shared_operations_allowance_usd": 19886700.0,
+          "service_payment_usd": 360000000.0,
+          "initial_investment_usd": 275000000.0,
+          "operator_cash_after_current_year_investment_usd": -126877136.0
+        },
+        {
+          "year": 2,
+          "average_active_units": 1250.0,
+          "input_t": 7500000.0,
+          "legacy_input_t": 6000000.0,
+          "selected_enriched_input_t": 1500000.0,
+          "finished_metal_t": {
+            "ferrous": 220590.00000000003,
+            "aluminum": 77463.00000000001,
+            "copper": 37451.700000000004
+          },
+          "accepted_metal_t": {
+            "ferrous": 232200.00000000003,
+            "aluminum": 81540.00000000001,
+            "copper": 38610.00000000001
+          },
+          "net_product_receipts_usd": 514358910.0000001,
+          "local_cash_operating_cost_usd": 994335000.0,
+          "shared_operations_allowance_usd": 49716750.0,
+          "service_payment_usd": 900000000.0,
+          "initial_investment_usd": 412500000.0,
+          "operator_cash_after_current_year_investment_usd": -42192840.0
+        },
+        {
+          "year": 3,
+          "average_active_units": 2500.0,
+          "input_t": 15000000.0,
+          "legacy_input_t": 12000000.0,
+          "selected_enriched_input_t": 3000000.0,
+          "finished_metal_t": {
+            "ferrous": 441180.00000000006,
+            "aluminum": 154926.00000000003,
+            "copper": 74903.40000000001
+          },
+          "accepted_metal_t": {
+            "ferrous": 464400.00000000006,
+            "aluminum": 163080.00000000003,
+            "copper": 77220.00000000001
+          },
+          "net_product_receipts_usd": 1028717820.0000002,
+          "local_cash_operating_cost_usd": 1988670000.0,
+          "shared_operations_allowance_usd": 99433500.0,
+          "service_payment_usd": 1800000000.0,
+          "initial_investment_usd": 687500000.0,
+          "operator_cash_after_current_year_investment_usd": 53114320.0
+        },
+        {
+          "year": 4,
+          "average_active_units": 3750.0,
+          "input_t": 22500000.0,
+          "legacy_input_t": 18000000.0,
+          "selected_enriched_input_t": 4500000.0,
+          "finished_metal_t": {
+            "ferrous": 661770.0000000001,
+            "aluminum": 232389.00000000003,
+            "copper": 112355.1
+          },
+          "accepted_metal_t": {
+            "ferrous": 696600.0000000001,
+            "aluminum": 244620.00000000003,
+            "copper": 115830.00000000001
+          },
+          "net_product_receipts_usd": 1543076730.0000005,
+          "local_cash_operating_cost_usd": 2983005000.0,
+          "shared_operations_allowance_usd": 149150250.0,
+          "service_payment_usd": 2700000000.0,
+          "initial_investment_usd": 687500000.0,
+          "operator_cash_after_current_year_investment_usd": 423421480.0000005
+        },
+        {
+          "year": 5,
+          "average_active_units": 5000.0,
+          "input_t": 30000000.0,
+          "legacy_input_t": 24000000.0,
+          "selected_enriched_input_t": 6000000.0,
+          "finished_metal_t": {
+            "ferrous": 882360.0000000001,
+            "aluminum": 309852.00000000006,
+            "copper": 149806.80000000002
+          },
+          "accepted_metal_t": {
+            "ferrous": 928800.0000000001,
+            "aluminum": 326160.00000000006,
+            "copper": 154440.00000000003
+          },
+          "net_product_receipts_usd": 2057435640.0000005,
+          "local_cash_operating_cost_usd": 3977340000.0,
+          "shared_operations_allowance_usd": 198867000.0,
+          "service_payment_usd": 3600000000.0,
+          "initial_investment_usd": 687500000.0,
+          "operator_cash_after_current_year_investment_usd": 793728640.0
+        }
+      ]
+    },
+    {
+      "program": "mixed_program_service_contract_sensitivity",
+      "target_units_per_state": 100,
+      "target_national_units": 5000,
+      "status": "CONDITIONAL; feed/processing capacity not verified",
+      "additionality_fraction": 1.0,
+      "five_year_active_unit_years": 13000.0,
+      "five_year_input_t": 78000000.0,
+      "five_year_legacy_input_t": 62400000.0,
+      "five_year_enriched_input_t": 15600000.0,
+      "legacy_stock_processed_once_percent": 0.624,
+      "initial_investment_usd": 2750000000.0,
+      "working_cash_envelope_at_full_fleet_usd": 800000000,
+      "five_year_finished_metal_t": {
+        "ferrous": 2294136.0000000005,
+        "aluminum": 805615.2000000002,
+        "copper": 389497.68000000005
+      },
+      "five_year_accepted_metal_t": {
+        "ferrous": 2414880.0000000005,
+        "aluminum": 848016.0000000001,
+        "copper": 401544.00000000006
+      },
+      "five_year_managed_residual_t": 74335560.0,
+      "operator_net_after_initial_investment_usd": 1101194464.0000005,
+      "operator_roi_percent": 40.04343505454547,
+      "five_year_service_payments_usd": 9360000000.0,
+      "net_market_value_after_costs_excluding_transfers_usd": -8258805536.0,
+      "climate_public_value_proxy_usd": 1306250353.546573,
+      "resilience_shadow_value_usd": 0.0,
+      "expanded_net_value_proxy_usd": -6952555182.453427,
+      "expanded_return_proxy_percent_NOT_financial_roi": -252.8201884528519,
+      "potential_import_replacement_t_NOT_actual": {
+        "copper": 389497.68000000005,
+        "aluminum": 805615.2000000002
+      },
+      "gross_import_purchase_equivalent_usd_NOT_additive": 5909014800.000001,
+      "bauxite_equivalent_t_range": [
+        3222460.8000000007,
+        4833691.200000001
+      ],
+      "remaining_public_benefit_needed_usd_legacy_input_t": 111.41915356495878,
+      "constraint_checks": [
+        {
+          "constraint": "annual_available_enriched_feed_t",
+          "required_year5_t": 6000000.0,
+          "capacity_limit_t": null,
+          "status": "UNKNOWN"
+        },
+        {
+          "constraint": "annual_domestic_finished_copper_capacity_t",
+          "required_year5_t": 149806.80000000002,
+          "capacity_limit_t": null,
+          "status": "UNKNOWN"
+        },
+        {
+          "constraint": "annual_domestic_finished_aluminum_capacity_t",
+          "required_year5_t": 309852.00000000006,
+          "capacity_limit_t": null,
+          "status": "UNKNOWN"
+        }
+      ],
+      "benefit_proxies": {
+        "net_ghg_saving_proxy_tco2e_5yr": 13062503.53546573,
+        "upstream_energy_saving_proxy_gwh_equivalent_before_extra_site_energy": 57482.98527402031,
+        "copper_ore_equivalent_t_5yr": 86555039.99999999,
+        "iron_ore_equivalent_t_5yr": 3380832.0
+      },
+      "annual": [
+        {
+          "year": 1,
+          "average_active_units": 500.0,
+          "input_t": 3000000.0,
+          "legacy_input_t": 2400000.0,
+          "selected_enriched_input_t": 600000.0,
+          "finished_metal_t": {
+            "ferrous": 88236.00000000001,
+            "aluminum": 30985.2,
+            "copper": 14980.680000000002
+          },
+          "accepted_metal_t": {
+            "ferrous": 92880.00000000001,
+            "aluminum": 32616.000000000004,
+            "copper": 15444.000000000002
+          },
+          "net_product_receipts_usd": 205743564.00000006,
+          "local_cash_operating_cost_usd": 397734000.0,
+          "shared_operations_allowance_usd": 19886700.0,
+          "service_payment_usd": 360000000.0,
+          "initial_investment_usd": 275000000.0,
+          "operator_cash_after_current_year_investment_usd": -126877136.0
+        },
+        {
+          "year": 2,
+          "average_active_units": 1250.0,
+          "input_t": 7500000.0,
+          "legacy_input_t": 6000000.0,
+          "selected_enriched_input_t": 1500000.0,
+          "finished_metal_t": {
+            "ferrous": 220590.00000000003,
+            "aluminum": 77463.00000000001,
+            "copper": 37451.700000000004
+          },
+          "accepted_metal_t": {
+            "ferrous": 232200.00000000003,
+            "aluminum": 81540.00000000001,
+            "copper": 38610.00000000001
+          },
+          "net_product_receipts_usd": 514358910.0000001,
+          "local_cash_operating_cost_usd": 994335000.0,
+          "shared_operations_allowance_usd": 49716750.0,
+          "service_payment_usd": 900000000.0,
+          "initial_investment_usd": 412500000.0,
+          "operator_cash_after_current_year_investment_usd": -42192840.0
+        },
+        {
+          "year": 3,
+          "average_active_units": 2500.0,
+          "input_t": 15000000.0,
+          "legacy_input_t": 12000000.0,
+          "selected_enriched_input_t": 3000000.0,
+          "finished_metal_t": {
+            "ferrous": 441180.00000000006,
+            "aluminum": 154926.00000000003,
+            "copper": 74903.40000000001
+          },
+          "accepted_metal_t": {
+            "ferrous": 464400.00000000006,
+            "aluminum": 163080.00000000003,
+            "copper": 77220.00000000001
+          },
+          "net_product_receipts_usd": 1028717820.0000002,
+          "local_cash_operating_cost_usd": 1988670000.0,
+          "shared_operations_allowance_usd": 99433500.0,
+          "service_payment_usd": 1800000000.0,
+          "initial_investment_usd": 687500000.0,
+          "operator_cash_after_current_year_investment_usd": 53114320.0
+        },
+        {
+          "year": 4,
+          "average_active_units": 3750.0,
+          "input_t": 22500000.0,
+          "legacy_input_t": 18000000.0,
+          "selected_enriched_input_t": 4500000.0,
+          "finished_metal_t": {
+            "ferrous": 661770.0000000001,
+            "aluminum": 232389.00000000003,
+            "copper": 112355.1
+          },
+          "accepted_metal_t": {
+            "ferrous": 696600.0000000001,
+            "aluminum": 244620.00000000003,
+            "copper": 115830.00000000001
+          },
+          "net_product_receipts_usd": 1543076730.0000005,
+          "local_cash_operating_cost_usd": 2983005000.0,
+          "shared_operations_allowance_usd": 149150250.0,
+          "service_payment_usd": 2700000000.0,
+          "initial_investment_usd": 687500000.0,
+          "operator_cash_after_current_year_investment_usd": 423421480.0000005
+        },
+        {
+          "year": 5,
+          "average_active_units": 5000.0,
+          "input_t": 30000000.0,
+          "legacy_input_t": 24000000.0,
+          "selected_enriched_input_t": 6000000.0,
+          "finished_metal_t": {
+            "ferrous": 882360.0000000001,
+            "aluminum": 309852.00000000006,
+            "copper": 149806.80000000002
+          },
+          "accepted_metal_t": {
+            "ferrous": 928800.0000000001,
+            "aluminum": 326160.00000000006,
+            "copper": 154440.00000000003
+          },
+          "net_product_receipts_usd": 2057435640.0000005,
+          "local_cash_operating_cost_usd": 3977340000.0,
+          "shared_operations_allowance_usd": 198867000.0,
+          "service_payment_usd": 3600000000.0,
+          "initial_investment_usd": 687500000.0,
+          "operator_cash_after_current_year_investment_usd": 793728640.0
+        }
+      ]
+    },
+    {
+      "program": "legacy_only_service_contract_sensitivity",
+      "target_units_per_state": 100,
+      "target_national_units": 5000,
+      "status": "CONDITIONAL; feed/processing capacity not verified",
+      "additionality_fraction": 0.5,
+      "five_year_active_unit_years": 13000.0,
+      "five_year_input_t": 78000000.0,
+      "five_year_legacy_input_t": 78000000.0,
+      "five_year_enriched_input_t": 0.0,
+      "legacy_stock_processed_once_percent": 0.78,
+      "initial_investment_usd": 2750000000.0,
+      "working_cash_envelope_at_full_fleet_usd": 800000000,
+      "five_year_finished_metal_t": {
+        "ferrous": 1600560.0,
+        "aluminum": 373464.00000000006,
+        "copper": 163425.60000000003
+      },
+      "five_year_accepted_metal_t": {
+        "ferrous": 1684800.0,
+        "aluminum": 393120.00000000006,
+        "copper": 168480.00000000003
+      },
+      "five_year_managed_residual_t": 75753600.0,
+      "operator_net_after_initial_investment_usd": 475097980.00000083,
+      "operator_roi_percent": 17.27629018181821,
+      "five_year_service_payments_usd": 11700000000.0,
+      "net_market_value_after_costs_excluding_transfers_usd": -11224902020.0,
+      "climate_public_value_proxy_usd": 314962012.43095875,
+      "resilience_shadow_value_usd": 0.0,
+      "expanded_net_value_proxy_usd": -10909940007.569042,
+      "expanded_return_proxy_percent_NOT_financial_roi": -396.7250911843288,
+      "potential_import_replacement_t_NOT_actual": {
+        "copper": 81712.80000000002,
+        "aluminum": 186732.00000000003
+      },
+      "gross_import_purchase_equivalent_usd_NOT_additive": 1283958000.0000002,
+      "bauxite_equivalent_t_range": [
+        746928.0000000001,
+        1120392.0000000002
+      ],
+      "remaining_public_benefit_needed_usd_legacy_input_t": 139.87102573806465,
+      "constraint_checks": [
+        {
+          "constraint": "annual_available_enriched_feed_t",
+          "required_year5_t": 0.0,
+          "capacity_limit_t": null,
+          "status": "UNKNOWN"
+        },
+        {
+          "constraint": "annual_domestic_finished_copper_capacity_t",
+          "required_year5_t": 62856.000000000015,
+          "capacity_limit_t": null,
+          "status": "UNKNOWN"
+        },
+        {
+          "constraint": "annual_domestic_finished_aluminum_capacity_t",
+          "required_year5_t": 143640.00000000003,
+          "capacity_limit_t": null,
+          "status": "UNKNOWN"
+        }
+      ],
+      "benefit_proxies": {
+        "net_ghg_saving_proxy_tco2e_5yr": 3149620.1243095873,
+        "upstream_energy_saving_proxy_gwh_equivalent_before_extra_site_energy": 14911.74873923716,
+        "copper_ore_equivalent_t_5yr": 18158399.999999993,
+        "iron_ore_equivalent_t_5yr": 1179360.0
+      },
+      "annual": [
+        {
+          "year": 1,
+          "average_active_units": 500.0,
+          "input_t": 3000000.0,
+          "legacy_input_t": 3000000.0,
+          "selected_enriched_input_t": 0.0,
+          "finished_metal_t": {
+            "ferrous": 61560.0,
+            "aluminum": 14364.000000000004,
+            "copper": 6285.600000000001
+          },
+          "accepted_metal_t": {
+            "ferrous": 64800.0,
+            "aluminum": 15120.000000000004,
+            "copper": 6480.000000000002
+          },
+          "net_product_receipts_usd": 92006280.00000003,
+          "local_cash_operating_cost_usd": 398061000.0,
+          "shared_operations_allowance_usd": 19903050.0,
+          "service_payment_usd": 450000000.0,
+          "initial_investment_usd": 275000000.0,
+          "operator_cash_after_current_year_investment_usd": -150957770.0
+        },
+        {
+          "year": 2,
+          "average_active_units": 1250.0,
+          "input_t": 7500000.0,
+          "legacy_input_t": 7500000.0,
+          "selected_enriched_input_t": 0.0,
+          "finished_metal_t": {
+            "ferrous": 153900.0,
+            "aluminum": 35910.00000000001,
+            "copper": 15714.000000000004
+          },
+          "accepted_metal_t": {
+            "ferrous": 162000.0,
+            "aluminum": 37800.00000000001,
+            "copper": 16200.000000000004
+          },
+          "net_product_receipts_usd": 230015700.00000006,
+          "local_cash_operating_cost_usd": 995152499.9999999,
+          "shared_operations_allowance_usd": 49757625.0,
+          "service_payment_usd": 1125000000.0,
+          "initial_investment_usd": 412500000.0,
+          "operator_cash_after_current_year_investment_usd": -102394424.99999988
+        },
+        {
+          "year": 3,
+          "average_active_units": 2500.0,
+          "input_t": 15000000.0,
+          "legacy_input_t": 15000000.0,
+          "selected_enriched_input_t": 0.0,
+          "finished_metal_t": {
+            "ferrous": 307800.0,
+            "aluminum": 71820.00000000001,
+            "copper": 31428.000000000007
+          },
+          "accepted_metal_t": {
+            "ferrous": 324000.0,
+            "aluminum": 75600.00000000001,
+            "copper": 32400.000000000007
+          },
+          "net_product_receipts_usd": 460031400.0000001,
+          "local_cash_operating_cost_usd": 1990304999.9999998,
+          "shared_operations_allowance_usd": 99515250.0,
+          "service_payment_usd": 2250000000.0,
+          "initial_investment_usd": 687500000.0,
+          "operator_cash_after_current_year_investment_usd": -67288849.99999976
+        },
+        {
+          "year": 4,
+          "average_active_units": 3750.0,
+          "input_t": 22500000.0,
+          "legacy_input_t": 22500000.0,
+          "selected_enriched_input_t": 0.0,
+          "finished_metal_t": {
+            "ferrous": 461700.0,
+            "aluminum": 107730.00000000003,
+            "copper": 47142.00000000001
+          },
+          "accepted_metal_t": {
+            "ferrous": 486000.0,
+            "aluminum": 113400.00000000003,
+            "copper": 48600.00000000001
+          },
+          "net_product_receipts_usd": 690047100.0000001,
+          "local_cash_operating_cost_usd": 2985457500.0,
+          "shared_operations_allowance_usd": 149272875.0,
+          "service_payment_usd": 3375000000.0,
+          "initial_investment_usd": 687500000.0,
+          "operator_cash_after_current_year_investment_usd": 242816725.0
+        },
+        {
+          "year": 5,
+          "average_active_units": 5000.0,
+          "input_t": 30000000.0,
+          "legacy_input_t": 30000000.0,
+          "selected_enriched_input_t": 0.0,
+          "finished_metal_t": {
+            "ferrous": 615600.0,
+            "aluminum": 143640.00000000003,
+            "copper": 62856.000000000015
+          },
+          "accepted_metal_t": {
+            "ferrous": 648000.0,
+            "aluminum": 151200.00000000003,
+            "copper": 64800.000000000015
+          },
+          "net_product_receipts_usd": 920062800.0000002,
+          "local_cash_operating_cost_usd": 3980609999.9999995,
+          "shared_operations_allowance_usd": 199030500.0,
+          "service_payment_usd": 4500000000.0,
+          "initial_investment_usd": 687500000.0,
+          "operator_cash_after_current_year_investment_usd": 552922300.0000005
+        }
+      ]
+    },
+    {
+      "program": "legacy_only_service_contract_sensitivity",
+      "target_units_per_state": 100,
+      "target_national_units": 5000,
+      "status": "CONDITIONAL; feed/processing capacity not verified",
+      "additionality_fraction": 1.0,
+      "five_year_active_unit_years": 13000.0,
+      "five_year_input_t": 78000000.0,
+      "five_year_legacy_input_t": 78000000.0,
+      "five_year_enriched_input_t": 0.0,
+      "legacy_stock_processed_once_percent": 0.78,
+      "initial_investment_usd": 2750000000.0,
+      "working_cash_envelope_at_full_fleet_usd": 800000000,
+      "five_year_finished_metal_t": {
+        "ferrous": 1600560.0,
+        "aluminum": 373464.00000000006,
+        "copper": 163425.60000000003
+      },
+      "five_year_accepted_metal_t": {
+        "ferrous": 1684800.0,
+        "aluminum": 393120.00000000006,
+        "copper": 168480.00000000003
+      },
+      "five_year_managed_residual_t": 75753600.0,
+      "operator_net_after_initial_investment_usd": 475097980.00000083,
+      "operator_roi_percent": 17.27629018181821,
+      "five_year_service_payments_usd": 11700000000.0,
+      "net_market_value_after_costs_excluding_transfers_usd": -11224902020.0,
+      "climate_public_value_proxy_usd": 682589624.8619175,
+      "resilience_shadow_value_usd": 0.0,
+      "expanded_net_value_proxy_usd": -10542312395.138083,
+      "expanded_return_proxy_percent_NOT_financial_roi": -383.3568143686575,
+      "potential_import_replacement_t_NOT_actual": {
+        "copper": 163425.60000000003,
+        "aluminum": 373464.00000000006
+      },
+      "gross_import_purchase_equivalent_usd_NOT_additive": 2567916000.0000005,
+      "bauxite_equivalent_t_range": [
+        1493856.0000000002,
+        2240784.0000000005
+      ],
+      "remaining_public_benefit_needed_usd_legacy_input_t": 135.157851219719,
+      "constraint_checks": [
+        {
+          "constraint": "annual_available_enriched_feed_t",
+          "required_year5_t": 0.0,
+          "capacity_limit_t": null,
+          "status": "UNKNOWN"
+        },
+        {
+          "constraint": "annual_domestic_finished_copper_capacity_t",
+          "required_year5_t": 62856.000000000015,
+          "capacity_limit_t": null,
+          "status": "UNKNOWN"
+        },
+        {
+          "constraint": "annual_domestic_finished_aluminum_capacity_t",
+          "required_year5_t": 143640.00000000003,
+          "capacity_limit_t": null,
+          "status": "UNKNOWN"
+        }
+      ],
+      "benefit_proxies": {
+        "net_ghg_saving_proxy_tco2e_5yr": 6825896.248619175,
+        "upstream_energy_saving_proxy_gwh_equivalent_before_extra_site_energy": 29823.49747847432,
+        "copper_ore_equivalent_t_5yr": 36316799.999999985,
+        "iron_ore_equivalent_t_5yr": 2358720.0
+      },
+      "annual": [
+        {
+          "year": 1,
+          "average_active_units": 500.0,
+          "input_t": 3000000.0,
+          "legacy_input_t": 3000000.0,
+          "selected_enriched_input_t": 0.0,
+          "finished_metal_t": {
+            "ferrous": 61560.0,
+            "aluminum": 14364.000000000004,
+            "copper": 6285.600000000001
+          },
+          "accepted_metal_t": {
+            "ferrous": 64800.0,
+            "aluminum": 15120.000000000004,
+            "copper": 6480.000000000002
+          },
+          "net_product_receipts_usd": 92006280.00000003,
+          "local_cash_operating_cost_usd": 398061000.0,
+          "shared_operations_allowance_usd": 19903050.0,
+          "service_payment_usd": 450000000.0,
+          "initial_investment_usd": 275000000.0,
+          "operator_cash_after_current_year_investment_usd": -150957770.0
+        },
+        {
+          "year": 2,
+          "average_active_units": 1250.0,
+          "input_t": 7500000.0,
+          "legacy_input_t": 7500000.0,
+          "selected_enriched_input_t": 0.0,
+          "finished_metal_t": {
+            "ferrous": 153900.0,
+            "aluminum": 35910.00000000001,
+            "copper": 15714.000000000004
+          },
+          "accepted_metal_t": {
+            "ferrous": 162000.0,
+            "aluminum": 37800.00000000001,
+            "copper": 16200.000000000004
+          },
+          "net_product_receipts_usd": 230015700.00000006,
+          "local_cash_operating_cost_usd": 995152499.9999999,
+          "shared_operations_allowance_usd": 49757625.0,
+          "service_payment_usd": 1125000000.0,
+          "initial_investment_usd": 412500000.0,
+          "operator_cash_after_current_year_investment_usd": -102394424.99999988
+        },
+        {
+          "year": 3,
+          "average_active_units": 2500.0,
+          "input_t": 15000000.0,
+          "legacy_input_t": 15000000.0,
+          "selected_enriched_input_t": 0.0,
+          "finished_metal_t": {
+            "ferrous": 307800.0,
+            "aluminum": 71820.00000000001,
+            "copper": 31428.000000000007
+          },
+          "accepted_metal_t": {
+            "ferrous": 324000.0,
+            "aluminum": 75600.00000000001,
+            "copper": 32400.000000000007
+          },
+          "net_product_receipts_usd": 460031400.0000001,
+          "local_cash_operating_cost_usd": 1990304999.9999998,
+          "shared_operations_allowance_usd": 99515250.0,
+          "service_payment_usd": 2250000000.0,
+          "initial_investment_usd": 687500000.0,
+          "operator_cash_after_current_year_investment_usd": -67288849.99999976
+        },
+        {
+          "year": 4,
+          "average_active_units": 3750.0,
+          "input_t": 22500000.0,
+          "legacy_input_t": 22500000.0,
+          "selected_enriched_input_t": 0.0,
+          "finished_metal_t": {
+            "ferrous": 461700.0,
+            "aluminum": 107730.00000000003,
+            "copper": 47142.00000000001
+          },
+          "accepted_metal_t": {
+            "ferrous": 486000.0,
+            "aluminum": 113400.00000000003,
+            "copper": 48600.00000000001
+          },
+          "net_product_receipts_usd": 690047100.0000001,
+          "local_cash_operating_cost_usd": 2985457500.0,
+          "shared_operations_allowance_usd": 149272875.0,
+          "service_payment_usd": 3375000000.0,
+          "initial_investment_usd": 687500000.0,
+          "operator_cash_after_current_year_investment_usd": 242816725.0
+        },
+        {
+          "year": 5,
+          "average_active_units": 5000.0,
+          "input_t": 30000000.0,
+          "legacy_input_t": 30000000.0,
+          "selected_enriched_input_t": 0.0,
+          "finished_metal_t": {
+            "ferrous": 615600.0,
+            "aluminum": 143640.00000000003,
+            "copper": 62856.000000000015
+          },
+          "accepted_metal_t": {
+            "ferrous": 648000.0,
+            "aluminum": 151200.00000000003,
+            "copper": 64800.000000000015
+          },
+          "net_product_receipts_usd": 920062800.0000002,
+          "local_cash_operating_cost_usd": 3980609999.9999995,
+          "shared_operations_allowance_usd": 199030500.0,
+          "service_payment_usd": 4500000000.0,
+          "initial_investment_usd": 687500000.0,
+          "operator_cash_after_current_year_investment_usd": 552922300.0000005
+        }
+      ]
+    }
+  ]
+}
