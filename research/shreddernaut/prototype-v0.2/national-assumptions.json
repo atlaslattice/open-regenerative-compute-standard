@@ -1,0 +1,24 @@
+{
+  "status":"NATIONAL SCREENING SCENARIOS; NOT A DEPLOYMENT FORECAST OR VERIFIED RESOURCE RESERVE",
+  "states":50,
+  "year_average_active_fraction_of_target":[0.10,0.25,0.50,0.75,1.0],
+  "target_units_per_state_cases":[10,50,100,250],
+  "legacy_stock_t_assumption":10000000000,
+  "shared_initial_engineering_fraction_of_unit_capital":0.10,
+  "shared_annual_operations_fraction_of_unit_cash_cost":0.05,
+  "additionality_cases":[0.5,1.0],
+  "shadow_carbon_usd_tco2e":100,
+  "resilience_shadow_usd_finished_nonferrous_t":0,
+  "domestic_delivery_fraction_assumption":1.0,
+  "import_replacement_fraction_sensitivity":1.0,
+  "annual_available_enriched_feed_t":null,
+  "annual_domestic_finished_copper_capacity_t":null,
+  "annual_domestic_finished_aluminum_capacity_t":null,
+  "program_cases":{
+    "targeted_metal_rich_conditional":{"enriched_unit_share":1.0,"legacy_service_fee_usd_t":0},
+    "mixed_program_unfunded":{"enriched_unit_share":0.2,"legacy_service_fee_usd_t":0},
+    "mixed_program_service_contract_sensitivity":{"enriched_unit_share":0.2,"legacy_service_fee_usd_t":150},
+    "legacy_only_service_contract_sensitivity":{"enriched_unit_share":0.0,"legacy_service_fee_usd_t":150}
+  },
+  "limitations":"Equal state allocation is arithmetic only. Enriched feed share is allocation of units to a different, unverified feedstock, not a national MSW composition estimate. Current feed supply and domestic processing capacity are unknown. Output tonnes, climate proxies and ROI require all original v0.3-v0.5 assumptions. This model has no commodity price equilibrium, labor/equipment manufacturing constraints, inflation, borrowing costs, delays, methane disturbance or national refinery-build cost. No economy-of-scale or 3D-printing savings assumed. Hawaii should use its separate island overlay."
+}
