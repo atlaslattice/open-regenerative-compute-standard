@@ -1,0 +1,1769 @@
+{
+  "status": "SYNTHETIC SENSITIVITY, NOT ROI FORECAST OR HARDWARE RELIABILITY EVIDENCE",
+  "definition": "ROI=(five-year operating cash minus initial equipment/development investment)/initial investment. Pre-tax, unlevered, undiscounted; no salvage, grants or carbon credits. Working reserve excluded from primary ROI. Five full operating years, no construction delay.",
+  "stress_inputs": {
+    "base_300_days": {},
+    "downtime_240_days_retained_staff": {
+      "days": 240
+    },
+    "metal_prices_minus20pct": {
+      "price_factor": 0.8
+    },
+    "operating_costs_plus15pct": {
+      "cost_factor": 1.15
+    },
+    "combined_downside_plus_extra_overhaul": {
+      "days": 240,
+      "price_factor": 0.8,
+      "cost_factor": 1.15,
+      "extra_overhaul_year3": 100000
+    },
+    "maui_illustrative_overlay_NOT_QUOTED": {
+      "extra_capital": 100000,
+      "extra_fixed_annual": 50000,
+      "extra_freight_recovered_t": 250
+    }
+  },
+  "cases": {
+    "base_300_days": [
+      {
+        "feed": "legacy_sensitivity",
+        "route": "scrap",
+        "service_fee_usd_input_t": 0,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          -643626.0,
+          -643626.0,
+          -643626.0,
+          -643626.0,
+          -643626.0
+        ],
+        "five_year_operating_cash_usd": -3218130.0,
+        "five_year_net_cash_after_initial_investment_usd": -3718130.0,
+        "five_year_simple_roi_percent": -743.626,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": -563.3530303030303
+      },
+      {
+        "feed": "legacy_sensitivity",
+        "route": "scrap",
+        "service_fee_usd_input_t": 100,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          -43626.0,
+          -43626.0,
+          -43626.0,
+          -43626.0,
+          -43626.0
+        ],
+        "five_year_operating_cash_usd": -218130.0,
+        "five_year_net_cash_after_initial_investment_usd": -718130.0,
+        "five_year_simple_roi_percent": -143.626,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": -108.80757575757576
+      },
+      {
+        "feed": "legacy_sensitivity",
+        "route": "scrap",
+        "service_fee_usd_input_t": 150,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          256374.0,
+          256374.0,
+          256374.0,
+          256374.0,
+          256374.0
+        ],
+        "five_year_operating_cash_usd": 1281870.0,
+        "five_year_net_cash_after_initial_investment_usd": 781870.0,
+        "five_year_simple_roi_percent": 156.374,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 118.46515151515152
+      },
+      {
+        "feed": "legacy_sensitivity",
+        "route": "scrap",
+        "service_fee_usd_input_t": 200,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          556374.0,
+          556374.0,
+          556374.0,
+          556374.0,
+          556374.0
+        ],
+        "five_year_operating_cash_usd": 2781870.0,
+        "five_year_net_cash_after_initial_investment_usd": 2281870.0,
+        "five_year_simple_roi_percent": 456.374,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 345.7378787878788
+      },
+      {
+        "feed": "legacy_sensitivity",
+        "route": "toll",
+        "service_fee_usd_input_t": 0,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          -612109.44,
+          -612109.44,
+          -612109.44,
+          -612109.44,
+          -612109.44
+        ],
+        "five_year_operating_cash_usd": -3060547.1999999997,
+        "five_year_net_cash_after_initial_investment_usd": -3560547.1999999997,
+        "five_year_simple_roi_percent": -712.10944,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": -539.4768484848485
+      },
+      {
+        "feed": "legacy_sensitivity",
+        "route": "toll",
+        "service_fee_usd_input_t": 100,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          -12109.439999999828,
+          -12109.439999999828,
+          -12109.439999999828,
+          -12109.439999999828,
+          -12109.439999999828
+        ],
+        "five_year_operating_cash_usd": -60547.19999999914,
+        "five_year_net_cash_after_initial_investment_usd": -560547.1999999991,
+        "five_year_simple_roi_percent": -112.10943999999982,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": -84.9313939393938
+      },
+      {
+        "feed": "legacy_sensitivity",
+        "route": "toll",
+        "service_fee_usd_input_t": 150,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          287890.56000000006,
+          287890.56000000006,
+          287890.56000000006,
+          287890.56000000006,
+          287890.56000000006
+        ],
+        "five_year_operating_cash_usd": 1439452.8000000003,
+        "five_year_net_cash_after_initial_investment_usd": 939452.8000000003,
+        "five_year_simple_roi_percent": 187.89056000000005,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 142.34133333333338
+      },
+      {
+        "feed": "legacy_sensitivity",
+        "route": "toll",
+        "service_fee_usd_input_t": 200,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          587890.56,
+          587890.56,
+          587890.56,
+          587890.56,
+          587890.56
+        ],
+        "five_year_operating_cash_usd": 2939452.8000000003,
+        "five_year_net_cash_after_initial_investment_usd": 2439452.8000000003,
+        "five_year_simple_roi_percent": 487.89056000000005,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 369.61406060606066
+      },
+      {
+        "feed": "enriched_selected_stream",
+        "route": "scrap",
+        "service_fee_usd_input_t": 0,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          212628.0,
+          212628.0,
+          212628.0,
+          212628.0,
+          212628.0
+        ],
+        "five_year_operating_cash_usd": 1063140.0,
+        "five_year_net_cash_after_initial_investment_usd": 563140.0,
+        "five_year_simple_roi_percent": 112.628,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 85.32424242424243
+      },
+      {
+        "feed": "enriched_selected_stream",
+        "route": "scrap",
+        "service_fee_usd_input_t": 100,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          812628.0,
+          812628.0,
+          812628.0,
+          812628.0,
+          812628.0
+        ],
+        "five_year_operating_cash_usd": 4063140.0,
+        "five_year_net_cash_after_initial_investment_usd": 3563140.0,
+        "five_year_simple_roi_percent": 712.628,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 539.869696969697
+      },
+      {
+        "feed": "enriched_selected_stream",
+        "route": "scrap",
+        "service_fee_usd_input_t": 150,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          1112628.0,
+          1112628.0,
+          1112628.0,
+          1112628.0,
+          1112628.0
+        ],
+        "five_year_operating_cash_usd": 5563140.0,
+        "five_year_net_cash_after_initial_investment_usd": 5063140.0,
+        "five_year_simple_roi_percent": 1012.628,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 767.1424242424242
+      },
+      {
+        "feed": "enriched_selected_stream",
+        "route": "scrap",
+        "service_fee_usd_input_t": 200,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          1412628.0,
+          1412628.0,
+          1412628.0,
+          1412628.0,
+          1412628.0
+        ],
+        "five_year_operating_cash_usd": 7063140.0,
+        "five_year_net_cash_after_initial_investment_usd": 6563140.0,
+        "five_year_simple_roi_percent": 1312.628,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 994.4151515151515
+      },
+      {
+        "feed": "enriched_selected_stream",
+        "route": "toll",
+        "service_fee_usd_input_t": 0,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          528533.4000000004,
+          528533.4000000004,
+          528533.4000000004,
+          528533.4000000004,
+          528533.4000000004
+        ],
+        "five_year_operating_cash_usd": 2642667.000000002,
+        "five_year_net_cash_after_initial_investment_usd": 2142667.000000002,
+        "five_year_simple_roi_percent": 428.53340000000037,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 324.6465151515154
+      },
+      {
+        "feed": "enriched_selected_stream",
+        "route": "toll",
+        "service_fee_usd_input_t": 100,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          1128533.4000000004,
+          1128533.4000000004,
+          1128533.4000000004,
+          1128533.4000000004,
+          1128533.4000000004
+        ],
+        "five_year_operating_cash_usd": 5642667.000000002,
+        "five_year_net_cash_after_initial_investment_usd": 5142667.000000002,
+        "five_year_simple_roi_percent": 1028.5334000000003,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 779.19196969697
+      },
+      {
+        "feed": "enriched_selected_stream",
+        "route": "toll",
+        "service_fee_usd_input_t": 150,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          1428533.4000000004,
+          1428533.4000000004,
+          1428533.4000000004,
+          1428533.4000000004,
+          1428533.4000000004
+        ],
+        "five_year_operating_cash_usd": 7142667.000000002,
+        "five_year_net_cash_after_initial_investment_usd": 6642667.000000002,
+        "five_year_simple_roi_percent": 1328.5334000000005,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 1006.4646969696973
+      },
+      {
+        "feed": "enriched_selected_stream",
+        "route": "toll",
+        "service_fee_usd_input_t": 200,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          1728533.4000000008,
+          1728533.4000000008,
+          1728533.4000000008,
+          1728533.4000000008,
+          1728533.4000000008
+        ],
+        "five_year_operating_cash_usd": 8642667.000000004,
+        "five_year_net_cash_after_initial_investment_usd": 8142667.000000004,
+        "five_year_simple_roi_percent": 1628.5334000000007,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 1233.7374242424248
+      }
+    ],
+    "downtime_240_days_retained_staff": [
+      {
+        "feed": "legacy_sensitivity",
+        "route": "scrap",
+        "service_fee_usd_input_t": 0,
+        "operating_days_per_year": 240,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          -608500.7999999999,
+          -608500.7999999999,
+          -608500.7999999999,
+          -608500.7999999999,
+          -608500.7999999999
+        ],
+        "five_year_operating_cash_usd": -3042503.9999999995,
+        "five_year_net_cash_after_initial_investment_usd": -3542503.9999999995,
+        "five_year_simple_roi_percent": -708.5007999999999,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": -536.7430303030302
+      },
+      {
+        "feed": "legacy_sensitivity",
+        "route": "scrap",
+        "service_fee_usd_input_t": 100,
+        "operating_days_per_year": 240,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          -128500.79999999993,
+          -128500.79999999993,
+          -128500.79999999993,
+          -128500.79999999993,
+          -128500.79999999993
+        ],
+        "five_year_operating_cash_usd": -642503.9999999997,
+        "five_year_net_cash_after_initial_investment_usd": -1142503.9999999995,
+        "five_year_simple_roi_percent": -228.5007999999999,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": -173.1066666666666
+      },
+      {
+        "feed": "legacy_sensitivity",
+        "route": "scrap",
+        "service_fee_usd_input_t": 150,
+        "operating_days_per_year": 240,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          111499.20000000007,
+          111499.20000000007,
+          111499.20000000007,
+          111499.20000000007,
+          111499.20000000007
+        ],
+        "five_year_operating_cash_usd": 557496.0000000003,
+        "five_year_net_cash_after_initial_investment_usd": 57496.00000000035,
+        "five_year_simple_roi_percent": 11.499200000000071,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 8.711515151515204
+      },
+      {
+        "feed": "legacy_sensitivity",
+        "route": "scrap",
+        "service_fee_usd_input_t": 200,
+        "operating_days_per_year": 240,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          351499.19999999984,
+          351499.19999999984,
+          351499.19999999984,
+          351499.19999999984,
+          351499.19999999984
+        ],
+        "five_year_operating_cash_usd": 1757495.999999999,
+        "five_year_net_cash_after_initial_investment_usd": 1257495.999999999,
+        "five_year_simple_roi_percent": 251.49919999999983,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 190.52969696969683
+      },
+      {
+        "feed": "legacy_sensitivity",
+        "route": "toll",
+        "service_fee_usd_input_t": 0,
+        "operating_days_per_year": 240,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          -583287.5519999999,
+          -583287.5519999999,
+          -583287.5519999999,
+          -583287.5519999999,
+          -583287.5519999999
+        ],
+        "five_year_operating_cash_usd": -2916437.76,
+        "five_year_net_cash_after_initial_investment_usd": -3416437.76,
+        "five_year_simple_roi_percent": -683.287552,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": -517.6420848484848
+      },
+      {
+        "feed": "legacy_sensitivity",
+        "route": "toll",
+        "service_fee_usd_input_t": 100,
+        "operating_days_per_year": 240,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          -103287.55199999991,
+          -103287.55199999991,
+          -103287.55199999991,
+          -103287.55199999991,
+          -103287.55199999991
+        ],
+        "five_year_operating_cash_usd": -516437.75999999954,
+        "five_year_net_cash_after_initial_investment_usd": -1016437.7599999995,
+        "five_year_simple_roi_percent": -203.28755199999992,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": -154.00572121212113
+      },
+      {
+        "feed": "legacy_sensitivity",
+        "route": "toll",
+        "service_fee_usd_input_t": 150,
+        "operating_days_per_year": 240,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          136712.4480000001,
+          136712.4480000001,
+          136712.4480000001,
+          136712.4480000001,
+          136712.4480000001
+        ],
+        "five_year_operating_cash_usd": 683562.2400000005,
+        "five_year_net_cash_after_initial_investment_usd": 183562.24000000046,
+        "five_year_simple_roi_percent": 36.71244800000009,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 27.812460606060675
+      },
+      {
+        "feed": "legacy_sensitivity",
+        "route": "toll",
+        "service_fee_usd_input_t": 200,
+        "operating_days_per_year": 240,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          376712.4480000002,
+          376712.4480000002,
+          376712.4480000002,
+          376712.4480000002,
+          376712.4480000002
+        ],
+        "five_year_operating_cash_usd": 1883562.2400000012,
+        "five_year_net_cash_after_initial_investment_usd": 1383562.2400000012,
+        "five_year_simple_roi_percent": 276.7124480000002,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 209.6306424242426
+      },
+      {
+        "feed": "enriched_selected_stream",
+        "route": "scrap",
+        "service_fee_usd_input_t": 0,
+        "operating_days_per_year": 240,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          76502.3999999999,
+          76502.3999999999,
+          76502.3999999999,
+          76502.3999999999,
+          76502.3999999999
+        ],
+        "five_year_operating_cash_usd": 382511.99999999953,
+        "five_year_net_cash_after_initial_investment_usd": -117488.00000000047,
+        "five_year_simple_roi_percent": -23.497600000000094,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": -17.801212121212192
+      },
+      {
+        "feed": "enriched_selected_stream",
+        "route": "scrap",
+        "service_fee_usd_input_t": 100,
+        "operating_days_per_year": 240,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          556502.3999999999,
+          556502.3999999999,
+          556502.3999999999,
+          556502.3999999999,
+          556502.3999999999
+        ],
+        "five_year_operating_cash_usd": 2782511.9999999995,
+        "five_year_net_cash_after_initial_investment_usd": 2282511.9999999995,
+        "five_year_simple_roi_percent": 456.5023999999999,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 345.83515151515144
+      },
+      {
+        "feed": "enriched_selected_stream",
+        "route": "scrap",
+        "service_fee_usd_input_t": 150,
+        "operating_days_per_year": 240,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          796502.3999999999,
+          796502.3999999999,
+          796502.3999999999,
+          796502.3999999999,
+          796502.3999999999
+        ],
+        "five_year_operating_cash_usd": 3982511.9999999995,
+        "five_year_net_cash_after_initial_investment_usd": 3482511.9999999995,
+        "five_year_simple_roi_percent": 696.5023999999999,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 527.6533333333332
+      },
+      {
+        "feed": "enriched_selected_stream",
+        "route": "scrap",
+        "service_fee_usd_input_t": 200,
+        "operating_days_per_year": 240,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          1036502.3999999999,
+          1036502.3999999999,
+          1036502.3999999999,
+          1036502.3999999999,
+          1036502.3999999999
+        ],
+        "five_year_operating_cash_usd": 5182512.0,
+        "five_year_net_cash_after_initial_investment_usd": 4682512.0,
+        "five_year_simple_roi_percent": 936.5024,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 709.4715151515152
+      },
+      {
+        "feed": "enriched_selected_stream",
+        "route": "toll",
+        "service_fee_usd_input_t": 0,
+        "operating_days_per_year": 240,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          329226.7200000002,
+          329226.7200000002,
+          329226.7200000002,
+          329226.7200000002,
+          329226.7200000002
+        ],
+        "five_year_operating_cash_usd": 1646133.600000001,
+        "five_year_net_cash_after_initial_investment_usd": 1146133.600000001,
+        "five_year_simple_roi_percent": 229.2267200000002,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 173.6566060606062
+      },
+      {
+        "feed": "enriched_selected_stream",
+        "route": "toll",
+        "service_fee_usd_input_t": 100,
+        "operating_days_per_year": 240,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          809226.7200000002,
+          809226.7200000002,
+          809226.7200000002,
+          809226.7200000002,
+          809226.7200000002
+        ],
+        "five_year_operating_cash_usd": 4046133.600000001,
+        "five_year_net_cash_after_initial_investment_usd": 3546133.600000001,
+        "five_year_simple_roi_percent": 709.2267200000002,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 537.2929696969699
+      },
+      {
+        "feed": "enriched_selected_stream",
+        "route": "toll",
+        "service_fee_usd_input_t": 150,
+        "operating_days_per_year": 240,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          1049226.7200000002,
+          1049226.7200000002,
+          1049226.7200000002,
+          1049226.7200000002,
+          1049226.7200000002
+        ],
+        "five_year_operating_cash_usd": 5246133.6000000015,
+        "five_year_net_cash_after_initial_investment_usd": 4746133.6000000015,
+        "five_year_simple_roi_percent": 949.2267200000002,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 719.1111515151517
+      },
+      {
+        "feed": "enriched_selected_stream",
+        "route": "toll",
+        "service_fee_usd_input_t": 200,
+        "operating_days_per_year": 240,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          1289226.7200000004,
+          1289226.7200000004,
+          1289226.7200000004,
+          1289226.7200000004,
+          1289226.7200000004
+        ],
+        "five_year_operating_cash_usd": 6446133.600000002,
+        "five_year_net_cash_after_initial_investment_usd": 5946133.600000002,
+        "five_year_simple_roi_percent": 1189.2267200000006,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 900.9293333333337
+      }
+    ],
+    "metal_prices_minus20pct": [
+      {
+        "feed": "legacy_sensitivity",
+        "route": "scrap",
+        "service_fee_usd_input_t": 0,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          -674125.2,
+          -674125.2,
+          -674125.2,
+          -674125.2,
+          -674125.2
+        ],
+        "five_year_operating_cash_usd": -3370626.0,
+        "five_year_net_cash_after_initial_investment_usd": -3870626.0,
+        "five_year_simple_roi_percent": -774.1252,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": -586.4584848484849
+      },
+      {
+        "feed": "legacy_sensitivity",
+        "route": "scrap",
+        "service_fee_usd_input_t": 100,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          -74125.20000000007,
+          -74125.20000000007,
+          -74125.20000000007,
+          -74125.20000000007,
+          -74125.20000000007
+        ],
+        "five_year_operating_cash_usd": -370626.00000000035,
+        "five_year_net_cash_after_initial_investment_usd": -870626.0000000003,
+        "five_year_simple_roi_percent": -174.12520000000006,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": -131.91303030303035
+      },
+      {
+        "feed": "legacy_sensitivity",
+        "route": "scrap",
+        "service_fee_usd_input_t": 150,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          225874.79999999993,
+          225874.79999999993,
+          225874.79999999993,
+          225874.79999999993,
+          225874.79999999993
+        ],
+        "five_year_operating_cash_usd": 1129373.9999999995,
+        "five_year_net_cash_after_initial_investment_usd": 629373.9999999995,
+        "five_year_simple_roi_percent": 125.87479999999991,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 95.3596969696969
+      },
+      {
+        "feed": "legacy_sensitivity",
+        "route": "scrap",
+        "service_fee_usd_input_t": 200,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          525874.8,
+          525874.8,
+          525874.8,
+          525874.8,
+          525874.8
+        ],
+        "five_year_operating_cash_usd": 2629374.0,
+        "five_year_net_cash_after_initial_investment_usd": 2129374.0,
+        "five_year_simple_roi_percent": 425.8748,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 322.63242424242424
+      },
+      {
+        "feed": "legacy_sensitivity",
+        "route": "toll",
+        "service_fee_usd_input_t": 0,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          -662891.4720000001,
+          -662891.4720000001,
+          -662891.4720000001,
+          -662891.4720000001,
+          -662891.4720000001
+        ],
+        "five_year_operating_cash_usd": -3314457.3600000003,
+        "five_year_net_cash_after_initial_investment_usd": -3814457.3600000003,
+        "five_year_simple_roi_percent": -762.8914720000001,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": -577.9480848484849
+      },
+      {
+        "feed": "legacy_sensitivity",
+        "route": "toll",
+        "service_fee_usd_input_t": 100,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          -62891.47199999995,
+          -62891.47199999995,
+          -62891.47199999995,
+          -62891.47199999995,
+          -62891.47199999995
+        ],
+        "five_year_operating_cash_usd": -314457.35999999975,
+        "five_year_net_cash_after_initial_investment_usd": -814457.3599999998,
+        "five_year_simple_roi_percent": -162.89147199999994,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": -123.40263030303026
+      },
+      {
+        "feed": "legacy_sensitivity",
+        "route": "toll",
+        "service_fee_usd_input_t": 150,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          237108.52800000005,
+          237108.52800000005,
+          237108.52800000005,
+          237108.52800000005,
+          237108.52800000005
+        ],
+        "five_year_operating_cash_usd": 1185542.6400000001,
+        "five_year_net_cash_after_initial_investment_usd": 685542.6400000001,
+        "five_year_simple_roi_percent": 137.10852800000004,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 103.87009696969699
+      },
+      {
+        "feed": "legacy_sensitivity",
+        "route": "toll",
+        "service_fee_usd_input_t": 200,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          537108.5279999999,
+          537108.5279999999,
+          537108.5279999999,
+          537108.5279999999,
+          537108.5279999999
+        ],
+        "five_year_operating_cash_usd": 2685542.6399999997,
+        "five_year_net_cash_after_initial_investment_usd": 2185542.6399999997,
+        "five_year_simple_roi_percent": 437.1085279999999,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 331.1428242424242
+      },
+      {
+        "feed": "enriched_selected_stream",
+        "route": "scrap",
+        "service_fee_usd_input_t": 0,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          11532.000000000116,
+          11532.000000000116,
+          11532.000000000116,
+          11532.000000000116,
+          11532.000000000116
+        ],
+        "five_year_operating_cash_usd": 57660.00000000058,
+        "five_year_net_cash_after_initial_investment_usd": -442339.9999999994,
+        "five_year_simple_roi_percent": -88.46799999999988,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": -67.02121212121203
+      },
+      {
+        "feed": "enriched_selected_stream",
+        "route": "scrap",
+        "service_fee_usd_input_t": 100,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          611532.0000000002,
+          611532.0000000002,
+          611532.0000000002,
+          611532.0000000002,
+          611532.0000000002
+        ],
+        "five_year_operating_cash_usd": 3057660.000000001,
+        "five_year_net_cash_after_initial_investment_usd": 2557660.000000001,
+        "five_year_simple_roi_percent": 511.53200000000015,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 387.5242424242426
+      },
+      {
+        "feed": "enriched_selected_stream",
+        "route": "scrap",
+        "service_fee_usd_input_t": 150,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          911532.0000000002,
+          911532.0000000002,
+          911532.0000000002,
+          911532.0000000002,
+          911532.0000000002
+        ],
+        "five_year_operating_cash_usd": 4557660.000000001,
+        "five_year_net_cash_after_initial_investment_usd": 4057660.000000001,
+        "five_year_simple_roi_percent": 811.5320000000003,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 614.7969696969699
+      },
+      {
+        "feed": "enriched_selected_stream",
+        "route": "scrap",
+        "service_fee_usd_input_t": 200,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          1211532.0000000002,
+          1211532.0000000002,
+          1211532.0000000002,
+          1211532.0000000002,
+          1211532.0000000002
+        ],
+        "five_year_operating_cash_usd": 6057660.000000001,
+        "five_year_net_cash_after_initial_investment_usd": 5557660.000000001,
+        "five_year_simple_roi_percent": 1111.5320000000002,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 842.0696969696971
+      },
+      {
+        "feed": "enriched_selected_stream",
+        "route": "toll",
+        "service_fee_usd_input_t": 0,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          199741.44000000018,
+          199741.44000000018,
+          199741.44000000018,
+          199741.44000000018,
+          199741.44000000018
+        ],
+        "five_year_operating_cash_usd": 998707.2000000009,
+        "five_year_net_cash_after_initial_investment_usd": 498707.2000000009,
+        "five_year_simple_roi_percent": 99.74144000000018,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 75.56169696969711
+      },
+      {
+        "feed": "enriched_selected_stream",
+        "route": "toll",
+        "service_fee_usd_input_t": 100,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          799741.44,
+          799741.44,
+          799741.44,
+          799741.44,
+          799741.44
+        ],
+        "five_year_operating_cash_usd": 3998707.1999999997,
+        "five_year_net_cash_after_initial_investment_usd": 3498707.1999999997,
+        "five_year_simple_roi_percent": 699.74144,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 530.1071515151515
+      },
+      {
+        "feed": "enriched_selected_stream",
+        "route": "toll",
+        "service_fee_usd_input_t": 150,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          1099741.44,
+          1099741.44,
+          1099741.44,
+          1099741.44,
+          1099741.44
+        ],
+        "five_year_operating_cash_usd": 5498707.199999999,
+        "five_year_net_cash_after_initial_investment_usd": 4998707.199999999,
+        "five_year_simple_roi_percent": 999.7414399999999,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 757.3798787878787
+      },
+      {
+        "feed": "enriched_selected_stream",
+        "route": "toll",
+        "service_fee_usd_input_t": 200,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          1399741.44,
+          1399741.44,
+          1399741.44,
+          1399741.44,
+          1399741.44
+        ],
+        "five_year_operating_cash_usd": 6998707.199999999,
+        "five_year_net_cash_after_initial_investment_usd": 6498707.199999999,
+        "five_year_simple_roi_percent": 1299.7414399999998,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 984.6526060606059
+      }
+    ],
+    "operating_costs_plus15pct": [
+      {
+        "feed": "legacy_sensitivity",
+        "route": "scrap",
+        "service_fee_usd_input_t": 0,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          -763044.2999999999,
+          -763044.2999999999,
+          -763044.2999999999,
+          -763044.2999999999,
+          -763044.2999999999
+        ],
+        "five_year_operating_cash_usd": -3815221.4999999995,
+        "five_year_net_cash_after_initial_investment_usd": -4315221.5,
+        "five_year_simple_roi_percent": -863.0443,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": -653.8214393939394
+      },
+      {
+        "feed": "legacy_sensitivity",
+        "route": "scrap",
+        "service_fee_usd_input_t": 100,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          -163044.29999999993,
+          -163044.29999999993,
+          -163044.29999999993,
+          -163044.29999999993,
+          -163044.29999999993
+        ],
+        "five_year_operating_cash_usd": -815221.4999999997,
+        "five_year_net_cash_after_initial_investment_usd": -1315221.4999999995,
+        "five_year_simple_roi_percent": -263.0442999999999,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": -199.27598484848477
+      },
+      {
+        "feed": "legacy_sensitivity",
+        "route": "scrap",
+        "service_fee_usd_input_t": 150,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          136955.70000000007,
+          136955.70000000007,
+          136955.70000000007,
+          136955.70000000007,
+          136955.70000000007
+        ],
+        "five_year_operating_cash_usd": 684778.5000000003,
+        "five_year_net_cash_after_initial_investment_usd": 184778.50000000035,
+        "five_year_simple_roi_percent": 36.955700000000064,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 27.996742424242473
+      },
+      {
+        "feed": "legacy_sensitivity",
+        "route": "scrap",
+        "service_fee_usd_input_t": 200,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          436955.70000000007,
+          436955.70000000007,
+          436955.70000000007,
+          436955.70000000007,
+          436955.70000000007
+        ],
+        "five_year_operating_cash_usd": 2184778.5000000005,
+        "five_year_net_cash_after_initial_investment_usd": 1684778.5000000005,
+        "five_year_simple_roi_percent": 336.9557000000001,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 255.2694696969698
+      },
+      {
+        "feed": "legacy_sensitivity",
+        "route": "toll",
+        "service_fee_usd_input_t": 0,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          -731527.7399999999,
+          -731527.7399999999,
+          -731527.7399999999,
+          -731527.7399999999,
+          -731527.7399999999
+        ],
+        "five_year_operating_cash_usd": -3657638.6999999993,
+        "five_year_net_cash_after_initial_investment_usd": -4157638.6999999993,
+        "five_year_simple_roi_percent": -831.5277399999999,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": -629.9452575757575
+      },
+      {
+        "feed": "legacy_sensitivity",
+        "route": "toll",
+        "service_fee_usd_input_t": 100,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          -131527.73999999976,
+          -131527.73999999976,
+          -131527.73999999976,
+          -131527.73999999976,
+          -131527.73999999976
+        ],
+        "five_year_operating_cash_usd": -657638.6999999988,
+        "five_year_net_cash_after_initial_investment_usd": -1157638.6999999988,
+        "five_year_simple_roi_percent": -231.52773999999977,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": -175.39980303030285
+      },
+      {
+        "feed": "legacy_sensitivity",
+        "route": "toll",
+        "service_fee_usd_input_t": 150,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          168472.26000000013,
+          168472.26000000013,
+          168472.26000000013,
+          168472.26000000013,
+          168472.26000000013
+        ],
+        "five_year_operating_cash_usd": 842361.3000000006,
+        "five_year_net_cash_after_initial_investment_usd": 342361.3000000006,
+        "five_year_simple_roi_percent": 68.47226000000012,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 51.87292424242433
+      },
+      {
+        "feed": "legacy_sensitivity",
+        "route": "toll",
+        "service_fee_usd_input_t": 200,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          468472.2600000001,
+          468472.2600000001,
+          468472.2600000001,
+          468472.2600000001,
+          468472.2600000001
+        ],
+        "five_year_operating_cash_usd": 2342361.3000000007,
+        "five_year_net_cash_after_initial_investment_usd": 1842361.3000000007,
+        "five_year_simple_roi_percent": 368.4722600000001,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 279.1456515151516
+      },
+      {
+        "feed": "enriched_selected_stream",
+        "route": "scrap",
+        "service_fee_usd_input_t": 0,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          93700.20000000007,
+          93700.20000000007,
+          93700.20000000007,
+          93700.20000000007,
+          93700.20000000007
+        ],
+        "five_year_operating_cash_usd": 468501.00000000035,
+        "five_year_net_cash_after_initial_investment_usd": -31498.99999999965,
+        "five_year_simple_roi_percent": -6.29979999999993,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": -4.772575757575705
+      },
+      {
+        "feed": "enriched_selected_stream",
+        "route": "scrap",
+        "service_fee_usd_input_t": 100,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          693700.2000000001,
+          693700.2000000001,
+          693700.2000000001,
+          693700.2000000001,
+          693700.2000000001
+        ],
+        "five_year_operating_cash_usd": 3468501.0000000005,
+        "five_year_net_cash_after_initial_investment_usd": 2968501.0000000005,
+        "five_year_simple_roi_percent": 593.7002000000001,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 449.7728787878789
+      },
+      {
+        "feed": "enriched_selected_stream",
+        "route": "scrap",
+        "service_fee_usd_input_t": 150,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          993700.2000000001,
+          993700.2000000001,
+          993700.2000000001,
+          993700.2000000001,
+          993700.2000000001
+        ],
+        "five_year_operating_cash_usd": 4968501.0,
+        "five_year_net_cash_after_initial_investment_usd": 4468501.0,
+        "five_year_simple_roi_percent": 893.7002,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 677.045606060606
+      },
+      {
+        "feed": "enriched_selected_stream",
+        "route": "scrap",
+        "service_fee_usd_input_t": 200,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          1293700.2000000002,
+          1293700.2000000002,
+          1293700.2000000002,
+          1293700.2000000002,
+          1293700.2000000002
+        ],
+        "five_year_operating_cash_usd": 6468501.000000001,
+        "five_year_net_cash_after_initial_investment_usd": 5968501.000000001,
+        "five_year_simple_roi_percent": 1193.7002000000002,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 904.3183333333335
+      },
+      {
+        "feed": "enriched_selected_stream",
+        "route": "toll",
+        "service_fee_usd_input_t": 0,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          409605.60000000044,
+          409605.60000000044,
+          409605.60000000044,
+          409605.60000000044,
+          409605.60000000044
+        ],
+        "five_year_operating_cash_usd": 2048028.0000000023,
+        "five_year_net_cash_after_initial_investment_usd": 1548028.0000000023,
+        "five_year_simple_roi_percent": 309.6056000000005,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 234.54969696969732
+      },
+      {
+        "feed": "enriched_selected_stream",
+        "route": "toll",
+        "service_fee_usd_input_t": 100,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          1009605.6000000004,
+          1009605.6000000004,
+          1009605.6000000004,
+          1009605.6000000004,
+          1009605.6000000004
+        ],
+        "five_year_operating_cash_usd": 5048028.000000002,
+        "five_year_net_cash_after_initial_investment_usd": 4548028.000000002,
+        "five_year_simple_roi_percent": 909.6056000000003,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 689.0951515151518
+      },
+      {
+        "feed": "enriched_selected_stream",
+        "route": "toll",
+        "service_fee_usd_input_t": 150,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          1309605.6000000006,
+          1309605.6000000006,
+          1309605.6000000006,
+          1309605.6000000006,
+          1309605.6000000006
+        ],
+        "five_year_operating_cash_usd": 6548028.000000003,
+        "five_year_net_cash_after_initial_investment_usd": 6048028.000000003,
+        "five_year_simple_roi_percent": 1209.6056000000005,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 916.3678787878791
+      },
+      {
+        "feed": "enriched_selected_stream",
+        "route": "toll",
+        "service_fee_usd_input_t": 200,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          1609605.600000001,
+          1609605.600000001,
+          1609605.600000001,
+          1609605.600000001,
+          1609605.600000001
+        ],
+        "five_year_operating_cash_usd": 8048028.000000006,
+        "five_year_net_cash_after_initial_investment_usd": 7548028.000000006,
+        "five_year_simple_roi_percent": 1509.6056000000012,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 1143.640606060607
+      }
+    ],
+    "combined_downside_plus_extra_overhaul": [
+      {
+        "feed": "legacy_sensitivity",
+        "route": "scrap",
+        "service_fee_usd_input_t": 0,
+        "operating_days_per_year": 240,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          -742474.7999999998,
+          -742474.7999999998,
+          -842474.7999999998,
+          -742474.7999999998,
+          -742474.7999999998
+        ],
+        "five_year_operating_cash_usd": -3812373.999999999,
+        "five_year_net_cash_after_initial_investment_usd": -4312373.999999999,
+        "five_year_simple_roi_percent": -862.4747999999997,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": -653.3899999999999
+      },
+      {
+        "feed": "legacy_sensitivity",
+        "route": "scrap",
+        "service_fee_usd_input_t": 100,
+        "operating_days_per_year": 240,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          -262474.79999999993,
+          -262474.79999999993,
+          -362474.79999999993,
+          -262474.79999999993,
+          -262474.79999999993
+        ],
+        "five_year_operating_cash_usd": -1412373.9999999995,
+        "five_year_net_cash_after_initial_investment_usd": -1912373.9999999995,
+        "five_year_simple_roi_percent": -382.4747999999999,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": -289.75363636363625
+      },
+      {
+        "feed": "legacy_sensitivity",
+        "route": "scrap",
+        "service_fee_usd_input_t": 150,
+        "operating_days_per_year": 240,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          -22474.79999999993,
+          -22474.79999999993,
+          -122474.79999999993,
+          -22474.79999999993,
+          -22474.79999999993
+        ],
+        "five_year_operating_cash_usd": -212373.99999999965,
+        "five_year_net_cash_after_initial_investment_usd": -712373.9999999997,
+        "five_year_simple_roi_percent": -142.47479999999993,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": -107.9354545454545
+      },
+      {
+        "feed": "legacy_sensitivity",
+        "route": "scrap",
+        "service_fee_usd_input_t": 200,
+        "operating_days_per_year": 240,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          217525.20000000007,
+          217525.20000000007,
+          117525.20000000007,
+          217525.20000000007,
+          217525.20000000007
+        ],
+        "five_year_operating_cash_usd": 987626.0000000003,
+        "five_year_net_cash_after_initial_investment_usd": 487626.00000000035,
+        "five_year_simple_roi_percent": 97.52520000000007,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 73.88272727272732
+      },
+      {
+        "feed": "legacy_sensitivity",
+        "route": "toll",
+        "service_fee_usd_input_t": 0,
+        "operating_days_per_year": 240,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          -733487.8175999998,
+          -733487.8175999998,
+          -833487.8175999998,
+          -733487.8175999998,
+          -733487.8175999998
+        ],
+        "five_year_operating_cash_usd": -3767439.087999999,
+        "five_year_net_cash_after_initial_investment_usd": -4267439.0879999995,
+        "five_year_simple_roi_percent": -853.4878175999999,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": -646.5816799999999
+      },
+      {
+        "feed": "legacy_sensitivity",
+        "route": "toll",
+        "service_fee_usd_input_t": 100,
+        "operating_days_per_year": 240,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          -253487.81759999983,
+          -253487.81759999983,
+          -353487.81759999983,
+          -253487.81759999983,
+          -253487.81759999983
+        ],
+        "five_year_operating_cash_usd": -1367439.087999999,
+        "five_year_net_cash_after_initial_investment_usd": -1867439.087999999,
+        "five_year_simple_roi_percent": -373.4878175999998,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": -282.9453163636362
+      },
+      {
+        "feed": "legacy_sensitivity",
+        "route": "toll",
+        "service_fee_usd_input_t": 150,
+        "operating_days_per_year": 240,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          -13487.817599999835,
+          -13487.817599999835,
+          -113487.81759999983,
+          -13487.817599999835,
+          -13487.817599999835
+        ],
+        "five_year_operating_cash_usd": -167439.08799999917,
+        "five_year_net_cash_after_initial_investment_usd": -667439.0879999992,
+        "five_year_simple_roi_percent": -133.48781759999983,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": -101.12713454545441
+      },
+      {
+        "feed": "legacy_sensitivity",
+        "route": "toll",
+        "service_fee_usd_input_t": 200,
+        "operating_days_per_year": 240,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          226512.18239999993,
+          226512.18239999993,
+          126512.18239999993,
+          226512.18239999993,
+          226512.18239999993
+        ],
+        "five_year_operating_cash_usd": 1032560.9119999997,
+        "five_year_net_cash_after_initial_investment_usd": 532560.9119999997,
+        "five_year_simple_roi_percent": 106.51218239999993,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 80.69104727272722
+      },
+      {
+        "feed": "enriched_selected_stream",
+        "route": "scrap",
+        "service_fee_usd_input_t": 0,
+        "operating_days_per_year": 240,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          -193556.64,
+          -193556.64,
+          -293556.64,
+          -193556.64,
+          -193556.64
+        ],
+        "five_year_operating_cash_usd": -1067783.2000000002,
+        "five_year_net_cash_after_initial_investment_usd": -1567783.2000000002,
+        "five_year_simple_roi_percent": -313.5566400000001,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": -237.54290909090915
+      },
+      {
+        "feed": "enriched_selected_stream",
+        "route": "scrap",
+        "service_fee_usd_input_t": 100,
+        "operating_days_per_year": 240,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          286443.3600000001,
+          286443.3600000001,
+          186443.3600000001,
+          286443.3600000001,
+          286443.3600000001
+        ],
+        "five_year_operating_cash_usd": 1332216.8000000005,
+        "five_year_net_cash_after_initial_investment_usd": 832216.8000000005,
+        "five_year_simple_roi_percent": 166.4433600000001,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 126.09345454545462
+      },
+      {
+        "feed": "enriched_selected_stream",
+        "route": "scrap",
+        "service_fee_usd_input_t": 150,
+        "operating_days_per_year": 240,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          526443.3600000001,
+          526443.3600000001,
+          426443.3600000001,
+          526443.3600000001,
+          526443.3600000001
+        ],
+        "five_year_operating_cash_usd": 2532216.8000000007,
+        "five_year_net_cash_after_initial_investment_usd": 2032216.8000000007,
+        "five_year_simple_roi_percent": 406.4433600000001,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 307.91163636363643
+      },
+      {
+        "feed": "enriched_selected_stream",
+        "route": "scrap",
+        "service_fee_usd_input_t": 200,
+        "operating_days_per_year": 240,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          766443.3600000001,
+          766443.3600000001,
+          666443.3600000001,
+          766443.3600000001,
+          766443.3600000001
+        ],
+        "five_year_operating_cash_usd": 3732216.8000000007,
+        "five_year_net_cash_after_initial_investment_usd": 3232216.8000000007,
+        "five_year_simple_roi_percent": 646.4433600000001,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 489.72981818181825
+      },
+      {
+        "feed": "enriched_selected_stream",
+        "route": "toll",
+        "service_fee_usd_input_t": 0,
+        "operating_days_per_year": 240,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          -42989.08799999999,
+          -42989.08799999999,
+          -142989.088,
+          -42989.08799999999,
+          -42989.08799999999
+        ],
+        "five_year_operating_cash_usd": -314945.43999999994,
+        "five_year_net_cash_after_initial_investment_usd": -814945.44,
+        "five_year_simple_roi_percent": -162.989088,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": -123.47658181818181
+      },
+      {
+        "feed": "enriched_selected_stream",
+        "route": "toll",
+        "service_fee_usd_input_t": 100,
+        "operating_days_per_year": 240,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          437010.912,
+          437010.912,
+          337010.912,
+          437010.912,
+          437010.912
+        ],
+        "five_year_operating_cash_usd": 2085054.56,
+        "five_year_net_cash_after_initial_investment_usd": 1585054.56,
+        "five_year_simple_roi_percent": 317.010912,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 240.1597818181818
+      },
+      {
+        "feed": "enriched_selected_stream",
+        "route": "toll",
+        "service_fee_usd_input_t": 150,
+        "operating_days_per_year": 240,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          677010.912,
+          677010.912,
+          577010.912,
+          677010.912,
+          677010.912
+        ],
+        "five_year_operating_cash_usd": 3285054.56,
+        "five_year_net_cash_after_initial_investment_usd": 2785054.56,
+        "five_year_simple_roi_percent": 557.010912,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 421.97796363636365
+      },
+      {
+        "feed": "enriched_selected_stream",
+        "route": "toll",
+        "service_fee_usd_input_t": 200,
+        "operating_days_per_year": 240,
+        "initial_investment_excluding_working_cash_usd": 500000,
+        "annual_operating_cash_usd": [
+          917010.912,
+          917010.912,
+          817010.912,
+          917010.912,
+          917010.912
+        ],
+        "five_year_operating_cash_usd": 4485054.5600000005,
+        "five_year_net_cash_after_initial_investment_usd": 3985054.5600000005,
+        "five_year_simple_roi_percent": 797.0109120000001,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 603.7961454545456
+      }
+    ],
+    "maui_illustrative_overlay_NOT_QUOTED": [
+      {
+        "feed": "legacy_sensitivity",
+        "route": "scrap",
+        "service_fee_usd_input_t": 0,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 600000,
+        "annual_operating_cash_usd": [
+          -693626.0,
+          -693626.0,
+          -693626.0,
+          -693626.0,
+          -693626.0
+        ],
+        "five_year_operating_cash_usd": -3468130.0,
+        "five_year_net_cash_after_initial_investment_usd": -4068130.0,
+        "five_year_simple_roi_percent": -678.0216666666666,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": -535.2802631578948
+      },
+      {
+        "feed": "legacy_sensitivity",
+        "route": "scrap",
+        "service_fee_usd_input_t": 100,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 600000,
+        "annual_operating_cash_usd": [
+          -93626.0,
+          -93626.0,
+          -93626.0,
+          -93626.0,
+          -93626.0
+        ],
+        "five_year_operating_cash_usd": -468130.0,
+        "five_year_net_cash_after_initial_investment_usd": -1068130.0,
+        "five_year_simple_roi_percent": -178.02166666666668,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": -140.54342105263157
+      },
+      {
+        "feed": "legacy_sensitivity",
+        "route": "scrap",
+        "service_fee_usd_input_t": 150,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 600000,
+        "annual_operating_cash_usd": [
+          206374.0,
+          206374.0,
+          206374.0,
+          206374.0,
+          206374.0
+        ],
+        "five_year_operating_cash_usd": 1031870.0,
+        "five_year_net_cash_after_initial_investment_usd": 431870.0,
+        "five_year_simple_roi_percent": 71.97833333333334,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 56.825
+      },
+      {
+        "feed": "legacy_sensitivity",
+        "route": "scrap",
+        "service_fee_usd_input_t": 200,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 600000,
+        "annual_operating_cash_usd": [
+          506374.0,
+          506374.0,
+          506374.0,
+          506374.0,
+          506374.0
+        ],
+        "five_year_operating_cash_usd": 2531870.0,
+        "five_year_net_cash_after_initial_investment_usd": 1931870.0,
+        "five_year_simple_roi_percent": 321.97833333333335,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 254.19342105263158
+      },
+      {
+        "feed": "legacy_sensitivity",
+        "route": "toll",
+        "service_fee_usd_input_t": 0,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 600000,
+        "annual_operating_cash_usd": [
+          -705309.44,
+          -705309.44,
+          -705309.44,
+          -705309.44,
+          -705309.44
+        ],
+        "five_year_operating_cash_usd": -3526547.1999999997,
+        "five_year_net_cash_after_initial_investment_usd": -4126547.1999999997,
+        "five_year_simple_roi_percent": -687.7578666666667,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": -542.9667368421053
+      },
+      {
+        "feed": "legacy_sensitivity",
+        "route": "toll",
+        "service_fee_usd_input_t": 100,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 600000,
+        "annual_operating_cash_usd": [
+          -105309.43999999983,
+          -105309.43999999983,
+          -105309.43999999983,
+          -105309.43999999983,
+          -105309.43999999983
+        ],
+        "five_year_operating_cash_usd": -526547.1999999991,
+        "five_year_net_cash_after_initial_investment_usd": -1126547.1999999993,
+        "five_year_simple_roi_percent": -187.75786666666653,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": -148.229894736842
+      },
+      {
+        "feed": "legacy_sensitivity",
+        "route": "toll",
+        "service_fee_usd_input_t": 150,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 600000,
+        "annual_operating_cash_usd": [
+          194690.56000000017,
+          194690.56000000017,
+          194690.56000000017,
+          194690.56000000017,
+          194690.56000000017
+        ],
+        "five_year_operating_cash_usd": 973452.8000000009,
+        "five_year_net_cash_after_initial_investment_usd": 373452.80000000086,
+        "five_year_simple_roi_percent": 62.242133333333484,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 49.13852631578959
+      },
+      {
+        "feed": "legacy_sensitivity",
+        "route": "toll",
+        "service_fee_usd_input_t": 200,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 600000,
+        "annual_operating_cash_usd": [
+          494690.56000000006,
+          494690.56000000006,
+          494690.56000000006,
+          494690.56000000006,
+          494690.56000000006
+        ],
+        "five_year_operating_cash_usd": 2473452.8000000003,
+        "five_year_net_cash_after_initial_investment_usd": 1873452.8000000003,
+        "five_year_simple_roi_percent": 312.24213333333336,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 246.5069473684211
+      },
+      {
+        "feed": "enriched_selected_stream",
+        "route": "scrap",
+        "service_fee_usd_input_t": 0,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 600000,
+        "annual_operating_cash_usd": [
+          162628.0,
+          162628.0,
+          162628.0,
+          162628.0,
+          162628.0
+        ],
+        "five_year_operating_cash_usd": 813140.0,
+        "five_year_net_cash_after_initial_investment_usd": 213140.0,
+        "five_year_simple_roi_percent": 35.52333333333333,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 28.044736842105262
+      },
+      {
+        "feed": "enriched_selected_stream",
+        "route": "scrap",
+        "service_fee_usd_input_t": 100,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 600000,
+        "annual_operating_cash_usd": [
+          762628.0,
+          762628.0,
+          762628.0,
+          762628.0,
+          762628.0
+        ],
+        "five_year_operating_cash_usd": 3813140.0,
+        "five_year_net_cash_after_initial_investment_usd": 3213140.0,
+        "five_year_simple_roi_percent": 535.5233333333333,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 422.7815789473684
+      },
+      {
+        "feed": "enriched_selected_stream",
+        "route": "scrap",
+        "service_fee_usd_input_t": 150,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 600000,
+        "annual_operating_cash_usd": [
+          1062628.0,
+          1062628.0,
+          1062628.0,
+          1062628.0,
+          1062628.0
+        ],
+        "five_year_operating_cash_usd": 5313140.0,
+        "five_year_net_cash_after_initial_investment_usd": 4713140.0,
+        "five_year_simple_roi_percent": 785.5233333333333,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 620.15
+      },
+      {
+        "feed": "enriched_selected_stream",
+        "route": "scrap",
+        "service_fee_usd_input_t": 200,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 600000,
+        "annual_operating_cash_usd": [
+          1362628.0,
+          1362628.0,
+          1362628.0,
+          1362628.0,
+          1362628.0
+        ],
+        "five_year_operating_cash_usd": 6813140.0,
+        "five_year_net_cash_after_initial_investment_usd": 6213140.0,
+        "five_year_simple_roi_percent": 1035.5233333333333,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 817.5184210526315
+      },
+      {
+        "feed": "enriched_selected_stream",
+        "route": "toll",
+        "service_fee_usd_input_t": 0,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 600000,
+        "annual_operating_cash_usd": [
+          298983.4000000004,
+          298983.4000000004,
+          298983.4000000004,
+          298983.4000000004,
+          298983.4000000004
+        ],
+        "five_year_operating_cash_usd": 1494917.0000000019,
+        "five_year_net_cash_after_initial_investment_usd": 894917.0000000019,
+        "five_year_simple_roi_percent": 149.15283333333363,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 117.7522368421055
+      },
+      {
+        "feed": "enriched_selected_stream",
+        "route": "toll",
+        "service_fee_usd_input_t": 100,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 600000,
+        "annual_operating_cash_usd": [
+          898983.4000000004,
+          898983.4000000004,
+          898983.4000000004,
+          898983.4000000004,
+          898983.4000000004
+        ],
+        "five_year_operating_cash_usd": 4494917.000000002,
+        "five_year_net_cash_after_initial_investment_usd": 3894917.000000002,
+        "five_year_simple_roi_percent": 649.1528333333337,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 512.4890789473686
+      },
+      {
+        "feed": "enriched_selected_stream",
+        "route": "toll",
+        "service_fee_usd_input_t": 150,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 600000,
+        "annual_operating_cash_usd": [
+          1198983.4000000004,
+          1198983.4000000004,
+          1198983.4000000004,
+          1198983.4000000004,
+          1198983.4000000004
+        ],
+        "five_year_operating_cash_usd": 5994917.000000002,
+        "five_year_net_cash_after_initial_investment_usd": 5394917.000000002,
+        "five_year_simple_roi_percent": 899.1528333333338,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 709.8575000000003
+      },
+      {
+        "feed": "enriched_selected_stream",
+        "route": "toll",
+        "service_fee_usd_input_t": 200,
+        "operating_days_per_year": 300,
+        "initial_investment_excluding_working_cash_usd": 600000,
+        "annual_operating_cash_usd": [
+          1498983.4000000004,
+          1498983.4000000004,
+          1498983.4000000004,
+          1498983.4000000004,
+          1498983.4000000004
+        ],
+        "five_year_operating_cash_usd": 7494917.000000002,
+        "five_year_net_cash_after_initial_investment_usd": 6894917.000000002,
+        "five_year_simple_roi_percent": 1149.1528333333338,
+        "roi_on_total_initial_funding_with_working_cash_returned_percent": 907.2259210526319
+      }
+    ]
+  }
+}
