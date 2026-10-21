@@ -1,0 +1,30 @@
+{
+  "input_status": "ALL NUMERIC INPUTS ARE SYNTHETIC ASSUMPTIONS, NOT VENDOR QUOTES OR SITE DATA",
+  "intake_t_day": 20,
+  "operating_days": 300,
+  "shift_hours": 8,
+  "within_shift_availability": 0.8,
+  "materials": [
+    {"name":"fines","fraction":0.50,"capture":0,"buyer_acceptance":0,"net_price_usd_t":0,"residual_management_usd_t":40},
+    {"name":"ferrous","fraction":0.03,"capture":0.8,"buyer_acceptance":0.9,"net_price_usd_t":150,"residual_management_usd_t":50},
+    {"name":"nonferrous","fraction":0.01,"capture":0.8,"buyer_acceptance":0.9,"net_price_usd_t":1000,"residual_management_usd_t":50},
+    {"name":"plastics","fraction":0.10,"capture":0,"buyer_acceptance":0,"net_price_usd_t":0,"residual_management_usd_t":50},
+    {"name":"other_residual","fraction":0.35,"capture":0,"buyer_acceptance":0,"net_price_usd_t":0,"residual_management_usd_t":50},
+    {"name":"hazard_quarantine","fraction":0.01,"capture":0,"buyer_acceptance":0,"net_price_usd_t":0,"residual_management_usd_t":400}
+  ],
+  "stages": [
+    {"name":"conveyors","rated_kw":5,"load_factor":0.6,"capacity_t_hour":5,"feed_fraction":1},
+    {"name":"screen","rated_kw":15,"load_factor":0.6,"capacity_t_hour":5,"feed_fraction":1},
+    {"name":"magnet","rated_kw":3,"load_factor":0.7,"capacity_t_hour":5,"feed_fraction":1},
+    {"name":"eddy_current","rated_kw":7.5,"load_factor":0.6,"capacity_t_hour":3,"feed_fraction":0.5},
+    {"name":"dust_extraction","rated_kw":7.5,"load_factor":0.7,"capacity_t_hour":5,"feed_fraction":1},
+    {"name":"controls_auxiliaries","rated_kw":2,"load_factor":0.8,"capacity_t_hour":5,"feed_fraction":1}
+  ],
+  "economics": {
+    "purchased_capital_usd":500000,"capital_rate":0.08,"capital_years":7,
+    "crew":4,"loaded_wage_usd_hour":30,"diesel_l_t":1,"diesel_usd_l":1.1,
+    "electricity_usd_kwh":0.15,"rental_usd_day":400,"other_usd_day":100,
+    "fixed_annual_usd":30000,"maintenance_usd_t":5,"contracted_service_fee_usd_t":0
+  },
+  "national": {"stock_t":10000000000,"states":50,"units_per_state":1000,"target_years":30}
+}
