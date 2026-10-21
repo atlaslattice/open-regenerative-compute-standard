@@ -1,0 +1,73 @@
+{
+  "status": "SYNTHETIC SCREENING ONLY; NOT VALIDATED OR CONSTRUCTION READY",
+  "capacity_feasible_under_assumed_stage_ratings": true,
+  "assumed_bottleneck_t_day": 32.0,
+  "mass_balance_error_t_day": 0.0,
+  "streams": [
+    {
+      "name": "fines",
+      "input_t_day": 10.0,
+      "accepted_t_day": 0.0,
+      "managed_residual_t_day": 10.0
+    },
+    {
+      "name": "ferrous",
+      "input_t_day": 0.6,
+      "accepted_t_day": 0.432,
+      "managed_residual_t_day": 0.16799999999999998
+    },
+    {
+      "name": "nonferrous",
+      "input_t_day": 0.2,
+      "accepted_t_day": 0.14400000000000004,
+      "managed_residual_t_day": 0.055999999999999966
+    },
+    {
+      "name": "plastics",
+      "input_t_day": 2.0,
+      "accepted_t_day": 0.0,
+      "managed_residual_t_day": 2.0
+    },
+    {
+      "name": "other_residual",
+      "input_t_day": 7.0,
+      "accepted_t_day": 0.0,
+      "managed_residual_t_day": 7.0
+    },
+    {
+      "name": "hazard_quarantine",
+      "input_t_day": 0.2,
+      "accepted_t_day": 0.0,
+      "managed_residual_t_day": 0.2
+    }
+  ],
+  "accepted_product_t_day": 0.5760000000000001,
+  "accepted_product_fraction": 0.028800000000000003,
+  "electricity_kwh_day": 203.60000000000002,
+  "electricity_kwh_input_t": 10.180000000000001,
+  "connected_nameplate_kw_not_inrush": 40.0,
+  "mobile_equipment_diesel_l_day": 20,
+  "product_sales_usd_day": 208.80000000000007,
+  "residual_management_usd_day": 941.2,
+  "other_operating_usd_day": 1712.54,
+  "capital_recovery_usd_day": 320.1206690473507,
+  "total_cost_usd_day": 2973.8606690473507,
+  "break_even_service_fee_usd_input_t": 138.25303345236753,
+  "annual_surplus_after_capital_charge_usd": -829518.2007142052,
+  "national": {
+    "stock_t_assumption": 10000000000,
+    "stock_t_per_state_equal_split": 200000000.0,
+    "steady_state_fleet": 50000,
+    "legacy_processing_years_no_ramp_no_new_waste": 33.333333333333336,
+    "units_for_target_years_no_ramp": 55556,
+    "accepted_product_t_stock_sensitivity": 288000000.00000006,
+    "warning": "One processing pass is not complete remediation; no downstream capacity, reserve or import substitution claim."
+  },
+  "limitations": [
+    "No thermal processing, washing, pelletizing or moisture loss modeled.",
+    "Residual management price must include lawful treatment/disposal and transport.",
+    "Demand charges belong in fixed annual costs; electrical inrush requires engineering.",
+    "No grants, avoided disposal credits, land value or carbon revenue booked.",
+    "All costs and motor ratings are synthetic scenario inputs."
+  ]
+}
