@@ -1,0 +1,80 @@
+{
+  "status": "CONDITIONAL ESTIMATE; ALL OUTPUT STORED, NO WITHDRAWALS; VAULT ACCEPTANCE NOT ESTABLISHED",
+  "consumption_basis": "2025 USGS estimates; copper apparent primary refined + old scrap; aluminum apparent excluding new scrap; steel mill product apparent consumption. Different material bases; conversion into qualified grades assumed, not verified.",
+  "coverage_rows": [
+    {
+      "case": "targeted_metal_rich_conditional",
+      "metal": "copper",
+      "baseline_2025_consumption_t_year": 2200000,
+      "five_year_output_t": 1293786.0,
+      "gross_stockpile_days_at_full_national_consumption": 214.6508590909091,
+      "attributable_days_at_50pct_additionality": 107.32542954545455,
+      "year5_output_t_year": 497610.0,
+      "year5_fraction_of_annual_consumption": 0.22618636363636363,
+      "year5_consumption_equivalent_days_produced_per_year": 82.55802272727273
+    },
+    {
+      "case": "targeted_metal_rich_conditional",
+      "metal": "aluminum",
+      "baseline_2025_consumption_t_year": 5700000,
+      "five_year_output_t": 2534220.0,
+      "gross_stockpile_days_at_full_national_consumption": 162.279,
+      "attributable_days_at_50pct_additionality": 81.1395,
+      "year5_output_t_year": 974700.0,
+      "year5_fraction_of_annual_consumption": 0.171,
+      "year5_consumption_equivalent_days_produced_per_year": 62.415000000000006
+    },
+    {
+      "case": "targeted_metal_rich_conditional",
+      "metal": "ferrous",
+      "baseline_2025_consumption_t_year": 95000000,
+      "five_year_output_t": 5068440.0,
+      "gross_stockpile_days_at_full_national_consumption": 19.47348,
+      "attributable_days_at_50pct_additionality": 9.73674,
+      "year5_output_t_year": 1949400.0,
+      "year5_fraction_of_annual_consumption": 0.02052,
+      "year5_consumption_equivalent_days_produced_per_year": 7.4898
+    },
+    {
+      "case": "mixed_program_unfunded",
+      "metal": "copper",
+      "baseline_2025_consumption_t_year": 2200000,
+      "five_year_output_t": 389497.68000000005,
+      "gross_stockpile_days_at_full_national_consumption": 64.621206,
+      "attributable_days_at_50pct_additionality": 32.310603,
+      "year5_output_t_year": 149806.80000000002,
+      "year5_fraction_of_annual_consumption": 0.068094,
+      "year5_consumption_equivalent_days_produced_per_year": 24.85431
+    },
+    {
+      "case": "mixed_program_unfunded",
+      "metal": "aluminum",
+      "baseline_2025_consumption_t_year": 5700000,
+      "five_year_output_t": 805615.2000000002,
+      "gross_stockpile_days_at_full_national_consumption": 51.587640000000015,
+      "attributable_days_at_50pct_additionality": 25.793820000000007,
+      "year5_output_t_year": 309852.00000000006,
+      "year5_fraction_of_annual_consumption": 0.05436000000000001,
+      "year5_consumption_equivalent_days_produced_per_year": 19.841400000000004
+    },
+    {
+      "case": "mixed_program_unfunded",
+      "metal": "ferrous",
+      "baseline_2025_consumption_t_year": 95000000,
+      "five_year_output_t": 2294136.0000000005,
+      "gross_stockpile_days_at_full_national_consumption": 8.814312000000001,
+      "attributable_days_at_50pct_additionality": 4.4071560000000005,
+      "year5_output_t_year": 882360.0000000001,
+      "year5_fraction_of_annual_consumption": 0.009288000000000001,
+      "year5_consumption_equivalent_days_produced_per_year": 3.3901200000000005
+    }
+  ],
+  "reported_vault_shipment_copper_t": 12000,
+  "reported_shipment_days_at_broad_copper_consumption": 1.990909090909091,
+  "modeled_copper_output_divided_by_reported_shipment": 107.8155,
+  "modeled_gross_finished_output_value_usd": 21807630000.0,
+  "modeled_total_resource_cash_cost_usd": 18202049599.999992,
+  "modeled_co_product_credit_usd": 8869770000.0,
+  "modeled_copper_cost_after_coproduct_credits_usd_t": 7213.155498668244,
+  "cost_limitations": "Synthetic prices/yields/fees; co-product credits require sales so cannot also stockpile all coproducts while claiming their cash receipts. Cost excludes financing/tax/reserve holding, extra refinery construction and site-specific changes. $500m Mercuria commitment is not the 12000t shipment purchase price."
+}
