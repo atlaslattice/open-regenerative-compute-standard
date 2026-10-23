@@ -70,3 +70,7 @@ The [2017 Denton thesis](https://mavmatrix.uta.edu/civilengineering_theses/388/)
 - [Original energy and materials white paper](../2026-10-20-shreddernaut-20tpd-energy-materials-whitepaper-v0.1.md).
 
 Suppliers, island operators, material buyers, engineers and public agencies can contribute evidence or corrections through a [repository issue](https://github.com/atlaslattice/open-regenerative-compute-standard/issues). Useful contributions include model-specific quotations, consented operating references, accepted-product specifications and comparable cost scopes. Submit only information you are authorized to share publicly; private offers can be summarized without exposing confidential terms. This invitation is not an endorsement by any named company or government agency.
+
+## Oʻahu Atlas Lattice screening model — October 23, 2026
+
+[Runnable daily model, source/assumption register, seven example scenarios and nine software checks](../../../prototypes/oahu-lattice-v0_1/README.md). This is an executed sensitivity model, not a calibrated site forecast, complete twelve-layer simulation or ROI finding. It separates current incoming MSW from ash and legacy excavation, tests conditional fuel/manufacturing outlets and outages, and carries water, future concentrate, compute burden and unresolved interfaces without invented credits.
