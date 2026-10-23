@@ -1,0 +1,13 @@
+{
+  "artifact": "OAHU-ATLAS-LATTICE-V01-20261023",
+  "status": "EXECUTED SCREENING; NOT CALIBRATED; ZERO REALIZED CREDIT",
+  "sha256": {
+    "README.md": "1eef9d233edbaf9490eaf669c32c2e12e89a9b993a39957ce74d22f68f9c326b",
+    "inputs.json": "fa63ee86a6bbcd02b47c3a72365f78ee8c291848d13ce53213711c08db14760e",
+    "model.py": "bfa6f36704d072e314d61a97914d53c8fb82de27c4b37d07ac639b3dcdf498f1",
+    "test_model.py": "b089215f02df6a50accd25d519618121f387f7f7558c277260b5efea2787995a",
+    "couplings.csv": "fe03308d3a521f071ebb8b2e2bec92697fabac4fcc8f1c1315e10d7afd79fd81",
+    "results/summary.json": "8f10586225af1cd2a62d3066dc361c9686bc803c736a401e2552cb92f5eba3fa",
+    "results/summary.csv": "e56af5309bce37281ee3c14a5f541c35ee00eea91bfa57617fa9ec3a4451227a"
+  }
+}
