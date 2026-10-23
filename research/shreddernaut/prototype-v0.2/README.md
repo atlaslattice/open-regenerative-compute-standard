@@ -1,5 +1,7 @@
 # Shreddernaut Dry Recovery Prototype v0.2
 
+> **October 23, 2026 update:** The [Hawaiʻi commercial recovery research package](../hawaii-commercial-recovery-2026-10-23/README.md) moves the proposed next step toward deploying and characterizing commercial equipment, with purchase preferred if scope, price and performance are validated. This earlier 20-tonne/day package remains a historical proposed design and synthetic model; it is not a production-capacity limit. See the new package for the supplier RFI, attributed DeepSeek claims, explicit corrections and land-preservation comparison.
+
 2026-10-20 | PROPOSED design / EXECUTABLE screening model / NOT hardware-validated
 
 ## Purpose
