@@ -1,0 +1,16 @@
+id,source,sink,candidate_exchange,numerical_state,required_evidence,credited_status
+WASTE01,current_other_MSW,commercial_screen,qualified_prepared_feed,assumed_daily_flow,"feed assay; permits; size preparation; sustained complete-line trial",ZERO_REALIZED
+MET01,commercial_screen,metal_processor,accepted_metal_concentrates,assumed_recovery_and_netback,"buyer specification; recovery; scale tickets; delivered netback",ZERO_REALIZED
+FUEL01,commercial_screen,HPOWER,qualified_combustibles,conditional_capacity_buffer_and_ash,"written acceptance; spare capacity; gate fee; downtime; resulting ash",ZERO_REALIZED
+MAT01,qualified_mineral_fraction,local_construction_manufacturer,specified_mineral_product,conditional_yield,"contaminants; environmental release; engineering acceptance; demand",ZERO_REALIZED
+POLY01,sorted_polymers,fabrication,qualified_noncritical_products,UNRESOLVED,"polymer identity; cleaning; processing energy; product demand",ZERO_REALIZED
+REPAIR01,local_workshops,processing_and_water_plants,qualified_spares_and_repairs,UNRESOLVED,"part specification; certification where needed; downtime baseline; costs",ZERO_REALIZED
+WATER01,Honouliuli_recycling,industrial_dust_control,incremental_nonpotable_water,conditional_100m3_day_shared_supply,"uncommitted supply; quality; pipe route; cost; rights",ZERO_REALIZED
+AGR01,Honouliuli_recycling,existing_irrigation,incremental_qualified_reuse,conditional_remainder_after_dust,"crop soil and seasonal demand; permit; displacement baseline",ZERO_REALIZED
+BIO01,source_separated_organics,existing_compost_or_incremental_digestion,qualified_organics,UNRESOLVED,"GROW incumbent allocation; feed rights; incremental comparison; nutrient residuals",ZERO_REALIZED
+BRINE01,future_Kalaeloa,resource_recovery,characterized_concentrate,future_hydraulics_only,"source well and concentrate ion assays; recovery SEC; reagents; residuals",ZERO_REALIZED
+CHEM01,purified_recovered_Mg,nutrient_recovery_or_merchant_buyer,qualified_reagent,UNRESOLVED,"purity; nutrient demand; purchased comparator; one primary allocation",ZERO_REALIZED
+IND01,recovered_inputs,Campbell_industrial_users,manufacturing_and_process_feedstock,UNRESOLVED,"named receiving specification; demand; transport; full incremental cost",ZERO_REALIZED
+HEAT01,qualified_heat_source,drying_or_biology,temperature_matched_heat,UNRESOLVED,"temperature duty timing distance and existing use",ZERO_REALIZED
+DATA01,scale_lab_and_process_sensors,advisory_and_evidence_ledger,versioned_operational_data,compute_burden_only,"data access; provenance; accuracy; operator time; benchmark service value",ZERO_REALIZED
+ECO01,all_interventions,watershed_coast_and_community,measured_environmental_and_social_delta,UNRESOLVED,"baseline; counterfactual; confounders; monitoring; community priorities",ZERO_REALIZED
