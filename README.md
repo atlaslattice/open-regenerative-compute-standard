@@ -1,8 +1,8 @@
 # The Open Regenerative Compute Standard (ORCS)
 
-## Dongjiakou → Corpus Christi lattice — research draft, October 24, 2026
+## Dongjiakou → Corpus Christi lattice — research draft v0.2, October 24, 2026
 
-[Reference model and Corpus draft](prototypes/dongjiakou-corpus-v0_1/README.md): component-cost evidence, reproducible water/salt balances, the full brine-recovery portfolio and twelve-domain ledger. No routine marine process-brine discharge is a design constraint; ZLD remains aspirational, final residual routes and U.S. installed costs remain unresolved. Thirteen bookkeeping tests pass; no field validation or realized benefits claimed.
+[Updated reference model and Corpus draft](prototypes/dongjiakou-corpus-v0_2/README.md): dated component-cost alignment, brine-to-construction evidence, mineral/water/energy couplings, residual-facility fields, AI lifecycle costs, import-compliance parameters and a 30-year mineral-margin financing sensitivity. No routine marine process-brine discharge is a design constraint; ZLD remains aspirational. Actual product margins, U.S. installed costs and final residual routes remain unresolved. Twenty bookkeeping tests pass; no field validation or realized benefits claimed. [Previous v0.1](prototypes/dongjiakou-corpus-v0_1/README.md).
 
 ## Maui resilience simulator — public research release, October 19, 2026
 

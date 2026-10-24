@@ -1,0 +1,5 @@
+additional_water_fraction,additional_water_m3_d,remaining_liquid_m3_d,conserved_salt_inventory_t_d,apparent_salt_kg_m3,overall_volume_recovery,interpretation,treatment_energy_kwh_d,capex_usd,accepted_products_t_d,realized_ocean_discharge_avoidance_m3_d
+0,0.0,153643.18417411763,9352.193819294118,60.86956521739131,0.42500000000000004,At high concentrations crystallization/phase separation is required; no solubility or treatment-performance prediction,,,0,0
+0.5,76821.59208705882,76821.59208705882,9352.193819294118,121.73913043478262,0.7125,At high concentrations crystallization/phase separation is required; no solubility or treatment-performance prediction,,,0,0
+0.8,122914.5473392941,30728.63683482352,9352.193819294118,304.3478260869566,0.885,At high concentrations crystallization/phase separation is required; no solubility or treatment-performance prediction,,,0,0
+1,153643.18417411763,0.0,9352.193819294118,,1.0,At high concentrations crystallization/phase separation is required; no solubility or treatment-performance prediction,,,0,0
