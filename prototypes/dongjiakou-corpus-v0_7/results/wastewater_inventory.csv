@@ -1,0 +1,9 @@
+assumed_flow_mgd,analyte,historical_sample_mg_l,derived_inventory_t_d,actual_recovered_t_d,note
+8,chloride,509,15.414196784448,0,SingleGreenwoodsample;16MGD extrapolation not representative mixedprogram; TDS overlaps ions and must notsum withchloride. No counterion-assay or industrialpurity inferred.
+8,TDS,1432,43.365677397504,0,SingleGreenwoodsample;16MGD extrapolation not representative mixedprogram; TDS overlaps ions and must notsum withchloride. No counterion-assay or industrialpurity inferred.
+8,total_P,3.2,0.09690654167040001,0,SingleGreenwoodsample;16MGD extrapolation not representative mixedprogram; TDS overlaps ions and must notsum withchloride. No counterion-assay or industrialpurity inferred.
+8,ammonia_N,0.08,0.00242266354176,0,SingleGreenwoodsample;16MGD extrapolation not representative mixedprogram; TDS overlaps ions and must notsum withchloride. No counterion-assay or industrialpurity inferred.
+16,chloride,509,30.828393568896,0,SingleGreenwoodsample;16MGD extrapolation not representative mixedprogram; TDS overlaps ions and must notsum withchloride. No counterion-assay or industrialpurity inferred.
+16,TDS,1432,86.731354795008,0,SingleGreenwoodsample;16MGD extrapolation not representative mixedprogram; TDS overlaps ions and must notsum withchloride. No counterion-assay or industrialpurity inferred.
+16,total_P,3.2,0.19381308334080002,0,SingleGreenwoodsample;16MGD extrapolation not representative mixedprogram; TDS overlaps ions and must notsum withchloride. No counterion-assay or industrialpurity inferred.
+16,ammonia_N,0.08,0.00484532708352,0,SingleGreenwoodsample;16MGD extrapolation not representative mixedprogram; TDS overlaps ions and must notsum withchloride. No counterion-assay or industrialpurity inferred.

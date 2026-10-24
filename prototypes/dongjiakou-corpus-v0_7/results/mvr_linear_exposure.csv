@@ -1,0 +1,2 @@
+assumed_residual_t_d_at_density1,assumed_small_project_capacity_t_d,reported_small_project_budget_cny,linear_extrapolation_cny,linear_extrapolation_usd,actual_corpus_zld_cost_usd,is_lower_bound,is_upper_bound,note
+153643.18,132.0,11745000,13670751129.545454,1885620845.4545455,,False,False,Arithmeticonly;capacityfeedvs evaporationdutyunknown;phase separations preconcentration and economyofscale unmodeled;notfeasibilitydecision

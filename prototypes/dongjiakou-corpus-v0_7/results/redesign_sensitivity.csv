@@ -1,0 +1,11 @@
+assumed_nonmarine_other_physical_cut,assumed_named_equipment_cut,marine_saving_usd,indirect_saving_usd,modeled_gross_savings_usd,modeled_reduction_fraction,replacement_lattice_costs_usd,net_alternative_total_usd,status
+0,0,0,0,0,0.0,,,"ASSUMED disjoint cuts, not generic benchmarks or achieved savings; quantities unknown"
+0,0.5,0,0,77065005.5,0.07727448635500173,,,"ASSUMED disjoint cuts, not generic benchmarks or achieved savings; quantities unknown"
+0.1,0,0,0,52280943.2,0.05242305513019162,,,"ASSUMED disjoint cuts, not generic benchmarks or achieved savings; quantities unknown"
+0.1,0.5,0,0,129345948.7,0.12969754148519336,,,"ASSUMED disjoint cuts, not generic benchmarks or achieved savings; quantities unknown"
+0.2,0,0,0,104561886.4,0.10484611026038324,,,"ASSUMED disjoint cuts, not generic benchmarks or achieved savings; quantities unknown"
+0.2,0.5,0,0,181626891.9,0.18212059661538496,,,"ASSUMED disjoint cuts, not generic benchmarks or achieved savings; quantities unknown"
+0.4,0,0,0,209123772.8,0.20969222052076647,,,"ASSUMED disjoint cuts, not generic benchmarks or achieved savings; quantities unknown"
+0.4,0.5,0,0,286188778.3,0.2869667068757682,,,"ASSUMED disjoint cuts, not generic benchmarks or achieved savings; quantities unknown"
+0.5,0,0,0,261404716.0,0.2621152756509581,,,"ASSUMED disjoint cuts, not generic benchmarks or achieved savings; quantities unknown"
+0.5,0.5,0,0,338469721.5,0.3393897620059598,,,"ASSUMED disjoint cuts, not generic benchmarks or achieved savings; quantities unknown"

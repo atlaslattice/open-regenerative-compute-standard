@@ -1,0 +1,8 @@
+analyte,value,unit,sample_date,source,sample_count,limitation,actual_current_average
+total_P,3.2,mg/L asP,2024-09-03,GW_PERMIT PDFp40 and196,1,SinglehistoricaltotalP;notallreactivephosphate,
+ammonia_N,0.08,mg/L asN,2024-09-03,GW_PERMIT PDFp40 and196,1,Jestimated;below0.1reportinglimit;notnitrate,
+nitrate_N,15,mg/L asN,2024-09-03,GW_PERMIT PDFp40 and196,1,O^holdingtimeflag;cannotcountasammonium,
+chloride,509,mg/L asCl,2024-09-03,GW_PERMIT PDFp40 and196,1,Notfreechlorine;notasodiumassay,
+TDS,1432,mg/L,2024-09-03,GW_PERMIT PDFp40 and196,1,Overlapslistedions;notNaClpurity,
+TSS,9,mg/L,2024-09-03,GW_PERMIT PDFp40 and196,1,Notfuelqualityorsludgeannualyield,
+sulfate,210,mg/L asSO4,2024-09-03,GW_PERMIT PDFp40 and196,1,Saltinventorynotqualifiedfertilizer,

@@ -1,0 +1,9 @@
+module,flow_mgd,assumed_retention_hours,assumed_depth_m,volume_m3,water_surface_m2,assumed_tank_plot_m2,assumed_tank_plot_acres,full_treatment_campus_acres,scope
+ASSUMEDmainlinebiologicaltank,8,6,5,7570.823568,1514.1647136,2271.2470703999998,0.5612373737373737,,Geometry-only tank envelope; excludes process skids solids buildings roads setbacks flood protection and redundancy
+ASSUMEDmainlinebiologicaltank,8,12,5,15141.647136,3028.3294272,4542.4941407999995,1.1224747474747474,,Geometry-only tank envelope; excludes process skids solids buildings roads setbacks flood protection and redundancy
+ASSUMEDmainlinebiologicaltank,16,6,5,15141.647136,3028.3294272,4542.4941407999995,1.1224747474747474,,Geometry-only tank envelope; excludes process skids solids buildings roads setbacks flood protection and redundancy
+ASSUMEDmainlinebiologicaltank,16,12,5,30283.294272,6056.6588544,9084.988281599999,2.244949494949495,,Geometry-only tank envelope; excludes process skids solids buildings roads setbacks flood protection and redundancy
+ASSUMEDsolidsdigesterfeed;notwholeWWTPflow,0.1,360,6,5678.117676000001,946.3529460000001,1419.5294190000002,0.3507733585858586,,Geometry-only tank envelope; excludes process skids solids buildings roads setbacks flood protection and redundancy
+ASSUMEDsolidsdigesterfeed;notwholeWWTPflow,0.1,600,6,9463.52946,1577.2549099999999,2365.882365,0.5846222643097643,,Geometry-only tank envelope; excludes process skids solids buildings roads setbacks flood protection and redundancy
+ASSUMEDsolidsdigesterfeed;notwholeWWTPflow,0.5,360,6,28390.58838,4731.76473,7097.647095,1.7538667929292928,,Geometry-only tank envelope; excludes process skids solids buildings roads setbacks flood protection and redundancy
+ASSUMEDsolidsdigesterfeed;notwholeWWTPflow,0.5,600,6,47317.647300000004,7886.274550000001,11829.411825000001,2.923111321548822,,Geometry-only tank envelope; excludes process skids solids buildings roads setbacks flood protection and redundancy

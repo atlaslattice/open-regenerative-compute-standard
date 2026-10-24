@@ -1,0 +1,6 @@
+internationally_sourceable_fraction,fraction_status,assumed_net_price_reduction,savings_usd,construction_reduction_fraction,scope
+0,"ASSUMED scenario, not proven sourceability",0.5,0.0,0.0,One historical process-equipment line; excludes other hardware/design changes
+0.25,"ASSUMED scenario, not proven sourceability",0.5,19266251.375,0.01931862158875043,One historical process-equipment line; excludes other hardware/design changes
+0.5,"ASSUMED scenario, not proven sourceability",0.5,38532502.75,0.03863724317750086,One historical process-equipment line; excludes other hardware/design changes
+0.75,"ASSUMED scenario, not proven sourceability",0.5,57798754.125,0.057955864766251294,One historical process-equipment line; excludes other hardware/design changes
+1,"ASSUMED scenario, not proven sourceability",0.5,77065005.5,0.07727448635500173,One historical process-equipment line; excludes other hardware/design changes

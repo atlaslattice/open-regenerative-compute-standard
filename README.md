@@ -2,9 +2,11 @@
 
 ## Dongjiakou → Corpus Christi lattice
 
-[Latest v0.6 model](prototypes/dongjiakou-corpus-v0_6/README.md) integrates wastewater and central bioreactor modules, optional ammonia supplementation, finite mineral allocations, fit-for-use water, footprint geometry and qualified industrial/agricultural import substitution. Contract safeguards retain salary-based management, independent outcome verification and human review of AI flags. 69 bookkeeping tests pass; costs, full footprint, physical performance and environmental clearance remain unresolved.
+[Latest v0.7 model](prototypes/dongjiakou-corpus-v0_7/README.md) adds USD component anchors labeled NEEDS SOURCING URLS, initially identical DeepSeek/Atlas reference columns, and matching-scope Corpus prices or null. Independent pump-train scenarios distinguish finished-water capacity, RO feed, standby trains and actual pump duties. Municipal and direct industrial wastewater remain separately bounded. 86 bookkeeping tests pass; actual installed costs and environmental clearance remain unresolved.
 
-[Wastewater/resource analysis](prototypes/dongjiakou-corpus-v0_6/WASTEWATER_BIOREACTOR_RESOURCE_NETWORK_v0_6.md). Prior versions preserved: [v0.5](prototypes/dongjiakou-corpus-v0_5/README.md), [v0.4](prototypes/dongjiakou-corpus-v0_4/README.md), [v0.3](prototypes/dongjiakou-corpus-v0_3/README.md), [v0.2](prototypes/dongjiakou-corpus-v0_2/README.md), [v0.1](prototypes/dongjiakou-corpus-v0_1/README.md).
+[Component price comparison](prototypes/dongjiakou-corpus-v0_7/results/component_price_comparison.csv) · [Price, pumping and wastewater explanation](prototypes/dongjiakou-corpus-v0_7/PRICE_ANCHORS_PUMPS_AND_WASTEWATER_v0_7.md).
+
+Prior versions: [v0.6](prototypes/dongjiakou-corpus-v0_6/README.md), [v0.5](prototypes/dongjiakou-corpus-v0_5/README.md), [v0.4](prototypes/dongjiakou-corpus-v0_4/README.md), [v0.3](prototypes/dongjiakou-corpus-v0_3/README.md), [v0.2](prototypes/dongjiakou-corpus-v0_2/README.md), [v0.1](prototypes/dongjiakou-corpus-v0_1/README.md).
 
 ## Maui resilience simulator — public research release, October 19, 2026
 

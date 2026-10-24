@@ -1,0 +1,7 @@
+flow_mgd,assumed_retention_hours,assumed_depth_m,volume_m3,water_surface_m2,assumed_tank_plot_m2,assumed_tank_plot_acres,full_treatment_campus_acres,scope
+8,4,5,5047.215712,1009.4431424,1514.1647136000001,0.3741582491582492,,Geometry-only tank envelope; excludes process skids solids buildings roads setbacks flood protection and redundancy
+8,8,5,10094.431424,2018.8862848,3028.3294272000003,0.7483164983164984,,Geometry-only tank envelope; excludes process skids solids buildings roads setbacks flood protection and redundancy
+8,24,5,30283.294272,6056.6588544,9084.988281599999,2.244949494949495,,Geometry-only tank envelope; excludes process skids solids buildings roads setbacks flood protection and redundancy
+16,4,5,10094.431424,2018.8862848,3028.3294272000003,0.7483164983164984,,Geometry-only tank envelope; excludes process skids solids buildings roads setbacks flood protection and redundancy
+16,8,5,20188.862848,4037.7725696,6056.658854400001,1.4966329966329968,,Geometry-only tank envelope; excludes process skids solids buildings roads setbacks flood protection and redundancy
+16,24,5,60566.588544,12113.3177088,18169.976563199998,4.48989898989899,,Geometry-only tank envelope; excludes process skids solids buildings roads setbacks flood protection and redundancy

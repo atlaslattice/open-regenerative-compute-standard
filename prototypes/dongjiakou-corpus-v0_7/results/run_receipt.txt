@@ -1,0 +1,60 @@
+{
+  "base": {
+    "product_m3_d": 113562.35352,
+    "intake_m3_d": 267205.53769411764,
+    "ro_feed_m3_d": 239078.6389894737,
+    "pretreatment_residual_m3_d": 28126.898704643943,
+    "ro_concentrate_m3_d": 125516.28546947369,
+    "combined_residual_m3_d": 153643.18417411763,
+    "pretreatment_salt_t_d": 984.441454662538,
+    "ro_concentrate_salt_t_d": 8367.752364631579,
+    "total_feed_salt_t_d": 9352.193819294118,
+    "ro_concentrate_salt_kg_m3": 66.66666666666667
+  },
+  "annual_product_m3": 37305233.13132,
+  "reference_normalization": {
+    "fx_is_assumed_not_market_quote": 7.25,
+    "dongjiakou_450m_cny_usd_per_m3_d": 620.6896551724138,
+    "corpus_usd_per_m3_d": 8618.789322886163,
+    "raw_ratio_450m": 13.885827242427705,
+    "raw_ratio_650m": 9.613265013988412,
+    "note": "Unadjusted mixed-date/scope comparison, not proven savings"
+  },
+  "all_in_cost": {
+    "total": null,
+    "missing": [
+      "source_water_intake",
+      "pretreatment",
+      "ro_membranes_and_vessels",
+      "high_pressure_pumps",
+      "energy_recovery",
+      "civil_and_buildings",
+      "product_storage_and_pipelines",
+      "power_connection",
+      "controls_cybersecurity_and_metering",
+      "mineral_recovery",
+      "residual_concentration",
+      "crystallization_or_alternative_final_route",
+      "sludge_and_offgas_treatment",
+      "permitted_residual_transport_and_disposal",
+      "engineering_permits_and_community",
+      "contingency",
+      "owner_financing_and_startup",
+      "incremental_ai_instrumentation_and_integration",
+      "construction_material_processing_and_qualification",
+      "chloride_recovery_or_conversion",
+      "management_salaries_and_verified_expenses",
+      "management_outcome_incentives",
+      "wastewater_network_and_resource_recovery",
+      "wastewater_advanced_polishing",
+      "wastewater_nutrient_recovery",
+      "reuse_storage_and_pipelines",
+      "industrial_return_water_treatment",
+      "additional_solid_residual_qualification",
+      "bioreactor_retrofit_or_addition",
+      "ammonia_storage_handling_and_dosing",
+      "ammonia_recovery_equipment"
+    ],
+    "known_subtotal": 0
+  }
+}

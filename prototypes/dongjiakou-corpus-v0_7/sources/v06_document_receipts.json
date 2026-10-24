@@ -1,0 +1,14 @@
+[
+  {
+    "file": "greenwood_permit.pdf",
+    "sha256": "6b569ce0ec407e4e0e48215d6f93611dd841cbd5cd3a4644d58eadb655b60501",
+    "bytes": 14632556,
+    "redistributed": false
+  },
+  {
+    "file": "city_performance.pdf",
+    "sha256": "ce80c6f1844672ddd8a9dd063aed6d81acc16dc321cb5651859998a27a05b4ec",
+    "bytes": 8830649,
+    "redistributed": false
+  }
+]
