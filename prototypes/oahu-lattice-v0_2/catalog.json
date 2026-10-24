@@ -1,0 +1,1165 @@
+{
+  "version": "0.2",
+  "created": "2026-10-24",
+  "web_review_date": "2026-10-23",
+  "status": "Discovery catalog, not installed equipment, supplier quotation or evidence of environmental clearance.",
+  "coverage": "All three top-level product families, all four named mobile washing machines, three screen variants, and all five application families linked by the reviewed materialwashing.com navigation. Not a claim to enumerate unpublished custom options or every news article.",
+  "sources": {
+    "D_FIXED": "https://www.materialwashing.com/Fixed-Washing-Plant/79.html",
+    "D_SCREEN": "https://www.materialwashing.com/Mobile-Screening-Plant/281.html",
+    "D_SCREEN_NEWS": "https://www.materialwashing.com/news/1051.html",
+    "D_MOBILE": "https://www.materialwashing.com/Mobile-Washing-Plant/",
+    "D_01": "https://www.materialwashing.com/Mobile-Washing-Plant/26.html",
+    "D_02": "https://www.materialwashing.com/Mobile-Washing-Plant/27.html",
+    "D_03": "https://www.materialwashing.com/Mobile-Washing-Plant/205.html",
+    "D_04": "https://www.materialwashing.com/Mobile-Washing-Plant/206.html",
+    "D_SOIL": "https://www.materialwashing.com/application/soil-washing-and-remediation-plant.html",
+    "D_OIL": "https://www.materialwashing.com/application/oil-contaminated-soil-washing-and-remediation-plan.html",
+    "D_SLUDGE": "https://www.materialwashing.com/application/ditch-and-dredged-sludge-washing-and-disposal-plan.html",
+    "D_BULK": "https://www.materialwashing.com/application/bulk-material-screening-plant.html",
+    "D_MATERIAL": "https://www.materialwashing.com/application/material-washing-and-classification-plant.html",
+    "FRTR": "https://frtr.gov/matrix/",
+    "WASH": "https://frtr.gov/matrix/Soil-Washing/",
+    "SS": "https://frtr.gov/matrix/Solidification-and-Stabilization/",
+    "THERMAL": "https://frtr.gov/matrix/Desorption-Incineration/",
+    "VAPOR": "https://www.frtr.gov/matrix/Vapor-Treatment-Technologies/",
+    "EK": "https://frtr.gov/matrix/Electrokinetic-Enhanced-Remediation/",
+    "PLASTICS": "https://www.epa.gov/plastics/advanced-recycling-plastics",
+    "AD": "https://www.epa.gov/anaerobic-digestion/basic-information-about-anaerobic-digestion",
+    "WATER": "https://www.energy.gov/cmei/ito/water-resource-recovery-basics",
+    "BRINE": "https://www.gao.gov/products/gao-25-108484",
+    "BRINE_RND": "https://www.pnnl.gov/news-media/ocean-teeming-critical-minerals-heres-how-we-could-get-them",
+    "PFAS": "https://pfas-1.itrcweb.org/12-treatment-technologies/",
+    "V01": "../oahu-lattice-v0_1/inputs.json"
+  },
+  "modules": [
+    {
+      "id": "D_FIXED",
+      "name": "Fixed washing and remediation plant",
+      "feed": "characterized soil/mineral feed",
+      "possible_outputs": "graded washed solids",
+      "residual_liabilities": "cake; process water; rejects",
+      "clearance_gate": "treatability; reuse qualification; complete-train quote",
+      "source_ids": [
+        "D_FIXED"
+      ],
+      "catalog_kind": "complete_train",
+      "evidence": "manufacturer publication; performance unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null,
+      "contains": [
+        "D_01",
+        "D_02",
+        "D_03",
+        "D_04"
+      ],
+      "mutually_exclusive_with": [
+        "D_MOBILE_TRAIN"
+      ]
+    },
+    {
+      "id": "D_MOBILE_TRAIN",
+      "name": "Mobile washing plant package",
+      "feed": "characterized soil/mineral feed",
+      "possible_outputs": "graded washed solids",
+      "residual_liabilities": "cake; water; oversize",
+      "clearance_gate": "supplier line balance and same-feed guarantee",
+      "source_ids": [
+        "D_MOBILE"
+      ],
+      "catalog_kind": "complete_train",
+      "evidence": "manufacturer publication; performance unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null,
+      "contains": [
+        "D_01",
+        "D_02",
+        "D_03",
+        "D_04"
+      ],
+      "mutually_exclusive_with": [
+        "D_FIXED"
+      ]
+    },
+    {
+      "id": "D_SCREEN",
+      "name": "Mobile screening platform: DS260 / DS15SE",
+      "feed": "prepared sized feed",
+      "possible_outputs": "particle-size fractions",
+      "residual_liabilities": "all fractions still require qualification",
+      "clearance_gate": "feed preparation; sustained capacity on specified feed",
+      "source_ids": [
+        "D_SCREEN",
+        "D_SCREEN_NEWS"
+      ],
+      "catalog_kind": "machine",
+      "evidence": "manufacturer publication; performance unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null,
+      "variants": [
+        "vibrating",
+        "rotary/trommel",
+        "bar/grizzly"
+      ],
+      "published_conflicts": {
+        "product_page": {
+          "tph": [
+            30,
+            150
+          ],
+          "kw": 28.5,
+          "kg": 15200,
+          "mm": [
+            8400,
+            3100,
+            3400
+          ]
+        },
+        "news_DS15SE": {
+          "tph": [
+            60,
+            200
+          ],
+          "kw": 28.5,
+          "kg": 13500,
+          "mm": [
+            9600,
+            3100,
+            3330
+          ]
+        }
+      },
+      "option_claims_not_included_quote": [
+        "crawler or trailer arrangements",
+        "magnetic separation mentioned elsewhere; not standard inclusion"
+      ]
+    },
+    {
+      "id": "D_01",
+      "name": "DSLXC/01 mobile scrubbing",
+      "feed": "coarse-screened soil",
+      "possible_outputs": "scrubbed slurry and separated coarse solids",
+      "residual_liabilities": "contaminants transferred downstream",
+      "clearance_gate": "chemistry and abrasion trial; feed-rate basis",
+      "source_ids": [
+        "D_01"
+      ],
+      "catalog_kind": "machine",
+      "evidence": "manufacturer publication; performance unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null,
+      "published": {
+        "table_tph": [
+          15,
+          20
+        ],
+        "overview_tph": [
+          15,
+          30
+        ],
+        "kw": 71.5,
+        "kg": 28000,
+        "mm": [
+          14500,
+          2700,
+          4200
+        ]
+      }
+    },
+    {
+      "id": "D_02",
+      "name": "DSLXC/02 multistage classifying",
+      "feed": "slurry: published <=30% concentration, <=2mm solids",
+      "possible_outputs": "graded fine sand; concentrated slurry",
+      "residual_liabilities": "concentrate and process water",
+      "clearance_gate": "clarify dry-solid versus slurry capacity",
+      "source_ids": [
+        "D_02"
+      ],
+      "catalog_kind": "machine",
+      "evidence": "manufacturer publication; performance unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null,
+      "published": {
+        "table_tph": 30,
+        "kw": 70,
+        "kg": 28500,
+        "mm": [
+          14000,
+          2900,
+          4200
+        ]
+      }
+    },
+    {
+      "id": "D_03",
+      "name": "DSLXC/03 solid-liquid separation",
+      "feed": "concentrated slurry",
+      "possible_outputs": "dewatered cake; filtrate",
+      "residual_liabilities": "cake not automatically fuel or clean soil",
+      "clearance_gate": "cake solids; cycle time; contaminant partition",
+      "source_ids": [
+        "D_03"
+      ],
+      "catalog_kind": "machine",
+      "evidence": "manufacturer publication; performance unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null,
+      "published": {
+        "tph": null,
+        "kw": null,
+        "kg": null
+      }
+    },
+    {
+      "id": "D_04",
+      "name": "DSLXC/04 mobile water treatment",
+      "feed": "wash-process filtrate",
+      "possible_outputs": "water proposed for internal recycle",
+      "residual_liabilities": "sludge; dissolved contaminants; purge",
+      "clearance_gate": "dissolved contaminant removal; recycle accumulation; confirm model/table",
+      "source_ids": [
+        "D_04"
+      ],
+      "catalog_kind": "machine",
+      "evidence": "manufacturer publication; performance unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null,
+      "published": {
+        "heading_model": "DSLXC/04",
+        "body_model": "DLSX/04",
+        "table_model": "DSLXC/03",
+        "table_capacity_raw": "90 m3; time basis absent",
+        "table_kw_unconfirmed": 20,
+        "table_kg_unconfirmed": 37000,
+        "table_mm_unconfirmed": [
+          17800,
+          3000,
+          4400
+        ]
+      }
+    },
+    {
+      "id": "D_SOIL_APP",
+      "name": "Desen contaminated-soil washing configuration",
+      "feed": "assayed soil/fines",
+      "possible_outputs": "coarse and sand fractions",
+      "residual_liabilities": "fine concentrate; contaminated water",
+      "clearance_gate": "contaminant-specific test; publication excludes mercury",
+      "source_ids": [
+        "D_SOIL"
+      ],
+      "catalog_kind": "application_configuration",
+      "evidence": "manufacturer publication; performance unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null,
+      "uses": [
+        "D_FIXED or D_MOBILE_TRAIN"
+      ]
+    },
+    {
+      "id": "D_OIL_APP",
+      "name": "Desen hot washing / oil sludge configuration",
+      "feed": "suitable oily sandy solids/sludge",
+      "possible_outputs": "separated oil; washed solids",
+      "residual_liabilities": "emulsions; water; contaminated cake",
+      "clearance_gate": "oil acceptance; heat and reagent demand; residual fate",
+      "source_ids": [
+        "D_OIL"
+      ],
+      "catalog_kind": "application_configuration",
+      "evidence": "manufacturer publication; performance unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null,
+      "note": "Hot washing is not thermal desorption or incineration."
+    },
+    {
+      "id": "D_SLUDGE_APP",
+      "name": "Desen ditch/dredged/sludge configuration",
+      "feed": "assayed sediment or suitable sludge",
+      "possible_outputs": "graded gravel/sand; separated organics",
+      "residual_liabilities": "contaminants concentrated in cake",
+      "clearance_gate": "pathogens; metals; organic contaminants; reuse standards",
+      "source_ids": [
+        "D_SLUDGE"
+      ],
+      "catalog_kind": "application_configuration",
+      "evidence": "manufacturer publication; performance unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null
+    },
+    {
+      "id": "D_BULK_APP",
+      "name": "Desen bulk screening configuration",
+      "feed": "landfill/C&D/quarry/mineral feed",
+      "possible_outputs": "size fractions",
+      "residual_liabilities": "rejects and unqualified fractions",
+      "clearance_gate": "feed size; separation versus product purity",
+      "source_ids": [
+        "D_BULK"
+      ],
+      "catalog_kind": "application_configuration",
+      "evidence": "manufacturer publication; performance unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null
+    },
+    {
+      "id": "D_MATERIAL_APP",
+      "name": "Desen material washing/classification configuration",
+      "feed": "ores/coal/aggregate/ceramic feed",
+      "possible_outputs": "upgraded mineral fractions",
+      "residual_liabilities": "slimes and process water",
+      "clearance_gate": "assay; product specification; actual downstream refining",
+      "source_ids": [
+        "D_MATERIAL"
+      ],
+      "catalog_kind": "application_configuration",
+      "evidence": "manufacturer publication; performance unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null
+    },
+    {
+      "id": "P01",
+      "name": "Sampling, hazard isolation and whole-item recovery",
+      "feed": "all proposed feed",
+      "possible_outputs": "reusable items; characterized batches",
+      "residual_liabilities": "hazards; rejected feed",
+      "clearance_gate": "approved sampling and handling plan",
+      "source_ids": [
+        "V01"
+      ],
+      "catalog_kind": "technology_family",
+      "evidence": "technology reference or candidate mapping; Oahu suitability unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null
+    },
+    {
+      "id": "P02",
+      "name": "Selective shredding / size reduction",
+      "feed": "hazard-cleared oversize",
+      "possible_outputs": "liberated sized feed",
+      "residual_liabilities": "dust; wear debris; fines",
+      "clearance_gate": "battery/cylinder exclusion; fire and dust controls",
+      "source_ids": [
+        "V01"
+      ],
+      "catalog_kind": "technology_family",
+      "evidence": "technology reference or candidate mapping; Oahu suitability unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null
+    },
+    {
+      "id": "P03",
+      "name": "Magnetic ferrous separation",
+      "feed": "liberated dry or wet fractions",
+      "possible_outputs": "ferrous concentrate",
+      "residual_liabilities": "entrained contaminants; reject",
+      "clearance_gate": "buyer assay and netback; no refined-metal assumption",
+      "source_ids": [
+        "V01"
+      ],
+      "catalog_kind": "technology_family",
+      "evidence": "technology reference or candidate mapping; Oahu suitability unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null
+    },
+    {
+      "id": "P04",
+      "name": "Eddy-current nonferrous separation",
+      "feed": "suitably sized liberated feed",
+      "possible_outputs": "nonferrous concentrate",
+      "residual_liabilities": "fines and composite rejects",
+      "clearance_gate": "particle size and conductivity trial; buyer acceptance",
+      "source_ids": [
+        "V01"
+      ],
+      "catalog_kind": "technology_family",
+      "evidence": "technology reference or candidate mapping; Oahu suitability unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null
+    },
+    {
+      "id": "P05",
+      "name": "Sensor / optical / density sorting",
+      "feed": "conditioned selected fractions",
+      "possible_outputs": "polymer/mineral/metal concentrates",
+      "residual_liabilities": "mis-sorts; washwater if wet",
+      "clearance_gate": "representative accuracy; throughput; buyer specs",
+      "source_ids": [
+        "V01"
+      ],
+      "catalog_kind": "technology_family",
+      "evidence": "technology reference or candidate mapping; Oahu suitability unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null
+    },
+    {
+      "id": "P06",
+      "name": "External metal refining / e-waste specialist",
+      "feed": "accepted concentrates or isolated components",
+      "possible_outputs": "refined metals by contract",
+      "residual_liabilities": "slags; dust; refining residues",
+      "clearance_gate": "tolling terms; provenance; recovery and liability ownership",
+      "source_ids": [
+        "V01"
+      ],
+      "catalog_kind": "technology_family",
+      "evidence": "technology reference or candidate mapping; Oahu suitability unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null
+    },
+    {
+      "id": "M01",
+      "name": "Aggregate crushing, grading and certified reuse",
+      "feed": "qualified concrete/stone/glass",
+      "possible_outputs": "construction aggregate",
+      "residual_liabilities": "dust; rejects",
+      "clearance_gate": "engineering and leachability specifications",
+      "source_ids": [
+        "V01"
+      ],
+      "catalog_kind": "technology_family",
+      "evidence": "technology reference or candidate mapping; Oahu suitability unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null
+    },
+    {
+      "id": "M02",
+      "name": "Physical washing and attrition",
+      "feed": "suitable contaminated mineral fractions",
+      "possible_outputs": "separated coarse and sand fractions",
+      "residual_liabilities": "concentrated fines; effluent",
+      "clearance_gate": "treatability; all contaminant classes; reuse permission",
+      "source_ids": [
+        "WASH"
+      ],
+      "catalog_kind": "technology_family",
+      "evidence": "technology reference or candidate mapping; Oahu suitability unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null
+    },
+    {
+      "id": "M03",
+      "name": "Chemical extraction / selective leaching",
+      "feed": "suitable soil or metal concentrate",
+      "possible_outputs": "extracted target species",
+      "residual_liabilities": "spent solution; washed residual",
+      "clearance_gate": "reagent demand; metals recovery; effluent treatment",
+      "source_ids": [
+        "WASH"
+      ],
+      "catalog_kind": "technology_family",
+      "evidence": "technology reference or candidate mapping; Oahu suitability unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null
+    },
+    {
+      "id": "M04",
+      "name": "Electrokinetic treatment",
+      "feed": "appropriate conductive fine soil",
+      "possible_outputs": "extracted ions / treated soil",
+      "residual_liabilities": "electrode liquids; concentrates",
+      "clearance_gate": "site-specific pilot; energy; speciation",
+      "source_ids": [
+        "EK"
+      ],
+      "catalog_kind": "technology_family",
+      "evidence": "technology reference or candidate mapping; Oahu suitability unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null
+    },
+    {
+      "id": "M05",
+      "name": "Biopiles / landfarming / slurry bioreactors",
+      "feed": "biodegradable contaminated soil",
+      "possible_outputs": "treated soil; biological products",
+      "residual_liabilities": "persistent contaminants; biomass; gases",
+      "clearance_gate": "degradation endpoints; inhibition; residence time",
+      "source_ids": [
+        "FRTR"
+      ],
+      "catalog_kind": "technology_family",
+      "evidence": "technology reference or candidate mapping; Oahu suitability unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null
+    },
+    {
+      "id": "M06",
+      "name": "Phytoremediation",
+      "feed": "appropriate low-risk soil/water",
+      "possible_outputs": "managed vegetation; treated medium",
+      "residual_liabilities": "contaminated biomass",
+      "clearance_gate": "time; rooting depth; biomass fate; exposure",
+      "source_ids": [
+        "FRTR"
+      ],
+      "catalog_kind": "technology_family",
+      "evidence": "technology reference or candidate mapping; Oahu suitability unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null
+    },
+    {
+      "id": "M07",
+      "name": "Chemical oxidation / reduction",
+      "feed": "compatible contaminant-bearing medium",
+      "possible_outputs": "transformed target compounds",
+      "residual_liabilities": "byproducts; salts; mobilized metals",
+      "clearance_gate": "treatability; incomplete reactions; final speciation",
+      "source_ids": [
+        "FRTR"
+      ],
+      "catalog_kind": "technology_family",
+      "evidence": "technology reference or candidate mapping; Oahu suitability unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null
+    },
+    {
+      "id": "M08",
+      "name": "Thermal desorption",
+      "feed": "suitable organically contaminated solids",
+      "possible_outputs": "treated solids; recovered vapors",
+      "residual_liabilities": "condensate; offgas; residual metals",
+      "clearance_gate": "offgas treatment; energy; solids acceptance",
+      "source_ids": [
+        "THERMAL"
+      ],
+      "catalog_kind": "technology_family",
+      "evidence": "technology reference or candidate mapping; Oahu suitability unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null
+    },
+    {
+      "id": "M09",
+      "name": "Permitted incineration / co-processing",
+      "feed": "accepted combustible hazardous or residual feed",
+      "possible_outputs": "energy where usable; treated residue",
+      "residual_liabilities": "ash; air-control residues; emissions",
+      "clearance_gate": "facility-specific permit and destruction verification",
+      "source_ids": [
+        "THERMAL"
+      ],
+      "catalog_kind": "technology_family",
+      "evidence": "technology reference or candidate mapping; Oahu suitability unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null
+    },
+    {
+      "id": "M10",
+      "name": "Solidification / stabilization",
+      "feed": "appropriate contaminated cake or solids",
+      "possible_outputs": "immobilized material",
+      "residual_liabilities": "larger bound residual still requiring an outlet",
+      "clearance_gate": "leach test; durability; final placement",
+      "source_ids": [
+        "SS"
+      ],
+      "catalog_kind": "technology_family",
+      "evidence": "technology reference or candidate mapping; Oahu suitability unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null
+    },
+    {
+      "id": "M11",
+      "name": "Vitrification / engineered mineral encapsulation",
+      "feed": "suitable inorganic contaminated solids",
+      "possible_outputs": "glass-like immobilized matrix",
+      "residual_liabilities": "offgas; volatilized contaminants; rejects",
+      "clearance_gate": "energy; volatilization controls; long-term leaching",
+      "source_ids": [
+        "SS"
+      ],
+      "catalog_kind": "technology_family",
+      "evidence": "technology reference or candidate mapping; Oahu suitability unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null
+    },
+    {
+      "id": "M12",
+      "name": "Qualified binder / cement / carbonation products",
+      "feed": "specified mineral or ash fractions",
+      "possible_outputs": "engineered mineral products",
+      "residual_liabilities": "rejects; retained contaminants",
+      "clearance_gate": "product durability and leaching; LCA; accepted binder recipe",
+      "source_ids": [
+        "V01"
+      ],
+      "catalog_kind": "technology_family",
+      "evidence": "technology reference or candidate mapping; Oahu suitability unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null
+    },
+    {
+      "id": "M13",
+      "name": "Soil vapor extraction / containment of volatile releases",
+      "feed": "appropriate unsaturated contaminated zone",
+      "possible_outputs": "captured vapors",
+      "residual_liabilities": "offgas; condensate",
+      "clearance_gate": "extraction feasibility; vapor treatment; permit",
+      "source_ids": [
+        "FRTR",
+        "VAPOR"
+      ],
+      "catalog_kind": "technology_family",
+      "evidence": "technology reference or candidate mapping; Oahu suitability unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null
+    },
+    {
+      "id": "M14",
+      "name": "Engineered capping / monitored containment",
+      "feed": "residual site or authorized cell",
+      "possible_outputs": "contained exposure pathway",
+      "residual_liabilities": "continuing monitoring and future liability",
+      "clearance_gate": "hydrology; slope; gas; legal closure plan",
+      "source_ids": [
+        "FRTR"
+      ],
+      "catalog_kind": "technology_family",
+      "evidence": "technology reference or candidate mapping; Oahu suitability unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null
+    },
+    {
+      "id": "R01",
+      "name": "RDF conditioning, baling and contracted H-POWER delivery",
+      "feed": "characterized accepted combustibles",
+      "possible_outputs": "fuel service; energy at incumbent plant",
+      "residual_liabilities": "rejected fuel; additional ash",
+      "clearance_gate": "written acceptance, capacity, fee/netback; trial",
+      "source_ids": [
+        "V01"
+      ],
+      "catalog_kind": "technology_family",
+      "evidence": "technology reference or candidate mapping; Oahu suitability unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null
+    },
+    {
+      "id": "R02",
+      "name": "Mechanical polymer recycling",
+      "feed": "clean compatible separated polymers",
+      "possible_outputs": "flakes/pellets by specialist",
+      "residual_liabilities": "wash residues; rejects",
+      "clearance_gate": "polymer/additive specification; wash and dry costs",
+      "source_ids": [
+        "PLASTICS"
+      ],
+      "catalog_kind": "technology_family",
+      "evidence": "technology reference or candidate mapping; Oahu suitability unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null
+    },
+    {
+      "id": "R03",
+      "name": "Solvent polymer purification",
+      "feed": "selected polymer stream",
+      "possible_outputs": "purified polymer",
+      "residual_liabilities": "spent solvent; concentrated contaminants",
+      "clearance_gate": "solvent recovery; polymer-specific pilot; buyer",
+      "source_ids": [
+        "PLASTICS"
+      ],
+      "catalog_kind": "technology_family",
+      "evidence": "technology reference or candidate mapping; Oahu suitability unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null
+    },
+    {
+      "id": "R04",
+      "name": "Depolymerization",
+      "feed": "suitable polymer chemistry",
+      "possible_outputs": "monomer/intermediates",
+      "residual_liabilities": "impurities; reaction residues",
+      "clearance_gate": "polymer-specific process and product contract",
+      "source_ids": [
+        "PLASTICS"
+      ],
+      "catalog_kind": "technology_family",
+      "evidence": "technology reference or candidate mapping; Oahu suitability unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null
+    },
+    {
+      "id": "R05",
+      "name": "Pyrolysis / gasification / hydrothermal conversion",
+      "feed": "specified carbonaceous feed",
+      "possible_outputs": "oil/gas/intermediates/char as applicable",
+      "residual_liabilities": "char; aqueous phase; tar; gases",
+      "clearance_gate": "feed specification; yields; refining acceptance; emissions",
+      "source_ids": [
+        "PLASTICS"
+      ],
+      "catalog_kind": "technology_family",
+      "evidence": "technology reference or candidate mapping; Oahu suitability unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null
+    },
+    {
+      "id": "O01",
+      "name": "Source-separated organics composting",
+      "feed": "qualified uncontaminated organics",
+      "possible_outputs": "compost",
+      "residual_liabilities": "rejects; leachate; emissions",
+      "clearance_gate": "feed rights; pathogens; contaminants; maturity",
+      "source_ids": [
+        "AD"
+      ],
+      "catalog_kind": "technology_family",
+      "evidence": "technology reference or candidate mapping; Oahu suitability unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null
+    },
+    {
+      "id": "O02",
+      "name": "Anaerobic digestion with gas cleanup",
+      "feed": "biodegradable qualified food/sludge",
+      "possible_outputs": "biogas/RNG; digestate",
+      "residual_liabilities": "inerts; contaminant-bearing digestate",
+      "clearance_gate": "biomethane potential; rights; gas and digestate outlets",
+      "source_ids": [
+        "AD"
+      ],
+      "catalog_kind": "technology_family",
+      "evidence": "technology reference or candidate mapping; Oahu suitability unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null
+    },
+    {
+      "id": "O03",
+      "name": "Biochar from qualified biomass",
+      "feed": "qualified biomass",
+      "possible_outputs": "char; useful heat if recovered",
+      "residual_liabilities": "condensate; ash; contaminated char risk",
+      "clearance_gate": "feed provenance; char standards; emissions; complete balance",
+      "source_ids": [
+        "V01"
+      ],
+      "catalog_kind": "technology_family",
+      "evidence": "technology reference or candidate mapping; Oahu suitability unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null
+    },
+    {
+      "id": "O04",
+      "name": "Nutrient recovery / struvite",
+      "feed": "suitable nutrient-bearing liquor plus qualified Mg",
+      "possible_outputs": "nutrient salt",
+      "residual_liabilities": "spent liquor; contaminants",
+      "clearance_gate": "Mg purity; nutrient balance; product approval",
+      "source_ids": [
+        "WATER"
+      ],
+      "catalog_kind": "technology_family",
+      "evidence": "technology reference or candidate mapping; Oahu suitability unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null
+    },
+    {
+      "id": "O05",
+      "name": "Agricultural and ecological reuse",
+      "feed": "qualified water/compost/nutrients",
+      "possible_outputs": "specified irrigation or soil service",
+      "residual_liabilities": "salinity; accumulation; runoff",
+      "clearance_gate": "crop/soil need; permits; baseline and counterfactual",
+      "source_ids": [
+        "V01"
+      ],
+      "catalog_kind": "technology_family",
+      "evidence": "technology reference or candidate mapping; Oahu suitability unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null
+    },
+    {
+      "id": "W01",
+      "name": "Water equalization, separation, clarification and filtration",
+      "feed": "process water/leachate",
+      "possible_outputs": "conditioned water",
+      "residual_liabilities": "sludge; backwash",
+      "clearance_gate": "flow and dissolved contaminant assay",
+      "source_ids": [
+        "FRTR",
+        "WASH"
+      ],
+      "catalog_kind": "technology_family",
+      "evidence": "technology reference or candidate mapping; Oahu suitability unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null
+    },
+    {
+      "id": "W02",
+      "name": "Biological water treatment",
+      "feed": "biodegradable aqueous stream",
+      "possible_outputs": "treated water; biogas where applicable",
+      "residual_liabilities": "biomass; nutrient residuals",
+      "clearance_gate": "salinity/toxicity; removal versus destruction",
+      "source_ids": [
+        "FRTR"
+      ],
+      "catalog_kind": "technology_family",
+      "evidence": "technology reference or candidate mapping; Oahu suitability unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null
+    },
+    {
+      "id": "W03",
+      "name": "Adsorption and ion exchange",
+      "feed": "conditioned contaminated water",
+      "possible_outputs": "treated water",
+      "residual_liabilities": "spent media; regenerant",
+      "clearance_gate": "breakthrough; competing ions; final media fate",
+      "source_ids": [
+        "FRTR",
+        "PFAS"
+      ],
+      "catalog_kind": "technology_family",
+      "evidence": "technology reference or candidate mapping; Oahu suitability unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null
+    },
+    {
+      "id": "W04",
+      "name": "Chemical precipitation and dissolved-metal recovery",
+      "feed": "metal-bearing liquid",
+      "possible_outputs": "metal precipitate or recovered intermediate",
+      "residual_liabilities": "sludge; salts; reagent residuals",
+      "clearance_gate": "speciation; product purity; residual cost",
+      "source_ids": [
+        "FRTR"
+      ],
+      "catalog_kind": "technology_family",
+      "evidence": "technology reference or candidate mapping; Oahu suitability unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null
+    },
+    {
+      "id": "W05",
+      "name": "Membrane separation / RO / NF",
+      "feed": "pretreated water or saline feed",
+      "possible_outputs": "permeate; separated ion fractions",
+      "residual_liabilities": "concentrate; cleaning solution",
+      "clearance_gate": "fouling; recovery; concentrate fate",
+      "source_ids": [
+        "FRTR",
+        "WATER"
+      ],
+      "catalog_kind": "technology_family",
+      "evidence": "technology reference or candidate mapping; Oahu suitability unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null
+    },
+    {
+      "id": "W06",
+      "name": "Advanced oxidation / specialist aqueous destruction",
+      "feed": "suitable dissolved organic contaminants",
+      "possible_outputs": "treated water",
+      "residual_liabilities": "byproducts; salts; offgas",
+      "clearance_gate": "compound-specific destruction evidence; no generic PFAS pass",
+      "source_ids": [
+        "FRTR",
+        "PFAS"
+      ],
+      "catalog_kind": "technology_family",
+      "evidence": "technology reference or candidate mapping; Oahu suitability unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null
+    },
+    {
+      "id": "W07",
+      "name": "Evaporation / crystallization / ZLD",
+      "feed": "concentrate",
+      "possible_outputs": "condensate; mixed or selective salts",
+      "residual_liabilities": "salt residuals; cleaning wastes; energy demand",
+      "clearance_gate": "heat/electricity; salt disposal or contracts",
+      "source_ids": [
+        "WATER"
+      ],
+      "catalog_kind": "technology_family",
+      "evidence": "technology reference or candidate mapping; Oahu suitability unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null
+    },
+    {
+      "id": "W08",
+      "name": "Specialist PFAS destruction / residual management",
+      "feed": "PFAS concentrate or media",
+      "possible_outputs": "verified destruction where demonstrated",
+      "residual_liabilities": "fluoride; byproducts; remaining PFAS",
+      "clearance_gate": "mass balance incl. fluorine; independent test; permitted outlet",
+      "source_ids": [
+        "PFAS"
+      ],
+      "catalog_kind": "technology_family",
+      "evidence": "technology reference or candidate mapping; Oahu suitability unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null
+    },
+    {
+      "id": "W09",
+      "name": "Offgas capture / adsorption / oxidation",
+      "feed": "captured vapors or process gases",
+      "possible_outputs": "treated gas; recovered solvents if suitable",
+      "residual_liabilities": "spent sorbent; condensate; emissions",
+      "clearance_gate": "air permit; destruction or regeneration evidence",
+      "source_ids": [
+        "VAPOR"
+      ],
+      "catalog_kind": "technology_family",
+      "evidence": "technology reference or candidate mapping; Oahu suitability unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null
+    },
+    {
+      "id": "B01",
+      "name": "Qualified brine Mg/Ca precipitation and purification",
+      "feed": "separately assayed desal concentrate",
+      "possible_outputs": "Mg/Ca compounds to specification",
+      "residual_liabilities": "spent brine; contaminants; reagent salts",
+      "clearance_gate": "assay; purity; energy/reagents; allocation and contract",
+      "source_ids": [
+        "BRINE"
+      ],
+      "catalog_kind": "technology_family",
+      "evidence": "technology reference or candidate mapping; Oahu suitability unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null
+    },
+    {
+      "id": "B02",
+      "name": "Brine salt fractionation / crystallization",
+      "feed": "qualified brine",
+      "possible_outputs": "salt products",
+      "residual_liabilities": "mother liquor; off-spec salts",
+      "clearance_gate": "market volume; purification and freight cost",
+      "source_ids": [
+        "BRINE",
+        "WATER"
+      ],
+      "catalog_kind": "technology_family",
+      "evidence": "technology reference or candidate mapping; Oahu suitability unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null
+    },
+    {
+      "id": "B03",
+      "name": "Bipolar electrodialysis acid/base production",
+      "feed": "suitable purified saline stream",
+      "possible_outputs": "acid and base",
+      "residual_liabilities": "depleted brine; cleaning waste",
+      "clearance_gate": "measured yield; electricity; purity; corrosion",
+      "source_ids": [
+        "BRINE_RND"
+      ],
+      "catalog_kind": "technology_family",
+      "evidence": "technology reference or candidate mapping; Oahu suitability unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null
+    },
+    {
+      "id": "B04",
+      "name": "Selective trace mineral recovery",
+      "feed": "assayed enriched brine or mineral concentrate",
+      "possible_outputs": "target intermediate",
+      "residual_liabilities": "spent sorbent; residual brine",
+      "clearance_gate": "concentration threshold; pilot; no default lithium/REE credit",
+      "source_ids": [
+        "BRINE"
+      ],
+      "catalog_kind": "technology_family",
+      "evidence": "technology reference or candidate mapping; Oahu suitability unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null
+    },
+    {
+      "id": "E01",
+      "name": "Heat exchange / heat pump / recovered process heat",
+      "feed": "usable temperature-matched heat source",
+      "possible_outputs": "measured thermal service",
+      "residual_liabilities": "pumping and heat-pump burden",
+      "clearance_gate": "temperature and seasonal coincidence; displacement baseline",
+      "source_ids": [
+        "V01"
+      ],
+      "catalog_kind": "technology_family",
+      "evidence": "technology reference or candidate mapping; Oahu suitability unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null
+    },
+    {
+      "id": "E02",
+      "name": "Solar/grid/storage and backup integration",
+      "feed": "permitted energy connection/site",
+      "possible_outputs": "power and resilience service",
+      "residual_liabilities": "capital; losses; end-of-life equipment",
+      "clearance_gate": "dispatch; interconnection; full load profile",
+      "source_ids": [
+        "V01"
+      ],
+      "catalog_kind": "technology_family",
+      "evidence": "technology reference or candidate mapping; Oahu suitability unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null
+    },
+    {
+      "id": "I01",
+      "name": "Industrial offtake / local fabrication and replacement parts",
+      "feed": "qualified materials; approved designs",
+      "possible_outputs": "industrial inputs; serviceable parts",
+      "residual_liabilities": "rejected product; machining residues",
+      "clearance_gate": "engineering certification; demand; counterfactual downtime",
+      "source_ids": [
+        "V01"
+      ],
+      "catalog_kind": "technology_family",
+      "evidence": "technology reference or candidate mapping; Oahu suitability unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null
+    },
+    {
+      "id": "I02",
+      "name": "Measurement, data records and optional AI controls",
+      "feed": "sensors; samples; process records",
+      "possible_outputs": "auditable decisions; optional control service",
+      "residual_liabilities": "compute energy; errors; maintenance",
+      "clearance_gate": "holdout benchmark; metering; human override",
+      "source_ids": [
+        "V01"
+      ],
+      "catalog_kind": "technology_family",
+      "evidence": "technology reference or candidate mapping; Oahu suitability unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null
+    },
+    {
+      "id": "X01",
+      "name": "Mercury specialist recovery / retort",
+      "feed": "segregated Hg-bearing feed",
+      "possible_outputs": "controlled recovered Hg or stabilized residue",
+      "residual_liabilities": "offgas controls; contaminated residuals",
+      "clearance_gate": "specialist permit; emissions; long-term disposition",
+      "source_ids": [
+        "FRTR"
+      ],
+      "catalog_kind": "technology_family",
+      "evidence": "technology reference or candidate mapping; Oahu suitability unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null
+    },
+    {
+      "id": "X02",
+      "name": "Asbestos / battery / radioactive / medical specialist routing",
+      "feed": "isolated regulated hazards",
+      "possible_outputs": "authorized treatment or disposal",
+      "residual_liabilities": "long-term managed residue",
+      "clearance_gate": "material-specific authorization; no ordinary screen feed",
+      "source_ids": [
+        "V01"
+      ],
+      "catalog_kind": "technology_family",
+      "evidence": "technology reference or candidate mapping; Oahu suitability unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null
+    },
+    {
+      "id": "X03",
+      "name": "Residual transport and authorized disposal",
+      "feed": "all unqualified residuals",
+      "possible_outputs": "lawful final disposition",
+      "residual_liabilities": "closure and monitoring liability",
+      "clearance_gate": "acceptance; transport; wet weight; fee quote",
+      "source_ids": [
+        "V01"
+      ],
+      "catalog_kind": "technology_family",
+      "evidence": "technology reference or candidate mapping; Oahu suitability unverified",
+      "execution": "catalog only; no calibrated transfer function",
+      "capex_usd": null,
+      "opex_usd_per_feed_t": null
+    }
+  ],
+  "accounting_rules": [
+    "Application configurations are recipes, not extra machines.",
+    "A fixed/mobile package and its four component prices are alternative quote scopes, never additive charges.",
+    "Unknown prices and capacities remain null, not zero.",
+    "No module destroys elements; contaminants must be removed, transferred, immobilized or retained.",
+    "All reuse and claimed benefits require separate permits, assays, contracts and counterfactuals."
+  ],
+  "desen_auxiliaries": {
+    "bundled_or_optional_confirm_in_quote": [
+      "feeders; bar screen; scrubber; hydraulic screen",
+      "slurry pumps; tanks; dosing",
+      "hydroclassification; settling",
+      "filter press; cake conveyor",
+      "PLC/DCS; remote monitoring; hydraulics; enclosure",
+      "electrical supply; interconnecting pipework; foundations; spill containment"
+    ],
+    "not_assumed_included": [
+      "eddy current separator",
+      "refinery",
+      "RO/PFAS destruction",
+      "thermal desorption",
+      "complete hazardous-waste treatment",
+      "agricultural product certification"
+    ]
+  }
+}
