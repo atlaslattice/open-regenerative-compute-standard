@@ -1,0 +1,92 @@
+The strongest commercially deployed candidates cluster around **Stage 2 (fines washing), Stage 3 (ash recovery), and the contaminated-water residual**. The weakest evidence is for **Stage 4 secondary recovery** of mixed rejects and dirty plastics, where commercial plants exist but are almost always fed *source-segregated* packaging waste, not landfill-derived mixed residue. Below are the five strongest candidates, mapped to your stages and residual streams, with evidence labels.
+
+---
+
+### 🥇 Five Strongest Candidates
+
+#### 🧼 Candidate 1 — Desen DSLXC Series Mobile Washing Train (Stage 2 + ash washing)
+
+**What it is.** The DSLXC series is Desen’s mobile/containerized washing train, explicitly marketed for soil washing, **fly-ash multi-stage washing**, and “solid-waste resource washing”. The modular architecture connects screening, scrubbing, washing, dewatering, and water treatment via flanged quick-connect units, and Desen claims **3-hour commissioning after arrival** and **10–200 t/h capacity** depending on configuration. A separate corporate filing describes a **single-unit 10–100 t/h** modular ex-situ washing system with the same process route: ≤100 mm feed → scrubbing → 2–100 mm clean material → 0.15–2 mm clean fine sand → filter-pressed cake.
+
+**Evidence status.** **Manufacturer claim / project description, not independent measurement.** Desen states heavy-metal removal of **85–95%** and overall mass reduction of **70–95%**, with cake “检验合格可用于回填” (usable for backfill if it passes testing) and non-compliant cake sent for further treatment. The water loop is claimed at **≥90% recycle**. No public operating mass balance, third-party assay, or named client with measured input/output was located.
+
+**Fit against your Stage 2 assumptions.** The process route matches your DSLXC/01–04 placeholder almost exactly, which is expected because you modeled it from Desen’s published modules. The critical unresolved variable is your assumption of **65% dry solids and 70% accepted mineral product**. Desen’s own claims are framed as *contaminant removal and mass reduction*, not as *accepted-product yield*. A 70–95% mass reduction means 5–30% of the feed becomes cake requiring further management—consistent with your model, but it does not validate the 70% accepted-product figure. The cake destination remains the open question, and Desen’s language (“合格可用于回填，不合格再进一步处置”) shifts that question to the receiving jurisdiction, not the equipment.
+
+**Suitability for Oʻahu.** The 3-hour setup and mobile architecture are genuinely relevant to a campaign model. The 10–200 t/h range means a single unit can be sized to the fines stream without oversizing the whole line. The 60 Hz question and U.S. certification remain unresolved, as with all Desen equipment.
+
+---
+
+#### 🔥 Candidate 2 — Jiangsu Tianying Plasma Vitrification (Stage 3 ash residue + washing concentrate)
+
+**What it is.** A commercial plasma melting system for **MSW incineration fly ash, hazardous-waste bottom ash, and other high-salt/high-heavy-metal residues**. The process heats residue to melting at 5,000–20,000°C, destroys dioxins/furans (>99.9999% destruction), encapsulates heavy metals in a **Si-O glass matrix**, and produces a vitrified product usable as building material. A single unit is rated **50 t/d** (40–60 t/d flexible load), with **≥95% resource utilization** and **no secondary fly ash**.
+
+**Operating evidence.** The Haian, Nantong project has a **total investment of ¥142 million**, **annual operating cost ~¥26.4 million**, and a reported **8-year payback**. It reduces fly-ash landfill volume by **~13,200 t/yr**, with **~10,000 t/yr of glass product** and **3,200 t/yr of deicing salt** from high-salt wastewater evaporation. This is a **project disclosure with cost data**, stronger than a marketing claim, though not an independent audit.
+
+**Fit against your Stage 3.** This is the most credible route for the **57,578 t/yr ash residue** if the goal is *destruction and immobilization* rather than further metal recovery. It does not recover additional metals; it converts the residue into a stable glass and a salt byproduct. For your model, it would sit **downstream of the 60% ash recovery assumption**, handling the concentrated remainder rather than being applied to the original ash. The economics are capital-intensive: ¥142M capex and ¥26.4M/yr opex for a 50 t/d unit. At Oʻahu’s ash scale, a single unit would be roughly appropriately sized, but the capital threshold is an order of magnitude above the Desen screening unit.
+
+**Caution.** Plasma is an **end-of-pipe destruction technology**, not a recovery technology for your remaining metal-bearing fraction. It solves the residual problem by eliminating the residual, at high energy and capital cost. It should be compared against **stabilization/solidification** and **engineered landfill** as the alternatives, not against further recovery.
+
+---
+
+#### 🧂 Candidate 3 — Leer Intelligence Low-Temperature Pyrolysis + Countercurrent Washing (Stage 3 ash, salt separation)
+
+**What it is.** A commercial fly-ash resource line using **low-temperature pyrolysis (350°C) or high-temperature melting (1,400°C)**, combined with **countercurrent water washing at a 1:1 water-to-ash ratio** (vs. traditional 3:1), **potassium chloride extraction**, and **brick/building-material production**. Single low-temperature pyrolysis furnace capacity is **120 t/d**. The Nantong project has **Phase I investment ¥160 million**, obtained a **hazardous-waste operating permit in November 2025**, and is in **stable trial operation**.
+
+**Reported performance.** Dioxin removal **>99.99%**, heavy-metal leaching **1/10 of national standard**, **100% resource utilization**, and **1 tonne of fly ash → 1 tonne of product** (permeable brick). The project is designed for **60,000 t/yr fly-ash processing** and **50 sets/yr equipment manufacturing**.
+
+**Fit against your Stage 3 and salt management.** This is the most directly relevant **salt-separation** candidate for the ash stream. Your model flags “salt and contaminant management” as a Stage 3 requirement, and Leer’s countercurrent washing + KCl extraction is a deployed response. The **1:1 water ratio** matters for your water balance: if ash washing is added, water demand and recycle design change. The “1 tonne in → 1 tonne out” claim should be treated cautiously—it likely includes added reagents and binders, and the product mass is not the same as the input mass on a dry-solids basis. Your model already warns that “added water, reagents, binders and secondary treatment residues require separate accounting,” and this is exactly where that warning applies.
+
+**Comparison to plasma.** Leer’s route is **lower temperature and lower energy** than plasma, with a saleable salt byproduct. Plasma produces a more inert glass but no salt recovery. For Oʻahu, the choice depends on whether the ash is **chloride-rich** (favoring washing + salt recovery) and whether a **local market for permeable brick or aggregate** exists. Neither has been demonstrated on Hawaiʻi ash.
+
+---
+
+#### 💧 Candidate 4 — AlfaFlash / Jaron Leachate Evaporation Train (contaminated water residual)
+
+**What it is.** A **forced-circulation falling-film evaporation** system integrated into a full leachate treatment train (UF → RO → evaporator → condensate). The reference installation is a **Chongqing landfill leachate project** operated by **Xiamen Jaron Technology**, processing **1,000 t/d initially and ~500 t/d after the existing stock is treated**. The system removes **PFOS, nitrogen, heavy metals, and TDS**; feed TDS was **73,230 mg/L**, condensate conductivity dropped to **195 µS/cm**.
+
+**Evidence status.** **Operator report via vendor case study.** Jaron installed one unit as a pilot in March, reported performance “far exceeding expectations,” and **ordered 10 additional units over two years**. The feed/condensate table is unusually specific for a vendor document, which strengthens its credibility, but it is still a supplier-published case study.
+
+**Fit against your 7,630 t/yr inherent water.** The relevant lesson is not the specific evaporator but the **treatment train architecture**: membrane concentration followed by evaporation, with a **dry solid residual** sent to a specialist contractor. Your model correctly states that “separation is not destruction” and requires tracking of **concentrates, sludge, spent media and purge**. The Chongqing train produces a condensate suitable for reuse/discharge and a **dry solid** that leaves the site. For Oʻahu, the open questions are **PFAS** (the Chinese project targets PFOS but not necessarily the full PFAS suite) and **brine/concentrate disposal**—a landfill on an island has limited options for evaporator blowdown.
+
+---
+
+#### ♻️ Candidate 5 — Stadler / Sesotec Secondary Sorting for Rejects and Plastics (Stage 4, partial)
+
+**What it is.** Commercial **automated sorting plants for light packaging and mixed recyclables**, using trommels, ballistic separators, NIR optical sorters, and magnetic/eddy-current units to produce **PET, HDPE, PP, PS, film fractions, and ferrous/non-ferrous metals**. Stadler upgraded the **BZB plant in Amorebieta, Spain**, more than doubling capacity and improving sorting accuracy. Sesotec and Steinbeis Polyvert operate a plant that **re-sorts previously generated reject fractions** to recover marketable plastic grades.
+
+**Fit against your Stage 4 assumptions.** This is the **weakest mapping** of the five, for a specific reason: these plants are designed for **source-segregated packaging waste**, not for landfill-derived mixed rejects or dirty combustibles. Your Stage 4 assumes **35% of rejected combustibles** becomes a recoverable polymer fraction, and **20% of residual mixed “other”** becomes accepted product. The European plants demonstrate that **secondary sorting of rejects is technically feasible**, but they do not demonstrate that **landfill-aged mixed plastics** can meet the same product specifications. Chlorine/fluorine content, moisture, and contamination are materially worse in your feed. A Stadler or Sesotec plant could be a **component** of a Stage 4 solution, but it would require upstream washing/drying and downstream quality testing that the European references do not cover.
+
+**More honest use.** Treat this candidate as evidence that **secondary sorting equipment exists and is deployed**, not as evidence that your 35%/20% assumptions are achievable. The gap is feed characterization, not equipment availability.
+
+---
+
+### 🗺️ Mapping to Your Stages and Residuals
+
+| Your stage / residual | Strongest candidate | What the evidence supports | What remains unverified |
+|---|---|---|---|
+| **Stage 2** fines washing | Desen DSLXC | Process route matches; 10–200 t/h; 3-h setup; 85–95% metal removal claimed | Accepted-product yield (70% assumption); cake destination; 60 Hz |
+| **Stage 3** ash recovery (metals/minerals) | Leer Intelligence; Tianying | Deployed ash lines with salt separation or vitrification; cost data for Tianying | Metal recovery rate specifically; Oʻahu ash composition |
+| **Residual: ash residues** | Tianying plasma; Leer pyrolysis | Destruction/immobilization demonstrated; glass or brick product | Capital/opex at Oʻahu scale; product market |
+| **Residual: washing concentrate** | Tianying plasma (as destruction route) | Can vitrify concentrated heavy-metal residue | Whether concentration is economic vs. stabilization |
+| **Residual: rejected combustibles** | Stadler/Sesotec (partial) | Secondary sorting of rejects is deployed | Landfill-aged plastic quality; Cl/F; moisture |
+| **Residual: mixed rejects** | No strong single candidate | Characterization is the missing step | Subdivision routes; hazard segregation |
+| **Residual: contaminated water** | AlfaFlash/Jaron train | Full train with evaporation; PFOS/TDS removal; dry solid residual | PFAS suite; brine disposal on island |
+| **Residual: remaining metals** | High-frequency eddy current (Pinnuo, JSYY) | 3 mm+ nonferrous separation; 98% purity claims for some models | Fine/liberated metal recovery from your specific stream |
+
+---
+
+### 🚫 What the evidence does *not* support
+
+**No candidate validates the 60% ash recovery assumption.** Tianying and Leer process ash, but neither publishes a **metal recovery rate from ash** that maps to your 60% accepted-product figure. Leer’s “1 tonne in → 1 tonne out” is a total-product claim, not a metal-recovery claim. Tianying recovers **no additional metals**—it destroys and immobilizes. Your 60% assumption remains an **analytical placeholder**, and the candidates suggest two different downstream philosophies: **recover more metals before vitrification**, or **accept that ash metal recovery is marginal and vitrify the residue**. The model should present both.
+
+**No candidate validates the 35% polymer recovery from rejected combustibles.** The European secondary-sorting plants are the closest evidence, but their feed is fundamentally different. A more defensible Stage 4 assumption would be **“polymer recovery is possible only after feed-specific washing and quality testing, and may be substantially lower for landfill-aged film/textile fractions.”**
+
+**No candidate provides a complete Oʻahu-specific cost.** Tianying’s ¥142M / ¥26.4M figures are the most complete, but they are for a 50 t/d plasma unit in Jiangsu, not for Oʻahu’s ash or electricity prices. Desen’s DSLXC pricing is not public. The AlfaFlash train’s cost is not disclosed. The five candidates give you **technical routes and order-of-magnitude cost anchors**, not a budget.
+
+---
+
+### 📋 Recommended Next Procurement Questions
+
+For **Desen**: request a **mass balance for a named fines-washing project** (feed dry solids, accepted product, cake mass, cake assay, water make-up/recycle), and ask whether the DSLXC can be configured for **ash washing** with the same guarantees. For **Tianying and Leer**: request **ash-specific metal recovery data** (if any) and a **product specification** for the glass/brick output, plus **60 Hz/export configuration** and U.S. certification status. For **AlfaFlash/Jaron**: request **PFAS suite removal data** (not just PFOS) and a **brine/concentrate disposal plan** suitable for an island. For **Stadler/Sesotec**: the honest question is not “can you sort mixed rejects” but **“what feed specifications would landfill-aged combustibles need to meet before your plant could accept them?”**
+
+The common thread across all five is that **the equipment exists and is operating**; what is missing is **feed-specific evidence** that your modeled recovery fractions survive contact with Oʻahu material. That is the same gap the Desen inquiry is designed to close, extended to the downstream stages.
