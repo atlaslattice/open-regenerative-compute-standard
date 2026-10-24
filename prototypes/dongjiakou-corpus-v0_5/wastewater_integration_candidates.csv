@@ -1,0 +1,8 @@
+exchange,source_stream,destination,evidence_requirements,incremental_capex_usd,annual_net_value_usd,status
+reclaimed_water,Oso/Greenwood network,Industry/data cooling/ag where qualified,Water quality and firm delivered supply; existing16MGD not new credit,,,CANDIDATE; no realized credit
+magnesium_nutrients,Qualified brine magnesium,Wastewater nutrient recovery/struvite,Assay; purity; phosphorus/ammonium availability; competing Mg sale allocation,,,CANDIDATE; no realized credit
+biogas_heat,Suitable organic wastewater solids,Energy and matched thermal duty,Actual digester yield; contaminant controls; digestate fate; inorganic brine is not fuel,,,CANDIDATE; no realized credit
+shared_utilities,Labs maintenance controls power water,Separate compatible process trains,Capacity distances reliability isolation and bypass; no unqualified stream mixing,,,CANDIDATE; no realized credit
+recovered_construction_materials,Qualified Mg/Ca products or selected compatible residue,Concrete/mortar project buyers,Product recipe qualification net delivered value chloride leaching structural durability,,,CANDIDATE; no realized credit
+acid_base_reuse,Qualified BMED products,Water/mineral processing reagent demand,No double sale and internal-use credit; acid return chloride tracked,,,CANDIDATE; no realized credit
+community_ecology,Reduced intake/discharge burdens and reliable local water,Residents/habitat,Baseline counterfactual monitoring duration confounders; governance independent of profitability,,,CANDIDATE; no realized credit

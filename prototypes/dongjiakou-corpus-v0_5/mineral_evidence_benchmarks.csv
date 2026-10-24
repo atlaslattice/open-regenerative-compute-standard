@@ -1,0 +1,7 @@
+lane,evidence_sources,evidence_stage,graduation_benchmark,boundary,actual_accepted_t_year,actual_net_value_usd,realized_incentive_usd
+MgOH2/Mg cement,MGCEMENT/MAREMAG,Publishedexperimental/pilot-informed evidence; site quantities modeled,Feedassay qualifiedgrade cost yield and buyer/consumedinput,PotentialMgconcrete application; no untested sludge acceptance,,,0
+Ca/PCC/mortar,PCC26/MORTAR,Pilot or specific laboratory recipe; someCa externally supplied,Actualrecipe leaching durability productacceptance netvalue,No genericmixedsludgeconstructioncredit,,,0
+Bromine/NaCl,MIIT25,"SeparateLubeiintegrated operatingcase,notDJKZLDproof",Corpusassay selectiveyield buyers price logistics residualfate,Tradeoffchlorideallocationandmarketcapacity,,,0
+HCl/NaOH,BOHAIBMED/BMEDPILOT/BMEDREAL,"Industrialapplicationreport andpilotliterature,notCorpusquotation",Acid/base purity power demand internaluse andpurgefate,Internalacidreturnrestoreschloride;notfreeclosure,,,0
+Mg/struvite,EPA_NUTRIENTS/EPA_AD,Establishednutrientrecoverypathway; noCorpuslocalyieldyet,N/Pfeed assays Mgpurity nutrientyield fertilizerbuyer,SameMgallocatedtosaleORnutrientrecovery,,,0
+Traceions/otherproducts,mineral_pathways.csv,Candidateinventory orresearchlanes,Assay separation process lifecyclecost market qualification,Noautomaticlargevaluetracecredit,,,0

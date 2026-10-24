@@ -1,0 +1,7 @@
+use,reference,screening_value,units,interpretation,equivalent_mg_l_cl,legal_approval,source
+Surface irrigation,FAO29Table1,4,meq/L,Below4: no restriction indicated;4–10 slight/moderate;above10 severe for sensitive crops under source assumptions,141.812,NO,FAO29
+Surface irrigation,FAO29Table1,10,meq/L,"Upper slight/moderate category boundary, not universal crop limit",354.53000000000003,NO,FAO29
+Sprinkler irrigation,FAO29Table1,3,meq/L,Below3 versus above3 restriction; sensitive crops/climate/method matter,106.35900000000001,NO,FAO29
+Concrete mixing water,ASTM C1602,,,Chemical limits may be invoked; qualify water and project mix; no blanket imported-sludge approval,,NO,NRMCA26
+Reinforced concrete mixture,ACI318 and ASTM C1218,,,Concrete exposure and adopted code determine criterion; C1218 measures water-soluble chloride,,NO,ACI_CRC94
+Aggregate,ASTM C33,,,Aggregate qualification reference; do not assert a universal chloride limit from this designation alone,,NO,NRMCA26 / ACI_CRC94
