@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-24",
+  "status": "ANALYST SCREENING ASSUMPTIONS, not supplier guarantees",
+  "wastewater_feed_cases_mgd": [
+    8,
+    16,
+    28,
+    30
+  ],
+  "fraction_sent_to_ro": [
+    0,
+    0.5,
+    1
+  ],
+  "reuse_ro_recovery": 0.9,
+  "desal_product_mgd": 30,
+  "whole_plant_recovery": 0.425,
+  "swro_recovery": 0.475,
+  "seawater_tds_kg_m3": 35,
+  "water_availability": 0.9,
+  "compute_it_nameplate_mw": [
+    0,
+    100,
+    500,
+    1210
+  ],
+  "compute_average_load_fraction": 0.9,
+  "pue": 1.15,
+  "electricity_tariff_usd_kwh": [
+    0.05,
+    0.1,
+    0.15
+  ],
+  "consumptive_wue_l_per_it_kwh": [
+    0,
+    0.2,
+    1,
+    1.8
+  ],
+  "cooling_cycles_of_concentration": [
+    3,
+    5
+  ],
+  "recoverable_it_heat_fraction": 0.7,
+  "heat_source_temperature_c": [
+    45,
+    60
+  ],
+  "heat_exchanger_approach_c": 5,
+  "illustrative_latent_duty_kwh_m3": 630,
+  "hypothetical_heat_pump_heating_cop": [
+    3,
+    5
+  ],
+  "desal_sec_kwh_m3": [
+    2.2,
+    3,
+    3.52,
+    4.32
+  ],
+  "landfill_screen_nominal_t_h": [
+    50,
+    200
+  ],
+  "landfill_shift_hours": 8,
+  "landfill_campaign_days_y": 300,
+  "landfill_effective_availability": 0.8,
+  "landfill_illustrative_feed_fractions": {
+    "soil_fines": 0.5,
+    "combustibles": 0.2,
+    "mineral_aggregate": 0.1,
+    "ferrous": 0.05,
+    "nonferrous": 0.01,
+    "glass": 0.04,
+    "other": 0.1
+  },
+  "side_stream_cases_m3_d": [
+    100,
+    200,
+    500
+  ],
+  "side_stream_p_mg_l": 35,
+  "side_stream_nh4_n_mg_l": 100,
+  "phosphorus_capture": 0.85,
+  "illustrative_seawater_ions_mg_l": {
+    "Na": 10500,
+    "Cl": 19000,
+    "Mg": 1350,
+    "Ca": 410,
+    "SO4": 2700,
+    "K": 390,
+    "Br": 67,
+    "B": 4.6,
+    "Sr": 8,
+    "Li": 0.18
+  }
+}

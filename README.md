@@ -1,5 +1,11 @@
 # The Open Regenerative Compute Standard (ORCS)
 
+## Corpus network white paper v0.8
+
+[Read the complete paper](reports/corpus-network-v0_8/WHITE_PAPER.md) | [Download the PDF](reports/corpus-network-v0_8/Atlas_Corpus_Network_White_Paper_v0_8.pdf) | [Scenario package](reports/corpus-network-v0_8/)
+
+Networked wastewater/industrial retrofits, Desen landfill mining and remediation, bioreactors, desalination, mineral/chloride recovery and residual closure. Includes 0/100/500/1210 MW IT comparisons and an explicit community-supported struvite option. Chinese price references need original sourcing; installed cost and environmental clearance remain unresolved. Nine new arithmetic/boundary tests, separate from the frozen v0.7 model's 86 tests. Existing reuse, compost and landfill-gas benefits remain in the baseline.
+
 ## Dongjiakou → Corpus Christi lattice
 
 [Latest v0.7 model](prototypes/dongjiakou-corpus-v0_7/README.md) adds USD component anchors labeled NEEDS SOURCING URLS, initially identical DeepSeek/Atlas reference columns, and matching-scope Corpus prices or null. Independent pump-train scenarios distinguish finished-water capacity, RO feed, standby trains and actual pump duties. Municipal and direct industrial wastewater remain separately bounded. 86 bookkeeping tests pass; actual installed costs and environmental clearance remain unresolved.

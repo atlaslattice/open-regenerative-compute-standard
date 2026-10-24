@@ -1,0 +1,9 @@
+it_nameplate_mw,source_temperature_c,exchanger_approach_c,max_sink_supply_temperature_c,captured_heat_mw_average,ideal_single_effect_latent_equivalent_m3_d,ideal_latent_equivalent_fraction_of_avg_desal_residual,basis,mvr_electricity_saving_kwh
+0,45,5,40,0.0,0.0,0.0,"Energy-only ceiling for stated duty, not predicted evaporation; no MVR electricity saving credited",
+0,60,5,55,0.0,0.0,0.0,"Energy-only ceiling for stated duty, not predicted evaporation; no MVR electricity saving credited",
+100,45,5,40,62.99999999999999,2399.9999999999995,0.017356231459279316,"Energy-only ceiling for stated duty, not predicted evaporation; no MVR electricity saving credited",
+100,60,5,55,62.99999999999999,2399.9999999999995,0.017356231459279316,"Energy-only ceiling for stated duty, not predicted evaporation; no MVR electricity saving credited",
+500,45,5,40,315.0,12000.0,0.08678115729639659,"Energy-only ceiling for stated duty, not predicted evaporation; no MVR electricity saving credited",
+500,60,5,55,315.0,12000.0,0.08678115729639659,"Energy-only ceiling for stated duty, not predicted evaporation; no MVR electricity saving credited",
+1210,45,5,40,762.3,29040.0,0.21001040065727974,"Energy-only ceiling for stated duty, not predicted evaporation; no MVR electricity saving credited",
+1210,60,5,55,762.3,29040.0,0.21001040065727974,"Energy-only ceiling for stated duty, not predicted evaporation; no MVR electricity saving credited",

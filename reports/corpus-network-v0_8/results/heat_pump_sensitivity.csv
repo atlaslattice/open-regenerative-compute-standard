@@ -1,0 +1,9 @@
+it_nameplate_mw,assumed_heating_cop,source_heat_mw,added_compressor_electricity_mw,delivered_heat_mw,status
+0,3,0.0,0.0,0.0,Algebraic sensitivity only; COP depends on lift and actual machine; not MVR saving
+0,5,0.0,0.0,0.0,Algebraic sensitivity only; COP depends on lift and actual machine; not MVR saving
+100,3,62.99999999999999,31.499999999999996,94.49999999999999,Algebraic sensitivity only; COP depends on lift and actual machine; not MVR saving
+100,5,62.99999999999999,15.749999999999998,78.74999999999999,Algebraic sensitivity only; COP depends on lift and actual machine; not MVR saving
+500,3,315.0,157.5,472.5,Algebraic sensitivity only; COP depends on lift and actual machine; not MVR saving
+500,5,315.0,78.75,393.75,Algebraic sensitivity only; COP depends on lift and actual machine; not MVR saving
+1210,3,762.3,381.15,1143.4499999999998,Algebraic sensitivity only; COP depends on lift and actual machine; not MVR saving
+1210,5,762.3,190.575,952.875,Algebraic sensitivity only; COP depends on lift and actual machine; not MVR saving

@@ -1,0 +1,4 @@
+side_stream_m3_d,assumed_reactive_p_mg_l,assumed_ammonium_n_mg_l,recovered_p_kg_d,pure_struvite_kg_d,magnesium_required_kg_d,gross_product_value_low_usd_d,gross_product_value_high_usd_d,status,net_margin_usd,actual_side_stream_flow_m3_d
+100,35,100,2.975,23.571009876036367,2.3344718345805076,9.103286572814044,11.379108216017556,ASSUMED FEED and NEEDS SOURCING URLS product prices; not Greenwood yield,,
+200,35,100,5.95,47.142019752072734,4.668943669161015,18.206573145628088,22.758216432035113,ASSUMED FEED and NEEDS SOURCING URLS product prices; not Greenwood yield,,
+500,35,100,14.875,117.85504938018185,11.672359172902537,45.51643286407023,56.89554108008779,ASSUMED FEED and NEEDS SOURCING URLS product prices; not Greenwood yield,,

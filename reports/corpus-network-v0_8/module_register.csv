@@ -1,0 +1,31 @@
+module_id,module,candidate_supplier,duty,node,price_anchor_ids,sources,open_gate
+W01,SWRO core,OriginWater / Chinese EPC TBD,UF/RO water production,desal,CN01 CN02 CN05,S10 S11,Model-specific capacity and US installation unresolved
+W02,Pressure vessels and pumps,Chinese package TBD; Tangshan references,pressure-rated feed duty,desal/reuse,CN06 CN07 CN08,S1,No combined SWRO/wastewater pump scope assumed
+W03,Energy recovery,Harbin candidate; brand BOM verify,pressure exchange/energy recovery,desal,CN09 CN10,S1,Concentrate/feed/product basis and prices need sourcing
+W04,Modular polishing and AI,Jinke NewaterHouse/WateRobot,selective advanced treatment and operations,reuse,TBD,S12,Manufacturer capability; no lifecycle saving credited
+B01,Mainline biological modules,Chinese MBR/MBBR/activated-sludge supplier TBD,organic removal and targeted nutrient strategy,WWTP,TBD,S6 S7,Preserve existing treatment; do not assume replacement
+B02,Organic AD/co-digestion,Shanghai JADE candidate; quote TBD,biogas and digestate,organics/sludge,CN16 CN17 CN18 CN19 CN20,S17,Greenwood digester status; existing compost/gas competition
+B03,Biological phosphorus release,Chinese package TBD,concentrated reactive-P side stream,WWTP solids,TBD,S1,Source concentration and vessel duty unknown
+B04,Struvite crystallization,Domestic supplier TBD,chemical N/P/Mg recovery,sidestream,CN21 CN22,S1,Not a biological reactor; assumed feed only
+B05,Ammonia capture,Chinese supplier TBD,recover concentrated ammonium,sidestream,CN25 CN26,S1,Stripping package not storage/dosing; N form and fate matter
+B06,Algal/fungal bioreactors,Chinese research/supplier TBD,qualified organics and biomass polishing,bio research,TBD,S1,No food/feed approval; contamination and harvesting costs
+D01,Excavation and hazardous-item presort,Local labor; Chinese equipment candidate TBD,safe feed preparation,landfill,TBD,S9,Gas/liner/stability and hazardous handling
+D02,Mobile screening,Zhengzhou Desen DS260/DS15SE,size separation,landfill/solids,CNY2m generic listing,S13 S16,30-150 t/h current catalogue; conflicting older specs
+D03,Metals and material sorting,Chinese magnet/eddy/optical suppliers TBD,separate qualified material types,landfill,TBD,S1,Not proven included in screen; purity and capture need trial
+D04,Scrubbing,Desen DSLXC/01 or fixed system,wash selected fines/oily solids,landfill/industrial solids,TBD,S14 S15,Mobile15-30 t/h not full-line screen capacity
+D05,Multistage classification,Desen DSLXC/02,particle separation and slurry grading,solids,TBD,S14,Actual contaminant partition required
+D06,Solid-liquid separation,Desen DSLXC/03,dewater selected mud,solids,TBD,S14,Cake retains contaminants; final fate not cleared
+D07,Wash-water treatment,Desen DSLXC/04,treat and recycle washing water,solids water loop,TBD,S14,Not certified universal municipal or SWRO module
+D08,Fixed washing/remediation,Desen fixed washing family,integrated solids treatment alternative,solids,TBD,S15,"Alternative to mobile train, not duplicate additive package"
+D09,Oil/dredged/ditch/C&D applications,Desen family; feed-specific package,optional remediation branches,solids,TBD,S14 S15,Do not assume all sludge or soil is compatible
+D10,Combustible/polymer finishing,Chinese supplier TBD,fuel/polymer product qualification,landfill,TBD,S1,Corpus receiver absent; no H-POWER credit
+M01,Selective Mg/Ca/K/bromine products,Chinese chemical equipment TBD,finite-ion mineral recovery,desal/industrial,TBD,S10 S1,"Separate product purity, reagents and buyers"
+M02,Chloride extraction/conversion,Chinese BMED/chlor-alkali suppliers TBD,salt/acid/base and chlorine routes,desal/industry,TBD,S18,Competing finite allocations; internal Cl return
+M03,MVR/evaporation/crystallization,Chinese supplier TBD,residual concentration and salt separation,residual,CN11 CN12 CN13 CN14 CN15,S1,No linear-scaling price or heat-free electricity credit
+M04,Plasma/vitrification,Chinese supplier TBD; Xian study lead,compatible dewatered solid treatment,residual,TBD,S19,Experimental fly ash not brine; offgas/secondary salts
+M05,Construction finishing,Chinese process/supplier TBD,qualified Mg binder/aggregate/mortar,products,TBD,S23,"Codes, chloride, leaching, curing and finite uptake"
+M06,Trace and isotope research,Chinese research lead TBD,Li/B/Sr/Rb/Cs/I/U/deuterium,research,TBD,S1,Zero credited recovery; no commercial Corpus assumption
+P01,Microplastic/contaminant polishing,Chinese supplier TBD,specified filtration/media duty,water,TBD,S1,Captured contaminant fate and performance unresolved
+C01,Compute and cooling,Chinese hardware/system supplier TBD,100/500 MW IT comparison plus smaller inference option,compute,TBD,S22,No named chip availability or price assumed
+C02,Data and metering,Chinese instruments/control candidates TBD,exportable process data and human-reviewed analytics,all nodes,TBD,S12,"Local ownership, offline safety and legal review"
+E01,Energy/resilience,Chinese equipment candidates TBD; US connection,PV/storage/heat-pump/backup candidates,network,TBD,S22,No firm output or offgrid cost saving assumed

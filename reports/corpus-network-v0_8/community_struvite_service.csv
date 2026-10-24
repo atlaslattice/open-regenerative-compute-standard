@@ -1,0 +1,4 @@
+route,cash_revenue_basis,avoided_purchase_basis,subsidy_usd_y,qualified_t_y,gate
+Commercial sale,Collected sale receipts,Not also counted for same product,,,Buyer contract and accepted grade
+Local agricultural donation,0 unless actual farmer payment,Verified beneficiary purchase displacement; separate from project receipts,,,"Agronomy, demand, contamination, distribution and explicit funding"
+Internal nutrient/product use,0 for internally consumed mass,Independently verified reasonable avoided purchase,,,Finite Mg/P inventory; no simultaneous sale credit

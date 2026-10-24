@@ -1,0 +1,21 @@
+from_node,to_node,exchange,gate,exchange_type
+WWTP biology,nutrient sidecar,concentrated nutrient liquor,"assay, flow, current asset and permit",material
+desal Mg route,nutrient sidecar,qualified magnesium reagent,"purity, transport, competing allocation",material
+nutrient sidecar,existing reuse network,returned treated water,"contract quality, flow, pressure and losses",water
+existing reuse network,industry,committed fit-for-use water,baseline delivery; no new Atlas supply credit,water
+industry,industrial sidecar,selected blowdown/process water,"measured independent flow, ownership, chemistry",water
+industrial sidecar,industry,recovered water/reagents,"quality, cost and final residual fate",water/material
+landfill screening,Desen washing,selected fines,assay and bottleneck capacity,material
+Desen washing,Desen dewatering,concentrated slurry,contaminant distribution,material
+Desen dewatering,Desen water treatment,filtrate,closed washing loop and purge accounting,water
+Desen dewatering,residual treatment,cake,"classification, compatible treatment and final fate",material
+landfill sorting,local manufacturers,qualified metal/glass/plastic,actual buyer and net freight,material
+clean organics,bioreactors/compost,eligible organic feed,"competing existing use, pathogens and pollutants",material
+bioreactors,energy system,qualified biogas,"net energy, leakage, cleaning and baseline gas contracts",energy
+desal/industrial residuals,mineral routes,selected concentrate,finite water/ion inventory and reagents,material
+mineral routes,product users,qualified salts and reagents,"specs, market capacity, sales or avoided purchases",material
+residual treatment,approved final sink,remaining solids/liquid/offgas residue,no routine marine process release; receiver required,material
+compute,selected heat users,temperature-matched captured heat,"distance, duty profile, backup and incremental energy",energy
+water network,compute cooling,qualified makeup,water budget; evaporation and blowdown still counted,water
+all nodes,network data platform,metered operations and evidence,"local rights, cybersecurity and human review",data
+network,community/agriculture,qualified products and verified service,"baseline, attribution and health/environmental vetoes",outcome

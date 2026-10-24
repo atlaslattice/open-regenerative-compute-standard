@@ -1,0 +1,1073 @@
+{
+  "retrofit_water_scenarios": [
+    {
+      "feed_mgd": 8,
+      "ro_fraction": 0,
+      "ro_product_mgd": 0.0,
+      "qualified_direct_reuse_mgd": 8,
+      "combined_water_product_mgd": 8.0,
+      "membrane_reject_mgd": 0.0,
+      "qualification": "ASSUMED; direct-use chemistry and module losses unresolved",
+      "incremental_atlas_water_credit_mgd": null,
+      "installed_cost_usd": null
+    },
+    {
+      "feed_mgd": 8,
+      "ro_fraction": 0.5,
+      "ro_product_mgd": 3.6,
+      "qualified_direct_reuse_mgd": 4.0,
+      "combined_water_product_mgd": 7.6,
+      "membrane_reject_mgd": 0.3999999999999999,
+      "qualification": "ASSUMED; direct-use chemistry and module losses unresolved",
+      "incremental_atlas_water_credit_mgd": null,
+      "installed_cost_usd": null
+    },
+    {
+      "feed_mgd": 8,
+      "ro_fraction": 1,
+      "ro_product_mgd": 7.2,
+      "qualified_direct_reuse_mgd": 0,
+      "combined_water_product_mgd": 7.2,
+      "membrane_reject_mgd": 0.7999999999999998,
+      "qualification": "ASSUMED; direct-use chemistry and module losses unresolved",
+      "incremental_atlas_water_credit_mgd": null,
+      "installed_cost_usd": null
+    },
+    {
+      "feed_mgd": 16,
+      "ro_fraction": 0,
+      "ro_product_mgd": 0.0,
+      "qualified_direct_reuse_mgd": 16,
+      "combined_water_product_mgd": 16.0,
+      "membrane_reject_mgd": 0.0,
+      "qualification": "ASSUMED; direct-use chemistry and module losses unresolved",
+      "incremental_atlas_water_credit_mgd": null,
+      "installed_cost_usd": null
+    },
+    {
+      "feed_mgd": 16,
+      "ro_fraction": 0.5,
+      "ro_product_mgd": 7.2,
+      "qualified_direct_reuse_mgd": 8.0,
+      "combined_water_product_mgd": 15.2,
+      "membrane_reject_mgd": 0.7999999999999998,
+      "qualification": "ASSUMED; direct-use chemistry and module losses unresolved",
+      "incremental_atlas_water_credit_mgd": null,
+      "installed_cost_usd": null
+    },
+    {
+      "feed_mgd": 16,
+      "ro_fraction": 1,
+      "ro_product_mgd": 14.4,
+      "qualified_direct_reuse_mgd": 0,
+      "combined_water_product_mgd": 14.4,
+      "membrane_reject_mgd": 1.5999999999999996,
+      "qualification": "ASSUMED; direct-use chemistry and module losses unresolved",
+      "incremental_atlas_water_credit_mgd": null,
+      "installed_cost_usd": null
+    },
+    {
+      "feed_mgd": 28,
+      "ro_fraction": 0,
+      "ro_product_mgd": 0.0,
+      "qualified_direct_reuse_mgd": 28,
+      "combined_water_product_mgd": 28.0,
+      "membrane_reject_mgd": 0.0,
+      "qualification": "ASSUMED; direct-use chemistry and module losses unresolved",
+      "incremental_atlas_water_credit_mgd": null,
+      "installed_cost_usd": null
+    },
+    {
+      "feed_mgd": 28,
+      "ro_fraction": 0.5,
+      "ro_product_mgd": 12.6,
+      "qualified_direct_reuse_mgd": 14.0,
+      "combined_water_product_mgd": 26.6,
+      "membrane_reject_mgd": 1.3999999999999997,
+      "qualification": "ASSUMED; direct-use chemistry and module losses unresolved",
+      "incremental_atlas_water_credit_mgd": null,
+      "installed_cost_usd": null
+    },
+    {
+      "feed_mgd": 28,
+      "ro_fraction": 1,
+      "ro_product_mgd": 25.2,
+      "qualified_direct_reuse_mgd": 0,
+      "combined_water_product_mgd": 25.2,
+      "membrane_reject_mgd": 2.7999999999999994,
+      "qualification": "ASSUMED; direct-use chemistry and module losses unresolved",
+      "incremental_atlas_water_credit_mgd": null,
+      "installed_cost_usd": null
+    },
+    {
+      "feed_mgd": 30,
+      "ro_fraction": 0,
+      "ro_product_mgd": 0.0,
+      "qualified_direct_reuse_mgd": 30,
+      "combined_water_product_mgd": 30.0,
+      "membrane_reject_mgd": 0.0,
+      "qualification": "ASSUMED; direct-use chemistry and module losses unresolved",
+      "incremental_atlas_water_credit_mgd": null,
+      "installed_cost_usd": null
+    },
+    {
+      "feed_mgd": 30,
+      "ro_fraction": 0.5,
+      "ro_product_mgd": 13.5,
+      "qualified_direct_reuse_mgd": 15.0,
+      "combined_water_product_mgd": 28.5,
+      "membrane_reject_mgd": 1.4999999999999996,
+      "qualification": "ASSUMED; direct-use chemistry and module losses unresolved",
+      "incremental_atlas_water_credit_mgd": null,
+      "installed_cost_usd": null
+    },
+    {
+      "feed_mgd": 30,
+      "ro_fraction": 1,
+      "ro_product_mgd": 27.0,
+      "qualified_direct_reuse_mgd": 0,
+      "combined_water_product_mgd": 27.0,
+      "membrane_reject_mgd": 2.999999999999999,
+      "qualification": "ASSUMED; direct-use chemistry and module losses unresolved",
+      "incremental_atlas_water_credit_mgd": null,
+      "installed_cost_usd": null
+    }
+  ],
+  "desal_balance": [
+    {
+      "product_mgd": 30,
+      "product_m3_d_online": 113562.35352,
+      "intake_m3_d_online": 267205.53769411764,
+      "ro_feed_m3_d_online": 239078.6389894737,
+      "ro_reject_m3_d_online": 125516.28546947369,
+      "pretreatment_residual_m3_d_online": 28126.898704643943,
+      "combined_residual_m3_d_online": 153643.18417411763,
+      "feed_salt_t_d_online": 9352.193819294118,
+      "ro_feed_salt_t_d_online": 8367.752364631579,
+      "annual_water_m3": 37305233.13132,
+      "residual_fate": "UNRESOLVED; no routine marine process-liquid release",
+      "all_in_capital_usd": null
+    }
+  ],
+  "compute_energy_cost": [
+    {
+      "it_nameplate_mw": 0,
+      "average_it_mw": 0.0,
+      "pue": 1.15,
+      "peak_compute_site_mw": 0.0,
+      "average_compute_site_mw": 0.0,
+      "annual_compute_gwh": 0.0,
+      "assumed_tariff_usd_kwh": 0.05,
+      "compute_electricity_usd_y": 0.0,
+      "recoverable_low_grade_heat_mw_average": 0.0,
+      "compute_capex_usd": null,
+      "useful_compute_revenue_usd_y": null,
+      "net_environmental_credit": null
+    },
+    {
+      "it_nameplate_mw": 0,
+      "average_it_mw": 0.0,
+      "pue": 1.15,
+      "peak_compute_site_mw": 0.0,
+      "average_compute_site_mw": 0.0,
+      "annual_compute_gwh": 0.0,
+      "assumed_tariff_usd_kwh": 0.1,
+      "compute_electricity_usd_y": 0.0,
+      "recoverable_low_grade_heat_mw_average": 0.0,
+      "compute_capex_usd": null,
+      "useful_compute_revenue_usd_y": null,
+      "net_environmental_credit": null
+    },
+    {
+      "it_nameplate_mw": 0,
+      "average_it_mw": 0.0,
+      "pue": 1.15,
+      "peak_compute_site_mw": 0.0,
+      "average_compute_site_mw": 0.0,
+      "annual_compute_gwh": 0.0,
+      "assumed_tariff_usd_kwh": 0.15,
+      "compute_electricity_usd_y": 0.0,
+      "recoverable_low_grade_heat_mw_average": 0.0,
+      "compute_capex_usd": null,
+      "useful_compute_revenue_usd_y": null,
+      "net_environmental_credit": null
+    },
+    {
+      "it_nameplate_mw": 100,
+      "average_it_mw": 90.0,
+      "pue": 1.15,
+      "peak_compute_site_mw": 114.99999999999999,
+      "average_compute_site_mw": 103.49999999999999,
+      "annual_compute_gwh": 906.6599999999999,
+      "assumed_tariff_usd_kwh": 0.05,
+      "compute_electricity_usd_y": 45333000.0,
+      "recoverable_low_grade_heat_mw_average": 62.99999999999999,
+      "compute_capex_usd": null,
+      "useful_compute_revenue_usd_y": null,
+      "net_environmental_credit": null
+    },
+    {
+      "it_nameplate_mw": 100,
+      "average_it_mw": 90.0,
+      "pue": 1.15,
+      "peak_compute_site_mw": 114.99999999999999,
+      "average_compute_site_mw": 103.49999999999999,
+      "annual_compute_gwh": 906.6599999999999,
+      "assumed_tariff_usd_kwh": 0.1,
+      "compute_electricity_usd_y": 90666000.0,
+      "recoverable_low_grade_heat_mw_average": 62.99999999999999,
+      "compute_capex_usd": null,
+      "useful_compute_revenue_usd_y": null,
+      "net_environmental_credit": null
+    },
+    {
+      "it_nameplate_mw": 100,
+      "average_it_mw": 90.0,
+      "pue": 1.15,
+      "peak_compute_site_mw": 114.99999999999999,
+      "average_compute_site_mw": 103.49999999999999,
+      "annual_compute_gwh": 906.6599999999999,
+      "assumed_tariff_usd_kwh": 0.15,
+      "compute_electricity_usd_y": 135998999.99999997,
+      "recoverable_low_grade_heat_mw_average": 62.99999999999999,
+      "compute_capex_usd": null,
+      "useful_compute_revenue_usd_y": null,
+      "net_environmental_credit": null
+    },
+    {
+      "it_nameplate_mw": 500,
+      "average_it_mw": 450.0,
+      "pue": 1.15,
+      "peak_compute_site_mw": 575.0,
+      "average_compute_site_mw": 517.5,
+      "annual_compute_gwh": 4533.3,
+      "assumed_tariff_usd_kwh": 0.05,
+      "compute_electricity_usd_y": 226665000.0,
+      "recoverable_low_grade_heat_mw_average": 315.0,
+      "compute_capex_usd": null,
+      "useful_compute_revenue_usd_y": null,
+      "net_environmental_credit": null
+    },
+    {
+      "it_nameplate_mw": 500,
+      "average_it_mw": 450.0,
+      "pue": 1.15,
+      "peak_compute_site_mw": 575.0,
+      "average_compute_site_mw": 517.5,
+      "annual_compute_gwh": 4533.3,
+      "assumed_tariff_usd_kwh": 0.1,
+      "compute_electricity_usd_y": 453330000.0,
+      "recoverable_low_grade_heat_mw_average": 315.0,
+      "compute_capex_usd": null,
+      "useful_compute_revenue_usd_y": null,
+      "net_environmental_credit": null
+    },
+    {
+      "it_nameplate_mw": 500,
+      "average_it_mw": 450.0,
+      "pue": 1.15,
+      "peak_compute_site_mw": 575.0,
+      "average_compute_site_mw": 517.5,
+      "annual_compute_gwh": 4533.3,
+      "assumed_tariff_usd_kwh": 0.15,
+      "compute_electricity_usd_y": 679995000.0,
+      "recoverable_low_grade_heat_mw_average": 315.0,
+      "compute_capex_usd": null,
+      "useful_compute_revenue_usd_y": null,
+      "net_environmental_credit": null
+    },
+    {
+      "it_nameplate_mw": 1210,
+      "average_it_mw": 1089.0,
+      "pue": 1.15,
+      "peak_compute_site_mw": 1391.5,
+      "average_compute_site_mw": 1252.35,
+      "annual_compute_gwh": 10970.586,
+      "assumed_tariff_usd_kwh": 0.05,
+      "compute_electricity_usd_y": 548529300.0,
+      "recoverable_low_grade_heat_mw_average": 762.3,
+      "compute_capex_usd": null,
+      "useful_compute_revenue_usd_y": null,
+      "net_environmental_credit": null
+    },
+    {
+      "it_nameplate_mw": 1210,
+      "average_it_mw": 1089.0,
+      "pue": 1.15,
+      "peak_compute_site_mw": 1391.5,
+      "average_compute_site_mw": 1252.35,
+      "annual_compute_gwh": 10970.586,
+      "assumed_tariff_usd_kwh": 0.1,
+      "compute_electricity_usd_y": 1097058600.0,
+      "recoverable_low_grade_heat_mw_average": 762.3,
+      "compute_capex_usd": null,
+      "useful_compute_revenue_usd_y": null,
+      "net_environmental_credit": null
+    },
+    {
+      "it_nameplate_mw": 1210,
+      "average_it_mw": 1089.0,
+      "pue": 1.15,
+      "peak_compute_site_mw": 1391.5,
+      "average_compute_site_mw": 1252.35,
+      "annual_compute_gwh": 10970.586,
+      "assumed_tariff_usd_kwh": 0.15,
+      "compute_electricity_usd_y": 1645587900.0,
+      "recoverable_low_grade_heat_mw_average": 762.3,
+      "compute_capex_usd": null,
+      "useful_compute_revenue_usd_y": null,
+      "net_environmental_credit": null
+    }
+  ],
+  "cooling_water_envelope": [
+    {
+      "it_nameplate_mw": 0,
+      "assumed_consumptive_wue_l_it_kwh": 0,
+      "cycles_of_concentration": 3,
+      "cooling_consumption_mgd": 0.0,
+      "blowdown_mgd": 0.0,
+      "makeup_with_blowdown_mgd": 0.0,
+      "boundary": "Analyst evaporative envelope; drift and domestic uses excluded; WUE0 is dry-heat-rejection case"
+    },
+    {
+      "it_nameplate_mw": 0,
+      "assumed_consumptive_wue_l_it_kwh": 0,
+      "cycles_of_concentration": 5,
+      "cooling_consumption_mgd": 0.0,
+      "blowdown_mgd": 0.0,
+      "makeup_with_blowdown_mgd": 0.0,
+      "boundary": "Analyst evaporative envelope; drift and domestic uses excluded; WUE0 is dry-heat-rejection case"
+    },
+    {
+      "it_nameplate_mw": 0,
+      "assumed_consumptive_wue_l_it_kwh": 0.2,
+      "cycles_of_concentration": 3,
+      "cooling_consumption_mgd": 0.0,
+      "blowdown_mgd": 0.0,
+      "makeup_with_blowdown_mgd": 0.0,
+      "boundary": "Analyst evaporative envelope; drift and domestic uses excluded; WUE0 is dry-heat-rejection case"
+    },
+    {
+      "it_nameplate_mw": 0,
+      "assumed_consumptive_wue_l_it_kwh": 0.2,
+      "cycles_of_concentration": 5,
+      "cooling_consumption_mgd": 0.0,
+      "blowdown_mgd": 0.0,
+      "makeup_with_blowdown_mgd": 0.0,
+      "boundary": "Analyst evaporative envelope; drift and domestic uses excluded; WUE0 is dry-heat-rejection case"
+    },
+    {
+      "it_nameplate_mw": 0,
+      "assumed_consumptive_wue_l_it_kwh": 1,
+      "cycles_of_concentration": 3,
+      "cooling_consumption_mgd": 0.0,
+      "blowdown_mgd": 0.0,
+      "makeup_with_blowdown_mgd": 0.0,
+      "boundary": "Analyst evaporative envelope; drift and domestic uses excluded; WUE0 is dry-heat-rejection case"
+    },
+    {
+      "it_nameplate_mw": 0,
+      "assumed_consumptive_wue_l_it_kwh": 1,
+      "cycles_of_concentration": 5,
+      "cooling_consumption_mgd": 0.0,
+      "blowdown_mgd": 0.0,
+      "makeup_with_blowdown_mgd": 0.0,
+      "boundary": "Analyst evaporative envelope; drift and domestic uses excluded; WUE0 is dry-heat-rejection case"
+    },
+    {
+      "it_nameplate_mw": 0,
+      "assumed_consumptive_wue_l_it_kwh": 1.8,
+      "cycles_of_concentration": 3,
+      "cooling_consumption_mgd": 0.0,
+      "blowdown_mgd": 0.0,
+      "makeup_with_blowdown_mgd": 0.0,
+      "boundary": "Analyst evaporative envelope; drift and domestic uses excluded; WUE0 is dry-heat-rejection case"
+    },
+    {
+      "it_nameplate_mw": 0,
+      "assumed_consumptive_wue_l_it_kwh": 1.8,
+      "cycles_of_concentration": 5,
+      "cooling_consumption_mgd": 0.0,
+      "blowdown_mgd": 0.0,
+      "makeup_with_blowdown_mgd": 0.0,
+      "boundary": "Analyst evaporative envelope; drift and domestic uses excluded; WUE0 is dry-heat-rejection case"
+    },
+    {
+      "it_nameplate_mw": 100,
+      "assumed_consumptive_wue_l_it_kwh": 0,
+      "cycles_of_concentration": 3,
+      "cooling_consumption_mgd": 0.0,
+      "blowdown_mgd": 0.0,
+      "makeup_with_blowdown_mgd": 0.0,
+      "boundary": "Analyst evaporative envelope; drift and domestic uses excluded; WUE0 is dry-heat-rejection case"
+    },
+    {
+      "it_nameplate_mw": 100,
+      "assumed_consumptive_wue_l_it_kwh": 0,
+      "cycles_of_concentration": 5,
+      "cooling_consumption_mgd": 0.0,
+      "blowdown_mgd": 0.0,
+      "makeup_with_blowdown_mgd": 0.0,
+      "boundary": "Analyst evaporative envelope; drift and domestic uses excluded; WUE0 is dry-heat-rejection case"
+    },
+    {
+      "it_nameplate_mw": 100,
+      "assumed_consumptive_wue_l_it_kwh": 0.2,
+      "cycles_of_concentration": 3,
+      "cooling_consumption_mgd": 0.1141223266187201,
+      "blowdown_mgd": 0.05706116330936005,
+      "makeup_with_blowdown_mgd": 0.17118348992808016,
+      "boundary": "Analyst evaporative envelope; drift and domestic uses excluded; WUE0 is dry-heat-rejection case"
+    },
+    {
+      "it_nameplate_mw": 100,
+      "assumed_consumptive_wue_l_it_kwh": 0.2,
+      "cycles_of_concentration": 5,
+      "cooling_consumption_mgd": 0.1141223266187201,
+      "blowdown_mgd": 0.028530581654680025,
+      "makeup_with_blowdown_mgd": 0.14265290827340013,
+      "boundary": "Analyst evaporative envelope; drift and domestic uses excluded; WUE0 is dry-heat-rejection case"
+    },
+    {
+      "it_nameplate_mw": 100,
+      "assumed_consumptive_wue_l_it_kwh": 1,
+      "cycles_of_concentration": 3,
+      "cooling_consumption_mgd": 0.5706116330936005,
+      "blowdown_mgd": 0.28530581654680026,
+      "makeup_with_blowdown_mgd": 0.8559174496404008,
+      "boundary": "Analyst evaporative envelope; drift and domestic uses excluded; WUE0 is dry-heat-rejection case"
+    },
+    {
+      "it_nameplate_mw": 100,
+      "assumed_consumptive_wue_l_it_kwh": 1,
+      "cycles_of_concentration": 5,
+      "cooling_consumption_mgd": 0.5706116330936005,
+      "blowdown_mgd": 0.14265290827340013,
+      "makeup_with_blowdown_mgd": 0.7132645413670007,
+      "boundary": "Analyst evaporative envelope; drift and domestic uses excluded; WUE0 is dry-heat-rejection case"
+    },
+    {
+      "it_nameplate_mw": 100,
+      "assumed_consumptive_wue_l_it_kwh": 1.8,
+      "cycles_of_concentration": 3,
+      "cooling_consumption_mgd": 1.027100939568481,
+      "blowdown_mgd": 0.5135504697842405,
+      "makeup_with_blowdown_mgd": 1.5406514093527215,
+      "boundary": "Analyst evaporative envelope; drift and domestic uses excluded; WUE0 is dry-heat-rejection case"
+    },
+    {
+      "it_nameplate_mw": 100,
+      "assumed_consumptive_wue_l_it_kwh": 1.8,
+      "cycles_of_concentration": 5,
+      "cooling_consumption_mgd": 1.027100939568481,
+      "blowdown_mgd": 0.25677523489212023,
+      "makeup_with_blowdown_mgd": 1.283876174460601,
+      "boundary": "Analyst evaporative envelope; drift and domestic uses excluded; WUE0 is dry-heat-rejection case"
+    },
+    {
+      "it_nameplate_mw": 500,
+      "assumed_consumptive_wue_l_it_kwh": 0,
+      "cycles_of_concentration": 3,
+      "cooling_consumption_mgd": 0.0,
+      "blowdown_mgd": 0.0,
+      "makeup_with_blowdown_mgd": 0.0,
+      "boundary": "Analyst evaporative envelope; drift and domestic uses excluded; WUE0 is dry-heat-rejection case"
+    },
+    {
+      "it_nameplate_mw": 500,
+      "assumed_consumptive_wue_l_it_kwh": 0,
+      "cycles_of_concentration": 5,
+      "cooling_consumption_mgd": 0.0,
+      "blowdown_mgd": 0.0,
+      "makeup_with_blowdown_mgd": 0.0,
+      "boundary": "Analyst evaporative envelope; drift and domestic uses excluded; WUE0 is dry-heat-rejection case"
+    },
+    {
+      "it_nameplate_mw": 500,
+      "assumed_consumptive_wue_l_it_kwh": 0.2,
+      "cycles_of_concentration": 3,
+      "cooling_consumption_mgd": 0.5706116330936005,
+      "blowdown_mgd": 0.28530581654680026,
+      "makeup_with_blowdown_mgd": 0.8559174496404008,
+      "boundary": "Analyst evaporative envelope; drift and domestic uses excluded; WUE0 is dry-heat-rejection case"
+    },
+    {
+      "it_nameplate_mw": 500,
+      "assumed_consumptive_wue_l_it_kwh": 0.2,
+      "cycles_of_concentration": 5,
+      "cooling_consumption_mgd": 0.5706116330936005,
+      "blowdown_mgd": 0.14265290827340013,
+      "makeup_with_blowdown_mgd": 0.7132645413670007,
+      "boundary": "Analyst evaporative envelope; drift and domestic uses excluded; WUE0 is dry-heat-rejection case"
+    },
+    {
+      "it_nameplate_mw": 500,
+      "assumed_consumptive_wue_l_it_kwh": 1,
+      "cycles_of_concentration": 3,
+      "cooling_consumption_mgd": 2.8530581654680027,
+      "blowdown_mgd": 1.4265290827340014,
+      "makeup_with_blowdown_mgd": 4.279587248202004,
+      "boundary": "Analyst evaporative envelope; drift and domestic uses excluded; WUE0 is dry-heat-rejection case"
+    },
+    {
+      "it_nameplate_mw": 500,
+      "assumed_consumptive_wue_l_it_kwh": 1,
+      "cycles_of_concentration": 5,
+      "cooling_consumption_mgd": 2.8530581654680027,
+      "blowdown_mgd": 0.7132645413670007,
+      "makeup_with_blowdown_mgd": 3.5663227068350034,
+      "boundary": "Analyst evaporative envelope; drift and domestic uses excluded; WUE0 is dry-heat-rejection case"
+    },
+    {
+      "it_nameplate_mw": 500,
+      "assumed_consumptive_wue_l_it_kwh": 1.8,
+      "cycles_of_concentration": 3,
+      "cooling_consumption_mgd": 5.135504697842404,
+      "blowdown_mgd": 2.567752348921202,
+      "makeup_with_blowdown_mgd": 7.703257046763607,
+      "boundary": "Analyst evaporative envelope; drift and domestic uses excluded; WUE0 is dry-heat-rejection case"
+    },
+    {
+      "it_nameplate_mw": 500,
+      "assumed_consumptive_wue_l_it_kwh": 1.8,
+      "cycles_of_concentration": 5,
+      "cooling_consumption_mgd": 5.135504697842404,
+      "blowdown_mgd": 1.283876174460601,
+      "makeup_with_blowdown_mgd": 6.419380872303006,
+      "boundary": "Analyst evaporative envelope; drift and domestic uses excluded; WUE0 is dry-heat-rejection case"
+    },
+    {
+      "it_nameplate_mw": 1210,
+      "assumed_consumptive_wue_l_it_kwh": 0,
+      "cycles_of_concentration": 3,
+      "cooling_consumption_mgd": 0.0,
+      "blowdown_mgd": 0.0,
+      "makeup_with_blowdown_mgd": 0.0,
+      "boundary": "Analyst evaporative envelope; drift and domestic uses excluded; WUE0 is dry-heat-rejection case"
+    },
+    {
+      "it_nameplate_mw": 1210,
+      "assumed_consumptive_wue_l_it_kwh": 0,
+      "cycles_of_concentration": 5,
+      "cooling_consumption_mgd": 0.0,
+      "blowdown_mgd": 0.0,
+      "makeup_with_blowdown_mgd": 0.0,
+      "boundary": "Analyst evaporative envelope; drift and domestic uses excluded; WUE0 is dry-heat-rejection case"
+    },
+    {
+      "it_nameplate_mw": 1210,
+      "assumed_consumptive_wue_l_it_kwh": 0.2,
+      "cycles_of_concentration": 3,
+      "cooling_consumption_mgd": 1.3808801520865133,
+      "blowdown_mgd": 0.6904400760432566,
+      "makeup_with_blowdown_mgd": 2.07132022812977,
+      "boundary": "Analyst evaporative envelope; drift and domestic uses excluded; WUE0 is dry-heat-rejection case"
+    },
+    {
+      "it_nameplate_mw": 1210,
+      "assumed_consumptive_wue_l_it_kwh": 0.2,
+      "cycles_of_concentration": 5,
+      "cooling_consumption_mgd": 1.3808801520865133,
+      "blowdown_mgd": 0.3452200380216283,
+      "makeup_with_blowdown_mgd": 1.7261001901081416,
+      "boundary": "Analyst evaporative envelope; drift and domestic uses excluded; WUE0 is dry-heat-rejection case"
+    },
+    {
+      "it_nameplate_mw": 1210,
+      "assumed_consumptive_wue_l_it_kwh": 1,
+      "cycles_of_concentration": 3,
+      "cooling_consumption_mgd": 6.904400760432567,
+      "blowdown_mgd": 3.4522003802162833,
+      "makeup_with_blowdown_mgd": 10.35660114064885,
+      "boundary": "Analyst evaporative envelope; drift and domestic uses excluded; WUE0 is dry-heat-rejection case"
+    },
+    {
+      "it_nameplate_mw": 1210,
+      "assumed_consumptive_wue_l_it_kwh": 1,
+      "cycles_of_concentration": 5,
+      "cooling_consumption_mgd": 6.904400760432567,
+      "blowdown_mgd": 1.7261001901081416,
+      "makeup_with_blowdown_mgd": 8.630500950540707,
+      "boundary": "Analyst evaporative envelope; drift and domestic uses excluded; WUE0 is dry-heat-rejection case"
+    },
+    {
+      "it_nameplate_mw": 1210,
+      "assumed_consumptive_wue_l_it_kwh": 1.8,
+      "cycles_of_concentration": 3,
+      "cooling_consumption_mgd": 12.42792136877862,
+      "blowdown_mgd": 6.21396068438931,
+      "makeup_with_blowdown_mgd": 18.641882053167933,
+      "boundary": "Analyst evaporative envelope; drift and domestic uses excluded; WUE0 is dry-heat-rejection case"
+    },
+    {
+      "it_nameplate_mw": 1210,
+      "assumed_consumptive_wue_l_it_kwh": 1.8,
+      "cycles_of_concentration": 5,
+      "cooling_consumption_mgd": 12.42792136877862,
+      "blowdown_mgd": 3.106980342194655,
+      "makeup_with_blowdown_mgd": 15.534901710973275,
+      "boundary": "Analyst evaporative envelope; drift and domestic uses excluded; WUE0 is dry-heat-rejection case"
+    }
+  ],
+  "heat_matching": [
+    {
+      "it_nameplate_mw": 0,
+      "source_temperature_c": 45,
+      "exchanger_approach_c": 5,
+      "max_sink_supply_temperature_c": 40,
+      "captured_heat_mw_average": 0.0,
+      "ideal_single_effect_latent_equivalent_m3_d": 0.0,
+      "ideal_latent_equivalent_fraction_of_avg_desal_residual": 0.0,
+      "basis": "Energy-only ceiling for stated duty, not predicted evaporation; no MVR electricity saving credited",
+      "mvr_electricity_saving_kwh": null
+    },
+    {
+      "it_nameplate_mw": 0,
+      "source_temperature_c": 60,
+      "exchanger_approach_c": 5,
+      "max_sink_supply_temperature_c": 55,
+      "captured_heat_mw_average": 0.0,
+      "ideal_single_effect_latent_equivalent_m3_d": 0.0,
+      "ideal_latent_equivalent_fraction_of_avg_desal_residual": 0.0,
+      "basis": "Energy-only ceiling for stated duty, not predicted evaporation; no MVR electricity saving credited",
+      "mvr_electricity_saving_kwh": null
+    },
+    {
+      "it_nameplate_mw": 100,
+      "source_temperature_c": 45,
+      "exchanger_approach_c": 5,
+      "max_sink_supply_temperature_c": 40,
+      "captured_heat_mw_average": 62.99999999999999,
+      "ideal_single_effect_latent_equivalent_m3_d": 2399.9999999999995,
+      "ideal_latent_equivalent_fraction_of_avg_desal_residual": 0.017356231459279316,
+      "basis": "Energy-only ceiling for stated duty, not predicted evaporation; no MVR electricity saving credited",
+      "mvr_electricity_saving_kwh": null
+    },
+    {
+      "it_nameplate_mw": 100,
+      "source_temperature_c": 60,
+      "exchanger_approach_c": 5,
+      "max_sink_supply_temperature_c": 55,
+      "captured_heat_mw_average": 62.99999999999999,
+      "ideal_single_effect_latent_equivalent_m3_d": 2399.9999999999995,
+      "ideal_latent_equivalent_fraction_of_avg_desal_residual": 0.017356231459279316,
+      "basis": "Energy-only ceiling for stated duty, not predicted evaporation; no MVR electricity saving credited",
+      "mvr_electricity_saving_kwh": null
+    },
+    {
+      "it_nameplate_mw": 500,
+      "source_temperature_c": 45,
+      "exchanger_approach_c": 5,
+      "max_sink_supply_temperature_c": 40,
+      "captured_heat_mw_average": 315.0,
+      "ideal_single_effect_latent_equivalent_m3_d": 12000.0,
+      "ideal_latent_equivalent_fraction_of_avg_desal_residual": 0.08678115729639659,
+      "basis": "Energy-only ceiling for stated duty, not predicted evaporation; no MVR electricity saving credited",
+      "mvr_electricity_saving_kwh": null
+    },
+    {
+      "it_nameplate_mw": 500,
+      "source_temperature_c": 60,
+      "exchanger_approach_c": 5,
+      "max_sink_supply_temperature_c": 55,
+      "captured_heat_mw_average": 315.0,
+      "ideal_single_effect_latent_equivalent_m3_d": 12000.0,
+      "ideal_latent_equivalent_fraction_of_avg_desal_residual": 0.08678115729639659,
+      "basis": "Energy-only ceiling for stated duty, not predicted evaporation; no MVR electricity saving credited",
+      "mvr_electricity_saving_kwh": null
+    },
+    {
+      "it_nameplate_mw": 1210,
+      "source_temperature_c": 45,
+      "exchanger_approach_c": 5,
+      "max_sink_supply_temperature_c": 40,
+      "captured_heat_mw_average": 762.3,
+      "ideal_single_effect_latent_equivalent_m3_d": 29040.0,
+      "ideal_latent_equivalent_fraction_of_avg_desal_residual": 0.21001040065727974,
+      "basis": "Energy-only ceiling for stated duty, not predicted evaporation; no MVR electricity saving credited",
+      "mvr_electricity_saving_kwh": null
+    },
+    {
+      "it_nameplate_mw": 1210,
+      "source_temperature_c": 60,
+      "exchanger_approach_c": 5,
+      "max_sink_supply_temperature_c": 55,
+      "captured_heat_mw_average": 762.3,
+      "ideal_single_effect_latent_equivalent_m3_d": 29040.0,
+      "ideal_latent_equivalent_fraction_of_avg_desal_residual": 0.21001040065727974,
+      "basis": "Energy-only ceiling for stated duty, not predicted evaporation; no MVR electricity saving credited",
+      "mvr_electricity_saving_kwh": null
+    }
+  ],
+  "heat_pump_sensitivity": [
+    {
+      "it_nameplate_mw": 0,
+      "assumed_heating_cop": 3,
+      "source_heat_mw": 0.0,
+      "added_compressor_electricity_mw": 0.0,
+      "delivered_heat_mw": 0.0,
+      "status": "Algebraic sensitivity only; COP depends on lift and actual machine; not MVR saving"
+    },
+    {
+      "it_nameplate_mw": 0,
+      "assumed_heating_cop": 5,
+      "source_heat_mw": 0.0,
+      "added_compressor_electricity_mw": 0.0,
+      "delivered_heat_mw": 0.0,
+      "status": "Algebraic sensitivity only; COP depends on lift and actual machine; not MVR saving"
+    },
+    {
+      "it_nameplate_mw": 100,
+      "assumed_heating_cop": 3,
+      "source_heat_mw": 62.99999999999999,
+      "added_compressor_electricity_mw": 31.499999999999996,
+      "delivered_heat_mw": 94.49999999999999,
+      "status": "Algebraic sensitivity only; COP depends on lift and actual machine; not MVR saving"
+    },
+    {
+      "it_nameplate_mw": 100,
+      "assumed_heating_cop": 5,
+      "source_heat_mw": 62.99999999999999,
+      "added_compressor_electricity_mw": 15.749999999999998,
+      "delivered_heat_mw": 78.74999999999999,
+      "status": "Algebraic sensitivity only; COP depends on lift and actual machine; not MVR saving"
+    },
+    {
+      "it_nameplate_mw": 500,
+      "assumed_heating_cop": 3,
+      "source_heat_mw": 315.0,
+      "added_compressor_electricity_mw": 157.5,
+      "delivered_heat_mw": 472.5,
+      "status": "Algebraic sensitivity only; COP depends on lift and actual machine; not MVR saving"
+    },
+    {
+      "it_nameplate_mw": 500,
+      "assumed_heating_cop": 5,
+      "source_heat_mw": 315.0,
+      "added_compressor_electricity_mw": 78.75,
+      "delivered_heat_mw": 393.75,
+      "status": "Algebraic sensitivity only; COP depends on lift and actual machine; not MVR saving"
+    },
+    {
+      "it_nameplate_mw": 1210,
+      "assumed_heating_cop": 3,
+      "source_heat_mw": 762.3,
+      "added_compressor_electricity_mw": 381.15,
+      "delivered_heat_mw": 1143.4499999999998,
+      "status": "Algebraic sensitivity only; COP depends on lift and actual machine; not MVR saving"
+    },
+    {
+      "it_nameplate_mw": 1210,
+      "assumed_heating_cop": 5,
+      "source_heat_mw": 762.3,
+      "added_compressor_electricity_mw": 190.575,
+      "delivered_heat_mw": 952.875,
+      "status": "Algebraic sensitivity only; COP depends on lift and actual machine; not MVR saving"
+    }
+  ],
+  "desal_energy": [
+    {
+      "sec_kwh_m3": 2.2,
+      "annual_gwh": 82.07151288890401,
+      "average_mw": 9.3688941654,
+      "annual_electricity_usd_at_010": 8207151.288890401,
+      "scope": "Water-production boundary only; not mineral recovery, residual closure or conveyance"
+    },
+    {
+      "sec_kwh_m3": 3,
+      "annual_gwh": 111.91569939396,
+      "average_mw": 12.775764770999999,
+      "annual_electricity_usd_at_010": 11191569.939396001,
+      "scope": "Water-production boundary only; not mineral recovery, residual closure or conveyance"
+    },
+    {
+      "sec_kwh_m3": 3.52,
+      "annual_gwh": 131.3144206222464,
+      "average_mw": 14.99023066464,
+      "annual_electricity_usd_at_010": 13131442.062224641,
+      "scope": "Water-production boundary only; not mineral recovery, residual closure or conveyance"
+    },
+    {
+      "sec_kwh_m3": 4.32,
+      "annual_gwh": 161.15860712730242,
+      "average_mw": 18.39710127024,
+      "annual_electricity_usd_at_010": 16115860.712730242,
+      "scope": "Water-production boundary only; not mineral recovery, residual closure or conveyance"
+    }
+  ],
+  "nutrient_sidecar_scenarios": [
+    {
+      "side_stream_m3_d": 100,
+      "assumed_reactive_p_mg_l": 35,
+      "assumed_ammonium_n_mg_l": 100,
+      "recovered_p_kg_d": 2.975,
+      "pure_struvite_kg_d": 23.571009876036367,
+      "magnesium_required_kg_d": 2.3344718345805076,
+      "gross_product_value_low_usd_d": 9.103286572814044,
+      "gross_product_value_high_usd_d": 11.379108216017556,
+      "status": "ASSUMED FEED and NEEDS SOURCING URLS product prices; not Greenwood yield",
+      "net_margin_usd": null,
+      "actual_side_stream_flow_m3_d": null
+    },
+    {
+      "side_stream_m3_d": 200,
+      "assumed_reactive_p_mg_l": 35,
+      "assumed_ammonium_n_mg_l": 100,
+      "recovered_p_kg_d": 5.95,
+      "pure_struvite_kg_d": 47.142019752072734,
+      "magnesium_required_kg_d": 4.668943669161015,
+      "gross_product_value_low_usd_d": 18.206573145628088,
+      "gross_product_value_high_usd_d": 22.758216432035113,
+      "status": "ASSUMED FEED and NEEDS SOURCING URLS product prices; not Greenwood yield",
+      "net_margin_usd": null,
+      "actual_side_stream_flow_m3_d": null
+    },
+    {
+      "side_stream_m3_d": 500,
+      "assumed_reactive_p_mg_l": 35,
+      "assumed_ammonium_n_mg_l": 100,
+      "recovered_p_kg_d": 14.875,
+      "pure_struvite_kg_d": 117.85504938018185,
+      "magnesium_required_kg_d": 11.672359172902537,
+      "gross_product_value_low_usd_d": 45.51643286407023,
+      "gross_product_value_high_usd_d": 56.89554108008779,
+      "status": "ASSUMED FEED and NEEDS SOURCING URLS product prices; not Greenwood yield",
+      "net_margin_usd": null,
+      "actual_side_stream_flow_m3_d": null
+    }
+  ],
+  "mineral_inventory": [
+    {
+      "species": "Na",
+      "feed_concentration_mg_l": 10500,
+      "ro_feed_inventory_t_d_online": 2510.325709389474,
+      "basis": "Representative assumed feed; not assay, recovery or product",
+      "actual_qualified_product_t_d": null,
+      "actual_net_revenue_usd_y": 0
+    },
+    {
+      "species": "Cl",
+      "feed_concentration_mg_l": 19000,
+      "ro_feed_inventory_t_d_online": 4542.4941408,
+      "basis": "Representative assumed feed; not assay, recovery or product",
+      "actual_qualified_product_t_d": null,
+      "actual_net_revenue_usd_y": 0
+    },
+    {
+      "species": "Mg",
+      "feed_concentration_mg_l": 1350,
+      "ro_feed_inventory_t_d_online": 322.7561626357895,
+      "basis": "Representative assumed feed; not assay, recovery or product",
+      "actual_qualified_product_t_d": null,
+      "actual_net_revenue_usd_y": 0
+    },
+    {
+      "species": "Ca",
+      "feed_concentration_mg_l": 410,
+      "ro_feed_inventory_t_d_online": 98.02224198568422,
+      "basis": "Representative assumed feed; not assay, recovery or product",
+      "actual_qualified_product_t_d": null,
+      "actual_net_revenue_usd_y": 0
+    },
+    {
+      "species": "SO4",
+      "feed_concentration_mg_l": 2700,
+      "ro_feed_inventory_t_d_online": 645.512325271579,
+      "basis": "Representative assumed feed; not assay, recovery or product",
+      "actual_qualified_product_t_d": null,
+      "actual_net_revenue_usd_y": 0
+    },
+    {
+      "species": "K",
+      "feed_concentration_mg_l": 390,
+      "ro_feed_inventory_t_d_online": 93.24066920589473,
+      "basis": "Representative assumed feed; not assay, recovery or product",
+      "actual_qualified_product_t_d": null,
+      "actual_net_revenue_usd_y": 0
+    },
+    {
+      "species": "Br",
+      "feed_concentration_mg_l": 67,
+      "ro_feed_inventory_t_d_online": 16.018268812294735,
+      "basis": "Representative assumed feed; not assay, recovery or product",
+      "actual_qualified_product_t_d": null,
+      "actual_net_revenue_usd_y": 0
+    },
+    {
+      "species": "B",
+      "feed_concentration_mg_l": 4.6,
+      "ro_feed_inventory_t_d_online": 1.099761739351579,
+      "basis": "Representative assumed feed; not assay, recovery or product",
+      "actual_qualified_product_t_d": null,
+      "actual_net_revenue_usd_y": 0
+    },
+    {
+      "species": "Sr",
+      "feed_concentration_mg_l": 8,
+      "ro_feed_inventory_t_d_online": 1.9126291119157894,
+      "basis": "Representative assumed feed; not assay, recovery or product",
+      "actual_qualified_product_t_d": null,
+      "actual_net_revenue_usd_y": 0
+    },
+    {
+      "species": "Li",
+      "feed_concentration_mg_l": 0.18,
+      "ro_feed_inventory_t_d_online": 0.043034155018105265,
+      "basis": "Representative assumed feed; not assay, recovery or product",
+      "actual_qualified_product_t_d": null,
+      "actual_net_revenue_usd_y": 0
+    }
+  ],
+  "landfill_campaigns": [
+    {
+      "screen_nominal_t_h": 50,
+      "campaign_day_feed_metric_t": 320.0,
+      "campaign_days_y": 300,
+      "annual_feed_metric_t": 96000.0,
+      "complete_line_sustained_t_h": null,
+      "net_landfill_airspace_recovered_m3": null,
+      "mineral_qualified_output_t": null,
+      "installed_cost_usd": null,
+      "status": "Screen-only planning sensitivity; neither guaranteed complete-line rate nor net diversion"
+    },
+    {
+      "screen_nominal_t_h": 200,
+      "campaign_day_feed_metric_t": 1280.0,
+      "campaign_days_y": 300,
+      "annual_feed_metric_t": 384000.0,
+      "complete_line_sustained_t_h": null,
+      "net_landfill_airspace_recovered_m3": null,
+      "mineral_qualified_output_t": null,
+      "installed_cost_usd": null,
+      "status": "Screen-only planning sensitivity; neither guaranteed complete-line rate nor net diversion"
+    }
+  ],
+  "landfill_stream_envelopes": [
+    {
+      "screen_nominal_t_h": 50,
+      "feed_fraction": 0.5,
+      "stream": "soil_fines",
+      "stream_metric_t_campaign_day": 160.0,
+      "qualified_recovered_product_t_d": null,
+      "final_disposal_t_d": null,
+      "status": "Hypothetical composition, not Corpus assay; no assumed diversion fraction"
+    },
+    {
+      "screen_nominal_t_h": 50,
+      "feed_fraction": 0.2,
+      "stream": "combustibles",
+      "stream_metric_t_campaign_day": 64.0,
+      "qualified_recovered_product_t_d": null,
+      "final_disposal_t_d": null,
+      "status": "Hypothetical composition, not Corpus assay; no assumed diversion fraction"
+    },
+    {
+      "screen_nominal_t_h": 50,
+      "feed_fraction": 0.1,
+      "stream": "mineral_aggregate",
+      "stream_metric_t_campaign_day": 32.0,
+      "qualified_recovered_product_t_d": null,
+      "final_disposal_t_d": null,
+      "status": "Hypothetical composition, not Corpus assay; no assumed diversion fraction"
+    },
+    {
+      "screen_nominal_t_h": 50,
+      "feed_fraction": 0.05,
+      "stream": "ferrous",
+      "stream_metric_t_campaign_day": 16.0,
+      "qualified_recovered_product_t_d": null,
+      "final_disposal_t_d": null,
+      "status": "Hypothetical composition, not Corpus assay; no assumed diversion fraction"
+    },
+    {
+      "screen_nominal_t_h": 50,
+      "feed_fraction": 0.01,
+      "stream": "nonferrous",
+      "stream_metric_t_campaign_day": 3.2,
+      "qualified_recovered_product_t_d": null,
+      "final_disposal_t_d": null,
+      "status": "Hypothetical composition, not Corpus assay; no assumed diversion fraction"
+    },
+    {
+      "screen_nominal_t_h": 50,
+      "feed_fraction": 0.04,
+      "stream": "glass",
+      "stream_metric_t_campaign_day": 12.8,
+      "qualified_recovered_product_t_d": null,
+      "final_disposal_t_d": null,
+      "status": "Hypothetical composition, not Corpus assay; no assumed diversion fraction"
+    },
+    {
+      "screen_nominal_t_h": 50,
+      "feed_fraction": 0.1,
+      "stream": "other",
+      "stream_metric_t_campaign_day": 32.0,
+      "qualified_recovered_product_t_d": null,
+      "final_disposal_t_d": null,
+      "status": "Hypothetical composition, not Corpus assay; no assumed diversion fraction"
+    },
+    {
+      "screen_nominal_t_h": 200,
+      "feed_fraction": 0.5,
+      "stream": "soil_fines",
+      "stream_metric_t_campaign_day": 640.0,
+      "qualified_recovered_product_t_d": null,
+      "final_disposal_t_d": null,
+      "status": "Hypothetical composition, not Corpus assay; no assumed diversion fraction"
+    },
+    {
+      "screen_nominal_t_h": 200,
+      "feed_fraction": 0.2,
+      "stream": "combustibles",
+      "stream_metric_t_campaign_day": 256.0,
+      "qualified_recovered_product_t_d": null,
+      "final_disposal_t_d": null,
+      "status": "Hypothetical composition, not Corpus assay; no assumed diversion fraction"
+    },
+    {
+      "screen_nominal_t_h": 200,
+      "feed_fraction": 0.1,
+      "stream": "mineral_aggregate",
+      "stream_metric_t_campaign_day": 128.0,
+      "qualified_recovered_product_t_d": null,
+      "final_disposal_t_d": null,
+      "status": "Hypothetical composition, not Corpus assay; no assumed diversion fraction"
+    },
+    {
+      "screen_nominal_t_h": 200,
+      "feed_fraction": 0.05,
+      "stream": "ferrous",
+      "stream_metric_t_campaign_day": 64.0,
+      "qualified_recovered_product_t_d": null,
+      "final_disposal_t_d": null,
+      "status": "Hypothetical composition, not Corpus assay; no assumed diversion fraction"
+    },
+    {
+      "screen_nominal_t_h": 200,
+      "feed_fraction": 0.01,
+      "stream": "nonferrous",
+      "stream_metric_t_campaign_day": 12.8,
+      "qualified_recovered_product_t_d": null,
+      "final_disposal_t_d": null,
+      "status": "Hypothetical composition, not Corpus assay; no assumed diversion fraction"
+    },
+    {
+      "screen_nominal_t_h": 200,
+      "feed_fraction": 0.04,
+      "stream": "glass",
+      "stream_metric_t_campaign_day": 51.2,
+      "qualified_recovered_product_t_d": null,
+      "final_disposal_t_d": null,
+      "status": "Hypothetical composition, not Corpus assay; no assumed diversion fraction"
+    },
+    {
+      "screen_nominal_t_h": 200,
+      "feed_fraction": 0.1,
+      "stream": "other",
+      "stream_metric_t_campaign_day": 128.0,
+      "qualified_recovered_product_t_d": null,
+      "final_disposal_t_d": null,
+      "status": "Hypothetical composition, not Corpus assay; no assumed diversion fraction"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+feed_mgd,ro_fraction,ro_product_mgd,qualified_direct_reuse_mgd,combined_water_product_mgd,membrane_reject_mgd,qualification,incremental_atlas_water_credit_mgd,installed_cost_usd
+8,0,0.0,8,8.0,0.0,ASSUMED; direct-use chemistry and module losses unresolved,,
+8,0.5,3.6,4.0,7.6,0.3999999999999999,ASSUMED; direct-use chemistry and module losses unresolved,,
+8,1,7.2,0,7.2,0.7999999999999998,ASSUMED; direct-use chemistry and module losses unresolved,,
+16,0,0.0,16,16.0,0.0,ASSUMED; direct-use chemistry and module losses unresolved,,
+16,0.5,7.2,8.0,15.2,0.7999999999999998,ASSUMED; direct-use chemistry and module losses unresolved,,
+16,1,14.4,0,14.4,1.5999999999999996,ASSUMED; direct-use chemistry and module losses unresolved,,
+28,0,0.0,28,28.0,0.0,ASSUMED; direct-use chemistry and module losses unresolved,,
+28,0.5,12.6,14.0,26.6,1.3999999999999997,ASSUMED; direct-use chemistry and module losses unresolved,,
+28,1,25.2,0,25.2,2.7999999999999994,ASSUMED; direct-use chemistry and module losses unresolved,,
+30,0,0.0,30,30.0,0.0,ASSUMED; direct-use chemistry and module losses unresolved,,
+30,0.5,13.5,15.0,28.5,1.4999999999999996,ASSUMED; direct-use chemistry and module losses unresolved,,
+30,1,27.0,0,27.0,2.999999999999999,ASSUMED; direct-use chemistry and module losses unresolved,,
