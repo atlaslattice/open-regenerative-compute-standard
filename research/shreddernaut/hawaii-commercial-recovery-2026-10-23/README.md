@@ -74,3 +74,7 @@ Suppliers, island operators, material buyers, engineers and public agencies can 
 ## Oʻahu Atlas Lattice screening model — October 23, 2026
 
 [Runnable daily model, source/assumption register, seven example scenarios and nine software checks](../../../prototypes/oahu-lattice-v0_1/README.md). This is an executed sensitivity model, not a calibrated site forecast, complete twelve-layer simulation or ROI finding. It separates current incoming MSW from ash and legacy excavation, tests conditional fuel/manufacturing outlets and outages, and carries water, future concentrate, compute burden and unresolved interfaces without invented credits.
+
+## Oʻahu module and portfolio extension — October 24, 2026
+
+[Remediation module catalog and runnable portfolio economics v0.2](../../../prototypes/oahu-lattice-v0_2/README.md) adds 62 module/configuration entries, 19 candidate pathways, coverage of Desen’s full published product/application suite, a conserved fines-washing example and capacity sensitivities. It explicitly permits profitable streams to subsidize loss-making qualified treatment, with shared costs counted once and avoided public infrastructure costs evaluated separately. Environmental vetoes remain independent of financial balance. Missing supplier prices, assays, residual outlets and infrastructure counterfactuals prevent actual cost ranking or ROI claims. Twenty extension checks and the unchanged v0.1 nine checks pass; this is software verification, not plant validation.
