@@ -1,0 +1,994 @@
+{
+  "status": "CONDITIONAL ANNUAL ENVELOPES; NO PROBABILITIES; ZERO REALIZED CREDIT",
+  "mass_basis": "Original waste mass equivalents, not full chemical/wet-mass balance or permitted volume. energy_or_gas is original waste no longer solid, not total flue gas or emission credit.",
+  "baseline_scope": "Fixed 2024 WGSL other MSW plus ash/residue, current annual inflow. No legacy inventory or separate C&D.",
+  "original_v01_reference": {
+    "scenario": "conditional_integrated_200",
+    "evidence": "MODELED ASSUMPTIONS; NOT FORECAST; ZERO REALIZED CREDIT",
+    "feed_scope": "current other MSW only; no legacy excavation; ash bypass; C&D excluded",
+    "screen_tph": 200,
+    "baseline_wgsl_t": 272208.94589966,
+    "processed_t": 115595.21937715069,
+    "net_disposal_avoided_t": 48064.492217019266,
+    "net_disposal_avoided_percent": 17.657205224525025,
+    "final_fuel_inventory_t": 0.0,
+    "disposal_plus_inventory_t": 224144.45368264074,
+    "accepted_metals_t": 2173.1901242904332,
+    "manufactured_product_t": 5201.784871971782,
+    "assumed_incremental_irrigation_delivery_m3": 30720.239031142464,
+    "assumed_new_dust_water_m3": 0.0,
+    "indicative_metal_netback_usd": 934934.1343223948,
+    "partial_operating_allowance_usd": 840000,
+    "PARTIAL_metal_less_allowance_usd": 94934.13432239485,
+    "screen_train_kwh": 96000.0,
+    "data_compute_kwh": 87600,
+    "future_product_water_m3": 0,
+    "future_concentrate_m3": 0,
+    "future_desal_kwh": 0,
+    "recovered_brine_product_t": null,
+    "agriculture_yield_gain": null,
+    "ai_efficiency_gain": null,
+    "local_fabrication_downtime_savings": null,
+    "lifecycle_co2e": null,
+    "capex": null,
+    "full_profit": null,
+    "roi": null,
+    "reclaimed_displacement_credit": "conditional counterfactual only; not realized",
+    "net_airspace_recovered_m3": null,
+    "max_abs_mass_error_t": 2.842170943040401e-14
+  },
+  "scenarios": [
+    {
+      "scenario": "S0_prior_conditional_integrated",
+      "baseline_original_waste_t": 272208.94589966,
+      "product": 7374.974996262214,
+      "energy_or_gas": 40689.51722075704,
+      "residual": 224144.45368264077,
+      "contained": 0,
+      "source_mass_requiring_management_t": 224144.45368264077,
+      "remaining_percent": 82.34279477547499,
+      "removal_percent": 17.657205224525022,
+      "mass_error_t": 0.0,
+      "realized_project_credit_t": 0,
+      "full_cost_usd": null,
+      "roi": null,
+      "all_material_remediated": false,
+      "final_streams": {
+        "incumbent_ash": {
+          "original_waste_t": 131568.09565746,
+          "endpoint": "residual"
+        },
+        "unprocessed_other_msw": {
+          "original_waste_t": 25045.63086504933,
+          "endpoint": "residual"
+        },
+        "primary_metals": {
+          "original_waste_t": 2173.190124290433,
+          "endpoint": "product"
+        },
+        "unrecovered_metal_fraction": {
+          "original_waste_t": 543.2975310726082,
+          "endpoint": "residual"
+        },
+        "accepted_primary_minerals": {
+          "original_waste_t": 5201.784871971781,
+          "endpoint": "product"
+        },
+        "unqualified_mineral_fines": {
+          "original_waste_t": 17917.259003458355,
+          "endpoint": "residual"
+        },
+        "fuel_nonash_original_mass": {
+          "original_waste_t": 40689.51722075704,
+          "endpoint": "energy_or_gas"
+        },
+        "incremental_fuel_ash": {
+          "original_waste_t": 10172.379305189263,
+          "endpoint": "residual"
+        },
+        "rejected_combustibles": {
+          "original_waste_t": 12715.474131486573,
+          "endpoint": "residual"
+        },
+        "uncharacterized_other": {
+          "original_waste_t": 26182.31718892463,
+          "endpoint": "residual"
+        }
+      },
+      "routes": []
+    },
+    {
+      "scenario": "S1_full_incoming_capture_ENVELOPE",
+      "baseline_original_waste_t": 272208.94589966,
+      "product": 8972.886245452362,
+      "energy_or_gas": 49505.57928525441,
+      "residual": 213730.48036895326,
+      "contained": 0,
+      "source_mass_requiring_management_t": 213730.48036895326,
+      "remaining_percent": 78.5170669768279,
+      "removal_percent": 21.482933023172116,
+      "mass_error_t": 5.820766091346741e-11,
+      "realized_project_credit_t": 0,
+      "full_cost_usd": null,
+      "roi": null,
+      "all_material_remediated": false,
+      "final_streams": {
+        "incumbent_ash": {
+          "original_waste_t": 131568.09565746,
+          "endpoint": "residual"
+        },
+        "unprocessed_other_msw": {
+          "original_waste_t": 0,
+          "endpoint": "residual"
+        },
+        "primary_metals": {
+          "original_waste_t": 2644.0479845533605,
+          "endpoint": "product"
+        },
+        "unrecovered_metal_fraction": {
+          "original_waste_t": 661.01199613834,
+          "endpoint": "residual"
+        },
+        "accepted_primary_minerals": {
+          "original_waste_t": 6328.838260899001,
+          "endpoint": "product"
+        },
+        "unqualified_mineral_fines": {
+          "original_waste_t": 21799.331787541003,
+          "endpoint": "residual"
+        },
+        "fuel_nonash_original_mass": {
+          "original_waste_t": 49505.57928525441,
+          "endpoint": "energy_or_gas"
+        },
+        "incremental_fuel_ash": {
+          "original_waste_t": 12376.394821313605,
+          "endpoint": "residual"
+        },
+        "rejected_combustibles": {
+          "original_waste_t": 15470.493526642,
+          "endpoint": "residual"
+        },
+        "uncharacterized_other": {
+          "original_waste_t": 31855.152579858306,
+          "endpoint": "residual"
+        }
+      },
+      "routes": []
+    },
+    {
+      "scenario": "S2_add_selective_fines_washing",
+      "baseline_original_waste_t": 272208.94589966,
+      "product": 18891.58220878352,
+      "energy_or_gas": 49505.57928525441,
+      "residual": 203811.7844056221,
+      "contained": 0,
+      "source_mass_requiring_management_t": 203811.7844056221,
+      "remaining_percent": 74.87328667028818,
+      "removal_percent": 25.126713329711826,
+      "mass_error_t": 5.820766091346741e-11,
+      "realized_project_credit_t": 0,
+      "full_cost_usd": null,
+      "roi": null,
+      "all_material_remediated": false,
+      "final_streams": {
+        "incumbent_ash": {
+          "original_waste_t": 131568.09565746,
+          "endpoint": "residual"
+        },
+        "unprocessed_other_msw": {
+          "original_waste_t": 0,
+          "endpoint": "residual"
+        },
+        "primary_metals": {
+          "original_waste_t": 2644.0479845533605,
+          "endpoint": "product"
+        },
+        "unrecovered_metal_fraction": {
+          "original_waste_t": 661.01199613834,
+          "endpoint": "residual"
+        },
+        "accepted_primary_minerals": {
+          "original_waste_t": 6328.838260899001,
+          "endpoint": "product"
+        },
+        "fuel_nonash_original_mass": {
+          "original_waste_t": 49505.57928525441,
+          "endpoint": "energy_or_gas"
+        },
+        "incremental_fuel_ash": {
+          "original_waste_t": 12376.394821313605,
+          "endpoint": "residual"
+        },
+        "rejected_combustibles": {
+          "original_waste_t": 15470.493526642,
+          "endpoint": "residual"
+        },
+        "uncharacterized_other": {
+          "original_waste_t": 31855.152579858306,
+          "endpoint": "residual"
+        },
+        "washed_mineral_product": {
+          "original_waste_t": 9918.695963331156,
+          "endpoint": "product"
+        },
+        "wash_concentrate_dry": {
+          "original_waste_t": 4250.869698570496,
+          "endpoint": "residual"
+        },
+        "inherent_water_liability": {
+          "original_waste_t": 7629.76612563935,
+          "endpoint": "residual"
+        }
+      },
+      "routes": [
+        {
+          "input": "unqualified_mineral_fines",
+          "feed_t": 21799.331787541003,
+          "module": [
+            "D_01",
+            "D_02",
+            "D_03",
+            "D_04"
+          ],
+          "gate": "pass",
+          "actual_cost_usd": null
+        }
+      ]
+    },
+    {
+      "scenario": "S3_add_60pct_ash_mass_recovery_TARGET",
+      "baseline_original_waste_t": 272208.94589966,
+      "product": 105258.27649604768,
+      "energy_or_gas": 49505.57928525441,
+      "residual": 117445.09011835794,
+      "contained": 0,
+      "source_mass_requiring_management_t": 117445.09011835794,
+      "remaining_percent": 43.14519852762291,
+      "removal_percent": 56.8548014723771,
+      "mass_error_t": 5.820766091346741e-11,
+      "realized_project_credit_t": 0,
+      "full_cost_usd": null,
+      "roi": null,
+      "all_material_remediated": false,
+      "final_streams": {
+        "unprocessed_other_msw": {
+          "original_waste_t": 0,
+          "endpoint": "residual"
+        },
+        "primary_metals": {
+          "original_waste_t": 2644.0479845533605,
+          "endpoint": "product"
+        },
+        "unrecovered_metal_fraction": {
+          "original_waste_t": 661.01199613834,
+          "endpoint": "residual"
+        },
+        "accepted_primary_minerals": {
+          "original_waste_t": 6328.838260899001,
+          "endpoint": "product"
+        },
+        "fuel_nonash_original_mass": {
+          "original_waste_t": 49505.57928525441,
+          "endpoint": "energy_or_gas"
+        },
+        "rejected_combustibles": {
+          "original_waste_t": 15470.493526642,
+          "endpoint": "residual"
+        },
+        "uncharacterized_other": {
+          "original_waste_t": 31855.152579858306,
+          "endpoint": "residual"
+        },
+        "washed_mineral_product": {
+          "original_waste_t": 9918.695963331156,
+          "endpoint": "product"
+        },
+        "wash_concentrate_dry": {
+          "original_waste_t": 4250.869698570496,
+          "endpoint": "residual"
+        },
+        "inherent_water_liability": {
+          "original_waste_t": 7629.76612563935,
+          "endpoint": "residual"
+        },
+        "incumbent_ash_qualified_products": {
+          "original_waste_t": 78940.857394476,
+          "endpoint": "product"
+        },
+        "incumbent_ash_residual": {
+          "original_waste_t": 52627.23826298401,
+          "endpoint": "residual"
+        },
+        "incremental_fuel_ash_qualified_products": {
+          "original_waste_t": 7425.836892788162,
+          "endpoint": "product"
+        },
+        "incremental_fuel_ash_residual": {
+          "original_waste_t": 4950.557928525443,
+          "endpoint": "residual"
+        }
+      },
+      "routes": [
+        {
+          "input": "unqualified_mineral_fines",
+          "feed_t": 21799.331787541003,
+          "module": [
+            "D_01",
+            "D_02",
+            "D_03",
+            "D_04"
+          ],
+          "gate": "pass",
+          "actual_cost_usd": null
+        },
+        {
+          "input": "incumbent_ash",
+          "feed_t": 131568.09565746,
+          "module": [
+            "P03",
+            "P04",
+            "M02",
+            "M12",
+            "X03"
+          ],
+          "gate": "pass",
+          "actual_cost_usd": null
+        },
+        {
+          "input": "incremental_fuel_ash",
+          "feed_t": 12376.394821313605,
+          "module": [
+            "P03",
+            "P04",
+            "M02",
+            "M12",
+            "X03"
+          ],
+          "gate": "pass",
+          "actual_cost_usd": null
+        }
+      ]
+    },
+    {
+      "scenario": "S4_add_secondary_material_recovery",
+      "baseline_original_waste_t": 272208.94589966,
+      "product": 117374.4857444132,
+      "energy_or_gas": 49505.57928525441,
+      "residual": 105328.88086999241,
+      "contained": 0,
+      "source_mass_requiring_management_t": 105328.88086999241,
+      "remaining_percent": 38.69412907128265,
+      "removal_percent": 61.30587092871736,
+      "mass_error_t": 5.820766091346741e-11,
+      "realized_project_credit_t": 0,
+      "full_cost_usd": null,
+      "roi": null,
+      "all_material_remediated": false,
+      "final_streams": {
+        "unprocessed_other_msw": {
+          "original_waste_t": 0,
+          "endpoint": "residual"
+        },
+        "primary_metals": {
+          "original_waste_t": 2644.0479845533605,
+          "endpoint": "product"
+        },
+        "accepted_primary_minerals": {
+          "original_waste_t": 6328.838260899001,
+          "endpoint": "product"
+        },
+        "fuel_nonash_original_mass": {
+          "original_waste_t": 49505.57928525441,
+          "endpoint": "energy_or_gas"
+        },
+        "washed_mineral_product": {
+          "original_waste_t": 9918.695963331156,
+          "endpoint": "product"
+        },
+        "wash_concentrate_dry": {
+          "original_waste_t": 4250.869698570496,
+          "endpoint": "residual"
+        },
+        "inherent_water_liability": {
+          "original_waste_t": 7629.76612563935,
+          "endpoint": "residual"
+        },
+        "incumbent_ash_qualified_products": {
+          "original_waste_t": 78940.857394476,
+          "endpoint": "product"
+        },
+        "incumbent_ash_residual": {
+          "original_waste_t": 52627.23826298401,
+          "endpoint": "residual"
+        },
+        "incremental_fuel_ash_qualified_products": {
+          "original_waste_t": 7425.836892788162,
+          "endpoint": "product"
+        },
+        "incremental_fuel_ash_residual": {
+          "original_waste_t": 4950.557928525443,
+          "endpoint": "residual"
+        },
+        "uncharacterized_other_secondary_product": {
+          "original_waste_t": 6371.030515971662,
+          "endpoint": "product"
+        },
+        "uncharacterized_other_secondary_reject": {
+          "original_waste_t": 25484.122063886647,
+          "endpoint": "residual"
+        },
+        "rejected_combustibles_secondary_product": {
+          "original_waste_t": 5414.672734324699,
+          "endpoint": "product"
+        },
+        "rejected_combustibles_secondary_reject": {
+          "original_waste_t": 10055.8207923173,
+          "endpoint": "residual"
+        },
+        "unrecovered_metal_fraction_secondary_product": {
+          "original_waste_t": 330.50599806917,
+          "endpoint": "product"
+        },
+        "unrecovered_metal_fraction_secondary_reject": {
+          "original_waste_t": 330.50599806917,
+          "endpoint": "residual"
+        }
+      },
+      "routes": [
+        {
+          "input": "unqualified_mineral_fines",
+          "feed_t": 21799.331787541003,
+          "module": [
+            "D_01",
+            "D_02",
+            "D_03",
+            "D_04"
+          ],
+          "gate": "pass",
+          "actual_cost_usd": null
+        },
+        {
+          "input": "incumbent_ash",
+          "feed_t": 131568.09565746,
+          "module": [
+            "P03",
+            "P04",
+            "M02",
+            "M12",
+            "X03"
+          ],
+          "gate": "pass",
+          "actual_cost_usd": null
+        },
+        {
+          "input": "incremental_fuel_ash",
+          "feed_t": 12376.394821313605,
+          "module": [
+            "P03",
+            "P04",
+            "M02",
+            "M12",
+            "X03"
+          ],
+          "gate": "pass",
+          "actual_cost_usd": null
+        },
+        {
+          "input": "uncharacterized_other",
+          "feed_t": 31855.152579858306,
+          "module": [
+            "P01",
+            "P05",
+            "M01",
+            "R02",
+            "O01"
+          ],
+          "gate": "pass",
+          "actual_cost_usd": null
+        },
+        {
+          "input": "rejected_combustibles",
+          "feed_t": 15470.493526642,
+          "module": [
+            "P05",
+            "R02"
+          ],
+          "gate": "pass",
+          "actual_cost_usd": null
+        },
+        {
+          "input": "unrecovered_metal_fraction",
+          "feed_t": 661.01199613834,
+          "module": [
+            "P04",
+            "P06"
+          ],
+          "gate": "pass",
+          "actual_cost_usd": null
+        }
+      ]
+    },
+    {
+      "scenario": "S5_containment_does_not_increase_removal",
+      "baseline_original_waste_t": 272208.94589966,
+      "product": 117374.4857444132,
+      "energy_or_gas": 49505.57928525441,
+      "residual": 0,
+      "contained": 105328.88086999241,
+      "source_mass_requiring_management_t": 105328.88086999241,
+      "remaining_percent": 38.69412907128265,
+      "removal_percent": 61.30587092871736,
+      "mass_error_t": 5.820766091346741e-11,
+      "realized_project_credit_t": 0,
+      "full_cost_usd": null,
+      "roi": null,
+      "all_material_remediated": false,
+      "final_streams": {
+        "primary_metals": {
+          "original_waste_t": 2644.0479845533605,
+          "endpoint": "product"
+        },
+        "accepted_primary_minerals": {
+          "original_waste_t": 6328.838260899001,
+          "endpoint": "product"
+        },
+        "fuel_nonash_original_mass": {
+          "original_waste_t": 49505.57928525441,
+          "endpoint": "energy_or_gas"
+        },
+        "washed_mineral_product": {
+          "original_waste_t": 9918.695963331156,
+          "endpoint": "product"
+        },
+        "incumbent_ash_qualified_products": {
+          "original_waste_t": 78940.857394476,
+          "endpoint": "product"
+        },
+        "incremental_fuel_ash_qualified_products": {
+          "original_waste_t": 7425.836892788162,
+          "endpoint": "product"
+        },
+        "uncharacterized_other_secondary_product": {
+          "original_waste_t": 6371.030515971662,
+          "endpoint": "product"
+        },
+        "rejected_combustibles_secondary_product": {
+          "original_waste_t": 5414.672734324699,
+          "endpoint": "product"
+        },
+        "unrecovered_metal_fraction_secondary_product": {
+          "original_waste_t": 330.50599806917,
+          "endpoint": "product"
+        },
+        "unprocessed_other_msw_contained": {
+          "original_waste_t": 0,
+          "endpoint": "contained"
+        },
+        "wash_concentrate_dry_contained": {
+          "original_waste_t": 4250.869698570496,
+          "endpoint": "contained"
+        },
+        "inherent_water_liability_contained": {
+          "original_waste_t": 7629.76612563935,
+          "endpoint": "contained"
+        },
+        "incumbent_ash_residual_contained": {
+          "original_waste_t": 52627.23826298401,
+          "endpoint": "contained"
+        },
+        "incremental_fuel_ash_residual_contained": {
+          "original_waste_t": 4950.557928525443,
+          "endpoint": "contained"
+        },
+        "uncharacterized_other_secondary_reject_contained": {
+          "original_waste_t": 25484.122063886647,
+          "endpoint": "contained"
+        },
+        "rejected_combustibles_secondary_reject_contained": {
+          "original_waste_t": 10055.8207923173,
+          "endpoint": "contained"
+        },
+        "unrecovered_metal_fraction_secondary_reject_contained": {
+          "original_waste_t": 330.50599806917,
+          "endpoint": "contained"
+        }
+      },
+      "routes": [
+        {
+          "input": "unqualified_mineral_fines",
+          "feed_t": 21799.331787541003,
+          "module": [
+            "D_01",
+            "D_02",
+            "D_03",
+            "D_04"
+          ],
+          "gate": "pass",
+          "actual_cost_usd": null
+        },
+        {
+          "input": "incumbent_ash",
+          "feed_t": 131568.09565746,
+          "module": [
+            "P03",
+            "P04",
+            "M02",
+            "M12",
+            "X03"
+          ],
+          "gate": "pass",
+          "actual_cost_usd": null
+        },
+        {
+          "input": "incremental_fuel_ash",
+          "feed_t": 12376.394821313605,
+          "module": [
+            "P03",
+            "P04",
+            "M02",
+            "M12",
+            "X03"
+          ],
+          "gate": "pass",
+          "actual_cost_usd": null
+        },
+        {
+          "input": "uncharacterized_other",
+          "feed_t": 31855.152579858306,
+          "module": [
+            "P01",
+            "P05",
+            "M01",
+            "R02",
+            "O01"
+          ],
+          "gate": "pass",
+          "actual_cost_usd": null
+        },
+        {
+          "input": "rejected_combustibles",
+          "feed_t": 15470.493526642,
+          "module": [
+            "P05",
+            "R02"
+          ],
+          "gate": "pass",
+          "actual_cost_usd": null
+        },
+        {
+          "input": "unrecovered_metal_fraction",
+          "feed_t": 661.01199613834,
+          "module": [
+            "P04",
+            "P06"
+          ],
+          "gate": "pass",
+          "actual_cost_usd": null
+        },
+        {
+          "input": "unprocessed_other_msw",
+          "feed_t": 0,
+          "module": [
+            "M10",
+            "M14",
+            "X03"
+          ],
+          "gate": "pass",
+          "actual_cost_usd": null
+        },
+        {
+          "input": "wash_concentrate_dry",
+          "feed_t": 4250.869698570496,
+          "module": [
+            "M10",
+            "M14",
+            "X03"
+          ],
+          "gate": "pass",
+          "actual_cost_usd": null
+        },
+        {
+          "input": "inherent_water_liability",
+          "feed_t": 7629.76612563935,
+          "module": [
+            "M10",
+            "M14",
+            "X03"
+          ],
+          "gate": "pass",
+          "actual_cost_usd": null
+        },
+        {
+          "input": "incumbent_ash_residual",
+          "feed_t": 52627.23826298401,
+          "module": [
+            "M10",
+            "M14",
+            "X03"
+          ],
+          "gate": "pass",
+          "actual_cost_usd": null
+        },
+        {
+          "input": "incremental_fuel_ash_residual",
+          "feed_t": 4950.557928525443,
+          "module": [
+            "M10",
+            "M14",
+            "X03"
+          ],
+          "gate": "pass",
+          "actual_cost_usd": null
+        },
+        {
+          "input": "uncharacterized_other_secondary_reject",
+          "feed_t": 25484.122063886647,
+          "module": [
+            "M10",
+            "M14",
+            "X03"
+          ],
+          "gate": "pass",
+          "actual_cost_usd": null
+        },
+        {
+          "input": "rejected_combustibles_secondary_reject",
+          "feed_t": 10055.8207923173,
+          "module": [
+            "M10",
+            "M14",
+            "X03"
+          ],
+          "gate": "pass",
+          "actual_cost_usd": null
+        },
+        {
+          "input": "unrecovered_metal_fraction_secondary_reject",
+          "feed_t": 330.50599806917,
+          "module": [
+            "M10",
+            "M14",
+            "X03"
+          ],
+          "gate": "pass",
+          "actual_cost_usd": null
+        }
+      ]
+    },
+    {
+      "scenario": "GATES_unresolved_washing_failed_ash",
+      "baseline_original_waste_t": 272208.94589966,
+      "product": 8972.886245452362,
+      "energy_or_gas": 49505.57928525441,
+      "residual": 213730.48036895326,
+      "contained": 0,
+      "source_mass_requiring_management_t": 213730.48036895326,
+      "remaining_percent": 78.5170669768279,
+      "removal_percent": 21.482933023172116,
+      "mass_error_t": 5.820766091346741e-11,
+      "realized_project_credit_t": 0,
+      "full_cost_usd": null,
+      "roi": null,
+      "all_material_remediated": false,
+      "final_streams": {
+        "incumbent_ash": {
+          "original_waste_t": 131568.09565746,
+          "endpoint": "residual"
+        },
+        "unprocessed_other_msw": {
+          "original_waste_t": 0,
+          "endpoint": "residual"
+        },
+        "primary_metals": {
+          "original_waste_t": 2644.0479845533605,
+          "endpoint": "product"
+        },
+        "unrecovered_metal_fraction": {
+          "original_waste_t": 661.01199613834,
+          "endpoint": "residual"
+        },
+        "accepted_primary_minerals": {
+          "original_waste_t": 6328.838260899001,
+          "endpoint": "product"
+        },
+        "unqualified_mineral_fines": {
+          "original_waste_t": 21799.331787541003,
+          "endpoint": "residual"
+        },
+        "fuel_nonash_original_mass": {
+          "original_waste_t": 49505.57928525441,
+          "endpoint": "energy_or_gas"
+        },
+        "incremental_fuel_ash": {
+          "original_waste_t": 12376.394821313605,
+          "endpoint": "residual"
+        },
+        "rejected_combustibles": {
+          "original_waste_t": 15470.493526642,
+          "endpoint": "residual"
+        },
+        "uncharacterized_other": {
+          "original_waste_t": 31855.152579858306,
+          "endpoint": "residual"
+        }
+      },
+      "routes": [
+        {
+          "input": "unqualified_mineral_fines",
+          "feed_t": 21799.331787541003,
+          "module": [
+            "D_01",
+            "D_02",
+            "D_03",
+            "D_04"
+          ],
+          "gate": "unresolved",
+          "actual_cost_usd": null
+        },
+        {
+          "input": "incumbent_ash",
+          "feed_t": 131568.09565746,
+          "module": [
+            "P03",
+            "P04",
+            "M02",
+            "M12",
+            "X03"
+          ],
+          "gate": "fail",
+          "actual_cost_usd": null
+        },
+        {
+          "input": "incremental_fuel_ash",
+          "feed_t": 12376.394821313605,
+          "module": [
+            "P03",
+            "P04",
+            "M02",
+            "M12",
+            "X03"
+          ],
+          "gate": "fail",
+          "actual_cost_usd": null
+        }
+      ]
+    },
+    {
+      "scenario": "INCUMBENT_ash_target_only_counterfactual",
+      "baseline_original_waste_t": 272208.94589966,
+      "product": 78940.857394476,
+      "energy_or_gas": 0.0,
+      "residual": 193268.08850518402,
+      "contained": 0,
+      "source_mass_requiring_management_t": 193268.08850518402,
+      "remaining_percent": 70.99990335234071,
+      "removal_percent": 29.000096647659294,
+      "mass_error_t": 0.0,
+      "realized_project_credit_t": 0,
+      "full_cost_usd": null,
+      "roi": null,
+      "all_material_remediated": false,
+      "final_streams": {
+        "unprocessed_other_msw": {
+          "original_waste_t": 140640.85024220002,
+          "endpoint": "residual"
+        },
+        "primary_metals": {
+          "original_waste_t": 0.0,
+          "endpoint": "product"
+        },
+        "unrecovered_metal_fraction": {
+          "original_waste_t": 0.0,
+          "endpoint": "residual"
+        },
+        "accepted_primary_minerals": {
+          "original_waste_t": 0.0,
+          "endpoint": "product"
+        },
+        "unqualified_mineral_fines": {
+          "original_waste_t": 0.0,
+          "endpoint": "residual"
+        },
+        "fuel_nonash_original_mass": {
+          "original_waste_t": 0.0,
+          "endpoint": "energy_or_gas"
+        },
+        "rejected_combustibles": {
+          "original_waste_t": 0.0,
+          "endpoint": "residual"
+        },
+        "uncharacterized_other": {
+          "original_waste_t": 0.0,
+          "endpoint": "residual"
+        },
+        "incumbent_ash_qualified_products": {
+          "original_waste_t": 78940.857394476,
+          "endpoint": "product"
+        },
+        "incumbent_ash_residual": {
+          "original_waste_t": 52627.23826298401,
+          "endpoint": "residual"
+        },
+        "incremental_fuel_ash_qualified_products": {
+          "original_waste_t": 0.0,
+          "endpoint": "product"
+        },
+        "incremental_fuel_ash_residual": {
+          "original_waste_t": 0.0,
+          "endpoint": "residual"
+        }
+      },
+      "routes": [
+        {
+          "input": "incumbent_ash",
+          "feed_t": 131568.09565746,
+          "module": [
+            "P03",
+            "P04",
+            "M02",
+            "M12",
+            "X03"
+          ],
+          "gate": "pass",
+          "actual_cost_usd": null
+        },
+        {
+          "input": "incremental_fuel_ash",
+          "feed_t": 0.0,
+          "module": [
+            "P03",
+            "P04",
+            "M02",
+            "M12",
+            "X03"
+          ],
+          "gate": "pass",
+          "actual_cost_usd": null
+        }
+      ]
+    },
+    {
+      "scenario": "NO_NEW_ROUTE_CLEARANCE",
+      "baseline_original_waste_t": 272208.94589966,
+      "product": 0,
+      "energy_or_gas": 0,
+      "residual": 272208.94589966,
+      "contained": 0,
+      "source_mass_requiring_management_t": 272208.94589966,
+      "remaining_percent": 100.0,
+      "removal_percent": 0.0,
+      "mass_error_t": 0.0,
+      "realized_project_credit_t": 0,
+      "full_cost_usd": null,
+      "roi": null,
+      "all_material_remediated": false,
+      "final_streams": {
+        "all_feed_without_project_clearance": {
+          "original_waste_t": 272208.94589966,
+          "endpoint": "residual"
+        }
+      },
+      "routes": []
+    }
+  ],
+  "changed_assumptions": {
+    "full_capture": "annual buffered-feed target, not daily simulation",
+    "washing_dry_fraction": 0.65,
+    "washing_dry_product_yield": 0.7,
+    "ash_mass_product_yield_TARGET": 0.6,
+    "other_residual_secondary_product_yield": 0.2,
+    "rejected_fuel_secondary_polymer_product_yield": 0.35,
+    "remaining_metal_secondary_product_yield": 0.5
+  },
+  "incremental_credit_rule": "Existing ash-recovery initiatives are incumbent counterfactuals, not new Atlas achievements. At same ash yield, compare S4 with INCUMBENT for numerical marginal contribution; counterfactual commissioning/timing unverified.",
+  "gross_washing_contact_water_t_per_year_assumed": 28339.131323803304,
+  "fresh_makeup_water_t": null,
+  "purge_t": null,
+  "added_reagent_residue_t": null,
+  "actual_residual_wet_disposal_t": null,
+  "net_airspace_m3": null,
+  "all_contaminants_cleared": false,
+  "bankable_cost_comparison": null,
+  "artifact_date_user_timezone": "2026-10-23"
+}
