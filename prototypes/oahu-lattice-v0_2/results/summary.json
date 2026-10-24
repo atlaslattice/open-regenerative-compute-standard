@@ -1,0 +1,307 @@
+{
+  "status": "UNVALIDATED SCREENING EXTENSION; ZERO REALIZED CREDIT",
+  "catalog_entries": 62,
+  "washing_ledger_examples": {
+    "blocked": {
+      "dry_feed_t": 1000,
+      "gross_water_input_t": 2538.4615384615386,
+      "candidate_product_dry_t": 700.0,
+      "accepted_product_dry_t": 0.0,
+      "rejected_product_dry_t": 700.0,
+      "cake_dry_t": 300.0,
+      "cake_wet_t": 600.0,
+      "filtrate_t": 2238.4615384615386,
+      "filtrate_status": "must be treated/recycled with purge accounting, or disposed",
+      "contaminant_input_kg": 1000.0,
+      "contaminant_product_kg": 40.0,
+      "contaminant_cake_kg": 950.0,
+      "contaminant_water_kg": 10.0,
+      "product_mgkg": 57.142857142857146,
+      "quality_limit_is_hypothetical": true,
+      "external_clearance": false,
+      "accepted": false,
+      "mass_error_t": 0.0,
+      "contaminant_error_kg": 0.0
+    },
+    "hypothetical_all_external_gates_pass": {
+      "dry_feed_t": 1000,
+      "gross_water_input_t": 2538.4615384615386,
+      "candidate_product_dry_t": 700.0,
+      "accepted_product_dry_t": 700.0,
+      "rejected_product_dry_t": 0.0,
+      "cake_dry_t": 300.0,
+      "cake_wet_t": 600.0,
+      "filtrate_t": 2238.4615384615386,
+      "filtrate_status": "must be treated/recycled with purge accounting, or disposed",
+      "contaminant_input_kg": 1000.0,
+      "contaminant_product_kg": 40.0,
+      "contaminant_cake_kg": 950.0,
+      "contaminant_water_kg": 10.0,
+      "product_mgkg": 57.142857142857146,
+      "quality_limit_is_hypothetical": true,
+      "external_clearance": true,
+      "accepted": true,
+      "mass_error_t": 0.0,
+      "contaminant_error_kg": 0.0
+    },
+    "hypothetical_insufficient_separation": {
+      "dry_feed_t": 1000,
+      "gross_water_input_t": 2538.4615384615386,
+      "candidate_product_dry_t": 700.0,
+      "accepted_product_dry_t": 0.0,
+      "rejected_product_dry_t": 700.0,
+      "cake_dry_t": 300.0,
+      "cake_wet_t": 600.0,
+      "filtrate_t": 2238.4615384615386,
+      "filtrate_status": "must be treated/recycled with purge accounting, or disposed",
+      "contaminant_input_kg": 1000.0,
+      "contaminant_product_kg": 200.0,
+      "contaminant_cake_kg": 790.0,
+      "contaminant_water_kg": 10.0,
+      "product_mgkg": 285.7142857142857,
+      "quality_limit_is_hypothetical": true,
+      "external_clearance": true,
+      "accepted": false,
+      "mass_error_t": 0.0,
+      "contaminant_error_kg": 0.0
+    }
+  },
+  "capacity_sensitivities": [
+    {
+      "screen_tph": 50,
+      "assumed_fines_fraction": 0.2,
+      "washer_tph_assumed": 15,
+      "fines_offered_t_per_shift": 64.0,
+      "washed_t_per_shift": 64.0,
+      "unwashed_t_per_shift": 0.0,
+      "fraction_of_fines_washed": 1.0
+    },
+    {
+      "screen_tph": 50,
+      "assumed_fines_fraction": 0.2,
+      "washer_tph_assumed": 20,
+      "fines_offered_t_per_shift": 64.0,
+      "washed_t_per_shift": 64.0,
+      "unwashed_t_per_shift": 0.0,
+      "fraction_of_fines_washed": 1.0
+    },
+    {
+      "screen_tph": 50,
+      "assumed_fines_fraction": 0.2,
+      "washer_tph_assumed": 30,
+      "fines_offered_t_per_shift": 64.0,
+      "washed_t_per_shift": 64.0,
+      "unwashed_t_per_shift": 0.0,
+      "fraction_of_fines_washed": 1.0
+    },
+    {
+      "screen_tph": 50,
+      "assumed_fines_fraction": 0.4,
+      "washer_tph_assumed": 15,
+      "fines_offered_t_per_shift": 128.0,
+      "washed_t_per_shift": 96.0,
+      "unwashed_t_per_shift": 32.0,
+      "fraction_of_fines_washed": 0.75
+    },
+    {
+      "screen_tph": 50,
+      "assumed_fines_fraction": 0.4,
+      "washer_tph_assumed": 20,
+      "fines_offered_t_per_shift": 128.0,
+      "washed_t_per_shift": 128.0,
+      "unwashed_t_per_shift": 0.0,
+      "fraction_of_fines_washed": 1.0
+    },
+    {
+      "screen_tph": 50,
+      "assumed_fines_fraction": 0.4,
+      "washer_tph_assumed": 30,
+      "fines_offered_t_per_shift": 128.0,
+      "washed_t_per_shift": 128.0,
+      "unwashed_t_per_shift": 0.0,
+      "fraction_of_fines_washed": 1.0
+    },
+    {
+      "screen_tph": 200,
+      "assumed_fines_fraction": 0.2,
+      "washer_tph_assumed": 15,
+      "fines_offered_t_per_shift": 256.0,
+      "washed_t_per_shift": 96.0,
+      "unwashed_t_per_shift": 160.0,
+      "fraction_of_fines_washed": 0.375
+    },
+    {
+      "screen_tph": 200,
+      "assumed_fines_fraction": 0.2,
+      "washer_tph_assumed": 20,
+      "fines_offered_t_per_shift": 256.0,
+      "washed_t_per_shift": 128.0,
+      "unwashed_t_per_shift": 128.0,
+      "fraction_of_fines_washed": 0.5
+    },
+    {
+      "screen_tph": 200,
+      "assumed_fines_fraction": 0.2,
+      "washer_tph_assumed": 30,
+      "fines_offered_t_per_shift": 256.0,
+      "washed_t_per_shift": 192.0,
+      "unwashed_t_per_shift": 64.0,
+      "fraction_of_fines_washed": 0.75
+    },
+    {
+      "screen_tph": 200,
+      "assumed_fines_fraction": 0.4,
+      "washer_tph_assumed": 15,
+      "fines_offered_t_per_shift": 512.0,
+      "washed_t_per_shift": 96.0,
+      "unwashed_t_per_shift": 416.0,
+      "fraction_of_fines_washed": 0.1875
+    },
+    {
+      "screen_tph": 200,
+      "assumed_fines_fraction": 0.4,
+      "washer_tph_assumed": 20,
+      "fines_offered_t_per_shift": 512.0,
+      "washed_t_per_shift": 128.0,
+      "unwashed_t_per_shift": 384.0,
+      "fraction_of_fines_washed": 0.25
+    },
+    {
+      "screen_tph": 200,
+      "assumed_fines_fraction": 0.4,
+      "washer_tph_assumed": 30,
+      "fines_offered_t_per_shift": 512.0,
+      "washed_t_per_shift": 192.0,
+      "unwashed_t_per_shift": 320.0,
+      "fraction_of_fines_washed": 0.375
+    }
+  ],
+  "v01_current_feed_adapter": [
+    {
+      "screen_tph_case": 50,
+      "processed_t": 96000.0,
+      "offered_fines_as_received_t": 19200.0,
+      "washed_as_received_t": 19200.0,
+      "unwashed_as_received_t": 0.0,
+      "incremental_accepted_dry_product_t": 0.0,
+      "credited_to_real_world_t": 0,
+      "clearance_assumption": false,
+      "incremental_net_disposal_avoidance_t": null,
+      "note": "Gross accepted dry product is NOT net disposal avoidance: cake moisture, reagents, water purge and treatment residues must be closed. No legacy stockpile or cost forecast."
+    },
+    {
+      "screen_tph_case": 50,
+      "processed_t": 96000.0,
+      "offered_fines_as_received_t": 19200.0,
+      "washed_as_received_t": 19200.0,
+      "unwashed_as_received_t": 0.0,
+      "incremental_accepted_dry_product_t": 8735.999999999989,
+      "credited_to_real_world_t": 0,
+      "clearance_assumption": true,
+      "incremental_net_disposal_avoidance_t": null,
+      "note": "Gross accepted dry product is NOT net disposal avoidance: cake moisture, reagents, water purge and treatment residues must be closed. No legacy stockpile or cost forecast."
+    },
+    {
+      "screen_tph_case": 200,
+      "processed_t": 115595.21937715069,
+      "offered_fines_as_received_t": 23119.043875430016,
+      "washed_as_received_t": 23119.043875430016,
+      "unwashed_as_received_t": 0.0,
+      "incremental_accepted_dry_product_t": 0.0,
+      "credited_to_real_world_t": 0,
+      "clearance_assumption": false,
+      "incremental_net_disposal_avoidance_t": null,
+      "note": "Gross accepted dry product is NOT net disposal avoidance: cake moisture, reagents, water purge and treatment residues must be closed. No legacy stockpile or cost forecast."
+    },
+    {
+      "screen_tph_case": 200,
+      "processed_t": 115595.21937715069,
+      "offered_fines_as_received_t": 23119.043875430016,
+      "washed_as_received_t": 23119.043875430016,
+      "unwashed_as_received_t": 0.0,
+      "incremental_accepted_dry_product_t": 10519.164963320694,
+      "credited_to_real_world_t": 0,
+      "clearance_assumption": true,
+      "incremental_net_disposal_avoidance_t": null,
+      "note": "Gross accepted dry product is NOT net disposal avoidance: cake moisture, reagents, water purge and treatment residues must be closed. No legacy stockpile or cost forecast."
+    }
+  ],
+  "complete_cost_status": {
+    "rankable": false,
+    "net_cost_usd_per_t": null,
+    "missing": [
+      "annualized_capex",
+      "fixed_om",
+      "variable_cost",
+      "energy",
+      "water_reagents",
+      "testing",
+      "transport",
+      "residual_management",
+      "accepted_product_netback",
+      "avoided_baseline"
+    ]
+  },
+  "actual_cost_rankings": null,
+  "physical_ROI": null,
+  "portfolio_actual": {
+    "stream_cash_usd": {
+      "metals": null,
+      "fines": null,
+      "fuel": null
+    },
+    "shared_cost_usd": null,
+    "combined_project_cash_usd": null,
+    "avoidable_public_cost_usd": null,
+    "public_comparison_usd": null,
+    "clearance_status": "unresolved",
+    "minimum_avoidable_cost_to_offset_cash_gap_usd": null,
+    "decision_eligible": false,
+    "note": "Cross-subsidy permitted; no financial surplus overrides an environmental veto. Public value is not automatically cash available to the operator."
+  },
+  "portfolio_HYPOTHETICAL_cross_subsidy_examples": [
+    {
+      "stream_cash_usd": {
+        "metals": 300000,
+        "fines": -400000
+      },
+      "shared_cost_usd": 100000,
+      "combined_project_cash_usd": -200000,
+      "avoidable_public_cost_usd": null,
+      "public_comparison_usd": null,
+      "clearance_status": "unresolved",
+      "minimum_avoidable_cost_to_offset_cash_gap_usd": 200000,
+      "decision_eligible": false,
+      "note": "Cross-subsidy permitted; no financial surplus overrides an environmental veto. Public value is not automatically cash available to the operator."
+    },
+    {
+      "stream_cash_usd": {
+        "metals": 300000,
+        "fines": -400000
+      },
+      "shared_cost_usd": 100000,
+      "combined_project_cash_usd": -200000,
+      "avoidable_public_cost_usd": 300000,
+      "public_comparison_usd": 100000,
+      "clearance_status": "pass",
+      "minimum_avoidable_cost_to_offset_cash_gap_usd": 200000,
+      "decision_eligible": true,
+      "note": "Cross-subsidy permitted; no financial surplus overrides an environmental veto. Public value is not automatically cash available to the operator."
+    },
+    {
+      "stream_cash_usd": {
+        "metals": 300000,
+        "fines": -400000
+      },
+      "shared_cost_usd": 100000,
+      "combined_project_cash_usd": -200000,
+      "avoidable_public_cost_usd": 300000,
+      "public_comparison_usd": 100000,
+      "clearance_status": "fail",
+      "minimum_avoidable_cost_to_offset_cash_gap_usd": 200000,
+      "decision_eligible": false,
+      "note": "Cross-subsidy permitted; no financial surplus overrides an environmental veto. Public value is not automatically cash available to the operator."
+    }
+  ],
+  "boundary": "Only capacity and generic washing/contaminant transfer are executed. Other catalog modules have no calibrated transfer function. All financial rates below are hypothetical sensitivity axes, not vendor/site cost estimates."
+}
