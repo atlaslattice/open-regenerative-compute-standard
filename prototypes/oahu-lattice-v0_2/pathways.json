@@ -1,0 +1,31 @@
+{
+ "status":"Candidate process recipes, not validated designs. Parallel alternatives require feed allocation; serial arrows do not prove compatibility. Costs unresolved.",
+ "pathways":[
+  {"id":"BASE","feed":"all authorized feed","modules":["P01","X02","M14","X03"],"gate":"Characterize no-excavation/containment baseline before claiming avoided cleanup costs."},
+  {"id":"METALS","feed":"authorized mixed MSW","modules":["P01","D_SCREEN","P03","P04","P06","X03"],"gate":"Magnet/eddy-current and downstream refining separately confirmed; costs not included by screen name."},
+  {"id":"WASH_MOBILE","feed":"eligible separated mineral fines","modules":["D_MOBILE_TRAIN","D_01","D_02","D_03","D_04","W03","X03"],"gate":"Package contains named machines: quote package OR components. W03 only where tests require polishing. Cake and purge accepted outlets."},
+  {"id":"WASH_FIXED","feed":"eligible separated mineral fines","modules":["D_FIXED","W04","X03"],"gate":"Alternative to mobile train, not extra treatment benefit. W04 conditional on dissolved metals."},
+  {"id":"WASH_STABILIZE","feed":"mineral fines with contaminated concentrate","modules":["D_MOBILE_TRAIN","M10","X03"],"gate":"Cake stabilization changes leachability, adds binder and final mass; not contaminant destruction."},
+  {"id":"WASH_EXTRACT","feed":"metal-rich fines or cake","modules":["M02","M03","W04","P06","W01","X03"],"gate":"Recovery economics require actual target metal assay, solution chemistry and accepted intermediate."},
+  {"id":"BIO_SOIL","feed":"biodegradable hydrocarbon soil","modules":["D_SCREEN","M05","W09","X03"],"gate":"Soil tests and time-to-endpoint; persistent metals require another route."},
+  {"id":"OIL_HOTWASH","feed":"suitable sandy oily sludge","modules":["D_OIL_APP","D_01","D_02","D_03","D_04","W09","X03"],"gate":"Application recipe; actual oil separator/heater/dosing quote required; no generic biofuel price."},
+  {"id":"THERMAL_SOIL","feed":"suitable organic-contaminated soil","modules":["M08","W09","W01","X03"],"gate":"Vapors captured and treated; solids with metals still need qualification."},
+  {"id":"DREDGED","feed":"separately characterized sediment/sludge","modules":["D_SLUDGE_APP","D_MOBILE_TRAIN","M10","X03"],"gate":"Dedicated campaign; do not mix with source-separated food organics or brine."},
+  {"id":"CLEAN_CD","feed":"qualified clean construction material","modules":["P01","P03","M01","D_MATERIAL_APP","X03"],"gate":"Separate from contained wildfire ash; crushing and washing only if product needs it."},
+  {"id":"FUEL","feed":"eligible separated combustibles","modules":["P02","R01","X03"],"gate":"H-POWER written acceptance/capacity/price; include extra ash and rejected fuel; energy recovery not material recycling."},
+  {"id":"PLASTIC_MECHANICAL","feed":"qualified separated polymers","modules":["P05","R02","X03"],"gate":"Specialist offtake first; solvent/depolymerization/conversion are alternatives, not cumulative yields."},
+  {"id":"PLASTIC_CHEMICAL","feed":"polymer-specific rejected stream","modules":["P05","R04","W01","W09","X03"],"gate":"Chosen depolymerization route must match polymer; R03/R05 alternatives separately tested."},
+  {"id":"CLEAN_ORGANICS","feed":"additional source-separated organics with feed rights","modules":["O02","O04","O05","X03"],"gate":"Compare O01 composting incumbent; digestate not automatically certified fertilizer; no diversion credit for already-composted feed."},
+  {"id":"LEACHATE","feed":"assayed leachate or process-water purge","modules":["W01","W02","W03","W05","W08","X03"],"gate":"Select only justified steps; PFAS separation not destruction; concentrate/media cost included."},
+  {"id":"BRINE_MG","feed":"incremental qualified desal concentrate","modules":["W05","B01","B02","X03"],"gate":"All ions separately conserved; residual salinity persists; compare mineral sales versus O04 internal Mg consumption."},
+  {"id":"BRINE_CHEMICALS","feed":"purified compatible saline stream","modules":["B03","B04","W07","X03"],"gate":"Research/pilot allocation, no present industrial product credit; avoid counting same ions in multiple products."},
+  {"id":"CONTROL_HEAT","feed":"any compatible operating train","modules":["I02","E01","E02","I01"],"gate":"Optional supporting services; meter added electricity and measured incremental benefit against simpler control and conventional parts."}
+ ],
+ "unpriced_cost_fields":["factory equipment","export electrical package","shipping/customs/handling","site and containment","excavation and hazard isolation","annualized capital","staff and maintenance","power and fuel","water and reagents","testing and permits","transport","residual wet mass and class","offtake netback","avoidable baseline cost"],
+ "cross_layer_tests":[
+  {"connection":"B01 -> O04","layers":["water","chemistry","agriculture","manufacturing"],"decision":"Allocate a measured kg of qualified Mg once: sale versus nutrient recovery. Compare opportunity cost, purity, Mg dose, recovered P/N, logistics and contracts."},
+  {"connection":"E01 -> washing or organics","layers":["energy","water","industry","ecology"],"decision":"Temperature, distance and coincident heat demand must clear before avoided heat credit."},
+  {"connection":"I02 -> all operating routes","layers":["data","AI","research","education","employment","governance"],"decision":"Count instrumentation as a burden and potential service. Evaluate control gains against a fixed baseline; training and governance outcomes require their own evaluation."},
+  {"connection":"O05 -> ecology","layers":["agriculture","water","ecology"],"decision":"Use monitored loads, crop/soil response and matched or before-after control observations; no reef-restoration credit from inferred links alone."}
+ ]
+}
