@@ -1,0 +1,14 @@
+domain,candidate_exchange,metric_and_counterfactual,veto_or_boundary
+Water,Reuse then desal; internal condensate recovery,m3 by quality and destination; water delivered vs firm demand,No cross-contamination; potable approvals; drought baseline
+Energy,ERD; measured refinery waste heat; matched thermal cascade,kWh/m3; temperature flow duty; additional pumping and backup,Existing heat-recovery commitments; no free LNG export cold
+Chemistry,Br/Mg/Ca/K products; reagent recovery,Ion allocation; reagent inputs; certified purity; accepted tonnes,No duplicated Mg/Ca/Cl inventory; residual closure
+Manufacturing,Qualified industrial salts and local process inputs,Delivered product vs actual displaced purchase; buyer contract,Market capacity; substitution quality; no gross ore-equivalent cash
+Agriculture,Clean reclaimed water; qualified nutrients and gypsum,Crop/water demand; salinity; nutrient uptake; soil tests,No contaminated fines as fertilizer; no untested salt loading
+Ecology,Avoid routine process outfall; habitat-sensitive intake,Mass/load baseline; intake mortality; paired monitoring; confounders,No ocean avoidance credit without verified final fate; air/land harms count
+Employment,American installation; local operations and maintenance,Training completion; certified operators; durable local jobs,Skills and backup staffing; no unattended assumption
+Education,Operator training; open replication data,Competency assessments; retention; independent reuse of materials,Participation alone not causal benefit; privacy and paid time
+Research,Publish successful and unfavorable pilots,Reproducible dataset; uncertainty; independent replication,Predictions not measured outcomes; retain failed couplings
+Governance,Community review; water rights; procurement; grievance,Documented consent process; response and resolution; access,Legal and habitat vetoes; no offset by cash elsewhere
+AI,Local process optimization; prediction and operator assistance,Pre-registered comparison against conventional control; net energy,Fail-safe manual control; validated savings only; cyber/access compliance
+Data,Metered mass energy cost and final fate,Calibrated meter coverage; timestamps; missingness; version history,Local ownership; export; provenance; no telemetry used as physical proof
+AI net savings,Incremental process optimization against conventional-control baseline,Gross verified savings minus extra compute/sensors/storage/integration/software/training/cyber/lifecycle cost; pre-registered test,Unresolved until costs and causal baseline measured; no subtraction from already optimized SEC twice

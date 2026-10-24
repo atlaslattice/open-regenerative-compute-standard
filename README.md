@@ -1,8 +1,8 @@
 # The Open Regenerative Compute Standard (ORCS)
 
-## Dongjiakou → Corpus Christi lattice — research draft v0.3, October 24, 2026
+## Dongjiakou → Corpus Christi lattice — research draft v0.4, October 24, 2026
 
-[Updated model, reviewer response and CSV tables](prototypes/dongjiakou-corpus-v0_3/README.md): matched-scope equipment leverage, mineral break-even conditions, discount/horizon sensitivities, chloride recovery/conversion and use-specific acceptance gates. Full recovery is aspirational; intermediate sludge remains potential feedstock, distinct from final unrecovered residue. No routine marine process-brine discharge is a design constraint. Actual costs, buyers and fallback quotes remain unresolved. Twenty-eight bookkeeping tests pass; no field validation or realized benefits claimed. [v0.2](prototypes/dongjiakou-corpus-v0_2/README.md) · [v0.1](prototypes/dongjiakou-corpus-v0_1/README.md).
+[Updated model, cost interpretation and review tables](prototypes/dongjiakou-corpus-v0_4/README.md): the15.45% named process-equipment line does not mean85% labor/admin. Adds construction groups, explicit Dongjiakou search status and a separate later intake tender, sourcing-fraction sensitivities, conditional selling-price bridges, separated chloride summaries/routes, and external screening/disposal references. Full recovery and ZLD remain aspirational; no routine marine process-brine discharge is a design constraint. Actual costs, buyers and fallback quotes remain unresolved. Thirty-five bookkeeping tests pass; no field validation or realized benefits claimed. [v0.3](prototypes/dongjiakou-corpus-v0_3/README.md) · [v0.2](prototypes/dongjiakou-corpus-v0_2/README.md) · [v0.1](prototypes/dongjiakou-corpus-v0_1/README.md).
 
 ## Maui resilience simulator — public research release, October 19, 2026
 
