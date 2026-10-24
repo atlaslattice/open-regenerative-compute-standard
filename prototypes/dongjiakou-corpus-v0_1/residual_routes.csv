@@ -1,0 +1,15 @@
+stream,candidate_route,required_characterization,final_destination,permit_and_capacity,clearance
+RO reject,Selective minerals then concentration/final treatment,Salinity; scaling; organics; full liquid/solid split,UNCONFIRMED,UNCONFIRMED,UNRESOLVED
+Intake screens/grit,Qualified use or permitted solids disposal,Organics; pathogens; entrained organisms; debris,UNCONFIRMED,UNCONFIRMED,UNRESOLVED
+UF/backwash/pretreatment sludge,Recycle where safe; dewater and treat,Coagulants; feed salt; metals; pathogens,UNCONFIRMED,UNCONFIRMED,UNRESOLVED
+CIP and chemical cleaning,Segregate; neutralize; treat,Acid/base; chelants; membrane cleaners; dissolved contaminants,UNCONFIRMED,UNCONFIRMED,UNRESOLVED
+Off-spec permeate/condensate,Retreat or contained storage,Boron; organics; ammonia; potable quality,UNCONFIRMED,UNCONFIRMED,UNRESOLVED
+Mg/Ca precipitation mother liquor,Return to compatible mineral sequence,Added reagents; remaining ions; impurity accumulation,UNCONFIRMED,UNCONFIRMED,UNRESOLVED
+Bromine scrubber liquor,Recycle or specialized contained treatment,Bromine/bromide; oxidants; hazardous constituents,UNCONFIRMED,UNCONFIRMED,UNRESOLVED
+Crystallizer purge/mixed salts,Reprocess; stabilize or permitted disposal,Solubility; contaminants; unsaleable inventory; landfill leachate fate,UNCONFIRMED,UNCONFIRMED,UNRESOLVED
+Wet filter cake,Recover; stabilize; test; permitted final disposal,Bound/free water; leachability; long-term final fate,UNCONFIRMED,UNCONFIRMED,UNRESOLVED
+Filter-press filtrate,Closed treatment loop or contained remediation,Salt; metals; reagents; cannot silently drain to sea,UNCONFIRMED,UNCONFIRMED,UNRESOLVED
+Spent sorbents/resins/membranes,Regenerate with closed residual route; qualified recycler or disposal,Regeneration brine; contaminants; media degradation,UNCONFIRMED,UNCONFIRMED,UNRESOLVED
+Plasma/offgas dust and scrubber purge,Capture; recover or permitted treatment/disposal,Volatile metals; acid gases; new secondary waste,UNCONFIRMED,UNCONFIRMED,UNRESOLVED
+Stormwater/contact water/spills,Separate clean drainage; contain contaminated water,Rainfall design; salinity; spills; emergency storage,UNCONFIRMED,UNCONFIRMED,UNRESOLVED
+Maintenance oils/chemicals,Authorized hazardous-waste route where applicable,Mixing compatibility; manifests; recipient capacity,UNCONFIRMED,UNCONFIRMED,UNRESOLVED

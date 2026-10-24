@@ -1,0 +1,18 @@
+test_annual_availability_applied_once (test_model.ModelTests.test_annual_availability_applied_once) ... ok
+test_chloride_limiting_inventory (test_model.ModelTests.test_chloride_limiting_inventory) ... ok
+test_compute_can_increase_net_consumption (test_model.ModelTests.test_compute_can_increase_net_consumption) ... ok
+test_fate_gate_cannot_be_satisfied_by_relocation (test_model.ModelTests.test_fate_gate_cannot_be_satisfied_by_relocation) ... ok
+test_final_assembly_does_not_change_component_share (test_model.ModelTests.test_final_assembly_does_not_change_component_share) ... ok
+test_finance_zero_rate (test_model.ModelTests.test_finance_zero_rate) ... ok
+test_heat_exchanger_approach (test_model.ModelTests.test_heat_exchanger_approach) ... ok
+test_ion_conservation_competing_products (test_model.ModelTests.test_ion_conservation_competing_products) ... ok
+test_missing_cost_is_not_zero (test_model.ModelTests.test_missing_cost_is_not_zero) ... ok
+test_recovery_boundaries (test_model.ModelTests.test_recovery_boundaries) ... ok
+test_residual_is_not_destroyed_by_zld (test_model.ModelTests.test_residual_is_not_destroyed_by_zld) ... ok
+test_water_and_salt_conservation_across_scenarios (test_model.ModelTests.test_water_and_salt_conservation_across_scenarios) ... ok
+test_zero_realized_and_unresolved_clearance (test_model.ModelTests.test_zero_realized_and_unresolved_clearance) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.001s
+
+OK

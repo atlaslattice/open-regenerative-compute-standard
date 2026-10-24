@@ -1,0 +1,17 @@
+component,amount,currency,quantity,basis,evidence,use_in_corpus_total,missing_scope
+Historical plant,450000000,CNY,100000,m3/day; historical total investment,MIIT25/DJK16,No: reference only,Price year; intake/product/discharge boundaries; ZLD not established
+Plant and related facilities,650000000,CNY,100000,m3/day; alternative reported scope,DJK65,No: scope conflict reference,Reconcile facilities and investment basis
+First-stage RO replacement,15381311.4,CNY,4914,Tax-inclusive ranked-candidate lot,RO26,No: maintenance lot,Not all membranes; excludes original train; final award unverified
+UF replacement,5727346.24,CNY,952,Tax-inclusive provisional mirror lot,UF26,No: provisional maintenance lot,Primary missing; overlapping larger lot quarantined
+Self-cleaning filters,2350000,CNY,10,Tax-inclusive provisional mirror lot,FILTER26,No: provisional upgrade lot,Primary missing; not full pretreatment
+Heat pumps and tanks,,CNY,4,Units plus3x30m3 tanks; tender scope,HP26,No: cost unavailable,Price; site thermal duty; final award
+Corpus phase1,78610000,USD,,Indexed city attachment; provisional phase split,CCPHASE,Comparison only,Direct attachment not retrievable; not equipment estimate
+Corpus phase2,900160000,USD,,Indexed city attachment; provisional phase split,CCPHASE,Comparison only,Design/construction breakdown unavailable
+Corpus preliminary GMP,978770000,USD,30,MGD proposed,CCGMP,Comparison only,Rejected proposal; current supplier quote needed
+RO high-pressure pumps,,USD,,Corpus installed equipment,Unquoted,Unknown,Duty; metallurgy; spares; certification; labor
+RO vessels and energy recovery,,USD,,Corpus installed equipment,Unquoted,Unknown,Train count; recovery; guarantees
+Intake and pretreatment,,USD,,Corpus installed system,Unquoted,Unknown,Entrainment; seasonal chemistry; redundant intake
+Mineral recovery and purification,,USD,,Corpus installed modules,Unquoted,Unknown,Selective lanes; reagent recycling; qualification
+Concentration and crystallization,,USD,,Corpus installed modules,Unquoted,Unknown,Energy; scale control; wet cake; condensate quality
+Residual treatment and disposal,,USD,,Corpus complete downstream route,Unquoted,Unknown,Permitted capacity; transport; final fate; offgas
+Pipelines civil electrical permitting contingency finance,,USD,,Corpus project balance,Unquoted,Unknown,Full site quantities; risk allocation; schedule

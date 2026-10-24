@@ -1,0 +1,182 @@
+{
+  "version": "0.1",
+  "as_of": "2026-10-24",
+  "status": "screening; no engineering estimate or realized benefit",
+  "corpus_assumptions": {
+    "product_mgd": 30,
+    "plant_recovery": 0.425,
+    "ro_recovery": 0.475,
+    "availability": 0.9,
+    "feed_salinity_kg_m3": 35,
+    "fx_cny_per_usd_assumed": 7.25
+  },
+  "reference_procurements": [
+    {
+      "source": "RO26",
+      "item": "first-stage RO replacement lot",
+      "quantity": 4914,
+      "cost_cny_including_tax": 15381311.4,
+      "scope": "ranked candidate; elements plus replacement work; not complete train"
+    },
+    {
+      "source": "UF26",
+      "item": "UF replacement lot, provisional mirror",
+      "quantity": 952,
+      "cost_cny_including_tax": 5727346.24,
+      "scope": "overlap possible with larger lot; not baseline CAPEX"
+    },
+    {
+      "source": "FILTER26",
+      "item": "self-cleaning filter replacement",
+      "quantity": 10,
+      "cost_cny_including_tax": 2350000,
+      "scope": "provisional mirror; not baseline CAPEX"
+    }
+  ],
+  "corpus_cost_slots_usd": {
+    "source_water_intake": null,
+    "pretreatment": null,
+    "ro_membranes_and_vessels": null,
+    "high_pressure_pumps": null,
+    "energy_recovery": null,
+    "civil_and_buildings": null,
+    "product_storage_and_pipelines": null,
+    "power_connection": null,
+    "controls_cybersecurity_and_metering": null,
+    "mineral_recovery": null,
+    "residual_concentration": null,
+    "crystallization_or_alternative_final_route": null,
+    "sludge_and_offgas_treatment": null,
+    "permitted_residual_transport_and_disposal": null,
+    "engineering_permits_and_community": null,
+    "contingency": null,
+    "owner_financing_and_startup": null
+  },
+  "representative_ions_mg_l": {
+    "Na": 10500,
+    "Cl": 19000,
+    "Mg": 1350,
+    "Ca": 410,
+    "SO4": 2700,
+    "K": 390,
+    "Br": 67,
+    "HCO3": 142,
+    "B": 4.6,
+    "Sr": 8,
+    "Li": 0.18
+  },
+  "mineral_inventory_basis": "RO reject receives idealized complete dissolved-ion rejection from RO feed; pretreatment losses tracked separately; no feed assay or chemical speciation model",
+  "mineral_scenarios": [
+    {
+      "name": "hydroxide_gypsum",
+      "capture_fraction": 0.5,
+      "magnesium_product": "MgOH2",
+      "calcium_product": "gypsum"
+    },
+    {
+      "name": "chloride_carbonate",
+      "capture_fraction": 0.5,
+      "magnesium_product": "MgCl2",
+      "calcium_product": "CaCO3"
+    }
+  ],
+  "environmental_constraints": {
+    "routine_marine_process_discharge_allowed": false,
+    "zld_target": "aspirational; alternative permitted remediation with documented final fate allowed",
+    "unknown_downstream_fate": "UNRESOLVED; blocks clearance",
+    "external_disposal_with_marine_liquid_release": "FAIL",
+    "intake_and_thermal_ecological_review": "required independently of residual closure"
+  },
+  "revenue_assumptions": {
+    "accepted_mineral_sales_usd": 0,
+    "uncontracted_products_usd": 0,
+    "residual_disposal_usd": null,
+    "note": "Zero revenue assumption does not imply zero disposal cost; all-in costs remain unknown."
+  },
+  "residual_streams": [
+    {
+      "name": "RO reject",
+      "permitted": false,
+      "final_fate_verified": false,
+      "routine_marine_release": null
+    },
+    {
+      "name": "Intake screens/grit",
+      "permitted": false,
+      "final_fate_verified": false,
+      "routine_marine_release": null
+    },
+    {
+      "name": "UF/backwash/pretreatment sludge",
+      "permitted": false,
+      "final_fate_verified": false,
+      "routine_marine_release": null
+    },
+    {
+      "name": "CIP and chemical cleaning",
+      "permitted": false,
+      "final_fate_verified": false,
+      "routine_marine_release": null
+    },
+    {
+      "name": "Off-spec permeate/condensate",
+      "permitted": false,
+      "final_fate_verified": false,
+      "routine_marine_release": null
+    },
+    {
+      "name": "Mg/Ca precipitation mother liquor",
+      "permitted": false,
+      "final_fate_verified": false,
+      "routine_marine_release": null
+    },
+    {
+      "name": "Bromine scrubber liquor",
+      "permitted": false,
+      "final_fate_verified": false,
+      "routine_marine_release": null
+    },
+    {
+      "name": "Crystallizer purge/mixed salts",
+      "permitted": false,
+      "final_fate_verified": false,
+      "routine_marine_release": null
+    },
+    {
+      "name": "Wet filter cake",
+      "permitted": false,
+      "final_fate_verified": false,
+      "routine_marine_release": null
+    },
+    {
+      "name": "Filter-press filtrate",
+      "permitted": false,
+      "final_fate_verified": false,
+      "routine_marine_release": null
+    },
+    {
+      "name": "Spent sorbents/resins/membranes",
+      "permitted": false,
+      "final_fate_verified": false,
+      "routine_marine_release": null
+    },
+    {
+      "name": "Plasma/offgas dust and scrubber purge",
+      "permitted": false,
+      "final_fate_verified": false,
+      "routine_marine_release": null
+    },
+    {
+      "name": "Stormwater/contact water/spills",
+      "permitted": false,
+      "final_fate_verified": false,
+      "routine_marine_release": null
+    },
+    {
+      "name": "Maintenance oils/chemicals",
+      "permitted": false,
+      "final_fate_verified": false,
+      "routine_marine_release": null
+    }
+  ]
+}

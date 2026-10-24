@@ -1,0 +1,18 @@
+product_lane,route,inventory_or_conflict,qualification_gate,status
+NaCl,bulk selective crystallization; wash/purify/dry,RO reject; chloride allocation competes with other chloride salts,chemical or industrial grade contract; limited market absorption,candidate
+Mg(OH)2 / MgO,selective precipitation; optional calcination,"One Mg inventory; alternative products, not additive",purity; contaminants; alkali; calcination energy,candidate
+MgCl2 / MgCO3,alternative Mg salts,"Competes with hydroxide, oxide and nutrient-recovery allocation",hydration state; chloride/carbonate reagent; drying; buyer,candidate
+Mg for struvite,consume qualified Mg reagent in nutrient recovery,Competes with Mg sale; requires separate N/P-bearing wastewater,N/P species; clean fertilizer product; health authorization,cross-domain candidate
+Gypsum / CaCO3,Ca precipitation or mineral carbonation,Competing Ca; gypsum also consumes sulfate; carbonate may be external,purity; soil need or industrial grade; no automatic agricultural approval,candidate
+KCl / K2SO4,selective K concentration and separation,One K inventory; chloride/sulfate allocation also constrained,competitive separation; grade; potash demand and freight,candidate
+Bromine,selective oxidation/stripping/recovery,Contained hazardous-chemical process; bromide measured separately,permits; corrosion; oxidants; occupational controls; contract,candidate; Lubei integrated precedent
+Boron,selective sorption or separation,Low concentration; separate product specification,reagent/media cycling; salinity selectivity; residual destination,research lead
+Lithium,selective extraction,Trace seawater inventory; not concentrated salar chemistry,selectivity; recovery; regeneration; levelized cost,research lead; zero base revenue
+Strontium,selective carbonate/sulfate recovery,Competes with Ca chemistry and may co-precipitate,purity; separation; buyer,research lead
+Rubidium / cesium / iodine,trace selective separation,No numeric recovery projection without assay,concentration; speciation; selectivity; costs,research lead
+Uranium / trace metals / rare earths,specialized capture only if assay supports it,Radiological/toxic controls; no automatic strategic output,assay; permits; economics; waste classification,research lead; zero base credit
+Deuterium / heavy water,specialized isotope separation from water,Not ordinary salt mining or ordinary RO enrichment,isotope plant; energy; licensing; demand; safeguards,research only; no revenue or recovery claim
+Acid / base / hypochlorite,electrodialysis or electrochemical conversion,"Manufactured reagents using salt and electricity, not free mineral output",membrane purity; gases; energy; internal displacement vs sales ownership,candidate with separate energy ledger
+Residual mixed salts,stabilization or permitted industrial use/disposal,Not saleable NaCl by default,leachability; long-term fate; liner compatibility; permits,obligation
+Filter cake / spent media,dewater; recover metals where feasible; stabilize or treat,"Contaminants retained or transferred, not destroyed",permitted final destination; offgas/wastewater closure,obligation
+Plasma/vitrification,optional dewatered compatible residual treatment,Not a bulk brine evaporator or salt-disappearance claim,energy; chloride/metal volatilization; offgas capture; leach tests,optional candidate; quote and trial required
