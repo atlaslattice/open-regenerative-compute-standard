@@ -1,0 +1,7 @@
+assumed_evaporation_fraction,assumed_return_treatment_recovery,circulation_mgd,evaporated_mgd,return_flow_mgd,recovered_return_mgd,liquid_purge_mgd,makeup_mgd,note
+0.01,0.8,10,0.1,9.9,7.920000000000001,1.9799999999999995,2.0799999999999996,Illustrative return-water loop; evaporation is consumed; recirculated flow is not new supply; salts/chemicals and microbial limits require separate control
+0.01,0.95,10,0.1,9.9,9.405,0.495000000000001,0.595000000000001,Illustrative return-water loop; evaporation is consumed; recirculated flow is not new supply; salts/chemicals and microbial limits require separate control
+0.05,0.8,10,0.5,9.5,7.6000000000000005,1.8999999999999995,2.3999999999999995,Illustrative return-water loop; evaporation is consumed; recirculated flow is not new supply; salts/chemicals and microbial limits require separate control
+0.05,0.95,10,0.5,9.5,9.025,0.47499999999999964,0.9749999999999996,Illustrative return-water loop; evaporation is consumed; recirculated flow is not new supply; salts/chemicals and microbial limits require separate control
+0.1,0.8,10,1.0,9.0,7.2,1.7999999999999998,2.8,Illustrative return-water loop; evaporation is consumed; recirculated flow is not new supply; salts/chemicals and microbial limits require separate control
+0.1,0.95,10,1.0,9.0,8.549999999999999,0.45000000000000107,1.450000000000001,Illustrative return-water loop; evaporation is consumed; recirculated flow is not new supply; salts/chemicals and microbial limits require separate control

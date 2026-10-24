@@ -1,0 +1,6 @@
+project,milestone,reported_start,reported_end,reported_months,source,status
+Dongjiakou,Construction tofirstwater,2015-11,2016-09,10,DJK_TIME,Attributedreportedmilestone;startmonthcorroboratedbyassociationaccounts
+CorpusFebruaryproposal,Construction,2027-05-12,2029-10-28,30,CC26PRESENTp15,Proposed900days/30months;notactual
+CorpusSeptemberproposal,Construction,2027-08-11,2030-02-27,,CC26AUGp6,Asprinted;startprecedeslistedNov9NTP;seekclarification
+CorpusSeptemberproposal,Mechanicalcompletion,2030-03-30,2030-06-28,,CC26AUGp6,Separateprintedwindow;notfirstwaterbenchmark
+Atlasalternative,Constructionallowance,,,20,Userproposed2x10,Scenarioonly;prerequisitesandacceptanceadditionalTBD

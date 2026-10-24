@@ -1,0 +1,2 @@
+id,source,source_price_year,source_usd_per_bbl_low,source_usd_per_bbl_high,external_benchmark_usd_m3_low,external_benchmark_usd_m3_high,stream,transferable_to_project,scope
+ANL2006_INJECTION,ANL2006,2005–2006 survey nominal dollars,0.3,10,1.8869432311296317,62.898107704321056,Oil/gas produced water; not desalination brine,False,"Historical external fee benchmark only; do not infer permitted acceptance, current minimum/maximum, transport, capacity or engineering scope."

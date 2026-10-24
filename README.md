@@ -2,9 +2,9 @@
 
 ## Dongjiakou → Corpus Christi lattice
 
-[Latest v0.5 model](prototypes/dongjiakou-corpus-v0_5/README.md) integrates wastewater/mineral recovery, salary-based management and capped outcome incentives, a proposed 20-month construction scenario, primary 2026 proposal costs and funding-versus-expenditure records. Salaries, awards, complete alternative costs and environmental clearance remain unresolved. 49 bookkeeping tests pass; they do not establish treatment performance.
+[Latest v0.6 model](prototypes/dongjiakou-corpus-v0_6/README.md) integrates wastewater and central bioreactor modules, optional ammonia supplementation, finite mineral allocations, fit-for-use water, footprint geometry and qualified industrial/agricultural import substitution. Contract safeguards retain salary-based management, independent outcome verification and human review of AI flags. 69 bookkeeping tests pass; costs, full footprint, physical performance and environmental clearance remain unresolved.
 
-[Delivery and incentive explanation](prototypes/dongjiakou-corpus-v0_5/DELIVERY_WASTEWATER_AND_INCENTIVES_v0_5.md). Prior versions preserved: [v0.4](prototypes/dongjiakou-corpus-v0_4/README.md), [v0.3](prototypes/dongjiakou-corpus-v0_3/README.md), [v0.2](prototypes/dongjiakou-corpus-v0_2/README.md), [v0.1](prototypes/dongjiakou-corpus-v0_1/README.md).
+[Wastewater/resource analysis](prototypes/dongjiakou-corpus-v0_6/WASTEWATER_BIOREACTOR_RESOURCE_NETWORK_v0_6.md). Prior versions preserved: [v0.5](prototypes/dongjiakou-corpus-v0_5/README.md), [v0.4](prototypes/dongjiakou-corpus-v0_4/README.md), [v0.3](prototypes/dongjiakou-corpus-v0_3/README.md), [v0.2](prototypes/dongjiakou-corpus-v0_2/README.md), [v0.1](prototypes/dongjiakou-corpus-v0_1/README.md).
 
 ## Maui resilience simulator — public research release, October 19, 2026
 

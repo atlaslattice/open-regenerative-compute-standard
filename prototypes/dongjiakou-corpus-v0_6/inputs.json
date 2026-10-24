@@ -1,0 +1,499 @@
+{
+  "version": "0.6",
+  "as_of": "2026-10-24",
+  "status": "screening; no engineering estimate or realized benefit",
+  "corpus_assumptions": {
+    "product_mgd": 30,
+    "plant_recovery": 0.425,
+    "ro_recovery": 0.475,
+    "availability": 0.9,
+    "feed_salinity_kg_m3": 35,
+    "fx_cny_per_usd_assumed": 7.25
+  },
+  "reference_procurements": [
+    {
+      "source": "RO26",
+      "item": "first-stage RO replacement lot",
+      "quantity": 4914,
+      "cost_cny_including_tax": 15381311.4,
+      "scope": "ranked candidate; elements plus replacement work; not complete train"
+    },
+    {
+      "source": "UF26",
+      "item": "UF replacement lot, provisional mirror",
+      "quantity": 952,
+      "cost_cny_including_tax": 5727346.24,
+      "scope": "overlap possible with larger lot; not baseline CAPEX"
+    },
+    {
+      "source": "FILTER26",
+      "item": "self-cleaning filter replacement",
+      "quantity": 10,
+      "cost_cny_including_tax": 2350000,
+      "scope": "provisional mirror; not baseline CAPEX"
+    }
+  ],
+  "corpus_cost_slots_usd": {
+    "source_water_intake": null,
+    "pretreatment": null,
+    "ro_membranes_and_vessels": null,
+    "high_pressure_pumps": null,
+    "energy_recovery": null,
+    "civil_and_buildings": null,
+    "product_storage_and_pipelines": null,
+    "power_connection": null,
+    "controls_cybersecurity_and_metering": null,
+    "mineral_recovery": null,
+    "residual_concentration": null,
+    "crystallization_or_alternative_final_route": null,
+    "sludge_and_offgas_treatment": null,
+    "permitted_residual_transport_and_disposal": null,
+    "engineering_permits_and_community": null,
+    "contingency": null,
+    "owner_financing_and_startup": null,
+    "incremental_ai_instrumentation_and_integration": null,
+    "construction_material_processing_and_qualification": null,
+    "chloride_recovery_or_conversion": null,
+    "management_salaries_and_verified_expenses": null,
+    "management_outcome_incentives": null,
+    "wastewater_network_and_resource_recovery": null,
+    "wastewater_advanced_polishing": null,
+    "wastewater_nutrient_recovery": null,
+    "reuse_storage_and_pipelines": null,
+    "industrial_return_water_treatment": null,
+    "additional_solid_residual_qualification": null,
+    "bioreactor_retrofit_or_addition": null,
+    "ammonia_storage_handling_and_dosing": null
+  },
+  "representative_ions_mg_l": {
+    "Na": 10500,
+    "Cl": 19000,
+    "Mg": 1350,
+    "Ca": 410,
+    "SO4": 2700,
+    "K": 390,
+    "Br": 67,
+    "HCO3": 142,
+    "B": 4.6,
+    "Sr": 8,
+    "Li": 0.18
+  },
+  "mineral_inventory_basis": "RO reject receives idealized complete dissolved-ion rejection from RO feed; pretreatment losses tracked separately; no feed assay or chemical speciation model",
+  "mineral_scenarios": [
+    {
+      "name": "hydroxide_gypsum",
+      "capture_fraction": 0.5,
+      "magnesium_product": "MgOH2",
+      "calcium_product": "gypsum"
+    },
+    {
+      "name": "chloride_carbonate",
+      "capture_fraction": 0.5,
+      "magnesium_product": "MgCl2",
+      "calcium_product": "CaCO3"
+    }
+  ],
+  "environmental_constraints": {
+    "routine_marine_process_discharge_allowed": false,
+    "zld_target": "aspirational; alternative permitted remediation with documented final fate allowed",
+    "unknown_downstream_fate": "UNRESOLVED; blocks clearance",
+    "external_disposal_with_marine_liquid_release": "FAIL",
+    "intake_and_thermal_ecological_review": "required independently of residual closure"
+  },
+  "revenue_assumptions": {
+    "accepted_mineral_sales_usd": 0,
+    "uncontracted_products_usd": 0,
+    "residual_disposal_usd": null,
+    "note": "Zero revenue assumption does not imply zero disposal cost; all-in costs remain unknown."
+  },
+  "residual_streams": [
+    {
+      "name": "RO reject",
+      "permitted": false,
+      "final_fate_verified": false,
+      "routine_marine_release": null
+    },
+    {
+      "name": "Intake screens/grit",
+      "permitted": false,
+      "final_fate_verified": false,
+      "routine_marine_release": null
+    },
+    {
+      "name": "UF/backwash/pretreatment sludge",
+      "permitted": false,
+      "final_fate_verified": false,
+      "routine_marine_release": null
+    },
+    {
+      "name": "CIP and chemical cleaning",
+      "permitted": false,
+      "final_fate_verified": false,
+      "routine_marine_release": null
+    },
+    {
+      "name": "Off-spec permeate/condensate",
+      "permitted": false,
+      "final_fate_verified": false,
+      "routine_marine_release": null
+    },
+    {
+      "name": "Mg/Ca precipitation mother liquor",
+      "permitted": false,
+      "final_fate_verified": false,
+      "routine_marine_release": null
+    },
+    {
+      "name": "Bromine scrubber liquor",
+      "permitted": false,
+      "final_fate_verified": false,
+      "routine_marine_release": null
+    },
+    {
+      "name": "Crystallizer purge/mixed salts",
+      "permitted": false,
+      "final_fate_verified": false,
+      "routine_marine_release": null
+    },
+    {
+      "name": "Wet filter cake",
+      "permitted": false,
+      "final_fate_verified": false,
+      "routine_marine_release": null
+    },
+    {
+      "name": "Filter-press filtrate",
+      "permitted": false,
+      "final_fate_verified": false,
+      "routine_marine_release": null
+    },
+    {
+      "name": "Spent sorbents/resins/membranes",
+      "permitted": false,
+      "final_fate_verified": false,
+      "routine_marine_release": null
+    },
+    {
+      "name": "Plasma/offgas dust and scrubber purge",
+      "permitted": false,
+      "final_fate_verified": false,
+      "routine_marine_release": null
+    },
+    {
+      "name": "Stormwater/contact water/spills",
+      "permitted": false,
+      "final_fate_verified": false,
+      "routine_marine_release": null
+    },
+    {
+      "name": "Maintenance oils/chemicals",
+      "permitted": false,
+      "final_fate_verified": false,
+      "routine_marine_release": null
+    },
+    {
+      "name": "Chloride-processing purge/acid-return stream",
+      "permitted": false,
+      "final_fate_verified": false,
+      "routine_marine_release": null
+    },
+    {
+      "name": "Wastewater advanced-treatment concentrate",
+      "permitted": false,
+      "final_fate_verified": false,
+      "routine_marine_release": null
+    },
+    {
+      "name": "Wastewater nutrient-recovery mother liquor",
+      "permitted": false,
+      "final_fate_verified": false,
+      "routine_marine_release": null
+    },
+    {
+      "name": "Wastewater biosolids/digestate",
+      "permitted": false,
+      "final_fate_verified": false,
+      "routine_marine_release": null
+    },
+    {
+      "name": "Industrial cooling/boiler blowdown",
+      "permitted": false,
+      "final_fate_verified": false,
+      "routine_marine_release": null
+    },
+    {
+      "name": "Wastewater spent media and regenerant",
+      "permitted": false,
+      "final_fate_verified": false,
+      "routine_marine_release": null
+    }
+  ],
+  "import_compliance": {
+    "section_301_rate": null,
+    "section_301_sensitivity_rates": [
+      0,
+      0.25,
+      0.5
+    ],
+    "hts_code": null,
+    "candidate_hts_from_deepseek": "8421.21.00; classification unconfirmed",
+    "entry_date": null,
+    "customs_value_usd": null,
+    "other_duties_rate": null,
+    "freight_and_insurance_usd": null,
+    "certification_integration_usd": null,
+    "baba_component_test_applicable": null,
+    "baba_component_test": null,
+    "baba_waiver_basis": null,
+    "us_manufacturing_confirmed": null,
+    "domestic_component_cost_usd": null,
+    "foreign_component_cost_usd": null,
+    "note": "Scenario rates are assumptions, not current applied tariffs. Obtain broker entry-date classification, exclusions and all stacked duties. BABA must be classified and evaluated per manufactured product, not plant-wide averaging."
+  },
+  "ai_lifecycle_costs": {
+    "incremental_sensor_and_integration_capex_usd": null,
+    "storage_and_software_usd_year": null,
+    "cyber_and_training_usd_year": null,
+    "maintenance_and_replacement_usd_year": null
+  },
+  "mineral_water_energy_couplings": [
+    {
+      "name": "hydroxide_gypsum",
+      "additional_water_fraction": null,
+      "incremental_reagent_cost_usd_day": null,
+      "required_feed_assay": true,
+      "incremental_energy_kwh_per_m3_ro_reject": null
+    },
+    {
+      "name": "chloride_carbonate",
+      "additional_water_fraction": null,
+      "incremental_reagent_cost_usd_day": null,
+      "required_feed_assay": true,
+      "incremental_energy_kwh_per_m3_ro_reject": null
+    }
+  ],
+  "portfolio_sensitivity": {
+    "horizon_years": 30,
+    "discount_rate": 0.06,
+    "net_contribution_usd_t": [
+      50,
+      150,
+      300
+    ],
+    "status": "Illustrative net margins only; not prices or quotes; assumes sale of all modeled Mg(OH)2 at 50% capture; allocated mineral recovery capital/operating costs already deducted; before shared final residual closure",
+    "base_case_realized_revenue_usd": 0
+  },
+  "historical_cost_leverage": {
+    "source": "CC25DETAIL",
+    "date": "2025-07-22",
+    "process_equipment_usd": 154130011,
+    "construction_total_usd": 997289133,
+    "engineering_admin_usd": 192133918,
+    "note": "Historical matched boundary; do not combine with2026 GMP"
+  },
+  "mineral_break_even_actual": {
+    "capex_usd": null,
+    "fixed_opex_usd_y": null,
+    "variable_cost_usd_t": null,
+    "sold_t_y": null,
+    "discount_rate": 0.06,
+    "life_years": 20,
+    "allocated_residual_cost_usd_y": null,
+    "note": "Actual break-even remains null until costs and saleable output established. Scenario inputs are separate."
+  },
+  "chloride_scenarios": [
+    {
+      "name": "nacl_only",
+      "fractions": {
+        "nacl": 0.75
+      },
+      "acid_return_fraction": 0
+    },
+    {
+      "name": "bmed_only",
+      "fractions": {
+        "bmed": 0.75
+      },
+      "acid_return_fraction": 0
+    },
+    {
+      "name": "bmed_half_acid_returns",
+      "fractions": {
+        "bmed": 0.75
+      },
+      "acid_return_fraction": 0.5
+    },
+    {
+      "name": "chloralkali_only",
+      "fractions": {
+        "chloralkali": 0.75
+      },
+      "acid_return_fraction": 0
+    },
+    {
+      "name": "split_routes",
+      "fractions": {
+        "nacl": 0.25,
+        "bmed": 0.25,
+        "chloralkali": 0.25
+      },
+      "acid_return_fraction": 0
+    }
+  ],
+  "residue_policy": {
+    "aspiration": "Recover all technically accessible resources into qualified uses; recover or reuse water; minimize final unrecovered residue",
+    "sludge_definition": "Intermediate physical form, not proof of unextractability",
+    "unrecoverable_claim": "Requires specified technology, conditions and evidence; missing pathway or buyer is unresolved, not proof of unextractability",
+    "economic_recovery": "Separate from technical recovery; portfolio subsidy allowed subject to independent environmental vetoes"
+  },
+  "equipment_sourcing": {
+    "internationally_sourceable_fraction": null,
+    "scenario_fractions": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "assumed_net_price_reduction": 0.5,
+    "status": "Actual eligibility/sourceable fraction and net price advantage unverified; scenarios are not achievable bounds inferred from Chinese import dependence or patent shares."
+  },
+  "conditional_price_bridge": {
+    "module_capex_usd": 50000000.0,
+    "fixed_opex_usd_y": 5000000.0,
+    "variable_cost_usd_t": 400,
+    "discount_rate": 0.06,
+    "life_years": 20,
+    "shared_residual_cost_usd_y": 0,
+    "note": "Conditional bridge to one illustrative break-even scenario, not a unique implied market price. Shared residual cost excluded in this bridge."
+  },
+  "historical_construction_groups": {
+    "process_equipment": 154130011,
+    "other_physical_works": 674303247,
+    "escalation_contingency_insurance_general_conditions": 168855875
+  },
+  "external_disposal_benchmarks": [
+    {
+      "id": "ANL2006_INJECTION",
+      "source": "ANL2006",
+      "source_usd_per_bbl_low": 0.3,
+      "source_usd_per_bbl_high": 10,
+      "source_price_year": "2005\u20132006 survey nominal dollars",
+      "stream": "Oil/gas produced water; not desalination brine",
+      "transferable_to_project": false,
+      "current_quote": false,
+      "transport_included": false,
+      "note": "Historical external fee benchmark only; do not infer permitted acceptance, current minimum/maximum, transport, capacity or engineering scope."
+    }
+  ],
+  "management_policy": {
+    "status": "PROPOSED alternative only; historical comparator costs retained",
+    "spend_linked_management_fee_rate": 0,
+    "salary_usd_year": null,
+    "employer_burden_usd_year": null,
+    "management_fte": null,
+    "management_duration_years": null,
+    "verified_reimbursable_costs_usd": null,
+    "salary_cost_slot": "management_salaries_and_verified_expenses",
+    "schedule_bonus_usd": null,
+    "quality_bonus_usd": null,
+    "verified_savings_share_rate": null,
+    "recovery_value_share_rate": null,
+    "total_incentive_cap_usd": null,
+    "holdback_fraction": null,
+    "holdback_years": null,
+    "recovery_basis": "Incremental verified net value of qualified sold OR internally consumed products after attributable lifecycle costs; not gross theoretical inventory",
+    "internal_use_value": "Accepted consumed quantity times independently supported delivered substitute purchase cost; capped at evidenced avoidable purchase cost; excludes taxes/subsidies/internal transfers not actually saved",
+    "gate": "No award until product qualification, legitimate sale or verified consumption, residual fate, safety and independent acceptance are confirmed",
+    "purpose": "Remove automatic reward for larger expenditures; pay reasonable TBD salaries and verified costs, with separately capped rewards for durable public value. Not an assertion of misconduct or existing percentage fees."
+  },
+  "schedule_policy": {
+    "reference_construction_months": 10,
+    "reference_status": "Reported construction-to-first-water; not audited full planning-to-acceptance duration",
+    "allowance_multiplier": 2,
+    "stretch_target_months": 10,
+    "reference_permitting_months": null,
+    "corpus_prereadiness_months": null,
+    "corpus_acceptance_after_first_water_months": null,
+    "benchmark_start": "Construction notice to proceed after site, permits, financing, design and supply readiness; actual prerequisites must be audited",
+    "performance_acceptance_window_days": null,
+    "schedule_bonus_at_stretch_usd": null,
+    "schedule_bonus_at_allowance_usd": null,
+    "note": "20 months is analyst/user scenario, not an engineering promise. Owner/regulatory delays separately logged; no reward for skipping lawful approvals or commissioning."
+  },
+  "wastewater_integration": {
+    "option": "One recovery campus OR connected network; compare alternatives",
+    "existing_reuse_program_mgd_announced": 16,
+    "phase2_increment_mgd_announced": 11,
+    "phase2_contract_usd": 107500000,
+    "capacity_status": "Announced planned program, not measured delivered supply",
+    "additional_reuse_displacement_mgd": null,
+    "firm_reuse_at_required_quality_mgd": null,
+    "nutrient_feed_p_mg_l": null,
+    "nutrient_feed_n_mg_l": null,
+    "recoverable_mg_to_struvite_t_day": null,
+    "incremental_cost_usd": null,
+    "existing_nutrient_or_biogas_recovery_status": "Updated v0.6: historicalpermitdocumentsanaerobicdigesters;2025capitalplanproposeselimination; commercialbiogas/nutrientrecoveryandcurrentassetstatusunconfirmed",
+    "no_double_count": "Existing committed reuse cannot be credited as a new lattice gain; reuse and desal are not automatically interchangeable firm supplies"
+  },
+  "wastewater_screening": {
+    "assumed_feed_mgd": [
+      8,
+      16
+    ],
+    "actual_available_feed_mgd": null,
+    "sample_date": "2024-09-03",
+    "sample_status": "Historical singleGreenwood effluent assay; notcurrentaverage or Oso/mixedprogramchemistry",
+    "historical_effluent_mg_l": {
+      "total_phosphorus": 3.2,
+      "ammonia_as_n": 0.08,
+      "nitrate_as_n": 15,
+      "chloride": 509,
+      "tds": 1432
+    },
+    "lab_qualifiers": "AmmoniaJ estimated below0.1reportinglimit; nitrate O^holdingtimeflag; summaryTKN1.89average>1.88max internal inconsistency retained; noTNderived",
+    "actual_campus_footprint_acres": null,
+    "actual_industrial_return_flow_mgd": null,
+    "actual_crop_area_acres": null,
+    "actual_import_displacement_t_year": null,
+    "actual_mg_nutrient_allocation_t_day": null,
+    "counterfactual": "Current and committed wastewater reuse including Valero contract; no newcredit for rebranding it",
+    "biogas_status": "Permitapplication describes digesters;2025capitalplan describes elimination. Reconcilecurrentconfiguration beforebiogascredit."
+  },
+  "contract_safeguards": {
+    "ai_role": "Advisory flaggedreview only; noautonomouspaymentdeduction investigation sanction orfaultfinding",
+    "independent_review_required": true,
+    "contractor_response_and_dispute_process_required": true,
+    "schedule_award_requires": [
+      "applicablepermitconditionssatisfied",
+      "commissioningcomplete",
+      "sustainedqualityandcapacityaccepted",
+      "residualfateverified",
+      "independentreview"
+    ],
+    "first_water_alone_triggers_award": false,
+    "internal_value_reference": "Independent reasonable least-cost qualified delivered alternative with actual avoidable purchase; not contractor-selected inflated substitute",
+    "cp_pc_scope": "Federalaward rules mayreachlocalrecipients; actualCorpusfundingandcontractapplicabilityTBD",
+    "fixed_negotiated_fee_is_not_automatically_CPPC": true,
+    "no_existing_misconduct_assumed": true,
+    "gmp_baseline": "Independent quantity-based estimate and comparable performance; scopechanges audited toavoidbaselinepadding"
+  },
+  "bioreactor_policy": {
+    "central_design_element": true,
+    "modules": "Biologicalwatertreatment;anaerobicdigestion/co-digestion;fermentation/Prelease;sidestreamnutrientcapture;candidatealgal/fungalbiomasspolishing",
+    "selection": "Choosecompatiblemodulesfromactualorganic/nutrientfeed;notoneuniversalreactor",
+    "actual_feed_bod_cod_solids_n_p": null,
+    "actual_kinetics_and_net_energy": null,
+    "footprint_status": "Geometryscenariosonly;actualvendorlayoutandassetreuseTBD",
+    "ammonia_supplement_allowed": true,
+    "ammonia_source_options": [
+      "local_recovered",
+      "domestic_purchase",
+      "international_import"
+    ],
+    "ammonia_quote_usd_t": null,
+    "p_reactive_fraction": null,
+    "native_effluent_ammonia_qualifier": "2024singleJestimatedresultbelowreportinglimit;test0/.08/.1mgNasassumptions",
+    "accounting": "PurchasedNandlocalrecoveredNtrackedseparately;noinventedNrecovery;upstreamNpreservationandCaProutealsoevaluate"
+  }
+}

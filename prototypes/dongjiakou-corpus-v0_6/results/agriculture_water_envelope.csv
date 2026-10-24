@@ -1,0 +1,10 @@
+allocated_reuse_mgd,assumed_distribution_efficiency,annual_applied_duty_acre_ft_acre,delivered_acre_ft_year,illustrative_irrigation_acres,authorized_crop_acres,status
+1,0.85,2,952.1210355041899,476.06051775209494,,"Annual arithmetic only; not located land, agronomic suitability, seasonal storage or legal allocation"
+1,0.85,3,952.1210355041899,317.3736785013966,,"Annual arithmetic only; not located land, agronomic suitability, seasonal storage or legal allocation"
+1,0.85,4,952.1210355041899,238.03025887604747,,"Annual arithmetic only; not located land, agronomic suitability, seasonal storage or legal allocation"
+2,0.85,2,1904.2420710083798,952.1210355041899,,"Annual arithmetic only; not located land, agronomic suitability, seasonal storage or legal allocation"
+2,0.85,3,1904.2420710083798,634.7473570027933,,"Annual arithmetic only; not located land, agronomic suitability, seasonal storage or legal allocation"
+2,0.85,4,1904.2420710083798,476.06051775209494,,"Annual arithmetic only; not located land, agronomic suitability, seasonal storage or legal allocation"
+4,0.85,2,3808.4841420167595,1904.2420710083798,,"Annual arithmetic only; not located land, agronomic suitability, seasonal storage or legal allocation"
+4,0.85,3,3808.4841420167595,1269.4947140055865,,"Annual arithmetic only; not located land, agronomic suitability, seasonal storage or legal allocation"
+4,0.85,4,3808.4841420167595,952.1210355041899,,"Annual arithmetic only; not located land, agronomic suitability, seasonal storage or legal allocation"

@@ -1,0 +1,7 @@
+category,source,reported_reference,adopted_savings_fraction,limitation
+modularization,CII_MODEL,Project-specific savings OR cost increase,,No adopted percentage; overlapping labor/schedule/footprint effects
+intake_colocation,CA_INTAKE,60-80% intake cost reduction reported conditionally,,Not full marine or project reduction; requires suitable existing capacity rights and ecology
+general_conditions,DEEPSEEK,6-8% claimed by DeepSeek,,UNVERIFIED comparable range; denominator and duration differ
+contingency,AACE_RISK,Risk-specific assessment,,No blanket10-15% standard adopted
+escalation,DEEPSEEK,3-5% per year claimed,,UNVERIFIED; total project escalation is not annual escalation
+wages,DEEPSEEK,US25.48USD/hour;China300-500CNY/day claimed,,Unverified rates;8hour day and7.25FX imply3-5x not10x; loaded productive labor required

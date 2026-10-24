@@ -1,0 +1,9 @@
+item,amount_usd,classification,source,interpretation
+SWIFT2024_commitment,535110000,commitment,TWDB24,Not cash expenditure; planned multiyear financing
+prior_commitments_as_reported2024,225225000,prior commitments,TWDB24,Includes2017/2020; not additional to combined total
+combined_project_financing2024,760335000,combined commitments,TWDB24,Do not sum with component commitment rows
+city_rounded_SWIFT_statement,757000000,city reported loans,CCFUND26,Different rounded scope; reconcile with board commitment records
+city_separate_grant_statement,46000000,city reported grant budget,CCFUND26,Separate water funding; not assumed desal spending
+KRIS_bonds_issued_approx,235000000,reported bond issuance,KRIS_FUNDS,Secondary reported approximation; not expenditure or current audited balance
+actual_cumulative_desal_expenditure,,cash expenditure,UNLOCATED_CURRENT,Do not replace with loan commitments or bonds issued
+unspent_restricted_bond_proceeds,,balance,UNLOCATED_CURRENT,Reconcile audited draws expenses cash interest debt and defeasance separately

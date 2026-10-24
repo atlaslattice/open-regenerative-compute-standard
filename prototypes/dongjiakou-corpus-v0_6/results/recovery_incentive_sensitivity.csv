@@ -1,0 +1,10 @@
+hypothetical_value_before_cost_usd,hypothetical_attributable_cost_usd,assumed_share_rate,assumed_cap_usd,incremental_net_value_usd,incentive_usd,status
+1000000.0,1100000.0,0.05,100000,-100000.0,0.0,SCENARIO only; independent verification and contract terms required
+1000000.0,1100000.0,0.1,100000,-100000.0,0.0,SCENARIO only; independent verification and contract terms required
+1000000.0,1100000.0,0.2,100000,-100000.0,0.0,SCENARIO only; independent verification and contract terms required
+1000000.0,1000000.0,0.05,100000,0.0,0.0,SCENARIO only; independent verification and contract terms required
+1000000.0,1000000.0,0.1,100000,0.0,0.0,SCENARIO only; independent verification and contract terms required
+1000000.0,1000000.0,0.2,100000,0.0,0.0,SCENARIO only; independent verification and contract terms required
+1000000.0,0,0.05,100000,1000000,50000.0,SCENARIO only; independent verification and contract terms required
+1000000.0,0,0.1,100000,1000000,100000,SCENARIO only; independent verification and contract terms required
+1000000.0,0,0.2,100000,1000000,100000,SCENARIO only; independent verification and contract terms required

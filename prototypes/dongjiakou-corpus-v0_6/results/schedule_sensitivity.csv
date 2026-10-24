@@ -1,0 +1,5 @@
+name,reference_construction_months,allowance_multiplier,proposed_construction_months,prerequisites_months,acceptance_months,total_project_months,status
+1x reported construction duration,10,1,10,,,,SCENARIO construction clock only; no time-to-commission guarantee
+1.5x reported construction duration,10,1.5,15.0,,,,SCENARIO construction clock only; no time-to-commission guarantee
+2x reported construction duration,10,2,20,,,,SCENARIO construction clock only; no time-to-commission guarantee
+3x reported construction duration,10,3,30,,,,SCENARIO construction clock only; no time-to-commission guarantee

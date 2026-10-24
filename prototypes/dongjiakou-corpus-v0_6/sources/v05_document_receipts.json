@@ -1,0 +1,20 @@
+[
+  {
+    "local_name": "cc2026-presentation.pdf",
+    "sha256": "4c0eb9f02b1ed9145819121a59ee2948b9d3d2b3243a1923ab0e4ff993fcf407",
+    "bytes": 4891010,
+    "redistributed": false
+  },
+  {
+    "local_name": "cc2026-august.pdf",
+    "sha256": "2123d5cd306b3ca03ce11848b18221e7767bd89f8ec6362e467579af79a3fb5c",
+    "bytes": 2794050,
+    "redistributed": false
+  },
+  {
+    "local_name": "cc2026-memo.pdf",
+    "sha256": "9fbf3f5e8df2d6e216b52e717d00a0d6783adae27e8b66122539ce5b84cdd847",
+    "bytes": 216586,
+    "redistributed": false
+  }
+]

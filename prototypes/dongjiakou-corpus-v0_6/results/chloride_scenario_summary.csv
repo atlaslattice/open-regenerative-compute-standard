@@ -1,0 +1,6 @@
+scenario,initial_cl_t_d,total_consumed_cl_t_d,unallocated_cl_t_d,returned_cl_t_d,final_residual_cl_t_d,scope
+nacl_only,2564.626848609076,1923.4701364568073,641.1567121522689,0,641.1567121522689,One row per scenario; route-level consumption is in separate table
+bmed_only,2564.626848609076,1923.4701364568073,641.1567121522689,0.0,641.1567121522689,One row per scenario; route-level consumption is in separate table
+bmed_half_acid_returns,2564.626848609076,1923.4701364568073,641.1567121522689,961.7350682284036,1602.8917803806726,One row per scenario; route-level consumption is in separate table
+chloralkali_only,2564.626848609076,1923.4701364568073,641.1567121522689,0,641.1567121522689,One row per scenario; route-level consumption is in separate table
+split_routes,2564.626848609076,1923.4701364568073,641.1567121522693,0.0,641.1567121522693,One row per scenario; route-level consumption is in separate table

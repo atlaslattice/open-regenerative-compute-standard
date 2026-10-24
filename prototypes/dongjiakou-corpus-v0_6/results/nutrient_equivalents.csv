@@ -1,0 +1,7 @@
+case,flow_mgd,p_recovered_t_d,p2o5_equivalent_t_d,n_recovered_t_d,qualified_fertilizer_t_d,verified_import_displacement_t_d,note
+Historical final-effluent chemistry scaled to assumed flow,4,0.002678682485830042,0.006137844122872488,0.00121133177088,0,,"Nutrient-unit equivalence only,not agronomic oneforoneDAP substitution or accepted product/importsaving"
+Historical final-effluent chemistry scaled to assumed flow,8,0.005357364971660084,0.012275688245744976,0.00242266354176,0,,"Nutrient-unit equivalence only,not agronomic oneforoneDAP substitution or accepted product/importsaving"
+Historical final-effluent chemistry scaled to assumed flow,16,0.010714729943320168,0.024551376491489953,0.00484532708352,0,,"Nutrient-unit equivalence only,not agronomic oneforoneDAP substitution or accepted product/importsaving"
+"ASSUMED concentrated sidestream, not a measured local stream",0.1,0.030283294272000005,0.06939013516975925,0.013694462360743344,0,,"Nutrient-unit equivalence only,not agronomic oneforoneDAP substitution or accepted product/importsaving"
+"ASSUMED concentrated sidestream, not a measured local stream",0.5,0.15141647136,0.3469506758487962,0.06847231180371671,0,,"Nutrient-unit equivalence only,not agronomic oneforoneDAP substitution or accepted product/importsaving"
+"ASSUMED concentrated sidestream, not a measured local stream",1,0.30283294272,0.6939013516975924,0.13694462360743342,0,,"Nutrient-unit equivalence only,not agronomic oneforoneDAP substitution or accepted product/importsaving"
