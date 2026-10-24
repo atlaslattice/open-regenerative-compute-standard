@@ -1,0 +1,10 @@
+energy_intensity_ASSUMED_kwh_per_actual_feed_t,electricity_price_ASSUMED_usd_per_kwh,electricity_only_usd_per_feed_t
+100,0.1,10.0
+100,0.3,30.0
+100,0.5,50.0
+500,0.1,50.0
+500,0.3,150.0
+500,0.5,250.0
+1000,0.1,100.0
+1000,0.3,300.0
+1000,0.5,500.0
