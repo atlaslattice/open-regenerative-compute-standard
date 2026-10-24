@@ -1,0 +1,7 @@
+id,deepseek_attributed_claim,audit_status
+DS-COST542,$542962400 treatment category within 2026 GMP,UNVERIFIED; request exact dated source; historical2025 table differs
+DS-CAPEXSHARES,60% equipment;18% civil/electrical;14.5% intake/outfall,UNVERIFIED benchmark; definitions may overlap; not used to allocate costs
+DS-GOV,Gulf labor tariff governance generalizations,UNVERIFIED causal attribution; not quantified as residual governance waste
+DS-AIPCT,18% fouling;12% TMP;>50% SEC savings,UNVERIFIED source/method/baseline; not used as achieved savings
+DS-MARKET,$18bn global mineral revenue;$450–820/t MgOH2,UNVERIFIED price/feed/grade/date/scale; not a net margin or Corpus sales price
+DS-DISPOSAL,Hawaii legal limits and broad ZLD economics,Jurisdiction- and stream-specific; not a Corpus fallback quote

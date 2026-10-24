@@ -1,0 +1,18 @@
+category,parent_category,entry_type,corpus_2025_usd,dongjiakou_same_scope_cny,corpus_2026_same_scope_usd,date,source,status
+construction,,aggregate,997289133,,,2025-07-22,CC25DETAIL,Primary table visually checked; not a breakdown of the 2026 GMP
+marine,construction,aggregate,151493815,,,2025-07-22,CC25DETAIL,Primary table visually checked; not a breakdown of the 2026 GMP
+intake,marine,leaf,69757035,,,2025-07-22,CC25DETAIL,Primary table visually checked; not a breakdown of the 2026 GMP
+discharge,marine,leaf,81736780,,,2025-07-22,CC25DETAIL,Primary table visually checked; not a breakdown of the 2026 GMP
+treatment,construction,aggregate,582271072,,,2025-07-22,CC25DETAIL,Primary table visually checked; not a breakdown of the 2026 GMP
+civil,treatment,leaf,45830149,,,2025-07-22,CC25DETAIL,Primary table visually checked; not a breakdown of the 2026 GMP
+structural,treatment,leaf,92404650,,,2025-07-22,CC25DETAIL,Primary table visually checked; not a breakdown of the 2026 GMP
+plant_piping,treatment,leaf,118242391,,,2025-07-22,CC25DETAIL,Primary table visually checked; not a breakdown of the 2026 GMP
+process_equipment,treatment,leaf,154130011,,,2025-07-22,CC25DETAIL,Primary table visually checked; not a breakdown of the 2026 GMP
+electrical_instrumentation,treatment,leaf,104113659,,,2025-07-22,CC25DETAIL,Primary table visually checked; not a breakdown of the 2026 GMP
+buildings,treatment,leaf,67550212,,,2025-07-22,CC25DETAIL,Primary table visually checked; not a breakdown of the 2026 GMP
+product_waterline,construction,leaf,69962876,,,2025-07-22,CC25DETAIL,Primary table visually checked; not a breakdown of the 2026 GMP
+navigation_pump_storage,construction,leaf,24705495,,,2025-07-22,CC25DETAIL,Primary table visually checked; not a breakdown of the 2026 GMP
+escalation,construction,leaf,48740000,,,2025-07-22,CC25DETAIL,Primary table visually checked; not a breakdown of the 2026 GMP
+contingency,construction,leaf,45000000,,,2025-07-22,CC25DETAIL,Primary table visually checked; not a breakdown of the 2026 GMP
+bonds_insurance,construction,leaf,9020551,,,2025-07-22,CC25DETAIL,Primary table visually checked; not a breakdown of the 2026 GMP
+general_conditions,construction,leaf,66095324,,,2025-07-22,CC25DETAIL,Primary table visually checked; not a breakdown of the 2026 GMP

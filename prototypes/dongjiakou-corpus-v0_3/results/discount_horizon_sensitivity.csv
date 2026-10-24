@@ -1,0 +1,10 @@
+annual_product_contribution_usd,max_shared_residual_budget_usd_m3,nominal_horizon_contribution_usd,present_value_before_shared_residual_cost_usd,status,assumed_discount_rate,horizon_years,assumed_net_margin_usd_t
+19080318.666272003,0.3780393003294801,190803186.66272002,162758988.41362035,Illustrative break-even support; no accepted sales or actual residual costs established,0.03,10,150
+19080318.666272003,0.3780393003294801,381606373.32544005,283866961.2869419,Illustrative break-even support; no accepted sales or actual residual costs established,0.03,20,150
+19080318.666272003,0.3780393003294801,572409559.9881601,373982666.94745797,Illustrative break-even support; no accepted sales or actual residual costs established,0.03,30,150
+19080318.666272003,0.3780393003294801,190803186.66272002,140432806.3524948,Illustrative break-even support; no accepted sales or actual residual costs established,0.06,10,150
+19080318.666272003,0.3780393003294801,381606373.32544005,218849751.9272601,Illustrative break-even support; no accepted sales or actual residual costs established,0.06,20,150
+19080318.666272003,0.3780393003294801,572409559.9881601,262637364.7578461,Illustrative break-even support; no accepted sales or actual residual costs established,0.06,30,150
+19080318.666272003,0.3780393003294801,190803186.66272002,117240298.44313805,Illustrative break-even support; no accepted sales or actual residual costs established,0.1,10,150
+19080318.666272003,0.3780393003294801,381606373.32544005,162441508.75860545,Illustrative break-even support; no accepted sales or actual residual costs established,0.1,20,150
+19080318.666272003,0.3780393003294801,572409559.9881601,179868532.06982684,Illustrative break-even support; no accepted sales or actual residual costs established,0.1,30,150

@@ -1,0 +1,6 @@
+intended_use,measured_chloride,maximum_allowed,units,documented_specification,other_required_checks,status
+reinforced construction,,,,,Corrosion; binder chemistry; leaching; strength; service and crushed end-of-life,UNRESOLVED; no universal chloride threshold
+nonreinforced construction,,,,,Durability; efflorescence; leaching; structural requirements; end-of-life,UNRESOLVED; no universal chloride threshold
+irrigation water,,,,,Crop sensitivity; sodium; boron; TDS; soil drainage; water standard,UNRESOLVED; no universal chloride threshold
+industrial salt/brine,,,,,NaCl grade; Ca/Mg; metals; sulfate; organics; buyer feed spec,UNRESOLVED; no universal chloride threshold
+HCl/chlorine products,,,,,Product purity; concentration; contaminants; receiving chemistry; use/end-fate,UNRESOLVED; no universal chloride threshold

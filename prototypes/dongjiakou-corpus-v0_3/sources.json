@@ -1,0 +1,226 @@
+[
+  {
+    "id": "MIIT25",
+    "title": "Government casebook, printed pp64\u201367",
+    "url": "https://jxj.ezhou.gov.cn/xwzx/tzgg/202510/P020251031656176156731.pdf",
+    "status": "Government-reported operating case; scope not independently audited",
+    "extracted_basis": "Dongjiakou 100000 m3/day; CNY450m; UF\u2013RO2.2 kWh/m3; plant recovery40\u201345% distinct from RO45\u201350%. Separate Lubei case routes brine to bromine and salt production.",
+    "accessed": "2026-10-24"
+  },
+  {
+    "id": "DJK16",
+    "title": "Historical project report",
+    "url": "https://news.qingdaonews.com/qingdao/2016-05/13/content_11600721.htm",
+    "status": "Contemporaneous report, not current equipment quote",
+    "extracted_basis": "CNY450m; design100000 m3/day; reported3.52 kWh/m3; warmed power-station cooling seawater; intake/discharge infrastructure.",
+    "accessed": "2026-10-24"
+  },
+  {
+    "id": "DJK65",
+    "title": "Company environmental assessment",
+    "url": "https://sailuns3.s3.cn-northwest-1.amazonaws.com.cn/upload/portal/20220627/349a04ed2bba8641027bde0e0b21095d.pdf",
+    "status": "Company EIA reporting third-party water supplier",
+    "extracted_basis": "CNY650m plant and related facilities; cost scope differs from CNY450m.",
+    "accessed": "2026-10-24"
+  },
+  {
+    "id": "RO26",
+    "title": "First-stage RO replacement candidate notice, 2026-08-26",
+    "url": "https://ggzy.qingdao.gov.cn/c/TradeDetals-ZtbShow/163843-5070-0-2-0/62edce3d-5209-400d-9f9a-97670aaaa100-B03CE5B6FC1D2D3C2D5FCEBC39AA2406.html",
+    "status": "Primary procurement ranked candidate, not executed contract",
+    "extracted_basis": "4914 elements; first candidate OriginWater; CNY15381311.40 including tax; removal and installation included.",
+    "accessed": "2026-10-24"
+  },
+  {
+    "id": "UF26",
+    "title": "UF replacement mirror, 2026-09-24",
+    "url": "https://www.yfbzb.com/winbid/detail/20260924_634498101.html",
+    "status": "PROVISIONAL mirror; primary notice not located; linked identifier inconsistent",
+    "extracted_basis": "952 elements; CNY5727346.24 including tax derived from6016.12 each; includes installation works. Do not add to overlapping2448-element lot.",
+    "accessed": "2026-10-24"
+  },
+  {
+    "id": "FILTER26",
+    "title": "Self-cleaning filter candidate mirror",
+    "url": "https://sd.zhaobiao.lanyancloud.com/notice/bbadac59d4344004",
+    "status": "PROVISIONAL mirror; primary not located",
+    "extracted_basis": "10 filters; CNY2350000 including tax; installation and commissioning included.",
+    "accessed": "2026-10-24"
+  },
+  {
+    "id": "HP26",
+    "title": "Air-source heat pump procurement",
+    "url": "https://ggzy.qingdao.gov.cn/c/TradeDetals-ZtbShow/182320-5021-0-1-0/f60d4e1e-a8a3-412c-baaf-4b2f96de30d4-B03CE5B6FC1D2D3C2D5FCEBC39AA2406.html",
+    "status": "Primary tender; no verified award price",
+    "extracted_basis": "4 heat pumps;3 tanks of30m3; controls and installation; cost unknown.",
+    "accessed": "2026-10-24"
+  },
+  {
+    "id": "CCGMP",
+    "title": "Corpus preliminary GMP announcement, 2026-02-19",
+    "url": "https://www.corpuschristitx.gov/news/posts/city-of-corpus-christi-receives-cost-proposal-for-inner-harbor-desalination-project/",
+    "status": "City proposal announcement, not final built cost",
+    "extracted_basis": "USD978770000 preliminary proposal; earlier roughlyUSD1.3bn.",
+    "accessed": "2026-10-24"
+  },
+  {
+    "id": "CCPHASE",
+    "title": "City presentation attached to 2026-02-24 agenda",
+    "url": "https://corpuschristi.legistar.com/View.ashx?G=AE57B2E3-6490-43F9-A42F-FE60546ECF9E&GUID=4C308273-7546-4BF4-8960-1AC483DFDC0E&ID=15269350&M=F",
+    "status": "INDEXED primary attachment; direct retrieval returned410; provisional phase split",
+    "extracted_basis": "Phase1 USD78610000; phase2 USD900160000. Not component-level equipment/civil allocation.",
+    "accessed": "2026-10-24"
+  },
+  {
+    "id": "CCSPENT",
+    "title": "City water-supply projects update, 2025-08-15",
+    "url": "https://www.corpuschristitx.gov/media/f1unrwbv/20250815_memo_water-supply-projects-update.pdf",
+    "status": "Primary city financial snapshot through2025-06-30",
+    "extracted_basis": "Spent34277862; encumbered38791852; combined73069714. Does not verify260m spent.",
+    "accessed": "2026-10-24"
+  },
+  {
+    "id": "REUSE",
+    "title": "City Oso-to-Greenwood phase2 construction announcement",
+    "url": "https://www.corpuschristitx.gov/news/posts/news-post-no-banner-2/",
+    "status": "City initiative; announced completion May2027, not current delivery",
+    "extracted_basis": "USD107.5m construction; additional11MGD availability; total program16MGD. Existing initiative, no Atlas credit.",
+    "accessed": "2026-10-24"
+  },
+  {
+    "id": "MAUI",
+    "title": "Maui desal feasibility executive summary, 2024",
+    "url": "https://www.mauicounty.gov/DocumentCenter/View/154964/Maui-Desalination-Feasibility-Study-ES-2024",
+    "status": "Conceptual estimate; construction differs from total project cost",
+    "extracted_basis": "0.5MGD brackish:53m construction119m total;4MGD seawater:155m construction328m total.",
+    "accessed": "2026-10-24"
+  },
+  {
+    "id": "IONS",
+    "title": "USGS seawater resource reference",
+    "url": "https://pubs.usgs.gov/circ/2003/circ1262/",
+    "status": "Representative chemistry, not site assay",
+    "extracted_basis": "Feed inventory only; ion values inherited from prior Maui mineral study require local confirmation.",
+    "accessed": "2026-10-24"
+  },
+  {
+    "id": "MauiPrior",
+    "title": "Prior complete mineral inventory and allocation audit",
+    "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/main/research/maui-kapalua-full-recovery-minerals-v0.8-2026-10-15.md",
+    "status": "Prior Atlas screening research, not field validation",
+    "extracted_basis": "NaCl; alternative Mg products; Ca gypsum/carbonate; potassium; bromine; trace lanes; isotope caveats.",
+    "accessed": "2026-10-24"
+  },
+  {
+    "id": "CorpusPrior",
+    "title": "Prior thermal-water-mineral white paper v1.2",
+    "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/main/docs/whitepapers/ORCS_CORPUS_THERMAL_WATER_MINERAL_WP_v1_2_2026-10-14.md",
+    "status": "Prior Atlas research; integrations remain candidates",
+    "extracted_basis": "Temperature-specific thermal exchanges; Corpus LNG export distinction; brine recovery and residual gates.",
+    "accessed": "2026-10-24"
+  },
+  {
+    "id": "ResiliencePrior",
+    "title": "Prior Harbor Island domestic resilience brief v0.9",
+    "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/main/docs/ORCS_CORPUS_HARBOR_ISLAND_ZLD_DOMESTIC_RESILIENCE_BRIEF_v0_9_2026-10-13.md",
+    "status": "Prior Atlas research; proposed Harbor Island distinct from Inner Harbor",
+    "extracted_basis": "Domestic qualified supply; separate cash/import/resilience/ecology ledgers; no routine liquid discharge target.",
+    "accessed": "2026-10-24"
+  },
+  {
+    "id": "PLASMA",
+    "title": "Application of thermal plasma to vitrify fly ash from municipal solid waste incinerators",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0045653509012442",
+    "status": "Primary research; fly ash, not brine-plant performance guarantee",
+    "extracted_basis": "Chloride can accelerate volatile heavy-metal transfer; offgas must remain in the treatment boundary.",
+    "accessed": "2026-10-24"
+  },
+  {
+    "id": "CC25DETAIL",
+    "title": "Inner Harbor update, July22 2025, PDFp18",
+    "url": "https://corpuschristi.legistar.com/View.ashx?GUID=3815AD72-3DA5-4256-B4CA-51B061CA6723&ID=14542613&M=F",
+    "status": "Primary downloaded and table visually checked",
+    "extracted_basis": "Historical construction categories; not 2026 GMP. See alignment CSV.",
+    "accessed": "2026-10-24"
+  },
+  {
+    "id": "MORTAR",
+    "title": "Sustainable batching water options for one-part alkali-activated slag mortar",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7665687/",
+    "status": "Experimental study; simulated water, selected recipe",
+    "extracted_basis": "Reject-water batching proof of concept; mix and end-of-life limits apply. Not a universal sludge sink.",
+    "accessed": "2026-10-24"
+  },
+  {
+    "id": "MGCEMENT",
+    "title": "Energy-efficient calcination-free Mg cement recovered from desalination brine",
+    "url": "https://doi.org/10.1016/j.desal.2025.118928",
+    "status": "Primary experimental abstract; full article inaccessible",
+    "extracted_basis": "Mg(OH)2 binder through tailored precipitation and carbonation; not arbitrary mixed salt residue.",
+    "accessed": "2026-10-24"
+  },
+  {
+    "id": "PCC26",
+    "title": "Vaterite PCC using SWRO brine and cement kiln dust",
+    "url": "https://doi.org/10.1016/j.desal.2026.120045",
+    "status": "Primary pilot and separate scale-up modeling; abstract accessed",
+    "extracted_basis": "50t/y pilot; commercial profitability modeled, not operating results. CKD adds calcium.",
+    "accessed": "2026-10-24"
+  },
+  {
+    "id": "MAREMAG",
+    "title": "Surrogate-based optimization and scale-up of ultra-concentrated bitterns",
+    "url": "https://discovery.ucl.ac.uk/id/eprint/10220169/",
+    "status": "Primary author repository; pilot-based modeled industrial scale-up",
+    "extracted_basis": "5000t/y modeled cost EUR0.40\u20130.45/kg; not Corpus quote or proof of whole-plant ZLD.",
+    "accessed": "2026-10-24"
+  },
+  {
+    "id": "BABA184",
+    "title": "2CFR184.3 and184.5",
+    "url": "https://www.ecfr.gov/current/title-2/subtitle-A/chapter-I/part-184/section-184.5",
+    "status": "Official regulation read2026-10-24",
+    "extracted_basis": "Component costs include applicable duty/inbound freight; final product manufacturing costs excluded. Per-product classification required.",
+    "accessed": "2026-10-24"
+  },
+  {
+    "id": "USTR",
+    "title": "China Section301 actions and exclusions",
+    "url": "https://ustr.gov/issue-areas/enforcement/section-301-investigations/tariff-actions",
+    "status": "Official reference; actual classification/entry-date rate not established",
+    "extracted_basis": "Model uses null actual rate and hypothetical0/25/50% stress scenarios.",
+    "accessed": "2026-10-24"
+  },
+  {
+    "id": "OXYCHLOR",
+    "title": "OxyChem chlor-alkali products",
+    "url": "https://www.oxychem.com/chlor-alkali",
+    "status": "Manufacturer primary process description",
+    "extracted_basis": "Commercial Cl2/NaOH/H2 chemistry, not Corpus offtake or brine qualification.",
+    "accessed": "2026-10-24"
+  },
+  {
+    "id": "BOHAIBMED",
+    "title": "Bipolar membrane electrodialysis: Industrial application in Bohai Sea, China",
+    "url": "https://doi.org/10.1016/j.jwpe.2025.108266",
+    "status": "Primary paper abstract retrieved; full financial basis unverified",
+    "extracted_basis": "Pretreated concentrate to HCl/NaOH; author-reported reuse quality and5.3-year payback; not Corpus guarantee.",
+    "accessed": "2026-10-24"
+  },
+  {
+    "id": "BMEDPILOT",
+    "title": "EDBM chemicals from seawater brines at pilot scale",
+    "url": "https://doi.org/10.1021/acssuschemeng.2c06636",
+    "status": "Primary pilot research; synthetic brine",
+    "extracted_basis": "Acid/base conversion requires power; not whole-plant ZLD.",
+    "accessed": "2026-10-24"
+  },
+  {
+    "id": "BMEDREAL",
+    "title": "A pilot plant investigation on real seawater brine valorisation via EDBM",
+    "url": "https://doi.org/10.1016/j.jwpe.2024.106741",
+    "status": "Primary real-brine pilot paper abstract",
+    "extracted_basis": "Real seawater brine; not commercial Corpus deployment.",
+    "accessed": "2026-10-24"
+  }
+]

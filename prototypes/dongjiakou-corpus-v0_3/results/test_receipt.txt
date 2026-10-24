@@ -1,0 +1,33 @@
+test_annual_availability_applied_once (test_model.ModelTests.test_annual_availability_applied_once) ... ok
+test_chloride_limiting_inventory (test_model.ModelTests.test_chloride_limiting_inventory) ... ok
+test_compute_can_increase_net_consumption (test_model.ModelTests.test_compute_can_increase_net_consumption) ... ok
+test_fate_gate_cannot_be_satisfied_by_relocation (test_model.ModelTests.test_fate_gate_cannot_be_satisfied_by_relocation) ... ok
+test_final_assembly_does_not_change_component_share (test_model.ModelTests.test_final_assembly_does_not_change_component_share) ... ok
+test_finance_zero_rate (test_model.ModelTests.test_finance_zero_rate) ... ok
+test_heat_exchanger_approach (test_model.ModelTests.test_heat_exchanger_approach) ... ok
+test_ion_conservation_competing_products (test_model.ModelTests.test_ion_conservation_competing_products) ... ok
+test_missing_cost_is_not_zero (test_model.ModelTests.test_missing_cost_is_not_zero) ... ok
+test_recovery_boundaries (test_model.ModelTests.test_recovery_boundaries) ... ok
+test_residual_is_not_destroyed_by_zld (test_model.ModelTests.test_residual_is_not_destroyed_by_zld) ... ok
+test_water_and_salt_conservation_across_scenarios (test_model.ModelTests.test_water_and_salt_conservation_across_scenarios) ... ok
+test_zero_realized_and_unresolved_clearance (test_model.ModelTests.test_zero_realized_and_unresolved_clearance) ... ok
+test_ai_lifecycle_costs_not_free (test_model.RevisionTests.test_ai_lifecycle_costs_not_free) ... ok
+test_baba_strict_boundary_and_manufacturing (test_model.RevisionTests.test_baba_strict_boundary_and_manufacturing) ... ok
+test_cost_hierarchy_without_parent_double_count (test_model.RevisionTests.test_cost_hierarchy_without_parent_double_count) ... ok
+test_coupling_unknown_not_automatic_volume_reduction (test_model.RevisionTests.test_coupling_unknown_not_automatic_volume_reduction) ... ok
+test_mineral_margin_support_not_gross_sales (test_model.RevisionTests.test_mineral_margin_support_not_gross_sales) ... ok
+test_tariffs_do_not_apply_to_separate_freight (test_model.RevisionTests.test_tariffs_do_not_apply_to_separate_freight) ... ok
+test_tariffs_unknown_are_not_zero (test_model.RevisionTests.test_tariffs_unknown_are_not_zero) ... ok
+test_actual_break_even_and_fallback_remain_unknown (test_model.ThirdRevisionTests.test_actual_break_even_and_fallback_remain_unknown) ... ok
+test_break_even_includes_capital_costs_and_utilization (test_model.ThirdRevisionTests.test_break_even_includes_capital_costs_and_utilization) ... ok
+test_chloride_acceptance_is_separate_from_atom_inventory (test_model.ThirdRevisionTests.test_chloride_acceptance_is_separate_from_atom_inventory) ... ok
+test_chloride_conversion_reaction_mass (test_model.ThirdRevisionTests.test_chloride_conversion_reaction_mass) ... ok
+test_chloride_routes_cannot_duplicate_inventory (test_model.ThirdRevisionTests.test_chloride_routes_cannot_duplicate_inventory) ... ok
+test_chloride_routes_require_counterion (test_model.ThirdRevisionTests.test_chloride_routes_require_counterion) ... ok
+test_equipment_leverage_matched_scope (test_model.ThirdRevisionTests.test_equipment_leverage_matched_scope) ... ok
+test_reagent_reuse_does_not_destroy_chloride (test_model.ThirdRevisionTests.test_reagent_reuse_does_not_destroy_chloride) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 0.002s
+
+OK

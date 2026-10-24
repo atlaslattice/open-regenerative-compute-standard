@@ -1,0 +1,5 @@
+route,named_receiver,firm_capacity_m3_d,accepted_feed,gate_fee_usd_m3,transport_usd_m3,permit_status,pricing_status
+Contained onsite concentration/crystallization,,,,,,UNCONFIRMED,NO QUOTE; no priced executable fallback
+Qualified brine or solids construction use,,,,,,UNCONFIRMED,NO QUOTE; no priced executable fallback
+Permitted non-marine offsite treatment/disposal,,,,,,UNCONFIRMED,NO QUOTE; no priced executable fallback
+Contained solar-assisted evaporation where feasible,,,,,,UNCONFIRMED,NO QUOTE; no priced executable fallback
