@@ -11,3 +11,7 @@ Run `python scenarios.py` and `python -m unittest discover -s . -p 'test_*.py' -
 Results are in `results/`; inputs in `inputs.json`; the module and network registers make unknown suppliers and acceptance gates explicit. CSV blanks mean unknown. Actual mineral revenues remain zero pending qualification, not a forecast of zero potential.
 
 Source register and full narrative references are in the paper. No full copyrighted source PDFs are redistributed.
+
+## Public-health integration addendum
+
+[Wastewater observability v0.1](../../docs/wastewater-observability-v0_1/WASTEWATER_PUBLIC_HEALTH_OBSERVABILITY_v0_1.md) establishes a first-class sampling/laboratory/data interface for future wastewater nodes and retrofit assessments. No new measured health output, provider agreement or cost is added to these scenarios. The original v0.8 PDF and model remain preserved.

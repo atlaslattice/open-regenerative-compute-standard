@@ -1,0 +1,1 @@
+node_id,catchment_id,sample_location,sample_matrix,sample_start_time,sample_end_time,lab_received_time,reported_time,flow_m3_d,target,method_version,concentration,units,lod,loq,quality_status,uncertainty,public_health_reviewer,response_status,actual_cost_usd

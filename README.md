@@ -262,3 +262,7 @@ Fork. Adapt. Publish. The standard improves when more operators, researchers, an
 ### U.S. wastewater resources, sludge energy and supply-chain resilience - v0.3
 
 [**Public research release: report, reproducible model, 39-source register and known gaps**](research/us-wastewater-resources/v0.3-2026-10-16/README.md). National municipal-wastewater nutrient and alternative sludge-energy screens with dated values, import-content comparisons and explicit cost sensitivities. **NON-CANON / ZERO REALIZED CREDIT:** modeled potential, not observed recovery, validated profit or actual import displacement. Earlier studies preserved.
+
+## Wastewater public-health observability
+
+[Cross-cutting first-class integration standard v0.1](docs/wastewater-observability-v0_1/WASTEWATER_PUBLIC_HEALTH_OBSERVABILITY_v0_1.md) adds sampling, targeted assays, sequencing, optional chemical monitoring, public-health interpretation and separate reuse qualification interfaces. Verily/WastewaterSCAN are reference systems, not a claimed partnership. Malaria remains a research candidate; costs, workload and health outcomes are uncredited pending local validation.

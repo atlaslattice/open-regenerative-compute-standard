@@ -1,0 +1,8 @@
+module_id,module,design_scope,provider_status,source_ids,actual_capex_usd,actual_opex_usd_y,required_compute_kw,realized_health_credit,deployment_status
+H01,Sampling/catchment registry,All wastewater designs: explicit interface,TBD,H1 H2 H8,,,,0,PROPOSED; no sampling deployment
+H02,Targeted pathogen assays,Site-specific validated targets,Verily or locally qualified provider TBD,H1 H2 H4,,,,0,PROPOSED; no sampling deployment
+H03,Sequencing/discovery,Optional validated analytical lane,TBD,H3,,,,0,PROPOSED; no sampling deployment
+H04,Chemical exposure monitoring,Optional separate chemistry/governance,TBD; Biobot pilot is precedent,H5,,,,0,PROPOSED; no sampling deployment
+H05,AMR/environmental biology,Optional validated targets,TBD,H4,,,,0,PROPOSED; no sampling deployment
+H06,Public-health interpretation,Human-reviewed alerts; no plant actuation,Public-health partner TBD,H1 H8,,,,0,PROPOSED; no sampling deployment
+H07,Reuse/product qualification,Distinct safety/quality requirements,Qualified laboratory TBD,H2,,,,0,PROPOSED; no sampling deployment
