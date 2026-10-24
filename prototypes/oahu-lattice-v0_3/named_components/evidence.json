@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-23 America/Chicago",
+  "simulation_parameters_changed": false,
+  "status": "Attributed claims plus first primary-source checks; no procurement or benefit clearance",
+  "sources": [
+    {
+      "vendor": "Tianying",
+      "url": "https://www.cnty.cn/uploads/files/202011/4dec761e369557b66bb8a1872238b3ae.pdf",
+      "type": "operator-hosted environmental acceptance opinion, November 2020",
+      "checked": {
+        "design_tpd": 40,
+        "design_tpy": 13320,
+        "actual_total_project_capex_cny": 142000000
+      },
+      "residual_endpoints": [
+        "iron ingots to smelting",
+        "heavy-metal sludge to authorized disposal",
+        "glassy slag then pending hazardous identification"
+      ],
+      "unverified": [
+        "current production",
+        "annual opex",
+        "Hawaii configuration",
+        "zero residual",
+        "all mixed ash compatibility"
+      ]
+    },
+    {
+      "vendor": "Alfa Laval / Xiamen Jiarong",
+      "url": "https://www.alfalaval.com/media/stories/sustainability/raising-the-bar-to-protect-groundwater-in-china/",
+      "type": "supplier case study",
+      "project_tpd_reported": [
+        1000,
+        500
+      ],
+      "single_evaporator_tpd": null,
+      "pfas_destruction_demonstrated": false,
+      "residual_endpoint": "specialist dry solids disposal"
+    },
+    {
+      "vendor": "Alfa Laval",
+      "url": "https://www.alfalaval.my/products/process-solutions/evaporation-systems/alfaflash/",
+      "type": "manufacturer product description",
+      "technology": "forced-circulation flash evaporation",
+      "pilot_rental_advertised": true,
+      "hawaii_pilot_rental_confirmed": false
+    },
+    {
+      "vendor": "Sesotec",
+      "url": "https://www.sesotec.com/en/blog/blog-detail/steinbeis-polyvert-recycling-plastics-at-their-best",
+      "type": "manufacturer named case study",
+      "site": "Steinbeis Polyvert",
+      "models": [
+        "VARISORT+ UNITY",
+        "VARISORT+ FLEX",
+        "FLAKE PURIFIER+",
+        "FLAKE SCAN"
+      ],
+      "reported_steps": [
+        "reject recovery",
+        "grinding and washing",
+        "flake sorting",
+        "quality analysis",
+        "extrusion"
+      ],
+      "oahu_yield": null
+    },
+    {
+      "vendor": "Leer / \u4e50\u5c14",
+      "url": "https://haileer.com/",
+      "type": "supplier identity/landing page",
+      "detail_text_retrieved": false,
+      "detailed_performance_adopted": false
+    },
+    {
+      "vendor": "Desen",
+      "url": "https://www.materialwashing.com/Mobile-Washing-Plant/26.html",
+      "type": "manufacturer published table; see v0.2",
+      "new_deepseek_capacity_claim_adopted": false
+    }
+  ],
+  "arithmetic_only": {
+    "model_ash_remainder_original_mass_equivalent_tpy": 57578,
+    "capacity_equivalents_at_documented_design": 4.322672672672673,
+    "actual_units_required": null
+  },
+  "costs": {
+    "hawaii_delivered_capex": null,
+    "hawaii_operating_cost": null,
+    "payback": null
+  }
+}
