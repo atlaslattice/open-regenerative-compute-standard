@@ -140,3 +140,7 @@ Fifteen checks verify original-mass conservation, exact reproduction of the earl
 - [Every residual's next routes](residual_routes.json)
 
 **The useful output is a prioritized investigation:** ash is the biggest lever; intake capture matters; selective washing can recover additional mineral material; the remaining mixed rejects and concentrates need assays before another credible recovery percentage or cost can be assigned.
+
+## Named commercial component evidence
+
+[First multi-vendor configuration and primary-source audit](named_components/README.md) maps Desen, Sesotec/STADLER, Leer, Tianying and Alfa Laval/Jiarong to candidate functions. It preserves the supplied DeepSeek text and corrects the documented Tianying capacity/residual endpoints and AlfaFlash technology description. These procurement leads do not change this release's modeled recovery yields or establish a complete compatible plant.
