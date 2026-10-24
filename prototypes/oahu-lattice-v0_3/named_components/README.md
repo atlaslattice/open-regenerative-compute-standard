@@ -52,3 +52,7 @@ For Desen, retain v0.2's unit-specific pages. A new broad “10–200 t/h” cla
 6. Obtain DeepSeek's exact URLs for every numerical claim not validated above. The most urgent are Leer process/model/deployment data and Tianying current operating costs/outputs.
 
 **The named machines strengthen the procurement map. They do not yet justify lowering the model's 38.69% residual figure or claiming a complete zero-residual plant.**
+
+## Follow-on investigation
+
+[Commercial integration deep dive and reproducible economic reconciliation](deep_dive/README.md) adds Eggersmann, STEINERT and Blue Phoenix references, stronger primary disclosures for Leer’s distinct treatment/manufacturing routes, cost-scope and output-balance questions, a cement-kiln location constraint, and a proposed mobile-front-end/shared-hub architecture. These later findings refine the first audit above; they do not change modeled recovery yields or turn supplier projections into measured Hawaii outcomes.
