@@ -1,0 +1,5 @@
+*** Correction to pricing notes and screen from v2.0 ***
+Potash USGS 2026 MCS confirms 2025 US potash imports **5.6 million tonnes K2O equivalent**, exports 170 kt, domestic production ~500 kt, apparent consumption 5.9 Mt, net import reliance 92%. The quoted 2025 mine gate prices are **$600/t K2O eq for MOP**, **$1,200/t K2O eq all products**, reflecting material grade; neither value guarantees a brine-derived fertilizer grade nor represents 2026 delivered import price. This source replaces placeholder pricing $350–700/t and unknown potash import value in the earlier v2.0 document; keep that original append-only.
+https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-potash.pdf
+
+The scenario calculation now uses 2025 USGS potash grades $600–1,200/t K2O-equivalent; 2025 USGS bromine import unit $3,000/t Br content; illustrative non-observed magnesium oxide, salt and gypsum prices used solely for valuation scenarios. A co-produced chloride/sodium/potassium stream is bounded by shared atomic inventories, actual salt and K grade, not additive free additional chloride. Product chemistry and markets must be confirmed.

@@ -1,0 +1,32 @@
+# ORCS v2.6 — Corpus Christi LNG cold / data-center cooling retrofit shortlist
+
+**2026-10-15 · source-validated feasibility screening · not approved site designs · zero realized credit.**
+
+## Main finding
+The chief Corpus Christi LNG terminal at Gregory/La Quinta is an **LNG liquefaction EXPORT** facility. Feedstock arrives as ambient-temperature pipeline gas and electric-motor driven refrigerant compressors/cold boxes manufacture LNG at -162°C, therefore cold is an industrial **input**, not otherwise unused regasification cold suitable for easy harvesting. The 2019 U.S. DOE Stage III environmental assessment directly specifies refrigerant compressors, cold boxes and induced-draft air coolers: https://www.energy.gov/sites/prod/files/2019/04/f62/ea-2111-corpus-christi-lng-stage-3-ea-04-2019_0.pdf
+The U.S. EIA Sep15, 2026 says CCL Stage 3 (7 trains) substantially completed Aug 28, adding 1.3 Bcf/d nominal LNG capacity, total CCL nominal 3.1 Bcf/d, with Midscale Trains 8/9 under construction for a further 0.4 Bcf/d expected 2028: https://www.eia.gov/todayinenergy/detail.php?id=68144 . Do not report Stage 3 as future, and do not count a terminal that loads ships as a major source of regasification cold without LNG vaporization metering.
+
+## Named Corpus Christi-region candidates
+1. **Cheniere Corpus Christi Liquefaction terminal, Gregory/San Patricio County**. Actual operating LNG export, 3.1 Bcf/d nominal as of Sep2026 EIA; high relevance to **industrial refrigeration process integration and reject-heat/air-cooler or cooling loop valorization**, but **NO VERIFIED FREE COLD FOR DATA CENTER**; process availability and safety must be protected. Operator-controlled feasibility permission required.
+2. **Corpus Christi Liquefaction Midscale Trains 8 and 9**, collocated at Cheniere, under construction, nominal additional 0.4 Bcf/d anticipated 2028. Potential better opportunity for **design-stage heat rejection and coolant loop optimization** than retrofitting an operational compressor train, not a separately operating LNG receiving terminal.
+3. **Corpus Christi Liquefaction Stage 4**, proposed expansion: September 18 2026 FERC draft EIS for four new LNG trains, two 220,000m3 LNG storage tanks and marine infrastructure; not fully approved/operating. Potential early design window for adjacency and permitted heat/cooling exchange, not verified on-site liquid methane regas cold: https://www.ferc.gov/news-events/news/ferc-staff-issues-draft-environmental-impact-statement-corpus-christi-liquefaction
+4. **Harbor Island proposed seawater desal, Port Aransas**. Geographically in same port region but **not verified co-located with liquefaction or LNG regas cold**. Conceptually useful to co-design RO brine, mineral recovery, data-center water systems and thermal storage, if a real accessible waste cold/heat source can be identified. This is not operating desal/mining.
+5. **Gulf Coast Growth Ventures (ExxonMobil/SABIC ethane cracker), Gregory/Portland TX**. Important nearby industrial **process-heat and refrigeration integration screening candidate** distinct from Cheniere. No assumption an ethane cracker yields sufficient free subzero cold or onsite data center cooling hookup; require public process disclosures and site-specific pinch analysis before quantification. Do not classify it as LNG import/regas cold.
+
+## Distinguish useful temperatures
+- For LNG-import terminals, vaporizing incoming -162°C liquid generates an externally demanded cold sink; a properly designed, isolation-controlled intermediate loop may use this for freezing/cryogenic ASU first, then higher-grade coolant for server cooling. Feasibility depends LNG import vaporization rates, cold availability duty, fault isolation, co-located water & IT.
+- At export liquefaction, extracting cooling at -40°C or deeper from closed refrigerant loops *steals process refrigeration* and potentially raises compressor loads. It is not free recovered waste energy merely because the refrigerant is cold. A large **warm cooling load** at the data center could still be linked to refinery/LNG reject heat, thermal stores, excess equipment sizing, or combined water-air cooling strategies when site model proves an incremental net saving.
+- Can study **ASU oxygen/nitrogen** cold or other cryogenic loop only with measured independent liquid-vaporization flow: no assumption one is connected to facility or has extra available cold. LNG carrier loading evaporative boil-off may be re-liquefied for LNG inventory rather than a free cold byproduct.
+- Data center cooling is typically >0°C supply (chilled water or warm-water direct cooling), so ice-making needs colder branch than IT HVAC. Never debit the same kWh cold twice to cooling and freezing.
+
+## Recommended practical priority
+**No easy/free Dongjiakou-style regas LNG cold retrofit has been verified near Corpus Christi.** Closest scope worth underwriting is Cheniere Stage 4/Trains 8–9 **design-stage thermal integration**, then an independent Harbor Island combined water/mineral/IT cooling study, then regional industrial waste-heat/cooling-loop screen. Model a true LNG *import regasification* site as the comparable LNG-cold reference, not export Cheniere.
+
+## Evidence checklist before feasibility credit
+Current PFD/P&ID and permitted LNG train boundaries; timestamped cold/heat duty MW, temperature glide and annual uptime; condenser/compressor heat rejection, pump and refrigerant electricity; cooling-grade delta T; physically reachable data-center footprint, HV interconnection and redundancy; marine/land rights; site process safety, gas exclusion zoning, heat exchanger isolation; brine quality and mineral assay; capex delivered $/kW cooling and verified net electricity savings (no baseline double-counting). All presently UNKNOWN for user proposed retrofit. Never claim operator adoption or co-funded plans.
+
+### Design-stage research refs
+EIA Corpus Christi LNG September 2026: https://www.eia.gov/todayinenergy/detail.php?id=68144
+US DOE Stage III assessment (2019): https://www.energy.gov/sites/prod/files/2019/04/f62/ea-2111-corpus-christi-lng-stage-3-ea-04-2019_0.pdf
+FERC Stage 4 draft EIS September 2026: https://www.ferc.gov/news-events/news/ferc-staff-issues-draft-environmental-impact-statement-corpus-christi-liquefaction
+2025 LNG regas cold + data-center cooling theoretical paper: https://doi.org/10.1016/j.cryogenics.2025.104152 — regas process study, **not** validation at Corpus Christi LNG export.

@@ -1,0 +1,1078 @@
+{
+  "version": "v2.1",
+  "as_of": "2026-10-14",
+  "records_total": 91,
+  "measurement_status": "NO_LIVE_ACTUAL_REJECT_FLOW_OBSERVATIONS",
+  "feed_classes": {
+    "seawater_operating": [
+      {
+        "name": "Claude 'Bud' Lewis Carlsbad Desalination Plant",
+        "state": "CA",
+        "county": null,
+        "status": "OPERATING",
+        "water_source_class": "SEAWATER",
+        "rated_freshwater_mgd": 50,
+        "source_url": "https://waterboards.ca.gov/sandiego/water_issues/programs/regulatory/carlsbad_desalination.html",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "Tampa Bay Seawater Desalination Plant",
+        "state": "FL",
+        "county": null,
+        "status": "OPERATING",
+        "water_source_class": "SEAWATER",
+        "rated_freshwater_mgd": 25,
+        "source_url": "https://www.tampabaywater.org/tampa-bay-seawater-desalination",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "Charles E. Meyer Desalination Plant",
+        "state": "CA",
+        "county": null,
+        "status": "OPERATING",
+        "water_source_class": "SEAWATER",
+        "rated_freshwater_mgd": 3,
+        "source_url": "https://santabarbaraca.gov/government/departments/water-resources/water-system/water-sources/desalination",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      }
+    ],
+    "seawater_proposed": [
+      {
+        "name": "Harbor Island Seawater Desalination Facility",
+        "state": "TX",
+        "county": null,
+        "status": "PROPOSED",
+        "water_source_class": "SEAWATER",
+        "rated_freshwater_mgd": 100,
+        "source_url": "https://www.permits.performance.gov/permitting-project/fast-41-covered-projects/harbor-island-seawater-desalination-facility",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "Doheny Ocean Desalination Project",
+        "state": "CA",
+        "county": null,
+        "status": "PROPOSED",
+        "water_source_class": "SEAWATER",
+        "rated_freshwater_mgd": 5,
+        "source_url": "https://ceqanet.lci.ca.gov/2016031038/8",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "Monterey Peninsula Water Supply Project",
+        "state": "CA",
+        "county": null,
+        "status": "PROPOSED",
+        "water_source_class": "SEAWATER",
+        "rated_freshwater_mgd": 4.8,
+        "source_url": "https://www.slc.ca.gov/information/calam-lease-application-2026/",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "Laguna Madre Water District Seawater Desalination Project",
+        "state": "TX",
+        "county": null,
+        "status": "PROPOSED",
+        "water_source_class": "SEAWATER",
+        "rated_freshwater_mgd": 5,
+        "source_url": "https://www.usbr.gov/watersmart/title/desal_eligible.html",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      }
+    ],
+    "seawater_unquantified": [
+      {
+        "name": "Kermit H. Lewin Stock Island Reverse Osmosis Facility",
+        "state": "FL",
+        "county": "Monroe",
+        "status": "OPENING_ANNOUNCED_2025",
+        "water_source_class": "SEAWATER",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www.flgov.com/eog/news/press/2025/governor-ron-desantis-announces-opening-new-reverse-osmosis-facility-florida-keys",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      }
+    ],
+    "brackish_operating_reported": [
+      {
+        "name": "Antioch Brackish Water Desalination Plant",
+        "state": "CA",
+        "county": null,
+        "status": "OPERATING_REPORTED",
+        "water_source_class": "BRACKISH",
+        "rated_freshwater_mgd": 6,
+        "source_url": "https://www.usbr.gov/watersmart/title/desal_eligible.html",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      }
+    ],
+    "brackish_status_uncertain": [
+      {
+        "name": "Greater Pine Island brackish reverse-osmosis treatment facility",
+        "state": "FL",
+        "county": "Lee",
+        "status": "HISTORICAL_2020_STATE_PRESENTATION_LISTING",
+        "water_source_class": "BRACKISH",
+        "rated_freshwater_mgd": 2.81,
+        "source_url": "https://www.sfwmd.gov/sites/default/files/SFWMD_WCFMPresentation_20200701.pdf",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "Island Water Association brackish reverse-osmosis treatment facility",
+        "state": "FL",
+        "county": "Lee",
+        "status": "HISTORICAL_2020_STATE_PRESENTATION_LISTING",
+        "water_source_class": "BRACKISH",
+        "rated_freshwater_mgd": 5.99,
+        "source_url": "https://www.sfwmd.gov/sites/default/files/SFWMD_WCFMPresentation_20200701.pdf",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "Cape Coral - Southwest brackish reverse-osmosis treatment facility",
+        "state": "FL",
+        "county": "Lee",
+        "status": "HISTORICAL_2020_STATE_PRESENTATION_LISTING",
+        "water_source_class": "BRACKISH",
+        "rated_freshwater_mgd": 18.1,
+        "source_url": "https://www.sfwmd.gov/sites/default/files/SFWMD_WCFMPresentation_20200701.pdf",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "Cape Coral - North brackish reverse-osmosis treatment facility",
+        "state": "FL",
+        "county": "Lee",
+        "status": "HISTORICAL_2020_STATE_PRESENTATION_LISTING",
+        "water_source_class": "BRACKISH",
+        "rated_freshwater_mgd": 12,
+        "source_url": "https://www.sfwmd.gov/sites/default/files/SFWMD_WCFMPresentation_20200701.pdf",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "Fort Myers brackish reverse-osmosis treatment facility",
+        "state": "FL",
+        "county": "Lee",
+        "status": "HISTORICAL_2020_STATE_PRESENTATION_LISTING",
+        "water_source_class": "BRACKISH",
+        "rated_freshwater_mgd": 12,
+        "source_url": "https://www.sfwmd.gov/sites/default/files/SFWMD_WCFMPresentation_20200701.pdf",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "Lee County - North brackish reverse-osmosis treatment facility",
+        "state": "FL",
+        "county": "Lee",
+        "status": "HISTORICAL_2020_STATE_PRESENTATION_LISTING",
+        "water_source_class": "BRACKISH",
+        "rated_freshwater_mgd": 11.8,
+        "source_url": "https://www.sfwmd.gov/sites/default/files/SFWMD_WCFMPresentation_20200701.pdf",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "Lee County - Pinewoods brackish reverse-osmosis treatment facility",
+        "state": "FL",
+        "county": "Lee",
+        "status": "HISTORICAL_2020_STATE_PRESENTATION_LISTING",
+        "water_source_class": "BRACKISH",
+        "rated_freshwater_mgd": 3,
+        "source_url": "https://www.sfwmd.gov/sites/default/files/SFWMD_WCFMPresentation_20200701.pdf",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "Bonita Springs brackish reverse-osmosis treatment facility",
+        "state": "FL",
+        "county": "Lee",
+        "status": "HISTORICAL_2020_STATE_PRESENTATION_LISTING",
+        "water_source_class": "BRACKISH",
+        "rated_freshwater_mgd": 6.6,
+        "source_url": "https://www.sfwmd.gov/sites/default/files/SFWMD_WCFMPresentation_20200701.pdf",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "Marco Island brackish reverse-osmosis treatment facility",
+        "state": "FL",
+        "county": "Collier",
+        "status": "HISTORICAL_2020_STATE_PRESENTATION_LISTING",
+        "water_source_class": "BRACKISH",
+        "rated_freshwater_mgd": 5,
+        "source_url": "https://www.sfwmd.gov/sites/default/files/SFWMD_WCFMPresentation_20200701.pdf",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "Lee County - Green Meadows brackish reverse-osmosis treatment facility",
+        "state": "FL",
+        "county": "Lee",
+        "status": "HISTORICAL_2020_STATE_PRESENTATION_LISTING",
+        "water_source_class": "BRACKISH",
+        "rated_freshwater_mgd": 8,
+        "source_url": "https://www.sfwmd.gov/sites/default/files/SFWMD_WCFMPresentation_20200701.pdf",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "Collier County - South brackish reverse-osmosis treatment facility",
+        "state": "FL",
+        "county": "Collier",
+        "status": "HISTORICAL_2020_STATE_PRESENTATION_LISTING",
+        "water_source_class": "BRACKISH",
+        "rated_freshwater_mgd": 20,
+        "source_url": "https://www.sfwmd.gov/sites/default/files/SFWMD_WCFMPresentation_20200701.pdf",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "Lee County - Corkscrew brackish reverse-osmosis treatment facility",
+        "state": "FL",
+        "county": "Lee",
+        "status": "HISTORICAL_2020_STATE_PRESENTATION_LISTING",
+        "water_source_class": "BRACKISH",
+        "rated_freshwater_mgd": 1,
+        "source_url": "https://www.sfwmd.gov/sites/default/files/SFWMD_WCFMPresentation_20200701.pdf",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "Collier County - North brackish reverse-osmosis treatment facility",
+        "state": "FL",
+        "county": "Collier",
+        "status": "HISTORICAL_2020_STATE_PRESENTATION_LISTING",
+        "water_source_class": "BRACKISH",
+        "rated_freshwater_mgd": 8,
+        "source_url": "https://www.sfwmd.gov/sites/default/files/SFWMD_WCFMPresentation_20200701.pdf",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "Clewiston brackish reverse-osmosis treatment facility",
+        "state": "FL",
+        "county": "Hendry",
+        "status": "HISTORICAL_2020_STATE_PRESENTATION_LISTING",
+        "water_source_class": "BRACKISH",
+        "rated_freshwater_mgd": 3,
+        "source_url": "https://www.sfwmd.gov/sites/default/files/SFWMD_WCFMPresentation_20200701.pdf",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "Chino I Desalter",
+        "state": "CA",
+        "county": "San Bernardino",
+        "status": "OFFICIAL_FACILITY_REFERENCE_2020_OR_CURRENT",
+        "water_source_class": "BRACKISH",
+        "rated_freshwater_mgd": 14,
+        "source_url": "https://www.chinodesalter.org/97/Facilities",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "Chino II Desalter",
+        "state": "CA",
+        "county": "Riverside",
+        "status": "OFFICIAL_FACILITY_REFERENCE_2020_OR_CURRENT",
+        "water_source_class": "BRACKISH",
+        "rated_freshwater_mgd": 23,
+        "source_url": "https://www.chinodesalter.org/97/Facilities",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "Tustin 17th Street Desalter Treatment Plant",
+        "state": "CA",
+        "county": "Orange",
+        "status": "OFFICIAL_FACILITY_REFERENCE_2020_OR_CURRENT",
+        "water_source_class": "BRACKISH",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://water.ca.gov/-/media/DWR-Website/Web-Pages/Programs/California-Water-Plan/Docs/RMS/2025/Desalination-RMS---2025.pdf",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "Wells 21 and 22 Desalter",
+        "state": "CA",
+        "county": "Orange",
+        "status": "OFFICIAL_FACILITY_REFERENCE_2020_OR_CURRENT",
+        "water_source_class": "BRACKISH",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://water.ca.gov/-/media/DWR-Website/Web-Pages/Programs/California-Water-Plan/Docs/RMS/2025/Desalination-RMS---2025.pdf",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "Irvine Potable Treatment Plant",
+        "state": "CA",
+        "county": "Orange",
+        "status": "OFFICIAL_FACILITY_REFERENCE_2020_OR_CURRENT",
+        "water_source_class": "BRACKISH",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://water.ca.gov/-/media/DWR-Website/Web-Pages/Programs/California-Water-Plan/Docs/RMS/2025/Desalination-RMS---2025.pdf",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "San Juan Capistrano Groundwater Recovery Plant (Desalter)",
+        "state": "CA",
+        "county": "Orange",
+        "status": "OFFICIAL_FACILITY_REFERENCE_2020_OR_CURRENT",
+        "water_source_class": "BRACKISH",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://water.ca.gov/-/media/DWR-Website/Web-Pages/Programs/California-Water-Plan/Docs/RMS/2025/Desalination-RMS---2025.pdf",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "Newark Desalination Facility",
+        "state": "CA",
+        "county": "Alameda",
+        "status": "OFFICIAL_FACILITY_REFERENCE_2020_OR_CURRENT",
+        "water_source_class": "BRACKISH",
+        "rated_freshwater_mgd": 10,
+        "source_url": "https://water.ca.gov/-/media/DWR-Website/Web-Pages/Programs/California-Water-Plan/Docs/RMS/2025/Desalination-RMS---2025.pdf",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      }
+    ],
+    "source_unclassified": [
+      {
+        "name": "Alice Brackish Water Treatment Plant",
+        "state": "TX",
+        "county": "Jim Wells",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "Aransas County Municipal Utility District #1",
+        "state": "TX",
+        "county": "Aransas",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "Big Bend Motor Inn",
+        "state": "TX",
+        "county": "Brewster",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "Bob Elder Water Treatment Plant",
+        "state": "TX",
+        "county": "Parker",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "Brazoria County MUD 21",
+        "state": "TX",
+        "county": "Brazoria",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "Brazos Regional Public Utility Agency/Surface Water Advanced Treatment System",
+        "state": "TX",
+        "county": "Hood",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "CapRock Canyons State Park",
+        "state": "TX",
+        "county": "Briscoe",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "City of Abilene (Hargesheimer Treatment Plant)",
+        "state": "TX",
+        "county": "Taylor",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "City of Ballinger Water Treatment Plant",
+        "state": "TX",
+        "county": "Runnels",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "City of Bardwell",
+        "state": "TX",
+        "county": "Ellis",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "City of Bayside",
+        "state": "TX",
+        "county": "Refugio",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "City of Beckville",
+        "state": "TX",
+        "county": "Panola",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "City of Benjamin RO Plant",
+        "state": "TX",
+        "county": "Knox",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "City of Clarksville City W.T.C.",
+        "state": "TX",
+        "county": "Gregg",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "City of Evant",
+        "state": "TX",
+        "county": "Coryell",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "City of Fort Stockton Osmosis/Desalination Facility",
+        "state": "TX",
+        "county": "Pecos",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "City of Granbury Water Treatment Plant",
+        "state": "TX",
+        "county": "Hood",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "City of Hubbard",
+        "state": "TX",
+        "county": "Hill",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "City of Kenedy",
+        "state": "TX",
+        "county": "Karnes",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "City of Robinson Reverse Osmosis Surface Water Treatment Plant",
+        "state": "TX",
+        "county": "McLennan",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "City of Rule",
+        "state": "TX",
+        "county": "Haskell",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "City of Seadrift",
+        "state": "TX",
+        "county": "Calhoun",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "City of Seagraves Water Treatment Plant",
+        "state": "TX",
+        "county": "Gaines",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "City of Seymour R.O. Treatment Plant",
+        "state": "TX",
+        "county": "Baylor",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "City of Sherman Conventional Surface Water Treatment Plant (SWTP)",
+        "state": "TX",
+        "county": "Grayson",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "City of Tatum",
+        "state": "TX",
+        "county": "Rusk",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "Cypress WTP, Microfiltration/Reverse Osmosis Plant",
+        "state": "TX",
+        "county": "Wichita",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "Dell City",
+        "state": "TX",
+        "county": "Hudspeth",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "DS Waters of America, LP",
+        "state": "TX",
+        "county": "Waller",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "Electro Dialysis Reversal #1 - Wolfforth TX",
+        "state": "TX",
+        "county": "Lubbock",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "Fort Hancock RO Plant 1",
+        "state": "TX",
+        "county": "Hudspeth",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "Greenwood Water System",
+        "state": "TX",
+        "county": "Midland",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "H2OAKS Center",
+        "state": "TX",
+        "county": "Bexar",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "Holiday Beach WSC",
+        "state": "TX",
+        "county": "Aransas",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "Horizon Regional MUD Reverse Osmosis Water Treatment Plant",
+        "state": "TX",
+        "county": "El Paso",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "John Grant Raw Water Production Facility Big Spring Plant",
+        "state": "TX",
+        "county": "Howard",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "Kay Bailey Hutchison Desalination Plant",
+        "state": "TX",
+        "county": "El Paso",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "Klondike ISD",
+        "state": "TX",
+        "county": "Dawson",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "Loving County Water Treatment Plant",
+        "state": "TX",
+        "county": "Loving",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "MHWSC--Progreso MF/RO Plant",
+        "state": "TX",
+        "county": "Hidalgo",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "Midland Country Club - fairways & greens",
+        "state": "TX",
+        "county": "Midland",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "Military Highway WSC --Las Rusias MF/RO",
+        "state": "TX",
+        "county": "Cameron",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "Millersview-Doole WTP",
+        "state": "TX",
+        "county": "Concho",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "Mitchell County Desalination Plant (Idle)",
+        "state": "TX",
+        "county": "Mitchell",
+        "status": "IDLE_LISTED",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "North Alamo Water Supply Corp Donna RO",
+        "state": "TX",
+        "county": "Hidalgo",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "North Alamo Water Supply Corp Doolittle RO",
+        "state": "TX",
+        "county": "Hidalgo",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "North Alamo Water Supply Corp Lasara RO",
+        "state": "TX",
+        "county": "Hidalgo",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "North Alamo Water Supply Corp Owassa RO",
+        "state": "TX",
+        "county": "Hidalgo",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "North Cameron/Hidalgo WA",
+        "state": "TX",
+        "county": "Cameron",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "Oak Trail Shores",
+        "state": "TX",
+        "county": "Hood",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "Pettus Municipal Utility District RO Plant",
+        "state": "TX",
+        "county": "Bee",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "Possum Kingdom WSC",
+        "state": "TX",
+        "county": "Palo Pinto",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "River Oaks Ranch",
+        "state": "TX",
+        "county": "Hays",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "Southmost Regional Water Authority",
+        "state": "TX",
+        "county": "Cameron",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "Sportsmans World MUD",
+        "state": "TX",
+        "county": "Palo Pinto",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "Study Butte Terlingua Water System",
+        "state": "TX",
+        "county": "Brewster",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "The Cliffs",
+        "state": "TX",
+        "county": "Palo Pinto",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "Valley MUD #2",
+        "state": "TX",
+        "county": "Cameron",
+        "status": "LISTED_IN_TWDB_DATABASE",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "Veolia Water Treatment Plant (Idle)",
+        "state": "TX",
+        "county": "Jefferson",
+        "status": "IDLE_LISTED",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://www3.twdb.texas.gov/apps/desal/DesalPlants.aspx",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "Calico Ghost Town desalination facility",
+        "state": "CA",
+        "county": "San Bernardino",
+        "status": "OFFICIAL_FACILITY_REFERENCE_2020_OR_CURRENT",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://water.ca.gov/-/media/DWR-Website/Web-Pages/Programs/California-Water-Plan/Docs/RMS/2025/Desalination-RMS---2025.pdf",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      },
+      {
+        "name": "Cajon Maintenance Station desalination system",
+        "state": "CA",
+        "county": "San Bernardino",
+        "status": "OFFICIAL_FACILITY_REFERENCE_2020_OR_CURRENT",
+        "water_source_class": "UNCLASSIFIED",
+        "rated_freshwater_mgd": null,
+        "source_url": "https://water.ca.gov/-/media/DWR-Website/Web-Pages/Programs/California-Water-Plan/Docs/RMS/2025/Desalination-RMS---2025.pdf",
+        "measured_brine_m3_y": null,
+        "gypsum_output_tpy": null
+      }
+    ]
+  },
+  "stats": [
+    {
+      "category": "seawater_operating",
+      "n": 3,
+      "known_mgd": 78,
+      "known_capacity_n": 3
+    },
+    {
+      "category": "seawater_proposed",
+      "n": 4,
+      "known_mgd": 114.8,
+      "known_capacity_n": 4
+    },
+    {
+      "category": "seawater_unquantified",
+      "n": 1,
+      "known_mgd": 0,
+      "known_capacity_n": 0
+    },
+    {
+      "category": "brackish_operating_reported",
+      "n": 1,
+      "known_mgd": 6,
+      "known_capacity_n": 1
+    },
+    {
+      "category": "brackish_status_uncertain",
+      "n": 21,
+      "known_mgd": 164.3,
+      "known_capacity_n": 17
+    },
+    {
+      "category": "source_unclassified",
+      "n": 61,
+      "known_mgd": 0,
+      "known_capacity_n": 0
+    }
+  ],
+  "parameters": {
+    "day_m3_per_mgd": 3785.411784,
+    "days_per_year": 365,
+    "seawater_capacity_factor": 0.9,
+    "seawater_recovery": 0.5,
+    "brackish_capacity_factor": 0.9,
+    "brackish_recovery_sensitivity": [
+      0.7,
+      0.8,
+      0.9
+    ]
+  },
+  "notes": [
+    "Brackish 170.3MGD published capacity includes 164.3MGD historical/status uncertain + 6MGD recent operating-reported Antioch; cannot claim combined current operating capacity.",
+    "The majority of Texas listed sites have no water-source or capacity fields and are excluded from quantified totals, not zero volume.",
+    "Only 3 clearly documented active seawater plants with capacity available in current register. Stock Island has no rated product capacity; volume unknown.",
+    "Gross brine generation is NOT directly usable brine mining feed until source separation, assays and permits.",
+    "Proposed seawater projects do not enter current operating aggregate."
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "source_status": "HISTORICAL_AND_UTILITY_REFERENCES_NOT_CURRENTLY_OPERATIONAL_VERIFICATION_FOR_ALL",
+  "count": 24,
+  "rows": [
+    {
+      "name": "Greater Pine Island brackish reverse-osmosis treatment facility",
+      "state": "FL",
+      "county": "Lee",
+      "status": "HISTORICAL_2020_STATE_PRESENTATION_LISTING",
+      "source_water": "BRACKISH_GROUNDWATER_AS_DESCRIBED_IN_2020_SOURCE",
+      "reported_capacity_mgd": 2.81,
+      "source_url": "https://www.sfwmd.gov/sites/default/files/SFWMD_WCFMPresentation_20200701.pdf",
+      "operating_2026_verified": false,
+      "gypsum_recovered_tpy": null
+    },
+    {
+      "name": "Island Water Association brackish reverse-osmosis treatment facility",
+      "state": "FL",
+      "county": "Lee",
+      "status": "HISTORICAL_2020_STATE_PRESENTATION_LISTING",
+      "source_water": "BRACKISH_GROUNDWATER_AS_DESCRIBED_IN_2020_SOURCE",
+      "reported_capacity_mgd": 5.99,
+      "source_url": "https://www.sfwmd.gov/sites/default/files/SFWMD_WCFMPresentation_20200701.pdf",
+      "operating_2026_verified": false,
+      "gypsum_recovered_tpy": null
+    },
+    {
+      "name": "Cape Coral - Southwest brackish reverse-osmosis treatment facility",
+      "state": "FL",
+      "county": "Lee",
+      "status": "HISTORICAL_2020_STATE_PRESENTATION_LISTING",
+      "source_water": "BRACKISH_GROUNDWATER_AS_DESCRIBED_IN_2020_SOURCE",
+      "reported_capacity_mgd": 18.1,
+      "source_url": "https://www.sfwmd.gov/sites/default/files/SFWMD_WCFMPresentation_20200701.pdf",
+      "operating_2026_verified": false,
+      "gypsum_recovered_tpy": null
+    },
+    {
+      "name": "Cape Coral - North brackish reverse-osmosis treatment facility",
+      "state": "FL",
+      "county": "Lee",
+      "status": "HISTORICAL_2020_STATE_PRESENTATION_LISTING",
+      "source_water": "BRACKISH_GROUNDWATER_AS_DESCRIBED_IN_2020_SOURCE",
+      "reported_capacity_mgd": 12,
+      "source_url": "https://www.sfwmd.gov/sites/default/files/SFWMD_WCFMPresentation_20200701.pdf",
+      "operating_2026_verified": false,
+      "gypsum_recovered_tpy": null
+    },
+    {
+      "name": "Fort Myers brackish reverse-osmosis treatment facility",
+      "state": "FL",
+      "county": "Lee",
+      "status": "HISTORICAL_2020_STATE_PRESENTATION_LISTING",
+      "source_water": "BRACKISH_GROUNDWATER_AS_DESCRIBED_IN_2020_SOURCE",
+      "reported_capacity_mgd": 12,
+      "source_url": "https://www.sfwmd.gov/sites/default/files/SFWMD_WCFMPresentation_20200701.pdf",
+      "operating_2026_verified": false,
+      "gypsum_recovered_tpy": null
+    },
+    {
+      "name": "Lee County - North brackish reverse-osmosis treatment facility",
+      "state": "FL",
+      "county": "Lee",
+      "status": "HISTORICAL_2020_STATE_PRESENTATION_LISTING",
+      "source_water": "BRACKISH_GROUNDWATER_AS_DESCRIBED_IN_2020_SOURCE",
+      "reported_capacity_mgd": 11.8,
+      "source_url": "https://www.sfwmd.gov/sites/default/files/SFWMD_WCFMPresentation_20200701.pdf",
+      "operating_2026_verified": false,
+      "gypsum_recovered_tpy": null
+    },
+    {
+      "name": "Lee County - Pinewoods brackish reverse-osmosis treatment facility",
+      "state": "FL",
+      "county": "Lee",
+      "status": "HISTORICAL_2020_STATE_PRESENTATION_LISTING",
+      "source_water": "BRACKISH_GROUNDWATER_AS_DESCRIBED_IN_2020_SOURCE",
+      "reported_capacity_mgd": 3,
+      "source_url": "https://www.sfwmd.gov/sites/default/files/SFWMD_WCFMPresentation_20200701.pdf",
+      "operating_2026_verified": false,
+      "gypsum_recovered_tpy": null
+    },
+    {
+      "name": "Bonita Springs brackish reverse-osmosis treatment facility",
+      "state": "FL",
+      "county": "Lee",
+      "status": "HISTORICAL_2020_STATE_PRESENTATION_LISTING",
+      "source_water": "BRACKISH_GROUNDWATER_AS_DESCRIBED_IN_2020_SOURCE",
+      "reported_capacity_mgd": 6.6,
+      "source_url": "https://www.sfwmd.gov/sites/default/files/SFWMD_WCFMPresentation_20200701.pdf",
+      "operating_2026_verified": false,
+      "gypsum_recovered_tpy": null
+    },
+    {
+      "name": "Marco Island brackish reverse-osmosis treatment facility",
+      "state": "FL",
+      "county": "Collier",
+      "status": "HISTORICAL_2020_STATE_PRESENTATION_LISTING",
+      "source_water": "BRACKISH_GROUNDWATER_AS_DESCRIBED_IN_2020_SOURCE",
+      "reported_capacity_mgd": 5,
+      "source_url": "https://www.sfwmd.gov/sites/default/files/SFWMD_WCFMPresentation_20200701.pdf",
+      "operating_2026_verified": false,
+      "gypsum_recovered_tpy": null
+    },
+    {
+      "name": "Lee County - Green Meadows brackish reverse-osmosis treatment facility",
+      "state": "FL",
+      "county": "Lee",
+      "status": "HISTORICAL_2020_STATE_PRESENTATION_LISTING",
+      "source_water": "BRACKISH_GROUNDWATER_AS_DESCRIBED_IN_2020_SOURCE",
+      "reported_capacity_mgd": 8,
+      "source_url": "https://www.sfwmd.gov/sites/default/files/SFWMD_WCFMPresentation_20200701.pdf",
+      "operating_2026_verified": false,
+      "gypsum_recovered_tpy": null
+    },
+    {
+      "name": "Collier County - South brackish reverse-osmosis treatment facility",
+      "state": "FL",
+      "county": "Collier",
+      "status": "HISTORICAL_2020_STATE_PRESENTATION_LISTING",
+      "source_water": "BRACKISH_GROUNDWATER_AS_DESCRIBED_IN_2020_SOURCE",
+      "reported_capacity_mgd": 20,
+      "source_url": "https://www.sfwmd.gov/sites/default/files/SFWMD_WCFMPresentation_20200701.pdf",
+      "operating_2026_verified": false,
+      "gypsum_recovered_tpy": null
+    },
+    {
+      "name": "Lee County - Corkscrew brackish reverse-osmosis treatment facility",
+      "state": "FL",
+      "county": "Lee",
+      "status": "HISTORICAL_2020_STATE_PRESENTATION_LISTING",
+      "source_water": "BRACKISH_GROUNDWATER_AS_DESCRIBED_IN_2020_SOURCE",
+      "reported_capacity_mgd": 1,
+      "source_url": "https://www.sfwmd.gov/sites/default/files/SFWMD_WCFMPresentation_20200701.pdf",
+      "operating_2026_verified": false,
+      "gypsum_recovered_tpy": null
+    },
+    {
+      "name": "Collier County - North brackish reverse-osmosis treatment facility",
+      "state": "FL",
+      "county": "Collier",
+      "status": "HISTORICAL_2020_STATE_PRESENTATION_LISTING",
+      "source_water": "BRACKISH_GROUNDWATER_AS_DESCRIBED_IN_2020_SOURCE",
+      "reported_capacity_mgd": 8,
+      "source_url": "https://www.sfwmd.gov/sites/default/files/SFWMD_WCFMPresentation_20200701.pdf",
+      "operating_2026_verified": false,
+      "gypsum_recovered_tpy": null
+    },
+    {
+      "name": "Clewiston brackish reverse-osmosis treatment facility",
+      "state": "FL",
+      "county": "Hendry",
+      "status": "HISTORICAL_2020_STATE_PRESENTATION_LISTING",
+      "source_water": "BRACKISH_GROUNDWATER_AS_DESCRIBED_IN_2020_SOURCE",
+      "reported_capacity_mgd": 3,
+      "source_url": "https://www.sfwmd.gov/sites/default/files/SFWMD_WCFMPresentation_20200701.pdf",
+      "operating_2026_verified": false,
+      "gypsum_recovered_tpy": null
+    },
+    {
+      "name": "Chino I Desalter",
+      "state": "CA",
+      "county": "San Bernardino",
+      "status": "OFFICIAL_FACILITY_REFERENCE_2020_OR_CURRENT",
+      "source_water": "BRACKISH_GROUNDWATER",
+      "reported_capacity_mgd": 14,
+      "source_url": "https://www.chinodesalter.org/97/Facilities",
+      "operating_2026_verified": true,
+      "gypsum_recovered_tpy": null
+    },
+    {
+      "name": "Chino II Desalter",
+      "state": "CA",
+      "county": "Riverside",
+      "status": "OFFICIAL_FACILITY_REFERENCE_2020_OR_CURRENT",
+      "source_water": "BRACKISH_GROUNDWATER",
+      "reported_capacity_mgd": 23,
+      "source_url": "https://www.chinodesalter.org/97/Facilities",
+      "operating_2026_verified": true,
+      "gypsum_recovered_tpy": null
+    },
+    {
+      "name": "Tustin 17th Street Desalter Treatment Plant",
+      "state": "CA",
+      "county": "Orange",
+      "status": "OFFICIAL_FACILITY_REFERENCE_2020_OR_CURRENT",
+      "source_water": "BRACKISH_GROUNDWATER",
+      "reported_capacity_mgd": null,
+      "source_url": "https://water.ca.gov/-/media/DWR-Website/Web-Pages/Programs/California-Water-Plan/Docs/RMS/2025/Desalination-RMS---2025.pdf",
+      "operating_2026_verified": false,
+      "gypsum_recovered_tpy": null
+    },
+    {
+      "name": "Wells 21 and 22 Desalter",
+      "state": "CA",
+      "county": "Orange",
+      "status": "OFFICIAL_FACILITY_REFERENCE_2020_OR_CURRENT",
+      "source_water": "BRACKISH_GROUNDWATER",
+      "reported_capacity_mgd": null,
+      "source_url": "https://water.ca.gov/-/media/DWR-Website/Web-Pages/Programs/California-Water-Plan/Docs/RMS/2025/Desalination-RMS---2025.pdf",
+      "operating_2026_verified": false,
+      "gypsum_recovered_tpy": null
+    },
+    {
+      "name": "Irvine Potable Treatment Plant",
+      "state": "CA",
+      "county": "Orange",
+      "status": "OFFICIAL_FACILITY_REFERENCE_2020_OR_CURRENT",
+      "source_water": "BRACKISH_GROUNDWATER",
+      "reported_capacity_mgd": null,
+      "source_url": "https://water.ca.gov/-/media/DWR-Website/Web-Pages/Programs/California-Water-Plan/Docs/RMS/2025/Desalination-RMS---2025.pdf",
+      "operating_2026_verified": false,
+      "gypsum_recovered_tpy": null
+    },
+    {
+      "name": "San Juan Capistrano Groundwater Recovery Plant (Desalter)",
+      "state": "CA",
+      "county": "Orange",
+      "status": "OFFICIAL_FACILITY_REFERENCE_2020_OR_CURRENT",
+      "source_water": "BRACKISH_GROUNDWATER",
+      "reported_capacity_mgd": null,
+      "source_url": "https://water.ca.gov/-/media/DWR-Website/Web-Pages/Programs/California-Water-Plan/Docs/RMS/2025/Desalination-RMS---2025.pdf",
+      "operating_2026_verified": false,
+      "gypsum_recovered_tpy": null
+    },
+    {
+      "name": "Newark Desalination Facility",
+      "state": "CA",
+      "county": "Alameda",
+      "status": "OFFICIAL_FACILITY_REFERENCE_2020_OR_CURRENT",
+      "source_water": "BRACKISH_GROUNDWATER",
+      "reported_capacity_mgd": 10,
+      "source_url": "https://water.ca.gov/-/media/DWR-Website/Web-Pages/Programs/California-Water-Plan/Docs/RMS/2025/Desalination-RMS---2025.pdf",
+      "operating_2026_verified": false,
+      "gypsum_recovered_tpy": null
+    },
+    {
+      "name": "Calico Ghost Town desalination facility",
+      "state": "CA",
+      "county": "San Bernardino",
+      "status": "OFFICIAL_FACILITY_REFERENCE_2020_OR_CURRENT",
+      "source_water": "UNKNOWN",
+      "reported_capacity_mgd": null,
+      "source_url": "https://water.ca.gov/-/media/DWR-Website/Web-Pages/Programs/California-Water-Plan/Docs/RMS/2025/Desalination-RMS---2025.pdf",
+      "operating_2026_verified": false,
+      "gypsum_recovered_tpy": null
+    },
+    {
+      "name": "Cajon Maintenance Station desalination system",
+      "state": "CA",
+      "county": "San Bernardino",
+      "status": "OFFICIAL_FACILITY_REFERENCE_2020_OR_CURRENT",
+      "source_water": "UNKNOWN",
+      "reported_capacity_mgd": null,
+      "source_url": "https://water.ca.gov/-/media/DWR-Website/Web-Pages/Programs/California-Water-Plan/Docs/RMS/2025/Desalination-RMS---2025.pdf",
+      "operating_2026_verified": false,
+      "gypsum_recovered_tpy": null
+    },
+    {
+      "name": "Kermit H. Lewin Stock Island Reverse Osmosis Facility",
+      "state": "FL",
+      "county": "Monroe",
+      "status": "OPENING_ANNOUNCED_2025",
+      "source_water": "SEAWATER",
+      "reported_capacity_mgd": null,
+      "source_url": "https://www.flgov.com/eog/news/press/2025/governor-ron-desantis-announces-opening-new-reverse-osmosis-facility-florida-keys",
+      "operating_2026_verified": false,
+      "gypsum_recovered_tpy": null
+    }
+  ]
+}
