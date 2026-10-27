@@ -81,3 +81,8 @@ research/stars_2_0/
 ## Copilot OneDrive spreadsheet links (unretrieved)
 - [Original reference CSV and corrected spreadsheet bundle — exact OneDrive links, source-status warning](wp_b/revised/ONEDRIVE_COPILOT_SPREADSHEET_SOURCE_POINTERS_2026-10-27.md), commit 5abd323589a0d9142221796e7b51ac1876ecf10c.
 - Both OneDrive links were preserved exactly but **neither spreadsheet's bytes have been retrieved, inspected, or verified**. No source CSV is claimed archived.
+
+## IAEA EXFOR primary-data interface — 2026-10-27
+- [Runnable Python EXFOR acquisition / experimental-table normalizer](wp_b/revised/iaea_exfor_pipeline/exfor_pipeline.py), commit d74aed7dc2a31351133ba3cc30045fc492c3aa36.
+- [Data registry, API usage, reproduction instructions and limitations](wp_b/revised/iaea_exfor_pipeline/README.md), commit 6619ce490ad491d8b90cbd86cd69d1a91a36d50c.
+- Status: **SOURCE INTEGRATION SCAFFOLD PUBLISHED; NOT YET LIVE VERIFIED**. Local fixture tests were run on a related prototype; live IAEA endpoint could not be reached, and no real p–¹¹B data were downloaded or validated. EXFOR reaction channel/energy-frame selection and material-specific BN stopping remain mandatory gates.
