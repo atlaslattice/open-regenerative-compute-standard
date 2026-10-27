@@ -62,3 +62,8 @@ research/stars_2_0/
 - [Gemini's complete user-supplied results report](reviews/GEMINI_ARGON_WP_B_V02_RESULTS_AS_RECEIVED_2026-10-27.txt), commit 81b7738718eea824f1ea1dbc630f65a5ef45ba56.
 - [Preliminary review of revised model source shown in chat](reviews/GEMINI_ARGON_WP_B_V02_PRELIMINARY_CODE_AUDIT_2026-10-27.md), commit 5ba8c3bd16265b202c43225506b2c2f1b82dd038.
 - The *complete revised v0.2 .py source file and its newly generated CSV outputs* have **not yet been committed as standalone originals**. The code appeared as text in chat; do not assert full independent execution or experimental validation until received as files and rerun. v0.1 model remains preserved separately.
+
+## Stars 2.0 v0.7 synthesis checkpoint
+- [Complete v0.7 white paper — acoustic A/B, alpha escape, converter reality and multi-agent falsification](whitepapers/STARS_2_0_v0_7_ACOUSTIC_AB_EVIDENCE_AND_INTEGRATED_REVIEW_2026-10-27.md), commit a41a60765b68b4af8d4d0ac0cb9c21b672444e85.
+- Includes new acoustic ON/OFF/SHAM causal design, source-boundary evidence table, Copilot/DeepSeek/Gemini reviewer disagreements, pending resonance-reference reconciliation, independent ChatGPT/Tidal Lantern analysis and numbered reviewer challenges.
+- Does NOT claim verified v0.2 revised Python runtime, experimental acoustic gain, a unique BN thickness optimum, or net electrical fusion.
