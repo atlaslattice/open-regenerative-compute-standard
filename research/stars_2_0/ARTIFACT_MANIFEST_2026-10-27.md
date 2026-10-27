@@ -91,3 +91,8 @@ research/stars_2_0/
 - [v0.8 complete integrated whitepaper: calibration gates, nuclear-data interface, acoustic randomized controls and reviewer challenge packet](whitepapers/STARS_2_0_v0_8_REFERENCE_DATA_CALIBRATION_AND_INTERFACE_VALIDATION_2026-10-27.md), commit cef6240ffdfbafbe9d1168610dd81a28e10c881c.
 - Explicit data requests: EXFOR nuclear-channel source IDs/uncertainties, BN proton/He stopping/straggling, front/rear detector response, target acoustic metrology, beam-to-load converter tests. Twelve named Gemini Argon, Copilot, DeepSeek, ChatGPT reviewer challenges included.
 - **Not calibrated/validated yet:** IAEA live API import unverified; original purported 125-row Gemini table and revised executable unavailable; few-micrometre plateau and converter recovery remain model-reported, not measured.
+
+## DeepSeek cross-domain engineering review of Stars v0.8
+- [Source-checked engineering integration: diamond/SiC detectors, printed BN vs deposited film, tungsten grids, spin, Bayesian optimization and B-10 activation](reviews/DEEPSEEK_V08_CROSS_DOMAIN_ENGINEERING_AUDIT_2026-10-27.md), commit 269430a3c07dcc858de78d676894baeb917dded9.
+- Technical boundaries: DISH ~19 µm photopolymer resolution is not a demonstrated 4–6 µm BN catcher; B-10(p,gamma)→C-11→B-11 is real but no meaningful same-shot enrichment; spin enhancement and tungsten collector performance not yet experimentally validated in Stars.
+- Review integrated as sourced **v0.9 candidate branches**, not a revised v0.8 calibration or fully verified model.
