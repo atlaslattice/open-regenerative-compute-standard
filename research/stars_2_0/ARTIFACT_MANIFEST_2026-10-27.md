@@ -115,3 +115,10 @@ research/stars_2_0/
 - [Machine-readable JSON template](protocols/g0_b_lock/G0_B_VALIDATION_LOCKFILE_TEMPLATE_v0_1.json), commit 113524e33de724ac5ec80823d356c4ef6d8daa7e.
 - [Conservative completeness checker](protocols/g0_b_lock/check_g0_b_lock.py), commit 2c2aaca873649eef89872d21d7d1457eb6d97bbd.
 - **Template is deliberately incomplete; NOT a frozen or formally preregistered experiment.** Blind raw-data hash is generated and committed independently **after acquisition, before unblinding**; do not retroactively alter frozen predictions or reuse revealed data as newly blind.
+
+## Atlas Research Ancestry prototype — INV0-WIZ alias, not constitutional renumbering
+- [Research lineage README and canonical INV-0 reconciliation](../lineage/README.md), commit 474ae74f0763dce0ece2dab094d15989f596a2b0.
+- [Source-traced research ancestry JSON graph](../lineage/atlas_research_lineage_v0_1.json), commit 9cbf475f6e0c1c1984a90d38a64b2841a6b99715 — six archived nodes, zero experimental receipts.
+- [Append-only structural lineage validator](../lineage/validate_lineage.py), commit aae007e3d004b45b0123538a0ad13c1a5f0998cf.
+- [Static HTML ancestry browser prototype](../lineage/lineage_viewer.html), commit a8d7740d39f41a9ea5d63589079b48fdfbfb73a2 (source view on GitHub; download/serve as HTML for interaction).
+- Research subtext approved: **Reality may defeat a wizard, but it cannot delete their commit history.** Canon note: Aluminum OS INV-0 is System Integrity; historical ORCS `inv0_cleared` dual-use usage conflicts with that label. Existing INV-17 Zero Erasure and INV-19 Audit Immutability overlap this policy. This is not a formal Canon amendment or experimental validation.
