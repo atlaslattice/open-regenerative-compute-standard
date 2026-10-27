@@ -54,3 +54,6 @@ research/stars_2_0/
 - [v0.6 integrated white paper: WP-B audit, conservation corrections, and reviewer questions](whitepapers/STARS_2_0_v0_6_WP_B_AUDIT_AND_INTEGRATED_RESEARCH_WHITEPAPER_2026-10-27.md), committed a306bf804e8fff912f6ad96a4764921a8d5f4b49 on 2026-10-27.
 - This adds new analysis only. Original Gemini Argon code and three generated CSVs remain unmodified; Copilot's supplied full text and DeepSeek/Gemini attribution remain separately archived.
 - The WP-B audited replacement code is **planned, not yet committed**. Do not interpret this new white paper as a replacement for validated transport data or as a physical net-power claim.
+
+## New review: DeepSeek on v0.6
+- [DeepSeek v0.6 review and source-correction register](reviews/DEEPSEEK_V0_6_REVIEW_2026-10-27.md), commit afd1823cbd92ef9e4fc3476c03480de6e7a9a558. Preserves timing and target-preparation suggestions, DEC concerns, natural ¹¹B abundance qualification, ICRU 49/73 correction, and specific questions awaiting primary-method verification. This file is an attributed digest, not a verbatim review.
