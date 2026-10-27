@@ -57,3 +57,8 @@ research/stars_2_0/
 
 ## New review: DeepSeek on v0.6
 - [DeepSeek v0.6 review and source-correction register](reviews/DEEPSEEK_V0_6_REVIEW_2026-10-27.md), commit afd1823cbd92ef9e4fc3476c03480de6e7a9a558. Preserves timing and target-preparation suggestions, DEC concerns, natural ¹¹B abundance qualification, ICRU 49/73 correction, and specific questions awaiting primary-method verification. This file is an attributed digest, not a verbatim review.
+
+## Gemini Argon WP-B revised-model checkpoint (October 27, later review)
+- [Gemini's complete user-supplied results report](reviews/GEMINI_ARGON_WP_B_V02_RESULTS_AS_RECEIVED_2026-10-27.txt), commit 81b7738718eea824f1ea1dbc630f65a5ef45ba56.
+- [Preliminary review of revised model source shown in chat](reviews/GEMINI_ARGON_WP_B_V02_PRELIMINARY_CODE_AUDIT_2026-10-27.md), commit 5ba8c3bd16265b202c43225506b2c2f1b82dd038.
+- The *complete revised v0.2 .py source file and its newly generated CSV outputs* have **not yet been committed as standalone originals**. The code appeared as text in chat; do not assert full independent execution or experimental validation until received as files and rerun. v0.1 model remains preserved separately.
