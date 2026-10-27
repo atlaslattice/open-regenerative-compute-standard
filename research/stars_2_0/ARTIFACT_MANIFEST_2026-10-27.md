@@ -72,3 +72,8 @@ research/stars_2_0/
 - [DeepSeek v0.7 source/data/acoustic/DEC review and B-10→B-11 transmutation-vs-enrichment audit](reviews/DEEPSEEK_V07_REVIEW_BORON_ISOTOPE_PATHWAYS_2026-10-27.md), commit f4ba7906b8fcdcf5daad0f1d99f9196584780427.
 - Retains source-claim boundaries: natural ¹¹B vs enrichment economics, ¹⁰B(p,γ)¹¹C→¹¹B isotope production, ¹⁰B(n,α)⁷Li competing pathway, 2026 boric-acid extraction demonstration, and independent acoustic OFF/SHAM/ON controls.
 - Review is an attributed digest and verification supplement; latest original DeepSeek prose remains in the chat rather than a separately committed verbatim transcript.
+
+## Gemini Argon reported cross-section/stopping table (late Oct 27)
+- [Source-claim and resonance-frame audit](wp_b/revised/GEMINI_ARGON_REFERENCE_TABLE_CLAIMS_AND_RESONANCE_HOLD_2026-10-27.md), commit d0d02993cdff5e8708feef57788380704612bac9.
+- [Eight-row reported thickness excerpt, **NOT** source table](wp_b/revised/data/GEMINI_REPORTED_EIGHT_ROW_THICKNESS_EXCERPT_NOT_REFERENCE_TABLE_2026-10-27.csv), commit db583387f742aa2e5e3ea3d561cb56d9a1473c6a.
+- The named original `stars_2_0_reference_nuclear_stopping_tables.csv` with purported 125 rows was **NOT RECEIVED**. No claim of independent execution or validated EXFOR/SRIM calibration. The proposed 675 keV CM = 736.8 keV lab feature conflicts with Stave et al.'s **675 keV incident lab** resonance and requires source-frame and spin/channel reconciliation before promotion.
