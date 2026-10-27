@@ -1,0 +1,6 @@
+<PARSED TEXT FOR SHEET: 1 / 1 TABS
+TAB NAME: stars_2_0_wp_b_g3a_recovery_comparison.csv>index,scheme_id,description,E_alpha_in_mJ,E_alpha_out_uncollected_mJ,E_stopping_heat_loss_mJ,E_mode_attributable_to_alpha_mJ,E_load_attributable_to_alpha_mJ,E_wall_drive_diff_vs_sham_mJ,Delta_E_alpha_mJ,eta_transfer,eta_extract,eta_total_alpha_to_load,Delta_E_net_mJ,gate_g3a_status
+0,C1_Guided_Electrostatic_4Stage,Adiabatic magnetic expander + 4-stage Venetian-blind HVDC retarder,100.0,18.0,24.0,58.0,54.5,4.2,82.0,0.58,0.9397,0.545,50.3,PASS (Net Positive)
+1,C2a_Laser_SBS_Wave_Transfer,Counter-propagating laser SBS ion-acoustic grating (Manley-Rowe limited),100.0,68.0,27.5,4.5,1.1,2500.0,32.0,0.045,0.2444,0.011,-2498.9,FAIL (Retire Track)
+2,C2b_RF_Seeded_IBW_Pole_Resonance,Magnetized IBW at w = 3*Omega_alpha = 1.5*Omega_p with inductive pickup loop,100.0,32.0,26.0,42.0,19.3,14.0,68.0,0.42,0.4595,0.193,5.3,PASS (Net Positive)
+3,C3_Hybrid_IBW_Buncher_plus_Electrostatic,Self-excited IBW phase-space energy narrowing + 4-stage electrostatic retarder,100.0,14.0,21.0,65.0,60.8,8.5,86.0,0.65,0.9354,0.608,52.3,PASS (Net Positive)
