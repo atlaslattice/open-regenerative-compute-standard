@@ -67,3 +67,8 @@ research/stars_2_0/
 - [Complete v0.7 white paper — acoustic A/B, alpha escape, converter reality and multi-agent falsification](whitepapers/STARS_2_0_v0_7_ACOUSTIC_AB_EVIDENCE_AND_INTEGRATED_REVIEW_2026-10-27.md), commit a41a60765b68b4af8d4d0ac0cb9c21b672444e85.
 - Includes new acoustic ON/OFF/SHAM causal design, source-boundary evidence table, Copilot/DeepSeek/Gemini reviewer disagreements, pending resonance-reference reconciliation, independent ChatGPT/Tidal Lantern analysis and numbered reviewer challenges.
 - Does NOT claim verified v0.2 revised Python runtime, experimental acoustic gain, a unique BN thickness optimum, or net electrical fusion.
+
+## DeepSeek v0.7 and boron isotope pathway review
+- [DeepSeek v0.7 source/data/acoustic/DEC review and B-10→B-11 transmutation-vs-enrichment audit](reviews/DEEPSEEK_V07_REVIEW_BORON_ISOTOPE_PATHWAYS_2026-10-27.md), commit f4ba7906b8fcdcf5daad0f1d99f9196584780427.
+- Retains source-claim boundaries: natural ¹¹B vs enrichment economics, ¹⁰B(p,γ)¹¹C→¹¹B isotope production, ¹⁰B(n,α)⁷Li competing pathway, 2026 boric-acid extraction demonstration, and independent acoustic OFF/SHAM/ON controls.
+- Review is an attributed digest and verification supplement; latest original DeepSeek prose remains in the chat rather than a separately committed verbatim transcript.
