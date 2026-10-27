@@ -100,3 +100,7 @@ research/stars_2_0/
 ## DeepSeek hybrid target manufacturing clarification
 - [DeepSeek hybrid BN catcher follow-up and substrate/interface audit](reviews/DEEPSEEK_V08_HYBRID_BORON_TARGET_FABRICATION_FOLLOWUP_2026-10-27.md), commit 845a26c78fdb143ca9d5bd4f5971f584a32d71a9.
 - Preserve liquid pitcher, deposited active boron layer, and DISH/ceramic-printed frame as distinct serial subsystems. Explicitly account for substrate alpha attenuation and match boron-11 areal atomic density in comparator studies. Not experimental proof.
+
+## DeepSeek third review: G0-B three-target substrate comparison
+- [G0-B / G0-F three-target blinded comparison and support orientation controls](reviews/DEEPSEEK_G0B_THREE_TARGET_SUBSTRATE_COMPARISON_PROTOCOL_2026-10-27.md), commit 9d68591c4eb3f32730a5e590f2f9670113c64a6b.
+- Free-standing/minimally supported boron foil, matched-B11-areal-density thick-substrate deposition, and printed-holder/deposited-film architecture are independent catcher **fabrication** arms; liquid pitcher remains a separate serial subsystem. Define upstream/downstream and substrate-facing orientations explicitly. Status: prospective experimental design, not measured.
