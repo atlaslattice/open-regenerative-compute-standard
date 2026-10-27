@@ -77,3 +77,7 @@ research/stars_2_0/
 - [Source-claim and resonance-frame audit](wp_b/revised/GEMINI_ARGON_REFERENCE_TABLE_CLAIMS_AND_RESONANCE_HOLD_2026-10-27.md), commit d0d02993cdff5e8708feef57788380704612bac9.
 - [Eight-row reported thickness excerpt, **NOT** source table](wp_b/revised/data/GEMINI_REPORTED_EIGHT_ROW_THICKNESS_EXCERPT_NOT_REFERENCE_TABLE_2026-10-27.csv), commit db583387f742aa2e5e3ea3d561cb56d9a1473c6a.
 - The named original `stars_2_0_reference_nuclear_stopping_tables.csv` with purported 125 rows was **NOT RECEIVED**. No claim of independent execution or validated EXFOR/SRIM calibration. The proposed 675 keV CM = 736.8 keV lab feature conflicts with Stave et al.'s **675 keV incident lab** resonance and requires source-frame and spin/channel reconciliation before promotion.
+
+## Copilot OneDrive spreadsheet links (unretrieved)
+- [Original reference CSV and corrected spreadsheet bundle — exact OneDrive links, source-status warning](wp_b/revised/ONEDRIVE_COPILOT_SPREADSHEET_SOURCE_POINTERS_2026-10-27.md), commit 5abd323589a0d9142221796e7b51ac1876ecf10c.
+- Both OneDrive links were preserved exactly but **neither spreadsheet's bytes have been retrieved, inspected, or verified**. No source CSV is claimed archived.
