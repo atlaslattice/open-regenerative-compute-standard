@@ -109,3 +109,9 @@ research/stars_2_0/
 - [G0-B Protocol v0.1 — source-reproduction ladder, detector qualification, transmitted proton + paired alpha spectra, blinded validation, wedge/material arms and source-to-collector benchmark](protocols/G0_B_BLINDED_PROTON_TRANSMISSION_AND_ALPHA_ESCAPE_PROTOCOL_v0_1_2026-10-27.md), commit 959bba447ab1411524b957530061c521a938f051.
 - Source attribution: Copilot Researcher review provided by the user on Oct 27, 2026; integration with DeepSeek target fabrication comparisons and prior Gemini WP-B research. This protocol is a prospective design, **not yet formally preregistered or experimentally run**. Numeric facility acceptance thresholds, beam specification, instrument response, sample-size/power, and independent blind-custodian signatures remain required before freeze.
 - Distinguish energy-frame confidence from pending nuclear-level J^π source mapping. Four evidence grades are SOURCE-TRACED → SOURCE-REPRODUCED → CALIBRATED → VALIDATED. New spectral-evolution H4, proton-transmission H5, layer/substrate H6. A frozen model that fails blinded testing must remain a recorded failure; revising it requires a new blind dataset.
+
+## Copilot review: G0-B Validation Lockfile v0.1
+- [Lockfile lifecycle and limitations](protocols/g0_b_lock/README.md), commit 26f9611f9ac660c9f8a7e72407591c26bff614ea.
+- [Machine-readable JSON template](protocols/g0_b_lock/G0_B_VALIDATION_LOCKFILE_TEMPLATE_v0_1.json), commit 113524e33de724ac5ec80823d356c4ef6d8daa7e.
+- [Conservative completeness checker](protocols/g0_b_lock/check_g0_b_lock.py), commit 2c2aaca873649eef89872d21d7d1457eb6d97bbd.
+- **Template is deliberately incomplete; NOT a frozen or formally preregistered experiment.** Blind raw-data hash is generated and committed independently **after acquisition, before unblinding**; do not retroactively alter frozen predictions or reuse revealed data as newly blind.
