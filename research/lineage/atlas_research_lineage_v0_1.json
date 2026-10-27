@@ -1,0 +1,112 @@
+{
+  "schema": "atlas.research_lineage.v0.1",
+  "scope": "Research provenance demonstration; not the central Canon",
+  "canon_note": "User approved the pointy-hat subtext for the discussion's INV0. Existing unrelated INV0 labels must not be overwritten. No formal Canon amendment is asserted.",
+  "motto": "Reality may defeat a wizard, but it cannot delete their commit history.",
+  "principles": [
+    "History is immutable; scientific confidence is revisable.",
+    "A failed prediction remains failed.",
+    "Descendants reference ancestors; they never rewrite original predictions.",
+    "Validation receipts belong to exact model versions and datasets; they are not inherited.",
+    "Restrict/redact sensitive material by separate documented action, not silent overwrite."
+  ],
+  "nodes": [
+    {
+      "id": "stars_v07",
+      "type": "model",
+      "label": "STARS 2.0 v0.7",
+      "version": "0.7",
+      "status": "exploratory",
+      "evidence": "SOURCE-TRACED",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/main/research/stars_2_0/whitepapers/STARS_2_0_v0_7_ACOUSTIC_AB_EVIDENCE_AND_INTEGRATED_REVIEW_2026-10-27.md",
+      "notes": "Historical integrated research whitepaper; no validated net-electricity."
+    },
+    {
+      "id": "stars_v08",
+      "type": "model",
+      "label": "STARS 2.0 v0.8",
+      "version": "0.8",
+      "parent_ids": [
+        "stars_v07"
+      ],
+      "status": "exploratory",
+      "evidence": "SOURCE-TRACED",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/main/research/stars_2_0/whitepapers/STARS_2_0_v0_8_REFERENCE_DATA_CALIBRATION_AND_INTERFACE_VALIDATION_2026-10-27.md",
+      "change_summary": "Source/energy-frame governance, calibration requests and falsification interfaces.",
+      "notes": "Publication is not nuclear-data calibration."
+    },
+    {
+      "id": "gemini_reported_sweep",
+      "type": "prediction",
+      "label": "Gemini reported foil sweep",
+      "version": "reported-2026-10-27",
+      "parent_ids": [
+        "stars_v07"
+      ],
+      "status": "unverified_report",
+      "evidence": "SOURCE-TRACED",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/main/research/stars_2_0/wp_b/revised/data/GEMINI_REPORTED_EIGHT_ROW_THICKNESS_EXCERPT_NOT_REFERENCE_TABLE_2026-10-27.csv",
+      "notes": "Eight user-transcribed rows, not independently reproduced or measured."
+    },
+    {
+      "id": "exfor_client",
+      "type": "tool",
+      "label": "IAEA EXFOR acquisition client",
+      "version": "0.1",
+      "parent_ids": [
+        "stars_v08"
+      ],
+      "status": "prototype",
+      "evidence": "SOURCE-TRACED",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/main/research/stars_2_0/wp_b/revised/iaea_exfor_pipeline/README.md",
+      "notes": "Local synthetic fixture passed; live IAEA data import not verified."
+    },
+    {
+      "id": "g0b_protocol",
+      "type": "protocol",
+      "label": "G0-B blinded protocol",
+      "version": "0.1",
+      "parent_ids": [
+        "stars_v08"
+      ],
+      "status": "draft_not_preregistered",
+      "evidence": "SOURCE-TRACED",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/main/research/stars_2_0/protocols/G0_B_BLINDED_PROTON_TRANSMISSION_AND_ALPHA_ESCAPE_PROTOCOL_v0_1_2026-10-27.md",
+      "notes": "No frozen predictions, detector calibration or experimental results."
+    },
+    {
+      "id": "g0b_lockfile",
+      "type": "tool",
+      "label": "G0-B validation lockfile",
+      "version": "0.1",
+      "parent_ids": [
+        "g0b_protocol"
+      ],
+      "status": "draft_incomplete",
+      "evidence": "SOURCE-TRACED",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/main/research/stars_2_0/protocols/g0_b_lock/README.md",
+      "notes": "Structural template, not an experimental freeze or a PASS receipt."
+    }
+  ],
+  "receipts": [],
+  "demo_illustration": "PASS/FAIL branch diagram is schematic only. No actual STARS blind experiment has passed or failed.",
+  "receipt_schema": {
+    "receipt_id": "string",
+    "prediction_id": "existing prediction/model node",
+    "outcome": "PASS or FAIL or INCONCLUSIVE",
+    "protocol_version": "string",
+    "dataset_commit_sha256": "64-hex string",
+    "scoring_code_ref": "immutable reference",
+    "decided_at_utc": "ISO 8601 time",
+    "independent_signoffs": "array of identifiers",
+    "comment": "string"
+  },
+  "rules": {
+    "append_only": true,
+    "no_mutation_of_ancestor_records": true,
+    "no_validation_inheritance": true,
+    "receipt_needs_existing_prediction": true,
+    "receipt_must_have_dataset_and_protocol_provenance": true,
+    "source_data_hashes_must_be_verified_before_promotion": true
+  }
+}
