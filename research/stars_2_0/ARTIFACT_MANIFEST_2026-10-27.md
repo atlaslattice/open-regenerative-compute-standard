@@ -96,3 +96,7 @@ research/stars_2_0/
 - [Source-checked engineering integration: diamond/SiC detectors, printed BN vs deposited film, tungsten grids, spin, Bayesian optimization and B-10 activation](reviews/DEEPSEEK_V08_CROSS_DOMAIN_ENGINEERING_AUDIT_2026-10-27.md), commit 269430a3c07dcc858de78d676894baeb917dded9.
 - Technical boundaries: DISH ~19 µm photopolymer resolution is not a demonstrated 4–6 µm BN catcher; B-10(p,gamma)→C-11→B-11 is real but no meaningful same-shot enrichment; spin enhancement and tungsten collector performance not yet experimentally validated in Stars.
 - Review integrated as sourced **v0.9 candidate branches**, not a revised v0.8 calibration or fully verified model.
+
+## DeepSeek hybrid target manufacturing clarification
+- [DeepSeek hybrid BN catcher follow-up and substrate/interface audit](reviews/DEEPSEEK_V08_HYBRID_BORON_TARGET_FABRICATION_FOLLOWUP_2026-10-27.md), commit 845a26c78fdb143ca9d5bd4f5971f584a32d71a9.
+- Preserve liquid pitcher, deposited active boron layer, and DISH/ceramic-printed frame as distinct serial subsystems. Explicitly account for substrate alpha attenuation and match boron-11 areal atomic density in comparator studies. Not experimental proof.
