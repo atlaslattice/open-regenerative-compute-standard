@@ -1,0 +1,523 @@
+**Analyzing code and CSV**
+I’m reviewing the code and CSV file, while also considering external physics claims and official papers. I’ll need to explore the attached reference and perform a personal file search.
+Hi! This is a thoughtful **exploratory model architecture** with good separation of concerns, explicit units, and a genuinely useful distinction between fusion births and escaping-alpha energy. My main reservation is that the implementation currently looks more authoritative than its underlying calibration supports. I would call it a **hypothesis generator and experiment-design model**, not yet a validated numerical baseline.
+
+## What looks strong
+
+- The model is cleanly decomposed into cross section, stopping, escape, beam transport, factorial experiments, thickness optimization, and recovery.
+- You correctly distinguish:
+  - fusion events,
+  - alphas born,
+  - alphas escaping,
+  - escaped kinetic energy,
+  - direct electrical output,
+  - thermal output,
+  - wall-plug input.
+- Tracking escaped **energy**, rather than optimizing only escaped particle count, is exactly the right objective.
+- The reported sweep has a clear internal optimum. In [stars_2_0_wp_b_thickness_sweep.csv](https://onedrive.live.com/personal/0a56f85358812930/_layouts/15/doc.aspx?resid=4df59e7e-6640-452e-865b-1b7664a54381&cid=0a56f85358812930&EntityRepresentationId=d6f04d8d-ad46-42fe-b4e3-1a59c81776e2), escaped-alpha energy rises from about 0.355 µJ at 1 µm to a maximum of about **0.746 µJ at 5 µm**, then falls to about 0.738 µJ at 6 µm and 0.688 µJ at 8 µm. [1](https://onedrive.live.com/personal/0a56f85358812930/_layouts/15/doc.aspx?resid=4df59e7e-6640-452e-865b-1b7664a54381&cid=0a56f85358812930)
+- The competition visible in the sweep makes physical sense qualitatively: born-alpha yield increases with thickness while escape fraction declines. At 5 µm, the file reports about 3.23 million alphas born, 2.29 million escaped, and an escape fraction of 0.710. [1](https://onedrive.live.com/personal/0a56f85358812930/_layouts/15/doc.aspx?resid=4df59e7e-6640-452e-865b-1b7664a54381&cid=0a56f85358812930)
+- The cited p–¹¹B evaluation does cover incident proton energies from 0.15 to 3.8 MeV and discusses the approximately 0.162 MeV low-energy resonance, so it is relevant source material for the energy range being modeled. [2](https://link.springer.com/content/pdf/10.1007/s10894-016-0069-y.pdf)
+- The 2026 alpha-source paper does describe a TNSA proton source, a downstream boron-nitride converter, depth-dependent reaction and stopping effects, 18,000 shots, and 10 Hz operation. [3](https://arxiv.org/abs/2609.33483)
+
+## The most important issues
+
+### 1. “Relativistic” frame conversion is inaccurate terminology
+
+```python
+E_cm = E_lab * m_B / (m_p + m_B)
+```
+
+is the standard nonrelativistic target-at-rest conversion. At sub-MeV proton energies the approximation is perfectly reasonable, but it is not a relativistic kinematic treatment.
+
+I would change the documentation to:
+
+> Nonrelativistic Lab-to-CM energy conversion using nuclear masses.
+
+Also, the comment says `~0.91618`, while the constants calculate a slightly different value. Compute and print the value rather than embedding approximate values in several comments.
+
+### 2. The cross-section function is a phenomenological surrogate, not obviously a literature parameterization
+
+The structure is plausible, but the precise peak values, widths, penetrability caps, baseline normalization, and additive treatment of resonances do not appear to follow directly from the cited paper as written. The paper reports evaluated cross-section and reaction-rate data, but that does not itself validate these particular three Breit-Wigner terms. [2](https://link.springer.com/content/pdf/10.1007/s10894-016-0069-y.pdf)
+
+Potential problems include:
+
+- interference between channels is absent;
+- resonance amplitudes are simply added to a nonresonant term;
+- the R2 penetrability ratio contains an empirical cap of `1.5`;
+- R3 uses another empirical `min()` factor;
+- no covariance or uncertainty band is propagated;
+- the polarization factor modifies only the R2 amplitude, but the numerical coefficient is assumed rather than derived in the code.
+
+I would rename it:
+
+```python
+sigma_pb11_surrogate_barns(...)
+```
+
+and add a machine-readable parameter provenance table. Better still, interpolate a digitized or published evaluated cross-section dataset and keep the analytic surrogate only as an optional comparison.
+
+### 3. The stopping law needs direct numerical validation
+
+The comments call this “Bethe-Bloch + Lindhard-Scharff” and “calibrated to SRIM-2013,” but the implementation is a compact empirical harmonic interpolation. That is acceptable for a reduced surrogate, but the documentation should not imply that full Bethe-Bloch or SRIM transport is actually being performed.
+
+SRIM itself warns that compound stopping estimated through elemental additivity can deviate because bonding and charge-state effects matter. [4](http://www.srim.org/SRIM/Compounds.htm) The available SRIM-based calculator describes its outputs as electronic stopping-power tables, while NIST’s PSTAR/ASTAR databases provide stopping and range calculations only for their supported materials. [5](https://www.sr-niel.org/index.php/sr-niel-web-calculators/electronic-stopping-power-ionizing-dose-calculator-for-protons-and-ions)[6](https://www.nist.gov/pml/stopping-power-range-tables-electrons-protons-and-helium-ions)
+
+Before trusting the thickness optimum, I would add automated benchmarks for:
+
+```text
+Energy          S_model       S_reference       Range_model       Range_reference
+75 keV
+161.5 keV
+736.8 keV
+1 MeV
+2.2 MeV
+```
+
+The **range-energy curve** matters more than matching stopping power at one or two energies.
+
+### 4. The alpha escape model returns total two-surface escape, not downstream escape
+
+The function computes both:
+
+```python
+forward_escape_prob
+total_escape_prob
+```
+
+but returns only:
+
+```python
+return total_escape_prob, mean_E_per_escaping_alpha
+```
+
+The downstream collector then uses `E_alpha_escaped_J` as though a geometric factor alone canHi! My overall read is: **this is a strong exploratory software scaffold, but the numerical outputs should not yet be treated as validated physical predictions or as evidence for net-energy feasibility.** The code is unusually transparent about assumptions, separates the major subsystems well, and produces useful falsification targets. The largest risks are model calibration, causal confounding in the factorial design, and the energy ledger.
+
+The generated [stars_2_0_wp_b_thickness_sweep.csv](https://onedrive.live.com/personal/0a56f85358812930/_layouts/15/doc.aspx?resid=4df59e7e-6640-452e-865b-1b7664a54381&cid=0a56f85358812930&EntityRepresentationId=d6f04d8d-ad46-42fe-b4e3-1a59c81776e2) shows escaped-alpha energy peaking at **5 µm with about 0.746 µJ**, while the escaped-alpha count peaks at **6 µm with about 2.35 million alphas**. Born-alpha yield continues increasing through the thickest simulated target. [1](https://onedrive.live.com/personal/0a56f85358812930/_layouts/15/doc.aspx?resid=4df59e7e-6640-452e-865b-1b7664a54381&cid=0a56f85358812930)
+
+## What looks good
+
+### 1. Clear modular structure
+
+The separation into:
+
+- cross section,
+- stopping power,
+- escape kinematics,
+- depth integration,
+- source spectra,
+- factorial runs,
+- thickness optimization,
+- recovery comparison,
+
+is excellent. It will make later replacement of the phenomenological components with tabulated or transport-derived data much easier.
+
+The explicit distinction between:
+
+- fusion events,
+- born alphas,
+- escaped alphas,
+- escaped-alpha kinetic energy,
+
+is especially valuable. Many simplified p–¹¹B calculations blur those quantities.
+
+### 2. The basic p–¹¹B reaction framing is directionally sound
+
+The simple Lab-to-CM conversion is appropriate for a stationary ¹¹B target in the nonrelativistic energy range. The low-energy resonance near **0.162 MeV incident proton energy** is documented in the Sikora–Weller evaluation. That evaluation used experimental data spanning proton energies from 0.15 to 3.8 MeV and treated the sequential three-alpha final state. [2](https://link.springer.com/content/pdf/10.1007/s10894-016-0069-y.pdf)[7](https://link.springer.com/article/10.1007/s10894-016-0069-y)
+
+The sequential-decay interpretation is also reasonable as a starting point. Sikora and Weller describe their spectrum calculation in terms of primary-alpha emission followed by secondary alphas from ⁸Be decay. [2](https://link.springer.com/content/pdf/10.1007/s10894-016-0069-y.pdf)
+
+### 3. The thickness tradeoff is captured qualitatively
+
+Your sweep produces the expected competing behaviors:
+
+- thin targets have high fractional escape but low reaction probability,
+- thicker targets produce more reactions,
+- escaped energy peaks at an intermediate thickness,
+- very thick targets mostly add deeply born alphas that cannot escape.
+
+That is exactly the sort of distinction the recent continuous laser-driven alpha-source work emphasizes: the measured escaping spectrum is shaped by depth-dependent reaction yield and stopping effects. [3](https://arxiv.org/abs/2609.33483)
+
+### 4. Good epistemic labeling
+
+“Exploratory, falsification-first numerical baseline” is the right framing. I would preserve this wording prominently in every CSV metadata file and plot.
+
+---
+
+# Important issues to address
+
+## 1. “Relativistic” is not accurate here
+
+This line:
+
+> Relativistic/kinematic Lab-to-CM frame conversion
+
+overstates what the code implements. The calculation is simply:
+
+```python
+E_cm = E_lab * m_target / (m_projectile + m_target)
+```
+
+That is the standard **nonrelativistic stationary-target conversion**. It is perfectly adequate around 0.7 MeV, but it is not a relativistic transformation.
+
+Suggested wording:
+
+> Nonrelativistic stationary-target Lab-to-CM energy conversion.
+
+Also, the comments alternate among approximately `0.91618`, `0.916157`, and the value calculated from the constants. Use the calculated value everywhere rather than embedding slightly different rounded values in documentation.
+
+---
+
+## 2. The cross-section function is a phenomenological surrogate, not yet a literature parameterization
+
+The paper supports the reaction-energy range and resonance structure, but that does not automatically validate your particular sum of:
+
+- an S-factor baseline,
+- three independently added Lorentzians,
+- custom penetration-ratio modifiers,
+- selected peak values and widths.
+
+Sikora and Weller's paper reports a cross-section evaluation based on experimental alpha yields and notes that the new evaluated reaction rate differs from the previously accepted result by roughly 10–15% over a specified temperature range. [2](https://link.springer.com/content/pdf/10.1007/s10894-016-0069-y.pdf) That is not equivalent to endorsing the exact analytic function in `sigma_pb11_barns()`.
+
+Potential problems include:
+
+- double-counting a nonresonant contribution beneath the resonance terms,
+- missing interference between reaction amplitudes,
+- imposing a Lorentzian form where an R-matrix or evaluated data table would be more appropriate,
+- treating the broad structures as independent additive peaks,
+- using a scalar spin multiplier without a channel-resolved polarized cross section.
+
+### Recommended change
+
+Rename the function and document its status:
+
+```python
+def sigma_pb11_surrogate_barns(...):
+    """
+    Phenomenological surrogate for sensitivity studies.
+    Not an evaluated cross-section representation.
+    """
+```
+
+For the next validation stage, ingest digitized or machine-readable evaluated cross-section data and interpolate it. Keep this surrogate only as a comparison model.
+
+At minimum, generate a verification plot over 0.05–4 MeV showing:
+
+1. each component separately,
+2. the summed cross section,
+3. literature/evaluated data points,
+4. residual error.
+
+---
+
+## 3. The stopping-power calibration needs direct verification
+
+Your comments claim:
+
+- about 92 keV/µm near 75 keV,
+- about 36 keV/µm at 1 MeV,
+- a 2.2 MeV range of about 56 µm.
+
+But the analytic function does not obviously reproduce all three simultaneously. For example, evaluating the high-energy branch around 1 MeV appears to give a value substantially below the claimed 36 keV/µm before harmonic interpolation.
+
+SRIM does provide compound stopping calculations, but SRIM itself warns that compound stopping based on component additivity can deviate because bonding and charge-state effects matter. Its overview states that measured compound stopping can deviate from Bragg-rule predictions and discusses potentially substantial non-additivity in simple compounds. [4](http://www.srim.org/SRIM/Compounds.htm) A third-party calculator also describes its stopping tables as an implementation of the SRIM 2013 module. [5](https://www.sr-niel.org/index.php/sr-niel-web-calculators/electronic-stopping-power-ionizing-dose-calculator-for-protons-and-ions)
+
+### Add regression tests
+
+```python
+def test_stopping_calibration():
+    assert np.isclose(
+        proton_stopping_power_keV_per_um(np.array([75.0]))[0],
+        92.0,
+        rtol=0.10,
+    )
+    assert np.isclose(
+        proton_stopping_power_keV_per_um(np.array([1000.0]))[0],
+        36.0,
+        rtol=0.10,
+    )
+```
+
+Then calculate range from the same stopping function:
+
+```python
+R(E0) = integral_0^E0 dE / S(E)
+```
+
+The claimed range should be an output of the implemented curve, not an independent comment.
+
+NIST provides proton and helium stopping/range databases, although its standard interface covers a finite set of materials and may not supply BN directly. [6](https://www.nist.gov/pml/stopping-power-range-tables-electrons-protons-and-helium-ions)
+
+---
+
+## 4. Forward escape and total escape are conceptually mixed
+
+The docstring says the function evaluates both forward-hemisphere and total escape, but it returns only:
+
+```python
+return total_escape_prob, mean_E_per_escaping_alpha
+```
+
+Later, `E_alpha_escaped_J` therefore includes escape through **both target faces**. The recovery ledger then applies:
+
+```python
+f_geom_collect = 0.78
+```
+
+to all escaped alpha energy, even though the prose says the collector is downstream.
+
+Unless the recovery apparatus collects both surfaces, this can overstate recoverable alpha energy.
+
+### Better return structure
+
+```python
+return {
+    "p_forward": forward_escape_prob,
+    "p_total": total_escape_prob,
+    "E_forward_MeV_per_birth": weighted_forward_energy,
+    "E_total_MeV_per_birth": weighted_total_energy,
+}
+```
+
+Then use forward escaped energy in the downstream recovery calculation. If a magnetic mirror recovers front-going alphas, model it explicitly with a separate reflection and transport efficiency.
+
+---
+
+## 5. The alpha escape model is useful, but too compressed for precision claims
+
+The two-component model is a sensible reduced representation, but these are strong assumptions:
+
+```python
+(1/3, 3.760 MeV, 11.80 µm)
+(2/3, 2.461 MeV, 7.60 µm)
+```
+
+and:
+
+```python
+E_res = E0 * (1 - s/R0)**0.65
+```
+
+The exponent `0.65` is effectively a fitted range-energy law. It should be accompanied by:
+
+- its fit source,
+- fit interval,
+- fitting error,
+- sensitivity range,
+- comparison against tabulated helium stopping/range data.
+
+The recent BN-converter experiment reports a pronounced flattening of the escaping alpha spectrum from depth-dependent production and stopping, but the abstract does not establish the exact 9 µm mean escape range or your two fixed component ranges. [3](https://arxiv.org/abs/2609.33483)
+
+I would describe the current routine as a **geometric escape surrogate**, not a 3D Dalitz integration. A true Dalitz treatment would sample or integrate correlated three-body energies and angles event by event rather than use two mean components.
+
+---
+
+## 6. The “2³ factorial” design is causally confounded
+
+This is probably the most important experimental-design issue.
+
+When Acoustic is switched on, the code simultaneously changes:
+
+- target thickness from 50 to 4 µm,
+- laser-to-proton efficiency,
+- proton spectral shape,
+- effective sheath temperature,
+- spectral bump.
+
+Therefore, the Acoustic main effect cannot be separated from target thickness, source normalization, or spectral redistribution.
+
+Similarly, Wave changes both:
+
+- stopping drag,
+- direct-conversion efficiency.
+
+That makes the eight corners a **scenario matrix**, not a clean factorial experiment.
+
+### Recommended split
+
+Use independent factors such as:
+
+- A: acoustic hardware off/on,
+- B: polarization off/on,
+- C: wave hardware off/on,
+- D: target thickness 4/50 µm,
+- E: source spectrum baseline/acoustic,
+- F: laser-to-proton efficiency baseline/enhanced.
+
+If a full \(2^6\) study is too expensive, use a fractional factorial, Morris screening, or Sobol sensitivity analysis. The current design can remain, but call it a “bundled architecture scenario matrix.”
+
+---
+
+## 7. The Sham run is not matched to a single active treatment
+
+`R1_Sham_Control` sets all three subsystems to `SHAM` and charges all three overheads:
+
+```python
+E_ac_wall = 0.015
+E_dnp_wall = 0.450
+E_wave_wall = 1.250
+```
+
+This is an all-system sham, not necessarily a control for each factorial contrast.
+
+More informative controls would be:
+
+- Acoustic sham only,
+- DNP/spin sham only,
+- Wave-drive sham only,
+- combined all-system sham.
+
+That lets you distinguish subsystem backgrounds and interactions.
+
+---
+
+## 8. The wall-plug ledger needs a conservation audit
+
+The ledger is readable, but several boundaries need clarification.
+
+### Proton-beam heat
+
+You add the entire proton beam energy to the thermal pool:
+
+```python
+E_thermal_pool_J = E_stopped_fusion_J + E_proton_beam_J
+```
+
+However, the integrator calculates:
+
+```python
+E_protons_exit_J
+```
+
+and then does not use it. If protons leave the converter, their remaining kinetic energy is not target heat unless a downstream dump captures it inside the declared thermal boundary.
+
+A first correction is:
+
+```python
+E_proton_deposited_J = (
+    sim["E_protons_in_J"] - sim["E_protons_exit_J"]
+)
+```
+
+But even that needs care around reacted protons and accounting boundaries.
+
+### Direct conversion versus residual heat
+
+This line:
+
+```python
+E_stopped_fusion_J = sim["E_fusion_born_J"] - E_direct_elec_J
+```
+
+can be valid only if every joule not delivered electrically, including converter losses and uncollected alpha energy, ultimately reaches the same recoverable thermal pool. If some energy escapes, strikes non-recovered structures, or remains in outgoing particles, it must be separated.
+
+I suggest explicit ledger terms:
+
+```python
+E_alpha_forward_collected
+E_alpha_front_escaped
+E_alpha_uncollected
+E_alpha_converter_loss
+E_alpha_direct_electric
+E_proton_target_deposition
+E_proton_exit
+E_other_radiation_escape
+E_recoverable_heat
+E_unrecoverable_heat
+```
+
+Then assert:
+
+```python
+abs(E_in - E_out) < tolerance
+```
+
+for each subsystem and the full shot.
+
+---
+
+## 9. The G3-A section is a scenario calculator, not a simulator
+
+Every physically important result is currently hardcoded:
+
+```python
+"E_load_attributable_to_alpha_mJ": 60.8
+"E_wall_drive_diff_vs_sham_mJ": 8.5
+```
+
+The code then labels the scenario PASS if one hardcoded number exceeds another. That arithmetic is correct, but the “PASS” is predetermined by the assumptions.
+
+I would rename it:
+
+```python
+run_g3a_assumption_ledger()
+```
+
+and report:
+
+> Conditional PASS under stated assumed transfer, extraction, and wall-drive values.
+
+A genuine simulator would derive those terms from fields, geometry, particle phase space, coupling coefficients, and load impedance, or at least propagate measured inputs and uncertainties.
+
+---
+
+## 10. The sweep does not find the “exact” optimum
+
+The docstring says:
+
+> find the exact thickness
+
+but only 14 discrete thicknesses are evaluated. From the CSV, the sampled escaped-energy maximum is at 5 µm, but the true optimum could lie between the points. [1](https://onedrive.live.com/personal/0a56f85358812930/_layouts/15/doc.aspx?resid=4df59e7e-6640-452e-865b-1b7664a54381&cid=0a56f85358812930)
+
+Use wording such as:
+
+> Identify the best thickness among the sampled values.
+
+Or do:
+
+1. coarse sweep,
+2. bracket the maximum,
+3. refine in 0.1 µm increments,
+4. repeat under uncertainty bands.
+
+Also note that different objectives produce different optima:
+
+- escaped energy: sampled maximum at 5 µm,
+- escaped alpha count: sampled maximum at 6 µm,
+- birth yield: still increases at 60 µm. [1](https://onedrive.live.com/personal/0a56f85358812930/_layouts/15/doc.aspx?resid=4df59e7e-6640-452e-865b-1b7664a54381&cid=0a56f85358812930)
+
+So there is no single optimum without naming the objective.
+
+---
+
+# Smaller code-quality points
+
+- The source contains mojibake: `â€”` should be `—`, and `um` could consistently be `µm` in output labels or remain ASCII everywhere.
+- `MOLAR_MASS_BN = 24.818` is defined but ignored; `25.016` is hardcoded in the number-density expression.
+- The comment says “bare nuclear mass” for values that should be checked carefully against the intended atomic/nuclear mass convention.
+- `np.trapz` is being superseded by `np.trapezoid` in recent NumPy versions.
+- Forty angular samples may be adequate, but convergence should be demonstrated.
+- The fixed 120 depth steps mean spatial resolution varies from 0.0083 µm at 1 µm thickness to 0.5 µm at 60 µm. An adaptive or fixed maximum `dx` would be safer.
+- Reaction probabilities are not removed from the proton weights. That is probably numerically negligible here, but either implement depletion or explicitly assert that the maximum integrated reaction probability is small.
+- Normalize discrete proton weights directly so they sum exactly to `N_protons`, rather than mixing trapezoidal normalization with gradient-based quadrature weights.
+- Introduce a seeded Monte Carlo or uncertainty sampler for the most assumption-heavy inputs.
+
+## Bottom line
+
+I’d rate it:
+
+- **Software architecture:** strong
+- **Transparency:** strong
+- **Qualitative thickness physics:** promising
+- **Cross-section validation:** incomplete
+- **Stopping/range validation:** incomplete
+- **Factorial causal interpretation:** currently weak
+- **Recovery predictions:** assumption-driven
+- **Net-energy claims:** not yet supportable
+
+The most useful scientific conclusion currently supported by the model is not “this architecture works.” It is:
+
+> Under this particular cross-section, stopping, and escape surrogate, thin BN converters around the sampled 5–6 µm region trade lower birth yield for substantially improved escaping-alpha count and energy.
+
+That is a clear, testable result, and a good basis for the next validation iteration.
+**Verifying calculations and citations**  
+I’m checking the arithmetic in the CSV for energy calculations and ensuring all claims are properly cited. I’ll also review the software's consistency and note any bugs or issues.
