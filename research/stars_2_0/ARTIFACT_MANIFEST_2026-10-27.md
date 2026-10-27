@@ -86,3 +86,8 @@ research/stars_2_0/
 - [Runnable Python EXFOR acquisition / experimental-table normalizer](wp_b/revised/iaea_exfor_pipeline/exfor_pipeline.py), commit d74aed7dc2a31351133ba3cc30045fc492c3aa36.
 - [Data registry, API usage, reproduction instructions and limitations](wp_b/revised/iaea_exfor_pipeline/README.md), commit 6619ce490ad491d8b90cbd86cd69d1a91a36d50c.
 - Status: **SOURCE INTEGRATION SCAFFOLD PUBLISHED; NOT YET LIVE VERIFIED**. Local fixture tests were run on a related prototype; live IAEA endpoint could not be reached, and no real p–¹¹B data were downloaded or validated. EXFOR reaction channel/energy-frame selection and material-specific BN stopping remain mandatory gates.
+
+## Stars 2.0 v0.8 — authoritative nuclear data and next peer-review round
+- [v0.8 complete integrated whitepaper: calibration gates, nuclear-data interface, acoustic randomized controls and reviewer challenge packet](whitepapers/STARS_2_0_v0_8_REFERENCE_DATA_CALIBRATION_AND_INTERFACE_VALIDATION_2026-10-27.md), commit cef6240ffdfbafbe9d1168610dd81a28e10c881c.
+- Explicit data requests: EXFOR nuclear-channel source IDs/uncertainties, BN proton/He stopping/straggling, front/rear detector response, target acoustic metrology, beam-to-load converter tests. Twelve named Gemini Argon, Copilot, DeepSeek, ChatGPT reviewer challenges included.
+- **Not calibrated/validated yet:** IAEA live API import unverified; original purported 125-row Gemini table and revised executable unavailable; few-micrometre plateau and converter recovery remain model-reported, not measured.
