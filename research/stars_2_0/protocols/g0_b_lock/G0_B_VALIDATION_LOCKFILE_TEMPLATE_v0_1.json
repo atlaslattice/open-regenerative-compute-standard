@@ -1,0 +1,54 @@
+{
+  "schema_version": "0.1.0",
+  "document_type": "STARS_G0_B_VALIDATION_LOCKFILE",
+  "status": "DRAFT_INCOMPLETE_NOT_PREREGISTERED",
+  "protocol_version": "G0-B-v0.1",
+  "protocol_source_path": "research/stars_2_0/protocols/G0_B_BLINDED_PROTON_TRANSMISSION_AND_ALPHA_ESCAPE_PROTOCOL_v0_1_2026-10-27.md",
+  "protocol_git_commit": null,
+  "model_version": null,
+  "model_git_commit": null,
+  "source_data_hashes": [],
+  "normalization_code_sha256": null,
+  "stopping_table_hashes": [],
+  "detector_response_sha256": null,
+  "detector_gate_g0_d": {
+    "status": "NOT_QUALIFIED",
+    "calibration_record_sha256": null,
+    "qualification_criteria_uri": null
+  },
+  "target_batch_identifiers": [],
+  "thickness_positions": [],
+  "primary_observables": [
+    "proton_transmission_spectrum",
+    "upstream_alpha_energy_angle_spectrum",
+    "downstream_alpha_energy_angle_spectrum",
+    "alpha_hemisphere_ratio",
+    "alpha_thickness_dependence"
+  ],
+  "acceptance_thresholds": null,
+  "uncertainty_model_uri": null,
+  "missing_data_rules": null,
+  "exclusion_rules": null,
+  "randomization": {
+    "method": null,
+    "seed_commitment_sha256": null,
+    "custodian": null
+  },
+  "blind_data": {
+    "raw_dataset_sha256": null,
+    "custodian": null,
+    "encrypted_location_reference": null
+  },
+  "unblinding": {
+    "authorization": null,
+    "authorized_by": null,
+    "authorized_at_utc": null
+  },
+  "failure_criteria": null,
+  "analysis_code_git_commit": null,
+  "frozen_predictions_sha256": null,
+  "lockfile_sha256": null,
+  "freeze_timestamp_utc": null,
+  "independent_signoffs": [],
+  "notes": "Template only. Null values require evidence-backed completion before any FROZEN/PREREGISTERED declaration. Blind-data digest is committed by independent custodian after acquisition and before unblinding; do not invent it in advance."
+}
