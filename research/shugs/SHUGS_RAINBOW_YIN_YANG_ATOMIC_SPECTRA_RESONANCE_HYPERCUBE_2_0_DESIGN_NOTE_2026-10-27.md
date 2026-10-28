@@ -74,3 +74,11 @@ Proposed independent, typed axes:
 - Historical bridge note: [ORC-036 SHUGS/SNRS bridge stub](../../ORC-036_SHUGS_SNRS_Bridge_Stub_v0.1.md) is explicitly a stub; historic [Rainbow Yin-Yang critique](../../council-reviews/claude_s1_response_to_s4_shugs_review_gap_tests_2026-04-29.md) warns about conflating source versions and spectral evidence.
 
 **Status:** captured architectural cross-link; no SHUGS physics pipeline implemented in this commit.
+
+## HSN coordinate and crosswalk clarification
+
+Project-lead correction (2026-10-27): HSN means **House–Sphere–Node** with 12×12×12 = 1,728 entry cells, not merely 12×12 Houses/Spheres. The [public explainer](https://github.com/atlaslattice/manus-artifacts/blob/main/docs/LATTICE_HYPERCUBE_12x12x12.md) and [HSN-to-D12 crosswalk](https://github.com/atlaslattice/manus-artifacts/blob/main/archive/knowledge_graph/lattice_kg/v0_6/HSN_TO_D12_CROSSWALK_v0.1.yaml) label themselves candidate/not Canon or deployed. HSN is an entry-address layer of a proposed richer 12D framework.
+
+The user's analogy between a Chinese **1+M+N** organizational framework and HSN is a **compatibility hypothesis**: the former could describe governance/nexus relationships; the latter describes knowledge/property coordinates. Specific primary-source definitions and implementation details of the referenced Chinese framework have not been verified. The similarity does not establish adoption or influence.
+
+A 12×12×12 periodic or physical-property arrangement is an **interesting testable conjecture**, not an established law. The separate physical-state coordinates (protons, neutrons, bound electrons) should not be artificially forced onto HSN addresses or a 144-element claim.
