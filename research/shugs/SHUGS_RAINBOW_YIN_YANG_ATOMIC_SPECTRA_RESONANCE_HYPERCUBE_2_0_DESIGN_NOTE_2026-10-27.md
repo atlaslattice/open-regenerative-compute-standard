@@ -1,8 +1,8 @@
-# SHUGS Rainbow Yin-Yang Star Hypercube Periodic Table 2.0 — Atomic Spectral Data Integration
+# SHUGS Rainbow Yin-Yang / Periodic Table Hypercube 2.0 — Atomic Spectral Data Integration
 **2026-10-27 · USER-PROPOSED CROSS-PROJECT DESIGN INTENT · NOT VALIDATED SCIENCE / NOT CANON AMENDMENT**
 
 ## Motivation
-**Full working title, confirmed by project lead:** SHUGS Rainbow Yin-Yang Star Hypercube Periodic Table 2.0.\n\nThe Atlas Lattice project lead explicitly wants the atomic/nuclear properties being mapped in STARS 2.0—**resonances, excitation energies, decay products, energy-resolved spectra and uncertainty**—made reusable within **SHUGS Rainbow Yin-Yang Periodic Table Hypercube 2.0 lattice**. Preserve this as a cross-project requirement before it gets lost in STARS code work.
+**Playful nickname only:** “SHUGS Rainbow Yin-Yang Star Hypercube Periodic Table 2.0” is a visual pun, **not a ratified working title or geometric claim**. The project lead explicitly clarified this on 2026-10-27.\n\nThe Atlas Lattice project lead explicitly wants the atomic/nuclear properties being mapped in STARS 2.0—**resonances, excitation energies, decay products, energy-resolved spectra and uncertainty**—made reusable within **SHUGS Rainbow Yin-Yang Periodic Table Hypercube 2.0 lattice**. Preserve this as a cross-project requirement before it gets lost in STARS code work.
 
 ## Distinct layers; no unsupported identity claim
 - **Physical layer:** element/isotope atomic number, mass, charge state, electron energy levels, photon transitions/wavelengths/intensities, nuclear spin/parity, excitation levels, reaction channels and thresholds, lab/CM resonance energies, cross sections vs incident energy and angle, stopping/range in target media, correlations and uncertainty. Each data family has units, original database entry and measurement/measurement-evaluation/model status.
