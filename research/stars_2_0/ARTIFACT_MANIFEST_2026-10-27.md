@@ -161,3 +161,7 @@ research/stars_2_0/
 ## Gemini Argon v0.5 refactor proposal — 2026-10-27
 - [Independent review of exact four-momentum invariants, experimental alpha scattering controls, and separate LNG cryogenic site-integration proposal](reviews/GEMINI_V05_PROPOSAL_RELATIVISTIC_SCATTERING_AND_CRYOGENIC_SCOPE_AUDIT_2026-10-27.md), commit 829fc5eca7f8a45f656d55283a8fdcc864143216.
 - **Disposition:** adopt physical s/W four-vector refactor; independently benchmark ion scattering rather than assuming 3–7 degrees or 6-um optimum; quarantine LNG-cold analogy for future site-dependent thermodynamic study. No WP-B v0.5 executable or calibrated stopping model has been created from this review.
+
+## GPTWork four-stage Wizard Council invitation (takes precedence over immediate build)
+- [GPTWork creative invitation with hat, coffee and nap metaphors; stages: cross-domain ideas → adversarial A/B review → optimize candidate work order → hand back to project lead and Tidal Lantern for gap audit](GPTWORK_WIZARD_COUNCIL_CREATIVE_REVIEW_INVITATION_2026-10-27.md), commit 2baa0a553e8ccbfb56001e2c3538203ad3b28f59.
+- Explicit governance: **no final contract freeze or blind G0-B predictions until Stage 4 independent review and project-lead approval**. Root GPTWork pointer and README now lead with this invitation. GPTWork has not been launched.
