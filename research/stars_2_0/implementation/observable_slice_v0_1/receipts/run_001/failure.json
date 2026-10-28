@@ -1,0 +1,8 @@
+{
+  "status": "FAIL",
+  "phase": "strict CSV import before tests",
+  "error": "ValueError: Malformed CSV row",
+  "cause": "Archived CSV contains an unquoted comma in the reaction field 11B(p,a)8Be.",
+  "source_sha256": "e56d240ea05fb8663debbb42cef99a93ef466d309eec3dbeb239f77509a6d089",
+  "correction": "Add an explicit hash-bound legacy CSV repair; preserve raw source bytes and transformation provenance."
+}
