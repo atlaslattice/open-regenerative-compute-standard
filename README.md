@@ -1,5 +1,8 @@
 # The Open Regenerative Compute Standard (ORCS)
 
+> 🧙‍♂️ **GPTWork WIZARD COUNCIL INVITATION — READ FIRST:** [Creative contribution → adversarial testing → optimize plan → return for project-lead/Tidal Lantern gap review](research/stars_2_0/GPTWORK_WIZARD_COUNCIL_CREATIVE_REVIEW_INVITATION_2026-10-27.md). Includes metaphorical coffee, pointy hat and nap privileges. **This four-stage invitation supersedes 'begin coding immediately'; implementation contract remains unfrozen.**
+
+
 > **GPTWork / ChatGPT Work STARS 2.0 HANDOFF:** [START HERE — pre-implementation pointer](GPTWORK_START_HERE_STARS_2_0.md) → [full engineering contract candidate (awaiting Gemini final review)](research/stars_2_0/GPTWORK_IMPLEMENTATION_HANDOFF_PENDING_GEMINI_2026-10-27.md). **Not yet frozen; do not release blinded predictions.**
 
 
