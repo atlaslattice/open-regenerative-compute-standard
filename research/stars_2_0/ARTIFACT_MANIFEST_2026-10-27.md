@@ -142,3 +142,8 @@ research/stars_2_0/
 - [Copilot source-attributed final audit, physical-observable typing, strict LAB/CM kinetic ledger, 16-gate verification matrix and analytic nulls](reviews/COPILOT_FINAL_PREFLIGHT_ZERO_PHYSICS_ZERO_MAGIC_2026-10-27.md), commit df6d88ceaca9fdf09de55ad790beb9b8e69ddb3c.
 - Reviewer mnemonic **“Zero physics produces zero magic”** is a test slogan, not a ratified Canon invariant. Zero cross section must imply no fusion reactions and no nuclear Q energy; non-fusion backgrounds and input electrical energy remain separately accounted.
 - **Design-only**: audit/verification matrix published; WP-B v0.4 code and its full passing test log have not been produced or executed in this action. Do not freeze blind G0-B predictions yet.
+
+## GPTWork implementation handoff (pending Gemini Argon final reviewer response)
+- [Top-level GPTWork START HERE pointer](../../GPTWORK_START_HERE_STARS_2_0.md), commit d05366b09820c7926c7d239f5ea46e23d4963806.
+- [Full implementation handoff, two deliverables, physics/data invariants, 16 verification gates, freeze dependencies and planned build structure](GPTWORK_IMPLEMENTATION_HANDOFF_PENDING_GEMINI_2026-10-27.md), commit 8b8a4ef1e98d1f72b4ac9a68a12d9185f1548fff.
+- This is a discoverable implementation **candidate**, not the frozen contract; Gemini final review pending, GPTWork has NOT run, and G0-B predictions not authorized for freeze.
