@@ -1,0 +1,10 @@
+{
+  "classification": "PHYSICAL_CANDIDATE",
+  "files": {
+    "CONFIGURATION_CANDIDATE.json": "e5c1a799b8e893011254f040d95f7d00163b8bd8914b5a6e3640cd9d98b1868c",
+    "README.md": "b95b1ad46f7aefcabf40c34f2edbeb9880979921ace3578f3ea6dd7b0089f534",
+    "SOURCE_REGISTER_v0_2.md": "f1d47c043c0acbd563c9703a2fd2d5d7c1ebe7cc64fc1084d663973df049a28d",
+    "design.py": "dc8b8f9a2c4047831409a07fdf7a14730154aa7025ab1bc79ae7d6928e84cf0d",
+    "receipts/run001/RESULTS.json": "b1ca1278b25922be88286d4ad5b5de0e3c587434c6266847de733a7c57fc6a20"
+  }
+}
