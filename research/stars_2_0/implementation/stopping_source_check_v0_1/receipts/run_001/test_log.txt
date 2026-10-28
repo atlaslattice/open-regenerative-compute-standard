@@ -1,0 +1,9 @@
+test_hash_mutation_refused (__main__.AdapterTests.test_hash_mutation_refused) ... ok
+test_independent_integral_constant_stopping (__main__.AdapterTests.test_independent_integral_constant_stopping) ... ok
+test_independent_integral_linear_stopping (__main__.AdapterTests.test_independent_integral_linear_stopping) ... ok
+test_rounding_budget (__main__.AdapterTests.test_rounding_budget) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+OK

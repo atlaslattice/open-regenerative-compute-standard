@@ -1,0 +1,149 @@
+{
+  "status": "SOURCE_ADAPTER_CHECKS_PASS",
+  "physical_validation": "NOT_RUN_NO_INDEPENDENT_TRANSMISSION_DATA",
+  "al_source_rows": 132,
+  "al_energy_domain_MeV": [
+    "0.001000",
+    "1.000E+4"
+  ],
+  "al_source_column_definition": "energy column 0; total stopping column 3; CSDA column 4; projected range column 5 retained separately",
+  "source_rounding_checks": "Every row: electronic+nuclear=total and projected=detour*CSDA within decimal rounding bounds",
+  "tests_run": 6,
+  "source_manifest": {
+    "repository": "dedx-erpa/dedx",
+    "revision": "83e2babc0612dbac733705c02973418ef87e210e",
+    "al_path": "data/Al/pstar.txt",
+    "boron_path": "data/iaea/B.txt",
+    "mirror_identity": "Pinned GitHub bytes; primary NIST/IAEA byte identity not established",
+    "al_sha256": "3fe6459ec4abde6052bcb63f427ea856bbc35dd8506014191145b4eb9253db5e",
+    "boron_sha256": "ab93971d116d0ef37ce64fa0f83153daf771ab46eba98ee72510dd84b16a7c97",
+    "source_class": "MIRROR_CANDIDATE_NOT_CALIBRATED",
+    "raw_data_distribution": "External inputs only; no upstream raw files vendored or relicensed"
+  },
+  "boron_quarantine": {
+    "rows": 77,
+    "groups": {
+      "A": 27,
+      "B": 17,
+      "C": 15,
+      "D": 18
+    },
+    "source_sha256": "ab93971d116d0ef37ce64fa0f83153daf771ab46eba98ee72510dd84b16a7c97",
+    "units": "UNRESOLVED_FROM_HEADERLESS_FILE",
+    "group_reference_mapping": "UNRESOLVED",
+    "status": "QUARANTINED_NOT_TRANSPORT_INPUT",
+    "prohibited_promotions": [
+      "not total stopping",
+      "not CSDA range",
+      "not BN",
+      "not an independent calibrated benchmark"
+    ]
+  },
+  "comparison_scope": "Same-source numerical consistency under two interpolation formulations; not independent physical validation",
+  "aluminum_cases": [
+    {
+      "input_energy_MeV": 0.5,
+      "areal_mass_g_cm2": 0.0001,
+      "range_column_output_MeV": 0.4738219895287958,
+      "integrated_stopping_output_MeV": 0.4741422424747258,
+      "absolute_difference_MeV": 0.00032025294593002185,
+      "primary_closure_residual_MeV": 0.0
+    },
+    {
+      "input_energy_MeV": 0.5,
+      "areal_mass_g_cm2": 0.0005,
+      "range_column_output_MeV": 0.36246334310850437,
+      "integrated_stopping_output_MeV": 0.36267559268907035,
+      "absolute_difference_MeV": 0.00021224958056598187,
+      "primary_closure_residual_MeV": 0.0
+    },
+    {
+      "input_energy_MeV": 0.5,
+      "areal_mass_g_cm2": 0.001,
+      "range_column_output_MeV": 0.19742033383915022,
+      "integrated_stopping_output_MeV": 0.1973109204235689,
+      "absolute_difference_MeV": 0.000109413415581322,
+      "primary_closure_residual_MeV": 0.0
+    },
+    {
+      "input_energy_MeV": 0.675,
+      "areal_mass_g_cm2": 0.0001,
+      "range_column_output_MeV": 0.6532608695652176,
+      "integrated_stopping_output_MeV": 0.6530934323654212,
+      "absolute_difference_MeV": 0.00016743719979639415,
+      "primary_closure_residual_MeV": 0.0
+    },
+    {
+      "input_energy_MeV": 0.675,
+      "areal_mass_g_cm2": 0.0005,
+      "range_column_output_MeV": 0.561137440758294,
+      "integrated_stopping_output_MeV": 0.5609972556952347,
+      "absolute_difference_MeV": 0.0001401850630592394,
+      "primary_closure_residual_MeV": 0.0
+    },
+    {
+      "input_energy_MeV": 0.675,
+      "areal_mass_g_cm2": 0.001,
+      "range_column_output_MeV": 0.43314917127071834,
+      "integrated_stopping_output_MeV": 0.43301005592770947,
+      "absolute_difference_MeV": 0.00013911534300886652,
+      "primary_closure_residual_MeV": 0.0
+    },
+    {
+      "input_energy_MeV": 1.0,
+      "areal_mass_g_cm2": 0.0001,
+      "range_column_output_MeV": 0.9825174825174825,
+      "integrated_stopping_output_MeV": 0.9827050521773475,
+      "absolute_difference_MeV": 0.00018756965986499452,
+      "primary_closure_residual_MeV": 0.0
+    },
+    {
+      "input_energy_MeV": 1.0,
+      "areal_mass_g_cm2": 0.0005,
+      "range_column_output_MeV": 0.9113718411552346,
+      "integrated_stopping_output_MeV": 0.9115497789657399,
+      "absolute_difference_MeV": 0.00017793781050523538,
+      "primary_closure_residual_MeV": 0.0
+    },
+    {
+      "input_energy_MeV": 1.0,
+      "areal_mass_g_cm2": 0.001,
+      "range_column_output_MeV": 0.8172480620155038,
+      "integrated_stopping_output_MeV": 0.8175328512117976,
+      "absolute_difference_MeV": 0.00028478919629382204,
+      "primary_closure_residual_MeV": 0.0
+    },
+    {
+      "input_energy_MeV": 2.0,
+      "areal_mass_g_cm2": 0.0001,
+      "range_column_output_MeV": 1.9885740402193786,
+      "integrated_stopping_output_MeV": 1.9890271923844067,
+      "absolute_difference_MeV": 0.00045315216502817,
+      "primary_closure_residual_MeV": 0.0
+    },
+    {
+      "input_energy_MeV": 2.0,
+      "areal_mass_g_cm2": 0.0005,
+      "range_column_output_MeV": 1.9428702010968921,
+      "integrated_stopping_output_MeV": 1.9446766315455353,
+      "absolute_difference_MeV": 0.0018064304486431482,
+      "primary_closure_residual_MeV": 0.0
+    },
+    {
+      "input_energy_MeV": 2.0,
+      "areal_mass_g_cm2": 0.001,
+      "range_column_output_MeV": 1.8857404021937842,
+      "integrated_stopping_output_MeV": 1.8881904860678618,
+      "absolute_difference_MeV": 0.0024500838740775244,
+      "primary_closure_residual_MeV": 0.0
+    }
+  ],
+  "max_absolute_formulation_difference_MeV": 0.0024500838740775244,
+  "transport_sha256": "f3a43e6781da00bdc47b9f31605817e11fe28a5ae12149538f2787e5a8d6439e",
+  "script_sha256": "4627a4d1298b507c4eb86c2b9d08e01468dec462e7ce654d5bb6f65b0577eddd",
+  "test_log_sha256": "26e375f2dedfacd5888c0d91cd1b727e02fb9b994f2304e8b722fe70864e2768",
+  "python": "3.12.14",
+  "randomness": "none",
+  "calibration_threshold": null,
+  "interpretation": "Formulation differences are recorded, not fitted away; no empirical acceptance implied"
+}
