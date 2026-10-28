@@ -147,3 +147,7 @@ research/stars_2_0/
 - [Top-level GPTWork START HERE pointer](../../GPTWORK_START_HERE_STARS_2_0.md), commit d05366b09820c7926c7d239f5ea46e23d4963806.
 - [Full implementation handoff, two deliverables, physics/data invariants, 16 verification gates, freeze dependencies and planned build structure](GPTWORK_IMPLEMENTATION_HANDOFF_PENDING_GEMINI_2026-10-27.md), commit 8b8a4ef1e98d1f72b4ac9a68a12d9185f1548fff.
 - This is a discoverable implementation **candidate**, not the frozen contract; Gemini final review pending, GPTWork has NOT run, and G0-B predictions not authorized for freeze.
+
+## Gemini Argon v0.4 text report received — code and CSV still outstanding
+- [Critical review of Gemini's claimed 1,000-event conservation, S1 quality/2.60x utility, S2 5.5→6.0 um optimum, S3 supported targets, and Newman/Rudin-Shapiro crest reduction](reviews/GEMINI_ARGON_V04_REPORTED_RESULTS_HARMONIC_CREST_FACTOR_AND_REPRODUCIBILITY_AUDIT_2026-10-27.md), commit e531ecfd238a2e4a9a778d902d37217df106aa76.
+- Full claimed v0.4 `.py` and five CSV artifacts **not received, hash unverified, no independent end-to-end execution**; OpenAI local smoothing theorem applicability still unproven. GPTWork implementation contract remains **not frozen** despite report receipt.
