@@ -1,0 +1,11 @@
+{
+  "COMPONENT_MANIFEST_v0_1.json": "f29993fd1717ef1d5eebe2bc5d74ce1dd330e09a7b706da629441375747ede52",
+  "README.md": "a8e5c9d083e05615be5f65adf76369337689b2b3a770a0ab94a6029a0ce4abd2",
+  "SOURCE_ACQUISITION_REGISTER_v0_1.md": "10ecac878488c77977b18354ad9ac026015c74e340481d89ff0fe7ba62c5e426",
+  "receipts/run_001/SOURCE_CHECK_RECEIPT_v0_1.json": "ccbd357fd5360131b5c1f106c7f581e3e510786f0d7dc5b82d78f256dfe22274",
+  "receipts/run_001/source_snapshot.py": "d7137aaa7c0cc0cafd1e6eef7d558adf4460d0182db1d0fc4e3d7e12ecf6fbf8",
+  "receipts/run_001/test_log.txt": "f0fa4a932586e7ac6de67241cf34e4a135dca67589f5fee59474efb72e55347b",
+  "receipts/run_002/SOURCE_CHECK_RECEIPT_v0_1.json": "848f3936ec5c8b50fd4dcf88ad5f5f32c28296b8d91c093a0268bc9273107e2f",
+  "receipts/run_002/test_log.txt": "26e375f2dedfacd5888c0d91cd1b727e02fb9b994f2304e8b722fe70864e2768",
+  "stopping_source_check_v0_1.py": "4627a4d1298b507c4eb86c2b9d08e01468dec462e7ce654d5bb6f65b0577eddd"
+}
