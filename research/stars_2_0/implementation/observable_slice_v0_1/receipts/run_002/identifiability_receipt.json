@@ -1,0 +1,133 @@
+{
+  "seed": 20261028,
+  "repetitions": 2000,
+  "assumptions": {
+    "model": "y = intercept + slope*x",
+    "independent_sd": 0.1,
+    "shared_offset_sd": 0.2,
+    "parameter_scales": [
+      1,
+      1
+    ],
+    "truth": [
+      1.0,
+      0.5
+    ],
+    "discrepancy": "add 0.5*x^2; fitter remains linear",
+    "cost": "nine unit-cost measurements in each design; no facility cost claim"
+  },
+  "wide_design": {
+    "rank": 2,
+    "parameter_count": 2,
+    "rank_cutoff": 3.8698877564543323e-14,
+    "singular_values": [
+      19.364916731037084,
+      4.931969619160718
+    ],
+    "condition_number": 3.9264063297965826,
+    "condition_status": "finite",
+    "scaled_parameter_sd": [
+      0.2027587510099407,
+      0.051639777949432225
+    ],
+    "weakest_scaled_direction": [
+      -1.0,
+      -0.0
+    ],
+    "null_scaled_directions": [],
+    "scope": "local linear Gaussian likelihood, no priors; not a calibration acceptance decision"
+  },
+  "narrow_design": {
+    "rank": 2,
+    "parameter_count": 2,
+    "rank_cutoff": 9.856055210299188e-15,
+    "singular_values": [
+      4.931969619160718,
+      0.019364916731037084
+    ],
+    "condition_number": 254.6858159868053,
+    "condition_status": "finite",
+    "scaled_parameter_sd": [
+      0.2027587510099407,
+      51.63977794943222
+    ],
+    "weakest_scaled_direction": [
+      -0.0,
+      -1.0
+    ],
+    "null_scaled_directions": [],
+    "scope": "local linear Gaussian likelihood, no priors; not a calibration acceptance decision"
+  },
+  "degenerate_design": {
+    "rank": 1,
+    "parameter_count": 2,
+    "rank_cutoff": 1.393856694990312e-14,
+    "singular_values": [
+      6.974858324629156,
+      7.334885361225983e-17
+    ],
+    "condition_number": null,
+    "condition_status": "rank_deficient",
+    "scaled_parameter_sd": null,
+    "weakest_scaled_direction": [
+      0.7071067811865477,
+      -0.7071067811865475
+    ],
+    "null_scaled_directions": [
+      [
+        0.7071067811865477,
+        -0.7071067811865475
+      ]
+    ],
+    "scope": "local linear Gaussian likelihood, no priors; not a calibration acceptance decision"
+  },
+  "oracle_max_abs_error": 1.3322676295501878e-15,
+  "oracle_covariance_max_abs_error": 6.938893903907228e-18,
+  "nominal_95pct_coverage": [
+    0.9545,
+    0.9545
+  ],
+  "bias": [
+    -0.0017112482678510207,
+    0.0017884653138251056
+  ],
+  "coverage_binomial_se": 0.004873397172404482,
+  "bias_standard_error": [
+    0.004533823502911815,
+    0.0011547005383792514
+  ],
+  "misspecified_95pct_coverage": [
+    0.838,
+    0.9545
+  ],
+  "misspecified_bias": [
+    0.20662208506548252,
+    0.0017884653138250624
+  ],
+  "correct_parameter_sd": [
+    0.20275875100994067,
+    0.051639777949432225
+  ],
+  "incorrect_independent_systematic_parameter_sd": [
+    0.074535599249993,
+    0.11547005383792516
+  ],
+  "weak_design_prior_sensitivity": [
+    {
+      "slope_prior_sd": 0.1,
+      "posterior_slope_mean": 1.8749929687763673e-06,
+      "posterior_slope_sd": 0.09999981250052735
+    },
+    {
+      "slope_prior_sd": 1.0,
+      "posterior_slope_mean": 0.00018742971385730353,
+      "posterior_slope_sd": 0.9998125527179009
+    },
+    {
+      "slope_prior_sd": 10.0,
+      "posterior_slope_mean": 0.01807228915662651,
+      "posterior_slope_sd": 9.817613873476319
+    }
+  ],
+  "interpretation": "Rank does not imply adequate precision. Priors and discrepancy can dominate. No physical measurements or acceptance threshold are asserted."
+}
