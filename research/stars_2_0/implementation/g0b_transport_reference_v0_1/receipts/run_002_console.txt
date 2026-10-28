@@ -1,0 +1,100 @@
+{
+  "software_verification": "PASS",
+  "tests": 21,
+  "physical_G0B_prediction": "BLOCKED_UNQUALIFIED_INPUTS",
+  "max_constant_stopping_error_MeV": 4.440892098500626e-16,
+  "slab_grid_checks": [
+    {
+      "grid_per_axis": 30,
+      "slab_areal_mass_g_cm2": 0.5,
+      "range_g_cm2": 2.0,
+      "both_face_escape_probability": 0.8755555555555555,
+      "analytic_oracle": 0.875,
+      "absolute_error": 0.0005555555555555314
+    },
+    {
+      "grid_per_axis": 30,
+      "slab_areal_mass_g_cm2": 2.0,
+      "range_g_cm2": 2.0,
+      "both_face_escape_probability": 0.49,
+      "analytic_oracle": 0.5,
+      "absolute_error": 0.010000000000000009
+    },
+    {
+      "grid_per_axis": 30,
+      "slab_areal_mass_g_cm2": 4.0,
+      "range_g_cm2": 2.0,
+      "both_face_escape_probability": 0.25,
+      "analytic_oracle": 0.25,
+      "absolute_error": 0.0
+    },
+    {
+      "grid_per_axis": 60,
+      "slab_areal_mass_g_cm2": 0.5,
+      "range_g_cm2": 2.0,
+      "both_face_escape_probability": 0.875,
+      "analytic_oracle": 0.875,
+      "absolute_error": 0.0
+    },
+    {
+      "grid_per_axis": 60,
+      "slab_areal_mass_g_cm2": 2.0,
+      "range_g_cm2": 2.0,
+      "both_face_escape_probability": 0.49527777777777776,
+      "analytic_oracle": 0.5,
+      "absolute_error": 0.004722222222222239
+    },
+    {
+      "grid_per_axis": 60,
+      "slab_areal_mass_g_cm2": 4.0,
+      "range_g_cm2": 2.0,
+      "both_face_escape_probability": 0.25,
+      "analytic_oracle": 0.25,
+      "absolute_error": 0.0
+    },
+    {
+      "grid_per_axis": 120,
+      "slab_areal_mass_g_cm2": 0.5,
+      "range_g_cm2": 2.0,
+      "both_face_escape_probability": 0.875,
+      "analytic_oracle": 0.875,
+      "absolute_error": 0.0
+    },
+    {
+      "grid_per_axis": 120,
+      "slab_areal_mass_g_cm2": 2.0,
+      "range_g_cm2": 2.0,
+      "both_face_escape_probability": 0.4976388888888889,
+      "analytic_oracle": 0.5,
+      "absolute_error": 0.0023611111111110916
+    },
+    {
+      "grid_per_axis": 120,
+      "slab_areal_mass_g_cm2": 4.0,
+      "range_g_cm2": 2.0,
+      "both_face_escape_probability": 0.25,
+      "analytic_oracle": 0.25,
+      "absolute_error": 0.0
+    }
+  ],
+  "detector": {
+    "response_id": "SYNTHETIC:response",
+    "species": "alpha",
+    "signal_expected_counts": [
+      75.0,
+      50.0
+    ],
+    "background_expected_counts": [
+      3.0,
+      4.0
+    ],
+    "total_expected_counts": [
+      78.0,
+      54.0
+    ],
+    "undetected_expected_counts": 25.00000000000001,
+    "true_expected_counts": 150.0,
+    "count_closure_residual": -1.0658141036401503e-14,
+    "statistical_scope": "expected values only; no Poisson-independence or calibrated likelihood asserted"
+  }
+}
