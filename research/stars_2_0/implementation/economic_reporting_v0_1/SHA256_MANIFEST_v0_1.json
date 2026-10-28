@@ -1,0 +1,12 @@
+{
+  "README.md": "34111d2de6a9d552d253c44036c8c5c6eb05247548d517f8a1c616fd97b734a9",
+  "receipts/run001/RECEIPT.json": "8e23e555f54cabd7dc39651d52a670c8a9ef280189eebe7ddc59f4670e22590d",
+  "receipts/run001/example_1.json": "f9f05fefd486c1fbd13eca48a45fd81aa05a8ec1cf0c48826e3659a2e3249ff4",
+  "receipts/run001/example_1.md": "c1a67395e5bb621ed85412fc39f7c809bcc73066076c4cab5448ce32c9131060",
+  "receipts/run001/example_2.json": "fa19ed91d0c99f5dd514737851fcd34024234ee838d49702f6c5a8d104c4456e",
+  "receipts/run001/example_2.md": "902a1c2d67d563baa870e278cfc3e5cd9e3926bce4e316664d738b922865956f",
+  "receipts/run001/testlog.txt": "036a45bb3186d689d2c22da0a5151b0a5a6906db2453b7d9c62c1f033a13a025",
+  "reporting.py": "e5db88ff1301fe5ee7b30568fe0c12701ddc6519374edb148f18ce6621973202",
+  "run_examples.py": "c2c6467d6ed362c37ba98c3dbd534fd1b745dae4a49a40cd1d3b027fcb43b54c",
+  "test_reporting.py": "917f8791c508c14005aa328d666ed4d49bb7082aa865a10c3988842643bce807"
+}
