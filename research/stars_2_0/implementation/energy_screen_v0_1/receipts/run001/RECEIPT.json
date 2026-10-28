@@ -1,0 +1,8 @@
+{
+  "python": "3.12.14",
+  "tests": 11,
+  "returncode": 0,
+  "randomness": "none",
+  "physical_validation": "NOT_RUN",
+  "baseline_Gemini_v04_reproduction": "OPEN"
+}
