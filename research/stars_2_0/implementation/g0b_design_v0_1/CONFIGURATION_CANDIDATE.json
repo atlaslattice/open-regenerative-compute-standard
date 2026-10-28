@@ -1,0 +1,10 @@
+{
+  "status": "PHYSICAL_CANDIDATE_NOT_READY_FOR_EXECUTION",
+  "target_proposal": "self-supporting enriched boron-11 layer; fabrication feasibility unresolved",
+  "beam": {"mean_energy_MeV": null, "energy_distribution": null, "fluence": null, "current_A": null},
+  "target": {"areal_density_g_cm2": null, "boron11_fraction": null, "composition_profile": null, "backing": null},
+  "detectors": {"alpha_angles_deg": null, "acceptance_sr": null, "efficiency": null, "response_matrix": null, "transmission_geometry": null},
+  "stopping": {"proton_B": null, "alpha_B": null, "other_layers": null},
+  "qualification": {"null_means": "not established, never zero or no backing by implication", "physical_predictions": "BLOCKED", "scientific_freeze": false},
+  "external_shugs_dependencies": []
+}
