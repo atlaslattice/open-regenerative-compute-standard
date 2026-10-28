@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "scope": "Dimensionless graph and toy linear-system benchmark only; no material calibration.",
+  "source": {
+    "repository": "atlaslattice/manus-artifacts",
+    "revision": "3c9cbcbd4c7c76b75d090fbfc627d452f4cb1fa6",
+    "path": "archive/math/RAINBOW_YINYANG_LATTICE_MATH_REFINEMENT_v2.2_CANDIDATE_2026-05-20.md",
+    "git_blob": "b2d8897ea84c8d6b21c706d3859d61402d594e7c"
+  },
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "parameters": {
+    "N": 12,
+    "seed": 20261028,
+    "tolerance": 1e-10,
+    "heat_time": 0.37,
+    "wave_time": 0.81
+  },
+  "script_sha256": "3d26e14b6a7a72ca547120971efed61a8d0829217e363028e7f03b6841afdbb7",
+  "metrics": {
+    "symmetry_max_abs": 0.0,
+    "row_sum_max_abs": 0.0,
+    "fourier_mode_max_abs": 7.962927709258787e-14,
+    "heat_sparse_fft_max_abs": 9.992007221626409e-16,
+    "heat_mass_abs_error": 0.0,
+    "heat_kernel_min": 4.1690705469145375e-17,
+    "wave_relative_energy_error": 9.492245470010144e-16,
+    "zero_eigenvalue_count": 1,
+    "spectral_min": 0.0,
+    "spectral_max": 12.0,
+    "first_positive_eigenvalue": 0.26794919243112264,
+    "isospectral_static_compliance": [
+      1.0,
+      0.6250000000000001
+    ],
+    "isospectral_eigenvalue_max_error": 8.881784197001252e-16
+  },
+  "checks": {
+    "symmetric": true,
+    "constant_null_mode": true,
+    "fourier_eigenpairs": true,
+    "independent_heat_evolution": true,
+    "heat_preserves_mass": true,
+    "heat_positive": true,
+    "wave_energy": true,
+    "single_zero_mode": true,
+    "spectrum_in_0_12": true,
+    "isospectral_different_response": true
+  }
+}
