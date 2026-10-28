@@ -1,0 +1,11 @@
+test_hash_mutation_refused (__main__.AdapterTests.test_hash_mutation_refused) ... ok
+test_independent_integral_constant_stopping (__main__.AdapterTests.test_independent_integral_constant_stopping) ... ok
+test_independent_integral_linear_stopping (__main__.AdapterTests.test_independent_integral_linear_stopping) ... ok
+test_rounding_budget (__main__.AdapterTests.test_rounding_budget) ... ok
+test_semantic_mutations_with_recomputed_hash (__main__.AdapterTests.test_semantic_mutations_with_recomputed_hash) ... ok
+test_source_rounding_semantic_mutations (__main__.AdapterTests.test_source_rounding_semantic_mutations) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
