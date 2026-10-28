@@ -122,3 +122,8 @@ research/stars_2_0/
 - [Append-only structural lineage validator](../lineage/validate_lineage.py), commit aae007e3d004b45b0123538a0ad13c1a5f0998cf.
 - [Static HTML ancestry browser prototype](../lineage/lineage_viewer.html), commit a8d7740d39f41a9ea5d63589079b48fdfbfb73a2 (source view on GitHub; download/serve as HTML for interaction).
 - Research subtext approved: **Reality may defeat a wizard, but it cannot delete their commit history.** Canon note: Aluminum OS INV-0 is System Integrity; historical ORCS `inv0_cleared` dual-use usage conflicts with that label. Existing INV-17 Zero Erasure and INV-19 Audit Immutability overlap this policy. This is not a formal Canon amendment or experimental validation.
+
+## Stars 2.0 v0.9 pre-simulation synthesis — 2026-10-27
+- [v0.9 pre-simulation integrated white paper: Gemini Argon, Copilot, DeepSeek, ChatGPT/Tidal Lantern and October 26 OpenAI harmonic analysis/QCD/ETH research leads](whitepapers/STARS_2_0_v0_9_PRE_SIMULATION_MULTI_AGENT_SYNTHESIS_AND_HARMONIC_ANALYSIS_2026-10-27.md), commit 3847de8b9d5540916a882ef6a01a0d11fc7b240f.
+- Explicit source-attribution table, reported Gemini v0.3 OFAT results, unreproduced-code warning, DeepSeek three-material-stack comparison, Copilot preregistration and detector/kinematics requirements, two acoustic value scoreboards, local and whole-plant collector ledger.
+- Newly proposed synthesis: qualified collector-accepted energy per total facility cost; collector acceptance can change optimal target thickness; wave-PDE/ETH/QCD tracking as *methods leads* only. No new complete simulation run, validated EXFOR calibration, experimental acoustic gain, or net-electric claim.
