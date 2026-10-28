@@ -1,0 +1,1273 @@
+[
+  {
+    "observation_id": "C2973002:1",
+    "source": {
+      "source_id": "C2973002",
+      "evidence_id": "EXFOR:C2973002:Spraker2012",
+      "sha256": "e56d240ea05fb8663debbb42cef99a93ef466d309eec3dbeb239f77509a6d089",
+      "uri": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/9bfe5e6bace4e7cc1bc9b64962ab99325ebd462f/research/stars_2_0/wp_b/revised/data/EXFOR_C2973002_SPRAKER_2012_41PT_CROSS_SECTION_SOURCE_NORMALIZED_2026-10-27.csv",
+      "reaction": "11B(p,a)8Be",
+      "quantity": "reported_alpha_cross_section",
+      "frame": "LAB",
+      "acceptance": "INTAD per EXFOR; angular and detector acceptance not reconstructed here",
+      "interpretation": "Preserve reported alpha observable; event normalization unresolved; DOI 10.1007/s10894-011-9473-5",
+      "license_status": "Third-party source rights not independently qualified; repository license does not relicense data"
+    },
+    "energy_mev": "0.15",
+    "energy_unc_mev": null,
+    "energy_unc_status": "not_reported",
+    "value_b": "0.0056684000",
+    "stat_unc_b": "0.00019810000",
+    "common_loadings_b": [
+      [
+        "Spraker2012:target-thickness",
+        "0.0002040624000"
+      ]
+    ],
+    "transformations": [
+      "hash-bound repair of unquoted reaction comma in legacy CSV",
+      "source decimal preserved; units MeV and barn unchanged",
+      "target fraction represented as a linear shared nuisance loading; distribution assumption external"
+    ]
+  },
+  {
+    "observation_id": "C2973002:2",
+    "source": {
+      "source_id": "C2973002",
+      "evidence_id": "EXFOR:C2973002:Spraker2012",
+      "sha256": "e56d240ea05fb8663debbb42cef99a93ef466d309eec3dbeb239f77509a6d089",
+      "uri": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/9bfe5e6bace4e7cc1bc9b64962ab99325ebd462f/research/stars_2_0/wp_b/revised/data/EXFOR_C2973002_SPRAKER_2012_41PT_CROSS_SECTION_SOURCE_NORMALIZED_2026-10-27.csv",
+      "reaction": "11B(p,a)8Be",
+      "quantity": "reported_alpha_cross_section",
+      "frame": "LAB",
+      "acceptance": "INTAD per EXFOR; angular and detector acceptance not reconstructed here",
+      "interpretation": "Preserve reported alpha observable; event normalization unresolved; DOI 10.1007/s10894-011-9473-5",
+      "license_status": "Third-party source rights not independently qualified; repository license does not relicense data"
+    },
+    "energy_mev": "0.22",
+    "energy_unc_mev": null,
+    "energy_unc_status": "not_reported",
+    "value_b": "0.037322200",
+    "stat_unc_b": "0.0012767000",
+    "common_loadings_b": [
+      [
+        "Spraker2012:target-thickness",
+        "0.001343599200"
+      ]
+    ],
+    "transformations": [
+      "hash-bound repair of unquoted reaction comma in legacy CSV",
+      "source decimal preserved; units MeV and barn unchanged",
+      "target fraction represented as a linear shared nuisance loading; distribution assumption external"
+    ]
+  },
+  {
+    "observation_id": "C2973002:3",
+    "source": {
+      "source_id": "C2973002",
+      "evidence_id": "EXFOR:C2973002:Spraker2012",
+      "sha256": "e56d240ea05fb8663debbb42cef99a93ef466d309eec3dbeb239f77509a6d089",
+      "uri": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/9bfe5e6bace4e7cc1bc9b64962ab99325ebd462f/research/stars_2_0/wp_b/revised/data/EXFOR_C2973002_SPRAKER_2012_41PT_CROSS_SECTION_SOURCE_NORMALIZED_2026-10-27.csv",
+      "reaction": "11B(p,a)8Be",
+      "quantity": "reported_alpha_cross_section",
+      "frame": "LAB",
+      "acceptance": "INTAD per EXFOR; angular and detector acceptance not reconstructed here",
+      "interpretation": "Preserve reported alpha observable; event normalization unresolved; DOI 10.1007/s10894-011-9473-5",
+      "license_status": "Third-party source rights not independently qualified; repository license does not relicense data"
+    },
+    "energy_mev": "0.26",
+    "energy_unc_mev": null,
+    "energy_unc_status": "not_reported",
+    "value_b": "0.058798800",
+    "stat_unc_b": "0.0020093000",
+    "common_loadings_b": [
+      [
+        "Spraker2012:target-thickness",
+        "0.002116756800"
+      ]
+    ],
+    "transformations": [
+      "hash-bound repair of unquoted reaction comma in legacy CSV",
+      "source decimal preserved; units MeV and barn unchanged",
+      "target fraction represented as a linear shared nuisance loading; distribution assumption external"
+    ]
+  },
+  {
+    "observation_id": "C2973002:4",
+    "source": {
+      "source_id": "C2973002",
+      "evidence_id": "EXFOR:C2973002:Spraker2012",
+      "sha256": "e56d240ea05fb8663debbb42cef99a93ef466d309eec3dbeb239f77509a6d089",
+      "uri": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/9bfe5e6bace4e7cc1bc9b64962ab99325ebd462f/research/stars_2_0/wp_b/revised/data/EXFOR_C2973002_SPRAKER_2012_41PT_CROSS_SECTION_SOURCE_NORMALIZED_2026-10-27.csv",
+      "reaction": "11B(p,a)8Be",
+      "quantity": "reported_alpha_cross_section",
+      "frame": "LAB",
+      "acceptance": "INTAD per EXFOR; angular and detector acceptance not reconstructed here",
+      "interpretation": "Preserve reported alpha observable; event normalization unresolved; DOI 10.1007/s10894-011-9473-5",
+      "license_status": "Third-party source rights not independently qualified; repository license does not relicense data"
+    },
+    "energy_mev": "0.3",
+    "energy_unc_mev": null,
+    "energy_unc_status": "not_reported",
+    "value_b": "0.13166570",
+    "stat_unc_b": "0.0044858000",
+    "common_loadings_b": [
+      [
+        "Spraker2012:target-thickness",
+        "0.00473996520"
+      ]
+    ],
+    "transformations": [
+      "hash-bound repair of unquoted reaction comma in legacy CSV",
+      "source decimal preserved; units MeV and barn unchanged",
+      "target fraction represented as a linear shared nuisance loading; distribution assumption external"
+    ]
+  },
+  {
+    "observation_id": "C2973002:5",
+    "source": {
+      "source_id": "C2973002",
+      "evidence_id": "EXFOR:C2973002:Spraker2012",
+      "sha256": "e56d240ea05fb8663debbb42cef99a93ef466d309eec3dbeb239f77509a6d089",
+      "uri": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/9bfe5e6bace4e7cc1bc9b64962ab99325ebd462f/research/stars_2_0/wp_b/revised/data/EXFOR_C2973002_SPRAKER_2012_41PT_CROSS_SECTION_SOURCE_NORMALIZED_2026-10-27.csv",
+      "reaction": "11B(p,a)8Be",
+      "quantity": "reported_alpha_cross_section",
+      "frame": "LAB",
+      "acceptance": "INTAD per EXFOR; angular and detector acceptance not reconstructed here",
+      "interpretation": "Preserve reported alpha observable; event normalization unresolved; DOI 10.1007/s10894-011-9473-5",
+      "license_status": "Third-party source rights not independently qualified; repository license does not relicense data"
+    },
+    "energy_mev": "0.4",
+    "energy_unc_mev": null,
+    "energy_unc_status": "not_reported",
+    "value_b": "0.39204380",
+    "stat_unc_b": "0.013507000",
+    "common_loadings_b": [
+      [
+        "Spraker2012:target-thickness",
+        "0.01411357680"
+      ]
+    ],
+    "transformations": [
+      "hash-bound repair of unquoted reaction comma in legacy CSV",
+      "source decimal preserved; units MeV and barn unchanged",
+      "target fraction represented as a linear shared nuisance loading; distribution assumption external"
+    ]
+  },
+  {
+    "observation_id": "C2973002:6",
+    "source": {
+      "source_id": "C2973002",
+      "evidence_id": "EXFOR:C2973002:Spraker2012",
+      "sha256": "e56d240ea05fb8663debbb42cef99a93ef466d309eec3dbeb239f77509a6d089",
+      "uri": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/9bfe5e6bace4e7cc1bc9b64962ab99325ebd462f/research/stars_2_0/wp_b/revised/data/EXFOR_C2973002_SPRAKER_2012_41PT_CROSS_SECTION_SOURCE_NORMALIZED_2026-10-27.csv",
+      "reaction": "11B(p,a)8Be",
+      "quantity": "reported_alpha_cross_section",
+      "frame": "LAB",
+      "acceptance": "INTAD per EXFOR; angular and detector acceptance not reconstructed here",
+      "interpretation": "Preserve reported alpha observable; event normalization unresolved; DOI 10.1007/s10894-011-9473-5",
+      "license_status": "Third-party source rights not independently qualified; repository license does not relicense data"
+    },
+    "energy_mev": "0.49",
+    "energy_unc_mev": null,
+    "energy_unc_status": "not_reported",
+    "value_b": "0.72788110",
+    "stat_unc_b": "0.025166900",
+    "common_loadings_b": [
+      [
+        "Spraker2012:target-thickness",
+        "0.02620371960"
+      ]
+    ],
+    "transformations": [
+      "hash-bound repair of unquoted reaction comma in legacy CSV",
+      "source decimal preserved; units MeV and barn unchanged",
+      "target fraction represented as a linear shared nuisance loading; distribution assumption external"
+    ]
+  },
+  {
+    "observation_id": "C2973002:7",
+    "source": {
+      "source_id": "C2973002",
+      "evidence_id": "EXFOR:C2973002:Spraker2012",
+      "sha256": "e56d240ea05fb8663debbb42cef99a93ef466d309eec3dbeb239f77509a6d089",
+      "uri": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/9bfe5e6bace4e7cc1bc9b64962ab99325ebd462f/research/stars_2_0/wp_b/revised/data/EXFOR_C2973002_SPRAKER_2012_41PT_CROSS_SECTION_SOURCE_NORMALIZED_2026-10-27.csv",
+      "reaction": "11B(p,a)8Be",
+      "quantity": "reported_alpha_cross_section",
+      "frame": "LAB",
+      "acceptance": "INTAD per EXFOR; angular and detector acceptance not reconstructed here",
+      "interpretation": "Preserve reported alpha observable; event normalization unresolved; DOI 10.1007/s10894-011-9473-5",
+      "license_status": "Third-party source rights not independently qualified; repository license does not relicense data"
+    },
+    "energy_mev": "0.57",
+    "energy_unc_mev": null,
+    "energy_unc_status": "not_reported",
+    "value_b": "1.1943428",
+    "stat_unc_b": "0.040761100",
+    "common_loadings_b": [
+      [
+        "Spraker2012:target-thickness",
+        "0.0429963408"
+      ]
+    ],
+    "transformations": [
+      "hash-bound repair of unquoted reaction comma in legacy CSV",
+      "source decimal preserved; units MeV and barn unchanged",
+      "target fraction represented as a linear shared nuisance loading; distribution assumption external"
+    ]
+  },
+  {
+    "observation_id": "C2973002:8",
+    "source": {
+      "source_id": "C2973002",
+      "evidence_id": "EXFOR:C2973002:Spraker2012",
+      "sha256": "e56d240ea05fb8663debbb42cef99a93ef466d309eec3dbeb239f77509a6d089",
+      "uri": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/9bfe5e6bace4e7cc1bc9b64962ab99325ebd462f/research/stars_2_0/wp_b/revised/data/EXFOR_C2973002_SPRAKER_2012_41PT_CROSS_SECTION_SOURCE_NORMALIZED_2026-10-27.csv",
+      "reaction": "11B(p,a)8Be",
+      "quantity": "reported_alpha_cross_section",
+      "frame": "LAB",
+      "acceptance": "INTAD per EXFOR; angular and detector acceptance not reconstructed here",
+      "interpretation": "Preserve reported alpha observable; event normalization unresolved; DOI 10.1007/s10894-011-9473-5",
+      "license_status": "Third-party source rights not independently qualified; repository license does not relicense data"
+    },
+    "energy_mev": "0.65",
+    "energy_unc_mev": null,
+    "energy_unc_status": "not_reported",
+    "value_b": "1.3982151",
+    "stat_unc_b": "0.047626200",
+    "common_loadings_b": [
+      [
+        "Spraker2012:target-thickness",
+        "0.0503357436"
+      ]
+    ],
+    "transformations": [
+      "hash-bound repair of unquoted reaction comma in legacy CSV",
+      "source decimal preserved; units MeV and barn unchanged",
+      "target fraction represented as a linear shared nuisance loading; distribution assumption external"
+    ]
+  },
+  {
+    "observation_id": "C2973002:9",
+    "source": {
+      "source_id": "C2973002",
+      "evidence_id": "EXFOR:C2973002:Spraker2012",
+      "sha256": "e56d240ea05fb8663debbb42cef99a93ef466d309eec3dbeb239f77509a6d089",
+      "uri": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/9bfe5e6bace4e7cc1bc9b64962ab99325ebd462f/research/stars_2_0/wp_b/revised/data/EXFOR_C2973002_SPRAKER_2012_41PT_CROSS_SECTION_SOURCE_NORMALIZED_2026-10-27.csv",
+      "reaction": "11B(p,a)8Be",
+      "quantity": "reported_alpha_cross_section",
+      "frame": "LAB",
+      "acceptance": "INTAD per EXFOR; angular and detector acceptance not reconstructed here",
+      "interpretation": "Preserve reported alpha observable; event normalization unresolved; DOI 10.1007/s10894-011-9473-5",
+      "license_status": "Third-party source rights not independently qualified; repository license does not relicense data"
+    },
+    "energy_mev": "0.73",
+    "energy_unc_mev": null,
+    "energy_unc_status": "not_reported",
+    "value_b": "1.1470579",
+    "stat_unc_b": "0.039085100",
+    "common_loadings_b": [
+      [
+        "Spraker2012:target-thickness",
+        "0.0412940844"
+      ]
+    ],
+    "transformations": [
+      "hash-bound repair of unquoted reaction comma in legacy CSV",
+      "source decimal preserved; units MeV and barn unchanged",
+      "target fraction represented as a linear shared nuisance loading; distribution assumption external"
+    ]
+  },
+  {
+    "observation_id": "C2973002:10",
+    "source": {
+      "source_id": "C2973002",
+      "evidence_id": "EXFOR:C2973002:Spraker2012",
+      "sha256": "e56d240ea05fb8663debbb42cef99a93ef466d309eec3dbeb239f77509a6d089",
+      "uri": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/9bfe5e6bace4e7cc1bc9b64962ab99325ebd462f/research/stars_2_0/wp_b/revised/data/EXFOR_C2973002_SPRAKER_2012_41PT_CROSS_SECTION_SOURCE_NORMALIZED_2026-10-27.csv",
+      "reaction": "11B(p,a)8Be",
+      "quantity": "reported_alpha_cross_section",
+      "frame": "LAB",
+      "acceptance": "INTAD per EXFOR; angular and detector acceptance not reconstructed here",
+      "interpretation": "Preserve reported alpha observable; event normalization unresolved; DOI 10.1007/s10894-011-9473-5",
+      "license_status": "Third-party source rights not independently qualified; repository license does not relicense data"
+    },
+    "energy_mev": "0.8",
+    "energy_unc_mev": null,
+    "energy_unc_status": "not_reported",
+    "value_b": "0.72133100",
+    "stat_unc_b": "0.024593700",
+    "common_loadings_b": [
+      [
+        "Spraker2012:target-thickness",
+        "0.02596791600"
+      ]
+    ],
+    "transformations": [
+      "hash-bound repair of unquoted reaction comma in legacy CSV",
+      "source decimal preserved; units MeV and barn unchanged",
+      "target fraction represented as a linear shared nuisance loading; distribution assumption external"
+    ]
+  },
+  {
+    "observation_id": "C2973002:11",
+    "source": {
+      "source_id": "C2973002",
+      "evidence_id": "EXFOR:C2973002:Spraker2012",
+      "sha256": "e56d240ea05fb8663debbb42cef99a93ef466d309eec3dbeb239f77509a6d089",
+      "uri": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/9bfe5e6bace4e7cc1bc9b64962ab99325ebd462f/research/stars_2_0/wp_b/revised/data/EXFOR_C2973002_SPRAKER_2012_41PT_CROSS_SECTION_SOURCE_NORMALIZED_2026-10-27.csv",
+      "reaction": "11B(p,a)8Be",
+      "quantity": "reported_alpha_cross_section",
+      "frame": "LAB",
+      "acceptance": "INTAD per EXFOR; angular and detector acceptance not reconstructed here",
+      "interpretation": "Preserve reported alpha observable; event normalization unresolved; DOI 10.1007/s10894-011-9473-5",
+      "license_status": "Third-party source rights not independently qualified; repository license does not relicense data"
+    },
+    "energy_mev": "0.88",
+    "energy_unc_mev": null,
+    "energy_unc_status": "not_reported",
+    "value_b": "0.46411330",
+    "stat_unc_b": "0.015857600",
+    "common_loadings_b": [
+      [
+        "Spraker2012:target-thickness",
+        "0.01670807880"
+      ]
+    ],
+    "transformations": [
+      "hash-bound repair of unquoted reaction comma in legacy CSV",
+      "source decimal preserved; units MeV and barn unchanged",
+      "target fraction represented as a linear shared nuisance loading; distribution assumption external"
+    ]
+  },
+  {
+    "observation_id": "C2973002:12",
+    "source": {
+      "source_id": "C2973002",
+      "evidence_id": "EXFOR:C2973002:Spraker2012",
+      "sha256": "e56d240ea05fb8663debbb42cef99a93ef466d309eec3dbeb239f77509a6d089",
+      "uri": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/9bfe5e6bace4e7cc1bc9b64962ab99325ebd462f/research/stars_2_0/wp_b/revised/data/EXFOR_C2973002_SPRAKER_2012_41PT_CROSS_SECTION_SOURCE_NORMALIZED_2026-10-27.csv",
+      "reaction": "11B(p,a)8Be",
+      "quantity": "reported_alpha_cross_section",
+      "frame": "LAB",
+      "acceptance": "INTAD per EXFOR; angular and detector acceptance not reconstructed here",
+      "interpretation": "Preserve reported alpha observable; event normalization unresolved; DOI 10.1007/s10894-011-9473-5",
+      "license_status": "Third-party source rights not independently qualified; repository license does not relicense data"
+    },
+    "energy_mev": "0.94",
+    "energy_unc_mev": null,
+    "energy_unc_status": "not_reported",
+    "value_b": "0.33260740",
+    "stat_unc_b": "0.011375500",
+    "common_loadings_b": [
+      [
+        "Spraker2012:target-thickness",
+        "0.01197386640"
+      ]
+    ],
+    "transformations": [
+      "hash-bound repair of unquoted reaction comma in legacy CSV",
+      "source decimal preserved; units MeV and barn unchanged",
+      "target fraction represented as a linear shared nuisance loading; distribution assumption external"
+    ]
+  },
+  {
+    "observation_id": "C2973002:13",
+    "source": {
+      "source_id": "C2973002",
+      "evidence_id": "EXFOR:C2973002:Spraker2012",
+      "sha256": "e56d240ea05fb8663debbb42cef99a93ef466d309eec3dbeb239f77509a6d089",
+      "uri": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/9bfe5e6bace4e7cc1bc9b64962ab99325ebd462f/research/stars_2_0/wp_b/revised/data/EXFOR_C2973002_SPRAKER_2012_41PT_CROSS_SECTION_SOURCE_NORMALIZED_2026-10-27.csv",
+      "reaction": "11B(p,a)8Be",
+      "quantity": "reported_alpha_cross_section",
+      "frame": "LAB",
+      "acceptance": "INTAD per EXFOR; angular and detector acceptance not reconstructed here",
+      "interpretation": "Preserve reported alpha observable; event normalization unresolved; DOI 10.1007/s10894-011-9473-5",
+      "license_status": "Third-party source rights not independently qualified; repository license does not relicense data"
+    },
+    "energy_mev": "1",
+    "energy_unc_mev": null,
+    "energy_unc_status": "not_reported",
+    "value_b": "0.31593600",
+    "stat_unc_b": "0.010900800",
+    "common_loadings_b": [
+      [
+        "Spraker2012:target-thickness",
+        "0.01137369600"
+      ]
+    ],
+    "transformations": [
+      "hash-bound repair of unquoted reaction comma in legacy CSV",
+      "source decimal preserved; units MeV and barn unchanged",
+      "target fraction represented as a linear shared nuisance loading; distribution assumption external"
+    ]
+  },
+  {
+    "observation_id": "C2973002:14",
+    "source": {
+      "source_id": "C2973002",
+      "evidence_id": "EXFOR:C2973002:Spraker2012",
+      "sha256": "e56d240ea05fb8663debbb42cef99a93ef466d309eec3dbeb239f77509a6d089",
+      "uri": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/9bfe5e6bace4e7cc1bc9b64962ab99325ebd462f/research/stars_2_0/wp_b/revised/data/EXFOR_C2973002_SPRAKER_2012_41PT_CROSS_SECTION_SOURCE_NORMALIZED_2026-10-27.csv",
+      "reaction": "11B(p,a)8Be",
+      "quantity": "reported_alpha_cross_section",
+      "frame": "LAB",
+      "acceptance": "INTAD per EXFOR; angular and detector acceptance not reconstructed here",
+      "interpretation": "Preserve reported alpha observable; event normalization unresolved; DOI 10.1007/s10894-011-9473-5",
+      "license_status": "Third-party source rights not independently qualified; repository license does not relicense data"
+    },
+    "energy_mev": "1.08",
+    "energy_unc_mev": null,
+    "energy_unc_status": "not_reported",
+    "value_b": "0.30518770",
+    "stat_unc_b": "0.010705800",
+    "common_loadings_b": [
+      [
+        "Spraker2012:target-thickness",
+        "0.01098675720"
+      ]
+    ],
+    "transformations": [
+      "hash-bound repair of unquoted reaction comma in legacy CSV",
+      "source decimal preserved; units MeV and barn unchanged",
+      "target fraction represented as a linear shared nuisance loading; distribution assumption external"
+    ]
+  },
+  {
+    "observation_id": "C2973002:15",
+    "source": {
+      "source_id": "C2973002",
+      "evidence_id": "EXFOR:C2973002:Spraker2012",
+      "sha256": "e56d240ea05fb8663debbb42cef99a93ef466d309eec3dbeb239f77509a6d089",
+      "uri": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/9bfe5e6bace4e7cc1bc9b64962ab99325ebd462f/research/stars_2_0/wp_b/revised/data/EXFOR_C2973002_SPRAKER_2012_41PT_CROSS_SECTION_SOURCE_NORMALIZED_2026-10-27.csv",
+      "reaction": "11B(p,a)8Be",
+      "quantity": "reported_alpha_cross_section",
+      "frame": "LAB",
+      "acceptance": "INTAD per EXFOR; angular and detector acceptance not reconstructed here",
+      "interpretation": "Preserve reported alpha observable; event normalization unresolved; DOI 10.1007/s10894-011-9473-5",
+      "license_status": "Third-party source rights not independently qualified; repository license does not relicense data"
+    },
+    "energy_mev": "1.2",
+    "energy_unc_mev": null,
+    "energy_unc_status": "not_reported",
+    "value_b": "0.31943380",
+    "stat_unc_b": "0.010877000",
+    "common_loadings_b": [
+      [
+        "Spraker2012:target-thickness",
+        "0.01149961680"
+      ]
+    ],
+    "transformations": [
+      "hash-bound repair of unquoted reaction comma in legacy CSV",
+      "source decimal preserved; units MeV and barn unchanged",
+      "target fraction represented as a linear shared nuisance loading; distribution assumption external"
+    ]
+  },
+  {
+    "observation_id": "C2973002:16",
+    "source": {
+      "source_id": "C2973002",
+      "evidence_id": "EXFOR:C2973002:Spraker2012",
+      "sha256": "e56d240ea05fb8663debbb42cef99a93ef466d309eec3dbeb239f77509a6d089",
+      "uri": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/9bfe5e6bace4e7cc1bc9b64962ab99325ebd462f/research/stars_2_0/wp_b/revised/data/EXFOR_C2973002_SPRAKER_2012_41PT_CROSS_SECTION_SOURCE_NORMALIZED_2026-10-27.csv",
+      "reaction": "11B(p,a)8Be",
+      "quantity": "reported_alpha_cross_section",
+      "frame": "LAB",
+      "acceptance": "INTAD per EXFOR; angular and detector acceptance not reconstructed here",
+      "interpretation": "Preserve reported alpha observable; event normalization unresolved; DOI 10.1007/s10894-011-9473-5",
+      "license_status": "Third-party source rights not independently qualified; repository license does not relicense data"
+    },
+    "energy_mev": "1.3",
+    "energy_unc_mev": null,
+    "energy_unc_status": "not_reported",
+    "value_b": "0.33189010",
+    "stat_unc_b": "0.011293200",
+    "common_loadings_b": [
+      [
+        "Spraker2012:target-thickness",
+        "0.01194804360"
+      ]
+    ],
+    "transformations": [
+      "hash-bound repair of unquoted reaction comma in legacy CSV",
+      "source decimal preserved; units MeV and barn unchanged",
+      "target fraction represented as a linear shared nuisance loading; distribution assumption external"
+    ]
+  },
+  {
+    "observation_id": "C2973002:17",
+    "source": {
+      "source_id": "C2973002",
+      "evidence_id": "EXFOR:C2973002:Spraker2012",
+      "sha256": "e56d240ea05fb8663debbb42cef99a93ef466d309eec3dbeb239f77509a6d089",
+      "uri": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/9bfe5e6bace4e7cc1bc9b64962ab99325ebd462f/research/stars_2_0/wp_b/revised/data/EXFOR_C2973002_SPRAKER_2012_41PT_CROSS_SECTION_SOURCE_NORMALIZED_2026-10-27.csv",
+      "reaction": "11B(p,a)8Be",
+      "quantity": "reported_alpha_cross_section",
+      "frame": "LAB",
+      "acceptance": "INTAD per EXFOR; angular and detector acceptance not reconstructed here",
+      "interpretation": "Preserve reported alpha observable; event normalization unresolved; DOI 10.1007/s10894-011-9473-5",
+      "license_status": "Third-party source rights not independently qualified; repository license does not relicense data"
+    },
+    "energy_mev": "1.4",
+    "energy_unc_mev": null,
+    "energy_unc_status": "not_reported",
+    "value_b": "0.34096640",
+    "stat_unc_b": "0.011595300",
+    "common_loadings_b": [
+      [
+        "Spraker2012:target-thickness",
+        "0.01227479040"
+      ]
+    ],
+    "transformations": [
+      "hash-bound repair of unquoted reaction comma in legacy CSV",
+      "source decimal preserved; units MeV and barn unchanged",
+      "target fraction represented as a linear shared nuisance loading; distribution assumption external"
+    ]
+  },
+  {
+    "observation_id": "C2973002:18",
+    "source": {
+      "source_id": "C2973002",
+      "evidence_id": "EXFOR:C2973002:Spraker2012",
+      "sha256": "e56d240ea05fb8663debbb42cef99a93ef466d309eec3dbeb239f77509a6d089",
+      "uri": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/9bfe5e6bace4e7cc1bc9b64962ab99325ebd462f/research/stars_2_0/wp_b/revised/data/EXFOR_C2973002_SPRAKER_2012_41PT_CROSS_SECTION_SOURCE_NORMALIZED_2026-10-27.csv",
+      "reaction": "11B(p,a)8Be",
+      "quantity": "reported_alpha_cross_section",
+      "frame": "LAB",
+      "acceptance": "INTAD per EXFOR; angular and detector acceptance not reconstructed here",
+      "interpretation": "Preserve reported alpha observable; event normalization unresolved; DOI 10.1007/s10894-011-9473-5",
+      "license_status": "Third-party source rights not independently qualified; repository license does not relicense data"
+    },
+    "energy_mev": "1.5",
+    "energy_unc_mev": null,
+    "energy_unc_status": "not_reported",
+    "value_b": "0.32534450",
+    "stat_unc_b": "0.011064200",
+    "common_loadings_b": [
+      [
+        "Spraker2012:target-thickness",
+        "0.01171240200"
+      ]
+    ],
+    "transformations": [
+      "hash-bound repair of unquoted reaction comma in legacy CSV",
+      "source decimal preserved; units MeV and barn unchanged",
+      "target fraction represented as a linear shared nuisance loading; distribution assumption external"
+    ]
+  },
+  {
+    "observation_id": "C2973002:19",
+    "source": {
+      "source_id": "C2973002",
+      "evidence_id": "EXFOR:C2973002:Spraker2012",
+      "sha256": "e56d240ea05fb8663debbb42cef99a93ef466d309eec3dbeb239f77509a6d089",
+      "uri": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/9bfe5e6bace4e7cc1bc9b64962ab99325ebd462f/research/stars_2_0/wp_b/revised/data/EXFOR_C2973002_SPRAKER_2012_41PT_CROSS_SECTION_SOURCE_NORMALIZED_2026-10-27.csv",
+      "reaction": "11B(p,a)8Be",
+      "quantity": "reported_alpha_cross_section",
+      "frame": "LAB",
+      "acceptance": "INTAD per EXFOR; angular and detector acceptance not reconstructed here",
+      "interpretation": "Preserve reported alpha observable; event normalization unresolved; DOI 10.1007/s10894-011-9473-5",
+      "license_status": "Third-party source rights not independently qualified; repository license does not relicense data"
+    },
+    "energy_mev": "1.6",
+    "energy_unc_mev": null,
+    "energy_unc_status": "not_reported",
+    "value_b": "0.30022940",
+    "stat_unc_b": "0.010211000",
+    "common_loadings_b": [
+      [
+        "Spraker2012:target-thickness",
+        "0.01080825840"
+      ]
+    ],
+    "transformations": [
+      "hash-bound repair of unquoted reaction comma in legacy CSV",
+      "source decimal preserved; units MeV and barn unchanged",
+      "target fraction represented as a linear shared nuisance loading; distribution assumption external"
+    ]
+  },
+  {
+    "observation_id": "C2973002:20",
+    "source": {
+      "source_id": "C2973002",
+      "evidence_id": "EXFOR:C2973002:Spraker2012",
+      "sha256": "e56d240ea05fb8663debbb42cef99a93ef466d309eec3dbeb239f77509a6d089",
+      "uri": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/9bfe5e6bace4e7cc1bc9b64962ab99325ebd462f/research/stars_2_0/wp_b/revised/data/EXFOR_C2973002_SPRAKER_2012_41PT_CROSS_SECTION_SOURCE_NORMALIZED_2026-10-27.csv",
+      "reaction": "11B(p,a)8Be",
+      "quantity": "reported_alpha_cross_section",
+      "frame": "LAB",
+      "acceptance": "INTAD per EXFOR; angular and detector acceptance not reconstructed here",
+      "interpretation": "Preserve reported alpha observable; event normalization unresolved; DOI 10.1007/s10894-011-9473-5",
+      "license_status": "Third-party source rights not independently qualified; repository license does not relicense data"
+    },
+    "energy_mev": "1.7",
+    "energy_unc_mev": null,
+    "energy_unc_status": "not_reported",
+    "value_b": "0.27419810",
+    "stat_unc_b": "0.0093246000",
+    "common_loadings_b": [
+      [
+        "Spraker2012:target-thickness",
+        "0.00987113160"
+      ]
+    ],
+    "transformations": [
+      "hash-bound repair of unquoted reaction comma in legacy CSV",
+      "source decimal preserved; units MeV and barn unchanged",
+      "target fraction represented as a linear shared nuisance loading; distribution assumption external"
+    ]
+  },
+  {
+    "observation_id": "C2973002:21",
+    "source": {
+      "source_id": "C2973002",
+      "evidence_id": "EXFOR:C2973002:Spraker2012",
+      "sha256": "e56d240ea05fb8663debbb42cef99a93ef466d309eec3dbeb239f77509a6d089",
+      "uri": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/9bfe5e6bace4e7cc1bc9b64962ab99325ebd462f/research/stars_2_0/wp_b/revised/data/EXFOR_C2973002_SPRAKER_2012_41PT_CROSS_SECTION_SOURCE_NORMALIZED_2026-10-27.csv",
+      "reaction": "11B(p,a)8Be",
+      "quantity": "reported_alpha_cross_section",
+      "frame": "LAB",
+      "acceptance": "INTAD per EXFOR; angular and detector acceptance not reconstructed here",
+      "interpretation": "Preserve reported alpha observable; event normalization unresolved; DOI 10.1007/s10894-011-9473-5",
+      "license_status": "Third-party source rights not independently qualified; repository license does not relicense data"
+    },
+    "energy_mev": "1.8",
+    "energy_unc_mev": null,
+    "energy_unc_status": "not_reported",
+    "value_b": "0.25195870",
+    "stat_unc_b": "0.0085691000",
+    "common_loadings_b": [
+      [
+        "Spraker2012:target-thickness",
+        "0.00907051320"
+      ]
+    ],
+    "transformations": [
+      "hash-bound repair of unquoted reaction comma in legacy CSV",
+      "source decimal preserved; units MeV and barn unchanged",
+      "target fraction represented as a linear shared nuisance loading; distribution assumption external"
+    ]
+  },
+  {
+    "observation_id": "C2973002:22",
+    "source": {
+      "source_id": "C2973002",
+      "evidence_id": "EXFOR:C2973002:Spraker2012",
+      "sha256": "e56d240ea05fb8663debbb42cef99a93ef466d309eec3dbeb239f77509a6d089",
+      "uri": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/9bfe5e6bace4e7cc1bc9b64962ab99325ebd462f/research/stars_2_0/wp_b/revised/data/EXFOR_C2973002_SPRAKER_2012_41PT_CROSS_SECTION_SOURCE_NORMALIZED_2026-10-27.csv",
+      "reaction": "11B(p,a)8Be",
+      "quantity": "reported_alpha_cross_section",
+      "frame": "LAB",
+      "acceptance": "INTAD per EXFOR; angular and detector acceptance not reconstructed here",
+      "interpretation": "Preserve reported alpha observable; event normalization unresolved; DOI 10.1007/s10894-011-9473-5",
+      "license_status": "Third-party source rights not independently qualified; repository license does not relicense data"
+    },
+    "energy_mev": "1.9",
+    "energy_unc_mev": null,
+    "energy_unc_status": "not_reported",
+    "value_b": "0.24605690",
+    "stat_unc_b": "0.0083710000",
+    "common_loadings_b": [
+      [
+        "Spraker2012:target-thickness",
+        "0.00885804840"
+      ]
+    ],
+    "transformations": [
+      "hash-bound repair of unquoted reaction comma in legacy CSV",
+      "source decimal preserved; units MeV and barn unchanged",
+      "target fraction represented as a linear shared nuisance loading; distribution assumption external"
+    ]
+  },
+  {
+    "observation_id": "C2973002:23",
+    "source": {
+      "source_id": "C2973002",
+      "evidence_id": "EXFOR:C2973002:Spraker2012",
+      "sha256": "e56d240ea05fb8663debbb42cef99a93ef466d309eec3dbeb239f77509a6d089",
+      "uri": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/9bfe5e6bace4e7cc1bc9b64962ab99325ebd462f/research/stars_2_0/wp_b/revised/data/EXFOR_C2973002_SPRAKER_2012_41PT_CROSS_SECTION_SOURCE_NORMALIZED_2026-10-27.csv",
+      "reaction": "11B(p,a)8Be",
+      "quantity": "reported_alpha_cross_section",
+      "frame": "LAB",
+      "acceptance": "INTAD per EXFOR; angular and detector acceptance not reconstructed here",
+      "interpretation": "Preserve reported alpha observable; event normalization unresolved; DOI 10.1007/s10894-011-9473-5",
+      "license_status": "Third-party source rights not independently qualified; repository license does not relicense data"
+    },
+    "energy_mev": "2",
+    "energy_unc_mev": null,
+    "energy_unc_status": "not_reported",
+    "value_b": "0.24797830",
+    "stat_unc_b": "0.0084375000",
+    "common_loadings_b": [
+      [
+        "Spraker2012:target-thickness",
+        "0.00892721880"
+      ]
+    ],
+    "transformations": [
+      "hash-bound repair of unquoted reaction comma in legacy CSV",
+      "source decimal preserved; units MeV and barn unchanged",
+      "target fraction represented as a linear shared nuisance loading; distribution assumption external"
+    ]
+  },
+  {
+    "observation_id": "C2973002:24",
+    "source": {
+      "source_id": "C2973002",
+      "evidence_id": "EXFOR:C2973002:Spraker2012",
+      "sha256": "e56d240ea05fb8663debbb42cef99a93ef466d309eec3dbeb239f77509a6d089",
+      "uri": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/9bfe5e6bace4e7cc1bc9b64962ab99325ebd462f/research/stars_2_0/wp_b/revised/data/EXFOR_C2973002_SPRAKER_2012_41PT_CROSS_SECTION_SOURCE_NORMALIZED_2026-10-27.csv",
+      "reaction": "11B(p,a)8Be",
+      "quantity": "reported_alpha_cross_section",
+      "frame": "LAB",
+      "acceptance": "INTAD per EXFOR; angular and detector acceptance not reconstructed here",
+      "interpretation": "Preserve reported alpha observable; event normalization unresolved; DOI 10.1007/s10894-011-9473-5",
+      "license_status": "Third-party source rights not independently qualified; repository license does not relicense data"
+    },
+    "energy_mev": "2.1",
+    "energy_unc_mev": null,
+    "energy_unc_status": "not_reported",
+    "value_b": "0.27105250",
+    "stat_unc_b": "0.0092188000",
+    "common_loadings_b": [
+      [
+        "Spraker2012:target-thickness",
+        "0.00975789000"
+      ]
+    ],
+    "transformations": [
+      "hash-bound repair of unquoted reaction comma in legacy CSV",
+      "source decimal preserved; units MeV and barn unchanged",
+      "target fraction represented as a linear shared nuisance loading; distribution assumption external"
+    ]
+  },
+  {
+    "observation_id": "C2973002:25",
+    "source": {
+      "source_id": "C2973002",
+      "evidence_id": "EXFOR:C2973002:Spraker2012",
+      "sha256": "e56d240ea05fb8663debbb42cef99a93ef466d309eec3dbeb239f77509a6d089",
+      "uri": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/9bfe5e6bace4e7cc1bc9b64962ab99325ebd462f/research/stars_2_0/wp_b/revised/data/EXFOR_C2973002_SPRAKER_2012_41PT_CROSS_SECTION_SOURCE_NORMALIZED_2026-10-27.csv",
+      "reaction": "11B(p,a)8Be",
+      "quantity": "reported_alpha_cross_section",
+      "frame": "LAB",
+      "acceptance": "INTAD per EXFOR; angular and detector acceptance not reconstructed here",
+      "interpretation": "Preserve reported alpha observable; event normalization unresolved; DOI 10.1007/s10894-011-9473-5",
+      "license_status": "Third-party source rights not independently qualified; repository license does not relicense data"
+    },
+    "energy_mev": "2.2",
+    "energy_unc_mev": null,
+    "energy_unc_status": "not_reported",
+    "value_b": "0.31406210",
+    "stat_unc_b": "0.010682700",
+    "common_loadings_b": [
+      [
+        "Spraker2012:target-thickness",
+        "0.01130623560"
+      ]
+    ],
+    "transformations": [
+      "hash-bound repair of unquoted reaction comma in legacy CSV",
+      "source decimal preserved; units MeV and barn unchanged",
+      "target fraction represented as a linear shared nuisance loading; distribution assumption external"
+    ]
+  },
+  {
+    "observation_id": "C2973002:26",
+    "source": {
+      "source_id": "C2973002",
+      "evidence_id": "EXFOR:C2973002:Spraker2012",
+      "sha256": "e56d240ea05fb8663debbb42cef99a93ef466d309eec3dbeb239f77509a6d089",
+      "uri": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/9bfe5e6bace4e7cc1bc9b64962ab99325ebd462f/research/stars_2_0/wp_b/revised/data/EXFOR_C2973002_SPRAKER_2012_41PT_CROSS_SECTION_SOURCE_NORMALIZED_2026-10-27.csv",
+      "reaction": "11B(p,a)8Be",
+      "quantity": "reported_alpha_cross_section",
+      "frame": "LAB",
+      "acceptance": "INTAD per EXFOR; angular and detector acceptance not reconstructed here",
+      "interpretation": "Preserve reported alpha observable; event normalization unresolved; DOI 10.1007/s10894-011-9473-5",
+      "license_status": "Third-party source rights not independently qualified; repository license does not relicense data"
+    },
+    "energy_mev": "2.3",
+    "energy_unc_mev": null,
+    "energy_unc_status": "not_reported",
+    "value_b": "0.37182980",
+    "stat_unc_b": "0.012648700",
+    "common_loadings_b": [
+      [
+        "Spraker2012:target-thickness",
+        "0.01338587280"
+      ]
+    ],
+    "transformations": [
+      "hash-bound repair of unquoted reaction comma in legacy CSV",
+      "source decimal preserved; units MeV and barn unchanged",
+      "target fraction represented as a linear shared nuisance loading; distribution assumption external"
+    ]
+  },
+  {
+    "observation_id": "C2973002:27",
+    "source": {
+      "source_id": "C2973002",
+      "evidence_id": "EXFOR:C2973002:Spraker2012",
+      "sha256": "e56d240ea05fb8663debbb42cef99a93ef466d309eec3dbeb239f77509a6d089",
+      "uri": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/9bfe5e6bace4e7cc1bc9b64962ab99325ebd462f/research/stars_2_0/wp_b/revised/data/EXFOR_C2973002_SPRAKER_2012_41PT_CROSS_SECTION_SOURCE_NORMALIZED_2026-10-27.csv",
+      "reaction": "11B(p,a)8Be",
+      "quantity": "reported_alpha_cross_section",
+      "frame": "LAB",
+      "acceptance": "INTAD per EXFOR; angular and detector acceptance not reconstructed here",
+      "interpretation": "Preserve reported alpha observable; event normalization unresolved; DOI 10.1007/s10894-011-9473-5",
+      "license_status": "Third-party source rights not independently qualified; repository license does not relicense data"
+    },
+    "energy_mev": "2.4",
+    "energy_unc_mev": null,
+    "energy_unc_status": "not_reported",
+    "value_b": "0.48271960",
+    "stat_unc_b": "0.016423700",
+    "common_loadings_b": [
+      [
+        "Spraker2012:target-thickness",
+        "0.01737790560"
+      ]
+    ],
+    "transformations": [
+      "hash-bound repair of unquoted reaction comma in legacy CSV",
+      "source decimal preserved; units MeV and barn unchanged",
+      "target fraction represented as a linear shared nuisance loading; distribution assumption external"
+    ]
+  },
+  {
+    "observation_id": "C2973002:28",
+    "source": {
+      "source_id": "C2973002",
+      "evidence_id": "EXFOR:C2973002:Spraker2012",
+      "sha256": "e56d240ea05fb8663debbb42cef99a93ef466d309eec3dbeb239f77509a6d089",
+      "uri": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/9bfe5e6bace4e7cc1bc9b64962ab99325ebd462f/research/stars_2_0/wp_b/revised/data/EXFOR_C2973002_SPRAKER_2012_41PT_CROSS_SECTION_SOURCE_NORMALIZED_2026-10-27.csv",
+      "reaction": "11B(p,a)8Be",
+      "quantity": "reported_alpha_cross_section",
+      "frame": "LAB",
+      "acceptance": "INTAD per EXFOR; angular and detector acceptance not reconstructed here",
+      "interpretation": "Preserve reported alpha observable; event normalization unresolved; DOI 10.1007/s10894-011-9473-5",
+      "license_status": "Third-party source rights not independently qualified; repository license does not relicense data"
+    },
+    "energy_mev": "2.5",
+    "energy_unc_mev": null,
+    "energy_unc_status": "not_reported",
+    "value_b": "0.59703410",
+    "stat_unc_b": "0.020315200",
+    "common_loadings_b": [
+      [
+        "Spraker2012:target-thickness",
+        "0.02149322760"
+      ]
+    ],
+    "transformations": [
+      "hash-bound repair of unquoted reaction comma in legacy CSV",
+      "source decimal preserved; units MeV and barn unchanged",
+      "target fraction represented as a linear shared nuisance loading; distribution assumption external"
+    ]
+  },
+  {
+    "observation_id": "C2973002:29",
+    "source": {
+      "source_id": "C2973002",
+      "evidence_id": "EXFOR:C2973002:Spraker2012",
+      "sha256": "e56d240ea05fb8663debbb42cef99a93ef466d309eec3dbeb239f77509a6d089",
+      "uri": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/9bfe5e6bace4e7cc1bc9b64962ab99325ebd462f/research/stars_2_0/wp_b/revised/data/EXFOR_C2973002_SPRAKER_2012_41PT_CROSS_SECTION_SOURCE_NORMALIZED_2026-10-27.csv",
+      "reaction": "11B(p,a)8Be",
+      "quantity": "reported_alpha_cross_section",
+      "frame": "LAB",
+      "acceptance": "INTAD per EXFOR; angular and detector acceptance not reconstructed here",
+      "interpretation": "Preserve reported alpha observable; event normalization unresolved; DOI 10.1007/s10894-011-9473-5",
+      "license_status": "Third-party source rights not independently qualified; repository license does not relicense data"
+    },
+    "energy_mev": "2.6",
+    "energy_unc_mev": null,
+    "energy_unc_status": "not_reported",
+    "value_b": "0.70225310",
+    "stat_unc_b": "0.023893900",
+    "common_loadings_b": [
+      [
+        "Spraker2012:target-thickness",
+        "0.02528111160"
+      ]
+    ],
+    "transformations": [
+      "hash-bound repair of unquoted reaction comma in legacy CSV",
+      "source decimal preserved; units MeV and barn unchanged",
+      "target fraction represented as a linear shared nuisance loading; distribution assumption external"
+    ]
+  },
+  {
+    "observation_id": "C2973002:30",
+    "source": {
+      "source_id": "C2973002",
+      "evidence_id": "EXFOR:C2973002:Spraker2012",
+      "sha256": "e56d240ea05fb8663debbb42cef99a93ef466d309eec3dbeb239f77509a6d089",
+      "uri": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/9bfe5e6bace4e7cc1bc9b64962ab99325ebd462f/research/stars_2_0/wp_b/revised/data/EXFOR_C2973002_SPRAKER_2012_41PT_CROSS_SECTION_SOURCE_NORMALIZED_2026-10-27.csv",
+      "reaction": "11B(p,a)8Be",
+      "quantity": "reported_alpha_cross_section",
+      "frame": "LAB",
+      "acceptance": "INTAD per EXFOR; angular and detector acceptance not reconstructed here",
+      "interpretation": "Preserve reported alpha observable; event normalization unresolved; DOI 10.1007/s10894-011-9473-5",
+      "license_status": "Third-party source rights not independently qualified; repository license does not relicense data"
+    },
+    "energy_mev": "2.7",
+    "energy_unc_mev": null,
+    "energy_unc_status": "not_reported",
+    "value_b": "0.60927020",
+    "stat_unc_b": "0.020729800",
+    "common_loadings_b": [
+      [
+        "Spraker2012:target-thickness",
+        "0.02193372720"
+      ]
+    ],
+    "transformations": [
+      "hash-bound repair of unquoted reaction comma in legacy CSV",
+      "source decimal preserved; units MeV and barn unchanged",
+      "target fraction represented as a linear shared nuisance loading; distribution assumption external"
+    ]
+  },
+  {
+    "observation_id": "C2973002:31",
+    "source": {
+      "source_id": "C2973002",
+      "evidence_id": "EXFOR:C2973002:Spraker2012",
+      "sha256": "e56d240ea05fb8663debbb42cef99a93ef466d309eec3dbeb239f77509a6d089",
+      "uri": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/9bfe5e6bace4e7cc1bc9b64962ab99325ebd462f/research/stars_2_0/wp_b/revised/data/EXFOR_C2973002_SPRAKER_2012_41PT_CROSS_SECTION_SOURCE_NORMALIZED_2026-10-27.csv",
+      "reaction": "11B(p,a)8Be",
+      "quantity": "reported_alpha_cross_section",
+      "frame": "LAB",
+      "acceptance": "INTAD per EXFOR; angular and detector acceptance not reconstructed here",
+      "interpretation": "Preserve reported alpha observable; event normalization unresolved; DOI 10.1007/s10894-011-9473-5",
+      "license_status": "Third-party source rights not independently qualified; repository license does not relicense data"
+    },
+    "energy_mev": "2.8",
+    "energy_unc_mev": null,
+    "energy_unc_status": "not_reported",
+    "value_b": "0.44383320",
+    "stat_unc_b": "0.015099500",
+    "common_loadings_b": [
+      [
+        "Spraker2012:target-thickness",
+        "0.01597799520"
+      ]
+    ],
+    "transformations": [
+      "hash-bound repair of unquoted reaction comma in legacy CSV",
+      "source decimal preserved; units MeV and barn unchanged",
+      "target fraction represented as a linear shared nuisance loading; distribution assumption external"
+    ]
+  },
+  {
+    "observation_id": "C2973002:32",
+    "source": {
+      "source_id": "C2973002",
+      "evidence_id": "EXFOR:C2973002:Spraker2012",
+      "sha256": "e56d240ea05fb8663debbb42cef99a93ef466d309eec3dbeb239f77509a6d089",
+      "uri": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/9bfe5e6bace4e7cc1bc9b64962ab99325ebd462f/research/stars_2_0/wp_b/revised/data/EXFOR_C2973002_SPRAKER_2012_41PT_CROSS_SECTION_SOURCE_NORMALIZED_2026-10-27.csv",
+      "reaction": "11B(p,a)8Be",
+      "quantity": "reported_alpha_cross_section",
+      "frame": "LAB",
+      "acceptance": "INTAD per EXFOR; angular and detector acceptance not reconstructed here",
+      "interpretation": "Preserve reported alpha observable; event normalization unresolved; DOI 10.1007/s10894-011-9473-5",
+      "license_status": "Third-party source rights not independently qualified; repository license does not relicense data"
+    },
+    "energy_mev": "2.9",
+    "energy_unc_mev": null,
+    "energy_unc_status": "not_reported",
+    "value_b": "0.34401910",
+    "stat_unc_b": "0.011723700",
+    "common_loadings_b": [
+      [
+        "Spraker2012:target-thickness",
+        "0.01238468760"
+      ]
+    ],
+    "transformations": [
+      "hash-bound repair of unquoted reaction comma in legacy CSV",
+      "source decimal preserved; units MeV and barn unchanged",
+      "target fraction represented as a linear shared nuisance loading; distribution assumption external"
+    ]
+  },
+  {
+    "observation_id": "C2973002:33",
+    "source": {
+      "source_id": "C2973002",
+      "evidence_id": "EXFOR:C2973002:Spraker2012",
+      "sha256": "e56d240ea05fb8663debbb42cef99a93ef466d309eec3dbeb239f77509a6d089",
+      "uri": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/9bfe5e6bace4e7cc1bc9b64962ab99325ebd462f/research/stars_2_0/wp_b/revised/data/EXFOR_C2973002_SPRAKER_2012_41PT_CROSS_SECTION_SOURCE_NORMALIZED_2026-10-27.csv",
+      "reaction": "11B(p,a)8Be",
+      "quantity": "reported_alpha_cross_section",
+      "frame": "LAB",
+      "acceptance": "INTAD per EXFOR; angular and detector acceptance not reconstructed here",
+      "interpretation": "Preserve reported alpha observable; event normalization unresolved; DOI 10.1007/s10894-011-9473-5",
+      "license_status": "Third-party source rights not independently qualified; repository license does not relicense data"
+    },
+    "energy_mev": "3",
+    "energy_unc_mev": null,
+    "energy_unc_status": "not_reported",
+    "value_b": "0.35141290",
+    "stat_unc_b": "0.011951000",
+    "common_loadings_b": [
+      [
+        "Spraker2012:target-thickness",
+        "0.01265086440"
+      ]
+    ],
+    "transformations": [
+      "hash-bound repair of unquoted reaction comma in legacy CSV",
+      "source decimal preserved; units MeV and barn unchanged",
+      "target fraction represented as a linear shared nuisance loading; distribution assumption external"
+    ]
+  },
+  {
+    "observation_id": "C2973002:34",
+    "source": {
+      "source_id": "C2973002",
+      "evidence_id": "EXFOR:C2973002:Spraker2012",
+      "sha256": "e56d240ea05fb8663debbb42cef99a93ef466d309eec3dbeb239f77509a6d089",
+      "uri": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/9bfe5e6bace4e7cc1bc9b64962ab99325ebd462f/research/stars_2_0/wp_b/revised/data/EXFOR_C2973002_SPRAKER_2012_41PT_CROSS_SECTION_SOURCE_NORMALIZED_2026-10-27.csv",
+      "reaction": "11B(p,a)8Be",
+      "quantity": "reported_alpha_cross_section",
+      "frame": "LAB",
+      "acceptance": "INTAD per EXFOR; angular and detector acceptance not reconstructed here",
+      "interpretation": "Preserve reported alpha observable; event normalization unresolved; DOI 10.1007/s10894-011-9473-5",
+      "license_status": "Third-party source rights not independently qualified; repository license does not relicense data"
+    },
+    "energy_mev": "3.1",
+    "energy_unc_mev": null,
+    "energy_unc_status": "not_reported",
+    "value_b": "0.40387640",
+    "stat_unc_b": "0.013736100",
+    "common_loadings_b": [
+      [
+        "Spraker2012:target-thickness",
+        "0.01453955040"
+      ]
+    ],
+    "transformations": [
+      "hash-bound repair of unquoted reaction comma in legacy CSV",
+      "source decimal preserved; units MeV and barn unchanged",
+      "target fraction represented as a linear shared nuisance loading; distribution assumption external"
+    ]
+  },
+  {
+    "observation_id": "C2973002:35",
+    "source": {
+      "source_id": "C2973002",
+      "evidence_id": "EXFOR:C2973002:Spraker2012",
+      "sha256": "e56d240ea05fb8663debbb42cef99a93ef466d309eec3dbeb239f77509a6d089",
+      "uri": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/9bfe5e6bace4e7cc1bc9b64962ab99325ebd462f/research/stars_2_0/wp_b/revised/data/EXFOR_C2973002_SPRAKER_2012_41PT_CROSS_SECTION_SOURCE_NORMALIZED_2026-10-27.csv",
+      "reaction": "11B(p,a)8Be",
+      "quantity": "reported_alpha_cross_section",
+      "frame": "LAB",
+      "acceptance": "INTAD per EXFOR; angular and detector acceptance not reconstructed here",
+      "interpretation": "Preserve reported alpha observable; event normalization unresolved; DOI 10.1007/s10894-011-9473-5",
+      "license_status": "Third-party source rights not independently qualified; repository license does not relicense data"
+    },
+    "energy_mev": "3.2",
+    "energy_unc_mev": null,
+    "energy_unc_status": "not_reported",
+    "value_b": "0.45655620",
+    "stat_unc_b": "0.015530400",
+    "common_loadings_b": [
+      [
+        "Spraker2012:target-thickness",
+        "0.01643602320"
+      ]
+    ],
+    "transformations": [
+      "hash-bound repair of unquoted reaction comma in legacy CSV",
+      "source decimal preserved; units MeV and barn unchanged",
+      "target fraction represented as a linear shared nuisance loading; distribution assumption external"
+    ]
+  },
+  {
+    "observation_id": "C2973002:36",
+    "source": {
+      "source_id": "C2973002",
+      "evidence_id": "EXFOR:C2973002:Spraker2012",
+      "sha256": "e56d240ea05fb8663debbb42cef99a93ef466d309eec3dbeb239f77509a6d089",
+      "uri": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/9bfe5e6bace4e7cc1bc9b64962ab99325ebd462f/research/stars_2_0/wp_b/revised/data/EXFOR_C2973002_SPRAKER_2012_41PT_CROSS_SECTION_SOURCE_NORMALIZED_2026-10-27.csv",
+      "reaction": "11B(p,a)8Be",
+      "quantity": "reported_alpha_cross_section",
+      "frame": "LAB",
+      "acceptance": "INTAD per EXFOR; angular and detector acceptance not reconstructed here",
+      "interpretation": "Preserve reported alpha observable; event normalization unresolved; DOI 10.1007/s10894-011-9473-5",
+      "license_status": "Third-party source rights not independently qualified; repository license does not relicense data"
+    },
+    "energy_mev": "3.3",
+    "energy_unc_mev": null,
+    "energy_unc_status": "not_reported",
+    "value_b": "0.53647200",
+    "stat_unc_b": "0.018245600",
+    "common_loadings_b": [
+      [
+        "Spraker2012:target-thickness",
+        "0.01931299200"
+      ]
+    ],
+    "transformations": [
+      "hash-bound repair of unquoted reaction comma in legacy CSV",
+      "source decimal preserved; units MeV and barn unchanged",
+      "target fraction represented as a linear shared nuisance loading; distribution assumption external"
+    ]
+  },
+  {
+    "observation_id": "C2973002:37",
+    "source": {
+      "source_id": "C2973002",
+      "evidence_id": "EXFOR:C2973002:Spraker2012",
+      "sha256": "e56d240ea05fb8663debbb42cef99a93ef466d309eec3dbeb239f77509a6d089",
+      "uri": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/9bfe5e6bace4e7cc1bc9b64962ab99325ebd462f/research/stars_2_0/wp_b/revised/data/EXFOR_C2973002_SPRAKER_2012_41PT_CROSS_SECTION_SOURCE_NORMALIZED_2026-10-27.csv",
+      "reaction": "11B(p,a)8Be",
+      "quantity": "reported_alpha_cross_section",
+      "frame": "LAB",
+      "acceptance": "INTAD per EXFOR; angular and detector acceptance not reconstructed here",
+      "interpretation": "Preserve reported alpha observable; event normalization unresolved; DOI 10.1007/s10894-011-9473-5",
+      "license_status": "Third-party source rights not independently qualified; repository license does not relicense data"
+    },
+    "energy_mev": "3.4",
+    "energy_unc_mev": null,
+    "energy_unc_status": "not_reported",
+    "value_b": "0.59812860",
+    "stat_unc_b": "0.020340900",
+    "common_loadings_b": [
+      [
+        "Spraker2012:target-thickness",
+        "0.02153262960"
+      ]
+    ],
+    "transformations": [
+      "hash-bound repair of unquoted reaction comma in legacy CSV",
+      "source decimal preserved; units MeV and barn unchanged",
+      "target fraction represented as a linear shared nuisance loading; distribution assumption external"
+    ]
+  },
+  {
+    "observation_id": "C2973002:38",
+    "source": {
+      "source_id": "C2973002",
+      "evidence_id": "EXFOR:C2973002:Spraker2012",
+      "sha256": "e56d240ea05fb8663debbb42cef99a93ef466d309eec3dbeb239f77509a6d089",
+      "uri": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/9bfe5e6bace4e7cc1bc9b64962ab99325ebd462f/research/stars_2_0/wp_b/revised/data/EXFOR_C2973002_SPRAKER_2012_41PT_CROSS_SECTION_SOURCE_NORMALIZED_2026-10-27.csv",
+      "reaction": "11B(p,a)8Be",
+      "quantity": "reported_alpha_cross_section",
+      "frame": "LAB",
+      "acceptance": "INTAD per EXFOR; angular and detector acceptance not reconstructed here",
+      "interpretation": "Preserve reported alpha observable; event normalization unresolved; DOI 10.1007/s10894-011-9473-5",
+      "license_status": "Third-party source rights not independently qualified; repository license does not relicense data"
+    },
+    "energy_mev": "3.5",
+    "energy_unc_mev": null,
+    "energy_unc_status": "not_reported",
+    "value_b": "0.65237580",
+    "stat_unc_b": "0.022195300",
+    "common_loadings_b": [
+      [
+        "Spraker2012:target-thickness",
+        "0.02348552880"
+      ]
+    ],
+    "transformations": [
+      "hash-bound repair of unquoted reaction comma in legacy CSV",
+      "source decimal preserved; units MeV and barn unchanged",
+      "target fraction represented as a linear shared nuisance loading; distribution assumption external"
+    ]
+  },
+  {
+    "observation_id": "C2973002:39",
+    "source": {
+      "source_id": "C2973002",
+      "evidence_id": "EXFOR:C2973002:Spraker2012",
+      "sha256": "e56d240ea05fb8663debbb42cef99a93ef466d309eec3dbeb239f77509a6d089",
+      "uri": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/9bfe5e6bace4e7cc1bc9b64962ab99325ebd462f/research/stars_2_0/wp_b/revised/data/EXFOR_C2973002_SPRAKER_2012_41PT_CROSS_SECTION_SOURCE_NORMALIZED_2026-10-27.csv",
+      "reaction": "11B(p,a)8Be",
+      "quantity": "reported_alpha_cross_section",
+      "frame": "LAB",
+      "acceptance": "INTAD per EXFOR; angular and detector acceptance not reconstructed here",
+      "interpretation": "Preserve reported alpha observable; event normalization unresolved; DOI 10.1007/s10894-011-9473-5",
+      "license_status": "Third-party source rights not independently qualified; repository license does not relicense data"
+    },
+    "energy_mev": "3.6",
+    "energy_unc_mev": null,
+    "energy_unc_status": "not_reported",
+    "value_b": "0.68528140",
+    "stat_unc_b": "0.023303000",
+    "common_loadings_b": [
+      [
+        "Spraker2012:target-thickness",
+        "0.02467013040"
+      ]
+    ],
+    "transformations": [
+      "hash-bound repair of unquoted reaction comma in legacy CSV",
+      "source decimal preserved; units MeV and barn unchanged",
+      "target fraction represented as a linear shared nuisance loading; distribution assumption external"
+    ]
+  },
+  {
+    "observation_id": "C2973002:40",
+    "source": {
+      "source_id": "C2973002",
+      "evidence_id": "EXFOR:C2973002:Spraker2012",
+      "sha256": "e56d240ea05fb8663debbb42cef99a93ef466d309eec3dbeb239f77509a6d089",
+      "uri": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/9bfe5e6bace4e7cc1bc9b64962ab99325ebd462f/research/stars_2_0/wp_b/revised/data/EXFOR_C2973002_SPRAKER_2012_41PT_CROSS_SECTION_SOURCE_NORMALIZED_2026-10-27.csv",
+      "reaction": "11B(p,a)8Be",
+      "quantity": "reported_alpha_cross_section",
+      "frame": "LAB",
+      "acceptance": "INTAD per EXFOR; angular and detector acceptance not reconstructed here",
+      "interpretation": "Preserve reported alpha observable; event normalization unresolved; DOI 10.1007/s10894-011-9473-5",
+      "license_status": "Third-party source rights not independently qualified; repository license does not relicense data"
+    },
+    "energy_mev": "3.7",
+    "energy_unc_mev": null,
+    "energy_unc_status": "not_reported",
+    "value_b": "0.68808140",
+    "stat_unc_b": "0.023397700",
+    "common_loadings_b": [
+      [
+        "Spraker2012:target-thickness",
+        "0.02477093040"
+      ]
+    ],
+    "transformations": [
+      "hash-bound repair of unquoted reaction comma in legacy CSV",
+      "source decimal preserved; units MeV and barn unchanged",
+      "target fraction represented as a linear shared nuisance loading; distribution assumption external"
+    ]
+  },
+  {
+    "observation_id": "C2973002:41",
+    "source": {
+      "source_id": "C2973002",
+      "evidence_id": "EXFOR:C2973002:Spraker2012",
+      "sha256": "e56d240ea05fb8663debbb42cef99a93ef466d309eec3dbeb239f77509a6d089",
+      "uri": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/9bfe5e6bace4e7cc1bc9b64962ab99325ebd462f/research/stars_2_0/wp_b/revised/data/EXFOR_C2973002_SPRAKER_2012_41PT_CROSS_SECTION_SOURCE_NORMALIZED_2026-10-27.csv",
+      "reaction": "11B(p,a)8Be",
+      "quantity": "reported_alpha_cross_section",
+      "frame": "LAB",
+      "acceptance": "INTAD per EXFOR; angular and detector acceptance not reconstructed here",
+      "interpretation": "Preserve reported alpha observable; event normalization unresolved; DOI 10.1007/s10894-011-9473-5",
+      "license_status": "Third-party source rights not independently qualified; repository license does not relicense data"
+    },
+    "energy_mev": "3.8",
+    "energy_unc_mev": null,
+    "energy_unc_status": "not_reported",
+    "value_b": "0.65163950",
+    "stat_unc_b": "0.022158700",
+    "common_loadings_b": [
+      [
+        "Spraker2012:target-thickness",
+        "0.02345902200"
+      ]
+    ],
+    "transformations": [
+      "hash-bound repair of unquoted reaction comma in legacy CSV",
+      "source decimal preserved; units MeV and barn unchanged",
+      "target fraction represented as a linear shared nuisance loading; distribution assumption external"
+    ]
+  }
+]
