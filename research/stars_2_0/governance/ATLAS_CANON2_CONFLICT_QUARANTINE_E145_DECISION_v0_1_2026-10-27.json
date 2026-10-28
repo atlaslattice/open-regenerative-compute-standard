@@ -1,0 +1,33 @@
+{
+  "schema": "atlas_canon2_quarantine_v0_1",
+  "status": "QUARANTINED_PENDING_COUNCIL_REVIEW",
+  "date": "2026-10-27",
+  "authority_statement": "The user/convenor directs that these five conflicts be deferred and designates themselves project E145 final authority for Atlas Intelligence research decisions. This does not independently authenticate historic ratification, resolve conflicts, waive legal/consent/safety constraints, or authorize future external actions.",
+  "historical_sources": [
+    "CANON_2_0_OPERATOR_INTEGRATION_REPORT_v0_1_2026-10-27.md",
+    "ATLAS_CANON_MERGED_RESURRECTION_CANDIDATE_v0_2_2026-10-27.json"
+  ],
+  "conflict_ids": [
+    "CON-01",
+    "CON-02",
+    "CON-03",
+    "CON-04",
+    "CON-05"
+  ],
+  "policy": {
+    "research": "PERMIT_STRUCTURALLY_VALID_ISOLATED_SIMULATION_WITH_QUARANTINE_DISCLOSURE",
+    "council_debate": "PERMIT_STRUCTURALLY_VALID_ISOLATED_SIMULATION_WITH_QUARANTINE_DISCLOSURE",
+    "canon_promotion": "REVIEW_REQUIRED_NO_AUTOMATIC_PROMOTION",
+    "deployment": "REVIEW_REQUIRED_NO_EXECUTION",
+    "external_action": "REVIEW_REQUIRED_NO_EXECUTION",
+    "release": "REVIEW_REQUIRED"
+  },
+  "project_e145": {
+    "decision_authority": "USER_CONVENOR",
+    "scope": "Atlas Intelligence research agenda, experimental selection, internal project review",
+    "limits": "E145 designation is not legal authorization for third parties, historic constitutional ratification evidence, independent scientific verification, or a substitute for required explicit authorization for consequential actions",
+    "identity_authentication": "THIS_CONVERSATION_REQUEST_ONLY_NOT_A_CRYPTOGRAPHIC_SIGNATURE"
+  },
+  "preserve": "Append-only historical sources and all competing interpretations; no deletion/renumbering of legacy identifiers.",
+  "reopening": "Council review when user requests, or before any change of the quarantined subjects to production or Canon authority."
+}
