@@ -1,0 +1,49 @@
+{
+  "experiment_id": "synthetic-failed-hypothesis",
+  "scientific_outcome": "FAIL",
+  "economic_as_of": "2026-10-28",
+  "currency": "USD",
+  "products": [
+    {
+      "inventory_id": "synthetic-disjoint-stock-1",
+      "product_id": "fictional-product",
+      "quantity_unit": "g",
+      "product_specification": "fictional-spec",
+      "evidence": "MODELED",
+      "born_quantity": "1",
+      "saleable_quantity": ".5",
+      "price_snapshot": {
+        "snapshot_id": "synthetic-1",
+        "quote_date": "2026-10-01",
+        "access_date": "2026-10-28",
+        "currency": "USD",
+        "quantity_unit": "g",
+        "product_specification": "fictional-spec",
+        "kind": "SYNTHETIC",
+        "source": "synthetic fixture; no market claim",
+        "USD_per_unit": "10"
+      },
+      "potential_gross_USD": "5.0",
+      "valuation_gap": null,
+      "quote_age_days": 27
+    }
+  ],
+  "priced_subset_potential_gross_USD": "5.0",
+  "all_products_valued": true,
+  "known_cost_USD": "2",
+  "missing_cost_categories": [],
+  "costs_USD": {
+    "electricity": "2",
+    "extraction": "0",
+    "purification": "0",
+    "storage": "0",
+    "transport": "0",
+    "capital_allocation": "0",
+    "other_operations": "0"
+  },
+  "potential_net_USD": "3.0",
+  "realized_revenue_USD": null,
+  "realized_revenue_status": "NOT_RECORDED_BY_SCENARIO_MODULE",
+  "energy_credit": "NONE; heat is not automatically electricity",
+  "scope": "ONE declared experiment interval; no live market or inventory dynamics"
+}
