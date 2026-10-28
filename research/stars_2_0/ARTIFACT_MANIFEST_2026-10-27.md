@@ -137,3 +137,8 @@ research/stars_2_0/
 - [Machine-readable STARS research keywords, topic recommendations, source IDs, evidence grades](RESEARCH_METADATA_STARS_2_0_2026-10-27.json), commit 3073a63287ea08bdca689c5833109347759bf1dd. GitHub repository topics **were not changed** (no available topic-edit action); recommendations are documented only.
 - [DeepSeek post-EXFOR scientific audit of alpha-count semantics, 57 um BN range benchmark, kinematics, diamond detector, Bayesian and degradation gates](reviews/DEEPSEEK_POST_EXFOR_REVIEW_AND_TEST_ANCHOR_CORRECTIONS_2026-10-27.md), commit 8e5de931709a5f119708f63c7a657f222915739d.
 - Corrective warning: C2973002 source `SIG` values can be integrated alpha-yield observables as Spraker counts/luminosity, **not automatically per-event reaction cross sections**; preserve the original 41 rows and require explicit observable-kind transformation. No new WP-B v0.4 source execution or formal G0-B preregistration has occurred.
+
+## Copilot final v0.4 preflight — zero physics equals zero magic
+- [Copilot source-attributed final audit, physical-observable typing, strict LAB/CM kinetic ledger, 16-gate verification matrix and analytic nulls](reviews/COPILOT_FINAL_PREFLIGHT_ZERO_PHYSICS_ZERO_MAGIC_2026-10-27.md), commit df6d88ceaca9fdf09de55ad790beb9b8e69ddb3c.
+- Reviewer mnemonic **“Zero physics produces zero magic”** is a test slogan, not a ratified Canon invariant. Zero cross section must imply no fusion reactions and no nuclear Q energy; non-fusion backgrounds and input electrical energy remain separately accounted.
+- **Design-only**: audit/verification matrix published; WP-B v0.4 code and its full passing test log have not been produced or executed in this action. Do not freeze blind G0-B predictions yet.
