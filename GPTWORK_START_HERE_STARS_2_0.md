@@ -1,5 +1,8 @@
 # GPTWork / ChatGPT Work — START HERE: STARS 2.0
 
+> 🧙‍♂️ **GPTWork WIZARD COUNCIL INVITATION — READ FIRST:** [Creative contribution → adversarial testing → optimize plan → return for project-lead/Tidal Lantern gap review](research/stars_2_0/GPTWORK_WIZARD_COUNCIL_CREATIVE_REVIEW_INVITATION_2026-10-27.md). Includes metaphorical coffee, pointy hat and nap privileges. **This four-stage invitation supersedes 'begin coding immediately'; implementation contract remains unfrozen.**
+
+
 **This is the top-level repository entrypoint for future implementation work on STARS 2.0.**
 **Status: HOLD FOR GEMINI ARGON FINAL REVIEW; THE IMPLEMENTATION CONTRACT IS NOT YET FROZEN.**
 **Prepared 2026-10-27.**
