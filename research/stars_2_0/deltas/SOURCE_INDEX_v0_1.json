@@ -1,0 +1,70 @@
+{
+  "repository": "atlaslattice/open-regenerative-compute-standard",
+  "commit": "4512e9bb8505591ea207d28c2f0689ab5aecae9f",
+  "sources": [
+    {
+      "path": "research/stars-2-0-modular-pb11-acousto-optical-energy-conversion-whitepaper-v0.3-2026-10-27.md",
+      "blob_sha": "f2379b77c4f3a7a9f6387312ad254b490f38ac25"
+    },
+    {
+      "path": "research/stars-2-0-modular-pb11-electroacoustic-alpha-recovery-whitepaper-v0.4-2026-10-27.md",
+      "blob_sha": "9361595719b9635a68f583ae85635f7a00b24b5e"
+    },
+    {
+      "path": "research/stars-2-0-v0.5-evidence-integration-2026-10-27.md",
+      "blob_sha": "5f13251137a1d339947ca390ca2645466405633f"
+    },
+    {
+      "path": "research/stars_2_0/whitepapers/STARS_2_0_RF_v0_2_updated_whitepaper.md",
+      "blob_sha": "f5da838d23541d0d22110e97a1b05c389e7acddb"
+    },
+    {
+      "path": "research/stars_2_0/whitepapers/STARS_2_0_v0_6_WP_B_AUDIT_AND_INTEGRATED_RESEARCH_WHITEPAPER_2026-10-27.md",
+      "blob_sha": "7112a5229f73484134bd243ee32e1b2dfd4700e5"
+    },
+    {
+      "path": "research/stars_2_0/whitepapers/STARS_2_0_v0_7_ACOUSTIC_AB_EVIDENCE_AND_INTEGRATED_REVIEW_2026-10-27.md",
+      "blob_sha": "453f44b533be0fc0e51bebe67925e32c20d838f9"
+    },
+    {
+      "path": "research/stars_2_0/whitepapers/STARS_2_0_v0_8_REFERENCE_DATA_CALIBRATION_AND_INTERFACE_VALIDATION_2026-10-27.md",
+      "blob_sha": "82bca6dc179de07eb0ac5a266279a89ca6322b27"
+    },
+    {
+      "path": "research/stars_2_0/whitepapers/STARS_2_0_v0_9_PRE_SIMULATION_MULTI_AGENT_SYNTHESIS_AND_HARMONIC_ANALYSIS_2026-10-27.md",
+      "blob_sha": "e9676df2158415bdeeeff22be6e85443bbda9519"
+    },
+    {
+      "path": "research/stars_2_0/ARTIFACT_MANIFEST_2026-10-27.md",
+      "blob_sha": "9ba635467484d520cbbc887340c6e8cefdd99326"
+    },
+    {
+      "path": "research/stars_2_0/STARS_PHYSICS_ONLY_SHUGS_OPERATOR_SCOPE_v0_1_2026-10-28.md",
+      "blob_sha": "a5b4fce87509f930e1bc86d67f4d1b04078faba1"
+    },
+    {
+      "path": "research/stars_2_0/reviews/DEEPSEEK_G0B_THREE_TARGET_SUBSTRATE_COMPARISON_PROTOCOL_2026-10-27.md",
+      "blob_sha": "74234bbe7ace34457a2008efde31e6931a506bb1"
+    },
+    {
+      "path": "research/stars_2_0/reviews/DEEPSEEK_V08_HYBRID_BORON_TARGET_FABRICATION_FOLLOWUP_2026-10-27.md",
+      "blob_sha": "49041e236401e06f835de5e97a3379dc8fd8b08d"
+    },
+    {
+      "path": "research/stars_2_0/reviews/COPILOT_FINAL_PREFLIGHT_ZERO_PHYSICS_ZERO_MAGIC_2026-10-27.md",
+      "blob_sha": "01683951f55f20ac5d25fa56ba37a7b2cf7e4239"
+    },
+    {
+      "path": "research/stars_2_0/reviews/EXFOR_C2973_PRIMARY_DATA_RECOVERY_AND_DEEPSEEK_FINAL_SAFEGUARDS_2026-10-27.md",
+      "blob_sha": "691088c07ada85f83e180af54922379c50598f53"
+    },
+    {
+      "path": "research/stars_2_0/reviews/GEMINI_V04_INDEPENDENT_EXECUTION_AND_AB_REGRESSION_GATES_2026-10-27.md",
+      "blob_sha": "7d6424cb63180dca4f397240d594fe7f0cf405a1"
+    },
+    {
+      "path": "research/stars_2_0/reviews/GPTWORK_COUNCIL_STAGE4_INDEPENDENT_GAP_REVIEW_v0_1_2026-10-27.md",
+      "blob_sha": "1a0a8a4bb84140da80db16b711a9ccd4c2aa2458"
+    }
+  ]
+}
