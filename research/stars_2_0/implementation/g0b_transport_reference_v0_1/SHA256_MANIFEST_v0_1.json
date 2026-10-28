@@ -1,0 +1,16 @@
+{
+  "INPUT_QUALIFICATION_v0_1.md": "9f3d9bba6d142fe95850106b2ad91372ff967555df9f1d585cc87a218c30ec08",
+  "README.md": "0db36522e2584e233c20ed7d1be7efd225335ac6a1f5a06c55a3abffcd7a7bf5",
+  "detector.py": "f53fa649cf7c9a32ab40f20ae5870bbd81bc5632fffb6889a73f28f88b76550d",
+  "receipts/run_001/REFERENCE_RUN_SYNTHETIC_ONLY.json": "768f61ff85d53587e178653f0adaafcdb631842a7c59c990a0b9f5a735fab0b4",
+  "receipts/run_001/source_snapshot/test_transport.py": "5d54c0e638c57c6aefa36c1ef725716a9aeac510c15076ff7c725adacff1fcd1",
+  "receipts/run_001/source_snapshot/transport.py": "71869658dc84403d36ed26572d07cd9d7b4e1191c508159c3209936c7a15a9d7",
+  "receipts/run_001/test_log.txt": "74f77c6b0147f42af8d720e5e80890bfbf74f891841bcbcefb09817ef78d7ca0",
+  "receipts/run_002/REFERENCE_RUN_SYNTHETIC_ONLY.json": "ceadabdd3ae94bce046009882fc5855bb670591e35630366cc1ae8f89aff75b2",
+  "receipts/run_002/test_log.txt": "ee7b55f8429ac6651842817554bf958444b00e73cb93e069d757cafa05d1ad86",
+  "receipts/run_002_console.txt": "56b9bdf10d283e9c0318a471ef5f51794118567dceec80eacaf4dffc62ffe1f0",
+  "requirements.txt": "8daee0267e97810046e177a0179e5fc475b6259e625e10f5ec6a9194045053b9",
+  "run_reference.py": "64a9d03d3e242b7ed9c4a15868f6e9a1093d30674bfd9b7c502de26b19751fe4",
+  "test_transport.py": "3b58acd5b58f4397082ff1c7d2229e2fee069ee078dfd541be1f1645448e2f40",
+  "transport.py": "f3a43e6781da00bdc47b9f31605817e11fe28a5ae12149538f2787e5a8d6439e"
+}
