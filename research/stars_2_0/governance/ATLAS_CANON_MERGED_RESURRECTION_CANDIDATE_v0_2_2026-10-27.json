@@ -1,0 +1,970 @@
+{
+  "schema": "atlas_canon_merged_resurrection_candidate_v0_2",
+  "date": "2026-10-27",
+  "status": "CANDIDATE_NON_CANON",
+  "authority": "NONE",
+  "base_crosswalk": "ATLAS_CANON_CANDIDATE_CROSSWALK_v0_1_2026-10-27.json",
+  "user_instruction": "New resurrection version may merge semantically similar components for brevity; preserve originals.",
+  "principles": [
+    "Aliases never replace historical ID/source definitions.",
+    "Ratification claimed in a source is not independently verified ratification.",
+    "Merged summary is not enforceable when source requirements differ.",
+    "Numerical thresholds, exceptions, vetoes and jurisdictional distinctions survive a summary and require separately reviewable gates.",
+    "Human-root ratification required for new governance authority.",
+    "Every original source record remains in v0.1 crosswalk; v0.2 groups are intentionally incomplete coverage and are not all-Canon."
+  ],
+  "sources": {
+    "ORCS_D": {
+      "repo": "atlaslattice/open-regenerative-compute-standard",
+      "path": "codebase-artifacts/registries/doctrine_registry.yaml",
+      "blob_sha": "974d65cab4f220b32a1f0749aa25aa545fccca22"
+    },
+    "ALUMINUM_D": {
+      "repo": "atlaslattice/aluminum-os",
+      "path": "website/client/src/pages/Doctrines.tsx",
+      "blob_sha": "a16840c953be9421ef47336216cf053aa0ac2135"
+    },
+    "ALUMINUM_I": {
+      "repo": "atlaslattice/aluminum-os",
+      "path": "website/client/src/pages/Invariants.tsx",
+      "blob_sha": "2f8d7c684779d9a27e931ac9d34cc8ae4fbd9464"
+    },
+    "ALUMINUM_WORKING_I": {
+      "repo": "atlaslattice/aluminum-os",
+      "path": "website/client/src/lib/data.ts",
+      "blob_sha": "3ae55ce7e194c2398a71bb8d60531fea2db25398"
+    }
+  },
+  "summary": {
+    "candidate_merged_groups": 12,
+    "referenced_historical_rules": 102,
+    "source_claims_ratification_verified": 0,
+    "production_governance_gates_integrated": 0
+  },
+  "groups": [
+    {
+      "alias": "ALC-001",
+      "title": "Human authorization and constitutional primacy",
+      "candidate_rule": "Human authority is required for constitutional ratification, overrides and consequential action; no AI vote or executive selection can substitute for it.",
+      "status": "MERGE_PROPOSAL_NOT_RATIFIED",
+      "scope_warning": "OVERLAP_WITH_SCOPE_DIFFERENCES",
+      "sources": [
+        {
+          "id": "D-1",
+          "name": "Consent Primacy",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ORCS_D",
+          "source_path": "codebase-artifacts/registries/doctrine_registry.yaml",
+          "blob_sha": "974d65cab4f220b32a1f0749aa25aa545fccca22"
+        },
+        {
+          "id": "D-9",
+          "name": "Human Override Guarantee",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ORCS_D",
+          "source_path": "codebase-artifacts/registries/doctrine_registry.yaml",
+          "blob_sha": "974d65cab4f220b32a1f0749aa25aa545fccca22"
+        },
+        {
+          "id": "D-1",
+          "name": "Constitutional Primacy",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ALUMINUM_D",
+          "source_path": "website/client/src/pages/Doctrines.tsx",
+          "blob_sha": "a16840c953be9421ef47336216cf053aa0ac2135"
+        },
+        {
+          "id": "D-2",
+          "name": "Human Sovereignty Guarantee",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ALUMINUM_D",
+          "source_path": "website/client/src/pages/Doctrines.tsx",
+          "blob_sha": "a16840c953be9421ef47336216cf053aa0ac2135"
+        },
+        {
+          "id": "D-10",
+          "name": "Convenor Authority",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ALUMINUM_D",
+          "source_path": "website/client/src/pages/Doctrines.tsx",
+          "blob_sha": "a16840c953be9421ef47336216cf053aa0ac2135"
+        },
+        {
+          "id": "INV-1",
+          "name": "Human Sovereignty",
+          "source_claim_status": "DISPLAYED_NO_RATIFICATION_PROOF",
+          "namespace": "ALUMINUM_I",
+          "source_path": "website/client/src/pages/Invariants.tsx",
+          "blob_sha": "2f8d7c684779d9a27e931ac9d34cc8ae4fbd9464"
+        },
+        {
+          "id": "INV-2",
+          "name": "Constitutional Supremacy",
+          "source_claim_status": "DISPLAYED_NO_RATIFICATION_PROOF",
+          "namespace": "ALUMINUM_I",
+          "source_path": "website/client/src/pages/Invariants.tsx",
+          "blob_sha": "2f8d7c684779d9a27e931ac9d34cc8ae4fbd9464"
+        }
+      ]
+    },
+    {
+      "alias": "ALC-002",
+      "title": "Preserved evidence and immutable lineage",
+      "candidate_rule": "Attribute claims to sources and transformations; preserve superseded artifacts, dissent and audit trails using append-only receipts.",
+      "status": "MERGE_PROPOSAL_NOT_RATIFIED",
+      "scope_warning": "SEMANTIC_FAMILY_NOT_IDENTICAL",
+      "sources": [
+        {
+          "id": "D-6",
+          "name": "Audit Trail Immutability",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ORCS_D",
+          "source_path": "codebase-artifacts/registries/doctrine_registry.yaml",
+          "blob_sha": "974d65cab4f220b32a1f0749aa25aa545fccca22"
+        },
+        {
+          "id": "D-26",
+          "name": "Version Pinning",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ORCS_D",
+          "source_path": "codebase-artifacts/registries/doctrine_registry.yaml",
+          "blob_sha": "974d65cab4f220b32a1f0749aa25aa545fccca22"
+        },
+        {
+          "id": "D-37",
+          "name": "Event Sourcing",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ORCS_D",
+          "source_path": "codebase-artifacts/registries/doctrine_registry.yaml",
+          "blob_sha": "974d65cab4f220b32a1f0749aa25aa545fccca22"
+        },
+        {
+          "id": "D-7",
+          "name": "Provenance Chain Mandate",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ALUMINUM_D",
+          "source_path": "website/client/src/pages/Doctrines.tsx",
+          "blob_sha": "a16840c953be9421ef47336216cf053aa0ac2135"
+        },
+        {
+          "id": "D-8",
+          "name": "Zero Erasure Policy",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ALUMINUM_D",
+          "source_path": "website/client/src/pages/Doctrines.tsx",
+          "blob_sha": "a16840c953be9421ef47336216cf053aa0ac2135"
+        },
+        {
+          "id": "D-31",
+          "name": "Audit Trail Immutability",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ALUMINUM_D",
+          "source_path": "website/client/src/pages/Doctrines.tsx",
+          "blob_sha": "a16840c953be9421ef47336216cf053aa0ac2135"
+        },
+        {
+          "id": "D-82",
+          "name": "Version Lineage",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ALUMINUM_D",
+          "source_path": "website/client/src/pages/Doctrines.tsx",
+          "blob_sha": "a16840c953be9421ef47336216cf053aa0ac2135"
+        },
+        {
+          "id": "INV-6",
+          "name": "Provenance Chain",
+          "source_claim_status": "DISPLAYED_NO_RATIFICATION_PROOF",
+          "namespace": "ALUMINUM_I",
+          "source_path": "website/client/src/pages/Invariants.tsx",
+          "blob_sha": "2f8d7c684779d9a27e931ac9d34cc8ae4fbd9464"
+        },
+        {
+          "id": "INV-7",
+          "name": "Zero Erasure",
+          "source_claim_status": "DISPLAYED_NO_RATIFICATION_PROOF",
+          "namespace": "ALUMINUM_I",
+          "source_path": "website/client/src/pages/Invariants.tsx",
+          "blob_sha": "2f8d7c684779d9a27e931ac9d34cc8ae4fbd9464"
+        },
+        {
+          "id": "INV-26",
+          "name": "Audit Trail Immutability",
+          "source_claim_status": "DISPLAYED_NO_RATIFICATION_PROOF",
+          "namespace": "ALUMINUM_I",
+          "source_path": "website/client/src/pages/Invariants.tsx",
+          "blob_sha": "2f8d7c684779d9a27e931ac9d34cc8ae4fbd9464"
+        }
+      ]
+    },
+    {
+      "alias": "ALC-003",
+      "title": "Auditable transparency and incident reporting",
+      "candidate_rule": "Record reviewable routing decisions, data provenance, conflicts and errors, with an independent check path.",
+      "status": "MERGE_PROPOSAL_NOT_RATIFIED",
+      "scope_warning": "SEMANTIC_FAMILY_NOT_IDENTICAL",
+      "sources": [
+        {
+          "id": "D-3",
+          "name": "Transparency Default",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ORCS_D",
+          "source_path": "codebase-artifacts/registries/doctrine_registry.yaml",
+          "blob_sha": "974d65cab4f220b32a1f0749aa25aa545fccca22"
+        },
+        {
+          "id": "D-28",
+          "name": "Observability First",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ORCS_D",
+          "source_path": "codebase-artifacts/registries/doctrine_registry.yaml",
+          "blob_sha": "974d65cab4f220b32a1f0749aa25aa545fccca22"
+        },
+        {
+          "id": "D-5",
+          "name": "Adversarial Review Requirement",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ALUMINUM_D",
+          "source_path": "website/client/src/pages/Doctrines.tsx",
+          "blob_sha": "a16840c953be9421ef47336216cf053aa0ac2135"
+        },
+        {
+          "id": "D-33",
+          "name": "TransparencyPacket Standard",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ALUMINUM_D",
+          "source_path": "website/client/src/pages/Doctrines.tsx",
+          "blob_sha": "a16840c953be9421ef47336216cf053aa0ac2135"
+        },
+        {
+          "id": "D-34",
+          "name": "Error Reporting",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ALUMINUM_D",
+          "source_path": "website/client/src/pages/Doctrines.tsx",
+          "blob_sha": "a16840c953be9421ef47336216cf053aa0ac2135"
+        },
+        {
+          "id": "D-39",
+          "name": "Third-Party Audit",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ALUMINUM_D",
+          "source_path": "website/client/src/pages/Doctrines.tsx",
+          "blob_sha": "a16840c953be9421ef47336216cf053aa0ac2135"
+        },
+        {
+          "id": "INV-4",
+          "name": "Transparency by Default",
+          "source_claim_status": "DISPLAYED_NO_RATIFICATION_PROOF",
+          "namespace": "ALUMINUM_I",
+          "source_path": "website/client/src/pages/Invariants.tsx",
+          "blob_sha": "2f8d7c684779d9a27e931ac9d34cc8ae4fbd9464"
+        },
+        {
+          "id": "INV-10",
+          "name": "Adversarial Audit",
+          "source_claim_status": "DISPLAYED_NO_RATIFICATION_PROOF",
+          "namespace": "ALUMINUM_I",
+          "source_path": "website/client/src/pages/Invariants.tsx",
+          "blob_sha": "2f8d7c684779d9a27e931ac9d34cc8ae4fbd9464"
+        },
+        {
+          "id": "INV-37",
+          "name": "Error Transparency",
+          "source_claim_status": "DISPLAYED_NO_RATIFICATION_PROOF",
+          "namespace": "ALUMINUM_I",
+          "source_path": "website/client/src/pages/Invariants.tsx",
+          "blob_sha": "2f8d7c684779d9a27e931ac9d34cc8ae4fbd9464"
+        }
+      ]
+    },
+    {
+      "alias": "ALC-004",
+      "title": "Resilient operation and graceful degradation",
+      "candidate_rule": "Degrade safely when providers, nodes or network paths fail; never let fallback silently bypass verification.",
+      "status": "MERGE_PROPOSAL_NOT_RATIFIED",
+      "scope_warning": "SEMANTIC_FAMILY_NOT_IDENTICAL",
+      "sources": [
+        {
+          "id": "D-5",
+          "name": "Graceful Degradation",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ORCS_D",
+          "source_path": "codebase-artifacts/registries/doctrine_registry.yaml",
+          "blob_sha": "974d65cab4f220b32a1f0749aa25aa545fccca22"
+        },
+        {
+          "id": "D-17",
+          "name": "Fail-Safe Default",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ORCS_D",
+          "source_path": "codebase-artifacts/registries/doctrine_registry.yaml",
+          "blob_sha": "974d65cab4f220b32a1f0749aa25aa545fccca22"
+        },
+        {
+          "id": "D-32",
+          "name": "Circuit Breaker Pattern",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ORCS_D",
+          "source_path": "codebase-artifacts/registries/doctrine_registry.yaml",
+          "blob_sha": "974d65cab4f220b32a1f0749aa25aa545fccca22"
+        },
+        {
+          "id": "D-33",
+          "name": "Bulkhead Isolation",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ORCS_D",
+          "source_path": "codebase-artifacts/registries/doctrine_registry.yaml",
+          "blob_sha": "974d65cab4f220b32a1f0749aa25aa545fccca22"
+        },
+        {
+          "id": "D-23",
+          "name": "Graceful Degradation",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ALUMINUM_D",
+          "source_path": "website/client/src/pages/Doctrines.tsx",
+          "blob_sha": "a16840c953be9421ef47336216cf053aa0ac2135"
+        },
+        {
+          "id": "D-25",
+          "name": "Emergency Mode Protocol",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ALUMINUM_D",
+          "source_path": "website/client/src/pages/Doctrines.tsx",
+          "blob_sha": "a16840c953be9421ef47336216cf053aa0ac2135"
+        },
+        {
+          "id": "D-77",
+          "name": "Rollback Protocol",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ALUMINUM_D",
+          "source_path": "website/client/src/pages/Doctrines.tsx",
+          "blob_sha": "a16840c953be9421ef47336216cf053aa0ac2135"
+        },
+        {
+          "id": "INV-15",
+          "name": "Emergency Mode",
+          "source_claim_status": "DISPLAYED_NO_RATIFICATION_PROOF",
+          "namespace": "ALUMINUM_I",
+          "source_path": "website/client/src/pages/Invariants.tsx",
+          "blob_sha": "2f8d7c684779d9a27e931ac9d34cc8ae4fbd9464"
+        },
+        {
+          "id": "INV-24",
+          "name": "Graceful Degradation",
+          "source_claim_status": "DISPLAYED_NO_RATIFICATION_PROOF",
+          "namespace": "ALUMINUM_I",
+          "source_path": "website/client/src/pages/Invariants.tsx",
+          "blob_sha": "2f8d7c684779d9a27e931ac9d34cc8ae4fbd9464"
+        }
+      ]
+    },
+    {
+      "alias": "ALC-005",
+      "title": "Jurisdiction, consent and data minimization",
+      "candidate_rule": "Apply applicable consent and sovereign locality constraints to collection, retrieval and cross-border movement.",
+      "status": "MERGE_PROPOSAL_NOT_RATIFIED",
+      "scope_warning": "MUST_PRESERVE_JURISDICTION_SPECIFIC_EXCEPTIONS",
+      "sources": [
+        {
+          "id": "D-4",
+          "name": "Data Minimization",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ORCS_D",
+          "source_path": "codebase-artifacts/registries/doctrine_registry.yaml",
+          "blob_sha": "974d65cab4f220b32a1f0749aa25aa545fccca22"
+        },
+        {
+          "id": "D-14",
+          "name": "Cross-Jurisdiction Compliance",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ORCS_D",
+          "source_path": "codebase-artifacts/registries/doctrine_registry.yaml",
+          "blob_sha": "974d65cab4f220b32a1f0749aa25aa545fccca22"
+        },
+        {
+          "id": "D-6",
+          "name": "Dialect Sovereignty",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ALUMINUM_D",
+          "source_path": "website/client/src/pages/Doctrines.tsx",
+          "blob_sha": "a16840c953be9421ef47336216cf053aa0ac2135"
+        },
+        {
+          "id": "D-42",
+          "name": "Data Residency",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ALUMINUM_D",
+          "source_path": "website/client/src/pages/Doctrines.tsx",
+          "blob_sha": "a16840c953be9421ef47336216cf053aa0ac2135"
+        },
+        {
+          "id": "D-57",
+          "name": "Dialect Isolation",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ALUMINUM_D",
+          "source_path": "website/client/src/pages/Doctrines.tsx",
+          "blob_sha": "a16840c953be9421ef47336216cf053aa0ac2135"
+        },
+        {
+          "id": "INV-5",
+          "name": "Dialect Sovereignty",
+          "source_claim_status": "DISPLAYED_NO_RATIFICATION_PROOF",
+          "namespace": "ALUMINUM_I",
+          "source_path": "website/client/src/pages/Invariants.tsx",
+          "blob_sha": "2f8d7c684779d9a27e931ac9d34cc8ae4fbd9464"
+        },
+        {
+          "id": "INV-22",
+          "name": "Dialect Isolation",
+          "source_claim_status": "DISPLAYED_NO_RATIFICATION_PROOF",
+          "namespace": "ALUMINUM_I",
+          "source_path": "website/client/src/pages/Invariants.tsx",
+          "blob_sha": "2f8d7c684779d9a27e931ac9d34cc8ae4fbd9464"
+        },
+        {
+          "id": "INV-32",
+          "name": "Sovereign Data Residency",
+          "source_claim_status": "DISPLAYED_NO_RATIFICATION_PROOF",
+          "namespace": "ALUMINUM_I",
+          "source_path": "website/client/src/pages/Invariants.tsx",
+          "blob_sha": "2f8d7c684779d9a27e931ac9d34cc8ae4fbd9464"
+        }
+      ]
+    },
+    {
+      "alias": "ALC-006",
+      "title": "Model and governance diversity",
+      "candidate_rule": "Support independent challenge, detect conflicts of interest and model/provider concentration; preserve minority contributions.",
+      "status": "MERGE_PROPOSAL_NOT_RATIFIED",
+      "scope_warning": "NUMERICAL_THRESHOLDS_REQUIRE_RECONCILIATION",
+      "sources": [
+        {
+          "id": "D-2",
+          "name": "Provider Neutrality",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ORCS_D",
+          "source_path": "codebase-artifacts/registries/doctrine_registry.yaml",
+          "blob_sha": "974d65cab4f220b32a1f0749aa25aa545fccca22"
+        },
+        {
+          "id": "D-7",
+          "name": "Federated Governance",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ORCS_D",
+          "source_path": "codebase-artifacts/registries/doctrine_registry.yaml",
+          "blob_sha": "974d65cab4f220b32a1f0749aa25aa545fccca22"
+        },
+        {
+          "id": "D-25",
+          "name": "Conflict of Interest Disclosure",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ORCS_D",
+          "source_path": "codebase-artifacts/registries/doctrine_registry.yaml",
+          "blob_sha": "974d65cab4f220b32a1f0749aa25aa545fccca22"
+        },
+        {
+          "id": "D-3",
+          "name": "Multi-Vendor Architecture",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ALUMINUM_D",
+          "source_path": "website/client/src/pages/Doctrines.tsx",
+          "blob_sha": "a16840c953be9421ef47336216cf053aa0ac2135"
+        },
+        {
+          "id": "D-32",
+          "name": "Open-Weight Verification",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ALUMINUM_D",
+          "source_path": "website/client/src/pages/Doctrines.tsx",
+          "blob_sha": "a16840c953be9421ef47336216cf053aa0ac2135"
+        },
+        {
+          "id": "D-48",
+          "name": "Conflict of Interest",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ALUMINUM_D",
+          "source_path": "website/client/src/pages/Doctrines.tsx",
+          "blob_sha": "a16840c953be9421ef47336216cf053aa0ac2135"
+        },
+        {
+          "id": "D-70",
+          "name": "Anti-Monoculture",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ALUMINUM_D",
+          "source_path": "website/client/src/pages/Doctrines.tsx",
+          "blob_sha": "a16840c953be9421ef47336216cf053aa0ac2135"
+        },
+        {
+          "id": "INV-3",
+          "name": "Multi-Vendor Requirement",
+          "source_claim_status": "DISPLAYED_NO_RATIFICATION_PROOF",
+          "namespace": "ALUMINUM_I",
+          "source_path": "website/client/src/pages/Invariants.tsx",
+          "blob_sha": "2f8d7c684779d9a27e931ac9d34cc8ae4fbd9464"
+        },
+        {
+          "id": "INV-16",
+          "name": "Anti-Concentration",
+          "source_claim_status": "DISPLAYED_NO_RATIFICATION_PROOF",
+          "namespace": "ALUMINUM_I",
+          "source_path": "website/client/src/pages/Invariants.tsx",
+          "blob_sha": "2f8d7c684779d9a27e931ac9d34cc8ae4fbd9464"
+        },
+        {
+          "id": "INV-33",
+          "name": "Model Diversity",
+          "source_claim_status": "DISPLAYED_NO_RATIFICATION_PROOF",
+          "namespace": "ALUMINUM_I",
+          "source_path": "website/client/src/pages/Invariants.tsx",
+          "blob_sha": "2f8d7c684779d9a27e931ac9d34cc8ae4fbd9464"
+        }
+      ]
+    },
+    {
+      "alias": "ALC-007",
+      "title": "Versioned and backward-compatible change",
+      "candidate_rule": "Preserve original source IDs; version rules and APIs; require explicit migration and authorized amendments.",
+      "status": "MERGE_PROPOSAL_NOT_RATIFIED",
+      "scope_warning": "AMENDMENT_THRESHOLDS_ARE_NOT_INTERCHANGEABLE",
+      "sources": [
+        {
+          "id": "D-16",
+          "name": "Backward Compatibility",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ORCS_D",
+          "source_path": "codebase-artifacts/registries/doctrine_registry.yaml",
+          "blob_sha": "974d65cab4f220b32a1f0749aa25aa545fccca22"
+        },
+        {
+          "id": "D-27",
+          "name": "Schema Evolution",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ORCS_D",
+          "source_path": "codebase-artifacts/registries/doctrine_registry.yaml",
+          "blob_sha": "974d65cab4f220b32a1f0749aa25aa545fccca22"
+        },
+        {
+          "id": "D-45",
+          "name": "Semantic Versioning",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ORCS_D",
+          "source_path": "codebase-artifacts/registries/doctrine_registry.yaml",
+          "blob_sha": "974d65cab4f220b32a1f0749aa25aa545fccca22"
+        },
+        {
+          "id": "D-16",
+          "name": "Ontology Migration Safety",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ALUMINUM_D",
+          "source_path": "website/client/src/pages/Doctrines.tsx",
+          "blob_sha": "a16840c953be9421ef47336216cf053aa0ac2135"
+        },
+        {
+          "id": "D-49",
+          "name": "Amendment Process",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ALUMINUM_D",
+          "source_path": "website/client/src/pages/Doctrines.tsx",
+          "blob_sha": "a16840c953be9421ef47336216cf053aa0ac2135"
+        },
+        {
+          "id": "D-66",
+          "name": "Module Versioning",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ALUMINUM_D",
+          "source_path": "website/client/src/pages/Doctrines.tsx",
+          "blob_sha": "a16840c953be9421ef47336216cf053aa0ac2135"
+        },
+        {
+          "id": "D-67",
+          "name": "API Contract Stability",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ALUMINUM_D",
+          "source_path": "website/client/src/pages/Doctrines.tsx",
+          "blob_sha": "a16840c953be9421ef47336216cf053aa0ac2135"
+        },
+        {
+          "id": "INV-18",
+          "name": "Doctrine Versioning",
+          "source_claim_status": "DISPLAYED_NO_RATIFICATION_PROOF",
+          "namespace": "ALUMINUM_I",
+          "source_path": "website/client/src/pages/Invariants.tsx",
+          "blob_sha": "2f8d7c684779d9a27e931ac9d34cc8ae4fbd9464"
+        },
+        {
+          "id": "INV-25",
+          "name": "Schema Migration Safety",
+          "source_claim_status": "DISPLAYED_NO_RATIFICATION_PROOF",
+          "namespace": "ALUMINUM_I",
+          "source_path": "website/client/src/pages/Invariants.tsx",
+          "blob_sha": "2f8d7c684779d9a27e931ac9d34cc8ae4fbd9464"
+        },
+        {
+          "id": "INV-29",
+          "name": "Constitutional Amendment Threshold",
+          "source_claim_status": "DISPLAYED_NO_RATIFICATION_PROOF",
+          "namespace": "ALUMINUM_I",
+          "source_path": "website/client/src/pages/Invariants.tsx",
+          "blob_sha": "2f8d7c684779d9a27e931ac9d34cc8ae4fbd9464"
+        },
+        {
+          "id": "INV-38",
+          "name": "Backward Compatibility",
+          "source_claim_status": "DISPLAYED_NO_RATIFICATION_PROOF",
+          "namespace": "ALUMINUM_I",
+          "source_path": "website/client/src/pages/Invariants.tsx",
+          "blob_sha": "2f8d7c684779d9a27e931ac9d34cc8ae4fbd9464"
+        }
+      ]
+    },
+    {
+      "alias": "ALC-008",
+      "title": "Deterministic validation, reproducibility and simulated isolation",
+      "candidate_rule": "Identical governed inputs should produce reproducible control decisions; segregate simulation from real actions.",
+      "status": "MERGE_PROPOSAL_NOT_RATIFIED",
+      "scope_warning": "SCOPE_DIFFERENCES",
+      "sources": [
+        {
+          "id": "D-23",
+          "name": "Idempotency",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ORCS_D",
+          "source_path": "codebase-artifacts/registries/doctrine_registry.yaml",
+          "blob_sha": "974d65cab4f220b32a1f0749aa25aa545fccca22"
+        },
+        {
+          "id": "D-44",
+          "name": "Contract Testing",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ORCS_D",
+          "source_path": "codebase-artifacts/registries/doctrine_registry.yaml",
+          "blob_sha": "974d65cab4f220b32a1f0749aa25aa545fccca22"
+        },
+        {
+          "id": "D-21",
+          "name": "Cascade Determinism",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ALUMINUM_D",
+          "source_path": "website/client/src/pages/Doctrines.tsx",
+          "blob_sha": "a16840c953be9421ef47336216cf053aa0ac2135"
+        },
+        {
+          "id": "D-40",
+          "name": "Regression Testing",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ALUMINUM_D",
+          "source_path": "website/client/src/pages/Doctrines.tsx",
+          "blob_sha": "a16840c953be9421ef47336216cf053aa0ac2135"
+        },
+        {
+          "id": "D-94",
+          "name": "Simulation Mode Governance",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ALUMINUM_D",
+          "source_path": "website/client/src/pages/Doctrines.tsx",
+          "blob_sha": "a16840c953be9421ef47336216cf053aa0ac2135"
+        },
+        {
+          "id": "INV-12",
+          "name": "Cascade Determinism",
+          "source_claim_status": "DISPLAYED_NO_RATIFICATION_PROOF",
+          "namespace": "ALUMINUM_I",
+          "source_path": "website/client/src/pages/Invariants.tsx",
+          "blob_sha": "2f8d7c684779d9a27e931ac9d34cc8ae4fbd9464"
+        },
+        {
+          "id": "INV-23",
+          "name": "Module Idempotency",
+          "source_claim_status": "DISPLAYED_NO_RATIFICATION_PROOF",
+          "namespace": "ALUMINUM_I",
+          "source_path": "website/client/src/pages/Invariants.tsx",
+          "blob_sha": "2f8d7c684779d9a27e931ac9d34cc8ae4fbd9464"
+        },
+        {
+          "id": "INV-35",
+          "name": "Simulation Isolation",
+          "source_claim_status": "DISPLAYED_NO_RATIFICATION_PROOF",
+          "namespace": "ALUMINUM_I",
+          "source_path": "website/client/src/pages/Invariants.tsx",
+          "blob_sha": "2f8d7c684779d9a27e931ac9d34cc8ae4fbd9464"
+        }
+      ]
+    },
+    {
+      "alias": "ALC-009",
+      "title": "Council deliberation and accountable escalation",
+      "candidate_rule": "Record quorum, conflicts, human tie-breaks, reviews and proposals; preserve dissent without conferring voting power on evidence.",
+      "status": "MERGE_PROPOSAL_NOT_RATIFIED",
+      "scope_warning": "GOVERNANCE_RULES_MUST_BE_RECONCILED",
+      "sources": [
+        {
+          "id": "D-9",
+          "name": "Council Quorum Rules",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ALUMINUM_D",
+          "source_path": "website/client/src/pages/Doctrines.tsx",
+          "blob_sha": "a16840c953be9421ef47336216cf053aa0ac2135"
+        },
+        {
+          "id": "D-10",
+          "name": "Convenor Authority",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ALUMINUM_D",
+          "source_path": "website/client/src/pages/Doctrines.tsx",
+          "blob_sha": "a16840c953be9421ef47336216cf053aa0ac2135"
+        },
+        {
+          "id": "D-46",
+          "name": "Seat Assignment Protocol",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ALUMINUM_D",
+          "source_path": "website/client/src/pages/Doctrines.tsx",
+          "blob_sha": "a16840c953be9421ef47336216cf053aa0ac2135"
+        },
+        {
+          "id": "D-48",
+          "name": "Conflict of Interest",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ALUMINUM_D",
+          "source_path": "website/client/src/pages/Doctrines.tsx",
+          "blob_sha": "a16840c953be9421ef47336216cf053aa0ac2135"
+        },
+        {
+          "id": "D-49",
+          "name": "Amendment Process",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ALUMINUM_D",
+          "source_path": "website/client/src/pages/Doctrines.tsx",
+          "blob_sha": "a16840c953be9421ef47336216cf053aa0ac2135"
+        },
+        {
+          "id": "D-54",
+          "name": "Ratification Workflow",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ALUMINUM_D",
+          "source_path": "website/client/src/pages/Doctrines.tsx",
+          "blob_sha": "a16840c953be9421ef47336216cf053aa0ac2135"
+        },
+        {
+          "id": "INV-8",
+          "name": "Quorum Requirement",
+          "source_claim_status": "DISPLAYED_NO_RATIFICATION_PROOF",
+          "namespace": "ALUMINUM_I",
+          "source_path": "website/client/src/pages/Invariants.tsx",
+          "blob_sha": "2f8d7c684779d9a27e931ac9d34cc8ae4fbd9464"
+        },
+        {
+          "id": "INV-9",
+          "name": "Convenor Tie-Break",
+          "source_claim_status": "DISPLAYED_NO_RATIFICATION_PROOF",
+          "namespace": "ALUMINUM_I",
+          "source_path": "website/client/src/pages/Invariants.tsx",
+          "blob_sha": "2f8d7c684779d9a27e931ac9d34cc8ae4fbd9464"
+        },
+        {
+          "id": "INV-16",
+          "name": "Anti-Concentration",
+          "source_claim_status": "DISPLAYED_NO_RATIFICATION_PROOF",
+          "namespace": "ALUMINUM_I",
+          "source_path": "website/client/src/pages/Invariants.tsx",
+          "blob_sha": "2f8d7c684779d9a27e931ac9d34cc8ae4fbd9464"
+        }
+      ]
+    },
+    {
+      "alias": "ALC-010",
+      "title": "Safe deployment and reversible experimentation",
+      "candidate_rule": "Use controlled simulation, limited permissions, emergency interruption and explicit approval before deployment.",
+      "status": "MERGE_PROPOSAL_NOT_RATIFIED",
+      "scope_warning": "MUST_NOT_CONFLATE_SIMULATION_WITH_RELEASE",
+      "sources": [
+        {
+          "id": "D-11",
+          "name": "Reversibility Principle",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ORCS_D",
+          "source_path": "codebase-artifacts/registries/doctrine_registry.yaml",
+          "blob_sha": "974d65cab4f220b32a1f0749aa25aa545fccca22"
+        },
+        {
+          "id": "D-15",
+          "name": "Innovation Sandbox",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ORCS_D",
+          "source_path": "codebase-artifacts/registries/doctrine_registry.yaml",
+          "blob_sha": "974d65cab4f220b32a1f0749aa25aa545fccca22"
+        },
+        {
+          "id": "D-20",
+          "name": "Least Privilege",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ORCS_D",
+          "source_path": "codebase-artifacts/registries/doctrine_registry.yaml",
+          "blob_sha": "974d65cab4f220b32a1f0749aa25aa545fccca22"
+        },
+        {
+          "id": "D-21",
+          "name": "Defense in Depth",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ORCS_D",
+          "source_path": "codebase-artifacts/registries/doctrine_registry.yaml",
+          "blob_sha": "974d65cab4f220b32a1f0749aa25aa545fccca22"
+        },
+        {
+          "id": "D-38",
+          "name": "Incident Response",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ALUMINUM_D",
+          "source_path": "website/client/src/pages/Doctrines.tsx",
+          "blob_sha": "a16840c953be9421ef47336216cf053aa0ac2135"
+        },
+        {
+          "id": "D-76",
+          "name": "Deployment Pipeline",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ALUMINUM_D",
+          "source_path": "website/client/src/pages/Doctrines.tsx",
+          "blob_sha": "a16840c953be9421ef47336216cf053aa0ac2135"
+        },
+        {
+          "id": "D-77",
+          "name": "Rollback Protocol",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ALUMINUM_D",
+          "source_path": "website/client/src/pages/Doctrines.tsx",
+          "blob_sha": "a16840c953be9421ef47336216cf053aa0ac2135"
+        },
+        {
+          "id": "INV-30",
+          "name": "Harm Intervention",
+          "source_claim_status": "DISPLAYED_NO_RATIFICATION_PROOF",
+          "namespace": "ALUMINUM_I",
+          "source_path": "website/client/src/pages/Invariants.tsx",
+          "blob_sha": "2f8d7c684779d9a27e931ac9d34cc8ae4fbd9464"
+        },
+        {
+          "id": "INV-34",
+          "name": "Constitutional Boot",
+          "source_claim_status": "DISPLAYED_NO_RATIFICATION_PROOF",
+          "namespace": "ALUMINUM_I",
+          "source_path": "website/client/src/pages/Invariants.tsx",
+          "blob_sha": "2f8d7c684779d9a27e931ac9d34cc8ae4fbd9464"
+        },
+        {
+          "id": "INV-35",
+          "name": "Simulation Isolation",
+          "source_claim_status": "DISPLAYED_NO_RATIFICATION_PROOF",
+          "namespace": "ALUMINUM_I",
+          "source_path": "website/client/src/pages/Invariants.tsx",
+          "blob_sha": "2f8d7c684779d9a27e931ac9d34cc8ae4fbd9464"
+        }
+      ]
+    },
+    {
+      "alias": "ALC-011",
+      "title": "Knowledge addressing and cross-domain edges",
+      "candidate_rule": "Maintain the 12-House 144-Sphere historic address lineage with explicitly versioned cross-House links; separately define 1728 cognitive positions.",
+      "status": "MERGE_PROPOSAL_NOT_RATIFIED",
+      "scope_warning": "ONTOLOGY_LEGACY_144_VS_NEW_1728_REQUIRES_MAPPING",
+      "sources": [
+        {
+          "id": "D-4",
+          "name": "Open Ontology",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ALUMINUM_D",
+          "source_path": "website/client/src/pages/Doctrines.tsx",
+          "blob_sha": "a16840c953be9421ef47336216cf053aa0ac2135"
+        },
+        {
+          "id": "D-12",
+          "name": "Sphere Addressing Standard",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ALUMINUM_D",
+          "source_path": "website/client/src/pages/Doctrines.tsx",
+          "blob_sha": "a16840c953be9421ef47336216cf053aa0ac2135"
+        },
+        {
+          "id": "D-15",
+          "name": "Cross-House Adjacency",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ALUMINUM_D",
+          "source_path": "website/client/src/pages/Doctrines.tsx",
+          "blob_sha": "a16840c953be9421ef47336216cf053aa0ac2135"
+        },
+        {
+          "id": "D-18",
+          "name": "Lattice Consistency Check",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ALUMINUM_D",
+          "source_path": "website/client/src/pages/Doctrines.tsx",
+          "blob_sha": "a16840c953be9421ef47336216cf053aa0ac2135"
+        },
+        {
+          "id": "INV-0",
+          "name": "System Integrity",
+          "source_claim_status": "DISPLAYED_NO_RATIFICATION_PROOF",
+          "namespace": "ALUMINUM_I",
+          "source_path": "website/client/src/pages/Invariants.tsx",
+          "blob_sha": "2f8d7c684779d9a27e931ac9d34cc8ae4fbd9464"
+        },
+        {
+          "id": "INV-13",
+          "name": "Sphere Addressing",
+          "source_claim_status": "DISPLAYED_NO_RATIFICATION_PROOF",
+          "namespace": "ALUMINUM_I",
+          "source_path": "website/client/src/pages/Invariants.tsx",
+          "blob_sha": "2f8d7c684779d9a27e931ac9d34cc8ae4fbd9464"
+        }
+      ]
+    },
+    {
+      "alias": "ALC-012",
+      "title": "Rate-limit fairness and bounded resources",
+      "candidate_rule": "Account for user and agent budgets, constrain overload and transparently queue or scale fairly.",
+      "status": "MERGE_PROPOSAL_NOT_RATIFIED",
+      "scope_warning": "NO_CLAIM_OF_EQUAL_QUANTITATIVE_LIMITS",
+      "sources": [
+        {
+          "id": "D-74",
+          "name": "Rate Limiting",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ORCS_D",
+          "source_path": "codebase-artifacts/registries/doctrine_registry.yaml",
+          "blob_sha": "974d65cab4f220b32a1f0749aa25aa545fccca22"
+        },
+        {
+          "id": "D-30",
+          "name": "Rate Limiting",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ALUMINUM_D",
+          "source_path": "website/client/src/pages/Doctrines.tsx",
+          "blob_sha": "a16840c953be9421ef47336216cf053aa0ac2135"
+        },
+        {
+          "id": "D-79",
+          "name": "Capacity Planning",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ALUMINUM_D",
+          "source_path": "website/client/src/pages/Doctrines.tsx",
+          "blob_sha": "a16840c953be9421ef47336216cf053aa0ac2135"
+        },
+        {
+          "id": "D-86",
+          "name": "API Rate Governance",
+          "source_claim_status": "RATIFIED",
+          "namespace": "ALUMINUM_D",
+          "source_path": "website/client/src/pages/Doctrines.tsx",
+          "blob_sha": "a16840c953be9421ef47336216cf053aa0ac2135"
+        },
+        {
+          "id": "INV-36",
+          "name": "Rate Limiting",
+          "source_claim_status": "DISPLAYED_NO_RATIFICATION_PROOF",
+          "namespace": "ALUMINUM_I",
+          "source_path": "website/client/src/pages/Invariants.tsx",
+          "blob_sha": "2f8d7c684779d9a27e931ac9d34cc8ae4fbd9464"
+        }
+      ]
+    }
+  ]
+}
