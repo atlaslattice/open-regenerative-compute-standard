@@ -1,5 +1,12 @@
 # The Open Regenerative Compute Standard (ORCS)
 
+## STARS 2.0 — Nuclear Physics Research and Open Reproducibility
+
+[Researcher discovery gateway](research/stars_2_0/RESEARCHER_DISCOVERY_AND_REPRODUCIBILITY_README.md) · [Pre-simulation v0.9 white paper](research/stars_2_0/whitepapers/STARS_2_0_v0_9_PRE_SIMULATION_MULTI_AGENT_SYNTHESIS_AND_HARMONIC_ANALYSIS_2026-10-27.md) · [Original EXFOR dataset C2973002](research/stars_2_0/wp_b/revised/data/EXFOR_C2973002_SPRAKER_2012_41PT_CROSS_SECTION_SOURCE_NORMALIZED_2026-10-27.csv) · [Machine-readable research metadata](research/stars_2_0/RESEARCH_METADATA_STARS_2_0_2026-10-27.json) · [Reproducibility/metadata caution](research/stars_2_0/reviews/DEEPSEEK_POST_EXFOR_REVIEW_AND_TEST_ANCHOR_CORRECTIONS_2026-10-27.md).
+
+Keywords: proton–boron-11 / p–11B / nuclear reaction data / IAEA EXFOR / alpha yield multiplicity / thin-film boron nitride / laser-driven proton source / correlated three-alpha kinematics / diamond detector / sham acoustic controls / experimental design / source provenance. **Status:** data and protocols available; calibrated end-to-end simulator, blind validation and net-electric production **not demonstrated**.
+
+
 ## Corpus network white paper v0.8
 
 [Read the complete paper](reports/corpus-network-v0_8/WHITE_PAPER.md) | [Download the PDF](reports/corpus-network-v0_8/Atlas_Corpus_Network_White_Paper_v0_8.pdf) | [Scenario package](reports/corpus-network-v0_8/)
