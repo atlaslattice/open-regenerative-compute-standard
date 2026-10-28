@@ -1,0 +1,2300 @@
+{
+  "schema": "atlas_canon_candidate_crosswalk_v0_1",
+  "date": "2026-10-27",
+  "authority": "NONE",
+  "canon": false,
+  "ratified_by_this_process": false,
+  "note": "Source statuses are claims, not independent signatures/ratification. No legacy record renumbered. New ALD aliases must not be used as production governance authority.",
+  "sources": {
+    "orcs_doctrines": {
+      "repo": "atlaslattice/open-regenerative-compute-standard",
+      "path": "codebase-artifacts/registries/doctrine_registry.yaml",
+      "blob_sha": "974d65cab4f220b32a1f0749aa25aa545fccca22",
+      "entry_count": 124
+    },
+    "aluminum_doctrines": {
+      "repo": "atlaslattice/aluminum-os",
+      "path": "website/client/src/pages/Doctrines.tsx",
+      "blob_sha": "a16840c953be9421ef47336216cf053aa0ac2135",
+      "entry_count": 101
+    },
+    "aluminum_invariant_page": {
+      "repo": "atlaslattice/aluminum-os",
+      "path": "website/client/src/pages/Invariants.tsx",
+      "blob_sha": "2f8d7c684779d9a27e931ac9d34cc8ae4fbd9464",
+      "entry_count": 41
+    },
+    "aluminum_invariant_data": {
+      "repo": "atlaslattice/aluminum-os",
+      "path": "website/client/src/lib/data.ts",
+      "blob_sha": "3ae55ce7e194c2398a71bb8d60531fea2db25398",
+      "entry_count": 41
+    }
+  },
+  "summary": {
+    "orcs_total": 124,
+    "orcs_claim_ratified": 77,
+    "aluminum_total": 101,
+    "aluminum_claim_ratified": 95,
+    "exact_name_ratified_in_both": 3,
+    "same_id_name_conflicts": 100,
+    "invariant_page_count": 41,
+    "invariant_data_count": 41,
+    "invariant_same_id_name_conflicts": 35
+  },
+  "candidate_aliases": [
+    {
+      "name": "Audit Trail Immutability",
+      "source_ids": {
+        "orcs": "D-6",
+        "aluminum": "D-31"
+      },
+      "status": "CANDIDATE_MATCH_RATIFICATION_UNVERIFIED",
+      "new_alias": "ALD-0001"
+    },
+    {
+      "name": "Graceful Degradation",
+      "source_ids": {
+        "orcs": "D-5",
+        "aluminum": "D-23"
+      },
+      "status": "CANDIDATE_MATCH_RATIFICATION_UNVERIFIED",
+      "new_alias": "ALD-0002"
+    },
+    {
+      "name": "Rate Limiting",
+      "source_ids": {
+        "orcs": "D-74",
+        "aluminum": "D-30"
+      },
+      "status": "CANDIDATE_MATCH_RATIFICATION_UNVERIFIED",
+      "new_alias": "ALD-0003"
+    }
+  ],
+  "conflicts": {
+    "doctrines_same_id": [
+      {
+        "id": "D-1",
+        "orcs": "Consent Primacy",
+        "aluminum": "Constitutional Primacy"
+      },
+      {
+        "id": "D-2",
+        "orcs": "Provider Neutrality",
+        "aluminum": "Human Sovereignty Guarantee"
+      },
+      {
+        "id": "D-3",
+        "orcs": "Transparency Default",
+        "aluminum": "Multi-Vendor Architecture"
+      },
+      {
+        "id": "D-4",
+        "orcs": "Data Minimization",
+        "aluminum": "Open Ontology"
+      },
+      {
+        "id": "D-5",
+        "orcs": "Graceful Degradation",
+        "aluminum": "Adversarial Review Requirement"
+      },
+      {
+        "id": "D-6",
+        "orcs": "Audit Trail Immutability",
+        "aluminum": "Dialect Sovereignty"
+      },
+      {
+        "id": "D-7",
+        "orcs": "Federated Governance",
+        "aluminum": "Provenance Chain Mandate"
+      },
+      {
+        "id": "D-8",
+        "orcs": "Open Standard Preference",
+        "aluminum": "Zero Erasure Policy"
+      },
+      {
+        "id": "D-9",
+        "orcs": "Human Override Guarantee",
+        "aluminum": "Council Quorum Rules"
+      },
+      {
+        "id": "D-10",
+        "orcs": "Proportional Response",
+        "aluminum": "Convenor Authority"
+      },
+      {
+        "id": "D-11",
+        "orcs": "Reversibility Principle",
+        "aluminum": "House Immutability"
+      },
+      {
+        "id": "D-12",
+        "orcs": "Stakeholder Notification",
+        "aluminum": "Sphere Addressing Standard"
+      },
+      {
+        "id": "D-13",
+        "orcs": "Minimum Viable Governance",
+        "aluminum": "VIP Element Registration"
+      },
+      {
+        "id": "D-14",
+        "orcs": "Cross-Jurisdiction Compliance",
+        "aluminum": "Sub-Sphere Expansion Protocol"
+      },
+      {
+        "id": "D-15",
+        "orcs": "Innovation Sandbox",
+        "aluminum": "Cross-House Adjacency"
+      },
+      {
+        "id": "D-16",
+        "orcs": "Backward Compatibility",
+        "aluminum": "Ontology Migration Safety"
+      },
+      {
+        "id": "D-17",
+        "orcs": "Fail-Safe Default",
+        "aluminum": "Knowledge Node Completeness"
+      },
+      {
+        "id": "D-18",
+        "orcs": "Continuous Improvement",
+        "aluminum": "Lattice Consistency Check"
+      },
+      {
+        "id": "D-19",
+        "orcs": "Separation of Concerns",
+        "aluminum": "VIP Cascade Priority"
+      },
+      {
+        "id": "D-20",
+        "orcs": "Least Privilege",
+        "aluminum": "Module Registration"
+      },
+      {
+        "id": "D-21",
+        "orcs": "Defense in Depth",
+        "aluminum": "Cascade Determinism"
+      },
+      {
+        "id": "D-22",
+        "orcs": "Composability",
+        "aluminum": "Provider Capability Matrix"
+      },
+      {
+        "id": "D-23",
+        "orcs": "Idempotency",
+        "aluminum": "Graceful Degradation"
+      },
+      {
+        "id": "D-24",
+        "orcs": "Eventual Consistency",
+        "aluminum": "Compute Zone Classification"
+      },
+      {
+        "id": "D-25",
+        "orcs": "Conflict of Interest Disclosure",
+        "aluminum": "Emergency Mode Protocol"
+      },
+      {
+        "id": "D-26",
+        "orcs": "Version Pinning",
+        "aluminum": "Federation Protocol"
+      },
+      {
+        "id": "D-27",
+        "orcs": "Schema Evolution",
+        "aluminum": "Load Balancing"
+      },
+      {
+        "id": "D-28",
+        "orcs": "Observability First",
+        "aluminum": "Query Classification"
+      },
+      {
+        "id": "D-29",
+        "orcs": "Chaos Engineering",
+        "aluminum": "Response Synthesis"
+      },
+      {
+        "id": "D-30",
+        "orcs": "Blue-Green Deployment",
+        "aluminum": "Rate Limiting"
+      },
+      {
+        "id": "D-31",
+        "orcs": "Feature Flagging",
+        "aluminum": "Audit Trail Immutability"
+      },
+      {
+        "id": "D-32",
+        "orcs": "Circuit Breaker Pattern",
+        "aluminum": "Open-Weight Verification"
+      },
+      {
+        "id": "D-33",
+        "orcs": "Bulkhead Isolation",
+        "aluminum": "TransparencyPacket Standard"
+      },
+      {
+        "id": "D-34",
+        "orcs": "Retry with Backoff",
+        "aluminum": "Error Reporting"
+      },
+      {
+        "id": "D-35",
+        "orcs": "Dead Letter Queue",
+        "aluminum": "Drift Detection"
+      },
+      {
+        "id": "D-36",
+        "orcs": "Saga Pattern",
+        "aluminum": "Performance Metrics"
+      },
+      {
+        "id": "D-37",
+        "orcs": "Event Sourcing",
+        "aluminum": "Compliance Reporting"
+      },
+      {
+        "id": "D-38",
+        "orcs": "CQRS",
+        "aluminum": "Incident Response"
+      },
+      {
+        "id": "D-39",
+        "orcs": "Domain-Driven Design",
+        "aluminum": "Third-Party Audit"
+      },
+      {
+        "id": "D-40",
+        "orcs": "Hexagonal Architecture",
+        "aluminum": "Regression Testing"
+      },
+      {
+        "id": "D-41",
+        "orcs": "Clean Architecture",
+        "aluminum": "Triple-Vault Architecture"
+      },
+      {
+        "id": "D-42",
+        "orcs": "Microservice Boundaries",
+        "aluminum": "Data Residency"
+      },
+      {
+        "id": "D-43",
+        "orcs": "API First",
+        "aluminum": "Encryption at Rest"
+      },
+      {
+        "id": "D-44",
+        "orcs": "Contract Testing",
+        "aluminum": "Key Management"
+      },
+      {
+        "id": "D-45",
+        "orcs": "Semantic Versioning",
+        "aluminum": "Retention Policy"
+      },
+      {
+        "id": "D-46",
+        "orcs": "Infrastructure as Code",
+        "aluminum": "Seat Assignment Protocol"
+      },
+      {
+        "id": "D-47",
+        "orcs": "GitOps",
+        "aluminum": "Provisional Seat Review"
+      },
+      {
+        "id": "D-48",
+        "orcs": "Immutable Infrastructure",
+        "aluminum": "Conflict of Interest"
+      },
+      {
+        "id": "D-49",
+        "orcs": "Zero Trust",
+        "aluminum": "Amendment Process"
+      },
+      {
+        "id": "D-50",
+        "orcs": "Shift Left Security",
+        "aluminum": "Emergency Session"
+      },
+      {
+        "id": "D-51",
+        "orcs": "Supply Chain Verification",
+        "aluminum": "Functional Role Assignment"
+      },
+      {
+        "id": "D-52",
+        "orcs": "Dependency Injection",
+        "aluminum": "Veto Authority"
+      },
+      {
+        "id": "D-53",
+        "orcs": "Interface Segregation",
+        "aluminum": "Ghost Seat Protocol"
+      },
+      {
+        "id": "D-54",
+        "orcs": "Single Responsibility",
+        "aluminum": "Ratification Workflow"
+      },
+      {
+        "id": "D-55",
+        "orcs": "Open-Closed Principle",
+        "aluminum": "Council Communication"
+      },
+      {
+        "id": "D-56",
+        "orcs": "Liskov Substitution",
+        "aluminum": "Dialect Registration"
+      },
+      {
+        "id": "D-57",
+        "orcs": "Dependency Inversion",
+        "aluminum": "Dialect Isolation"
+      },
+      {
+        "id": "D-58",
+        "orcs": "Tell Dont Ask",
+        "aluminum": "CN Dialect Specification"
+      },
+      {
+        "id": "D-59",
+        "orcs": "Law of Demeter",
+        "aluminum": "US Dialect Specification"
+      },
+      {
+        "id": "D-60",
+        "orcs": "YAGNI",
+        "aluminum": "EU Dialect Specification"
+      },
+      {
+        "id": "D-61",
+        "orcs": "DRY",
+        "aluminum": "GCC-High Dialect"
+      },
+      {
+        "id": "D-62",
+        "orcs": "KISS",
+        "aluminum": "JP Dialect Specification"
+      },
+      {
+        "id": "D-63",
+        "orcs": "Convention over Configuration",
+        "aluminum": "Global Dialect (Default)"
+      },
+      {
+        "id": "D-64",
+        "orcs": "Principle of Least Astonishment",
+        "aluminum": "9-Layer Architecture"
+      },
+      {
+        "id": "D-65",
+        "orcs": "Robustness Principle",
+        "aluminum": "Switzerland Layer Neutrality"
+      },
+      {
+        "id": "D-66",
+        "orcs": "End-to-End Principle",
+        "aluminum": "Module Versioning"
+      },
+      {
+        "id": "D-67",
+        "orcs": "Uniform Interface",
+        "aluminum": "API Contract Stability"
+      },
+      {
+        "id": "D-68",
+        "orcs": "Statelessness",
+        "aluminum": "Boot Manifest"
+      },
+      {
+        "id": "D-69",
+        "orcs": "Cacheability",
+        "aluminum": "SHUGS Enforcement"
+      },
+      {
+        "id": "D-70",
+        "orcs": "Layered System",
+        "aluminum": "Anti-Monoculture"
+      },
+      {
+        "id": "D-71",
+        "orcs": "Code on Demand",
+        "aluminum": "Indigenous Knowledge Protection"
+      },
+      {
+        "id": "D-72",
+        "orcs": "Hypermedia as Engine",
+        "aluminum": "Labour Impact Assessment"
+      },
+      {
+        "id": "D-73",
+        "orcs": "Content Negotiation",
+        "aluminum": "Environmental Impact"
+      },
+      {
+        "id": "D-74",
+        "orcs": "Rate Limiting",
+        "aluminum": "Accessibility"
+      },
+      {
+        "id": "D-75",
+        "orcs": "Pagination",
+        "aluminum": "Child Safety"
+      },
+      {
+        "id": "D-76",
+        "orcs": "Idempotent Mutations",
+        "aluminum": "Deployment Pipeline"
+      },
+      {
+        "id": "D-77",
+        "orcs": "Optimistic Concurrency",
+        "aluminum": "Rollback Protocol"
+      },
+      {
+        "id": "D-78",
+        "orcs": "Social Credit Exclusion",
+        "aluminum": "Monitoring & Alerting"
+      },
+      {
+        "id": "D-79",
+        "orcs": "Sovereign Data Residency",
+        "aluminum": "Capacity Planning"
+      },
+      {
+        "id": "D-80",
+        "orcs": "Cultural Frame Non-Hierarchy",
+        "aluminum": "Documentation Standard"
+      },
+      {
+        "id": "D-81",
+        "orcs": "Linguistic Parity",
+        "aluminum": "Naming Convention"
+      },
+      {
+        "id": "D-82",
+        "orcs": "Deployment Pathway Sovereignty",
+        "aluminum": "Version Lineage"
+      },
+      {
+        "id": "D-83",
+        "orcs": "Auto-Integration Default",
+        "aluminum": "Interoperability Testing"
+      },
+      {
+        "id": "D-84",
+        "orcs": "Filesystem-as-Ontology",
+        "aluminum": "Security Baseline"
+      },
+      {
+        "id": "D-85",
+        "orcs": "Three-Body Reasoning",
+        "aluminum": "Incident Post-Mortem"
+      },
+      {
+        "id": "D-86",
+        "orcs": "Primacy Bonus",
+        "aluminum": "API Rate Governance"
+      },
+      {
+        "id": "D-87",
+        "orcs": "Epistemic Weather Reporting",
+        "aluminum": "Telemetry Privacy"
+      },
+      {
+        "id": "D-88",
+        "orcs": "CEO Collective Governance",
+        "aluminum": "Open Source Commitment"
+      },
+      {
+        "id": "D-89",
+        "orcs": "Sovereign Deployment Pathways",
+        "aluminum": "Community Contribution"
+      },
+      {
+        "id": "D-90",
+        "orcs": "Trust Scoring System Plus (TSS+)",
+        "aluminum": "Training Data Provenance"
+      },
+      {
+        "id": "D-91",
+        "orcs": "Switzerland Layer Neutrality",
+        "aluminum": "Model Card Requirement"
+      },
+      {
+        "id": "D-92",
+        "orcs": "Geopolitical Sensitivity Routing",
+        "aluminum": "Bias Monitoring"
+      },
+      {
+        "id": "D-93",
+        "orcs": "Multi-Provider Diversity Floor",
+        "aluminum": "Cross-Dialect Mediation"
+      },
+      {
+        "id": "D-94",
+        "orcs": "Creative Attribution Chain",
+        "aluminum": "Simulation Mode Governance"
+      },
+      {
+        "id": "D-95",
+        "orcs": "Style Transfer Consent",
+        "aluminum": "Annual Constitutional Review"
+      },
+      {
+        "id": "D-96",
+        "orcs": "Derivative Work Threshold",
+        "aluminum": "Predictive Monoculture Detection"
+      },
+      {
+        "id": "D-98",
+        "orcs": "Cross-Modal Attribution",
+        "aluminum": "Sovereign Deployment Naming Convention"
+      },
+      {
+        "id": "D-99",
+        "orcs": "VWB Routing Governance",
+        "aluminum": "VIP Cascade Priority Resolution"
+      },
+      {
+        "id": "D-100",
+        "orcs": "Quarterly TSS Recalibration",
+        "aluminum": "Open-Weight Verifier Mandate"
+      },
+      {
+        "id": "D-101",
+        "orcs": "Provider Quality Minimum",
+        "aluminum": "Extreme Harm Intervention Protocol (EHIP)"
+      }
+    ],
+    "invariants_same_id": [
+      {
+        "id": "INV-2",
+        "page": "Constitutional Supremacy",
+        "data": "Zero Erasure"
+      },
+      {
+        "id": "INV-3",
+        "page": "Multi-Vendor Requirement",
+        "data": "Provenance Chain"
+      },
+      {
+        "id": "INV-4",
+        "page": "Transparency by Default",
+        "data": "Multi-Provider Requirement"
+      },
+      {
+        "id": "INV-6",
+        "page": "Provenance Chain",
+        "data": "Constitutional Supremacy"
+      },
+      {
+        "id": "INV-7",
+        "page": "Zero Erasure",
+        "data": "Provider Neutrality"
+      },
+      {
+        "id": "INV-7c",
+        "page": "Zero Erasure (Sub-spec)",
+        "data": "Provider Cap"
+      },
+      {
+        "id": "INV-8",
+        "page": "Quorum Requirement",
+        "data": "Transparency"
+      },
+      {
+        "id": "INV-9",
+        "page": "Convenor Tie-Break",
+        "data": "Graceful Degradation"
+      },
+      {
+        "id": "INV-10",
+        "page": "Adversarial Audit",
+        "data": "Cross-Domain Integrity"
+      },
+      {
+        "id": "INV-11",
+        "page": "Open-Weight Verification",
+        "data": "Backward Compatibility"
+      },
+      {
+        "id": "INV-12",
+        "page": "Cascade Determinism",
+        "data": "Evidence-Based Routing"
+      },
+      {
+        "id": "INV-13",
+        "page": "Sphere Addressing",
+        "data": "Consent-Based Data"
+      },
+      {
+        "id": "INV-14",
+        "page": "VIP Precedence",
+        "data": "Open Specification"
+      },
+      {
+        "id": "INV-15",
+        "page": "Emergency Mode",
+        "data": "Adversarial Review"
+      },
+      {
+        "id": "INV-16",
+        "page": "Anti-Concentration",
+        "data": "Temporal Consistency"
+      },
+      {
+        "id": "INV-17",
+        "page": "Triple-Vault Storage",
+        "data": "Knowledge Persistence"
+      },
+      {
+        "id": "INV-18",
+        "page": "Doctrine Versioning",
+        "data": "Substrate Non-Hierarchy"
+      },
+      {
+        "id": "INV-22",
+        "page": "Dialect Isolation",
+        "data": "Minimum Viable Council"
+      },
+      {
+        "id": "INV-23",
+        "page": "Module Idempotency",
+        "data": "Convenor Veto"
+      },
+      {
+        "id": "INV-24",
+        "page": "Graceful Degradation",
+        "data": "Ghost Seat Preservation"
+      },
+      {
+        "id": "INV-25",
+        "page": "Schema Migration Safety",
+        "data": "Dialect Completeness"
+      },
+      {
+        "id": "INV-26",
+        "page": "Audit Trail Immutability",
+        "data": "Emergency Mode Limits"
+      },
+      {
+        "id": "INV-27",
+        "page": "Cross-Seat Communication",
+        "data": "Anti-Capture"
+      },
+      {
+        "id": "INV-28",
+        "page": "Capability Declaration",
+        "data": "Physical Substrate Respect"
+      },
+      {
+        "id": "INV-29",
+        "page": "Constitutional Amendment Threshold",
+        "data": "Cultural Sensitivity"
+      },
+      {
+        "id": "INV-30",
+        "page": "Harm Intervention",
+        "data": "Audit Trail Immutability"
+      },
+      {
+        "id": "INV-31",
+        "page": "Knowledge Freshness",
+        "data": "Proportional Response"
+      },
+      {
+        "id": "INV-32",
+        "page": "Sovereign Data Residency",
+        "data": "Fail-Open for Knowledge"
+      },
+      {
+        "id": "INV-33",
+        "page": "Model Diversity",
+        "data": "Version Coexistence"
+      },
+      {
+        "id": "INV-34",
+        "page": "Constitutional Boot",
+        "data": "Seat Independence"
+      },
+      {
+        "id": "INV-35",
+        "page": "Simulation Isolation",
+        "data": "Public Interest Override"
+      },
+      {
+        "id": "INV-36",
+        "page": "Rate Limiting",
+        "data": "Knowledge Attribution"
+      },
+      {
+        "id": "INV-37",
+        "page": "Error Transparency",
+        "data": "Reversibility"
+      },
+      {
+        "id": "INV-38",
+        "page": "Backward Compatibility",
+        "data": "Cross-Seat Verification"
+      },
+      {
+        "id": "INV-39",
+        "page": "Council Seat Rotation",
+        "data": "Ecosystem Health"
+      }
+    ]
+  },
+  "source_entries": {
+    "orcs_doctrines": [
+      {
+        "id": "D-1",
+        "name": "Consent Primacy",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-2",
+        "name": "Provider Neutrality",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-3",
+        "name": "Transparency Default",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-4",
+        "name": "Data Minimization",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-5",
+        "name": "Graceful Degradation",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-6",
+        "name": "Audit Trail Immutability",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-7",
+        "name": "Federated Governance",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-8",
+        "name": "Open Standard Preference",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-9",
+        "name": "Human Override Guarantee",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-10",
+        "name": "Proportional Response",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-11",
+        "name": "Reversibility Principle",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-12",
+        "name": "Stakeholder Notification",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-13",
+        "name": "Minimum Viable Governance",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-14",
+        "name": "Cross-Jurisdiction Compliance",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-15",
+        "name": "Innovation Sandbox",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-16",
+        "name": "Backward Compatibility",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-17",
+        "name": "Fail-Safe Default",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-18",
+        "name": "Continuous Improvement",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-19",
+        "name": "Separation of Concerns",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-20",
+        "name": "Least Privilege",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-21",
+        "name": "Defense in Depth",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-22",
+        "name": "Composability",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-23",
+        "name": "Idempotency",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-24",
+        "name": "Eventual Consistency",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-25",
+        "name": "Conflict of Interest Disclosure",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-26",
+        "name": "Version Pinning",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-27",
+        "name": "Schema Evolution",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-28",
+        "name": "Observability First",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-29",
+        "name": "Chaos Engineering",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-30",
+        "name": "Blue-Green Deployment",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-31",
+        "name": "Feature Flagging",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-32",
+        "name": "Circuit Breaker Pattern",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-33",
+        "name": "Bulkhead Isolation",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-34",
+        "name": "Retry with Backoff",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-35",
+        "name": "Dead Letter Queue",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-36",
+        "name": "Saga Pattern",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-37",
+        "name": "Event Sourcing",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-38",
+        "name": "CQRS",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-39",
+        "name": "Domain-Driven Design",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-40",
+        "name": "Hexagonal Architecture",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-41",
+        "name": "Clean Architecture",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-42",
+        "name": "Microservice Boundaries",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-43",
+        "name": "API First",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-44",
+        "name": "Contract Testing",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-45",
+        "name": "Semantic Versioning",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-46",
+        "name": "Infrastructure as Code",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-47",
+        "name": "GitOps",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-48",
+        "name": "Immutable Infrastructure",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-49",
+        "name": "Zero Trust",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-50",
+        "name": "Shift Left Security",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-51",
+        "name": "Supply Chain Verification",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-52",
+        "name": "Dependency Injection",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-53",
+        "name": "Interface Segregation",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-54",
+        "name": "Single Responsibility",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-55",
+        "name": "Open-Closed Principle",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-56",
+        "name": "Liskov Substitution",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-57",
+        "name": "Dependency Inversion",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-58",
+        "name": "Tell Dont Ask",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-59",
+        "name": "Law of Demeter",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-60",
+        "name": "YAGNI",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-61",
+        "name": "DRY",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-62",
+        "name": "KISS",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-63",
+        "name": "Convention over Configuration",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-64",
+        "name": "Principle of Least Astonishment",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-65",
+        "name": "Robustness Principle",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-66",
+        "name": "End-to-End Principle",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-67",
+        "name": "Uniform Interface",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-68",
+        "name": "Statelessness",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-69",
+        "name": "Cacheability",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-70",
+        "name": "Layered System",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-71",
+        "name": "Code on Demand",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-72",
+        "name": "Hypermedia as Engine",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-73",
+        "name": "Content Negotiation",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-74",
+        "name": "Rate Limiting",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-75",
+        "name": "Pagination",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-76",
+        "name": "Idempotent Mutations",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-77",
+        "name": "Optimistic Concurrency",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-78",
+        "name": "Social Credit Exclusion",
+        "claimed_status": "PROPOSED"
+      },
+      {
+        "id": "D-79",
+        "name": "Sovereign Data Residency",
+        "claimed_status": "PROPOSED"
+      },
+      {
+        "id": "D-80",
+        "name": "Cultural Frame Non-Hierarchy",
+        "claimed_status": "PROPOSED"
+      },
+      {
+        "id": "D-81",
+        "name": "Linguistic Parity",
+        "claimed_status": "PROPOSED"
+      },
+      {
+        "id": "D-82",
+        "name": "Deployment Pathway Sovereignty",
+        "claimed_status": "PROPOSED"
+      },
+      {
+        "id": "D-83",
+        "name": "Auto-Integration Default",
+        "claimed_status": "PROPOSED"
+      },
+      {
+        "id": "D-84",
+        "name": "Filesystem-as-Ontology",
+        "claimed_status": "PROPOSED"
+      },
+      {
+        "id": "D-85",
+        "name": "Three-Body Reasoning",
+        "claimed_status": "PROPOSED"
+      },
+      {
+        "id": "D-86",
+        "name": "Primacy Bonus",
+        "claimed_status": "PROPOSED"
+      },
+      {
+        "id": "D-87",
+        "name": "Epistemic Weather Reporting",
+        "claimed_status": "PROPOSED"
+      },
+      {
+        "id": "D-88",
+        "name": "CEO Collective Governance",
+        "claimed_status": "PROPOSED"
+      },
+      {
+        "id": "D-89",
+        "name": "Sovereign Deployment Pathways",
+        "claimed_status": "PROPOSED"
+      },
+      {
+        "id": "D-90",
+        "name": "Trust Scoring System Plus (TSS+)",
+        "claimed_status": "PROPOSED"
+      },
+      {
+        "id": "D-91",
+        "name": "Switzerland Layer Neutrality",
+        "claimed_status": "PROPOSED"
+      },
+      {
+        "id": "D-92",
+        "name": "Geopolitical Sensitivity Routing",
+        "claimed_status": "PROPOSED"
+      },
+      {
+        "id": "D-93",
+        "name": "Multi-Provider Diversity Floor",
+        "claimed_status": "PROPOSED"
+      },
+      {
+        "id": "D-94",
+        "name": "Creative Attribution Chain",
+        "claimed_status": "PROPOSED"
+      },
+      {
+        "id": "D-95",
+        "name": "Style Transfer Consent",
+        "claimed_status": "PROPOSED"
+      },
+      {
+        "id": "D-96",
+        "name": "Derivative Work Threshold",
+        "claimed_status": "PROPOSED"
+      },
+      {
+        "id": "D-97",
+        "name": "Fair Use Computational Test",
+        "claimed_status": "PROPOSED"
+      },
+      {
+        "id": "D-98",
+        "name": "Cross-Modal Attribution",
+        "claimed_status": "PROPOSED"
+      },
+      {
+        "id": "D-99",
+        "name": "VWB Routing Governance",
+        "claimed_status": "PROPOSED"
+      },
+      {
+        "id": "D-100",
+        "name": "Quarterly TSS Recalibration",
+        "claimed_status": "PROPOSED"
+      },
+      {
+        "id": "D-101",
+        "name": "Provider Quality Minimum",
+        "claimed_status": "PROPOSED"
+      },
+      {
+        "id": "D-102",
+        "name": "Quarterly Re-verification",
+        "claimed_status": "PROPOSED"
+      },
+      {
+        "id": "D-103",
+        "name": "Wet Lab Verification Gate",
+        "claimed_status": "PROPOSED"
+      },
+      {
+        "id": "D-104",
+        "name": "Biological Safety Cascade",
+        "claimed_status": "PROPOSED"
+      },
+      {
+        "id": "D-105",
+        "name": "Dual-Use Research Oversight",
+        "claimed_status": "PROPOSED"
+      },
+      {
+        "id": "D-106",
+        "name": "Content Rating Harmonization",
+        "claimed_status": "PROPOSED"
+      },
+      {
+        "id": "D-107",
+        "name": "Esports Competitive Integrity",
+        "claimed_status": "PROPOSED"
+      },
+      {
+        "id": "D-108",
+        "name": "Game Preservation Mandate",
+        "claimed_status": "PROPOSED"
+      },
+      {
+        "id": "D-109",
+        "name": "Spatial Computing Consent",
+        "claimed_status": "PROPOSED"
+      },
+      {
+        "id": "D-110",
+        "name": "Game IP Franchise Consent Hierarchy",
+        "claimed_status": "PROPOSED"
+      },
+      {
+        "id": "D-111",
+        "name": "Competitive Integrity Absolute",
+        "claimed_status": "PROPOSED"
+      },
+      {
+        "id": "D-112",
+        "name": "Modder Sovereignty",
+        "claimed_status": "PROPOSED"
+      },
+      {
+        "id": "D-113",
+        "name": "Provenance-at-Creation",
+        "claimed_status": "PROPOSED"
+      },
+      {
+        "id": "D-114",
+        "name": "Civic Compute Reuse",
+        "claimed_status": "PROPOSED"
+      },
+      {
+        "id": "D-115",
+        "name": "Provenance Tier Classification",
+        "claimed_status": "PROPOSED"
+      },
+      {
+        "id": "D-116",
+        "name": "Attribution Hypothesis Testing",
+        "claimed_status": "PROPOSED"
+      },
+      {
+        "id": "D-117",
+        "name": "Capability vs Routing Distinction",
+        "claimed_status": "PROPOSED"
+      },
+      {
+        "id": "D-118",
+        "name": "Enterprise Wrapper Non-Immunity",
+        "claimed_status": "PROPOSED"
+      },
+      {
+        "id": "D-119",
+        "name": "Distribution Feedback Prohibition",
+        "claimed_status": "PROPOSED"
+      },
+      {
+        "id": "D-120",
+        "name": "Style Calibration Threshold",
+        "claimed_status": "PROPOSED"
+      },
+      {
+        "id": "D-121",
+        "name": "Payments Boundary",
+        "claimed_status": "PROPOSED"
+      },
+      {
+        "id": "D-122",
+        "name": "Manifest-as-Boot-Payload",
+        "claimed_status": "PROPOSED"
+      },
+      {
+        "id": "D-123",
+        "name": "Platform Split (Notion/Git/Drive)",
+        "claimed_status": "PROPOSED"
+      },
+      {
+        "id": "D-124",
+        "name": "Instance Interchangeability",
+        "claimed_status": "PROPOSED"
+      }
+    ],
+    "aluminum_doctrines": [
+      {
+        "id": "D-1",
+        "name": "Constitutional Primacy",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-2",
+        "name": "Human Sovereignty Guarantee",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-3",
+        "name": "Multi-Vendor Architecture",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-4",
+        "name": "Open Ontology",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-5",
+        "name": "Adversarial Review Requirement",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-6",
+        "name": "Dialect Sovereignty",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-7",
+        "name": "Provenance Chain Mandate",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-8",
+        "name": "Zero Erasure Policy",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-9",
+        "name": "Council Quorum Rules",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-10",
+        "name": "Convenor Authority",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-11",
+        "name": "House Immutability",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-12",
+        "name": "Sphere Addressing Standard",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-13",
+        "name": "VIP Element Registration",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-14",
+        "name": "Sub-Sphere Expansion Protocol",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-15",
+        "name": "Cross-House Adjacency",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-16",
+        "name": "Ontology Migration Safety",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-17",
+        "name": "Knowledge Node Completeness",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-18",
+        "name": "Lattice Consistency Check",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-19",
+        "name": "VIP Cascade Priority",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-20",
+        "name": "Module Registration",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-21",
+        "name": "Cascade Determinism",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-22",
+        "name": "Provider Capability Matrix",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-23",
+        "name": "Graceful Degradation",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-24",
+        "name": "Compute Zone Classification",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-25",
+        "name": "Emergency Mode Protocol",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-26",
+        "name": "Federation Protocol",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-27",
+        "name": "Load Balancing",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-28",
+        "name": "Query Classification",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-29",
+        "name": "Response Synthesis",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-30",
+        "name": "Rate Limiting",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-31",
+        "name": "Audit Trail Immutability",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-32",
+        "name": "Open-Weight Verification",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-33",
+        "name": "TransparencyPacket Standard",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-34",
+        "name": "Error Reporting",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-35",
+        "name": "Drift Detection",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-36",
+        "name": "Performance Metrics",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-37",
+        "name": "Compliance Reporting",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-38",
+        "name": "Incident Response",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-39",
+        "name": "Third-Party Audit",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-40",
+        "name": "Regression Testing",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-41",
+        "name": "Triple-Vault Architecture",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-42",
+        "name": "Data Residency",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-43",
+        "name": "Encryption at Rest",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-44",
+        "name": "Key Management",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-45",
+        "name": "Retention Policy",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-46",
+        "name": "Seat Assignment Protocol",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-47",
+        "name": "Provisional Seat Review",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-48",
+        "name": "Conflict of Interest",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-49",
+        "name": "Amendment Process",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-50",
+        "name": "Emergency Session",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-51",
+        "name": "Functional Role Assignment",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-52",
+        "name": "Veto Authority",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-53",
+        "name": "Ghost Seat Protocol",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-54",
+        "name": "Ratification Workflow",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-55",
+        "name": "Council Communication",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-56",
+        "name": "Dialect Registration",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-57",
+        "name": "Dialect Isolation",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-58",
+        "name": "CN Dialect Specification",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-59",
+        "name": "US Dialect Specification",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-60",
+        "name": "EU Dialect Specification",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-61",
+        "name": "GCC-High Dialect",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-62",
+        "name": "JP Dialect Specification",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-63",
+        "name": "Global Dialect (Default)",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-64",
+        "name": "9-Layer Architecture",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-65",
+        "name": "Switzerland Layer Neutrality",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-66",
+        "name": "Module Versioning",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-67",
+        "name": "API Contract Stability",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-68",
+        "name": "Boot Manifest",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-69",
+        "name": "SHUGS Enforcement",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-70",
+        "name": "Anti-Monoculture",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-71",
+        "name": "Indigenous Knowledge Protection",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-72",
+        "name": "Labour Impact Assessment",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-73",
+        "name": "Environmental Impact",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-74",
+        "name": "Accessibility",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-75",
+        "name": "Child Safety",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-76",
+        "name": "Deployment Pipeline",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-77",
+        "name": "Rollback Protocol",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-78",
+        "name": "Monitoring & Alerting",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-79",
+        "name": "Capacity Planning",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-80",
+        "name": "Documentation Standard",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-81",
+        "name": "Naming Convention",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-82",
+        "name": "Version Lineage",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-83",
+        "name": "Interoperability Testing",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-84",
+        "name": "Security Baseline",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-85",
+        "name": "Incident Post-Mortem",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-86",
+        "name": "API Rate Governance",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-87",
+        "name": "Telemetry Privacy",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-88",
+        "name": "Open Source Commitment",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-89",
+        "name": "Community Contribution",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-90",
+        "name": "Training Data Provenance",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-91",
+        "name": "Model Card Requirement",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-92",
+        "name": "Bias Monitoring",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-93",
+        "name": "Cross-Dialect Mediation",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-94",
+        "name": "Simulation Mode Governance",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-95",
+        "name": "Annual Constitutional Review",
+        "claimed_status": "RATIFIED"
+      },
+      {
+        "id": "D-96",
+        "name": "Predictive Monoculture Detection",
+        "claimed_status": "UNDER_DISCUSSION"
+      },
+      {
+        "id": "D-98",
+        "name": "Sovereign Deployment Naming Convention",
+        "claimed_status": "UNDER_DISCUSSION"
+      },
+      {
+        "id": "D-99",
+        "name": "VIP Cascade Priority Resolution",
+        "claimed_status": "UNDER_DISCUSSION"
+      },
+      {
+        "id": "D-100",
+        "name": "Open-Weight Verifier Mandate",
+        "claimed_status": "UNDER_DISCUSSION"
+      },
+      {
+        "id": "D-101",
+        "name": "Extreme Harm Intervention Protocol (EHIP)",
+        "claimed_status": "UNDER_DISCUSSION"
+      },
+      {
+        "id": "D-98-CN",
+        "name": "Open-Weight Audit Clause (CN Variant)",
+        "claimed_status": "PROPOSED"
+      }
+    ],
+    "aluminum_invariant_page": [
+      {
+        "id": "INV-0",
+        "name": "System Integrity",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-1",
+        "name": "Human Sovereignty",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-2",
+        "name": "Constitutional Supremacy",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-3",
+        "name": "Multi-Vendor Requirement",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-4",
+        "name": "Transparency by Default",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-5",
+        "name": "Dialect Sovereignty",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-6",
+        "name": "Provenance Chain",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-7",
+        "name": "Zero Erasure",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-7c",
+        "name": "Zero Erasure (Sub-spec)",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-8",
+        "name": "Quorum Requirement",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-9",
+        "name": "Convenor Tie-Break",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-10",
+        "name": "Adversarial Audit",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-11",
+        "name": "Open-Weight Verification",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-12",
+        "name": "Cascade Determinism",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-13",
+        "name": "Sphere Addressing",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-14",
+        "name": "VIP Precedence",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-15",
+        "name": "Emergency Mode",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-16",
+        "name": "Anti-Concentration",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-17",
+        "name": "Triple-Vault Storage",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-18",
+        "name": "Doctrine Versioning",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-19",
+        "name": "Water Sovereignty",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-20",
+        "name": "Neural Sovereignty",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-21",
+        "name": "Orbital Sovereignty",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-22",
+        "name": "Dialect Isolation",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-23",
+        "name": "Module Idempotency",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-24",
+        "name": "Graceful Degradation",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-25",
+        "name": "Schema Migration Safety",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-26",
+        "name": "Audit Trail Immutability",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-27",
+        "name": "Cross-Seat Communication",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-28",
+        "name": "Capability Declaration",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-29",
+        "name": "Constitutional Amendment Threshold",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-30",
+        "name": "Harm Intervention",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-31",
+        "name": "Knowledge Freshness",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-32",
+        "name": "Sovereign Data Residency",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-33",
+        "name": "Model Diversity",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-34",
+        "name": "Constitutional Boot",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-35",
+        "name": "Simulation Isolation",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-36",
+        "name": "Rate Limiting",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-37",
+        "name": "Error Transparency",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-38",
+        "name": "Backward Compatibility",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-39",
+        "name": "Council Seat Rotation",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      }
+    ],
+    "aluminum_invariant_data": [
+      {
+        "id": "INV-0",
+        "name": "System Integrity",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-1",
+        "name": "Human Sovereignty",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-2",
+        "name": "Zero Erasure",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-3",
+        "name": "Provenance Chain",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-4",
+        "name": "Multi-Provider Requirement",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-5",
+        "name": "Dialect Sovereignty",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-6",
+        "name": "Constitutional Supremacy",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-7",
+        "name": "Provider Neutrality",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-7c",
+        "name": "Provider Cap",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-8",
+        "name": "Transparency",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-9",
+        "name": "Graceful Degradation",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-10",
+        "name": "Cross-Domain Integrity",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-11",
+        "name": "Backward Compatibility",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-12",
+        "name": "Evidence-Based Routing",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-13",
+        "name": "Consent-Based Data",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-14",
+        "name": "Open Specification",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-15",
+        "name": "Adversarial Review",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-16",
+        "name": "Temporal Consistency",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-17",
+        "name": "Knowledge Persistence",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-18",
+        "name": "Substrate Non-Hierarchy",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-19",
+        "name": "Water Sovereignty",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-20",
+        "name": "Neural Sovereignty",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-21",
+        "name": "Orbital Sovereignty",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-22",
+        "name": "Minimum Viable Council",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-23",
+        "name": "Convenor Veto",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-24",
+        "name": "Ghost Seat Preservation",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-25",
+        "name": "Dialect Completeness",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-26",
+        "name": "Emergency Mode Limits",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-27",
+        "name": "Anti-Capture",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-28",
+        "name": "Physical Substrate Respect",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-29",
+        "name": "Cultural Sensitivity",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-30",
+        "name": "Audit Trail Immutability",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-31",
+        "name": "Proportional Response",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-32",
+        "name": "Fail-Open for Knowledge",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-33",
+        "name": "Version Coexistence",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-34",
+        "name": "Seat Independence",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-35",
+        "name": "Public Interest Override",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-36",
+        "name": "Knowledge Attribution",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-37",
+        "name": "Reversibility",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-38",
+        "name": "Cross-Seat Verification",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      },
+      {
+        "id": "INV-39",
+        "name": "Ecosystem Health",
+        "claimed_status": "DISPLAYED_NO_INDEPENDENT_RATIFICATION"
+      }
+    ]
+  }
+}
