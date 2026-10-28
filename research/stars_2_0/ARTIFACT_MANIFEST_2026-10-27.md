@@ -165,3 +165,8 @@ research/stars_2_0/
 ## GPTWork four-stage Wizard Council invitation (takes precedence over immediate build)
 - [GPTWork creative invitation with hat, coffee and nap metaphors; stages: cross-domain ideas → adversarial A/B review → optimize candidate work order → hand back to project lead and Tidal Lantern for gap audit](GPTWORK_WIZARD_COUNCIL_CREATIVE_REVIEW_INVITATION_2026-10-27.md), commit 2baa0a553e8ccbfb56001e2c3538203ad3b28f59.
 - Explicit governance: **no final contract freeze or blind G0-B predictions until Stage 4 independent review and project-lead approval**. Root GPTWork pointer and README now lead with this invitation. GPTWork has not been launched.
+
+## GPTWork Council v0.1 Stage-4 independent gap review — 2026-10-27
+- [Stage-4 review of GPTWork 50-file ZIP, executed v0.2 exploratory checks, identifiability, source uncertainty, TCSS spectral modes and energy-ledger boundary](reviews/GPTWORK_COUNCIL_STAGE4_INDEPENDENT_GAP_REVIEW_v0_1_2026-10-27.md), commit a7220b5f9601dd0a29dd39ed4562349567bd429b.
+- Library source artifact: `STARS_GPTWork_Council_Review_v0_1.zip` (original not overwritten), 50 entries, 110,073 bytes. Independent review verified 41 EXFOR rows and 98 historical sweep values, identified synthetic importer uncertainty loss, zero-output NaN ratios and conditional proton thermal boundary over-credit, and prioritized physical-measurement identifiability.
+- TCSS, Path B and theta/Mellin/Hilbert–Pólya links are explicitly **research leads**, not demonstrated acoustic or fusion mechanisms. **Project-lead contract freeze/signoff still pending.**
