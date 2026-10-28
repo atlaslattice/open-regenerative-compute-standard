@@ -1,5 +1,8 @@
 # The Open Regenerative Compute Standard (ORCS)
 
+> **GPTWork / ChatGPT Work STARS 2.0 HANDOFF:** [START HERE — pre-implementation pointer](GPTWORK_START_HERE_STARS_2_0.md) → [full engineering contract candidate (awaiting Gemini final review)](research/stars_2_0/GPTWORK_IMPLEMENTATION_HANDOFF_PENDING_GEMINI_2026-10-27.md). **Not yet frozen; do not release blinded predictions.**
+
+
 ## STARS 2.0 — Nuclear Physics Research and Open Reproducibility
 
 [Researcher discovery gateway](research/stars_2_0/RESEARCHER_DISCOVERY_AND_REPRODUCIBILITY_README.md) · [Pre-simulation v0.9 white paper](research/stars_2_0/whitepapers/STARS_2_0_v0_9_PRE_SIMULATION_MULTI_AGENT_SYNTHESIS_AND_HARMONIC_ANALYSIS_2026-10-27.md) · [Original EXFOR dataset C2973002](research/stars_2_0/wp_b/revised/data/EXFOR_C2973002_SPRAKER_2012_41PT_CROSS_SECTION_SOURCE_NORMALIZED_2026-10-27.csv) · [Machine-readable research metadata](research/stars_2_0/RESEARCH_METADATA_STARS_2_0_2026-10-27.json) · [Reproducibility/metadata caution](research/stars_2_0/reviews/DEEPSEEK_POST_EXFOR_REVIEW_AND_TEST_ANCHOR_CORRECTIONS_2026-10-27.md).
