@@ -1,3 +1,5 @@
+> **STAGE 4 UPDATE (2026-10-27):** GPTWork's complete 50-file Council Review v0.1 package was retrieved from the user's Library and independently audited. Read [Tidal Lantern's Stage 4 gap review](research/stars_2_0/reviews/GPTWORK_COUNCIL_STAGE4_INDEPENDENT_GAP_REVIEW_v0_1_2026-10-27.md). New priorities: joint identifiability, grouped holdouts, shared uncertainty covariance, proton thermal boundary, and source-qualified TCSS spectral operator tests. **Stage 4 review completed; project-lead scientific contract approval still pending. No blind predictions.**
+
 # GPTWork / ChatGPT Work — START HERE: STARS 2.0
 
 > 🧙‍♂️ **GPTWork WIZARD COUNCIL INVITATION — READ FIRST:** [Creative contribution → adversarial testing → optimize plan → return for project-lead/Tidal Lantern gap review](research/stars_2_0/GPTWORK_WIZARD_COUNCIL_CREATIVE_REVIEW_INVITATION_2026-10-27.md). Includes metaphorical coffee, pointy hat and nap privileges. **This four-stage invitation supersedes 'begin coding immediately'; implementation contract remains unfrozen.**
