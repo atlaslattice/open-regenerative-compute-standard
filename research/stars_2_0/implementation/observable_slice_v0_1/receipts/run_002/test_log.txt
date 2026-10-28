@@ -1,0 +1,20 @@
+test_bad_covariance_rejected (test_slice.IdentifiabilityTests.test_bad_covariance_rejected) ... ok
+test_degenerate_and_underdetermined_refuse_unique_fit (test_slice.IdentifiabilityTests.test_degenerate_and_underdetermined_refuse_unique_fit) ... ok
+test_independent_oracle_and_monte_carlo (test_slice.IdentifiabilityTests.test_independent_oracle_and_monte_carlo) ... ok
+test_observable_coordinate_change_preserves_fit (test_slice.IdentifiabilityTests.test_observable_coordinate_change_preserves_fit) ... ok
+test_parameter_unit_change_preserves_whitened_spectrum (test_slice.IdentifiabilityTests.test_parameter_unit_change_preserves_whitened_spectrum) ... ok
+test_rank_does_not_imply_precision (test_slice.IdentifiabilityTests.test_rank_does_not_imply_precision) ... ok
+test_duplicate_evidence_and_registry_conflicts (test_slice.ObservableTests.test_duplicate_evidence_and_registry_conflicts) ... ok
+test_energy_uncertainty_and_decimal_roundtrip (test_slice.ObservableTests.test_energy_uncertainty_and_decimal_roundtrip) ... ok
+test_event_relabel_and_frame_conversion_blocked (test_slice.ObservableTests.test_event_relabel_and_frame_conversion_blocked) ... ok
+test_hash_mutation_detected (test_slice.ObservableTests.test_hash_mutation_detected) ... ok
+test_missing_censored_zero_and_undefined_ratios (test_slice.ObservableTests.test_missing_censored_zero_and_undefined_ratios) ... ok
+test_schema_mutations_and_invalid_numbers (test_slice.ObservableTests.test_schema_mutations_and_invalid_numbers) ... ok
+test_shared_covariance_does_not_average_away (test_slice.ObservableTests.test_shared_covariance_does_not_average_away) ... ok
+test_shared_group_across_different_sources (test_slice.ObservableTests.test_shared_group_across_different_sources) ... ok
+test_unknown_is_not_zero (test_slice.ObservableTests.test_unknown_is_not_zero) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.425s
+
+OK

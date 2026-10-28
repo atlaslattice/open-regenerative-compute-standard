@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "scope": "A1/A2 prototype and exploratory linear identifiability only",
+  "authorization": "Project lead explicitly authorized limited v0.3 scope in conversation; no merge/freeze authorization",
+  "source_reconciliation": {
+    "rows": 41,
+    "numeric_cells": 123,
+    "comparison": "exact Decimal; MB to barn /1000",
+    "result": "PASS",
+    "energy_uncertainty": "not reported in this table; not assumed zero"
+  },
+  "tests_run": 15,
+  "failures": 0,
+  "errors": 0,
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5"
+  },
+  "inputs": {
+    "csv_sha256": "e56d240ea05fb8663debbb42cef99a93ef466d309eec3dbeb239f77509a6d089",
+    "exfor_sha256": "e6bb8289bf67c485af9a97c212d5604421dae7ab5aad91bbf7064618277d0efb",
+    "exfor_url": "https://github.com/IAEA-NDS/exfor_master/blob/main/exforall/C29/C2973.x4",
+    "exfor_identity_note": "URL is a locator; SHA-256 pins the required bytes"
+  },
+  "code_sha256": {
+    "identifiability.py": "039eef52e9b6aa67d24999f55f5650260be2763ceffd3ee70a7e534e8c5c7127",
+    "observables.py": "543280eb2d859b2e7fc44c1108c8c940eca073ed018b74e21bcf5507cc23ccd4",
+    "run_slice.py": "c879d8bb1332e31de4a5f263870022fb2b00d2bce9afa9dadfad8a1b47040be5",
+    "test_slice.py": "ff50ca5d85ca91101d35f45f9fab11976681b1f2351c9538fc7c9e462426edc5"
+  },
+  "output_sha256": {
+    "normalized_observations.json": "f6cfce5cc89ee248e3c3d1a03171ac7b3b39c055cd377abd8c41cfefa3b4dd96",
+    "observable_covariance.json": "fcf4f7d9579a50c5d5e5c8a31dbeaddce962e6fa7fc37bb401bdff2aee590d34",
+    "identifiability_receipt.json": "3eebebbe6a45b82365579091deabacc188d272034d99881cb55e0d98981a0ee6",
+    "test_log.txt": "865d69387c5430f936bd0259f985e44003a0028da16f29153bc455163d2c0942"
+  },
+  "limits": [
+    "No general EXFOR parser",
+    "No LAB/CM transform",
+    "No alpha/event conversion",
+    "No physical detector/transport model",
+    "No empirical noise calibration",
+    "No material or spectral control validation",
+    "Energy errors preserved but not propagated through an errors-in-variables likelihood",
+    "Cross-group nuisance correlations require a future explicit joint covariance model",
+    "Campaign holdouts and independent nonlinear oracle remain future qualification gates"
+  ]
+}
