@@ -1,0 +1,83 @@
+{
+  "schema": "0.10",
+  "scientific_freeze": false,
+  "gaps": [
+    {
+      "id": "G01",
+      "priority": 1,
+      "area": "matching exclusive source observations",
+      "status": "OPEN_DATA_NOT_RECOVERED",
+      "needed": "Numerical exclusive event list or bins with cuts, exact beam energy, calibration and acceptance; no replacement by fit percentages or figure pixels"
+    },
+    {
+      "id": "G02",
+      "priority": 1,
+      "area": "actual detector response",
+      "status": "OPEN_BLOCKS_MEASURED_COUNTS",
+      "needed": "Measured response, thresholds, dead layers, coincidence/trigger losses, angular acceptance and background; no default ideal efficiency"
+    },
+    {
+      "id": "G03",
+      "priority": 1,
+      "area": "alpha stopping and target state",
+      "status": "OPEN_MODEL_ONLY_IN_B11",
+      "needed": "Measured applicable alpha transport; cold-proton B10 fit cannot be transferred. Kamke/Kramer and Macdonald original data acquisition remains open"
+    },
+    {
+      "id": "G04",
+      "priority": 2,
+      "area": "source conventions and correlated uncertainty",
+      "status": "PARTIAL_CONSTANT_BASIS_REPARAMETERIZATION_VERIFIED",
+      "needed": "Energy/phase conventions, correlated level/radius parameters and model discrepancy; constant basis freedom alone need not block a free-coefficient exploratory fit"
+    },
+    {
+      "id": "G05",
+      "priority": 2,
+      "area": "dataset reconciliation",
+      "status": "OPEN_DUPLICATES_FRAMES_MULTIPLICITY",
+      "needed": "Journal/preprint alpha0 table reconciliation; Spraker frame/acceptance; Mazzucconi multiplicity meaning and possible Al contribution"
+    },
+    {
+      "id": "G06",
+      "priority": 2,
+      "area": "laser source and target geometry",
+      "status": "OPEN_ASSUMED_REFERENCE_INPUTS",
+      "needed": "Actual proton energy/angle/time/fluence distributions, specimen composition/isotopic inventory, support stack and evolution"
+    },
+    {
+      "id": "G07",
+      "priority": 2,
+      "area": "transport model adequacy",
+      "status": "OPEN_BENCHMARK_ONLY",
+      "needed": "Straggling, scattering, finite geometry, fields, hot/plasma state, parent alignment and source-shape/depth convergence; current straight-line planar model remains conditional"
+    },
+    {
+      "id": "G08",
+      "priority": 2,
+      "area": "acoustic and module interactions",
+      "status": "OPEN_NO_CALIBRATED_CAUSAL_GAIN",
+      "needed": "Map waveform and measured readiness to target/source observables; quantify interactions and all-attempt effects under OFF/SHAM/ON controls"
+    },
+    {
+      "id": "G09",
+      "priority": 3,
+      "area": "ignition and sustained burn",
+      "status": "OPEN_NOT_IN_EVENT_TRANSPORT_SOLVER",
+      "needed": "Validated time-dependent plasma heating/loss/particle model with external-drive, drive-off and grid-assistance histories"
+    },
+    {
+      "id": "G10",
+      "priority": 3,
+      "area": "wall plug and product economics",
+      "status": "OPEN_UNKNOWN_INPUTS_NOT_ZERO",
+      "needed": "Complete boundaries, actual component loads/conversion/CAPEX/OPEX, saleable recovery and dated quotes; speculative isotope value does not close an energy ledger"
+    },
+    {
+      "id": "G11",
+      "priority": 2,
+      "area": "independent validation and deployment",
+      "status": "OPEN_NO_SCIENTIFIC_ACCEPTANCE",
+      "needed": "Independent campaign/batch holdouts, preregistered tests, then reviewed integration into the main CLI/UI; this draft remains unmerged"
+    }
+  ]
+}
