@@ -1,0 +1,242 @@
+[
+  {
+    "E_lab_MeV": "0.15",
+    "new_event_b": 0.005668270905116944,
+    "archived_value_b": 0.0056684,
+    "difference_b": -1.2909488305602734e-07
+  },
+  {
+    "E_lab_MeV": "0.22",
+    "new_event_b": 0.03732212072464674,
+    "archived_value_b": 0.0373222,
+    "difference_b": -7.927535326107682e-08
+  },
+  {
+    "E_lab_MeV": "0.30",
+    "new_event_b": 0.13166582362803014,
+    "archived_value_b": 0.1316657,
+    "difference_b": 1.2362803014642765e-07
+  },
+  {
+    "E_lab_MeV": "0.40",
+    "new_event_b": 0.3920439549106955,
+    "archived_value_b": 0.3920438,
+    "difference_b": 1.5491069549344871e-07
+  },
+  {
+    "E_lab_MeV": "0.49",
+    "new_event_b": 0.7278810473374854,
+    "archived_value_b": 0.7278811,
+    "difference_b": -5.2662514571366614e-08
+  },
+  {
+    "E_lab_MeV": "0.57",
+    "new_event_b": 1.1943426301473954,
+    "archived_value_b": 1.1943428,
+    "difference_b": -1.6985260464785767e-07
+  },
+  {
+    "E_lab_MeV": "0.65",
+    "new_event_b": 1.3982152382045538,
+    "archived_value_b": 1.3982151,
+    "difference_b": 1.3820455380120222e-07
+  },
+  {
+    "E_lab_MeV": "0.73",
+    "new_event_b": 1.147032758058456,
+    "archived_value_b": 1.1470579,
+    "difference_b": -2.5141941544015722e-05
+  },
+  {
+    "E_lab_MeV": "0.80",
+    "new_event_b": 0.7213310360942607,
+    "archived_value_b": 0.721331,
+    "difference_b": 3.609426069139943e-08
+  },
+  {
+    "E_lab_MeV": "0.88",
+    "new_event_b": 0.4641133470211068,
+    "archived_value_b": 0.4641133,
+    "difference_b": 4.702110678600491e-08
+  },
+  {
+    "E_lab_MeV": "0.94",
+    "new_event_b": 0.3326075351788995,
+    "archived_value_b": 0.3326074,
+    "difference_b": 1.351788995185288e-07
+  },
+  {
+    "E_lab_MeV": "1.00",
+    "new_event_b": 0.3159361501638497,
+    "archived_value_b": 0.315936,
+    "difference_b": 1.5016384968813412e-07
+  },
+  {
+    "E_lab_MeV": "1.08",
+    "new_event_b": 0.3051877144983678,
+    "archived_value_b": 0.3051877,
+    "difference_b": 1.44983677841104e-08
+  },
+  {
+    "E_lab_MeV": "1.20",
+    "new_event_b": 0.31943378998484634,
+    "archived_value_b": 0.3194338,
+    "difference_b": -1.0015153650844155e-08
+  },
+  {
+    "E_lab_MeV": "1.30",
+    "new_event_b": 0.3318899954168196,
+    "archived_value_b": 0.3318901,
+    "difference_b": -1.045831803936359e-07
+  },
+  {
+    "E_lab_MeV": "1.40",
+    "new_event_b": 0.34096626603255076,
+    "archived_value_b": 0.3409664,
+    "difference_b": -1.3396744924509818e-07
+  },
+  {
+    "E_lab_MeV": "1.50",
+    "new_event_b": 0.3253445918428204,
+    "archived_value_b": 0.3253445,
+    "difference_b": 9.184282040441971e-08
+  },
+  {
+    "E_lab_MeV": "1.60",
+    "new_event_b": 0.3002294435329621,
+    "archived_value_b": 0.3002294,
+    "difference_b": 4.353296212400437e-08
+  },
+  {
+    "E_lab_MeV": "1.70",
+    "new_event_b": 0.2741982068053171,
+    "archived_value_b": 0.2741981,
+    "difference_b": 1.0680531709050811e-07
+  },
+  {
+    "E_lab_MeV": "1.80",
+    "new_event_b": 0.25195866297104474,
+    "archived_value_b": 0.2519587,
+    "difference_b": -3.70289552353853e-08
+  },
+  {
+    "E_lab_MeV": "1.90",
+    "new_event_b": 0.2460570764515212,
+    "archived_value_b": 0.2460569,
+    "difference_b": 1.7645152119993845e-07
+  },
+  {
+    "E_lab_MeV": "2.00",
+    "new_event_b": 0.2479784745184567,
+    "archived_value_b": 0.2479783,
+    "difference_b": 1.745184566859237e-07
+  },
+  {
+    "E_lab_MeV": "2.10",
+    "new_event_b": 0.2710524253615226,
+    "archived_value_b": 0.2710525,
+    "difference_b": -7.463847739863638e-08
+  },
+  {
+    "E_lab_MeV": "2.20",
+    "new_event_b": 0.3140620854262282,
+    "archived_value_b": 0.3140621,
+    "difference_b": -1.4573771800474589e-08
+  },
+  {
+    "E_lab_MeV": "2.30",
+    "new_event_b": 0.3718301100194578,
+    "archived_value_b": 0.3718298,
+    "difference_b": 3.1001945782760387e-07
+  },
+  {
+    "E_lab_MeV": "2.40",
+    "new_event_b": 0.48271995311076793,
+    "archived_value_b": 0.4827196,
+    "difference_b": 3.5311076790334184e-07
+  },
+  {
+    "E_lab_MeV": "2.50",
+    "new_event_b": 0.5970337133154705,
+    "archived_value_b": 0.5970341,
+    "difference_b": -3.866845295075194e-07
+  },
+  {
+    "E_lab_MeV": "2.60",
+    "new_event_b": 0.7022531911065613,
+    "archived_value_b": 0.7022531,
+    "difference_b": 9.110656129518446e-08
+  },
+  {
+    "E_lab_MeV": "2.70",
+    "new_event_b": 0.6092700072616926,
+    "archived_value_b": 0.6092702,
+    "difference_b": -1.927383074251665e-07
+  },
+  {
+    "E_lab_MeV": "2.80",
+    "new_event_b": 0.44383331924463354,
+    "archived_value_b": 0.4438332,
+    "difference_b": 1.1924463355628134e-07
+  },
+  {
+    "E_lab_MeV": "2.90",
+    "new_event_b": 0.34401947521281956,
+    "archived_value_b": 0.3440191,
+    "difference_b": 3.752128195366744e-07
+  },
+  {
+    "E_lab_MeV": "3.00",
+    "new_event_b": 0.3514126899242675,
+    "archived_value_b": 0.3514129,
+    "difference_b": -2.100757324763336e-07
+  },
+  {
+    "E_lab_MeV": "3.10",
+    "new_event_b": 0.40387644948117607,
+    "archived_value_b": 0.4038764,
+    "difference_b": 4.948117604541835e-08
+  },
+  {
+    "E_lab_MeV": "3.20",
+    "new_event_b": 0.4565559317336312,
+    "archived_value_b": 0.4565562,
+    "difference_b": -2.6826636884136335e-07
+  },
+  {
+    "E_lab_MeV": "3.30",
+    "new_event_b": 0.5364721845346688,
+    "archived_value_b": 0.536472,
+    "difference_b": 1.8453466887891068e-07
+  },
+  {
+    "E_lab_MeV": "3.40",
+    "new_event_b": 0.5981286630750016,
+    "archived_value_b": 0.5981286,
+    "difference_b": 6.307500155511292e-08
+  },
+  {
+    "E_lab_MeV": "3.50",
+    "new_event_b": 0.6523755906220878,
+    "archived_value_b": 0.6523758,
+    "difference_b": -2.0937791211927959e-07
+  },
+  {
+    "E_lab_MeV": "3.60",
+    "new_event_b": 0.6852810509548076,
+    "archived_value_b": 0.6852814,
+    "difference_b": -3.490451924159643e-07
+  },
+  {
+    "E_lab_MeV": "3.70",
+    "new_event_b": 0.6880812572067074,
+    "archived_value_b": 0.6880814,
+    "difference_b": -1.4279329252353534e-07
+  },
+  {
+    "E_lab_MeV": "3.80",
+    "new_event_b": 0.6516396201831068,
+    "archived_value_b": 0.6516395,
+    "difference_b": 1.2018310679984268e-07
+  }
+]
