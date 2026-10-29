@@ -1,0 +1,113 @@
+{
+  "files": [
+    {
+      "path": "ACOUSTIC_REFERENCE_POLICY.json",
+      "bytes": 1079,
+      "sha256": "9d4dd700a9550fadadb369ee314845112b0b2b8ac58e60acdec8f1f7eeb61fd1",
+      "git_blob_sha1": "f8674e2167c8eaf5eb3a142e2764ada75ee2a496"
+    },
+    {
+      "path": "BENCHMARK_READINESS.json",
+      "bytes": 3488,
+      "sha256": "02e80e14f3479e58b17ebfc303bc64771d7070a7dcc025cf99da7ba82c1eabbb",
+      "git_blob_sha1": "aade0658e045ff493739157a1dc30e89612d00ad"
+    },
+    {
+      "path": "DATA_RECOVERY_REQUIREMENTS.json",
+      "bytes": 1208,
+      "sha256": "380fb596b18da2110263f523ac35299f8e9d0e5ba4b2bb20f7ce4fe2add2e010",
+      "git_blob_sha1": "07b92e6946755ef77e1178fc4fc11ec4b9c6cd01"
+    },
+    {
+      "path": "MEASUREMENT_PACKAGE_v3.json",
+      "bytes": 5231,
+      "sha256": "b1da8b373949cf1ba16a44ae55448b7edb60c18350e7d6f37188bbba83b8e1d9",
+      "git_blob_sha1": "333b5c704bdf8d551ff458388b62520155f94456"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6066,
+      "sha256": "b2c4aadf5b25a2b3e9be05c71704e1efa1a7924c110fee598460647735879a3d",
+      "git_blob_sha1": "86625c1d60864ba24807f20f45c5fc2e5fb085d1"
+    },
+    {
+      "path": "REVIEW_DISPOSITION.md",
+      "bytes": 3139,
+      "sha256": "ba00f845d5933f0824fb9ef4fbee532f7038ae98ee847374509d0bbe55548513",
+      "git_blob_sha1": "7ec2e7f56f27fea9bfe4cbc076d40ecea8bf1bcf"
+    },
+    {
+      "path": "SOURCE_INDEX.json",
+      "bytes": 2081,
+      "sha256": "316b3765c4dacdfbd3b4e17b0c5133fa106779a354f8c9a0f8e8622d6957bdd7",
+      "git_blob_sha1": "695e3434a7038eb6702a46b8875b9ca6653ac8bc"
+    },
+    {
+      "path": "extract_package.py",
+      "bytes": 6011,
+      "sha256": "f47a28aee12df1f2a26b857df13f06a42d20cb992dc06d1697b18501351e7317",
+      "git_blob_sha1": "1edfd5e06106031705017f884835842218326135"
+    },
+    {
+      "path": "literal_audit.py",
+      "bytes": 717,
+      "sha256": "ee8a995b1107282d6d4ec84ba584fa42f45d4eeac513124bec26dd46a0d2758c",
+      "git_blob_sha1": "4e0b5769c61fb127c8e99bb78242b95b991c0422"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 28,
+      "sha256": "b1c54735c9976b855cbc6a47ea5cc6de6a93d9763cee8a562428b738ae18dd1c",
+      "git_blob_sha1": "8a4fcc3121d6d24c2781abc4831e587b9a29ec96"
+    },
+    {
+      "path": "run_audit.py",
+      "bytes": 4436,
+      "sha256": "dbce79ba46ee01cb431678468ce180acb90a8c900466eb3d2e117a79c5011cf0",
+      "git_blob_sha1": "617adc7f9b8a69c003ab409949a8acad2c66ed01"
+    },
+    {
+      "path": "spectra.py",
+      "bytes": 1098,
+      "sha256": "8e19f6c9ad77350e381a2ab5db063d4981dc477d89c1207db94ef7ff83eb7437",
+      "git_blob_sha1": "dfdc609e4fcb4d35239a97086391c67ab70cd813"
+    },
+    {
+      "path": "test_package.py",
+      "bytes": 3995,
+      "sha256": "e4a19d3eacdb61f391b17af8306878e8aec576ad056d033c65f5b0251bce7e9a",
+      "git_blob_sha1": "4a8b8edd0da3c363468f845a341a07577462f229"
+    },
+    {
+      "path": "receipts/TEST_LOG.txt",
+      "bytes": 1955,
+      "sha256": "9b1a1f8243fc4afff07f0b0971b026f4b2200e3b66ffb27fe129fa2b63b8ae0c",
+      "git_blob_sha1": "1d9f4bde075326b1f55c290346ae2ce3550e390c"
+    },
+    {
+      "path": "receipts/ISOLATED_REPLAY.json",
+      "bytes": 270,
+      "sha256": "5d2d765063bf1588762c95cc89a4c61f16ff4345a34b00a6d46c68205363c169",
+      "git_blob_sha1": "9fc6ef8aa0d68b136cb27a53bc92886b0bb155a7"
+    },
+    {
+      "path": "receipts/VERIFICATION.json",
+      "bytes": 656,
+      "sha256": "f353022a76d2ec985523ffcc61101252d5b9d2556d34147a4c47631aaab267de",
+      "git_blob_sha1": "0803bc4e8a011b5cb109466c6d06351dbe8fe620"
+    },
+    {
+      "path": "receipts/run002/AUDIT.json",
+      "bytes": 9709,
+      "sha256": "48e22a6c1bfb2c8f3f2ccd8d1127f9f4dd01a15cac0af969f3f98ec81d5db699",
+      "git_blob_sha1": "e027dbe9088b9e04ee94e56fb04f8fc0c5091421"
+    },
+    {
+      "path": "receipts/run002/RECEIPT.json",
+      "bytes": 539,
+      "sha256": "5c42f1f5b7e620bf4c9aa61717175dcf3be990976608e182f91dc62384f325ef",
+      "git_blob_sha1": "5d6238a364ab6ea74c234202e5575485e0ff8947"
+    }
+  ],
+  "manifest_self_hash_excluded": true
+}
