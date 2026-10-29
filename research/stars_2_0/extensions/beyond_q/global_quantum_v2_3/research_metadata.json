@@ -1,0 +1,92 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "name": "Beyond Q v2.3: Global Quantum-First Infrastructure and Fusion-Isotope Integration",
+  "alternateName": [
+    "Beyond Q Fusion-Powered Quantum Computing",
+    "Quantum-First Google Microsoft China ARC D-D D-T Isotope Factory"
+  ],
+  "headline": "Pre-feasibility engineering comparison of quantum-data-center demand, ARC D-T power, and hypothetical D-D isotope supply",
+  "author": {
+    "@type": "Organization",
+    "name": "Atlas Lattice — Independent Research"
+  },
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "creativeWorkStatus": "Research draft / independent pre-feasibility / not peer reviewed",
+  "description": "Quantitative, source-traced open screening of Google Willow, Google neutral atoms, Microsoft Majorana topological hardware and China's quantum systems. Hypothetical ARC-class D-D helium-3/tritium isotope refinery compared with conventional commercial D-T reference, neutron transport gates, plasma heating, dilution refrigeration, energy conservation and 20-year tradeoffs.",
+  "keywords": [
+    "Beyond Q",
+    "Atlas Lattice",
+    "quantum-first infrastructure",
+    "quantum data center electricity demand",
+    "fusion-powered quantum computing",
+    "Google Quantum AI",
+    "Google Willow",
+    "Microsoft Majorana 1",
+    "Microsoft Majorana 2",
+    "topological quantum qubit",
+    "Chinese quantum computing",
+    "Hanyuan-2",
+    "Origin Quantum SL3000",
+    "Zuchongzhi-3.0",
+    "neutral atom quantum computing",
+    "superconducting qubits",
+    "photonic quantum computing",
+    "quantum cryogenics",
+    "dilution refrigerator wall-plug power",
+    "helium-3",
+    "helium-4",
+    "tritium fuel cycle",
+    "ARC tokamak",
+    "Commonwealth Fusion Systems",
+    "SPARC",
+    "D-D fusion",
+    "D-T fusion",
+    "deuterium tritium",
+    "deuterium deuterium",
+    "FLiBe lithium blanket",
+    "lithium-6 capture heat",
+    "neutron transport",
+    "plasma heating",
+    "RF wall-plug",
+    "thermal conversion",
+    "energy conservation",
+    "hyperscale data centers",
+    "quantum-classical heterogeneous node",
+    "quantum error correction",
+    "rQOPS",
+    "techno-economic analysis",
+    "feasibility gates",
+    "open source research"
+  ],
+  "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/tree/main/research/stars_2_0/extensions/beyond_q/global_quantum_v2_3",
+  "citation": [
+    "https://doi.org/10.1017/S0022377826101706",
+    "https://doi.org/10.1016/j.fusengdes.2015.07.008",
+    "https://doi.org/10.1016/j.fusengdes.2018.09.007",
+    "https://doi.org/10.1088/1741-4326/acf3fc"
+  ],
+  "hasPart": [
+    {
+      "@type": "DigitalDocument",
+      "encodingFormat": "application/pdf",
+      "name": "Executive Pitch",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/main/research/stars_2_0/extensions/beyond_q/global_quantum_v2_3/downloads/Beyond_Q_v2_3_Executive_Pitch.pdf"
+    },
+    {
+      "@type": "DigitalDocument",
+      "encodingFormat": "application/pdf",
+      "name": "Technical White Paper",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/main/research/stars_2_0/extensions/beyond_q/global_quantum_v2_3/downloads/Beyond_Q_v2_3_Technical_White_Paper.pdf"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "Transparent algebraic screening",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/main/research/stars_2_0/extensions/beyond_q/global_quantum_v2_3/source/beyond_q_physics_v23.py"
+    }
+  ],
+  "disambiguatingDescription": "No MIT/CFS/Google/Microsoft institutional endorsement; no validated ARC D-D fusion system, no measured campus megawatt demand, and no independently verified isotope production forecasts."
+}
