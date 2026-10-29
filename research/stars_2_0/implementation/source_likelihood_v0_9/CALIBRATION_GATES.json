@@ -1,0 +1,47 @@
+{
+  "stage": "SOURCE_LIKELIHOOD_READY_IDEAL_INFORMATION_ONLY",
+  "experimental_fit_run": false,
+  "gates": [
+    {
+      "name": "coherent_source_numerics",
+      "status": "PASS_DECLARED_TEST_DOMAIN",
+      "evidence": "../coherent_source_v0_8/receipts/VERIFICATION.json"
+    },
+    {
+      "name": "basis_coefficient_convention",
+      "status": "REPARAMETERIZATION_VERIFIED",
+      "limitation": "Constant basis normalization can be absorbed into a freely fitted coefficient; physical fractions and published coefficient transfer remain unverified"
+    },
+    {
+      "name": "matching_exclusive_measurements",
+      "status": "BLOCKED_NOT_RECOVERED",
+      "required": "Original exclusive event list or numerical bin counts with exact bin edges, cuts, energy/frame and campaign identity. Figure pixels alone are not raw counts."
+    },
+    {
+      "name": "detector_acceptance_and_calibration",
+      "status": "BLOCKED_NOT_RECOVERED",
+      "required": "Matched response and independent calibration with uncertainty, angular dependence and any parent alignment treatment"
+    },
+    {
+      "name": "parameter_uncertainty",
+      "status": "BLOCKED_FULL_COVARIANCE_NOT_RECOVERED",
+      "required": "Joint parameter refit or justified likelihood with correlated nuisance parameters; diagonal errors alone insufficient"
+    },
+    {
+      "name": "model_discrepancy",
+      "status": "REQUIRED_BEFORE_ACCEPTANCE",
+      "required": "Final state interactions and published residual disagreement retained; no success gate based only on matrix rank"
+    },
+    {
+      "name": "validation_holdouts",
+      "status": "REQUIRED_NOT_AVAILABLE",
+      "required": "Independent campaigns, target batches or calibration cycles; source-derived reanalyses not independent"
+    },
+    {
+      "name": "transport_to_apparatus",
+      "status": "BLOCKED_MEASURED_ALPHA_STOPPING_AND_APPARATUS_INPUTS",
+      "required": "Material/state-specific data, actual source fluence/target and detector specifications"
+    }
+  ],
+  "release_effect": "New version only. Earlier modules and failed results remain preserved."
+}

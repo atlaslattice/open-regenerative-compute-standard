@@ -1,0 +1,52 @@
+{
+  "runs": {
+    "run001": {
+      "samples": 8192,
+      "seed": 20261030
+    },
+    "run002": {
+      "samples": 8192,
+      "seed": 20261031
+    },
+    "run003": {
+      "samples": 32768,
+      "seed": 20261030
+    }
+  },
+  "comparisons": [
+    {
+      "observable": "EXCLUSIVE_SORTED_ENERGY_BIN_TRIPLE",
+      "independent_8192_relative_Frobenius_difference": 0.032865844281606396,
+      "refinement_8192_to_32768_relative_Frobenius_difference": 0.006848254033538796,
+      "smallest_eigenvalue_run001": 0.0015022272049963793,
+      "smallest_eigenvalue_run002": 0.0013845432653461186,
+      "smallest_eigenvalue_run003": 0.0014294731543909207
+    },
+    {
+      "observable": "ONE_RANDOM_ALPHA_ENERGY_BIN",
+      "independent_8192_relative_Frobenius_difference": 0.02293814423390754,
+      "refinement_8192_to_32768_relative_Frobenius_difference": 0.0021971937526956554,
+      "smallest_eigenvalue_run001": 0.0001772672823639309,
+      "smallest_eigenvalue_run002": 0.0001578340683659838,
+      "smallest_eigenvalue_run003": 0.00016633144874503465
+    },
+    {
+      "observable": "TOTAL_EVENT_COUNT_ONLY",
+      "independent_8192_relative_Frobenius_difference": null,
+      "refinement_8192_to_32768_relative_Frobenius_difference": null,
+      "smallest_eigenvalue_run001": 0.0,
+      "smallest_eigenvalue_run002": 0.0,
+      "smallest_eigenvalue_run003": 0.0
+    },
+    {
+      "observable": "UNBINNED_PROPOSAL_POINT_UPPER_DIAGNOSTIC",
+      "independent_8192_relative_Frobenius_difference": 0.03614460627414567,
+      "refinement_8192_to_32768_relative_Frobenius_difference": 0.009098137645196212,
+      "smallest_eigenvalue_run001": 0.0020455265139858562,
+      "smallest_eigenvalue_run002": 0.001893006299154499,
+      "smallest_eigenvalue_run003": 0.0019708683282676186
+    }
+  ],
+  "interpretation": "Finite Monte Carlo integration sensitivity, not a physical uncertainty estimate or a validated confidence interval. No fixed convergence gate claimed.",
+  "detector_or_experimental_noise_included": false
+}

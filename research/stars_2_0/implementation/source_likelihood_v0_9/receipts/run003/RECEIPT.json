@@ -1,0 +1,11 @@
+{
+  "Coulomb_backend": "MICHEL_CPC_FROM_ORM_ZENODO1174079",
+  "GSL_3j": "2.7.1",
+  "code_sha256": {
+    "likelihood.py": "4f8ce87335455548049d15aef033b970d8ff14aab31760f4cce5aefbea8fe4af",
+    "run_information.py": "b642fc822dc0f48eba319f3a838f1196ba08dfef3d43de6aefb0ab45cf35f735"
+  },
+  "dependency_lock_sha256": "19fbdd2167ae1e2990dae211bc6d3eceb32bbe9fad02dcf44f3b9189c9f898f5",
+  "numpy": "2.3.5",
+  "python": "3.12.14"
+}
