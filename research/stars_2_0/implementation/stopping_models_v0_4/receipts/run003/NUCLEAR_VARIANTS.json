@@ -1,0 +1,36 @@
+[
+  {
+    "variant": "ZBL_SIMNRA_7_04",
+    "electronic_eV_cm2_per_average_atom": 8.94587987741551e-15,
+    "nuclear_eV_cm2_per_average_atom": 1.0767652892890782e-15,
+    "total_eV_cm2_per_average_atom": 1.0022645166704587e-14,
+    "total_MeV_cm2_g": 548.2433267261529,
+    "average_atomic_mass_u": 11.009305,
+    "boron_atom_fraction": 1.0,
+    "model": "srim13",
+    "projectile": "alpha",
+    "material": "B11",
+    "nuclear_variant": "ZBL_SIMNRA_7_04",
+    "bn_electronic_multiplier": null,
+    "status": "CALCULATED_MODEL_NOT_MEASURED_MATERIAL_TABLE",
+    "electronic_assumption": "equal-velocity isotope transfer of elemental electronic stopping",
+    "compound_assumption": null
+  },
+  {
+    "variant": "ZBL_GEANT4_10_7_4",
+    "electronic_eV_cm2_per_average_atom": 8.94587987741551e-15,
+    "nuclear_eV_cm2_per_average_atom": 1.0766635489058073e-15,
+    "total_eV_cm2_per_average_atom": 1.0022543426321317e-14,
+    "total_MeV_cm2_g": 548.2377614801267,
+    "average_atomic_mass_u": 11.009305,
+    "boron_atom_fraction": 1.0,
+    "model": "srim13",
+    "projectile": "alpha",
+    "material": "B11",
+    "nuclear_variant": "ZBL_GEANT4_10_7_4",
+    "bn_electronic_multiplier": null,
+    "status": "CALCULATED_MODEL_NOT_MEASURED_MATERIAL_TABLE",
+    "electronic_assumption": "equal-velocity isotope transfer of elemental electronic stopping",
+    "compound_assumption": null
+  }
+]

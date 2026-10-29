@@ -1,0 +1,18 @@
+{
+  "native_stopping_nodes_exact": 968,
+  "native_energy_nodes_exact": 121,
+  "compiler_command": [
+    "cc",
+    "-shared",
+    "-fPIC",
+    "stopping_models_v0_4/upstream/src/generated/srim96/Z01.c",
+    "stopping_models_v0_4/upstream/src/generated/srim96/Z02.c",
+    "stopping_models_v0_4/upstream/src/generated/srim13/Z01.c",
+    "stopping_models_v0_4/upstream/src/generated/srim13/Z02.c",
+    "stopping_models_v0_4/upstream/src/generated/erg.c",
+    "-o",
+    "stopping_models_v0_4/receipts/extraction001/libselected.so"
+  ],
+  "compiler_version": "cc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0",
+  "interpretation": "C table replay only; SRIM original executables not regenerated"
+}

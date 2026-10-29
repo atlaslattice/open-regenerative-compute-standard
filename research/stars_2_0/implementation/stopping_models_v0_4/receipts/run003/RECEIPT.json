@@ -1,0 +1,22 @@
+{
+  "python": "3.12.14",
+  "tests": "12 PASS",
+  "table_count": 8,
+  "electronic_stopping_nodes": 968,
+  "assumed_boron_inventory_per_scenario_atoms_cm2": 1e+18,
+  "scenario_count": 16,
+  "scenario_meaning": "assumed homogeneous cold targets and fixed incident energies; not apparatus specification or event source",
+  "seeds": null,
+  "fit": "NONE; discrepant model predictions preserved",
+  "BN_status": "Bragg mixture estimate; factors 0.8/1/1.2 are sensitivities, not BN confidence bounds",
+  "alpha_status": "model replay available; original measured alpha table still missing",
+  "isotope_status": "explicit equal-velocity electronic model transfer plus mass-dependent ZBL nuclear estimate",
+  "independent_validation": "NOT_RUN",
+  "full_fusion_yield": "NOT_COMPUTED",
+  "code_sha256": {
+    "test_models.py": "591ac4a7146766a062e227c2a2d787c31176f82e3d2c1e0bd991520d49171e75",
+    "run_models.py": "9270bc0d98e8c7d57909c0cfb9cdde6914ef747ee12e80a6540c74631721f7f4",
+    "extract_tables.py": "ab3b44e1569d0d1ccb1e63dbfc82f30050d1564b4e9bf5ef3bdd9c2c9a8104d0",
+    "model.py": "86bb39edc377b325d266bd61c0e0919d537b1feffbc017c5ba9262b22cf9934f"
+  }
+}

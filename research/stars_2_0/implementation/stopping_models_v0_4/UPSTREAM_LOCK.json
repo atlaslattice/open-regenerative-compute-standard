@@ -1,0 +1,52 @@
+{
+  "repository": "ir2-lab/libdedx",
+  "commit": "f20ddde3063bbad4f3528b11a279146707620df0",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "sha256": "b1bb0a70c6928a8f96dd0e386486a33c6f2ea306dcb8622f7fda7c6ed595ad0a",
+      "git_blob_sha1": "8530c629b173ee8d971c6b3befb6bdeec0b6165b",
+      "bytes": 1137
+    },
+    {
+      "path": "README.md",
+      "sha256": "03d55c3e0b1069e3dcbf2df7c667c7dbc6b526359a67a54a326a3bd660ab3f85",
+      "git_blob_sha1": "4f457272386c967e8217408dec5c2072bac8c1fc",
+      "bytes": 2804
+    },
+    {
+      "path": "src/generated/erg.c",
+      "sha256": "4091b94330e7b15f500605a3ad57674a36fb18f33eafefa5d1394d1f85b227f5",
+      "git_blob_sha1": "0164c16223abcade6b9c9b75ee142286c422fa8c",
+      "bytes": 2380
+    },
+    {
+      "path": "src/generated/srim96/Z02.c",
+      "sha256": "0f760af13c8c981d4f3a5eaebcb7935077cd63ee06583c34bf72b8ecbadf61c4",
+      "git_blob_sha1": "53dea64eb5b497feb0844a6edc2e28a01cb5a91a",
+      "bytes": 222183
+    },
+    {
+      "path": "src/generated/srim96/Z01.c",
+      "sha256": "36e7d6ab05c034ace7f99889ec4fd24c4159bc7693e1eac3c9b1c692179a4771",
+      "git_blob_sha1": "8e5ac4e4d6dae7c2d29df28f611a934c280ec130",
+      "bytes": 222183
+    },
+    {
+      "path": "src/generated/srim13/Z02.c",
+      "sha256": "d2ca3d2e0fa273153db1c2787cf200216104a8f32043253a0cf05bbdc6b77878",
+      "git_blob_sha1": "608598ec21b3a6d813f991bd505c9743cd329e8f",
+      "bytes": 222183
+    },
+    {
+      "path": "src/generated/srim13/Z01.c",
+      "sha256": "d1838bc88eedb201eb4dbf6cef80f570b37fc900baf92f979a569daacc317173",
+      "git_blob_sha1": "c70d38581971ce7b237d639d503f3412a6fcfeee",
+      "bytes": 222183
+    }
+  ],
+  "upstream_software_license": "MIT, reproduced in UPSTREAM_LICENSE.txt",
+  "table_meaning": "calculated electronic stopping only, not laboratory measurements",
+  "energy_unit": "keV/u",
+  "stopping_unit": "1e-15 eV cm2/atom"
+}
