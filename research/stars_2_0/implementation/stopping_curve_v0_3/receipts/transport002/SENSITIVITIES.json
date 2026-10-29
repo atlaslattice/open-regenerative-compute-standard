@@ -1,0 +1,122 @@
+[
+  {
+    "source_stopping_scale": 0.96,
+    "digitization_stopping_offset_eV_cm2_atom": -8e-17,
+    "digitization_energy_axis_shift_MeV": -0.008,
+    "result": {
+      "status": "WITHIN_SUPPLIED_CURVE_DOMAIN_CSDA_MODEL",
+      "E_in_LAB_MeV": 0.65,
+      "E_out_LAB_MeV": 0.6448375574386147,
+      "primary_energy_loss_MeV": 0.005162442561385316,
+      "atoms_cm2": 1e+18,
+      "material": "OVERLEY_COLD_B10_ENRICHED_95.96_PERCENT",
+      "qualification": "conditional on supplied stopping curve; no independent transmission validation",
+      "interpolation": "piecewise linear atomic stopping versus LAB proton energy"
+    }
+  },
+  {
+    "source_stopping_scale": 0.96,
+    "digitization_stopping_offset_eV_cm2_atom": -8e-17,
+    "digitization_energy_axis_shift_MeV": 0.008,
+    "result": {
+      "status": "WITHIN_SUPPLIED_CURVE_DOMAIN_CSDA_MODEL",
+      "E_in_LAB_MeV": 0.65,
+      "E_out_LAB_MeV": 0.6447425216141509,
+      "primary_energy_loss_MeV": 0.0052574783858491125,
+      "atoms_cm2": 1e+18,
+      "material": "OVERLEY_COLD_B10_ENRICHED_95.96_PERCENT",
+      "qualification": "conditional on supplied stopping curve; no independent transmission validation",
+      "interpolation": "piecewise linear atomic stopping versus LAB proton energy"
+    }
+  },
+  {
+    "source_stopping_scale": 0.96,
+    "digitization_stopping_offset_eV_cm2_atom": 8e-17,
+    "digitization_energy_axis_shift_MeV": -0.008,
+    "result": {
+      "status": "WITHIN_SUPPLIED_CURVE_DOMAIN_CSDA_MODEL",
+      "E_in_LAB_MeV": 0.65,
+      "E_out_LAB_MeV": 0.6446770827285071,
+      "primary_energy_loss_MeV": 0.005322917271492922,
+      "atoms_cm2": 1e+18,
+      "material": "OVERLEY_COLD_B10_ENRICHED_95.96_PERCENT",
+      "qualification": "conditional on supplied stopping curve; no independent transmission validation",
+      "interpolation": "piecewise linear atomic stopping versus LAB proton energy"
+    }
+  },
+  {
+    "source_stopping_scale": 0.96,
+    "digitization_stopping_offset_eV_cm2_atom": 8e-17,
+    "digitization_energy_axis_shift_MeV": 0.008,
+    "result": {
+      "status": "WITHIN_SUPPLIED_CURVE_DOMAIN_CSDA_MODEL",
+      "E_in_LAB_MeV": 0.65,
+      "E_out_LAB_MeV": 0.6445820469040433,
+      "primary_energy_loss_MeV": 0.005417953095956718,
+      "atoms_cm2": 1e+18,
+      "material": "OVERLEY_COLD_B10_ENRICHED_95.96_PERCENT",
+      "qualification": "conditional on supplied stopping curve; no independent transmission validation",
+      "interpolation": "piecewise linear atomic stopping versus LAB proton energy"
+    }
+  },
+  {
+    "source_stopping_scale": 1.04,
+    "digitization_stopping_offset_eV_cm2_atom": -8e-17,
+    "digitization_energy_axis_shift_MeV": -0.008,
+    "result": {
+      "status": "WITHIN_SUPPLIED_CURVE_DOMAIN_CSDA_MODEL",
+      "E_in_LAB_MeV": 0.65,
+      "E_out_LAB_MeV": 0.6443992841795925,
+      "primary_energy_loss_MeV": 0.0056007158204075536,
+      "atoms_cm2": 1e+18,
+      "material": "OVERLEY_COLD_B10_ENRICHED_95.96_PERCENT",
+      "qualification": "conditional on supplied stopping curve; no independent transmission validation",
+      "interpolation": "piecewise linear atomic stopping versus LAB proton energy"
+    }
+  },
+  {
+    "source_stopping_scale": 1.04,
+    "digitization_stopping_offset_eV_cm2_atom": -8e-17,
+    "digitization_energy_axis_shift_MeV": 0.008,
+    "result": {
+      "status": "WITHIN_SUPPLIED_CURVE_DOMAIN_CSDA_MODEL",
+      "E_in_LAB_MeV": 0.65,
+      "E_out_LAB_MeV": 0.6442963032688427,
+      "primary_energy_loss_MeV": 0.005703696731157337,
+      "atoms_cm2": 1e+18,
+      "material": "OVERLEY_COLD_B10_ENRICHED_95.96_PERCENT",
+      "qualification": "conditional on supplied stopping curve; no independent transmission validation",
+      "interpolation": "piecewise linear atomic stopping versus LAB proton energy"
+    }
+  },
+  {
+    "source_stopping_scale": 1.04,
+    "digitization_stopping_offset_eV_cm2_atom": 8e-17,
+    "digitization_energy_axis_shift_MeV": -0.008,
+    "result": {
+      "status": "WITHIN_SUPPLIED_CURVE_DOMAIN_CSDA_MODEL",
+      "E_in_LAB_MeV": 0.65,
+      "E_out_LAB_MeV": 0.6442387698256158,
+      "primary_energy_loss_MeV": 0.005761230174384235,
+      "atoms_cm2": 1e+18,
+      "material": "OVERLEY_COLD_B10_ENRICHED_95.96_PERCENT",
+      "qualification": "conditional on supplied stopping curve; no independent transmission validation",
+      "interpolation": "piecewise linear atomic stopping versus LAB proton energy"
+    }
+  },
+  {
+    "source_stopping_scale": 1.04,
+    "digitization_stopping_offset_eV_cm2_atom": 8e-17,
+    "digitization_energy_axis_shift_MeV": 0.008,
+    "result": {
+      "status": "WITHIN_SUPPLIED_CURVE_DOMAIN_CSDA_MODEL",
+      "E_in_LAB_MeV": 0.65,
+      "E_out_LAB_MeV": 0.644135788914866,
+      "primary_energy_loss_MeV": 0.005864211085134019,
+      "atoms_cm2": 1e+18,
+      "material": "OVERLEY_COLD_B10_ENRICHED_95.96_PERCENT",
+      "qualification": "conditional on supplied stopping curve; no independent transmission validation",
+      "interpolation": "piecewise linear atomic stopping versus LAB proton energy"
+    }
+  }
+]
