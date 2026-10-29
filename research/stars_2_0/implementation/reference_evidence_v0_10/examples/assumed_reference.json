@@ -1,0 +1,52 @@
+{
+  "schema": "0.10",
+  "run_class": "ASSUMED_COHERENT_TRANSPORT_BENCHMARK",
+  "E_proton_LAB_MeV": 0.675,
+  "material": "B11",
+  "stopping_model": "srim13",
+  "nuclear_variant": "ZBL_SIMNRA_7_04",
+  "total_atoms_cm2": 1e+18,
+  "depth_bins": 8,
+  "samples_per_depth": 128,
+  "seed": 20261029,
+  "raw_mix_coefficient": 0.76,
+  "relative_phase_radians": 4.209734155810323,
+  "source_config": {
+    "primary_radius_fm": 5.022361472755478,
+    "secondary_radius_fm": 4.5,
+    "pair_level_above_threshold_MeV": 3.12884,
+    "pair_reduced_width_squared_MeV": 1.075,
+    "boundary_convention": "S_AT_DECLARED_PAIR_LEVEL",
+    "coulomb_phase_convention": "RELATIVE_TO_SIGMA0",
+    "basis_convention": "RAW_EQUATIONS_NOT_BRANCH_FRACTIONS",
+    "run_class": "EXPLORATORY_LITERATURE_MODEL"
+  },
+  "collection_axis_LAB": [
+    0,
+    0,
+    1
+  ],
+  "collection_half_angle_deg": 60.0,
+  "true_exit_edges_MeV": [
+    0.1,
+    1.0,
+    3.0,
+    6.0,
+    10.0
+  ],
+  "detector_response": null,
+  "attempts": [
+    {
+      "attempt_id": "ASSUMED_ATTEMPT_A",
+      "incident_protons": 10000
+    },
+    {
+      "attempt_id": "ASSUMED_ZERO_SOURCE_ATTEMPT",
+      "incident_protons": 0
+    },
+    {
+      "attempt_id": "ASSUMED_ATTEMPT_B",
+      "incident_protons": 20000
+    }
+  ]
+}
