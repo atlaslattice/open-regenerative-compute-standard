@@ -1,0 +1,18 @@
+{
+  "table_source": "arXiv:1409.3540v2 Table 11 PDF page 30",
+  "VV_fraction_of_tabulated_fabricated_cost": [
+    0.016428571428571428,
+    0.016727272727272726
+  ],
+  "VV_fraction_of_tabulated_mass": 0.012030598052851182,
+  "outside_VV_fraction_of_tabulated_fabricated_cost": [
+    0.9832727272727273,
+    0.9835714285714285
+  ],
+  "outside_VV_fraction_of_tabulated_mass": 0.9879694019471488,
+  "DD_DT_plant_commonality": "UNKNOWN",
+  "permanent_shared_hardware": "NOT_ESTABLISHED_BY_COST_SHARE",
+  "row_sum_VV_fabricated_MUSD": 92.7,
+  "printed_VV_fabricated_MUSD": 92.0,
+  "rounding_rule": "preserve source rounded totals; do not silently force row sums"
+}

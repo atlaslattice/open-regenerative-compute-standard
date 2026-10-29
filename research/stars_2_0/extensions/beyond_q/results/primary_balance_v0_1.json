@@ -1,0 +1,22 @@
+{
+  "quantity_status": "DERIVED_CONDITIONAL_PRIMARY_ONLY",
+  "dd_T_born_kg_year": 2.8695429026057204,
+  "dd_He3_born_kg_year": 2.8695429026057204,
+  "dd_deuterium_consumed_kg_year": 7.6648002730078515,
+  "dd_T_recovered_kg_year": 2.2956343220845765,
+  "dd_He3_recovered_kg_year": 2.2956343220845765,
+  "dd_He3_recovered_liters_273_15K_101325Pa": 17060.436930269516,
+  "dt_T_burn_kg_year": 24.99437085053733,
+  "direct_T_fraction_of_DT_burn": 0.0918460534898891,
+  "unclosed_T_balance_kg_year_before_decay_reserves_losses": 22.698736528452752,
+  "primary_DD_MW_for_direct_T_balance_same_cf_recovery": 272.1946022727273,
+  "recovered_capex_ancestor_USD": 5870000000.0,
+  "recomputed_capex_descendant_USD": 5670000000.0,
+  "DD_on_state_primary_neutron_power_MW": 8.39041095890411,
+  "DD_on_state_primary_charged_power_MW": 16.60958904109589,
+  "energy_ledger_status": "INCOMPLETE: heating/secondary/blanket/recovery/conversion/auxiliaries UNKNOWN",
+  "thermal_105MW_ancestry": "UNKNOWN",
+  "net_minus40MWe_ancestry": "UNKNOWN",
+  "net_campus_export_status": "NOT_REPRODUCED",
+  "ROI_status": "NOT_COMPUTED: unresolved energy and cost inputs"
+}
