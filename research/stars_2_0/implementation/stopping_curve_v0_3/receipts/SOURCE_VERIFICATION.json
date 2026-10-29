@@ -1,0 +1,40 @@
+{
+  "point_count": 27,
+  "mirror_comparison_is_post_digitization": true,
+  "max_mirror_delta_E_MeV": 0.0072321037123596055,
+  "max_mirror_delta_epsilon_eV_cm2_atom": 5.471440139303497e-17,
+  "source_anchor_checks": [
+    {
+      "source_energy_MeV": 1.805,
+      "source_stopping_eV_cm2_atom": 2.72e-15,
+      "digitized": {
+        "pixel_x": 1612.4851485148515,
+        "pixel_y": 1588.1683168316831,
+        "component_pixels": 101,
+        "E_proton_LAB_MeV": 1.8036443419057193,
+        "epsilon_eV_cm2_atom": 2.7388045236927e-15
+      },
+      "E_difference_MeV": -0.0013556580942806207,
+      "stopping_difference_eV_cm2_atom": 1.880452369269991e-17
+    },
+    {
+      "source_energy_MeV": 2.642,
+      "source_stopping_eV_cm2_atom": 2.1e-15,
+      "digitized": {
+        "pixel_x": 2274.3333333333335,
+        "pixel_y": 1640.919191919192,
+        "component_pixels": 99,
+        "E_proton_LAB_MeV": 2.641805041305658,
+        "epsilon_eV_cm2_atom": 2.0658194789378933e-15
+      },
+      "E_difference_MeV": -0.00019495869434171809,
+      "stopping_difference_eV_cm2_atom": -3.4180521062106546e-17
+    }
+  ],
+  "within_working_digitization_allowances": true,
+  "source_common_probable_error_relative": 0.04,
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "pillow": "12.3.0",
+  "pdftoppm_version_output": "pdftoppm version 26.05.0\nCopyright 2005-2026 The Poppler Developers - http://poppler.freedesktop.org\nCopyright 1996-2011, 2022 Glyph & Cog, LLC"
+}
