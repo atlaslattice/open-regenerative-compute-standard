@@ -1,0 +1,9 @@
+{
+  "status": "REFINEMENT_GATE_FAILED_BEFORE_OUTPUT",
+  "configuration": "4 versus 8 subdivisions per upstream energy interval",
+  "example": "srim13 alpha 3 MeV, BN additive, 2e18 total atoms/cm2",
+  "delta_MeV": 2.505007253628122e-06,
+  "gate_MeV": 1e-06,
+  "correction": "increased nominal refinement to16 and reference32; gate unchanged",
+  "final_max_delta_MeV": 1.7739361002355736e-07
+}
