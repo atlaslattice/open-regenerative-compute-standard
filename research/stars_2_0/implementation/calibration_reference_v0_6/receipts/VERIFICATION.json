@@ -1,0 +1,16 @@
+{
+  "tests_passed": 11,
+  "original_author_tests_passed": 2,
+  "original_csv_repeat_byte_identical": {
+    "stars_2_0_wp_b_v04_s2_collector_window_sweep.csv": true,
+    "stars_2_0_wp_b_v04_harmonic_local_smoothing_pde.csv": true,
+    "stars_2_0_wp_b_v04_s3_deepseek_target_arms.csv": true,
+    "stars_2_0_wp_b_v04_s1_quality_adjusted_utility.csv": true,
+    "stars_2_0_wp_b_v04_correlated_3alpha_events.csv": true
+  },
+  "calibration_results_repeat_byte_identical": true,
+  "source_hash_matches_prior_independent_extraction": true,
+  "source_calibration_scope": "historical proton-on-B10-enriched target only",
+  "source_generator_physical_gate": "FAIL; retained without promotion",
+  "fit_confidence_interval": null
+}
