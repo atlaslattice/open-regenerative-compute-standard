@@ -1,0 +1,76 @@
+{
+  "tests_passed": 16,
+  "repeat_results_events_receipt_byte_identical": true,
+  "full_event_log_sha256": "5ae9c0940e5fa95b58b9ae094e92d9d4dec6c8f082f9ac7afa0859589b9ac9e1",
+  "full_event_log_samples": 512,
+  "max_four_momentum_residual_MeV": 5.4569682106375694e-12,
+  "sampling_distribution_test": "2000 events, seed814, pair-invariant-mass mean checked against an independently expressed 1D invariant-phase-space integral within6 estimated MC standard errors. Numerical distribution check, not scientific calibration.",
+  "summary": [
+    {
+      "attempt_id": "synthetic_attempt_1",
+      "incident_protons": 10000,
+      "expected_fusion_events": 0.013917225704172326,
+      "expected_alpha_births": 0.04175167711251698,
+      "expected_alpha_exit_count_bounds": [
+        0.04164294878670313,
+        0.04175167711251698
+      ],
+      "expected_geometry_accepted_exit_count_bounds": [
+        0.012014480002430016,
+        0.012014480002430016
+      ],
+      "maximum_four_momentum_residual_MeV": 5.4569682106375694e-12,
+      "unresolved_alpha_exits_in_samples": 2,
+      "detector_signal_expected_counts": [
+        0.0007502254481155394,
+        0.002120202353370003,
+        0.004044693720275082,
+        0.00022832948420907723
+      ]
+    },
+    {
+      "attempt_id": "synthetic_attempt_2_ZERO_PROTONS",
+      "incident_protons": 0,
+      "expected_fusion_events": 0.0,
+      "expected_alpha_births": 0.0,
+      "expected_alpha_exit_count_bounds": [
+        0.0,
+        0.0
+      ],
+      "expected_geometry_accepted_exit_count_bounds": [
+        0.0,
+        0.0
+      ],
+      "maximum_four_momentum_residual_MeV": 0.0,
+      "unresolved_alpha_exits_in_samples": 0,
+      "detector_signal_expected_counts": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "attempt_id": "synthetic_attempt_3",
+      "incident_protons": 20000,
+      "expected_fusion_events": 0.027834451408344653,
+      "expected_alpha_births": 0.08350335422503397,
+      "expected_alpha_exit_count_bounds": [
+        0.08274225594433704,
+        0.08350335422503397
+      ],
+      "expected_geometry_accepted_exit_count_bounds": [
+        0.021854393488583108,
+        0.021854393488583108
+      ],
+      "maximum_four_momentum_residual_MeV": 3.637978807091713e-12,
+      "unresolved_alpha_exits_in_samples": 7,
+      "detector_signal_expected_counts": [
+        0.0015656878917193868,
+        0.003979456724786775,
+        0.006523699548830778,
+        0.0009785549323246166
+      ]
+    }
+  ]
+}
