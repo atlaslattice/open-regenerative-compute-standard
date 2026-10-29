@@ -1,0 +1,506 @@
+{
+  "attempts": [
+    {
+      "attempt_id": "synthetic-ready-001",
+      "attempt_start_utc": "2026-10-29T00:40:00Z",
+      "acoustic_configuration_id": "synthetic-acoustic-fixture-v1",
+      "mode": "UNTIL_READY",
+      "arm": "ON",
+      "evidence": "SYNTHETIC_TEST",
+      "status": "READY_IN_TRACE",
+      "first_qualifying_sample_s": 2.0,
+      "first_confirmed_readiness_s": 3.0,
+      "attempt_end_s": 3.0,
+      "driver_wall_energy_J": 0.6,
+      "observation_gaps": [],
+      "criterion_history": [
+        {
+          "time_s": 0.0,
+          "qualifies": false,
+          "stage": "PREPARING",
+          "failed_or_missing_metrics": [
+            "envelope_fraction"
+          ],
+          "qualifying_window_start_s": null
+        },
+        {
+          "time_s": 0.5,
+          "qualifies": false,
+          "stage": "PREPARING",
+          "failed_or_missing_metrics": [
+            "envelope_fraction"
+          ],
+          "qualifying_window_start_s": null
+        },
+        {
+          "time_s": 1.0,
+          "qualifies": false,
+          "stage": "PREPARING",
+          "failed_or_missing_metrics": [
+            "envelope_fraction"
+          ],
+          "qualifying_window_start_s": null
+        },
+        {
+          "time_s": 1.5,
+          "qualifies": false,
+          "stage": "PREPARING",
+          "failed_or_missing_metrics": [
+            "envelope_fraction"
+          ],
+          "qualifying_window_start_s": null
+        },
+        {
+          "time_s": 2.0,
+          "qualifies": true,
+          "stage": "SETTLING",
+          "failed_or_missing_metrics": [],
+          "qualifying_window_start_s": 2.0
+        },
+        {
+          "time_s": 2.5,
+          "qualifies": true,
+          "stage": "SETTLING",
+          "failed_or_missing_metrics": [],
+          "qualifying_window_start_s": 2.0
+        },
+        {
+          "time_s": 3.0,
+          "qualifies": true,
+          "stage": "SETTLING",
+          "failed_or_missing_metrics": [],
+          "qualifying_window_start_s": 2.0
+        }
+      ],
+      "laser_trigger": "NONE_NO_HARDWARE_INTERFACE",
+      "scope": "sampled readiness policy; not proof of full saturation or fusion benefit",
+      "sensor_evidence": "caller metadata, not independent sensor validation",
+      "fixed_window_note": "first readiness may not persist to fixed-window end; inspect history",
+      "power_scope": "driver wall energy only; sparse power interpolation may miss variation",
+      "subsequent_outcomes": {
+        "status": "NOT_MEASURED",
+        "fusion_events": null,
+        "trigger_phase_rad": null
+      }
+    },
+    {
+      "attempt_id": "synthetic-slower-002",
+      "attempt_start_utc": "2026-10-29T00:41:00Z",
+      "acoustic_configuration_id": "synthetic-acoustic-fixture-v1",
+      "mode": "UNTIL_READY",
+      "arm": "ON",
+      "evidence": "SYNTHETIC_TEST",
+      "status": "READY_IN_TRACE",
+      "first_qualifying_sample_s": 5.0,
+      "first_confirmed_readiness_s": 6.0,
+      "attempt_end_s": 6.0,
+      "driver_wall_energy_J": 1.2,
+      "observation_gaps": [],
+      "criterion_history": [
+        {
+          "time_s": 0.0,
+          "qualifies": false,
+          "stage": "PREPARING",
+          "failed_or_missing_metrics": [
+            "envelope_fraction"
+          ],
+          "qualifying_window_start_s": null
+        },
+        {
+          "time_s": 0.5,
+          "qualifies": false,
+          "stage": "PREPARING",
+          "failed_or_missing_metrics": [
+            "envelope_fraction"
+          ],
+          "qualifying_window_start_s": null
+        },
+        {
+          "time_s": 1.0,
+          "qualifies": false,
+          "stage": "PREPARING",
+          "failed_or_missing_metrics": [
+            "envelope_fraction"
+          ],
+          "qualifying_window_start_s": null
+        },
+        {
+          "time_s": 1.5,
+          "qualifies": false,
+          "stage": "PREPARING",
+          "failed_or_missing_metrics": [
+            "envelope_fraction"
+          ],
+          "qualifying_window_start_s": null
+        },
+        {
+          "time_s": 2.0,
+          "qualifies": false,
+          "stage": "PREPARING",
+          "failed_or_missing_metrics": [
+            "envelope_fraction"
+          ],
+          "qualifying_window_start_s": null
+        },
+        {
+          "time_s": 2.5,
+          "qualifies": false,
+          "stage": "PREPARING",
+          "failed_or_missing_metrics": [
+            "envelope_fraction"
+          ],
+          "qualifying_window_start_s": null
+        },
+        {
+          "time_s": 3.0,
+          "qualifies": false,
+          "stage": "PREPARING",
+          "failed_or_missing_metrics": [
+            "envelope_fraction"
+          ],
+          "qualifying_window_start_s": null
+        },
+        {
+          "time_s": 3.5,
+          "qualifies": false,
+          "stage": "PREPARING",
+          "failed_or_missing_metrics": [
+            "envelope_fraction"
+          ],
+          "qualifying_window_start_s": null
+        },
+        {
+          "time_s": 4.0,
+          "qualifies": false,
+          "stage": "PREPARING",
+          "failed_or_missing_metrics": [
+            "envelope_fraction"
+          ],
+          "qualifying_window_start_s": null
+        },
+        {
+          "time_s": 4.5,
+          "qualifies": false,
+          "stage": "PREPARING",
+          "failed_or_missing_metrics": [
+            "envelope_fraction"
+          ],
+          "qualifying_window_start_s": null
+        },
+        {
+          "time_s": 5.0,
+          "qualifies": true,
+          "stage": "SETTLING",
+          "failed_or_missing_metrics": [],
+          "qualifying_window_start_s": 5.0
+        },
+        {
+          "time_s": 5.5,
+          "qualifies": true,
+          "stage": "SETTLING",
+          "failed_or_missing_metrics": [],
+          "qualifying_window_start_s": 5.0
+        },
+        {
+          "time_s": 6.0,
+          "qualifies": true,
+          "stage": "SETTLING",
+          "failed_or_missing_metrics": [],
+          "qualifying_window_start_s": 5.0
+        }
+      ],
+      "laser_trigger": "NONE_NO_HARDWARE_INTERFACE",
+      "scope": "sampled readiness policy; not proof of full saturation or fusion benefit",
+      "sensor_evidence": "caller metadata, not independent sensor validation",
+      "fixed_window_note": "first readiness may not persist to fixed-window end; inspect history",
+      "power_scope": "driver wall energy only; sparse power interpolation may miss variation",
+      "subsequent_outcomes": {
+        "status": "NOT_MEASURED",
+        "fusion_events": null,
+        "trigger_phase_rad": null
+      }
+    },
+    {
+      "attempt_id": "synthetic-timeout-003",
+      "attempt_start_utc": "2026-10-29T00:42:00Z",
+      "acoustic_configuration_id": "synthetic-acoustic-fixture-v1",
+      "mode": "UNTIL_READY",
+      "arm": "ON",
+      "evidence": "SYNTHETIC_TEST",
+      "status": "TIMEOUT_NOT_READY",
+      "first_qualifying_sample_s": null,
+      "first_confirmed_readiness_s": null,
+      "attempt_end_s": 10.0,
+      "driver_wall_energy_J": 2.0000000000000004,
+      "observation_gaps": [],
+      "criterion_history": [
+        {
+          "time_s": 0.0,
+          "qualifies": false,
+          "stage": "PREPARING",
+          "failed_or_missing_metrics": [
+            "envelope_fraction"
+          ],
+          "qualifying_window_start_s": null
+        },
+        {
+          "time_s": 0.5,
+          "qualifies": false,
+          "stage": "PREPARING",
+          "failed_or_missing_metrics": [
+            "envelope_fraction"
+          ],
+          "qualifying_window_start_s": null
+        },
+        {
+          "time_s": 1.0,
+          "qualifies": false,
+          "stage": "PREPARING",
+          "failed_or_missing_metrics": [
+            "envelope_fraction"
+          ],
+          "qualifying_window_start_s": null
+        },
+        {
+          "time_s": 1.5,
+          "qualifies": false,
+          "stage": "PREPARING",
+          "failed_or_missing_metrics": [
+            "envelope_fraction"
+          ],
+          "qualifying_window_start_s": null
+        },
+        {
+          "time_s": 2.0,
+          "qualifies": false,
+          "stage": "PREPARING",
+          "failed_or_missing_metrics": [
+            "envelope_fraction"
+          ],
+          "qualifying_window_start_s": null
+        },
+        {
+          "time_s": 2.5,
+          "qualifies": false,
+          "stage": "PREPARING",
+          "failed_or_missing_metrics": [
+            "envelope_fraction"
+          ],
+          "qualifying_window_start_s": null
+        },
+        {
+          "time_s": 3.0,
+          "qualifies": false,
+          "stage": "PREPARING",
+          "failed_or_missing_metrics": [
+            "envelope_fraction"
+          ],
+          "qualifying_window_start_s": null
+        },
+        {
+          "time_s": 3.5,
+          "qualifies": false,
+          "stage": "PREPARING",
+          "failed_or_missing_metrics": [
+            "envelope_fraction"
+          ],
+          "qualifying_window_start_s": null
+        },
+        {
+          "time_s": 4.0,
+          "qualifies": false,
+          "stage": "PREPARING",
+          "failed_or_missing_metrics": [
+            "envelope_fraction"
+          ],
+          "qualifying_window_start_s": null
+        },
+        {
+          "time_s": 4.5,
+          "qualifies": false,
+          "stage": "PREPARING",
+          "failed_or_missing_metrics": [
+            "envelope_fraction"
+          ],
+          "qualifying_window_start_s": null
+        },
+        {
+          "time_s": 5.0,
+          "qualifies": false,
+          "stage": "PREPARING",
+          "failed_or_missing_metrics": [
+            "envelope_fraction"
+          ],
+          "qualifying_window_start_s": null
+        },
+        {
+          "time_s": 5.5,
+          "qualifies": false,
+          "stage": "PREPARING",
+          "failed_or_missing_metrics": [
+            "envelope_fraction"
+          ],
+          "qualifying_window_start_s": null
+        },
+        {
+          "time_s": 6.0,
+          "qualifies": false,
+          "stage": "PREPARING",
+          "failed_or_missing_metrics": [
+            "envelope_fraction"
+          ],
+          "qualifying_window_start_s": null
+        },
+        {
+          "time_s": 6.5,
+          "qualifies": false,
+          "stage": "PREPARING",
+          "failed_or_missing_metrics": [
+            "envelope_fraction"
+          ],
+          "qualifying_window_start_s": null
+        },
+        {
+          "time_s": 7.0,
+          "qualifies": false,
+          "stage": "PREPARING",
+          "failed_or_missing_metrics": [
+            "envelope_fraction"
+          ],
+          "qualifying_window_start_s": null
+        },
+        {
+          "time_s": 7.5,
+          "qualifies": false,
+          "stage": "PREPARING",
+          "failed_or_missing_metrics": [
+            "envelope_fraction"
+          ],
+          "qualifying_window_start_s": null
+        },
+        {
+          "time_s": 8.0,
+          "qualifies": false,
+          "stage": "PREPARING",
+          "failed_or_missing_metrics": [
+            "envelope_fraction"
+          ],
+          "qualifying_window_start_s": null
+        },
+        {
+          "time_s": 8.5,
+          "qualifies": false,
+          "stage": "PREPARING",
+          "failed_or_missing_metrics": [
+            "envelope_fraction"
+          ],
+          "qualifying_window_start_s": null
+        },
+        {
+          "time_s": 9.0,
+          "qualifies": false,
+          "stage": "PREPARING",
+          "failed_or_missing_metrics": [
+            "envelope_fraction"
+          ],
+          "qualifying_window_start_s": null
+        },
+        {
+          "time_s": 9.5,
+          "qualifies": false,
+          "stage": "PREPARING",
+          "failed_or_missing_metrics": [
+            "envelope_fraction"
+          ],
+          "qualifying_window_start_s": null
+        },
+        {
+          "time_s": 10.0,
+          "qualifies": false,
+          "stage": "PREPARING",
+          "failed_or_missing_metrics": [
+            "envelope_fraction"
+          ],
+          "qualifying_window_start_s": null
+        }
+      ],
+      "laser_trigger": "NONE_NO_HARDWARE_INTERFACE",
+      "scope": "sampled readiness policy; not proof of full saturation or fusion benefit",
+      "sensor_evidence": "caller metadata, not independent sensor validation",
+      "fixed_window_note": "first readiness may not persist to fixed-window end; inspect history",
+      "power_scope": "driver wall energy only; sparse power interpolation may miss variation",
+      "subsequent_outcomes": {
+        "status": "NOT_MEASURED",
+        "fusion_events": null,
+        "trigger_phase_rad": null
+      }
+    },
+    {
+      "attempt_id": "synthetic-abort-004",
+      "attempt_start_utc": "2026-10-29T00:43:00Z",
+      "acoustic_configuration_id": "synthetic-acoustic-fixture-v1",
+      "mode": "UNTIL_READY",
+      "arm": "ON",
+      "evidence": "SYNTHETIC_TEST",
+      "status": "ABORTED",
+      "first_qualifying_sample_s": null,
+      "first_confirmed_readiness_s": null,
+      "attempt_end_s": 1.25,
+      "driver_wall_energy_J": 0.25,
+      "observation_gaps": [],
+      "criterion_history": [
+        {
+          "time_s": 0.0,
+          "qualifies": false,
+          "stage": "PREPARING",
+          "failed_or_missing_metrics": [
+            "envelope_fraction"
+          ],
+          "qualifying_window_start_s": null
+        },
+        {
+          "time_s": 0.5,
+          "qualifies": false,
+          "stage": "PREPARING",
+          "failed_or_missing_metrics": [
+            "envelope_fraction"
+          ],
+          "qualifying_window_start_s": null
+        },
+        {
+          "time_s": 1.0,
+          "qualifies": false,
+          "stage": "PREPARING",
+          "failed_or_missing_metrics": [
+            "envelope_fraction"
+          ],
+          "qualifying_window_start_s": null
+        }
+      ],
+      "laser_trigger": "NONE_NO_HARDWARE_INTERFACE",
+      "scope": "sampled readiness policy; not proof of full saturation or fusion benefit",
+      "sensor_evidence": "caller metadata, not independent sensor validation",
+      "fixed_window_note": "first readiness may not persist to fixed-window end; inspect history",
+      "power_scope": "driver wall energy only; sparse power interpolation may miss variation",
+      "subsequent_outcomes": {
+        "status": "NOT_MEASURED",
+        "fusion_events": null,
+        "trigger_phase_rad": null
+      }
+    }
+  ],
+  "summary": {
+    "all_attempts": 4,
+    "ready_attempts": 2,
+    "status_counts": {
+      "ABORTED": 1,
+      "READY_IN_TRACE": 2,
+      "TIMEOUT_NOT_READY": 1
+    },
+    "readiness_times_s_conditional_on_ready": [
+      3.0,
+      6.0
+    ],
+    "note": "timeouts/aborts retained; conditional times are not an unbiased comparison of different policies"
+  }
+}

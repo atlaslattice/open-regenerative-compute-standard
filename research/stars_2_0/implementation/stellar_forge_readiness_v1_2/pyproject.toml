@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "stellar-forge-readiness"
+version = "1.2.0"
+requires-python = ">=3.11"
+description = "Observation-based acoustic readiness-policy evaluator; no hardware control"
+[project.scripts]
+stellar-forge-ready = "stellar_forge_readiness.cli:main"
+[tool.setuptools.packages.find]
+where = ["src"]

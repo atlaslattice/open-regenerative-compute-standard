@@ -1,0 +1,5 @@
+attempt_id,status,first_qualifying_sample_s,first_confirmed_readiness_s,attempt_end_s,driver_wall_energy_J
+synthetic-ready-001,READY_IN_TRACE,2.0,3.0,3.0,0.6
+synthetic-slower-002,READY_IN_TRACE,5.0,6.0,6.0,1.2
+synthetic-timeout-003,TIMEOUT_NOT_READY,,,10.0,2.0000000000000004
+synthetic-abort-004,ABORTED,,,1.25,0.25

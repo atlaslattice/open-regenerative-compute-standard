@@ -1,0 +1,34 @@
+{
+  "python": "3.12.14",
+  "installed_cli": "PASS",
+  "python_tests": 13,
+  "ui_event_test": {
+    "status": "PASS",
+    "scope": "DOM_EVENT_HARNESS_NOT_BROWSER_RENDERING",
+    "checks": [
+      "readiness default",
+      "confirmation edit",
+      "fixed-window export",
+      "all-attempt viewer",
+      "invalid policy feedback"
+    ]
+  },
+  "browser_rendering": "NOT_VERIFIED_NO_CHROMIUM",
+  "hardware_control": "NONE",
+  "physical_validation": "NOT_RUN",
+  "repeated_results": "BYTE_IDENTICAL",
+  "expected_synthetic_summary": {
+    "all_attempts": 4,
+    "ready_attempts": 2,
+    "status_counts": {
+      "ABORTED": 1,
+      "READY_IN_TRACE": 2,
+      "TIMEOUT_NOT_READY": 1
+    },
+    "readiness_times_s_conditional_on_ready": [
+      3.0,
+      6.0
+    ],
+    "note": "timeouts/aborts retained; conditional times are not an unbiased comparison of different policies"
+  }
+}

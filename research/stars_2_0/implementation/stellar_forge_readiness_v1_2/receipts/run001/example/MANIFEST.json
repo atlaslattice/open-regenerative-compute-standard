@@ -1,0 +1,19 @@
+{
+  "python": "3.12.14",
+  "input_sha256": "0ba9378b7d59d42d97de24a25658c8e59276b9f5fa52a827fac95dfafbac0039",
+  "code_sha256": {
+    "__init__.py": "5377ff260af7ce9822606da42dcbdc4f4e5342c57337d2a4b60fdfdd0f4e6450",
+    "readiness.py": "250200e9c017dcc8c979929f3ff9040aa9dc8b7a95b6771b9cb3da5276daf3ce",
+    "ui.py": "ca909ce8684a5e365a1e5006571859d544b9a9fc9a4d9276ee25c5c0f841e0f5",
+    "cli.py": "f53b393e45543ade231e533e167cdb2167d54606d529c8d1642bcb30764fd6c4"
+  },
+  "output_sha256": {
+    "ATTEMPTS.jsonl": "0b125f6a63a7396aeaeb6a4a12ea96e7ae3a0b23d722ae1cde305b4bd6b02f95",
+    "RESULTS.json": "eb8b0b6e965938ff058c31e1518f112a5ac7dc53d075b2bd2fcd0fa74dfee4e2",
+    "INPUT.json": "0ba9378b7d59d42d97de24a25658c8e59276b9f5fa52a827fac95dfafbac0039",
+    "SUMMARY.csv": "86c73e6dedba2f5d3173cf0bf0a29b169f677ba2dd7f11ae4015dd36b0eccca7",
+    "REPORT.md": "c36b1bc2107b7b38b6ac6e4e579515c6d81ab1c7e7fc6e9c623ade34a598fb3e"
+  },
+  "hardware_control": "NONE",
+  "randomness": "none"
+}
