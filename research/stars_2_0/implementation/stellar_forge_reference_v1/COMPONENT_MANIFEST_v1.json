@@ -1,0 +1,10 @@
+{
+  "name": "Stellar Forge Reference v.1",
+  "classification": "PHYSICAL_CANDIDATE",
+  "supported_run_class": "VERIFICATION_DEMO",
+  "physical_validation": "NOT_RUN",
+  "external_shugs_dependencies": [],
+  "requirements_status": "DELTA_COVERAGE_v1.json",
+  "vendored_sources": "src/stellar_forge_reference/VENDOR_LOCK.json",
+  "note": "Demonstration integration only, not completion of every delta or blind-prediction freeze"
+}
