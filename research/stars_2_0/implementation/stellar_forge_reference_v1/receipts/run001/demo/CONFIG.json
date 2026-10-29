@@ -1,0 +1,137 @@
+{
+  "alpha_fixture": [
+    {
+      "birth_depth_fraction": 0.5,
+      "birth_layer_index": 0,
+      "energy_MeV": 1,
+      "fixture_id": "a1",
+      "mu": 1,
+      "weight": 100
+    },
+    {
+      "birth_depth_fraction": 0.5,
+      "birth_layer_index": 0,
+      "energy_MeV": 2,
+      "fixture_id": "a2",
+      "mu": -1,
+      "weight": 50
+    }
+  ],
+  "components": [
+    {
+      "asset_id": "UNASSESSED_FACILITY",
+      "currency": "USD",
+      "installed_cost_USD": null
+    }
+  ],
+  "costs_USD": {
+    "capital_allocation": null,
+    "electricity": null,
+    "extraction": null,
+    "other_operations": null,
+    "purification": null,
+    "storage": null,
+    "transport": null
+  },
+  "detector": {
+    "background_counts": [
+      3,
+      4
+    ],
+    "evidence_state": "SYNTHETIC",
+    "measured_edges_mev": [
+      0,
+      1.5,
+      4
+    ],
+    "probabilities": [
+      [
+        0.7,
+        0.1
+      ],
+      [
+        0.2,
+        0.6
+      ]
+    ],
+    "response_id": "SYNTHETIC_RESPONSE",
+    "species": "alpha",
+    "true_edges_mev": [
+      0,
+      1.5,
+      4
+    ]
+  },
+  "economic_as_of": "2026-10-28",
+  "energy_scenario": {
+    "alpha_collection_fraction": 0.5,
+    "alpha_self_heat_fraction": 0.3,
+    "auxiliary_wall_J": 10,
+    "conversion_efficiency": 0.4,
+    "duration_s": 2,
+    "fusion_J": 100,
+    "startup_wall_J": 10,
+    "sustaining_wall_J": 100
+  },
+  "experiment_id": "pb11-verification-fixture-001",
+  "layers": [
+    {
+      "areal_mass_g_cm2": 0.2,
+      "layer_id": "fixture-layer",
+      "material_id": "SYNTHETIC_A"
+    }
+  ],
+  "operating_track": "GRID_ASSISTED_BURN_HYPOTHESIS",
+  "products": [],
+  "protons": [
+    {
+      "energy_MeV": 1,
+      "mu": 1
+    },
+    {
+      "energy_MeV": 2,
+      "mu": 0.5
+    }
+  ],
+  "ranges": [
+    {
+      "csda_range_g_cm2": [
+        0,
+        0.5,
+        1,
+        2
+      ],
+      "energy_MeV": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "material_id": "SYNTHETIC_A",
+      "species": "proton"
+    },
+    {
+      "csda_range_g_cm2": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "energy_MeV": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "material_id": "SYNTHETIC_A",
+      "species": "alpha"
+    }
+  ],
+  "run_class": "VERIFICATION_DEMO",
+  "schema_version": "0.1",
+  "scientific_outcome": "NOT_TESTED",
+  "source_audit": {
+    "raw_csv_path": null,
+    "sha256": null
+  }
+}

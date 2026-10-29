@@ -1,0 +1,1 @@
+VERIFICATION_DEMO_COMPLETED; physical prediction BLOCKED; report: stellar_forge_reference_v1/receipts/run001/demo/REPORT.md

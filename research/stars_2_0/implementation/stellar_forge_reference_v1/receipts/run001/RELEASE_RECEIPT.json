@@ -1,0 +1,19 @@
+{
+  "name": "Stellar Forge Reference v.1",
+  "package_version": "1.0.0",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "installed_console_run_returncode": 0,
+  "integration_tests": 17,
+  "test_returncode": 0,
+  "deterministic_results_repeat": "BYTE_IDENTICAL",
+  "real_csv_audit": {
+    "status": "IMPORTED_REPORTED_ALPHA_OBSERVABLE",
+    "rows": 41,
+    "sha256": "e56d240ea05fb8663debbb42cef99a93ef466d309eec3dbeb239f77509a6d089",
+    "event_normalization": "BLOCKED_NO_QUALIFIED_TRANSFORMATION"
+  },
+  "shared_covariance_independent_check": "PASS",
+  "physical_prediction": "BLOCKED",
+  "randomness": "none"
+}
