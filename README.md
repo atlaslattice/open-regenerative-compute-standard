@@ -1,5 +1,12 @@
 # The Open Regenerative Compute Standard (ORCS)
 
+
+## Beyond Q v2.3 — Quantum-First Global Research
+
+**[PUBLIC EXECUTIVE PITCH + TECHNICAL WHITE PAPER + REPRODUCIBLE SOURCE](research/stars_2_0/extensions/beyond_q/global_quantum_v2_3/README.md)** · [Executive review brief](research/stars_2_0/extensions/beyond_q/global_quantum_v2_3/EXECUTIVE_PITCH.md) · [Full 2026 technical screening white paper](research/stars_2_0/extensions/beyond_q/global_quantum_v2_3/TECHNICAL_WHITE_PAPER.md) · [Research model + assumptions + cited source registry](research/stars_2_0/extensions/beyond_q/global_quantum_v2_3/source/) · [Discovery keywords and citation](research/stars_2_0/extensions/beyond_q/global_quantum_v2_3/DISCOVERY_AND_METADATA.md).
+
+**Research themes:** fusion-powered quantum computing, Google Willow and neutral atoms, Microsoft Majorana/topological qubits, China Hanyuan-2 and Origin Quantum, ARC D-T design, proposed D-D helium-3/tritium refinery, dilution refrigeration, quantum error correction, cryostat power, full nuclear/wall-plug/isotope balance, 20-year engineering sensitivity, C1-C4 alternatives. **Independent pre-feasibility; not peer reviewed, MIT/CFS/Google/Microsoft endorsed, a validated ARC-DD retrofit, or a promised 400 MW quantum-only site.**
+
 > 🧙‍♂️ **GPTWork WIZARD COUNCIL INVITATION — READ FIRST:** [Creative contribution → adversarial testing → optimize plan → return for project-lead/Tidal Lantern gap review](research/stars_2_0/GPTWORK_WIZARD_COUNCIL_CREATIVE_REVIEW_INVITATION_2026-10-27.md). Includes metaphorical coffee, pointy hat and nap privileges. **This four-stage invitation supersedes 'begin coding immediately'; implementation contract remains unfrozen.**
 
 
