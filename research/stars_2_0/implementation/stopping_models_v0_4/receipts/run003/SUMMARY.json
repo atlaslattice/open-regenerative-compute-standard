@@ -1,0 +1,18 @@
+[
+  {
+    "model": "srim96",
+    "points": 27,
+    "mean_fractional_discrepancy": -0.027297505567784097,
+    "max_absolute_fractional_discrepancy": 0.06517288371352814,
+    "fitted_parameters": 0,
+    "status": "HISTORICAL_SOURCE_COMPARISON_NOT_HELD_OUT_VALIDATION"
+  },
+  {
+    "model": "srim13",
+    "points": 27,
+    "mean_fractional_discrepancy": -0.06835266115632935,
+    "max_absolute_fractional_discrepancy": 0.08632166980510925,
+    "fitted_parameters": 0,
+    "status": "HISTORICAL_SOURCE_COMPARISON_NOT_HELD_OUT_VALIDATION"
+  }
+]
