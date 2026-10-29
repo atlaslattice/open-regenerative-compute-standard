@@ -1,0 +1,82 @@
+[
+  {
+    "E_lab_MeV": "0.65",
+    "incident_protons": 0,
+    "B11_atoms_cm2": 1e+18,
+    "sigma_event_b": 1.3982152382045538,
+    "per_proton_event_probability": 1.398214260702083e-06,
+    "expected_fusion_events": 0.0,
+    "expected_primary_alpha_births": 0.0,
+    "probability_at_least_one_event_per_attempt": -0.0,
+    "status": "CONDITIONAL_FIXED_ENERGY_SCENARIO_NOT_CALIBRATED_STARS_PREDICTION",
+    "assumptions": [
+      "stationary target and constant projectile energy along specified column",
+      "independent protons; one reaction removes each proton",
+      "no competing channels, target changes, scattering or collective amplification",
+      "areal inventory and proton number are supplied scenario inputs",
+      "no acoustic effect assigned",
+      "birth alpha count is not an escaping/detected product count"
+    ],
+    "net_energy": "NOT_CALCULATED_NO_COMPLETE_TRANSPORT_OR_WALL_LEDGER"
+  },
+  {
+    "E_lab_MeV": "0.65",
+    "incident_protons": 10000,
+    "B11_atoms_cm2": 1e+18,
+    "sigma_event_b": 1.3982152382045538,
+    "per_proton_event_probability": 1.398214260702083e-06,
+    "expected_fusion_events": 0.01398214260702083,
+    "expected_primary_alpha_births": 0.04194642782106249,
+    "probability_at_least_one_event_per_attempt": 0.013884856087846816,
+    "status": "CONDITIONAL_FIXED_ENERGY_SCENARIO_NOT_CALIBRATED_STARS_PREDICTION",
+    "assumptions": [
+      "stationary target and constant projectile energy along specified column",
+      "independent protons; one reaction removes each proton",
+      "no competing channels, target changes, scattering or collective amplification",
+      "areal inventory and proton number are supplied scenario inputs",
+      "no acoustic effect assigned",
+      "birth alpha count is not an escaping/detected product count"
+    ],
+    "net_energy": "NOT_CALCULATED_NO_COMPLETE_TRANSPORT_OR_WALL_LEDGER"
+  },
+  {
+    "E_lab_MeV": "0.65",
+    "incident_protons": 1000000,
+    "B11_atoms_cm2": 1e+18,
+    "sigma_event_b": 1.3982152382045538,
+    "per_proton_event_probability": 1.398214260702083e-06,
+    "expected_fusion_events": 1.398214260702083,
+    "expected_primary_alpha_births": 4.194642782106249,
+    "probability_at_least_one_event_per_attempt": 0.7529625262326561,
+    "status": "CONDITIONAL_FIXED_ENERGY_SCENARIO_NOT_CALIBRATED_STARS_PREDICTION",
+    "assumptions": [
+      "stationary target and constant projectile energy along specified column",
+      "independent protons; one reaction removes each proton",
+      "no competing channels, target changes, scattering or collective amplification",
+      "areal inventory and proton number are supplied scenario inputs",
+      "no acoustic effect assigned",
+      "birth alpha count is not an escaping/detected product count"
+    ],
+    "net_energy": "NOT_CALCULATED_NO_COMPLETE_TRANSPORT_OR_WALL_LEDGER"
+  },
+  {
+    "E_lab_MeV": "0.65",
+    "incident_protons": 2000000,
+    "B11_atoms_cm2": 1e+18,
+    "sigma_event_b": 1.3982152382045538,
+    "per_proton_event_probability": 1.398214260702083e-06,
+    "expected_fusion_events": 2.796428521404166,
+    "expected_primary_alpha_births": 8.389285564212498,
+    "probability_at_least_one_event_per_attempt": 0.9389724865546489,
+    "status": "CONDITIONAL_FIXED_ENERGY_SCENARIO_NOT_CALIBRATED_STARS_PREDICTION",
+    "assumptions": [
+      "stationary target and constant projectile energy along specified column",
+      "independent protons; one reaction removes each proton",
+      "no competing channels, target changes, scattering or collective amplification",
+      "areal inventory and proton number are supplied scenario inputs",
+      "no acoustic effect assigned",
+      "birth alpha count is not an escaping/detected product count"
+    ],
+    "net_energy": "NOT_CALCULATED_NO_COMPLETE_TRANSPORT_OR_WALL_LEDGER"
+  }
+]

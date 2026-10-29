@@ -1,0 +1,18 @@
+{
+  "README.md": "9fb4970ce5d4ddc1dbba78755f63138bdc70b6898f8541b12a18f2d784f23854",
+  "APPARATUS_RETENTION_v0_1.json": "853482d875fec1ecf3c87d06554b8683a41b7a7fd25994dcc54f1d6d3a001fcd",
+  "SOURCE_INDEX.json": "aed87af60a72046de2688a91c6258ca39e04241a1b726444d77dd97bb15667d1",
+  "derive_event_data.py": "919e657d223299dc7a047fbb7d388801357b8117a644f7be8d738ea39c50f320",
+  "thin_target.py": "08ec5037eabc4372f4f640bf95dabfd9cbca415a8058eb3730c28c6bbb48c2a8",
+  "run_bridge.py": "7c87a1bfac58bb1f681fce4a2f5bcc6cb44e86b01bdb75756a9469cd37fe6fb1",
+  "test_bridge.py": "be81e0dca5ce39f9abf7f0c94a6cf86b8dba14704c219809237a95ed0c883ca2",
+  "source_tables/table1.html": "ccfa9efe1da9b1bc6a7de9524ac929765589bb7d20cd84deb4761940da719b92",
+  "source_tables/table2.html": "855dd0de526cafb144463be23e7b00698683885cd60e24eaac34baa1a20452f2",
+  "source_tables/table3.html": "9d7c9bdb70bb848b14e157b3a7039ee246f06db686226bfbeac20d472d5aa33e",
+  "receipts/run001/ARCHIVE_COMPARISON.json": "bf393ceee840066243114e0832728304f92eac77d87d9c4813c03b48650b77e5",
+  "receipts/run002/EVENT_CROSS_SECTIONS.json": "b05e779936d2f797c34bb4fb3ffb818841fd332dd477a445772f9c5e991a3acf",
+  "receipts/run002/RECEIPT.json": "92271dfd1cf2c8f8df63852f53f3f7db2b365d0c45881065a03cd39f84805869",
+  "receipts/run002/testlog.txt": "da7abf1047ca992aec78fe2a65a4db7617ae4c5fc3ba6d9f49071ef0acbcf905",
+  "receipts/run002/COEFFICIENTS.json": "a5915f0464abe4086d5d5faf0e833ddfe1e3fa9fa35ff7cf7e596773a7b44035",
+  "receipts/run002/CONDITIONAL_SCENARIOS.json": "c7f0866c97080ae0027dc6196afd32e850bbc6f9ca0ba2cb02fccfdce955bb3f"
+}
