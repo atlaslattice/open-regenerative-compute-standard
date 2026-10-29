@@ -1,0 +1,6 @@
+data_status_badge,arm_id,n_shots_attempted,n_shots_qualified,qualified_shot_fraction,unconditional_mean_accepted_uJ,unconditional_cv_pct,qualified_sum_accepted_uJ,total_facility_wall_cost_J,S1_utility_U_uJ_per_wall_J
+PARAMETRIC_SCENARIO,Arm_1_Reference_No_Actuator,250,101,0.404,0.112685,20.68,11.6037,2087.5,0.005559
+PARAMETRIC_SCENARIO,Arm_2_OFF_Actuator_Installed,250,107,0.428,0.114272,20.16,12.3631,2087.5,0.005922
+PARAMETRIC_SCENARIO,Arm_3_SHAM_Powered_Stopband,250,98,0.392,0.112929,20.16,11.0883,2091.25,0.005302
+PARAMETRIC_SCENARIO,Arm_4_ON_NewmanPhase_Stabilized,250,250,1.0,0.115125,5.11,28.7812,2091.25,0.013763
+PARAMETRIC_SCENARIO,Arm_4B_ON_With_Sheath_Grating,250,249,0.996,0.185554,5.69,46.2297,2091.25,0.022106
