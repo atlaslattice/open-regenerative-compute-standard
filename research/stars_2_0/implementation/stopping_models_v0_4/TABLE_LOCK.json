@@ -1,0 +1,34 @@
+[
+  {
+    "file": "tables/srim13_Z1_T5.json",
+    "sha256": "73e75a9cf05c6af66603a5545ddc8b5828a303a258e4788b9bdd9a3ee74f758b"
+  },
+  {
+    "file": "tables/srim13_Z1_T7.json",
+    "sha256": "06f7b417f63f7889539b4f787d5fe683efd00c2b88bd80c1bd4e307f9408f035"
+  },
+  {
+    "file": "tables/srim13_Z2_T5.json",
+    "sha256": "639452e7cd475c52ba440d92f44a9d4e42c84b3abfe6d5173171f902073e474d"
+  },
+  {
+    "file": "tables/srim13_Z2_T7.json",
+    "sha256": "a985291ce8e56df8f6700f04dc3e4f6f87cb5b5dd881469a5e0bdb2bda2a73e5"
+  },
+  {
+    "file": "tables/srim96_Z1_T5.json",
+    "sha256": "bf1a11f104e28b681f53a268a36f44e6726c44de4772c87d110ccc7eb6a6bf6b"
+  },
+  {
+    "file": "tables/srim96_Z1_T7.json",
+    "sha256": "c1ceed82b573a945da17b8b9ac830f6820c4e391102fbf3f37d80c4d4fad7820"
+  },
+  {
+    "file": "tables/srim96_Z2_T5.json",
+    "sha256": "b80d91d22909abf0e14f0f8034f35feb373319489d1fba4b28e07715b513d82a"
+  },
+  {
+    "file": "tables/srim96_Z2_T7.json",
+    "sha256": "132aac8c998b0e6b94ce7df0993e2d727e1b6570ccc2e0b5923e3105eb00f9ae"
+  }
+]
