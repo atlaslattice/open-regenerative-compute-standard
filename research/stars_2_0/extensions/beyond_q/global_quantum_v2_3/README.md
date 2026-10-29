@@ -68,6 +68,9 @@ license_notice: "Original research; external source rights remain with respectiv
 
 GitHub objects were checked against their original local Git blob SHA-1 identifiers. The papers are **2 pages (executive)** and **14 pages (technical)**. They are **pre-feasibility research, not peer-reviewed results**. See [discovery metadata and citation](DISCOVERY_AND_METADATA.md).
 
+
+**Citation / audit:** [Beyond Q-specific CITATION.cff](CITATION.cff) · [Six named checks / seven exact assertions](MODEL_CHECKS_AUDIT.md) · [Machine-readable research metadata](research_metadata.json). The repository's root CITATION.cff remains the separate ORCS project citation.
+
 ## Executive conclusion
 
 Design **the quantum computer first**; derive the actual QPU/refrigerator/control/decoder/network loads; then size clean electricity and isotope facilities. Do not allocate 320 MW of conventional AI to a hypothetical 400 MW quantum campus merely because a large ARC design targets 400 MWe. Google, Microsoft and China pursue materially different qubit platforms, cryogenic configurations and error-correction systems.
