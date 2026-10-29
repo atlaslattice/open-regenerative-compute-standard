@@ -1,0 +1,21 @@
+test_all_shots_and_zero_source (test_reference.Tests.test_all_shots_and_zero_source) ... ok
+test_bad_alpha_rejected (test_reference.Tests.test_bad_alpha_rejected) ... ok
+test_bare_nuclear_mass_and_Q (test_reference.Tests.test_bare_nuclear_mass_and_Q) ... ok
+test_bn_inventory_and_no_heat_credit (test_reference.Tests.test_bn_inventory_and_no_heat_credit) ... ok
+test_boost_inverse (test_reference.Tests.test_boost_inverse) ... ok
+test_counts_closure_and_bounds (test_reference.Tests.test_counts_closure_and_bounds) ... ok
+test_event_conservation_and_physical_mass (test_reference.Tests.test_event_conservation_and_physical_mass) ... ok
+test_event_grouped_covariance (test_reference.Tests.test_event_grouped_covariance) ... ok
+test_frame_and_null_model_guards (test_reference.Tests.test_frame_and_null_model_guards) ... ok
+test_missing_threshold_coverage (test_reference.Tests.test_missing_threshold_coverage) ... ok
+test_phase_space_against_independent_invariant_mass_integral (test_reference.Tests.test_phase_space_against_independent_invariant_mass_integral) ... ok
+test_relative_coordinate_is_not_absolute_range (test_reference.Tests.test_relative_coordinate_is_not_absolute_range) ... ok
+test_repeatability (test_reference.Tests.test_repeatability) ... ok
+test_target_isotope_guard (test_reference.Tests.test_target_isotope_guard) ... ok
+test_variable_sigma_constant_limit (test_reference.Tests.test_variable_sigma_constant_limit) ... ok
+test_zero_target (test_reference.Tests.test_zero_target) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.508s
+
+OK
