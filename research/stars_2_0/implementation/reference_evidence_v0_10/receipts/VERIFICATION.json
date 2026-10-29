@@ -1,0 +1,23 @@
+{
+  "checks": {
+    "repeat_RESULTS.json": true,
+    "repeat_EVENTS.jsonl": true,
+    "repeat_RECEIPT.json": true,
+    "run002_code_identity": true,
+    "run002_lock_identity": true,
+    "run003_code_identity": true,
+    "run003_lock_identity": true,
+    "run005_code_identity": true,
+    "run005_lock_identity": true,
+    "tests16": true,
+    "isolated_tests16": true,
+    "isolated_repeat": true
+  },
+  "registry_parameters": 38,
+  "retained_modules": 26,
+  "catalog_records": 6,
+  "experimental_calibration": false,
+  "physical_uncertainties_propagated": false,
+  "detector_response_qualified": false,
+  "artifact_dependency_anchors_verified_against_pinned_GitHub_tree": true
+}
