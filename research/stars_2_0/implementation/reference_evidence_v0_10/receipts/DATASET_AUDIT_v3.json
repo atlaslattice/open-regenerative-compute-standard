@@ -1,0 +1,67 @@
+{
+  "status": "HASH_VERIFIED_EVIDENCE_BUNDLE_NOT_A_JOINT_CALIBRATION",
+  "datasets": [
+    {
+      "id": "SIKORA2016_EVENT_NORMALIZATION",
+      "rows": 41,
+      "entries_excluded_from_automatic_use": null,
+      "permitted_roles": [
+        "conditional_event_normalization"
+      ],
+      "experimental_ancestry_group": "TUNL_Spraker2012_reanalysis",
+      "availability": "BUNDLED_REFERENCE_FILE"
+    },
+    {
+      "id": "SPRAKER2012_SPECTRA",
+      "rows": 22100,
+      "entries_excluded_from_automatic_use": null,
+      "permitted_roles": [
+        "source_spectrum_audit"
+      ],
+      "experimental_ancestry_group": "TUNL_Spraker2012_reanalysis",
+      "availability": "NUMERICAL_SPECTRA_REQUIRE_RECONSTRUCTION; anchor receipt verified"
+    },
+    {
+      "id": "MAZZUCCONI2025_TABLE2",
+      "rows": 28,
+      "entries_excluded_from_automatic_use": null,
+      "permitted_roles": [
+        "differential_quantity_audit"
+      ],
+      "experimental_ancestry_group": "LNL_Mazzucconi2025",
+      "availability": "BUNDLED_REFERENCE_FILE"
+    },
+    {
+      "id": "MUNCH_PREPRINT_V1_ALPHA0",
+      "rows": 45,
+      "entries_excluded_from_automatic_use": 4,
+      "permitted_roles": [
+        "alpha0_channel_audit"
+      ],
+      "experimental_ancestry_group": "AARHUS_Munch2019_2020",
+      "availability": "BUNDLED_REFERENCE_FILE"
+    },
+    {
+      "id": "OVERLEY_DIGITIZED_PROTON_STOPPING",
+      "rows": 27,
+      "entries_excluded_from_automatic_use": null,
+      "permitted_roles": [
+        "proton_stopping_calibration"
+      ],
+      "experimental_ancestry_group": "CALTECH_Overley1961",
+      "availability": "BUNDLED_REFERENCE_FILE"
+    },
+    {
+      "id": "KUHLWEIN2022_PARAMETER_REFERENCE",
+      "rows": null,
+      "entries_excluded_from_automatic_use": null,
+      "permitted_roles": [
+        "model_parameter_reference"
+      ],
+      "experimental_ancestry_group": "AARHUS_Kuhlwein2022",
+      "availability": "BUNDLED_REFERENCE_FILE"
+    }
+  ],
+  "coherent_exclusive_fit_dataset": null,
+  "notes": "No reinterpretation of probable error, FWHM, upper limits, duplicate energies or source-defined units. Eligible rows alone do not establish apparatus compatibility."
+}

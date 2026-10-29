@@ -1,0 +1,987 @@
+{
+  "MC_scope": "Self-normalized importance delta-method covariance, finite integration only; alphas clustered by reaction. Proposals shared across attempts: their MC errors are correlated; do not sum attempt covariances as independent.",
+  "all_attempt_count": 3,
+  "all_attempt_expected_reactions": 0.039825758215570835,
+  "attempts": [
+    {
+      "attempt_id": "ASSUMED_ATTEMPT_A",
+      "expected_alpha_births": 0.039825758215570835,
+      "expected_reactions": 0.013275252738523612,
+      "incident_protons": 10000,
+      "models": {
+        "COHERENT": {
+          "detector_counts": null,
+          "expected_alpha_exit_count_bounds": [
+            0.03946801574529233,
+            0.03982575821557083
+          ],
+          "expected_alpha_exit_energy_bounds_MeV": [
+            0.12159034930277908,
+            0.1215917812038639
+          ],
+          "expected_beam_kinetic_input_MeV": 6750.0,
+          "expected_geometry_accepted_true_exit_bins": [
+            0.0010937239929807584,
+            0.0028836403385944084,
+            0.0073799939126846055,
+            1.537147647300115e-05
+          ],
+          "expected_nuclear_Q_MeV": 0.11526316717834635,
+          "expected_unreacted_proton_exit_kinetic_MeV": 6700.231881209312,
+          "financial_result": null,
+          "finite_importance_integration_covariance": [
+            [
+              2.0467998101776816e-08,
+              -4.545023012442255e-09,
+              -5.404150243069399e-09,
+              -4.598598540829206e-12,
+              9.099507342881736e-10,
+              9.073654506964303e-10,
+              6.459005781350952e-10,
+              -2.988206188557232e-25
+            ],
+            [
+              -4.545023012442255e-09,
+              3.855393325586712e-08,
+              -1.5338940418822237e-08,
+              4.4870030928848e-12,
+              3.537611616707677e-09,
+              3.5329072415833375e-09,
+              1.1753289357796866e-09,
+              -3.1759344917587e-25
+            ],
+            [
+              -5.404150243069399e-09,
+              -1.5338940418822237e-08,
+              5.970633970249665e-08,
+              -5.799371139582567e-12,
+              7.904603876861904e-09,
+              7.898060334330346e-09,
+              1.6348217726209643e-09,
+              -2.325806607693326e-25
+            ],
+            [
+              -4.598598540829207e-12,
+              4.487003092884802e-12,
+              -5.799371139582568e-12,
+              6.01002283959822e-12,
+              -4.2182948841874935e-13,
+              -4.194687882880516e-13,
+              -5.897912260831193e-13,
+              2.7893389989095517e-26
+            ],
+            [
+              9.099507342881736e-10,
+              3.537611616707677e-09,
+              7.904603876861904e-09,
+              -4.218294884187492e-13,
+              3.037650494204734e-08,
+              3.034652787081998e-08,
+              7.489394083640103e-09,
+              4.704679594157886e-25
+            ],
+            [
+              9.073654506964303e-10,
+              3.5329072415833375e-09,
+              7.898060334330346e-09,
+              -4.1946878828805173e-13,
+              3.034652787081998e-08,
+              3.031664732449063e-08,
+              7.465278552322408e-09,
+              4.67040102600649e-25
+            ],
+            [
+              6.459005781350952e-10,
+              1.1753289357796868e-09,
+              1.6348217726209643e-09,
+              -5.897912260831194e-13,
+              7.489394083640103e-09,
+              7.465278552322408e-09,
+              6.024962085347151e-09,
+              8.564068969889265e-25
+            ],
+            [
+              -2.9882061885572275e-25,
+              -3.175934491758705e-25,
+              -2.325806607693328e-25,
+              2.7893389989095505e-26,
+              4.704679594157886e-25,
+              4.67040102600649e-25,
+              8.564068969889267e-25,
+              5.258971468804534e-38
+            ]
+          ],
+          "net_energy_MeV": null,
+          "primary_particle_loss_remainder_bounds_MeV": [
+            49.76179017666287,
+            49.761791608563954
+          ],
+          "recoverable_heat_MeV": null,
+          "wall_plug_energy_MeV": null
+        },
+        "PHASE_SPACE_NULL": {
+          "detector_counts": null,
+          "expected_alpha_exit_count_bounds": [
+            0.03948207342483991,
+            0.03982575821557083
+          ],
+          "expected_alpha_exit_energy_bounds_MeV": [
+            0.12155783658212213,
+            0.12155921221589658
+          ],
+          "expected_beam_kinetic_input_MeV": 6750.0,
+          "expected_geometry_accepted_true_exit_bins": [
+            0.001043303944324056,
+            0.003804908020631359,
+            0.005873362824898152,
+            0.0005706975494050566
+          ],
+          "expected_nuclear_Q_MeV": 0.11526316717834635,
+          "expected_unreacted_proton_exit_kinetic_MeV": 6700.231881209312,
+          "financial_result": null,
+          "finite_importance_integration_covariance": [
+            [
+              6.2281319179412334e-09,
+              -1.8352771237051476e-09,
+              -3.011786466711912e-10,
+              -3.0427256537904525e-10,
+              2.905757568675258e-10,
+              2.900847169024361e-10,
+              1.2268015716014792e-10,
+              0.0
+            ],
+            [
+              -1.8352771237051472e-09,
+              2.359053224686792e-08,
+              -7.843115635496016e-09,
+              -1.0679321653088577e-09,
+              1.1942256597255527e-09,
+              1.1928572885278134e-09,
+              3.4187032731941266e-10,
+              0.0
+            ],
+            [
+              -3.0117864667119115e-10,
+              -7.843115635496016e-09,
+              2.144059056886568e-08,
+              -1.6239112626809904e-09,
+              2.630481608358696e-09,
+              2.629829572628414e-09,
+              1.6290292349291705e-10,
+              0.0
+            ],
+            [
+              -3.0427256537904525e-10,
+              -1.0679321653088577e-09,
+              -1.6239112626809904e-09,
+              3.533938249626436e-09,
+              3.4343678342691103e-10,
+              3.430920120690209e-10,
+              8.61367859590591e-11,
+              0.0
+            ],
+            [
+              2.905757568675258e-10,
+              1.1942256597255527e-09,
+              2.630481608358695e-09,
+              3.4343678342691103e-10,
+              1.6441727240618894e-08,
+              1.642765564204452e-08,
+              3.5156118591750913e-09,
+              0.0
+            ],
+            [
+              2.900847169024361e-10,
+              1.1928572885278132e-09,
+              2.629829572628414e-09,
+              3.4309201206902093e-10,
+              1.642765564204452e-08,
+              1.6413618834951115e-08,
+              3.5069196453909004e-09,
+              0.0
+            ],
+            [
+              1.2268015716014795e-10,
+              3.4187032731941266e-10,
+              1.6290292349291712e-10,
+              8.61367859590591e-11,
+              3.5156118591750913e-09,
+              3.5069196453909004e-09,
+              2.171640251154247e-09,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "net_energy_MeV": null,
+          "primary_particle_loss_remainder_bounds_MeV": [
+            49.76182274565083,
+            49.76182412128461
+          ],
+          "recoverable_heat_MeV": null,
+          "wall_plug_energy_MeV": null
+        }
+      }
+    },
+    {
+      "attempt_id": "ASSUMED_ZERO_SOURCE_ATTEMPT",
+      "expected_alpha_births": 0.0,
+      "expected_reactions": 0.0,
+      "incident_protons": 0,
+      "models": {
+        "COHERENT": {
+          "detector_counts": null,
+          "expected_alpha_exit_count_bounds": [
+            0.0,
+            0.0
+          ],
+          "expected_alpha_exit_energy_bounds_MeV": [
+            0.0,
+            0.0
+          ],
+          "expected_beam_kinetic_input_MeV": 0.0,
+          "expected_geometry_accepted_true_exit_bins": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "expected_nuclear_Q_MeV": 0.0,
+          "expected_unreacted_proton_exit_kinetic_MeV": 0.0,
+          "financial_result": null,
+          "finite_importance_integration_covariance": [
+            [
+              0.0,
+              -0.0,
+              -0.0,
+              -0.0,
+              0.0,
+              0.0,
+              0.0,
+              -0.0
+            ],
+            [
+              -0.0,
+              0.0,
+              -0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              -0.0
+            ],
+            [
+              -0.0,
+              -0.0,
+              0.0,
+              -0.0,
+              0.0,
+              0.0,
+              0.0,
+              -0.0
+            ],
+            [
+              -0.0,
+              0.0,
+              -0.0,
+              0.0,
+              -0.0,
+              -0.0,
+              -0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              -0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              -0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              -0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              -0.0,
+              -0.0,
+              -0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "net_energy_MeV": null,
+          "primary_particle_loss_remainder_bounds_MeV": [
+            0.0,
+            0.0
+          ],
+          "recoverable_heat_MeV": null,
+          "wall_plug_energy_MeV": null
+        },
+        "PHASE_SPACE_NULL": {
+          "detector_counts": null,
+          "expected_alpha_exit_count_bounds": [
+            0.0,
+            0.0
+          ],
+          "expected_alpha_exit_energy_bounds_MeV": [
+            0.0,
+            0.0
+          ],
+          "expected_beam_kinetic_input_MeV": 0.0,
+          "expected_geometry_accepted_true_exit_bins": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "expected_nuclear_Q_MeV": 0.0,
+          "expected_unreacted_proton_exit_kinetic_MeV": 0.0,
+          "financial_result": null,
+          "finite_importance_integration_covariance": [
+            [
+              0.0,
+              -0.0,
+              -0.0,
+              -0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              -0.0,
+              0.0,
+              -0.0,
+              -0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              -0.0,
+              -0.0,
+              0.0,
+              -0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              -0.0,
+              -0.0,
+              -0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "net_energy_MeV": null,
+          "primary_particle_loss_remainder_bounds_MeV": [
+            0.0,
+            0.0
+          ],
+          "recoverable_heat_MeV": null,
+          "wall_plug_energy_MeV": null
+        }
+      }
+    },
+    {
+      "attempt_id": "ASSUMED_ATTEMPT_B",
+      "expected_alpha_births": 0.07965151643114167,
+      "expected_reactions": 0.026550505477047223,
+      "incident_protons": 20000,
+      "models": {
+        "COHERENT": {
+          "detector_counts": null,
+          "expected_alpha_exit_count_bounds": [
+            0.07893603149058466,
+            0.07965151643114166
+          ],
+          "expected_alpha_exit_energy_bounds_MeV": [
+            0.24318069860555816,
+            0.2431835624077278
+          ],
+          "expected_beam_kinetic_input_MeV": 13500.0,
+          "expected_geometry_accepted_true_exit_bins": [
+            0.0021874479859615168,
+            0.005767280677188817,
+            0.014759987825369211,
+            3.07429529460023e-05
+          ],
+          "expected_nuclear_Q_MeV": 0.2305263343566927,
+          "expected_unreacted_proton_exit_kinetic_MeV": 13400.463762418623,
+          "financial_result": null,
+          "finite_importance_integration_covariance": [
+            [
+              8.187199240710727e-08,
+              -1.818009204976902e-08,
+              -2.1616600972277597e-08,
+              -1.8394394163316825e-11,
+              3.6398029371526943e-09,
+              3.629461802785721e-09,
+              2.5836023125403806e-09,
+              -1.1952824754228929e-24
+            ],
+            [
+              -1.818009204976902e-08,
+              1.5421573302346847e-07,
+              -6.135576167528895e-08,
+              1.79480123715392e-11,
+              1.4150446466830709e-08,
+              1.413162896633335e-08,
+              4.7013157431187465e-09,
+              -1.27037379670348e-24
+            ],
+            [
+              -2.1616600972277597e-08,
+              -6.135576167528895e-08,
+              2.388253588099866e-07,
+              -2.319748455833027e-11,
+              3.1618415507447614e-08,
+              3.1592241337321385e-08,
+              6.539287090483857e-09,
+              -9.303226430773305e-25
+            ],
+            [
+              -1.8394394163316828e-11,
+              1.794801237153921e-11,
+              -2.3197484558330273e-11,
+              2.404009135839288e-11,
+              -1.6873179536749974e-12,
+              -1.6778751531522063e-12,
+              -2.359164904332477e-12,
+              1.1157355995638207e-25
+            ],
+            [
+              3.6398029371526943e-09,
+              1.4150446466830709e-08,
+              3.1618415507447614e-08,
+              -1.6873179536749968e-12,
+              1.2150601976818937e-07,
+              1.2138611148327992e-07,
+              2.995757633456041e-08,
+              1.8818718376631544e-24
+            ],
+            [
+              3.629461802785721e-09,
+              1.413162896633335e-08,
+              3.1592241337321385e-08,
+              -1.677875153152207e-12,
+              1.2138611148327992e-07,
+              1.2126658929796251e-07,
+              2.9861114209289634e-08,
+              1.868160410402596e-24
+            ],
+            [
+              2.5836023125403806e-09,
+              4.701315743118747e-09,
+              6.539287090483857e-09,
+              -2.3591649043324774e-12,
+              2.995757633456041e-08,
+              2.9861114209289634e-08,
+              2.4099848341388604e-08,
+              3.425627587955706e-24
+            ],
+            [
+              -1.195282475422891e-24,
+              -1.270373796703482e-24,
+              -9.303226430773312e-25,
+              1.1157355995638202e-25,
+              1.8818718376631544e-24,
+              1.868160410402596e-24,
+              3.425627587955707e-24,
+              2.1035885875218134e-37
+            ]
+          ],
+          "net_energy_MeV": null,
+          "primary_particle_loss_remainder_bounds_MeV": [
+            99.52358035332574,
+            99.52358321712791
+          ],
+          "recoverable_heat_MeV": null,
+          "wall_plug_energy_MeV": null
+        },
+        "PHASE_SPACE_NULL": {
+          "detector_counts": null,
+          "expected_alpha_exit_count_bounds": [
+            0.07896414684967983,
+            0.07965151643114166
+          ],
+          "expected_alpha_exit_energy_bounds_MeV": [
+            0.24311567316424426,
+            0.24311842443179316
+          ],
+          "expected_beam_kinetic_input_MeV": 13500.0,
+          "expected_geometry_accepted_true_exit_bins": [
+            0.002086607888648112,
+            0.007609816041262718,
+            0.011746725649796305,
+            0.0011413950988101132
+          ],
+          "expected_nuclear_Q_MeV": 0.2305263343566927,
+          "expected_unreacted_proton_exit_kinetic_MeV": 13400.463762418623,
+          "financial_result": null,
+          "finite_importance_integration_covariance": [
+            [
+              2.4912527671764934e-08,
+              -7.3411084948205904e-09,
+              -1.2047145866847648e-09,
+              -1.217090261516181e-09,
+              1.1623030274701031e-09,
+              1.1603388676097444e-09,
+              4.907206286405917e-10,
+              0.0
+            ],
+            [
+              -7.341108494820589e-09,
+              9.436212898747168e-08,
+              -3.137246254198406e-08,
+              -4.271728661235431e-09,
+              4.776902638902211e-09,
+              4.7714291541112536e-09,
+              1.3674813092776506e-09,
+              0.0
+            ],
+            [
+              -1.2047145866847646e-09,
+              -3.137246254198406e-08,
+              8.576236227546272e-08,
+              -6.495645050723962e-09,
+              1.0521926433434784e-08,
+              1.0519318290513656e-08,
+              6.516116939716682e-10,
+              0.0
+            ],
+            [
+              -1.217090261516181e-09,
+              -4.271728661235431e-09,
+              -6.495645050723962e-09,
+              1.4135752998505744e-08,
+              1.3737471337076441e-09,
+              1.3723680482760835e-09,
+              3.445471438362364e-10,
+              0.0
+            ],
+            [
+              1.1623030274701031e-09,
+              4.776902638902211e-09,
+              1.052192643343478e-08,
+              1.3737471337076441e-09,
+              6.576690896247558e-08,
+              6.571062256817808e-08,
+              1.4062447436700365e-08,
+              0.0
+            ],
+            [
+              1.1603388676097444e-09,
+              4.771429154111253e-09,
+              1.0519318290513656e-08,
+              1.3723680482760837e-09,
+              6.571062256817808e-08,
+              6.565447533980446e-08,
+              1.4027678581563602e-08,
+              0.0
+            ],
+            [
+              4.907206286405918e-10,
+              1.3674813092776506e-09,
+              6.516116939716685e-10,
+              3.445471438362364e-10,
+              1.4062447436700365e-08,
+              1.4027678581563602e-08,
+              8.686561004616987e-09,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "net_energy_MeV": null,
+          "primary_particle_loss_remainder_bounds_MeV": [
+            99.52364549130166,
+            99.52364824256922
+          ],
+          "recoverable_heat_MeV": null,
+          "wall_plug_energy_MeV": null
+        }
+      }
+    }
+  ],
+  "coherence_affects_total_reaction_probability": false,
+  "depth_scope": "Midpoint transport per hazard cell; probability refinement checked, transport/depth and source-shape convergence not claimed",
+  "detector_status": "BLOCKED_NO_MEASURED_RESPONSE; true exit/geometry quantities are not detector counts",
+  "energy_scope": "Primary-particle remainder is not recovered heat. Full startup/burn/grid/wall-plug/secondary-particle and economic ledgers remain unavailable.",
+  "feature_order": [
+    "geometry_accepted_true_exit_bin_0",
+    "geometry_accepted_true_exit_bin_1",
+    "geometry_accepted_true_exit_bin_2",
+    "geometry_accepted_true_exit_bin_3",
+    "alpha_exit_energy_lower_MeV",
+    "alpha_exit_energy_upper_MeV",
+    "exit_count_lower",
+    "exit_count_upper"
+  ],
+  "maximum_four_momentum_residual_MeV": 3.637978807091713e-12,
+  "per_proton_reaction_probability": 1.327525273852361e-06,
+  "proton_LAB_MeV": 0.675,
+  "reaction_probability_depth_refinement_difference": 9.08052014928374e-15,
+  "source_cells": [
+    {
+      "depth_bin": 0,
+      "local_proton_LAB_MeV": 0.6748448600587136,
+      "models": {
+        "COHERENT": {
+          "importance_ESS": 43.85007076686522,
+          "normalized_weights_sum": 1.0000000000000002,
+          "probability_per_incident_proton": 8.25129852582518e-08
+        },
+        "PHASE_SPACE_NULL": {
+          "importance_ESS": 128.0,
+          "normalized_weights_sum": 1.0,
+          "probability_per_incident_proton": 8.25129852582518e-08
+        }
+      },
+      "source_normalization": "separate within this depth bin; arbitrary amplitude scale cannot alter hazard"
+    },
+    {
+      "depth_bin": 1,
+      "local_proton_LAB_MeV": 0.6745345114594157,
+      "models": {
+        "COHERENT": {
+          "importance_ESS": 38.08594333007052,
+          "normalized_weights_sum": 1.0,
+          "probability_per_incident_proton": 8.257388010455805e-08
+        },
+        "PHASE_SPACE_NULL": {
+          "importance_ESS": 128.0,
+          "normalized_weights_sum": 1.0,
+          "probability_per_incident_proton": 8.257388010455805e-08
+        }
+      },
+      "source_normalization": "separate within this depth bin; arbitrary amplitude scale cannot alter hazard"
+    },
+    {
+      "depth_bin": 2,
+      "local_proton_LAB_MeV": 0.6742240711721031,
+      "models": {
+        "COHERENT": {
+          "importance_ESS": 46.247084144717725,
+          "normalized_weights_sum": 0.9999999999999999,
+          "probability_per_incident_proton": 8.263479292829162e-08
+        },
+        "PHASE_SPACE_NULL": {
+          "importance_ESS": 128.0,
+          "normalized_weights_sum": 1.0,
+          "probability_per_incident_proton": 8.263479292829162e-08
+        }
+      },
+      "source_normalization": "separate within this depth bin; arbitrary amplitude scale cannot alter hazard"
+    },
+    {
+      "depth_bin": 3,
+      "local_proton_LAB_MeV": 0.6739135387229684,
+      "models": {
+        "COHERENT": {
+          "importance_ESS": 40.99834062938701,
+          "normalized_weights_sum": 0.9999999999999999,
+          "probability_per_incident_proton": 8.269572382241369e-08
+        },
+        "PHASE_SPACE_NULL": {
+          "importance_ESS": 128.0,
+          "normalized_weights_sum": 1.0,
+          "probability_per_incident_proton": 8.269572382241369e-08
+        }
+      },
+      "source_normalization": "separate within this depth bin; arbitrary amplitude scale cannot alter hazard"
+    },
+    {
+      "depth_bin": 4,
+      "local_proton_LAB_MeV": 0.6736029139666156,
+      "models": {
+        "COHERENT": {
+          "importance_ESS": 44.87003630806252,
+          "normalized_weights_sum": 1.0,
+          "probability_per_incident_proton": 8.275667281543907e-08
+        },
+        "PHASE_SPACE_NULL": {
+          "importance_ESS": 128.0,
+          "normalized_weights_sum": 1.0,
+          "probability_per_incident_proton": 8.275667281543907e-08
+        }
+      },
+      "source_normalization": "separate within this depth bin; arbitrary amplitude scale cannot alter hazard"
+    },
+    {
+      "depth_bin": 5,
+      "local_proton_LAB_MeV": 0.6732921968756056,
+      "models": {
+        "COHERENT": {
+          "importance_ESS": 43.4207148526592,
+          "normalized_weights_sum": 1.0,
+          "probability_per_incident_proton": 8.281763991273518e-08
+        },
+        "PHASE_SPACE_NULL": {
+          "importance_ESS": 128.0,
+          "normalized_weights_sum": 1.0,
+          "probability_per_incident_proton": 8.281763991273518e-08
+        }
+      },
+      "source_normalization": "separate within this depth bin; arbitrary amplitude scale cannot alter hazard"
+    },
+    {
+      "depth_bin": 6,
+      "local_proton_LAB_MeV": 0.6729813874224918,
+      "models": {
+        "COHERENT": {
+          "importance_ESS": 41.7690561207808,
+          "normalized_weights_sum": 1.0,
+          "probability_per_incident_proton": 8.287862511967089e-08
+        },
+        "PHASE_SPACE_NULL": {
+          "importance_ESS": 128.0,
+          "normalized_weights_sum": 1.0,
+          "probability_per_incident_proton": 8.287862511967089e-08
+        }
+      },
+      "source_normalization": "separate within this depth bin; arbitrary amplitude scale cannot alter hazard"
+    },
+    {
+      "depth_bin": 7,
+      "local_proton_LAB_MeV": 0.6726704855798188,
+      "models": {
+        "COHERENT": {
+          "importance_ESS": 46.52767085115461,
+          "normalized_weights_sum": 0.9999999999999999,
+          "probability_per_incident_proton": 8.293962844161673e-08
+        },
+        "PHASE_SPACE_NULL": {
+          "importance_ESS": 128.0,
+          "normalized_weights_sum": 1.0,
+          "probability_per_incident_proton": 8.293962844161673e-08
+        }
+      },
+      "source_normalization": "separate within this depth bin; arbitrary amplitude scale cannot alter hazard"
+    },
+    {
+      "depth_bin": 8,
+      "local_proton_LAB_MeV": 0.6723594913201237,
+      "models": {
+        "COHERENT": {
+          "importance_ESS": 47.0902675809166,
+          "normalized_weights_sum": 1.0,
+          "probability_per_incident_proton": 8.30006498839448e-08
+        },
+        "PHASE_SPACE_NULL": {
+          "importance_ESS": 128.0,
+          "normalized_weights_sum": 1.0,
+          "probability_per_incident_proton": 8.30006498839448e-08
+        }
+      },
+      "source_normalization": "separate within this depth bin; arbitrary amplitude scale cannot alter hazard"
+    },
+    {
+      "depth_bin": 9,
+      "local_proton_LAB_MeV": 0.6720484046159348,
+      "models": {
+        "COHERENT": {
+          "importance_ESS": 44.38088032392195,
+          "normalized_weights_sum": 1.0000000000000002,
+          "probability_per_incident_proton": 8.306168945202884e-08
+        },
+        "PHASE_SPACE_NULL": {
+          "importance_ESS": 128.0,
+          "normalized_weights_sum": 1.0,
+          "probability_per_incident_proton": 8.306168945202884e-08
+        }
+      },
+      "source_normalization": "separate within this depth bin; arbitrary amplitude scale cannot alter hazard"
+    },
+    {
+      "depth_bin": 10,
+      "local_proton_LAB_MeV": 0.671737225439773,
+      "models": {
+        "COHERENT": {
+          "importance_ESS": 44.23859330430392,
+          "normalized_weights_sum": 1.0,
+          "probability_per_incident_proton": 8.312274715124401e-08
+        },
+        "PHASE_SPACE_NULL": {
+          "importance_ESS": 128.0,
+          "normalized_weights_sum": 1.0,
+          "probability_per_incident_proton": 8.312274715124401e-08
+        }
+      },
+      "source_normalization": "separate within this depth bin; arbitrary amplitude scale cannot alter hazard"
+    },
+    {
+      "depth_bin": 11,
+      "local_proton_LAB_MeV": 0.6714259536257972,
+      "models": {
+        "COHERENT": {
+          "importance_ESS": 48.91652945596228,
+          "normalized_weights_sum": 1.0,
+          "probability_per_incident_proton": 8.318382301411712e-08
+        },
+        "PHASE_SPACE_NULL": {
+          "importance_ESS": 128.0,
+          "normalized_weights_sum": 1.0,
+          "probability_per_incident_proton": 8.318382301411712e-08
+        }
+      },
+      "source_normalization": "separate within this depth bin; arbitrary amplitude scale cannot alter hazard"
+    },
+    {
+      "depth_bin": 12,
+      "local_proton_LAB_MeV": 0.6711145887043293,
+      "models": {
+        "COHERENT": {
+          "importance_ESS": 43.76685632936639,
+          "normalized_weights_sum": 1.0,
+          "probability_per_incident_proton": 8.324491713279876e-08
+        },
+        "PHASE_SPACE_NULL": {
+          "importance_ESS": 128.0,
+          "normalized_weights_sum": 1.0,
+          "probability_per_incident_proton": 8.324491713279876e-08
+        }
+      },
+      "source_normalization": "separate within this depth bin; arbitrary amplitude scale cannot alter hazard"
+    },
+    {
+      "depth_bin": 13,
+      "local_proton_LAB_MeV": 0.6708031306144306,
+      "models": {
+        "COHERENT": {
+          "importance_ESS": 42.92832979584669,
+          "normalized_weights_sum": 0.9999999999999999,
+          "probability_per_incident_proton": 8.330602951922997e-08
+        },
+        "PHASE_SPACE_NULL": {
+          "importance_ESS": 128.0,
+          "normalized_weights_sum": 1.0,
+          "probability_per_incident_proton": 8.330602951922997e-08
+        }
+      },
+      "source_normalization": "separate within this depth bin; arbitrary amplitude scale cannot alter hazard"
+    },
+    {
+      "depth_bin": 14,
+      "local_proton_LAB_MeV": 0.6704915793282233,
+      "models": {
+        "COHERENT": {
+          "importance_ESS": 42.87264910187423,
+          "normalized_weights_sum": 0.9999999999999999,
+          "probability_per_incident_proton": 8.336716017886412e-08
+        },
+        "PHASE_SPACE_NULL": {
+          "importance_ESS": 128.0,
+          "normalized_weights_sum": 1.0,
+          "probability_per_incident_proton": 8.336716017886412e-08
+        }
+      },
+      "source_normalization": "separate within this depth bin; arbitrary amplitude scale cannot alter hazard"
+    },
+    {
+      "depth_bin": 15,
+      "local_proton_LAB_MeV": 0.6701799348178201,
+      "models": {
+        "COHERENT": {
+          "importance_ESS": 52.49823396608526,
+          "normalized_weights_sum": 1.0,
+          "probability_per_incident_proton": 8.342830911715639e-08
+        },
+        "PHASE_SPACE_NULL": {
+          "importance_ESS": 128.0,
+          "normalized_weights_sum": 1.0,
+          "probability_per_incident_proton": 8.342830911715639e-08
+        }
+      },
+      "source_normalization": "separate within this depth bin; arbitrary amplitude scale cannot alter hazard"
+    }
+  ],
+  "source_orientation": "unpolarized parent assumed; not calibrated reaction alignment or LAB anisotropy",
+  "source_rate_compatibility": "Sikora2016 normalization was extracted with a different source ansatz; combining it with coherent or null shapes is a conditional benchmark, not a joint refit.",
+  "status": "ASSUMED_COHERENT_TRANSPORT_BENCHMARK_NOT_CALIBRATED",
+  "stopping_status": "SRIM_MODEL_ONLY_FOR_B11; B10 empirical calibration intentionally not transferred"
+}

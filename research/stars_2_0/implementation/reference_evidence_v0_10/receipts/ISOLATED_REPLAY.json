@@ -1,0 +1,12 @@
+{
+  "copied_dependency_and_catalog_anchor_files": 24,
+  "raw_spraker_spectra_present": false,
+  "prepared_CPC_library_selected_explicitly": true,
+  "tests_passed": 16,
+  "bytes_match_reference": {
+    "RESULTS.json": true,
+    "EVENTS.jsonl": true,
+    "RECEIPT.json": true
+  },
+  "scope": "Isolated repository layout using existing Python/system libraries and explicitly selected prepared Coulomb backend; not a fresh OS install or clean compiler rebuild"
+}

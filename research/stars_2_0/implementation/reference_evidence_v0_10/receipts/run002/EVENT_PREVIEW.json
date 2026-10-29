@@ -1,0 +1,189 @@
+{
+  "full_log_records": 1024,
+  "full_log_sha256": "6361fa07eacc2535566a02246b44e9b7bdcdc253d6c6a177dd4799074ec6c577",
+  "preview_indices": [
+    0,
+    512,
+    1023
+  ],
+  "records": [
+    {
+      "alphas": [
+        {
+          "birth_four_vector_LAB_MeV": [
+            3730.5574446135006,
+            55.24247408206937,
+            143.4242545032271,
+            8.90619605581157
+          ],
+          "exit_energy_MeV": 2.8584659599992643,
+          "exit_energy_bounds_MeV": [
+            2.8584659599992643,
+            2.8584659599992643
+          ],
+          "geometry_accepts": false,
+          "status": "MODEL_EXIT_ENERGY_RESOLVED"
+        },
+        {
+          "birth_four_vector_LAB_MeV": [
+            3731.4373295013675,
+            -142.06188813647725,
+            -89.10488142525234,
+            -46.3249881928568
+          ],
+          "exit_energy_MeV": 4.0541326977881145,
+          "exit_energy_bounds_MeV": [
+            4.0541326977881145,
+            4.0541326977881145
+          ],
+          "geometry_accepts": false,
+          "status": "MODEL_EXIT_ENERGY_RESOLVED"
+        },
+        {
+          "birth_four_vector_LAB_MeV": [
+            3729.500710135729,
+            86.81941405440789,
+            -54.319373077974774,
+            73.00727665141248
+          ],
+          "exit_energy_MeV": 2.0816213012588998,
+          "exit_energy_bounds_MeV": [
+            2.0816213012588998,
+            2.0816213012588998
+          ],
+          "geometry_accepts": true,
+          "status": "MODEL_EXIT_ENERGY_RESOLVED"
+        }
+      ],
+      "coherent_event_probability_weight_per_incident_proton": 2.776603875702746e-09,
+      "conservation": {
+        "max_four_momentum_residual_MeV": 1.8189894035458565e-12,
+        "max_relative_mass_shell_residual": 2.681346361081389e-16
+      },
+      "depth_bin": 0,
+      "local_proton_LAB_MeV": 0.6746896972129793,
+      "proposal": 0,
+      "raw_coherent_weight": 0.010690497866791101,
+      "reaction_depth_total_atoms_cm2": 6.25e+16
+    },
+    {
+      "alphas": [
+        {
+          "birth_four_vector_LAB_MeV": [
+            3729.196939454149,
+            95.5362714173593,
+            -17.043855970621806,
+            -64.30288905642277
+          ],
+          "exit_energy_MeV": 1.7903644821056295,
+          "exit_energy_bounds_MeV": [
+            1.7903644821056295,
+            1.7903644821056295
+          ],
+          "geometry_accepts": false,
+          "status": "MODEL_EXIT_ENERGY_RESOLVED"
+        },
+        {
+          "birth_four_vector_LAB_MeV": [
+            3731.378440483641,
+            -41.34471786209497,
+            -136.08629781401999,
+            97.97408048966437
+          ],
+          "exit_energy_MeV": 3.9864518441941033,
+          "exit_energy_bounds_MeV": [
+            3.9864518441941033,
+            3.9864518441941033
+          ],
+          "geometry_accepts": true,
+          "status": "MODEL_EXIT_ENERGY_RESOLVED"
+        },
+        {
+          "birth_four_vector_LAB_MeV": [
+            3730.917618575117,
+            -54.19155355526435,
+            153.1301537846418,
+            1.851650308616005
+          ],
+          "exit_energy_MeV": 2.8055472443970433,
+          "exit_energy_bounds_MeV": [
+            2.8055472443970433,
+            2.8055472443970433
+          ],
+          "geometry_accepts": false,
+          "status": "MODEL_EXIT_ENERGY_RESOLVED"
+        }
+      ],
+      "coherent_event_probability_weight_per_incident_proton": 1.5072318517906191e-09,
+      "conservation": {
+        "max_four_momentum_residual_MeV": 1.8189894035458565e-12,
+        "max_relative_mass_shell_residual": 4.022019541622083e-16
+      },
+      "depth_bin": 4,
+      "local_proton_LAB_MeV": 0.6722039595253083,
+      "proposal": 0,
+      "raw_coherent_weight": 0.007066390883822387,
+      "reaction_depth_total_atoms_cm2": 5.625e+17
+    },
+    {
+      "alphas": [
+        {
+          "birth_four_vector_LAB_MeV": [
+            3728.702511912001,
+            30.598132482103317,
+            -87.93632833059378,
+            -34.58466823167073
+          ],
+          "exit_energy_MeV": 1.2392888773177917,
+          "exit_energy_bounds_MeV": [
+            1.2392888773177917,
+            1.2392888773177917
+          ],
+          "geometry_accepts": false,
+          "status": "MODEL_EXIT_ENERGY_RESOLVED"
+        },
+        {
+          "birth_four_vector_LAB_MeV": [
+            3729.532906403792,
+            -85.14466621757512,
+            -44.60988101307676,
+            -82.57581225092203
+          ],
+          "exit_energy_MeV": 2.118472478928858,
+          "exit_energy_bounds_MeV": [
+            2.118472478928858,
+            2.118472478928858
+          ],
+          "geometry_accepts": false,
+          "status": "MODEL_EXIT_ENERGY_RESOLVED"
+        },
+        {
+          "birth_four_vector_LAB_MeV": [
+            3733.2557120063166,
+            54.546533735471805,
+            132.54620934367054,
+            152.63390764618399
+          ],
+          "exit_energy_MeV": 5.875249200245866,
+          "exit_energy_bounds_MeV": [
+            5.875249200245866,
+            5.875249200245866
+          ],
+          "geometry_accepts": true,
+          "status": "MODEL_EXIT_ENERGY_RESOLVED"
+        }
+      ],
+      "coherent_event_probability_weight_per_incident_proton": 4.06929361101589e-11,
+      "conservation": {
+        "max_four_momentum_residual_MeV": 1.8189894035458565e-12,
+        "max_relative_mass_shell_residual": 2.681346361081389e-16
+      },
+      "depth_bin": 7,
+      "local_proton_LAB_MeV": 0.6703357687277894,
+      "proposal": 127,
+      "raw_coherent_weight": 0.00018527028172270064,
+      "reaction_depth_total_atoms_cm2": 9.375e+17
+    }
+  ],
+  "is_complete_log": false
+}
