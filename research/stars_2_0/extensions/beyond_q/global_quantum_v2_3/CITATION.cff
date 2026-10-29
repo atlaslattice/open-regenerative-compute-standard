@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use the Beyond Q v2.3 research or screening model, please cite this specific working paper and its public source registry."
+type: report
+title: "Beyond Q v2.3: Global Quantum-First Infrastructure and Fusion-Isotope Integration"
+authors:
+  - name: "Atlas Lattice"
+    affiliation: "Independent open research"
+version: "2.3"
+date-released: "2026-10-29"
+url: "https://github.com/atlaslattice/open-regenerative-compute-standard/tree/main/research/stars_2_0/extensions/beyond_q/global_quantum_v2_3"
+repository-code: "https://github.com/atlaslattice/open-regenerative-compute-standard"
+keywords:
+  - fusion energy
+  - quantum computing
+  - data centers
+  - helium-3
+  - tritium
+  - ARC
+  - deuterium-deuterium
+  - deuterium-tritium
+  - Google
+  - Microsoft Majorana
+  - China quantum hardware
+  - pre-feasibility
+abstract: >-
+  Independent, not peer-reviewed research evaluating architecture-specific quantum
+  infrastructure demands, the published ARC D-T power reference, and a hypothetical
+  D-D isotope refinery using explicitly unvalidated sensitivity calculations.
+  No MIT/CFS/Google/Microsoft/Chinese institutional endorsement is claimed.
