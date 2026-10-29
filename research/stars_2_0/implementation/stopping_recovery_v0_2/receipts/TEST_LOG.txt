@@ -1,0 +1,9 @@
+test_dimensions_against_per_atom_accounting (test_anchors.Tests.test_dimensions_against_per_atom_accounting) ... ok
+test_invalid_values (test_anchors.Tests.test_invalid_values) ... ok
+test_mass_dependence (test_anchors.Tests.test_mass_dependence) ... ok
+test_no_material_promotion (test_anchors.Tests.test_no_material_promotion) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+OK

@@ -1,0 +1,10 @@
+{
+  "tests_passed": 9,
+  "all_high_energy_source_value_and_error_cells_exact": 21600,
+  "low_energy_cells_extracted": 500,
+  "repeat_spectra_sha256": "6fc8ceb4a766b13300b14d888213f7bb3162ac8911fd36baf5462c91f0d9a171",
+  "repeat_byte_identical": true,
+  "randomness": "none",
+  "unit": "counts/luminosity/CM solid angle per source bin",
+  "apparatus_validation": "NOT_RUN"
+}

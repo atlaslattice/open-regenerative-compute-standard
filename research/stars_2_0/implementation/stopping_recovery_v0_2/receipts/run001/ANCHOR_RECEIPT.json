@@ -1,0 +1,85 @@
+{
+  "status": "TWO_PRIMARY_STOPPING_ANCHORS_SOURCE_QUALIFIED",
+  "anchors": [
+    {
+      "E_proton_LAB_MeV": 1.805,
+      "epsilon_eV_cm2_atom": 2.72e-15,
+      "mass_stopping_MeV_cm2_g_at_reported_molar_mass": "162.9872922109452736318407960",
+      "uncertainty_convention": "reported total probable error 4%; no Gaussian likelihood assigned"
+    },
+    {
+      "E_proton_LAB_MeV": 2.642,
+      "epsilon_eV_cm2_atom": 2.1e-15,
+      "mass_stopping_MeV_cm2_g_at_reported_molar_mass": "125.8357770746268656716417910",
+      "uncertainty_convention": "reported total probable error 4%; no Gaussian likelihood assigned"
+    }
+  ],
+  "mirror_matches": [
+    {
+      "E_keV": "1805.000",
+      "epsilon_in_1e_minus15_eV_cm2_atom": "2.72",
+      "mirror_label": "A",
+      "exact_match": true
+    },
+    {
+      "E_keV": "2642.000",
+      "epsilon_in_1e_minus15_eV_cm2_atom": "2.1",
+      "mirror_label": "A",
+      "exact_match": true
+    }
+  ],
+  "primary_pdf_hash_verified": true,
+  "mirror_conclusion": "A is consistent with Overley at two exact anchors; full label/reference assignment and curve digitization remain open",
+  "source": {
+    "title": "A Study of the Elastic Scattering of Protons by B10",
+    "author": "Jack Castle Overley",
+    "year": 1961,
+    "doi": "10.7907/XZP6-5P63",
+    "landing": "https://thesis.caltech.edu/6305/",
+    "pdf_url": "https://thesis.caltech.edu/6305/1/Overley_jc_1961.pdf",
+    "pdf_sha256": "bccb8fcf07b54f916c8bca62217ddf22f9fbff4c0da419c7537c9e851addcc02",
+    "bytes": 27603374,
+    "visual_checks": [
+      "PDF page 37 = printed page 32: composition and both absolute anchors",
+      "PDF page 39 = printed page 34: Table III uncertainty budget"
+    ],
+    "stopping_observable": "measured energy-loss atomic stopping cross section; no separate electronic/nuclear decomposition recovered",
+    "target": {
+      "B10_fraction": 0.9596,
+      "B11_fraction": 0.0404,
+      "molar_mass_g_mol_as_reported": 10.05,
+      "substrate": "tungsten",
+      "absolute_calibration_deposit_mass_microgram": 909,
+      "absolute_calibration_deposit_mass_error_microgram": 7
+    },
+    "uncertainty": {
+      "reported_total_probable_error_relative": 0.04,
+      "interpretation": "source probable error / abstract absolute accuracy; NOT silently converted to Gaussian 1-sigma",
+      "correlation": "shared target normalization; full covariance unavailable"
+    },
+    "anchors": [
+      {
+        "E_proton_LAB_MeV": 1.805,
+        "epsilon_eV_cm2_atom": 2.72e-15
+      },
+      {
+        "E_proton_LAB_MeV": 2.642,
+        "epsilon_eV_cm2_atom": 2.1e-15
+      }
+    ],
+    "secondary_text_anchor": {
+      "E_proton_LAB_MeV": 0.5,
+      "epsilon_eV_cm2_atom": 6.4e-15,
+      "page": "printed 35 / PDF 40",
+      "status": "not a separately reported absolute normalization point; not used in anchor qualification"
+    },
+    "published_followup": "10.1103/PhysRev.128.315",
+    "ancestry": "thesis and 1962 article are related, not independent validation"
+  },
+  "restrictions": [
+    "Actual target is B10 enriched, not pure B11, BN or B4C.",
+    "Atomic-to-mass conversion is a unit conversion, not evidence for isotope/material transfer.",
+    "No interpolation, low-energy extrapolation, CSDA range or missing nuclear-component assumption is introduced.",
+    "Do not count a mirror, thesis and related article as independent experiments."
+  ]
+}
