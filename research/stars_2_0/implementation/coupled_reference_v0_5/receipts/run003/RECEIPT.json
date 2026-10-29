@@ -1,0 +1,13 @@
+{
+  "code_sha256": {
+    "kinematics.py": "388e871b413f35927a31e01902edf2774dba961df7b2b1d0af84c294ec4bc6aa",
+    "physics.py": "6915bab453d0b6e9a0a1e4605a7c0c242b368396f8504c711055cd347335ad7f",
+    "run.py": "8508ffb60fb5163cbf052cffad16b372b7bce8ba300f206e8310c1323725a31a",
+    "test_reference.py": "c14adaa5254681e48c4ad65337e61027d14328803eb6ebd737ea9a6be1cccc07"
+  },
+  "event_samples": 512,
+  "generator": "NumPy default_rng PCG64, SeedSequence child per attempt",
+  "numpy": "2.3.5",
+  "python": "3.12.14",
+  "seed": 20261028
+}
