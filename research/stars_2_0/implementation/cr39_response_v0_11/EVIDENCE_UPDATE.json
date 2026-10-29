@@ -1,0 +1,34 @@
+{
+  "previous_gap_register": "../reference_evidence_v0_10/GAP_REGISTER.json",
+  "updates": [
+    {
+      "gap": "G02_detector_response",
+      "status": "PARTIAL_SOURCE_TRACED_REFERENCE_RECOVERED",
+      "new_evidence": "Condition-specific TASTRAK alpha response from Zhang2019; no substitution for BA/Zheng2026 or actual Stars calibration",
+      "full_apparatus_response": null,
+      "absolute_efficiency": null
+    },
+    {
+      "gap": "CR39_7p5MeV",
+      "status": "UNCOVERED",
+      "meaning": "Above both recovered2019 reference range1.105\u20134.915MeV and Zheng2026 claimed calibration extent6MeV; no extrapolation implemented"
+    },
+    {
+      "gap": "CR39_full_distribution",
+      "status": "PARTIAL_4p42MeV_DISPLAY_SUBSET_ONLY",
+      "meaning": "Approximate digitized histogram, not full-tail or absolute-detection calibration; 6.5% raw-SD discrepancy preserved"
+    },
+    {
+      "gap": "TPS_chain",
+      "status": "OPEN",
+      "meaning": "No full source/filter/TPS/detector reconstruction run in this release"
+    },
+    {
+      "gap": "independent_validation",
+      "status": "OPEN",
+      "meaning": "Figure re-extraction, same-paper anchor and retrospective interpolation checks are not independent campaign validation"
+    }
+  ],
+  "scientific_freeze": false,
+  "new_actual_Stars_measurement": false
+}
