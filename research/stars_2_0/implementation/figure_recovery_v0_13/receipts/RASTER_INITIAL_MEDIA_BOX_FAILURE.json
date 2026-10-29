@@ -1,0 +1,351 @@
+{
+  "renderer": "Poppler pdftoppm, separate from PyMuPDF vector parser",
+  "queries": 48,
+  "visible_queries": 17,
+  "occluded_or_unresolved": 31,
+  "max_visible_vertical_distance_pixels": 6.123031886505714,
+  "preset_gate": {
+    "min_visible": 24,
+    "max_vertical_distance_pixels": 2
+  },
+  "recovery_coordinate_check_passed": false,
+  "observations": [
+    {
+      "panel": "l1",
+      "role": "data",
+      "energy_cm_MeV": 0.6,
+      "nearest_color_vertical_distance_pixels": null,
+      "status": "OCCLUDED_OR_UNRESOLVED"
+    },
+    {
+      "panel": "l1",
+      "role": "data",
+      "energy_cm_MeV": 1.0,
+      "nearest_color_vertical_distance_pixels": null,
+      "status": "OCCLUDED_OR_UNRESOLVED"
+    },
+    {
+      "panel": "l1",
+      "role": "data",
+      "energy_cm_MeV": 1.6,
+      "nearest_color_vertical_distance_pixels": 0.010340976124609824,
+      "status": "VISIBLE"
+    },
+    {
+      "panel": "l1",
+      "role": "data",
+      "energy_cm_MeV": 2.4,
+      "nearest_color_vertical_distance_pixels": 5.819263163404003,
+      "status": "VISIBLE"
+    },
+    {
+      "panel": "l1",
+      "role": "data",
+      "energy_cm_MeV": 3.2,
+      "nearest_color_vertical_distance_pixels": null,
+      "status": "OCCLUDED_OR_UNRESOLVED"
+    },
+    {
+      "panel": "l1",
+      "role": "data",
+      "energy_cm_MeV": 3.8,
+      "nearest_color_vertical_distance_pixels": null,
+      "status": "OCCLUDED_OR_UNRESOLVED"
+    },
+    {
+      "panel": "l1",
+      "role": "data",
+      "energy_cm_MeV": 4.2,
+      "nearest_color_vertical_distance_pixels": 1.61837042720731,
+      "status": "VISIBLE"
+    },
+    {
+      "panel": "l1",
+      "role": "data",
+      "energy_cm_MeV": 4.8,
+      "nearest_color_vertical_distance_pixels": 5.188117744256829,
+      "status": "VISIBLE"
+    },
+    {
+      "panel": "l1",
+      "role": "published_model",
+      "energy_cm_MeV": 0.6,
+      "nearest_color_vertical_distance_pixels": null,
+      "status": "OCCLUDED_OR_UNRESOLVED"
+    },
+    {
+      "panel": "l1",
+      "role": "published_model",
+      "energy_cm_MeV": 1.0,
+      "nearest_color_vertical_distance_pixels": null,
+      "status": "OCCLUDED_OR_UNRESOLVED"
+    },
+    {
+      "panel": "l1",
+      "role": "published_model",
+      "energy_cm_MeV": 1.6,
+      "nearest_color_vertical_distance_pixels": null,
+      "status": "OCCLUDED_OR_UNRESOLVED"
+    },
+    {
+      "panel": "l1",
+      "role": "published_model",
+      "energy_cm_MeV": 2.4,
+      "nearest_color_vertical_distance_pixels": null,
+      "status": "OCCLUDED_OR_UNRESOLVED"
+    },
+    {
+      "panel": "l1",
+      "role": "published_model",
+      "energy_cm_MeV": 3.2,
+      "nearest_color_vertical_distance_pixels": null,
+      "status": "OCCLUDED_OR_UNRESOLVED"
+    },
+    {
+      "panel": "l1",
+      "role": "published_model",
+      "energy_cm_MeV": 3.8,
+      "nearest_color_vertical_distance_pixels": null,
+      "status": "OCCLUDED_OR_UNRESOLVED"
+    },
+    {
+      "panel": "l1",
+      "role": "published_model",
+      "energy_cm_MeV": 4.2,
+      "nearest_color_vertical_distance_pixels": null,
+      "status": "OCCLUDED_OR_UNRESOLVED"
+    },
+    {
+      "panel": "l1",
+      "role": "published_model",
+      "energy_cm_MeV": 4.8,
+      "nearest_color_vertical_distance_pixels": 0.44707881860085763,
+      "status": "VISIBLE"
+    },
+    {
+      "panel": "l3",
+      "role": "data",
+      "energy_cm_MeV": 0.6,
+      "nearest_color_vertical_distance_pixels": null,
+      "status": "OCCLUDED_OR_UNRESOLVED"
+    },
+    {
+      "panel": "l3",
+      "role": "data",
+      "energy_cm_MeV": 1.0,
+      "nearest_color_vertical_distance_pixels": 3.836951047221987,
+      "status": "VISIBLE"
+    },
+    {
+      "panel": "l3",
+      "role": "data",
+      "energy_cm_MeV": 1.6,
+      "nearest_color_vertical_distance_pixels": 4.793264396890891,
+      "status": "VISIBLE"
+    },
+    {
+      "panel": "l3",
+      "role": "data",
+      "energy_cm_MeV": 2.4,
+      "nearest_color_vertical_distance_pixels": 0.03732441097736228,
+      "status": "VISIBLE"
+    },
+    {
+      "panel": "l3",
+      "role": "data",
+      "energy_cm_MeV": 3.2,
+      "nearest_color_vertical_distance_pixels": null,
+      "status": "OCCLUDED_OR_UNRESOLVED"
+    },
+    {
+      "panel": "l3",
+      "role": "data",
+      "energy_cm_MeV": 3.8,
+      "nearest_color_vertical_distance_pixels": null,
+      "status": "OCCLUDED_OR_UNRESOLVED"
+    },
+    {
+      "panel": "l3",
+      "role": "data",
+      "energy_cm_MeV": 4.2,
+      "nearest_color_vertical_distance_pixels": null,
+      "status": "OCCLUDED_OR_UNRESOLVED"
+    },
+    {
+      "panel": "l3",
+      "role": "data",
+      "energy_cm_MeV": 4.8,
+      "nearest_color_vertical_distance_pixels": null,
+      "status": "OCCLUDED_OR_UNRESOLVED"
+    },
+    {
+      "panel": "l3",
+      "role": "published_model",
+      "energy_cm_MeV": 0.6,
+      "nearest_color_vertical_distance_pixels": null,
+      "status": "OCCLUDED_OR_UNRESOLVED"
+    },
+    {
+      "panel": "l3",
+      "role": "published_model",
+      "energy_cm_MeV": 1.0,
+      "nearest_color_vertical_distance_pixels": 0.153828379617039,
+      "status": "VISIBLE"
+    },
+    {
+      "panel": "l3",
+      "role": "published_model",
+      "energy_cm_MeV": 1.6,
+      "nearest_color_vertical_distance_pixels": 2.3422532430637375,
+      "status": "VISIBLE"
+    },
+    {
+      "panel": "l3",
+      "role": "published_model",
+      "energy_cm_MeV": 2.4,
+      "nearest_color_vertical_distance_pixels": 0.05200964594951074,
+      "status": "VISIBLE"
+    },
+    {
+      "panel": "l3",
+      "role": "published_model",
+      "energy_cm_MeV": 3.2,
+      "nearest_color_vertical_distance_pixels": null,
+      "status": "OCCLUDED_OR_UNRESOLVED"
+    },
+    {
+      "panel": "l3",
+      "role": "published_model",
+      "energy_cm_MeV": 3.8,
+      "nearest_color_vertical_distance_pixels": null,
+      "status": "OCCLUDED_OR_UNRESOLVED"
+    },
+    {
+      "panel": "l3",
+      "role": "published_model",
+      "energy_cm_MeV": 4.2,
+      "nearest_color_vertical_distance_pixels": null,
+      "status": "OCCLUDED_OR_UNRESOLVED"
+    },
+    {
+      "panel": "l3",
+      "role": "published_model",
+      "energy_cm_MeV": 4.8,
+      "nearest_color_vertical_distance_pixels": null,
+      "status": "OCCLUDED_OR_UNRESOLVED"
+    },
+    {
+      "panel": "mixture",
+      "role": "data",
+      "energy_cm_MeV": 0.6,
+      "nearest_color_vertical_distance_pixels": null,
+      "status": "OCCLUDED_OR_UNRESOLVED"
+    },
+    {
+      "panel": "mixture",
+      "role": "data",
+      "energy_cm_MeV": 1.0,
+      "nearest_color_vertical_distance_pixels": 0.1823405325769727,
+      "status": "VISIBLE"
+    },
+    {
+      "panel": "mixture",
+      "role": "data",
+      "energy_cm_MeV": 1.6,
+      "nearest_color_vertical_distance_pixels": null,
+      "status": "OCCLUDED_OR_UNRESOLVED"
+    },
+    {
+      "panel": "mixture",
+      "role": "data",
+      "energy_cm_MeV": 2.4,
+      "nearest_color_vertical_distance_pixels": null,
+      "status": "OCCLUDED_OR_UNRESOLVED"
+    },
+    {
+      "panel": "mixture",
+      "role": "data",
+      "energy_cm_MeV": 3.2,
+      "nearest_color_vertical_distance_pixels": 6.123031886505714,
+      "status": "VISIBLE"
+    },
+    {
+      "panel": "mixture",
+      "role": "data",
+      "energy_cm_MeV": 3.8,
+      "nearest_color_vertical_distance_pixels": null,
+      "status": "OCCLUDED_OR_UNRESOLVED"
+    },
+    {
+      "panel": "mixture",
+      "role": "data",
+      "energy_cm_MeV": 4.2,
+      "nearest_color_vertical_distance_pixels": 4.461891472255957,
+      "status": "VISIBLE"
+    },
+    {
+      "panel": "mixture",
+      "role": "data",
+      "energy_cm_MeV": 4.8,
+      "nearest_color_vertical_distance_pixels": null,
+      "status": "OCCLUDED_OR_UNRESOLVED"
+    },
+    {
+      "panel": "mixture",
+      "role": "published_model",
+      "energy_cm_MeV": 0.6,
+      "nearest_color_vertical_distance_pixels": null,
+      "status": "OCCLUDED_OR_UNRESOLVED"
+    },
+    {
+      "panel": "mixture",
+      "role": "published_model",
+      "energy_cm_MeV": 1.0,
+      "nearest_color_vertical_distance_pixels": 5.555959056782513,
+      "status": "VISIBLE"
+    },
+    {
+      "panel": "mixture",
+      "role": "published_model",
+      "energy_cm_MeV": 1.6,
+      "nearest_color_vertical_distance_pixels": null,
+      "status": "OCCLUDED_OR_UNRESOLVED"
+    },
+    {
+      "panel": "mixture",
+      "role": "published_model",
+      "energy_cm_MeV": 2.4,
+      "nearest_color_vertical_distance_pixels": 5.461771250953234,
+      "status": "VISIBLE"
+    },
+    {
+      "panel": "mixture",
+      "role": "published_model",
+      "energy_cm_MeV": 3.2,
+      "nearest_color_vertical_distance_pixels": 2.437462436520491,
+      "status": "VISIBLE"
+    },
+    {
+      "panel": "mixture",
+      "role": "published_model",
+      "energy_cm_MeV": 3.8,
+      "nearest_color_vertical_distance_pixels": null,
+      "status": "OCCLUDED_OR_UNRESOLVED"
+    },
+    {
+      "panel": "mixture",
+      "role": "published_model",
+      "energy_cm_MeV": 4.2,
+      "nearest_color_vertical_distance_pixels": null,
+      "status": "OCCLUDED_OR_UNRESOLVED"
+    },
+    {
+      "panel": "mixture",
+      "role": "published_model",
+      "energy_cm_MeV": 4.8,
+      "nearest_color_vertical_distance_pixels": null,
+      "status": "OCCLUDED_OR_UNRESOLVED"
+    }
+  ],
+  "meaning": "Figure coordinate/curve recovery check only, not an experimental validation gate"
+}
