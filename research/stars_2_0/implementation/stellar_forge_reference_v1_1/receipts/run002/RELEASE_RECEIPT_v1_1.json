@@ -1,0 +1,67 @@
+{
+  "name": "Stellar Forge Reference v.1.1",
+  "python": "3.12.14",
+  "tests": 30,
+  "python_test_result": "PASS",
+  "ui_events": {
+    "status": "PASS",
+    "scope": "DOM_EVENT_HARNESS_NOT_BROWSER_RENDERING",
+    "checks": [
+      "embedded script parses",
+      "location/frequency/chirp binding",
+      "configuration JSON download",
+      "OFF zero drive preset",
+      "result viewer/chart data binding"
+    ]
+  },
+  "browser_rendering": "NOT_VERIFIED_NO_CHROMIUM_EXECUTABLE",
+  "installed_UI_config_run": "PASS",
+  "same_environment_repeat": "BYTE_IDENTICAL",
+  "EXFOR_rows": 41,
+  "PSTAR_mirror_rows": 132,
+  "stopping_method_cases": 12,
+  "max_method_discrepancy_MeV": 0.0024500838740775244,
+  "boron_rows": 77,
+  "boron_status": "QUARANTINED_NOT_TRANSPORT_INPUT",
+  "measurement_design_checks": {
+    "checks": [
+      "design ranks",
+      "independent variance oracle",
+      "finite invariances",
+      "invisible discrepancy"
+    ],
+    "status": "PASS"
+  },
+  "acoustic_peak_m": 1.4063558644446993e-08,
+  "acoustic_coarse_fine_error_m": 4.720709054190954e-14,
+  "physical_validation": "NOT_RUN",
+  "price_qualified_isotopes": 0,
+  "result_sha256": "b88434475e173fb6d2f285ed83b58e4841277aa1eef7d54cb43fd4341a3aaa00",
+  "authoritative_run": "run002",
+  "change_since_run001": "report title corrected from v.1 to v.1.1; run001 retained",
+  "code_sha256": {
+    "COMPONENT_COST_TEMPLATE_v1_1.json": "b4ef350b2e600f7b6522de98f2d014d0a909ab50374dfced09e6af6646dff95a",
+    "PB_PRODUCT_MAP_v0_1.md": "c62759063d45d10649736ae1d3d1baa55146c394ef6e07b5d61571b81ee4717e",
+    "PB_PRODUCT_REGISTRY_v1_1.json": "8e6a622d31f0ad8fb2667ca7ba409bea5cbd2134d381b70de22275b94185ee3a",
+    "PRODUCT_REGISTRY_v0_1.json": "eb74acdb4f4bb114281e0dca1baf28059a4cc2dd2a70836c79b0bf7f8756f838",
+    "VENDOR_LOCK.json": "f473e9ddb4091bc560c053ea48c0a677378074fb929efd1c18ff94cc215fb4ab",
+    "__init__.py": "2c6550c83b1689f7400a8eeacedc1bf115961ddb3513bb90f99a83f12023cb0e",
+    "acoustics.py": "0aa3742112e5caa4136987e600249c1ec6d99d0bf023877d2b003483eb6c62fe",
+    "cli.py": "33e31ce01a04175cac8127c0be20e4518d7994e5c641bc791760073c0012fe00",
+    "evidence.py": "edf6cadedd28764ddf12f665da012ad548b3632e9b7ca91c0ee7869bfa772c06",
+    "extensions.py": "e0a2a9a5c84004110354bd05861de57e34ed993df3a2731957b1ab0be67aa455",
+    "runner.py": "ad3d0209391c92f8ab48973be241cda248c551df8d7de90b28fcfecf6bb5dc2d",
+    "ui.py": "9d5793097e56848199d316a51f1e750d1df2f072f0258652ee976fc428b9b0eb",
+    "vendor/__init__.py": "2f5b5c623fdcaf38124db83d074fdd500c919d2ef66f5dfe838e21262fbaa661",
+    "vendor/costs.py": "300b67a355f2810274fdd811865214e96bac9974d5a8028b3ffd67d8e688877d",
+    "vendor/detector.py": "f53fa649cf7c9a32ab40f20ae5870bbd81bc5632fffb6889a73f28f88b76550d",
+    "vendor/identifiability.py": "039eef52e9b6aa67d24999f55f5650260be2763ceffd3ee70a7e534e8c5c7127",
+    "vendor/measurement_design.py": "dc8b8f9a2c4047831409a07fdf7a14730154aa7025ab1bc79ae7d6928e84cf0d",
+    "vendor/observables.py": "543280eb2d859b2e7fc44c1108c8c940eca073ed018b74e21bcf5507cc23ccd4",
+    "vendor/reporting.py": "e5db88ff1301fe5ee7b30568fe0c12701ddc6519374edb148f18ce6621973202",
+    "vendor/screen.py": "81aaad09b8067165bc48d7876f13298269e2e31c076ba5e0a5cf6542088502a9",
+    "vendor/stopping_source_check.py": "4627a4d1298b507c4eb86c2b9d08e01468dec462e7ce654d5bb6f65b0577eddd",
+    "vendor/transport.py": "f3a43e6781da00bdc47b9f31605817e11fe28a5ae12149538f2787e5a8d6439e"
+  },
+  "test_result": "30 PASS after final install"
+}
