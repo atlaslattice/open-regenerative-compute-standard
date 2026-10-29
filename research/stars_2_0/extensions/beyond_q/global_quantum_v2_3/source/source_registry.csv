@@ -1,0 +1,28 @@
+id,source,url,assessment
+R01,"Hillesheim et al. (2026), Overview of the physics basis for the ARC fusion power plant, Journal of Plasma Physics 92 E69",https://doi.org/10.1017/S0022377826101706,"Peer-reviewed; ARC V3A reference, plasma and balance assumptions"
+R02,"CFS (2026), ARC Physics Basis press release (June 4)",https://cfs.energy/news-and-media/commonwealth-fusion-systems-builds-on-learnings-from-sparc-to-publish-five-peer-reviewed-papers-validating-the-physics-of-the-arc-fusion-power-plant/,Operator source; design still future
+R03,"CFS + Google (2025), 200 MW ARC PPA announcement (June 30)",https://cfs.energy/news-and-media/google-and-commonwealth-fusion-systems-sign-strategic-partnership/,"Corporate primary; electricity PPA, not quantum-site commitment"
+R04,"Sorbom et al. (2015), ARC demountable-magnet design, Fusion Engineering and Design",https://doi.org/10.1016/j.fusengdes.2015.07.008,"Peer-reviewed conceptual 2015 design, not 2026 V3A chassis"
+R05,"Kuang et al. (2018), ARC heat exhaust management, Fusion Engineering and Design",https://doi.org/10.1016/j.fusengdes.2018.09.007,Peer-reviewed conceptual divertor/vessel design
+R06,"Meschini et al. (2023), Tritium fuel cycle for ARC/STEP-class plants, Nuclear Fusion",https://doi.org/10.1088/1741-4326/acf3fc,Peer-reviewed model; needs scenario-specific closure
+R07,"Zhang et al. (2026), Neutron-source fidelity in laser D-D blanket tests, preprint",https://arxiv.org/abs/2607.13585,Preprint; non-tokamak D-D source; transfer limited
+R08,"Google Quantum AI (2024), Making quantum error correction work: Willow",https://research.google/blog/making-quantum-error-correction-work/,Primary reported 105-qubit below-threshold experiment
+R09,"Google (2026), Building superconducting and neutral atom quantum computers",https://blog.google/innovation-and-ai/technology/research/neutral-atom-quantum-computers/,Official expansion to neutral atoms
+R10,"Google Research (2025), A verifiable quantum advantage: Quantum Echoes",https://research.google/blog/a-verifiable-quantum-advantage/,"Company research report, task-specific computational claims"
+R11,"Microsoft Quantum (2026), Quantum Roadmap",https://quantum.microsoft.com/en-us/vision/quantum-roadmap,"Official goals: Level 1-3, milestone 6 rQOPS; targets not loads"
+R12,"Microsoft Quantum (2026), Majorana 2 scalable quantum processor",https://quantum.microsoft.com/en-us/insights/blogs/majorana-2-scalable-quantum-processor,Company-reported device claims; needs raw technical paper for measurement replication
+R13,"Microsoft Quantum (2025), Majorana 1 announcement",https://quantum.microsoft.com/en-us/insights/blogs/microsoft-unveils-majorana-1-worlds-first-quantum-processor-powered-by-topological-qubits,Company architecture and aspirations
+R14,"Microsoft Quantum (2026), Logical qubit product engineering and Magne",https://quantum.microsoft.com/en-us/insights/blogs/from-research-to-product-engineering-logical-qubit-demonstrations-shaping-microsoft-utility-scale-quantum-software-platform,Microsoft partners on neutral atom; not just topological platform
+R15,"Hubei Department of Economy and IT (2026), Hanyuan-2 release",https://jxt.hubei.gov.cn/bmdt/szgz/202605/t20260508_5929809.shtml,Public provincial source: 200 dual-isotope neutral atoms
+R16,"Xinhua (2026), Hanyuan-2 reported whole-system <7 kW",https://app.xinhuanet.com/news/article.html?articleId=2026050922f472aebdd345e9b1c927d29e48943d,"Reported vendor figure, not independent electrical metering"
+R17,"Origin Quantum (2026), SL3000 manufacturer specification",https://originqc.com.cn/en/product/hardware?id=388,Vendor refrigeration capacity at 20/100 mK; wall-plug unresolved
+R18,"USTC (2025), Zuchongzhi-3.0 105-qubit superconducting prototype",https://en.ustc.edu.cn/info/1007/5015.htm,University-reported prototype; no facility power
+R19,"Nature (2026), Jiuzhang 4.0 Gaussian boson sampling",https://doi.org/10.1038/s41586-026-10523-6,Peer-reviewed photonic sampling; not universal gate-model proof
+R20,"DOE (1999), Tritium handling and safe storage handbook",https://www.energy.gov/documents/doe-hdbk-1129-99pdf,"Authoritative decay constants, handling context; current regulations separate"
+R21,"Guan et al. (2025), Cryogen-free dilution refrigerator, Rev. Sci. Instrum.",https://doi.org/10.1063/5.0294894,Peer-reviewed cold-capacity measurements; not wall power
+R22,"CFS (2026), ARC disruptions and design strategy, J. Plasma Phys.",https://doi.org/10.1017/S0022377826101585,Peer-reviewed design: replaceable vessel planned with 1-2 year life cycle
+R23,"CFS (2026), ARC grid-scale design overview",https://cfs.energy/technology/arc/,Operator commercial design and timelines
+R24,"Google Research (2026), Dynamic surface codes",https://research.google/blog/dynamic-surface-codes-open-new-avenues-for-quantum-error-correction/,New circuit QEC approach; no campus-load disclosure
+R25,"Microsoft Quantum (2026), Reliable quantum operations per second",https://quantum.microsoft.com/en-us/insights/education/concepts/rQOPS,"Definition: logical qubits times logical clock frequency, with error rate"
+R26,"Cambridge University Press (2026), ARC physics basis collection",https://www.cambridge.org/core/journals/journal-of-plasma-physics/collections/arc-fusion-power-plant-physics-basis,Collection of five peer-reviewed 2026 papers
+R27,"Atlas Lattice (2026), Beyond Q recovery draft PR #36",https://github.com/atlaslattice/open-regenerative-compute-standard/pull/36,"Unmerged draft; conditional recovered figures, not validation"
