@@ -1,0 +1,78 @@
+{
+  "source": "PB_PRODUCT_MAP_v0_1.md, PR17 commit 37d8da263450610715fe493748c8ab3ec052c30f",
+  "status": "CONDITIONAL_CHANNEL_INVENTORY_ONLY",
+  "products": [
+    {
+      "isotope": "He-4",
+      "pathways": [
+        "B-11(p,3alpha)"
+      ],
+      "produced_quantity": null,
+      "recovered_quantity": null,
+      "price_snapshot": null,
+      "processing_cost_USD": null
+    },
+    {
+      "isotope": "C-12",
+      "pathways": [
+        "B-11(p,gamma)C-12"
+      ],
+      "produced_quantity": null,
+      "recovered_quantity": null,
+      "price_snapshot": null,
+      "processing_cost_USD": null
+    },
+    {
+      "isotope": "C-11",
+      "pathways": [
+        "B-11(p,n)C-11",
+        "B-10(p,gamma)C-11"
+      ],
+      "produced_quantity": null,
+      "recovered_quantity": null,
+      "price_snapshot": null,
+      "processing_cost_USD": null
+    },
+    {
+      "isotope": "Be-7",
+      "pathways": [
+        "B-10(p,alpha)Be-7"
+      ],
+      "produced_quantity": null,
+      "recovered_quantity": null,
+      "price_snapshot": null,
+      "processing_cost_USD": null
+    },
+    {
+      "isotope": "N-14",
+      "pathways": [
+        "B-11(alpha,n)N-14"
+      ],
+      "produced_quantity": null,
+      "recovered_quantity": null,
+      "price_snapshot": null,
+      "processing_cost_USD": null
+    },
+    {
+      "isotope": "N-13",
+      "pathways": [
+        "B-10(alpha,n)N-13"
+      ],
+      "produced_quantity": null,
+      "recovered_quantity": null,
+      "price_snapshot": null,
+      "processing_cost_USD": null
+    },
+    {
+      "isotope": "F-18",
+      "pathways": [
+        "N-14(alpha,gamma)F-18"
+      ],
+      "produced_quantity": null,
+      "recovered_quantity": null,
+      "price_snapshot": null,
+      "processing_cost_USD": null
+    }
+  ],
+  "note": "not an exhaustive activation/decay network; no products inferred from configuration"
+}
