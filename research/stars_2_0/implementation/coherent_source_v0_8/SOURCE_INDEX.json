@@ -1,0 +1,65 @@
+{
+  "retrieved_date_UTC": "2026-10-29",
+  "sources": [
+    {
+      "id": "KUHLWEIN2022",
+      "url": "https://scoap3-prod-backend.s3.cern.ch/media/files/66775/10.1016/j.physletb.2021.136857_a.pdf",
+      "doi": "10.1016/j.physletb.2021.136857",
+      "sha256": "4c7c6f697b93c137f94f0ca3a49737e96294420f515c85d6bbc81110a8238318",
+      "use": "Equations1\u20134 sequential coherent amplitudes and Table2 candidate coefficients; exact implementation conventions remain unresolved"
+    },
+    {
+      "id": "REFSGAARD2016",
+      "url": "https://phys.au.dk/fileadmin/user_upload/Phd_thesis/afhandling_jonasRefsgaard.pdf",
+      "sha256": "e72449f13c334826582dba35572f41373d718cd09d89ca0cbc01d3afaccb3e3d",
+      "use": "Eq2.3 generic channel radius; Eq2.11\u201312 Coulomb functions; Eq3.7\u20138 symmetrization; Table3.1 threshold energies and formal reduced widths"
+    },
+    {
+      "id": "BHATTACHARYA2006",
+      "url": "https://archive.int.washington.edu/PROGRAMS/solar_papers/neutrino/bhattacharya.pdf",
+      "doi": "10.1103/PhysRevC.73.055802",
+      "sha256": "c19c3592dcf5f6d8e744946bbc1a10352e3a6852f2620c79a970ae5f73c72864",
+      "use": "TableIII 3037keV excitation; radius4.50fm and strong parameter correlations; no recovered full covariance"
+    },
+    {
+      "id": "MUNCH_PREPRINT_V1",
+      "url": "https://arxiv.org/pdf/1908.04064v1",
+      "related_journal_doi": "10.1140/epja/s10050-019-00016-8",
+      "sha256": "9839275f558087a54f2c865ae65540528b46575a19a913739d38bfd8af16f8a4",
+      "use": "Table1 PDFpage4, 45 alpha0 channel cross-section entries; preprint identity only"
+    },
+    {
+      "id": "ORM_V1",
+      "url": "https://zenodo.org/records/1174079/files/ORM-v1.0-be2fbae9fe05ddb3647071f29c3b963359e65103.zip",
+      "doi": "10.5281/zenodo.1174079",
+      "sha256": "12a2d7de9f8ece865a4c87987b16bf8e3e921b01f5334cf94acc4b69743f7e3c",
+      "use": "Archive-pinned Michel CPC Coulomb implementation; not a full ORM reproduction"
+    },
+    {
+      "id": "NIST_CODATA2022",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "use": "Fine structure constant 7.2973525643e-3, standard uncertainty1.1e-12; hbar*c derived from exact SI h,c,e"
+    },
+    {
+      "id": "BRUNE_PHASE",
+      "url": "https://indico.ph.ed.ac.uk/event/274/sessions/493/attachments/1680/2597/Carl_Brune_-_R-Matrix_Lecture_2.pdf",
+      "use": "Relative Coulomb phase convention; not a reconciliation of the Kuhlwein code"
+    },
+    {
+      "id": "SCIPY117",
+      "url": "https://docs.scipy.org/doc/scipy-1.17.0/reference/generated/scipy.special.sph_harm_y.html",
+      "use": "Spherical harmonic angular and phase conventions"
+    },
+    {
+      "id": "NIST_CG",
+      "url": "https://dlmf.nist.gov/34.3",
+      "use": "Clebsch\u2013Gordan / Wigner3j relation"
+    },
+    {
+      "id": "IAEA_STOPPING_GATEWAY",
+      "url": "https://nucleus.iaea.org/Pages/stopping-power-for-light-ions.aspx",
+      "use": "Further stopping-data search; no new alpha-on-boron numeric table imported"
+    }
+  ],
+  "raw_source_redistribution": false
+}

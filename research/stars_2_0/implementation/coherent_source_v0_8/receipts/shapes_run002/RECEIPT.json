@@ -1,0 +1,13 @@
+{
+  "Coulomb_backend": "MICHEL_CPC_FROM_ORM_ZENODO1174079",
+  "GSL_3j": "2.7.1",
+  "code_sha256": {
+    "amplitude.py": "3c743d14d81a30964592389e8319de372d0bdaa16bfda2ca087b26bdabd202cf",
+    "coulomb.py": "92d805349c33f8683db49d29e9bf24f0c3c379e4c1c2c3b5cade2124dfb85dfa",
+    "run_shapes.py": "8b87e4068b7123d18d280cccb65da58747e9d9178982466c0d26c4ce3bdbdc02"
+  },
+  "config_sha256": "ff83a20cca365c9f5cfe9cde72f1db424851a7fb9d9e0a628b280d01f08bd260",
+  "numpy": "2.3.5",
+  "python": "3.12.14",
+  "scipy": "1.17.0"
+}

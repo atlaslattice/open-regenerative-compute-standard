@@ -1,0 +1,10 @@
+{
+  "basis_convention": "RAW_EQUATIONS_NOT_BRANCH_FRACTIONS",
+  "boundary_convention": "S_AT_DECLARED_PAIR_LEVEL",
+  "coulomb_phase_convention": "RELATIVE_TO_SIGMA0",
+  "pair_level_above_threshold_MeV": 3.12884,
+  "pair_reduced_width_squared_MeV": 1.075,
+  "primary_radius_fm": 5.022361472755478,
+  "run_class": "EXPLORATORY_LITERATURE_MODEL",
+  "secondary_radius_fm": 4.5
+}

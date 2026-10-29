@@ -1,0 +1,422 @@
+{
+  "source": "Munch et al., arXiv1908.04064v1, Table1 / PDFpage4; related journal DOI10.1140/epja/s10050-019-00016-8",
+  "source_pdf_sha256": "9839275f558087a54f2c865ae65540528b46575a19a913739d38bfd8af16f8a4",
+  "source_url": "https://arxiv.org/pdf/1908.04064v1",
+  "publication_identity": "PREPRINT_V1_NOT_VERIFIED_JOURNAL_TABLE",
+  "observable": "ALPHA0_CHANNEL_ANGLE_INTEGRATED_CROSS_SECTION",
+  "energy_frame": "LAB",
+  "uncertainty": "parenthesized errors transcribed; caption approx10% except lowest two12%; full covariance and exact statistical convention not recovered",
+  "duplicate_energies_keV": [
+    950,
+    1900
+  ],
+  "duplicate_policy": "all four entries retained and excluded from automatic fitting; no guessed energy correction or deduplication",
+  "pure_2minus_source_scope": "not the same as full reaction: alpha0 can receive other parent-state contributions",
+  "rows": [
+    {
+      "record_id": "PREPRINT_V1_TABLE1_001",
+      "E_proton_LAB_keV": 500,
+      "alpha0_angle_integrated_mb": 2.5,
+      "reported_error_mb": 0.30000000000000004,
+      "source_token": "2.5(3)",
+      "source_energy_duplicated": false,
+      "eligible_for_future_fit": true
+    },
+    {
+      "record_id": "PREPRINT_V1_TABLE1_002",
+      "E_proton_LAB_keV": 2150,
+      "alpha0_angle_integrated_mb": 8.4,
+      "reported_error_mb": 0.9,
+      "source_token": "8.4(9)",
+      "source_energy_duplicated": false,
+      "eligible_for_future_fit": true
+    },
+    {
+      "record_id": "PREPRINT_V1_TABLE1_003",
+      "E_proton_LAB_keV": 600,
+      "alpha0_angle_integrated_mb": 3.6,
+      "reported_error_mb": 0.4,
+      "source_token": "3.6(4)",
+      "source_energy_duplicated": false,
+      "eligible_for_future_fit": true
+    },
+    {
+      "record_id": "PREPRINT_V1_TABLE1_004",
+      "E_proton_LAB_keV": 2250,
+      "alpha0_angle_integrated_mb": 12.0,
+      "reported_error_mb": 1.2000000000000002,
+      "source_token": "12.0(12)",
+      "source_energy_duplicated": false,
+      "eligible_for_future_fit": true
+    },
+    {
+      "record_id": "PREPRINT_V1_TABLE1_005",
+      "E_proton_LAB_keV": 683,
+      "alpha0_angle_integrated_mb": 4.3,
+      "reported_error_mb": 0.5,
+      "source_token": "4.3(5)",
+      "source_energy_duplicated": false,
+      "eligible_for_future_fit": true
+    },
+    {
+      "record_id": "PREPRINT_V1_TABLE1_006",
+      "E_proton_LAB_keV": 2300,
+      "alpha0_angle_integrated_mb": 15.5,
+      "reported_error_mb": 1.6,
+      "source_token": "15.5(16)",
+      "source_energy_duplicated": false,
+      "eligible_for_future_fit": true
+    },
+    {
+      "record_id": "PREPRINT_V1_TABLE1_007",
+      "E_proton_LAB_keV": 800,
+      "alpha0_angle_integrated_mb": 5.5,
+      "reported_error_mb": 0.6000000000000001,
+      "source_token": "5.5(6)",
+      "source_energy_duplicated": false,
+      "eligible_for_future_fit": true
+    },
+    {
+      "record_id": "PREPRINT_V1_TABLE1_008",
+      "E_proton_LAB_keV": 2350,
+      "alpha0_angle_integrated_mb": 20.0,
+      "reported_error_mb": 2.0,
+      "source_token": "20(2)",
+      "source_energy_duplicated": false,
+      "eligible_for_future_fit": true
+    },
+    {
+      "record_id": "PREPRINT_V1_TABLE1_009",
+      "E_proton_LAB_keV": 850,
+      "alpha0_angle_integrated_mb": 5.3,
+      "reported_error_mb": 0.6000000000000001,
+      "source_token": "5.3(6)",
+      "source_energy_duplicated": false,
+      "eligible_for_future_fit": true
+    },
+    {
+      "record_id": "PREPRINT_V1_TABLE1_010",
+      "E_proton_LAB_keV": 2400,
+      "alpha0_angle_integrated_mb": 24.0,
+      "reported_error_mb": 2.0,
+      "source_token": "24(2)",
+      "source_energy_duplicated": false,
+      "eligible_for_future_fit": true
+    },
+    {
+      "record_id": "PREPRINT_V1_TABLE1_011",
+      "E_proton_LAB_keV": 900,
+      "alpha0_angle_integrated_mb": 5.8,
+      "reported_error_mb": 0.6000000000000001,
+      "source_token": "5.8(6)",
+      "source_energy_duplicated": false,
+      "eligible_for_future_fit": true
+    },
+    {
+      "record_id": "PREPRINT_V1_TABLE1_012",
+      "E_proton_LAB_keV": 2450,
+      "alpha0_angle_integrated_mb": 35.0,
+      "reported_error_mb": 3.0,
+      "source_token": "35(3)",
+      "source_energy_duplicated": false,
+      "eligible_for_future_fit": true
+    },
+    {
+      "record_id": "PREPRINT_V1_TABLE1_013",
+      "E_proton_LAB_keV": 950,
+      "alpha0_angle_integrated_mb": 6.1,
+      "reported_error_mb": 0.6000000000000001,
+      "source_token": "6.1(6)",
+      "source_energy_duplicated": true,
+      "eligible_for_future_fit": false
+    },
+    {
+      "record_id": "PREPRINT_V1_TABLE1_014",
+      "E_proton_LAB_keV": 2500,
+      "alpha0_angle_integrated_mb": 44.0,
+      "reported_error_mb": 4.0,
+      "source_token": "44(4)",
+      "source_energy_duplicated": false,
+      "eligible_for_future_fit": true
+    },
+    {
+      "record_id": "PREPRINT_V1_TABLE1_015",
+      "E_proton_LAB_keV": 950,
+      "alpha0_angle_integrated_mb": 6.1,
+      "reported_error_mb": 0.6000000000000001,
+      "source_token": "6.1(6)",
+      "source_energy_duplicated": true,
+      "eligible_for_future_fit": false
+    },
+    {
+      "record_id": "PREPRINT_V1_TABLE1_016",
+      "E_proton_LAB_keV": 2550,
+      "alpha0_angle_integrated_mb": 52.0,
+      "reported_error_mb": 5.0,
+      "source_token": "52(5)",
+      "source_energy_duplicated": false,
+      "eligible_for_future_fit": true
+    },
+    {
+      "record_id": "PREPRINT_V1_TABLE1_017",
+      "E_proton_LAB_keV": 1000,
+      "alpha0_angle_integrated_mb": 6.3,
+      "reported_error_mb": 0.6000000000000001,
+      "source_token": "6.3(6)",
+      "source_energy_duplicated": false,
+      "eligible_for_future_fit": true
+    },
+    {
+      "record_id": "PREPRINT_V1_TABLE1_018",
+      "E_proton_LAB_keV": 2600,
+      "alpha0_angle_integrated_mb": 58.0,
+      "reported_error_mb": 6.0,
+      "source_token": "58(6)",
+      "source_energy_duplicated": false,
+      "eligible_for_future_fit": true
+    },
+    {
+      "record_id": "PREPRINT_V1_TABLE1_019",
+      "E_proton_LAB_keV": 1100,
+      "alpha0_angle_integrated_mb": 6.3,
+      "reported_error_mb": 0.6000000000000001,
+      "source_token": "6.3(6)",
+      "source_energy_duplicated": false,
+      "eligible_for_future_fit": true
+    },
+    {
+      "record_id": "PREPRINT_V1_TABLE1_020",
+      "E_proton_LAB_keV": 2640,
+      "alpha0_angle_integrated_mb": 55.0,
+      "reported_error_mb": 6.0,
+      "source_token": "55(6)",
+      "source_energy_duplicated": false,
+      "eligible_for_future_fit": true
+    },
+    {
+      "record_id": "PREPRINT_V1_TABLE1_021",
+      "E_proton_LAB_keV": 1300,
+      "alpha0_angle_integrated_mb": 6.2,
+      "reported_error_mb": 0.6000000000000001,
+      "source_token": "6.2(6)",
+      "source_energy_duplicated": false,
+      "eligible_for_future_fit": true
+    },
+    {
+      "record_id": "PREPRINT_V1_TABLE1_022",
+      "E_proton_LAB_keV": 2650,
+      "alpha0_angle_integrated_mb": 54.0,
+      "reported_error_mb": 5.0,
+      "source_token": "54(5)",
+      "source_energy_duplicated": false,
+      "eligible_for_future_fit": true
+    },
+    {
+      "record_id": "PREPRINT_V1_TABLE1_023",
+      "E_proton_LAB_keV": 1500,
+      "alpha0_angle_integrated_mb": 6.0,
+      "reported_error_mb": 0.6000000000000001,
+      "source_token": "6.0(6)",
+      "source_energy_duplicated": false,
+      "eligible_for_future_fit": true
+    },
+    {
+      "record_id": "PREPRINT_V1_TABLE1_024",
+      "E_proton_LAB_keV": 2700,
+      "alpha0_angle_integrated_mb": 45.0,
+      "reported_error_mb": 5.0,
+      "source_token": "45(5)",
+      "source_energy_duplicated": false,
+      "eligible_for_future_fit": true
+    },
+    {
+      "record_id": "PREPRINT_V1_TABLE1_025",
+      "E_proton_LAB_keV": 1600,
+      "alpha0_angle_integrated_mb": 5.9,
+      "reported_error_mb": 0.6000000000000001,
+      "source_token": "5.9(6)",
+      "source_energy_duplicated": false,
+      "eligible_for_future_fit": true
+    },
+    {
+      "record_id": "PREPRINT_V1_TABLE1_026",
+      "E_proton_LAB_keV": 2750,
+      "alpha0_angle_integrated_mb": 33.0,
+      "reported_error_mb": 3.0,
+      "source_token": "33(3)",
+      "source_energy_duplicated": false,
+      "eligible_for_future_fit": true
+    },
+    {
+      "record_id": "PREPRINT_V1_TABLE1_027",
+      "E_proton_LAB_keV": 1700,
+      "alpha0_angle_integrated_mb": 6.1,
+      "reported_error_mb": 0.6000000000000001,
+      "source_token": "6.1(6)",
+      "source_energy_duplicated": false,
+      "eligible_for_future_fit": true
+    },
+    {
+      "record_id": "PREPRINT_V1_TABLE1_028",
+      "E_proton_LAB_keV": 2800,
+      "alpha0_angle_integrated_mb": 24.0,
+      "reported_error_mb": 2.0,
+      "source_token": "24(2)",
+      "source_energy_duplicated": false,
+      "eligible_for_future_fit": true
+    },
+    {
+      "record_id": "PREPRINT_V1_TABLE1_029",
+      "E_proton_LAB_keV": 1800,
+      "alpha0_angle_integrated_mb": 6.9,
+      "reported_error_mb": 0.7000000000000001,
+      "source_token": "6.9(7)",
+      "source_energy_duplicated": false,
+      "eligible_for_future_fit": true
+    },
+    {
+      "record_id": "PREPRINT_V1_TABLE1_030",
+      "E_proton_LAB_keV": 2850,
+      "alpha0_angle_integrated_mb": 15.3,
+      "reported_error_mb": 1.5,
+      "source_token": "15.3(15)",
+      "source_energy_duplicated": false,
+      "eligible_for_future_fit": true
+    },
+    {
+      "record_id": "PREPRINT_V1_TABLE1_031",
+      "E_proton_LAB_keV": 1900,
+      "alpha0_angle_integrated_mb": 7.9,
+      "reported_error_mb": 0.8,
+      "source_token": "7.9(8)",
+      "source_energy_duplicated": true,
+      "eligible_for_future_fit": false
+    },
+    {
+      "record_id": "PREPRINT_V1_TABLE1_032",
+      "E_proton_LAB_keV": 2900,
+      "alpha0_angle_integrated_mb": 8.6,
+      "reported_error_mb": 0.9,
+      "source_token": "8.6(9)",
+      "source_energy_duplicated": false,
+      "eligible_for_future_fit": true
+    },
+    {
+      "record_id": "PREPRINT_V1_TABLE1_033",
+      "E_proton_LAB_keV": 1900,
+      "alpha0_angle_integrated_mb": 9.1,
+      "reported_error_mb": 0.9,
+      "source_token": "9.1(9)",
+      "source_energy_duplicated": true,
+      "eligible_for_future_fit": false
+    },
+    {
+      "record_id": "PREPRINT_V1_TABLE1_034",
+      "E_proton_LAB_keV": 2950,
+      "alpha0_angle_integrated_mb": 5.5,
+      "reported_error_mb": 0.6000000000000001,
+      "source_token": "5.5(6)",
+      "source_energy_duplicated": false,
+      "eligible_for_future_fit": true
+    },
+    {
+      "record_id": "PREPRINT_V1_TABLE1_035",
+      "E_proton_LAB_keV": 1935,
+      "alpha0_angle_integrated_mb": 10.9,
+      "reported_error_mb": 1.1,
+      "source_token": "10.9(11)",
+      "source_energy_duplicated": false,
+      "eligible_for_future_fit": true
+    },
+    {
+      "record_id": "PREPRINT_V1_TABLE1_036",
+      "E_proton_LAB_keV": 3000,
+      "alpha0_angle_integrated_mb": 4.3,
+      "reported_error_mb": 0.4,
+      "source_token": "4.3(4)",
+      "source_energy_duplicated": false,
+      "eligible_for_future_fit": true
+    },
+    {
+      "record_id": "PREPRINT_V1_TABLE1_037",
+      "E_proton_LAB_keV": 1970,
+      "alpha0_angle_integrated_mb": 14.6,
+      "reported_error_mb": 1.5,
+      "source_token": "14.6(15)",
+      "source_energy_duplicated": false,
+      "eligible_for_future_fit": true
+    },
+    {
+      "record_id": "PREPRINT_V1_TABLE1_038",
+      "E_proton_LAB_keV": 3100,
+      "alpha0_angle_integrated_mb": 4.8,
+      "reported_error_mb": 0.5,
+      "source_token": "4.8(5)",
+      "source_energy_duplicated": false,
+      "eligible_for_future_fit": true
+    },
+    {
+      "record_id": "PREPRINT_V1_TABLE1_039",
+      "E_proton_LAB_keV": 2000,
+      "alpha0_angle_integrated_mb": 14.9,
+      "reported_error_mb": 1.5,
+      "source_token": "14.9(15)",
+      "source_energy_duplicated": false,
+      "eligible_for_future_fit": true
+    },
+    {
+      "record_id": "PREPRINT_V1_TABLE1_040",
+      "E_proton_LAB_keV": 3300,
+      "alpha0_angle_integrated_mb": 6.0,
+      "reported_error_mb": 0.6000000000000001,
+      "source_token": "6.0(6)",
+      "source_energy_duplicated": false,
+      "eligible_for_future_fit": true
+    },
+    {
+      "record_id": "PREPRINT_V1_TABLE1_041",
+      "E_proton_LAB_keV": 2030,
+      "alpha0_angle_integrated_mb": 8.8,
+      "reported_error_mb": 0.9,
+      "source_token": "8.8(9)",
+      "source_energy_duplicated": false,
+      "eligible_for_future_fit": true
+    },
+    {
+      "record_id": "PREPRINT_V1_TABLE1_042",
+      "E_proton_LAB_keV": 3400,
+      "alpha0_angle_integrated_mb": 6.8,
+      "reported_error_mb": 0.7000000000000001,
+      "source_token": "6.8(7)",
+      "source_energy_duplicated": false,
+      "eligible_for_future_fit": true
+    },
+    {
+      "record_id": "PREPRINT_V1_TABLE1_043",
+      "E_proton_LAB_keV": 2060,
+      "alpha0_angle_integrated_mb": 6.2,
+      "reported_error_mb": 0.6000000000000001,
+      "source_token": "6.2(6)",
+      "source_energy_duplicated": false,
+      "eligible_for_future_fit": true
+    },
+    {
+      "record_id": "PREPRINT_V1_TABLE1_044",
+      "E_proton_LAB_keV": 3500,
+      "alpha0_angle_integrated_mb": 8.1,
+      "reported_error_mb": 0.8,
+      "source_token": "8.1(8)",
+      "source_energy_duplicated": false,
+      "eligible_for_future_fit": true
+    },
+    {
+      "record_id": "PREPRINT_V1_TABLE1_045",
+      "E_proton_LAB_keV": 2100,
+      "alpha0_angle_integrated_mb": 6.3,
+      "reported_error_mb": 0.6000000000000001,
+      "source_token": "6.3(6)",
+      "source_energy_duplicated": false,
+      "eligible_for_future_fit": true
+    }
+  ]
+}

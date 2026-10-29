@@ -1,0 +1,20 @@
+{
+  "checks": {
+    "shape_repeat_SHAPES.json": true,
+    "shape_repeat_RECEIPT.json": true,
+    "shape_repeat_CONFIG.json": true,
+    "precision_repeat_same_values": true,
+    "production_coulomb_gate": true,
+    "authoritative_code_amplitude.py": true,
+    "authoritative_code_coulomb.py": true,
+    "authoritative_code_run_shapes.py": true,
+    "tests_passed": true
+  },
+  "tests": 12,
+  "precision_reference_decimal_digits": 40,
+  "precision_grid_points": 80,
+  "rejected_backend": "GSL2.7.1 Coulomb; original failure preserved",
+  "production_backend": "MICHEL_CPC",
+  "scientific_calibration": false,
+  "scope": "Conditional source shapes; no apparatus-yield or net-energy prediction"
+}

@@ -1,0 +1,68 @@
+{
+  "scope": "EXPLORATORY_LITERATURE_MODEL, pure unpolarized 2-minus parent at 0.675MeV proton LAB; not calibrated apparatus source",
+  "parameters": [
+    {
+      "name": "primary_radius_fm",
+      "value": 5.022361472755478,
+      "definition": "1.4*(8**(1/3)+4**(1/3))",
+      "source": "REFSGAARD2016 Eq2.3",
+      "status": "GENERIC_LITERATURE_CONVENTION_NOT_MEASURED_OR_EXACT_KUHLWEIN_CHOICE"
+    },
+    {
+      "name": "secondary_radius_fm",
+      "value": 4.5,
+      "source": "REFSGAARD2016 Table3.1; BHATTACHARYA2006",
+      "status": "PUBLISHED_MODEL_CHOICE_NOT_INDEPENDENT_OBSERVABLE"
+    },
+    {
+      "name": "pair_level_above_threshold_MeV",
+      "value": 3.12884,
+      "definition": "3.037MeV excitation + 0.09184MeV ground-state energy above two-alpha threshold",
+      "source": "BHATTACHARYA2006 TableIII and REFSGAARD2016 Table3.1 (3.129(6)MeV)",
+      "status": "EXPLICIT_THRESHOLD_REFERENCE; exact Kuhlwein code energy-zero not recovered"
+    },
+    {
+      "name": "pair_reduced_width_squared_MeV",
+      "value": 1.075,
+      "source": "REFSGAARD2016 Table3.1 formal gamma_squared=1075(9)keV",
+      "status": "NOT_OBSERVED_WIDTH; full covariance not recovered"
+    },
+    {
+      "name": "boundary_convention",
+      "value": "S_AT_DECLARED_PAIR_LEVEL",
+      "source": "REFSGAARD2016 Eq3.7 discussion"
+    },
+    {
+      "name": "coulomb_phase_convention",
+      "value": "RELATIVE_TO_SIGMA0",
+      "source": "BRUNE_PHASE; omega_l=sum_n atan(eta/n)",
+      "status": "DECLARED_R_MATRIX_CONVENTION; exact paper implementation not reconciled"
+    },
+    {
+      "name": "coherent_mix_coefficients",
+      "values": [
+        0.76,
+        0.85
+      ],
+      "phases_radians": [
+        "0.67*2*pi",
+        0
+      ],
+      "source": "KUHLWEIN2022 Table2/Eq4",
+      "status": "ADAPTED_RAW_BASIS_COEFFICIENTS_NOT_VERIFIED_PUBLISHED_BRANCH_FRACTIONS; normalization and covariance unresolved"
+    },
+    {
+      "name": "masses",
+      "source": "../coupled_reference_v0_5/MASS_SOURCE.json",
+      "status": "HASH_PINNED_INHERITED; mass uncertainties not propagated"
+    },
+    {
+      "name": "sampling",
+      "samples": 2048,
+      "seed": 20261029,
+      "bins": 40,
+      "status": "COMPUTATIONAL_CHOICES_NOT_SYNTHETIC_PHYSICAL_CALIBRATION_PARAMETERS"
+    }
+  ],
+  "uncertainty_policy": "No invented Gaussian errors or independence; phase and omitted-threshold-offset diagnostics are not confidence intervals. Radius and level parameters require correlated refits."
+}
