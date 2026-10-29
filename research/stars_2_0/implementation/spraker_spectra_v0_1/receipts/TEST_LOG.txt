@@ -1,0 +1,14 @@
+test_corrupt_source (test_spectra.SourceTests.test_corrupt_source) ... ok
+test_dimensions_and_coverage (test_spectra.SourceTests.test_dimensions_and_coverage) ... ok
+test_every_cell_preserved (test_spectra.SourceTests.test_every_cell_preserved) ... ok
+test_frame_guard (test_spectra.SourceTests.test_frame_guard) ... ok
+test_mutated_error_axis (test_spectra.SourceTests.test_mutated_error_axis) ... ok
+test_normalized_density_guard (test_spectra.SourceTests.test_normalized_density_guard) ... ok
+test_published_anchor (test_spectra.SourceTests.test_published_anchor) ... ok
+test_reject_duplicate_and_unqualified_zero (test_spectra.SourceTests.test_reject_duplicate_and_unqualified_zero) ... ok
+test_residual_units_and_sign (test_spectra.SourceTests.test_residual_units_and_sign) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.104s
+
+OK
