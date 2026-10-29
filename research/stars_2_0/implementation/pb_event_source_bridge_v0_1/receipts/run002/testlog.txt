@@ -1,0 +1,14 @@
+test_channel_sum (test_bridge.Bridge.test_channel_sum) ... ok
+test_constant_cross_section_independent_binomial_oracle (test_bridge.Bridge.test_constant_cross_section_independent_binomial_oracle) ... ok
+test_duplicate_rows_refused (test_bridge.Bridge.test_duplicate_rows_refused) ... ok
+test_no_extrapolation_or_unresolved_peak_interpolation (test_bridge.Bridge.test_no_extrapolation_or_unresolved_peak_interpolation) ... ok
+test_published_025_not_silently_026 (test_bridge.Bridge.test_published_025_not_silently_026) ... ok
+test_source_row_counts_and_transformation (test_bridge.Bridge.test_source_row_counts_and_transformation) ... ok
+test_stability_scenario_not_acoustic_enhancement (test_bridge.Bridge.test_stability_scenario_not_acoustic_enhancement) ... ok
+test_wrong_observable_refused (test_bridge.Bridge.test_wrong_observable_refused) ... ok
+test_zero_input (test_bridge.Bridge.test_zero_input) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.056s
+
+OK
