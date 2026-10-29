@@ -1,0 +1,6 @@
+PASS: electrical net identity
+PASS: nuclear Q identity
+PASS: plant boundary identity
+PASS: recovered isotope not exceeding birth
+PASS: tritium stock and decay conservation
+PASS: cumulative decay monotonic
