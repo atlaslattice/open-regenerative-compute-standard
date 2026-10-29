@@ -1,0 +1,22 @@
+[
+  {
+    "file": "../coherent_source_v0_8/amplitude.py",
+    "sha256": "3c743d14d81a30964592389e8319de372d0bdaa16bfda2ca087b26bdabd202cf"
+  },
+  {
+    "file": "../coherent_source_v0_8/coulomb.py",
+    "sha256": "92d805349c33f8683db49d29e9bf24f0c3c379e4c1c2c3b5cade2124dfb85dfa"
+  },
+  {
+    "file": "../coherent_source_v0_8/gsl_reference.py",
+    "sha256": "a18e02890bef0c7c50a655091ddb2fec54793a009cb73358cb0501bd034f2280"
+  },
+  {
+    "file": "../coherent_source_v0_8/CANDIDATE_CONFIG.json",
+    "sha256": "ff83a20cca365c9f5cfe9cde72f1db424851a7fb9d9e0a628b280d01f08bd260"
+  },
+  {
+    "file": "../coherent_source_v0_8/DEPENDENCY_LOCK.json",
+    "sha256": "d026892ecfbaad33999319f96c80f850f2afc3b85445694f4032d8963ec9a0ec"
+  }
+]
