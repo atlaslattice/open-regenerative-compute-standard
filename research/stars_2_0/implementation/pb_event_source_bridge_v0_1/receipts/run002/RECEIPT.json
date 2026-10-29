@@ -1,0 +1,50 @@
+{
+  "python": "3.12.14",
+  "source_tables": 3,
+  "coefficient_rows": 59,
+  "event_grid_rows": 41,
+  "tests": 9,
+  "test_result": "PASS",
+  "nuclear_source_status": "PUBLICATION_COEFFICIENTS_SOURCE_REPRODUCED; derived event definition follows paper",
+  "physical_Stars_validation": "NOT_RUN",
+  "original_EXFOR_observable": "UNCHANGED_PENDING_LINEAGE_REVIEW",
+  "randomness": "none",
+  "sources": [
+    {
+      "table": 1,
+      "primary_url": "https://link.springer.com/article/10.1007/s10894-016-0069-y/tables/1",
+      "full_page_sha256": "0476264e6a1087b5558337614d38c53a9265e9884175aaa5439e2f444fc856bb",
+      "table_fragment_sha256": "ccfa9efe1da9b1bc6a7de9524ac929765589bb7d20cd84deb4761940da719b92",
+      "fragment_bytes": 4133,
+      "license": "CC-BY-4.0",
+      "attribution": "M.H. Sikora and H.R. Weller, J Fusion Energy 35, 538\u2013543 (2016), DOI 10.1007/s10894-016-0069-y",
+      "transformation": "table HTML extracted from primary publisher page; surrounding webpage markup omitted"
+    },
+    {
+      "table": 2,
+      "primary_url": "https://link.springer.com/article/10.1007/s10894-016-0069-y/tables/2",
+      "full_page_sha256": "71ca838b8b7039ee181e2b7d1dfb017af7b2d930ff1f7dbad890b53bfd94e1d2",
+      "table_fragment_sha256": "855dd0de526cafb144463be23e7b00698683885cd60e24eaac34baa1a20452f2",
+      "fragment_bytes": 9194,
+      "license": "CC-BY-4.0",
+      "attribution": "M.H. Sikora and H.R. Weller, J Fusion Energy 35, 538\u2013543 (2016), DOI 10.1007/s10894-016-0069-y",
+      "transformation": "table HTML extracted from primary publisher page; surrounding webpage markup omitted"
+    },
+    {
+      "table": 3,
+      "primary_url": "https://link.springer.com/article/10.1007/s10894-016-0069-y/tables/3",
+      "full_page_sha256": "315d483e70ccb6d8892279cda083380ad1bfd9f663ca05e30d831cc1ba58daba",
+      "table_fragment_sha256": "9d7c9bdb70bb848b14e157b3a7039ee246f06db686226bfbeac20d472d5aa33e",
+      "fragment_bytes": 6862,
+      "license": "CC-BY-4.0",
+      "attribution": "M.H. Sikora and H.R. Weller, J Fusion Energy 35, 538\u2013543 (2016), DOI 10.1007/s10894-016-0069-y",
+      "transformation": "table HTML extracted from primary publisher page; surrounding webpage markup omitted"
+    }
+  ],
+  "code_sha256": {
+    "thin_target.py": "08ec5037eabc4372f4f640bf95dabfd9cbca415a8058eb3730c28c6bbb48c2a8",
+    "derive_event_data.py": "919e657d223299dc7a047fbb7d388801357b8117a644f7be8d738ea39c50f320",
+    "test_bridge.py": "be81e0dca5ce39f9abf7f0c94a6cf86b8dba14704c219809237a95ed0c883ca2",
+    "run_bridge.py": "7c87a1bfac58bb1f681fce4a2f5bcc6cb44e86b01bdb75756a9469cd37fe6fb1"
+  }
+}
