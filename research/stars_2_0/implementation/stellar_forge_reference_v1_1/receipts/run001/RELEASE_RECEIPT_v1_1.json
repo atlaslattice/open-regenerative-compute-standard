@@ -1,0 +1,40 @@
+{
+  "name": "Stellar Forge Reference v.1.1",
+  "python": "3.12.14",
+  "tests": 30,
+  "python_test_result": "PASS",
+  "ui_events": {
+    "status": "PASS",
+    "scope": "DOM_EVENT_HARNESS_NOT_BROWSER_RENDERING",
+    "checks": [
+      "embedded script parses",
+      "location/frequency/chirp binding",
+      "configuration JSON download",
+      "OFF zero drive preset",
+      "result viewer/chart data binding"
+    ]
+  },
+  "browser_rendering": "NOT_VERIFIED_NO_CHROMIUM_EXECUTABLE",
+  "installed_UI_config_run": "PASS",
+  "same_environment_repeat": "BYTE_IDENTICAL",
+  "EXFOR_rows": 41,
+  "PSTAR_mirror_rows": 132,
+  "stopping_method_cases": 12,
+  "max_method_discrepancy_MeV": 0.0024500838740775244,
+  "boron_rows": 77,
+  "boron_status": "QUARANTINED_NOT_TRANSPORT_INPUT",
+  "measurement_design_checks": {
+    "checks": [
+      "design ranks",
+      "independent variance oracle",
+      "finite invariances",
+      "invisible discrepancy"
+    ],
+    "status": "PASS"
+  },
+  "acoustic_peak_m": 1.4063558644446993e-08,
+  "acoustic_coarse_fine_error_m": 4.720709054190954e-14,
+  "physical_validation": "NOT_RUN",
+  "price_qualified_isotopes": 0,
+  "result_sha256": "b88434475e173fb6d2f285ed83b58e4841277aa1eef7d54cb43fd4341a3aaa00"
+}
