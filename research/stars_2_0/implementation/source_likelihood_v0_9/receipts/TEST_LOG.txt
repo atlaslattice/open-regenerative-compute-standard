@@ -1,0 +1,17 @@
+test_analytic_derivatives_against_finite_differences (test_likelihood.LikelihoodTests.test_analytic_derivatives_against_finite_differences) ... ok
+test_basis_rescaling_changes_coefficient_not_physics (test_likelihood.LikelihoodTests.test_basis_rescaling_changes_coefficient_not_physics) ... ok
+test_impossible_or_signed_response_rejected (test_likelihood.LikelihoodTests.test_impossible_or_signed_response_rejected) ... ok
+test_interior_parameterization_and_zero_support (test_likelihood.LikelihoodTests.test_interior_parameterization_and_zero_support) ... ok
+test_kernel_matches_original_coherent_intensity (test_likelihood.LikelihoodTests.test_kernel_matches_original_coherent_intensity) ... ok
+test_missed_response_is_explicit_and_conserves_mass (test_likelihood.LikelihoodTests.test_missed_response_is_explicit_and_conserves_mass) ... ok
+test_missing_counts_not_reinterpreted_as_zero (test_likelihood.LikelihoodTests.test_missing_counts_not_reinterpreted_as_zero) ... ok
+test_noninteger_and_negative_counts_rejected (test_likelihood.LikelihoodTests.test_noninteger_and_negative_counts_rejected) ... ok
+test_nonpositive_gram_kernel_rejected (test_likelihood.LikelihoodTests.test_nonpositive_gram_kernel_rejected) ... ok
+test_phase_periodicity_and_likelihood (test_likelihood.LikelihoodTests.test_phase_periodicity_and_likelihood) ... ok
+test_stochastic_coarsening_cannot_add_information (test_likelihood.LikelihoodTests.test_stochastic_coarsening_cannot_add_information) ... ok
+test_total_count_has_no_conditional_shape_information (test_likelihood.LikelihoodTests.test_total_count_has_no_conditional_shape_information) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.225s
+
+OK
