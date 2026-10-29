@@ -1,0 +1,251 @@
+{
+  "policy": "Retain every non-superseded physical module. Missing implementation or calibration is a status, not an exclusion. No selected unmodeled module may silently become a zero effect or an ideal efficiency.",
+  "inventory_source": {
+    "file": "../pb_event_source_bridge_v0_1/APPARATUS_RETENTION_v0_1.json",
+    "sha256": "853482d875fec1ecf3c87d06554b8683a41b7a7fd25994dcc54f1d6d3a001fcd"
+  },
+  "retained_modules": [
+    {
+      "id": "target_supply",
+      "scope": "water leaf, droplet/jet, replenishment, foil/film fabrication and specimen characterization",
+      "prior_inventory_status": "REFERENCE_OR_CANDIDATE_INPUTS_REQUIRED",
+      "new_release_status": "RETAINED_OUTSIDE_THIS_RUN_NOT_NEWLY_VALIDATED",
+      "evidence": null,
+      "installed_CAPEX": null,
+      "CAPEX_status": "UNKNOWN_NOT_ZERO; alternatives must not be automatically summed"
+    },
+    {
+      "id": "acoustic_preparation",
+      "scope": "location, waveform, phase, frequency modulation, pretreatment duration and exposure history",
+      "prior_inventory_status": "SYNTHETIC_BENCHMARK_ONLY",
+      "new_release_status": "RETAINED_OUTSIDE_THIS_RUN_NOT_NEWLY_VALIDATED",
+      "evidence": null,
+      "installed_CAPEX": null,
+      "CAPEX_status": "UNKNOWN_NOT_ZERO; alternatives must not be automatically summed"
+    },
+    {
+      "id": "acoustic_sustain",
+      "scope": "pre-only versus sustain through arrival, drive-off delay and ringdown",
+      "prior_inventory_status": "PHYSICAL_COUPLING_OPEN",
+      "new_release_status": "RETAINED_OUTSIDE_THIS_RUN_NOT_NEWLY_VALIDATED",
+      "evidence": null,
+      "installed_CAPEX": null,
+      "CAPEX_status": "UNKNOWN_NOT_ZERO; alternatives must not be automatically summed"
+    },
+    {
+      "id": "readiness",
+      "scope": "sampled criteria, confirmation, timeout, target/batch readiness distributions and all-attempt logs",
+      "prior_inventory_status": "OFFLINE_POLICY_IMPLEMENTED",
+      "new_release_status": "PREVIOUS_OFFLINE_POLICY_RETAINED_NOT_REVALIDATED_HERE",
+      "evidence": "../stellar_forge_readiness_v1_2/README.md",
+      "installed_CAPEX": null,
+      "CAPEX_status": "UNKNOWN_NOT_ZERO; alternatives must not be automatically summed"
+    },
+    {
+      "id": "laser_source",
+      "scope": "pulse shaping, contrast, preplasma, focus, timing and wall efficiency",
+      "prior_inventory_status": "QUALIFIED_SOURCE_MODEL_REQUIRED",
+      "new_release_status": "RETAINED_OUTSIDE_THIS_RUN_NOT_NEWLY_VALIDATED",
+      "evidence": null,
+      "installed_CAPEX": null,
+      "CAPEX_status": "UNKNOWN_NOT_ZERO; alternatives must not be automatically summed"
+    },
+    {
+      "id": "accelerator_reference",
+      "scope": "independently characterized clean proton beam G0-B",
+      "prior_inventory_status": "CALIBRATION_DATA_REQUIRED",
+      "new_release_status": "RETAINED_OUTSIDE_THIS_RUN_NOT_NEWLY_VALIDATED",
+      "evidence": null,
+      "installed_CAPEX": null,
+      "CAPEX_status": "UNKNOWN_NOT_ZERO; alternatives must not be automatically summed"
+    },
+    {
+      "id": "source_bunching",
+      "scope": "optional RF/magnetic source preparation and finite density/transport constraints",
+      "prior_inventory_status": "ALTERNATIVE_CONFIGURATION_NOT_VALIDATED",
+      "new_release_status": "RETAINED_OUTSIDE_THIS_RUN_NOT_NEWLY_VALIDATED",
+      "evidence": null,
+      "installed_CAPEX": null,
+      "CAPEX_status": "UNKNOWN_NOT_ZERO; alternatives must not be automatically summed"
+    },
+    {
+      "id": "target_geometry",
+      "scope": "planar/spherical, B/BN/B4C, isotope inventory, supports/mesh/apertures, orientation, porosity and damage",
+      "prior_inventory_status": "ACTUAL_STACK_QUALIFICATION_REQUIRED",
+      "new_release_status": "RETAINED_OUTSIDE_THIS_RUN_NOT_NEWLY_VALIDATED",
+      "evidence": null,
+      "installed_CAPEX": null,
+      "CAPEX_status": "UNKNOWN_NOT_ZERO; alternatives must not be automatically summed"
+    },
+    {
+      "id": "spin_preparation",
+      "scope": "P0-P5 measured reactant polarization, host candidates, lifetime/survival, anisotropy and preparation cost",
+      "prior_inventory_status": "RETAINED_NO_ASSUMED_GAIN",
+      "new_release_status": "RETAINED_OUTSIDE_THIS_RUN_NOT_NEWLY_VALIDATED",
+      "evidence": null,
+      "installed_CAPEX": null,
+      "CAPEX_status": "UNKNOWN_NOT_ZERO; alternatives must not be automatically summed"
+    },
+    {
+      "id": "nuclear_source",
+      "scope": "source-specific frames/observables, resonances, channels and uncertainty",
+      "prior_inventory_status": "EVENT_SOURCE_BRIDGE_NEW; LINEAGE_REVIEW_OPEN",
+      "new_release_status": "CONDITIONAL_PUBLICATION_MODEL_NORMALIZATION",
+      "evidence": "../coupled_reference_v0_5/EVENT_CROSS_SECTIONS.json",
+      "installed_CAPEX": null,
+      "CAPEX_status": "UNKNOWN_NOT_ZERO; alternatives must not be automatically summed"
+    },
+    {
+      "id": "correlated_events",
+      "scope": "physical masses/Q, sequential breakup, branch/angular distributions and Lorentz transforms",
+      "prior_inventory_status": "NOT_IMPLEMENTED",
+      "new_release_status": "COHERENT_LITERATURE_CANDIDATE_AND_LIKELIHOOD_IMPLEMENTED_NOT_CALIBRATED",
+      "evidence": "../source_likelihood_v0_9/README.md",
+      "installed_CAPEX": null,
+      "CAPEX_status": "UNKNOWN_NOT_ZERO; alternatives must not be automatically summed"
+    },
+    {
+      "id": "material_transport",
+      "scope": "proton/alpha stopping, straggling, scattering, state changes and all exits",
+      "prior_inventory_status": "CSDA_FIXTURE_ONLY; CALIBRATION_OPEN",
+      "new_release_status": "COHERENT_SOURCE_CONNECTED_TO_MODEL_STOPPING_BENCHMARK",
+      "evidence": "reference.py",
+      "installed_CAPEX": null,
+      "CAPEX_status": "UNKNOWN_NOT_ZERO; alternatives must not be automatically summed"
+    },
+    {
+      "id": "mechanical_thermal_history",
+      "scope": "measured modes, stress/fatigue, heating, relaxation, flow residence time and target lifetime",
+      "prior_inventory_status": "MOSTLY_NOT_IMPLEMENTED",
+      "new_release_status": "RETAINED_OUTSIDE_THIS_RUN_NOT_NEWLY_VALIDATED",
+      "evidence": null,
+      "installed_CAPEX": null,
+      "CAPEX_status": "UNKNOWN_NOT_ZERO; alternatives must not be automatically summed"
+    },
+    {
+      "id": "plasma_waves",
+      "scope": "laser-SBS/ion-acoustic effects where appropriate and separately defined IBW alpha-channeling hypotheses",
+      "prior_inventory_status": "RETAINED_DISTINCT_UNCALIBRATED_LANES",
+      "new_release_status": "RETAINED_OUTSIDE_THIS_RUN_NOT_NEWLY_VALIDATED",
+      "evidence": null,
+      "installed_CAPEX": null,
+      "CAPEX_status": "UNKNOWN_NOT_ZERO; alternatives must not be automatically summed"
+    },
+    {
+      "id": "particle_fields",
+      "scope": "magnetic/electric optics, electron populations, charge states, collisions and space charge",
+      "prior_inventory_status": "PHYSICAL_FIELD_TRANSPORT_REQUIRED",
+      "new_release_status": "RETAINED_OUTSIDE_THIS_RUN_NOT_NEWLY_VALIDATED",
+      "evidence": null,
+      "installed_CAPEX": null,
+      "CAPEX_status": "UNKNOWN_NOT_ZERO; alternatives must not be automatically summed"
+    },
+    {
+      "id": "collectors",
+      "scope": "C1 electrostatic, C2 wave transfer, C3 hybrid, C4 inductive comparators and grid/material losses",
+      "prior_inventory_status": "ALTERNATIVE_BRANCHES; SCALAR_SCENARIOS_ONLY",
+      "new_release_status": "RETAINED_OUTSIDE_THIS_RUN_NOT_NEWLY_VALIDATED",
+      "evidence": null,
+      "installed_CAPEX": null,
+      "CAPEX_status": "UNKNOWN_NOT_ZERO; alternatives must not be automatically summed"
+    },
+    {
+      "id": "proton_reuse",
+      "scope": "finite retention, recovery/reinjection, losses and changing distributions",
+      "prior_inventory_status": "RETAINED_NO_PERPETUAL_RETRY_ASSUMPTION",
+      "new_release_status": "RETAINED_OUTSIDE_THIS_RUN_NOT_NEWLY_VALIDATED",
+      "evidence": null,
+      "installed_CAPEX": null,
+      "CAPEX_status": "UNKNOWN_NOT_ZERO; alternatives must not be automatically summed"
+    },
+    {
+      "id": "heat_recovery",
+      "scope": "temperature/quality, recoverable boundaries, real offtake and conversion",
+      "prior_inventory_status": "NO_AUTOMATIC_HEAT_CREDIT",
+      "new_release_status": "RETAINED_OUTSIDE_THIS_RUN_NOT_NEWLY_VALIDATED",
+      "evidence": null,
+      "installed_CAPEX": null,
+      "CAPEX_status": "UNKNOWN_NOT_ZERO; alternatives must not be automatically summed"
+    },
+    {
+      "id": "power_storage",
+      "scope": "conditioning, storage, internal reuse versus export, startup and complete cycles",
+      "prior_inventory_status": "FULL_CYCLE_DYNAMICS_OPEN",
+      "new_release_status": "RETAINED_OUTSIDE_THIS_RUN_NOT_NEWLY_VALIDATED",
+      "evidence": null,
+      "installed_CAPEX": null,
+      "CAPEX_status": "UNKNOWN_NOT_ZERO; alternatives must not be automatically summed"
+    },
+    {
+      "id": "operating_tracks",
+      "scope": "single-pass reference, startup/drive-off, externally driven and grid-assisted burn",
+      "prior_inventory_status": "ACCOUNTING_ONLY; BURN_OPEN",
+      "new_release_status": "RETAINED_OUTSIDE_THIS_RUN_NOT_NEWLY_VALIDATED",
+      "evidence": null,
+      "installed_CAPEX": null,
+      "CAPEX_status": "UNKNOWN_NOT_ZERO; alternatives must not be automatically summed"
+    },
+    {
+      "id": "diagnostics",
+      "scope": "silicon telescope, CR39/TPS, diamond/SiC candidates, calibration, background, EMP and detector response",
+      "prior_inventory_status": "SYNTHETIC_RESPONSE_ONLY",
+      "new_release_status": "TRUE_EXIT_OUTPUT_AVAILABLE_DETECTOR_COUNTS_BLOCKED_NO_MEASURED_RESPONSE",
+      "evidence": "reference.py",
+      "installed_CAPEX": null,
+      "CAPEX_status": "UNKNOWN_NOT_ZERO; alternatives must not be automatically summed"
+    },
+    {
+      "id": "side_products",
+      "scope": "secondary reactions, neutron/gamma and activation diagnostics, decay, retention/recovery and market values",
+      "prior_inventory_status": "CONDITIONAL_INVENTORY; NO_RECOVERY_MODEL",
+      "new_release_status": "RETAINED_OUTSIDE_THIS_RUN_NOT_NEWLY_VALIDATED",
+      "evidence": null,
+      "installed_CAPEX": null,
+      "CAPEX_status": "UNKNOWN_NOT_ZERO; alternatives must not be automatically summed"
+    },
+    {
+      "id": "facility_services",
+      "scope": "vacuum, cooling, magnets, controls, shielding, fuel/target processing, maintenance and downtime",
+      "prior_inventory_status": "MODULAR_INPUTS_UNQUALIFIED",
+      "new_release_status": "RETAINED_OUTSIDE_THIS_RUN_NOT_NEWLY_VALIDATED",
+      "evidence": null,
+      "installed_CAPEX": null,
+      "CAPEX_status": "UNKNOWN_NOT_ZERO; alternatives must not be automatically summed"
+    },
+    {
+      "id": "site_cryogenics",
+      "scope": "optional site-dependent cryogenic/waste-stream integration",
+      "prior_inventory_status": "DEFERRED_NOT_SUPERSEDED",
+      "new_release_status": "RETAINED_OUTSIDE_THIS_RUN_NOT_NEWLY_VALIDATED",
+      "evidence": null,
+      "installed_CAPEX": null,
+      "CAPEX_status": "UNKNOWN_NOT_ZERO; alternatives must not be automatically summed"
+    },
+    {
+      "id": "experiments_optimization",
+      "scope": "REFERENCE/OFF/SHAM/ON, grouped holdouts, all-shot metrics, factorial interactions and bounded optimization",
+      "prior_inventory_status": "PARTIAL; NO_OPTIMIZER_PROMOTION_BEFORE_VALIDATION",
+      "new_release_status": "RETAINED_OUTSIDE_THIS_RUN_NOT_NEWLY_VALIDATED",
+      "evidence": null,
+      "installed_CAPEX": null,
+      "CAPEX_status": "UNKNOWN_NOT_ZERO; alternatives must not be automatically summed"
+    },
+    {
+      "id": "economics",
+      "scope": "installed CAPEX, OPEX, replacements, useful throughput, circular material handling and dated product markets",
+      "prior_inventory_status": "INTERFACES_ONLY_NO_QUALIFIED_PLANT_COST",
+      "new_release_status": "RETAINED_OUTSIDE_THIS_RUN_NOT_NEWLY_VALIDATED",
+      "evidence": null,
+      "installed_CAPEX": null,
+      "CAPEX_status": "UNKNOWN_NOT_ZERO; alternatives must not be automatically summed"
+    }
+  ],
+  "retained_count": 26,
+  "outside_Stars": [
+    {
+      "module": "SHUGS/TCSS/exotic operators",
+      "reason": "Explicit project-lead physics-only scope separation; retain in external research archive"
+    }
+  ],
+  "all_modules_calibrated_or_integrated": false
+}
