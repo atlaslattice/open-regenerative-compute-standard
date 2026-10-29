@@ -1,0 +1,17 @@
+test_cg_orthonormal_and_known_sign (test_coherent.CoherentTests.test_cg_orthonormal_and_known_sign) ... ok
+test_coherence_and_symmetry_ablation_are_detectable (test_coherent.CoherentTests.test_coherence_and_symmetry_ablation_are_detectable) ... ok
+test_coulomb_analytic_zero_charge (test_coherent.CoherentTests.test_coulomb_analytic_zero_charge) ... ok
+test_energy_reference_and_boundary_are_explicit (test_coherent.CoherentTests.test_energy_reference_and_boundary_are_explicit) ... ok
+test_equilateral_symmetry_zero (test_coherent.CoherentTests.test_equilateral_symmetry_zero) ... ok
+test_invalid_points_and_calibrated_claim_rejected (test_coherent.CoherentTests.test_invalid_points_and_calibrated_claim_rejected) ... ok
+test_phase_periodicity_and_pure_limits (test_coherent.CoherentTests.test_phase_periodicity_and_pure_limits) ... ok
+test_precise_independent_coulomb_reference (test_coherent.CoherentTests.test_precise_independent_coulomb_reference) ... ok
+test_preprint_errors_are_preserved_and_ambiguous_fit_excluded (test_coherent.CoherentTests.test_preprint_errors_are_preserved_and_ambiguous_fit_excluded) ... ok
+test_recovered_alpha0_values_and_ambiguous_energies (test_coherent.CoherentTests.test_recovered_alpha0_values_and_ambiguous_energies) ... ok
+test_rotation_invariance_unpolarized (test_coherent.CoherentTests.test_rotation_invariance_unpolarized) ... ok
+test_six_permutations_amplitude_symmetry (test_coherent.CoherentTests.test_six_permutations_amplitude_symmetry) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.016s
+
+OK
