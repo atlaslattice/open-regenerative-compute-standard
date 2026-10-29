@@ -1,0 +1,17 @@
+test_atomic_isotope_transfer_explicit (test_models.Tests.test_atomic_isotope_transfer_explicit) ... ok
+test_bn_average_atom_and_boron_inventory (test_models.Tests.test_bn_average_atom_and_boron_inventory) ... ok
+test_bn_factor_changes_only_electronic (test_models.Tests.test_bn_factor_changes_only_electronic) ... ok
+test_electronic_plus_nuclear (test_models.Tests.test_electronic_plus_nuclear) ... ok
+test_helium_energy_unit (test_models.Tests.test_helium_energy_unit) ... ok
+test_missing_mixing_and_domain (test_models.Tests.test_missing_mixing_and_domain) ... ok
+test_native_nodes_roundtrip (test_models.Tests.test_native_nodes_roundtrip) ... ok
+test_refinement_and_layer_composition (test_models.Tests.test_refinement_and_layer_composition) ... ok
+test_two_models_not_averaged (test_models.Tests.test_two_models_not_averaged) ... ok
+test_uncovered_end_is_not_zero (test_models.Tests.test_uncovered_end_is_not_zero) ... ok
+test_zbl_formula_reference (test_models.Tests.test_zbl_formula_reference) ... ok
+test_zero_column_exact (test_models.Tests.test_zero_column_exact) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.018s
+
+OK
