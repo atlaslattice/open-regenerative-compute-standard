@@ -1,0 +1,9 @@
+{
+  "code_sha256": {
+    "sequential.py": "ff6d000bcf1d285a1a3e5d58574293f3219d2f006346f2a2c479c8419248e844",
+    "verify_sequential.py": "67018a4b3174e854d355a78df52e388ca5766f80abfe5e7dcda4ca205ec81736"
+  },
+  "dependency_lock_sha256": "f05f12228cd93a7e5e7471ad1e122532cb93e0cd0bb3635a621dab4bc869b96e",
+  "numpy": "2.3.5",
+  "python": "3.12.14"
+}
