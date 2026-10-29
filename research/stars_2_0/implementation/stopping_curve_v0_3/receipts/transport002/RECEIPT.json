@@ -1,0 +1,22 @@
+{
+  "python": "3.12.14",
+  "tests": "10 PASS",
+  "seed": null,
+  "randomness": "none",
+  "source_status": "PRIMARY_FIGURE_DIGITIZED_AND_ANCHOR_CHECKED",
+  "interpolation_status": "EXPLICIT_NUMERICAL_MODEL",
+  "apparatus_transmission_validation": "NOT_RUN",
+  "material": "OVERLEY_COLD_B10_ENRICHED_95.96_PERCENT",
+  "curve_points": 27,
+  "source_observable": "measured energy-loss atomic stopping; no recovered Se/Sn separation",
+  "sensitivity_interpretation": "eight coherent stress scenarios, NOT a confidence interval; source probable-error convention is not Gaussian 1-sigma",
+  "imposed_atom_columns": "assumed verification inputs, not a proposed target specification",
+  "alpha_stopping": "FULL_NUMERIC_DATA_NOT_RECOVERED",
+  "fusion_yield": "NOT_COMPUTED",
+  "code_sha256": {
+    "digitize_curve.py": "7866c95cc901b2bc01766e51a4fc70c3ef2142a7555d3cd2b518e5c1e7642ffc",
+    "test_transport.py": "98cad1898779ca39334e2f2e1c2fb2d3338bcdbe3fc75702e1e43db78be0340c",
+    "transport_interval.py": "3be213bb3086913f354685c48045745ab9f7edf77f7097738ed363cde9e945da",
+    "run_reference.py": "5f287cbca79c2800a83fd867071af21c7f4abcb65b913204dd9bf75a00b8fca1"
+  }
+}
