@@ -1,0 +1,56 @@
+{
+  "comparisons": [
+    {
+      "run": "run002",
+      "geometry_exit_bins": [
+        0.0012358996022287516,
+        0.0026644957961828807,
+        0.007042137386298824,
+        1.3029858135954716e-05
+      ],
+      "finite_integration_standard_errors_only": [
+        0.00021730650138425446,
+        0.0002581489665056099,
+        0.0003523260719401168,
+        2.9834151669419433e-06
+      ],
+      "per_proton_reaction_probability": 1.3275252375217297e-06,
+      "minimum_depth_cell_importance_ESS": 38.085950220965465
+    },
+    {
+      "run": "run003",
+      "geometry_exit_bins": [
+        0.0010937239929807584,
+        0.0028836403385944084,
+        0.0073799939126846055,
+        1.537147647300115e-05
+      ],
+      "finite_integration_standard_errors_only": [
+        0.00014306641150800146,
+        0.00019635155526724792,
+        0.00024434880745053094,
+        2.451534792655046e-06
+      ],
+      "per_proton_reaction_probability": 1.327525273852361e-06,
+      "minimum_depth_cell_importance_ESS": 38.08594333007052
+    },
+    {
+      "run": "run005",
+      "geometry_exit_bins": [
+        0.0011492714284626223,
+        0.0028334715267512582,
+        0.007343767604880208,
+        1.4617009089797046e-05
+      ],
+      "finite_integration_standard_errors_only": [
+        0.0001106709037308414,
+        0.0001394939018620547,
+        0.00017741355374127047,
+        1.5549890821513554e-06
+      ],
+      "per_proton_reaction_probability": 1.3275252375217297e-06,
+      "minimum_depth_cell_importance_ESS": 162.91839939384968
+    }
+  ],
+  "interpretation": "Different depth and proposal grids change estimated geometry/transport observables. No transport or source-shape convergence claim is made. Standard errors are self-normalized importance delta-method integration diagnostics only, not experimental error bars. No source/target/model discrepancy propagation."
+}
