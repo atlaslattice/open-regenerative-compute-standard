@@ -1,0 +1,198 @@
+{
+  "source_file": "research/stars_2_0/implementation/stopping_curve_v0_3/CURVE.json",
+  "source_sha256": "9972e865d0f82a2d36773f1680f1c9e8723d194ca4c1b0d6b4eac5fbd6e5397a",
+  "source_doi": "10.7907/XZP6-5P63",
+  "points": [
+    {
+      "pixel_x": 266.4096385542169,
+      "pixel_y": 718.8915662650602,
+      "component_pixels": 83,
+      "E_proton_LAB_MeV": 0.09898212970495418,
+      "epsilon_eV_cm2_atom": 1.3828862307832126e-14
+    },
+    {
+      "pixel_x": 301.2178217821782,
+      "pixel_y": 824.019801980198,
+      "component_pixels": 101,
+      "E_proton_LAB_MeV": 0.1430630108925195,
+      "epsilon_eV_cm2_atom": 1.24876574406071e-14
+    },
+    {
+      "pixel_x": 338.4698795180723,
+      "pixel_y": 929.4759036144578,
+      "component_pixels": 166,
+      "E_proton_LAB_MeV": 0.19023880057088377,
+      "epsilon_eV_cm2_atom": 1.1142269725990675e-14
+    },
+    {
+      "pixel_x": 372.5656565656566,
+      "pixel_y": 1014.1313131313132,
+      "component_pixels": 99,
+      "E_proton_LAB_MeV": 0.2334174947069496,
+      "epsilon_eV_cm2_atom": 1.0062253053889471e-14
+    },
+    {
+      "pixel_x": 410.95522388059703,
+      "pixel_y": 1094.8507462686566,
+      "component_pixels": 67,
+      "E_proton_LAB_MeV": 0.28203381991327503,
+      "epsilon_eV_cm2_atom": 9.032450776061832e-15
+    },
+    {
+      "pixel_x": 456.8224852071006,
+      "pixel_y": 1160.6923076923076,
+      "component_pixels": 169,
+      "E_proton_LAB_MeV": 0.3401198534098021,
+      "epsilon_eV_cm2_atom": 8.192457390399214e-15
+    },
+    {
+      "pixel_x": 486.4888888888889,
+      "pixel_y": 1205.7111111111112,
+      "component_pixels": 90,
+      "E_proton_LAB_MeV": 0.3776892148267683,
+      "epsilon_eV_cm2_atom": 7.618116559401595e-15
+    },
+    {
+      "pixel_x": 525.04,
+      "pixel_y": 1240.7466666666667,
+      "component_pixels": 75,
+      "E_proton_LAB_MeV": 0.4265101181588451,
+      "epsilon_eV_cm2_atom": 7.171139994852652e-15
+    },
+    {
+      "pixel_x": 560.0574712643678,
+      "pixel_y": 1268.6091954022988,
+      "component_pixels": 87,
+      "E_proton_LAB_MeV": 0.4708560405008537,
+      "epsilon_eV_cm2_atom": 6.815675462424985e-15
+    },
+    {
+      "pixel_x": 606.9433962264151,
+      "pixel_y": 1315.6698113207547,
+      "component_pixels": 106,
+      "E_proton_LAB_MeV": 0.5302321037123596,
+      "epsilon_eV_cm2_atom": 6.215285598606965e-15
+    },
+    {
+      "pixel_x": 640.8412698412699,
+      "pixel_y": 1351.095238095238,
+      "component_pixels": 63,
+      "E_proton_LAB_MeV": 0.5731601740899941,
+      "epsilon_eV_cm2_atom": 5.763335135534376e-15
+    },
+    {
+      "pixel_x": 680.7337662337662,
+      "pixel_y": 1359.4545454545455,
+      "component_pixels": 154,
+      "E_proton_LAB_MeV": 0.6236797999560293,
+      "epsilon_eV_cm2_atom": 5.65668877510926e-15
+    },
+    {
+      "pixel_x": 753.2253521126761,
+      "pixel_y": 1403.8450704225352,
+      "component_pixels": 71,
+      "E_proton_LAB_MeV": 0.7154827235185404,
+      "epsilon_eV_cm2_atom": 5.090363394104422e-15
+    },
+    {
+      "pixel_x": 835.038961038961,
+      "pixel_y": 1438.7922077922078,
+      "component_pixels": 77,
+      "E_proton_LAB_MeV": 0.8190910029563616,
+      "epsilon_eV_cm2_atom": 4.64451485097095e-15
+    },
+    {
+      "pixel_x": 921.027027027027,
+      "pixel_y": 1468.2702702702702,
+      "component_pixels": 74,
+      "E_proton_LAB_MeV": 0.9279857905855999,
+      "epsilon_eV_cm2_atom": 4.2684396642906536e-15
+    },
+    {
+      "pixel_x": 1086.9324324324325,
+      "pixel_y": 1506.2567567567567,
+      "component_pixels": 74,
+      "E_proton_LAB_MeV": 1.1380874329538755,
+      "epsilon_eV_cm2_atom": 3.783815716995428e-15
+    },
+    {
+      "pixel_x": 1249.6962025316457,
+      "pixel_y": 1537.4810126582279,
+      "component_pixels": 79,
+      "E_proton_LAB_MeV": 1.3442105266067534,
+      "epsilon_eV_cm2_atom": 3.3854629461565015e-15
+    },
+    {
+      "pixel_x": 1406.084745762712,
+      "pixel_y": 1558.4745762711864,
+      "component_pixels": 59,
+      "E_proton_LAB_MeV": 1.5422600699603213,
+      "epsilon_eV_cm2_atom": 3.117631287929179e-15
+    },
+    {
+      "pixel_x": 1567.1267605633802,
+      "pixel_y": 1585.4225352112676,
+      "component_pixels": 71,
+      "E_proton_LAB_MeV": 1.7462027426974576,
+      "epsilon_eV_cm2_atom": 2.7738346528353336e-15
+    },
+    {
+      "pixel_x": 1612.4851485148515,
+      "pixel_y": 1588.1683168316831,
+      "component_pixels": 101,
+      "E_proton_LAB_MeV": 1.8036443419057193,
+      "epsilon_eV_cm2_atom": 2.7388045236927e-15
+    },
+    {
+      "pixel_x": 1725.5692307692307,
+      "pixel_y": 1603.753846153846,
+      "component_pixels": 65,
+      "E_proton_LAB_MeV": 1.9468533672493875,
+      "epsilon_eV_cm2_atom": 2.5399674782218292e-15
+    },
+    {
+      "pixel_x": 1885.6849315068494,
+      "pixel_y": 1609.8219178082193,
+      "component_pixels": 73,
+      "E_proton_LAB_MeV": 2.149622961234087,
+      "epsilon_eV_cm2_atom": 2.462552241657143e-15
+    },
+    {
+      "pixel_x": 2049.7384615384617,
+      "pixel_y": 1627.8,
+      "component_pixels": 65,
+      "E_proton_LAB_MeV": 2.3573793993786385,
+      "epsilon_eV_cm2_atom": 2.23319148833561e-15
+    },
+    {
+      "pixel_x": 2208.4875,
+      "pixel_y": 1636.5125,
+      "component_pixels": 80,
+      "E_proton_LAB_MeV": 2.558418260190024,
+      "epsilon_eV_cm2_atom": 2.122039167303978e-15
+    },
+    {
+      "pixel_x": 2274.3333333333335,
+      "pixel_y": 1640.919191919192,
+      "component_pixels": 99,
+      "E_proton_LAB_MeV": 2.641805041305658,
+      "epsilon_eV_cm2_atom": 2.0658194789378933e-15
+    },
+    {
+      "pixel_x": 2369.3896103896104,
+      "pixel_y": 1645.4805194805194,
+      "component_pixels": 77,
+      "E_proton_LAB_MeV": 2.762183758793104,
+      "epsilon_eV_cm2_atom": 2.007626980180117e-15
+    },
+    {
+      "pixel_x": 2529.323529411765,
+      "pixel_y": 1649.7205882352941,
+      "component_pixels": 68,
+      "E_proton_LAB_MeV": 2.964723145468535,
+      "epsilon_eV_cm2_atom": 1.9535330366017086e-15
+    }
+  ],
+  "uncertainty_note": "source probable error 4% plus separate digitization allowances; no full covariance or Gaussian sigma recovered",
+  "independence": "possible overlap with SRIM calibration data; NOT held-out validation"
+}
