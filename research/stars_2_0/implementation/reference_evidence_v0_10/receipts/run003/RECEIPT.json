@@ -1,0 +1,9 @@
+{
+  "dependency_lock_sha256": "57570ff147b5c8744448a071270d95e406eb0df9fc48fbdc8520cb09bb2af319",
+  "events": 2048,
+  "events_sha256": "575a1b71d17a79dc132b44d84d27dc8868138329576b3bbc35d05d3ce95ccf13",
+  "numpy": "2.3.5",
+  "python": "3.12.14",
+  "result_sha256": "dac94d451b5a75b2a890896954a901a11438cc2673e10b6fce35fc21a821eec8",
+  "source_code_sha256": "48099e485358594cbb95b47f65e1f24295f8624360b16e6d98b426a517964949"
+}
