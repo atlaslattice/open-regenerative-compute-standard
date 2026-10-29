@@ -1,0 +1,20 @@
+component,group,volume_m3,mass_tonnes,material,material_cost_low_MUSD_FY2014,material_cost_high_MUSD_FY2014,fabricated_cost_low_MUSD_FY2014,fabricated_cost_high_MUSD_FY2014,source,PDF_page,note
+First wall,VV,2.01,3.72,Tungsten,0.11,0.11,4,4,arXiv:1409.3540v2,30,rounded as printed; do not force sums
+Inner VV wall,VV,2.03,16.6,Inconel 718,0.93,0.93,18,18,arXiv:1409.3540v2,30,rounded as printed; do not force sums
+Multiplier,VV,4.09,3.82,Beryllium,0.98,0.98,4.1,4.1,arXiv:1409.3540v2,30,rounded as printed; do not force sums
+Outer VV wall,VV,6.27,51.4,Inconel 718,2.9,2.9,55,55,arXiv:1409.3540v2,30,rounded as printed; do not force sums
+VV ribbing,VV,0.83,6.8,Inconel 718,0.38,0.38,7.2,7.2,arXiv:1409.3540v2,30,rounded as printed; do not force sums
+VV posts,VV,0.51,4.14,Inconel 718,0.23,0.23,4.4,4.4,arXiv:1409.3540v2,30,rounded as printed; do not force sums
+Replaceable VV Subtotal,subtotal,15.7,86.5,N/A,5.5,5.5,92,92,arXiv:1409.3540v2,30,rounded as printed; do not force sums
+Blanket tank,blanket,11.8,97.1,Inconel 718,5.4,5.4,100,100,arXiv:1409.3540v2,30,rounded as printed; do not force sums
+TiH2 shield,blanket,101,380,TiH2,10,10,10,10,arXiv:1409.3540v2,30,rounded as printed; do not force sums
+Channel FLiBe,blanket,4.09,8.07,FLiBe,1.2,1.2,1.2,1.2,arXiv:1409.3540v2,30,rounded as printed; do not force sums
+Blanket tank FLiBe,blanket,241,475,FLiBe,73,73,73,73,arXiv:1409.3540v2,30,rounded as printed; do not force sums
+Heat exchanger FLiBe,blanket,241,475,FLiBe,73,73,73,73,arXiv:1409.3540v2,30,rounded as printed; do not force sums
+Blanket Subtotal,subtotal,599,1440,N/A,160,160,260,260,arXiv:1409.3540v2,30,rounded as printed; do not force sums
+Magnet structure,magnet,544,4350,SS316 LN,42,42,4600,4600,arXiv:1409.3540v2,30,rounded as printed; do not force sums
+Magnet top ring,magnet,120,959,SS316 LN,9.2,9.2,9.2,9.2,arXiv:1409.3540v2,30,rounded as printed; do not force sums
+REBCO structure,magnet,40,358,Copper,3,3,380,380,arXiv:1409.3540v2,30,rounded as printed; do not force sums
+REBCO tape,magnet,UNKNOWN,0,REBCO,103,206,100,210,arXiv:1409.3540v2,30,tape length 5730 km; mass approximately zero
+Magnet/Structure Subtotal,subtotal,704,5670,N/A,160,260,5100,5200,arXiv:1409.3540v2,30,rounded as printed; do not force sums
+Grand Total,total,1320,7190,N/A,330,430,5500,5600,arXiv:1409.3540v2,30,rounded as printed; do not force sums
