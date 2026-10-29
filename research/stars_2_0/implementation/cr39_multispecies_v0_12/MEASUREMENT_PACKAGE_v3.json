@@ -1,0 +1,173 @@
+{
+  "source_doi": "10.1038/s41598-023-45208-x",
+  "attribution": "Schollmeier et al., Scientific Reports13,18155(2023), CC BY4.0; source-defined values retained",
+  "source_sha256": {
+    "Schollmeier2023.xml": "47036d5a9474dcb1fc395f524a362d2d75fc4e0ad2eef7f37e6ef795411c6cac",
+    "Schollmeier2023.pdf": "3bf468794a030e5002e3c68db581b16d4c74a14b2f415a5dd5a40d6417a9caf9",
+    "Supplement2023.pdf": "605f7a28b699a92175e60c08e086f5e705d553d30f0362590ff20237d4dd9749"
+  },
+  "table1_PDF_and_XML_numeric_agreement": true,
+  "equation2_latex": "\\documentclass[12pt]{minimal}\n\t\t\t\t\\usepackage{amsmath}\n\t\t\t\t\\usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts} \n\t\t\t\t\\usepackage{amssymb} \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\t\t\t\t\\usepackage{upgreek}\n\t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\t\t\t\\begin{document}$$y(x) = \\left[ {\\frac{{p_{1} x^{{p_{2} - 1}} }}{{(1 + x)^{{p_{2} + p_{3} }} \\beta (p2,p3)}}} \\right]^{{p_{4} }} ,$$\\end{document}",
+  "table1": [
+    {
+      "label": "H",
+      "p1": 4.4,
+      "p2": 2.5,
+      "p3": 1.15,
+      "p4": 0.28,
+      "reported_residual_sigma_um": 0.058
+    },
+    {
+      "label": "He",
+      "p1": 47.83,
+      "p2": 0.49,
+      "p3": 1.53,
+      "p4": 0.05,
+      "reported_residual_sigma_um": 0.054
+    },
+    {
+      "label": "C\u2009<\u20093 MeV",
+      "p1": 7459.8,
+      "p2": 0.03,
+      "p3": 5.68,
+      "p4": 0.23,
+      "reported_residual_sigma_um": 0.025
+    },
+    {
+      "label": "C\u2009\u2265\u20093 MeV",
+      "p1": 70.95,
+      "p2": 0.1,
+      "p3": 7.99,
+      "p4": 0.96,
+      "reported_residual_sigma_um": 0.025
+    }
+  ],
+  "supplement_table_S1": {
+    "method": "Visually verified PDFpage4 transcription; pdftotext numeric anchors checked",
+    "rows": [
+      {
+        "ion": "H",
+        "sigma_L_range_um": [
+          0.04,
+          0.06
+        ],
+        "eta_L_range_um": [
+          0.02,
+          0.03
+        ],
+        "sigma_effective_um": 0.06
+      },
+      {
+        "ion": "He",
+        "sigma_L_range_um": [
+          0.03,
+          0.06
+        ],
+        "eta_L_range_um": [
+          0.01,
+          0.035
+        ],
+        "sigma_effective_um": 0.05
+      },
+      {
+        "ion": "C",
+        "sigma_L_range_um": [
+          0.008,
+          0.05
+        ],
+        "eta_L_range_um": [
+          0.01,
+          0.01
+        ],
+        "sigma_effective_um": 0.025
+      }
+    ],
+    "semantics": "Source Landau/Gaussian width parameters; not parameter covariance, confidence interval or interchangeable Gaussian standard deviation. Supplement prose mentions He widths0.4\u20130.6um while TableS1 lists0.030\u20130.060um; reconcile before use."
+  },
+  "conditions": {
+    "detector": "TASTRAK",
+    "etchant": "NaOH",
+    "concentration_mol_L": 6.25,
+    "temperature_C": 70.0,
+    "etch_minutes": 30,
+    "diameter_method": "HWHM fitted image profile, not a grayscale threshold diameter",
+    "microscope_resolution_um": 0.4,
+    "microscope_pixel_nm": 40.7
+  },
+  "filter_array": {
+    "nominal_stacks": [
+      {
+        "material": "Mylar",
+        "thickness_um": 1.0
+      },
+      {
+        "material": "Al",
+        "thickness_um": 2.0
+      },
+      {
+        "material": "Al",
+        "thickness_um": 4.5
+      },
+      {
+        "material": "Al",
+        "thickness_um": 8.0
+      },
+      {
+        "material": "Al",
+        "thickness_um": 12.5
+      },
+      {
+        "material": "Al",
+        "thickness_um": 25.0
+      }
+    ],
+    "thickness_tolerance_um": null,
+    "full_transmission_tables": null,
+    "density_and_composition_tolerances": null,
+    "mesh_or_aperture_transmission": null
+  },
+  "geometry": {
+    "CR39_distance_m_approx": 1.7,
+    "CR39a_angle_to_target_normal_deg": 45,
+    "CR39b_angle_to_target_normal_deg": 65,
+    "TP2_angle_to_target_normal_deg_approx": 35,
+    "images_per_filter": 100,
+    "image_field_um": [
+      114,
+      85
+    ],
+    "detector_area_mm": [
+      20,
+      20
+    ],
+    "effective_solid_angle_sr": null
+  },
+  "reported_campaign_adjustments": {
+    "pit_diameter_shifts_typical_percent": [
+      -3,
+      3
+    ],
+    "proton_calibration_shift_percent_approx": -15,
+    "proton_CR39_to_TP_flux_ratio_approx": 2.0,
+    "interpretation": "Reported calibration/diagnostic discrepancies, not new correction factors for Stars or independent uncertainty distributions"
+  },
+  "analytic_spectrum_parameters": [
+    {
+      "id": "CR39b_H",
+      "ion": "H",
+      "equation": 4,
+      "N0_per_sr_J": 100000000000.0,
+      "kBT_MeV": 4.36
+    },
+    {
+      "id": "CR39b_C",
+      "ion": "C",
+      "equation": 3,
+      "N0_per_sr_J": 14000000000.0,
+      "kBT_MeV": 2.01
+    }
+  ],
+  "spectrum_semantics": "Published analytic parameter replay only, not raw data reconstruction. Eq3 has N0/E and divergent integrated count as E_min tends to0; do not silently interpret N0 as a total count. Explicit finite domains required.",
+  "data_availability": "Numerical experimental data available from Marvel Fusion upon reasonable request; raw pit/image/spectrum package not recovered or requested in this release",
+  "production_response_status": "BLOCKED_LITERAL_EQUATION_TABLE_RECONCILIATION_AND_MATCHED_RAW_DATA"
+}

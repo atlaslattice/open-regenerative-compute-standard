@@ -1,0 +1,12 @@
+{
+  "python": "3.12.14",
+  "scipy": "1.17.0",
+  "mpmath": "1.3.0",
+  "package_sha256": "b1da8b373949cf1ba16a44ae55448b7edb60c18350e7d6f37188bbba83b8e1d9",
+  "code_sha256": {
+    "literal_audit.py": "ee8a995b1107282d6d4ec84ba584fa42f45d4eeac513124bec26dd46a0d2758c",
+    "spectra.py": "8e19f6c9ad77350e381a2ab5db063d4981dc477d89c1207db94ef7ff83eb7437",
+    "run_audit.py": "dbce79ba46ee01cb431678468ce180acb90a8c900466eb3d2e117a79c5011cf0",
+    "extract_package.py": "f47a28aee12df1f2a26b857df13f06a42d20cb992dc06d1697b18501351e7317"
+  }
+}

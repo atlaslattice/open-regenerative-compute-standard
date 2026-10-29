@@ -1,0 +1,24 @@
+{
+  "software_checks": {
+    "AUDIT.json": true,
+    "RECEIPT.json": true,
+    "reextracted_package": true,
+    "repeat_AUDIT.json": true,
+    "repeat_RECEIPT.json": true,
+    "code_literal_audit.py": true,
+    "code_spectra.py": true,
+    "code_run_audit.py": true,
+    "code_extract_package.py": true,
+    "14_tests_no_skips": true
+  },
+  "source_coefficient_rows": 4,
+  "nominal_filter_stacks": 6,
+  "independent_arithmetic_pass": true,
+  "scientific_source_reconciliation_pass": false,
+  "full_TPS_reproduction_pass": false,
+  "production_response_blocked": true,
+  "source_pages_visually_checked": [
+    "mainPDFpage5",
+    "supplementPDFpage4"
+  ]
+}

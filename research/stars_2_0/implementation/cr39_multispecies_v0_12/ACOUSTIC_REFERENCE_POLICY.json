@@ -1,0 +1,27 @@
+{
+  "scope": "Evidence/accounting policy overlay; no acoustic hardware or source model changed",
+  "reference_case": {
+    "acoustic_state": "OFF",
+    "unmeasured_nuclear_yield_credit": 0.0,
+    "meaning": "No added enhancement is credited; this is not a measurement that the ON intervention has zero effect"
+  },
+  "intervention_case": {
+    "acoustic_state": "ON_OR_SHAM",
+    "unqualified_effect": null,
+    "measured_target_or_beam_changes": "May enter only through qualified physical inputs with provenance; no duplicate gain multiplier",
+    "acoustic_energy_cost": null,
+    "acoustic_CAPEX": null,
+    "unknown_costs_are_not_zero": true
+  },
+  "sensitivity_fractional_yield_changes": [
+    -0.3,
+    -0.1,
+    0.0,
+    0.1,
+    0.3,
+    1.0
+  ],
+  "sensitivity_semantics": "Illustrative adverse/null/positive scenarios, not measured effects, uncertainty bounds or priors",
+  "controls": "Matched sham/OFF/ON with measured thermal/electrical/EMP covariates, readiness and all-attempt denominators; equivalence must be checked",
+  "all_retained_modules_preserved": true
+}

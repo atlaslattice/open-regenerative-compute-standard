@@ -1,0 +1,19 @@
+test_Eq3_low_cutoff_is_required_not_a_total_count (test_package.PackageTests.test_Eq3_low_cutoff_is_required_not_a_total_count) ... ok
+test_analytic_proton_integral_matches_independent_quadrature (test_package.PackageTests.test_analytic_proton_integral_matches_independent_quadrature) ... ok
+test_bad_density_or_domains_rejected (test_package.PackageTests.test_bad_density_or_domains_rejected) ... ok
+test_calibration_drift_and_absolute_flux_discrepancy_retained (test_package.PackageTests.test_calibration_drift_and_absolute_flux_discrepancy_retained) ... ok
+test_carbon_boundary_mismatch_not_silently_smoothed (test_package.PackageTests.test_carbon_boundary_mismatch_not_silently_smoothed) ... ok
+test_failed_source_gate_is_preserved_and_production_blocked (test_package.PackageTests.test_failed_source_gate_is_preserved_and_production_blocked) ... ok
+test_finite_domain_integrals_match_both_density_forms (test_package.PackageTests.test_finite_domain_integrals_match_both_density_forms) ... ok
+test_four_source_rows_and_independent_PDF_agreement (test_package.PackageTests.test_four_source_rows_and_independent_PDF_agreement) ... ok
+test_helium_log_derivative_and_nonmonotonic_conflict (test_package.PackageTests.test_helium_log_derivative_and_nonmonotonic_conflict) ... ok
+test_independent_40_digit_arithmetic (test_package.PackageTests.test_independent_40_digit_arithmetic) ... ok
+test_known_filters_do_not_imply_qualified_transmission (test_package.PackageTests.test_known_filters_do_not_imply_qualified_transmission) ... ok
+test_reextract_primary_package (test_package.PackageTests.test_reextract_primary_package) ... ok
+test_source_mutation_rejected (test_package.PackageTests.test_source_mutation_rejected) ... ok
+test_supplement_spread_ranges_are_not_covariance (test_package.PackageTests.test_supplement_spread_ranges_are_not_covariance) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.255s
+
+OK

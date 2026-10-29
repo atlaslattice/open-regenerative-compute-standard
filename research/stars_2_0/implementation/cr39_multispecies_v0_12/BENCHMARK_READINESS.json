@@ -1,0 +1,63 @@
+{
+  "candidate": "Schollmeier et al.2023, DOI10.1038/s41598-023-45208-x",
+  "role": "Partial measurement-package and analytic-spectrum reference; not accepted end-to-end TPS benchmark",
+  "criteria": [
+    {
+      "input": "nominal filters",
+      "applicability": "six-filter CR39 arrays; source-specific Mylar/Al, not Stars",
+      "status": "RECOVERED_NOMINAL_ONLY",
+      "independence_status": "same publication/campaign",
+      "failure_consequence": "Species/energy-dependent attenuation can mimic source changes",
+      "needed": "Measured areal thickness/composition/uncertainty and filter transmission including straggling",
+      "consequence_quantified": false
+    },
+    {
+      "input": "raw pit and microscope data",
+      "applicability": "exact plates, scan locations, shots and image processing",
+      "status": "AVAILABLE_ON_REQUEST_NOT_RECOVERED",
+      "independence_status": "not tested",
+      "failure_consequence": "Cannot reproduce extraction or fit likelihood from raw counts; plotted fits are not independent observations",
+      "needed": "Image stacks, pit catalogs, masks, counts and all-shot exposure/area normalization",
+      "consequence_quantified": false
+    },
+    {
+      "input": "response prescription",
+      "applicability": "TASTRAK30min70C6.25MNaOH; HWHM diameter definition",
+      "status": "TABLE_AND_EQUATION_RECOVERED_LITERAL_REPLAY_FAILS_FIGURE",
+      "independence_status": "PDF/XML agree; this is source checking, not independent experimental validation",
+      "failure_consequence": "Wrong diameter mapping can misidentify species or fabricate alpha component",
+      "needed": "Authors implementation or clarified formula/parameter/coordinate conventions",
+      "consequence_quantified": false
+    },
+    {
+      "input": "diagnostic absolute normalization",
+      "applicability": "CR39a versus nearby-angle TP2, same experiment",
+      "status": "FACTOR_TWO_DISCREPANCY_REPORTED",
+      "independence_status": "different diagnostics, not independent campaign or identical angle",
+      "failure_consequence": "Absolute inferred yields shift while spectral shape may agree",
+      "needed": "Matched angle/shot mapping, scanner calibration, effective area/solid angle and covariance",
+      "consequence_quantified": false
+    },
+    {
+      "input": "calibration transfer and track tails",
+      "applicability": "specific detector lots, etch history and image processing",
+      "status": "SOURCE_REPORTS_DIAMETER_DRIFT_AND_LANDAU_TAILS",
+      "independence_status": "calibration and application not interchangeable; no new holdout",
+      "failure_consequence": "Rare alpha signal can be confused with proton/heavy-ion tails",
+      "needed": "Lot-specific calibration, tails/overlap/background model and independent controls",
+      "consequence_quantified": false
+    },
+    {
+      "input": "7.5MeV alpha calibration",
+      "applicability": "same grade/etch/readout and actual incident energy at detector",
+      "status": "NOT_QUALIFIED",
+      "independence_status": "no matching numerical measurement verified",
+      "failure_consequence": "No justified high-energy detector prediction",
+      "needed": "Actual at-detector calibration points/distributions; nominal8MeV accelerator setting does not establish7.5MeV after RBS losses",
+      "consequence_quantified": false
+    }
+  ],
+  "full_benchmark_ready": false,
+  "unknown_fields_are_not_zero": true,
+  "sensitivity_consequences_numerically_quantified": false
+}

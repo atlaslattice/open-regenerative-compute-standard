@@ -1,0 +1,296 @@
+{
+  "status": "SOURCE_PACKAGE_AND_LITERAL_RECONSTRUCTION_AUDIT",
+  "numeric_formula_check": {
+    "points": 28,
+    "decimal_digits": 40,
+    "max_relative_difference": 4.218847493575595e-15,
+    "passed_arithmetic_gate": true,
+    "rows": [
+      {
+        "label": "H",
+        "x": 0.1,
+        "literal_value": 0.7215744193705472,
+        "mpmath40digit_value": 0.721574419370547,
+        "relative_numeric_difference": 2.220446049250313e-16
+      },
+      {
+        "label": "H",
+        "x": 0.2,
+        "literal_value": 0.8832706864501446,
+        "mpmath40digit_value": 0.8832706864501444,
+        "relative_numeric_difference": 2.220446049250313e-16
+      },
+      {
+        "label": "H",
+        "x": 0.5,
+        "literal_value": 1.0332052109776393,
+        "mpmath40digit_value": 1.033205210977639,
+        "relative_numeric_difference": 2.220446049250313e-16
+      },
+      {
+        "label": "H",
+        "x": 1.0,
+        "literal_value": 1.0302243185693862,
+        "mpmath40digit_value": 1.030224318569386,
+        "relative_numeric_difference": 2.220446049250313e-16
+      },
+      {
+        "label": "H",
+        "x": 2.0,
+        "literal_value": 0.9107498925230805,
+        "mpmath40digit_value": 0.9107498925230803,
+        "relative_numeric_difference": 2.220446049250313e-16
+      },
+      {
+        "label": "H",
+        "x": 3.0,
+        "literal_value": 0.8047668315707225,
+        "mpmath40digit_value": 0.8047668315707223,
+        "relative_numeric_difference": 2.220446049250313e-16
+      },
+      {
+        "label": "H",
+        "x": 7.5,
+        "literal_value": 0.5473234317542313,
+        "mpmath40digit_value": 0.5473234317542313,
+        "relative_numeric_difference": 0.0
+      },
+      {
+        "label": "He",
+        "x": 0.1,
+        "literal_value": 1.2451456338238982,
+        "mpmath40digit_value": 1.245145633823898,
+        "relative_numeric_difference": 2.220446049250313e-16
+      },
+      {
+        "label": "He",
+        "x": 0.2,
+        "literal_value": 1.212627018482743,
+        "mpmath40digit_value": 1.212627018482743,
+        "relative_numeric_difference": 0.0
+      },
+      {
+        "label": "He",
+        "x": 0.5,
+        "literal_value": 1.1582221307487375,
+        "mpmath40digit_value": 1.1582221307487375,
+        "relative_numeric_difference": 0.0
+      },
+      {
+        "label": "He",
+        "x": 1.0,
+        "literal_value": 1.1053422782596123,
+        "mpmath40digit_value": 1.1053422782596123,
+        "relative_numeric_difference": 0.0
+      },
+      {
+        "label": "He",
+        "x": 2.0,
+        "literal_value": 1.0424021528034173,
+        "mpmath40digit_value": 1.0424021528034173,
+        "relative_numeric_difference": 0.0
+      },
+      {
+        "label": "He",
+        "x": 3.0,
+        "literal_value": 1.002134838017998,
+        "mpmath40digit_value": 1.002134838017998,
+        "relative_numeric_difference": 0.0
+      },
+      {
+        "label": "He",
+        "x": 7.5,
+        "literal_value": 0.9072258943933303,
+        "mpmath40digit_value": 0.9072258943933303,
+        "relative_numeric_difference": 0.0
+      },
+      {
+        "label": "C\u2009<\u20093 MeV",
+        "x": 0.1,
+        "literal_value": 5.197602754575891,
+        "mpmath40digit_value": 5.19760275457589,
+        "relative_numeric_difference": 4.440892098500626e-16
+      },
+      {
+        "label": "C\u2009<\u20093 MeV",
+        "x": 0.2,
+        "literal_value": 3.9720579399406986,
+        "mpmath40digit_value": 3.9720579399406972,
+        "relative_numeric_difference": 4.440892098500626e-16
+      },
+      {
+        "label": "C\u2009<\u20093 MeV",
+        "x": 0.5,
+        "literal_value": 2.41525638480349,
+        "mpmath40digit_value": 2.4152563848034885,
+        "relative_numeric_difference": 4.440892098500626e-16
+      },
+      {
+        "label": "C\u2009<\u20093 MeV",
+        "x": 1.0,
+        "literal_value": 1.418147501090658,
+        "mpmath40digit_value": 1.4181475010906575,
+        "relative_numeric_difference": 2.220446049250313e-16
+      },
+      {
+        "label": "C\u2009<\u20093 MeV",
+        "x": 2.0,
+        "literal_value": 0.7133472009452049,
+        "mpmath40digit_value": 0.7133472009452044,
+        "relative_numeric_difference": 6.661338147750939e-16
+      },
+      {
+        "label": "C\u2009<\u20093 MeV",
+        "x": 3.0,
+        "literal_value": 0.4466146437897455,
+        "mpmath40digit_value": 0.4466146437897453,
+        "relative_numeric_difference": 4.440892098500626e-16
+      },
+      {
+        "label": "C\u2009<\u20093 MeV",
+        "x": 7.5,
+        "literal_value": 0.13527952022140327,
+        "mpmath40digit_value": 0.13527952022140324,
+        "relative_numeric_difference": 2.220446049250313e-16
+      },
+      {
+        "label": "C\u2009\u2265\u20093 MeV",
+        "x": 0.1,
+        "literal_value": 29.1402259494683,
+        "mpmath40digit_value": 29.14022594946838,
+        "relative_numeric_difference": 2.7755575615628914e-15
+      },
+      {
+        "label": "C\u2009\u2265\u20093 MeV",
+        "x": 0.2,
+        "literal_value": 8.145578236967113,
+        "mpmath40digit_value": 8.145578236967136,
+        "relative_numeric_difference": 2.886579864025407e-15
+      },
+      {
+        "label": "C\u2009\u2265\u20093 MeV",
+        "x": 0.5,
+        "literal_value": 0.6523186973537523,
+        "mpmath40digit_value": 0.6523186973537538,
+        "relative_numeric_difference": 2.3314683517128287e-15
+      },
+      {
+        "label": "C\u2009\u2265\u20093 MeV",
+        "x": 1.0,
+        "literal_value": 0.038374763024541535,
+        "mpmath40digit_value": 0.03837476302454162,
+        "relative_numeric_difference": 2.220446049250313e-15
+      },
+      {
+        "label": "C\u2009\u2265\u20093 MeV",
+        "x": 2.0,
+        "literal_value": 0.0009044001714700344,
+        "mpmath40digit_value": 0.0009044001714700341,
+        "relative_numeric_difference": 4.440892098500626e-16
+      },
+      {
+        "label": "C\u2009\u2265\u20093 MeV",
+        "x": 3.0,
+        "literal_value": 6.82171520186444e-05,
+        "mpmath40digit_value": 6.821715201864435e-05,
+        "relative_numeric_difference": 8.881784197001252e-16
+      },
+      {
+        "label": "C\u2009\u2265\u20093 MeV",
+        "x": 7.5,
+        "literal_value": 8.864882603806626e-08,
+        "mpmath40digit_value": 8.864882603806663e-08,
+        "relative_numeric_difference": 4.218847493575595e-15
+      }
+    ]
+  },
+  "source_reconciliation": {
+    "status": "FAILED_LITERAL_RECONSTRUCTION_NOT_QUALIFIED_FOR_PRODUCTION",
+    "assumed_axes": "x=ion energy inMeV, y=pit diameter inum, beta=Euler beta as printed; no unreported coordinate transform supplied",
+    "carbon_at3_left_um": 0.4466146437897455,
+    "carbon_at3_right_um": 6.82171520186444e-05,
+    "carbon_piecewise_jump_um": 0.44654642663772687,
+    "figure3_carbon_at3_coarse_visual_envelope_um": [
+      1.0,
+      1.3
+    ],
+    "envelope_scope": "Visually verified PDFpage5 broad graphical envelope; not raw data, statistical uncertainty or refitted calibration",
+    "literal_values_in_graphical_envelope": false,
+    "He_literal_log_slopes": [
+      -0.03468181818181818,
+      -0.05916666666666667,
+      -0.07600000000000001,
+      -0.09283333333333334,
+      -0.11461764705882355
+    ],
+    "He_literal_shape": "strictly decreasing for every positive x because p2<1 and p4>0; source Figure3/text show a nonmonotonic He response",
+    "H_literal_peak_x_MeV": 0.6976744186046512,
+    "H_peak_text_reference_MeV_approx": [
+      0.1,
+      0.2
+    ],
+    "resolution": "Original source implementation/definitions or corrected numerical prescription required. No guessed parameter swap, fit or normalization correction applied. This is not proof the experiment is wrong."
+  },
+  "analytic_spectra_replay": [
+    {
+      "id": "CR39b_H",
+      "ion": "H",
+      "equation": 4,
+      "N0_per_sr_J": 100000000000.0,
+      "kBT_MeV": 4.36,
+      "evaluation_energies_MeV": [
+        0.1,
+        0.5,
+        1.0,
+        2.0,
+        5.0
+      ],
+      "analytic_density_per_MeV_sr_J": [
+        86442257275.8247,
+        29666575697.918884,
+        17202850649.950665,
+        9188573410.648727,
+        3330709281.543553
+      ],
+      "counts_in_explicit_0p1_to10MeV_domain_per_sr_J": 68975852363.92943,
+      "claim": "Reproduction of reported analytic parametrization only; query/domain choices do not establish measured energy coverage or Stars source applicability"
+    },
+    {
+      "id": "CR39b_C",
+      "ion": "C",
+      "equation": 3,
+      "N0_per_sr_J": 14000000000.0,
+      "kBT_MeV": 2.01,
+      "evaluation_energies_MeV": [
+        0.1,
+        0.5,
+        1.0,
+        2.0,
+        5.0
+      ],
+      "analytic_density_per_MeV_sr_J": [
+        133205250943.6572,
+        21833561215.499092,
+        8512578488.409754,
+        2587999732.9048743,
+        232714529.49701804
+      ],
+      "counts_in_explicit_0p1_to10MeV_domain_per_sr_J": 34600454730.43421,
+      "claim": "Reproduction of reported analytic parametrization only; query/domain choices do not establish measured energy coverage or Stars source applicability"
+    }
+  ],
+  "benchmark_qualification": {
+    "ready_for_complete_TPS_reproduction": false,
+    "raw_pit_or_image_data_recovered": false,
+    "calibrated_filter_transmission_recovered": false,
+    "filter_nominal_stack_recovered": true,
+    "filter_thickness_covariance_recovered": false,
+    "exact_TPS_field_geometry_package_recovered": false,
+    "matched_angle_source_map_recovered": false,
+    "absolute_flux_agreement_validated": false,
+    "source_response_production_approved": false
+  },
+  "independent_campaign_holdout_run": false,
+  "apparatus_prediction": null,
+  "net_energy_result": null
+}

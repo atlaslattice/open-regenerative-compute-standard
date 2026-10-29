@@ -1,0 +1,14 @@
+{
+  "source_doi": "10.1038/s41598-023-45208-x",
+  "purpose": "Concrete scientific data requirements; no request sent",
+  "requested_material": [
+    "Executable Eq2/calibration implementation, definitions/units and Table1 mapping; any corrections or unstated transforms",
+    "Per-calibration actual ion energies/distributions at CR39 after Au RBS/filter losses; raw microscope frames and HWHM pit catalogs",
+    "Raw per-filter campaign histograms, shot IDs, exposure history, image locations/area, masks, excluded/failed shots and preprocessing",
+    "Measured foil/mesh areal densities, composition, incidence geometry, transmission and straggling models with uncertainties",
+    "TPS E/B field maps, lengths, pinhole, drift distances, alignment, image-plate scanner settings/calibration and raw traces",
+    "Source angle/energy/shot mapping linking CR39a, CR39b and TPS records; covariance/shared normalization and all fit/likelihood definitions",
+    "Independent calibration/campaign records that can be held out without sharing the same fitted nuisance corrections"
+  ],
+  "data_use": "Keep source licenses/attribution; preserve originals and source hashes; do not replace data by best-fit curves"
+}
