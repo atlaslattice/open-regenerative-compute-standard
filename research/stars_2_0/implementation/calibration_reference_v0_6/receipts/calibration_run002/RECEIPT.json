@@ -1,0 +1,11 @@
+{
+  "hashes": {
+    "DEPENDENCY_LOCK.json": "e72d72089b76ead1d06f9ce09e0aace68f5ff6b8aee1a3376be139a85893676f",
+    "OVERLEY_BENCHMARK.json": "960809ca53c71166835874bdabbc8f751b9fc6b562c458451baba27dd3a48d4d",
+    "calibrate.py": "7c6567d5e7d6df4b5f396adfc6f2936dfb19eb2a20c7fd02a8b66e64f35c72ef"
+  },
+  "optimizer": "analytic geometric-mean scale; deterministic",
+  "python": "3.12.14",
+  "seed": null,
+  "tests_not_run_by_this_command": true
+}
