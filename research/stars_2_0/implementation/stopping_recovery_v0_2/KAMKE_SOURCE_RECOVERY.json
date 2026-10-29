@@ -1,0 +1,25 @@
+{
+  "source": "Kamke and Kramer (1962), Z Phys 168,465\u2013473",
+  "doi": "10.1007/BF01378142",
+  "url_requested": "https://link.springer.com/content/pdf/10.1007/BF01378142.pdf",
+  "actual_response": "HTML article/access page, not a PDF",
+  "response_bytes": 228720,
+  "response_sha256": "53d46cddc6e59f47d5255a87842421a174aa97b250772a7f9e4c873cb4788e01",
+  "status": "PRIMARY_ABSTRACT_RECOVERED_FULL_NUMERICAL_TABLE_NOT_RECOVERED",
+  "abstract_metadata_paraphrase": {
+    "projectile": "alpha particles",
+    "target": "boron films on thin mica",
+    "boron_areal_mass_microgram_cm2": [
+      50,
+      120
+    ],
+    "alpha_energy_MeV": [
+      0.2,
+      5.3
+    ],
+    "source_reported_point_error_about_relative": 0.02,
+    "method": "scintillation spectroscopy; alpha energy adjusted through air; boron stopping and range inferred using known air energy loss"
+  },
+  "no_numerical_stopping_points_imported": true,
+  "relation_to_README": "Additional recovery after the robots-denied web attempt recorded there; original README preserved."
+}
