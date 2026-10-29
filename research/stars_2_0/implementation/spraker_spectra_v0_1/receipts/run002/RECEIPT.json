@@ -1,0 +1,106 @@
+{
+  "status": "SOURCE_REPRODUCED_NOT_APPARATUS_CALIBRATED",
+  "python": "3.12.14",
+  "xlrd": "2.0.1",
+  "spectrum_cells": 22100,
+  "matched_error_cells": 22100,
+  "above_article_range_cells": 1600,
+  "reported_zero_cells": 9943,
+  "anchor": {
+    "record": {
+      "record_id": "90:B54",
+      "sheet": "90",
+      "value_cell": "B54",
+      "error_sheet": "90err",
+      "error_cell": "B54",
+      "E_proton_LAB_MeV": 1.4,
+      "E_alpha_CM_center_MeV": 4.635,
+      "bin_width_MeV": 0.09,
+      "detector_angle_LAB_deg": 90.0,
+      "X_CM_mb_sr_per_source_bin": 4.2779,
+      "statistical_error_CM_mb_sr": 0.0342,
+      "observable": "DETECTED_ALPHA_COUNTS_PER_LUMINOSITY_PER_CM_SOLID_ANGLE_BIN",
+      "coverage": "WITHIN_ARTICLE_ENERGY_RANGE",
+      "source_cell_status": "REPORTED_NONZERO",
+      "angle_status": "SHEET_NAME_MATCHES_ARTICLE_LAB_DETECTOR"
+    },
+    "paper_rounded_value_mb_sr": 4.28,
+    "rounded_match": true
+  },
+  "source_notes": [
+    "The 11B(p, \u03b1)8Be -> \u03b1+ \u03b1 and the 11B(\u03b1, \u03b1)11B reactions at energies below 5.4 MeV",
+    "",
+    "M.C. Spraker 1,   M.W. Ahmed 2,   M.A. Blackston 2&3,   N. Brown 2,   R.H. France III 4,   S.S.Henshaw 2,   B.A. Perdue 2&5,   R.M. Prior 1,   P.-N. Seo 6,   S. Stave 2&7,   and H.R. Weller 2",
+    "",
+    "1 North Georgia College & State University",
+    "2 Duke University and TUNL",
+    "3 Current address: Oak Ridge National Laboratory",
+    "4 Georgia College & State University",
+    "5 Current address: Los Alamos National Laboratory",
+    "6 University of Virginia and TUNL",
+    "7 Current address: Pacific Northwest National Laboratory",
+    "",
+    "Journal of Fusion Energy",
+    "",
+    "MCSpraker@NorthGeorgia.edu",
+    "",
+    "Comments",
+    "",
+    "Data from 2010 TUNL 11B(p,a) runs",
+    "Ep from 1.4 to 3.8 MeV",
+    "Ep is the incident proton energy in the lab frame in MeV",
+    "Ealpha is the outgoing (detected) alpha energy in the center-of-mass frame in MeV",
+    "All Counts/(L dOmega) and uncertainties are in the center-of-mass frame and have units of mb/sr"
+  ],
+  "alpha_elastic_workbook_sheets": [
+    [
+      "Notes",
+      23,
+      1
+    ],
+    [
+      "XS",
+      56,
+      10
+    ],
+    [
+      "XSerr",
+      56,
+      10
+    ],
+    [
+      "Relative errors",
+      56,
+      12
+    ],
+    [
+      "Phase shifts",
+      28,
+      10
+    ]
+  ],
+  "sources": [
+    {
+      "number": 1,
+      "filename": "MOESM1.xls",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1007%2Fs10894-011-9473-5/MediaObjects/10894_2011_9473_MOESM1_ESM.xls",
+      "sha256": "eb141f6153c31d7ee12e5b5908ef70a9daa38809e12aba91eba5bb4a9955d0c5",
+      "bytes": 77312,
+      "attribution": "Spraker et al., J Fusion Energy 31,357\u2013367 (2012), DOI 10.1007/s10894-011-9473-5",
+      "rights": "See primary article Creative Commons Noncommercial notice. Source workbooks are downloaded, not relicensed as project code."
+    },
+    {
+      "number": 2,
+      "filename": "MOESM2.xls",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1007%2Fs10894-011-9473-5/MediaObjects/10894_2011_9473_MOESM2_ESM.xls",
+      "sha256": "e41aac5559135a810e10ea88edb9f8a237da5ae0a99494f47b27564deb086c77",
+      "bytes": 711168,
+      "attribution": "Spraker et al., J Fusion Energy 31,357\u2013367 (2012), DOI 10.1007/s10894-011-9473-5",
+      "rights": "See primary article Creative Commons Noncommercial notice. Source workbooks are downloaded, not relicensed as project code."
+    }
+  ],
+  "code_sha256": {
+    "test_spectra.py": "48eb1e2e6fdc817e2654abf74ae8e79c18c74333a01c93d0ce4cb78007c224bc",
+    "extract_spectra.py": "33daed8885e1afec60308f7a9ef9842ae010d6af6c1e24de32ce992c75258f49"
+  }
+}
