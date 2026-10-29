@@ -1,0 +1,42 @@
+{
+  "retrieval_date_UTC": "2026-10-29",
+  "sources": [
+    {
+      "id": "ZHENG2026",
+      "doi": "10.1016/j.nima.2026.171418",
+      "primary_url": "https://www.sciencedirect.com/science/article/pii/S0168900226001440",
+      "recovery": "Publisher preview/search excerpts recovered; direct page fetch403. Institutional bibliographic record redirects to login. No accessible numerical coefficient table or original response image recovered.",
+      "institutional_record": "https://ir.specialsci.cn/xajt/detail/59522a64-d233-46c1-a85d-c5cb6398448a",
+      "numeric_coefficients": null,
+      "claimed_energy_range_MeV": [
+        0.5,
+        6.0
+      ],
+      "claimed_resolution": "BA within2% per abstract; not transferred to other detector/conditions",
+      "implemented": false
+    },
+    {
+      "id": "ZHANG2019",
+      "doi": "10.1007/s41365-019-0619-x",
+      "primary_metadata": "https://link.springer.com/article/10.1007/s41365-019-0619-x",
+      "primary_text": "https://www.nst.sinap.ac.cn/article/doi/10.1007/s41365-019-0619-x",
+      "text_access": "Publisher text retrieved via search; direct SINAP download503. Public Springer figures independently downloaded and visually inspected.",
+      "source_html_sha256": "681aba40d50d1ea520df0e4cd6b54f98f8e352fac05429c1056d6c7033d6ffae",
+      "figures": [
+        {
+          "number": 10,
+          "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs41365-019-0619-x/MediaObjects/41365_2019_619_Fig10_HTML.png",
+          "sha256": "19ea0b76fd5024fe24d72a5b02b4b1d589447a0671f3f00b5d35447204609987"
+        },
+        {
+          "number": 4,
+          "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs41365-019-0619-x/MediaObjects/41365_2019_619_Fig4_HTML.png",
+          "sha256": "0a369016da858917b016cd54d14bd8c5f64f589f260961da18d5c98548663e04"
+        }
+      ],
+      "numerical_scope": "10 alpha mean/core-width figure points, one approximate displayed-histogram subset, and printed fit/raw statistics. Not original raw tracks or a published response matrix."
+    }
+  ],
+  "source_images_bundled": false,
+  "rights": "Source figures remain publisher material; download URLs/hash replay provided, not redistributed or relicensed as project code. Structured numerical transcription and project interpretation are identified."
+}
