@@ -1,0 +1,177 @@
+{
+  "dd_events_s": 3.4192555464340754e+19,
+  "t_born_s": 1.7096277732170377e+19,
+  "dd_primary_mw": 20.0,
+  "secondary_dt_mw": 13.489974800043825,
+  "dd_neutron_mw": 6.710857894160183,
+  "li6_capture_q_mw": 8.38479237427413,
+  "nuclear_q_mw": 41.87476717431795,
+  "delivered_rf_mw": 80.0,
+  "rf_deposited_mw": 72.0,
+  "deposited_thermal_mw": 113.87476717431795,
+  "thermal_to_converter_mw": 96.79355209817025,
+  "gross_e_mwe": 38.7174208392681,
+  "rf_wall_mwe": 114.28571428571429,
+  "other_aux_mwe": 15.0,
+  "aux_mwe": 129.28571428571428,
+  "dd_net_mwe": -90.56829344644618,
+  "unconverted_and_local_energy_mw": 132.44306062076413,
+  "opportunity_mwe": 490.5682934464462,
+  "opportunity_gwh_y": 3652.771513002238,
+  "opportunity_musd_y": 237.43014834514545,
+  "t_born_kg_y": 2.295169328870946,
+  "he3_born_l_y": 17056.72165160173,
+  "t_exhaust_recovered_kg_y": 1.2889670950939236,
+  "t_blanket_recovered_kg_y": 1.248572114905795,
+  "t_total_recovered_kg_y": 2.5375392099997187,
+  "he3_plasma_recovered_l_y": 12792.541238701297,
+  "bank_20y": [
+    {
+      "year": 0,
+      "t_active_kg": 0.0,
+      "t_decayed_cumulative_kg": 0.0,
+      "he3_decay_cumulative_stp_l": 0.0,
+      "he3_decay_rate_stp_l_year": 0.0
+    },
+    {
+      "year": 1,
+      "t_active_kg": 1.8475395878389902,
+      "t_decayed_cumulative_kg": 0.05246041216100972,
+      "he3_decay_cumulative_stp_l": 389.8634565663274,
+      "he3_decay_rate_stp_l_year": 772.4837222789331
+    },
+    {
+      "year": 2,
+      "t_active_kg": 3.5940030333831396,
+      "t_decayed_cumulative_kg": 0.20599696661686018,
+      "he3_decay_cumulative_stp_l": 1530.8817856966245,
+      "he3_decay_rate_stp_l_year": 1502.7060093239716
+    },
+    {
+      "year": 3,
+      "t_active_kg": 5.244920062007998,
+      "t_decayed_cumulative_kg": 0.45507993799200097,
+      "he3_decay_cumulative_stp_l": 3381.960421794304,
+      "he3_decay_rate_stp_l_year": 2192.978921385083
+    },
+    {
+      "year": 4,
+      "t_active_kg": 6.805517876040304,
+      "t_decayed_cumulative_kg": 0.7944821239596953,
+      "he3_decay_cumulative_stp_l": 5904.2530218108495,
+      "he3_decay_rate_stp_l_year": 2845.488029335577
+    },
+    {
+      "year": 5,
+      "t_active_kg": 8.280737705343933,
+      "t_decayed_cumulative_kg": 1.2192622946560672,
+      "he3_decay_cumulative_stp_l": 9061.038468334773,
+      "he3_decay_rate_stp_l_year": 3462.2993347177226
+    },
+    {
+      "year": 6,
+      "t_active_kg": 9.67525045244789,
+      "t_decayed_cumulative_kg": 1.7247495475521077,
+      "he3_decay_cumulative_stp_l": 12817.604601658773,
+      "he3_decay_rate_stp_l_year": 4045.36581120297
+    },
+    {
+      "year": 7,
+      "t_active_kg": 10.993471481752657,
+      "t_decayed_cumulative_kg": 2.306528518247342,
+      "he3_decay_cumulative_stp_l": 17141.13831269241,
+      "he3_decay_rate_stp_l_year": 4596.533588178613
+    },
+    {
+      "year": 8,
+      "t_active_kg": 12.239574599641026,
+      "t_decayed_cumulative_kg": 2.9604254003589734,
+      "he3_decay_cumulative_stp_l": 22000.621648727985,
+      "he3_decay_rate_stp_l_year": 5117.547796039624
+    },
+    {
+      "year": 9,
+      "t_active_kg": 13.417505269757896,
+      "t_decayed_cumulative_kg": 3.6824947302421016,
+      "he3_decay_cumulative_stp_l": 27366.73360310554,
+      "he3_decay_rate_stp_l_year": 5610.058091693271
+    },
+    {
+      "year": 10,
+      "t_active_kg": 14.530993105301755,
+      "t_decayed_cumulative_kg": 4.469006894698245,
+      "he3_decay_cumulative_stp_l": 33211.75727781915,
+      "he3_decay_rate_stp_l_year": 6075.623881771591
+    },
+    {
+      "year": 11,
+      "t_active_kg": 15.583563677881498,
+      "t_decayed_cumulative_kg": 5.3164363221185,
+      "he3_decay_cumulative_stp_l": 39509.49212511864,
+      "he3_decay_rate_stp_l_year": 6515.7192600896915
+    },
+    {
+      "year": 12,
+      "t_active_kg": 16.57854968032823,
+      "t_decayed_cumulative_kg": 6.221450319671767,
+      "he3_decay_cumulative_stp_l": 46235.170990243205,
+      "he3_decay_rate_stp_l_year": 6931.73767498304
+    },
+    {
+      "year": 13,
+      "t_active_kg": 17.51910147880626,
+      "t_decayed_cumulative_kg": 7.18089852119374,
+      "he3_decay_cumulative_stp_l": 53365.381692623305,
+      "he3_decay_rate_stp_l_year": 7324.996341301681
+    },
+    {
+      "year": 14,
+      "t_active_kg": 18.40819708763379,
+      "t_decayed_cumulative_kg": 8.191802912366207,
+      "he3_decay_cumulative_stp_l": 60877.992897258395,
+      "he3_decay_rate_stp_l_year": 7696.740411030812
+    },
+    {
+      "year": 15,
+      "t_active_kg": 19.248651598396044,
+      "t_decayed_cumulative_kg": 9.251348401603956,
+      "he3_decay_cumulative_stp_l": 68752.08404156133,
+      "he3_decay_rate_stp_l_year": 8048.1469157429165
+    },
+    {
+      "year": 16,
+      "t_active_kg": 20.04312609320556,
+      "t_decayed_cumulative_kg": 10.356873906794437,
+      "he3_decay_cumulative_stp_l": 76967.87909580098,
+      "he3_decay_rate_stp_l_year": 8380.328493364199
+    },
+    {
+      "year": 17,
+      "t_active_kg": 20.794136070331366,
+      "t_decayed_cumulative_kg": 11.505863929668632,
+      "he3_decay_cumulative_stp_l": 85506.68394741225,
+      "he3_decay_rate_stp_l_year": 8694.336911055174
+    },
+    {
+      "year": 18,
+      "t_active_kg": 21.504059408874443,
+      "t_decayed_cumulative_kg": 12.695940591125552,
+      "he3_decay_cumulative_stp_l": 94350.82721091765,
+      "he3_decay_rate_stp_l_year": 8991.1663953597
+    },
+    {
+      "year": 19,
+      "t_active_kg": 22.17514389770771,
+      "t_decayed_cumulative_kg": 13.924856102292292,
+      "he3_decay_cumulative_stp_l": 103483.60427604962,
+      "he3_decay_rate_stp_l_year": 9271.756780166521
+    },
+    {
+      "year": 20,
+      "t_active_kg": 22.80951435251884,
+      "t_decayed_cumulative_kg": 15.190485647481161,
+      "he3_decay_cumulative_stp_l": 112889.22441691709,
+      "he3_decay_rate_stp_l_year": 9536.9964824505
+    }
+  ]
+}
