@@ -1,0 +1,25 @@
+parameter,value,status,interpretation
+dd_primary_mw,20.0,POTENTIAL-DERIVED,Illustrative screening input; not calibrated to ARC-DD
+dd_branch_t,0.5,POTENTIAL-DERIVED,Illustrative screening input; not calibrated to ARC-DD
+dd_q_neutron_mev,3.2689,SOURCE-TRACED CONSTANT,Illustrative screening input; not calibrated to ARC-DD
+dd_q_he3_mev,4.0327,SOURCE-TRACED CONSTANT,Illustrative screening input; not calibrated to ARC-DD
+dt_q_mev,17.589,SOURCE-TRACED CONSTANT,Illustrative screening input; not calibrated to ARC-DD
+li6_capture_q_mev,4.783,SOURCE-TRACED CONSTANT,Illustrative screening input; not calibrated to ARC-DD
+secondary_t_burn_fraction,0.28,POTENTIAL-DERIVED,Illustrative screening input; not calibrated to ARC-DD
+he3_secondary_burn_fraction,0.0,POTENTIAL-DERIVED,Illustrative screening input; not calibrated to ARC-DD
+neutron_capture_fraction,0.5,POTENTIAL-DERIVED,Illustrative screening input; not calibrated to ARC-DD
+blanket_tritium_recovery_fraction,0.85,POTENTIAL-DERIVED,Illustrative screening input; not calibrated to ARC-DD
+divertor_tritium_recovery_fraction,0.78,POTENTIAL-DERIVED,Illustrative screening input; not calibrated to ARC-DD
+plasma_he3_recovery_fraction,0.75,POTENTIAL-DERIVED,Illustrative screening input; not calibrated to ARC-DD
+rf_delivered_mw,80.0,POTENTIAL-DERIVED,Illustrative screening input; not calibrated to ARC-DD
+rf_wall_plug_efficiency,0.7,POTENTIAL-DERIVED,Illustrative screening input; not calibrated to ARC-DD
+rf_deposited_fraction,0.9,POTENTIAL-DERIVED,Illustrative screening input; not calibrated to ARC-DD
+other_aux_mwe,15.0,POTENTIAL-DERIVED,Illustrative screening input; not calibrated to ARC-DD
+thermal_collection_fraction,0.85,POTENTIAL-DERIVED,Illustrative screening input; not calibrated to ARC-DD
+thermal_to_electric_efficiency,0.4,POTENTIAL-DERIVED,Illustrative screening input; not calibrated to ARC-DD
+capacity_factor,0.85,POTENTIAL-DERIVED,Illustrative screening input; not calibrated to ARC-DD
+lost_dt_opportunity_mwe,400.0,POTENTIAL-DERIVED,Illustrative screening input; not calibrated to ARC-DD
+power_price_usd_mwh,65.0,POTENTIAL-DERIVED,Illustrative screening input; not calibrated to ARC-DD
+t_bank_input_kg_year,1.9,POTENTIAL-DERIVED,Illustrative screening input; not calibrated to ARC-DD
+t_half_life_years,12.32,SOURCE-TRACED CONSTANT,Illustrative screening input; not calibrated to ARC-DD
+years,20,POTENTIAL-DERIVED,Illustrative screening input; not calibrated to ARC-DD
