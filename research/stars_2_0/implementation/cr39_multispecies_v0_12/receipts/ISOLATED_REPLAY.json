@@ -1,0 +1,10 @@
+{
+  "copied_files": 5,
+  "source_PDFs_present": false,
+  "nuclear_backend_required": false,
+  "byte_matches": {
+    "AUDIT.json": true,
+    "RECEIPT.json": true
+  },
+  "scope": "isolated files using existing Python/SciPy/mpmath environment; not a new OS installation"
+}
