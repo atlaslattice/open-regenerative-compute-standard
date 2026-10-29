@@ -1,0 +1,65 @@
+[
+  {
+    "module": "transport.py",
+    "origin_local_path": "g0b_transport_v0_1/transport.py",
+    "source_commit": "872c3322ec5d91dab341c357468977eb92e1444c",
+    "sha256": "f3a43e6781da00bdc47b9f31605817e11fe28a5ae12149538f2787e5a8d6439e",
+    "adaptation": "none; exact copied bytes; original retained"
+  },
+  {
+    "module": "detector.py",
+    "origin_local_path": "g0b_transport_v0_1/detector.py",
+    "source_commit": "872c3322ec5d91dab341c357468977eb92e1444c",
+    "sha256": "f53fa649cf7c9a32ab40f20ae5870bbd81bc5632fffb6889a73f28f88b76550d",
+    "adaptation": "none; exact copied bytes; original retained"
+  },
+  {
+    "module": "observables.py",
+    "origin_local_path": "implementation_v0_1/observables.py",
+    "source_commit": "8c4750e53f241d82fb9696662f8cfb4df75531db",
+    "sha256": "543280eb2d859b2e7fc44c1108c8c940eca073ed018b74e21bcf5507cc23ccd4",
+    "adaptation": "none; exact copied bytes; original retained"
+  },
+  {
+    "module": "identifiability.py",
+    "origin_local_path": "implementation_v0_1/identifiability.py",
+    "source_commit": "8c4750e53f241d82fb9696662f8cfb4df75531db",
+    "sha256": "039eef52e9b6aa67d24999f55f5650260be2763ceffd3ee70a7e534e8c5c7127",
+    "adaptation": "none; exact copied bytes; original retained"
+  },
+  {
+    "module": "reporting.py",
+    "origin_local_path": "economic_reporting_v0_1/reporting.py",
+    "source_commit": "9b60027b3a71fac7f98ed41b466a7f99d3733d3e",
+    "sha256": "e5db88ff1301fe5ee7b30568fe0c12701ddc6519374edb148f18ce6621973202",
+    "adaptation": "none; exact copied bytes; original retained"
+  },
+  {
+    "module": "screen.py",
+    "origin_local_path": "energy_screen_v0_1/screen.py",
+    "source_commit": "b23f586c4888a2f984df8d73ee720cfc729113c8",
+    "sha256": "81aaad09b8067165bc48d7876f13298269e2e31c076ba5e0a5cf6542088502a9",
+    "adaptation": "none; exact copied bytes; original retained"
+  },
+  {
+    "module": "costs.py",
+    "origin_local_path": "energy_screen_v0_1/costs.py",
+    "source_commit": "b23f586c4888a2f984df8d73ee720cfc729113c8",
+    "sha256": "300b67a355f2810274fdd811865214e96bac9974d5a8028b3ffd67d8e688877d",
+    "adaptation": "none; exact copied bytes; original retained"
+  },
+  {
+    "module": "measurement_design.py",
+    "origin_local_path": "g0b_design_v0_1/design.py",
+    "source_commit": "4cb8ce0fe723900a835fb62a1c014723e7ff40a7",
+    "sha256": "dc8b8f9a2c4047831409a07fdf7a14730154aa7025ab1bc79ae7d6928e84cf0d",
+    "adaptation": "none; existing source retained"
+  },
+  {
+    "module": "stopping_source_check.py",
+    "origin_local_path": "stopping_source_v0_1/stopping_source_check_v0_1.py",
+    "source_commit": "470e81a26db95496757a27e4991556345772593e",
+    "sha256": "4627a4d1298b507c4eb86c2b9d08e01468dec462e7ce654d5bb6f65b0577eddd",
+    "adaptation": "none; existing source retained"
+  }
+]
