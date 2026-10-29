@@ -1,0 +1,869 @@
+{
+  "schema_version": "1.2",
+  "attempts": [
+    {
+      "attempt_id": "synthetic-ready-001",
+      "specimen": {
+        "specimen_id": "fixture-A",
+        "batch_id": "synthetic-batch",
+        "material": "SYNTHETIC_TEST_MATERIAL",
+        "composition": "not boron calibration",
+        "geometry": "synthetic response trace",
+        "support": "synthetic support"
+      },
+      "mode": "UNTIL_READY",
+      "arm": "ON",
+      "evidence": "SYNTHETIC_TEST",
+      "sensor_calibration_ids": {
+        "synthetic-sensor": "SYNTHETIC_NO_LAB_CALIBRATION"
+      },
+      "criteria": [
+        {
+          "metric": "envelope_fraction",
+          "unit": "dimensionless",
+          "minimum": 0.95,
+          "maximum": 1.05,
+          "sensor_id": "synthetic-sensor"
+        },
+        {
+          "metric": "temperature_C",
+          "unit": "degC",
+          "minimum": 19,
+          "maximum": 21,
+          "sensor_id": "synthetic-sensor"
+        }
+      ],
+      "hold_s": 1,
+      "timeout_s": 10,
+      "max_sample_gap_s": 0.51,
+      "fixed_duration_s": 2,
+      "abort_at_s": null,
+      "abort_reason": null,
+      "subsequent_outcomes": {
+        "status": "NOT_MEASURED",
+        "fusion_events": null,
+        "trigger_phase_rad": null
+      },
+      "observations": [
+        {
+          "time_s": 0.0,
+          "metrics": {
+            "envelope_fraction": 0.0,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 0.5,
+          "metrics": {
+            "envelope_fraction": 0.25,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 1.0,
+          "metrics": {
+            "envelope_fraction": 0.5,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 1.5,
+          "metrics": {
+            "envelope_fraction": 0.75,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 2.0,
+          "metrics": {
+            "envelope_fraction": 1,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 2.5,
+          "metrics": {
+            "envelope_fraction": 1,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 3.0,
+          "metrics": {
+            "envelope_fraction": 1,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 3.5,
+          "metrics": {
+            "envelope_fraction": 1,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 4.0,
+          "metrics": {
+            "envelope_fraction": 1,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 4.5,
+          "metrics": {
+            "envelope_fraction": 1,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 5.0,
+          "metrics": {
+            "envelope_fraction": 1,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 5.5,
+          "metrics": {
+            "envelope_fraction": 1,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 6.0,
+          "metrics": {
+            "envelope_fraction": 1,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 6.5,
+          "metrics": {
+            "envelope_fraction": 1,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 7.0,
+          "metrics": {
+            "envelope_fraction": 1,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 7.5,
+          "metrics": {
+            "envelope_fraction": 1,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 8.0,
+          "metrics": {
+            "envelope_fraction": 1,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 8.5,
+          "metrics": {
+            "envelope_fraction": 1,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 9.0,
+          "metrics": {
+            "envelope_fraction": 1,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 9.5,
+          "metrics": {
+            "envelope_fraction": 1,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 10.0,
+          "metrics": {
+            "envelope_fraction": 1,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        }
+      ],
+      "attempt_start_utc": "2026-10-29T00:40:00Z",
+      "acoustic_configuration_id": "synthetic-acoustic-fixture-v1"
+    },
+    {
+      "attempt_id": "synthetic-slower-002",
+      "specimen": {
+        "specimen_id": "fixture-B",
+        "batch_id": "synthetic-batch",
+        "material": "SYNTHETIC_TEST_MATERIAL",
+        "composition": "not boron calibration",
+        "geometry": "synthetic response trace",
+        "support": "synthetic support"
+      },
+      "mode": "UNTIL_READY",
+      "arm": "ON",
+      "evidence": "SYNTHETIC_TEST",
+      "sensor_calibration_ids": {
+        "synthetic-sensor": "SYNTHETIC_NO_LAB_CALIBRATION"
+      },
+      "criteria": [
+        {
+          "metric": "envelope_fraction",
+          "unit": "dimensionless",
+          "minimum": 0.95,
+          "maximum": 1.05,
+          "sensor_id": "synthetic-sensor"
+        },
+        {
+          "metric": "temperature_C",
+          "unit": "degC",
+          "minimum": 19,
+          "maximum": 21,
+          "sensor_id": "synthetic-sensor"
+        }
+      ],
+      "hold_s": 1,
+      "timeout_s": 10,
+      "max_sample_gap_s": 0.51,
+      "fixed_duration_s": 2,
+      "abort_at_s": null,
+      "abort_reason": null,
+      "subsequent_outcomes": {
+        "status": "NOT_MEASURED",
+        "fusion_events": null,
+        "trigger_phase_rad": null
+      },
+      "observations": [
+        {
+          "time_s": 0.0,
+          "metrics": {
+            "envelope_fraction": 0.0,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 0.5,
+          "metrics": {
+            "envelope_fraction": 0.1,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 1.0,
+          "metrics": {
+            "envelope_fraction": 0.2,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 1.5,
+          "metrics": {
+            "envelope_fraction": 0.3,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 2.0,
+          "metrics": {
+            "envelope_fraction": 0.4,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 2.5,
+          "metrics": {
+            "envelope_fraction": 0.5,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 3.0,
+          "metrics": {
+            "envelope_fraction": 0.6,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 3.5,
+          "metrics": {
+            "envelope_fraction": 0.7,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 4.0,
+          "metrics": {
+            "envelope_fraction": 0.8,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 4.5,
+          "metrics": {
+            "envelope_fraction": 0.9,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 5.0,
+          "metrics": {
+            "envelope_fraction": 1,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 5.5,
+          "metrics": {
+            "envelope_fraction": 1,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 6.0,
+          "metrics": {
+            "envelope_fraction": 1,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 6.5,
+          "metrics": {
+            "envelope_fraction": 1,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 7.0,
+          "metrics": {
+            "envelope_fraction": 1,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 7.5,
+          "metrics": {
+            "envelope_fraction": 1,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 8.0,
+          "metrics": {
+            "envelope_fraction": 1,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 8.5,
+          "metrics": {
+            "envelope_fraction": 1,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 9.0,
+          "metrics": {
+            "envelope_fraction": 1,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 9.5,
+          "metrics": {
+            "envelope_fraction": 1,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 10.0,
+          "metrics": {
+            "envelope_fraction": 1,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        }
+      ],
+      "attempt_start_utc": "2026-10-29T00:41:00Z",
+      "acoustic_configuration_id": "synthetic-acoustic-fixture-v1"
+    },
+    {
+      "attempt_id": "synthetic-timeout-003",
+      "specimen": {
+        "specimen_id": "fixture-A",
+        "batch_id": "synthetic-batch",
+        "material": "SYNTHETIC_TEST_MATERIAL",
+        "composition": "not boron calibration",
+        "geometry": "synthetic response trace",
+        "support": "synthetic support"
+      },
+      "mode": "UNTIL_READY",
+      "arm": "ON",
+      "evidence": "SYNTHETIC_TEST",
+      "sensor_calibration_ids": {
+        "synthetic-sensor": "SYNTHETIC_NO_LAB_CALIBRATION"
+      },
+      "criteria": [
+        {
+          "metric": "envelope_fraction",
+          "unit": "dimensionless",
+          "minimum": 0.95,
+          "maximum": 1.05,
+          "sensor_id": "synthetic-sensor"
+        },
+        {
+          "metric": "temperature_C",
+          "unit": "degC",
+          "minimum": 19,
+          "maximum": 21,
+          "sensor_id": "synthetic-sensor"
+        }
+      ],
+      "hold_s": 1,
+      "timeout_s": 10,
+      "max_sample_gap_s": 0.51,
+      "fixed_duration_s": 2,
+      "abort_at_s": null,
+      "abort_reason": null,
+      "subsequent_outcomes": {
+        "status": "NOT_MEASURED",
+        "fusion_events": null,
+        "trigger_phase_rad": null
+      },
+      "observations": [
+        {
+          "time_s": 0.0,
+          "metrics": {
+            "envelope_fraction": 0.5,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 0.5,
+          "metrics": {
+            "envelope_fraction": 0.5,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 1.0,
+          "metrics": {
+            "envelope_fraction": 0.5,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 1.5,
+          "metrics": {
+            "envelope_fraction": 0.5,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 2.0,
+          "metrics": {
+            "envelope_fraction": 0.5,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 2.5,
+          "metrics": {
+            "envelope_fraction": 0.5,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 3.0,
+          "metrics": {
+            "envelope_fraction": 0.5,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 3.5,
+          "metrics": {
+            "envelope_fraction": 0.5,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 4.0,
+          "metrics": {
+            "envelope_fraction": 0.5,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 4.5,
+          "metrics": {
+            "envelope_fraction": 0.5,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 5.0,
+          "metrics": {
+            "envelope_fraction": 0.5,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 5.5,
+          "metrics": {
+            "envelope_fraction": 0.5,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 6.0,
+          "metrics": {
+            "envelope_fraction": 0.5,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 6.5,
+          "metrics": {
+            "envelope_fraction": 0.5,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 7.0,
+          "metrics": {
+            "envelope_fraction": 0.5,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 7.5,
+          "metrics": {
+            "envelope_fraction": 0.5,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 8.0,
+          "metrics": {
+            "envelope_fraction": 0.5,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 8.5,
+          "metrics": {
+            "envelope_fraction": 0.5,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 9.0,
+          "metrics": {
+            "envelope_fraction": 0.5,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 9.5,
+          "metrics": {
+            "envelope_fraction": 0.5,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 10.0,
+          "metrics": {
+            "envelope_fraction": 0.5,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        }
+      ],
+      "attempt_start_utc": "2026-10-29T00:42:00Z",
+      "acoustic_configuration_id": "synthetic-acoustic-fixture-v1"
+    },
+    {
+      "attempt_id": "synthetic-abort-004",
+      "specimen": {
+        "specimen_id": "fixture-A",
+        "batch_id": "synthetic-batch",
+        "material": "SYNTHETIC_TEST_MATERIAL",
+        "composition": "not boron calibration",
+        "geometry": "synthetic response trace",
+        "support": "synthetic support"
+      },
+      "mode": "UNTIL_READY",
+      "arm": "ON",
+      "evidence": "SYNTHETIC_TEST",
+      "sensor_calibration_ids": {
+        "synthetic-sensor": "SYNTHETIC_NO_LAB_CALIBRATION"
+      },
+      "criteria": [
+        {
+          "metric": "envelope_fraction",
+          "unit": "dimensionless",
+          "minimum": 0.95,
+          "maximum": 1.05,
+          "sensor_id": "synthetic-sensor"
+        },
+        {
+          "metric": "temperature_C",
+          "unit": "degC",
+          "minimum": 19,
+          "maximum": 21,
+          "sensor_id": "synthetic-sensor"
+        }
+      ],
+      "hold_s": 1,
+      "timeout_s": 10,
+      "max_sample_gap_s": 0.51,
+      "fixed_duration_s": 2,
+      "abort_at_s": 1.25,
+      "abort_reason": "synthetic operator abort",
+      "subsequent_outcomes": {
+        "status": "NOT_MEASURED",
+        "fusion_events": null,
+        "trigger_phase_rad": null
+      },
+      "observations": [
+        {
+          "time_s": 0.0,
+          "metrics": {
+            "envelope_fraction": 0.0,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 0.5,
+          "metrics": {
+            "envelope_fraction": 0.25,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 1.0,
+          "metrics": {
+            "envelope_fraction": 0.5,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 1.5,
+          "metrics": {
+            "envelope_fraction": 0.75,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 2.0,
+          "metrics": {
+            "envelope_fraction": 1,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 2.5,
+          "metrics": {
+            "envelope_fraction": 1,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 3.0,
+          "metrics": {
+            "envelope_fraction": 1,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 3.5,
+          "metrics": {
+            "envelope_fraction": 1,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 4.0,
+          "metrics": {
+            "envelope_fraction": 1,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 4.5,
+          "metrics": {
+            "envelope_fraction": 1,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 5.0,
+          "metrics": {
+            "envelope_fraction": 1,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 5.5,
+          "metrics": {
+            "envelope_fraction": 1,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 6.0,
+          "metrics": {
+            "envelope_fraction": 1,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 6.5,
+          "metrics": {
+            "envelope_fraction": 1,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 7.0,
+          "metrics": {
+            "envelope_fraction": 1,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 7.5,
+          "metrics": {
+            "envelope_fraction": 1,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 8.0,
+          "metrics": {
+            "envelope_fraction": 1,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 8.5,
+          "metrics": {
+            "envelope_fraction": 1,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 9.0,
+          "metrics": {
+            "envelope_fraction": 1,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 9.5,
+          "metrics": {
+            "envelope_fraction": 1,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        },
+        {
+          "time_s": 10.0,
+          "metrics": {
+            "envelope_fraction": 1,
+            "temperature_C": 20
+          },
+          "driver_power_W": 0.2
+        }
+      ],
+      "attempt_start_utc": "2026-10-29T00:43:00Z",
+      "acoustic_configuration_id": "synthetic-acoustic-fixture-v1"
+    }
+  ]
+}
