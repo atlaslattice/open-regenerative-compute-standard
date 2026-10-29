@@ -1,0 +1,16 @@
+{
+  "tests_run": 10,
+  "tests_passed": 10,
+  "skips": 0,
+  "repeat_bytes_identical": true,
+  "isolated_layout_replay_bytes_identical": true,
+  "random_sampling": false,
+  "seeds": null,
+  "visual_QA": "Source figures and both regenerated plots inspected",
+  "independent_raster_queries": 48,
+  "max_vertical_distance_pixels": 0.496783993632107,
+  "earlier_media_box_failure_preserved": "RASTER_INITIAL_MEDIA_BOX_FAILURE.json",
+  "figure_recovery_verified": true,
+  "apparatus_validation": false,
+  "scientific_freeze": false
+}

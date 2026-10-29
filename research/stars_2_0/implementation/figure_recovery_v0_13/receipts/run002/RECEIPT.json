@@ -1,0 +1,17 @@
+{
+  "source_sha256": {
+    "Kuhlwein2022.pdf": "4c7c6f697b93c137f94f0ca3a49737e96294420f515c85d6bbc81110a8238318",
+    "Supplement2023.pdf": "605f7a28b699a92175e60c08e086f5e705d553d30f0362590ff20237d4dd9749"
+  },
+  "output_sha256": {
+    "HELIUM_S3.json": "a93df816ac339393060eed6d50888d67ffc2189ddadcc33c7bc40f39c4c7a6f0",
+    "KUHLWEIN_FIG3.json": "7254608244d5c404a76fe320c442ba74fcea0b602b46bb83929bce228f696acd",
+    "COMPARISONS.json": "ce0586a159112c38ce83f3e08da57a1c8484f2d0e31380165a001f58b4ed17da"
+  },
+  "dependencies": {
+    "PyMuPDF": "1.26.6",
+    "numpy": "2.3.5"
+  },
+  "apparatus_calibration_closed": false,
+  "scientific_freeze": false
+}

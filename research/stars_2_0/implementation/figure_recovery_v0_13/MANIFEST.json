@@ -1,0 +1,104 @@
+{
+  "schema": "stellar-forge-additive-figure-recovery-v0.13",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "cca6ce9cbd3351f4cb62110081335395741d251d0f97cd6f555164512298603f",
+      "bytes": 3051,
+      "git_blob": "592807d5b8df24cb2cb62b019cee1b9149ee618a"
+    },
+    {
+      "path": "REPORT.md",
+      "sha256": "b5c31a66042cc3ae8434e7c1d252334098ae141c9b55d27b85998204435871c4",
+      "bytes": 7918,
+      "git_blob": "c9973272216d27f38d7a1cd3cd3e1653aa2337d9"
+    },
+    {
+      "path": "recover.py",
+      "sha256": "8850f2c39da32aa417099a7f6db56b0f8fa0617046f1b8f904b1126bf81baeae",
+      "bytes": 13687,
+      "git_blob": "fa17b5ce93d0d3ca46dcccd409ddef35b005fa02"
+    },
+    {
+      "path": "verify_render.py",
+      "sha256": "7dc2d25eece785ba9b7e1c685e7de082e015da1cfed99f3f13832fc0a6ff61df",
+      "bytes": 2881,
+      "git_blob": "548cc7294702a4e7cb0a4d07bbf9288edb618939"
+    },
+    {
+      "path": "plot_recovery.py",
+      "sha256": "3301ae3c46ef5888f6c481f484dba90f84866c00e2887dd7d633ec7f76b59ed4",
+      "bytes": 2682,
+      "git_blob": "80f81e85fac47a9c4f9acb5dcb9aa7f4ee363d5b"
+    },
+    {
+      "path": "test_recovery.py",
+      "sha256": "e64472298193e8cff2beb60b151bf01c5bbb583cfc1451a6c1beec65622906ff",
+      "bytes": 3373,
+      "git_blob": "fcfdd97ae57a98db5eca05eb4b5d68a896bb5ed4"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "c125603a97ad94ab11d6cc550936d7be157cc1196d5a6fc46f1bcc8de028989f",
+      "bytes": 63,
+      "git_blob": "5db64e56e04d8d57ace949f078113bbfee7ddef9"
+    },
+    {
+      "path": "SOURCE_INDEX.json",
+      "sha256": "a43426f23b1e9d3a5f66bdfcbfef125cfd49fb9752d8df9efbd21d5d5a6ea581",
+      "bytes": 647,
+      "git_blob": "77fc17c5aa5c0532c268ebff1a7bfad90ebbe697"
+    },
+    {
+      "path": "receipts/TEST_LOG.txt",
+      "sha256": "b4b98ee81f264c8bd1b8298513a3fac32bf81ce4de5883aa76420757e604a3de",
+      "bytes": 1199,
+      "git_blob": "549a72493f8837d6f9a9cdca26549f2cabf71cb2"
+    },
+    {
+      "path": "receipts/VERIFICATION.json",
+      "sha256": "a2962b541943c79ebc62fa6e2c2c6825aec372193013b1592fc77bc9c79820a1",
+      "bytes": 527,
+      "git_blob": "4ba4dd56a1dc5863b60c6fc56fdb688a6d1b7bc8"
+    },
+    {
+      "path": "receipts/RASTER_INITIAL_MEDIA_BOX_FAILURE.json",
+      "sha256": "2f57e9f7ef93fe356a5afb2e0996ab0e11c1d1949c591736feded80f2d66ecb2",
+      "bytes": 9372,
+      "git_blob": "ba3a10e0f535126fb1de5d9d09b4ad33a01c6431"
+    },
+    {
+      "path": "receipts/run002/HELIUM_S3.json",
+      "sha256": "a93df816ac339393060eed6d50888d67ffc2189ddadcc33c7bc40f39c4c7a6f0",
+      "bytes": 54641,
+      "git_blob": "a2777b1c39a51a4587285998f1ce13e60170d178"
+    },
+    {
+      "path": "receipts/run002/KUHLWEIN_FIG3.json",
+      "sha256": "7254608244d5c404a76fe320c442ba74fcea0b602b46bb83929bce228f696acd",
+      "bytes": 253416,
+      "git_blob": "a20129f79af5d55c02c107fd33e9989a9fc04cb3"
+    },
+    {
+      "path": "receipts/run002/COMPARISONS.json",
+      "sha256": "ce0586a159112c38ce83f3e08da57a1c8484f2d0e31380165a001f58b4ed17da",
+      "bytes": 2416,
+      "git_blob": "2c89319dc450c240c0b7977fb4dd844c6e5815ee"
+    },
+    {
+      "path": "receipts/run002/RECEIPT.json",
+      "sha256": "cd58b92577940f1f7e2405ebdeac1ff8415d5e1a8a43666e557ad76a19ded57c",
+      "bytes": 657,
+      "git_blob": "99454be431b1d7ada4ebcecedf626771b30b464c"
+    },
+    {
+      "path": "receipts/run002/RASTER_CROSSCHECK.json",
+      "sha256": "8d45066aae1a2a71e362990862015acfdfa8b411ba90a0df049eeab57e12c7ae",
+      "bytes": 9379,
+      "git_blob": "48fa2adb29b11234c0e414bab6a0caf98d21cf19"
+    }
+  ],
+  "source_PDFs": "Downloaded and hash checked; not bundled",
+  "PNGs": "Regenerated with plot_recovery.py; not bundled",
+  "self_excluded": true
+}

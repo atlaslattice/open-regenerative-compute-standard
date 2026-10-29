@@ -1,0 +1,76 @@
+{
+  "common_range_cm_MeV": [
+    0.030015816058179413,
+    5.970025200530255
+  ],
+  "grid_points": 1000,
+  "comparisons": [
+    {
+      "panel": "l1",
+      "total_variation_display_shape": 0.13326468847280074,
+      "data_display_peak_MeV": 4.168400732567253,
+      "published_model_display_peak_MeV": 4.233806241305184,
+      "data_display_area_MeV": 1.7259359068881666,
+      "model_display_area_MeV": 1.7255374228404112
+    },
+    {
+      "panel": "l3",
+      "total_variation_display_shape": 0.0969255938309134,
+      "data_display_peak_MeV": 4.168400732567253,
+      "published_model_display_peak_MeV": 4.293265794703303,
+      "data_display_area_MeV": 1.7259490109337587,
+      "model_display_area_MeV": 1.724942340540903
+    },
+    {
+      "panel": "mixture",
+      "total_variation_display_shape": 0.04756004612494633,
+      "data_display_peak_MeV": 4.168400732567253,
+      "published_model_display_peak_MeV": 4.287319839363491,
+      "data_display_area_MeV": 1.7259563620079834,
+      "model_display_area_MeV": 1.7253787295942753
+    }
+  ],
+  "vertical_offset_sensitivity_ranges": {
+    "l1": [
+      0.1328782918076523,
+      0.1336581628674325
+    ],
+    "l3": [
+      0.09660906253384625,
+      0.09723091091317246
+    ],
+    "mixture": [
+      0.04712942621911733,
+      0.04799608368989042
+    ]
+  },
+  "interpretation": "Descriptive area-normalized rendered-shape distances only; NOT chi-square, likelihood, confidence, event-rate change or acceptance-corrected validation.",
+  "bezier_32_vs_128_max_absolute_TV_change": 1.5813465676917104e-06,
+  "helium_literal_vs_source_fit_locations": [
+    {
+      "E_MeV": 0.23,
+      "literal_equation2_um": 1.205303270995793,
+      "source_S3_Langau_location_um": 0.932,
+      "difference_um": 0.2733032709957929
+    },
+    {
+      "E_MeV": 0.56,
+      "literal_equation2_um": 1.1503140706536543,
+      "source_S3_Langau_location_um": 1.002,
+      "difference_um": 0.14831407065365432
+    },
+    {
+      "E_MeV": 2.25,
+      "literal_equation2_um": 1.0309080658542369,
+      "source_S3_Langau_location_um": 0.639,
+      "difference_um": 0.3919080658542369
+    },
+    {
+      "E_MeV": 4.52,
+      "literal_equation2_um": 0.9599728142519932,
+      "source_S3_Langau_location_um": 0.611,
+      "difference_um": 0.3489728142519932
+    }
+  ],
+  "helium_location_comparison_status": "DIAGNOSTIC_DISCREPANCY_PRESERVED_NOT_A_STATISTICAL_REJECTION_OF_MEASUREMENTS"
+}

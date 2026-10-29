@@ -1,0 +1,15 @@
+{
+  "sources": {
+    "Kuhlwein2022.pdf": {
+      "url": "https://scoap3-prod-backend.s3.cern.ch/media/files/66775/10.1016/j.physletb.2021.136857_a.pdf",
+      "sha256": "4c7c6f697b93c137f94f0ca3a49737e96294420f515c85d6bbc81110a8238318"
+    },
+    "Supplement2023.pdf": {
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41598-023-45208-x/MediaObjects/41598_2023_45208_MOESM1_ESM.pdf",
+      "sha256": "605f7a28b699a92175e60c08e086f5e705d553d30f0362590ff20237d4dd9749"
+    }
+  },
+  "related_preprint": "https://arxiv.org/abs/2109.07886",
+  "raw_events_recovered": false,
+  "author_contact_sent": false
+}
