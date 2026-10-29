@@ -1,0 +1,21 @@
+{
+  "checks": {
+    "byte_repeat_INFORMATION.json": true,
+    "byte_repeat_RECEIPT.json": true,
+    "run001_information_ordering": true,
+    "run001_basis_invariance": true,
+    "run001_code_likelihood.py": true,
+    "run001_code_run_information.py": true,
+    "run002_information_ordering": true,
+    "run002_basis_invariance": true,
+    "run002_code_likelihood.py": true,
+    "run002_code_run_information.py": true,
+    "run003_information_ordering": true,
+    "run003_basis_invariance": true,
+    "run003_code_likelihood.py": true,
+    "run003_code_run_information.py": true,
+    "12_tests_pass": true
+  },
+  "experimental_calibration": false,
+  "claim": "Source likelihood and ideal-observable information checks only; no experimental data fitted"
+}
