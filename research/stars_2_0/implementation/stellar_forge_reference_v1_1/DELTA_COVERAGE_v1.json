@@ -1,0 +1,174 @@
+{
+  "scope": "Requirement traceability, not blanket integration or validation",
+  "lineage": "STARS DELTAS v0.1, draft PR14, head 1a9495c5d5c4e05979ebc331676518ec1820a4a8; source white papers v0.2-v0.9 and named supplements",
+  "statuses": [
+    {
+      "id": "D01",
+      "requirement": "LAB/CM source frames",
+      "status": "PARTIAL",
+      "evidence": "typed LAB-only source importer; no physical event frame transform",
+      "next_gate": "physical masses and event Lorentz transforms"
+    },
+    {
+      "id": "D02",
+      "requirement": "alpha observable versus event cross section",
+      "status": "IMPLEMENTED_GUARD",
+      "evidence": "importer refuses event relabeling; quantity guard integration test",
+      "next_gate": "independently qualified observable transformation"
+    },
+    {
+      "id": "D02_ERRORS",
+      "requirement": "statistical/shared errors and incident energy uncertainty",
+      "status": "IMPLEMENTED_WORKING_MODEL",
+      "evidence": "source import preserves decimals/dE; common covariance exercised; no recovered full likelihood"
+    },
+    {
+      "id": "D03",
+      "requirement": "no presumed universal thickness optimum",
+      "status": "IMPLEMENTED_SCOPE_GUARD",
+      "evidence": "no optimizer or hardcoded physical optimum; only synthetic layers"
+    },
+    {
+      "id": "D04",
+      "requirement": "mass-correct correlated alpha generator connected to transport",
+      "status": "BLOCKED",
+      "evidence": "externally supplied rays explicitly labeled; no reaction generator"
+    },
+    {
+      "id": "D05",
+      "requirement": "material/species-specific stopping, orientation and detector folding",
+      "status": "PARTIAL",
+      "evidence": "unchanged PR11 kernel connected to detector; independent constant stopping fixtures",
+      "next_gate": "actual qualified B/BN/support data, straggling, scattering, finite geometry"
+    },
+    {
+      "id": "D06",
+      "requirement": "all-shot causal reporting and mediator/qualification separation",
+      "status": "DEFERRED",
+      "evidence": "missing/zero distinction integrated; full shot ledger and causal estimator absent"
+    },
+    {
+      "id": "D07",
+      "requirement": "complete energy boundaries and storage",
+      "status": "PARTIAL",
+      "evidence": "transport loss separate from heat; alpha partition/startup guard in standalone screen",
+      "next_gate": "connected full-cycle deposition, recovery and storage dynamics"
+    },
+    {
+      "id": "D08",
+      "requirement": "later Gemini source receipt and local reproduction",
+      "status": "BLOCKED",
+      "evidence": "Tidal execution report acknowledged; exact source not recovered locally"
+    },
+    {
+      "id": "D09",
+      "requirement": "exotic operators separated from physical prediction",
+      "status": "IMPLEMENTED_EXCLUSION",
+      "evidence": "no SHUGS/TCSS dependencies or gains"
+    },
+    {
+      "id": "DESIGN",
+      "requirement": "noise-aware identifiability before optimization",
+      "status": "PARTIAL",
+      "evidence": "whitened SVD scalar toy connected as standalone diagnostic",
+      "next_gate": "spectral sensitivities, correlated calibration nuisances and model discrepancy"
+    },
+    {
+      "id": "VALIDATION",
+      "requirement": "grouped holdouts and blinded G0-B",
+      "status": "BLOCKED",
+      "evidence": "no measured campaigns or acceptance lock; calibrated run class refused"
+    },
+    {
+      "id": "TARGET",
+      "requirement": "B versus BN/support comparisons at matched B11 inventory",
+      "status": "DEFERRED",
+      "evidence": "synthetic kernel only; DeepSeek lineage retained, no fixed target choice"
+    },
+    {
+      "id": "ACOUSTIC",
+      "requirement": "REFERENCE/OFF/SHAM/ON and measured mechanical effects",
+      "status": "DEFERRED",
+      "evidence": "no acoustic gain multiplier; no measured acoustic interface"
+    },
+    {
+      "id": "COLLECTOR",
+      "requirement": "physical phase-space acceptance and load output",
+      "status": "PARTIAL",
+      "evidence": "synthetic detector response is not collector optics; scalar energy screen explicitly separate"
+    },
+    {
+      "id": "MARKET",
+      "requirement": "dated specification-matched prices and unknowns",
+      "status": "IMPLEMENTED_INTERFACE_ONLY",
+      "evidence": "economic reporter invoked; no real product inventory or qualified price loaded"
+    },
+    {
+      "id": "CAPEX",
+      "requirement": "modular installed cost and shared assets",
+      "status": "IMPLEMENTED_INTERFACE_ONLY",
+      "evidence": "unknown CAPEX blocks total; duplicate assets refused; no actual equipment quotes"
+    },
+    {
+      "id": "MODES",
+      "requirement": "startup-only, externally driven and grid-assisted hypotheses",
+      "status": "IMPLEMENTED_ACCOUNTING_ONLY",
+      "evidence": "explicit track mapping and sustaining-input guard; no burn validation"
+    },
+    {
+      "id": "PRODUCTS",
+      "requirement": "multi-reaction and pB side-product registry",
+      "status": "DOCUMENTED_NOT_PHYSICALLY_CONNECTED",
+      "evidence": "PR16/17 candidate pathways remain separate; no complete activation/decay/recovery network"
+    },
+    {
+      "id": "RELEASE",
+      "requirement": "one installable command and reproducibility report",
+      "status": "IMPLEMENTED_VERIFICATION_DEMO",
+      "evidence": "wheel install, CLI integration tests, deterministic results, hashes and failure receipts"
+    },
+    {
+      "id": "HISTORICAL_V01",
+      "requirement": "original earliest whitepaper recovery",
+      "status": "BLOCKED",
+      "evidence": "v0.1 not recovered; no invented reconstruction"
+    },
+    {
+      "id": "SUPERSEDED_FRAME",
+      "requirement": "675keV CM as universal prominent source feature",
+      "status": "SUPERSEDED",
+      "superseded_by": "v0.8/v0.9 source-frame correction; original records preserved"
+    },
+    {
+      "id": "SUPERSEDED_SOURCE_STATUS",
+      "requirement": "later Gemini source never received or executed by anyone",
+      "status": "SUPERSEDED",
+      "superseded_by": "Tidal later v0.4 execution report; not equivalent to local reproduction"
+    },
+    {
+      "id": "ACOUSTIC_UI_V11",
+      "requirement": "location-specific acoustic presets and frequency modulation",
+      "status": "SYNTHETIC_BENCHMARK_AND_EDITOR",
+      "evidence": "RK4 forced mode and configuration UI; no calibrated location mapping or nuclear feedback"
+    },
+    {
+      "id": "STOPPING_AUDITS_V11",
+      "requirement": "prior stopping audit integration",
+      "status": "INTEGRATED_OPTIONAL_INPUT",
+      "evidence": "pinned parsers, quarantine and 12-method comparison runner"
+    },
+    {
+      "id": "MEASUREMENT_DESIGN_V11",
+      "requirement": "six design comparison integration",
+      "status": "INTEGRATED_SYNTHETIC",
+      "evidence": "measurement_design.py verify/designs"
+    },
+    {
+      "id": "MODULE_COVERAGE_V11",
+      "requirement": "available non-superseded slice inventory",
+      "status": "REGISTERED",
+      "evidence": "MODULE_INTEGRATION_v1_1.json; missing modules remain explicit"
+    }
+  ],
+  "version": "1.1"
+}
