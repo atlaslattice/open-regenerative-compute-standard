@@ -1,0 +1,15 @@
+test_axes_land_on_labeled_ticks (test_recovery.RecoveryTests.test_axes_land_on_labeled_ticks) ... ok
+test_bezier_uses_curve_not_control_polygon (test_recovery.RecoveryTests.test_bezier_uses_curve_not_control_polygon) ... ok
+test_coverage_not_invented (test_recovery.RecoveryTests.test_coverage_not_invented) ... ok
+test_data_repeats_are_same_not_independent_observations (test_recovery.RecoveryTests.test_data_repeats_are_same_not_independent_observations) ... ok
+test_last_helium_histogram_keeps_contamination (test_recovery.RecoveryTests.test_last_helium_histogram_keeps_contamination) ... ok
+test_nonmonotone_path_rejected (test_recovery.RecoveryTests.test_nonmonotone_path_rejected) ... ok
+test_repeated_run_bytes (test_recovery.RecoveryTests.test_repeated_run_bytes) ... ok
+test_source_mutation_rejected (test_recovery.RecoveryTests.test_source_mutation_rejected) ... ok
+test_unseen_histogram_bins_not_zero_counts (test_recovery.RecoveryTests.test_unseen_histogram_bins_not_zero_counts) ... ok
+test_vector_frame_and_semantics (test_recovery.RecoveryTests.test_vector_frame_and_semantics) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 1.125s
+
+OK
