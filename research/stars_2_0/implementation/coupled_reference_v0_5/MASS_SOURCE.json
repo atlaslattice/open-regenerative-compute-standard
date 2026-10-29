@@ -1,0 +1,35 @@
+{
+  "proton_MeV": 938.27208943,
+  "alpha_MeV": 3727.3794118,
+  "atomic_mass_unit_MeV": 931.49410372,
+  "electron_MeV": 0.51099895069,
+  "B11_atomic_mass_u": 11.00930536,
+  "B11_atomic_mass_uncertainty_u": 4.5e-07,
+  "B_electron_binding_components_eV": [
+    8.298019,
+    25.15483,
+    37.93059,
+    259.374379,
+    340.2260225
+  ],
+  "formula": "B11 nuclear mass = atomic mass*u -5 electron masses + sum ionization energies",
+  "sources": [
+    {
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "scope": "2022 CODATA proton, alpha, electron and atomic-mass-unit energy equivalents"
+    },
+    {
+      "url": "https://physics.nist.gov/cgi-bin/Compositions/stand_alone.pl?ascii=ascii2&ele=B&isotype=some",
+      "scope": "NIST older isotope-composition mass snapshot, NOT claimed latest AME value"
+    },
+    {
+      "url": "https://physics.nist.gov/cgi-bin/ASD/ie.pl?at_num_out=1&biblio=1&e_out=0&el_name_out=1&ion_charge_out=1&spectra=boron&unc_out=1&units=1",
+      "scope": "ASD5.12 elemental boron ionization energies; isotope shifts not resolved"
+    },
+    {
+      "url": "https://pdg.lbl.gov/2025/reviews/rpp2025-rev-kinematics.pdf",
+      "scope": "Lorentz boosts, recursive phase-space factorization; constant matrix element is OUR null assumption"
+    }
+  ],
+  "uncertainty_scope": "B11 atomic mass alone implies about0.000419MeV mass uncertainty; no full mass covariance propagation in this reference. Numerical conservation is conditional on nominal masses."
+}
