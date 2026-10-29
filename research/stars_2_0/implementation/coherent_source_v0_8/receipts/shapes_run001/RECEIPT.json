@@ -1,0 +1,12 @@
+{
+  "GSL": "2.7.1",
+  "code_sha256": {
+    "amplitude.py": "3c743d14d81a30964592389e8319de372d0bdaa16bfda2ca087b26bdabd202cf",
+    "coulomb.py": "a18e02890bef0c7c50a655091ddb2fec54793a009cb73358cb0501bd034f2280",
+    "run_shapes.py": "f4e86e076940b066e4dbce0c96774369895dbe1a30d7f72e171193a0c5808f40"
+  },
+  "config_sha256": "ff83a20cca365c9f5cfe9cde72f1db424851a7fb9d9e0a628b280d01f08bd260",
+  "numpy": "2.3.5",
+  "python": "3.12.14",
+  "scipy": "1.17.0"
+}
