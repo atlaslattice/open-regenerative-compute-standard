@@ -1,0 +1,10 @@
+{
+  "copied_files": 4,
+  "source_images_present": false,
+  "nuclear_backend_required": false,
+  "byte_matches": {
+    "RESULTS.json": true,
+    "RECEIPT.json": true
+  },
+  "scope": "isolated file layout using existing Python/NumPy/Pillow environment, not a new OS install"
+}
