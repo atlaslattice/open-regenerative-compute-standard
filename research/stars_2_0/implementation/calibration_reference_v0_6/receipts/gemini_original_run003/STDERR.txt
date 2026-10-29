@@ -1,0 +1,13 @@
+test_event_by_event_4momentum_conservation (__main__.TestWPBv04PreSimContract.test_event_by_event_4momentum_conservation) ... ok
+test_s1_pure_stabilization_improves_utility_without_mean_multiplier (__main__.TestWPBv04PreSimContract.test_s1_pure_stabilization_improves_utility_without_mean_multiplier) ... /workspace/scratch/6126a9592c76/calibration_reference_v0_6/original/stars_v04_original_extracted.py:593: DeprecationWarning: `trapz` is deprecated. Use `trapezoid` instead, or one of the numerical integration functions in `scipy.integrate`.
+  f_E = f_raw / float(np.trapz(f_raw, E_grid_keV))
+ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.918s
+
+OK
+/workspace/scratch/6126a9592c76/calibration_reference_v0_6/original/stars_v04_original_extracted.py:593: DeprecationWarning: `trapz` is deprecated. Use `trapezoid` instead, or one of the numerical integration functions in `scipy.integrate`.
+  f_E = f_raw / float(np.trapz(f_raw, E_grid_keV))
+/workspace/scratch/6126a9592c76/calibration_reference_v0_6/original/stars_v04_original_extracted.py:451: DeprecationWarning: `trapz` is deprecated. Use `trapezoid` instead, or one of the numerical integration functions in `scipy.integrate`.
+  f_E = f_raw / float(np.trapz(f_raw, E_grid_keV))
