@@ -1,0 +1,97 @@
+{
+  "files": [
+    {
+      "file": "README.md",
+      "bytes": 6420,
+      "sha256": "4319c0e0d0e9f9f204a22474044ff7d49581101c9e03ca6f4bd1298f74318cac",
+      "git_blob_sha1": "daa90e32d2a0d12eebf3d9655ca22640d5eb66e0"
+    },
+    {
+      "file": "UNCERTAINTY_REVIEW.md",
+      "bytes": 5117,
+      "sha256": "f5515b9a045de71190d0e18efbf6cd3aa1a35142e973335719725ac2377d7ab2",
+      "git_blob_sha1": "2486e9d7d9190e9fccfc702282aa1f0a1b49dee3"
+    },
+    {
+      "file": "SOURCE_INDEX.json",
+      "bytes": 2622,
+      "sha256": "e3df43a279a0fd74c981ef84706e67bb70a1ec21e0b13deceb7f2e8b21ffa130",
+      "git_blob_sha1": "74859566ca864ebe9f48ee8eeee885aca12c45a2"
+    },
+    {
+      "file": "PARAMETER_REGISTER.json",
+      "bytes": 3823,
+      "sha256": "945915138ce510006f1c9cd2f720f6e591902f339b973982320eaacaa20c27c7",
+      "git_blob_sha1": "b24a3d344e16fcc6f1b2a942e4ad916016897efc"
+    },
+    {
+      "file": "DEPENDENCY_LOCK.json",
+      "bytes": 613,
+      "sha256": "f05f12228cd93a7e5e7471ad1e122532cb93e0cd0bb3635a621dab4bc869b96e",
+      "git_blob_sha1": "9be8532d24a30a5e7e490f08980e6e6e14f86a65"
+    },
+    {
+      "file": "requirements.txt",
+      "bytes": 13,
+      "sha256": "7bd6b8946940b79948c548c8048e545684b91c8edc9444d8dfc0c8f76a97c0a7",
+      "git_blob_sha1": "d59d856f1cc6c05962ca6bd4f14dd3315acd207c"
+    },
+    {
+      "file": "sequential.py",
+      "bytes": 4835,
+      "sha256": "ff6d000bcf1d285a1a3e5d58574293f3219d2f006346f2a2c479c8419248e844",
+      "git_blob_sha1": "0706d17784a64925f3fabf811778c0a4b21f4c72"
+    },
+    {
+      "file": "verify_sequential.py",
+      "bytes": 2658,
+      "sha256": "67018a4b3174e854d355a78df52e388ca5766f80abfe5e7dcda4ca205ec81736",
+      "git_blob_sha1": "66a162606f1d8dd391edea83ca6ebbc65ba3e99b"
+    },
+    {
+      "file": "extract_2025.py",
+      "bytes": 4784,
+      "sha256": "c756cb699854c07c256cd8c0808b18eada1092fa869d84c0a8c8c760841e982f",
+      "git_blob_sha1": "1dc45f3eebbaca32d9bccc38431ee70f21681350"
+    },
+    {
+      "file": "test_sequential.py",
+      "bytes": 5680,
+      "sha256": "cc1ff847eb2df7f0c0f232d202f5ad4fc8dbfa4d04b4fe8084601352a14bf6ff",
+      "git_blob_sha1": "f6cfaa358fbb59164b21bc1c35021d3261524b01"
+    },
+    {
+      "file": "MAZZUCCONI2025_TABLE2.json",
+      "bytes": 21063,
+      "sha256": "0f18673c871e7c65cbf77542de9b4ab8af01ade5e879d0095540ab95287298c0",
+      "git_blob_sha1": "f8fd8971cefd68eedc7b18f9a3caa1a49c4eaeb0"
+    },
+    {
+      "file": "receipts/TEST_LOG.txt",
+      "bytes": 1726,
+      "sha256": "6043128b9529127c99793ebdd33b0f145c2164088d07191b5170e3119442a844",
+      "git_blob_sha1": "a9032878a47fa05dcb34544fdd4dfe651ec66248"
+    },
+    {
+      "file": "receipts/VERIFICATION.json",
+      "bytes": 884,
+      "sha256": "e789a6996109a21eb205b232cb27d2eb962c0da0b7bfddb99846d72aff6f3bcf",
+      "git_blob_sha1": "d32a37b10362eff049a99a829ab54a7f5e6cbfd7"
+    },
+    {
+      "file": "receipts/kinematics_run002/KINEMATICS.json",
+      "bytes": 7672,
+      "sha256": "94cc2888cbe1b8dcaa4b656f598a5e926cc18dfd7fc86cf6a6c0235b4e1a5cf7",
+      "git_blob_sha1": "0a885126170b6ec1d345b5541f3619fe0d107db9"
+    },
+    {
+      "file": "receipts/kinematics_run002/RECEIPT.json",
+      "bytes": 350,
+      "sha256": "1c71cec8f709088af98d95bc351798745ba09e69fa965739ea4a235c5c856921",
+      "git_blob_sha1": "c46612615733ed870262e00c8df987541e071462"
+    }
+  ],
+  "tests_passed": 14,
+  "earlier_versions_unchanged": true,
+  "source_PDFs": "download with pinned hashes; not bundled"
+}
