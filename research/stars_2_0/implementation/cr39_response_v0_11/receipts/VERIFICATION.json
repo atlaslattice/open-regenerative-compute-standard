@@ -1,0 +1,23 @@
+{
+  "checks": {
+    "RESULTS.json": true,
+    "RECEIPT.json": true,
+    "reextraction_bytes": true,
+    "repeat_RESULTS.json": true,
+    "repeat_RECEIPT.json": true,
+    "code_response.py": true,
+    "code_run_reference.py": true,
+    "code_digitize.py": true,
+    "12_tests_no_skips": true
+  },
+  "source_images_visually_inspected": [
+    4,
+    10
+  ],
+  "numeric_points": 10,
+  "histogram_display_subset_bins": 52,
+  "calibrated_for_Stars": false,
+  "independent_experiment_validation": false,
+  "Zheng2026_model_recovered": false,
+  "approximate_histogram_discrepancy_preserved": true
+}

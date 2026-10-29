@@ -1,0 +1,413 @@
+{
+  "source": "Zhang et al., Nuclear Science and Techniques30,87(2019), DOI10.1007/s41365-019-0619-x",
+  "evidence_state": "DIGITIZED_PUBLISHED_REFERENCE_NOT_APPARATUS_VALIDATED",
+  "conditions": {
+    "species": "alpha",
+    "detector": "TASTRAK",
+    "etchant": "NaOH",
+    "concentration_mol_L": 6.25,
+    "temperature_C": 98.0,
+    "etch_time_hours": 1.0,
+    "detector_dimensions_mm": [
+      25,
+      25,
+      1.5
+    ],
+    "incidence": "source experimental orientation; angular response not qualified",
+    "scope": "original detector lot/storage/readout conditions; not BA or Zheng2026"
+  },
+  "source_image_sha256": {
+    "10": "19ea0b76fd5024fe24d72a5b02b4b1d589447a0671f3f00b5d35447204609987",
+    "4": "0a369016da858917b016cd54d14bd8c5f64f589f260961da18d5c98548663e04"
+  },
+  "mean_response_rows": [
+    {
+      "E_alpha_MeV": 1.105,
+      "mean_track_diameter_um": 12.017241379310345,
+      "reported_core_spread_um": 0.6810344827586207,
+      "marker_pixel": [
+        260,
+        361
+      ],
+      "error_cap_y_pixels": [
+        321,
+        400
+      ],
+      "mean_digitization_allowance_um": 0.06,
+      "spread_digitization_allowance_um": 0.08
+    },
+    {
+      "E_alpha_MeV": 2.114,
+      "mean_track_diameter_um": 14.844827586206897,
+      "reported_core_spread_um": 0.4224137931034483,
+      "marker_pixel": [
+        418,
+        197
+      ],
+      "error_cap_y_pixels": [
+        172,
+        221
+      ],
+      "mean_digitization_allowance_um": 0.06,
+      "spread_digitization_allowance_um": 0.08
+    },
+    {
+      "E_alpha_MeV": 2.361,
+      "mean_track_diameter_um": 13.96551724137931,
+      "reported_core_spread_um": 0.45689655172413796,
+      "marker_pixel": [
+        456,
+        248
+      ],
+      "error_cap_y_pixels": [
+        221,
+        274
+      ],
+      "mean_digitization_allowance_um": 0.06,
+      "spread_digitization_allowance_um": 0.08
+    },
+    {
+      "E_alpha_MeV": 2.807,
+      "mean_track_diameter_um": 12.879310344827587,
+      "reported_core_spread_um": 0.6724137931034483,
+      "marker_pixel": [
+        526,
+        311
+      ],
+      "error_cap_y_pixels": [
+        272,
+        350
+      ],
+      "mean_digitization_allowance_um": 0.06,
+      "spread_digitization_allowance_um": 0.08
+    },
+    {
+      "E_alpha_MeV": 3.061,
+      "mean_track_diameter_um": 11.46551724137931,
+      "reported_core_spread_um": 0.6206896551724138,
+      "marker_pixel": [
+        566,
+        393
+      ],
+      "error_cap_y_pixels": [
+        357,
+        429
+      ],
+      "mean_digitization_allowance_um": 0.06,
+      "spread_digitization_allowance_um": 0.08
+    },
+    {
+      "E_alpha_MeV": 3.446,
+      "mean_track_diameter_um": 11.637931034482758,
+      "reported_core_spread_um": 0.5948275862068966,
+      "marker_pixel": [
+        626,
+        383
+      ],
+      "error_cap_y_pixels": [
+        349,
+        418
+      ],
+      "mean_digitization_allowance_um": 0.06,
+      "spread_digitization_allowance_um": 0.08
+    },
+    {
+      "E_alpha_MeV": 3.94,
+      "mean_track_diameter_um": 10.637931034482758,
+      "reported_core_spread_um": 0.5862068965517241,
+      "marker_pixel": [
+        704,
+        441
+      ],
+      "error_cap_y_pixels": [
+        407,
+        475
+      ],
+      "mean_digitization_allowance_um": 0.06,
+      "spread_digitization_allowance_um": 0.08
+    },
+    {
+      "E_alpha_MeV": 4.16,
+      "mean_track_diameter_um": 10.96551724137931,
+      "reported_core_spread_um": 0.9482758620689655,
+      "marker_pixel": [
+        739,
+        422
+      ],
+      "error_cap_y_pixels": [
+        369,
+        479
+      ],
+      "mean_digitization_allowance_um": 0.06,
+      "spread_digitization_allowance_um": 0.08
+    },
+    {
+      "E_alpha_MeV": 4.42,
+      "mean_track_diameter_um": 9.655172413793103,
+      "reported_core_spread_um": 0.896551724137931,
+      "marker_pixel": [
+        779,
+        498
+      ],
+      "error_cap_y_pixels": [
+        446,
+        550
+      ],
+      "mean_digitization_allowance_um": 0.06,
+      "spread_digitization_allowance_um": 0.08
+    },
+    {
+      "E_alpha_MeV": 4.915,
+      "mean_track_diameter_um": 8.172413793103448,
+      "reported_core_spread_um": 0.7327586206896551,
+      "marker_pixel": [
+        857,
+        584
+      ],
+      "error_cap_y_pixels": [
+        541,
+        626
+      ],
+      "mean_digitization_allowance_um": 0.06,
+      "spread_digitization_allowance_um": 0.08
+    }
+  ],
+  "error_semantics": "Figure10 error bars represent reported Gaussian-fit track-diameter spreads, not uncertainty of the mean response or a guaranteed Gaussian response. Digitization allowances are analyst-selected conservative pixel bounds, not confidence intervals.",
+  "figure4": {
+    "E_alpha_MeV": 4.42,
+    "display_subset_edges_um": [
+      3.2,
+      3.6,
+      4.0,
+      4.4,
+      4.800000000000001,
+      5.2,
+      5.6000000000000005,
+      6.0,
+      6.4,
+      6.800000000000001,
+      7.2,
+      7.6000000000000005,
+      8.0,
+      8.4,
+      8.8,
+      9.2,
+      9.600000000000001,
+      10.0,
+      10.4,
+      10.8,
+      11.2,
+      11.600000000000001,
+      12.0,
+      12.400000000000002,
+      12.8,
+      13.2,
+      13.600000000000001,
+      14.0,
+      14.400000000000002,
+      14.8,
+      15.2,
+      15.600000000000001,
+      16.0,
+      16.400000000000002,
+      16.8,
+      17.2,
+      17.6,
+      18.0,
+      18.400000000000002,
+      18.8,
+      19.2,
+      19.6,
+      20.0,
+      20.4,
+      20.8,
+      21.2,
+      21.6,
+      22.0,
+      22.400000000000002,
+      22.8,
+      23.2,
+      23.6,
+      24.0
+    ],
+    "digitized_display_counts": [
+      20.10968921389397,
+      5.484460694698354,
+      89.57952468007312,
+      5.484460694698354,
+      54.844606946983546,
+      12.79707495429616,
+      31.078610603290677,
+      5.484460694698354,
+      21.937842778793417,
+      25.59414990859232,
+      62.157221206581355,
+      292.50457038391227,
+      550.274223034735,
+      1226.691042047532,
+      1723.948811700183,
+      3104.204753199269,
+      2374.7714808043875,
+      1778.7934186471664,
+      1001.8281535648995,
+      722.1206581352834,
+      457.0383912248629,
+      358.3180987202925,
+      210.23765996343693,
+      149.90859232175504,
+      76.78244972577697,
+      67.64168190127971,
+      36.56307129798903,
+      25.59414990859232,
+      21.937842778793417,
+      20.10968921389397,
+      14.625228519195613,
+      10.054844606946984,
+      14.625228519195613,
+      9.140767824497258,
+      9.140767824497258,
+      9.140767824497258,
+      5.484460694698354,
+      1.8281535648994516,
+      1.8281535648994516,
+      1.8281535648994516,
+      0.0,
+      1.8281535648994516,
+      1.8281535648994516,
+      0.0,
+      0.0,
+      0.0,
+      1.8281535648994516,
+      0.0,
+      1.8281535648994516,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "plateau_y_pixels": [
+      888.0,
+      892.0,
+      869.0,
+      892.0,
+      878.5,
+      890.0,
+      885.0,
+      892.0,
+      887.5,
+      886.5,
+      876.5,
+      813.5,
+      743.0,
+      558.0,
+      422.0,
+      44.5,
+      244.0,
+      407.0,
+      619.5,
+      696.0,
+      768.5,
+      795.5,
+      836.0,
+      852.5,
+      872.5,
+      875.0,
+      883.5,
+      886.5,
+      887.5,
+      888.0,
+      889.5,
+      890.75,
+      889.5,
+      891.0,
+      891.0,
+      891.0,
+      892.0,
+      893.0,
+      893.0,
+      893.0,
+      894.0,
+      893.0,
+      893.0,
+      894.0,
+      894.0,
+      894.0,
+      893.0,
+      894.0,
+      893.0,
+      894.0,
+      894.0,
+      894.0
+    ],
+    "per_bin_count_digitization_allowance": 14.625228519195613,
+    "conditional_display_probabilities": [
+      0.001375601825798787,
+      0.00037516413430876,
+      0.006127680860376414,
+      0.00037516413430876,
+      0.0037516413430876004,
+      0.0008753829800537734,
+      0.002125930094416307,
+      0.00037516413430876,
+      0.00150065653723504,
+      0.001750765960107547,
+      0.004251860188832614,
+      0.020008753829800538,
+      0.037641468142312264,
+      0.083911711373726,
+      0.11792659288438692,
+      0.21234290001875822,
+      0.1624460701556931,
+      0.12167823422747452,
+      0.06852998186706684,
+      0.049396611017320076,
+      0.03126367785906334,
+      0.024510723441505657,
+      0.014381291815169136,
+      0.010254486337772775,
+      0.0052522978803226416,
+      0.004627024323141374,
+      0.0025010942287250672,
+      0.001750765960107547,
+      0.00150065653723504,
+      0.001375601825798787,
+      0.0010004376914900268,
+      0.0006878009128993935,
+      0.0010004376914900268,
+      0.0006252735571812668,
+      0.0006252735571812668,
+      0.0006252735571812668,
+      0.00037516413430876,
+      0.00012505471143625335,
+      0.00012505471143625335,
+      0.00012505471143625335,
+      0.0,
+      0.00012505471143625335,
+      0.00012505471143625335,
+      0.0,
+      0.0,
+      0.0,
+      0.00012505471143625335,
+      0.0,
+      0.00012505471143625335,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "digitized_display_total": 14618.829981718465,
+    "digitized_display_mean_um": 9.753004439442257,
+    "digitized_display_standard_deviation_um": 1.3855909653679248,
+    "source_statistics": {
+      "entries": 14740,
+      "raw_mean_um": 9.773,
+      "raw_standard_deviation_um": 1.482,
+      "gaussian_fit_mean_um": 9.65,
+      "gaussian_fit_mean_error_um": 0.01,
+      "gaussian_fit_sigma_um": 0.9028,
+      "gaussian_fit_sigma_error_um": 0.0078,
+      "chi_squared": 1140,
+      "degrees_of_freedom": 22
+    },
+    "scope": "conditional distribution within digitized3.2\u201324um display subset; not raw events, absolute efficiency, or full-tail reconstruction",
+    "discrepancy": "Digitized display standard deviation differs from source statistic; baseline, finite pixels and omitted display tails remain unresolved. Do not relabel as exact histogram reproduction."
+  }
+}

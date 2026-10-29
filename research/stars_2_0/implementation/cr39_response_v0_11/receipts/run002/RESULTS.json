@@ -1,0 +1,248 @@
+{
+  "status": "PUBLISHED_REFERENCE_DIGITIZATION_AND_RESPONSE_CHECKS_ONLY",
+  "conditions": {
+    "species": "alpha",
+    "detector": "TASTRAK",
+    "etchant": "NaOH",
+    "concentration_mol_L": 6.25,
+    "temperature_C": 98.0,
+    "etch_time_hours": 1.0
+  },
+  "energy_queries": [
+    {
+      "status": "INTERPOLATED_REFERENCE_MEAN_NOT_INDEPENDENT_CALIBRATION",
+      "energy_MeV": 3.3,
+      "mean_diameter_um": 11.572548141513659,
+      "reported_or_interpolated_core_spread_um": 0.6046350201522616,
+      "mean_digitization_allowance_um": 0.06,
+      "calibration_mean_uncertainty_um": null,
+      "full_response": null,
+      "spread_scope": "reported core fit width, not mean uncertainty or assumed full Gaussian response"
+    },
+    {
+      "status": "INTERPOLATED_REFERENCE_MEAN_NOT_INDEPENDENT_CALIBRATION",
+      "energy_MeV": 3.9,
+      "mean_diameter_um": 10.718902694401786,
+      "reported_or_interpolated_core_spread_um": 0.5869049281027502,
+      "mean_digitization_allowance_um": 0.06,
+      "calibration_mean_uncertainty_um": null,
+      "full_response": null,
+      "spread_scope": "reported core fit width, not mean uncertainty or assumed full Gaussian response"
+    },
+    {
+      "status": "UNCOVERED",
+      "energy_MeV": 7.5,
+      "mean_diameter_um": null,
+      "full_response": null,
+      "coverage_MeV": [
+        1.105,
+        4.915
+      ]
+    }
+  ],
+  "figure4_source_anchor_comparison": {
+    "mean_4p42_diameter_difference_um": 0.005172413793102848,
+    "core_sigma_difference_um": -0.006248275862068997,
+    "source_entries": 14740,
+    "digitized_display_subset_total": 14618.829981718465,
+    "count_digitization_bounds_only": [
+      14124.314442413164,
+      15379.341864716636
+    ],
+    "raw_standard_deviation_source_um": 1.482,
+    "digitized_display_subset_standard_deviation_um": 1.3855909653679248,
+    "standard_deviation_relative_difference": -0.06505332971125177,
+    "source_gaussian_chi_squared_per_ndf": 51.81818181818182,
+    "interpretation": "Figure10 core summaries agree with printed Figure4 fit within digitization allowance. Histogram reconstruction is approximate; display subset moments do not exactly match original raw statistics. No full Gaussian response accepted."
+  },
+  "leave_one_out_interpolation": [
+    {
+      "held_out_energy_MeV": 2.114,
+      "digitized_reference_mean_um": 14.844827586206897,
+      "interpolated_prediction_um": 13.582377004173072,
+      "signed_residual_um": -1.262450582033825
+    },
+    {
+      "held_out_energy_MeV": 2.361,
+      "digitized_reference_mean_um": 13.96551724137931,
+      "interpolated_prediction_um": 14.14427526496492,
+      "signed_residual_um": 0.1787580235856101
+    },
+    {
+      "held_out_energy_MeV": 2.807,
+      "digitized_reference_mean_um": 12.879310344827587,
+      "interpolated_prediction_um": 12.372660098522168,
+      "signed_residual_um": -0.5066502463054192
+    },
+    {
+      "held_out_energy_MeV": 3.061,
+      "digitized_reference_mean_um": 11.46551724137931,
+      "interpolated_prediction_um": 12.385866925692085,
+      "signed_residual_um": 0.9203496843127752
+    },
+    {
+      "held_out_energy_MeV": 3.446,
+      "digitized_reference_mean_um": 11.637931034482758,
+      "interpolated_prediction_um": 11.103036365776155,
+      "signed_residual_um": -0.5348946687066025
+    },
+    {
+      "held_out_energy_MeV": 3.94,
+      "digitized_reference_mean_um": 10.637931034482758,
+      "interpolated_prediction_um": 11.172703564184294,
+      "signed_residual_um": 0.5347725297015362
+    },
+    {
+      "held_out_energy_MeV": 4.16,
+      "digitized_reference_mean_um": 10.96551724137931,
+      "interpolated_prediction_um": 10.1875,
+      "signed_residual_um": -0.7780172413793096
+    },
+    {
+      "held_out_energy_MeV": 4.42,
+      "digitized_reference_mean_um": 9.655172413793103,
+      "interpolated_prediction_um": 10.003653802237954,
+      "signed_residual_um": 0.348481388444851
+    }
+  ],
+  "leave_one_out_RMS_um": 0.7096053469781454,
+  "validation_scope": "Retrospective same-campaign interpolation sensitivity, not independent experimental validation; endpoints omitted because extrapolation is prohibited",
+  "ambiguous_inverse": {
+    "status": "MULTIPLE_ENERGY_CANDIDATES",
+    "energy_candidates_MeV": [
+      1.4556890243902436,
+      2.757444444444445
+    ],
+    "scope": "piecewise-linear mean inverse only; no unique spectrum reconstruction, probability or uncertainty inferred"
+  },
+  "conditional_monoenergetic_display": {
+    "status": "CONDITIONAL_DIGITIZED_DISPLAY_REFERENCE_ONLY",
+    "edges_um": [
+      3.2,
+      3.6,
+      4.0,
+      4.4,
+      4.800000000000001,
+      5.2,
+      5.6000000000000005,
+      6.0,
+      6.4,
+      6.800000000000001,
+      7.2,
+      7.6000000000000005,
+      8.0,
+      8.4,
+      8.8,
+      9.2,
+      9.600000000000001,
+      10.0,
+      10.4,
+      10.8,
+      11.2,
+      11.600000000000001,
+      12.0,
+      12.400000000000002,
+      12.8,
+      13.2,
+      13.600000000000001,
+      14.0,
+      14.400000000000002,
+      14.8,
+      15.2,
+      15.600000000000001,
+      16.0,
+      16.400000000000002,
+      16.8,
+      17.2,
+      17.6,
+      18.0,
+      18.400000000000002,
+      18.8,
+      19.2,
+      19.6,
+      20.0,
+      20.4,
+      20.8,
+      21.2,
+      21.6,
+      22.0,
+      22.400000000000002,
+      22.8,
+      23.2,
+      23.6,
+      24.0
+    ],
+    "expected_display_counts": [
+      0.001375601825798787,
+      0.00037516413430876,
+      0.006127680860376414,
+      0.00037516413430876,
+      0.0037516413430876004,
+      0.0008753829800537734,
+      0.002125930094416307,
+      0.00037516413430876,
+      0.00150065653723504,
+      0.001750765960107547,
+      0.004251860188832614,
+      0.020008753829800538,
+      0.037641468142312264,
+      0.083911711373726,
+      0.11792659288438692,
+      0.21234290001875822,
+      0.1624460701556931,
+      0.12167823422747452,
+      0.06852998186706684,
+      0.049396611017320076,
+      0.03126367785906334,
+      0.024510723441505657,
+      0.014381291815169136,
+      0.010254486337772775,
+      0.0052522978803226416,
+      0.004627024323141374,
+      0.0025010942287250672,
+      0.001750765960107547,
+      0.00150065653723504,
+      0.001375601825798787,
+      0.0010004376914900268,
+      0.0006878009128993935,
+      0.0010004376914900268,
+      0.0006252735571812668,
+      0.0006252735571812668,
+      0.0006252735571812668,
+      0.00037516413430876,
+      0.00012505471143625335,
+      0.00012505471143625335,
+      0.00012505471143625335,
+      0.0,
+      0.00012505471143625335,
+      0.00012505471143625335,
+      0.0,
+      0.0,
+      0.0,
+      0.00012505471143625335,
+      0.0,
+      0.00012505471143625335,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "registered_display_subset_tracks": 1,
+    "absolute_efficiency": null,
+    "missed_tracks": null,
+    "scope": "conditional distribution within digitized3.2\u201324um display subset; not raw events, absolute efficiency, or full-tail reconstruction"
+  },
+  "source_zheng2026": {
+    "numeric_model_recovered": false,
+    "coefficient_values": null,
+    "source_claimed_alpha_energy_range_MeV": [
+      0.5,
+      6.0
+    ],
+    "requested_7p5MeV_status": "UNCOVERED",
+    "transfer_from_2019": false
+  },
+  "calibrated_for_Stars": false,
+  "measured_alpha_efficiency": null,
+  "full_TPS_chain_reproduced": false,
+  "net_energy_result": null
+}
