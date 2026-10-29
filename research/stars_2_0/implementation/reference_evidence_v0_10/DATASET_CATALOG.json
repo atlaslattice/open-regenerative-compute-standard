@@ -1,0 +1,172 @@
+{
+  "schema": "0.10",
+  "purpose": "Hash-pinned calibration evidence package referencing preserved original versions",
+  "datasets": [
+    {
+      "id": "SIKORA2016_EVENT_NORMALIZATION",
+      "file": "../coupled_reference_v0_5/EVENT_CROSS_SECTIONS.json",
+      "sha256": "b05e779936d2f797c34bb4fb3ffb818841fd332dd477a445772f9c5e991a3acf",
+      "observable": "PUBLICATION_MODEL_EXTRAPOLATED_FUSION_EVENT_CROSS_SECTION",
+      "frame": "proton LAB; angle integrated by publication model",
+      "channel": "selected alpha1 plus alpha0 where tabulated",
+      "primary_citation": "https://doi.org/10.1007/s10894-016-0069-y",
+      "experimental_ancestry_group": "TUNL_Spraker2012_reanalysis",
+      "permitted_roles": [
+        "conditional_event_normalization"
+      ],
+      "limitations": [
+        "Not independent of Spraker spectra or EXFOR C2973002",
+        "Original shape ansatz differs from current coherent candidate; no joint refit",
+        "Not a direct measurement of all-angle events without model extrapolation",
+        "No interpolation through unresolved0.162MeV resonance"
+      ],
+      "scope": {
+        "material": "B11",
+        "projectile": "proton",
+        "energy_LAB_MeV": [
+          0.22,
+          3.8
+        ]
+      }
+    },
+    {
+      "id": "SPRAKER2012_SPECTRA",
+      "file": "../spraker_spectra_v0_1/receipts/run002/RECEIPT.json",
+      "sha256": "86f6f9144c8f1dcbaf8a3537f790cedbd0bc5baac10bc827cb482f0c1dd30cb3",
+      "observable": "DETECTED_ALPHA_COUNTS_PER_LUMINOSITY_PER_CM_SOLID_ANGLE_BIN",
+      "frame": "alpha energy CM; detector angle LAB; preserve source-defined CM normalization",
+      "channel": "inclusive detected alpha spectra",
+      "primary_citation": "https://doi.org/10.1007/s10894-011-9473-5",
+      "experimental_ancestry_group": "TUNL_Spraker2012_reanalysis",
+      "permitted_roles": [
+        "source_spectrum_audit"
+      ],
+      "limitations": [
+        "Acceptance-unqualified zero cells excluded from fitting",
+        "Mixed source frames require exact response/Jacobian treatment",
+        "1.4\u20133.8MeV within-article range; cannot directly calibrate the isolated0.675MeV candidate",
+        "Original publisher XLS not redistributed; existing extraction source hashes retained"
+      ],
+      "scope": {
+        "material": "B11",
+        "projectile": "proton",
+        "energy_LAB_MeV": [
+          1.4,
+          3.8
+        ]
+      },
+      "generated_data": {
+        "file": "../spraker_spectra_v0_1/receipts/run002/SPECTRA.csv",
+        "sha256": "6fc8ceb4a766b13300b14d888213f7bb3162ac8911fd36baf5462c91f0d9a171",
+        "rows": 22100,
+        "reconstruct": "python extract_spectra.py --download --sources sources --out receipts/NEW_RUN; consult preceding README and preserve source licenses",
+        "availability": "NOT_BUNDLED; reconstruct from original publisher supplements"
+      }
+    },
+    {
+      "id": "MAZZUCCONI2025_TABLE2",
+      "file": "../sequential_kinematics_v0_7/MAZZUCCONI2025_TABLE2.json",
+      "sha256": "0f18673c871e7c65cbf77542de9b4ab8af01ade5e879d0095540ab95287298c0",
+      "observable": "PUBLISHED_60DEG_LAB_ALPHA_COUNTS_NORMALIZED_DIFFERENTIAL_QUANTITY",
+      "frame": "proton energy on boron LAB; detector60deg LAB",
+      "channel": "reported total/alpha0/alpha1",
+      "primary_citation": "https://doi.org/10.1140/epja/s10050-025-01589-3",
+      "experimental_ancestry_group": "LNL_Mazzucconi2025",
+      "permitted_roles": [
+        "differential_quantity_audit"
+      ],
+      "limitations": [
+        "Multiplicity-to-event normalization unresolved; no divide-by3 or4pi",
+        "Reported energy spread is not automatically Gaussian1sigma",
+        "Five source-flagged possible Al-support alpha contributions retained",
+        "Raw spectra/response data on reasonable request; no request sent"
+      ],
+      "scope": {
+        "material": "characterized B films on Al, source-specific impurities and enrichment",
+        "projectile": "proton",
+        "energy_LAB_MeV": [
+          0.34,
+          4.73
+        ]
+      }
+    },
+    {
+      "id": "MUNCH_PREPRINT_V1_ALPHA0",
+      "file": "../coherent_source_v0_8/MUNCH_PREPRINT_V1_TABLE1.json",
+      "sha256": "3bece209802baf02f34fffed8f8a664287a3079bfbc52495e18006051f25fed0",
+      "observable": "ALPHA0_CHANNEL_ANGLE_INTEGRATED_CROSS_SECTION",
+      "frame": "proton LAB",
+      "channel": "alpha0 via Be8 ground state",
+      "primary_citation": "https://arxiv.org/abs/1908.04064",
+      "experimental_ancestry_group": "AARHUS_Munch2019_2020",
+      "permitted_roles": [
+        "alpha0_channel_audit"
+      ],
+      "limitations": [
+        "Four duplicated-energy entries excluded from automatic fitting",
+        "Not reconciled to journal Table1",
+        "Alpha0 forbidden for pure2-minus parent; not a coherent-shape fit target",
+        "Full covariance and uncertainty statistical convention not recovered"
+      ],
+      "scope": {
+        "material": "source-specific enriched thin boron target",
+        "projectile": "proton",
+        "energy_LAB_MeV": [
+          0.5,
+          3.5
+        ]
+      }
+    },
+    {
+      "id": "OVERLEY_DIGITIZED_PROTON_STOPPING",
+      "file": "../stopping_curve_v0_3/CURVE.json",
+      "sha256": "9972e865d0f82a2d36773f1680f1c9e8723d194ca4c1b0d6b4eac5fbd6e5397a",
+      "observable": "PROTON_STOPPING_CROSS_SECTION_DIGITIZED_FROM_ORIGINAL_FIGURE",
+      "frame": "proton LAB",
+      "channel": "electronic+nuclear stopping measurement",
+      "primary_citation": "https://doi.org/10.7907/XZP6-5P63",
+      "experimental_ancestry_group": "CALTECH_Overley1961",
+      "permitted_roles": [
+        "proton_stopping_calibration"
+      ],
+      "limitations": [
+        "B10-enriched cold target; not an alpha/B11/BN/hot-target calibration",
+        "4% probable error and digitization allowances not a recovered independent Gaussian covariance",
+        "Possible SRIM training-data ancestry prevents independent validation claim"
+      ],
+      "scope": {
+        "material": "OVERLEY_B10_ENRICHED",
+        "projectile": "proton",
+        "state": "cold",
+        "energy_LAB_MeV": [
+          0.09898212970495418,
+          2.964723145468535
+        ]
+      }
+    },
+    {
+      "id": "KUHLWEIN2022_PARAMETER_REFERENCE",
+      "file": "../coherent_source_v0_8/PARAMETER_PROVENANCE.json",
+      "sha256": "abac1e528edee115dec9736004a3b299a609f9187f153c38994e10ed230bce7e",
+      "observable": "LITERATURE_PARAMETER_REFERENCE_NOT_EXCLUSIVE_COUNTS",
+      "frame": "source-specific amplitude conventions",
+      "channel": "isolated2-minus -> Be8(2+) ->3alpha",
+      "primary_citation": "https://doi.org/10.1016/j.physletb.2021.136857",
+      "experimental_ancestry_group": "AARHUS_Kuhlwein2022",
+      "permitted_roles": [
+        "model_parameter_reference"
+      ],
+      "limitations": [
+        "Not a numerical event dataset",
+        "Best publication fit has model discrepancy; final-state interactions omitted",
+        "Basis and phase transfer unresolved; raw coefficient not a universal branch fraction"
+      ],
+      "scope": {
+        "material": "B11",
+        "projectile": "proton"
+      }
+    }
+  ],
+  "compatible_exclusive_coherent_fit_dataset": null,
+  "independence_policy": "Matching experimental ancestry is shared evidence, not independent validation. Separate campaign labels do not prove all systematic independence."
+}
