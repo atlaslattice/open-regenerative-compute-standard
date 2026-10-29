@@ -1,0 +1,35 @@
+test_acoustics_do_not_modify_transport (test_acoustics.Acoustic.test_acoustics_do_not_modify_transport) ... ok
+test_fm_zero_deviation_matches_tone (test_acoustics.Acoustic.test_fm_zero_deviation_matches_tone) ... ok
+test_independent_analytic_transient (test_acoustics.Acoustic.test_independent_analytic_transient) ... ok
+test_invalid_timing_location (test_acoustics.Acoustic.test_invalid_timing_location) ... ok
+test_location_does_not_invent_physics (test_acoustics.Acoustic.test_location_does_not_invent_physics) ... ok
+test_off_sham_reference_zero_coherent_response (test_acoustics.Acoustic.test_off_sham_reference_zero_coherent_response) ... ok
+test_parse_failure_receipt (test_acoustics.Acoustic.test_parse_failure_receipt) ... ok
+test_sampling_guard (test_acoustics.Acoustic.test_sampling_guard) ... ok
+test_scaling (test_acoustics.Acoustic.test_scaling) ... ok
+test_ui_create_no_overwrite (test_acoustics.Acoustic.test_ui_create_no_overwrite) ... ok
+test_cycle_missing (test_evidence.Evidence.test_cycle_missing) ... ok
+test_dependency_not_global_contamination (test_evidence.Evidence.test_dependency_not_global_contamination) ... ok
+test_no_input_promotes_model (test_evidence.Evidence.test_no_input_promotes_model) ... ok
+test_alpha_partition_guard (test_integration.Integration.test_alpha_partition_guard) ... ok
+test_cli (test_integration.Integration.test_cli) ... ok
+test_connected_pipeline_and_independent_oracles (test_integration.Integration.test_connected_pipeline_and_independent_oracles) ... ok
+test_detector_overflow_bins_refused (test_integration.Integration.test_detector_overflow_bins_refused) ... ok
+test_domain_mutation_detected (test_integration.Integration.test_domain_mutation_detected) ... ok
+test_drive_off_guard (test_integration.Integration.test_drive_off_guard) ... ok
+test_duplicate_json_and_nonfinite_refused (test_integration.Integration.test_duplicate_json_and_nonfinite_refused) ... ok
+test_duplicate_shared_asset_refused (test_integration.Integration.test_duplicate_shared_asset_refused) ... ok
+test_importer_integration_and_quantity_guard (test_integration.Integration.test_importer_integration_and_quantity_guard) ... ok
+test_manifest_hashes_and_report (test_integration.Integration.test_manifest_hashes_and_report) ... ok
+test_missing_zero_distinct (test_integration.Integration.test_missing_zero_distinct) ... ok
+test_no_overwrite (test_integration.Integration.test_no_overwrite) ... ok
+test_refuses_physical_mode_and_preserves_failure (test_integration.Integration.test_refuses_physical_mode_and_preserves_failure) ... ok
+test_repeat_deterministic_results (test_integration.Integration.test_repeat_deterministic_results) ... ok
+test_stopped_alphas_do_not_become_counts (test_integration.Integration.test_stopped_alphas_do_not_become_counts) ... ok
+test_synthetic_material_guard (test_integration.Integration.test_synthetic_material_guard) ... ok
+test_unknown_fields_refused (test_integration.Integration.test_unknown_fields_refused) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 0.449s
+
+OK

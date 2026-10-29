@@ -1,0 +1,13 @@
+{
+  "status": "ALL_45_MANIFEST_FILES_MATCH_TESTED_LOCAL_BYTES",
+  "verified_commit": "dfdbdf1315da104f728414a3926cacc0aa98f1cc",
+  "draft_upload_repair": {
+    "affected_path": "src/stellar_forge_reference/extensions.py",
+    "mismatched_blob_preserved_in_git": "16cb3585e96288f5634b5ebfe25990894365b96e",
+    "restored_tested_blob": "a7db9fbe5b726e0622f950ffe8d890b7cae4f3c5",
+    "incomplete_upload_commit": "5ef2ee975da2b1387b8dcdd840f0a41b6ce0648f",
+    "note": "Pre-final publication audit caught omitted runner/UI files and a combined upload string; missing files added and draft extension repaired. Prior draft bytes remain in Git history and a retrieved-content receipt. No historical scientific source or tested local implementation changed."
+  },
+  "browser_rendering": "NOT_VERIFIED",
+  "physical_validation": "NOT_RUN"
+}

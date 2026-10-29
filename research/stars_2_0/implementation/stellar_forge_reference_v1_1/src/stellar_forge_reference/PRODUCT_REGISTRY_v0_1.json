@@ -1,0 +1,103 @@
+{
+  "version": "0.1",
+  "as_of": "2026-10-28",
+  "classification": "PHYSICAL_CANDIDATE_SOURCE_REGISTRY",
+  "coverage": "Three initial isotope identities, five pathway associations; not exhaustive reaction network",
+  "sources": {
+    "DD": "https://d3dfusion.org/what-is-fusion/",
+    "DT": "https://www.iter.org/machine/supporting-systems/tritium-breeding",
+    "decay": "https://www.isotopes.gov/Supply-and-Demand-of-Helium-3",
+    "helium_quote": "https://www.isotopes.gov/products/helium",
+    "quote_policy": "https://www.isoflex.com/?id=9&view=category",
+    "pb": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/4512e9bb8505591ea207d28c2f0689ab5aecae9f/research/stars_2_0/whitepapers/STARS_2_0_v0_9_PRE_SIMULATION_MULTI_AGENT_SYNTHESIS_AND_HARMONIC_ANALYSIS_2026-10-27.md"
+  },
+  "products": [
+    {
+      "isotope": "He-4",
+      "pathways": [
+        {
+          "reaction": "p + B-11 -> 3 He-4",
+          "role": "primary reaction product",
+          "source": "pb"
+        },
+        {
+          "reaction": "D + T -> He-4 + n",
+          "role": "primary reaction product",
+          "source": "DT"
+        }
+      ],
+      "market_status": "UNPRICED; no matching product-specification quote acquired",
+      "product_specification": null,
+      "produced_quantity": null,
+      "recovered_quantity": null,
+      "saleable_quantity": null,
+      "price_snapshot": null,
+      "processing_cost_USD": null,
+      "physical_model_status": "NOT_IMPLEMENTED_OR_QUALIFIED_BY_THIS_REGISTRY",
+      "valuation_status": "BLOCKED_MISSING_QUANTITY_SPECIFICATION_PRICE_AND_COST"
+    },
+    {
+      "isotope": "He-3",
+      "pathways": [
+        {
+          "reaction": "D + D -> He-3 + n",
+          "role": "primary reaction product",
+          "source": "DD"
+        },
+        {
+          "reaction": "T -> He-3 + beta + antineutrino",
+          "role": "decay daughter; external time-dependent inventory ledger required",
+          "source": "decay"
+        }
+      ],
+      "market_status": "QUOTE_REQUIRED; supplier listing located, numerical quote not acquired",
+      "product_specification": null,
+      "produced_quantity": null,
+      "recovered_quantity": null,
+      "saleable_quantity": null,
+      "price_snapshot": null,
+      "processing_cost_USD": null,
+      "physical_model_status": "NOT_IMPLEMENTED_OR_QUALIFIED_BY_THIS_REGISTRY",
+      "valuation_status": "BLOCKED_MISSING_QUANTITY_SPECIFICATION_PRICE_AND_COST"
+    },
+    {
+      "isotope": "H-3",
+      "pathways": [
+        {
+          "reaction": "D + D -> H-3 + p",
+          "role": "primary reaction product",
+          "source": "DD"
+        }
+      ],
+      "market_status": "UNPRICED; source-qualified product quote not acquired",
+      "product_specification": null,
+      "produced_quantity": null,
+      "recovered_quantity": null,
+      "saleable_quantity": null,
+      "price_snapshot": null,
+      "processing_cost_USD": null,
+      "physical_model_status": "NOT_IMPLEMENTED_OR_QUALIFIED_BY_THIS_REGISTRY",
+      "valuation_status": "BLOCKED_MISSING_QUANTITY_SPECIFICATION_PRICE_AND_COST"
+    }
+  ],
+  "counts": {
+    "isotope_identities": 3,
+    "pathway_associations": 5,
+    "numerically_priced_isotopes": 0,
+    "recovery_models": 0
+  },
+  "excluded_from_isotope_count": [
+    "neutrons",
+    "prompt protons",
+    "unreacted feedstock",
+    "activation products not yet enumerated"
+  ],
+  "notes": [
+    "No cross sections, reaction branches, inventories, market prices or production estimates are computed.",
+    "Listings are market-access leads, not executable bids or evidence of customer demand.",
+    "Prices must specify purity/enrichment, chemical form, quantity tier, delivery basis, date and currency.",
+    "Do not assume equal D-D branching or infer rates from listed channels.",
+    "A primary product is not universally a byproduct: role depends on experiment objective.",
+    "No secondary neutron activation or blanket production pathway is modeled."
+  ]
+}

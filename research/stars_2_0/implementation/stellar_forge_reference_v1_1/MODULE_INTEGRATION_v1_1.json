@@ -1,0 +1,107 @@
+{
+  "scope": "Inventory of available slices in this workstream; not a claim every historical artifact is executable or recovered",
+  "entries": [
+    {
+      "source": "PR9",
+      "module": "source/observable, covariance, local identifiability",
+      "status": "INTEGRATED",
+      "evidence": "vendor/observables.py; vendor/identifiability.py"
+    },
+    {
+      "source": "PR11",
+      "module": "material/species CSDA and detector forward response",
+      "status": "INTEGRATED",
+      "evidence": "vendor/transport.py; vendor/detector.py"
+    },
+    {
+      "source": "PR12",
+      "module": "candidate stopping source and independent integral checks",
+      "status": "INTEGRATED_OPTIONAL_EXTERNAL_DATA",
+      "evidence": "vendor/stopping_source_check.py; reference_audits configuration"
+    },
+    {
+      "source": "PR13",
+      "module": "six measurement designs and independent ambiguity checks",
+      "status": "INTEGRATED",
+      "evidence": "vendor/measurement_design.py"
+    },
+    {
+      "source": "PR14",
+      "module": "STARS DELTAS and original paper lineage",
+      "status": "REQUIREMENT_TRACEABILITY",
+      "evidence": "DELTA_COVERAGE_v1.json; candidate contract; original document retained"
+    },
+    {
+      "source": "PR15",
+      "module": "dated economics and cost completeness",
+      "status": "INTEGRATED",
+      "evidence": "vendor/reporting.py"
+    },
+    {
+      "source": "PR16",
+      "module": "multi-reaction product registry",
+      "status": "BUNDLED_NOT_YIELD_MODEL",
+      "evidence": "PRODUCT_REGISTRY_v0_1.json"
+    },
+    {
+      "source": "PR17",
+      "module": "conditional pB products",
+      "status": "BUNDLED_NOT_YIELD_MODEL",
+      "evidence": "PB_PRODUCT_MAP_v0_1.md; PB_PRODUCT_REGISTRY_v1_1.json"
+    },
+    {
+      "source": "PR18",
+      "module": "energy screen, installed capital and equipment template",
+      "status": "INTEGRATED",
+      "evidence": "vendor/screen.py; vendor/costs.py; COMPONENT_COST_TEMPLATE_v1_1.json"
+    },
+    {
+      "source": "PR19",
+      "module": "grid-assisted operating track",
+      "status": "INTEGRATED_ACCOUNTING_ONLY",
+      "evidence": "runner operating-track mapping; no dynamic burn"
+    },
+    {
+      "source": "PR20",
+      "module": "installable runner, example and report",
+      "status": "NEW_VERSION_PRESERVED_PARENT",
+      "evidence": "v1 originals retained; v1.1 expands runner"
+    },
+    {
+      "source": "historical originals",
+      "module": "earlier surrogate and negative receipts",
+      "status": "PRESERVED_AS_EVIDENCE_NOT_RUNTIME",
+      "evidence": "prior immutable paths; no numeric gains imported"
+    },
+    {
+      "source": "Gemini v04",
+      "module": "later full source and hash reconciliation",
+      "status": "BLOCKED_NOT_RECOVERED",
+      "evidence": "Tidal report acknowledged; exact local reproduction still open"
+    },
+    {
+      "source": "SHUGS/TCSS",
+      "module": "exotic operator probes",
+      "status": "EXTERNAL_EXCLUDED",
+      "evidence": "not physical Stars inputs; user scope separation"
+    },
+    {
+      "source": "phase/stress exploratory tests",
+      "module": "earlier harmonic toy comparisons",
+      "status": "PRESERVED_NOT_PROMOTED",
+      "evidence": "no calibrated membrane model; displacement not stress"
+    },
+    {
+      "source": "acoustic UI",
+      "module": "local presets and forced-mode benchmark",
+      "status": "IMPLEMENTED_SYNTHETIC_ONLY",
+      "evidence": "acoustics.py; ui.py; tests/test_acoustics.py"
+    },
+    {
+      "source": "review evidence rules",
+      "module": "dependency-specific provenance and structured failure receipts",
+      "status": "PARTIAL_IMPLEMENTATION",
+      "evidence": "evidence.py; runner failure codes; candidate contract"
+    }
+  ]
+}

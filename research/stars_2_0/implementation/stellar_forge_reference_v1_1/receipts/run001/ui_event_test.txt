@@ -1,0 +1,1 @@
+{"status":"PASS","scope":"DOM_EVENT_HARNESS_NOT_BROWSER_RENDERING","checks":["embedded script parses","location/frequency/chirp binding","configuration JSON download","OFF zero drive preset","result viewer/chart data binding"]}
