@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stellar-forge-reference"
+version = "1.0.0"
+description = "Provenance-aware synthetic Stars research reference runner"
+requires-python = ">=3.11"
+dependencies = ["numpy==2.3.5"]
+
+[project.scripts]
+stellar-forge = "stellar_forge_reference.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+stellar_forge_reference = ["*.json"]
