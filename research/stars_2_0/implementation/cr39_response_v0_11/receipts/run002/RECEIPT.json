@@ -1,0 +1,11 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "pillow": "12.3.0",
+  "code_sha256": {
+    "response.py": "42a6ff7ee44dd02ef4c7d2fc196e8994d33e82d59db612f6771205dcf30503bb",
+    "run_reference.py": "dced2541938ace38a63c432dc3c8a9b37c55e8217666c984584596fb548554ea",
+    "digitize.py": "f4a845d72d1963f06c5edf56017d066ae6bd0181c2917429f8548933e9199f1f"
+  },
+  "fixture_sha256": "8c5112d0c087afc96f12dd56e115f0d8a53cb0a38ea1eafbc79344930d3621d3"
+}
