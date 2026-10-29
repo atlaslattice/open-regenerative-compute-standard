@@ -1,0 +1,41 @@
+{
+  "primary_doi": "10.1038/s41598-023-45208-x",
+  "sources": [
+    {
+      "url": "https://www.nature.com/articles/s41598-023-45208-x",
+      "html_sha256": "5b58c49806b83768ddb33f59412904334ac2f2e45f2bd0aa04709e731704ba61",
+      "scope": "Publisher article, Eq2/Table1, source spectra, Methods, data availability"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10598230/fullTextXML",
+      "sha256": "47036d5a9474dcb1fc395f524a362d2d75fc4e0ad2eef7f37e6ef795411c6cac",
+      "scope": "Official open-access full-text XML, coefficient extraction"
+    },
+    {
+      "url": "https://www.nature.com/articles/s41598-023-45208-x.pdf",
+      "sha256": "3bf468794a030e5002e3c68db581b16d4c74a14b2f415a5dd5a40d6417a9caf9",
+      "scope": "Visually checked page5 Figure3, Table1 and Eq2; independent PDF-text table comparison"
+    },
+    {
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41598-023-45208-x/MediaObjects/41598_2023_45208_MOESM1_ESM.pdf",
+      "sha256": "605f7a28b699a92175e60c08e086f5e705d553d30f0362590ff20237d4dd9749",
+      "scope": "Visually checked PDFpage4 TableS1; supplemental widths and synthetic tests are not raw campaign data"
+    },
+    {
+      "url": "https://doi.org/10.1140/epja/i2016-16271-2",
+      "scope": "Separate16.11MeV2+ study reports dominant d-wave to excitedBe8, not a substitute for current2-minus source"
+    },
+    {
+      "url": "https://doi.org/10.1007/s41365-019-0619-x",
+      "scope": "Earlier recovered2019 response shows decreasing track diameter on its high-energy branch; greater energy does not universally imply greater track size"
+    }
+  ],
+  "searches": [
+    "s41598-023-45208-x correction equation",
+    "Schollmeier CR39 github calibration"
+  ],
+  "author_code_or_correction_recovered": false,
+  "raw_experimental_events_recovered": false,
+  "author_contact_sent": false,
+  "attribution": "Schollmeier et al.2023, Scientific Reports13,18155; CC BY4.0 source content retains its attribution. Source PDFs/XML are download/hash inputs, not bundled."
+}
