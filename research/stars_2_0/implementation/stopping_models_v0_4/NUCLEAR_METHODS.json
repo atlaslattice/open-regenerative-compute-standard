@@ -1,0 +1,29 @@
+{
+  "primary_book": "Ziegler, Biersack and Littmark, The Stopping and Range of Ions in Matter, Vol. 1 (1985)",
+  "variants": [
+    {
+      "id": "ZBL_SIMNRA_7_04",
+      "author_documentation": "https://mam.home.ipp.mpg.de/SIMNRA-Users-Guide.pdf",
+      "sections": [
+        "4.6.5: reduced nuclear stopping, equations 4.51 and 4.52",
+        "4.6.6: Bragg atomic-fraction additivity, equation 4.53"
+      ],
+      "pdf_sha256": "aea3e17e46ecb78dbb7c84c912b5ed9843f5eaef9338cc1913bcdfb156f6cd42",
+      "reduced_energy_prefactor": 32.53,
+      "low_energy_fit_coefficient": 0.01321,
+      "normalization": "8.462 coefficient and 1e-15 eV cm2/atom unit convention cross-checked with Geant4 source"
+    },
+    {
+      "id": "ZBL_GEANT4_10_7_4",
+      "repository": "Geant4/geant4",
+      "commit": "098f6c74e60fbe2dbde3c347fdf5e0e321e311a2",
+      "path": "source/processes/electromagnetic/lowenergy/src/G4hZiegler1985Nuclear.cc",
+      "reduced_energy_prefactor": 32.536,
+      "low_energy_fit_coefficient": 0.01312,
+      "note": "deterministic mean formula only; Geant4 engine and straggling sampler not run"
+    }
+  ],
+  "implementation": "independent implementation of published mathematical formula; primary Geant4/SIMNRA software not redistributed",
+  "BN_mixing": "atomic-fraction Bragg additivity; chemical-bond, phase and anisotropy corrections uncalibrated",
+  "mass_parameters": "explicit approximate atomic masses for stopping model; not event-generator rest-mass constants"
+}
