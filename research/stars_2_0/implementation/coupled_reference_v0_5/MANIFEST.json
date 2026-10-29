@@ -1,0 +1,121 @@
+{
+  "files": [
+    {
+      "file": "README.md",
+      "bytes": 10570,
+      "sha256": "0a0d189a9c3489735db5a513b0f45dca71fa7cd5c20ccc98257e4f60a2b6c8a8",
+      "git_blob_sha1": "a854ec09a572bd664c68a3195b6552137cbcea2f"
+    },
+    {
+      "file": "requirements.txt",
+      "bytes": 13,
+      "sha256": "7bd6b8946940b79948c548c8048e545684b91c8edc9444d8dfc0c8f76a97c0a7",
+      "git_blob_sha1": "d59d856f1cc6c05962ca6bd4f14dd3315acd207c"
+    },
+    {
+      "file": "DEPENDENCY_LOCK.json",
+      "bytes": 2446,
+      "sha256": "30e2d21421e90367eb9bdf32a186f4a0caa1ed5dd81c1ee906c4e7ab4577c8fa",
+      "git_blob_sha1": "f230e0f1f6588c532fb11cfcd60b3c9f26de3a51"
+    },
+    {
+      "file": "MASS_SOURCE.json",
+      "bytes": 1505,
+      "sha256": "ae8cd1bb6bb9a9aae17f00addc7badf65ef2e5565f44fae649a36b438c737136",
+      "git_blob_sha1": "0789eb299a98be525a0e3a5938facae6afd5cbb5"
+    },
+    {
+      "file": "MODULE_STATUS.json",
+      "bytes": 821,
+      "sha256": "6c41068d4f257cbfdee6d8dca61127f075e216f5b24abcbd10e3ac928e268aeb",
+      "git_blob_sha1": "2c8a93ecb4c2380900bbf01d7ba135a16e67e750"
+    },
+    {
+      "file": "EVENT_CROSS_SECTIONS.json",
+      "bytes": 19440,
+      "sha256": "b05e779936d2f797c34bb4fb3ffb818841fd332dd477a445772f9c5e991a3acf",
+      "git_blob_sha1": "8ec71d54b15263026f703802528b709e5aa8aa3c"
+    },
+    {
+      "file": "vendor/detector.py",
+      "bytes": 2967,
+      "sha256": "f53fa649cf7c9a32ab40f20ae5870bbd81bc5632fffb6889a73f28f88b76550d",
+      "git_blob_sha1": "5f15d97cf46d24c82e3f99519208f9d94540a19f"
+    },
+    {
+      "file": "kinematics.py",
+      "bytes": 2969,
+      "sha256": "388e871b413f35927a31e01902edf2774dba961df7b2b1d0af84c294ec4bc6aa",
+      "git_blob_sha1": "25d0010f296309d0f9f1df5db4a5c1c9b5dfde6a"
+    },
+    {
+      "file": "physics.py",
+      "bytes": 3766,
+      "sha256": "6915bab453d0b6e9a0a1e4605a7c0c242b368396f8504c711055cd347335ad7f",
+      "git_blob_sha1": "3aaead3dad3fde11ca4027d0b2ce65f8ab382453"
+    },
+    {
+      "file": "run.py",
+      "bytes": 12039,
+      "sha256": "8508ffb60fb5163cbf052cffad16b372b7bce8ba300f206e8310c1323725a31a",
+      "git_blob_sha1": "61ab98b92a71f071b8866290f4d5eb8bd5ba404d"
+    },
+    {
+      "file": "test_reference.py",
+      "bytes": 6501,
+      "sha256": "c14adaa5254681e48c4ad65337e61027d14328803eb6ebd737ea9a6be1cccc07",
+      "git_blob_sha1": "ce2d16e29c1ea64302c363f1f1c5aca0d20e88ea"
+    },
+    {
+      "file": "examples/reference.json",
+      "bytes": 1390,
+      "sha256": "0123e0f1cb679d690f7e1c45b731a58061af3999c00629300bfab98de925adf1",
+      "git_blob_sha1": "2da0e158440bd86c272ba53a4f57e56098413f6b"
+    },
+    {
+      "file": "receipts/TEST_LOG.txt",
+      "bytes": 1605,
+      "sha256": "8d6196ed05166b405d1dc7836f74da81f218d1836321545c5d526b5037323048",
+      "git_blob_sha1": "c58a74db84dc9a67f7834ecf9e802b47f3adbf8b"
+    },
+    {
+      "file": "receipts/VERIFICATION.json",
+      "bytes": 2509,
+      "sha256": "9c73614d798e983795584ac5ace55af128364d9aac1d80277eeb4ddad5f4980b",
+      "git_blob_sha1": "f8de2a31fc68a8504276a38bd51d504dcecdd598"
+    },
+    {
+      "file": "receipts/EVENT_SAMPLES.json",
+      "bytes": 5761,
+      "sha256": "90edf8aaaf5fccf15ba427e96031ec173fdeec025e297301e782b1d4f8381413",
+      "git_blob_sha1": "8a6b34e016c401d26adcecb01a7018c9c479a4ed"
+    },
+    {
+      "file": "receipts/run003/CONFIG.json",
+      "bytes": 1390,
+      "sha256": "654fecc3df64135c3d6c21d741e93bc4151af626ac733bf719297e7ac7261802",
+      "git_blob_sha1": "50a00413673640b033fa9e8eddd8f6975a46ef35"
+    },
+    {
+      "file": "receipts/run003/RESULTS.json",
+      "bytes": 9828,
+      "sha256": "a1ca93d60c5b6b6897efb3a1a454327e4952185b153beeef0920c4612fa541b5",
+      "git_blob_sha1": "f6a5ad13a2e8e4b2c269dde6e5cccc3c20dff877"
+    },
+    {
+      "file": "receipts/run003/RECEIPT.json",
+      "bytes": 537,
+      "sha256": "660690ca675411674e27236a1b0adce8a2cd9dd9892881c9a660735411047253",
+      "git_blob_sha1": "c091ccf4166cc3c48c57346c15ce9298324145f7"
+    },
+    {
+      "file": "receipts/run003/MANIFEST.json",
+      "bytes": 346,
+      "sha256": "41caf8555673c0aa8799184cbf0caa3d92a0288b12f3dc89cc3ed814585a213f",
+      "git_blob_sha1": "adcd7a0d746b9745f72e54e57b6439349f833cf3"
+    }
+  ],
+  "full_event_log": "generated at runtime; SHA256 in receipts/VERIFICATION.json",
+  "tests_passed": 16,
+  "earlier_versions_unchanged": true
+}

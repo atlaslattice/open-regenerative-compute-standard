@@ -1,0 +1,291 @@
+{
+  "acoustic_effect": "NO COUPLING ASSIGNED",
+  "all_attempt_count": 3,
+  "attempts": [
+    {
+      "E_proton_LAB_MeV": 0.65,
+      "attempt_id": "synthetic_attempt_1",
+      "conditional_monte_carlo_detector_covariance": [
+        [
+          2.235998396573535e-08,
+          -3.0333473303022236e-09,
+          -3.35462345744564e-09,
+          -6.717591749362578e-10
+        ],
+        [
+          -3.0333473303022236e-09,
+          7.316333622675291e-08,
+          -2.722085004524308e-08,
+          -1.898449842211153e-09
+        ],
+        [
+          -3.35462345744564e-09,
+          -2.722085004524308e-08,
+          6.8294125312774e-08,
+          -3.6216581605258935e-09
+        ],
+        [
+          -6.717591749362578e-10,
+          -1.898449842211153e-09,
+          -3.6216581605258935e-09,
+          7.272523241701216e-09
+        ]
+      ],
+      "covariance_scope": "finite-event-sampling error only; not physical shot noise or calibration/source uncertainty",
+      "detector": {
+        "background_expected_counts": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "count_closure_residual": 2.6020852139652106e-18,
+        "response_id": "SYNTHETIC_60_PERCENT_DIAGONAL",
+        "signal_expected_counts": [
+          0.0007502254481155394,
+          0.002120202353370003,
+          0.004044693720275082,
+          0.00022832948420907723
+        ],
+        "species": "alpha",
+        "statistical_scope": "expected values only; no Poisson-independence or calibrated likelihood asserted",
+        "total_expected_counts": [
+          0.0007502254481155394,
+          0.002120202353370003,
+          0.004044693720275082,
+          0.00022832948420907723
+        ],
+        "true_expected_counts": 0.011905751676616172,
+        "undetected_expected_counts": 0.004762300670646468
+      },
+      "expected_alpha_births": 0.04175167711251698,
+      "expected_alpha_exit_count_bounds": [
+        0.04164294878670313,
+        0.04175167711251698
+      ],
+      "expected_alpha_exit_kinetic_bounds_MeV": [
+        0.1275016158986814,
+        0.12750205109500448
+      ],
+      "expected_beam_kinetic_input_MeV": 6500.0,
+      "expected_fusion_events": 0.013917225704172326,
+      "expected_geometry_accepted_exit_count_bounds": [
+        0.012014480002430016,
+        0.012014480002430016
+      ],
+      "expected_nuclear_Q_MeV": 0.12083713542746428,
+      "expected_primary_particle_loss_bounds_MeV": [
+        50.992474154456204,
+        50.99247458965253
+      ],
+      "expected_unreacted_proton_exit_kinetic_MeV": 6449.000860929877,
+      "incident_protons": 10000,
+      "loss_scope": "ledger remainder conditional on the modeled primary particles; NOT a heat-recovery estimate",
+      "maximum_four_momentum_residual_MeV": 5.4569682106375694e-12,
+      "per_proton_reaction_probability": 1.3917225704172326e-06,
+      "probability_at_least_one_event": 0.013820838379656161,
+      "sampled_conditional_events": 256,
+      "source_reaction_refinement_delta": 1.2559444552884182e-16,
+      "unreacted_proton_exit_energy_MeV": 0.6449009836162423,
+      "unresolved_alpha_exits_in_samples": 2
+    },
+    {
+      "E_proton_LAB_MeV": 0.65,
+      "attempt_id": "synthetic_attempt_2_ZERO_PROTONS",
+      "conditional_monte_carlo_detector_covariance": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "covariance_scope": "finite-event-sampling error only; not physical shot noise or calibration/source uncertainty",
+      "detector": {
+        "background_expected_counts": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "count_closure_residual": 0.0,
+        "response_id": "SYNTHETIC_60_PERCENT_DIAGONAL",
+        "signal_expected_counts": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "species": "alpha",
+        "statistical_scope": "expected values only; no Poisson-independence or calibrated likelihood asserted",
+        "total_expected_counts": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "true_expected_counts": 0.0,
+        "undetected_expected_counts": 0.0
+      },
+      "expected_alpha_births": 0.0,
+      "expected_alpha_exit_count_bounds": [
+        0.0,
+        0.0
+      ],
+      "expected_alpha_exit_kinetic_bounds_MeV": [
+        0.0,
+        0.0
+      ],
+      "expected_beam_kinetic_input_MeV": 0.0,
+      "expected_fusion_events": 0.0,
+      "expected_geometry_accepted_exit_count_bounds": [
+        0.0,
+        0.0
+      ],
+      "expected_nuclear_Q_MeV": 0.0,
+      "expected_primary_particle_loss_bounds_MeV": [
+        0.0,
+        0.0
+      ],
+      "expected_unreacted_proton_exit_kinetic_MeV": 0.0,
+      "incident_protons": 0,
+      "loss_scope": "ledger remainder conditional on the modeled primary particles; NOT a heat-recovery estimate",
+      "maximum_four_momentum_residual_MeV": 0.0,
+      "per_proton_reaction_probability": 1.3917225704172326e-06,
+      "probability_at_least_one_event": -0.0,
+      "sampled_conditional_events": 0,
+      "source_reaction_refinement_delta": 1.2559444552884182e-16,
+      "unreacted_proton_exit_energy_MeV": 0.6449009836162423,
+      "unresolved_alpha_exits_in_samples": 0
+    },
+    {
+      "E_proton_LAB_MeV": 0.65,
+      "attempt_id": "synthetic_attempt_3",
+      "conditional_monte_carlo_detector_covariance": [
+        [
+          9.292807667192665e-08,
+          -2.4433675331843002e-08,
+          1.1215457529370509e-08,
+          -6.008280819305652e-09
+        ],
+        [
+          -2.4433675331843002e-08,
+          2.327040540654966e-07,
+          -7.189909380435753e-08,
+          -1.5271047082401814e-08
+        ],
+        [
+          1.1215457529370509e-08,
+          -7.189909380435753e-08,
+          2.6035883550324355e-07,
+          -2.5034503413773453e-08
+        ],
+        [
+          -6.008280819305652e-09,
+          -1.5271047082401814e-08,
+          -2.5034503413773453e-08,
+          6.033315322719404e-08
+        ]
+      ],
+      "covariance_scope": "finite-event-sampling error only; not physical shot noise or calibration/source uncertainty",
+      "detector": {
+        "background_expected_counts": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "count_closure_residual": 0.0,
+        "response_id": "SYNTHETIC_60_PERCENT_DIAGONAL",
+        "signal_expected_counts": [
+          0.0015656878917193868,
+          0.003979456724786775,
+          0.006523699548830778,
+          0.0009785549323246166
+        ],
+        "species": "alpha",
+        "statistical_scope": "expected values only; no Poisson-independence or calibrated likelihood asserted",
+        "total_expected_counts": [
+          0.0015656878917193868,
+          0.003979456724786775,
+          0.006523699548830778,
+          0.0009785549323246166
+        ],
+        "true_expected_counts": 0.02174566516276926,
+        "undetected_expected_counts": 0.008698266065107704
+      },
+      "expected_alpha_births": 0.08350335422503397,
+      "expected_alpha_exit_count_bounds": [
+        0.08274225594433704,
+        0.08350335422503397
+      ],
+      "expected_alpha_exit_kinetic_bounds_MeV": [
+        0.25320035312800043,
+        0.25320339950226206
+      ],
+      "expected_beam_kinetic_input_MeV": 13000.0,
+      "expected_fusion_events": 0.027834451408344653,
+      "expected_geometry_accepted_exit_count_bounds": [
+        0.021854393488583108,
+        0.021854393488583108
+      ],
+      "expected_nuclear_Q_MeV": 0.24167427085492857,
+      "expected_primary_particle_loss_bounds_MeV": [
+        101.98674901160015,
+        101.98675205797443
+      ],
+      "expected_unreacted_proton_exit_kinetic_MeV": 12898.001721859753,
+      "incident_protons": 20000,
+      "loss_scope": "ledger remainder conditional on the modeled primary particles; NOT a heat-recovery estimate",
+      "maximum_four_momentum_residual_MeV": 3.637978807091713e-12,
+      "per_proton_reaction_probability": 1.3917225704172326e-06,
+      "probability_at_least_one_event": 0.027450661185795745,
+      "sampled_conditional_events": 256,
+      "source_reaction_refinement_delta": 1.2559444552884182e-16,
+      "unreacted_proton_exit_energy_MeV": 0.6449009836162423,
+      "unresolved_alpha_exits_in_samples": 7
+    }
+  ],
+  "expected_fusion_events_all_attempts": 0.04175167711251698,
+  "experimental_calibration": "NOT_RUN",
+  "heat_recovery": "UNAVAILABLE; primary particle energy loss is not recoverable heat",
+  "limitations": [
+    "no Be8 dynamics, resonance amplitudes or interference in null shape",
+    "no competing channels, neutrons or impurity reactions calculated",
+    "no scattering/straggling or target evolution",
+    "synthetic detector response",
+    "mass and stopping/source uncertainty not propagated",
+    "conditional samples are not actual shots"
+  ],
+  "masses": {
+    "B11_nucleus_MeV": 10252.548705123383,
+    "Q_MeV": 8.682559153383409,
+    "alpha_MeV": 3727.3794118,
+    "proton_MeV": 938.27208943
+  },
+  "net_energy": "UNAVAILABLE; no burn or full wall-plug ledger",
+  "schema": "0.5",
+  "scientific_outcome": "NOT_TESTED",
+  "source_consistency_warning": "normalization was extracted using a different spectrum ansatz; this alternate null shape is not a self-consistent refit of those data",
+  "source_normalization": "Sikora\u2013Weller2016 model-extrapolated event table with explicit linear LAB-energy interpolation >=0.22MeV",
+  "source_shape": "CONSTANT_MATRIX_ELEMENT_PHASE_SPACE_NULL; not the publication sequential l=3 spectrum",
+  "status": "CONDITIONAL_NULL_REFERENCE_NOT_CALIBRATED"
+}

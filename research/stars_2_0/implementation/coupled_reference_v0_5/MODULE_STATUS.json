@@ -1,0 +1,15 @@
+{
+  "supersedes": [],
+  "source_normalization": "publication-model-derived; linear energy interpolation candidate",
+  "source_shape": "constant-matrix-element phase-space NULL, not sequential calibration",
+  "conservation": "verified numerically for nominal physical nuclear masses",
+  "stopping": "PR26 calculated cold-material model, bounded energies",
+  "detector": "synthetic reference response",
+  "geometry": "assumed infinite planar foil and LAB detector cone",
+  "covariance": "reaction-clustered Monte Carlo error only",
+  "realistic_sequential_source": "pending source ingestion/calibration; previous Gemini work retained",
+  "acoustic_readiness_energy_economics": "retained prior modules, not coupled here",
+  "net_energy": "unavailable",
+  "physical_experiment": "not run",
+  "scientific_freeze": "pending"
+}
