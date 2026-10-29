@@ -1,0 +1,412 @@
+[
+  {
+    "E_lab_MeV": "0.15",
+    "sigma_event_b": 0.005668270905116944,
+    "alpha1_event_component_b": 0.005668270905116944,
+    "alpha0_event_component_b": null,
+    "stat_error_b_if_channel_fits_independent": 4.6076692252650294e-05,
+    "stat_error_b_max_positive_correlation": 4.6076692252650294e-05,
+    "alpha0_handling": "not tabulated below 2.1 MeV; follows publication selected-channel coverage",
+    "observable": "PUBLICATION_MODEL_EXTRAPOLATED_FUSION_EVENT_CROSS_SECTION"
+  },
+  {
+    "E_lab_MeV": "0.22",
+    "sigma_event_b": 0.03732212072464674,
+    "alpha1_event_component_b": 0.03732212072464674,
+    "alpha0_event_component_b": null,
+    "stat_error_b_if_channel_fits_independent": 0.00014032447186034409,
+    "stat_error_b_max_positive_correlation": 0.00014032447186034409,
+    "alpha0_handling": "not tabulated below 2.1 MeV; follows publication selected-channel coverage",
+    "observable": "PUBLICATION_MODEL_EXTRAPOLATED_FUSION_EVENT_CROSS_SECTION"
+  },
+  {
+    "E_lab_MeV": "0.25",
+    "sigma_event_b": 0.05879888586262752,
+    "alpha1_event_component_b": 0.05879888586262752,
+    "alpha0_event_component_b": null,
+    "stat_error_b_if_channel_fits_independent": 0.000201899687870704,
+    "stat_error_b_max_positive_correlation": 0.000201899687870704,
+    "alpha0_handling": "not tabulated below 2.1 MeV; follows publication selected-channel coverage",
+    "observable": "PUBLICATION_MODEL_EXTRAPOLATED_FUSION_EVENT_CROSS_SECTION"
+  },
+  {
+    "E_lab_MeV": "0.30",
+    "sigma_event_b": 0.13166582362803014,
+    "alpha1_event_component_b": 0.13166582362803014,
+    "alpha0_event_component_b": null,
+    "stat_error_b_if_channel_fits_independent": 0.0002860943709869105,
+    "stat_error_b_max_positive_correlation": 0.0002860943709869105,
+    "alpha0_handling": "not tabulated below 2.1 MeV; follows publication selected-channel coverage",
+    "observable": "PUBLICATION_MODEL_EXTRAPOLATED_FUSION_EVENT_CROSS_SECTION"
+  },
+  {
+    "E_lab_MeV": "0.40",
+    "sigma_event_b": 0.3920439549106955,
+    "alpha1_event_component_b": 0.3920439549106955,
+    "alpha0_event_component_b": null,
+    "stat_error_b_if_channel_fits_independent": 0.0021823596966937097,
+    "stat_error_b_max_positive_correlation": 0.0021823596966937097,
+    "alpha0_handling": "not tabulated below 2.1 MeV; follows publication selected-channel coverage",
+    "observable": "PUBLICATION_MODEL_EXTRAPOLATED_FUSION_EVENT_CROSS_SECTION"
+  },
+  {
+    "E_lab_MeV": "0.49",
+    "sigma_event_b": 0.7278810473374854,
+    "alpha1_event_component_b": 0.7278810473374854,
+    "alpha0_event_component_b": null,
+    "stat_error_b_if_channel_fits_independent": 0.004572483387544823,
+    "stat_error_b_max_positive_correlation": 0.004572483387544823,
+    "alpha0_handling": "not tabulated below 2.1 MeV; follows publication selected-channel coverage",
+    "observable": "PUBLICATION_MODEL_EXTRAPOLATED_FUSION_EVENT_CROSS_SECTION"
+  },
+  {
+    "E_lab_MeV": "0.57",
+    "sigma_event_b": 1.1943426301473954,
+    "alpha1_event_component_b": 1.1943426301473954,
+    "alpha0_event_component_b": null,
+    "stat_error_b_if_channel_fits_independent": 0.003533663416757799,
+    "stat_error_b_max_positive_correlation": 0.003533663416757799,
+    "alpha0_handling": "not tabulated below 2.1 MeV; follows publication selected-channel coverage",
+    "observable": "PUBLICATION_MODEL_EXTRAPOLATED_FUSION_EVENT_CROSS_SECTION"
+  },
+  {
+    "E_lab_MeV": "0.65",
+    "sigma_event_b": 1.3982152382045538,
+    "alpha1_event_component_b": 1.3982152382045538,
+    "alpha0_event_component_b": null,
+    "stat_error_b_if_channel_fits_independent": 0.0028760233546063357,
+    "stat_error_b_max_positive_correlation": 0.0028760233546063357,
+    "alpha0_handling": "not tabulated below 2.1 MeV; follows publication selected-channel coverage",
+    "observable": "PUBLICATION_MODEL_EXTRAPOLATED_FUSION_EVENT_CROSS_SECTION"
+  },
+  {
+    "E_lab_MeV": "0.73",
+    "sigma_event_b": 1.147032758058456,
+    "alpha1_event_component_b": 1.147032758058456,
+    "alpha0_event_component_b": null,
+    "stat_error_b_if_channel_fits_independent": 0.0025773626130050657,
+    "stat_error_b_max_positive_correlation": 0.0025773626130050657,
+    "alpha0_handling": "not tabulated below 2.1 MeV; follows publication selected-channel coverage",
+    "observable": "PUBLICATION_MODEL_EXTRAPOLATED_FUSION_EVENT_CROSS_SECTION"
+  },
+  {
+    "E_lab_MeV": "0.80",
+    "sigma_event_b": 0.7213310360942607,
+    "alpha1_event_component_b": 0.7213310360942607,
+    "alpha0_event_component_b": null,
+    "stat_error_b_if_channel_fits_independent": 0.001833433472635003,
+    "stat_error_b_max_positive_correlation": 0.001833433472635003,
+    "alpha0_handling": "not tabulated below 2.1 MeV; follows publication selected-channel coverage",
+    "observable": "PUBLICATION_MODEL_EXTRAPOLATED_FUSION_EVENT_CROSS_SECTION"
+  },
+  {
+    "E_lab_MeV": "0.88",
+    "sigma_event_b": 0.4641133470211068,
+    "alpha1_event_component_b": 0.4641133470211068,
+    "alpha0_event_component_b": null,
+    "stat_error_b_if_channel_fits_independent": 0.0015682830526720247,
+    "stat_error_b_max_positive_correlation": 0.0015682830526720247,
+    "alpha0_handling": "not tabulated below 2.1 MeV; follows publication selected-channel coverage",
+    "observable": "PUBLICATION_MODEL_EXTRAPOLATED_FUSION_EVENT_CROSS_SECTION"
+  },
+  {
+    "E_lab_MeV": "0.94",
+    "sigma_event_b": 0.3326075351788995,
+    "alpha1_event_component_b": 0.3326075351788995,
+    "alpha0_event_component_b": null,
+    "stat_error_b_if_channel_fits_independent": 0.0012315043202071987,
+    "stat_error_b_max_positive_correlation": 0.0012315043202071987,
+    "alpha0_handling": "not tabulated below 2.1 MeV; follows publication selected-channel coverage",
+    "observable": "PUBLICATION_MODEL_EXTRAPOLATED_FUSION_EVENT_CROSS_SECTION"
+  },
+  {
+    "E_lab_MeV": "1.00",
+    "sigma_event_b": 0.3159361501638497,
+    "alpha1_event_component_b": 0.3159361501638497,
+    "alpha0_event_component_b": null,
+    "stat_error_b_if_channel_fits_independent": 0.0018547963026794138,
+    "stat_error_b_max_positive_correlation": 0.0018547963026794138,
+    "alpha0_handling": "not tabulated below 2.1 MeV; follows publication selected-channel coverage",
+    "observable": "PUBLICATION_MODEL_EXTRAPOLATED_FUSION_EVENT_CROSS_SECTION"
+  },
+  {
+    "E_lab_MeV": "1.08",
+    "sigma_event_b": 0.3051877144983678,
+    "alpha1_event_component_b": 0.3051877144983678,
+    "alpha0_event_component_b": null,
+    "stat_error_b_if_channel_fits_independent": 0.002635586796851597,
+    "stat_error_b_max_positive_correlation": 0.002635586796851597,
+    "alpha0_handling": "not tabulated below 2.1 MeV; follows publication selected-channel coverage",
+    "observable": "PUBLICATION_MODEL_EXTRAPOLATED_FUSION_EVENT_CROSS_SECTION"
+  },
+  {
+    "E_lab_MeV": "1.20",
+    "sigma_event_b": 0.31943378998484634,
+    "alpha1_event_component_b": 0.31943378998484634,
+    "alpha0_event_component_b": null,
+    "stat_error_b_if_channel_fits_independent": 0.0005952270881001461,
+    "stat_error_b_max_positive_correlation": 0.0005952270881001461,
+    "alpha0_handling": "not tabulated below 2.1 MeV; follows publication selected-channel coverage",
+    "observable": "PUBLICATION_MODEL_EXTRAPOLATED_FUSION_EVENT_CROSS_SECTION"
+  },
+  {
+    "E_lab_MeV": "1.30",
+    "sigma_event_b": 0.3318899954168196,
+    "alpha1_event_component_b": 0.3318899954168196,
+    "alpha0_event_component_b": null,
+    "stat_error_b_if_channel_fits_independent": 0.00045029494701453695,
+    "stat_error_b_max_positive_correlation": 0.00045029494701453695,
+    "alpha0_handling": "not tabulated below 2.1 MeV; follows publication selected-channel coverage",
+    "observable": "PUBLICATION_MODEL_EXTRAPOLATED_FUSION_EVENT_CROSS_SECTION"
+  },
+  {
+    "E_lab_MeV": "1.40",
+    "sigma_event_b": 0.34096626603255076,
+    "alpha1_event_component_b": 0.34096626603255076,
+    "alpha0_event_component_b": null,
+    "stat_error_b_if_channel_fits_independent": 0.00023917992069330288,
+    "stat_error_b_max_positive_correlation": 0.00023917992069330288,
+    "alpha0_handling": "not tabulated below 2.1 MeV; follows publication selected-channel coverage",
+    "observable": "PUBLICATION_MODEL_EXTRAPOLATED_FUSION_EVENT_CROSS_SECTION"
+  },
+  {
+    "E_lab_MeV": "1.50",
+    "sigma_event_b": 0.3253445918428204,
+    "alpha1_event_component_b": 0.3253445918428204,
+    "alpha0_event_component_b": null,
+    "stat_error_b_if_channel_fits_independent": 0.00023666664657043108,
+    "stat_error_b_max_positive_correlation": 0.00023666664657043108,
+    "alpha0_handling": "not tabulated below 2.1 MeV; follows publication selected-channel coverage",
+    "observable": "PUBLICATION_MODEL_EXTRAPOLATED_FUSION_EVENT_CROSS_SECTION"
+  },
+  {
+    "E_lab_MeV": "1.60",
+    "sigma_event_b": 0.3002294435329621,
+    "alpha1_event_component_b": 0.3002294435329621,
+    "alpha0_event_component_b": null,
+    "stat_error_b_if_channel_fits_independent": 0.0002559350815124485,
+    "stat_error_b_max_positive_correlation": 0.0002559350815124485,
+    "alpha0_handling": "not tabulated below 2.1 MeV; follows publication selected-channel coverage",
+    "observable": "PUBLICATION_MODEL_EXTRAPOLATED_FUSION_EVENT_CROSS_SECTION"
+  },
+  {
+    "E_lab_MeV": "1.70",
+    "sigma_event_b": 0.2741982068053171,
+    "alpha1_event_component_b": 0.2741982068053171,
+    "alpha0_event_component_b": null,
+    "stat_error_b_if_channel_fits_independent": 0.00018807668019490894,
+    "stat_error_b_max_positive_correlation": 0.00018807668019490894,
+    "alpha0_handling": "not tabulated below 2.1 MeV; follows publication selected-channel coverage",
+    "observable": "PUBLICATION_MODEL_EXTRAPOLATED_FUSION_EVENT_CROSS_SECTION"
+  },
+  {
+    "E_lab_MeV": "1.80",
+    "sigma_event_b": 0.25195866297104474,
+    "alpha1_event_component_b": 0.25195866297104474,
+    "alpha0_event_component_b": null,
+    "stat_error_b_if_channel_fits_independent": 0.0002060884780754904,
+    "stat_error_b_max_positive_correlation": 0.0002060884780754904,
+    "alpha0_handling": "not tabulated below 2.1 MeV; follows publication selected-channel coverage",
+    "observable": "PUBLICATION_MODEL_EXTRAPOLATED_FUSION_EVENT_CROSS_SECTION"
+  },
+  {
+    "E_lab_MeV": "1.90",
+    "sigma_event_b": 0.2460570764515212,
+    "alpha1_event_component_b": 0.2460570764515212,
+    "alpha0_event_component_b": null,
+    "stat_error_b_if_channel_fits_independent": 0.0002902831611916969,
+    "stat_error_b_max_positive_correlation": 0.0002902831611916969,
+    "alpha0_handling": "not tabulated below 2.1 MeV; follows publication selected-channel coverage",
+    "observable": "PUBLICATION_MODEL_EXTRAPOLATED_FUSION_EVENT_CROSS_SECTION"
+  },
+  {
+    "E_lab_MeV": "2.00",
+    "sigma_event_b": 0.2479784745184567,
+    "alpha1_event_component_b": 0.2479784745184567,
+    "alpha0_event_component_b": null,
+    "stat_error_b_if_channel_fits_independent": 0.00032463124087094524,
+    "stat_error_b_max_positive_correlation": 0.00032463124087094524,
+    "alpha0_handling": "not tabulated below 2.1 MeV; follows publication selected-channel coverage",
+    "observable": "PUBLICATION_MODEL_EXTRAPOLATED_FUSION_EVENT_CROSS_SECTION"
+  },
+  {
+    "E_lab_MeV": "2.10",
+    "sigma_event_b": 0.2710524253615226,
+    "alpha1_event_component_b": 0.26263630808206573,
+    "alpha0_event_component_b": 0.008416117279456816,
+    "stat_error_b_if_channel_fits_independent": 0.00023506242617297697,
+    "stat_error_b_max_positive_correlation": 0.00026473154094249987,
+    "alpha0_handling": "explicit table3 coefficient included",
+    "observable": "PUBLICATION_MODEL_EXTRAPOLATED_FUSION_EVENT_CROSS_SECTION"
+  },
+  {
+    "E_lab_MeV": "2.20",
+    "sigma_event_b": 0.3140620854262282,
+    "alpha1_event_component_b": 0.3016590776298557,
+    "alpha0_event_component_b": 0.012403007796372502,
+    "stat_error_b_if_channel_fits_independent": 0.00031439179678523194,
+    "stat_error_b_max_positive_correlation": 0.00035814156250923643,
+    "alpha0_handling": "explicit table3 coefficient included",
+    "observable": "PUBLICATION_MODEL_EXTRAPOLATED_FUSION_EVENT_CROSS_SECTION"
+  },
+  {
+    "E_lab_MeV": "2.30",
+    "sigma_event_b": 0.3718301100194578,
+    "alpha1_event_component_b": 0.3522898225931498,
+    "alpha0_event_component_b": 0.019540287426308034,
+    "stat_error_b_if_channel_fits_independent": 0.0004058323824854318,
+    "stat_error_b_max_positive_correlation": 0.00047040113999751164,
+    "alpha0_handling": "explicit table3 coefficient included",
+    "observable": "PUBLICATION_MODEL_EXTRAPOLATED_FUSION_EVENT_CROSS_SECTION"
+  },
+  {
+    "E_lab_MeV": "2.40",
+    "sigma_event_b": 0.48271995311076793,
+    "alpha1_event_component_b": 0.4465463986602736,
+    "alpha0_event_component_b": 0.03617355445049431,
+    "stat_error_b_if_channel_fits_independent": 0.0006086957893111927,
+    "stat_error_b_max_positive_correlation": 0.0007225663103256524,
+    "alpha0_handling": "explicit table3 coefficient included",
+    "observable": "PUBLICATION_MODEL_EXTRAPOLATED_FUSION_EVENT_CROSS_SECTION"
+  },
+  {
+    "E_lab_MeV": "2.50",
+    "sigma_event_b": 0.5970337133154705,
+    "alpha1_event_component_b": 0.5395191105296304,
+    "alpha0_event_component_b": 0.057514602785840016,
+    "stat_error_b_if_channel_fits_independent": 0.0008067550125406325,
+    "stat_error_b_max_positive_correlation": 0.0009764069967357076,
+    "alpha0_handling": "explicit table3 coefficient included",
+    "observable": "PUBLICATION_MODEL_EXTRAPOLATED_FUSION_EVENT_CROSS_SECTION"
+  },
+  {
+    "E_lab_MeV": "2.60",
+    "sigma_event_b": 0.7022531911065613,
+    "alpha1_event_component_b": 0.6302566839457133,
+    "alpha0_event_component_b": 0.071996507160848,
+    "stat_error_b_if_channel_fits_independent": 0.0009092828337050144,
+    "stat_error_b_max_positive_correlation": 0.0011075161301455215,
+    "alpha0_handling": "explicit table3 coefficient included",
+    "observable": "PUBLICATION_MODEL_EXTRAPOLATED_FUSION_EVENT_CROSS_SECTION"
+  },
+  {
+    "E_lab_MeV": "2.70",
+    "sigma_event_b": 0.6092700072616926,
+    "alpha1_event_component_b": 0.5544559175208783,
+    "alpha0_event_component_b": 0.05481408974081423,
+    "stat_error_b_if_channel_fits_independent": 0.0007794501218259023,
+    "stat_error_b_max_positive_correlation": 0.0009403834009745447,
+    "alpha0_handling": "explicit table3 coefficient included",
+    "observable": "PUBLICATION_MODEL_EXTRAPOLATED_FUSION_EVENT_CROSS_SECTION"
+  },
+  {
+    "E_lab_MeV": "2.80",
+    "sigma_event_b": 0.44383331924463354,
+    "alpha1_event_component_b": 0.41405060200958177,
+    "alpha0_event_component_b": 0.029782717235051714,
+    "stat_error_b_if_channel_fits_independent": 0.0005260920391963328,
+    "stat_error_b_max_positive_correlation": 0.0006216164663903004,
+    "alpha0_handling": "explicit table3 coefficient included",
+    "observable": "PUBLICATION_MODEL_EXTRAPOLATED_FUSION_EVENT_CROSS_SECTION"
+  },
+  {
+    "E_lab_MeV": "2.90",
+    "sigma_event_b": 0.34401947521281956,
+    "alpha1_event_component_b": 0.33246721070703916,
+    "alpha0_event_component_b": 0.011552264505780386,
+    "stat_error_b_if_channel_fits_independent": 0.0007953375434219424,
+    "stat_error_b_max_positive_correlation": 0.0009014276520700312,
+    "alpha0_handling": "explicit table3 coefficient included",
+    "observable": "PUBLICATION_MODEL_EXTRAPOLATED_FUSION_EVENT_CROSS_SECTION"
+  },
+  {
+    "E_lab_MeV": "3.00",
+    "sigma_event_b": 0.3514126899242675,
+    "alpha1_event_component_b": 0.34591532165950584,
+    "alpha0_event_component_b": 0.005497368264761659,
+    "stat_error_b_if_channel_fits_independent": 0.00026766992147928356,
+    "stat_error_b_max_positive_correlation": 0.0002923775562940901,
+    "alpha0_handling": "explicit table3 coefficient included",
+    "observable": "PUBLICATION_MODEL_EXTRAPOLATED_FUSION_EVENT_CROSS_SECTION"
+  },
+  {
+    "E_lab_MeV": "3.10",
+    "sigma_event_b": 0.40387644948117607,
+    "alpha1_event_component_b": 0.39800083346092224,
+    "alpha0_event_component_b": 0.00587561602025387,
+    "stat_error_b_if_channel_fits_independent": 0.0003440422488002795,
+    "stat_error_b_max_positive_correlation": 0.000373640086266946,
+    "alpha0_handling": "explicit table3 coefficient included",
+    "observable": "PUBLICATION_MODEL_EXTRAPOLATED_FUSION_EVENT_CROSS_SECTION"
+  },
+  {
+    "E_lab_MeV": "3.20",
+    "sigma_event_b": 0.4565559317336312,
+    "alpha1_event_component_b": 0.44961636300136154,
+    "alpha0_event_component_b": 0.006939568732269613,
+    "stat_error_b_if_channel_fits_independent": 0.00048121178472659284,
+    "stat_error_b_max_positive_correlation": 0.0005231798965778202,
+    "alpha0_handling": "explicit table3 coefficient included",
+    "observable": "PUBLICATION_MODEL_EXTRAPOLATED_FUSION_EVENT_CROSS_SECTION"
+  },
+  {
+    "E_lab_MeV": "3.30",
+    "sigma_event_b": 0.5364721845346688,
+    "alpha1_event_component_b": 0.5289889108338179,
+    "alpha0_event_component_b": 0.007483273700850886,
+    "stat_error_b_if_channel_fits_independent": 0.00045076131725090257,
+    "stat_error_b_max_positive_correlation": 0.0004884129378780931,
+    "alpha0_handling": "explicit table3 coefficient included",
+    "observable": "PUBLICATION_MODEL_EXTRAPOLATED_FUSION_EVENT_CROSS_SECTION"
+  },
+  {
+    "E_lab_MeV": "3.40",
+    "sigma_event_b": 0.5981286630750016,
+    "alpha1_event_component_b": 0.590012882053228,
+    "alpha0_event_component_b": 0.008115781021773632,
+    "stat_error_b_if_channel_fits_independent": 0.0004275917779664846,
+    "stat_error_b_max_positive_correlation": 0.0004628613176288962,
+    "alpha0_handling": "explicit table3 coefficient included",
+    "observable": "PUBLICATION_MODEL_EXTRAPOLATED_FUSION_EVENT_CROSS_SECTION"
+  },
+  {
+    "E_lab_MeV": "3.50",
+    "sigma_event_b": 0.6523755906220878,
+    "alpha1_event_component_b": 0.6431229719387351,
+    "alpha0_event_component_b": 0.009252618683352658,
+    "stat_error_b_if_channel_fits_independent": 0.0008028044551013824,
+    "stat_error_b_max_positive_correlation": 0.0008708494835750905,
+    "alpha0_handling": "explicit table3 coefficient included",
+    "observable": "PUBLICATION_MODEL_EXTRAPOLATED_FUSION_EVENT_CROSS_SECTION"
+  },
+  {
+    "E_lab_MeV": "3.60",
+    "sigma_event_b": 0.6852810509548076,
+    "alpha1_event_component_b": 0.6738557067922323,
+    "alpha0_event_component_b": 0.011425344162575358,
+    "stat_error_b_if_channel_fits_independent": 0.0003972952133664724,
+    "stat_error_b_max_positive_correlation": 0.00043395866521587004,
+    "alpha0_handling": "explicit table3 coefficient included",
+    "observable": "PUBLICATION_MODEL_EXTRAPOLATED_FUSION_EVENT_CROSS_SECTION"
+  },
+  {
+    "E_lab_MeV": "3.70",
+    "sigma_event_b": 0.6880812572067074,
+    "alpha1_event_component_b": 0.6754185444176383,
+    "alpha0_event_component_b": 0.01266271278906926,
+    "stat_error_b_if_channel_fits_independent": 0.00036720283389288336,
+    "stat_error_b_max_positive_correlation": 0.00040296161770045076,
+    "alpha0_handling": "explicit table3 coefficient included",
+    "observable": "PUBLICATION_MODEL_EXTRAPOLATED_FUSION_EVENT_CROSS_SECTION"
+  },
+  {
+    "E_lab_MeV": "3.80",
+    "sigma_event_b": 0.6516396201831068,
+    "alpha1_event_component_b": 0.6397267008406943,
+    "alpha0_event_component_b": 0.011912919342412493,
+    "stat_error_b_if_channel_fits_independent": 0.0003613265581353632,
+    "stat_error_b_max_positive_correlation": 0.0003966784323932712,
+    "alpha0_handling": "explicit table3 coefficient included",
+    "observable": "PUBLICATION_MODEL_EXTRAPOLATED_FUSION_EVENT_CROSS_SECTION"
+  }
+]
