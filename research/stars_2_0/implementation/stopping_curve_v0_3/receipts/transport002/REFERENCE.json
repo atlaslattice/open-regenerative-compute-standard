@@ -1,0 +1,51 @@
+[
+  {
+    "status": "WITHIN_SUPPLIED_CURVE_DOMAIN_CSDA_MODEL",
+    "E_in_LAB_MeV": 0.65,
+    "E_out_LAB_MeV": 0.65,
+    "primary_energy_loss_MeV": 0.0,
+    "atoms_cm2": 0,
+    "material": "OVERLEY_COLD_B10_ENRICHED_95.96_PERCENT",
+    "qualification": "conditional on supplied stopping curve; no independent transmission validation",
+    "interpolation": "piecewise linear atomic stopping versus LAB proton energy"
+  },
+  {
+    "status": "WITHIN_SUPPLIED_CURVE_DOMAIN_CSDA_MODEL",
+    "E_in_LAB_MeV": 0.65,
+    "E_out_LAB_MeV": 0.64945039835223,
+    "primary_energy_loss_MeV": 0.0005496016477700705,
+    "atoms_cm2": 1e+17,
+    "material": "OVERLEY_COLD_B10_ENRICHED_95.96_PERCENT",
+    "qualification": "conditional on supplied stopping curve; no independent transmission validation",
+    "interpolation": "piecewise linear atomic stopping versus LAB proton energy"
+  },
+  {
+    "status": "WITHIN_SUPPLIED_CURVE_DOMAIN_CSDA_MODEL",
+    "E_in_LAB_MeV": 0.65,
+    "E_out_LAB_MeV": 0.6444886966423151,
+    "primary_energy_loss_MeV": 0.005511303357684905,
+    "atoms_cm2": 1e+18,
+    "material": "OVERLEY_COLD_B10_ENRICHED_95.96_PERCENT",
+    "qualification": "conditional on supplied stopping curve; no independent transmission validation",
+    "interpolation": "piecewise linear atomic stopping versus LAB proton energy"
+  },
+  {
+    "status": "WITHIN_SUPPLIED_CURVE_DOMAIN_CSDA_MODEL",
+    "E_in_LAB_MeV": 0.65,
+    "E_out_LAB_MeV": 0.5936512357150621,
+    "primary_energy_loss_MeV": 0.05634876428493796,
+    "atoms_cm2": 1e+19,
+    "material": "OVERLEY_COLD_B10_ENRICHED_95.96_PERCENT",
+    "qualification": "conditional on supplied stopping curve; no independent transmission validation",
+    "interpolation": "piecewise linear atomic stopping versus LAB proton energy"
+  },
+  {
+    "status": "LOW_ENERGY_DATA_BOUNDARY_REACHED",
+    "E_out_LAB_MeV": null,
+    "boundary_energy_MeV": 0.09898212970495418,
+    "covered_atoms_cm2": 7.083356638537509e+19,
+    "unmodeled_atoms_cm2": 9.999291664336146e+23,
+    "stopped": null,
+    "stopped_status": "UNKNOWN_NOT_ZERO_ENERGY"
+  }
+]

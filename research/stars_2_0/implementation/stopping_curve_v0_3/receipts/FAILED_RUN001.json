@@ -1,0 +1,8 @@
+{
+  "status": "FAILED_POINT_COUNT_26_EXPECTED_27",
+  "cause": "right ROI clipped final dot at x=2530; component fell below size threshold",
+  "correction": "ROI right boundary extended to x=2540 while preserving the right plot border exclusion",
+  "new_run": "run002",
+  "original_failed_raster": "run001/figure7-087.png retained locally",
+  "scientific_impact": "no curve or transport output produced from failed run"
+}

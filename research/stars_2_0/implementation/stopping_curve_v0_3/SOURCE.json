@@ -1,0 +1,48 @@
+{
+  "title": "A Study of the Elastic Scattering of Protons by B10",
+  "author": "Jack Castle Overley",
+  "year": 1961,
+  "doi": "10.7907/XZP6-5P63",
+  "landing": "https://thesis.caltech.edu/6305/",
+  "pdf_url": "https://thesis.caltech.edu/6305/1/Overley_jc_1961.pdf",
+  "pdf_sha256": "bccb8fcf07b54f916c8bca62217ddf22f9fbff4c0da419c7537c9e851addcc02",
+  "bytes": 27603374,
+  "visual_checks": [
+    "PDF page 37 = printed page 32: composition and both absolute anchors",
+    "PDF page 39 = printed page 34: Table III uncertainty budget"
+  ],
+  "stopping_observable": "measured energy-loss atomic stopping cross section; no separate electronic/nuclear decomposition recovered",
+  "target": {
+    "B10_fraction": 0.9596,
+    "B11_fraction": 0.0404,
+    "molar_mass_g_mol_as_reported": 10.05,
+    "substrate": "tungsten",
+    "absolute_calibration_deposit_mass_microgram": 909,
+    "absolute_calibration_deposit_mass_error_microgram": 7
+  },
+  "uncertainty": {
+    "reported_total_probable_error_relative": 0.04,
+    "interpretation": "source probable error / abstract absolute accuracy; NOT silently converted to Gaussian 1-sigma",
+    "correlation": "shared target normalization; full covariance unavailable"
+  },
+  "anchors": [
+    {
+      "E_proton_LAB_MeV": 1.805,
+      "epsilon_eV_cm2_atom": 2.72e-15
+    },
+    {
+      "E_proton_LAB_MeV": 2.642,
+      "epsilon_eV_cm2_atom": 2.1e-15
+    }
+  ],
+  "secondary_text_anchor": {
+    "E_proton_LAB_MeV": 0.5,
+    "epsilon_eV_cm2_atom": 6.4e-15,
+    "page": "printed 35 / PDF 40",
+    "status": "not a separately reported absolute normalization point; not used in anchor qualification"
+  },
+  "published_followup": "10.1103/PhysRev.128.315",
+  "ancestry": "thesis and 1962 article are related, not independent validation",
+  "curve_source": "Printed page 82, figure 7 / PDF page 87",
+  "transcription": "new direct scan digitization, independent of headerless mirror"
+}
