@@ -59,6 +59,15 @@ license_notice: "Original research; external source rights remain with respectiv
 - **[ARC June 2026 published physics basis](https://doi.org/10.1017/S0022377826101706)** — CFS ARC design reference.
 - **[ARC physics-basis collection](https://www.cambridge.org/core/journals/journal-of-plasma-physics/collections/arc-fusion-power-plant-physics-basis)**.
 
+
+## Public reviewer downloads (byte-verified GitHub objects)
+
+- **[Executive pitch — PDF](downloads/Beyond_Q_v2_3_Executive_Pitch.pdf)** · [editable DOCX](downloads/Beyond_Q_v2_3_Executive_Pitch.docx)
+- **[Full technical screening white paper — PDF](downloads/Beyond_Q_v2_3_Technical_White_Paper.pdf)** · [editable DOCX](downloads/Beyond_Q_v2_3_Technical_White_Paper.docx)
+- **[Reproducibility bundle — ZIP](downloads/Beyond_Q_v2_3_Reproducibility_Package.zip)** · [source code / CSVs / model outputs](source/)
+
+GitHub objects were checked against their original local Git blob SHA-1 identifiers. The papers are **2 pages (executive)** and **14 pages (technical)**. They are **pre-feasibility research, not peer-reviewed results**. See [discovery metadata and citation](DISCOVERY_AND_METADATA.md).
+
 ## Executive conclusion
 
 Design **the quantum computer first**; derive the actual QPU/refrigerator/control/decoder/network loads; then size clean electricity and isotope facilities. Do not allocate 320 MW of conventional AI to a hypothetical 400 MW quantum campus merely because a large ARC design targets 400 MWe. Google, Microsoft and China pursue materially different qubit platforms, cryogenic configurations and error-correction systems.
