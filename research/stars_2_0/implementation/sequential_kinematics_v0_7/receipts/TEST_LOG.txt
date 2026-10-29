@@ -1,0 +1,19 @@
+test_all_published_rows_reparse (test_sequential.PublishedDataTests.test_all_published_rows_reparse) ... ok
+test_error_mutation_cannot_drop_column (test_sequential.PublishedDataTests.test_error_mutation_cannot_drop_column) ... ok
+test_no_automatic_event_cross_section_or_covariance (test_sequential.PublishedDataTests.test_no_automatic_event_cross_section_or_covariance) ... ok
+test_published_numerical_anchors (test_sequential.PublishedDataTests.test_published_numerical_anchors) ... ok
+test_upper_limit_is_not_zero_or_gaussian_error (test_sequential.PublishedDataTests.test_upper_limit_is_not_zero_or_gaussian_error) ... ok
+test_forbidden_branch_cannot_generate (test_sequential.SequentialTests.test_forbidden_branch_cannot_generate) ... ok
+test_full_grid_physical_closure (test_sequential.SequentialTests.test_full_grid_physical_closure) ... ok
+test_identical_alpha_export_permutations_conserve (test_sequential.SequentialTests.test_identical_alpha_export_permutations_conserve) ... ok
+test_inputs_are_not_silently_repaired (test_sequential.SequentialTests.test_inputs_are_not_silently_repaired) ... ok
+test_no_implicit_probability_or_calibrated_promotion (test_sequential.SequentialTests.test_no_implicit_probability_or_calibrated_promotion) ... ok
+test_nonrelativistic_mutation_is_detected (test_sequential.SequentialTests.test_nonrelativistic_mutation_is_detected) ... ok
+test_recover_rest_frames (test_sequential.SequentialTests.test_recover_rest_frames) ... ok
+test_repeat_seed (test_sequential.SequentialTests.test_repeat_seed) ... ok
+test_selection_rules (test_sequential.SequentialTests.test_selection_rules) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.346s
+
+OK

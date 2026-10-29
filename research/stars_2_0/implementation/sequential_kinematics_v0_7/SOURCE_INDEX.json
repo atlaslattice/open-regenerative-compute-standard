@@ -1,0 +1,64 @@
+[
+  {
+    "id": "PDG_KINEMATICS",
+    "url": "https://pdg.lbl.gov/2025/reviews/rpp2025-rev-kinematics.pdf",
+    "scope": "Lorentz boosts, invariant two-body kinematics; mass sources inherited in hash-pinned v0.5 MASS_SOURCE.json"
+  },
+  {
+    "id": "KUHLWEIN2022",
+    "doi": "10.1016/j.physletb.2021.136857",
+    "url": "https://scoap3-prod-backend.s3.cern.ch/media/files/66775/10.1016/j.physletb.2021.136857_a.pdf",
+    "sha256": "4c7c6f697b93c137f94f0ca3a49737e96294420f515c85d6bbc81110a8238318",
+    "bytes": 1843463,
+    "locators": [
+      "Figure1 / page2: ground-state exclusion",
+      "Equations1-4 / page2: coherent symmetrized amplitude",
+      "Table2 / page4: fit results, statistical errors only"
+    ],
+    "rights": "CC BY4.0; paper downloaded for inspection, not bundled"
+  },
+  {
+    "id": "MAZZUCCONI2025",
+    "doi": "10.1140/epja/s10050-025-01589-3",
+    "url": "https://inspirehep.net/files/4183e926f091677ca2e75076f79700c9",
+    "sha256": "7707a7750640021307b29a4aa1dcc4bea8ce6a3769fc1030f8f96ab6d951b71b",
+    "bytes": 1391607,
+    "locators": [
+      "Table2 / PDFpage10:28 numerical rows",
+      "Sec2.3: energy calibration/FWHM comparison",
+      "Sec2.4: Counts normalization and uncertainty sources",
+      "Sec3.2:possibleAl support alphas"
+    ],
+    "rights": "CC BY4.0; attributed structured transcription, added qualifications; PDF not bundled"
+  },
+  {
+    "id": "MUNCH2020",
+    "doi": "10.1140/epja/s10050-019-00016-8",
+    "url": "https://link.springer.com/article/10.1140/epja/s10050-019-00016-8",
+    "recovery": "primary abstract and data statement read; numericTable1 NOT_RECOVERED"
+  },
+  {
+    "id": "KAMKE_KRAMER1962",
+    "doi": "10.1007/BF01378142",
+    "url": "https://link.springer.com/article/10.1007/BF01378142",
+    "recovery": "primary abstract and material qualification read; numeric stopping table NOT_RECOVERED"
+  },
+  {
+    "id": "LAHMANN2023",
+    "doi": "10.1088/1361-6587/ace4f2",
+    "url": "https://www2.psfc.mit.edu/research/hedp/Papers/Lahmann_PFCF-2023.pdf",
+    "recovery": "indexed author-paper text confirms experiment; directPDF HTTP503 / web502; numeric data NOT_RECOVERED"
+  },
+  {
+    "id": "BIKCHURINA2024",
+    "doi": "10.1134/S1547477124700328",
+    "url": "https://bnct.inp.nsk.su/publics/2024/PHP_p_11B_2024.pdf",
+    "recovery": "primary paper read with web PDF; no new numerical cross sections imported"
+  },
+  {
+    "id": "SIKORA2016",
+    "doi": "10.1007/s10894-016-0069-y",
+    "url": "https://link.springer.com/article/10.1007/s10894-016-0069-y",
+    "recovery": "previous41eventnodes preserved; sequentialmodel ancestry retained"
+  }
+]

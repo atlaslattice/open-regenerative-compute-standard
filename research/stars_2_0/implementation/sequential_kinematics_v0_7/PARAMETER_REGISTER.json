@@ -1,0 +1,90 @@
+{
+  "policy": "No undocumented physical defaults. Numerical verification inputs do not authorize calibrated predictions.",
+  "entries": [
+    {
+      "quantity": "p,B11,alpha nuclear masses and Q",
+      "classification": "EVALUATED_CONSTANTS_AND_DERIVED_QUANTITY",
+      "value_reference": "../coupled_reference_v0_5/MASS_SOURCE.json",
+      "uncertainty": "B11 atomic mass0.00000045u; full covariance not propagated",
+      "used_by": "kinematic map"
+    },
+    {
+      "quantity": "parent2minus to Be8groundstate0plus",
+      "classification": "DERIVED_SELECTION_RULE",
+      "value": "FORBIDDEN for pure specified parent",
+      "source": "KUHLWEIN2022 Figure1 + angular momentum/parity conservation",
+      "scope": "not whole finite-energy reaction"
+    },
+    {
+      "quantity": "E_lambda_b formal Rmatrix level energy",
+      "classification": "PUBLISHED_MODEL_PARAMETER_NOT_MASS_OR_BREIT_WIGNER_CENTROID",
+      "value": 3.037,
+      "unit": "MeV",
+      "source": "KUHLWEIN2022 page2 afterEq3, citing Bhattacharya2006 DOI10.1103/PhysRevC.73.055802",
+      "uncertainty": null,
+      "used_by": "not installed as sampler default"
+    },
+    {
+      "quantity": "gamma_lambda_l2_squared",
+      "classification": "PUBLISHED_MODEL_PARAMETER_NOT_FULL_WIDTH",
+      "value": 1.075,
+      "unit": "MeV",
+      "source": "KUHLWEIN2022 page2 afterEq3",
+      "uncertainty": null,
+      "used_by": "not installed as sampler default"
+    },
+    {
+      "quantity": "coherent l1/l3 mixture, fixed relative phase",
+      "classification": "PUBLISHED_FIT_WITH_STATISTICAL_ERRORS_ONLY",
+      "reported_l1_percent": 85,
+      "reported_l1_plus_minus_percent": 1,
+      "reported_l3_percent": 15,
+      "reported_l3_plus_minus_percent": 1,
+      "delta_radians": 0,
+      "chi_squared": 15360,
+      "source": "KUHLWEIN2022 Table2 row3; Eq4 amplitude convention",
+      "scope": "specific resonance/model/data/acceptance; covariance unavailable; NOT energy-independent branch probabilities"
+    },
+    {
+      "quantity": "coherent l1/l3 mixture, floating relative phase",
+      "classification": "PUBLISHED_FIT_WITH_STATISTICAL_ERRORS_ONLY",
+      "reported_l1_percent": 76,
+      "reported_l1_plus_minus_percent": 5,
+      "reported_l3_percent": 25,
+      "reported_l3_plus_minus_percent": 5,
+      "delta_as_fraction_of_2pi": 0.67,
+      "reported_delta_plus_minus_fraction_of_2pi": 0.01,
+      "chi_squared": 12297,
+      "approx_degrees_of_freedom": 5350,
+      "source": "KUHLWEIN2022 Table2 row4; rounded percentages preserved as printed, not forced to sum100",
+      "scope": "not a validated universal source; fitted model still discrepant"
+    },
+    {
+      "quantity": "2025 differential quantities and errors",
+      "classification": "PUBLISHED_MEASUREMENT_TRANSCRIPTION",
+      "value_reference": "MAZZUCCONI2025_TABLE2.json",
+      "source": "MAZZUCCONI2025 Table2",
+      "used_by": "source fixture; no event cross-section conversion or fit yet"
+    },
+    {
+      "quantity": "decay branch probabilities / widths / angular laws / amplitude radii and convention",
+      "classification": "UNRESOLVED_FOR_COMPLETE_SOURCE",
+      "value": null,
+      "source": "candidate papers recorded; no arbitrary substitute",
+      "used_by": "calibrated promotion blocked"
+    },
+    {
+      "quantity": "test energy grid, pair fractions, direction draws, seed and tolerances",
+      "classification": "NUMERICAL_VERIFICATION_CONTROLS_NOT_PHYSICAL_ESTIMATES",
+      "value_reference": "verify_sequential.py",
+      "source": "our explicitly declared test design",
+      "used_by": "verification only"
+    },
+    {
+      "quantity": "new apparatus efficiency / acoustic multiplier / gain",
+      "classification": "UNMEASURED_FOR_THIS_APPARATUS",
+      "value": null,
+      "used_by": "not used in this module"
+    }
+  ]
+}

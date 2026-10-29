@@ -1,0 +1,18 @@
+[
+  {
+    "file": "../coupled_reference_v0_5/kinematics.py",
+    "sha256": "388e871b413f35927a31e01902edf2774dba961df7b2b1d0af84c294ec4bc6aa"
+  },
+  {
+    "file": "../coupled_reference_v0_5/MASS_SOURCE.json",
+    "sha256": "ae8cd1bb6bb9a9aae17f00addc7badf65ef2e5565f44fae649a36b438c737136"
+  },
+  {
+    "file": "../calibration_reference_v0_6/receipts/gemini_original_run003/REPRODUCTION.json",
+    "sha256": "6c41b81edad9399f0816f3685a7793f1e6eac6a5838b9aeaff51eb4b5b4823d0"
+  },
+  {
+    "file": "MAZZUCCONI2025_TABLE2.json",
+    "sha256": "0f18673c871e7c65cbf77542de9b4ab8af01ade5e879d0095540ab95287298c0"
+  }
+]

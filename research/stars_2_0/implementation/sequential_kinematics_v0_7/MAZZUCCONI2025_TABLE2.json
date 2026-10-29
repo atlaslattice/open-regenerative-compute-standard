@@ -1,0 +1,609 @@
+{
+  "angular_extrapolation_to_total_cross_section": "NOT_PERFORMED; paper uses isotropy assumption for its comparison",
+  "attribution": "Mazzucconi et al., Eur.Phys.J.A61,114(2025); CC BY4.0 https://creativecommons.org/licenses/by/4.0/ ; structured transcription with added qualifications",
+  "detector_angle_degrees": 60,
+  "detector_angle_frame": "LAB",
+  "energy_uncertainty": "reported +/- preserved; Sec2.3 ties it to a FWHM comparison; NOT automatically Gaussian1sigma or an energy-distribution kernel",
+  "extraction": "pdftotext -f10 -l10 -layout, first70 text columns; matched against rendered source page",
+  "incident_energy_frame": "LAB at boron, inferred from elastic-proton spectra/FLUKA; not nominal accelerator setting",
+  "independent_campaign": "different experimental campaign from TUNL2012; complete systematic independence not established",
+  "multiplicity_to_event_cross_section": "UNRESOLVED: no division by3 or4pi conversion authorized by this fixture",
+  "observable": "PUBLISHED_60DEG_LAB_ALPHA_COUNTS_NORMALIZED_DIFFERENTIAL_QUANTITY",
+  "raw_event_spectra": "not recovered; article offers data on reasonable request",
+  "rows": [
+    {
+      "E_proton_on_boron_MeV": 4.73,
+      "alpha0": {
+        "censoring": null,
+        "limit_confidence_level": null,
+        "reported_plus_minus_mb_sr": 0.21,
+        "upper_limit_mb_sr": null,
+        "value_mb_sr": 1.81
+      },
+      "alpha1": {
+        "reported_plus_minus_mb_sr": 3.1,
+        "value_mb_sr": 43.2
+      },
+      "possible_Al_support_alpha_contribution_explicitly_flagged_by_authors": true,
+      "reported_energy_plus_minus_MeV": 0.239,
+      "source_row": "4.73 \u00b1 0.239             1.81 \u00b1 0.21     43.2 \u00b1 3.1       45.0 \u00b1 3.3",
+      "total_reported": {
+        "reported_plus_minus_mb_sr": 3.3,
+        "value_mb_sr": 45.0
+      }
+    },
+    {
+      "E_proton_on_boron_MeV": 4.65,
+      "alpha0": {
+        "censoring": null,
+        "limit_confidence_level": null,
+        "reported_plus_minus_mb_sr": 0.17,
+        "upper_limit_mb_sr": null,
+        "value_mb_sr": 0.79
+      },
+      "alpha1": {
+        "reported_plus_minus_mb_sr": 2.7,
+        "value_mb_sr": 36.1
+      },
+      "possible_Al_support_alpha_contribution_explicitly_flagged_by_authors": false,
+      "reported_energy_plus_minus_MeV": 0.052,
+      "source_row": "4.65 \u00b1 0.052             0.79 \u00b1 0.17     36.1 \u00b1 2.7       36.9 \u00b1 2.7",
+      "total_reported": {
+        "reported_plus_minus_mb_sr": 2.7,
+        "value_mb_sr": 36.9
+      }
+    },
+    {
+      "E_proton_on_boron_MeV": 4.51,
+      "alpha0": {
+        "censoring": null,
+        "limit_confidence_level": null,
+        "reported_plus_minus_mb_sr": 0.09,
+        "upper_limit_mb_sr": null,
+        "value_mb_sr": 0.63
+      },
+      "alpha1": {
+        "reported_plus_minus_mb_sr": 1.8,
+        "value_mb_sr": 24.3
+      },
+      "possible_Al_support_alpha_contribution_explicitly_flagged_by_authors": true,
+      "reported_energy_plus_minus_MeV": 0.288,
+      "source_row": "4.51 \u00b1 0.288             0.63 \u00b1 0.09     24.3 \u00b1 1.8       24.9 \u00b1 1.8",
+      "total_reported": {
+        "reported_plus_minus_mb_sr": 1.8,
+        "value_mb_sr": 24.9
+      }
+    },
+    {
+      "E_proton_on_boron_MeV": 4.32,
+      "alpha0": {
+        "censoring": null,
+        "limit_confidence_level": null,
+        "reported_plus_minus_mb_sr": 0.06,
+        "upper_limit_mb_sr": null,
+        "value_mb_sr": 0.38
+      },
+      "alpha1": {
+        "reported_plus_minus_mb_sr": 1.7,
+        "value_mb_sr": 23.7
+      },
+      "possible_Al_support_alpha_contribution_explicitly_flagged_by_authors": true,
+      "reported_energy_plus_minus_MeV": 0.062,
+      "source_row": "4.32 \u00b1 0.062             0.38 \u00b1 0.06     23.7 \u00b1 1.7       24.1 \u00b1 1.7",
+      "total_reported": {
+        "reported_plus_minus_mb_sr": 1.7,
+        "value_mb_sr": 24.1
+      }
+    },
+    {
+      "E_proton_on_boron_MeV": 4.09,
+      "alpha0": {
+        "censoring": null,
+        "limit_confidence_level": null,
+        "reported_plus_minus_mb_sr": 0.05,
+        "upper_limit_mb_sr": null,
+        "value_mb_sr": 0.2
+      },
+      "alpha1": {
+        "reported_plus_minus_mb_sr": 1.9,
+        "value_mb_sr": 26.0
+      },
+      "possible_Al_support_alpha_contribution_explicitly_flagged_by_authors": false,
+      "reported_energy_plus_minus_MeV": 0.062,
+      "source_row": "4.09 \u00b1 0.062             0.20 \u00b1 0.05     26.0 \u00b1 1.9       26.3 \u00b1 1.9",
+      "total_reported": {
+        "reported_plus_minus_mb_sr": 1.9,
+        "value_mb_sr": 26.3
+      }
+    },
+    {
+      "E_proton_on_boron_MeV": 3.85,
+      "alpha0": {
+        "censoring": null,
+        "limit_confidence_level": null,
+        "reported_plus_minus_mb_sr": 0.05,
+        "upper_limit_mb_sr": null,
+        "value_mb_sr": 0.22
+      },
+      "alpha1": {
+        "reported_plus_minus_mb_sr": 2.8,
+        "value_mb_sr": 38.7
+      },
+      "possible_Al_support_alpha_contribution_explicitly_flagged_by_authors": true,
+      "reported_energy_plus_minus_MeV": 0.052,
+      "source_row": "3.85 \u00b1 0.052             0.22 \u00b1 0.05     38.7 \u00b1 2.8       38.9 \u00b1 2.8",
+      "total_reported": {
+        "reported_plus_minus_mb_sr": 2.8,
+        "value_mb_sr": 38.9
+      }
+    },
+    {
+      "E_proton_on_boron_MeV": 3.61,
+      "alpha0": {
+        "censoring": null,
+        "limit_confidence_level": null,
+        "reported_plus_minus_mb_sr": 0.08,
+        "upper_limit_mb_sr": null,
+        "value_mb_sr": 0.41
+      },
+      "alpha1": {
+        "reported_plus_minus_mb_sr": 3.8,
+        "value_mb_sr": 53.0
+      },
+      "possible_Al_support_alpha_contribution_explicitly_flagged_by_authors": false,
+      "reported_energy_plus_minus_MeV": 0.052,
+      "source_row": "3.61 \u00b1 0.052             0.41 \u00b1 0.08     53.0 \u00b1 3.8       53.4 \u00b1 3.9",
+      "total_reported": {
+        "reported_plus_minus_mb_sr": 3.9,
+        "value_mb_sr": 53.4
+      }
+    },
+    {
+      "E_proton_on_boron_MeV": 3.36,
+      "alpha0": {
+        "censoring": null,
+        "limit_confidence_level": null,
+        "reported_plus_minus_mb_sr": 0.11,
+        "upper_limit_mb_sr": null,
+        "value_mb_sr": 0.56
+      },
+      "alpha1": {
+        "reported_plus_minus_mb_sr": 3.8,
+        "value_mb_sr": 52.5
+      },
+      "possible_Al_support_alpha_contribution_explicitly_flagged_by_authors": false,
+      "reported_energy_plus_minus_MeV": 0.061,
+      "source_row": "3.36 \u00b1 0.061             0.56 \u00b1 0.11     52.5 \u00b1 3.8       53.1 \u00b1 3.8",
+      "total_reported": {
+        "reported_plus_minus_mb_sr": 3.8,
+        "value_mb_sr": 53.1
+      }
+    },
+    {
+      "E_proton_on_boron_MeV": 3.12,
+      "alpha0": {
+        "censoring": null,
+        "limit_confidence_level": null,
+        "reported_plus_minus_mb_sr": 0.11,
+        "upper_limit_mb_sr": null,
+        "value_mb_sr": 0.72
+      },
+      "alpha1": {
+        "reported_plus_minus_mb_sr": 2.5,
+        "value_mb_sr": 35.0
+      },
+      "possible_Al_support_alpha_contribution_explicitly_flagged_by_authors": false,
+      "reported_energy_plus_minus_MeV": 0.061,
+      "source_row": "3.12 \u00b1 0.061             0.72 \u00b1 0.11     35.0 \u00b1 2.5       35.7 \u00b1 2.6",
+      "total_reported": {
+        "reported_plus_minus_mb_sr": 2.6,
+        "value_mb_sr": 35.7
+      }
+    },
+    {
+      "E_proton_on_boron_MeV": 2.97,
+      "alpha0": {
+        "censoring": null,
+        "limit_confidence_level": null,
+        "reported_plus_minus_mb_sr": 0.09,
+        "upper_limit_mb_sr": null,
+        "value_mb_sr": 0.73
+      },
+      "alpha1": {
+        "reported_plus_minus_mb_sr": 2.2,
+        "value_mb_sr": 30.6
+      },
+      "possible_Al_support_alpha_contribution_explicitly_flagged_by_authors": false,
+      "reported_energy_plus_minus_MeV": 0.071,
+      "source_row": "2.97 \u00b1 0.071             0.73 \u00b1 0.09     30.6 \u00b1 2.2       31.4 \u00b1 2.1",
+      "total_reported": {
+        "reported_plus_minus_mb_sr": 2.1,
+        "value_mb_sr": 31.4
+      }
+    },
+    {
+      "E_proton_on_boron_MeV": 2.88,
+      "alpha0": {
+        "censoring": null,
+        "limit_confidence_level": null,
+        "reported_plus_minus_mb_sr": 0.1,
+        "upper_limit_mb_sr": null,
+        "value_mb_sr": 0.52
+      },
+      "alpha1": {
+        "reported_plus_minus_mb_sr": 2.0,
+        "value_mb_sr": 27.4
+      },
+      "possible_Al_support_alpha_contribution_explicitly_flagged_by_authors": true,
+      "reported_energy_plus_minus_MeV": 0.08,
+      "source_row": "2.88 \u00b1 0.080             0.52 \u00b1 0.10     27.4 \u00b1 2.0       27.9 \u00b1 2.0",
+      "total_reported": {
+        "reported_plus_minus_mb_sr": 2.0,
+        "value_mb_sr": 27.9
+      }
+    },
+    {
+      "E_proton_on_boron_MeV": 2.82,
+      "alpha0": {
+        "censoring": null,
+        "limit_confidence_level": null,
+        "reported_plus_minus_mb_sr": 0.13,
+        "upper_limit_mb_sr": null,
+        "value_mb_sr": 1.13
+      },
+      "alpha1": {
+        "reported_plus_minus_mb_sr": 2.1,
+        "value_mb_sr": 28.9
+      },
+      "possible_Al_support_alpha_contribution_explicitly_flagged_by_authors": false,
+      "reported_energy_plus_minus_MeV": 0.052,
+      "source_row": "2.82 \u00b1 0.052             1.13 \u00b1 0.13     28.9 \u00b1 2.1       30.0 \u00b1 2.0",
+      "total_reported": {
+        "reported_plus_minus_mb_sr": 2.0,
+        "value_mb_sr": 30.0
+      }
+    },
+    {
+      "E_proton_on_boron_MeV": 2.57,
+      "alpha0": {
+        "censoring": null,
+        "limit_confidence_level": null,
+        "reported_plus_minus_mb_sr": 0.64,
+        "upper_limit_mb_sr": null,
+        "value_mb_sr": 7.53
+      },
+      "alpha1": {
+        "reported_plus_minus_mb_sr": 2.9,
+        "value_mb_sr": 39.5
+      },
+      "possible_Al_support_alpha_contribution_explicitly_flagged_by_authors": false,
+      "reported_energy_plus_minus_MeV": 0.061,
+      "source_row": "2.57 \u00b1 0.061             7.53 \u00b1 0.64     39.5 \u00b1 2.9       47.0 \u00b1 3.1",
+      "total_reported": {
+        "reported_plus_minus_mb_sr": 3.1,
+        "value_mb_sr": 47.0
+      }
+    },
+    {
+      "E_proton_on_boron_MeV": 2.38,
+      "alpha0": {
+        "censoring": null,
+        "limit_confidence_level": null,
+        "reported_plus_minus_mb_sr": 0.62,
+        "upper_limit_mb_sr": null,
+        "value_mb_sr": 7.6
+      },
+      "alpha1": {
+        "reported_plus_minus_mb_sr": 2.3,
+        "value_mb_sr": 31.7
+      },
+      "possible_Al_support_alpha_contribution_explicitly_flagged_by_authors": false,
+      "reported_energy_plus_minus_MeV": 0.08,
+      "source_row": "2.38 \u00b1 0.080             7.60 \u00b1 0.62     31.7 \u00b1 2.3       39.3 \u00b1 2.6",
+      "total_reported": {
+        "reported_plus_minus_mb_sr": 2.6,
+        "value_mb_sr": 39.3
+      }
+    },
+    {
+      "E_proton_on_boron_MeV": 2.07,
+      "alpha0": {
+        "censoring": null,
+        "limit_confidence_level": null,
+        "reported_plus_minus_mb_sr": 0.2,
+        "upper_limit_mb_sr": null,
+        "value_mb_sr": 2.18
+      },
+      "alpha1": {
+        "reported_plus_minus_mb_sr": 1.5,
+        "value_mb_sr": 20.2
+      },
+      "possible_Al_support_alpha_contribution_explicitly_flagged_by_authors": false,
+      "reported_energy_plus_minus_MeV": 0.098,
+      "source_row": "2.07 \u00b1 0.098             2.18 \u00b1 0.20     20.2 \u00b1 1.5       22.4 \u00b1 1.5",
+      "total_reported": {
+        "reported_plus_minus_mb_sr": 1.5,
+        "value_mb_sr": 22.4
+      }
+    },
+    {
+      "E_proton_on_boron_MeV": 1.99,
+      "alpha0": {
+        "censoring": null,
+        "limit_confidence_level": null,
+        "reported_plus_minus_mb_sr": 0.12,
+        "upper_limit_mb_sr": null,
+        "value_mb_sr": 1.18
+      },
+      "alpha1": {
+        "reported_plus_minus_mb_sr": 1.4,
+        "value_mb_sr": 19.2
+      },
+      "possible_Al_support_alpha_contribution_explicitly_flagged_by_authors": false,
+      "reported_energy_plus_minus_MeV": 0.089,
+      "source_row": "1.99 \u00b1 0.089             1.18 \u00b1 0.12     19.2 \u00b1 1.4       20.3 \u00b1 1.4",
+      "total_reported": {
+        "reported_plus_minus_mb_sr": 1.4,
+        "value_mb_sr": 20.3
+      }
+    },
+    {
+      "E_proton_on_boron_MeV": 1.85,
+      "alpha0": {
+        "censoring": null,
+        "limit_confidence_level": null,
+        "reported_plus_minus_mb_sr": 0.25,
+        "upper_limit_mb_sr": null,
+        "value_mb_sr": 2.81
+      },
+      "alpha1": {
+        "reported_plus_minus_mb_sr": 1.4,
+        "value_mb_sr": 19.5
+      },
+      "possible_Al_support_alpha_contribution_explicitly_flagged_by_authors": false,
+      "reported_energy_plus_minus_MeV": 0.088,
+      "source_row": "1.85 \u00b1 0.088             2.81 \u00b1 0.25     19.5 \u00b1 1.4       22.3 \u00b1 1.5",
+      "total_reported": {
+        "reported_plus_minus_mb_sr": 1.5,
+        "value_mb_sr": 22.3
+      }
+    },
+    {
+      "E_proton_on_boron_MeV": 1.63,
+      "alpha0": {
+        "censoring": null,
+        "limit_confidence_level": null,
+        "reported_plus_minus_mb_sr": 0.2,
+        "upper_limit_mb_sr": null,
+        "value_mb_sr": 1.36
+      },
+      "alpha1": {
+        "reported_plus_minus_mb_sr": 1.6,
+        "value_mb_sr": 22.1
+      },
+      "possible_Al_support_alpha_contribution_explicitly_flagged_by_authors": false,
+      "reported_energy_plus_minus_MeV": 0.078,
+      "source_row": "1.63 \u00b1 0.078             1.36 \u00b1 0.20     22.1 \u00b1 1.6       23.5 \u00b1 1.7",
+      "total_reported": {
+        "reported_plus_minus_mb_sr": 1.7,
+        "value_mb_sr": 23.5
+      }
+    },
+    {
+      "E_proton_on_boron_MeV": 1.41,
+      "alpha0": {
+        "censoring": null,
+        "limit_confidence_level": null,
+        "reported_plus_minus_mb_sr": 0.17,
+        "upper_limit_mb_sr": null,
+        "value_mb_sr": 1.7
+      },
+      "alpha1": {
+        "reported_plus_minus_mb_sr": 1.6,
+        "value_mb_sr": 22.7
+      },
+      "possible_Al_support_alpha_contribution_explicitly_flagged_by_authors": false,
+      "reported_energy_plus_minus_MeV": 0.077,
+      "source_row": "1.41 \u00b1 0.077             1.70 \u00b1 0.17     22.7 \u00b1 1.6       24.4 \u00b1 1.6",
+      "total_reported": {
+        "reported_plus_minus_mb_sr": 1.6,
+        "value_mb_sr": 24.4
+      }
+    },
+    {
+      "E_proton_on_boron_MeV": 1.19,
+      "alpha0": {
+        "censoring": null,
+        "limit_confidence_level": null,
+        "reported_plus_minus_mb_sr": 0.23,
+        "upper_limit_mb_sr": null,
+        "value_mb_sr": 1.47
+      },
+      "alpha1": {
+        "reported_plus_minus_mb_sr": 1.4,
+        "value_mb_sr": 18.8
+      },
+      "possible_Al_support_alpha_contribution_explicitly_flagged_by_authors": false,
+      "reported_energy_plus_minus_MeV": 0.085,
+      "source_row": "1.19 \u00b1 0.085             1.47 \u00b1 0.23     18.8 \u00b1 1.4       20.3 \u00b1 1.5",
+      "total_reported": {
+        "reported_plus_minus_mb_sr": 1.5,
+        "value_mb_sr": 20.3
+      }
+    },
+    {
+      "E_proton_on_boron_MeV": 1.06,
+      "alpha0": {
+        "censoring": null,
+        "limit_confidence_level": null,
+        "reported_plus_minus_mb_sr": 0.15,
+        "upper_limit_mb_sr": null,
+        "value_mb_sr": 1.51
+      },
+      "alpha1": {
+        "reported_plus_minus_mb_sr": 1.1,
+        "value_mb_sr": 15.5
+      },
+      "possible_Al_support_alpha_contribution_explicitly_flagged_by_authors": false,
+      "reported_energy_plus_minus_MeV": 0.075,
+      "source_row": "1.06 \u00b1 0.075             1.51 \u00b1 0.15     15.5 \u00b1 1.1       17.0 \u00b1 1.1",
+      "total_reported": {
+        "reported_plus_minus_mb_sr": 1.1,
+        "value_mb_sr": 17.0
+      }
+    },
+    {
+      "E_proton_on_boron_MeV": 0.9,
+      "alpha0": {
+        "censoring": null,
+        "limit_confidence_level": null,
+        "reported_plus_minus_mb_sr": 0.13,
+        "upper_limit_mb_sr": null,
+        "value_mb_sr": 1.11
+      },
+      "alpha1": {
+        "reported_plus_minus_mb_sr": 1.5,
+        "value_mb_sr": 20.6
+      },
+      "possible_Al_support_alpha_contribution_explicitly_flagged_by_authors": false,
+      "reported_energy_plus_minus_MeV": 0.09,
+      "source_row": "0.90 \u00b1 0.090             1.11 \u00b1 0.13     20.6 \u00b1 1.5       21.7 \u00b1 1.5",
+      "total_reported": {
+        "reported_plus_minus_mb_sr": 1.5,
+        "value_mb_sr": 21.7
+      }
+    },
+    {
+      "E_proton_on_boron_MeV": 0.75,
+      "alpha0": {
+        "censoring": null,
+        "limit_confidence_level": null,
+        "reported_plus_minus_mb_sr": 0.13,
+        "upper_limit_mb_sr": null,
+        "value_mb_sr": 0.86
+      },
+      "alpha1": {
+        "reported_plus_minus_mb_sr": 3.4,
+        "value_mb_sr": 47.4
+      },
+      "possible_Al_support_alpha_contribution_explicitly_flagged_by_authors": false,
+      "reported_energy_plus_minus_MeV": 0.087,
+      "source_row": "0.75 \u00b1 0.087             0.86 \u00b1 0.13     47.4 \u00b1 3.4       48.2 \u00b1 3.2",
+      "total_reported": {
+        "reported_plus_minus_mb_sr": 3.2,
+        "value_mb_sr": 48.2
+      }
+    },
+    {
+      "E_proton_on_boron_MeV": 0.71,
+      "alpha0": {
+        "censoring": null,
+        "limit_confidence_level": null,
+        "reported_plus_minus_mb_sr": 0.27,
+        "upper_limit_mb_sr": null,
+        "value_mb_sr": 0.98
+      },
+      "alpha1": {
+        "reported_plus_minus_mb_sr": 3.5,
+        "value_mb_sr": 46.6
+      },
+      "possible_Al_support_alpha_contribution_explicitly_flagged_by_authors": false,
+      "reported_energy_plus_minus_MeV": 0.086,
+      "source_row": "0.71 \u00b1 0.086             0.98 \u00b1 0.27     46.6 \u00b1 3.5       47.6 \u00b1 3.6",
+      "total_reported": {
+        "reported_plus_minus_mb_sr": 3.6,
+        "value_mb_sr": 47.6
+      }
+    },
+    {
+      "E_proton_on_boron_MeV": 0.69,
+      "alpha0": {
+        "censoring": null,
+        "limit_confidence_level": null,
+        "reported_plus_minus_mb_sr": 0.37,
+        "upper_limit_mb_sr": null,
+        "value_mb_sr": 1.71
+      },
+      "alpha1": {
+        "reported_plus_minus_mb_sr": 4.2,
+        "value_mb_sr": 55.4
+      },
+      "possible_Al_support_alpha_contribution_explicitly_flagged_by_authors": false,
+      "reported_energy_plus_minus_MeV": 0.085,
+      "source_row": "0.69 \u00b1 0.085             1.71 \u00b1 0.37     55.4 \u00b1 4.2       57.1 \u00b1 4.2",
+      "total_reported": {
+        "reported_plus_minus_mb_sr": 4.2,
+        "value_mb_sr": 57.1
+      }
+    },
+    {
+      "E_proton_on_boron_MeV": 0.58,
+      "alpha0": {
+        "censoring": null,
+        "limit_confidence_level": null,
+        "reported_plus_minus_mb_sr": 0.32,
+        "upper_limit_mb_sr": null,
+        "value_mb_sr": 0.47
+      },
+      "alpha1": {
+        "reported_plus_minus_mb_sr": 12.5,
+        "value_mb_sr": 80.0
+      },
+      "possible_Al_support_alpha_contribution_explicitly_flagged_by_authors": false,
+      "reported_energy_plus_minus_MeV": 0.059,
+      "source_row": "0.58 \u00b1 0.059             0.47 \u00b1 0.32     80.0 \u00b1 12.5      80.5 \u00b1 12.6",
+      "total_reported": {
+        "reported_plus_minus_mb_sr": 12.6,
+        "value_mb_sr": 80.5
+      }
+    },
+    {
+      "E_proton_on_boron_MeV": 0.43,
+      "alpha0": {
+        "censoring": null,
+        "limit_confidence_level": null,
+        "reported_plus_minus_mb_sr": 0.39,
+        "upper_limit_mb_sr": null,
+        "value_mb_sr": 0.43
+      },
+      "alpha1": {
+        "reported_plus_minus_mb_sr": 7.1,
+        "value_mb_sr": 46.2
+      },
+      "possible_Al_support_alpha_contribution_explicitly_flagged_by_authors": false,
+      "reported_energy_plus_minus_MeV": 0.044,
+      "source_row": "0.43 \u00b1 0.044             0.43 \u00b1 0.39     46.2 \u00b1 7.1       46.6 \u00b1 7.2",
+      "total_reported": {
+        "reported_plus_minus_mb_sr": 7.2,
+        "value_mb_sr": 46.6
+      }
+    },
+    {
+      "E_proton_on_boron_MeV": 0.34,
+      "alpha0": {
+        "censoring": "LESS_THAN",
+        "limit_confidence_level": null,
+        "reported_plus_minus_mb_sr": null,
+        "upper_limit_mb_sr": 0.001,
+        "value_mb_sr": null
+      },
+      "alpha1": {
+        "reported_plus_minus_mb_sr": 1.4,
+        "value_mb_sr": 8.8
+      },
+      "possible_Al_support_alpha_contribution_explicitly_flagged_by_authors": false,
+      "reported_energy_plus_minus_MeV": 0.035,
+      "source_row": "0.34 \u00b1 0.035             < 10\u22123          8.8 \u00b1 1.4        8.8 \u00b1 1.4",
+      "total_reported": {
+        "reported_plus_minus_mb_sr": 1.4,
+        "value_mb_sr": 8.8
+      }
+    }
+  ],
+  "source_doi": "10.1140/epja/s10050-025-01589-3",
+  "source_formula": "Counts / (Nt Np dOmega)",
+  "source_location": "Table 2, PDF page10 of12",
+  "source_pdf_sha256": "7707a7750640021307b29a4aa1dcc4bea8ce6a3769fc1030f8f96ab6d951b71b",
+  "source_total_label": "Total CS",
+  "yield_uncertainty": "reported +/- preserved; combines counting, target, geometry and integrated-charge contributions; cross-row covariance/decomposition not recovered"
+}

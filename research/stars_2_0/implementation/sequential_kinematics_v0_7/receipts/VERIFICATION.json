@@ -1,0 +1,21 @@
+{
+  "tests_passed": 14,
+  "conditional_kinematics_events": 800,
+  "kinematics_repeat_byte_identical": true,
+  "published_table_repeat_extraction_byte_identical": true,
+  "published_rows": 28,
+  "published_central_and_error_numbers": 222,
+  "upper_limit_cells": 1,
+  "source_pdf_sha256": {
+    "KUHLWEIN2022": "4c7c6f697b93c137f94f0ca3a49737e96294420f515c85d6bbc81110a8238318",
+    "MAZZUCCONI2025": "7707a7750640021307b29a4aa1dcc4bea8ce6a3769fc1030f8f96ab6d951b71b"
+  },
+  "visual_source_checks": [
+    "Kuhlwein2022 page2 equations/selection rule",
+    "Mazzucconi2025 page10 Table2"
+  ],
+  "kinematic_model": "conditional map only; no calibrated decay probability law",
+  "published_fit_uncertainty": "statistical only; not propagated into a universal source",
+  "source_fit": "NOT_RUN: amplitude and response definitions must be qualified",
+  "previous_versions_unchanged": true
+}
