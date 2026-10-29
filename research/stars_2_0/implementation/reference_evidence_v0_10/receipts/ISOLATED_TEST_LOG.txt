@@ -1,0 +1,21 @@
+test_MC_covariance_positive_semidefinite (test_evidence.EvidenceTests.test_MC_covariance_positive_semidefinite) ... ok
+test_all_attempts_and_true_zero_retained (test_evidence.EvidenceTests.test_all_attempts_and_true_zero_retained) ... ok
+test_alpha0_not_admitted_as_pure2minus_fit_data (test_evidence.EvidenceTests.test_alpha0_not_admitted_as_pure2minus_fit_data) ... ok
+test_arbitrary_amplitude_scale_cannot_change_transport (test_evidence.EvidenceTests.test_arbitrary_amplitude_scale_cannot_change_transport) ... ok
+test_bounded_energy_ledger_closes_without_heat_credit (test_evidence.EvidenceTests.test_bounded_energy_ledger_closes_without_heat_credit) ... ok
+test_calibrated_source_claim_rejected_even_with_zero_target (test_evidence.EvidenceTests.test_calibrated_source_claim_rejected_even_with_zero_target) ... ok
+test_calibration_material_and_projectile_transfer_rejected (test_evidence.EvidenceTests.test_calibration_material_and_projectile_transfer_rejected) ... ok
+test_catalog_integrity_and_module_retention (test_evidence.EvidenceTests.test_catalog_integrity_and_module_retention) ... ok
+test_event_four_momentum_conservation (test_evidence.EvidenceTests.test_event_four_momentum_conservation) ... ok
+test_missing_protons_not_zero (test_evidence.EvidenceTests.test_missing_protons_not_zero) ... ok
+test_per_depth_normalization_preserves_hazard (test_evidence.EvidenceTests.test_per_depth_normalization_preserves_hazard) ... ok
+test_proton_inventory_scales_expected_counts (test_evidence.EvidenceTests.test_proton_inventory_scales_expected_counts) ... ok
+test_shared_ancestry_preserved (test_evidence.EvidenceTests.test_shared_ancestry_preserved) ... ok
+test_unqualified_detector_and_calibration_claim_rejected (test_evidence.EvidenceTests.test_unqualified_detector_and_calibration_claim_rejected) ... ok
+test_zero_target_has_zero_nuclear_output (test_evidence.EvidenceTests.test_zero_target_has_zero_nuclear_output) ... ok
+test_spectrum_reconstruction_is_explicit_in_portable_audit (test_evidence.PackagingTests.test_spectrum_reconstruction_is_explicit_in_portable_audit) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.106s
+
+OK
