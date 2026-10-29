@@ -1,0 +1,32 @@
+[
+  {
+    "energy_domain_LAB_MeV": [
+      0.09898212970495418,
+      2.964723145468535
+    ],
+    "independent_validation": false,
+    "material": "OVERLEY_B10_ENRICHED",
+    "model": "srim96",
+    "objective": "unweighted mean squared log(observed / (scale * total_model)); one positive parameter",
+    "parameter_confidence_interval": null,
+    "projectile": "proton",
+    "statistical_likelihood": null,
+    "status": "SOURCE_SPECIFIC_DESCRIPTIVE_CALIBRATION",
+    "total_stopping_scale": 1.0282516179510761
+  },
+  {
+    "energy_domain_LAB_MeV": [
+      0.09898212970495418,
+      2.964723145468535
+    ],
+    "independent_validation": false,
+    "material": "OVERLEY_B10_ENRICHED",
+    "model": "srim13",
+    "objective": "unweighted mean squared log(observed / (scale * total_model)); one positive parameter",
+    "parameter_confidence_interval": null,
+    "projectile": "proton",
+    "statistical_likelihood": null,
+    "status": "SOURCE_SPECIFIC_DESCRIPTIVE_CALIBRATION",
+    "total_stopping_scale": 1.0734540989730181
+  }
+]

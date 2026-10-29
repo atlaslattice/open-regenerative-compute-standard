@@ -1,0 +1,4 @@
+data_status_badge,wave_packet_id,L2_energy_norm,L4_spacetime_local_smoothing_norm,Linf_peak_crest_factor,foil_rupture_exceedance_fraction
+MATHEMATICAL_PDE_DIAGNOSTIC,Packet_1_ZeroPhase_Caustic_Spike,0.707107,0.937126,5.6569,0.01956
+MATHEMATICAL_PDE_DIAGNOSTIC,Packet_2_Harmonic_Newman_Phases,0.707107,0.971061,5.1219,0.02417
+MATHEMATICAL_PDE_DIAGNOSTIC,Packet_3_Alternate_Quadratic,0.707107,0.932426,3.6228,0.03027

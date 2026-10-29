@@ -1,0 +1,54 @@
+{
+  "event_rows": 200,
+  "full_physical_momentum_audit": "not possible from exported CSV: alpha azimuths / full vectors absent; longitudinal failure alone suffices",
+  "generated_csvs": {
+    "stars_2_0_wp_b_v04_correlated_3alpha_events.csv": {
+      "bytes": 36835,
+      "rows": 200,
+      "sha256": "ab9dcbac156502a8be313c82bf193f44a2727208bb782a8c948e058f19dc0609"
+    },
+    "stars_2_0_wp_b_v04_harmonic_local_smoothing_pde.csv": {
+      "bytes": 419,
+      "rows": 3,
+      "sha256": "53d1ff8d21085a712508752bf6cd939a055b89bfcec14101fe349744d468f900"
+    },
+    "stars_2_0_wp_b_v04_s1_quality_adjusted_utility.csv": {
+      "bytes": 733,
+      "rows": 5,
+      "sha256": "8725b2dcfe5123685c5cc0c96861aff86cc22be8c928235b6192a6484ca4933c"
+    },
+    "stars_2_0_wp_b_v04_s2_collector_window_sweep.csv": {
+      "bytes": 2757,
+      "rows": 16,
+      "sha256": "e8c54466958b6b45d8ccd91c9d396f1db50d10c7245e39d22171ca9299f91293"
+    },
+    "stars_2_0_wp_b_v04_s3_deepseek_target_arms.csv": {
+      "bytes": 848,
+      "rows": 4,
+      "sha256": "e170dcb29ae4f17ff79b865e7c018bba35856eb8d015a0734871fc853f748072"
+    }
+  },
+  "mass_correct_reference_Q_MeV": 8.682559153383409,
+  "matches_Gemini_prior_claimed_hash": false,
+  "matches_Tidal_Lantern_extracted_hash": true,
+  "max_abs_physical_energy_residual_MeV": 0.0005591533834117257,
+  "max_abs_physical_longitudinal_momentum_residual_MeV_c": 0.04715335919125607,
+  "max_internal_kinetic_energy_residual_MeV": 3.552713678800501e-15,
+  "max_internal_scaled_momentum_residual": 4.440892098500626e-16,
+  "numpy": "2.3.5",
+  "physical_mass_conservation_status": "FAIL",
+  "prior_claimed_hash": "0fdfcc1d4cdf6c177ee19fa0fb23a3588b1bdca2464036b7b91b29398bc93cf8",
+  "promotion": "blocked; retain original as surrogate and implement a separately versioned mass-correct sequential model before source fit",
+  "python": "3.12.14",
+  "qualified_for_calibrated_source": false,
+  "reason": "effective target mass, Galilean kinematics, fixed uncalibrated branch ratio; main thickness sweep uses separate hard-coded spectra",
+  "reference_physical_conservation_tolerance_MeV": 1e-08,
+  "sampled_optima_um": {
+    "E_alpha_exit_4pi_uJ": 6.0,
+    "E_alpha_exit_rear_uJ": 5.5,
+    "E_collector_window_accepted_uJ": 7.0
+  },
+  "scipy": "1.17.0",
+  "seed": 20261027,
+  "source_sha256": "2db27298ea7f11c24cf891b4b784a5e21a8417c0207a3089f51bd037c44e522e"
+}

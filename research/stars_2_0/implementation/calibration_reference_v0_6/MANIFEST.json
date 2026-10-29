@@ -1,0 +1,139 @@
+{
+  "files": [
+    {
+      "file": "README.md",
+      "bytes": 11594,
+      "sha256": "43bd8479e66bff7811dd33297e4b3f67fb3119691b7e665f630c8f9d2e2ecf52",
+      "git_blob_sha1": "4b9e4a77dbbf108182e2e3e1d293426cad0a4c98"
+    },
+    {
+      "file": "requirements.txt",
+      "bytes": 27,
+      "sha256": "1668a3152e33680d94637b13421c15e68bd97cd8701f7f555c691f5bc5c0b9f3",
+      "git_blob_sha1": "871c966c09f89af68c058514f0f7ecce9f1578d3"
+    },
+    {
+      "file": "DEPENDENCY_LOCK.json",
+      "bytes": 2085,
+      "sha256": "e72d72089b76ead1d06f9ce09e0aace68f5ff6b8aee1a3376be139a85893676f",
+      "git_blob_sha1": "9c8e27e011002b83bbe8908d356df01ccef99b48"
+    },
+    {
+      "file": "OVERLEY_BENCHMARK.json",
+      "bytes": 6175,
+      "sha256": "960809ca53c71166835874bdabbc8f751b9fc6b562c458451baba27dd3a48d4d",
+      "git_blob_sha1": "cd18fcabb2da6865ff488934fe10d4fbaf0716ca"
+    },
+    {
+      "file": "calibrate.py",
+      "bytes": 7082,
+      "sha256": "7c6567d5e7d6df4b5f396adfc6f2936dfb19eb2a20c7fd02a8b66e64f35c72ef",
+      "git_blob_sha1": "b146259aa41373c83cfe22434773670df3e9cb04"
+    },
+    {
+      "file": "reproduce_gemini.py",
+      "bytes": 4210,
+      "sha256": "f0f5d8782931f8c125915fc2114782740d0e5fcb0c8d14d12474c729deee764e",
+      "git_blob_sha1": "0d18b5d4849ef282fcaefa454d788101f375624f"
+    },
+    {
+      "file": "test_calibration.py",
+      "bytes": 4447,
+      "sha256": "b456ccd7f4601f4036bc093ed3b92d35c033381137f0d2ec35fc35a3ed966d2c",
+      "git_blob_sha1": "43f9472e6f65ccafda5e022088813b89d755dfb4"
+    },
+    {
+      "file": "original/GEMINI_V04_ATTACHMENT.md",
+      "bytes": 37431,
+      "sha256": "3e07fde07ecf899f0ca550e5d8ea4e817ce691588051a95f2819e70d0c52df4d",
+      "git_blob_sha1": "4d8a538b26aca69c95fa64b538a0ea4ee0de207b"
+    },
+    {
+      "file": "original/stars_v04_original_extracted.py",
+      "bytes": 37424,
+      "sha256": "2db27298ea7f11c24cf891b4b784a5e21a8417c0207a3089f51bd037c44e522e",
+      "git_blob_sha1": "7c038d187f041f91c14947c032a441ec8ce810ec"
+    },
+    {
+      "file": "receipts/TEST_LOG.txt",
+      "bytes": 1394,
+      "sha256": "fd42bf6aa4524035f1921ca971a06541af133865bba2a0af80bb4c9ab4b7659a",
+      "git_blob_sha1": "e68de0cbb2e0ad620befb09ec2260411e07a59d4"
+    },
+    {
+      "file": "receipts/VERIFICATION.json",
+      "bytes": 719,
+      "sha256": "28ea685b63128c827045b706c3ecadd789a8ce309ea11017edacbc744096ed70",
+      "git_blob_sha1": "fcfddd9ceca1c205c71dc5909b4b6e06e619c591"
+    },
+    {
+      "file": "receipts/gemini_original_run003/REPRODUCTION.json",
+      "bytes": 2389,
+      "sha256": "6c41b81edad9399f0816f3685a7793f1e6eac6a5838b9aeaff51eb4b5b4823d0",
+      "git_blob_sha1": "15a659d1966591e1512a3826626abc65bd9faaeb"
+    },
+    {
+      "file": "receipts/gemini_original_run003/STDERR.txt",
+      "bytes": 1282,
+      "sha256": "16cbe4fc53cfa0e8d47f9581ed84961d167821e9455290d742b868580977a167",
+      "git_blob_sha1": "6a34e944bb6534ffb44211cd5e19c01db4326ad6"
+    },
+    {
+      "file": "receipts/gemini_original_run003/STDOUT.txt",
+      "bytes": 75,
+      "sha256": "08f10a292da856eb8508f19ad326eb740e779cf12174713557e808ffadd370ec",
+      "git_blob_sha1": "6002985d6a8494ba1705cf340a0952abf8391a69"
+    },
+    {
+      "file": "receipts/gemini_original_run003/stars_2_0_wp_b_v04_correlated_3alpha_events.csv",
+      "bytes": 36835,
+      "sha256": "ab9dcbac156502a8be313c82bf193f44a2727208bb782a8c948e058f19dc0609",
+      "git_blob_sha1": "dd2620f60b21cdb32b8595ed84510a7cae947789"
+    },
+    {
+      "file": "receipts/gemini_original_run003/stars_2_0_wp_b_v04_harmonic_local_smoothing_pde.csv",
+      "bytes": 419,
+      "sha256": "53d1ff8d21085a712508752bf6cd939a055b89bfcec14101fe349744d468f900",
+      "git_blob_sha1": "0a3550a8512a5edf182141fd1318481964df36e2"
+    },
+    {
+      "file": "receipts/gemini_original_run003/stars_2_0_wp_b_v04_s1_quality_adjusted_utility.csv",
+      "bytes": 733,
+      "sha256": "8725b2dcfe5123685c5cc0c96861aff86cc22be8c928235b6192a6484ca4933c",
+      "git_blob_sha1": "cdad94b65c4b7668f262bc6858428528dd666ff1"
+    },
+    {
+      "file": "receipts/gemini_original_run003/stars_2_0_wp_b_v04_s2_collector_window_sweep.csv",
+      "bytes": 2757,
+      "sha256": "e8c54466958b6b45d8ccd91c9d396f1db50d10c7245e39d22171ca9299f91293",
+      "git_blob_sha1": "8b134ab53c03f93d83bc3ae0b1042bce5de4cc29"
+    },
+    {
+      "file": "receipts/gemini_original_run003/stars_2_0_wp_b_v04_s3_deepseek_target_arms.csv",
+      "bytes": 848,
+      "sha256": "e170dcb29ae4f17ff79b865e7c018bba35856eb8d015a0734871fc853f748072",
+      "git_blob_sha1": "c402e1739a6da4cda799416d0f7759d8609d084a"
+    },
+    {
+      "file": "receipts/calibration_run002/CALIBRATION.json",
+      "bytes": 31790,
+      "sha256": "48a5f56e43d1c90466d1a79ab582fff02f5fea447afdd78002c4868ec62324ca",
+      "git_blob_sha1": "e937a97902450a873619a271e2e051403d5579a4"
+    },
+    {
+      "file": "receipts/calibration_run002/FITS.json",
+      "bytes": 1033,
+      "sha256": "689f4347804a773f563ef0b474724b0bd1c7d53966a3f3f288e9116c46ac4aa1",
+      "git_blob_sha1": "f74ac4f11f736b804786dd07c29925e0188c6cb5"
+    },
+    {
+      "file": "receipts/calibration_run002/RECEIPT.json",
+      "bytes": 446,
+      "sha256": "62f8ac5132e6825fa7fc8fc95cdcff26cc6602065500b1225e77fd7d83b6ad09",
+      "git_blob_sha1": "05b73e909e9b1f4ea5e087a017716da78c42a040"
+    }
+  ],
+  "tests_passed": 11,
+  "original_author_tests_passed": 2,
+  "earlier_versions_unchanged": true
+}

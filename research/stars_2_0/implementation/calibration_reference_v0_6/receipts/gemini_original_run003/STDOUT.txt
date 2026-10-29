@@ -1,0 +1,1 @@
+All 5 WP-B v0.4 CSV artifacts generated end-to-end from standalone script.
