@@ -1,0 +1,287 @@
+{
+  "E_proton_LAB_MeV": [
+    0.162,
+    0.675,
+    1.0,
+    2.64,
+    3.8
+  ],
+  "calibrated_source": false,
+  "events": 800,
+  "input_class": "NUMERICAL_VERIFICATION_ONLY",
+  "maximum_LAB_kinetic_energy_sum_residual_MeV": 3.055333763768431e-12,
+  "maximum_four_momentum_residual_MeV": 3.637978807091713e-12,
+  "maximum_intermediate_mass_residual_MeV": 1.8189894035458565e-12,
+  "maximum_relative_mass_shell_residual": 8.044039083244166e-16,
+  "pair_available_energy_fraction_grid": [
+    0.0001,
+    0.1,
+    0.5,
+    0.9,
+    0.9999
+  ],
+  "predicted_yield": null,
+  "rng": "NumPy default_rng PCG64",
+  "sample_events": [
+    {
+      "E_proton_LAB_MeV": 0.162,
+      "alpha_four_vectors_CM_MeV": [
+        [
+          3733.264979156277,
+          200.90468390424678,
+          -50.72722815080197,
+          -31.21187904746841
+        ],
+        [
+          3728.8473279815676,
+          -100.10784376753298,
+          24.957021054925452,
+          17.340201874331125
+        ],
+        [
+          3728.8569038638934,
+          -100.79684013671377,
+          25.77020709587651,
+          13.871677173137284
+        ]
+      ],
+      "alpha_four_vectors_LAB_MeV": [
+        [
+          3733.2208801752627,
+          200.90468390424678,
+          -50.72722815080197,
+          -25.39521560285919
+        ],
+        [
+          3728.878871350342,
+          -100.10784376753298,
+          24.957021054925452,
+          23.150041225910915
+        ],
+        [
+          3728.8830430277794,
+          -100.79684013671377,
+          25.77020709587651,
+          19.68152723456503
+        ]
+      ],
+      "channel": {
+        "pair_J": 2,
+        "pair_parity": 1,
+        "parent_J": 2,
+        "parent_parity": -1,
+        "primary_l": 1,
+        "secondary_l": 2
+      },
+      "checks": {
+        "intermediate_invariant_mass_residual_MeV": 0.0,
+        "max_four_momentum_residual_MeV": 2.842170943040401e-14,
+        "max_relative_mass_shell_residual": 2.681346361081389e-16
+      },
+      "compound_invariant_mass_MeV": 11190.969211001739,
+      "event_probability": null,
+      "event_weight": null,
+      "identical_particle_amplitude_symmetrization": "REQUIRED_IN_SOURCE_MODEL; NOT_PERFORMED_BY_COORDINATE_MAP",
+      "initial_four_vector_LAB_MeV": [
+        11190.982794553383,
+        0.0,
+        0.0,
+        17.436352857616757
+      ],
+      "mass_derived_Q_MeV": 8.682559153383409,
+      "pair_four_vector_CM_MeV": [
+        7457.704231845461,
+        -200.90468390424678,
+        50.72722815080197,
+        31.21187904746841
+      ],
+      "pair_relative_MeV": 0.0008830975601738829,
+      "primary_direction_CM": [
+        0.9587551833565319,
+        -0.2420799355283857,
+        -0.1489489953022689
+      ],
+      "secondary_direction_pair_rest": [
+        0.18984512770360826,
+        -0.2240971668431285,
+        0.9558971112520864
+      ],
+      "source_distribution_calibrated": false,
+      "status": "CONDITIONAL_KINEMATICS_ONLY"
+    },
+    {
+      "E_proton_LAB_MeV": 0.162,
+      "alpha_four_vectors_CM_MeV": [
+        [
+          3733.264979156277,
+          -166.3711013473311,
+          6.182299286565303,
+          127.24999369827115
+        ],
+        [
+          3728.877156683514,
+          83.39253314894829,
+          -4.496698000477586,
+          -64.75365045853746
+        ],
+        [
+          3728.827075161947,
+          82.97856819838279,
+          -1.6856012860877152,
+          -62.49634323973368
+        ]
+      ],
+      "alpha_four_vectors_LAB_MeV": [
+        [
+          3733.467775424064,
+          -166.3711013473311,
+          6.182299286565303,
+          133.06684948323908
+        ],
+        [
+          3728.780791830529,
+          83.39253314894829,
+          -4.496698000477586,
+          -58.943864276821635
+        ],
+        [
+          3728.734227298791,
+          82.97856819838279,
+          -1.6856012860877152,
+          -56.686632348800686
+        ]
+      ],
+      "channel": {
+        "pair_J": 2,
+        "pair_parity": 1,
+        "parent_J": 2,
+        "parent_parity": -1,
+        "primary_l": 1,
+        "secondary_l": 2
+      },
+      "checks": {
+        "intermediate_invariant_mass_residual_MeV": 0.0,
+        "max_four_momentum_residual_MeV": 1.4210854715202004e-14,
+        "max_relative_mass_shell_residual": 4.022019541622083e-16
+      },
+      "compound_invariant_mass_MeV": 11190.969211001739,
+      "event_probability": null,
+      "event_weight": null,
+      "identical_particle_amplitude_symmetrization": "REQUIRED_IN_SOURCE_MODEL; NOT_PERFORMED_BY_COORDINATE_MAP",
+      "initial_four_vector_LAB_MeV": [
+        11190.982794553383,
+        0.0,
+        0.0,
+        17.436352857616757
+      ],
+      "mass_derived_Q_MeV": 8.682559153383409,
+      "pair_four_vector_CM_MeV": [
+        7457.704231845461,
+        166.3711013473311,
+        -6.182299286565303,
+        -127.24999369827115
+      ],
+      "pair_relative_MeV": 0.0008830975601738829,
+      "primary_direction_CM": [
+        -0.7939543901002939,
+        0.029503102520401617,
+        0.6072610586742253
+      ],
+      "secondary_direction_pair_rest": [
+        0.11393072204514325,
+        -0.7747051229391118,
+        -0.6219740855262124
+      ],
+      "source_distribution_calibrated": false,
+      "status": "CONDITIONAL_KINEMATICS_ONLY"
+    },
+    {
+      "E_proton_LAB_MeV": 0.162,
+      "alpha_four_vectors_CM_MeV": [
+        [
+          3733.264979156277,
+          -181.74777411467235,
+          80.90627405755559,
+          -65.81828398468298
+        ],
+        [
+          3728.8962621436112,
+          92.67811463687957,
+          -40.339589719857294,
+          33.06869950069754
+        ],
+        [
+          3728.8079697018497,
+          89.06965947779275,
+          -40.566684337698284,
+          32.74958448398543
+        ]
+      ],
+      "alpha_four_vectors_LAB_MeV": [
+        [
+          3733.166960851901,
+          -181.74777411467235,
+          80.90627405755559,
+          -60.0016625451834
+        ],
+        [
+          3728.9523117275367,
+          92.67811463687957,
+          -40.339589719857294,
+          38.8786341864844
+        ],
+        [
+          3728.8635219739467,
+          89.06965947779275,
+          -40.566684337698284,
+          38.55938121631576
+        ]
+      ],
+      "channel": {
+        "pair_J": 2,
+        "pair_parity": 1,
+        "parent_J": 2,
+        "parent_parity": -1,
+        "primary_l": 1,
+        "secondary_l": 2
+      },
+      "checks": {
+        "intermediate_invariant_mass_residual_MeV": 0.0,
+        "max_four_momentum_residual_MeV": 2.842170943040401e-14,
+        "max_relative_mass_shell_residual": 4.022019541622083e-16
+      },
+      "compound_invariant_mass_MeV": 11190.969211001739,
+      "event_probability": null,
+      "event_weight": null,
+      "identical_particle_amplitude_symmetrization": "REQUIRED_IN_SOURCE_MODEL; NOT_PERFORMED_BY_COORDINATE_MAP",
+      "initial_four_vector_LAB_MeV": [
+        11190.982794553383,
+        0.0,
+        0.0,
+        17.436352857616757
+      ],
+      "mass_derived_Q_MeV": 8.682559153383409,
+      "pair_four_vector_CM_MeV": [
+        7457.704231845461,
+        181.74777411467235,
+        -80.90627405755559,
+        65.81828398468298
+      ],
+      "pair_relative_MeV": 0.0008830975601738829,
+      "primary_direction_CM": [
+        -0.8673347833891435,
+        0.3861000555652344,
+        -0.31409731074275427
+      ],
+      "secondary_direction_pair_rest": [
+        0.994158501327346,
+        0.06271707644356325,
+        0.08783759195775809
+      ],
+      "source_distribution_calibrated": false,
+      "status": "CONDITIONAL_KINEMATICS_ONLY"
+    }
+  ],
+  "seed": 20261029,
+  "source_amplitude_tested": false
+}
