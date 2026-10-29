@@ -1,0 +1,30 @@
+{
+  "date_UTC": "2026-10-29",
+  "queries": [
+    "11B alpha stopping power experimental Kamke Kramer",
+    "136857 data supplementary material Kuhlwein",
+    "s10050-019-00016-8 Table1"
+  ],
+  "primary_results": [
+    {
+      "url": "https://srim.org/SRIM/Citations/CITATIONxx05.pdf",
+      "finding": "SRIM bibliography identifies Kamke/Kramer1962 alpha-on-boron0.2\u20135.3MeV measurements; numeric original table not recovered, no data imported"
+    },
+    {
+      "url": "https://link.springer.com/article/10.1140/epja/s10050-025-01589-3",
+      "finding": "Mazzucconi2025 confirms60degreeLAB quantity and source-specific energy treatment; raw data offered on reasonable request, no author message sent"
+    },
+    {
+      "url": "https://scoap3-prod-backend.s3.cern.ch/media/files/66775/10.1016/j.physletb.2021.136857.pdf",
+      "finding": "Exclusive source paper recovered again; no matching numerical event/acceptance supplement found"
+    }
+  ],
+  "new_measured_numeric_dataset_imported": false,
+  "limits": "Search failures do not imply nonexistence. No author contact or purchase was made.",
+  "additional_original_source_lead": {
+    "doi": "10.1515/zna-1966-1-220",
+    "institutional_PDF_attempt": "https://zfn.mpdl.mpg.de/data/Reihe_A/21/ZNA-1966-21a-0130.pdf",
+    "result": "HTTP503; no original numerical values imported",
+    "status": "BIBLIOGRAPHIC_LEAD_NOT_CALIBRATION_DATA"
+  }
+}
