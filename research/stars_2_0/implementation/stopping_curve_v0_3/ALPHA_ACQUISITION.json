@@ -1,0 +1,39 @@
+{
+  "primary_alpha_source": {
+    "doi": "10.1007/BF01378142",
+    "publisher_url": "https://link.springer.com/article/10.1007/BF01378142",
+    "status": "abstract and additional-information footnote recovered; numerical article access-restricted",
+    "coverage_MeV": [
+      0.2,
+      5.3
+    ],
+    "reported_relative_datum_error_about": 0.02,
+    "purity_note": "O/B about 5% was estimated on a separate foil produced under worse vacuum; not established composition of main mica-backed foils"
+  },
+  "attempts": [
+    {
+      "url": "https://www-nds.iaea.org/stopping-legacy/SCSGraphs/04He/He-Files/heb.opj",
+      "direct_download": "HTTP 403",
+      "web_retrieval": "binary Origin file cannot be decoded"
+    },
+    {
+      "url": "https://nds.iaea.org/stopping/download/tuples",
+      "direct_download": "HTTP 403"
+    },
+    {
+      "url": "https://www.fis.unam.mx/~trujillo/Stopping/SCSData.zip",
+      "web_retrieval": "redirect to 404 HTML"
+    },
+    {
+      "url": "https://www.fis.unam.mx/~trujillo/Stopping/SCSLists/hscs.txt",
+      "web_retrieval": "redirect to 404 HTML"
+    }
+  ],
+  "numerical_alpha_points_acquired": 0,
+  "forbidden_fallbacks": [
+    "Do not treat article-access HTML as PDF",
+    "Do not reuse proton stopping as alpha stopping",
+    "Do not call calculated SRIM output a measurement",
+    "Do not assign 5% oxygen to a different foil without evidence"
+  ]
+}
