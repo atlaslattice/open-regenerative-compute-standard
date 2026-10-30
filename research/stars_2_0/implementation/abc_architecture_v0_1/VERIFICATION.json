@@ -1,0 +1,14 @@
+{
+  "regression_tests_passed": 10,
+  "planner_executed": true,
+  "physics_simulations_run": 0,
+  "third_finding_selection": "PROJECT_LEAD_CONFIRMED_ENN_EXL50U",
+  "retained_research_entries": {
+    "A": 3,
+    "B": 29,
+    "C": 26
+  },
+  "historical_files_changed": 0,
+  "performance_promoted": false,
+  "scientific_freeze": false
+}

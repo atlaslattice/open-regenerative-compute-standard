@@ -1,0 +1,92 @@
+{
+  "schema": "stellar-forge-abc-campaign-plan/0.1",
+  "registry_sha256": "9c1de07c375a44c1d201a81cc3bfbb3c2836c7de20c5ee49c71e0394e5b7d753",
+  "primary_configurations": [
+    {
+      "architecture_id": "SF_A_NEW_HYBRID_V0_1",
+      "alias": "A",
+      "retained_module_count": 3,
+      "planned_metrics": {
+        "fusion_events_per_attempt": null,
+        "fusion_events_per_incident_proton": null,
+        "alpha_birth_energy_J_per_attempt": null,
+        "alpha_escape_energy_J_per_attempt": null,
+        "load_electricity_J_per_attempt": null,
+        "wall_input_J_per_attempt": null,
+        "net_electricity_J_per_attempt": null,
+        "physical_success_probability": null,
+        "source_jitter_distribution": null,
+        "attempts_per_hour": null,
+        "useful_output_per_hour": null,
+        "capex_and_opex_with_price_date": null
+      },
+      "execution_status": "PLAN_ONLY_NOT_A_PHYSICS_RUN",
+      "blockers": [
+        "EXACT_RUN_CONFIGURATION_UNPINNED"
+      ]
+    },
+    {
+      "architecture_id": "SF_B_COMBINED_HYBRID_V0_1",
+      "alias": "B",
+      "retained_module_count": 29,
+      "planned_metrics": {
+        "fusion_events_per_attempt": null,
+        "fusion_events_per_incident_proton": null,
+        "alpha_birth_energy_J_per_attempt": null,
+        "alpha_escape_energy_J_per_attempt": null,
+        "load_electricity_J_per_attempt": null,
+        "wall_input_J_per_attempt": null,
+        "net_electricity_J_per_attempt": null,
+        "physical_success_probability": null,
+        "source_jitter_distribution": null,
+        "attempts_per_hour": null,
+        "useful_output_per_hour": null,
+        "capex_and_opex_with_price_date": null
+      },
+      "execution_status": "PLAN_ONLY_NOT_A_PHYSICS_RUN",
+      "blockers": [
+        "EXACT_RUN_CONFIGURATION_UNPINNED",
+        "INTEGRATION_HANDOFFS_NOT_SPECIFIED"
+      ]
+    },
+    {
+      "architecture_id": "SF_C_ORIGINAL_STARS_V0_1",
+      "alias": "C",
+      "retained_module_count": 26,
+      "planned_metrics": {
+        "fusion_events_per_attempt": null,
+        "fusion_events_per_incident_proton": null,
+        "alpha_birth_energy_J_per_attempt": null,
+        "alpha_escape_energy_J_per_attempt": null,
+        "load_electricity_J_per_attempt": null,
+        "wall_input_J_per_attempt": null,
+        "net_electricity_J_per_attempt": null,
+        "physical_success_probability": null,
+        "source_jitter_distribution": null,
+        "attempts_per_hour": null,
+        "useful_output_per_hour": null,
+        "capex_and_opex_with_price_date": null
+      },
+      "execution_status": "PLAN_ONLY_NOT_A_PHYSICS_RUN",
+      "blockers": [
+        "EXACT_RUN_CONFIGURATION_UNPINNED"
+      ]
+    }
+  ],
+  "comparisons": [
+    {
+      "pair": "A versus C",
+      "purpose": "Architecture-level comparison of new research hybrid and original STARS"
+    },
+    {
+      "pair": "B versus A",
+      "purpose": "Increment from integrating STARS; cannot isolate a single component"
+    },
+    {
+      "pair": "B versus C",
+      "purpose": "Increment from integrating A; cannot isolate a single component"
+    }
+  ],
+  "ablation_policy": "Matched source/budget component ablations and crossed factorial controls; A/B/C alone do not identify causal synergy.",
+  "historical_results": "Remain in PR42 under original scenario IDs, not assigned to A/B/C by module resemblance."
+}

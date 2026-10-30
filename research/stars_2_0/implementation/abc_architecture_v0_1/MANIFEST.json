@@ -1,0 +1,50 @@
+{
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "ABC_REGISTRY.json",
+      "sha256": "9c1de07c375a44c1d201a81cc3bfbb3c2836c7de20c5ee49c71e0394e5b7d753",
+      "git_blob": "5a4feef5bf82dcdf111d474504d0601be7262c16"
+    },
+    {
+      "path": "ORIGINAL_STARS_MODULE_COVERAGE.json",
+      "sha256": "91fb9beb2d1ed56c61e979096dd324f5f7132d5af31d8bd3c54e7dff2c1f3f55",
+      "git_blob": "9c2c89b0c3bd090826137d019ea65638b157ec99"
+    },
+    {
+      "path": "README.md",
+      "sha256": "7b73a78dc0244c7482e5253f76ef327d0bd5b9c8a2c2bb335b6f6fd6df2a8e42",
+      "git_blob": "f99fb57e1b640ef8a5ecadedbfbfe7d1f6dfece7"
+    },
+    {
+      "path": "SOURCE_BINDINGS.json",
+      "sha256": "605ae6c3cb8825a09a3ce6e95e3bc1fcae06fba40e2cf31be9da1aa498433bb1",
+      "git_blob": "f4eabf2cd29ec6fe39ccc1216485df83cd3a81d1"
+    },
+    {
+      "path": "VERIFICATION.json",
+      "sha256": "698beb097874fc6dbe0d0784b73e5b86d90644d0d1d0f6d7f6d6f1b1bce54bc6",
+      "git_blob": "e93b498d91562fa27959fed912a080f5349f72fa"
+    },
+    {
+      "path": "build_registry.py",
+      "sha256": "dcfe1223a0cf83fe107bf837ab9fcb80d83e5b34f534a017024a1fb8ce6e5366",
+      "git_blob": "7f676a5efc6110061c881eb08b2dcd85fbfaf585"
+    },
+    {
+      "path": "plan_campaign.py",
+      "sha256": "d2b715c6b66aabdbbc52a58563244246898e50185fc48b7ff6ec46a09dbd2b8f",
+      "git_blob": "5523037d0d30c337db50fb89ee98f59f8482bfe5"
+    },
+    {
+      "path": "results_final/CAMPAIGN_PLAN.json",
+      "sha256": "eb5601ec4d337876e47f488f80859ec3ccf2738607de60059ad01f566c773f6d",
+      "git_blob": "19de54eadd43b3656337a0c097f0a908351c5951"
+    },
+    {
+      "path": "test_campaign.py",
+      "sha256": "5ee23533b0ac3a819f816a5094ee79bf1e26321ae5e7d873162cae7965b82933",
+      "git_blob": "85ba190e98199f35c7556d4015b7a2fa193ed5d9"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "source_selection": "PROJECT_LEAD_CONFIRMED",
+  "confirmation": {
+    "date": "2026-10-30",
+    "quote": "Yeah ENN is third finding"
+  },
+  "A_ingredients": [
+    {
+      "module_id": "new_hollow_sphere",
+      "source": "Arun Kumar et al., Physics of Plasmas, DOI 10.1063/5.0349072",
+      "prior_audit": "research/stars_2_0/implementation/paired_operations_v0_14/HOLLOW_SPHERE_SOURCE.json",
+      "scope": "PIC/FLUKA geometry and source-phase-space research; source decks and physical handoff still required"
+    },
+    {
+      "module_id": "new_prism",
+      "source": "Borealis PRISM research",
+      "urls": [
+        "https://borealisfusion.com/technology/",
+        "https://borealisfusion.com/introducing-borealis-fusion/"
+      ],
+      "scope": "Rotating mirror fuel/ash-management concept; not inherited integrated performance"
+    },
+    {
+      "module_id": "enn_fast_proton_coupling",
+      "source_id": "ENN_EXL50U_SUPRATHERMAL_REPORT",
+      "urls": [
+        "https://www.ennresearch.com/News/2026/1009/866.html",
+        "https://ennresearch.com/News/2026/1009/867.html"
+      ],
+      "prior_audit": "research/stars_2_0/implementation/paired_operations_v0_14/NEWS_RECONCILIATION.md",
+      "selected_finding": "The previously shared September 2026 EXL-50U p-B reaction report and NBI/RF suprathermal-proton coupling lead",
+      "remaining_questions": [
+        "Measured full proton/boron distributions and relative-energy frame",
+        "Alpha production versus fusion-event rate and diagnostic acceptance",
+        "Transfer from spherical-torus conditions to hollow-source/mirror architecture",
+        "Energy and field work of all fast-ion preparation stages"
+      ],
+      "not_implicitly_selected": [
+        "Separate H-mode gain",
+        "Boron pellet fueling",
+        "ECRH electron temperature",
+        "Direct-conversion efficiency",
+        "Qin-Fisch alpha-channeling result"
+      ]
+    }
+  ],
+  "provenance_pin": "60c3cb3cf2622fb63791f7d4b028b64269ac9f18; prior source records are preserved there",
+  "research_selection_is_not_validation": true
+}
