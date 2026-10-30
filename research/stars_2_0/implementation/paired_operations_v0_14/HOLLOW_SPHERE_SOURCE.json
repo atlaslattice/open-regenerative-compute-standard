@@ -1,0 +1,143 @@
+{
+  "DOI": "10.1063/5.0349072",
+  "title": [
+    "Laser-driven proton\u2013boron fusion in a hollow spherical target"
+  ],
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0009-0000-5702-9486",
+      "authenticated-orcid": false,
+      "given": "R. M.",
+      "family": "Arun Kumar",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Indian Institute of Technology Hyderabad 1 Department of Physics, , Kandi, Sangareddy 502284, Telangana,",
+          "place": [
+            "India"
+          ]
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-7697-6830",
+      "authenticated-orcid": false,
+      "given": "Hideaki",
+      "family": "Habara",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "The University of Osaka 2 Graduate School of Engineering, , 2-1 Yamadaoka, Suita, Osaka 565-0871,",
+          "place": [
+            "Japan"
+          ]
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0009-0005-4883-4105",
+      "authenticated-orcid": false,
+      "given": "Yutaka",
+      "family": "Nakamura",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "The University of Osaka 2 Graduate School of Engineering, , 2-1 Yamadaoka, Suita, Osaka 565-0871,",
+          "place": [
+            "Japan"
+          ]
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-2728-6809",
+      "authenticated-orcid": false,
+      "given": "Bhuvanesh",
+      "family": "Ramakrishna",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Indian Institute of Technology Hyderabad 1 Department of Physics, , Kandi, Sangareddy 502284, Telangana,",
+          "place": [
+            "India"
+          ]
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "published": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        1
+      ]
+    ]
+  },
+  "published-online": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        27
+      ]
+    ]
+  },
+  "volume": "33",
+  "issue": "10",
+  "article-number": "103104",
+  "resource": {
+    "primary": {
+      "URL": "https://pubs.aip.org/pop/article/33/10/103104/3407475/Laser-driven-proton-boron-fusion-in-a-hollow"
+    }
+  },
+  "link": [
+    {
+      "URL": "https://pubs.aip.org/aip/pop/article-pdf/doi/10.1063/5.0349072/21183200/103104_1_5.0349072.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "syndication"
+    },
+    {
+      "URL": "https://pubs.aip.org/aip/pop/article-pdf/doi/10.1063/5.0349072/21183200/103104_1_5.0349072.pdf",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "retrieval": "Publisher-deposited Crossref metadata; full text not recovered",
+  "metadata_query_sha256": "9c99d05693e81956a31b93f38a890c1237c7299226b9529512b24a4800073492",
+  "reported_simulation_values": {
+    "proton_cutoff_planar_MeV": 39,
+    "proton_cutoff_hollow_MeV": 53,
+    "laser_intensity_W_cm2": 1e+21,
+    "alpha_energy_description_MeV": "around20",
+    "alpha_spectral_quantity_order_per_MeV": 100000000000.0
+  },
+  "scope": "Abstract describes2D PIC coupled to FLUKA, plus preliminary3D PIC; no lab measurement or new StellarForge reproduction",
+  "normalization_gap": "perMeV is stated; full normalization, shot basis, solid angle, total spectrum and simulation weighting need full text/data"
+}
