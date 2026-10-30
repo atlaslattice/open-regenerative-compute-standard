@@ -1,0 +1,78 @@
+# ORCS / IRON EMPIRE — Century of Fiber, Forests & Regenerative Manufacturing
+## White paper v0.1 | 30 October 2026 | Empirical screen + distinct fiction scenario
+
+**Classification:** ORCS industrial screening model (2026 inputs, uncertain extrapolations) with explicitly labeled *Iron Empire* fictional trajectory; not a validated commercial feasibility study, investment offer, guaranteed environmental offset or canonical technology specification.
+
+### 0. Canon recovery and scientific boundary
+The Iron Empire six-film treatment v0.4 (2026-10-30) has a 2039 fictional self-sustaining dual-chamber fusion milestone, fossil-electricity displacement by 2046, lunar/Martian industrial deployment around 2050, 2069 first contact, 2072–2090 First Garden restoration, 2090–2110 Living Galaxy, and 2110–2200 Long Peace. The 2069 prologue imagines automated industry consuming its own waste. In this paper fictional future breakthroughs are **not** evidence for present financial returns. Keep a century-long real-world scenario from 2027–2126 distinct from narrative timescales.
+
+### 1. Reference industrial design — one modern recovered-paper center
+**Concept:** ~500,000 US short tons/year recovered-fiber input, ~450,000 US short tons/year recycled containerboard at 90% yield, with grade optical sorting, bale provenance/RFID, robotic contaminant rejection, pulping/cleaning, AI quality control, closed-loop industrial water treatment, waste-heat recovery, electrical demand-response, moisture-protected 7–14-day fiber buffer, regional rail siding, paper-machine predictive maintenance, corrugating/converting as optional separate capex. 3D printing appropriate for tools, fixtures, maintenance parts, and novel fiber composites; it does NOT replace industrial continuous papermaking.
+Comparable **real facilities**: Pratt Henderson KY: $700M for integrated recycled paper + box facility, ~1500 tons finished/day; Domtar Kingsport: $300–350M conversion, 600,000 short tons/year output and ~660,000 short tons/year fiber input. These establish *order of magnitude*, not automatically this facility's price.
+Planning envelope per new 500k input facility: $500M–$900M initial capex, central $600M (includes site/utilities, preparatory recovery and water systems, excluding major unforeseen infrastructure upgrades); brownfield conversions may cost less. Ongoing sustaining capex central $12M/year, not included in EBITDA.
+Source: https://www.prattindustries.com/committed-to-growth/ ; https://www.tn.gov/ecd/news/2020/8/7/domtar-to-convert-kingsport-manufacturing-operations.html ; https://www.domtar.com/our-location/kingsport-mill/
+
+### 2. Base case annual unit economics (2026 USD, **illustrative assumptions, not quotations**)
+| Item | Annual one facility | Basis |
+|---|---:|---|
+| Recovered-fiber purchases | -$55.0M | 500k input short t x $110/t (reference OCC spot around $100 in mid-2026; delivered quality mix uncertain) |
+| Finished board sales | +$337.5M | 450k short t x $750/t realized blended sale price; NOT guaranteed |
+| Conversion, energy, water, chemicals, maintenance labor | -$189.0M | 450k finished t x $420/t |
+| Inbound logistics | -$15.0M | 500k input t x $30/t |
+| SG&A/sales/insurance | -$20.0M | assumption |
+| Native-ecosystem restoration, forestry monitoring, verification | -$5.0M | dedicated annual budget, excludes separately funded eligible projects |
+| **Illustrative EBITDA** | **+$53.5M** | 15.9% of sales |
+| Sustaining capex | -$12.0M | below EBITDA |
+| **EBITDA less sustaining capex** | **+$41.5M/y** | before taxes, interest, debt service, working capital and replacements |
+| Initial CAPEX | **-$600M** | year 0; 11.2x initial capex / steady EBITDA (NOT payback after taxes, interest etc) |
+
+**Critical sensitivities:** revenue price $650/t instead of $750 subtracts $45M EBITDA. Conversion expense $500/t instead of $420 subtracts $36M. Either may severely compress returns; both together cause loss. Prices, output demand, grades and uptime need independent diligence. Stockpiles solve supply-induced interruptions only, not insufficient customers or scheduled maintenance.
+
+### 3. National hypothetical 25-center network
+At 25 x 500k input short t/y = **12.5M short t/y**, roughly 91.5% of the 2024 12.4M metric t (~13.67M short t) full global export stream. **The full global export flow requires ~28 such centers at these input levels**, or conversions/other outlets. The India-only export tranche (~2.3M short t) corresponds to around five 500k-input centers, if compatible and contracted.
+At 25 facilities: initial capex **$15.0B** central ($12.5–22.5B envelope), output 11.25M finished short t/y, gross annual sales **$8.44B**, EBITDA **$1.34B/y**, sustaining capex **$300M/y**, pre-financing/pre-tax EBITDA-minus-sustaining **$1.04B/y**, annual forest program $125M already included in EBITDA. These are *scenario values*, not incremental nationwide gains: diversion from existing export markets, price effects, domestic demand and existing plants must be modeled, and $8.44B sales is not net national wealth.
+
+### 4. 100-year constant-real-dollar ledger (2027–2126)
+Caution: no physical mill built in 2027 stays unchanged for 100 years. The following is a **steady-state upper-bound arithmetic screen**, with **no capacity ramp, no real selling-price changes, no resource depletion, no equipment replacement or financing**. Not a 100-year valuation.
+One facility: $33.75B gross sales, $5.35B EBITDA, $4.15B EBITDA less annual sustaining capex over 100 years; subtract initial $600M and additional major recapitalization/rebuilds **not yet modeled**.
+25 facilities: $843.75B gross cumulative sales; $133.75B gross cumulative EBITDA; $103.75B EBITDA less routine sustaining, before original $15B initial capex and generations of rebuild/reinvestment, taxes/interest/working capital. Do not present these totals as NPV.
+**Discounted illustrative constant cash flow:** annual per-facility $41.5M after sustaining, 8% real discount, 100 years -> ~$519M present value (since perpetuity approx 12.5x), **less $600M initial investment = around -$81M pre-tax project NPV**, even before periodic rebuilds and financing. This demonstrates that attractive-looking $100-year cumulative totals need not mean a bankable investment. Need higher price/value-add, cheaper brownfield CAPEX, process efficiency, validated higher yield, diversified products or public payments for verified ecosystem benefits. A 7% rate gives ~$593M PV before original capex, still marginal. Never invent 2–10x profit returns.
+
+### 5. Tree accounting: proxy versus ecological restoration
+The popular '17 trees saved per ton of paper recycled' is a loose historical educational heuristic, varies by grade, virgin-fiber displacement, forest silviculture and paper type; not reliable actual trees spared. If displayed for narrative illustration only, 450k finished short t x17 = **7.65M 'tree-equivalents'/year per plant**, and **191.25M tree-equivalents/year** for 25 plants. **This is not a verified count of live trees spared, or trees to plant.** Reference https://web.mit.edu/facilities/environmental/recyc-facts.html .
+Mandatory environmental accounting: product-specific virgin-wood displacement (dry tonnes), actual timber harvest volume avoided (m3), region-specific sustainable forestry baselines, land-use effects, forest carbon and biodiversity, and LCA. No 1:1 equivalence between 'trees saved' and seedlings planted.
+**Restoration covenant, practical starting proposal:** 25,000 *native, ecologically appropriate* seedlings planted per plant per year plus targeted assisted natural regeneration, invasive removal, riparian buffers, fuel management and monitoring; survival-verified 3/5/10-year cohorts, not raw planting counts. 25 centers -> **625,000 seedlings planted annually**; at illustrative 60% long-term establishment, **375,000 established trees per cohort**; over a static 100-year arithmetic scenario 62.5M plantings and 37.5M long-term established from 25 sites, before fire, disease, succession and repeat planting. This is fictional/planning, not guaranteed ecological performance. Budget of $5M/plant/year for all forestry activities equals $200 per planted seedling **only as total ecological program cost ratio**, not planting unit price. Forest restoration can cost significantly more or less by species, terrain and stewardship.
+Do not plant where natural grassland, shrubland or wetland restoration is ecologically preferable. Promote watershed protection, natural regeneration and fire-resilient native species rather than tree-count theater. Separate 'avoided harvest attributable to recycled products' from 'planted/established trees' to avoid double counting benefits.
+
+### 6. AI-based wildfire prevention and forest health (support decisions; never autonomous destructive intervention)
+Remote-sensing time series and optional satellite hotspot feeds; drought/weather and vegetation stress; moisture/fuels surveys; local ecological knowledge; invasive/pest monitoring; high-resolution wildfire risk maps; early warning with human-reviewed alerts; response planning and appropriate prescribed-fire coordination by qualified personnel; habitat and biodiversity trend monitoring; consented landowner and tribal stewardship data. Fire is ecologically necessary in many ecosystems: the target is **reduced destructive wildfire risk**, not eliminating all fire.
+Monitoring outputs: hectares under active stewardship, wildfire severity where attributable, native recruitment and survival, soil moisture and erosion, biodiversity indices, treatment cost, percent scientifically verified improvements and uncertainties.
+
+### 7. Real funding scan as of 2026-10-30 — eligibility, NOT money assumed won
+**North Carolina 2027 Recycling Business Development Grant:** confirmed OPEN to qualifying NC recycling businesses; deadline **Nov 5 2026 5pm**, up to **$75,000** with 50% cash match (grant small relative to mill capex; potentially sorting equipment). Source https://www.deq.nc.gov/about/divisions/environmental-assistance-and-customer-service/recycling-and-materials-management/programs-offered/grant-opportunities/recycling-business-development-grant and https://www.deq.nc.gov/news/events/recycling-business-development-grant .
+**NC SWIFR state pass-through:** confirmed OPEN for eligible **local governments**, up to **$100,000**, deadline **Feb 11 2027**, for non-construction equipment/vehicles/infrastructure, NOT direct private mill grant. https://www.deq.nc.gov/about/divisions/environmental-assistance-and-customer-service/recycling-and-materials-management/programs-offered/grant-opportunities/swifr-subawards-local-governments
+**EPA SWIFR:** program exists with FY2022–26 authorized appropriations; state, local government, tribal eligibility varies. Not a national open direct-private-mill grant; prior selection rounds are historical. https://www.epa.gov/circulareconomy/solid-waste-infrastructure-recycling-grant-program
+**USFS Community Wildfire Defense Grants:** Round 4 anticipated but **NOFO not yet confirmed open** in sourced state updates. Typical candidates are at-risk local governments/Tribes/nonprofits/forestry agencies; a private mill could potentially partner but cannot presume eligibility. https://csfs.colostate.edu/grants/cwdg/ ; https://forestry.alaska.gov/fire/cwdgrants
+**USFS National Urban & Community Forestry Challenge Cost-Share 2026:** **CLOSED Oct 12, 2026**, not available for new proposal. Historical awards targeted ~$200k–$750k and 1:1 match. https://simpler.grants.gov/es/opportunity/a9a8b77d-de7b-4cfe-aac2-7b217f908ed8
+**USFS Community Forest and Open Space 2026:** **CLOSED Oct 13 2026**; public/community entities and qualifying nonprofit applicants, not private mill revenue. https://grants.gov/search-results-detail/363348
+**Charities and philanthropic partnerships:** Arbor Day Foundation, American Forests, National Forest Foundation, state conservation nonprofits are possible *collaborators*, not documented open unrestricted grants. Specific applications and funding must be independently verified; no invented awards.
+**Model rule:** ZERO grant receipts in financial base case. Separate conditional grant column with named open NOFO, exact eligibility, project restrictions, match requirements, deadline and award verification. Do not call grants 'unclaimed money'; authorized funding may already be fully obligated.
+
+### 8. Co-located multi-stream circular campus
+- Paper/cardboard: recycled containerboard, high-quality fiber composites, molded pulp packaging; mature.
+- Clean wood pallets, sawmill residues, pruned timber: engineered panels, repair/reuse, suitable biochar or heat; requires dedicated sorting, fire protection and contaminant testing.
+- Recovered plastics: appropriate separate wash/flake/extrusion lines for clean polymers, with microplastics and wastewater controls; never casually mix plastics into papermaking pulp.
+- Glass cullet: crushing/quality grading for remelt markets; separate dusty line.
+- Aluminum/steel: magnet/eddy-current sorting and baling for domestic remelters, with downstream metal processing outside paper equipment; lithium batteries must be removed early for fire prevention.
+- Food waste and wastewater sludge: separate hygienic AD/water treatment with pathogen/contaminant protocols; cannot commingle with OCC storage or forest soil amendments by default.
+- Ash and mineral residues: test contaminants; eligible construction feedstock only after environmental approvals.
+- Fiber composites and molded components: materials R&D possible; 3D printing for end-use applications depends on economics, throughput and engineering qualification.
+Capex/returns for these modules are **not in the paper-mill base case**. Each optional module must close an independent mass, energy, material quality and commercial ledger before integration.
+
+### 9. Iron Empire extrapolation — *fiction only*
+2030s: AI MRF networks and low-water mills grow; 2039 fictional dual-chamber fusion makes some industrial energy cheaper but no free process heat; 2046 energy-intensive paper/drying and water treatment transform; 2050 space habitats require near-closed-loop fiber/biocomposite manufacturing plus imports; 2069 Earth economy offers the Iron Empire a working ledger of resources repeatedly reused rather than conquest. 2072–2090 restoration work extends to damaged planets and Mars, requiring truthful limits, water, species, time and energy. 2090–2110 Great Exchange spreads auditable operating designs. 2110–2200 Long Peace prioritizes biodiversity, stewardship and intergenerational maintenance instead of 'infinite profits'. Do not conflate this fictional worldbuilding with grant eligibility or 2026 economics.
+
+### 10. Go/no-go gates
+G1 fiber grade, volume, contaminants and delivered price under long-term contracts; G2 confirmed off-take at relevant finished-product price with demand elasticity; G3 realized >90% output yield validated by trials; G4 water/heat/waste/energy balances; G5 measured forestry outcomes and annual continuing-care funding; G6 8%-real NPV above zero after major replacements; G7 permit and tribal/community consent; G8 inventory fire controls; G9 independently validated grant eligibility; G10 co-product sales and residuals with no double-counting.
+
+**Decision:** Build an investment-grade county-to-mill optimization and a small resource recovery pilot before large greenfield construction. The principle of multi-stream circular campuses with restoration commitments is credible; the claimed profit and tree multipliers remain scenario-sensitive and unproven.
