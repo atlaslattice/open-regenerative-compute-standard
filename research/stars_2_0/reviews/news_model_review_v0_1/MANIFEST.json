@@ -1,0 +1,20 @@
+{
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "RETRIEVAL_RECORD.json",
+      "sha256": "c212387b5fd34f392d4cd076f3f071f940d4402dea991467f5b91ef1861764aa",
+      "git_blob": "9abe32aaa3981399a6cfc32e218c6eca1f1d5131"
+    },
+    {
+      "path": "REVIEW.md",
+      "sha256": "1515112ddd5222c7f0a0c6edd15b2be38a13cc97ab56791b053a84850c8b3fe2",
+      "git_blob": "e267c38cf912860bd9846b7ddb035fbf3cb06397"
+    },
+    {
+      "path": "SOURCE_INDEX.json",
+      "sha256": "8269e1bc7cc285aab330eddcb85917c677d356503b33af72c57779bd500eb623",
+      "git_blob": "dfecbfbc85fc04bc13c3677cadab1a26f2a6fbfe"
+    }
+  ]
+}
