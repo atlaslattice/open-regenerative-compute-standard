@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-30",
+  "main_snapshot": "22bd49ceecdd5fbaafc0a42a3fa842e954708a9b",
+  "sources": [
+    {
+      "path": "research/OCTOBER_30_2026_THREE_SWEEP_MASTER_EVIDENCE_INDEX.md",
+      "source_url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/22bd49ceecdd5fbaafc0a42a3fa842e954708a9b/research/OCTOBER_30_2026_THREE_SWEEP_MASTER_EVIDENCE_INDEX.md",
+      "sha256_of_retrieved_text": "e3346102d08f789834dce1cf643e37832635580de336a1b7809c60ac2c9fc1bd"
+    },
+    {
+      "path": "research/stars_2_0/whitepapers/APPENDIX_2026_10_30_PBORON_HMODE_MUON_CENTRIFUGAL_EVIDENCE.md",
+      "source_url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/22bd49ceecdd5fbaafc0a42a3fa842e954708a9b/research/stars_2_0/whitepapers/APPENDIX_2026_10_30_PBORON_HMODE_MUON_CENTRIFUGAL_EVIDENCE.md",
+      "sha256_of_retrieved_text": "75c168c1ad7b8550a72dbc6f6b33eb6662c264ee7d843627e5b3697e28e0e63b"
+    },
+    {
+      "path": "research/stars_2_0/extensions/beyond_q/tritium_self_sufficiency_audit_v1/APPENDIX_2026_10_30_GEMINI_FLIBE_QUANTUM_CHEMISTRY_FUSION_SUPPLY_WATCH.md",
+      "source_url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/22bd49ceecdd5fbaafc0a42a3fa842e954708a9b/research/stars_2_0/extensions/beyond_q/tritium_self_sufficiency_audit_v1/APPENDIX_2026_10_30_GEMINI_FLIBE_QUANTUM_CHEMISTRY_FUSION_SUPPLY_WATCH.md",
+      "sha256_of_retrieved_text": "19156002dd186bcab27a6bef8469f61f3db51c32b5bd2142d6f3a93ac0c4f9e9"
+    },
+    {
+      "path": "research/beyond_q/safety/APPENDIX_2026_10_30_ADVERSARIAL_PROCESS_TWIN_RECONCILIATION.md",
+      "source_url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/22bd49ceecdd5fbaafc0a42a3fa842e954708a9b/research/beyond_q/safety/APPENDIX_2026_10_30_ADVERSARIAL_PROCESS_TWIN_RECONCILIATION.md",
+      "sha256_of_retrieved_text": "401acf692991f6d67a8b339d4216b2c725db7fcfffb31cdf755c139164ab87e3"
+    },
+    {
+      "path": "research/beyond_q/safety/APPENDIX_2026_10_30_NIGHTMARE_LAB_PHYSICS_GROUNDED_DIGITAL_TWINS.md",
+      "source_url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/22bd49ceecdd5fbaafc0a42a3fa842e954708a9b/research/beyond_q/safety/APPENDIX_2026_10_30_NIGHTMARE_LAB_PHYSICS_GROUNDED_DIGITAL_TWINS.md",
+      "sha256_of_retrieved_text": "2b8b7c29438a606038a313b1d1ceff616d14a480113c71bf52f33b2a4c7bf2ac"
+    },
+    {
+      "path": "docs/fiction/iron_empire/DEEPSEEK_RESEARCH_CONVERGENCE_EVIDENCE_AUDIT_v0_1_2026-10-30.md",
+      "source_url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/22bd49ceecdd5fbaafc0a42a3fa842e954708a9b/docs/fiction/iron_empire/DEEPSEEK_RESEARCH_CONVERGENCE_EVIDENCE_AUDIT_v0_1_2026-10-30.md",
+      "sha256_of_retrieved_text": "f43073a3129c5f834e541aa33cb2103b6c60b7d68ad718e5937a70d918561582"
+    }
+  ],
+  "source_claims_reverified_this_pass": false,
+  "external_software_license_verified": false,
+  "external_code_executed": false,
+  "model_parameters_changed": false
+}
