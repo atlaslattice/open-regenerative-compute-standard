@@ -1,0 +1,154 @@
+[
+  {
+    "name": "LowDivergenceProtons_paper_data/Dataset/ProtonSpatial/fits/20210803_run05_burst007_ProtonSpatial_beamprops.pkl",
+    "method": 8,
+    "crc": 2515173199,
+    "compressed_size": 1225,
+    "size": 1959,
+    "offset": 95186471
+  },
+  {
+    "name": "LowDivergenceProtons_paper_data/Dataset/ProtonSpatial/fits/20210803_run05_burst011_ProtonSpatial_beamprops.pkl",
+    "method": 8,
+    "crc": 1383471992,
+    "compressed_size": 1227,
+    "size": 1959,
+    "offset": 95187884
+  },
+  {
+    "name": "LowDivergenceProtons_paper_data/Dataset/ProtonSpatial/fits/20210803_run05_burst014_ProtonSpatial_beamprops.pkl",
+    "method": 8,
+    "crc": 2808171900,
+    "compressed_size": 1224,
+    "size": 1959,
+    "offset": 95190734
+  },
+  {
+    "name": "LowDivergenceProtons_paper_data/Dataset/ProtonSpatial/fits/20210803_run05_burst021_ProtonSpatial_beamprops.pkl",
+    "method": 8,
+    "crc": 1914815803,
+    "compressed_size": 1228,
+    "size": 1959,
+    "offset": 95198691
+  },
+  {
+    "name": "LowDivergenceProtons_paper_data/Dataset/ProtonSpatial/fits/20210803_run05_burst008_ProtonSpatial_beamprops.pkl",
+    "method": 8,
+    "crc": 3934119182,
+    "compressed_size": 1232,
+    "size": 1959,
+    "offset": 95201520
+  },
+  {
+    "name": "LowDivergenceProtons_paper_data/Dataset/ProtonSpatial/fits/20210803_run05_burst003_ProtonSpatial_beamprops.pkl",
+    "method": 8,
+    "crc": 913041824,
+    "compressed_size": 1221,
+    "size": 1959,
+    "offset": 95203769
+  },
+  {
+    "name": "LowDivergenceProtons_paper_data/Dataset/ProtonSpatial/fits/20210803_run05_burst015_ProtonSpatial_beamprops.pkl",
+    "method": 8,
+    "crc": 2765469464,
+    "compressed_size": 1229,
+    "size": 1959,
+    "offset": 95207525
+  },
+  {
+    "name": "LowDivergenceProtons_paper_data/Dataset/ProtonSpatial/fits/20210803_run05_burst006_ProtonSpatial_beamprops.pkl",
+    "method": 8,
+    "crc": 2908759317,
+    "compressed_size": 1232,
+    "size": 1959,
+    "offset": 95208942
+  },
+  {
+    "name": "LowDivergenceProtons_paper_data/Dataset/ProtonSpatial/fits/20210803_run05_burst010_ProtonSpatial_beamprops.pkl",
+    "method": 8,
+    "crc": 2557962683,
+    "compressed_size": 1226,
+    "size": 1959,
+    "offset": 95210362
+  },
+  {
+    "name": "LowDivergenceProtons_paper_data/Dataset/ProtonSpatial/fits/20210803_run05_burst020_ProtonSpatial_beamprops.pkl",
+    "method": 8,
+    "crc": 1616259065,
+    "compressed_size": 1221,
+    "size": 1959,
+    "offset": 95212007
+  },
+  {
+    "name": "LowDivergenceProtons_paper_data/Dataset/ProtonSpatial/fits/20210803_run05_burst009_ProtonSpatial_beamprops.pkl",
+    "method": 8,
+    "crc": 3311366608,
+    "compressed_size": 1228,
+    "size": 1959,
+    "offset": 95213842
+  },
+  {
+    "name": "LowDivergenceProtons_paper_data/Dataset/ProtonSpatial/fits/20210803_run05_burst019_ProtonSpatial_beamprops.pkl",
+    "method": 8,
+    "crc": 4159682908,
+    "compressed_size": 1227,
+    "size": 1959,
+    "offset": 95221833
+  },
+  {
+    "name": "LowDivergenceProtons_paper_data/Dataset/ProtonSpatial/fits/20210803_run05_burst005_ProtonSpatial_beamprops.pkl",
+    "method": 8,
+    "crc": 1324018095,
+    "compressed_size": 1232,
+    "size": 1959,
+    "offset": 95226876
+  },
+  {
+    "name": "LowDivergenceProtons_paper_data/Dataset/ProtonSpatial/fits/20210803_run05_burst013_ProtonSpatial_beamprops.pkl",
+    "method": 8,
+    "crc": 1904468255,
+    "compressed_size": 1224,
+    "size": 1959,
+    "offset": 95228296
+  },
+  {
+    "name": "LowDivergenceProtons_paper_data/Dataset/ProtonSpatial/fits/20210803_run05_burst016_ProtonSpatial_beamprops.pkl",
+    "method": 8,
+    "crc": 566613878,
+    "compressed_size": 1229,
+    "size": 1959,
+    "offset": 95229833
+  },
+  {
+    "name": "LowDivergenceProtons_paper_data/Dataset/ProtonSpatial/fits/20210803_run05_burst018_ProtonSpatial_beamprops.pkl",
+    "method": 8,
+    "crc": 4273139453,
+    "compressed_size": 1223,
+    "size": 1959,
+    "offset": 95232661
+  },
+  {
+    "name": "LowDivergenceProtons_paper_data/Dataset/ProtonSpatial/fits/20210803_run05_burst017_ProtonSpatial_beamprops.pkl",
+    "method": 8,
+    "crc": 1107908616,
+    "compressed_size": 1226,
+    "size": 1959,
+    "offset": 95242246
+  },
+  {
+    "name": "LowDivergenceProtons_paper_data/Dataset/ProtonSpatial/fits/20210803_run05_burst004_ProtonSpatial_beamprops.pkl",
+    "method": 8,
+    "crc": 540614909,
+    "compressed_size": 1225,
+    "size": 1959,
+    "offset": 95243660
+  },
+  {
+    "name": "LowDivergenceProtons_paper_data/Dataset/ProtonSpatial/fits/20210803_run05_burst012_ProtonSpatial_beamprops.pkl",
+    "method": 8,
+    "crc": 2002292601,
+    "compressed_size": 1226,
+    "size": 1959,
+    "offset": 95245073
+  }
+]
