@@ -1,0 +1,23 @@
+{
+  "max_abs_error_kg": 4.4651575770160434e-09,
+  "rmse_kg": 7.426165594591348e-10,
+  "per_stock_max_error_kg": {
+    "T_01_BZ": 3.451047607405666e-12,
+    "T_02_TES": 6.694736431889226e-11,
+    "T_03_FW": 2.518666427763633e-13,
+    "T_04_DIV": 2.594281804354018e-13,
+    "T_05_HX": 6.85807151085821e-13,
+    "T_06_DS": 3.9169995372234645e-12,
+    "T_07_vacuum": 5.8893688537065e-13,
+    "T_08_FCU": 4.769813016780589e-13,
+    "T_09_ISS": 3.2866598331793284e-11,
+    "T_10_storage": 4.4651575770160434e-09,
+    "T_11_membrane": 1.6016718116726447e-13
+  },
+  "method": "Backward Euler at published timestamps, lagged forcing",
+  "physical_validation": false,
+  "reference_commit": "7dfbc71378fb243afba23db80a8284cd4b6429a4",
+  "gold_rows": 115,
+  "max_gold_vs_continuous_oracle_kg": 0.013633096832634584,
+  "scope": "TMAP8 reduced-runtime fixture; not direct MATLAB reproduction or dual-reactor validation"
+}

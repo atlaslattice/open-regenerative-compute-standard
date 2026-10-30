@@ -1,0 +1,10 @@
+parameter,value,lower_kg,upper_kg,status
+tbr_b,0.95,25.66852569580078,25.668716430664062,CONDITIONAL: unmet burn <=1e-8 kg over 180 days
+tbr_b,1.02,25.307464599609375,25.307655334472656,CONDITIONAL: unmet burn <=1e-8 kg over 180 days
+tbr_b,1.1,24.89490509033203,24.895095825195312,CONDITIONAL: unmet burn <=1e-8 kg over 180 days
+process_day,2,26.172637939453125,26.172828674316406,CONDITIONAL: unmet burn <=1e-8 kg over 180 days
+process_day,4,25.307464599609375,25.307655334472656,CONDITIONAL: unmet burn <=1e-8 kg over 180 days
+process_day,8,24.887847900390625,24.888038635253906,CONDITIONAL: unmet burn <=1e-8 kg over 180 days
+b_pass_burn_fraction,0.025,50.82569122314453,50.82588195800781,CONDITIONAL: unmet burn <=1e-8 kg over 180 days
+b_pass_burn_fraction,0.05,25.307464599609375,25.307655334472656,CONDITIONAL: unmet burn <=1e-8 kg over 180 days
+b_pass_burn_fraction,0.1,12.548255920410156,12.548446655273438,CONDITIONAL: unmet burn <=1e-8 kg over 180 days

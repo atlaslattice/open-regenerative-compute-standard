@@ -1,0 +1,6 @@
+{"id":"V111-001","parent_commit":"83dc89600c4956e08acd5d38df70d3cce83797e1","event":"Continues append-only v1.1 history; no previous file overwritten. External benchmark is INL TMAP8 stored numerical reference, not a directly executed MATLAB reproduction."}
+{"id":"V111-002","event":"Matching reference required backward Euler and previous-step source forcing. Continuous-time matrix exponential is separately reported; numerical gold agreement is not continuous-solution or physical validation."}
+{"id":"V111-003","event":"Upstream t=0 total_tritium diagnostic is zero despite 1.14 kg storage. Compare eleven stocks; preserve diagnostic artifact in raw data."}
+{"id":"V111-004","event":"Added independent per-reactor extraction/processing outages. Startup search is conditional finite-horizon fuel availability without regulatory reserve qualification. Minimum B storage now samples substeps, not only daily endpoints."}
+{"id":"V111-005","event":"Discrete-pass/well-mixed extraction comparison is standalone; no claim of full coupled delay-model implementation. Physical uncertainty and structural discrepancy remain uncalibrated."}
+{"id":"V111-006","event":"Progress-message unit correction: max reference discrepancy 4.465e-9 kg is 4.465 micrograms, not nanograms. Numeric CSV/report kg values were correct."}
