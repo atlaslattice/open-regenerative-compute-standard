@@ -1,0 +1,13 @@
+{
+  "architecture_id": "SF_A_NEW_HYBRID_V0_1",
+  "attempts": [],
+  "blockers": [
+    "Hollow-sphere source particle phase-space file and absolute normalization",
+    "ENN-informed preparation/coupling transfer model and power",
+    "PRISM B/E/potential maps, injection acceptance and routing",
+    "Reaction kernel covering actual relative-energy distribution",
+    "Actual geometry and timing"
+  ],
+  "metrics": null,
+  "status": "BLOCKED_UNSPECIFIED_APPARATUS_INPUTS"
+}

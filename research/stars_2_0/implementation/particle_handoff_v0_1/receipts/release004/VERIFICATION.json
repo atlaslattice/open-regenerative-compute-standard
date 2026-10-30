@@ -1,0 +1,17 @@
+{
+  "status": "CONDITIONAL_INTERFACE_VERIFIED_NOT_APPARATUS_VALIDATION",
+  "regression_tests": 32,
+  "example_runs": 7,
+  "repeat_result_byte_identical": true,
+  "reference_result_sha256": "88baaa298034e2f376a797331f02aed1050370256d306132a134b49808c64074",
+  "same_depth_grid_previous_integrator_expected_events": 0.039825758215570835,
+  "one_stage_expected_events": 0.039825758215570835,
+  "two_stage_equal_total_column_expected_events": 0.03982575848798642,
+  "equal_column_relative_difference": 6.840185732868911e-09,
+  "maximum_particle_residual": 0.0,
+  "maximum_energy_residual_MeV": 0.0,
+  "A_apparatus_performance": null,
+  "C_full_apparatus_performance": null,
+  "wall_plug_net_power": null,
+  "scientific_freeze": false
+}

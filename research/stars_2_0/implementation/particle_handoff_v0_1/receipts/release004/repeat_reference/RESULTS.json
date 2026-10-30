@@ -1,0 +1,462 @@
+{
+  "architecture_id": "SF_C_ORIGINAL_STARS_V0_1",
+  "attempt_count": 3,
+  "attempts": [
+    {
+      "alpha_output_status": "COUNT_AND_TOTAL_BIRTH_KINETIC_ONLY_NO_PHASE_SPACE_OR_RECOVERY",
+      "attempt_id": "example_0",
+      "metrics": {
+        "alpha_birth_kinetic_MeV": 0.12419089620255142,
+        "energy_residual_MeV": 0.0,
+        "escaped_proton_kinetic_MeV": 0.0,
+        "escaped_protons": 0.0,
+        "events": 0.013275252738523612,
+        "expected_B11_consumed": 0.013275252738523612,
+        "expected_alpha_births": 0.039825758215570835,
+        "external_work_MeV": 0.0,
+        "load_electricity_J": null,
+        "material_transfer_MeV": 49.75919106166427,
+        "net_electricity_J": null,
+        "nuclear_Q_MeV": 0.11526316717834635,
+        "particle_residual": 0.0,
+        "physical_success": null,
+        "remaining_proton_kinetic_MeV": 6700.231881209312,
+        "remaining_protons": 9999.986724747261,
+        "source_proton_kinetic_MeV": 6750.0,
+        "source_protons": 10000.0,
+        "wall_input_J": null
+      },
+      "remaining_packets": [
+        {
+          "kinetic_MeV": 0.6700240775948283,
+          "packet_id": "protons_1",
+          "position_m": [
+            0,
+            0,
+            0
+          ],
+          "position_time_status": "SOURCE_TAGS_NOT_PROPAGATED",
+          "species": "proton",
+          "time_s": 0.0,
+          "unit_direction_LAB": [
+            0,
+            0,
+            1
+          ],
+          "weight": 9999.986724747261
+        }
+      ],
+      "stage_records": [
+        {
+          "input": {
+            "kinetic_MeV": 0.675,
+            "packet_id": "protons_1",
+            "position_m": [
+              0,
+              0,
+              0
+            ],
+            "species": "proton",
+            "time_s": 0.0,
+            "unit_direction_LAB": [
+              0,
+              0,
+              1
+            ],
+            "weight": 10000
+          },
+          "ledger": {
+            "alpha_birth_kinetic_MeV": 0.12419089620255142,
+            "cells": [
+              {
+                "cell": 0,
+                "expected_alpha_birth_kinetic_MeV": 0.0077210733941665615,
+                "expected_events": 0.000825129852582518,
+                "local_proton_LAB_MeV": 0.6748448600587136
+              },
+              {
+                "cell": 1,
+                "expected_alpha_birth_kinetic_MeV": 0.0077265153040785095,
+                "expected_events": 0.0008257388010455804,
+                "local_proton_LAB_MeV": 0.6745345114594157
+              },
+              {
+                "cell": 2,
+                "expected_alpha_birth_kinetic_MeV": 0.007731958442360574,
+                "expected_events": 0.0008263479292829161,
+                "local_proton_LAB_MeV": 0.6742240711721031
+              },
+              {
+                "cell": 3,
+                "expected_alpha_birth_kinetic_MeV": 0.007737402816983844,
+                "expected_events": 0.0008269572382241368,
+                "local_proton_LAB_MeV": 0.6739135387229684
+              },
+              {
+                "cell": 4,
+                "expected_alpha_birth_kinetic_MeV": 0.007742848430159079,
+                "expected_events": 0.0008275667281543907,
+                "local_proton_LAB_MeV": 0.6736029139666156
+              },
+              {
+                "cell": 5,
+                "expected_alpha_birth_kinetic_MeV": 0.007748295282028282,
+                "expected_events": 0.0008281763991273517,
+                "local_proton_LAB_MeV": 0.6732921968756056
+              },
+              {
+                "cell": 6,
+                "expected_alpha_birth_kinetic_MeV": 0.007753743372733354,
+                "expected_events": 0.000828786251196709,
+                "local_proton_LAB_MeV": 0.6729813874224918
+              },
+              {
+                "cell": 7,
+                "expected_alpha_birth_kinetic_MeV": 0.007759192702416104,
+                "expected_events": 0.0008293962844161675,
+                "local_proton_LAB_MeV": 0.6726704855798188
+              },
+              {
+                "cell": 8,
+                "expected_alpha_birth_kinetic_MeV": 0.007764643271218256,
+                "expected_events": 0.0008300064988394483,
+                "local_proton_LAB_MeV": 0.6723594913201237
+              },
+              {
+                "cell": 9,
+                "expected_alpha_birth_kinetic_MeV": 0.007770095079281436,
+                "expected_events": 0.0008306168945202886,
+                "local_proton_LAB_MeV": 0.6720484046159348
+              },
+              {
+                "cell": 10,
+                "expected_alpha_birth_kinetic_MeV": 0.007775548126747172,
+                "expected_events": 0.0008312274715124404,
+                "local_proton_LAB_MeV": 0.671737225439773
+              },
+              {
+                "cell": 11,
+                "expected_alpha_birth_kinetic_MeV": 0.0077810024161814135,
+                "expected_events": 0.0008318382301411715,
+                "local_proton_LAB_MeV": 0.6714259536257972
+              },
+              {
+                "cell": 12,
+                "expected_alpha_birth_kinetic_MeV": 0.007786457955473297,
+                "expected_events": 0.0008324491713279879,
+                "local_proton_LAB_MeV": 0.6711145887043293
+              },
+              {
+                "cell": 13,
+                "expected_alpha_birth_kinetic_MeV": 0.007791914745347766,
+                "expected_events": 0.0008330602951923,
+                "local_proton_LAB_MeV": 0.6708031306144306
+              },
+              {
+                "cell": 14,
+                "expected_alpha_birth_kinetic_MeV": 0.007797372785950132,
+                "expected_events": 0.0008336716017886414,
+                "local_proton_LAB_MeV": 0.6704915793282233
+              },
+              {
+                "cell": 15,
+                "expected_alpha_birth_kinetic_MeV": 0.007802832077425638,
+                "expected_events": 0.0008342830911715641,
+                "local_proton_LAB_MeV": 0.6701799348178201
+              }
+            ],
+            "escaped_proton_kinetic_MeV": 0.0,
+            "escaped_protons": 0.0,
+            "events": 0.013275252738523612,
+            "external_work_MeV": 0.0,
+            "material_transfer_MeV": 49.75919106166427,
+            "nuclear_Q_MeV": 0.11526316717834635
+          },
+          "output": {
+            "kinetic_MeV": 0.6700240775948283,
+            "packet_id": "protons_1",
+            "position_m": [
+              0,
+              0,
+              0
+            ],
+            "position_time_status": "SOURCE_TAGS_NOT_PROPAGATED",
+            "species": "proton",
+            "time_s": 0.0,
+            "unit_direction_LAB": [
+              0,
+              0,
+              1
+            ],
+            "weight": 9999.986724747261
+          },
+          "packet_id": "protons_1",
+          "physical_instance_id": "catcher1",
+          "stage_id": "catcher1_visit1"
+        }
+      ],
+      "status": "CONDITIONAL_HANDOFF_COMPLETE",
+      "target_ledgers": {
+        "catcher1": {
+          "consumed_B11_atoms": 0.013275252738523612,
+          "initial_B11_atoms": 1e+16,
+          "spec": [
+            "B11",
+            "COLD_ELEMENTAL",
+            1e+18,
+            0.01
+          ]
+        }
+      }
+    },
+    {
+      "alpha_output_status": "COUNT_AND_TOTAL_BIRTH_KINETIC_ONLY_NO_PHASE_SPACE_OR_RECOVERY",
+      "attempt_id": "example_1",
+      "metrics": {
+        "alpha_birth_kinetic_MeV": 0.0,
+        "energy_residual_MeV": 0.0,
+        "escaped_proton_kinetic_MeV": 0.0,
+        "escaped_protons": 0.0,
+        "events": 0.0,
+        "expected_B11_consumed": 0.0,
+        "expected_alpha_births": 0.0,
+        "external_work_MeV": 0.0,
+        "load_electricity_J": null,
+        "material_transfer_MeV": 0.0,
+        "net_electricity_J": null,
+        "nuclear_Q_MeV": 0.0,
+        "particle_residual": 0.0,
+        "physical_success": null,
+        "remaining_proton_kinetic_MeV": 0,
+        "remaining_protons": 0,
+        "source_proton_kinetic_MeV": 0.0,
+        "source_protons": 0.0,
+        "wall_input_J": null
+      },
+      "remaining_packets": [],
+      "stage_records": [],
+      "status": "CONDITIONAL_HANDOFF_COMPLETE",
+      "target_ledgers": {}
+    },
+    {
+      "alpha_output_status": "COUNT_AND_TOTAL_BIRTH_KINETIC_ONLY_NO_PHASE_SPACE_OR_RECOVERY",
+      "attempt_id": "example_2",
+      "metrics": {
+        "alpha_birth_kinetic_MeV": 0.24838179240510283,
+        "energy_residual_MeV": 0.0,
+        "escaped_proton_kinetic_MeV": 0.0,
+        "escaped_protons": 0.0,
+        "events": 0.026550505477047223,
+        "expected_B11_consumed": 0.026550505477047223,
+        "expected_alpha_births": 0.07965151643114167,
+        "external_work_MeV": 0.0,
+        "load_electricity_J": null,
+        "material_transfer_MeV": 99.51838212332854,
+        "net_electricity_J": null,
+        "nuclear_Q_MeV": 0.2305263343566927,
+        "particle_residual": 0.0,
+        "physical_success": null,
+        "remaining_proton_kinetic_MeV": 13400.463762418623,
+        "remaining_protons": 19999.973449494522,
+        "source_proton_kinetic_MeV": 13500.0,
+        "source_protons": 20000.0,
+        "wall_input_J": null
+      },
+      "remaining_packets": [
+        {
+          "kinetic_MeV": 0.6700240775948283,
+          "packet_id": "protons_1",
+          "position_m": [
+            0,
+            0,
+            0
+          ],
+          "position_time_status": "SOURCE_TAGS_NOT_PROPAGATED",
+          "species": "proton",
+          "time_s": 0.0,
+          "unit_direction_LAB": [
+            0,
+            0,
+            1
+          ],
+          "weight": 19999.973449494522
+        }
+      ],
+      "stage_records": [
+        {
+          "input": {
+            "kinetic_MeV": 0.675,
+            "packet_id": "protons_1",
+            "position_m": [
+              0,
+              0,
+              0
+            ],
+            "species": "proton",
+            "time_s": 0.0,
+            "unit_direction_LAB": [
+              0,
+              0,
+              1
+            ],
+            "weight": 20000
+          },
+          "ledger": {
+            "alpha_birth_kinetic_MeV": 0.24838179240510283,
+            "cells": [
+              {
+                "cell": 0,
+                "expected_alpha_birth_kinetic_MeV": 0.015442146788333123,
+                "expected_events": 0.001650259705165036,
+                "local_proton_LAB_MeV": 0.6748448600587136
+              },
+              {
+                "cell": 1,
+                "expected_alpha_birth_kinetic_MeV": 0.015453030608157019,
+                "expected_events": 0.0016514776020911607,
+                "local_proton_LAB_MeV": 0.6745345114594157
+              },
+              {
+                "cell": 2,
+                "expected_alpha_birth_kinetic_MeV": 0.015463916884721148,
+                "expected_events": 0.0016526958585658322,
+                "local_proton_LAB_MeV": 0.6742240711721031
+              },
+              {
+                "cell": 3,
+                "expected_alpha_birth_kinetic_MeV": 0.015474805633967689,
+                "expected_events": 0.0016539144764482737,
+                "local_proton_LAB_MeV": 0.6739135387229684
+              },
+              {
+                "cell": 4,
+                "expected_alpha_birth_kinetic_MeV": 0.015485696860318157,
+                "expected_events": 0.0016551334563087814,
+                "local_proton_LAB_MeV": 0.6736029139666156
+              },
+              {
+                "cell": 5,
+                "expected_alpha_birth_kinetic_MeV": 0.015496590564056565,
+                "expected_events": 0.0016563527982547035,
+                "local_proton_LAB_MeV": 0.6732921968756056
+              },
+              {
+                "cell": 6,
+                "expected_alpha_birth_kinetic_MeV": 0.015507486745466708,
+                "expected_events": 0.001657572502393418,
+                "local_proton_LAB_MeV": 0.6729813874224918
+              },
+              {
+                "cell": 7,
+                "expected_alpha_birth_kinetic_MeV": 0.015518385404832209,
+                "expected_events": 0.001658792568832335,
+                "local_proton_LAB_MeV": 0.6726704855798188
+              },
+              {
+                "cell": 8,
+                "expected_alpha_birth_kinetic_MeV": 0.015529286542436512,
+                "expected_events": 0.0016600129976788965,
+                "local_proton_LAB_MeV": 0.6723594913201237
+              },
+              {
+                "cell": 9,
+                "expected_alpha_birth_kinetic_MeV": 0.015540190158562872,
+                "expected_events": 0.0016612337890405773,
+                "local_proton_LAB_MeV": 0.6720484046159348
+              },
+              {
+                "cell": 10,
+                "expected_alpha_birth_kinetic_MeV": 0.015551096253494344,
+                "expected_events": 0.001662454943024881,
+                "local_proton_LAB_MeV": 0.671737225439773
+              },
+              {
+                "cell": 11,
+                "expected_alpha_birth_kinetic_MeV": 0.015562004832362827,
+                "expected_events": 0.001663676460282343,
+                "local_proton_LAB_MeV": 0.6714259536257972
+              },
+              {
+                "cell": 12,
+                "expected_alpha_birth_kinetic_MeV": 0.015572915910946594,
+                "expected_events": 0.0016648983426559758,
+                "local_proton_LAB_MeV": 0.6711145887043293
+              },
+              {
+                "cell": 13,
+                "expected_alpha_birth_kinetic_MeV": 0.015583829490695532,
+                "expected_events": 0.0016661205903846,
+                "local_proton_LAB_MeV": 0.6708031306144306
+              },
+              {
+                "cell": 14,
+                "expected_alpha_birth_kinetic_MeV": 0.015594745571900263,
+                "expected_events": 0.0016673432035772828,
+                "local_proton_LAB_MeV": 0.6704915793282233
+              },
+              {
+                "cell": 15,
+                "expected_alpha_birth_kinetic_MeV": 0.015605664154851276,
+                "expected_events": 0.0016685661823431282,
+                "local_proton_LAB_MeV": 0.6701799348178201
+              }
+            ],
+            "escaped_proton_kinetic_MeV": 0.0,
+            "escaped_protons": 0.0,
+            "events": 0.026550505477047223,
+            "external_work_MeV": 0.0,
+            "material_transfer_MeV": 99.51838212332854,
+            "nuclear_Q_MeV": 0.2305263343566927
+          },
+          "output": {
+            "kinetic_MeV": 0.6700240775948283,
+            "packet_id": "protons_1",
+            "position_m": [
+              0,
+              0,
+              0
+            ],
+            "position_time_status": "SOURCE_TAGS_NOT_PROPAGATED",
+            "species": "proton",
+            "time_s": 0.0,
+            "unit_direction_LAB": [
+              0,
+              0,
+              1
+            ],
+            "weight": 19999.973449494522
+          },
+          "packet_id": "protons_1",
+          "physical_instance_id": "catcher1",
+          "stage_id": "catcher1_visit1"
+        }
+      ],
+      "status": "CONDITIONAL_HANDOFF_COMPLETE",
+      "target_ledgers": {
+        "catcher1": {
+          "consumed_B11_atoms": 0.026550505477047223,
+          "initial_B11_atoms": 1e+16,
+          "spec": [
+            "B11",
+            "COLD_ELEMENTAL",
+            1e+18,
+            0.01
+          ]
+        }
+      }
+    }
+  ],
+  "attempts_with_complete_particle_ledger": 3,
+  "expected_events_all_attempts": 0.039825758215570835,
+  "expected_recovered_electricity_J": null,
+  "known_attempt_event_subtotal": 0.039825758215570835,
+  "net_wall_plug_J": null,
+  "physical_success_probability": null,
+  "preparation_time_sum_s": 0.0,
+  "run_class": "CONDITIONAL_INTERFACE_BENCHMARK_NOT_APPARATUS",
+  "spatial_flight_time_and_jitter_evolution": "NOT_MODELED",
+  "status": "CONDITIONAL_HANDOFF_COMPLETE",
+  "stopping_loss_is_recoverable_heat": false,
+  "uncertainty": "NOT_PROPAGATED; expected weights are not measured shot counts or physical shot noise",
+  "wall_input_all_attempts_J": null
+}

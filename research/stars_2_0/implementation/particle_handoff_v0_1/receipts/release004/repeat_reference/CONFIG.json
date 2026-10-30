@@ -1,0 +1,107 @@
+{
+  "schema": "stellar-forge-handoff/0.1",
+  "architecture_id": "SF_C_ORIGINAL_STARS_V0_1",
+  "run_class": "CONDITIONAL_INTERFACE_BENCHMARK_NOT_APPARATUS",
+  "target_inventory_scope": "FRESH_TARGET_PER_ATTEMPT_ASSUMED",
+  "geometry_scope": "PRESCRIBED_SEQUENCE_NOT_SPATIAL_TRAJECTORY",
+  "scope": "An interface benchmark within C family, not the full original apparatus configuration or calibrated performance. Mirrors the v0.10 assumed 0.675 MeV / 1e18 atoms cm-2 / 10000,0,20000 proton verification inputs.",
+  "parameter_evidence": {
+    "source_and_target": "ASSUMED_VERIFICATION_INPUTS, reference_evidence_v0_10/examples/assumed_reference.json",
+    "source_weight": "EXPECTED_FLUX, not sampled physical shot noise",
+    "source_and_geometry_uncertainty": "NOT_SPECIFIED_NO_CONFIDENCE_INTERVAL"
+  },
+  "stages": [
+    {
+      "stage_id": "catcher1_visit1",
+      "physical_instance_id": "catcher1",
+      "type": "cold_b11_slab",
+      "material": "B11",
+      "target_state": "COLD_ELEMENTAL",
+      "normal_atoms_cm2": 1e+18,
+      "illuminated_area_cm2": 0.01,
+      "unit_normal_LAB": [
+        0,
+        0,
+        1
+      ],
+      "depth_cells": 16,
+      "reaction_model": "PUBLICATION_EVENT_MODEL",
+      "maximum_allowed_depletion_fraction": 0.01,
+      "evidence": "ASSUMED_TARGET_GEOMETRY; SRIM13/ZBL model and publication-derived event kernel pinned in DEPENDENCY_LOCK.json"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt_id": "example_0",
+      "source_packets": [
+        {
+          "packet_id": "protons_1",
+          "species": "proton",
+          "weight": 10000,
+          "kinetic_MeV": 0.675,
+          "unit_direction_LAB": [
+            0,
+            0,
+            1
+          ],
+          "position_m": [
+            0,
+            0,
+            0
+          ],
+          "time_s": 0.0
+        }
+      ],
+      "source_frame": "LAB",
+      "source_energy_unit": "MeV",
+      "source_evidence": "ASSUMED_MONOENERGETIC_VERIFICATION_SOURCE from v0.10 benchmark",
+      "ready": null,
+      "fired": null,
+      "physical_success": null,
+      "preparation_time_s": 0.0,
+      "wall_input_J": null
+    },
+    {
+      "attempt_id": "example_1",
+      "source_packets": [],
+      "source_frame": "LAB",
+      "source_energy_unit": "MeV",
+      "source_evidence": "ASSUMED_MONOENERGETIC_VERIFICATION_SOURCE from v0.10 benchmark",
+      "ready": null,
+      "fired": null,
+      "physical_success": null,
+      "preparation_time_s": 0.0,
+      "wall_input_J": null
+    },
+    {
+      "attempt_id": "example_2",
+      "source_packets": [
+        {
+          "packet_id": "protons_1",
+          "species": "proton",
+          "weight": 20000,
+          "kinetic_MeV": 0.675,
+          "unit_direction_LAB": [
+            0,
+            0,
+            1
+          ],
+          "position_m": [
+            0,
+            0,
+            0
+          ],
+          "time_s": 0.0
+        }
+      ],
+      "source_frame": "LAB",
+      "source_energy_unit": "MeV",
+      "source_evidence": "ASSUMED_MONOENERGETIC_VERIFICATION_SOURCE from v0.10 benchmark",
+      "ready": null,
+      "fired": null,
+      "physical_success": null,
+      "preparation_time_s": 0.0,
+      "wall_input_J": null
+    }
+  ]
+}

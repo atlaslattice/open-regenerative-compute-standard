@@ -1,0 +1,37 @@
+test_a_profile_retains_explicit_gaps (test_handoff.HandoffTests.test_a_profile_retains_explicit_gaps) ... ok
+test_all_attempt_missing_outcome_blocks_unconditional_total (test_handoff.HandoffTests.test_all_attempt_missing_outcome_blocks_unconditional_total) ... ok
+test_alpha_production_kernel_cannot_be_used_as_events (test_handoff.HandoffTests.test_alpha_production_kernel_cannot_be_used_as_events) ... ok
+test_below_correct_loss_cone_threshold_reflects (test_handoff.HandoffTests.test_below_correct_loss_cone_threshold_reflects) ... ok
+test_depletion_rejected (test_handoff.HandoffTests.test_depletion_rejected) ... ok
+test_duplicate_packets_rejected (test_handoff.HandoffTests.test_duplicate_packets_rejected) ... ok
+test_duplicate_stage_does_not_double_credit (test_handoff.HandoffTests.test_duplicate_stage_does_not_double_credit) ... ok
+test_enn_energy_kernel_domain_blocks (test_handoff.HandoffTests.test_enn_energy_kernel_domain_blocks) ... ok
+test_excessive_field_extraction_rejected (test_handoff.HandoffTests.test_excessive_field_extraction_rejected) ... ok
+test_fake_calibrated_run_rejected (test_handoff.HandoffTests.test_fake_calibrated_run_rejected) ... ok
+test_fresh_target_assumption_required (test_handoff.HandoffTests.test_fresh_target_assumption_required) ... ok
+test_hazard_matches_previous_independent_integrator (test_handoff.HandoffTests.test_hazard_matches_previous_independent_integrator) ... ok
+test_hollow_cutoff_cannot_substitute_for_supported_source (test_handoff.HandoffTests.test_hollow_cutoff_cannot_substitute_for_supported_source) ... ok
+test_known_zero_source_is_retained (test_handoff.HandoffTests.test_known_zero_source_is_retained) ... ok
+test_missing_source_is_not_zero (test_handoff.HandoffTests.test_missing_source_is_not_zero) ... ok
+test_negative_field_work_not_automatic_electricity (test_handoff.HandoffTests.test_negative_field_work_not_automatic_electricity) ... ok
+test_no_bn_transfer (test_handoff.HandoffTests.test_no_bn_transfer) ... ok
+test_nonfinite_and_bool_rejected (test_handoff.HandoffTests.test_nonfinite_and_bool_rejected) ... ok
+test_nonunit_direction_rejected (test_handoff.HandoffTests.test_nonunit_direction_rejected) ... ok
+test_passing_mirror_accounts_barrier_work (test_handoff.HandoffTests.test_passing_mirror_accounts_barrier_work) ... ok
+test_positive_field_work_is_energy_input (test_handoff.HandoffTests.test_positive_field_work_is_energy_input) ... ok
+test_primary_particle_and_energy_closure (test_handoff.HandoffTests.test_primary_particle_and_energy_closure) ... ok
+test_split_equal_column_matches_one_slab (test_handoff.HandoffTests.test_split_equal_column_matches_one_slab) ... ok
+test_stopping_floor_not_zero_energy (test_handoff.HandoffTests.test_stopping_floor_not_zero_energy) ... ok
+test_target_identity_cannot_change (test_handoff.HandoffTests.test_target_identity_cannot_change) ... ok
+test_throat_barrier_uses_division_by_mirror_ratio (test_handoff.HandoffTests.test_throat_barrier_uses_division_by_mirror_ratio) ... ok
+test_trapped_pitch_not_reisotropized_each_visit (test_handoff.HandoffTests.test_trapped_pitch_not_reisotropized_each_visit) ... ok
+test_two_stage_survival_is_not_independent_full_source (test_handoff.HandoffTests.test_two_stage_survival_is_not_independent_full_source) ... ok
+test_wrong_frame_rejected (test_handoff.HandoffTests.test_wrong_frame_rejected) ... ok
+test_wrong_units_rejected (test_handoff.HandoffTests.test_wrong_units_rejected) ... ok
+test_zero_column_preserves_energy (test_handoff.HandoffTests.test_zero_column_preserves_energy) ... ok
+test_zero_reactions_does_not_remove_stopping (test_handoff.HandoffTests.test_zero_reactions_does_not_remove_stopping) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 0.086s
+
+OK
