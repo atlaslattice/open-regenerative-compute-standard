@@ -1,0 +1,6 @@
+# Nightmare Lab — Saltworks process twins and adversarial independence
+**2026-10-30 · R&D addendum, not deployed safety controls.**
+Saltworks primary release https://www.saltworkstech.com/news/hydraos-intelligent-operating-system-for-water-and-lithium-processing-plants/ :
+HydraSim simulator, HydraTwin **offline** digital twin, HydraVE document-grounded assistant, RoboSense automated ion-specific sensing. The release explicitly characterizes HydraTwin as offline, not a proven autonomous real-time closed-loop plant controller. Ion-by-ion coverage and measurement error bars require datasheets/field verification. Source does not establish particular membrane foul rates or recovery economics.
+Proposed Nightmare Lab wrapper: frozen evidence logs, sensor-drift/fouling injection, independent fault model, operator-visible uncertainty, hard interlocks, physical relief valves and human adjudication. Keep normal optimizer separate from adversarial validator; adversarial digital twin itself cannot certify industrial safety. Test contradictions against calibration data and out-of-distribution conditions before safety claims.
+Link existing protocol https://github.com/atlaslattice/open-regenerative-compute-standard/blob/main/research/beyond_q/safety/BQ_NIGHTMARE_LAB_PROTOCOL_v0_1.md .
