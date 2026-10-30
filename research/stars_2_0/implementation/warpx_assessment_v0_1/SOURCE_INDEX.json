@@ -1,0 +1,79 @@
+{
+  "repository": "BLAST-WarpX/warpx",
+  "commit": "a389dc54a27136176bdd48f7bfd36da62a873a61",
+  "assessment_date": "2026-10-30",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "url": "https://github.com/BLAST-WarpX/warpx/blob/a389dc54a27136176bdd48f7bfd36da62a873a61/LICENSE.txt",
+      "sha256_of_retrieved_text": "73890f67d88fe4386822cc62be41e06ccbbf15748270f1d01b6499d9e900a922"
+    },
+    {
+      "path": "Examples/Tests/nuclear_fusion/README.rst",
+      "url": "https://github.com/BLAST-WarpX/warpx/blob/a389dc54a27136176bdd48f7bfd36da62a873a61/Examples/Tests/nuclear_fusion/README.rst",
+      "sha256_of_retrieved_text": "54acada2e831e4d06779b242b658c6355f1b261d9c9c749c079f7f7fb0ae8e70"
+    },
+    {
+      "path": "Examples/Tests/nuclear_fusion/analysis_proton_boron_fusion.py",
+      "url": "https://github.com/BLAST-WarpX/warpx/blob/a389dc54a27136176bdd48f7bfd36da62a873a61/Examples/Tests/nuclear_fusion/analysis_proton_boron_fusion.py",
+      "sha256_of_retrieved_text": "fcd89c01abe35d069bf6af777b65f363ba68bb9888b0c082326a364b3637bca7"
+    },
+    {
+      "path": "Source/Particles/Collision/BinaryCollision/NuclearFusion/ProtonBoronFusionCrossSection.H",
+      "url": "https://github.com/BLAST-WarpX/warpx/blob/a389dc54a27136176bdd48f7bfd36da62a873a61/Source/Particles/Collision/BinaryCollision/NuclearFusion/ProtonBoronFusionCrossSection.H",
+      "sha256_of_retrieved_text": "2ec43290e5ea35e4b2de1db5feb0df2173bd8d468143688ca718ce84f531e7f3"
+    },
+    {
+      "path": "Source/Particles/Collision/BinaryCollision/NuclearFusion/ProtonBoronFusionInitializeMomentum.H",
+      "url": "https://github.com/BLAST-WarpX/warpx/blob/a389dc54a27136176bdd48f7bfd36da62a873a61/Source/Particles/Collision/BinaryCollision/NuclearFusion/ProtonBoronFusionInitializeMomentum.H",
+      "sha256_of_retrieved_text": "c73bd4a736f6dd9bf93ba1fb3fc374a5a662758e4abe9cc2654b8da5ddaaec83"
+    },
+    {
+      "path": "Docs/source/theory/multiphysics/collisions.rst",
+      "url": "https://github.com/BLAST-WarpX/warpx/blob/a389dc54a27136176bdd48f7bfd36da62a873a61/Docs/source/theory/multiphysics/collisions.rst",
+      "sha256_of_retrieved_text": "7cbb05280e91eb0f9592c2b547858b85085c20d6f2d70653c158d93cc094e5a0"
+    },
+    {
+      "path": "Examples/Tests/nuclear_fusion/inputs_test_3d_proton_boron_fusion",
+      "url": "https://github.com/BLAST-WarpX/warpx/blob/a389dc54a27136176bdd48f7bfd36da62a873a61/Examples/Tests/nuclear_fusion/inputs_test_3d_proton_boron_fusion",
+      "sha256_of_retrieved_text": "1d5ac5ff56f50296957d46a638fe753bc0330db37b5fcd9c657e6b797a0d2d41"
+    },
+    {
+      "path": "Examples/Tests/nuclear_fusion/CMakeLists.txt",
+      "url": "https://github.com/BLAST-WarpX/warpx/blob/a389dc54a27136176bdd48f7bfd36da62a873a61/Examples/Tests/nuclear_fusion/CMakeLists.txt",
+      "sha256_of_retrieved_text": "6759906098e604875750ca907fd67c9b2c56ddc70a254b83741dcb4f5f628fb6"
+    },
+    {
+      "path": "Source/Utils/WarpXConst.H",
+      "url": "https://github.com/BLAST-WarpX/warpx/blob/a389dc54a27136176bdd48f7bfd36da62a873a61/Source/Utils/WarpXConst.H",
+      "sha256_of_retrieved_text": "176548f1d8d09aa0caacea241c99ddf9e645ce4f1e5e092571da6ecddc14bffe"
+    },
+    {
+      "path": "Source/Particles/Collision/BinaryCollision/Bremsstrahlung/BremsstrahlungFunc.H",
+      "url": "https://github.com/BLAST-WarpX/warpx/blob/a389dc54a27136176bdd48f7bfd36da62a873a61/Source/Particles/Collision/BinaryCollision/Bremsstrahlung/BremsstrahlungFunc.H",
+      "sha256_of_retrieved_text": "f9abfe4d4f4b3badef6033424b5354d2c55d0615624540f83c785c62ebac708d"
+    },
+    {
+      "path": "Examples/Tests/collision/analysis_collision_1d_Bremsstrahlung.py",
+      "url": "https://github.com/BLAST-WarpX/warpx/blob/a389dc54a27136176bdd48f7bfd36da62a873a61/Examples/Tests/collision/analysis_collision_1d_Bremsstrahlung.py",
+      "sha256_of_retrieved_text": "dab69d0fdf96cec2bb8b99ba41e8e3cccd19e2929cac2785cb543effad425fca"
+    },
+    {
+      "path": "Source/ablastr/constant.H",
+      "url": "https://github.com/BLAST-WarpX/warpx/blob/a389dc54a27136176bdd48f7bfd36da62a873a61/Source/ablastr/constant.H",
+      "sha256_of_retrieved_text": "5814ec730f55c1f6372cb65dd113d652ecd2b2287463209c8b703847da4d470e"
+    },
+    {
+      "path": "Docs/source/usage/parameters.rst",
+      "url": "https://github.com/BLAST-WarpX/warpx/blob/a389dc54a27136176bdd48f7bfd36da62a873a61/Docs/source/usage/parameters.rst",
+      "sha256_of_retrieved_text": "e2bd489df2f0a55609f184978781a5ef849855ee72adc3389ab2638546cf225d"
+    },
+    {
+      "path": "Source/Particles/Collision/BinaryCollision/Bremsstrahlung/BremsstrahlungFunc.cpp",
+      "url": "https://github.com/BLAST-WarpX/warpx/blob/a389dc54a27136176bdd48f7bfd36da62a873a61/Source/Particles/Collision/BinaryCollision/Bremsstrahlung/BremsstrahlungFunc.cpp",
+      "sha256_of_retrieved_text": "157d6988a29c89506446ccf3e4208c73e689b214c19628e9c6667a10f1956cea"
+    }
+  ],
+  "license_observation": "License text read directly; BSD-3-Clause-LBNL identifier in individual source files. GitHub API SPDX metadata reported NOASSERTION, so do not rely on that metadata alone.",
+  "full_pic_simulation_executed": false
+}

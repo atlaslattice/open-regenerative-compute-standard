@@ -1,0 +1,95 @@
+{
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 9957,
+      "sha256": "d99cfaac0b4a527d85acbba948a0f763a4f4f012f0b4281e256a2f82c53b9bc1",
+      "git_blob": "caf91303c30bc3a21243cdd25c248783f30b1231"
+    },
+    {
+      "path": "SOURCE_INDEX.json",
+      "bytes": 5140,
+      "sha256": "cea2cef8bbbef0f559888c45d6e6f6ca89bfa89d019bf1ab4ef5459f7b8d9431",
+      "git_blob": "f1111592070e334058c0a93507799934e529aaab"
+    },
+    {
+      "path": "UPSTREAM_BLOBS.json",
+      "bytes": 468,
+      "sha256": "564040ee678f0013d433dba3155ee5b80532642e904f62e7e2272d771ff0ecd1",
+      "git_blob": "4d960cc591d3875a03e352d1771a6dde4f13d938"
+    },
+    {
+      "path": "fit_candidate.py",
+      "bytes": 1741,
+      "sha256": "f28197522f553a366602eb06e9edb263b98a8830443712a901a755637be34506",
+      "git_blob": "50d848665fdeada6270eb5340a1a1c341402ee97"
+    },
+    {
+      "path": "harness_include/AMReX_Math.H",
+      "bytes": 243,
+      "sha256": "c2f17f6e32cd853a82295f098281a3e8dd3318b6072a06a07c846e4d93f81aa3",
+      "git_blob": "796da39f586ac2823b5d4a0b670feba05f4a8c8c"
+    },
+    {
+      "path": "harness_include/AMReX_REAL.H",
+      "bytes": 409,
+      "sha256": "3a1dcc544ae2a7487771524259ffe058702f672f6127fdcde053642b87a34bde",
+      "git_blob": "cc2a46cc1d5c96494e481f68dd3845488e0010f3"
+    },
+    {
+      "path": "kernel_probe.cpp",
+      "bytes": 554,
+      "sha256": "e69e761dd1397f6b85975dcaaca8d0ea5ff25d3da77176144db7a363448b9798",
+      "git_blob": "22425265e1cc117a6205a6432380ab6ce29071de"
+    },
+    {
+      "path": "receipts/kernel002/COMPILE.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "receipts/kernel002/LAB_TO_CM_CANDIDATE.csv",
+      "bytes": 1418,
+      "sha256": "6e9792679e919c97a85195cd53d35ba3421886501072a8416b90b1c448bc83a1",
+      "git_blob": "a58be2f48f5b8258ec4b8594b7aad3465a3f8f90"
+    },
+    {
+      "path": "receipts/kernel002/RECEIPT.json",
+      "bytes": 1900,
+      "sha256": "d42aa8062e543688cd5be970aee7ebf71e30382c68b8f17881dc0e918d87b07e",
+      "git_blob": "11407420a309daa22b96894e807cf1a42b22ae5c"
+    },
+    {
+      "path": "run_kernel_audit.py",
+      "bytes": 3660,
+      "sha256": "d0de947bfc64e9cda3aa0a741fad4e7ce3e091ca9f2d97279620df2bc4ab5e86",
+      "git_blob": "362b7e399b8f8fbd0cc90228c3d8e312f3f30904"
+    },
+    {
+      "path": "vendor/LICENSE.txt",
+      "bytes": 2582,
+      "sha256": "73890f67d88fe4386822cc62be41e06ccbbf15748270f1d01b6499d9e900a922",
+      "git_blob": "ba0df767288b4d3621d5a2bb9d47c787b6654642"
+    },
+    {
+      "path": "vendor/Source/Particles/Collision/BinaryCollision/NuclearFusion/ProtonBoronFusionCrossSection.H",
+      "bytes": 6729,
+      "sha256": "2ec43290e5ea35e4b2de1db5feb0df2173bd8d468143688ca718ce84f531e7f3",
+      "git_blob": "443180b9a05d91453be8e1502f88fd5b1e1c9285"
+    },
+    {
+      "path": "vendor/Source/Utils/WarpXConst.H",
+      "bytes": 411,
+      "sha256": "176548f1d8d09aa0caacea241c99ddf9e645ce4f1e5e092571da6ecddc14bffe",
+      "git_blob": "d6f016ede4f3f50f86edeafd1043258a77080bd4"
+    },
+    {
+      "path": "vendor/Source/ablastr/constant.H",
+      "bytes": 9178,
+      "sha256": "5814ec730f55c1f6372cb65dd113d652ecd2b2287463209c8b703847da4d470e",
+      "git_blob": "851e49e9f74d06f7bbe032dd37766f325974bb2b"
+    }
+  ]
+}
