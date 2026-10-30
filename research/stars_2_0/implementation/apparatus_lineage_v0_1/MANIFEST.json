@@ -1,0 +1,21 @@
+{
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "04bb77e69896d7f2d7e5b0c50ad0223a9808ebf556734764616386da5117bb65",
+      "git_blob": "36672a8f811135a5f83a0c0e56781e2eba47db8e"
+    },
+    {
+      "path": "APPARATUS_REGISTRY.json",
+      "sha256": "e89b1d0d74aae03e9f1b1a545132de738bc4f2528000b5f9d531021acc93be8e",
+      "git_blob": "ec10be59331ccdfae59f454ea1f557ab4cffc154"
+    },
+    {
+      "path": "RUN_TEMPLATE.json",
+      "sha256": "7987e4559f55aef38c19a4163ea1600a8c1d84e500cf1abfecc1986761d023e2",
+      "git_blob": "ae328ee66376165325a3828b923ec07630540663"
+    }
+  ],
+  "self_excluded": true,
+  "verification": "JSON parsing, uniqueIDs, empty unapproved deltas; no apparatus simulation run"
+}
