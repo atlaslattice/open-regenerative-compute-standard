@@ -1,0 +1,34 @@
+{
+  "status": "SCALAR_KERNEL_AUDIT_ONLY_NOT_WARPX_PIC_RUN",
+  "python": "3.12.14",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0",
+  "compile_command": [
+    "g++",
+    "-std=c++20",
+    "-O2",
+    "-I/workspace/scratch/6126a9592c76/warpx_assessment_v0_1/harness_include",
+    "-I/workspace/scratch/6126a9592c76/warpx_assessment_v0_1/vendor/Source",
+    "/workspace/scratch/6126a9592c76/warpx_assessment_v0_1/kernel_probe.cpp",
+    "-o",
+    "/workspace/scratch/6126a9592c76/warpx_assessment_v0_1/receipts/kernel002/kernel_probe"
+  ],
+  "native_cpp_comparison_points": 315,
+  "maximum_relative_difference": 5.662492284990487e-14,
+  "input_guard_cases_passed": 9,
+  "low_resonance_grid_peak_CM_keV": 148.1,
+  "low_resonance_grid_peak_sigma_barn": 0.10324615053594895,
+  "source_commit": "a389dc54a27136176bdd48f7bfd36da62a873a61",
+  "code_hashes": {
+    "vendor/Source/Utils/WarpXConst.H": "176548f1d8d09aa0caacea241c99ddf9e645ce4f1e5e092571da6ecddc14bffe",
+    "vendor/Source/ablastr/constant.H": "5814ec730f55c1f6372cb65dd113d652ecd2b2287463209c8b703847da4d470e",
+    "vendor/Source/Particles/Collision/BinaryCollision/NuclearFusion/ProtonBoronFusionCrossSection.H": "2ec43290e5ea35e4b2de1db5feb0df2173bd8d468143688ca718ce84f531e7f3",
+    "harness_include/AMReX_Math.H": "c2f17f6e32cd853a82295f098281a3e8dd3318b6072a06a07c846e4d93f81aa3",
+    "harness_include/AMReX_REAL.H": "3a1dcc544ae2a7487771524259ffe058702f672f6127fdcde053642b87a34bde",
+    "kernel_probe.cpp": "e69e761dd1397f6b85975dcaaca8d0ea5ff25d3da77176144db7a363448b9798",
+    "fit_candidate.py": "f28197522f553a366602eb06e9edb263b98a8830443712a901a755637be34506",
+    "run_kernel_audit.py": "d0de947bfc64e9cda3aa0a741fad4e7ce3e091ca9f2d97279620df2bc4ab5e86"
+  },
+  "physical_fit_uncertainty": "Not recovered or propagated in this audit",
+  "full_pic_simulation_executed": false,
+  "stellar_forge_reference_replaced": false
+}

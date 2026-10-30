@@ -1,0 +1,18 @@
+[
+  {
+    "path": "LICENSE.txt",
+    "sha": "ba0df767288b4d3621d5a2bb9d47c787b6654642"
+  },
+  {
+    "path": "Source/Particles/Collision/BinaryCollision/NuclearFusion/ProtonBoronFusionCrossSection.H",
+    "sha": "443180b9a05d91453be8e1502f88fd5b1e1c9285"
+  },
+  {
+    "path": "Source/Utils/WarpXConst.H",
+    "sha": "d6f016ede4f3f50f86edeafd1043258a77080bd4"
+  },
+  {
+    "path": "Source/ablastr/constant.H",
+    "sha": "851e49e9f74d06f7bbe032dd37766f325974bb2b"
+  }
+]
