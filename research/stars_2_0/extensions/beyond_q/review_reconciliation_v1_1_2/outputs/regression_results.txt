@@ -1,0 +1,22 @@
+test_427_is_only_conditional_arithmetic (test_review.Regression.test_427_is_only_conditional_arithmetic) ... ok
+test_C01_include_B_blanket_and_percent (test_review.Regression.test_C01_include_B_blanket_and_percent) ... ok
+test_C02_configuration_lock (test_review.Regression.test_C02_configuration_lock) ... ok
+test_C03_stoichiometry_and_FPY (test_review.Regression.test_C03_stoichiometry_and_FPY) ... ok
+test_C04_consumption_subtracted (test_review.Regression.test_C04_consumption_subtracted) ... ok
+test_C05_midpoint (test_review.Regression.test_C05_midpoint) ... ok
+test_C06_DD_neutron_factor_two (test_review.Regression.test_C06_DD_neutron_factor_two) ... ok
+test_C07_C08_nonduplicated_heat (test_review.Regression.test_C07_C08_nonduplicated_heat) ... ok
+test_C10_single_pass_not_loss (test_review.Regression.test_C10_single_pass_not_loss) ... ok
+test_C12_geometry_results_unresolved (test_review.Regression.test_C12_geometry_results_unresolved) ... ok
+test_independent_A_recovery_paths (test_review.Regression.test_independent_A_recovery_paths) ... ok
+test_legacy_28_scenarios (test_review.Regression.test_legacy_28_scenarios) ... ok
+test_no_source_no_T (test_review.Regression.test_no_source_no_T) ... ok
+test_secondary_off_retains_primary_neutrons (test_review.Regression.test_secondary_off_retains_primary_neutrons) ... ok
+test_secondary_spectrum_yield_independence (test_review.Regression.test_secondary_spectrum_yield_independence) ... ok
+test_split_processing_mass_closure (test_review.Regression.test_split_processing_mass_closure) ... ok
+test_threshold_degrades_with_A_recovery (test_review.Regression.test_threshold_degrades_with_A_recovery) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.018s
+
+OK
