@@ -1,0 +1,80 @@
+[
+  {
+    "id": "real_shot_fusion_Q",
+    "kind": "OUTPUT",
+    "status": "UNKNOWN",
+    "next_evidence": "Need absolute reaction/event rate and source-normalized spectrum; current Stars nuclei-per-pulse unqualified"
+  },
+  {
+    "id": "alpha_exit_spectrum_energy",
+    "kind": "OUTPUT",
+    "status": "MODEL_BENCHMARK_ONLY",
+    "next_evidence": "Conditional coherent transport exists; actual target and fields need qualification"
+  },
+  {
+    "id": "alpha_energy_field_work",
+    "kind": "FLOW",
+    "status": "OPEN",
+    "next_evidence": "Track Q, incoming kinetic energy, target loss and plasma-field work separately;20MeV alpha is not20MeV nuclear Q"
+  },
+  {
+    "id": "collector_load_electricity",
+    "kind": "OUTPUT",
+    "status": "OPEN",
+    "next_evidence": "Need energy-angle-current-charge-state acceptance and net load efficiency; do not copy >80% low-parameter unit"
+  },
+  {
+    "id": "recoverable_heat",
+    "kind": "OUTPUT",
+    "status": "OPEN",
+    "next_evidence": "Need calorimetry, temperature/quality and real recovery path; energy remainder not automatic heat credit"
+  },
+  {
+    "id": "transmitted_proton_energy",
+    "kind": "FLOW",
+    "status": "MODEL_BENCHMARK_ONLY",
+    "next_evidence": "Record particles leaving recovery boundary; qualification from source spectrum and actual stopping needed"
+  },
+  {
+    "id": "radiation_neutron_secondary_losses",
+    "kind": "FLOW",
+    "status": "OPEN",
+    "next_evidence": "Need applicable spectra/channels, impurities and deposition fractions"
+  },
+  {
+    "id": "stored_energy_cycle_change",
+    "kind": "FLOW",
+    "status": "OPEN",
+    "next_evidence": "Track fields, plasma, mechanical and thermal inventories over consistent cycle"
+  },
+  {
+    "id": "laser_wall_electricity",
+    "kind": "INPUT",
+    "status": "OPEN",
+    "next_evidence": "190mJ optical and0.5% optical-to-proton are not wall-to-laser efficiency"
+  },
+  {
+    "id": "acoustic_wall_energy",
+    "kind": "INPUT",
+    "status": "OPEN",
+    "next_evidence": "Integrate driver wall power over startup/prep/sustain/aborts; no zero fill"
+  },
+  {
+    "id": "facility_auxiliaries",
+    "kind": "INPUT",
+    "status": "OPEN",
+    "next_evidence": "Vacuum, cooling, magnets, RF, controls and target processing per cycle; vendor/engineering derivations allowed with applicability"
+  },
+  {
+    "id": "readiness_firing_success",
+    "kind": "RELIABILITY",
+    "status": "OPEN",
+    "next_evidence": "Actual attempted preparations incl timeouts/aborts/misfires; diagnostic failures separate"
+  },
+  {
+    "id": "source_stability_reference",
+    "kind": "OBSERVABLE",
+    "status": "SOURCE_REPRODUCED",
+    "next_evidence": "Selected experimental300-record dose/centroid/divergence summaries reproduced; no acoustic contrast"
+  }
+]
