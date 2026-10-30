@@ -1,0 +1,1 @@
+WarpX26.10 packaged executable did not implement --version as used: aborted requesting geometry.prob_lo. Actual runs print WarpX(Unknown), AMReX26.10, PICSAR26.10. Package metadata and binary SHA establish executable identity; no embedded git hash claimed.

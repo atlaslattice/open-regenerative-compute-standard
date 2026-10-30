@@ -1,0 +1,18 @@
+Check particle production diagnostic for collision DTF1:
+from particles  = 4.3472680328164475e-28
+from diagnostic = 4.415241048336485e-28
+error = 0.015635800462940382
+tolerance = 0.02
+Check particle production diagnostic for collision DTF2:
+from particles  = 6.346639298235048e+18
+from diagnostic = 6.29515197370008e+18
+error = 0.008112533596999368
+tolerance = 0.02
+yt : [INFO     ] 2026-10-30 14:53:09,777 Parameters: current_time              = 1.9258332015464708e-09
+yt : [INFO     ] 2026-10-30 14:53:09,778 Parameters: domain_dimensions         = [ 8  8 16]
+yt : [INFO     ] 2026-10-30 14:53:09,778 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2026-10-30 14:53:09,778 Parameters: domain_right_edge         = [ 8.  8. 16.]
+yt : [INFO     ] 2026-10-30 14:53:09,821 Parameters: current_time              = 0.0
+yt : [INFO     ] 2026-10-30 14:53:09,822 Parameters: domain_dimensions         = [ 8  8 16]
+yt : [INFO     ] 2026-10-30 14:53:09,822 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2026-10-30 14:53:09,822 Parameters: domain_right_edge         = [ 8.  8. 16.]

@@ -1,0 +1,8 @@
+yt : [INFO     ] 2026-10-30 14:52:31,662 Parameters: current_time              = 1.9258332015464708e-09
+yt : [INFO     ] 2026-10-30 14:52:31,662 Parameters: domain_dimensions         = [ 8  8 16]
+yt : [INFO     ] 2026-10-30 14:52:31,662 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2026-10-30 14:52:31,662 Parameters: domain_right_edge         = [ 8.  8. 16.]
+yt : [INFO     ] 2026-10-30 14:52:31,693 Parameters: current_time              = 0.0
+yt : [INFO     ] 2026-10-30 14:52:31,693 Parameters: domain_dimensions         = [ 8  8 16]
+yt : [INFO     ] 2026-10-30 14:52:31,693 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2026-10-30 14:52:31,693 Parameters: domain_right_edge         = [ 8.  8. 16.]

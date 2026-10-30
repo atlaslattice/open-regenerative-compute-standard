@@ -1,0 +1,30 @@
+{
+  "case": "seed_319",
+  "kind": "ACTUAL_WARPX_COLLISION_NETWORK_BENCHMARK",
+  "package_version": "26.10",
+  "upstream_tag_commit": "ec1660d961696c865c87c26728b7e248b5454082",
+  "binary_version_banner": "WarpX (Unknown); conda package pins release26.10, not an embedded source hash",
+  "executable_sha256": "505995e2c39a800396599f418b2b725b1aa35fedc2b9313b3a0365b51fed9f75",
+  "input_sha256": "0de19ce19e8425ff7b67b479f013cd1adf7b7d86349e6dd6f6377819707639a1",
+  "overrides": {
+    "warpx.random_seed": "319"
+  },
+  "threads": 2,
+  "argv": [
+    "/workspace/scratch/4524d3a10c71/warpx-runtime/env/bin/warpx.3d",
+    "/workspace/scratch/4524d3a10c71/research/stars_2_0/extensions/beyond_q/kinetic_source_v1_3/inputs/dd_dt_chain",
+    "warpx.random_seed=319"
+  ],
+  "input_hashes": {
+    "momentum.txt": "4c823799facab18a41111a70c972b78dce38ed55de22e15d4d78c9cd0bc2f25b",
+    "warpx_used_inputs": "a4d769a0cb51b56ed09b25ebfde8c226ab5d5f9b539dec262dc6427e9f6659db",
+    "stdout.txt": "05e264080a24021e45238fb88ffebbd58e344e018ba66d6157f0fe4ac5582e5c",
+    "number.txt": "4efce69e59abe299baf44f03b612f002ae852990ebc6ecdc3618d466b5448a40",
+    "energy.txt": "5fedbb9de31ddee12318ad70d8e0f570af2896e46249ec26cc06944e884f4cff",
+    "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "physical_validation": false,
+  "reactor_A_primary_DD_reference_MW": 20,
+  "reactor_B_DT_reference_MW": 1130,
+  "reference_power_application": "NOT imposed in this microscopic box; post-normalization only, no achievable-power claim"
+}

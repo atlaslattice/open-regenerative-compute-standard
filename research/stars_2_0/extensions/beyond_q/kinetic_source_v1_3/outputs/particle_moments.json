@@ -1,0 +1,235 @@
+{
+  "chain_on": {
+    "T": {
+      "macroparticles": 28332,
+      "sum_weight": 194729205.44303036,
+      "sum_weight_squared": 6089296317147.955,
+      "weighted_mean_energy_eV": 1043643.6305480872
+    },
+    "P": {
+      "macroparticles": 28332,
+      "sum_weight": 194729212.1156314,
+      "sum_weight_squared": 6089296728003.745,
+      "weighted_mean_energy_eV": 3084618.260507807
+    },
+    "He3": {
+      "macroparticles": 28468,
+      "sum_weight": 210149422.9272093,
+      "sum_weight_squared": 7407244076924.736,
+      "weighted_mean_energy_eV": 858183.3531860904
+    },
+    "nDD": {
+      "macroparticles": 28468,
+      "sum_weight": 210149422.9272093,
+      "sum_weight_squared": 7407244076924.736,
+      "weighted_mean_energy_eV": 2506718.6222240613
+    },
+    "nDT": {
+      "macroparticles": 39970,
+      "sum_weight": 6.672601048113981,
+      "sum_weight_squared": 0.007399146929162043,
+      "weighted_mean_energy_eV": 14472982.652803482
+    }
+  },
+  "double_ppc": {
+    "T": {
+      "macroparticles": 56820,
+      "sum_weight": 192726802.18862912,
+      "sum_weight_squared": 3014415948518.7983,
+      "weighted_mean_energy_eV": 1045821.1499681536
+    },
+    "P": {
+      "macroparticles": 56820,
+      "sum_weight": 192726808.82066247,
+      "sum_weight_squared": 3014416155046.4336,
+      "weighted_mean_energy_eV": 3082277.730287846
+    },
+    "He3": {
+      "macroparticles": 56538,
+      "sum_weight": 211510737.85313144,
+      "sum_weight_squared": 3749373890475.411,
+      "weighted_mean_energy_eV": 858459.2838273895
+    },
+    "nDD": {
+      "macroparticles": 56538,
+      "sum_weight": 211510737.85313144,
+      "sum_weight_squared": 3749373890475.411,
+      "weighted_mean_energy_eV": 2507293.2146646655
+    },
+    "nDT": {
+      "macroparticles": 81592,
+      "sum_weight": 6.632033350575492,
+      "sum_weight_squared": 0.0035583766680338967,
+      "weighted_mean_energy_eV": 14460220.291535482
+    }
+  },
+  "half_dt": {
+    "T": {
+      "macroparticles": 62218,
+      "sum_weight": 194353685.22725502,
+      "sum_weight_squared": 3027260963360.2417,
+      "weighted_mean_energy_eV": 1048020.6855703845
+    },
+    "P": {
+      "macroparticles": 62218,
+      "sum_weight": 194353691.8877861,
+      "sum_weight_squared": 3027261172383.867,
+      "weighted_mean_energy_eV": 3080340.8789864997
+    },
+    "He3": {
+      "macroparticles": 61864,
+      "sum_weight": 209979856.53159422,
+      "sum_weight_squared": 3665754998660.8945,
+      "weighted_mean_energy_eV": 860171.2802491545
+    },
+    "nDD": {
+      "macroparticles": 61864,
+      "sum_weight": 209979856.53159422,
+      "sum_weight_squared": 3665754998660.8945,
+      "weighted_mean_energy_eV": 2505330.5197659354
+    },
+    "nDT": {
+      "macroparticles": 81514,
+      "sum_weight": 6.660531057011173,
+      "sum_weight_squared": 0.0038603355794731226,
+      "weighted_mean_energy_eV": 14479514.818250086
+    }
+  },
+  "lower_multiplier": {
+    "T": {
+      "macroparticles": 38220,
+      "sum_weight": 193158975.2184716,
+      "sum_weight_squared": 5864864692157.691,
+      "weighted_mean_energy_eV": 1052216.7377393185
+    },
+    "P": {
+      "macroparticles": 38220,
+      "sum_weight": 193158982.0716998,
+      "sum_weight_squared": 5864865102314.217,
+      "weighted_mean_energy_eV": 3075669.0144029395
+    },
+    "He3": {
+      "macroparticles": 37628,
+      "sum_weight": 211561333.41770172,
+      "sum_weight_squared": 7726264863010.887,
+      "weighted_mean_energy_eV": 855820.166983995
+    },
+    "nDD": {
+      "macroparticles": 37628,
+      "sum_weight": 211561333.41770172,
+      "sum_weight_squared": 7726264863010.887,
+      "weighted_mean_energy_eV": 2511561.3799656816
+    },
+    "nDT": {
+      "macroparticles": 54398,
+      "sum_weight": 6.853228209371112,
+      "sum_weight_squared": 0.009500210110713902,
+      "weighted_mean_energy_eV": 14479781.346217435
+    }
+  },
+  "no_T_birth": {
+    "He3": {
+      "macroparticles": 28606,
+      "sum_weight": 207862021.7953241,
+      "sum_weight_squared": 7276276435028.457,
+      "weighted_mean_energy_eV": 856369.1571179943
+    },
+    "nDD": {
+      "macroparticles": 28606,
+      "sum_weight": 207862021.7953241,
+      "sum_weight_squared": 7276276435028.457,
+      "weighted_mean_energy_eV": 2508901.438791057
+    }
+  },
+  "no_reactions": {},
+  "secondary_off": {
+    "T": {
+      "macroparticles": 28280,
+      "sum_weight": 195200471.69579828,
+      "sum_weight_squared": 6154338351741.265,
+      "weighted_mean_energy_eV": 1050135.6777743609
+    },
+    "P": {
+      "macroparticles": 28280,
+      "sum_weight": 195200471.69579828,
+      "sum_weight_squared": 6154338351741.265,
+      "weighted_mean_energy_eV": 3078813.8258279935
+    },
+    "He3": {
+      "macroparticles": 28380,
+      "sum_weight": 206794623.16954666,
+      "sum_weight_squared": 7211806870513.287,
+      "weighted_mean_energy_eV": 856746.0032972773
+    },
+    "nDD": {
+      "macroparticles": 28380,
+      "sum_weight": 206794623.16954666,
+      "sum_weight_squared": 7211806870513.287,
+      "weighted_mean_energy_eV": 2508704.211310067
+    }
+  },
+  "seed_219": {
+    "T": {
+      "macroparticles": 28206,
+      "sum_weight": 193047501.3013422,
+      "sum_weight_squared": 5996863047626.257,
+      "weighted_mean_energy_eV": 1049474.925075579
+    },
+    "P": {
+      "macroparticles": 28206,
+      "sum_weight": 193047507.8150825,
+      "sum_weight_squared": 5996863442096.704,
+      "weighted_mean_energy_eV": 3079033.066058541
+    },
+    "He3": {
+      "macroparticles": 28492,
+      "sum_weight": 209499443.04978618,
+      "sum_weight_squared": 7462394562210.355,
+      "weighted_mean_energy_eV": 858823.2618992067
+    },
+    "nDD": {
+      "macroparticles": 28492,
+      "sum_weight": 209499443.04978618,
+      "sum_weight_squared": 7462394562210.355,
+      "weighted_mean_energy_eV": 2507882.149118996
+    },
+    "nDT": {
+      "macroparticles": 39970,
+      "sum_weight": 6.5137403395490985,
+      "sum_weight_squared": 0.007009731120774335,
+      "weighted_mean_energy_eV": 14487937.42577827
+    }
+  },
+  "seed_319": {
+    "T": {
+      "macroparticles": 28190,
+      "sum_weight": 193650429.99533695,
+      "sum_weight_squared": 6070546669922.506,
+      "weighted_mean_energy_eV": 1046612.6662570667
+    },
+    "P": {
+      "macroparticles": 28190,
+      "sum_weight": 193650436.60446054,
+      "sum_weight_squared": 6070547091523.44,
+      "weighted_mean_energy_eV": 3082338.130410466
+    },
+    "He3": {
+      "macroparticles": 28440,
+      "sum_weight": 207538634.38403097,
+      "sum_weight_squared": 7446180539940.715,
+      "weighted_mean_energy_eV": 862420.5575872373
+    },
+    "nDD": {
+      "macroparticles": 28440,
+      "sum_weight": 207538634.38403097,
+      "sum_weight_squared": 7446180539940.715,
+      "weighted_mean_energy_eV": 2503984.841312096
+    },
+    "nDT": {
+      "macroparticles": 40012,
+      "sum_weight": 6.609123625077289,
+      "sum_weight_squared": 0.007449063024831849,
+      "weighted_mean_energy_eV": 14473806.93679447
+    }
+  }
+}
