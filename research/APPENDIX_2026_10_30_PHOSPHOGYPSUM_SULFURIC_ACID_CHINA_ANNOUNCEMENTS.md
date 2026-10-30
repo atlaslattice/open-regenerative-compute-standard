@@ -1,0 +1,7 @@
+# ORCS appendix — China's phosphogypsum-to-sulfuric-acid projects
+**Status:** Announced capacity/investment watch, not validated operation. See [DeepSeek evidence audit](https://github.com/atlaslattice/open-regenerative-compute-standard/blob/main/docs/fiction/iron_empire/DEEPSEEK_RESEARCH_CONVERGENCE_EVIDENCE_AUDIT_v0_1_2026-10-30.md).
+October 30 2026 reporting attributes to Xingfa Group a proposed RMB 1.436 billion Yidu investment to treat 2 Mt/year phosphogypsum and produce 790 kt/year sulfuric acid plus 750 kt/year clinker. Treat as **announced design capacities**; commissioning, sustained throughput, realized recovery and economic return unverified.
+Report: https://zijing.com.cn/web/article/1565771013439029248/web/content_1565771013439029248.html
+DeepSeek additionally cites China Wuhuan four projects totaling >9 Mt/year feed and Hubei conversion metrics, but first-party reconciliation is **pending**.
+Ledger considerations: mass balance (wet vs dry gypsum; assay; sulfur recovery; acid concentration), energy inputs, clinker quality/market, avoided sulfur imports, raw-material substitutions, transport, environmental and financial liabilities, and baseline disposal obligations. Project commitments establish interest and planning but do not alone prove cost advantages.
+Cross-reference [ORCS domestic materials ledger](https://github.com/atlaslattice/open-regenerative-compute-standard/blob/main/docs/ORCS_DOMESTIC_MATERIALS_ABUNDANCE_TRADE_LEDGER_v1_0_2026-10-14.md) and Dongjiakou node research.
