@@ -1,0 +1,22 @@
+{
+  "status": "BLOCKED_UNRESOLVED_GEOMETRY",
+  "unresolved_fields": [
+    "acoustic_boundary_conditions",
+    "alpha_exit_apertures",
+    "b11_fraction",
+    "boron_areal_atoms_m2",
+    "boron_form",
+    "ceramic_composition",
+    "detector_acceptance",
+    "grain_size_distribution",
+    "laser_paths",
+    "layer_stack",
+    "mechanical_damping",
+    "mirror_layout",
+    "packing_fraction",
+    "pocket_inner_dimensions_m",
+    "pocket_wall_thickness_m",
+    "proton_source_phase_space",
+    "shell_geometry"
+  ]
+}

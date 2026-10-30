@@ -1,0 +1,16 @@
+[
+  {
+    "name": "ESTHER",
+    "url": "https://www-lmce.cea.fr/en/cond_matt_physics/4_codes/3_esther.html",
+    "sha256": "1b921bfa8324c6fb46306cc6751a5a83ac54d6246eabf6cd16488d91848f5a5b",
+    "status": "READ_OFFICIAL_PAGE",
+    "review_summary": "Official page identifies 1D Lagrangian radiation hydrodynamics, multilayer solid-to-plasma response, energy deposition and mechanics. Source available by GitLab invitation."
+  },
+  {
+    "name": "FLASH_X",
+    "url": "https://flash-x.org/pages/source/",
+    "sha256": "168bfc93b03c658dbaeacfb9e79155c21cc62999ec1a81f9e515a14a6da110b1",
+    "status": "READ_OFFICIAL_PAGE",
+    "review_summary": "Official page identifies Apache 2.0 distribution through a nonpublic repository, with GitHub collaborator access requested from maintainers."
+  }
+]

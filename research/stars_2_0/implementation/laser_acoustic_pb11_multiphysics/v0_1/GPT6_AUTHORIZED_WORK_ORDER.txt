@@ -1,0 +1,269 @@
+I verified both DeepSeek documents in your Stars 2.0 repository. Work's caution is justified: the ceramic particle pocket is not yet specified well enough to treat it as the existing 4–6 µm boron film or the printed support assembly.
+
+Two useful external findings will make the handoff more precise:
+
+- ESTHER is officially described by CEA as open-source, one-dimensional radiation-hydrodynamics software, but its GitLab source requires an invitation. Its published capabilities include mechanical response, laser energy deposition, and solid-to-plasma evolution. It cannot independently represent a fully three-dimensional particle-filled pocket.&#x20;
+
+  [image](https://www.google.com/s2/favicons?domain=https://www-lmce.cea.fr\&sz=32)
+
+  Laboratory for Matter in Extreme Conditions
+
+- Flash-X also has a source-access requirement—its maintainers request a GitHub ID before granting repository access. For immediately executable, publicly accessible kinetic work, WarpX and Smilei are stronger starting points.&#x20;
+
+  [image](https://www.google.com/s2/favicons?domain=https://flash-x.org\&sz=32)
+
+  flash-x.org+2
+
+
+
+I'll frame the work order so it can proceed without either restricted codebase, while leaving them available for later integration.
+
+## Paste this into ChatGPT Work
+
+This is written as an execution instruction, not merely a research proposal. It asks Work to inspect existing project artifacts, establish the missing pocket specification, produce a reproducible baseline, and build the simulation interfaces without claiming unperformed validation.
+
+# Atlas Lattice / Stars 2.0 — Ceramic Boron Pocket and Laser–Acoustic p–¹¹B Multiphysics Integration
+
+**Execution request:** Continue the existing Stars 2.0 / Stellar Forge / PRISM research using the public GitHub repository. Do not restart the project, substitute a generic reactor configuration, or invent missing fabrication specifications.
+
+Repository:\
+[https://github.com/atlaslattice/open-regenerative-compute-standard](https://github.com/atlaslattice/open-regenerative-compute-standard)
+
+## 1. Recover the existing design before modeling
+
+Read these source documents in full:
+
+**DeepSeek hybrid target fabrication proposal**
+
+[https://github.com/atlaslattice/open-regenerative-compute-standard/blob/main/research/stars_2_0/reviews/DEEPSEEK_V08_HYBRID_BORON_TARGET_FABRICATION_FOLLOWUP_2026-10-27.md](https://github.com/atlaslattice/open-regenerative-compute-standard/blob/main/research/stars_2_0/reviews/DEEPSEEK_V08_HYBRID_BORON_TARGET_FABRICATION_FOLLOWUP_2026-10-27.md)
+
+**DeepSeek cross-domain engineering audit**
+
+[https://github.com/atlaslattice/open-regenerative-compute-standard/blob/main/research/stars_2_0/reviews/DEEPSEEK_V08_CROSS_DOMAIN_ENGINEERING_AUDIT_2026-10-27.md](https://github.com/atlaslattice/open-regenerative-compute-standard/blob/main/research/stars_2_0/reviews/DEEPSEEK_V08_CROSS_DOMAIN_ENGINEERING_AUDIT_2026-10-27.md)
+
+Search the remainder of `research/stars_2_0/` for the original acoustic–optical, hollow-sphere, mirrored-target and ceramic-pocket discussions, including earlier designs, simulations, white papers, review packets and source references.
+
+The currently recovered documents establish a liquid proton source, a candidate boron-bearing reaction film and supporting hardware as distinct subsystems. They **do not establish the precise ceramic boron-particle pocket geometry**.
+
+Do not silently merge these components.
+
+Create a provenance table showing what is documented, what is reconstructed, and what remains unknown.
+
+If the exact pocket specification cannot be recovered, implement a **clearly labeled parameterized placeholder**, with no fabricated dimensions or material properties.
+
+## 2. Preserve the actual experiment
+
+This branch is **not** the dual-reactor Beyond Q D–D/D–T architecture.
+
+It is a pulsed, laser-driven proton–boron-11 fusion experiment incorporating some combination of:
+
+- A hollow spherical geometry.
+- Proposed reflective or mirrored optical components.
+- A liquid proton-source arrangement.
+- Boron-bearing targets, including a possible ceramic particle pocket.
+- Ten seconds of acoustic pretreatment.
+- Optional sustained acoustic forcing during laser irradiation.
+- Sham-controlled measurements of shot success, stability and timing jitter.
+
+The scientific hypothesis is that acoustic conditioning may improve target preparation, density distribution, stability, alignment, laser coupling or shot repeatability.
+
+Do not postulate that acoustic waves directly modify nuclear reaction cross sections.
+
+Preserve three separate experimental objectives:
+
+1. **Shot reliability:** success fraction, jitter, symmetry, stability and repeatability.
+2. **Fusion performance:** total reaction yield, produced alpha spectra and escaping/detected alpha yield.
+3. **Energy accounting:** complete laser, acoustic, auxiliary and diagnostic inputs versus appropriately measured useful output.
+
+No modeled success-rate or yield improvement is automatically a demonstrated physical result.
+
+## 3. Recover and freeze the reference geometry — Gate G0
+
+Before expensive simulations, construct a versioned geometry and material specification.
+
+Include the shell and mirror layout, laser paths, proton source, boron target or pocket, backing materials, apertures and detector acceptance.
+
+For the pocket, resolve:
+
+- Ceramic composition and isotope-bearing phase.
+- Loose particles versus bonded or sintered material.
+- Grain-size and packing distributions.
+- Pocket and aperture dimensions.
+- Wall thickness, density and porosity.
+- Acoustic boundary conditions and mechanical damping.
+- Laser exposure and shielding.
+- Proton entry pathways and alpha escape pathways.
+
+Unknown fields must remain explicit.
+
+Produce CAD-compatible geometry specifications or parameter files and clearly identify which geometry features are recoveries versus new exploratory design choices.
+
+Do not assume that a spherical catcher, an external acoustic resonator and the hollow laser-reflection assembly share the same boundary conditions.
+
+## 4. Establish an independent reference baseline — Gate G1
+
+Before applying acoustic modulation, define a matched reference experiment.
+
+Compare the recovered pocket or exploratory pocket against a reference with equivalent incident proton conditions and appropriately matched boron-11 inventory.
+
+Where fabrication branches differ, preserve the distinction between equal physical thickness and equal boron-11 areal atom density.
+
+Required arms:
+
+| Arm | Pocket/reference | Acoustic condition |
+| --- | ---------------- | ------------------ |
+| A   | Reference        | OFF                |
+| B   | Reference        | SHAM               |
+| C   | Reference        | ON                 |
+| D   | Pocket           | OFF                |
+| E   | Pocket           | SHAM               |
+| F   | Pocket           | ON                 |
+
+The SHAM arm must capture relevant non-acoustic changes in heating, mounting, electronics, vibrations or operator handling.
+
+Prespecify the shot-success definition before comparing outcomes.
+
+Use independent randomized seeds and bounded distributions for laser pointing, focus, pulse timing, target alignment, packing, fabrication tolerances and detector response.
+
+Prevent tuning on the final holdout ensemble.
+
+## 5. Qualify the simulation tools
+
+Review the following directly accessible resources.
+
+### WarpX — primary laser–plasma and fusion PIC candidate
+
+[https://github.com/BLAST-WarpX/warpx](https://github.com/BLAST-WarpX/warpx)
+
+[https://github.com/BLAST-WarpX/warpx/blob/development/Docs/source/usage/parameters.rst](https://github.com/BLAST-WarpX/warpx/blob/development/Docs/source/usage/parameters.rst)
+
+[https://github.com/BLAST-WarpX/warpx/blob/development/Examples/Tests/nuclear_fusion/inputs_test_2d_proton_boron_fusion_modulus_shuffle](https://github.com/BLAST-WarpX/warpx/blob/development/Examples/Tests/nuclear_fusion/inputs_test_2d_proton_boron_fusion_modulus_shuffle)
+
+[https://github.com/BLAST-WarpX/warpx/blob/development/Source/Particles/Collision/BinaryCollision/NuclearFusion/ProtonBoronFusionCrossSection.H](https://github.com/BLAST-WarpX/warpx/blob/development/Source/Particles/Collision/BinaryCollision/NuclearFusion/ProtonBoronFusionCrossSection.H)
+
+### Smilei — independent PIC comparison
+
+[https://github.com/SmileiPIC/Smilei](https://github.com/SmileiPIC/Smilei)
+
+[https://smileipic.github.io/Smilei/Overview/synopsis.html](https://smileipic.github.io/Smilei/Overview/synopsis.html)
+
+[https://smileipic.github.io/Smilei/Use/namelist.html](https://smileipic.github.io/Smilei/Use/namelist.html)
+
+[https://smileipic.github.io/Smilei/Use/profiles.html](https://smileipic.github.io/Smilei/Use/profiles.html)
+
+### ESTHER — laser-induced material and hydrodynamic response
+
+[https://www-lmce.cea.fr/en/cond_matt_physics/4_codes/3_esther.html](https://www-lmce.cea.fr/en/cond_matt_physics/4_codes/3_esther.html)
+
+CEA identifies ESTHER as a one-dimensional radiation-hydrodynamics code with material mechanical-response models. Its source requires a GitLab invitation. Check its applicability to multilayer target studies and spherical radial approximations, but do not treat it as a three-dimensional granular solver.
+
+### Flash-X — hydrodynamics candidate
+
+[https://flash-x.org/pages/source/](https://flash-x.org/pages/source/)
+
+[https://github.com/Flash-X/Flash-X-docs](https://github.com/Flash-X/Flash-X-docs)
+
+Flash-X source access requires maintainer approval. Document whether an available implementation is suitable, but do not block the initial benchmark waiting for access.
+
+Select an accessible acoustics/structural solver and an optical model only after reviewing their physics support, licensing, material models, numerical resolution and coupling requirements.
+
+**Do not describe every tool as validated for this specific experimental geometry merely because its general physics is well established.**
+
+## 6. Build the coupled multiphysics work order
+
+Execute in this order:
+
+**WP1 — Source recovery and design freeze**
+
+Inventory earlier Stars artifacts. Identify unresolved pocket parameters. Produce a machine-readable geometry and material manifest.
+
+**WP2 — Static materials and particle transport**
+
+Compare candidate target configurations using material-specific stopping and scattering calculations. Evaluate incoming proton transmission, alpha escape energy, angular acceptance, support losses and detector response. Do not confuse emitted alphas with detected alphas.
+
+**WP3 — Ten-second acoustic pretreatment**
+
+Model the actual mechanical and, if applicable, granular response over the pretreatment interval. Include the pocket and shell's material properties, damping, particle interactions, resonances and realistic boundary conditions.
+
+**WP4 — Laser and optical propagation**
+
+Model the hollow-sphere and reflective geometry, real optical losses, alignment errors, angular distributions and material damage constraints. Do not assume perfect reflection or repeated survivable laser passes.
+
+**WP5 — Laser-driven material evolution**
+
+Using a qualified hydrodynamics solver, calculate whether the proposed pre-shot material configurations produce meaningfully different density, temperature, ablation or plasma formation states.
+
+**WP6 — Kinetic interaction and fusion**
+
+First reproduce the upstream WarpX proton–boron benchmark without modifications. Record executable version, input deck, hardware, particle weights, solver settings, convergence behavior and energy accounting.
+
+Then import only physically justified target states and evaluate the resulting particle spectra, nuclear reaction statistics and alpha production.
+
+Use Smilei for appropriately comparable independent kinetic checks, with explicit differences between its supported nuclear physics and WarpX.
+
+**WP7 — Randomized ensemble and causal comparison**
+
+Run OFF/SHAM/ON comparisons using the same predeclared success criteria. Report effect sizes, uncertainties, failure probabilities and sensitivity to manufacturing and laser jitter.
+
+**WP8 — PRISM integration**
+
+Export standardized numerical results to the existing Stars/PRISM evidence ledger. Preserve provenance, reactor-versus-pulsed-target boundaries, physical-unit consistency, uncertainties and a full wall-plug energy ledger.
+
+Do not merge the p–¹¹B target research with Beyond Q's Reactor A or Reactor B power assumptions.
+
+## 7. Output and verification requirements
+
+For each work package, produce:
+
+- Source citations and evidence classifications.
+- Versioned configuration files and executable code where feasible.
+- Tests with explicit pass/fail results.
+- Documented convergence and conservation checks.
+- Model assumptions and unresolved parameters.
+- Comparison plots or tables.
+- A clear separation of measured, source-reproduced, numerically derived and hypothetical findings.
+
+Preserve the filter-dependent interpretation of published spherical-target alpha measurements. Do not convert a reported \~100× detected-alpha comparison into a universal fusion-yield multiplier.
+
+**Evidence rule:** Reproducing a third-party solver and its test case establishes a useful numerical baseline, not experimental validation of our pocket or acoustic hypothesis.
+
+## 8. Repository deliverables
+
+Add a new research directory under the existing Stars 2.0 hierarchy for:
+
+`laser_acoustic_pb11_multiphysics/`
+
+Create:
+
+1. A source and geometry recovery report.
+2. A pocket-versus-reference comparison specification.
+3. A solver capability/access matrix.
+4. A reproducible benchmark manifest.
+5. Model interface contracts and unit definitions.
+6. Initial executable benchmarks and tests where feasible.
+7. A research-gate status ledger.
+8. A concise handoff packet with commit links.
+
+Preserve existing files; do not overwrite the historical DeepSeek reviews.
+
+Commit completed work to GitHub in logical, reviewable units. Distinguish implemented-and-tested work from proposed but unexecuted work.
+
+**Priority:** Establish the real design and validated baseline interfaces before attempting ambitious full-geometry fusion predictions. If source recovery or compute resources prevent a work package, complete the independent tasks and explicitly document the blocker instead of inventing a result.
+
+Proceed using routine implementation choices without requesting confirmation. Maintain the project's evidence discipline throughout.
+
+## Three corrections I deliberately built into that handoff
+
+First, pocket geometry must precede coupled simulation. We can create a parameterized placeholder now, but we should not announce an acoustically stabilized ceramic pocket until we know whether the original design was granular, sintered, or a supported film.
+
+Second, ESTHER's access and dimensionality matter. It is relevant to material response, including published one-dimensional spherical calculations, but isn't a direct substitute for a three-dimensional acoustic/granular simulation.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www-lmce.cea.fr\&sz=32)
+
+Laboratory for Matter in Extreme Conditions+1
+
+
+
+Third, the project needs paired physical and detection ledgers. An acoustically conditioned pocket might improve repeatability while obstructing alpha escape. Reporting only detected counts would hide whether the change arose from nuclear reactions, transport, geometry or detector acceptance.
+
+I would have Work execute G0 recovery → reference particle transport → acoustic/material state → laser interaction → WarpX benchmark → randomized comparison in that order. That's the shortest path toward a defensible answer to whether the proposed target arrangement actually helps, while preserving the broader Stellar Forge research.

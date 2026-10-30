@@ -1,0 +1,49 @@
+{
+  "status": "NOT_CALIBRATED_NO_NUMERICAL_DEFAULTS",
+  "candidates": [
+    {
+      "candidate_id": "P1",
+      "description": "Porous BN/B4C candidate scaffold with separately specified loaded phase",
+      "evidence": "NEW_OR_SOURCE_ALIGNED_PROPOSAL_NOT_ORIGINAL_RECOVERY",
+      "geometry_ref": "geometry_template.json",
+      "dimensions_m": null,
+      "material_properties": null,
+      "boron_loading": null,
+      "acoustic_response": null,
+      "apparatus_membership": null
+    },
+    {
+      "candidate_id": "P2",
+      "description": "Deposited boron-bearing layer on printed support",
+      "evidence": "NEW_OR_SOURCE_ALIGNED_PROPOSAL_NOT_ORIGINAL_RECOVERY",
+      "geometry_ref": "geometry_template.json",
+      "dimensions_m": null,
+      "material_properties": null,
+      "boron_loading": null,
+      "acoustic_response": null,
+      "apparatus_membership": null
+    },
+    {
+      "candidate_id": "P3",
+      "description": "Minimally supported ceramic membrane",
+      "evidence": "NEW_OR_SOURCE_ALIGNED_PROPOSAL_NOT_ORIGINAL_RECOVERY",
+      "geometry_ref": "geometry_template.json",
+      "dimensions_m": null,
+      "material_properties": null,
+      "boron_loading": null,
+      "acoustic_response": null,
+      "apparatus_membership": null
+    },
+    {
+      "candidate_id": "P_LOOSE_UNRESOLVED",
+      "description": "Loose particle bed retained as unresolved possibility",
+      "evidence": "NEW_OR_SOURCE_ALIGNED_PROPOSAL_NOT_ORIGINAL_RECOVERY",
+      "geometry_ref": "geometry_template.json",
+      "dimensions_m": null,
+      "material_properties": null,
+      "boron_loading": null,
+      "acoustic_response": null,
+      "apparatus_membership": null
+    }
+  ]
+}

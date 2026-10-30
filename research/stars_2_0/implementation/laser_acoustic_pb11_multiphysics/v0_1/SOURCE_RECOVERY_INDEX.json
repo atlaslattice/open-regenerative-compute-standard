@@ -1,0 +1,425 @@
+{
+  "main_commit": "c96d12176dbd5613f148f3f51df5a746f42952dd",
+  "scope": "All 61 .md/.txt files under research/stars_2_0 on this main commit, plus prior draft recovery packages; not every branch or private archive.",
+  "keywords": [
+    "pocket",
+    "ceramic",
+    "陶瓷",
+    "口袋",
+    "颗粒",
+    "honeycomb"
+  ],
+  "files": [
+    {
+      "path": "research/stars_2_0/ARTIFACT_MANIFEST_2026-10-27.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/ARTIFACT_MANIFEST_2026-10-27.md",
+      "git_blob_sha": "9ba635467484d520cbbc887340c6e8cefdd99326",
+      "matching_lines": [
+        {
+          "line": 102,
+          "text": "- Preserve liquid pitcher, deposited active boron layer, and DISH/ceramic-printed frame as distinct serial subsystems. Explicitly account for substrate alpha attenuation and match boron-11 areal atomic density in comparator studies. Not experimental proof."
+        }
+      ]
+    },
+    {
+      "path": "research/stars_2_0/GPTWORK_IMPLEMENTATION_HANDOFF_PENDING_GEMINI_2026-10-27.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/GPTWORK_IMPLEMENTATION_HANDOFF_PENDING_GEMINI_2026-10-27.md",
+      "git_blob_sha": "df0fc4dc626109864448de8c6e753ae4b80b96b6",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/GPTWORK_WIZARD_COUNCIL_CREATIVE_REVIEW_INVITATION_2026-10-27.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/GPTWORK_WIZARD_COUNCIL_CREATIVE_REVIEW_INVITATION_2026-10-27.md",
+      "git_blob_sha": "a8a39fbc4743dc5ffed3e77fb74a38bc3fcb3e65",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/RESEARCHER_DISCOVERY_AND_REPRODUCIBILITY_README.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/RESEARCHER_DISCOVERY_AND_REPRODUCIBILITY_README.md",
+      "git_blob_sha": "dfd935017151b43226f7b3a29c6dc7e7615d551b",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/STARS_PHYSICS_ONLY_SHUGS_OPERATOR_SCOPE_v0_1_2026-10-28.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/STARS_PHYSICS_ONLY_SHUGS_OPERATOR_SCOPE_v0_1_2026-10-28.md",
+      "git_blob_sha": "a5b4fce87509f930e1bc86d67f4d1b04078faba1",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/acoustics/archived_library_reports/REPORT_v0_10.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/acoustics/archived_library_reports/REPORT_v0_10.md",
+      "git_blob_sha": "8615bf6f19a0999da38fb84fa2fb6540adf11a00",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/acoustics/archived_library_reports/REPORT_v0_11.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/acoustics/archived_library_reports/REPORT_v0_11.md",
+      "git_blob_sha": "c28d338c8624aa68c71e26e0dc37e43730386e21",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/acoustics/archived_library_reports/REPORT_v0_12.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/acoustics/archived_library_reports/REPORT_v0_12.md",
+      "git_blob_sha": "76469559a2dda65fc1317d6bfe63cc4606a168da",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/extensions/beyond_q/GEMINI_CHINESE_COMMENTARY_PROVENANCE_AND_RECONCILIATION_2026-10-30.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/extensions/beyond_q/GEMINI_CHINESE_COMMENTARY_PROVENANCE_AND_RECONCILIATION_2026-10-30.md",
+      "git_blob_sha": "66e930634135747be713139d131cb6c768ca7271",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/extensions/beyond_q/global_quantum_v2_3/APPENDIX_2026_10_30_GEMINI_WILLOW_MAGIC_STATE_AND_FUSION_CHEMISTRY.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/extensions/beyond_q/global_quantum_v2_3/APPENDIX_2026_10_30_GEMINI_WILLOW_MAGIC_STATE_AND_FUSION_CHEMISTRY.md",
+      "git_blob_sha": "8906c549f34de4ecf63652e8d7e5fef1d795efb7",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/extensions/beyond_q/global_quantum_v2_3/APPENDIX_2026_10_30_IBM_TRANSFER_EXPERIMENTS_DISTINCTION.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/extensions/beyond_q/global_quantum_v2_3/APPENDIX_2026_10_30_IBM_TRANSFER_EXPERIMENTS_DISTINCTION.md",
+      "git_blob_sha": "467536df9d23df23579bf7c9906a0d5449a093ef",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/extensions/beyond_q/global_quantum_v2_3/APPENDIX_2026_10_30_INDEPENDENT_SWEEP_MODULAR_QEC.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/extensions/beyond_q/global_quantum_v2_3/APPENDIX_2026_10_30_INDEPENDENT_SWEEP_MODULAR_QEC.md",
+      "git_blob_sha": "4b42f2014e7806bb005a41fedec03c341df4d1f4",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/extensions/beyond_q/global_quantum_v2_3/APPENDIX_2026_10_30_QUANTUM_MODALITIES_HE3_SUPPLY.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/extensions/beyond_q/global_quantum_v2_3/APPENDIX_2026_10_30_QUANTUM_MODALITIES_HE3_SUPPLY.md",
+      "git_blob_sha": "ac05b70bfa98c61b6d33ce5d30c8028e991e16e3",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/extensions/beyond_q/global_quantum_v2_3/DISCOVERY_AND_METADATA.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/extensions/beyond_q/global_quantum_v2_3/DISCOVERY_AND_METADATA.md",
+      "git_blob_sha": "41040a43904ef8c4c90b41f364f03ad013160446",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/extensions/beyond_q/global_quantum_v2_3/EXECUTIVE_PITCH.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/extensions/beyond_q/global_quantum_v2_3/EXECUTIVE_PITCH.md",
+      "git_blob_sha": "c43a58acfe74eb7efb71e8fe7e3e189d10c8922b",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/extensions/beyond_q/global_quantum_v2_3/MODEL_CHECKS_AUDIT.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/extensions/beyond_q/global_quantum_v2_3/MODEL_CHECKS_AUDIT.md",
+      "git_blob_sha": "e33b372bedbb3dc38199c4823e85676bf32ba43d",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/extensions/beyond_q/global_quantum_v2_3/README.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/extensions/beyond_q/global_quantum_v2_3/README.md",
+      "git_blob_sha": "69efe4a4a5073cb91424f61085cd9b8781ac8dc5",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/extensions/beyond_q/global_quantum_v2_3/SHA256SUMS.txt",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/extensions/beyond_q/global_quantum_v2_3/SHA256SUMS.txt",
+      "git_blob_sha": "e39233d8bdfdee648d5f719eb41ef1f95116387d",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/extensions/beyond_q/global_quantum_v2_3/TECHNICAL_WHITE_PAPER.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/extensions/beyond_q/global_quantum_v2_3/TECHNICAL_WHITE_PAPER.md",
+      "git_blob_sha": "7a0a588502317cb6b74e57e18bfa11e59e2ab545",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/extensions/beyond_q/global_quantum_v2_3/source/README.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/extensions/beyond_q/global_quantum_v2_3/source/README.md",
+      "git_blob_sha": "88d8d5ed7af9339822652b85f56082d78a22a7cd",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/extensions/beyond_q/global_quantum_v2_3/source/model_checks.txt",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/extensions/beyond_q/global_quantum_v2_3/source/model_checks.txt",
+      "git_blob_sha": "6faf874c62c48546272186788a27d18605e60c21",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/extensions/beyond_q/tritium_self_sufficiency_audit_v1/APPENDIX_2026_10_30_ARC_PROCUREMENT_AND_HE3_SUPPLY_SCENARIOS.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/extensions/beyond_q/tritium_self_sufficiency_audit_v1/APPENDIX_2026_10_30_ARC_PROCUREMENT_AND_HE3_SUPPLY_SCENARIOS.md",
+      "git_blob_sha": "276914b0e861288efd97c07f078dbb9949116bdc",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/extensions/beyond_q/tritium_self_sufficiency_audit_v1/APPENDIX_2026_10_30_GEMINI_FLIBE_QUANTUM_CHEMISTRY_FUSION_SUPPLY_WATCH.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/extensions/beyond_q/tritium_self_sufficiency_audit_v1/APPENDIX_2026_10_30_GEMINI_FLIBE_QUANTUM_CHEMISTRY_FUSION_SUPPLY_WATCH.md",
+      "git_blob_sha": "5780b1760c95c991384c37a3147774cff79fd774",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/extensions/beyond_q/tritium_self_sufficiency_audit_v1/APPENDIX_SOURCES_AND_PROVENANCE.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/extensions/beyond_q/tritium_self_sufficiency_audit_v1/APPENDIX_SOURCES_AND_PROVENANCE.md",
+      "git_blob_sha": "f534da37a286496460aa534c775027cccded465f",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/extensions/beyond_q/tritium_self_sufficiency_audit_v1/README.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/extensions/beyond_q/tritium_self_sufficiency_audit_v1/README.md",
+      "git_blob_sha": "006b9e186234ee2aa0753ae517217aa5fc2b007c",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/extensions/beyond_q/tritium_self_sufficiency_audit_v1/WHITE_PAPER.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/extensions/beyond_q/tritium_self_sufficiency_audit_v1/WHITE_PAPER.md",
+      "git_blob_sha": "0d3cfc6c79b0f1e433f239137f91b1eff20b9fdb",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/governance/ALC_013_FOUNDER_CONTINUITY_HUMAN_FLOURISHING_CANDIDATE_v0_1_2026-10-27.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/governance/ALC_013_FOUNDER_CONTINUITY_HUMAN_FLOURISHING_CANDIDATE_v0_1_2026-10-27.md",
+      "git_blob_sha": "5af8ac21562d5cf0b8f20647737a139558ac5568",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/protocols/G0_B_BLINDED_PROTON_TRANSMISSION_AND_ALPHA_ESCAPE_PROTOCOL_v0_1_2026-10-27.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/protocols/G0_B_BLINDED_PROTON_TRANSMISSION_AND_ALPHA_ESCAPE_PROTOCOL_v0_1_2026-10-27.md",
+      "git_blob_sha": "2d4fbb3cac92b990b3d68cdb139e04e270e1b6c1",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/protocols/g0_b_lock/README.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/protocols/g0_b_lock/README.md",
+      "git_blob_sha": "a35f326db5264814fbc69381627dd2dc5c7ef326",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/reviews/COPILOT_FINAL_PREFLIGHT_ZERO_PHYSICS_ZERO_MAGIC_2026-10-27.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/reviews/COPILOT_FINAL_PREFLIGHT_ZERO_PHYSICS_ZERO_MAGIC_2026-10-27.md",
+      "git_blob_sha": "01683951f55f20ac5d25fa56ba37a7b2cf7e4239",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/reviews/COPILOT_RESEARCHER_V07_REVIEW_AS_RECEIVED_2026-10-27.txt",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/reviews/COPILOT_RESEARCHER_V07_REVIEW_AS_RECEIVED_2026-10-27.txt",
+      "git_blob_sha": "896e894fa460f22dfe4210e49c2724c7608d8447",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/reviews/COPILOT_WP_B_FULL_REVIEW_2026-10-27.txt",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/reviews/COPILOT_WP_B_FULL_REVIEW_2026-10-27.txt",
+      "git_blob_sha": "21af59a565241be42b45424f319e11b67b6cdfa6",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/reviews/DEEPSEEK_G0B_THREE_TARGET_SUBSTRATE_COMPARISON_PROTOCOL_2026-10-27.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/reviews/DEEPSEEK_G0B_THREE_TARGET_SUBSTRATE_COMPARISON_PROTOCOL_2026-10-27.md",
+      "git_blob_sha": "74234bbe7ace34457a2008efde31e6931a506bb1",
+      "matching_lines": [
+        {
+          "line": 20,
+          "text": "Only explore after A-C: graded-density/porous ceramic geometries at matched total B-11 atom budget, with 3D geometry and transport modeling; no assumption that nominal micron thickness alone determines nuclear yield or escape."
+        }
+      ]
+    },
+    {
+      "path": "research/stars_2_0/reviews/DEEPSEEK_POST_EXFOR_REVIEW_AND_TEST_ANCHOR_CORRECTIONS_2026-10-27.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/reviews/DEEPSEEK_POST_EXFOR_REVIEW_AND_TEST_ANCHOR_CORRECTIONS_2026-10-27.md",
+      "git_blob_sha": "2f4ad4ec2835fd2cc890c66e2c97d1d5a1884cdb",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/reviews/DEEPSEEK_V07_REVIEW_BORON_ISOTOPE_PATHWAYS_2026-10-27.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/reviews/DEEPSEEK_V07_REVIEW_BORON_ISOTOPE_PATHWAYS_2026-10-27.md",
+      "git_blob_sha": "9f48c7b157379eb4b07413608ef7fadc9ffc4537",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/reviews/DEEPSEEK_V08_CROSS_DOMAIN_ENGINEERING_AUDIT_2026-10-27.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/reviews/DEEPSEEK_V08_CROSS_DOMAIN_ENGINEERING_AUDIT_2026-10-27.md",
+      "git_blob_sha": "a841613f27d95ee00a9fa0a6e1fff5e0c595f73c",
+      "matching_lines": [
+        {
+          "line": 15,
+          "text": "## 2. Printed ceramics versus micron nuclear layer"
+        },
+        {
+          "line": 16,
+          "text": "A relevant direct demonstration: *Interface engineering and bimodal gradation strategy for high-precision vat photopolymerization 3D printing of boron nitride ceramics*, *Ceramics International* 52 (2026), https://doi.org/10.1016/j.ceramint.2026.04.157. Actual technical obstacles include UV scattering, high ceramic solids-versus-viscosity tradeoffs, debinding, sintering, cracking and anisotropic shrinkage. A 2026 *Nature* DISH paper https://doi.org/10.1038/s41586-026-10114-5 reports ~19-µm print resolution in photopolymers and complex mm objects in ~0.6 s, **not** sintered 4–6 µm BN foil manufacture. Acoustic levitation/control and optical cure are separate enabling fields."
+        },
+        {
+          "line": 45,
+          "text": "B. **Hybrid catcher fabrication G0-F**: compare commercial hBN, deposited boron film, patterned/graded BN ceramic on characterized lightweight support, and printed support with deposited B layer. Record ¹¹B areal density, film strength, porosity, backing and 0–10 shot drift."
+        },
+        {
+          "line": 51,
+          "text": "**Mandatory anti-overclaim statements:** Printed ≠ dense final ceramic; levitated ≠ atomically placed; SiC/diamond ≠ inherently EMP immune; tungsten divertor ≠ qualified converter grid; conference spin talk ≠ 1.5× observed yield; ¹¹C radioactive production ≠ instant/meaningful target self-enrichment; Bayesian optimization ≠ unbiased causal proof; source-traced ≠ experimentally calibrated."
+        }
+      ]
+    },
+    {
+      "path": "research/stars_2_0/reviews/DEEPSEEK_V08_HYBRID_BORON_TARGET_FABRICATION_FOLLOWUP_2026-10-27.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/reviews/DEEPSEEK_V08_HYBRID_BORON_TARGET_FABRICATION_FOLLOWUP_2026-10-27.md",
+      "git_blob_sha": "49041e236401e06f835de5e97a3379dc8fd8b08d",
+      "matching_lines": [
+        {
+          "line": 13,
+          "text": "3. **Supporting hardware:** Fabricated target holder, alignment assembly, membranes and microfluidic structure; potentially DISH-photopolymerized or separately ceramic printed. Their dimensions and chemistry are distinct from the active isotope-bearing reaction film."
+        },
+        {
+          "line": 15,
+          "text": "DISH's reported 11–19 µm optical printing resolution does **not** demonstrate direct printing of 4–6 µm, high-density, nearly stoichiometric BN targets. Ceramic vat photopolymerization requires separate debinding/sintering/porosity/shrinkage characterization. Acoustic levitation of liquids does not show that a solid sintered BN layer can be plastically formed by sound."
+        }
+      ]
+    },
+    {
+      "path": "research/stars_2_0/reviews/DEEPSEEK_V0_6_REVIEW_2026-10-27.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/reviews/DEEPSEEK_V0_6_REVIEW_2026-10-27.md",
+      "git_blob_sha": "db6e86f2046e274e540700312da53c5c43aa429a",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/reviews/EXFOR_C2973_PRIMARY_DATA_RECOVERY_AND_DEEPSEEK_FINAL_SAFEGUARDS_2026-10-27.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/reviews/EXFOR_C2973_PRIMARY_DATA_RECOVERY_AND_DEEPSEEK_FINAL_SAFEGUARDS_2026-10-27.md",
+      "git_blob_sha": "691088c07ada85f83e180af54922379c50598f53",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/reviews/GEMINI_ARGON_V04_REPORTED_RESULTS_HARMONIC_CREST_FACTOR_AND_REPRODUCIBILITY_AUDIT_2026-10-27.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/reviews/GEMINI_ARGON_V04_REPORTED_RESULTS_HARMONIC_CREST_FACTOR_AND_REPRODUCIBILITY_AUDIT_2026-10-27.md",
+      "git_blob_sha": "c63ac96c5db34da67ba89dac66981706b3339109",
+      "matching_lines": [
+        {
+          "line": 48,
+          "text": "- C 82%-open honeycomb: same births, rear 0.1395 uJ, front 0.1473 uJ, accepted 0.0941 uJ."
+        },
+        {
+          "line": 77,
+          "text": "| 82% honeycomb retention ≈84% | REPORTED MODEL ASSUMPTIONS |"
+        }
+      ]
+    },
+    {
+      "path": "research/stars_2_0/reviews/GEMINI_ARGON_WP_B_V02_PRELIMINARY_CODE_AUDIT_2026-10-27.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/reviews/GEMINI_ARGON_WP_B_V02_PRELIMINARY_CODE_AUDIT_2026-10-27.md",
+      "git_blob_sha": "677d9973e5293cc4692120e08b47b22037c93ca1",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/reviews/GEMINI_ARGON_WP_B_V02_RESULTS_AS_RECEIVED_2026-10-27.txt",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/reviews/GEMINI_ARGON_WP_B_V02_RESULTS_AS_RECEIVED_2026-10-27.txt",
+      "git_blob_sha": "a0fb3a59114e0b141b1cfac0dc5ca15572bf3253",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/reviews/GEMINI_V03_PASTED_MODULE_CODE_AUDIT_2026-10-27.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/reviews/GEMINI_V03_PASTED_MODULE_CODE_AUDIT_2026-10-27.md",
+      "git_blob_sha": "263a235e3c9b877c203081fc1ce037de3161afc7",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/reviews/GEMINI_V04_INDEPENDENT_EXECUTION_AND_AB_REGRESSION_GATES_2026-10-27.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/reviews/GEMINI_V04_INDEPENDENT_EXECUTION_AND_AB_REGRESSION_GATES_2026-10-27.md",
+      "git_blob_sha": "7d6424cb63180dca4f397240d594fe7f0cf405a1",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/reviews/GEMINI_V05_PROPOSAL_RELATIVISTIC_SCATTERING_AND_CRYOGENIC_SCOPE_AUDIT_2026-10-27.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/reviews/GEMINI_V05_PROPOSAL_RELATIVISTIC_SCATTERING_AND_CRYOGENIC_SCOPE_AUDIT_2026-10-27.md",
+      "git_blob_sha": "063ba900ed3601abb7bf23e5a8693584eefe50df",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/reviews/GPTWORK_COUNCIL_STAGE4_INDEPENDENT_GAP_REVIEW_v0_1_2026-10-27.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/reviews/GPTWORK_COUNCIL_STAGE4_INDEPENDENT_GAP_REVIEW_v0_1_2026-10-27.md",
+      "git_blob_sha": "1a0a8a4bb84140da80db16b711a9ccd4c2aa2458",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/whitepapers/APPENDIX_2026_10_30_PBORON_HMODE_MUON_CENTRIFUGAL_EVIDENCE.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/whitepapers/APPENDIX_2026_10_30_PBORON_HMODE_MUON_CENTRIFUGAL_EVIDENCE.md",
+      "git_blob_sha": "f6b11be1a9826b6e511ecaebd729249286a900d2",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/whitepapers/STARS_2_0_2026-10-29_CENTRIFUGAL_THREE_MODULE_TOY_AND_DEEPSEEK_REPLY.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/whitepapers/STARS_2_0_2026-10-29_CENTRIFUGAL_THREE_MODULE_TOY_AND_DEEPSEEK_REPLY.md",
+      "git_blob_sha": "21989cc64bb73bfe8c174a7138a231d453e1f2b1",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/whitepapers/STARS_2_0_2026-10-29_INTEGRATION_FIRST_INDUSTRIAL_STACK_POLICY_ADDENDUM.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/whitepapers/STARS_2_0_2026-10-29_INTEGRATION_FIRST_INDUSTRIAL_STACK_POLICY_ADDENDUM.md",
+      "git_blob_sha": "87dfd031f4a15e0cf38baf42206cd0f1647d0e57",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/whitepapers/STARS_2_0_2026-10-29_PRISM_HOLLOW_SPHERE_MODULAR_ARCHITECTURE_ADDENDUM.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/whitepapers/STARS_2_0_2026-10-29_PRISM_HOLLOW_SPHERE_MODULAR_ARCHITECTURE_ADDENDUM.md",
+      "git_blob_sha": "45fba3eeaaf5b188c9330b7be61323eeb7ff0348",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/whitepapers/STARS_2_0_RF_v0_2_updated_whitepaper.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/whitepapers/STARS_2_0_RF_v0_2_updated_whitepaper.md",
+      "git_blob_sha": "f5da838d23541d0d22110e97a1b05c389e7acddb",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/whitepapers/STARS_2_0_v0_6_WP_B_AUDIT_AND_INTEGRATED_RESEARCH_WHITEPAPER_2026-10-27.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/whitepapers/STARS_2_0_v0_6_WP_B_AUDIT_AND_INTEGRATED_RESEARCH_WHITEPAPER_2026-10-27.md",
+      "git_blob_sha": "7112a5229f73484134bd243ee32e1b2dfd4700e5",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/whitepapers/STARS_2_0_v0_7_ACOUSTIC_AB_EVIDENCE_AND_INTEGRATED_REVIEW_2026-10-27.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/whitepapers/STARS_2_0_v0_7_ACOUSTIC_AB_EVIDENCE_AND_INTEGRATED_REVIEW_2026-10-27.md",
+      "git_blob_sha": "453f44b533be0fc0e51bebe67925e32c20d838f9",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/whitepapers/STARS_2_0_v0_8_REFERENCE_DATA_CALIBRATION_AND_INTERFACE_VALIDATION_2026-10-27.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/whitepapers/STARS_2_0_v0_8_REFERENCE_DATA_CALIBRATION_AND_INTERFACE_VALIDATION_2026-10-27.md",
+      "git_blob_sha": "82bca6dc179de07eb0ac5a266279a89ca6322b27",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/whitepapers/STARS_2_0_v0_9_PRE_SIMULATION_MULTI_AGENT_SYNTHESIS_AND_HARMONIC_ANALYSIS_2026-10-27.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/whitepapers/STARS_2_0_v0_9_PRE_SIMULATION_MULTI_AGENT_SYNTHESIS_AND_HARMONIC_ANALYSIS_2026-10-27.md",
+      "git_blob_sha": "e9676df2158415bdeeeff22be6e85443bbda9519",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/whitepapers/STARS_2_2_2026-10-29_ACOUSTIC_RECOVERY_AND_TDH_ENERGY_LEDGER_CONTRACT.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/whitepapers/STARS_2_2_2026-10-29_ACOUSTIC_RECOVERY_AND_TDH_ENERGY_LEDGER_CONTRACT.md",
+      "git_blob_sha": "1fbdf8c323224b775036dff33f1c8fba30132e8c",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/whitepapers/STARS_2_2_CENTRIFUGAL_HYBRID_525MW_SCALING_WHITEPAPER_2026-10-29.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/whitepapers/STARS_2_2_CENTRIFUGAL_HYBRID_525MW_SCALING_WHITEPAPER_2026-10-29.md",
+      "git_blob_sha": "39e30fdc2c8b2c128411e3dc599dee4167ec9171",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/wp_b/original/GEMINI_ARGON_AS_RECEIVED_2026-10-27.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/wp_b/original/GEMINI_ARGON_AS_RECEIVED_2026-10-27.md",
+      "git_blob_sha": "4a514c1c2e8a51cdb6e078a2dc0557c288a52dea",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/wp_b/revised/GEMINI_ARGON_REFERENCE_TABLE_CLAIMS_AND_RESONANCE_HOLD_2026-10-27.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/wp_b/revised/GEMINI_ARGON_REFERENCE_TABLE_CLAIMS_AND_RESONANCE_HOLD_2026-10-27.md",
+      "git_blob_sha": "7f3d3ea8f9b538de5025013b45c36d353721ac0a",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/wp_b/revised/ONEDRIVE_COPILOT_SPREADSHEET_SOURCE_POINTERS_2026-10-27.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/wp_b/revised/ONEDRIVE_COPILOT_SPREADSHEET_SOURCE_POINTERS_2026-10-27.md",
+      "git_blob_sha": "40de7a670902a116b59420fa05bc88fdbf90bfb4",
+      "matching_lines": []
+    },
+    {
+      "path": "research/stars_2_0/wp_b/revised/iaea_exfor_pipeline/README.md",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/c96d12176dbd5613f148f3f51df5a746f42952dd/research/stars_2_0/wp_b/revised/iaea_exfor_pipeline/README.md",
+      "git_blob_sha": "b4a447e78a2ed07137c4772af370c5c9a35b7202",
+      "matching_lines": []
+    }
+  ]
+}

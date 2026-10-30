@@ -1,0 +1,135 @@
+{
+  "file_count_excluding_manifest": 26,
+  "files": [
+    {
+      "path": "BENCHMARK_MANIFEST.json",
+      "bytes": 932,
+      "sha256": "a8597a755512f6a65cc2e01e5668a2564dac7c356ce43a45957be3f44c4f7c8f"
+    },
+    {
+      "path": "COMPARISON_SPEC.md",
+      "bytes": 3067,
+      "sha256": "e2fe8da192408bd7261ebdef57f0c23bd600b61906a39bbaf7d3d19b095149dd"
+    },
+    {
+      "path": "DEEPSEEK_POCKET_REVIEW.md",
+      "bytes": 6617,
+      "sha256": "00329b37ea2d79c82e3e1130ff33b2850be1c676d85c2da348a431482515a552"
+    },
+    {
+      "path": "GATE_STATUS.json",
+      "bytes": 1397,
+      "sha256": "784eec877a9b12b8c8294edc361045a6564e1088ea8b31266787077bd664d701"
+    },
+    {
+      "path": "GPT6_AUTHORIZED_WORK_ORDER.txt",
+      "bytes": 15794,
+      "sha256": "edc048b44dfc9c34624a7d8127fb7a6362324e48429ab885733407dd2a931ad9"
+    },
+    {
+      "path": "HANDOFF.md",
+      "bytes": 2460,
+      "sha256": "cc324dfc478e2a303d95a7fdf7c3bf62a604d791ad26696008f6a1e2f46038c2"
+    },
+    {
+      "path": "INTERFACES.md",
+      "bytes": 6032,
+      "sha256": "4399b985dbf0d7ad68f2b92b669c31a215e1459f764407ede874ea61ad5e4447"
+    },
+    {
+      "path": "POCKET_CANDIDATES.json",
+      "bytes": 1693,
+      "sha256": "f603a4751b3a5f64ffbc362704ef264e74b9f3e02c75f6e5475283dc65e1d953"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4580,
+      "sha256": "3bb8c0763072ff153aae75df50d351150d129ecc9ef72c64ab4b4fbf9563c7cb"
+    },
+    {
+      "path": "RECOVERY_REPORT.md",
+      "bytes": 4500,
+      "sha256": "34a98db5e763cbf735d9e4429d1cda243174979c669ed2c40d2e1630dbbca064"
+    },
+    {
+      "path": "SOLVER_MATRIX.md",
+      "bytes": 3193,
+      "sha256": "91969ae4700b25e8dd37a3b074027c5aa6459c6dd75bb0a2ba374c360221fdb8"
+    },
+    {
+      "path": "SOURCE_RECOVERY_INDEX.json",
+      "bytes": 30264,
+      "sha256": "edd4a788dbf5c2451db09c4a23a929707851f26c1c89b8323f661070b486de0c"
+    },
+    {
+      "path": "benchmark.py",
+      "bytes": 9210,
+      "sha256": "1364d534c35978ceb19685fdccb316430d8e740271630bea453d11f8f1f5b009"
+    },
+    {
+      "path": "fixtures/accounting_only.json",
+      "bytes": 14834,
+      "sha256": "39ec672e8127a0c5599444667d4af132c2dfb53bc3010f658243686d44f69328"
+    },
+    {
+      "path": "geometry_template.json",
+      "bytes": 2863,
+      "sha256": "cabbcb6d755181ccde9f51b2e98875c7831166afeb184bc35a5ae5393798ad51"
+    },
+    {
+      "path": "receipts/ACCOUNTING001.json",
+      "bytes": 7627,
+      "sha256": "31128a27ee68b4bcbc66023241a7936ee36aa67f96886035e70a8ad17a8e43c4"
+    },
+    {
+      "path": "receipts/ACCOUNTING002.json",
+      "bytes": 7627,
+      "sha256": "31128a27ee68b4bcbc66023241a7936ee36aa67f96886035e70a8ad17a8e43c4"
+    },
+    {
+      "path": "receipts/ENVIRONMENT.json",
+      "bytes": 405,
+      "sha256": "1831b6c2477abc80961bd6dc414accac78f60a11a88de14cb24e183685eb3ddf"
+    },
+    {
+      "path": "receipts/GEOMETRY001.json",
+      "bytes": 518,
+      "sha256": "aef6d71c969787940720fc0fd6a7a166dedc79c92292f53f8e37cabd79bc14a0"
+    },
+    {
+      "path": "receipts/OFFICIAL_ACCESS_CHECK.json",
+      "bytes": 793,
+      "sha256": "32a8ec61de3f4f4a74446c8d82e6ba10ef8c81889bfe7469a2e08ee873c092f6"
+    },
+    {
+      "path": "receipts/TESTS001.txt",
+      "bytes": 2350,
+      "sha256": "5f7dd95735ed8180267c580b1b1e863115ac01a63c91105dd67eb4239057ee2e"
+    },
+    {
+      "path": "receipts/TESTS002.txt",
+      "bytes": 2489,
+      "sha256": "4c6f4ca1cfe724cae5169ec841c2c0790296b36d3dd51abef5e6945e21e81343"
+    },
+    {
+      "path": "receipts/transport_replay001/CONFIG.json",
+      "bytes": 3216,
+      "sha256": "2a1c13f1c11e012959cfc05f4f7bf40bb45e6287723ac9838a6db16c0b33d070"
+    },
+    {
+      "path": "receipts/transport_replay001/RECEIPT.json",
+      "bytes": 870,
+      "sha256": "dc75b0dd611f98a2e138580cee6125f0c2feb985668a1fd1004a7f0325a7bfb6"
+    },
+    {
+      "path": "receipts/transport_replay001/RESULTS.json",
+      "bytes": 16181,
+      "sha256": "88baaa298034e2f376a797331f02aed1050370256d306132a134b49808c64074"
+    },
+    {
+      "path": "test_benchmark.py",
+      "bytes": 5991,
+      "sha256": "7fc84d9ba77ee1ff2b1f90b938f1cf7f306f41d29485fa618a611db4cbaf5f66"
+    }
+  ]
+}

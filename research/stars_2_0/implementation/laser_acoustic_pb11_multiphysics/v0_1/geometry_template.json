@@ -1,0 +1,115 @@
+{
+  "schema_version": "SF_GEOMETRY_0_1",
+  "status": "PARAMETERIZED_PLACEHOLDER_NOT_APPARATUS",
+  "scope": "Original pocket unresolved; no hollow-sphere substitution",
+  "parameters": {
+    "pocket_inner_dimensions_m": {
+      "value": null,
+      "unit": "m",
+      "status": "UNRESOLVED",
+      "source_ref": null
+    },
+    "pocket_wall_thickness_m": {
+      "value": null,
+      "unit": "m",
+      "status": "UNRESOLVED",
+      "source_ref": null
+    },
+    "ceramic_composition": {
+      "value": null,
+      "unit": "species_mass_fraction",
+      "status": "UNRESOLVED",
+      "source_ref": null
+    },
+    "boron_form": {
+      "value": null,
+      "unit": "enum:loose_particles|bonded|sintered|film",
+      "status": "UNRESOLVED",
+      "source_ref": null
+    },
+    "grain_size_distribution": {
+      "value": null,
+      "unit": "m;distribution_required",
+      "status": "UNRESOLVED",
+      "source_ref": null
+    },
+    "packing_fraction": {
+      "value": null,
+      "unit": "1",
+      "status": "UNRESOLVED",
+      "source_ref": null
+    },
+    "b11_fraction": {
+      "value": null,
+      "unit": "1",
+      "status": "UNRESOLVED",
+      "source_ref": null
+    },
+    "boron_areal_atoms_m2": {
+      "value": null,
+      "unit": "atoms/m2",
+      "status": "UNRESOLVED",
+      "source_ref": null
+    },
+    "acoustic_boundary_conditions": {
+      "value": null,
+      "unit": "boundary_spec",
+      "status": "UNRESOLVED",
+      "source_ref": null
+    },
+    "mechanical_damping": {
+      "value": null,
+      "unit": "frequency_dependent_model",
+      "status": "UNRESOLVED",
+      "source_ref": null
+    },
+    "laser_paths": {
+      "value": null,
+      "unit": "m;rad;optical_spec",
+      "status": "UNRESOLVED",
+      "source_ref": null
+    },
+    "mirror_layout": {
+      "value": null,
+      "unit": "m;surface_spec",
+      "status": "UNRESOLVED",
+      "source_ref": null
+    },
+    "detector_acceptance": {
+      "value": null,
+      "unit": "sr;energy_angle_response",
+      "status": "UNRESOLVED",
+      "source_ref": null
+    },
+    "layer_stack": {
+      "value": null,
+      "unit": "ordered_material_regions",
+      "status": "UNRESOLVED",
+      "source_ref": null
+    },
+    "shell_geometry": {
+      "value": null,
+      "unit": "m;CAD_spec",
+      "status": "UNRESOLVED",
+      "source_ref": null
+    },
+    "proton_source_phase_space": {
+      "value": null,
+      "unit": "SI;weighted_particles",
+      "status": "UNRESOLVED",
+      "source_ref": null
+    },
+    "alpha_exit_apertures": {
+      "value": null,
+      "unit": "m;CAD_spec",
+      "status": "UNRESOLVED",
+      "source_ref": null
+    },
+    "acoustic_pretreatment_duration_s": {
+      "value": 10,
+      "unit": "s",
+      "status": "PROJECT_DESIGN_CHOICE_NOT_CALIBRATION",
+      "source_ref": "User-authorized GPT-6 work order; archived REPORT_v0_12"
+    }
+  }
+}
