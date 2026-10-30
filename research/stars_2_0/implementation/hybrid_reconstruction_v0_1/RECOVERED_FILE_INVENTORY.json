@@ -1,0 +1,602 @@
+[
+  {
+    "path": "originals/github/research/stars_2_0/whitepapers/STARS_2_0_2026-10-29_CENTRIFUGAL_THREE_MODULE_TOY_AND_DEEPSEEK_REPLY.md",
+    "bytes": 8089,
+    "sha256": "0139a6904692e254bcf944152227d6fe0b124f1f5ee32f809b94448cc59f0282"
+  },
+  {
+    "path": "originals/github/research/stars_2_0/whitepapers/STARS_2_0_2026-10-29_INTEGRATION_FIRST_INDUSTRIAL_STACK_POLICY_ADDENDUM.md",
+    "bytes": 8263,
+    "sha256": "2f43c12ee961f068dd78c75714b5537984a420f548d4a2b4cd56b62e83fc1d64"
+  },
+  {
+    "path": "originals/github/research/stars_2_0/whitepapers/STARS_2_0_2026-10-29_PRISM_HOLLOW_SPHERE_MODULAR_ARCHITECTURE_ADDENDUM.md",
+    "bytes": 13369,
+    "sha256": "bb5fb178146c6ec6f42297ddd94aeb242b585986b6a37c75850865389bd6baac"
+  },
+  {
+    "path": "originals/github/research/stars_2_0/whitepapers/STARS_2_2_2026-10-29_ACOUSTIC_RECOVERY_AND_TDH_ENERGY_LEDGER_CONTRACT.md",
+    "bytes": 7128,
+    "sha256": "c54cd708880d6bc0eb9b39494cbab52765f387c4e5c1479c1ba415d577518792"
+  },
+  {
+    "path": "originals/github/research/stars_2_0/whitepapers/STARS_2_2_CENTRIFUGAL_HYBRID_525MW_SCALING_WHITEPAPER_2026-10-29.md",
+    "bytes": 11805,
+    "sha256": "a33155eae165e1676450bd883aaf33d920e8e6f504b670bc0c4b9f2f6c45fd5e"
+  },
+  {
+    "path": "originals/library/REPORT_v0_10.md",
+    "bytes": 4597,
+    "sha256": "89a494952f6c5cd0dfe03da99561217b92649b226863c83bbe76dd2440a24118"
+  },
+  {
+    "path": "originals/library/REPORT_v0_11.md",
+    "bytes": 4233,
+    "sha256": "8db1a6aab50d82156f26dc19a0d0944cb0aaf3336eea85fcc238f0c4482b5250"
+  },
+  {
+    "path": "originals/library/REPORT_v0_12.md",
+    "bytes": 3084,
+    "sha256": "27f7df7c55c4853a58ec21c02516c9a940b8f9a420d3a19339806378a6c27a10"
+  },
+  {
+    "path": "originals/library/STARS2_10_SECOND_PRETREAT_v0_12.zip",
+    "bytes": 197405,
+    "sha256": "e49620558a1990bb05665f4cae748df3f1a6da03ef2d55db6337e10ffcdec399"
+  },
+  {
+    "path": "originals/library/STARS2_DURATION_SUCCESS_GATE_v0_11.zip",
+    "bytes": 147332,
+    "sha256": "8156db3444afd1060babff50957f61868e5cc1d3c3b0af11a378a14c8415540b"
+  },
+  {
+    "path": "originals/library/STARS2_G1A_10MHz_COMPARISON_v0_3.zip",
+    "bytes": 229871,
+    "sha256": "aa416e762fec50648856934690388b37416c4d07e8c6f010b7d1f0058e1e5ec3"
+  },
+  {
+    "path": "originals/library/STARS2_G1A_ACOUSTIC_AB_VERIFICATION_v0_1.zip",
+    "bytes": 207801,
+    "sha256": "aa0c4bc7b5c46da2c9b3e802bef1c831a431abd3ad5391dc0cbe662f42c08600"
+  },
+  {
+    "path": "originals/library/STARS2_G1A_INFRASOUND_SWEEP_v0_4.zip",
+    "bytes": 181529,
+    "sha256": "d968797ba6c29d9c4a0b0715482d760a63144f9f8be1d529ab8711bd8bbf56de"
+  },
+  {
+    "path": "originals/library/STARS2_G1A_MATCHED_SWEEP_v0_2.zip",
+    "bytes": 109697,
+    "sha256": "1a6021ef7055a05fc022c4dffb9a1a5900bd5a1d6fc9aa55f1fc4d18b411fd5c"
+  },
+  {
+    "path": "originals/library/STARS2_G1G2_COUPLED_FIELD_BENCHMARK_v0_6.zip",
+    "bytes": 112574,
+    "sha256": "e00c79fe2bf8fe6b21aed1ae1ddcf6d90a022c06942a3f623799c7f3373238c2"
+  },
+  {
+    "path": "originals/library/STARS2_G1G2_SPHERICAL_GEOMETRY_v0_7.zip",
+    "bytes": 271844,
+    "sha256": "74ea81df9cf2ad87ca2ae8d5fc54958522875685b3e87c7286d3519fc2c92061"
+  },
+  {
+    "path": "originals/library/STARS2_ISOTOPE_FINGERPRINT_v0_1.zip",
+    "bytes": 90102,
+    "sha256": "478b1b3bfb7617a97675dc07e60a4e1cc821aae67408885d839d88be9e8525cd"
+  },
+  {
+    "path": "originals/library/STARS2_LASER_ACOUSTIC_PHASE_LOCK_v0_8.zip",
+    "bytes": 543125,
+    "sha256": "47cedd48541978ec4ac3dbd1efa23cbc695568270212fa6c6cba20e431db4137"
+  },
+  {
+    "path": "originals/library/STARS2_MINUS80DB_FIELD_SENSITIVITY_v0_5.zip",
+    "bytes": 111274,
+    "sha256": "a71859e4a9f9fc11b84d2db53e5ec62c6ca03f9c900511f749d24d3ef127b28c"
+  },
+  {
+    "path": "originals/library/STARS2_PRETREAT_SUSTAIN_PHASE_v0_10.zip",
+    "bytes": 171158,
+    "sha256": "743786463620c9ef009c12d9b58ae449767bbbb3e2eb53f7b27ccd61f0ede5ee"
+  },
+  {
+    "path": "originals/library/STARS2_RAINBOW_YINYANG_ATLAS_v0_1.zip",
+    "bytes": 9191,
+    "sha256": "93cafa5f9c1fa42278cb78e1582c5a2f0f7b7fd49ad1862f0d807149d7195eef"
+  },
+  {
+    "path": "originals/library/prism_sphere_exploratory_sweep.csv",
+    "bytes": 691,
+    "sha256": "6741ab3c077057087c614e68a0d6d10b36d7f9c144a798c3713da71082661d65"
+  },
+  {
+    "path": "originals/library/prism_sphere_reduced_model(1).py",
+    "bytes": 1717,
+    "sha256": "9ddef6ab121852ee676e8a7cabd5920cd91241924f0349a78172610556b01ead"
+  },
+  {
+    "path": "originals/library/prism_sphere_reduced_model.py",
+    "bytes": 1717,
+    "sha256": "9ddef6ab121852ee676e8a7cabd5920cd91241924f0349a78172610556b01ead"
+  },
+  {
+    "path": "originals/library/stars_525mw_gain_scenarios_2026-10-29.csv",
+    "bytes": 2782,
+    "sha256": "815634201934c2dff5a0627cf8118cd7ea90f19e1352e521a7da160421f90fba"
+  },
+  {
+    "path": "originals/library/stars_525mw_gain_scenarios_2026-10-29.py",
+    "bytes": 1697,
+    "sha256": "09566afccff70a599cbba32da1583b42568ff54fe2337b4cbf7ef9ce0968eb79"
+  },
+  {
+    "path": "originals/library/stars_prism_three_module_toy_2026-10-29(1).py",
+    "bytes": 2446,
+    "sha256": "ba101e07dbdb875e1e72082f13b8f4464bc8eacc97c2b6012b4c195b8919c83b"
+  },
+  {
+    "path": "originals/library/stars_prism_three_module_toy_2026-10-29.csv",
+    "bytes": 1505,
+    "sha256": "4b518e29bcdba98a88f7c6840140472b113e751e51140ef2ef1cec22a78a7124"
+  },
+  {
+    "path": "originals/library/stars_prism_three_module_toy_2026-10-29.py",
+    "bytes": 2446,
+    "sha256": "ba101e07dbdb875e1e72082f13b8f4464bc8eacc97c2b6012b4c195b8919c83b"
+  },
+  {
+    "path": "originals/packages/STARS2_10_SECOND_PRETREAT_v0_12/REPORT_v0_12.md",
+    "bytes": 3084,
+    "sha256": "27f7df7c55c4853a58ec21c02516c9a940b8f9a420d3a19339806378a6c27a10"
+  },
+  {
+    "path": "originals/packages/STARS2_10_SECOND_PRETREAT_v0_12/SHA256_MANIFEST.json",
+    "bytes": 554,
+    "sha256": "c84511d76c8616885ec4eaee6329a396dfec2c1f0d66ea9db317876fdb118316"
+  },
+  {
+    "path": "originals/packages/STARS2_10_SECOND_PRETREAT_v0_12/duration_10s_exposure.png",
+    "bytes": 79182,
+    "sha256": "ca28948dcee05821e0aa2dff3c3aaa708fc5664714ce0bbca5a6bae42d8635bb"
+  },
+  {
+    "path": "originals/packages/STARS2_10_SECOND_PRETREAT_v0_12/duration_10s_saturation.png",
+    "bytes": 134164,
+    "sha256": "2f26a1e465f91a1eae8c344446f6e0b1e601d025341742f8fdadbb55a4d0b544"
+  },
+  {
+    "path": "originals/packages/STARS2_10_SECOND_PRETREAT_v0_12/duration_sweep.csv",
+    "bytes": 4066,
+    "sha256": "074daa8ff02eb343ea207e4a8f46fa3fb360d694a51f8d330636f66d53f8abe3"
+  },
+  {
+    "path": "originals/packages/STARS2_10_SECOND_PRETREAT_v0_12/receipt.json",
+    "bytes": 2272,
+    "sha256": "61518c6a75fc827c1edcedaf52c454a59c32e5ae51cdd61ef1b5ebe13477a90d"
+  },
+  {
+    "path": "originals/packages/STARS2_10_SECOND_PRETREAT_v0_12/run_v012.py",
+    "bytes": 9035,
+    "sha256": "7f31a7b24012baa77de0985c95bb2c3a907ead09b694e80eb99c77ea6e8b6be4"
+  },
+  {
+    "path": "originals/packages/STARS2_DURATION_SUCCESS_GATE_v0_11/REPORT_v0_11.md",
+    "bytes": 4233,
+    "sha256": "8db1a6aab50d82156f26dc19a0d0944cb0aaf3336eea85fcc238f0c4482b5250"
+  },
+  {
+    "path": "originals/packages/STARS2_DURATION_SUCCESS_GATE_v0_11/SHA256_MANIFEST.json",
+    "bytes": 537,
+    "sha256": "85e72d72eaca488bdf089e045d4b9ff1bfadbbd67492646b2d2619927f8ae1a0"
+  },
+  {
+    "path": "originals/packages/STARS2_DURATION_SUCCESS_GATE_v0_11/duration_exposure.png",
+    "bytes": 77226,
+    "sha256": "d874d5af7f766ccac919997939199c03844986c88c25ad440f29f68ecfb1b75c"
+  },
+  {
+    "path": "originals/packages/STARS2_DURATION_SUCCESS_GATE_v0_11/duration_memory.png",
+    "bytes": 77131,
+    "sha256": "2f63ab542760b93db0393e4427005c294553de4c613c8163d91f9f9d423c23c5"
+  },
+  {
+    "path": "originals/packages/STARS2_DURATION_SUCCESS_GATE_v0_11/duration_sweep.csv",
+    "bytes": 2536,
+    "sha256": "3d72b31cecf8eaf3323f0a777614a36222eed56a556c2bc1326a717e07011756"
+  },
+  {
+    "path": "originals/packages/STARS2_DURATION_SUCCESS_GATE_v0_11/receipt.json",
+    "bytes": 1187,
+    "sha256": "2119cef72b1f044d3c60460d136ad98e28101ec944cee7c5e8649c5cf8bb8bf8"
+  },
+  {
+    "path": "originals/packages/STARS2_DURATION_SUCCESS_GATE_v0_11/run.py",
+    "bytes": 8891,
+    "sha256": "e12131f9642af69385ab6db9626e39c08a85acd03db5f3918234d93c404236c3"
+  },
+  {
+    "path": "originals/packages/STARS2_G1A_10MHz_COMPARISON_v0_3/10mhz_envelope.png",
+    "bytes": 177766,
+    "sha256": "02abc8f45e7ae19d4450c3d1c6cd83657d42190feab3e50c8d65be271cd50247"
+  },
+  {
+    "path": "originals/packages/STARS2_G1A_10MHz_COMPARISON_v0_3/10mhz_first_5us.png",
+    "bytes": 66339,
+    "sha256": "ef8601579f68594e12eeb56f7da1d561d6395135cb5d0d2ddf03da8f34961428"
+  },
+  {
+    "path": "originals/packages/STARS2_G1A_10MHz_COMPARISON_v0_3/10mhz_results.json",
+    "bytes": 2473,
+    "sha256": "b3feb9014e9aca1b8fff9d1b5e5fe5b1fb558b0bc17b59667c7ba9093bb8614c"
+  },
+  {
+    "path": "originals/packages/STARS2_G1A_10MHz_COMPARISON_v0_3/SHA256_MANIFEST.json",
+    "bytes": 709,
+    "sha256": "a87c4a8b33dc857ea1a2cb297b372c947ae6516db5ca6a33531afef1e2ad64c0"
+  },
+  {
+    "path": "originals/packages/STARS2_G1A_10MHz_COMPARISON_v0_3/run_10mhz.py",
+    "bytes": 4233,
+    "sha256": "090a07d221ef5e468c6af9c708d45befff3655c55b0c0ac6e3b574301507d76f"
+  },
+  {
+    "path": "originals/packages/STARS2_G1A_10MHz_COMPARISON_v0_3/test_10mhz.py",
+    "bytes": 767,
+    "sha256": "a85d4dbf831487ab3d0cf5faa864ca53d71efbf798fcabbdb58ad19d888b3881"
+  },
+  {
+    "path": "originals/packages/STARS2_G1A_ACOUSTIC_AB_VERIFICATION_v0_1/G1A_ACOUSTIC_SOLVER_VERIFICATION_v0_1.md",
+    "bytes": 4098,
+    "sha256": "9cf357bbccf07b7ccef239c2ab79e85f483cb4f2c5ace02765a692e67073672a"
+  },
+  {
+    "path": "originals/packages/STARS2_G1A_ACOUSTIC_AB_VERIFICATION_v0_1/SHA256_MANIFEST.json",
+    "bytes": 568,
+    "sha256": "1ece35591e4041df934b48d92d4946a76106ecf53201c7771ab1aa29242eb6da"
+  },
+  {
+    "path": "originals/packages/STARS2_G1A_ACOUSTIC_AB_VERIFICATION_v0_1/ab_waveforms.png",
+    "bytes": 198372,
+    "sha256": "a40355e57c9c684d850025c242331a31a78ec11b4d4162c6e4026e01360dc8a5"
+  },
+  {
+    "path": "originals/packages/STARS2_G1A_ACOUSTIC_AB_VERIFICATION_v0_1/results.json",
+    "bytes": 59322,
+    "sha256": "98bf49480ee96141794903c1df5a5555fb0c5c77a92849683327700800845b80"
+  },
+  {
+    "path": "originals/packages/STARS2_G1A_ACOUSTIC_AB_VERIFICATION_v0_1/run_summary.json",
+    "bytes": 2275,
+    "sha256": "7ab763e2d12b7b44fd14c002d6e19cb7f8557ebdc5299e9ea9bc2ba4b9e7b848"
+  },
+  {
+    "path": "originals/packages/STARS2_G1A_ACOUSTIC_AB_VERIFICATION_v0_1/stars2_acoustic_ab.py",
+    "bytes": 4266,
+    "sha256": "fcd8b2e0c02ba38cca3fc4742f52dc2b8d78b0cc6cfb62cb1b7a0007b22286a2"
+  },
+  {
+    "path": "originals/packages/STARS2_G1A_ACOUSTIC_AB_VERIFICATION_v0_1/test_stars2_ab.py",
+    "bytes": 1197,
+    "sha256": "c16ecfca5ae75dca690650ac85a0ff5f2035af2745665b6986217836e68a97f9"
+  },
+  {
+    "path": "originals/packages/STARS2_G1A_INFRASOUND_SWEEP_v0_4/REPORT_v0_4.md",
+    "bytes": 3661,
+    "sha256": "7fe7210f17a3ab527e1a97baf9cef05d36b311246f14203e6ee8fd906b3418c1"
+  },
+  {
+    "path": "originals/packages/STARS2_G1A_INFRASOUND_SWEEP_v0_4/SHA256_MANIFEST.json",
+    "bytes": 570,
+    "sha256": "cf3a6e89ed60f40b5465a21fcc1c613332b1ae475ae99be746e964e1774e4110"
+  },
+  {
+    "path": "originals/packages/STARS2_G1A_INFRASOUND_SWEEP_v0_4/console_receipt.json",
+    "bytes": 3528,
+    "sha256": "9fa86229c8aa12a8aa34c09aed2d7531e0a825b1a33db9780c96c77172c0d06e"
+  },
+  {
+    "path": "originals/packages/STARS2_G1A_INFRASOUND_SWEEP_v0_4/fixed_target_frequency_response.png",
+    "bytes": 120822,
+    "sha256": "c38b5d8defae287f1a9fb9532d6e0cce14531ef294bec46700b19291409385a7"
+  },
+  {
+    "path": "originals/packages/STARS2_G1A_INFRASOUND_SWEEP_v0_4/results.json",
+    "bytes": 6462,
+    "sha256": "1542a2420c6473e39b7a2e66752012ab3467f6d638f88df8d400c4d9186fd016"
+  },
+  {
+    "path": "originals/packages/STARS2_G1A_INFRASOUND_SWEEP_v0_4/retuned_force_scaling.png",
+    "bytes": 86502,
+    "sha256": "08e0eb967ea629488bc90f59af099cadf97077506508fb835e5fc8fda26d8585"
+  },
+  {
+    "path": "originals/packages/STARS2_G1A_INFRASOUND_SWEEP_v0_4/run_infrasound.py",
+    "bytes": 5146,
+    "sha256": "271a2c62f85d0d18002c30c35472eca7ce05f1b7970417bc4b8dfd271c796bcf"
+  },
+  {
+    "path": "originals/packages/STARS2_G1A_MATCHED_SWEEP_v0_2/SHA256_MANIFEST.json",
+    "bytes": 471,
+    "sha256": "c4d358dc789eb990267956a93e044fee9d4e8291167d7c41b60157841cbfb1cb"
+  },
+  {
+    "path": "originals/packages/STARS2_G1A_MATCHED_SWEEP_v0_2/STARS_G1A_MATCHED_SWEEP_REPORT_v0_2.md",
+    "bytes": 3714,
+    "sha256": "e13849ea8557b3da7c74e2c7cb76066348321f2bc2bbe1111cc7cd0ab0dee4ac"
+  },
+  {
+    "path": "originals/packages/STARS2_G1A_MATCHED_SWEEP_v0_2/run_sweep.py",
+    "bytes": 4358,
+    "sha256": "2b6bbdcbe5f5d9054d17c8e3548562a47ccaa417cd9312a0bfa16c2804eeb4e6"
+  },
+  {
+    "path": "originals/packages/STARS2_G1A_MATCHED_SWEEP_v0_2/sweep_response.png",
+    "bytes": 114258,
+    "sha256": "344e1d22e6a03a7330f2dd8bd72a524747954651f1e8e66ec0350d90e5e53f28"
+  },
+  {
+    "path": "originals/packages/STARS2_G1A_MATCHED_SWEEP_v0_2/sweep_results.json",
+    "bytes": 15434,
+    "sha256": "ccdb1e40b00cb99aef73167b09f8ba8a8e151f57c915d681f39a6f3aa3180eb8"
+  },
+  {
+    "path": "originals/packages/STARS2_G1A_MATCHED_SWEEP_v0_2/test_sweep.py",
+    "bytes": 1315,
+    "sha256": "876937cbdba6c90cf7525ee3ed4c7cd0bba84b3d800a72f30da33f0d347586d2"
+  },
+  {
+    "path": "originals/packages/STARS2_G1G2_COUPLED_FIELD_BENCHMARK_v0_6/REPORT_v0_6.md",
+    "bytes": 3428,
+    "sha256": "75f59c2a94797a5a3fd3219a72ed0ad229baae7173622b1b0a000557ab3a1fa2"
+  },
+  {
+    "path": "originals/packages/STARS2_G1G2_COUPLED_FIELD_BENCHMARK_v0_6/SHA256_MANIFEST.json",
+    "bytes": 565,
+    "sha256": "2ab0d89ea4206a9d47d6e2f8c61db365c8daef29c00a8946816c0ba4dd0f1f09"
+  },
+  {
+    "path": "originals/packages/STARS2_G1G2_COUPLED_FIELD_BENCHMARK_v0_6/arm_comparison.csv",
+    "bytes": 1053,
+    "sha256": "cbdf9f31d5bbca6dcb30c5a7f441e96ffeb44f184d5fa458004177ca68cc6058"
+  },
+  {
+    "path": "originals/packages/STARS2_G1G2_COUPLED_FIELD_BENCHMARK_v0_6/mechanical_and_EM_comparison.png",
+    "bytes": 78154,
+    "sha256": "25b5f70b10cfaa5f1c6c23377dea6af1d17d4b34e92962244437507885b64417"
+  },
+  {
+    "path": "originals/packages/STARS2_G1G2_COUPLED_FIELD_BENCHMARK_v0_6/numerical_receipt.json",
+    "bytes": 201676,
+    "sha256": "2c0b9dd33277910b586460b64acbd8c4177166fe16e4137142f23b4b321ef983"
+  },
+  {
+    "path": "originals/packages/STARS2_G1G2_COUPLED_FIELD_BENCHMARK_v0_6/run_benchmark.py",
+    "bytes": 11515,
+    "sha256": "39e50aae346d60ab9534463b3058c0ecc5aece5a8703d61ef0ee0fc34394a657"
+  },
+  {
+    "path": "originals/packages/STARS2_G1G2_COUPLED_FIELD_BENCHMARK_v0_6/test_receipt.json",
+    "bytes": 632,
+    "sha256": "5f116e24c1b6f970c9341efde942c65042b1694765d13748fa8a529eb02592db"
+  },
+  {
+    "path": "originals/packages/STARS2_G1G2_SPHERICAL_GEOMETRY_v0_7/stars2_spherical_v07/README.md",
+    "bytes": 266,
+    "sha256": "bfe5da043d445f079db65bbe1b462d6f944dca18f43d0762f7cc93cf0b8b2e04"
+  },
+  {
+    "path": "originals/packages/STARS2_G1G2_SPHERICAL_GEOMETRY_v0_7/stars2_spherical_v07/REPORT_v0_7.md",
+    "bytes": 7323,
+    "sha256": "756d9db9e6d8888033e9c65bc0ecb12f13db60588c9088428b7160eb091b3b40"
+  },
+  {
+    "path": "originals/packages/STARS2_G1G2_SPHERICAL_GEOMETRY_v0_7/stars2_spherical_v07/SHA256_MANIFEST.json",
+    "bytes": 932,
+    "sha256": "0f93cb13cb70ad6c4f25267dc903eea4af6ca851ed3c29e203e98d3aff932325"
+  },
+  {
+    "path": "originals/packages/STARS2_G1G2_SPHERICAL_GEOMETRY_v0_7/stars2_spherical_v07/arm_comparison.csv",
+    "bytes": 552,
+    "sha256": "69b19d99b59b0c0f073caadc534d65a5b678a776d349eae21e38cdfe856fcee4"
+  },
+  {
+    "path": "originals/packages/STARS2_G1G2_SPHERICAL_GEOMETRY_v0_7/stars2_spherical_v07/console.txt",
+    "bytes": 5905,
+    "sha256": "83f98caedf03201909d2fab926c0d6b14331fdabe5cc9343624e223e02428000"
+  },
+  {
+    "path": "originals/packages/STARS2_G1G2_SPHERICAL_GEOMETRY_v0_7/stars2_spherical_v07/numerical_receipt.json",
+    "bytes": 8540,
+    "sha256": "fcd8f75177a6e0bfb434c6ad0acef4e788aafe136df18b87640515e1dff9083b"
+  },
+  {
+    "path": "originals/packages/STARS2_G1G2_SPHERICAL_GEOMETRY_v0_7/stars2_spherical_v07/particle_boundaries.csv",
+    "bytes": 1406,
+    "sha256": "0ecda726da1c6b546e5fa90ec46f2c6cd1eb5bf148ba405fc4ec79a85591f94e"
+  },
+  {
+    "path": "originals/packages/STARS2_G1G2_SPHERICAL_GEOMETRY_v0_7/stars2_spherical_v07/radial_eigenmodes.png",
+    "bytes": 96464,
+    "sha256": "fc9bf7a5003562523e82c5d76369750c52d8e1d52458752dd16acd0bd9e85928"
+  },
+  {
+    "path": "originals/packages/STARS2_G1G2_SPHERICAL_GEOMETRY_v0_7/stars2_spherical_v07/run_spherical.py",
+    "bytes": 7963,
+    "sha256": "0a884a4e6e5df81a72e6ebc30b4cb6fd33736fded895b3d8bf8f3e607c3c6b93"
+  },
+  {
+    "path": "originals/packages/STARS2_G1G2_SPHERICAL_GEOMETRY_v0_7/stars2_spherical_v07/spherical_modes_and_particle_escape.png",
+    "bytes": 188477,
+    "sha256": "3ffaa93b925cf3f242790a170ed7117ca7e746dc50b93cf89230988ff6a3f332"
+  },
+  {
+    "path": "originals/packages/STARS2_G1G2_SPHERICAL_GEOMETRY_v0_7/stars2_spherical_v07/test_receipt.json",
+    "bytes": 486,
+    "sha256": "ad34943074fe24bed1f7871f09c56c0289d697b3b2e778bbe381a8126f59d76a"
+  },
+  {
+    "path": "originals/packages/STARS2_ISOTOPE_FINGERPRINT_v0_1/REPORT.md",
+    "bytes": 2116,
+    "sha256": "e0cc43e4271c0d78d250f2af652f0c323f8ab20296ace5cbd47a1742bdea4f40"
+  },
+  {
+    "path": "originals/packages/STARS2_ISOTOPE_FINGERPRINT_v0_1/SHA256SUMS.txt",
+    "bytes": 425,
+    "sha256": "a7fac357a2099d439656f820575890f96677dc453c41b484d0bc5c3bf7e926e5"
+  },
+  {
+    "path": "originals/packages/STARS2_ISOTOPE_FINGERPRINT_v0_1/illustrative_isotope_predictions.csv",
+    "bytes": 500,
+    "sha256": "ca6d07e5d24e1b092c7526398e0dcd945612b60418ccca8497eede2935069700"
+  },
+  {
+    "path": "originals/packages/STARS2_ISOTOPE_FINGERPRINT_v0_1/molecular_isotope_shift.png",
+    "bytes": 97523,
+    "sha256": "cd8a78ba8ac36264d33a329ca64f93d93ed5813f312b86b2423ec58df0e2a7b8"
+  },
+  {
+    "path": "originals/packages/STARS2_ISOTOPE_FINGERPRINT_v0_1/results.json",
+    "bytes": 1978,
+    "sha256": "2ca4b4794c16a4278b61d5d0805f78e4dfb3c532d6922c8c2900245619a3a0f9"
+  },
+  {
+    "path": "originals/packages/STARS2_ISOTOPE_FINGERPRINT_v0_1/run.py",
+    "bytes": 2816,
+    "sha256": "c0f8d2cf95d3727002cbbe03751f0488ea4b2a97648c2dda7bb075d12f3a57a8"
+  },
+  {
+    "path": "originals/packages/STARS2_LASER_ACOUSTIC_PHASE_LOCK_v0_8/stars2_phase_locked_v08/REPORT_v0_8.md",
+    "bytes": 4043,
+    "sha256": "202457d6220db5bdad65faa063eb9a0cb61898a7c98a4810267f4d6d80e99610"
+  },
+  {
+    "path": "originals/packages/STARS2_LASER_ACOUSTIC_PHASE_LOCK_v0_8/stars2_phase_locked_v08/SHA256_MANIFEST.json",
+    "bytes": 636,
+    "sha256": "e0ba0259a2924f3f8338357b0a2d914f435ffadb5dc4578a441f5f5f91f5e8de"
+  },
+  {
+    "path": "originals/packages/STARS2_LASER_ACOUSTIC_PHASE_LOCK_v0_8/stars2_phase_locked_v08/arm_comparison.csv",
+    "bytes": 1241,
+    "sha256": "fcf73887b048f0de3ec7d0658d22e3d94dad2041d3ea75b036b10a28a32baf4a"
+  },
+  {
+    "path": "originals/packages/STARS2_LASER_ACOUSTIC_PHASE_LOCK_v0_8/stars2_phase_locked_v08/matched_arms.png",
+    "bytes": 58916,
+    "sha256": "6d93fc9c6ef8c04755e4729ada024796951e4b2a7f230feafe3d4f84f42ae09c"
+  },
+  {
+    "path": "originals/packages/STARS2_LASER_ACOUSTIC_PHASE_LOCK_v0_8/stars2_phase_locked_v08/phase_response.png",
+    "bytes": 148584,
+    "sha256": "28476c7bc3e6845f5ed707fc23f7758d2c234568b553bb140da06fa2ff348a32"
+  },
+  {
+    "path": "originals/packages/STARS2_LASER_ACOUSTIC_PHASE_LOCK_v0_8/stars2_phase_locked_v08/receipt.json",
+    "bytes": 910,
+    "sha256": "8377eeb00ab4b2beba3f0b03e33d37d4e0da386fca8418dc145cd50757d5bb3d"
+  },
+  {
+    "path": "originals/packages/STARS2_LASER_ACOUSTIC_PHASE_LOCK_v0_8/stars2_phase_locked_v08/run_phase_benchmark.py",
+    "bytes": 10995,
+    "sha256": "37cf69b2c80122ce4be3f4b7cd20d1b2b723c06a27a9ebade56f6a64c27d9936"
+  },
+  {
+    "path": "originals/packages/STARS2_LASER_ACOUSTIC_PHASE_LOCK_v0_8/stars2_phase_locked_v08/shot_samples.csv",
+    "bytes": 890652,
+    "sha256": "61f0ca49ebffd63a3919dc930a80572e72d2cebe0d8910f98d84e35fc34c5bbf"
+  },
+  {
+    "path": "originals/packages/STARS2_MINUS80DB_FIELD_SENSITIVITY_v0_5/REPORT_v0_5.md",
+    "bytes": 3684,
+    "sha256": "15ed22e0e2b10c21ce6bb94bf3d0ec56f1e1013874375fefabad6bec2d45accb"
+  },
+  {
+    "path": "originals/packages/STARS2_MINUS80DB_FIELD_SENSITIVITY_v0_5/SHA256_MANIFEST.json",
+    "bytes": 444,
+    "sha256": "9788a1f4de8aaaa1669737e328242106357ac5c86d32eb76ab1db80552eb18b4"
+  },
+  {
+    "path": "originals/packages/STARS2_MINUS80DB_FIELD_SENSITIVITY_v0_5/minus80db_sensitivity.png",
+    "bytes": 117656,
+    "sha256": "94ed2bc580a56758fe2b75d29d8b6dfb95728664b47618b2bd85309d6b9a4664"
+  },
+  {
+    "path": "originals/packages/STARS2_MINUS80DB_FIELD_SENSITIVITY_v0_5/receipt.json",
+    "bytes": 3614,
+    "sha256": "b068344f344bcfeb802a6c807235c3a4b97bea09a0089b12b6b5220e0929a0ac"
+  },
+  {
+    "path": "originals/packages/STARS2_MINUS80DB_FIELD_SENSITIVITY_v0_5/run.py",
+    "bytes": 3091,
+    "sha256": "4003e38064a51f601d538d8a820be50a7c6f2bedaa7ed6a1cecd2395464d56c5"
+  },
+  {
+    "path": "originals/packages/STARS2_MINUS80DB_FIELD_SENSITIVITY_v0_5/sensitivity.csv",
+    "bytes": 977,
+    "sha256": "e2ac163ee854e4ca7956f356a391c12dc323622554702176751458c4c3b7060b"
+  },
+  {
+    "path": "originals/packages/STARS2_PRETREAT_SUSTAIN_PHASE_v0_10/REPORT_v0_10.md",
+    "bytes": 4597,
+    "sha256": "89a494952f6c5cd0dfe03da99561217b92649b226863c83bbe76dd2440a24118"
+  },
+  {
+    "path": "originals/packages/STARS2_PRETREAT_SUSTAIN_PHASE_v0_10/SHA256_MANIFEST.json",
+    "bytes": 556,
+    "sha256": "9c3ac1a8eb8c0093707f9366db38fd0a8d5a72d6fb8f73b622ceea9f2a27f56a"
+  },
+  {
+    "path": "originals/packages/STARS2_PRETREAT_SUSTAIN_PHASE_v0_10/acoustic_timing_envelopes.png",
+    "bytes": 79524,
+    "sha256": "768f132a0aef37eb334c1464c786a86c201becb6cb839217694699b654166a1c"
+  },
+  {
+    "path": "originals/packages/STARS2_PRETREAT_SUSTAIN_PHASE_v0_10/arm_absorption_sensitivity.png",
+    "bytes": 98391,
+    "sha256": "1dd27170ebb54d7fc584e0f196379ed969f48a957e6d65a3caa0c753818af815"
+  },
+  {
+    "path": "originals/packages/STARS2_PRETREAT_SUSTAIN_PHASE_v0_10/receipt.json",
+    "bytes": 1535,
+    "sha256": "29f8710a1c58d508386ea6207d88ed9af1b9724b0dd1098c7781ce46360969d1"
+  },
+  {
+    "path": "originals/packages/STARS2_PRETREAT_SUSTAIN_PHASE_v0_10/run.py",
+    "bytes": 11040,
+    "sha256": "bd513ba5e58da5552040ac460e032b1fead2d56e6fe38893f0772acfae55ffdf"
+  },
+  {
+    "path": "originals/packages/STARS2_PRETREAT_SUSTAIN_PHASE_v0_10/scenario_sweep.csv",
+    "bytes": 14116,
+    "sha256": "5d6e0fd6e5013662a2c00007932edd5eb98e405c8396b89f672ed2bb654f19d9"
+  },
+  {
+    "path": "originals/packages/STARS2_RAINBOW_YINYANG_ATLAS_v0_1/README.md",
+    "bytes": 1908,
+    "sha256": "5556b713596e5950e62859f9b90f3fed249cfe016e90d2e64ce3389db148cce8"
+  },
+  {
+    "path": "originals/packages/STARS2_RAINBOW_YINYANG_ATLAS_v0_1/atlas.html",
+    "bytes": 11101,
+    "sha256": "b502be59da1e2f9573811aecfe8c9441f00db2d1541f81537b061e541fb0a2ff"
+  },
+  {
+    "path": "originals/packages/STARS2_RAINBOW_YINYANG_ATLAS_v0_1/benchmark_results.json",
+    "bytes": 2131,
+    "sha256": "7c8d8bca6cb2a996c0f03d34bf3919421420ed49cd49bba4f0fbf4f9fe3d051a"
+  },
+  {
+    "path": "originals/packages/STARS2_RAINBOW_YINYANG_ATLAS_v0_1/build.py",
+    "bytes": 2036,
+    "sha256": "53c02bb85d81c7bda0962369fb78d25d1b25a494a44e9815a74729e23e2149fa"
+  },
+  {
+    "path": "originals/packages/STARS2_RAINBOW_YINYANG_ATLAS_v0_1/heldout_benchmark.csv",
+    "bytes": 526,
+    "sha256": "1bf30a3ce49c570b12385844d12871231175caa3101bc1bc9f580406d5553746"
+  },
+  {
+    "path": "originals/packages/STARS2_RAINBOW_YINYANG_ATLAS_v0_1/manifest.json",
+    "bytes": 442,
+    "sha256": "5a97e1abbf92310e1b5318b4afc44cb03c56ee2b0e4576c0de23d19eca4dde8e"
+  }
+]

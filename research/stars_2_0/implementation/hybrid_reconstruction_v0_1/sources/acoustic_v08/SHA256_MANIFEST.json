@@ -1,0 +1,9 @@
+{
+  "REPORT_v0_8.md": "202457d6220db5bdad65faa063eb9a0cb61898a7c98a4810267f4d6d80e99610",
+  "arm_comparison.csv": "fcf73887b048f0de3ec7d0658d22e3d94dad2041d3ea75b036b10a28a32baf4a",
+  "matched_arms.png": "6d93fc9c6ef8c04755e4729ada024796951e4b2a7f230feafe3d4f84f42ae09c",
+  "phase_response.png": "28476c7bc3e6845f5ed707fc23f7758d2c234568b553bb140da06fa2ff348a32",
+  "receipt.json": "8377eeb00ab4b2beba3f0b03e33d37d4e0da386fca8418dc145cd50757d5bb3d",
+  "run_phase_benchmark.py": "37cf69b2c80122ce4be3f4b7cd20d1b2b723c06a27a9ebade56f6a64c27d9936",
+  "shot_samples.csv": "61f0ca49ebffd63a3919dc930a80572e72d2cebe0d8910f98d84e35fc34c5bbf"
+}

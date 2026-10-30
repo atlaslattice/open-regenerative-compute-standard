@@ -1,0 +1,38 @@
+{
+  "version": "0.2-recovery",
+  "parent_registry": "PR39 b8687d7945fa5ef62362f1c7f15f85e1fa036bf9; append-only, not overwritten",
+  "scientific_freeze": false,
+  "apparatus": [
+    {
+      "apparatus_id": "STARS_REFERENCE_V1",
+      "role": "Preserved reference family",
+      "exact_full_configuration": "Not recovered in this package; prior reference packages remain independently versioned"
+    },
+    {
+      "apparatus_id": "HYBRID_PB_RESEARCH_V0_1",
+      "role": "Full integrated p-B research apparatus",
+      "status": "RECOVERED_SUBMODELS_FULL_RUN_UNRECOVERED",
+      "retained_modules": [
+        "acoustic_preparation",
+        "acoustic_sustain",
+        "laser_proton_pitcher",
+        "hollow_sphere_geometry",
+        "staged_boron_catchers",
+        "rotating_magnetic_mirror",
+        "proton_recirculation",
+        "helium_ash_management",
+        "alpha_energy_recovery",
+        "industrial_integration"
+      ],
+      "full_run_config": null,
+      "full_run_receipt": null,
+      "net_wall_plug_output_J": null,
+      "potential_derived_submodel_outputs": "sources/mirror and results/BASELINE_AUDIT.csv"
+    },
+    {
+      "apparatus_id": "STARS_DESIGN_CANDIDATE_V0_1",
+      "role": "Separately versioned Stars redesign informed by the hybrid",
+      "accepted_design_deltas": []
+    }
+  ]
+}

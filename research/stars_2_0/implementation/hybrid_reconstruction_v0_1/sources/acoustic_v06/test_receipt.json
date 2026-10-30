@@ -1,0 +1,15 @@
+{
+  "attenuation_amplitude_is_1e_minus4": true,
+  "unisolated_vs_isolated_external_displacement": true,
+  "acoustic_drive_same_with_and_without_B": true,
+  "no_drive_exactly_zero_internal": true,
+  "uniform_magnetic_energy_conserved": true,
+  "zero_B_proton_wall_time_matches_ballistic": true,
+  "zero_B_alpha_wall_time_matches_ballistic": true,
+  "three_T_proton_orbit_matches_analytic": true,
+  "three_T_alpha_orbit_matches_analytic": true,
+  "magnetically_guided_test_particles_do_not_touch_sidewall": true,
+  "no_B_test_particles_touch_sidewall": true,
+  "phase_interval_valid": true,
+  "zero_fusion_model_no_gain_claim": true
+}

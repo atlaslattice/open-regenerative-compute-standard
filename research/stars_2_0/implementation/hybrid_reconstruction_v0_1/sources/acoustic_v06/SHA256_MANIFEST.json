@@ -1,0 +1,8 @@
+{
+  "REPORT_v0_6.md": "75f59c2a94797a5a3fd3219a72ed0ad229baae7173622b1b0a000557ab3a1fa2",
+  "arm_comparison.csv": "cbdf9f31d5bbca6dcb30c5a7f441e96ffeb44f184d5fa458004177ca68cc6058",
+  "mechanical_and_EM_comparison.png": "25b5f70b10cfaa5f1c6c23377dea6af1d17d4b34e92962244437507885b64417",
+  "numerical_receipt.json": "2c0b9dd33277910b586460b64acbd8c4177166fe16e4137142f23b4b321ef983",
+  "run_benchmark.py": "39e50aae346d60ab9534463b3058c0ecc5aece5a8703d61ef0ee0fc34394a657",
+  "test_receipt.json": "5f116e24c1b6f970c9341efde942c65042b1694765d13748fa8a529eb02592db"
+}

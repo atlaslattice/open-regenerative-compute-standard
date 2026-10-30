@@ -1,0 +1,11 @@
+module,execution_status,comparison,remaining_limitation
+acoustic_preparation,RERUN_PROXY_ONLY,v0.10 OFF/SHAM/PRE_ONLY,Optical overlap/assumed absorption; nuclear success mapping missing
+acoustic_sustain,RERUN_PROXY_ONLY,v0.10 PRE_ONLY/SUSTAIN_ONLY/PRE_PLUS_SUSTAIN; v0.12 durations,Readiness/memory proxies; actual firing reliability and all-attempt timing missing
+hollow_sphere_geometry,BLOCKED_FULL_PHYSICS,Retained as configurable apparatus module,"Original PIC/FLUKA inputs, source phase space and geometry-to-capture interface missing"
+magnetic_mirror,NEW_TOY_ABLATION,"32 factorial cases, R=1 versus 5 at common capture","No spatial B/E map, self-consistent rotation or pitch-angle transport"
+rotation_barrier,NEW_TOY_ABLATION,"V=0 versus 30 keV, both formula conventions",Barrier physical definition and source-to-throat potential profile unresolved
+orbit_loss,NEW_TOY_ABLATION,loss multiplier=1 versus 1.5,"Empirical scalar, not a full-orbit calculation"
+catcher_stages,BLOCKED_FULL_PHYSICS,Module retained; effective passes not equated to solid catcher stages,"Composition, areal density, stopping, scattering, replacement and trajectories missing"
+alpha_ash,PARTIAL_TOY_ONLY,Original a0 versus a300 keV rows,Loss fraction changes but no feedback to births or plasma state exists
+alpha_recovery,BLOCKED_FULL_PHYSICS,No original collector implementation recovered,"Field work, accepted phase space, direct/plasma/heat allocation and loads missing"
+industrial_integration,SCALING_REPRODUCED_ONLY,Original 18-row 525 MW CSV replayed,"Absolute plant normalization, capex, source/facility energy and duty cycle not calculated"

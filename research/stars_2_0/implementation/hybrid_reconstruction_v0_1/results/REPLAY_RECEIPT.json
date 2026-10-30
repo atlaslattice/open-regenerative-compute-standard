@@ -1,0 +1,251 @@
+{
+  "python": "3.12.14",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "dependencies": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8"
+  },
+  "original_environment": "Not recovered; this is the reconstruction environment, not a claim of original software-version identity.",
+  "filesystem_adaptation": "/mnt/data symlink to fresh run directory; sources unchanged",
+  "runs": [
+    {
+      "group": "mirror",
+      "script": "prism_sphere_reduced_model.py",
+      "source_sha256": "9ddef6ab121852ee676e8a7cabd5920cd91241924f0349a78172610556b01ead",
+      "returncode": 0,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/6126a9592c76/hybrid_reconstruction_v0_1/replay_03/mirror/prism_sphere_reduced_model.py"
+      ],
+      "random_seed": null
+    },
+    {
+      "group": "mirror",
+      "script": "stars_prism_three_module_toy_2026-10-29.py",
+      "source_sha256": "ba101e07dbdb875e1e72082f13b8f4464bc8eacc97c2b6012b4c195b8919c83b",
+      "returncode": 0,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/6126a9592c76/hybrid_reconstruction_v0_1/replay_03/mirror/stars_prism_three_module_toy_2026-10-29.py"
+      ],
+      "random_seed": null
+    },
+    {
+      "group": "mirror",
+      "script": "stars_525mw_gain_scenarios_2026-10-29.py",
+      "source_sha256": "09566afccff70a599cbba32da1583b42568ff54fe2337b4cbf7ef9ce0968eb79",
+      "returncode": 0,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/6126a9592c76/hybrid_reconstruction_v0_1/replay_03/mirror/stars_525mw_gain_scenarios_2026-10-29.py"
+      ],
+      "random_seed": null
+    },
+    {
+      "group": "acoustic_v06",
+      "script": "run_benchmark.py",
+      "source_sha256": "39e50aae346d60ab9534463b3058c0ecc5aece5a8703d61ef0ee0fc34394a657",
+      "returncode": 0,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/6126a9592c76/hybrid_reconstruction_v0_1/replay_03/acoustic_v06/run_benchmark.py"
+      ],
+      "random_seed": null
+    },
+    {
+      "group": "acoustic_v07",
+      "script": "run_spherical.py",
+      "source_sha256": "0a884a4e6e5df81a72e6ebc30b4cb6fd33736fded895b3d8bf8f3e607c3c6b93",
+      "returncode": 0,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/6126a9592c76/hybrid_reconstruction_v0_1/replay_03/acoustic_v07/run_spherical.py"
+      ],
+      "random_seed": null
+    },
+    {
+      "group": "acoustic_v08",
+      "script": "run_phase_benchmark.py",
+      "source_sha256": "37cf69b2c80122ce4be3f4b7cd20d1b2b723c06a27a9ebade56f6a64c27d9936",
+      "returncode": 0,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/6126a9592c76/hybrid_reconstruction_v0_1/replay_03/acoustic_v08/run_phase_benchmark.py"
+      ],
+      "random_seed": 20261028
+    },
+    {
+      "group": "acoustic_v10",
+      "script": "run.py",
+      "source_sha256": "bd513ba5e58da5552040ac460e032b1fead2d56e6fe38893f0772acfae55ffdf",
+      "returncode": 0,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/6126a9592c76/hybrid_reconstruction_v0_1/replay_03/acoustic_v10/run.py"
+      ],
+      "random_seed": 20261028
+    },
+    {
+      "group": "acoustic_v11",
+      "script": "run.py",
+      "source_sha256": "e12131f9642af69385ab6db9626e39c08a85acd03db5f3918234d93c404236c3",
+      "returncode": 0,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/6126a9592c76/hybrid_reconstruction_v0_1/replay_03/stars2_duration_success_v011/run.py"
+      ],
+      "random_seed": null
+    },
+    {
+      "group": "acoustic_v12",
+      "script": "run_v012.py",
+      "source_sha256": "7f31a7b24012baa77de0985c95bb2c3a907ead09b694e80eb99c77ea6e8b6be4",
+      "returncode": 0,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/6126a9592c76/hybrid_reconstruction_v0_1/replay_03/acoustic_v12/run_v012.py"
+      ],
+      "random_seed": null
+    }
+  ],
+  "csv_comparisons": [
+    {
+      "source": "acoustic_v06/arm_comparison.csv",
+      "expected_sha256": "cbdf9f31d5bbca6dcb30c5a7f441e96ffeb44f184d5fa458004177ca68cc6058",
+      "actual_sha256": "cbdf9f31d5bbca6dcb30c5a7f441e96ffeb44f184d5fa458004177ca68cc6058",
+      "byte_identical": true,
+      "expected_rows_including_header": 5,
+      "actual_rows_including_header": 5,
+      "nonnumeric_mismatches": 0,
+      "max_abs_numeric_difference": 0.0,
+      "max_scaled_numeric_difference": 0.0,
+      "shape_match": true,
+      "numeric_match": true
+    },
+    {
+      "source": "acoustic_v07/arm_comparison.csv",
+      "expected_sha256": "69b19d99b59b0c0f073caadc534d65a5b678a776d349eae21e38cdfe856fcee4",
+      "actual_sha256": "69b19d99b59b0c0f073caadc534d65a5b678a776d349eae21e38cdfe856fcee4",
+      "byte_identical": true,
+      "expected_rows_including_header": 5,
+      "actual_rows_including_header": 5,
+      "nonnumeric_mismatches": 0,
+      "max_abs_numeric_difference": 0.0,
+      "max_scaled_numeric_difference": 0.0,
+      "shape_match": true,
+      "numeric_match": true
+    },
+    {
+      "source": "acoustic_v07/particle_boundaries.csv",
+      "expected_sha256": "0ecda726da1c6b546e5fa90ec46f2c6cd1eb5bf148ba405fc4ec79a85591f94e",
+      "actual_sha256": "0ecda726da1c6b546e5fa90ec46f2c6cd1eb5bf148ba405fc4ec79a85591f94e",
+      "byte_identical": true,
+      "expected_rows_including_header": 19,
+      "actual_rows_including_header": 19,
+      "nonnumeric_mismatches": 0,
+      "max_abs_numeric_difference": 0.0,
+      "max_scaled_numeric_difference": 0.0,
+      "shape_match": true,
+      "numeric_match": true
+    },
+    {
+      "source": "acoustic_v08/arm_comparison.csv",
+      "expected_sha256": "fcf73887b048f0de3ec7d0658d22e3d94dad2041d3ea75b036b10a28a32baf4a",
+      "actual_sha256": "fcf73887b048f0de3ec7d0658d22e3d94dad2041d3ea75b036b10a28a32baf4a",
+      "byte_identical": true,
+      "expected_rows_including_header": 8,
+      "actual_rows_including_header": 8,
+      "nonnumeric_mismatches": 0,
+      "max_abs_numeric_difference": 0.0,
+      "max_scaled_numeric_difference": 0.0,
+      "shape_match": true,
+      "numeric_match": true
+    },
+    {
+      "source": "acoustic_v08/shot_samples.csv",
+      "expected_sha256": "61f0ca49ebffd63a3919dc930a80572e72d2cebe0d8910f98d84e35fc34c5bbf",
+      "actual_sha256": "61f0ca49ebffd63a3919dc930a80572e72d2cebe0d8910f98d84e35fc34c5bbf",
+      "byte_identical": true
+    },
+    {
+      "source": "acoustic_v10/scenario_sweep.csv",
+      "expected_sha256": "5d6e0fd6e5013662a2c00007932edd5eb98e405c8396b89f672ed2bb654f19d9",
+      "actual_sha256": "5d6e0fd6e5013662a2c00007932edd5eb98e405c8396b89f672ed2bb654f19d9",
+      "byte_identical": true,
+      "expected_rows_including_header": 85,
+      "actual_rows_including_header": 85,
+      "nonnumeric_mismatches": 0,
+      "max_abs_numeric_difference": 0.0,
+      "max_scaled_numeric_difference": 0.0,
+      "shape_match": true,
+      "numeric_match": true
+    },
+    {
+      "source": "acoustic_v11/duration_sweep.csv",
+      "expected_sha256": "3d72b31cecf8eaf3323f0a777614a36222eed56a556c2bc1326a717e07011756",
+      "actual_sha256": "3d72b31cecf8eaf3323f0a777614a36222eed56a556c2bc1326a717e07011756",
+      "byte_identical": true,
+      "expected_rows_including_header": 19,
+      "actual_rows_including_header": 19,
+      "nonnumeric_mismatches": 0,
+      "max_abs_numeric_difference": 0.0,
+      "max_scaled_numeric_difference": 0.0,
+      "shape_match": true,
+      "numeric_match": true
+    },
+    {
+      "source": "acoustic_v12/duration_sweep.csv",
+      "expected_sha256": "074daa8ff02eb343ea207e4a8f46fa3fb360d694a51f8d330636f66d53f8abe3",
+      "actual_sha256": "074daa8ff02eb343ea207e4a8f46fa3fb360d694a51f8d330636f66d53f8abe3",
+      "byte_identical": true,
+      "expected_rows_including_header": 31,
+      "actual_rows_including_header": 31,
+      "nonnumeric_mismatches": 0,
+      "max_abs_numeric_difference": 0.0,
+      "max_scaled_numeric_difference": 0.0,
+      "shape_match": true,
+      "numeric_match": true
+    },
+    {
+      "source": "mirror/prism_sphere_exploratory_sweep.csv",
+      "expected_sha256": "6741ab3c077057087c614e68a0d6d10b36d7f9c144a798c3713da71082661d65",
+      "actual_sha256": "6741ab3c077057087c614e68a0d6d10b36d7f9c144a798c3713da71082661d65",
+      "byte_identical": true,
+      "expected_rows_including_header": 13,
+      "actual_rows_including_header": 13,
+      "nonnumeric_mismatches": 0,
+      "max_abs_numeric_difference": 0.0,
+      "max_scaled_numeric_difference": 0.0,
+      "shape_match": true,
+      "numeric_match": true
+    },
+    {
+      "source": "mirror/stars_525mw_gain_scenarios_2026-10-29.csv",
+      "expected_sha256": "815634201934c2dff5a0627cf8118cd7ea90f19e1352e521a7da160421f90fba",
+      "actual_sha256": "815634201934c2dff5a0627cf8118cd7ea90f19e1352e521a7da160421f90fba",
+      "byte_identical": true,
+      "expected_rows_including_header": 19,
+      "actual_rows_including_header": 19,
+      "nonnumeric_mismatches": 0,
+      "max_abs_numeric_difference": 0.0,
+      "max_scaled_numeric_difference": 0.0,
+      "shape_match": true,
+      "numeric_match": true
+    },
+    {
+      "source": "mirror/stars_prism_three_module_toy_2026-10-29.csv",
+      "expected_sha256": "4b518e29bcdba98a88f7c6840140472b113e751e51140ef2ef1cec22a78a7124",
+      "actual_sha256": "4b518e29bcdba98a88f7c6840140472b113e751e51140ef2ef1cec22a78a7124",
+      "byte_identical": true,
+      "expected_rows_including_header": 9,
+      "actual_rows_including_header": 9,
+      "nonnumeric_mismatches": 0,
+      "max_abs_numeric_difference": 0.0,
+      "max_scaled_numeric_difference": 0.0,
+      "shape_match": true,
+      "numeric_match": true
+    }
+  ]
+}

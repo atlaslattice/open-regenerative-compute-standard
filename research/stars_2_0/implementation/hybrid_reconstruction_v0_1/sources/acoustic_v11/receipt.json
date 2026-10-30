@@ -1,0 +1,34 @@
+{
+  "checks": [
+    "PRE_ONLY: long-duration history exceeds shortest",
+    "PRE_ONLY: exposure rises monotonically",
+    "PRE_ONLY: bounded envelopes",
+    "PRE_ONLY: bounded history",
+    "PRE_ONLY: no fusion success invented",
+    "PRE_ONLY: monotone time",
+    "PRE_PLUS_SUSTAIN: long-duration history exceeds shortest",
+    "PRE_PLUS_SUSTAIN: exposure rises monotonically",
+    "PRE_PLUS_SUSTAIN: bounded envelopes",
+    "PRE_PLUS_SUSTAIN: bounded history",
+    "PRE_PLUS_SUSTAIN: no fusion success invented",
+    "PRE_PLUS_SUSTAIN: monotone time",
+    "0.1 ms: pre-only decays across 2ms gap",
+    "0.25 ms: pre-only decays across 2ms gap",
+    "1 ms: pre-only decays across 2ms gap",
+    "2 ms: pre-only decays across 2ms gap",
+    "5 ms: pre-only decays across 2ms gap",
+    "10 ms: pre-only decays across 2ms gap",
+    "25 ms: pre-only decays across 2ms gap",
+    "50 ms: pre-only decays across 2ms gap",
+    "100 ms: pre-only decays across 2ms gap"
+  ],
+  "data_rows": 18,
+  "model": "uncalibrated target-memory sensitivity",
+  "success_outputs": "NOT_MODELED",
+  "parameters": {
+    "tau_on_ms": 1,
+    "beta_off_s_inverse": 500,
+    "tau_history_ms": 5,
+    "gap_ms": 2
+  }
+}

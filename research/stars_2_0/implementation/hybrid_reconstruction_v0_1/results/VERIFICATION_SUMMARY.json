@@ -1,0 +1,11 @@
+{
+  "original_script_runs": 9,
+  "original_csv_hash_matches": 11,
+  "independent_audit_checks": 77,
+  "new_factorial_rows": 32,
+  "repeat_audit_output_byte_matches": 4,
+  "full_hybrid_reproduced": false,
+  "original_environment_recovered": false,
+  "acceptance": "Numerical historical submodels reproduced; full apparatus prediction and net-power validation remain open.",
+  "source_compile_note": "One historical v0.8 Python string raises an invalid-escape SyntaxWarning; source preserved, execution succeeds."
+}
