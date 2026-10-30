@@ -1,0 +1,257 @@
+{
+  "status": "DESCRIPTIVE_ACCOUNTING_ONLY",
+  "groups": [
+    {
+      "apparatus_id": "SF_C_ORIGINAL_STARS_V0_1",
+      "arm": "POCKET_OFF",
+      "evidence_class": "SYNTHETIC_FIXTURE",
+      "event_semantics": "REALIZED_COUNT",
+      "attempted_shots": 3,
+      "known_outcomes": 2,
+      "missing_outcomes": 1,
+      "known_event_totals": 2,
+      "missing_event_totals": 1,
+      "successful_shots": 1,
+      "unsuccessful_shots": 1,
+      "success_fraction": null,
+      "success_fraction_missing_data_bounds": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "observed_event_sum": 22.0,
+      "total_fusion_events": null,
+      "events_per_attempt": null,
+      "events_per_success": 20.0,
+      "events_per_unsuccessful_shot": 2.0,
+      "wall_input_J": 0.0,
+      "useful_electricity_J": 0.0,
+      "net_electricity_J": 0.0,
+      "elapsed_s": 30.0,
+      "average_net_power_W": 0.0,
+      "campaigns": [
+        "verification_only"
+      ],
+      "batches": [
+        "fixture_batch"
+      ],
+      "alpha_birth_energy_J": null,
+      "alpha_escape_energy_J": null,
+      "detected_alpha_count": null,
+      "timing_observed_n": 0,
+      "timing_missing_n": 3,
+      "observed_timing_bias_s": null,
+      "observed_timing_rms_s": null,
+      "observed_timing_population_sd_s": null
+    },
+    {
+      "apparatus_id": "SF_C_ORIGINAL_STARS_V0_1",
+      "arm": "POCKET_ON",
+      "evidence_class": "SYNTHETIC_FIXTURE",
+      "event_semantics": "REALIZED_COUNT",
+      "attempted_shots": 3,
+      "known_outcomes": 2,
+      "missing_outcomes": 1,
+      "known_event_totals": 2,
+      "missing_event_totals": 1,
+      "successful_shots": 1,
+      "unsuccessful_shots": 1,
+      "success_fraction": null,
+      "success_fraction_missing_data_bounds": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "observed_event_sum": 22.0,
+      "total_fusion_events": null,
+      "events_per_attempt": null,
+      "events_per_success": 20.0,
+      "events_per_unsuccessful_shot": 2.0,
+      "wall_input_J": 0.0,
+      "useful_electricity_J": 0.0,
+      "net_electricity_J": 0.0,
+      "elapsed_s": 30.0,
+      "average_net_power_W": 0.0,
+      "campaigns": [
+        "verification_only"
+      ],
+      "batches": [
+        "fixture_batch"
+      ],
+      "alpha_birth_energy_J": null,
+      "alpha_escape_energy_J": null,
+      "detected_alpha_count": null,
+      "timing_observed_n": 0,
+      "timing_missing_n": 3,
+      "observed_timing_bias_s": null,
+      "observed_timing_rms_s": null,
+      "observed_timing_population_sd_s": null
+    },
+    {
+      "apparatus_id": "SF_C_ORIGINAL_STARS_V0_1",
+      "arm": "POCKET_SHAM",
+      "evidence_class": "SYNTHETIC_FIXTURE",
+      "event_semantics": "REALIZED_COUNT",
+      "attempted_shots": 3,
+      "known_outcomes": 2,
+      "missing_outcomes": 1,
+      "known_event_totals": 2,
+      "missing_event_totals": 1,
+      "successful_shots": 1,
+      "unsuccessful_shots": 1,
+      "success_fraction": null,
+      "success_fraction_missing_data_bounds": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "observed_event_sum": 22.0,
+      "total_fusion_events": null,
+      "events_per_attempt": null,
+      "events_per_success": 20.0,
+      "events_per_unsuccessful_shot": 2.0,
+      "wall_input_J": 0.0,
+      "useful_electricity_J": 0.0,
+      "net_electricity_J": 0.0,
+      "elapsed_s": 30.0,
+      "average_net_power_W": 0.0,
+      "campaigns": [
+        "verification_only"
+      ],
+      "batches": [
+        "fixture_batch"
+      ],
+      "alpha_birth_energy_J": null,
+      "alpha_escape_energy_J": null,
+      "detected_alpha_count": null,
+      "timing_observed_n": 0,
+      "timing_missing_n": 3,
+      "observed_timing_bias_s": null,
+      "observed_timing_rms_s": null,
+      "observed_timing_population_sd_s": null
+    },
+    {
+      "apparatus_id": "SF_C_ORIGINAL_STARS_V0_1",
+      "arm": "REF_OFF",
+      "evidence_class": "SYNTHETIC_FIXTURE",
+      "event_semantics": "REALIZED_COUNT",
+      "attempted_shots": 3,
+      "known_outcomes": 2,
+      "missing_outcomes": 1,
+      "known_event_totals": 2,
+      "missing_event_totals": 1,
+      "successful_shots": 1,
+      "unsuccessful_shots": 1,
+      "success_fraction": null,
+      "success_fraction_missing_data_bounds": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "observed_event_sum": 22.0,
+      "total_fusion_events": null,
+      "events_per_attempt": null,
+      "events_per_success": 20.0,
+      "events_per_unsuccessful_shot": 2.0,
+      "wall_input_J": 0.0,
+      "useful_electricity_J": 0.0,
+      "net_electricity_J": 0.0,
+      "elapsed_s": 30.0,
+      "average_net_power_W": 0.0,
+      "campaigns": [
+        "verification_only"
+      ],
+      "batches": [
+        "fixture_batch"
+      ],
+      "alpha_birth_energy_J": null,
+      "alpha_escape_energy_J": null,
+      "detected_alpha_count": null,
+      "timing_observed_n": 0,
+      "timing_missing_n": 3,
+      "observed_timing_bias_s": null,
+      "observed_timing_rms_s": null,
+      "observed_timing_population_sd_s": null
+    },
+    {
+      "apparatus_id": "SF_C_ORIGINAL_STARS_V0_1",
+      "arm": "REF_ON",
+      "evidence_class": "SYNTHETIC_FIXTURE",
+      "event_semantics": "REALIZED_COUNT",
+      "attempted_shots": 3,
+      "known_outcomes": 2,
+      "missing_outcomes": 1,
+      "known_event_totals": 2,
+      "missing_event_totals": 1,
+      "successful_shots": 1,
+      "unsuccessful_shots": 1,
+      "success_fraction": null,
+      "success_fraction_missing_data_bounds": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "observed_event_sum": 22.0,
+      "total_fusion_events": null,
+      "events_per_attempt": null,
+      "events_per_success": 20.0,
+      "events_per_unsuccessful_shot": 2.0,
+      "wall_input_J": 0.0,
+      "useful_electricity_J": 0.0,
+      "net_electricity_J": 0.0,
+      "elapsed_s": 30.0,
+      "average_net_power_W": 0.0,
+      "campaigns": [
+        "verification_only"
+      ],
+      "batches": [
+        "fixture_batch"
+      ],
+      "alpha_birth_energy_J": null,
+      "alpha_escape_energy_J": null,
+      "detected_alpha_count": null,
+      "timing_observed_n": 0,
+      "timing_missing_n": 3,
+      "observed_timing_bias_s": null,
+      "observed_timing_rms_s": null,
+      "observed_timing_population_sd_s": null
+    },
+    {
+      "apparatus_id": "SF_C_ORIGINAL_STARS_V0_1",
+      "arm": "REF_SHAM",
+      "evidence_class": "SYNTHETIC_FIXTURE",
+      "event_semantics": "REALIZED_COUNT",
+      "attempted_shots": 3,
+      "known_outcomes": 2,
+      "missing_outcomes": 1,
+      "known_event_totals": 2,
+      "missing_event_totals": 1,
+      "successful_shots": 1,
+      "unsuccessful_shots": 1,
+      "success_fraction": null,
+      "success_fraction_missing_data_bounds": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "observed_event_sum": 22.0,
+      "total_fusion_events": null,
+      "events_per_attempt": null,
+      "events_per_success": 20.0,
+      "events_per_unsuccessful_shot": 2.0,
+      "wall_input_J": 0.0,
+      "useful_electricity_J": 0.0,
+      "net_electricity_J": 0.0,
+      "elapsed_s": 30.0,
+      "average_net_power_W": 0.0,
+      "campaigns": [
+        "verification_only"
+      ],
+      "batches": [
+        "fixture_batch"
+      ],
+      "alpha_birth_energy_J": null,
+      "alpha_escape_energy_J": null,
+      "detected_alpha_count": null,
+      "timing_observed_n": 0,
+      "timing_missing_n": 3,
+      "observed_timing_bias_s": null,
+      "observed_timing_rms_s": null,
+      "observed_timing_population_sd_s": null
+    }
+  ]
+}

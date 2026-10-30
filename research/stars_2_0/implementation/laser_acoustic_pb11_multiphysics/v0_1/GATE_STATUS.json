@@ -1,0 +1,45 @@
+{
+  "scientific_freeze": false,
+  "work_packages": [
+    {
+      "id": "WP1",
+      "status": "PARTIAL_IMPLEMENTED",
+      "detail": "61-document recovery, unresolved geometry gate; precise pocket specification missing"
+    },
+    {
+      "id": "WP2",
+      "status": "REFERENCE_REPLAY_ONLY",
+      "detail": "Unchanged cold B11 reference reproduces; pocket material/scattering/alpha escape missing"
+    },
+    {
+      "id": "WP3",
+      "status": "CONTRACT_ONLY",
+      "detail": "No constitutive/contact/damping/forcing data; prior acoustic surrogates preserved"
+    },
+    {
+      "id": "WP4",
+      "status": "CONTRACT_ONLY",
+      "detail": "Optical geometry and reflectance/damage data missing"
+    },
+    {
+      "id": "WP5",
+      "status": "PENDING_QUALIFICATION",
+      "detail": "ESTHER/Flash-X access and material mapping pending; no hydro run"
+    },
+    {
+      "id": "WP6",
+      "status": "SCALAR_AUDIT_PREVIOUSLY_COMPLETED_FULL_PIC_PENDING",
+      "detail": "PR47 scalar audit only; full WarpX pB regression still pending"
+    },
+    {
+      "id": "WP7",
+      "status": "ACCOUNTING_IMPLEMENTED_PHYSICAL_ENSEMBLE_PENDING",
+      "detail": "22 verification tests; no measured acoustic treatment effects"
+    },
+    {
+      "id": "WP8",
+      "status": "INTERFACE_CONTRACT_ONLY",
+      "detail": "Existing particle reference replayed; no coupled pocket-to-load adapter"
+    }
+  ]
+}

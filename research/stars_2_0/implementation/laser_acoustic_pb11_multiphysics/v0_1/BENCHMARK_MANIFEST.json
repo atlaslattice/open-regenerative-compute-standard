@@ -1,0 +1,21 @@
+{
+  "package": "SF_LASER_ACOUSTIC_PB11_MULTIPHYSICS_0_1",
+  "python": "3.12.14",
+  "dependencies_accounting": "Python standard library only",
+  "physical_solver_execution_this_release": false,
+  "geometry": "EXPLICIT_NULL_PLACEHOLDER",
+  "attempt_accounting": "DESCRIPTIVE_NOT_CAUSAL_INFERENCE",
+  "verification_tests": 22,
+  "transport_replay": {
+    "source_commit": "8452c95a0c45034e3e842fd9db6b85f787062328",
+    "config": "../particle_handoff_v0_1/examples/C_conditional_reference.json",
+    "result_sha256": "88baaa298034e2f376a797331f02aed1050370256d306132a134b49808c64074",
+    "evidence": "CONDITIONAL_EXPECTED_WEIGHT_REFERENCE_NOT_APPARATUS"
+  },
+  "warpx": {
+    "source_commit": "a389dc54a27136176bdd48f7bfd36da62a873a61",
+    "scalar_audit": "PR47 completed previously",
+    "full_upstream_pB_run": "PENDING_NOT_EXECUTED"
+  },
+  "work_order_sha256": "edc048b44dfc9c34624a7d8127fb7a6362324e48429ab885733407dd2a931ad9"
+}
