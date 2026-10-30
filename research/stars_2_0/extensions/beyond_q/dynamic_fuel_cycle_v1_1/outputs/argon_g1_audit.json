@@ -1,0 +1,8 @@
+{
+  "convention": "17.6 MeV D-T matches v1 and dynamic energy ledger; Argon used 17.59",
+  "maximum_secondary_mw": 48.21917808219178,
+  "implied_18mw_fraction": 0.37329545454545454,
+  "implied_18mw_consumption_kg_fpy": 1.0088833193318774,
+  "assumed_candidate_fraction": 0.37343358395989973,
+  "classification": "VERIFIED-DERIVED arithmetic; candidate inputs POTENTIAL-DERIVED; G1 OPEN"
+}

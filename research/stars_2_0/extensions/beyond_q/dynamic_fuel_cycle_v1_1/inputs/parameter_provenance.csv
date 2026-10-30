@@ -1,0 +1,34 @@
+parameter,unit,evidence,origin,interpretation
+power_a_dd_mw,MW,POTENTIAL-DERIVED,v1 section 1,Hypothetical fixed reference not achieved output
+power_b_dt_mw,MW,SOURCE-TRACED,Hillesheim 2026 design basis,Design rating not operational result
+dd_t_branch,fraction,POTENTIAL-DERIVED,v1 equal branch screening approximation,Energy dependent branching not solved
+a_reaction_day,1/day,POTENTIAL-DERIVED,86400*n_D*reactivity = 864,Conditional hazard; no supported plasma profiles
+a_fast_fraction,fraction,POTENTIAL-DERIVED,Argon two-stage candidate; default zero,No computed fast-ion slowing-down burn
+a_escape_day,1/day,POTENTIAL-DERIVED,86400/59.6,Conditional residence hazard not calibrated confinement physics
+tbr_a,births/source_neutron,POTENTIAL-DERIVED,Illustrative 0.52,A1 illustrative only; not fitted transport or natural Li prediction
+tbr_b,births/B_burn,POTENTIAL-DERIVED,v1 candidate 1.02,Assumed gross neutronics yield not qualified recovery
+extract_a_day,1/day,POTENTIAL-DERIVED,Argon 0.85/(10/1440)=122.4,Well mixed candidate removal
+extract_b_day,1/day,POTENTIAL-DERIVED,Argon 0.85/(10/1440)=122.4,Well mixed candidate removal
+permeation_day,1/day,POTENTIAL-DERIVED,Illustrative 0.0001,Only mobile salt inventory loses T through this sink
+process_day,1/day,POTENTIAL-DERIVED,Illustrative 4.0,Mean processing residence 0.25 day
+process_recovery,fraction,POTENTIAL-DERIVED,Illustrative 0.9999,Permanent loss fraction per processed pass; multiple passes compound
+b_pass_burn_fraction,fraction,POTENTIAL-DERIVED,Illustrative 0.05,Consumed fraction of feed; rest returns to B processing
+half_life_years,year,SOURCE-TRACED,DOE-STD-1129-2015 and EPA technical notes,Rounded nuclear decay half life
+initial_a_kg,kg-T,POTENTIAL-DERIVED,Illustrative zero,Initial externally acquired inventory
+initial_b_kg,kg-T,POTENTIAL-DERIVED,Illustrative ten,Not inferred from 327 g different design study
+transfer_day,1/day,POTENTIAL-DERIVED,Illustrative 2.0,A storage to B storage effective rate
+reverse_transfer_kg_day,kg/day,POTENTIAL-DERIVED,Illustrative zero,Optional B to A storage capped by available stock
+reserve_a_kg,kg-T,POTENTIAL-DERIVED,Illustrative 0.25,Protected A storage not exported
+blanket_li6_birth_fraction,fraction,POTENTIAL-DERIVED,Illustrative one,Birth reaction partition not isotope enrichment or a neutronics result
+availability_a,fraction,POTENTIAL-DERIVED,Illustrative 0.9,Independent on probability before shared outage
+availability_b,fraction,POTENTIAL-DERIVED,Illustrative 0.9,Independent on probability before shared outage
+common_outage,fraction,POTENTIAL-DERIVED,Illustrative 0.05,Common daily outage probability; marginal availability 0.855
+seed,integer,VERIFIED-DERIVED,119,Reproducibility seed not a physical parameter
+step_days,day,VERIFIED-DERIVED,0.125,Numerical splitting step; refinement results required
+days,day,POTENTIAL-DERIVED,730,Illustrative horizon
+case,category,POTENTIAL-DERIVED,A1,A0 nonbreeding; A2 explicit exploratory surrogate not optimized transport
+a_density_m3,1/m3,POTENTIAL-DERIVED,Illustrative 1e20,No supported Reactor A profile
+a_reactivity_m3_s,m3/s,POTENTIAL-DERIVED,Illustrative 1e-22,No validated ion distribution or cross section integral
+a_residence_s,s,POTENTIAL-DERIVED,Illustrative 59.6,Near legacy 18 MW secondary; not validated
+extract_epsilon,fraction,POTENTIAL-DERIVED,Argon illustrative 0.85,Not a measured reactor scale result
+extract_loop_minutes,min,POTENTIAL-DERIVED,Argon illustrative 10,Not verified circulation time
