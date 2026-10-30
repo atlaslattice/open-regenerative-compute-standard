@@ -1,0 +1,17 @@
+{
+  "code_hashes": {
+    "handoff.py": "cbb2ca13612dacea05329fa3fbd517cd1e2ab4fedfb25986a831bb8dcffe9d0b",
+    "run.py": "c5dfbd620ac7d128802eefcdc4d1ee28790245981e3ed7d5defe8ad5b084e4ce",
+    "test_handoff.py": "d2963c741dd1d736e668df56a30a0d327299d46438ba04bf746a0c5ea958f9ff",
+    "verify_release.py": "eccb4dd74a81eb40d42f125a9fca50d86107162f71c85f546e10b4eadd1c78e2"
+  },
+  "config_sha256": "e0a94b7d928b8d4c6eac169a32768570f3713fa41e156cf617e451c10e019c2c",
+  "dependency_lock_sha256": "cf48edbae73068f717e82953e1164cd343741a0676a7467f6528476dcf1937f4",
+  "numpy": "2.3.5",
+  "python": "3.12.14",
+  "randomness": "Deterministic expected-weight integration; not physical shot sampling",
+  "result_sha256": "0fecef5ac9228e1a8f0ad3abdcc64b7e539ea9abfb3d269ffbc1bcb1a92429e8",
+  "scientific_freeze": false,
+  "seed": null,
+  "status": "BLOCKED_UNSPECIFIED_APPARATUS_INPUTS"
+}

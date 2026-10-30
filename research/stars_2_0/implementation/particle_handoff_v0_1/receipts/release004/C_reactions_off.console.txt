@@ -1,0 +1,6 @@
+{
+  "architecture_id": "SF_C_ORIGINAL_STARS_V0_1",
+  "expected_events_all_attempts": 0.0,
+  "status": "CONDITIONAL_HANDOFF_COMPLETE"
+}
+

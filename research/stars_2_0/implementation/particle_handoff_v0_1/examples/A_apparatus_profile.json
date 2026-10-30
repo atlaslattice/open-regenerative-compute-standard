@@ -1,0 +1,15 @@
+{
+  "schema": "stellar-forge-handoff/0.1",
+  "architecture_id": "SF_A_NEW_HYBRID_V0_1",
+  "run_class": "INCOMPLETE_APPARATUS_PROFILE",
+  "unresolved_inputs": [
+    "Hollow-sphere source particle phase-space file and absolute normalization",
+    "ENN-informed preparation/coupling transfer model and power",
+    "PRISM B/E/potential maps, injection acceptance and routing",
+    "Reaction kernel covering actual relative-energy distribution",
+    "Actual geometry and timing"
+  ],
+  "parent_architecture_registry": "../abc_architecture_v0_1/ABC_REGISTRY.json",
+  "source_packets": null,
+  "performance": null
+}

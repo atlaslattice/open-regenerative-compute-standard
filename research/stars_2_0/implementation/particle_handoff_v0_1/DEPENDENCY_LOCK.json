@@ -1,0 +1,58 @@
+[
+  {
+    "path": "../abc_architecture_v0_1/ABC_REGISTRY.json",
+    "sha256": "9c1de07c375a44c1d201a81cc3bfbb3c2836c7de20c5ee49c71e0394e5b7d753"
+  },
+  {
+    "path": "../coupled_reference_v0_5/physics.py",
+    "sha256": "6915bab453d0b6e9a0a1e4605a7c0c242b368396f8504c711055cd347335ad7f"
+  },
+  {
+    "path": "../coupled_reference_v0_5/EVENT_CROSS_SECTIONS.json",
+    "sha256": "b05e779936d2f797c34bb4fb3ffb818841fd332dd477a445772f9c5e991a3acf"
+  },
+  {
+    "path": "../coupled_reference_v0_5/MASS_SOURCE.json",
+    "sha256": "ae8cd1bb6bb9a9aae17f00addc7badf65ef2e5565f44fae649a36b438c737136"
+  },
+  {
+    "path": "../stopping_models_v0_4/model.py",
+    "sha256": "86bb39edc377b325d266bd61c0e0919d537b1feffbc017c5ba9262b22cf9934f"
+  },
+  {
+    "path": "../stopping_models_v0_4/TABLE_LOCK.json",
+    "sha256": "1a668e5fb8170d73ace990b8f70ca1efc7e17dab80564249420efc95c63f4da3"
+  },
+  {
+    "path": "../stopping_models_v0_4/tables/srim13_Z1_T5.json",
+    "sha256": "73e75a9cf05c6af66603a5545ddc8b5828a303a258e4788b9bdd9a3ee74f758b"
+  },
+  {
+    "path": "../stopping_models_v0_4/tables/srim13_Z1_T7.json",
+    "sha256": "06f7b417f63f7889539b4f787d5fe683efd00c2b88bd80c1bd4e307f9408f035"
+  },
+  {
+    "path": "../stopping_models_v0_4/tables/srim13_Z2_T5.json",
+    "sha256": "639452e7cd475c52ba440d92f44a9d4e42c84b3abfe6d5173171f902073e474d"
+  },
+  {
+    "path": "../stopping_models_v0_4/tables/srim13_Z2_T7.json",
+    "sha256": "a985291ce8e56df8f6700f04dc3e4f6f87cb5b5dd881469a5e0bdb2bda2a73e5"
+  },
+  {
+    "path": "../stopping_models_v0_4/tables/srim96_Z1_T5.json",
+    "sha256": "bf1a11f104e28b681f53a268a36f44e6726c44de4772c87d110ccc7eb6a6bf6b"
+  },
+  {
+    "path": "../stopping_models_v0_4/tables/srim96_Z1_T7.json",
+    "sha256": "c1ceed82b573a945da17b8b9ac830f6820c4e391102fbf3f37d80c4d4fad7820"
+  },
+  {
+    "path": "../stopping_models_v0_4/tables/srim96_Z2_T5.json",
+    "sha256": "b80d91d22909abf0e14f0f8034f35feb373319489d1fba4b28e07715b513d82a"
+  },
+  {
+    "path": "../stopping_models_v0_4/tables/srim96_Z2_T7.json",
+    "sha256": "132aac8c998b0e6b94ce7df0993e2d727e1b6570ccc2e0b5923e3105eb00f9ae"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "schema": "stellar-forge-handoff/0.1",
+  "architecture_id": "SF_C_ORIGINAL_STARS_V0_1",
+  "run_class": "INCOMPLETE_APPARATUS_PROFILE",
+  "unresolved_inputs": [
+    "Exact original installed target/source/field and collector configuration",
+    "Acoustic readiness/firing/jitter measurements or explicitly derived transfer scenarios",
+    "Material-specific stopping/scattering and reaction coverage for selected source",
+    "Actual facility loads, cycle time and electrical recovery"
+  ],
+  "parent_architecture_registry": "../abc_architecture_v0_1/ABC_REGISTRY.json",
+  "source_packets": null,
+  "performance": null
+}
