@@ -1,0 +1,8 @@
+{
+  "reactor_a_dd_fusion_power_w": 20000000,
+  "reactor_b_dt_fusion_power_w": 1130000000,
+  "dd_tritium_branch_fraction": 0.5,
+  "dd_tritium_delivery_fraction": 1,
+  "effective_b_blanket_tritium_per_dt_reaction": 0,
+  "additional_tritium_loss_atoms_per_s": 0
+}
