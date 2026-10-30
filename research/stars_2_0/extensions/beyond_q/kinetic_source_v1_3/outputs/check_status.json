@@ -1,0 +1,12 @@
+[
+  {
+    "suite": "v1.3",
+    "passed": true,
+    "exit_code": 0
+  },
+  {
+    "suite": "v1.2",
+    "passed": true,
+    "exit_code": 0
+  }
+]

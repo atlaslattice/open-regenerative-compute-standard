@@ -1,0 +1,21 @@
+test_D_pool_compensated_reduction (test_benchmark.Benchmark.test_D_pool_compensated_reduction) ... ok
+test_T_source_consumption_closure (test_benchmark.Benchmark.test_T_source_consumption_closure) ... ok
+test_actual_case_count (test_benchmark.Benchmark.test_actual_case_count) ... ok
+test_archived_particle_moments (test_benchmark.Benchmark.test_archived_particle_moments) ... ok
+test_creation_off_no_delivered_source (test_benchmark.Benchmark.test_creation_off_no_delivered_source) ... ok
+test_cross_sections_and_DD_symmetry (test_benchmark.Benchmark.test_cross_sections_and_DD_symmetry) ... ok
+test_energy_and_momentum (test_benchmark.Benchmark.test_energy_and_momentum) ... ok
+test_existing_compartment_kernel_comparison (test_benchmark.Benchmark.test_existing_compartment_kernel_comparison) ... ok
+test_mass_conventions_explicit (test_benchmark.Benchmark.test_mass_conventions_explicit) ... ok
+test_multiplier_does_not_multiply_physical_yield (test_benchmark.Benchmark.test_multiplier_does_not_multiply_physical_yield) ... ok
+test_neutron_stoichiometry (test_benchmark.Benchmark.test_neutron_stoichiometry) ... ok
+test_provenance_and_raw_logs (test_benchmark.Benchmark.test_provenance_and_raw_logs) ... ok
+test_secondary_off_preserves_DD_neutrons (test_benchmark.Benchmark.test_secondary_off_preserves_DD_neutrons) ... ok
+test_source_export_and_reference_lock (test_benchmark.Benchmark.test_source_export_and_reference_lock) ... ok
+test_upstream_unmodified_tests (test_benchmark.Benchmark.test_upstream_unmodified_tests) ... ok
+test_without_T_birth_no_DT (test_benchmark.Benchmark.test_without_T_birth_no_DT) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.018s
+
+OK

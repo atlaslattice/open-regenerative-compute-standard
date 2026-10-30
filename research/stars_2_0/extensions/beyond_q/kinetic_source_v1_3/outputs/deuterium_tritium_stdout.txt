@@ -1,0 +1,236 @@
+Initializing AMReX (26.10)...
+OMP initialized with 2 OMP threads
+AMReX (26.10) initialized
+PICSAR (26.10)
+WarpX (Unknown)
+
+                                   ___
+    __        __             ___  /  /
+    \ \      / /_ _ _ __ _ __\  \/  /
+     \ \ /\ / / _` | '__| '_ \\    /
+      \ V  V / (_| | |  | |_) /    \
+       \_/\_/ \__,_|_|  | .__/__/\  \
+                        |_|       \__\
+
+Level 0: dt = 1.925833202e-09 ; dx = 1 ; dy = 1 ; dz = 1
+
+Grids Summary:
+  Level 0   2 grids  1024 cells  100 % of domain
+            smallest grid: 8 x 8 x 8  biggest grid: 8 x 8 x 8
+
+-------------------------------------------------------------------------------
+--------------------------- MAIN EM PIC PARAMETERS ----------------------------
+-------------------------------------------------------------------------------
+Precision:            | DOUBLE
+Particle precision:   | DOUBLE
+Geometry:             | 3D (XYZ)
+Operation mode:       | Electromagnetic
+                      | - vacuum
+-------------------------------------------------------------------------------
+Current Deposition:   | Esirkepov 
+Guard cells           | - ng_alloc_J  = (3,3,3)
+ (allocated for J)    | 
+Guard cells           | - ng_alloc_EB = (2,2,2)
+ (allocated for E/B)  | 
+Particle Pusher:      | Boris 
+Charge Deposition:    | standard 
+Field Gathering:      | energy-conserving 
+Particle Shape Factor:| 1
+-------------------------------------------------------------------------------
+Maxwell Solver:       | Yee 
+                      | - staggered grid 
+Guard cells           | - ng_alloc_EB = (2,2,2)
+ (allocated for E/B)  | 
+-------------------------------------------------------------------------------
+For full input parameters, see the file: warpx_used_inputs
+
+--- INFO    : Writing plotfile diags/diag1000000
+STEP 1 starts ...
+--- INFO    : Writing plotfile diags/diag1000001
+--- INFO    : Writing checkpoint diags/checkpoint000001
+
+
+**** WARNINGS ******************************************************************
+* GLOBAL warning list  after  [ FIRST STEP ]
+*
+* No recorded warnings.
+********************************************************************************
+
+STEP 1 ends. TIME = 1.925833202e-09 DT = 1.925833202e-09
+Evolve time = 6.016782123 s; This step = 6.016782123 s; Avg. per step = 6.016782123 s
+
+STEP 2 starts ...
+--- INFO    : Writing plotfile diags/diag1000002
+STEP 2 ends. TIME = 3.851666403e-09 DT = 1.925833202e-09
+Evolve time = 9.384188499 s; This step = 3.367406376 s; Avg. per step = 4.69209425 s
+
+
+**** WARNINGS ******************************************************************
+* GLOBAL warning list  after  [ THE END ]
+*
+* No recorded warnings.
+********************************************************************************
+
+Total Time                     : 15.74444447
+
+
+TinyProfiler total time across processes [min...avg...max]: 15.74 ... 15.74 ... 15.74
+
+------------------------------------------------------------------------------------------------------------------------------------
+Name                                                                                 NCalls  Excl. Min  Excl. Avg  Excl. Max   Max %
+------------------------------------------------------------------------------------------------------------------------------------
+ParticleContainer::WriteParticles()                                                      28      7.302      7.302      7.302  46.38%
+ParticleContainer::addParticles                                                          24      2.261      2.261      2.261  14.36%
+BinaryCollision::doCollisionsWithinTile::LoopOverCollisions                               4      2.178      2.178      2.178  13.84%
+PhysicalParticleContainer::AddPlasma()                                                    5       1.77       1.77       1.77  11.24%
+Redistribute_partition                                                                   24      1.013      1.013      1.013   6.43%
+DenseBins<T>::buildOpenMP                                                                 8     0.2773     0.2773     0.2773   1.76%
+BinaryCollision::doCollisionsWithinTile::shuffle                                          4     0.2018     0.2018     0.2018   1.28%
+FlushFormatPlotfile::WriteToFile()                                                        3     0.1898     0.1898     0.1898   1.21%
+WriteBinaryParticleData()                                                                32     0.1571     0.1571     0.1571   1.00%
+BinaryCollision::doCollisionsWithinTile::copyTransform                                    4     0.1299     0.1299     0.1299   0.82%
+MultiParticleContainer::doCollisions()                                                    2    0.09647    0.09647    0.09647   0.61%
+main()                                                                                    1    0.05946    0.05946    0.05946   0.38%
+ParticleContainer::Redistribute_impl()                                                   24    0.03375    0.03375    0.03375   0.21%
+BinaryCollision::doCollisionsWithinTile                                                   4    0.02735    0.02735    0.02735   0.17%
+WarpX::InitData()                                                                         1    0.01096    0.01096    0.01096   0.07%
+WarpX::Evolve::step                                                                       2   0.002414   0.002414   0.002414   0.02%
+Diagnostics::FilterComputePackFlush()                                                     7    0.00153    0.00153    0.00153   0.01%
+PhysicalParticleContainer::AddParticles()                                                 8   0.001055   0.001055   0.001055   0.01%
+ParticleContainer::copyParticles                                                         24  0.0003885  0.0003885  0.0003885   0.00%
+ParticleContainer::WritePlotFile()                                                       24   0.000353   0.000353   0.000353   0.00%
+FlushFormatCheckpoint::WriteToFile()                                                      1  0.0003309  0.0003309  0.0003309   0.00%
+REG::WarpX::Evolve()                                                                      1   0.000118   0.000118   0.000118   0.00%
+WarpX::OneStep_nosub()                                                                    2  6.873e-05  6.873e-05  6.873e-05   0.00%
+BinaryCollision::doCollisionsWithinTile::findParticlesInEachCell                          4   3.05e-05   3.05e-05   3.05e-05   0.00%
+MultiParticleContainer::RedistributeLocal                                                 2  2.857e-05  2.857e-05  2.857e-05   0.00%
+WarpX::Evolve()                                                                           1  1.952e-05  1.952e-05  1.952e-05   0.00%
+WarpX::OneStep()                                                                          2  3.987e-06  3.987e-06  3.987e-06   0.00%
+Other                                                                                   986    0.03076    0.03076    0.03076   0.20%
+------------------------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------------------
+Name                                                                                 NCalls  Incl. Min  Incl. Avg  Incl. Max   Max %
+------------------------------------------------------------------------------------------------------------------------------------
+main()                                                                                    1      15.74      15.74      15.74 100.00%
+Diagnostics::FilterComputePackFlush()                                                     7      9.926      9.926      9.926  63.05%
+REG::WarpX::Evolve()                                                                      1      9.385      9.385      9.385  59.61%
+WarpX::Evolve()                                                                           1      9.385      9.385      9.385  59.60%
+WarpX::Evolve::step                                                                       2      9.384      9.384      9.384  59.60%
+FlushFormatPlotfile::WriteToFile()                                                        3      8.397      8.397      8.397  53.33%
+WriteBinaryParticleData()                                                                32      7.459      7.459      7.459  47.37%
+ParticleContainer::WriteParticles()                                                      28      7.302      7.302      7.302  46.38%
+WarpX::InitData()                                                                         1        6.3        6.3        6.3  40.02%
+ParticleContainer::WritePlotFile()                                                       24      5.937      5.937      5.937  37.71%
+WarpX::OneStep()                                                                          2      2.913      2.913      2.913  18.50%
+WarpX::OneStep_nosub()                                                                    2      2.913      2.913      2.913  18.50%
+MultiParticleContainer::doCollisions()                                                    2      2.911      2.911      2.911  18.49%
+BinaryCollision::doCollisionsWithinTile                                                   4      2.815      2.815      2.815  17.88%
+ParticleContainer::copyParticles                                                         24      2.261      2.261      2.261  14.36%
+ParticleContainer::addParticles                                                          24      2.261      2.261      2.261  14.36%
+BinaryCollision::doCollisionsWithinTile::LoopOverCollisions                               4      2.178      2.178      2.178  13.84%
+PhysicalParticleContainer::AddParticles()                                                 8      1.771      1.771      1.771  11.25%
+PhysicalParticleContainer::AddPlasma()                                                    5       1.77       1.77       1.77  11.24%
+FlushFormatCheckpoint::WriteToFile()                                                      1      1.524      1.524      1.524   9.68%
+ParticleContainer::Redistribute_impl()                                                   24      1.058      1.058      1.058   6.72%
+Redistribute_partition                                                                   24      1.013      1.013      1.013   6.43%
+MultiParticleContainer::RedistributeLocal                                                 2     0.7162     0.7162     0.7162   4.55%
+BinaryCollision::doCollisionsWithinTile::findParticlesInEachCell                          4     0.2773     0.2773     0.2773   1.76%
+DenseBins<T>::buildOpenMP                                                                 8     0.2773     0.2773     0.2773   1.76%
+BinaryCollision::doCollisionsWithinTile::shuffle                                          4     0.2018     0.2018     0.2018   1.28%
+BinaryCollision::doCollisionsWithinTile::copyTransform                                    4     0.1299     0.1299     0.1299   0.82%
+Other                                                                                   986     0.0547     0.0547     0.0547   0.35%
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+BEGIN REGION WarpX::Evolve()
+
+------------------------------------------------------------------------------------------------------------------------------------
+Name                                                                                 NCalls  Excl. Min  Excl. Avg  Excl. Max   Max %
+------------------------------------------------------------------------------------------------------------------------------------
+ParticleContainer::WriteParticles()                                                      24      4.285      4.285      4.285  27.22%
+BinaryCollision::doCollisionsWithinTile::LoopOverCollisions                               4      2.178      2.178      2.178  13.84%
+ParticleContainer::addParticles                                                          16       1.23       1.23       1.23   7.81%
+Redistribute_partition                                                                   16     0.6836     0.6836     0.6836   4.34%
+DenseBins<T>::buildOpenMP                                                                 8     0.2773     0.2773     0.2773   1.76%
+BinaryCollision::doCollisionsWithinTile::shuffle                                          4     0.2018     0.2018     0.2018   1.28%
+BinaryCollision::doCollisionsWithinTile::copyTransform                                    4     0.1299     0.1299     0.1299   0.82%
+WriteBinaryParticleData()                                                                24     0.1208     0.1208     0.1208   0.77%
+FlushFormatPlotfile::WriteToFile()                                                        2     0.1053     0.1053     0.1053   0.67%
+MultiParticleContainer::doCollisions()                                                    2    0.09647    0.09647    0.09647   0.61%
+BinaryCollision::doCollisionsWithinTile                                                   4    0.02735    0.02735    0.02735   0.17%
+ParticleContainer::Redistribute_impl()                                                   16    0.02552    0.02552    0.02552   0.16%
+WarpX::Evolve::step                                                                       2   0.002414   0.002414   0.002414   0.02%
+Diagnostics::FilterComputePackFlush()                                                     5  0.0006324  0.0006324  0.0006324   0.00%
+FlushFormatCheckpoint::WriteToFile()                                                      1  0.0003309  0.0003309  0.0003309   0.00%
+REG::WarpX::Evolve()                                                                      1   0.000118   0.000118   0.000118   0.00%
+ParticleContainer::WritePlotFile()                                                       16  9.297e-05  9.297e-05  9.297e-05   0.00%
+ParticleContainer::copyParticles                                                         16  9.071e-05  9.071e-05  9.071e-05   0.00%
+WarpX::OneStep_nosub()                                                                    2  6.873e-05  6.873e-05  6.873e-05   0.00%
+BinaryCollision::doCollisionsWithinTile::findParticlesInEachCell                          4   3.05e-05   3.05e-05   3.05e-05   0.00%
+MultiParticleContainer::RedistributeLocal                                                 2  2.857e-05  2.857e-05  2.857e-05   0.00%
+WarpX::Evolve()                                                                           1  1.952e-05  1.952e-05  1.952e-05   0.00%
+WarpX::OneStep()                                                                          2  3.987e-06  3.987e-06  3.987e-06   0.00%
+Other                                                                                   807    0.01961    0.01961    0.01961   0.12%
+------------------------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------------------
+Name                                                                                 NCalls  Incl. Min  Incl. Avg  Incl. Max   Max %
+------------------------------------------------------------------------------------------------------------------------------------
+REG::WarpX::Evolve()                                                                      1      9.385      9.385      9.385  59.61%
+WarpX::Evolve()                                                                           1      9.385      9.385      9.385  59.60%
+WarpX::Evolve::step                                                                       2      9.384      9.384      9.384  59.60%
+Diagnostics::FilterComputePackFlush()                                                     5       5.75       5.75       5.75  36.52%
+WriteBinaryParticleData()                                                                24      4.406      4.406      4.406  27.98%
+ParticleContainer::WriteParticles()                                                      24      4.285      4.285      4.285  27.22%
+FlushFormatPlotfile::WriteToFile()                                                        2      4.224      4.224      4.224  26.83%
+WarpX::OneStep()                                                                          2      2.913      2.913      2.913  18.50%
+WarpX::OneStep_nosub()                                                                    2      2.913      2.913      2.913  18.50%
+MultiParticleContainer::doCollisions()                                                    2      2.911      2.911      2.911  18.49%
+ParticleContainer::WritePlotFile()                                                       16      2.883      2.883      2.883  18.31%
+BinaryCollision::doCollisionsWithinTile                                                   4      2.815      2.815      2.815  17.88%
+BinaryCollision::doCollisionsWithinTile::LoopOverCollisions                               4      2.178      2.178      2.178  13.84%
+FlushFormatCheckpoint::WriteToFile()                                                      1      1.524      1.524      1.524   9.68%
+ParticleContainer::copyParticles                                                         16       1.23       1.23       1.23   7.81%
+ParticleContainer::addParticles                                                          16       1.23       1.23       1.23   7.81%
+MultiParticleContainer::RedistributeLocal                                                 2     0.7162     0.7162     0.7162   4.55%
+ParticleContainer::Redistribute_impl()                                                   16     0.7162     0.7162     0.7162   4.55%
+Redistribute_partition                                                                   16     0.6836     0.6836     0.6836   4.34%
+BinaryCollision::doCollisionsWithinTile::findParticlesInEachCell                          4     0.2773     0.2773     0.2773   1.76%
+DenseBins<T>::buildOpenMP                                                                 8     0.2773     0.2773     0.2773   1.76%
+BinaryCollision::doCollisionsWithinTile::shuffle                                          4     0.2018     0.2018     0.2018   1.28%
+BinaryCollision::doCollisionsWithinTile::copyTransform                                    4     0.1299     0.1299     0.1299   0.82%
+Other                                                                                   807    0.03493    0.03493    0.03493   0.22%
+------------------------------------------------------------------------------------------------------------------------------------
+
+END REGION WarpX::Evolve()
+Pinned Memory Usage:
+----------------------------------------------------------
+Name                             Nalloc   AvgMem    MaxMem
+----------------------------------------------------------
+ParticleContainer::addParticles     320  321 MiB   625 MiB
+WriteBinaryParticleData()            40   14 MiB    39 MiB
+The_Pinned_Arena::Initialize()        1    0   B  8192 KiB
+main()                              204   23 KiB    23 KiB
+Unprofiled                           11    0   B   256   B
+WarpX::InitData()                     4    0   B   256   B
+----------------------------------------------------------
+
+Cpu Memory Usage:
+----------------------------------------------------------------------------------
+Name                                                    Nalloc    AvgMem    MaxMem
+----------------------------------------------------------------------------------
+PhysicalParticleContainer::AddPlasma()                      80  1270 MiB  1320 MiB
+WriteBinaryParticleData()                                   16  3463 KiB    39 MiB
+BinaryCollision::doCollisionsWithinTile::copyTransform     128  5939 KiB    18 MiB
+WarpX::InitData()                                           26   430 KiB   445 KiB
+FillBoundary_nowait()                                      312     5   B   299 KiB
+Diagnostics::FilterComputePackFlush()                       16     8   B   130 KiB
+ParticleContainer::BuildRedistributeMask                    16    61 KiB   128 KiB
+Filter::ApplyStencil(MultiFab)                              20     3   B   107 KiB
+WarpX::SyncCurrent()                                        12     1   B    49 KiB
+DenseBins<T>::buildOpenMP                                   16   149   B  8192   B
+----------------------------------------------------------------------------------
+
+AMReX (26.10) finalized

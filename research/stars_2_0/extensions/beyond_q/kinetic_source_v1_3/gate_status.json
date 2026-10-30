@@ -1,0 +1,27 @@
+{
+  "G1": {
+    "physical_status": "OPEN",
+    "qualified_surplus_kg": null,
+    "scope": "Bounded kinetic-source numerical benchmark; v1.2 physical limits unchanged"
+  },
+  "G2": {
+    "physical_status": "OPEN",
+    "qualified_surplus_kg": null,
+    "scope": "Bounded kinetic-source numerical benchmark; v1.2 physical limits unchanged"
+  },
+  "G3": {
+    "physical_status": "OPEN",
+    "qualified_surplus_kg": null,
+    "scope": "Bounded kinetic-source numerical benchmark; v1.2 physical limits unchanged"
+  },
+  "G4": {
+    "physical_status": "OPEN",
+    "qualified_surplus_kg": null,
+    "scope": "Bounded kinetic-source numerical benchmark; v1.2 physical limits unchanged"
+  },
+  "G5": {
+    "physical_status": "OPEN",
+    "qualified_surplus_kg": null,
+    "scope": "Bounded kinetic-source numerical benchmark; v1.2 physical limits unchanged"
+  }
+}

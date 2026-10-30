@@ -1,0 +1,10 @@
+case,born_kg,consumed_kg,remaining_kg,source_minus_consumed_minus_remaining_kg,scope
+chain_on,9.752560150990597e-19,3.341817202374965e-26,9.752559816808878e-19,-1.4925800734643793e-34,"Finite-box source/sink replay, not annual reactor inventory or qualified export"
+double_ppc,9.652274434386857e-19,3.321499813620951e-26,9.652274102236842e-19,3.283676161621634e-33,"Finite-box source/sink replay, not annual reactor inventory or qualified export"
+half_dt,9.73375309287018e-19,3.335772227767786e-26,9.73375275929311e-19,-1.5373574756683105e-32,"Finite-box source/sink replay, not annual reactor inventory or qualified export"
+lower_multiplier,9.673918827545605e-19,3.432280119362314e-26,9.673918484317453e-19,1.4030252690565166e-32,"Finite-box source/sink replay, not annual reactor inventory or qualified export"
+no_T_birth,0.0,0.0,0.0,0.0,"Finite-box source/sink replay, not annual reactor inventory or qualified export"
+no_reactions,0.0,0.0,0.0,0.0,"Finite-box source/sink replay, not annual reactor inventory or qualified export"
+secondary_off,9.776162092129145e-19,0.0,9.776162092129145e-19,0.0,"Finite-box source/sink replay, not annual reactor inventory or qualified export"
+seed_219,9.668335898403551e-19,3.262255507492331e-26,9.668335572178018e-19,-1.641838080810817e-33,"Finite-box source/sink replay, not annual reactor inventory or qualified export"
+seed_319,9.69853218596261e-19,3.3100260098944305e-26,9.69853185496004e-19,-3.134418154275196e-33,"Finite-box source/sink replay, not annual reactor inventory or qualified export"

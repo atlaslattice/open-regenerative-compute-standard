@@ -1,0 +1,16 @@
+[
+  {
+    "reaction": "deuterium_deuterium",
+    "run_exit": 0,
+    "analysis_exit": 0,
+    "passed": true,
+    "upstream_input_overrides": []
+  },
+  {
+    "reaction": "deuterium_tritium",
+    "run_exit": 0,
+    "analysis_exit": 0,
+    "passed": true,
+    "upstream_input_overrides": []
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "diagnostic": "number",
+    "byte_identical": true,
+    "maximum_absolute_difference": 0.0,
+    "units": "Diagnostic-dependent; do not combine across units"
+  },
+  {
+    "diagnostic": "energy",
+    "byte_identical": true,
+    "maximum_absolute_difference": 0.0,
+    "units": "Diagnostic-dependent; do not combine across units"
+  },
+  {
+    "diagnostic": "momentum",
+    "byte_identical": true,
+    "maximum_absolute_difference": 0.0,
+    "units": "Diagnostic-dependent; do not combine across units"
+  }
+]
