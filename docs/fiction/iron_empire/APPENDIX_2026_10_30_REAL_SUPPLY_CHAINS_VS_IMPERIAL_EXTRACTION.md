@@ -1,0 +1,9 @@
+# Iron Empire fiction science receipt — scarce inputs, production vs extraction
+**Status:** PROPOSED NARRATIVE LINK, not hard historical canon; do not misrepresent real-world announcements. Research audit: [DeepSeek evidence register](https://github.com/atlaslattice/open-regenerative-compute-standard/blob/main/docs/fiction/iron_empire/DEEPSEEK_RESEARCH_CONVERGENCE_EVIDENCE_AUDIT_v0_1_2026-10-30.md).
+The Imperial court treats conquest and extraction as immutable responses to biological and industrial dependency; the human/Bridge collaboration asks whether production, recycling, substitute chemistry and changed accounting boundaries offer a better objective function. Real analogues include CFS procurement, He-3 dilution cryogenics, possible terrestrial isotope extraction, and planned sulfur recovery.
+Crucial boundaries:
+- D-D fusion **can produce helium-3 in a reaction branch**, but controlled industrial, net-positive, cost-competitive output is not demonstrated. Do not portray 'commercial mass production already proven.'
+- Lunar helium-3 recovery is a debated speculative supply route; the Moon is also an irreplaceable scientific/cultural environment. Distinguish the Moon's real tidal gravitational effect from conjectured mining impacts on tidal dynamics.
+- The Imperial blood-dependent nutrient is **fictional biology**, and *not* the same substance or process as He-3. The analogy is single-source dependency and weak system accounting.
+- A plausible dramatic conclusion is that production and shared scientific infrastructure can outperform some conquest strategies **under particular assumptions**, not that a particular technology guarantees abundance or perfect governance.
+- Track real-world evidence classes and separate them from fictional technology receipts and proposed Continuum events.
