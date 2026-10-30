@@ -1,0 +1,12 @@
+{
+  "kind": "ACTUAL OPENMC METHOD QA / SYNTHETIC MACROSCOPIC DATA / NOT A BREEDING RESULT",
+  "expected_leakage": 0.36787944117144233,
+  "leakage": 0.3683100000000001,
+  "leakage_standard_error": 0.0009143850392476182,
+  "absorption": 0.6316900000000001,
+  "particle_residual": -2.220446049250313e-16,
+  "passes_4se": true,
+  "input_source_energy_eV": 14100000.0,
+  "energy_partition_qa": "For this no-Q, no-scatter toy: E0*absorbed+E0*leaked=E0; not material kerma validation",
+  "source_energy_partition_residual_eV": -3.1308289294429414e-09
+}

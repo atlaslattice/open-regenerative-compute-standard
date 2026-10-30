@@ -1,0 +1,45 @@
+{
+  "version": "1.2",
+  "actual_transport_campaign_runs": 44,
+  "synthetic_analytic_QA_runs": 1,
+  "integrated_cases": 48,
+  "regression_suites": {
+    "1.1": 20,
+    "1.1.1": 8,
+    "1.1.2": 17,
+    "1.2": 17
+  },
+  "regression_tests_passed": 62,
+  "startup_brackets": 9,
+  "statistical_draws": 96,
+  "all_physical_gates": "OPEN",
+  "qualified_usable_surplus_kg": null,
+  "same_seed_replay": {
+    "maximum_mean_difference": 2.842170943040401e-14,
+    "pass_atol_1e-10": true,
+    "scope": "Same histories/seed numerical replay; binary timestamps and runtime not expected identical",
+    "differences": {
+      "salt_T_tracklength:H3-production": 2.220446049250313e-16,
+      "salt_T_collision:H3-production": 0.0,
+      "Li6_T:H3-production": 5.551115123125783e-16,
+      "Li7_T:H3-production": 2.7755575615628914e-17,
+      "global_balance:absorption": 0.0,
+      "global_balance:scatter": 2.842170943040401e-14,
+      "global_balance:nu-scatter": 0.0,
+      "global_heat:heating": 0.0,
+      "global_T:H3-production": 6.661338147750939e-16,
+      "leakage:current": 0.0,
+      "probe_flux:flux": 0.0
+    }
+  },
+  "maximum_integrated_mass_residual_kg": 9.00346464050017e-12,
+  "known_limitations": [
+    "assumed spherical geometry",
+    "293.6K nuclear data with assumed liquid density",
+    "major-element alloy surrogates",
+    "no experimental blanket benchmark",
+    "no coupled material/photon energy closure",
+    "uncalibrated extraction and inventory parameters",
+    "no qualified startup reserve or self-sufficiency"
+  ]
+}

@@ -1,0 +1,10 @@
+case,condition,startup_B_lower_kg,startup_B_upper_kg,horizon_days,step_days,criterion,classification
+A0,reference,1.0921478271484375,1.0923385620117188,365,0.125,Cumulative unserved B burn <=1e-8 kg; zero regulatory reserve floor,POTENTIAL-DERIVED finite-horizon fuel-availability bracket; not qualified startup reserve
+A0,processor_7d,25.292015075683594,25.292205810546875,365,0.125,Cumulative unserved B burn <=1e-8 kg; zero regulatory reserve floor,POTENTIAL-DERIVED finite-horizon fuel-availability bracket; not qualified startup reserve
+A0,B_port10,10.300064086914062,10.300254821777344,365,0.125,Cumulative unserved B burn <=1e-8 kg; zero regulatory reserve floor,POTENTIAL-DERIVED finite-horizon fuel-availability bracket; not qualified startup reserve
+A1,reference,1.0921478271484375,1.0923385620117188,365,0.125,Cumulative unserved B burn <=1e-8 kg; zero regulatory reserve floor,POTENTIAL-DERIVED finite-horizon fuel-availability bracket; not qualified startup reserve
+A1,processor_7d,25.104331970214844,25.104522705078125,365,0.125,Cumulative unserved B burn <=1e-8 kg; zero regulatory reserve floor,POTENTIAL-DERIVED finite-horizon fuel-availability bracket; not qualified startup reserve
+A1,B_port10,7.3680877685546875,7.368278503417969,365,0.125,Cumulative unserved B burn <=1e-8 kg; zero regulatory reserve floor,POTENTIAL-DERIVED finite-horizon fuel-availability bracket; not qualified startup reserve
+A2_grid_candidate,reference,1.0921478271484375,1.0923385620117188,365,0.125,Cumulative unserved B burn <=1e-8 kg; zero regulatory reserve floor,POTENTIAL-DERIVED finite-horizon fuel-availability bracket; not qualified startup reserve
+A2_grid_candidate,processor_7d,25.069427490234375,25.069618225097656,365,0.125,Cumulative unserved B burn <=1e-8 kg; zero regulatory reserve floor,POTENTIAL-DERIVED finite-horizon fuel-availability bracket; not qualified startup reserve
+A2_grid_candidate,B_port10,7.001495361328125,7.001686096191406,365,0.125,Cumulative unserved B burn <=1e-8 kg; zero regulatory reserve floor,POTENTIAL-DERIVED finite-horizon fuel-availability bracket; not qualified startup reserve

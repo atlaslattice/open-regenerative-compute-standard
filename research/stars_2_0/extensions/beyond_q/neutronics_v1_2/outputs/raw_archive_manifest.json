@@ -1,0 +1,5 @@
+{
+  "archive_sha256": "20f2a4c71e666a50eb7f96414a232bd37b6ff200877c9a1463b0e4555ce2b35e",
+  "bytes": 192460,
+  "description": "44 actual campaign statepoints plus analytic QA statepoint and synthetic QA MGXS; evaluated ACE/HDF5 libraries retrieved separately by prepare_data.py"
+}

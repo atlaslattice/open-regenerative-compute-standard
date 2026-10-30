@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/4524d3a10c71/research/stars_2_0/extensions/beyond_q/neutronics_v1_2/transport.py", line 154, in <module>
+    args=p.parse_args();print(json.dumps(run(case(source=args.source),args.xs,args.output,args.executable),indent=2))
+                                         ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/4524d3a10c71/research/stars_2_0/extensions/beyond_q/neutronics_v1_2/transport.py", line 106, in run
+    model,metadata=build(c,xs);model.export_to_xml(directory=directory)
+                   ~~~~~^^^^^^
+  File "/workspace/scratch/4524d3a10c71/research/stars_2_0/extensions/beyond_q/neutronics_v1_2/transport.py", line 101, in build
+    all_material_definitions=[m.to_xml_element().attrib|{'xml':__import__('lxml').etree.tostring(m.to_xml_element()).decode()} for m in mats])
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for |: 'lxml.etree._Attrib' and 'dict'

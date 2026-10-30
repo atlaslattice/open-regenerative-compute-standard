@@ -1,0 +1,298 @@
+{
+  "salt_T_tracklength": {
+    "scores": [
+      "(n,Xt)"
+    ],
+    "nuclides": [
+      "total"
+    ],
+    "estimator": "tracklength",
+    "mean": [
+      [
+        [
+          0.0
+        ]
+      ]
+    ],
+    "std_dev": [
+      [
+        [
+          0.0
+        ]
+      ]
+    ],
+    "sum": [
+      [
+        [
+          0.0
+        ]
+      ]
+    ],
+    "sum_sq": [
+      [
+        [
+          0.0
+        ]
+      ]
+    ],
+    "n_realizations": 30
+  },
+  "salt_T_collision": {
+    "scores": [
+      "(n,Xt)"
+    ],
+    "nuclides": [
+      "total"
+    ],
+    "estimator": "collision",
+    "mean": [
+      [
+        [
+          0.0
+        ]
+      ]
+    ],
+    "std_dev": [
+      [
+        [
+          0.0
+        ]
+      ]
+    ],
+    "sum": [
+      [
+        [
+          0.0
+        ]
+      ]
+    ],
+    "sum_sq": [
+      [
+        [
+          0.0
+        ]
+      ]
+    ],
+    "n_realizations": 30
+  },
+  "global_balance": {
+    "scores": [
+      "absorption",
+      "scatter",
+      "nu-scatter"
+    ],
+    "nuclides": [
+      "total"
+    ],
+    "estimator": "analog",
+    "mean": [
+      [
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    ],
+    "std_dev": [
+      [
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    ],
+    "sum": [
+      [
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    ],
+    "sum_sq": [
+      [
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    ],
+    "n_realizations": 30
+  },
+  "global_heat": {
+    "scores": [
+      "heating"
+    ],
+    "nuclides": [
+      "total"
+    ],
+    "estimator": "tracklength",
+    "mean": [
+      [
+        [
+          0.0
+        ]
+      ]
+    ],
+    "std_dev": [
+      [
+        [
+          0.0
+        ]
+      ]
+    ],
+    "sum": [
+      [
+        [
+          0.0
+        ]
+      ]
+    ],
+    "sum_sq": [
+      [
+        [
+          0.0
+        ]
+      ]
+    ],
+    "n_realizations": 30
+  },
+  "global_T": {
+    "scores": [
+      "(n,Xt)"
+    ],
+    "nuclides": [
+      "total"
+    ],
+    "estimator": "tracklength",
+    "mean": [
+      [
+        [
+          0.0
+        ]
+      ]
+    ],
+    "std_dev": [
+      [
+        [
+          0.0
+        ]
+      ]
+    ],
+    "sum": [
+      [
+        [
+          0.0
+        ]
+      ]
+    ],
+    "sum_sq": [
+      [
+        [
+          0.0
+        ]
+      ]
+    ],
+    "n_realizations": 30
+  },
+  "leakage": {
+    "scores": [
+      "current"
+    ],
+    "nuclides": [
+      "total"
+    ],
+    "estimator": "analog",
+    "mean": [
+      [
+        [
+          1.0
+        ]
+      ]
+    ],
+    "std_dev": [
+      [
+        [
+          0.0
+        ]
+      ]
+    ],
+    "sum": [
+      [
+        [
+          30.0
+        ]
+      ]
+    ],
+    "sum_sq": [
+      [
+        [
+          30.0
+        ]
+      ]
+    ],
+    "n_realizations": 30
+  },
+  "probe_flux": {
+    "scores": [
+      "flux"
+    ],
+    "nuclides": [
+      "total"
+    ],
+    "estimator": "tracklength",
+    "mean": [
+      [
+        [
+          0.0
+        ]
+      ],
+      [
+        [
+          5.0
+        ]
+      ]
+    ],
+    "std_dev": [
+      [
+        [
+          0.0
+        ]
+      ],
+      [
+        [
+          0.0
+        ]
+      ]
+    ],
+    "sum": [
+      [
+        [
+          0.0
+        ]
+      ],
+      [
+        [
+          150.0
+        ]
+      ]
+    ],
+    "sum_sq": [
+      [
+        [
+          0.0
+        ]
+      ],
+      [
+        [
+          750.0
+        ]
+      ]
+    ],
+    "n_realizations": 30
+  }
+}

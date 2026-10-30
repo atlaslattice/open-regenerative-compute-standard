@@ -1,0 +1,82 @@
+{
+  "schema": "beyond-q-transport-result-1.2",
+  "kind": "ACTUAL_OPENMC_TRANSPORT_IN_ASSUMED_GEOMETRY",
+  "case": {
+    "schema": "beyond-q-transport-1.2",
+    "geometry": "spherical_shell_testbed",
+    "geometry_evidence": "ASSUMED: NOT ARC V3A",
+    "li6": 0.075,
+    "source": "DD",
+    "alloy": "inconel_surrogate",
+    "blanket_cm": 90.0,
+    "port_fraction": 0.0,
+    "multiplier": true,
+    "structure_scale": 1.0,
+    "nonbreeder": true,
+    "vacuum": false,
+    "temperature_K": 293.6,
+    "salt_density_g_cm3": 1.94,
+    "seed": 519,
+    "particles": 2000,
+    "batches": 30,
+    "cavity_cm": 100.0,
+    "first_wall_cm": 0.3,
+    "inner_structure_cm": 1.0,
+    "coolant_cm": 2.0,
+    "multiplier_cm": 1.0,
+    "outer_structure_cm": 3.0,
+    "tank_cm": 3.0,
+    "shield_cm": 25.0,
+    "probe_cm": 5.0
+  },
+  "tallies": {
+    "salt_T_tracklength:H3-production": {
+      "mean": 0.0,
+      "se_bound": 0.0
+    },
+    "salt_T_collision:H3-production": {
+      "mean": 0.0,
+      "se_bound": 0.0
+    },
+    "global_balance:absorption": {
+      "mean": 1.0025833333333336,
+      "se_bound": 0.00015917050299958657
+    },
+    "global_balance:scatter": {
+      "mean": 29.251316666666657,
+      "se_bound": 0.07863343035723351
+    },
+    "global_balance:nu-scatter": {
+      "mean": 29.253900000000005,
+      "se_bound": 0.07867938139987311
+    },
+    "global_heat:heating": {
+      "mean": 3907739.9650910497,
+      "se_bound": 11967.158170892673
+    },
+    "global_T:H3-production": {
+      "mean": 0.009472061412008589,
+      "se_bound": 3.786036055672703e-05
+    },
+    "leakage:current": {
+      "mean": 0.0,
+      "se_bound": 0.0
+    },
+    "probe_flux:flux": {
+      "mean": 0.0,
+      "se_bound": 0.0
+    }
+  },
+  "neutron_balance_residual": 1.4432899320127035e-14,
+  "neutron_balance_se_bound": 0.15747198226010622,
+  "particle_balance_pass": true,
+  "estimator_difference": 0.0,
+  "estimator_3se_bound": 0.0,
+  "estimators_agree": true,
+  "statepoint_sha256": "8ad122c162165434e2c3a78dff9014f2597ae38413dc74cb53f01ae5af8dfd4e",
+  "provenance_sha256": "159adf67dbc8fed1b3312a1d5c920f4674f02e89b6c2b2caef639fff3536ab85",
+  "geometry_qualified": false,
+  "energy_closure": "UNRESOLVED for material runs; vacuum analytic check separate",
+  "qualified_usable_surplus_kg": null,
+  "physical_validation": false
+}

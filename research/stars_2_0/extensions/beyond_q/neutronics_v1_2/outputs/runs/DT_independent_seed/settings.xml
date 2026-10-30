@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<settings>
+  <run_mode>fixed source</run_mode>
+  <particles>2000</particles>
+  <batches>30</batches>
+  <source type="independent" strength="1.0" particle="neutron">
+    <space type="point">
+      <parameters>0 0 0</parameters>
+    </space>
+    <angle type="isotropic"/>
+    <energy type="discrete">
+      <parameters>14100000.0 1.0</parameters>
+    </energy>
+  </source>
+  <state_point>
+    <batches>30</batches>
+  </state_point>
+  <photon_transport>false</photon_transport>
+  <seed>917</seed>
+  <temperature_default>293.6</temperature_default>
+  <temperature_method>nearest</temperature_method>
+  <temperature_tolerance>1.0</temperature_tolerance>
+</settings>

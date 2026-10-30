@@ -1,0 +1,50 @@
+{
+  "case": {
+    "schema": "beyond-q-transport-1.2",
+    "geometry": "spherical_shell_testbed",
+    "geometry_evidence": "ASSUMED: NOT ARC V3A",
+    "li6": 0.075,
+    "source": "DD",
+    "alloy": "inconel_surrogate",
+    "blanket_cm": 90.0,
+    "port_fraction": 0.0,
+    "multiplier": true,
+    "structure_scale": 1.0,
+    "nonbreeder": false,
+    "vacuum": true,
+    "temperature_K": 293.6,
+    "salt_density_g_cm3": 1.94,
+    "seed": 519,
+    "particles": 2000,
+    "batches": 30,
+    "cavity_cm": 100.0,
+    "first_wall_cm": 0.3,
+    "inner_structure_cm": 1.0,
+    "coolant_cm": 2.0,
+    "multiplier_cm": 1.0,
+    "outer_structure_cm": 3.0,
+    "tank_cm": 3.0,
+    "shield_cm": 25.0,
+    "probe_cm": 5.0
+  },
+  "metadata": {
+    "probe_volume_cm3": 3260654.1980521088,
+    "source_energy_eV": 2450000.0,
+    "normalization": "per unit source neutron; B=1 neutron/DT event; A DD=0.5 neutron/primary DD event at equal branches",
+    "neutron_heating": "MT301 kerma heating (not local photon transport); full deposited heat/energy closure UNRESOLVED",
+    "all_material_definitions": []
+  },
+  "openmc_version": "0.15.3",
+  "python": "3.13.18",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "executable_sha256": "01493915fc795da2973d55d5fca680ccbfb067f4e415c0842b67e8589829d06f",
+  "data_manifest_sha256": "74dcd8596e75aa63c488815ecaada66e576f556f7e39664744ba75951cf6aff8",
+  "input_hashes": {
+    "tallies.xml": "b492a2cc86830d1169bef1f2052118852d22a1ff939e0819344d7d3fb530446b",
+    "settings.xml": "c3e4008e8684931aff36333a3805be71099bf0e140fb3193d5b2e5a3e37195e3",
+    "geometry.xml": "a09a2f901afc407223eaa36fe44157a4ba14de752e5c6adaa418b27f3e377fe8",
+    "materials.xml": "387f4241a1cea79740ac3564b5480fab039201fbf2445c0c7c693de852500f4d"
+  },
+  "geometry_qualified": false,
+  "physical_validation": false
+}

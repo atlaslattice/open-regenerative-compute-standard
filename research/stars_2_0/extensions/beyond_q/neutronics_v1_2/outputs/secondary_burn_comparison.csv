@@ -1,0 +1,25 @@
+case,condition,delta_recovered_A_plasma_kg,delta_recovered_A_blanket_kg,delta_A_to_B_kg,delta_campus_inventory_kg,qualification
+A0,reference,-0.9572636549899871,0.0,-0.9556336487115193,-0.9317619509247894,POTENTIAL-DERIVED matched finite-horizon accounting; damage and economic benefit UNRESOLVED
+A0,poor_recovery,-0.7053521668346467,0.0,-0.7038958040711675,-0.6321382722697244,POTENTIAL-DERIVED matched finite-horizon accounting; damage and economic benefit UNRESOLVED
+A0,independent_outages,-0.8102132351432934,0.0,-0.8085119782343844,-0.7888131891930783,POTENTIAL-DERIVED matched finite-horizon accounting; damage and economic benefit UNRESOLVED
+A0,common_outage,-0.7165073808385674,0.0,-0.715522157531322,-0.6974197970662477,POTENTIAL-DERIVED matched finite-horizon accounting; damage and economic benefit UNRESOLVED
+A0,cold_start,-0.9572636549899871,0.0,-0.9556336487115193,-1.267208490888009,POTENTIAL-DERIVED matched finite-horizon accounting; damage and economic benefit UNRESOLVED
+A0,processor_7d,-0.9572636549899871,0.0,-0.9556336487115193,-0.9317708927603103,POTENTIAL-DERIVED matched finite-horizon accounting; damage and economic benefit UNRESOLVED
+A0,extractor_7d,-0.9572636549899871,0.0,-0.9556336487115193,-0.9317619509247965,POTENTIAL-DERIVED matched finite-horizon accounting; damage and economic benefit UNRESOLVED
+A0,B_port10,-0.9572636549899871,0.0,-0.9556336487115193,-0.8911966216721705,POTENTIAL-DERIVED matched finite-horizon accounting; damage and economic benefit UNRESOLVED
+A1,reference,-0.9572636549899871,0.9448312674576458,-0.012411983989011333,-0.009824508170336088,POTENTIAL-DERIVED matched finite-horizon accounting; damage and economic benefit UNRESOLVED
+A1,poor_recovery,-0.7053521668346467,0.6298875116384266,-0.0753506126948289,-0.07113720493134501,POTENTIAL-DERIVED matched finite-horizon accounting; damage and economic benefit UNRESOLVED
+A1,independent_outages,-0.8102132351432934,0.7996285345907248,-0.010415705337404546,-0.008302994491845794,POTENTIAL-DERIVED matched finite-horizon accounting; damage and economic benefit UNRESOLVED
+A1,common_outage,-0.7165073808385674,0.7076567613742382,-0.009237787023836042,-0.007439455421922148,POTENTIAL-DERIVED matched finite-horizon accounting; damage and economic benefit UNRESOLVED
+A1,cold_start,-0.9572636549899871,0.9448312674576458,-0.012411983989011333,-0.011825080511571606,POTENTIAL-DERIVED matched finite-horizon accounting; damage and economic benefit UNRESOLVED
+A1,processor_7d,-0.9572636549899871,0.9448312674576458,-0.012411983989011333,-0.009830511737341396,POTENTIAL-DERIVED matched finite-horizon accounting; damage and economic benefit UNRESOLVED
+A1,extractor_7d,-0.9572636549899871,0.9448312674576458,-0.012411983989011333,-0.009824508170360957,POTENTIAL-DERIVED matched finite-horizon accounting; damage and economic benefit UNRESOLVED
+A1,B_port10,-0.9572636549899871,0.9448312674576458,-0.012411983989011333,-0.009824508172443736,POTENTIAL-DERIVED matched finite-horizon accounting; damage and economic benefit UNRESOLVED
+A2_grid_candidate,reference,-0.9572636549899871,0.9744611797984053,0.017177352941993185,0.019087453730417536,POTENTIAL-DERIVED matched finite-horizon accounting; damage and economic benefit UNRESOLVED
+A2_grid_candidate,poor_recovery,-0.7053521668346467,0.6496407865322038,-0.05562774128536363,-0.05183023860151348,POTENTIAL-DERIVED matched finite-horizon accounting; damage and economic benefit UNRESOLVED
+A2_grid_candidate,independent_outages,-0.8102132351432934,0.8247048886458506,0.014625416320340978,0.016173808347351937,POTENTIAL-DERIVED matched finite-horizon accounting; damage and economic benefit UNRESOLVED
+A2_grid_candidate,common_outage,-0.7165073808385674,0.7298488802520327,0.012925641494863083,0.014198330862205566,POTENTIAL-DERIVED matched finite-horizon accounting; damage and economic benefit UNRESOLVED
+A2_grid_candidate,cold_start,-0.9572636549899871,0.9744611797984053,0.017177352941993185,0.019431344518945792,POTENTIAL-DERIVED matched finite-horizon accounting; damage and economic benefit UNRESOLVED
+A2_grid_candidate,processor_7d,-0.9572636549899871,0.9744611797984053,0.017177352941993185,0.01908724785754856,POTENTIAL-DERIVED matched finite-horizon accounting; damage and economic benefit UNRESOLVED
+A2_grid_candidate,extractor_7d,-0.9572636549899871,0.9744611797984053,0.017177352941993185,0.019087453730453063,POTENTIAL-DERIVED matched finite-horizon accounting; damage and economic benefit UNRESOLVED
+A2_grid_candidate,B_port10,-0.9572636549899871,0.9744611797984053,0.017177352941993185,0.01908745373272769,POTENTIAL-DERIVED matched finite-horizon accounting; damage and economic benefit UNRESOLVED
