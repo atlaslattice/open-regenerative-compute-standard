@@ -1,0 +1,90 @@
+{
+  "schema": "beyond-q-transport-result-1.2",
+  "kind": "ACTUAL_OPENMC_TRANSPORT_IN_ASSUMED_GEOMETRY",
+  "case": {
+    "schema": "beyond-q-transport-1.2",
+    "geometry": "spherical_shell_testbed",
+    "geometry_evidence": "ASSUMED: NOT ARC V3A",
+    "li6": 0.3,
+    "source": "DT",
+    "alloy": "inconel_surrogate",
+    "blanket_cm": 60.0,
+    "port_fraction": 0.0,
+    "multiplier": true,
+    "structure_scale": 1.0,
+    "nonbreeder": false,
+    "vacuum": false,
+    "temperature_K": 293.6,
+    "salt_density_g_cm3": 1.94,
+    "seed": 219,
+    "particles": 2000,
+    "batches": 30,
+    "cavity_cm": 100.0,
+    "first_wall_cm": 0.3,
+    "inner_structure_cm": 1.0,
+    "coolant_cm": 2.0,
+    "multiplier_cm": 1.0,
+    "outer_structure_cm": 3.0,
+    "tank_cm": 3.0,
+    "shield_cm": 25.0,
+    "probe_cm": 5.0
+  },
+  "tallies": {
+    "salt_T_tracklength:H3-production": {
+      "mean": 1.081537165945462,
+      "se_bound": 0.005581831415564377
+    },
+    "salt_T_collision:H3-production": {
+      "mean": 1.0799187989621069,
+      "se_bound": 0.00554600765206094
+    },
+    "Li6_T:H3-production": {
+      "mean": 0.9976640782909336,
+      "se_bound": 0.0055363583021631226
+    },
+    "Li7_T:H3-production": {
+      "mean": 0.07645081181816217,
+      "se_bound": 0.0003504432998395552
+    },
+    "global_balance:absorption": {
+      "mean": 1.3045030825318962,
+      "se_bound": 0.0020865324134201847
+    },
+    "global_balance:scatter": {
+      "mean": 50.02698044213028,
+      "se_bound": 0.1884404444911624
+    },
+    "global_balance:nu-scatter": {
+      "mean": 50.33208352466219,
+      "se_bound": 0.18945395799945808
+    },
+    "global_heat:heating": {
+      "mean": 11581693.23636701,
+      "se_bound": 29342.126559283548
+    },
+    "global_T:H3-production": {
+      "mean": 1.0838271961726096,
+      "se_bound": 0.004504580208714699
+    },
+    "leakage:current": {
+      "mean": 0.0006000000000000002,
+      "se_bound": 8.094272134003786e-05
+    },
+    "probe_flux:flux": {
+      "mean": 0.004215662833360721,
+      "se_bound": 0.0008281457994298412
+    }
+  },
+  "neutron_balance_residual": 1.1258030098437732e-14,
+  "neutron_balance_se_bound": 0.3800618776253807,
+  "particle_balance_pass": true,
+  "estimator_difference": 0.0016183669833551573,
+  "estimator_3se_bound": 0.033383517202875954,
+  "estimators_agree": true,
+  "statepoint_sha256": "7d228bdbfdd57cc299e478d1fd1a5c4f437d7598f5767abcf42c6b9973bed973",
+  "provenance_sha256": "9a4daf2a9d44a44612751a49897665f35e29e075e9f1e8e9838efb044685c200",
+  "geometry_qualified": false,
+  "energy_closure": "UNRESOLVED for material runs; vacuum analytic check separate",
+  "qualified_usable_surplus_kg": null,
+  "physical_validation": false
+}

@@ -1,0 +1,18 @@
+test_actual_run_count_and_provenance (test_neutronics.RecordedRuns.test_actual_run_count_and_provenance) ... ok
+test_analytic_absorber_benchmark (test_neutronics.RecordedRuns.test_analytic_absorber_benchmark) ... ok
+test_isotope_negative_controls (test_neutronics.RecordedRuns.test_isotope_negative_controls) ... ok
+test_neutron_balances (test_neutronics.RecordedRuns.test_neutron_balances) ... ok
+test_port_reduction_is_not_scalar_dilution (test_neutronics.RecordedRuns.test_port_reduction_is_not_scalar_dilution) ... ok
+test_repeat_and_history_convergence (test_neutronics.RecordedRuns.test_repeat_and_history_convergence) ... ok
+test_two_numerical_estimators (test_neutronics.RecordedRuns.test_two_numerical_estimators) ... ok
+test_vacuum_analytic_particle_and_energy (test_neutronics.RecordedRuns.test_vacuum_analytic_particle_and_energy) ... ok
+test_invalid_inputs (test_neutronics.Software.test_invalid_inputs) ... ok
+test_missing_statepoint_rejected (test_neutronics.Software.test_missing_statepoint_rejected) ... ok
+test_no_double_count_fusion_neutron_energy (test_neutronics.Software.test_no_double_count_fusion_neutron_energy) ... ok
+test_source_event_normalization (test_neutronics.Software.test_source_event_normalization) ... ok
+test_synthetic_response_rejected (test_neutronics.Software.test_synthetic_response_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.023s
+
+OK

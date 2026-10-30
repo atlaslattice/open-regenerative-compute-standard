@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tallies>
+  <filter id="1" type="cell">
+    <bins>4 7</bins>
+  </filter>
+  <filter id="4" type="surface">
+    <bins>10</bins>
+  </filter>
+  <filter id="5" type="cell">
+    <bins>10</bins>
+  </filter>
+  <filter id="6" type="energy">
+    <bins>0.0 100000.0 20000000.0</bins>
+  </filter>
+  <tally id="1" name="salt_T_tracklength">
+    <filters>1</filters>
+    <scores>H3-production</scores>
+    <estimator>tracklength</estimator>
+  </tally>
+  <tally id="2" name="salt_T_collision">
+    <filters>1</filters>
+    <scores>H3-production</scores>
+    <estimator>collision</estimator>
+  </tally>
+  <tally id="3" name="Li7_T">
+    <filters>1</filters>
+    <nuclides>Li7</nuclides>
+    <scores>H3-production</scores>
+  </tally>
+  <tally id="4" name="global_balance">
+    <scores>absorption scatter nu-scatter</scores>
+  </tally>
+  <tally id="5" name="global_heat">
+    <scores>heating</scores>
+  </tally>
+  <tally id="6" name="global_T">
+    <scores>H3-production</scores>
+  </tally>
+  <tally id="7" name="leakage">
+    <filters>4</filters>
+    <scores>current</scores>
+  </tally>
+  <tally id="8" name="probe_flux">
+    <filters>5 6</filters>
+    <scores>flux</scores>
+  </tally>
+</tallies>

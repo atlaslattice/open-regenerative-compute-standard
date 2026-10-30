@@ -1,0 +1,5 @@
+li6,A_grid_max_cm,B_grid_max_cm,A_grid_max_mean,A_se_bound,B_grid_max_mean,B_se_bound,engineering_optimum,status
+0.075,120.0,120.0,1.1790883122024303,0.006376530790371648,1.0477544815227515,0.005148190612854117,,Exploratory point-estimate maxima; MC selection bias and engineering constraints unresolved
+0.2,120.0,120.0,1.2551900882907143,0.007093597044798398,1.088315918696189,0.006210510895842198,,Exploratory point-estimate maxima; MC selection bias and engineering constraints unresolved
+0.3,120.0,120.0,1.2776098628436572,0.006429011667342815,1.1003673246736134,0.0060213776490471264,,Exploratory point-estimate maxima; MC selection bias and engineering constraints unresolved
+0.9,120.0,120.0,1.324914429427586,0.008480929890404821,1.076870042083883,0.006577788433229254,,Exploratory point-estimate maxima; MC selection bias and engineering constraints unresolved

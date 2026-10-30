@@ -1,0 +1,298 @@
+{
+  "salt_T_tracklength": {
+    "scores": [
+      "(n,Xt)"
+    ],
+    "nuclides": [
+      "total"
+    ],
+    "estimator": "tracklength",
+    "mean": [
+      [
+        [
+          0.0
+        ]
+      ]
+    ],
+    "std_dev": [
+      [
+        [
+          0.0
+        ]
+      ]
+    ],
+    "sum": [
+      [
+        [
+          0.0
+        ]
+      ]
+    ],
+    "sum_sq": [
+      [
+        [
+          0.0
+        ]
+      ]
+    ],
+    "n_realizations": 30
+  },
+  "salt_T_collision": {
+    "scores": [
+      "(n,Xt)"
+    ],
+    "nuclides": [
+      "total"
+    ],
+    "estimator": "collision",
+    "mean": [
+      [
+        [
+          0.0
+        ]
+      ]
+    ],
+    "std_dev": [
+      [
+        [
+          0.0
+        ]
+      ]
+    ],
+    "sum": [
+      [
+        [
+          0.0
+        ]
+      ]
+    ],
+    "sum_sq": [
+      [
+        [
+          0.0
+        ]
+      ]
+    ],
+    "n_realizations": 30
+  },
+  "global_balance": {
+    "scores": [
+      "absorption",
+      "scatter",
+      "nu-scatter"
+    ],
+    "nuclides": [
+      "total"
+    ],
+    "estimator": "analog",
+    "mean": [
+      [
+        [
+          1.0025833333333336,
+          29.251316666666657,
+          29.253900000000005
+        ]
+      ]
+    ],
+    "std_dev": [
+      [
+        [
+          0.00015917050299958657,
+          0.07863343035723351,
+          0.07867938139987311
+        ]
+      ]
+    ],
+    "sum": [
+      [
+        [
+          30.077500000000008,
+          877.5394999999997,
+          877.6170000000002
+        ]
+      ]
+    ],
+    "sum_sq": [
+      [
+        [
+          30.15522225,
+          25674.565200249996,
+          25679.105643500003
+        ]
+      ]
+    ],
+    "n_realizations": 30
+  },
+  "global_heat": {
+    "scores": [
+      "heating"
+    ],
+    "nuclides": [
+      "total"
+    ],
+    "estimator": "tracklength",
+    "mean": [
+      [
+        [
+          3907739.9650910497
+        ]
+      ]
+    ],
+    "std_dev": [
+      [
+        [
+          11967.158170892673
+        ]
+      ]
+    ],
+    "sum": [
+      [
+        [
+          117232198.95273149
+        ]
+      ]
+    ],
+    "sum_sq": [
+      [
+        [
+          458237544244071.8
+        ]
+      ]
+    ],
+    "n_realizations": 30
+  },
+  "global_T": {
+    "scores": [
+      "(n,Xt)"
+    ],
+    "nuclides": [
+      "total"
+    ],
+    "estimator": "tracklength",
+    "mean": [
+      [
+        [
+          0.009472061412008589
+        ]
+      ]
+    ],
+    "std_dev": [
+      [
+        [
+          3.786036055672703e-05
+        ]
+      ]
+    ],
+    "sum": [
+      [
+        [
+          0.28416184236025765
+        ]
+      ]
+    ],
+    "sum_sq": [
+      [
+        [
+          0.0026928454857901565
+        ]
+      ]
+    ],
+    "n_realizations": 30
+  },
+  "leakage": {
+    "scores": [
+      "current"
+    ],
+    "nuclides": [
+      "total"
+    ],
+    "estimator": "analog",
+    "mean": [
+      [
+        [
+          0.0
+        ]
+      ]
+    ],
+    "std_dev": [
+      [
+        [
+          0.0
+        ]
+      ]
+    ],
+    "sum": [
+      [
+        [
+          0.0
+        ]
+      ]
+    ],
+    "sum_sq": [
+      [
+        [
+          0.0
+        ]
+      ]
+    ],
+    "n_realizations": 30
+  },
+  "probe_flux": {
+    "scores": [
+      "flux"
+    ],
+    "nuclides": [
+      "total"
+    ],
+    "estimator": "tracklength",
+    "mean": [
+      [
+        [
+          0.0
+        ]
+      ],
+      [
+        [
+          0.0
+        ]
+      ]
+    ],
+    "std_dev": [
+      [
+        [
+          0.0
+        ]
+      ],
+      [
+        [
+          0.0
+        ]
+      ]
+    ],
+    "sum": [
+      [
+        [
+          0.0
+        ]
+      ],
+      [
+        [
+          0.0
+        ]
+      ]
+    ],
+    "sum_sq": [
+      [
+        [
+          0.0
+        ]
+      ],
+      [
+        [
+          0.0
+        ]
+      ]
+    ],
+    "n_realizations": 30
+  }
+}

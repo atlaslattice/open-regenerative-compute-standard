@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<geometry>
+  <cell id="1" name="source void" material="void" region="-1" universe="1"/>
+  <cell id="2" name="armour" material="2" region="1 -2" universe="1"/>
+  <cell id="3" name="inner_structure" material="1" region="2 -3" universe="1"/>
+  <cell id="4" name="coolant_channel" material="void" region="3 -4" universe="1"/>
+  <cell id="5" name="multiplier" material="3" region="4 -5" universe="1"/>
+  <cell id="6" name="outer_structure" material="1" region="5 -6" universe="1"/>
+  <cell id="7" name="blanket" material="4" region="6 -7" universe="1"/>
+  <cell id="8" name="tank" material="6" region="7 -8" universe="1"/>
+  <cell id="9" name="shield" material="4" region="8 -9" universe="1"/>
+  <cell id="10" name="magnet-facing probe void" material="void" region="9 -10" universe="1"/>
+  <surface id="1" name="source cavity" type="sphere" coeffs="0.0 0.0 0.0 100.0"/>
+  <surface id="2" type="sphere" coeffs="0.0 0.0 0.0 100.3"/>
+  <surface id="3" type="sphere" coeffs="0.0 0.0 0.0 101.3"/>
+  <surface id="4" type="sphere" coeffs="0.0 0.0 0.0 103.3"/>
+  <surface id="5" type="sphere" coeffs="0.0 0.0 0.0 104.3"/>
+  <surface id="6" type="sphere" coeffs="0.0 0.0 0.0 107.3"/>
+  <surface id="7" type="sphere" coeffs="0.0 0.0 0.0 197.3"/>
+  <surface id="8" type="sphere" coeffs="0.0 0.0 0.0 200.3"/>
+  <surface id="9" type="sphere" coeffs="0.0 0.0 0.0 225.3"/>
+  <surface id="10" type="sphere" boundary="vacuum" coeffs="0.0 0.0 0.0 230.3"/>
+</geometry>

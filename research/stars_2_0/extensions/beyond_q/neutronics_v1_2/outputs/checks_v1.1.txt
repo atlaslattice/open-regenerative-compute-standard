@@ -1,0 +1,25 @@
+test_argon_extraction_table (test_research.Acceptance.test_argon_extraction_table) ... ok
+test_argon_two_stage_model (test_research.Acceptance.test_argon_two_stage_model) ... ok
+test_bidirectional_transfer_conserves (test_research.Acceptance.test_bidirectional_transfer_conserves) ... ok
+test_candidate_dimensions_and_bounds (test_research.Acceptance.test_candidate_dimensions_and_bounds) ... ok
+test_consumed_atom_cannot_escape (test_research.Acceptance.test_consumed_atom_cannot_escape) ... ok
+test_fail_invalid_config (test_research.Acceptance.test_fail_invalid_config) ... ok
+test_global_conservation_and_no_consumed_delivery (test_research.Acceptance.test_global_conservation_and_no_consumed_delivery) ... ok
+test_no_qualification_from_arithmetic (test_research.Acceptance.test_no_qualification_from_arithmetic) ... ok
+test_no_source_no_creation (test_research.Acceptance.test_no_source_no_creation) ... ok
+test_outage_sources_stop_but_decay_continues (test_research.Acceptance.test_outage_sources_stop_but_decay_continues) ... ok
+test_recirculation_retains_unextracted_material (test_research.Acceptance.test_recirculation_retains_unextracted_material) ... ok
+test_schedule_seed_and_common_outage (test_research.Acceptance.test_schedule_seed_and_common_outage) ... ok
+test_sources (test_research.Acceptance.test_sources) ... ok
+test_steady_compartment_and_exact_decay (test_research.Acceptance.test_steady_compartment_and_exact_decay) ... ok
+test_stiff_and_small_hazards (test_research.Acceptance.test_stiff_and_small_hazards) ... ok
+test_thermal_partition (test_research.Acceptance.test_thermal_partition) ... ok
+test_time_refinement (test_research.Acceptance.test_time_refinement) ... ok
+test_v1_all_scenarios (test_research.Acceptance.test_v1_all_scenarios) ... ok
+test_v1_original_script (test_research.Acceptance.test_v1_original_script) ... ok
+test_v1_snapshot_exact_git_blobs (test_research.Acceptance.test_v1_snapshot_exact_git_blobs) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.083s
+
+OK

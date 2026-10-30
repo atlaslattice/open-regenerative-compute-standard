@@ -1,0 +1,87 @@
+{
+  "case": {
+    "schema": "beyond-q-transport-1.2",
+    "geometry": "spherical_shell_testbed",
+    "geometry_evidence": "ASSUMED: NOT ARC V3A",
+    "li6": 0.075,
+    "source": "DT",
+    "alloy": "inconel_surrogate",
+    "blanket_cm": 90.0,
+    "port_fraction": 0.0,
+    "multiplier": true,
+    "structure_scale": 1.0,
+    "nonbreeder": false,
+    "vacuum": false,
+    "temperature_K": 293.6,
+    "salt_density_g_cm3": 1.94,
+    "seed": 1219,
+    "particles": 4000,
+    "batches": 60,
+    "cavity_cm": 100.0,
+    "first_wall_cm": 0.3,
+    "inner_structure_cm": 1.0,
+    "coolant_cm": 2.0,
+    "multiplier_cm": 1.0,
+    "outer_structure_cm": 3.0,
+    "tank_cm": 3.0,
+    "shield_cm": 25.0,
+    "probe_cm": 5.0
+  },
+  "metadata": {
+    "probe_volume_cm3": 3260654.1980521088,
+    "source_energy_eV": 14100000.0,
+    "normalization": "per unit source neutron; B=1 neutron/DT event; A DD=0.5 neutron/primary DD event at equal branches",
+    "neutron_heating": "MT301 kerma heating (not local photon transport); full deposited heat/energy closure UNRESOLVED",
+    "all_material_definitions": [
+      {
+        "id": "2",
+        "name": "W",
+        "temperature": "293.6",
+        "xml": "<material id=\"2\" name=\"W\" temperature=\"293.6\"><density value=\"19.3\" units=\"g/cm3\"/><nuclide name=\"W180\" wo=\"0.001174575531392815\"/><nuclide name=\"W182\" wo=\"0.26227049476287323\"/><nuclide name=\"W183\" wo=\"0.14240602528446922\"/><nuclide name=\"W184\" wo=\"0.306581920873831\"/><nuclide name=\"W186\" wo=\"0.28756698354743376\"/></material>"
+      },
+      {
+        "id": "1",
+        "name": "ASSUMED major-element inconel_surrogate",
+        "temperature": "293.6",
+        "xml": "<material id=\"1\" name=\"ASSUMED major-element inconel_surrogate\" temperature=\"293.6\"><density value=\"8.19\" units=\"g/cm3\"/><nuclide name=\"Ni58\" wo=\"0.35614783807192646\"/><nuclide name=\"Ni60\" wo=\"0.14191260336591668\"/><nuclide name=\"Ni61\" wo=\"0.006271803152072564\"/><nuclide name=\"Ni62\" wo=\"0.020324558208482\"/><nuclide name=\"Ni64\" wo=\"0.00534319720160235\"/><nuclide name=\"Cr50\" wo=\"0.007930004583164795\"/><nuclide name=\"Cr52\" wo=\"0.1590287884675572\"/><nuclide name=\"Cr53\" wo=\"0.01837981495548285\"/><nuclide name=\"Cr54\" wo=\"0.004661391993795167\"/><nuclide name=\"Fe54\" wo=\"0.01016200480087234\"/><nuclide name=\"Fe56\" wo=\"0.16542275180321242\"/><nuclide name=\"Fe57\" wo=\"0.0038886635046143456\"/><nuclide name=\"Fe58\" wo=\"0.0005265798913009059\"/><nuclide name=\"Nb93\" wo=\"0.05\"/><nuclide name=\"Mo92\" wo=\"0.004209567414118365\"/><nuclide name=\"Mo94\" wo=\"0.002697395514189008\"/><nuclide name=\"Mo95\" wo=\"0.0047101393167091445\"/><nuclide name=\"Mo96\" wo=\"0.00499960090540818\"/><nuclide name=\"Mo97\" wo=\"0.0029032786522591304\"/><nuclide name=\"Mo98\" wo=\"0.00743621170690422\"/><nuclide name=\"Mo100\" wo=\"0.003043806490411952\"/><nuclide name=\"Ti46\" wo=\"0.0007920095215776056\"/><nuclide name=\"Ti47\" wo=\"0.000729778232319522\"/><nuclide name=\"Ti48\" wo=\"0.007384505225582347\"/><nuclide name=\"Ti49\" wo=\"0.0005532190538169196\"/><nuclide name=\"Ti50\" wo=\"0.0005404879667036064\"/><nuclide name=\"Al27\" wo=\"0.01\"/></material>"
+      },
+      {
+        "id": "5",
+        "name": "ASSUMED FLiBe",
+        "temperature": "293.6",
+        "xml": "<material id=\"5\" name=\"ASSUMED FLiBe\" temperature=\"293.6\"><density value=\"1.94\" units=\"g/cm3\"/><nuclide name=\"Li6\" ao=\"0.15\"/><nuclide name=\"Li7\" ao=\"1.85\"/><nuclide name=\"Be9\" ao=\"1\"/><nuclide name=\"F19\" ao=\"4\"/></material>"
+      },
+      {
+        "id": "3",
+        "name": "Be multiplier",
+        "temperature": "293.6",
+        "xml": "<material id=\"3\" name=\"Be multiplier\" temperature=\"293.6\"><density value=\"1.85\" units=\"g/cm3\"/><nuclide name=\"Be9\" ao=\"1\"/></material>"
+      },
+      {
+        "id": "6",
+        "name": "ASSUMED SS316 major elements",
+        "temperature": "293.6",
+        "xml": "<material id=\"6\" name=\"ASSUMED SS316 major elements\" temperature=\"293.6\"><density value=\"8.0\" units=\"g/cm3\"/><nuclide name=\"Fe54\" wo=\"0.03726068426986525\"/><nuclide name=\"Fe56\" wo=\"0.6065500899451123\"/><nuclide name=\"Fe57\" wo=\"0.0142584328502526\"/><nuclide name=\"Fe58\" wo=\"0.0019307929347699884\"/><nuclide name=\"Cr50\" wo=\"0.007095267258621133\"/><nuclide name=\"Cr52\" wo=\"0.14228891599728805\"/><nuclide name=\"Cr53\" wo=\"0.016445097591747813\"/><nuclide name=\"Cr54\" wo=\"0.004170719152343044\"/><nuclide name=\"Ni58\" wo=\"0.08063724635590787\"/><nuclide name=\"Ni60\" wo=\"0.03213115547907547\"/><nuclide name=\"Ni61\" wo=\"0.0014200309023560522\"/><nuclide name=\"Ni62\" wo=\"0.004601786764184604\"/><nuclide name=\"Ni64\" wo=\"0.0012097804984760039\"/><nuclide name=\"Mo92\" wo=\"0.004209567414118365\"/><nuclide name=\"Mo94\" wo=\"0.002697395514189008\"/><nuclide name=\"Mo95\" wo=\"0.0047101393167091445\"/><nuclide name=\"Mo96\" wo=\"0.00499960090540818\"/><nuclide name=\"Mo97\" wo=\"0.0029032786522591304\"/><nuclide name=\"Mo98\" wo=\"0.00743621170690422\"/><nuclide name=\"Mo100\" wo=\"0.003043806490411952\"/><nuclide name=\"Mn55\" wo=\"0.02\"/></material>"
+      },
+      {
+        "id": "4",
+        "name": "B4C nonbreeding shield",
+        "temperature": "293.6",
+        "xml": "<material id=\"4\" name=\"B4C nonbreeding shield\" temperature=\"293.6\"><density value=\"2.52\" units=\"g/cm3\"/><nuclide name=\"B10\" ao=\"0.7928\"/><nuclide name=\"B11\" ao=\"3.2072\"/><nuclide name=\"C12\" ao=\"0.988922\"/><nuclide name=\"C13\" ao=\"0.011078\"/></material>"
+      }
+    ]
+  },
+  "openmc_version": "0.15.3",
+  "python": "3.13.18",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "executable_sha256": "01493915fc795da2973d55d5fca680ccbfb067f4e415c0842b67e8589829d06f",
+  "data_manifest_sha256": "74dcd8596e75aa63c488815ecaada66e576f556f7e39664744ba75951cf6aff8",
+  "input_hashes": {
+    "tallies.xml": "1b8fd79b9255e56141b85543966e56c0566c98a32a5a4e592532e8f25d1a9bac",
+    "settings.xml": "17ce2ba5fd6604c65f1239e5e034385a05e1d3246f9a63a318c3a861a932461b",
+    "geometry.xml": "f077a6112e1fbcc312650ee8f984a17d32cc24e9ff756145fbcf3741b8ab7a01",
+    "materials.xml": "a814df295d7de5dcd128e6935c354bb8f8dac63829b8c6a34f19ec75c8df94c8"
+  },
+  "geometry_qualified": false,
+  "physical_validation": false
+}

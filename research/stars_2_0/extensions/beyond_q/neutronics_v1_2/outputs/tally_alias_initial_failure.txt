@@ -1,0 +1,12 @@
+/workspace/scratch/4524d3a10c71/neutronics-runtime/env/lib/python3.13/site-packages/openmc/mixin.py:70: IDWarning: Another Filter instance already exists with id=1.
+  warn(msg, IDWarning)
+Traceback (most recent call last):
+  File "/workspace/scratch/4524d3a10c71/research/stars_2_0/extensions/beyond_q/neutronics_v1_2/transport.py", line 154, in <module>
+    args=p.parse_args();print(json.dumps(run(case(source=args.source),args.xs,args.output,args.executable),indent=2))
+                                         ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/4524d3a10c71/research/stars_2_0/extensions/beyond_q/neutronics_v1_2/transport.py", line 118, in run
+    return process_result(directory)
+  File "/workspace/scratch/4524d3a10c71/research/stars_2_0/extensions/beyond_q/neutronics_v1_2/transport.py", line 137, in process_result
+    a=flat['salt_T_tracklength:H3-production'];b=flat['salt_T_collision:H3-production']
+      ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'salt_T_tracklength:H3-production'

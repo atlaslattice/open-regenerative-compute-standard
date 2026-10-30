@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<materials>
+  <cross_sections>/workspace/scratch/4524d3a10c71/neutronics-runtime/data/hdf5/cross_sections.xml</cross_sections>
+  <material id="1" name="ASSUMED major-element eurofer_surrogate" temperature="293.6">
+    <density value="7.8" units="g/cm3"/>
+    <nuclide name="Fe54" wo="0.050527746093226356"/>
+    <nuclide name="Fe56" wo="0.822518682577084"/>
+    <nuclide name="Fe57" wo="0.019335299092387997"/>
+    <nuclide name="Fe58" wo="0.0026182722373017265"/>
+    <nuclide name="Cr50" wo="0.003756317960446482"/>
+    <nuclide name="Cr52" wo="0.07532942611621131"/>
+    <nuclide name="Cr53" wo="0.008706228136807666"/>
+    <nuclide name="Cr54" wo="0.0022080277865345528"/>
+    <nuclide name="W180" wo="1.174575531392815e-05"/>
+    <nuclide name="W182" wo="0.0026227049476287324"/>
+    <nuclide name="W183" wo="0.0014240602528446922"/>
+    <nuclide name="W184" wo="0.00306581920873831"/>
+    <nuclide name="W186" wo="0.0028756698354743377"/>
+    <nuclide name="V50" wo="1.2256016791127309e-05"/>
+    <nuclide name="V51" wo="0.004987743983208873"/>
+  </material>
+  <material id="2" name="W" temperature="293.6">
+    <density value="19.3" units="g/cm3"/>
+    <nuclide name="W180" wo="0.001174575531392815"/>
+    <nuclide name="W182" wo="0.26227049476287323"/>
+    <nuclide name="W183" wo="0.14240602528446922"/>
+    <nuclide name="W184" wo="0.306581920873831"/>
+    <nuclide name="W186" wo="0.28756698354743376"/>
+  </material>
+  <material id="3" name="Be multiplier" temperature="293.6">
+    <density value="1.85" units="g/cm3"/>
+    <nuclide name="Be9" ao="1"/>
+  </material>
+  <material id="4" name="B4C nonbreeding shield" temperature="293.6">
+    <density value="2.52" units="g/cm3"/>
+    <nuclide name="B10" ao="0.7928"/>
+    <nuclide name="B11" ao="3.2072"/>
+    <nuclide name="C12" ao="0.988922"/>
+    <nuclide name="C13" ao="0.011078"/>
+  </material>
+  <material id="5" name="ASSUMED FLiBe" temperature="293.6">
+    <density value="1.94" units="g/cm3"/>
+    <nuclide name="Li6" ao="0.15"/>
+    <nuclide name="Li7" ao="1.85"/>
+    <nuclide name="Be9" ao="1"/>
+    <nuclide name="F19" ao="4"/>
+  </material>
+  <material id="6" name="ASSUMED SS316 major elements" temperature="293.6">
+    <density value="8.0" units="g/cm3"/>
+    <nuclide name="Fe54" wo="0.03726068426986525"/>
+    <nuclide name="Fe56" wo="0.6065500899451123"/>
+    <nuclide name="Fe57" wo="0.0142584328502526"/>
+    <nuclide name="Fe58" wo="0.0019307929347699884"/>
+    <nuclide name="Cr50" wo="0.007095267258621133"/>
+    <nuclide name="Cr52" wo="0.14228891599728805"/>
+    <nuclide name="Cr53" wo="0.016445097591747813"/>
+    <nuclide name="Cr54" wo="0.004170719152343044"/>
+    <nuclide name="Ni58" wo="0.08063724635590787"/>
+    <nuclide name="Ni60" wo="0.03213115547907547"/>
+    <nuclide name="Ni61" wo="0.0014200309023560522"/>
+    <nuclide name="Ni62" wo="0.004601786764184604"/>
+    <nuclide name="Ni64" wo="0.0012097804984760039"/>
+    <nuclide name="Mo92" wo="0.004209567414118365"/>
+    <nuclide name="Mo94" wo="0.002697395514189008"/>
+    <nuclide name="Mo95" wo="0.0047101393167091445"/>
+    <nuclide name="Mo96" wo="0.00499960090540818"/>
+    <nuclide name="Mo97" wo="0.0029032786522591304"/>
+    <nuclide name="Mo98" wo="0.00743621170690422"/>
+    <nuclide name="Mo100" wo="0.003043806490411952"/>
+    <nuclide name="Mn55" wo="0.02"/>
+  </material>
+</materials>

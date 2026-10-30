@@ -1,0 +1,7 @@
+{
+  "selected_A2_grid_case": "DD_Li0.9_cm120",
+  "geometry_scope": "ASSUMED spherical testbed, not ARC V3A",
+  "qualified_usable_surplus_kg": null,
+  "G2_physical_validation": false,
+  "uncertainty": "MC statistical approximation only; source model, nuclear data, temperature, material and geometry uncertainties not quantified"
+}
