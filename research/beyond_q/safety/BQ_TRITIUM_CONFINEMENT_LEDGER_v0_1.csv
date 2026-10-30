@@ -1,0 +1,4 @@
+subsystem,process_state,T_born_kg,T_burned_kg,T_bred_kg,T_extracted_kg,T_qualified_kg,T_stored_kg,T_decayed_kg,T_waste_kg,T_mobile_inventory_kg,primary_barrier,secondary_barrier,monitoring_method,action_threshold,release_scenario,evidence_grade
+D-D plasma,PROPOSED,,,,,,,,,,UNRESOLVED,UNRESOLVED,UNRESOLVED,UNRESOLVED,UNRESOLVED,UNRESOLVED
+Blanket/fuel-processing,PROPOSED,,,,,,,,,,UNRESOLVED,UNRESOLVED,UNRESOLVED,UNRESOLVED,UNRESOLVED,UNRESOLVED
+T storage,PROPOSED,,,,,,,,,,UNRESOLVED,UNRESOLVED,UNRESOLVED,UNRESOLVED,UNRESOLVED,UNRESOLVED
