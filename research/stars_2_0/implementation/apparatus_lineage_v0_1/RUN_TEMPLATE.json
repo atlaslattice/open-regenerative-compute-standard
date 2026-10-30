@@ -1,0 +1,55 @@
+{
+  "schema": "stellar-forge-apparatus-run/0.1",
+  "status": "UNFILLED_TEMPLATE_NOT_A_RUN",
+  "apparatus_id": "HYBRID_PB_RESEARCH_V0_1",
+  "apparatus_config_version": null,
+  "config_sha256": null,
+  "code_commit": null,
+  "run_id": null,
+  "upstream_run_ids": [],
+  "operating_track": null,
+  "physical_stages": [],
+  "material_state_and_geometry": null,
+  "source_energy_frame_and_phase_space": null,
+  "nuclear_models_and_validity_ranges": [],
+  "external_field_work_accounting": null,
+  "readiness_firing_jitter_model": null,
+  "attempt_denominators": {
+    "preparations": null,
+    "ready": null,
+    "fired": null,
+    "physical_success": null,
+    "diagnostically_qualified": null,
+    "missing_outcomes": null
+  },
+  "retention_ash_and_loss_models": null,
+  "detector_and_collector_responses": null,
+  "energy_boundary": {
+    "startup": null,
+    "cycle_time": null,
+    "wall_inputs": null,
+    "stored_energy_change": null,
+    "nuclear_Q": null,
+    "escaping_particle_energy": null,
+    "load_electricity": null,
+    "recoverable_heat": null,
+    "unrecovered_losses": null
+  },
+  "parameters": [],
+  "parameter_required_fields": [
+    "name",
+    "value",
+    "unit",
+    "evidence_status",
+    "citation_or_derivation",
+    "applicability",
+    "uncertainty_or_scenario_definition"
+  ],
+  "results": {
+    "evidence_constrained": null,
+    "exploratory_potential": null
+  },
+  "comparison_controls": [],
+  "limits_and_open_questions": [],
+  "scientific_freeze": false
+}
