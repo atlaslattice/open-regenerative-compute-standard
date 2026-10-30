@@ -1,0 +1,616 @@
+{
+  "global_branch_scan": [
+    {
+      "branch": "add-copilot-implementation-artifacts",
+      "sha": "71491a82ed30811468665fd3a83ff89d15237378",
+      "truncated": false,
+      "candidates": []
+    },
+    {
+      "branch": "docs/synthesis-doc-corrections",
+      "sha": "1ea4c8ff6cccd3a5ea35c21eb17fd9bfc8ffc4c9",
+      "truncated": false,
+      "candidates": []
+    },
+    {
+      "branch": "gptwork/apparatus-lineage-v0-1",
+      "sha": "b8687d7945fa5ef62362f1c7f15f85e1fa036bf9",
+      "truncated": false,
+      "candidates": [
+        {
+          "path": "research/stars_2_0/reviews/DEEPSEEK_V08_HYBRID_BORON_TARGET_FABRICATION_FOLLOWUP_2026-10-27.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "49041e236401e06f835de5e97a3379dc8fd8b08d",
+          "size": 3863,
+          "url": "https://api.github.com/repos/atlaslattice/open-regenerative-compute-standard/git/blobs/49041e236401e06f835de5e97a3379dc8fd8b08d"
+        }
+      ]
+    },
+    {
+      "branch": "gptwork/beyond-q-extension-v0-1",
+      "sha": "12a3511691fc8b210a3763330ef96348ceac43fe",
+      "truncated": false,
+      "candidates": [
+        {
+          "path": "research/stars_2_0/reviews/DEEPSEEK_V08_HYBRID_BORON_TARGET_FABRICATION_FOLLOWUP_2026-10-27.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "49041e236401e06f835de5e97a3379dc8fd8b08d",
+          "size": 3863,
+          "url": "https://api.github.com/repos/atlaslattice/open-regenerative-compute-standard/git/blobs/49041e236401e06f835de5e97a3379dc8fd8b08d"
+        }
+      ]
+    },
+    {
+      "branch": "gptwork/boron-stopping-curve-v0-3",
+      "sha": "0726a466a8959811aa74d265a2918ee92ddaf9be",
+      "truncated": false,
+      "candidates": [
+        {
+          "path": "research/stars_2_0/reviews/DEEPSEEK_V08_HYBRID_BORON_TARGET_FABRICATION_FOLLOWUP_2026-10-27.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "49041e236401e06f835de5e97a3379dc8fd8b08d",
+          "size": 3863,
+          "url": "https://api.github.com/repos/atlaslattice/open-regenerative-compute-standard/git/blobs/49041e236401e06f835de5e97a3379dc8fd8b08d"
+        }
+      ]
+    },
+    {
+      "branch": "gptwork/coherent-source-v0-8",
+      "sha": "b690cc39f3bbf9de85288e55dd581a1ee9c89525",
+      "truncated": false,
+      "candidates": [
+        {
+          "path": "research/stars_2_0/reviews/DEEPSEEK_V08_HYBRID_BORON_TARGET_FABRICATION_FOLLOWUP_2026-10-27.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "49041e236401e06f835de5e97a3379dc8fd8b08d",
+          "size": 3863,
+          "url": "https://api.github.com/repos/atlaslattice/open-regenerative-compute-standard/git/blobs/49041e236401e06f835de5e97a3379dc8fd8b08d"
+        }
+      ]
+    },
+    {
+      "branch": "gptwork/cold-stopping-models-v0-4",
+      "sha": "ba6053f15339b7d0007303cb8879e5ff0e0de363",
+      "truncated": false,
+      "candidates": [
+        {
+          "path": "research/stars_2_0/reviews/DEEPSEEK_V08_HYBRID_BORON_TARGET_FABRICATION_FOLLOWUP_2026-10-27.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "49041e236401e06f835de5e97a3379dc8fd8b08d",
+          "size": 3863,
+          "url": "https://api.github.com/repos/atlaslattice/open-regenerative-compute-standard/git/blobs/49041e236401e06f835de5e97a3379dc8fd8b08d"
+        }
+      ]
+    },
+    {
+      "branch": "gptwork/coupled-reference-v0-5",
+      "sha": "0d947f06d29389b5c0d8e3a8238d0c17636015ae",
+      "truncated": false,
+      "candidates": [
+        {
+          "path": "research/stars_2_0/reviews/DEEPSEEK_V08_HYBRID_BORON_TARGET_FABRICATION_FOLLOWUP_2026-10-27.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "49041e236401e06f835de5e97a3379dc8fd8b08d",
+          "size": 3863,
+          "url": "https://api.github.com/repos/atlaslattice/open-regenerative-compute-standard/git/blobs/49041e236401e06f835de5e97a3379dc8fd8b08d"
+        }
+      ]
+    },
+    {
+      "branch": "gptwork/cr39-reference-v0-11",
+      "sha": "f4bcebac91dbdbd1b6d0eef2eee5f6d4dd83d4ca",
+      "truncated": false,
+      "candidates": [
+        {
+          "path": "research/stars_2_0/reviews/DEEPSEEK_V08_HYBRID_BORON_TARGET_FABRICATION_FOLLOWUP_2026-10-27.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "49041e236401e06f835de5e97a3379dc8fd8b08d",
+          "size": 3863,
+          "url": "https://api.github.com/repos/atlaslattice/open-regenerative-compute-standard/git/blobs/49041e236401e06f835de5e97a3379dc8fd8b08d"
+        }
+      ]
+    },
+    {
+      "branch": "gptwork/economic-reporting-v0-1",
+      "sha": "9b60027b3a71fac7f98ed41b466a7f99d3733d3e",
+      "truncated": false,
+      "candidates": [
+        {
+          "path": "research/stars_2_0/reviews/DEEPSEEK_V08_HYBRID_BORON_TARGET_FABRICATION_FOLLOWUP_2026-10-27.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "49041e236401e06f835de5e97a3379dc8fd8b08d",
+          "size": 3863,
+          "url": "https://api.github.com/repos/atlaslattice/open-regenerative-compute-standard/git/blobs/49041e236401e06f835de5e97a3379dc8fd8b08d"
+        }
+      ]
+    },
+    {
+      "branch": "gptwork/energy-screen-v0-1",
+      "sha": "b23f586c4888a2f984df8d73ee720cfc729113c8",
+      "truncated": false,
+      "candidates": [
+        {
+          "path": "research/stars_2_0/reviews/DEEPSEEK_V08_HYBRID_BORON_TARGET_FABRICATION_FOLLOWUP_2026-10-27.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "49041e236401e06f835de5e97a3379dc8fd8b08d",
+          "size": 3863,
+          "url": "https://api.github.com/repos/atlaslattice/open-regenerative-compute-standard/git/blobs/49041e236401e06f835de5e97a3379dc8fd8b08d"
+        }
+      ]
+    },
+    {
+      "branch": "gptwork/g0b-design-v0-1",
+      "sha": "4cb8ce0fe723900a835fb62a1c014723e7ff40a7",
+      "truncated": false,
+      "candidates": [
+        {
+          "path": "research/stars_2_0/reviews/DEEPSEEK_V08_HYBRID_BORON_TARGET_FABRICATION_FOLLOWUP_2026-10-27.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "49041e236401e06f835de5e97a3379dc8fd8b08d",
+          "size": 3863,
+          "url": "https://api.github.com/repos/atlaslattice/open-regenerative-compute-standard/git/blobs/49041e236401e06f835de5e97a3379dc8fd8b08d"
+        }
+      ]
+    },
+    {
+      "branch": "gptwork/g0b-transport-reference-v0-1",
+      "sha": "872c3322ec5d91dab341c357468977eb92e1444c",
+      "truncated": false,
+      "candidates": [
+        {
+          "path": "research/stars_2_0/reviews/DEEPSEEK_V08_HYBRID_BORON_TARGET_FABRICATION_FOLLOWUP_2026-10-27.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "49041e236401e06f835de5e97a3379dc8fd8b08d",
+          "size": 3863,
+          "url": "https://api.github.com/repos/atlaslattice/open-regenerative-compute-standard/git/blobs/49041e236401e06f835de5e97a3379dc8fd8b08d"
+        }
+      ]
+    },
+    {
+      "branch": "gptwork/grid-assisted-track-v0-2",
+      "sha": "d2166e4b224720e62735eaea5d1a4f4ef298257b",
+      "truncated": false,
+      "candidates": [
+        {
+          "path": "research/stars_2_0/reviews/DEEPSEEK_V08_HYBRID_BORON_TARGET_FABRICATION_FOLLOWUP_2026-10-27.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "49041e236401e06f835de5e97a3379dc8fd8b08d",
+          "size": 3863,
+          "url": "https://api.github.com/repos/atlaslattice/open-regenerative-compute-standard/git/blobs/49041e236401e06f835de5e97a3379dc8fd8b08d"
+        }
+      ]
+    },
+    {
+      "branch": "gptwork/measured-calibration-v0-6",
+      "sha": "1c88e2f98d1f2a335dc7f82ee6fd25473042c8bd",
+      "truncated": false,
+      "candidates": [
+        {
+          "path": "research/stars_2_0/reviews/DEEPSEEK_V08_HYBRID_BORON_TARGET_FABRICATION_FOLLOWUP_2026-10-27.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "49041e236401e06f835de5e97a3379dc8fd8b08d",
+          "size": 3863,
+          "url": "https://api.github.com/repos/atlaslattice/open-regenerative-compute-standard/git/blobs/49041e236401e06f835de5e97a3379dc8fd8b08d"
+        }
+      ]
+    },
+    {
+      "branch": "gptwork/multispecies-audit-v0-12",
+      "sha": "db8e1a6eef981a757ed0c8a508350e12054fda84",
+      "truncated": false,
+      "candidates": [
+        {
+          "path": "research/stars_2_0/reviews/DEEPSEEK_V08_HYBRID_BORON_TARGET_FABRICATION_FOLLOWUP_2026-10-27.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "49041e236401e06f835de5e97a3379dc8fd8b08d",
+          "size": 3863,
+          "url": "https://api.github.com/repos/atlaslattice/open-regenerative-compute-standard/git/blobs/49041e236401e06f835de5e97a3379dc8fd8b08d"
+        }
+      ]
+    },
+    {
+      "branch": "gptwork/observable-slice-v0-1",
+      "sha": "8c4750e53f241d82fb9696662f8cfb4df75531db",
+      "truncated": false,
+      "candidates": [
+        {
+          "path": "research/stars_2_0/reviews/DEEPSEEK_V08_HYBRID_BORON_TARGET_FABRICATION_FOLLOWUP_2026-10-27.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "49041e236401e06f835de5e97a3379dc8fd8b08d",
+          "size": 3863,
+          "url": "https://api.github.com/repos/atlaslattice/open-regenerative-compute-standard/git/blobs/49041e236401e06f835de5e97a3379dc8fd8b08d"
+        }
+      ]
+    },
+    {
+      "branch": "gptwork/paired-operations-v0-14",
+      "sha": "ee9c0153fa191e6cd97e774d067ca38a9ff5e184",
+      "truncated": false,
+      "candidates": [
+        {
+          "path": "research/stars_2_0/reviews/DEEPSEEK_V08_HYBRID_BORON_TARGET_FABRICATION_FOLLOWUP_2026-10-27.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "49041e236401e06f835de5e97a3379dc8fd8b08d",
+          "size": 3863,
+          "url": "https://api.github.com/repos/atlaslattice/open-regenerative-compute-standard/git/blobs/49041e236401e06f835de5e97a3379dc8fd8b08d"
+        }
+      ]
+    },
+    {
+      "branch": "gptwork/pb-event-source-bridge-v0-1",
+      "sha": "92cbbcade8ed0e2589506d06a7a55f067759209e",
+      "truncated": false,
+      "candidates": [
+        {
+          "path": "research/stars_2_0/reviews/DEEPSEEK_V08_HYBRID_BORON_TARGET_FABRICATION_FOLLOWUP_2026-10-27.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "49041e236401e06f835de5e97a3379dc8fd8b08d",
+          "size": 3863,
+          "url": "https://api.github.com/repos/atlaslattice/open-regenerative-compute-standard/git/blobs/49041e236401e06f835de5e97a3379dc8fd8b08d"
+        }
+      ]
+    },
+    {
+      "branch": "gptwork/pb-product-map-v0-1",
+      "sha": "37d8da263450610715fe493748c8ab3ec052c30f",
+      "truncated": false,
+      "candidates": [
+        {
+          "path": "research/stars_2_0/reviews/DEEPSEEK_V08_HYBRID_BORON_TARGET_FABRICATION_FOLLOWUP_2026-10-27.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "49041e236401e06f835de5e97a3379dc8fd8b08d",
+          "size": 3863,
+          "url": "https://api.github.com/repos/atlaslattice/open-regenerative-compute-standard/git/blobs/49041e236401e06f835de5e97a3379dc8fd8b08d"
+        }
+      ]
+    },
+    {
+      "branch": "gptwork/product-registry-v0-1",
+      "sha": "d55e823ee4f936618e0c5a34a311e9ac13847a63",
+      "truncated": false,
+      "candidates": [
+        {
+          "path": "research/stars_2_0/reviews/DEEPSEEK_V08_HYBRID_BORON_TARGET_FABRICATION_FOLLOWUP_2026-10-27.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "49041e236401e06f835de5e97a3379dc8fd8b08d",
+          "size": 3863,
+          "url": "https://api.github.com/repos/atlaslattice/open-regenerative-compute-standard/git/blobs/49041e236401e06f835de5e97a3379dc8fd8b08d"
+        }
+      ]
+    },
+    {
+      "branch": "gptwork/published-figure-benchmarks-v0-13",
+      "sha": "80430c859c57c10222e2673f680811584f31ce64",
+      "truncated": false,
+      "candidates": [
+        {
+          "path": "research/stars_2_0/reviews/DEEPSEEK_V08_HYBRID_BORON_TARGET_FABRICATION_FOLLOWUP_2026-10-27.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "49041e236401e06f835de5e97a3379dc8fd8b08d",
+          "size": 3863,
+          "url": "https://api.github.com/repos/atlaslattice/open-regenerative-compute-standard/git/blobs/49041e236401e06f835de5e97a3379dc8fd8b08d"
+        }
+      ]
+    },
+    {
+      "branch": "gptwork/reference-evidence-v0-10",
+      "sha": "04115cd1ac40253c5061e558138d4ef50a3cbf60",
+      "truncated": false,
+      "candidates": [
+        {
+          "path": "research/stars_2_0/reviews/DEEPSEEK_V08_HYBRID_BORON_TARGET_FABRICATION_FOLLOWUP_2026-10-27.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "49041e236401e06f835de5e97a3379dc8fd8b08d",
+          "size": 3863,
+          "url": "https://api.github.com/repos/atlaslattice/open-regenerative-compute-standard/git/blobs/49041e236401e06f835de5e97a3379dc8fd8b08d"
+        }
+      ]
+    },
+    {
+      "branch": "gptwork/sequential-kinematics-v0-7",
+      "sha": "3d7329d582be13d58e52ac068eb4ed0ccc5c9418",
+      "truncated": false,
+      "candidates": [
+        {
+          "path": "research/stars_2_0/reviews/DEEPSEEK_V08_HYBRID_BORON_TARGET_FABRICATION_FOLLOWUP_2026-10-27.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "49041e236401e06f835de5e97a3379dc8fd8b08d",
+          "size": 3863,
+          "url": "https://api.github.com/repos/atlaslattice/open-regenerative-compute-standard/git/blobs/49041e236401e06f835de5e97a3379dc8fd8b08d"
+        }
+      ]
+    },
+    {
+      "branch": "gptwork/shugs-source-audit-v0-1",
+      "sha": "7a59397483bf52f41c11f42393e0d3cd3815778d",
+      "truncated": false,
+      "candidates": [
+        {
+          "path": "research/stars_2_0/reviews/DEEPSEEK_V08_HYBRID_BORON_TARGET_FABRICATION_FOLLOWUP_2026-10-27.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "49041e236401e06f835de5e97a3379dc8fd8b08d",
+          "size": 3863,
+          "url": "https://api.github.com/repos/atlaslattice/open-regenerative-compute-standard/git/blobs/49041e236401e06f835de5e97a3379dc8fd8b08d"
+        }
+      ]
+    },
+    {
+      "branch": "gptwork/source-likelihood-v0-9",
+      "sha": "18a494533aeff8237a846baa3387b3e59db3ac6d",
+      "truncated": false,
+      "candidates": [
+        {
+          "path": "research/stars_2_0/reviews/DEEPSEEK_V08_HYBRID_BORON_TARGET_FABRICATION_FOLLOWUP_2026-10-27.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "49041e236401e06f835de5e97a3379dc8fd8b08d",
+          "size": 3863,
+          "url": "https://api.github.com/repos/atlaslattice/open-regenerative-compute-standard/git/blobs/49041e236401e06f835de5e97a3379dc8fd8b08d"
+        }
+      ]
+    },
+    {
+      "branch": "gptwork/stars-contract-v0-2",
+      "sha": "9bfe5e6bace4e7cc1bc9b64962ab99325ebd462f",
+      "truncated": false,
+      "candidates": [
+        {
+          "path": "research/stars_2_0/reviews/DEEPSEEK_V08_HYBRID_BORON_TARGET_FABRICATION_FOLLOWUP_2026-10-27.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "49041e236401e06f835de5e97a3379dc8fd8b08d",
+          "size": 3863,
+          "url": "https://api.github.com/repos/atlaslattice/open-regenerative-compute-standard/git/blobs/49041e236401e06f835de5e97a3379dc8fd8b08d"
+        }
+      ]
+    },
+    {
+      "branch": "gptwork/stars-deltas-v0-1",
+      "sha": "1a9495c5d5c4e05979ebc331676518ec1820a4a8",
+      "truncated": false,
+      "candidates": [
+        {
+          "path": "research/stars_2_0/reviews/DEEPSEEK_V08_HYBRID_BORON_TARGET_FABRICATION_FOLLOWUP_2026-10-27.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "49041e236401e06f835de5e97a3379dc8fd8b08d",
+          "size": 3863,
+          "url": "https://api.github.com/repos/atlaslattice/open-regenerative-compute-standard/git/blobs/49041e236401e06f835de5e97a3379dc8fd8b08d"
+        }
+      ]
+    },
+    {
+      "branch": "gptwork/stellar-forge-readiness-v1-2",
+      "sha": "24ffb0f688190a464f25e129c55d36d2f5455827",
+      "truncated": false,
+      "candidates": [
+        {
+          "path": "research/stars_2_0/reviews/DEEPSEEK_V08_HYBRID_BORON_TARGET_FABRICATION_FOLLOWUP_2026-10-27.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "49041e236401e06f835de5e97a3379dc8fd8b08d",
+          "size": 3863,
+          "url": "https://api.github.com/repos/atlaslattice/open-regenerative-compute-standard/git/blobs/49041e236401e06f835de5e97a3379dc8fd8b08d"
+        }
+      ]
+    },
+    {
+      "branch": "gptwork/stellar-forge-reference-v1-1",
+      "sha": "a26bacb4eac5530c397269f7e21c90b364e27125",
+      "truncated": false,
+      "candidates": [
+        {
+          "path": "research/stars_2_0/reviews/DEEPSEEK_V08_HYBRID_BORON_TARGET_FABRICATION_FOLLOWUP_2026-10-27.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "49041e236401e06f835de5e97a3379dc8fd8b08d",
+          "size": 3863,
+          "url": "https://api.github.com/repos/atlaslattice/open-regenerative-compute-standard/git/blobs/49041e236401e06f835de5e97a3379dc8fd8b08d"
+        }
+      ]
+    },
+    {
+      "branch": "gptwork/stellar-forge-reference-v1",
+      "sha": "9863dd77cc0f543caab4643e20e1d811e2689168",
+      "truncated": false,
+      "candidates": [
+        {
+          "path": "research/stars_2_0/reviews/DEEPSEEK_V08_HYBRID_BORON_TARGET_FABRICATION_FOLLOWUP_2026-10-27.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "49041e236401e06f835de5e97a3379dc8fd8b08d",
+          "size": 3863,
+          "url": "https://api.github.com/repos/atlaslattice/open-regenerative-compute-standard/git/blobs/49041e236401e06f835de5e97a3379dc8fd8b08d"
+        }
+      ]
+    },
+    {
+      "branch": "gptwork/stopping-and-spectra-recovery-v0-2",
+      "sha": "4a3314b2acbf9da15339d37309d303da715d8561",
+      "truncated": false,
+      "candidates": [
+        {
+          "path": "research/stars_2_0/reviews/DEEPSEEK_V08_HYBRID_BORON_TARGET_FABRICATION_FOLLOWUP_2026-10-27.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "49041e236401e06f835de5e97a3379dc8fd8b08d",
+          "size": 3863,
+          "url": "https://api.github.com/repos/atlaslattice/open-regenerative-compute-standard/git/blobs/49041e236401e06f835de5e97a3379dc8fd8b08d"
+        }
+      ]
+    },
+    {
+      "branch": "gptwork/stopping-source-check-v0-1",
+      "sha": "470e81a26db95496757a27e4991556345772593e",
+      "truncated": false,
+      "candidates": [
+        {
+          "path": "research/stars_2_0/reviews/DEEPSEEK_V08_HYBRID_BORON_TARGET_FABRICATION_FOLLOWUP_2026-10-27.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "49041e236401e06f835de5e97a3379dc8fd8b08d",
+          "size": 3863,
+          "url": "https://api.github.com/repos/atlaslattice/open-regenerative-compute-standard/git/blobs/49041e236401e06f835de5e97a3379dc8fd8b08d"
+        }
+      ]
+    },
+    {
+      "branch": "main",
+      "sha": "876bb375d278e9ccb934638fbfbe64852fbcbfbd",
+      "truncated": false,
+      "candidates": [
+        {
+          "path": "research/stars_2_0/reviews/DEEPSEEK_V08_HYBRID_BORON_TARGET_FABRICATION_FOLLOWUP_2026-10-27.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "49041e236401e06f835de5e97a3379dc8fd8b08d",
+          "size": 3863,
+          "url": "https://api.github.com/repos/atlaslattice/open-regenerative-compute-standard/git/blobs/49041e236401e06f835de5e97a3379dc8fd8b08d"
+        },
+        {
+          "path": "research/stars_2_0/whitepapers/STARS_2_0_2026-10-29_CENTRIFUGAL_THREE_MODULE_TOY_AND_DEEPSEEK_REPLY.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "21989cc64bb73bfe8c174a7138a231d453e1f2b1",
+          "size": 8089,
+          "url": "https://api.github.com/repos/atlaslattice/open-regenerative-compute-standard/git/blobs/21989cc64bb73bfe8c174a7138a231d453e1f2b1"
+        },
+        {
+          "path": "research/stars_2_0/whitepapers/STARS_2_0_2026-10-29_PRISM_HOLLOW_SPHERE_MODULAR_ARCHITECTURE_ADDENDUM.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "45fba3eeaaf5b188c9330b7be61323eeb7ff0348",
+          "size": 13369,
+          "url": "https://api.github.com/repos/atlaslattice/open-regenerative-compute-standard/git/blobs/45fba3eeaaf5b188c9330b7be61323eeb7ff0348"
+        },
+        {
+          "path": "research/stars_2_0/whitepapers/STARS_2_2_CENTRIFUGAL_HYBRID_525MW_SCALING_WHITEPAPER_2026-10-29.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "39e30fdc2c8b2c128411e3dc599dee4167ec9171",
+          "size": 11805,
+          "url": "https://api.github.com/repos/atlaslattice/open-regenerative-compute-standard/git/blobs/39e30fdc2c8b2c128411e3dc599dee4167ec9171"
+        }
+      ]
+    },
+    {
+      "branch": "research/beyond-q-dynamic-v1.1",
+      "sha": "83dc89600c4956e08acd5d38df70d3cce83797e1",
+      "truncated": false,
+      "candidates": [
+        {
+          "path": "research/stars_2_0/reviews/DEEPSEEK_V08_HYBRID_BORON_TARGET_FABRICATION_FOLLOWUP_2026-10-27.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "49041e236401e06f835de5e97a3379dc8fd8b08d",
+          "size": 3863,
+          "url": "https://api.github.com/repos/atlaslattice/open-regenerative-compute-standard/git/blobs/49041e236401e06f835de5e97a3379dc8fd8b08d"
+        },
+        {
+          "path": "research/stars_2_0/whitepapers/STARS_2_0_2026-10-29_CENTRIFUGAL_THREE_MODULE_TOY_AND_DEEPSEEK_REPLY.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "21989cc64bb73bfe8c174a7138a231d453e1f2b1",
+          "size": 8089,
+          "url": "https://api.github.com/repos/atlaslattice/open-regenerative-compute-standard/git/blobs/21989cc64bb73bfe8c174a7138a231d453e1f2b1"
+        },
+        {
+          "path": "research/stars_2_0/whitepapers/STARS_2_0_2026-10-29_PRISM_HOLLOW_SPHERE_MODULAR_ARCHITECTURE_ADDENDUM.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "45fba3eeaaf5b188c9330b7be61323eeb7ff0348",
+          "size": 13369,
+          "url": "https://api.github.com/repos/atlaslattice/open-regenerative-compute-standard/git/blobs/45fba3eeaaf5b188c9330b7be61323eeb7ff0348"
+        },
+        {
+          "path": "research/stars_2_0/whitepapers/STARS_2_2_CENTRIFUGAL_HYBRID_525MW_SCALING_WHITEPAPER_2026-10-29.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "39e30fdc2c8b2c128411e3dc599dee4167ec9171",
+          "size": 11805,
+          "url": "https://api.github.com/repos/atlaslattice/open-regenerative-compute-standard/git/blobs/39e30fdc2c8b2c128411e3dc599dee4167ec9171"
+        }
+      ]
+    },
+    {
+      "branch": "research/beyond-q-verification-v1.1.1",
+      "sha": "891cd5008a5d470d83e064b38a529b64c2790fce",
+      "truncated": false,
+      "candidates": [
+        {
+          "path": "research/stars_2_0/reviews/DEEPSEEK_V08_HYBRID_BORON_TARGET_FABRICATION_FOLLOWUP_2026-10-27.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "49041e236401e06f835de5e97a3379dc8fd8b08d",
+          "size": 3863,
+          "url": "https://api.github.com/repos/atlaslattice/open-regenerative-compute-standard/git/blobs/49041e236401e06f835de5e97a3379dc8fd8b08d"
+        },
+        {
+          "path": "research/stars_2_0/whitepapers/STARS_2_0_2026-10-29_CENTRIFUGAL_THREE_MODULE_TOY_AND_DEEPSEEK_REPLY.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "21989cc64bb73bfe8c174a7138a231d453e1f2b1",
+          "size": 8089,
+          "url": "https://api.github.com/repos/atlaslattice/open-regenerative-compute-standard/git/blobs/21989cc64bb73bfe8c174a7138a231d453e1f2b1"
+        },
+        {
+          "path": "research/stars_2_0/whitepapers/STARS_2_0_2026-10-29_PRISM_HOLLOW_SPHERE_MODULAR_ARCHITECTURE_ADDENDUM.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "45fba3eeaaf5b188c9330b7be61323eeb7ff0348",
+          "size": 13369,
+          "url": "https://api.github.com/repos/atlaslattice/open-regenerative-compute-standard/git/blobs/45fba3eeaaf5b188c9330b7be61323eeb7ff0348"
+        },
+        {
+          "path": "research/stars_2_0/whitepapers/STARS_2_2_CENTRIFUGAL_HYBRID_525MW_SCALING_WHITEPAPER_2026-10-29.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "39e30fdc2c8b2c128411e3dc599dee4167ec9171",
+          "size": 11805,
+          "url": "https://api.github.com/repos/atlaslattice/open-regenerative-compute-standard/git/blobs/39e30fdc2c8b2c128411e3dc599dee4167ec9171"
+        }
+      ]
+    },
+    {
+      "branch": "tidal-lantern-50state-skeleton-v0-1-20261014",
+      "sha": "e12ec0c3f30382a6567069afad6a3ed14a2f5683",
+      "truncated": false,
+      "candidates": []
+    }
+  ],
+  "archive_search_query": "STARS2 versioned archive filename searches",
+  "latest_hybrid_filename_queries": [
+    "hybrid",
+    "\"525\"",
+    "\"centrifugal\"",
+    "\"hollow\""
+  ],
+  "scope_limitations": [
+    "Filename/tree scans do not search every blob at every historical commit.",
+    "Library search is not a complete private conversation-history export.",
+    "A missing match does not establish that a reported run never happened."
+  ]
+}

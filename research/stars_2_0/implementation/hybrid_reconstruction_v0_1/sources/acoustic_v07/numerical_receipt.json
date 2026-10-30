@@ -1,0 +1,279 @@
+{
+  "model": "rigid spherical FLUID cavity; scalar acoustic pressure modes; uniform B test particles",
+  "geometry": {
+    "radius_m": 0.3,
+    "sound_speed_m_s": 343.0,
+    "damping_ratio": 0.05,
+    "note": "neither realistic vacuum chamber nor BN shell eigenproblem"
+  },
+  "radial_modes_l0": [
+    {
+      "root": 4.493409457909064,
+      "frequency_Hz": 817.6529200360027
+    },
+    {
+      "root": 7.725251836937707,
+      "frequency_Hz": 1405.7420721736153
+    },
+    {
+      "root": 10.904121659428899,
+      "frequency_Hz": 1984.1919590850462
+    },
+    {
+      "root": 14.066193912831473,
+      "frequency_Hz": 2559.585240195588
+    }
+  ],
+  "four_arms": [
+    {
+      "arm": "A: exposed; drive OFF",
+      "reference_ambient_pressure_Pa": 1.0,
+      "assumed_isolation_factor": 1,
+      "internal_modal_drive_Pa": 0,
+      "drive_frequency_Hz": 817.6529200360027,
+      "ambient_center_pressure_amplitude_Pa": 10.0,
+      "intentional_center_pressure_amplitude_Pa": 0.0,
+      "magnetic_field_T": 0,
+      "pressure_rms_combined_if_uncorrelated_Pa": 10.0
+    },
+    {
+      "arm": "B: isolated; drive OFF",
+      "reference_ambient_pressure_Pa": 1.0,
+      "assumed_isolation_factor": 0.0001,
+      "internal_modal_drive_Pa": 0,
+      "drive_frequency_Hz": 817.6529200360027,
+      "ambient_center_pressure_amplitude_Pa": 0.001,
+      "intentional_center_pressure_amplitude_Pa": 0.0,
+      "magnetic_field_T": 0,
+      "pressure_rms_combined_if_uncorrelated_Pa": 0.001
+    },
+    {
+      "arm": "C: isolated; drive ON",
+      "reference_ambient_pressure_Pa": 1.0,
+      "assumed_isolation_factor": 0.0001,
+      "internal_modal_drive_Pa": 0.05,
+      "drive_frequency_Hz": 817.6529200360027,
+      "ambient_center_pressure_amplitude_Pa": 0.001,
+      "intentional_center_pressure_amplitude_Pa": 0.5,
+      "magnetic_field_T": 0,
+      "pressure_rms_combined_if_uncorrelated_Pa": 0.500000999999
+    },
+    {
+      "arm": "D: isolated; drive ON; B=3T",
+      "reference_ambient_pressure_Pa": 1.0,
+      "assumed_isolation_factor": 0.0001,
+      "internal_modal_drive_Pa": 0.05,
+      "drive_frequency_Hz": 817.6529200360027,
+      "ambient_center_pressure_amplitude_Pa": 0.001,
+      "intentional_center_pressure_amplitude_Pa": 0.5,
+      "magnetic_field_T": 3,
+      "pressure_rms_combined_if_uncorrelated_Pa": 0.500000999999
+    }
+  ],
+  "particle_results": [
+    {
+      "species": "proton",
+      "B_T": 0,
+      "pitch_deg_from_field": 30,
+      "energy_keV": 675.0,
+      "speed_m_s": 11371642.248616217,
+      "larmor_radius_m": null,
+      "wall_hit_time_ns": 26.381413822309277,
+      "no_hit_within_3us": false
+    },
+    {
+      "species": "proton",
+      "B_T": 0,
+      "pitch_deg_from_field": 60,
+      "energy_keV": 675.0,
+      "speed_m_s": 11371642.248616217,
+      "larmor_radius_m": null,
+      "wall_hit_time_ns": 26.381413822309277,
+      "no_hit_within_3us": false
+    },
+    {
+      "species": "proton",
+      "B_T": 0,
+      "pitch_deg_from_field": 90,
+      "energy_keV": 675.0,
+      "speed_m_s": 11371642.248616217,
+      "larmor_radius_m": null,
+      "wall_hit_time_ns": 26.381413822309277,
+      "no_hit_within_3us": false
+    },
+    {
+      "species": "proton",
+      "B_T": 1,
+      "pitch_deg_from_field": 30,
+      "energy_keV": 675.0,
+      "speed_m_s": 11371642.248616217,
+      "larmor_radius_m": 0.05935818110019586,
+      "wall_hit_time_ns": 28.104683456837318,
+      "no_hit_within_3us": false
+    },
+    {
+      "species": "proton",
+      "B_T": 1,
+      "pitch_deg_from_field": 60,
+      "energy_keV": 675.0,
+      "speed_m_s": 11371642.248616217,
+      "larmor_radius_m": 0.10281138551041391,
+      "wall_hit_time_ns": 40.652258216587704,
+      "no_hit_within_3us": false
+    },
+    {
+      "species": "proton",
+      "B_T": 1,
+      "pitch_deg_from_field": 90,
+      "energy_keV": 675.0,
+      "speed_m_s": 11371642.248616217,
+      "larmor_radius_m": 0.11871636220039174,
+      "wall_hit_time_ns": null,
+      "no_hit_within_3us": true
+    },
+    {
+      "species": "proton",
+      "B_T": 3,
+      "pitch_deg_from_field": 30,
+      "energy_keV": 675.0,
+      "speed_m_s": 11371642.248616217,
+      "larmor_radius_m": 0.019786060366731955,
+      "wall_hit_time_ns": 30.231159638686172,
+      "no_hit_within_3us": false
+    },
+    {
+      "species": "proton",
+      "B_T": 3,
+      "pitch_deg_from_field": 60,
+      "energy_keV": 675.0,
+      "speed_m_s": 11371642.248616217,
+      "larmor_radius_m": 0.03427046183680464,
+      "wall_hit_time_ns": 51.62012092662928,
+      "no_hit_within_3us": false
+    },
+    {
+      "species": "proton",
+      "B_T": 3,
+      "pitch_deg_from_field": 90,
+      "energy_keV": 675.0,
+      "speed_m_s": 11371642.248616217,
+      "larmor_radius_m": 0.03957212073346392,
+      "wall_hit_time_ns": null,
+      "no_hit_within_3us": true
+    },
+    {
+      "species": "alpha",
+      "B_T": 0,
+      "pitch_deg_from_field": 30,
+      "energy_keV": 2893.0,
+      "speed_m_s": 11811583.284580575,
+      "larmor_radius_m": null,
+      "wall_hit_time_ns": 25.39879648409497,
+      "no_hit_within_3us": false
+    },
+    {
+      "species": "alpha",
+      "B_T": 0,
+      "pitch_deg_from_field": 60,
+      "energy_keV": 2893.0,
+      "speed_m_s": 11811583.284580575,
+      "larmor_radius_m": null,
+      "wall_hit_time_ns": 25.39879648409497,
+      "no_hit_within_3us": false
+    },
+    {
+      "species": "alpha",
+      "B_T": 0,
+      "pitch_deg_from_field": 90,
+      "energy_keV": 2893.0,
+      "speed_m_s": 11811583.284580575,
+      "larmor_radius_m": null,
+      "wall_hit_time_ns": 25.398796484094966,
+      "no_hit_within_3us": false
+    },
+    {
+      "species": "alpha",
+      "B_T": 1,
+      "pitch_deg_from_field": 30,
+      "energy_keV": 2893.0,
+      "speed_m_s": 11811583.284580575,
+      "larmor_radius_m": 0.1224645303808112,
+      "wall_hit_time_ns": 25.796874139611933,
+      "no_hit_within_3us": false
+    },
+    {
+      "species": "alpha",
+      "B_T": 1,
+      "pitch_deg_from_field": 60,
+      "energy_keV": 2893.0,
+      "speed_m_s": 11811583.284580575,
+      "larmor_radius_m": 0.21211478874462736,
+      "wall_hit_time_ns": 26.748892828984044,
+      "no_hit_within_3us": false
+    },
+    {
+      "species": "alpha",
+      "B_T": 1,
+      "pitch_deg_from_field": 90,
+      "energy_keV": 2893.0,
+      "speed_m_s": 11811583.284580575,
+      "larmor_radius_m": 0.24492906076162244,
+      "wall_hit_time_ns": 27.335520933079515,
+      "no_hit_within_3us": false
+    },
+    {
+      "species": "alpha",
+      "B_T": 3,
+      "pitch_deg_from_field": 30,
+      "energy_keV": 2893.0,
+      "speed_m_s": 11811583.284580575,
+      "larmor_radius_m": 0.04082151012693707,
+      "wall_hit_time_ns": 28.468587512696192,
+      "no_hit_within_3us": false
+    },
+    {
+      "species": "alpha",
+      "B_T": 3,
+      "pitch_deg_from_field": 60,
+      "energy_keV": 2893.0,
+      "speed_m_s": 11811583.284580575,
+      "larmor_radius_m": 0.07070492958154245,
+      "wall_hit_time_ns": 49.70180508467939,
+      "no_hit_within_3us": false
+    },
+    {
+      "species": "alpha",
+      "B_T": 3,
+      "pitch_deg_from_field": 90,
+      "energy_keV": 2893.0,
+      "speed_m_s": 11811583.284580575,
+      "larmor_radius_m": 0.08164302025387415,
+      "wall_hit_time_ns": null,
+      "no_hit_within_3us": true
+    }
+  ],
+  "tests": {
+    "positive_roots": true,
+    "root_equation_residual_lt_1e_10": true,
+    "ascending_radial_modes": true,
+    "resonance_gain_Q10": true,
+    "isolation_80db_amplitude": true,
+    "intentional_drive_unchanged": true,
+    "isolation_suppresses_ambient": true,
+    "no_em_effect_on_acoustic": true,
+    "no_B_field_straight_trajectory": true,
+    "uniform_B_energy_conserved": true,
+    "axial_escape_possible_at_3T": true,
+    "pure_transverse_3T_no_wall_hit": true,
+    "no_kinematic_fusion_created": true
+  },
+  "critical_limits": [
+    "A rigid fluid cavity needs a medium; vacuum does not carry mechanical sound",
+    "Only l=0 family; not complete spherical eigenmode spectrum",
+    "Acoustic inputs are generalized center-modal pressure amplitudes, not wall displacement or measured apparatus transfer",
+    "\u221280 dB transfer function assumed at first l=0 mode; no frequency-dependent isolation design",
+    "No self-consistent coupling from mechanical pressure to nuclear yield",
+    "Charged test particles are collisionless, independent and uniform-B; axial escape invalidates indefinite confinement",
+    "No magnetic coils power, wall-plug balance, fusion reactions, alpha birth or collector output calculated"
+  ]
+}

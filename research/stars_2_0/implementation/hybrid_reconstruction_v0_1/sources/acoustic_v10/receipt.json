@@ -1,0 +1,61 @@
+{
+  "title": "Stars 2.0 pretreatment and sustained acoustic v0.10",
+  "status": "SIMULATED_UNCALIBRATED",
+  "checks": [
+    "off envelope zero",
+    "sham same state as off",
+    "pre-only residual nonzero",
+    "sustained-only smaller than full",
+    "pre-only retains slow memory",
+    "both retains memory more than sustain-only",
+    "beta=chi=0 is universal null",
+    "off and sham identical",
+    "phase sign flip with geometry coefficient",
+    "memory no effect when chi=0",
+    "absorptance bounded",
+    "no fusion output invented",
+    "all numeric finite",
+    "paired sample size",
+    "1 step dt resolves drive"
+  ],
+  "states": {
+    "OFF": {
+      "envelope_at_shot": 0.0,
+      "memory_at_shot": 0.0
+    },
+    "SHAM": {
+      "envelope_at_shot": 0.0,
+      "memory_at_shot": 0.0
+    },
+    "PRE_ONLY": {
+      "envelope_at_shot": 0.3672054877917864,
+      "memory_at_shot": 0.6158804173189452
+    },
+    "SUSTAIN_ONLY": {
+      "envelope_at_shot": 0.2211727585614051,
+      "memory_at_shot": 0.0008867232163005031
+    },
+    "PRE_PLUS_SUSTAIN": {
+      "envelope_at_shot": 0.9989550973548847,
+      "memory_at_shot": 0.8122980931888708
+    }
+  },
+  "n_scenarios": 84,
+  "n_shots_paired": 2000,
+  "model": {
+    "frequency_hz": 817.65292,
+    "amplitude_um": 0.1,
+    "drive_build_up_tau_ms": 1.0,
+    "off_decay_beta_s_inv": 500.0,
+    "memory_tau_ms": 5.0,
+    "pre_window_ms": [
+      -10,
+      -2
+    ],
+    "sustain_only_window_ms": [
+      -0.25,
+      0
+    ],
+    "laser_wall_energy_not_budgeted": true
+  }
+}

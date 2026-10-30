@@ -1,0 +1,12 @@
+{
+  "README.md": "bfe5da043d445f079db65bbe1b462d6f944dca18f43d0762f7cc93cf0b8b2e04",
+  "REPORT_v0_7.md": "756d9db9e6d8888033e9c65bc0ecb12f13db60588c9088428b7160eb091b3b40",
+  "arm_comparison.csv": "69b19d99b59b0c0f073caadc534d65a5b678a776d349eae21e38cdfe856fcee4",
+  "console.txt": "83f98caedf03201909d2fab926c0d6b14331fdabe5cc9343624e223e02428000",
+  "numerical_receipt.json": "fcd8f75177a6e0bfb434c6ad0acef4e788aafe136df18b87640515e1dff9083b",
+  "particle_boundaries.csv": "0ecda726da1c6b546e5fa90ec46f2c6cd1eb5bf148ba405fc4ec79a85591f94e",
+  "radial_eigenmodes.png": "fc9bf7a5003562523e82c5d76369750c52d8e1d52458752dd16acd0bd9e85928",
+  "run_spherical.py": "0a884a4e6e5df81a72e6ebc30b4cb6fd33736fded895b3d8bf8f3e607c3c6b93",
+  "spherical_modes_and_particle_escape.png": "3ffaa93b925cf3f242790a170ed7117ca7e746dc50b93cf89230988ff6a3f332",
+  "test_receipt.json": "ad34943074fe24bed1f7871f09c56c0289d697b3b2e778bbe381a8126f59d76a"
+}

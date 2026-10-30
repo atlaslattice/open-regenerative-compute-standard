@@ -1,0 +1,13 @@
+{
+  "acoustic_v06/arm_comparison.csv": "cbdf9f31d5bbca6dcb30c5a7f441e96ffeb44f184d5fa458004177ca68cc6058",
+  "acoustic_v07/arm_comparison.csv": "69b19d99b59b0c0f073caadc534d65a5b678a776d349eae21e38cdfe856fcee4",
+  "acoustic_v07/particle_boundaries.csv": "0ecda726da1c6b546e5fa90ec46f2c6cd1eb5bf148ba405fc4ec79a85591f94e",
+  "acoustic_v08/arm_comparison.csv": "fcf73887b048f0de3ec7d0658d22e3d94dad2041d3ea75b036b10a28a32baf4a",
+  "acoustic_v08/shot_samples.csv": "61f0ca49ebffd63a3919dc930a80572e72d2cebe0d8910f98d84e35fc34c5bbf",
+  "acoustic_v10/scenario_sweep.csv": "5d6e0fd6e5013662a2c00007932edd5eb98e405c8396b89f672ed2bb654f19d9",
+  "acoustic_v11/duration_sweep.csv": "3d72b31cecf8eaf3323f0a777614a36222eed56a556c2bc1326a717e07011756",
+  "acoustic_v12/duration_sweep.csv": "074daa8ff02eb343ea207e4a8f46fa3fb360d694a51f8d330636f66d53f8abe3",
+  "mirror/prism_sphere_exploratory_sweep.csv": "6741ab3c077057087c614e68a0d6d10b36d7f9c144a798c3713da71082661d65",
+  "mirror/stars_525mw_gain_scenarios_2026-10-29.csv": "815634201934c2dff5a0627cf8118cd7ea90f19e1352e521a7da160421f90fba",
+  "mirror/stars_prism_three_module_toy_2026-10-29.csv": "4b518e29bcdba98a88f7c6840140472b113e751e51140ef2ef1cec22a78a7124"
+}

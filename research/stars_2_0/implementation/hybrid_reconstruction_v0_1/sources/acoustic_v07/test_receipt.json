@@ -1,0 +1,15 @@
+{
+  "positive_roots": true,
+  "root_equation_residual_lt_1e_10": true,
+  "ascending_radial_modes": true,
+  "resonance_gain_Q10": true,
+  "isolation_80db_amplitude": true,
+  "intentional_drive_unchanged": true,
+  "isolation_suppresses_ambient": true,
+  "no_em_effect_on_acoustic": true,
+  "no_B_field_straight_trajectory": true,
+  "uniform_B_energy_conserved": true,
+  "axial_escape_possible_at_3T": true,
+  "pure_transverse_3T_no_wall_hit": true,
+  "no_kinematic_fusion_created": true
+}

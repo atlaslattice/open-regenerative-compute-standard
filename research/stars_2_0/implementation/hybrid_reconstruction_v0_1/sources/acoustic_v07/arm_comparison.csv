@@ -1,0 +1,5 @@
+arm,reference_ambient_pressure_Pa,assumed_isolation_factor,internal_modal_drive_Pa,drive_frequency_Hz,ambient_center_pressure_amplitude_Pa,intentional_center_pressure_amplitude_Pa,magnetic_field_T,pressure_rms_combined_if_uncorrelated_Pa
+A: exposed; drive OFF,1.0,1.0,0.0,817.6529200360027,10.0,0.0,0,10.0
+B: isolated; drive OFF,1.0,0.0001,0.0,817.6529200360027,0.001,0.0,0,0.001
+C: isolated; drive ON,1.0,0.0001,0.05,817.6529200360027,0.001,0.5,0,0.500000999999
+D: isolated; drive ON; B=3T,1.0,0.0001,0.05,817.6529200360027,0.001,0.5,3,0.500000999999

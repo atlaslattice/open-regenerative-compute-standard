@@ -1,0 +1,30 @@
+{
+  "status": "ILLUSTRATIVE_GEOMETRY_ONLY",
+  "seed": 20261028,
+  "checks_passed": 13,
+  "model": {
+    "spherical_v07_fluid_mode_frequency_Hz_used_only_as_clock": 817.65292,
+    "mode_period_ms": 1.2230128157556142,
+    "target_displacement_amplitude_um_hypothetical": 0.1,
+    "beam_radius_um_hypothetical": 5.0,
+    "initial_offset_um_hypothetical": 2.0,
+    "jitter_deg": 10.0,
+    "isolation_amplitude_factor_assumed": 0.0001,
+    "shot_count_per_arm": 2000
+  },
+  "results": {
+    "off_overlap": 0.7261490353319059,
+    "on0_overlap": 0.7488265960072433,
+    "on180_overlap": 0.7030651789656828,
+    "on0_relative_percent": 3.1229898508330356,
+    "on180_relative_percent": -3.178941958612125
+  },
+  "nonresults": [
+    "no alpha source",
+    "no laser-plasma simulation",
+    "no nuclear reaction probability",
+    "no real elastic target mode",
+    "no collector output",
+    "no net electricity"
+  ]
+}

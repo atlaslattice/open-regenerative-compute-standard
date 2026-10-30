@@ -1,0 +1,218 @@
+{
+  "main_snapshot": "876bb375d278e9ccb934638fbfbe64852fbcbfbd",
+  "pr39_snapshot": "b8687d7945fa5ef62362f1c7f15f85e1fa036bf9",
+  "github_documents": [
+    {
+      "path": "research/stars_2_0/whitepapers/STARS_2_0_2026-10-29_CENTRIFUGAL_THREE_MODULE_TOY_AND_DEEPSEEK_REPLY.md",
+      "sha": "21989cc64bb73bfe8c174a7138a231d453e1f2b1",
+      "display_url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/876bb375d278e9ccb934638fbfbe64852fbcbfbd/research/stars_2_0/whitepapers/STARS_2_0_2026-10-29_CENTRIFUGAL_THREE_MODULE_TOY_AND_DEEPSEEK_REPLY.md"
+    },
+    {
+      "path": "research/stars_2_0/whitepapers/STARS_2_0_2026-10-29_INTEGRATION_FIRST_INDUSTRIAL_STACK_POLICY_ADDENDUM.md",
+      "sha": "87dfd031f4a15e0cf38baf42206cd0f1647d0e57",
+      "display_url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/876bb375d278e9ccb934638fbfbe64852fbcbfbd/research/stars_2_0/whitepapers/STARS_2_0_2026-10-29_INTEGRATION_FIRST_INDUSTRIAL_STACK_POLICY_ADDENDUM.md"
+    },
+    {
+      "path": "research/stars_2_0/whitepapers/STARS_2_0_2026-10-29_PRISM_HOLLOW_SPHERE_MODULAR_ARCHITECTURE_ADDENDUM.md",
+      "sha": "45fba3eeaaf5b188c9330b7be61323eeb7ff0348",
+      "display_url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/876bb375d278e9ccb934638fbfbe64852fbcbfbd/research/stars_2_0/whitepapers/STARS_2_0_2026-10-29_PRISM_HOLLOW_SPHERE_MODULAR_ARCHITECTURE_ADDENDUM.md"
+    },
+    {
+      "path": "research/stars_2_0/whitepapers/STARS_2_2_2026-10-29_ACOUSTIC_RECOVERY_AND_TDH_ENERGY_LEDGER_CONTRACT.md",
+      "sha": "1fbdf8c323224b775036dff33f1c8fba30132e8c",
+      "display_url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/876bb375d278e9ccb934638fbfbe64852fbcbfbd/research/stars_2_0/whitepapers/STARS_2_2_2026-10-29_ACOUSTIC_RECOVERY_AND_TDH_ENERGY_LEDGER_CONTRACT.md"
+    },
+    {
+      "path": "research/stars_2_0/whitepapers/STARS_2_2_CENTRIFUGAL_HYBRID_525MW_SCALING_WHITEPAPER_2026-10-29.md",
+      "sha": "39e30fdc2c8b2c128411e3dc599dee4167ec9171",
+      "display_url": "https://github.com/atlaslattice/open-regenerative-compute-standard/blob/876bb375d278e9ccb934638fbfbe64852fbcbfbd/research/stars_2_0/whitepapers/STARS_2_2_CENTRIFUGAL_HYBRID_525MW_SCALING_WHITEPAPER_2026-10-29.md"
+    }
+  ],
+  "library_originals": [
+    {
+      "name": "REPORT_v0_10.md",
+      "bytes": 4597,
+      "sha256": "89a494952f6c5cd0dfe03da99561217b92649b226863c83bbe76dd2440a24118",
+      "user.library-file-version": "0",
+      "user.library-file-id": "libfile_69f174a805cc8191a18ea6e3b86fcc80"
+    },
+    {
+      "name": "REPORT_v0_11.md",
+      "bytes": 4233,
+      "sha256": "8db1a6aab50d82156f26dc19a0d0944cb0aaf3336eea85fcc238f0c4482b5250",
+      "user.library-file-version": "0",
+      "user.library-file-id": "libfile_fc6a15268c948191b6c75f9291caea1d"
+    },
+    {
+      "name": "REPORT_v0_12.md",
+      "bytes": 3084,
+      "sha256": "27f7df7c55c4853a58ec21c02516c9a940b8f9a420d3a19339806378a6c27a10",
+      "user.library-file-version": "0",
+      "user.library-file-id": "libfile_9b4c21e4167081919a729777c1fffdac"
+    },
+    {
+      "name": "STARS2_10_SECOND_PRETREAT_v0_12.zip",
+      "bytes": 197405,
+      "sha256": "e49620558a1990bb05665f4cae748df3f1a6da03ef2d55db6337e10ffcdec399",
+      "user.library-file-version": "0",
+      "user.library-file-id": "libfile_755d18ab95048191abfc5e1ca6488c17"
+    },
+    {
+      "name": "STARS2_DURATION_SUCCESS_GATE_v0_11.zip",
+      "bytes": 147332,
+      "sha256": "8156db3444afd1060babff50957f61868e5cc1d3c3b0af11a378a14c8415540b",
+      "user.library-file-version": "0",
+      "user.library-file-id": "libfile_43ac7705d4c48191bc992ec28f5b107f"
+    },
+    {
+      "name": "STARS2_G1A_10MHz_COMPARISON_v0_3.zip",
+      "bytes": 229871,
+      "sha256": "aa416e762fec50648856934690388b37416c4d07e8c6f010b7d1f0058e1e5ec3",
+      "user.library-file-version": "0",
+      "user.library-file-id": "libfile_f79c176fe1448191a6d1b570ad3755fc"
+    },
+    {
+      "name": "STARS2_G1A_ACOUSTIC_AB_VERIFICATION_v0_1.zip",
+      "bytes": 207801,
+      "sha256": "aa0c4bc7b5c46da2c9b3e802bef1c831a431abd3ad5391dc0cbe662f42c08600",
+      "user.library-file-version": "0",
+      "user.library-file-id": "libfile_6d01096126ec819181bf2d1bfed74c83"
+    },
+    {
+      "name": "STARS2_G1A_INFRASOUND_SWEEP_v0_4.zip",
+      "bytes": 181529,
+      "sha256": "d968797ba6c29d9c4a0b0715482d760a63144f9f8be1d529ab8711bd8bbf56de",
+      "user.library-file-version": "0",
+      "user.library-file-id": "libfile_f173a415b430819191501e8e65e148cc"
+    },
+    {
+      "name": "STARS2_G1A_MATCHED_SWEEP_v0_2.zip",
+      "bytes": 109697,
+      "sha256": "1a6021ef7055a05fc022c4dffb9a1a5900bd5a1d6fc9aa55f1fc4d18b411fd5c",
+      "user.library-file-version": "0",
+      "user.library-file-id": "libfile_d8ec60150174819197143be2b921ad98"
+    },
+    {
+      "name": "STARS2_G1G2_COUPLED_FIELD_BENCHMARK_v0_6.zip",
+      "bytes": 112574,
+      "sha256": "e00c79fe2bf8fe6b21aed1ae1ddcf6d90a022c06942a3f623799c7f3373238c2",
+      "user.library-file-version": "0",
+      "user.library-file-id": "libfile_7ec270b1a57c8191848f04d3c23209d4"
+    },
+    {
+      "name": "STARS2_G1G2_SPHERICAL_GEOMETRY_v0_7.zip",
+      "bytes": 271844,
+      "sha256": "74ea81df9cf2ad87ca2ae8d5fc54958522875685b3e87c7286d3519fc2c92061",
+      "user.library-file-version": "0",
+      "user.library-file-id": "libfile_f884617ceda88191a90f7db0eac0db23"
+    },
+    {
+      "name": "STARS2_ISOTOPE_FINGERPRINT_v0_1.zip",
+      "bytes": 90102,
+      "sha256": "478b1b3bfb7617a97675dc07e60a4e1cc821aae67408885d839d88be9e8525cd",
+      "user.library-file-version": "0",
+      "user.library-file-id": "libfile_b4815c716ffc8191b359f80390de05ad"
+    },
+    {
+      "name": "STARS2_LASER_ACOUSTIC_PHASE_LOCK_v0_8.zip",
+      "bytes": 543125,
+      "sha256": "47cedd48541978ec4ac3dbd1efa23cbc695568270212fa6c6cba20e431db4137",
+      "user.library-file-version": "0",
+      "user.library-file-id": "libfile_32a21f158fe081918b9b81a523758144"
+    },
+    {
+      "name": "STARS2_MINUS80DB_FIELD_SENSITIVITY_v0_5.zip",
+      "bytes": 111274,
+      "sha256": "a71859e4a9f9fc11b84d2db53e5ec62c6ca03f9c900511f749d24d3ef127b28c",
+      "user.library-file-version": "0",
+      "user.library-file-id": "libfile_c195c14fbde881918e9c519fbf2df487"
+    },
+    {
+      "name": "STARS2_PRETREAT_SUSTAIN_PHASE_v0_10.zip",
+      "bytes": 171158,
+      "sha256": "743786463620c9ef009c12d9b58ae449767bbbb3e2eb53f7b27ccd61f0ede5ee",
+      "user.library-file-version": "0",
+      "user.library-file-id": "libfile_73a7473e04088191a7c66ab5f6080120"
+    },
+    {
+      "name": "STARS2_RAINBOW_YINYANG_ATLAS_v0_1.zip",
+      "bytes": 9191,
+      "sha256": "93cafa5f9c1fa42278cb78e1582c5a2f0f7b7fd49ad1862f0d807149d7195eef",
+      "user.library-file-version": "0",
+      "user.library-file-id": "libfile_7577e9f29490819184981f2ef5b6886d"
+    },
+    {
+      "name": "prism_sphere_exploratory_sweep.csv",
+      "bytes": 691,
+      "sha256": "6741ab3c077057087c614e68a0d6d10b36d7f9c144a798c3713da71082661d65",
+      "user.library-file-version": "0",
+      "user.library-file-id": "libfile_45bae074bf90819186199879c3c7f7a5"
+    },
+    {
+      "name": "prism_sphere_reduced_model(1).py",
+      "bytes": 1717,
+      "sha256": "9ddef6ab121852ee676e8a7cabd5920cd91241924f0349a78172610556b01ead",
+      "user.library-file-version": "0",
+      "user.library-file-id": "libfile_105a921e97d88191987ba3acfef01df3"
+    },
+    {
+      "name": "prism_sphere_reduced_model.py",
+      "bytes": 1717,
+      "sha256": "9ddef6ab121852ee676e8a7cabd5920cd91241924f0349a78172610556b01ead",
+      "user.library-file-version": "0",
+      "user.library-file-id": "libfile_d74251ff5040819199d151c574ffa16f"
+    },
+    {
+      "name": "stars_525mw_gain_scenarios_2026-10-29.csv",
+      "bytes": 2782,
+      "sha256": "815634201934c2dff5a0627cf8118cd7ea90f19e1352e521a7da160421f90fba",
+      "user.library-file-version": "0",
+      "user.library-file-id": "libfile_7dce28883dd48191bb2bf89516373ecc"
+    },
+    {
+      "name": "stars_525mw_gain_scenarios_2026-10-29.py",
+      "bytes": 1697,
+      "sha256": "09566afccff70a599cbba32da1583b42568ff54fe2337b4cbf7ef9ce0968eb79",
+      "user.library-file-version": "1",
+      "user.library-file-id": "libfile_8233e1e972888191bb29ce8070169522"
+    },
+    {
+      "name": "stars_prism_three_module_toy_2026-10-29(1).py",
+      "bytes": 2446,
+      "sha256": "ba101e07dbdb875e1e72082f13b8f4464bc8eacc97c2b6012b4c195b8919c83b",
+      "user.library-file-version": "0",
+      "user.library-file-id": "libfile_55bcfd49e4b88191a453d6a850f2c005"
+    },
+    {
+      "name": "stars_prism_three_module_toy_2026-10-29.csv",
+      "bytes": 1505,
+      "sha256": "4b518e29bcdba98a88f7c6840140472b113e751e51140ef2ef1cec22a78a7124",
+      "user.library-file-version": "0",
+      "user.library-file-id": "libfile_4f9a41812db48191a9f91f6a9d2eaa12"
+    },
+    {
+      "name": "stars_prism_three_module_toy_2026-10-29.py",
+      "bytes": 2446,
+      "sha256": "ba101e07dbdb875e1e72082f13b8f4464bc8eacc97c2b6012b4c195b8919c83b",
+      "user.library-file-version": "2",
+      "user.library-file-id": "libfile_9765e3f4a35481918d74f1591638409e"
+    }
+  ],
+  "historical_environment": "Original dependency lockfiles, execution timestamps and command logs not recovered; current replay versions are separately recorded.",
+  "duplicate_script_checks": [
+    {
+      "files": [
+        "stars_prism_three_module_toy_2026-10-29.py",
+        "stars_prism_three_module_toy_2026-10-29(1).py"
+      ],
+      "byte_identical": true
+    },
+    {
+      "files": [
+        "prism_sphere_reduced_model.py",
+        "prism_sphere_reduced_model(1).py"
+      ],
+      "byte_identical": true
+    }
+  ]
+}
