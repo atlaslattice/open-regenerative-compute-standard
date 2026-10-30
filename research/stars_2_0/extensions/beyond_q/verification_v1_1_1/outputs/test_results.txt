@@ -1,0 +1,13 @@
+test_external_fixture (test_verification.Verification.test_external_fixture) ... ok
+test_extraction_cycle_conservation (test_verification.Verification.test_extraction_cycle_conservation) ... ok
+test_oracle_initial_and_nonnegative (test_verification.Verification.test_oracle_initial_and_nonnegative) ... ok
+test_processor_failure_and_invariant (test_verification.Verification.test_processor_failure_and_invariant) ... ok
+test_published_network_conservation (test_verification.Verification.test_published_network_conservation) ... ok
+test_startup_bracket_classifies_endpoints (test_verification.Verification.test_startup_bracket_classifies_endpoints) ... ok
+test_upstream_exact_snapshots (test_verification.Verification.test_upstream_exact_snapshots) ... ok
+test_zero_loss_recovery_and_mean (test_verification.Verification.test_zero_loss_recovery_and_mean) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.239s
+
+OK

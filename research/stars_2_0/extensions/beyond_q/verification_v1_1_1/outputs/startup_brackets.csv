@@ -1,0 +1,8 @@
+scenario,lower_kg,upper_kg,status
+baseline,1.097869873046875,1.0980606079101562,CONDITIONAL: unmet burn <=1e-8 kg over 180 days
+extractor_7d,2.092742919921875,2.0929336547851562,CONDITIONAL: unmet burn <=1e-8 kg over 180 days
+processor_7d,25.307464599609375,25.307655334472656,CONDITIONAL: unmet burn <=1e-8 kg over 180 days
+processor_30d,105.44281005859375,105.44300079345703,CONDITIONAL: unmet burn <=1e-8 kg over 180 days
+A_off_60d,1.097869873046875,1.0980606079101562,CONDITIONAL: unmet burn <=1e-8 kg over 180 days
+B_off_40d,1.097869873046875,1.0980606079101562,CONDITIONAL: unmet burn <=1e-8 kg over 180 days
+common_off_30d,1.097869873046875,1.0980606079101562,CONDITIONAL: unmet burn <=1e-8 kg over 180 days

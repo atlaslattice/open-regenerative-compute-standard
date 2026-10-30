@@ -1,0 +1,26 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "source_commit": "83dc89600c4956e08acd5d38df70d3cce83797e1",
+  "hashes": {
+    ".gitignore": "862263fa1f46c20f0d1e4dac5ffcc75abd55c08211b2c3864c5f8764b9d87793",
+    "AUDIT_HISTORY.jsonl": "7b2de5e0858e7779d8ca76b70247cb5f8d8142d075f8fc429c8504faadda50b1",
+    "README.md": "1296a7970af621184e99364cda5fc9526b2b3c82212e204fa08a468cb544bbe9",
+    "benchmark.py": "806c8a48f67ab0f4abe47c9b3f93ff7c70836241df47675c137ad9651d12c5b7",
+    "extraction.py": "851522c3aecdf6c011b56d69434ab27ce71f959c3e32baafcdbac957d462128e",
+    "fuelcycle/__init__.py": "de4cb617f5f61ab0079ad5b29ab30e5486524e22ede52be94b52867c2e5710ff",
+    "fuelcycle/inventory.py": "1f38b8351b021be5f3fb3054807662d3785ec97ff8317e4bcdf60e58db8b2fb2",
+    "fuelcycle/model.py": "9ab82cbbd9566dbb6b5b30c892078455202e557719749f429ac809e6ea3345a2",
+    "fuelcycle/physics.py": "eb56eed22173a744e9abc99db4e0de09904535fc4586686e630efc35a44d0de0",
+    "fuelcycle/schedules.py": "d3d8a4d22dbdaa04df93a3a359bca8fda81c34a06a8fd2ecb25b2185d295bcc7",
+    "plot_results.py": "973c7f612c2e7f5f0f848812ae2818af9cc9669f3c65b477fbb095d4da163912",
+    "reference.json": "b301cee09d7ae6ab7aae48494cd62f75c75bceb6d82be4ae0af921e4703c61c6",
+    "run_verification.py": "6346262842ff44c048d4da5ce50f9409aac90aba91067a0800c34faddd805101",
+    "test_verification.py": "64ff2ac701487f07089eda67596ee47335f6572a5c0a38a2b66c0382095ff6f6",
+    "upstream/LICENSE": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551",
+    "upstream/fuel_cycle.i": "b30426042d7c102397510c074f1c5454e18bd89d947c67ea0a3b1aaa31b2b0e6",
+    "upstream/gold.csv": "d456b6997fda21ae52dc93eb363db52b7e91cc5fa4a59775a4c60be3e0f2be78",
+    "upstream/tests.txt": "ad992c10d169721e5ef8f9fa431d385d9ffd98a95489e1706c55d4c9ac95c135"
+  }
+}
