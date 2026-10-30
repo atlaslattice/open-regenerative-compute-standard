@@ -1,0 +1,16 @@
+{
+  "tests": 13,
+  "passed": 13,
+  "skipped": 0,
+  "original_selected_data_replay_identical": true,
+  "paired_run_repeat_identical": true,
+  "isolated_pair_replay_identical": true,
+  "source_notebook_executed": false,
+  "original_source_summary_reproduced": true,
+  "source_selection_counts_preserved": true,
+  "full_archive_md5_verified": false,
+  "all_shot_success_measured": false,
+  "acoustic_gain_measured": false,
+  "net_electricity_evaluated": false,
+  "visual_QA": "Both paired plots inspected"
+}

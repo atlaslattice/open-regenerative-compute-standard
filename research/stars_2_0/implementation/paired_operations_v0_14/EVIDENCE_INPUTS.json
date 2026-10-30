@@ -1,0 +1,113 @@
+[
+  {
+    "id": "Streeter_optical_pulse_energy",
+    "value": 0.19,
+    "unit": "J",
+    "status": "PUBLISHED_APPROXIMATE",
+    "citation": "10.1038/s41467-025-56248-4",
+    "scope": "Specific liquid-water-sheet experiment; not Stars wall energy"
+  },
+  {
+    "id": "Streeter_laser_to_proton_fraction",
+    "value": 0.005,
+    "unit": "fraction",
+    "status": "PUBLISHED_APPROXIMATE",
+    "citation": "10.1038/s41467-025-56248-4",
+    "scope": "Approximate component conversion; not a wall-plug efficiency"
+  },
+  {
+    "id": "Streeter_repetition",
+    "value": 5,
+    "unit": "Hz",
+    "status": "PUBLISHED",
+    "citation": "10.1038/s41467-025-56248-4",
+    "scope": "Experiment pulse repetition, not unconditional prep attempt rate"
+  },
+  {
+    "id": "Streeter_selected_pointing_and_dose",
+    "value": "receipts/stability001/STABILITY_DATA.json",
+    "status": "SOURCE_REPRODUCED",
+    "citation": "10.5281/zenodo.14236097",
+    "scope": "Selected300 records; no acoustic contrast; centroid SD includes drift"
+  },
+  {
+    "id": "helium_tail_anchors",
+    "value": [
+      [
+        2.25,
+        0.639
+      ],
+      [
+        4.52,
+        0.611
+      ]
+    ],
+    "unit": "MeV,um",
+    "status": "PUBLISHED_FIT_PARAMETERS",
+    "citation": "10.1038/s41598-023-45208-x Supplement S3",
+    "scope": "Same etch/readout; Langau locations, not means or full detector response"
+  },
+  {
+    "id": "helium_7p5",
+    "value": "three two-point tail models",
+    "status": "EXTRAPOLATED",
+    "citation": "10.1038/s41598-023-45208-x Supplement S3",
+    "scope": "Outside recovered measurements; model spread is not a CI"
+  },
+  {
+    "id": "jitter_scaling",
+    "value": [
+      0.25,
+      2
+    ],
+    "unit": "ratio",
+    "status": "ASSUMED_SCENARIO",
+    "citation": null,
+    "scope": "Not an acoustic transfer function; rescale selected measured deviations about fixed mean"
+  },
+  {
+    "id": "physical_overlap_halfwidths",
+    "value": [
+      0.5,
+      1,
+      2
+    ],
+    "unit": "reference SD",
+    "status": "ASSUMED_SCENARIO",
+    "citation": null,
+    "scope": "Physical coupling window, not detector qualification; actual geometry needs specification"
+  },
+  {
+    "id": "Gaussian_overlap",
+    "value": "1D normal CDF integral",
+    "status": "ANALYTIC_SCENARIO",
+    "citation": null,
+    "scope": "Gaussian model chosen by analyst, not fitted or experimentally established"
+  },
+  {
+    "id": "conditional_pulse_energy",
+    "value": "held fixed for normalized comparisons",
+    "status": "ASSUMED_SCENARIO",
+    "citation": null,
+    "scope": "Unsuccessful fired pulses may retain energy; fractions0,.2,1 are sensitivities, not measured"
+  },
+  {
+    "id": "prep_serial_delay",
+    "value": [
+      0,
+      0.5,
+      1
+    ],
+    "unit": "baseline cycle",
+    "status": "ASSUMED_SCENARIO",
+    "citation": null,
+    "scope": "Per-time sensitivity; concurrent/startup preparation should not be charged as per-shot serial delay"
+  },
+  {
+    "id": "Stars_readiness_firing_wall_load",
+    "value": null,
+    "status": "UNKNOWN",
+    "citation": null,
+    "scope": "No zero fill; missing absolute energies block net electrical prediction"
+  }
+]

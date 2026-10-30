@@ -1,0 +1,10 @@
+{
+  "stability_input_sha256": "eb7db81f1430b3c7fb444b8ea6c8f40578c5648b701ace8cc3ec8534cfc8355b",
+  "model_sha256": "b1480ffee1f93d1cc289d969e79f7e7e999468cd4ce446dca7f69118169ba711",
+  "runner_sha256": "8b71a06bfe35d7e238f903559bb0f9b97b8d6bcfcea2f6de4dc99ed214d9af13",
+  "deterministic": true,
+  "random_sampling": false,
+  "seed": null,
+  "scientific_freeze": false,
+  "energy_gain_demonstrated": false
+}

@@ -1,0 +1,18 @@
+test_abort_keeps_preparation_cost (test_model.AccountingTests.test_abort_keeps_preparation_cost) ... ok
+test_all_attempt_denominator_and_nonzero_failed_output (test_model.AccountingTests.test_all_attempt_denominator_and_nonzero_failed_output) ... ok
+test_bad_probabilities_rejected (test_model.AccountingTests.test_bad_probabilities_rejected) ... ok
+test_gaussian_limit_and_wide_window (test_model.AccountingTests.test_gaussian_limit_and_wide_window) ... ok
+test_missing_wall_energy_not_zero (test_model.AccountingTests.test_missing_wall_energy_not_zero) ... ok
+test_narrowing_can_harm_misaligned_mean (test_model.AccountingTests.test_narrowing_can_harm_misaligned_mean) ... ok
+test_no_firing_means_no_nuclear_energy (test_model.AccountingTests.test_no_firing_means_no_nuclear_energy) ... ok
+test_no_overwrite_and_repeat (test_model.AccountingTests.test_no_overwrite_and_repeat) ... ok
+test_nuclear_energy_not_assumed_electricity (test_model.AccountingTests.test_nuclear_energy_not_assumed_electricity) ... ok
+test_pickle_global_rejected (test_model.AccountingTests.test_pickle_global_rejected) ... ok
+test_recovered_statistics_match_published_notebook_rounding (test_model.AccountingTests.test_recovered_statistics_match_published_notebook_rounding) ... ok
+test_tail_anchor_reproduction_and_coverage (test_model.AccountingTests.test_tail_anchor_reproduction_and_coverage) ... ok
+test_variance_alone_does_not_force_mean_gain (test_model.AccountingTests.test_variance_alone_does_not_force_mean_gain) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.014s
+
+OK

@@ -1,0 +1,152 @@
+{
+  "schema": "stellar-forge-additive-paired-operations-v0.14",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3447,
+      "sha256": "01e4c8ceef89342c9115738812023894515e96a687c7927a7ec5c7be0011b43c",
+      "git_blob": "4ec104bb0deb69f1fc711fc2d0f4bb7242caafbd"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 8677,
+      "sha256": "24603d2b9e248f4f434fa26932db3ce5662aa1839c1c49e171734d30ad7288b6",
+      "git_blob": "6d2433188ed5e50a2150b1b6882b7469c9b6e81b"
+    },
+    {
+      "path": "NEWS_RECONCILIATION.md",
+      "bytes": 4863,
+      "sha256": "ac2cbd5fa4f88fd22252af970ec8844a58997d2723b62a69b5d2f9977db275e8",
+      "git_blob": "030741825741a0af54232d10580ba99a11bbceb8"
+    },
+    {
+      "path": "model.py",
+      "bytes": 4954,
+      "sha256": "b1480ffee1f93d1cc289d969e79f7e7e999468cd4ce446dca7f69118169ba711",
+      "git_blob": "466e8b27a716779f663f3433cfbff1e94a40dd13"
+    },
+    {
+      "path": "run.py",
+      "bytes": 5800,
+      "sha256": "8b71a06bfe35d7e238f903559bb0f9b97b8d6bcfcea2f6de4dc99ed214d9af13",
+      "git_blob": "0770c414c80b85e8bfb3cabc8c44806446495572"
+    },
+    {
+      "path": "plot.py",
+      "bytes": 3762,
+      "sha256": "8f353fc749b9743d09918782ee76a6f8b07f9a5890007db01db538e075ff88eb",
+      "git_blob": "f6adac1f23f0654cfcdf14cb99eebff9e764ba1b"
+    },
+    {
+      "path": "test_model.py",
+      "bytes": 4651,
+      "sha256": "00e960e46e2ac1219a8b68297aa7f3077dfb10c8523ed5347e23e66152e82ccd",
+      "git_blob": "5cb6674cefa5c0bd721e6d38b360857a51cb4997"
+    },
+    {
+      "path": "archive_member.py",
+      "bytes": 3359,
+      "sha256": "e237779dd8125536170470dec75fd1acbfb21158d5a2ba08eed16349c713e48f",
+      "git_blob": "b4efb2eee1fc3092444b53227d312caefc1b0400"
+    },
+    {
+      "path": "prepare_sources.py",
+      "bytes": 1467,
+      "sha256": "84cc6eba5d883ff8a416754578476e30cea89aa60af5abcb94183e3d231be477",
+      "git_blob": "6263c681c8619f222dabecf9cd03725137c9f1cd"
+    },
+    {
+      "path": "recover_stability.py",
+      "bytes": 4448,
+      "sha256": "2a7d6a118d2ec63758131485dea18c6bf21aa4cd647e3c7a336afe6336936d39",
+      "git_blob": "4e3726ccb8635820b23b2397b6eba9b23d7a4502"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 46,
+      "sha256": "4a3b8f655b2cbaa5e7a06fea1584c7553e94ef3ff58161798cb4c120fd627c3a",
+      "git_blob": "752878bab008fe170994d37815384ee9562975e5"
+    },
+    {
+      "path": "SOURCE_LOCK.json",
+      "bytes": 9209,
+      "sha256": "09c3474c25c046205510f8fad91d41774c0581a706d7f2b8e46cafd43b206224",
+      "git_blob": "2b02e5956f2aa12a34b31eb3c1212f071852bea5"
+    },
+    {
+      "path": "SOURCE_INDEX.json",
+      "bytes": 2093,
+      "sha256": "6d721597e0d1acc65aac0a2354de59327651225566d0ec54e96bec9873d8dd1a",
+      "git_blob": "ea68fb5351c760b19c7d64a71359c5fda7625c07"
+    },
+    {
+      "path": "HOLLOW_SPHERE_SOURCE.json",
+      "bytes": 3887,
+      "sha256": "21d582144d07c76ae5a5970f071a945107fec7265eb1e68cb81e343a890a036b",
+      "git_blob": "a7b8de9ae23ab8c469e6af3c39152b79112b7f41"
+    },
+    {
+      "path": "ENERGY_GAPS.json",
+      "bytes": 2769,
+      "sha256": "82cedd4d7568669e5abf66975022a89f6649f410ff17abea90ddcd1a7a8604cf",
+      "git_blob": "e2f8d607c3da106f1aa530c08bcd3d844ee306cf"
+    },
+    {
+      "path": "EVIDENCE_INPUTS.json",
+      "bytes": 3164,
+      "sha256": "fdb72df7d36f062b62017864a0e63221748ffd943d230b5438be40b9c572c107",
+      "git_blob": "42070a9bc4e9218d9883589bce1cd7e157b6c649"
+    },
+    {
+      "path": "MODULE_RETENTION.json",
+      "bytes": 518,
+      "sha256": "110a26d2b9848b34a1c1ac56dabb5b89c019b5d96e9617b1b1610d79b5927b59",
+      "git_blob": "b9bb728f4190787c137e1ddc95760accab543cd5"
+    },
+    {
+      "path": "ARCHIVE_SELECTION.json",
+      "bytes": 4655,
+      "sha256": "026b5a4d8601617d61465e1a91b31f37daaf6f3f8642fd7bfd8050598773b8e1",
+      "git_blob": "74fdf7d064818326121e5fad0d0e619f14a8b3c8"
+    },
+    {
+      "path": "receipts/TEST_LOG.txt",
+      "bytes": 1605,
+      "sha256": "b7d244a19ce5885fa1dc9e75e3f3f287d4ea62ddba5ffb176dde93d4ae12a5a6",
+      "git_blob": "6acfcf74d7fcf4605e912e19fe3c969542116eec"
+    },
+    {
+      "path": "receipts/VERIFICATION.json",
+      "bytes": 505,
+      "sha256": "96bcc3800ed9d32deed90053e45fecc3d902e66d1f6dade354659d90ec67178f",
+      "git_blob": "88bb2748f6e6b5126e08e89e36274771bea0c511"
+    },
+    {
+      "path": "receipts/STABILITY_REPLAY_LOG.txt",
+      "bytes": 1578,
+      "sha256": "55e28b331ae66d29daba2b4bad26529387cc3789b9c907781fc11f7c17c92c17",
+      "git_blob": "5a6a5c6c1f0f27c683ae61d9d3285412bb6ad7d1"
+    },
+    {
+      "path": "receipts/stability001/STABILITY_DATA.json",
+      "bytes": 80989,
+      "sha256": "eb7db81f1430b3c7fb444b8ea6c8f40578c5648b701ace8cc3ec8534cfc8355b",
+      "git_blob": "e07328605f0e2bfd2d76eeb04bfcc41c01fb0449"
+    },
+    {
+      "path": "receipts/run001/RESULTS.json",
+      "bytes": 52288,
+      "sha256": "826234e54ef5fc0f264a117c7f454cd3d4f73b13bf6e45c5387073006f11c616",
+      "git_blob": "dcfac614af615cdf85ba8a1e7dc78755c86cac47"
+    },
+    {
+      "path": "receipts/run001/RECEIPT.json",
+      "bytes": 408,
+      "sha256": "41d8923a31f122a2745b1bb2678e16a956a84d07333040e23240fa7a32e24f4c",
+      "git_blob": "74733c080848b20e5aba869c3d30769ec65c0d42"
+    }
+  ],
+  "self_excluded": true,
+  "source_archives": "Selected public members downloaded/CRC/SHAverified; not bundled",
+  "figures": "Generated by plot.py, not bundled in text-only publication"
+}

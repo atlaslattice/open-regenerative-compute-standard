@@ -1,0 +1,12 @@
+{
+  "policy": "All26previouslyretainedphysicalmodulespreserved; no removal or supersession",
+  "source": "research/stars_2_0/implementation/reference_evidence_v0_10/MODULE_COVERAGE.json",
+  "base_commit": "80430c859c57c10222e2673f680811584f31ce64",
+  "changes": [
+    "Operational readiness/firing/physical-overlap accounting",
+    "Condition-specific detector-location extrapolation",
+    "Published source-stability benchmark",
+    "Audited October news leads"
+  ],
+  "all_modules_integrated_or_calibrated": false
+}

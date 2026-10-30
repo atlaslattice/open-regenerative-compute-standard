@@ -1,0 +1,46 @@
+{
+  "Streeter_article": {
+    "url": "https://www.nature.com/articles/s41467-025-56248-4",
+    "html_sha256": "19212b43c6ccab253c4a9a3f24de817c0b5e99141b494a277e31f43ec70cc817",
+    "dataset": "10.5281/zenodo.14236097"
+  },
+  "ENN_announcement": {
+    "url": "https://www.ennresearch.com/News/2026/1009/866.html",
+    "dated": "2026-09-28",
+    "status": "Announcement located; direct-page fetch timed out; rate semantics need technical reconciliation"
+  },
+  "ENN_hosted_report": {
+    "url": "https://ennresearch.com/News/2026/1009/867.html",
+    "dated": "2026-10-08",
+    "status": "Search-recovered full report;162-200keV and approximately1e8alphas/s reported; not numerical diagnostic calibration"
+  },
+  "H_mode": {
+    "doi": "10.1016/j.xinn.2026.101458",
+    "published_online": "2026-06-03",
+    "status": "Separate measured H-mode paper, not September alpha-rate source"
+  },
+  "low_energy_nuclear_lead": {
+    "url": "https://www.cambridge.org/core/journals/laser-and-particle-beams/article/protonboron-fusion-in-a-hydrogendopedboron-target/982F635DB95D18AD1C2B2D8937557AA0",
+    "status": "Primary article specifies21 incident-lab-energy measurements120..260keV with2keV increments near162; numbers not extracted here"
+  },
+  "hollow_sphere": "HOLLOW_SPHERE_SOURCE.json",
+  "Borealis": {
+    "url": "https://borealisfusion.com/introducing-borealis-fusion/",
+    "dated": "2026-10-15",
+    "status": "Company concept and research plan, not integrated performance demonstration"
+  },
+  "collector_lead": {
+    "doi": "10.1088/2058-6272/ae445a",
+    "status": "Primary abstract >80% low-parameter unit result; full methods/PDF not recovered in this audit; not assigned to Stars"
+  },
+  "acoustic_diagnostic_lead": {
+    "url": "https://arxiv.org/abs/2111.06180",
+    "doi": "10.1117/12.2592415",
+    "status": "I-BEAT proof of principle diagnostic; not acoustic preparation effect"
+  },
+  "acoustic_metrology_lead": {
+    "doi": "10.1016/j.pacs.2026.100801",
+    "status": "Published shell-thickness acoustic metrology; not nuclear enhancement"
+  },
+  "author_contact_sent": false
+}
