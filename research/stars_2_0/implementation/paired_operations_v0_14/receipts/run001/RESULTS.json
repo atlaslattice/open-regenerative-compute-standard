@@ -1,0 +1,1309 @@
+{
+  "reference": {
+    "label": "EVIDENCE-CONSTRAINED COMPONENT BENCHMARK",
+    "source_dose_mean_Gy": 40.65158287415749,
+    "source_dose_SD_Gy": 4.587186670101327,
+    "source_pointing_SD_mrad": 4.884921848783424,
+    "component_laser_optical_J": 0.19,
+    "component_laser_to_proton_fraction_approx": 0.005,
+    "derived_proton_beam_energy_J_approx": 0.00095,
+    "reported_repetition_Hz": 5.0,
+    "derived_proton_beam_power_W_approx": 0.00475,
+    "boundary": "Streeter2025 component experiment, not Stars, not wall-plug efficiency",
+    "Stars_readiness_probability": null,
+    "Stars_fire_probability_given_ready": null,
+    "Stars_energy_J_per_attempt": null,
+    "Stars_net_electrical_J_per_attempt": null,
+    "causal_acoustic_effect": null,
+    "acoustic_off_additional_credit": 0,
+    "completeness": "Component benchmarks available; full apparatus reference not determined"
+  },
+  "exploratory": {
+    "label": "EXPLORATORY POTENTIAL SIMULATION",
+    "jitter_model": "Analyst 1D physical overlap window; NOT diagnostic acceptance or measured acoustic transfer",
+    "jitter_scenarios": [
+      {
+        "acceptance_halfwidth_over_reference_SD": 0.5,
+        "records": [
+          {
+            "jitter_sigma_ratio": 0.25,
+            "empirical_selected_sample_overlap_fraction": 0.9266666666666666,
+            "gaussian_overlap_fraction": 0.9544997361036416
+          },
+          {
+            "jitter_sigma_ratio": 0.275,
+            "empirical_selected_sample_overlap_fraction": 0.8966666666666666,
+            "gaussian_overlap_fraction": 0.9309636520055847
+          },
+          {
+            "jitter_sigma_ratio": 0.3,
+            "empirical_selected_sample_overlap_fraction": 0.8766666666666667,
+            "gaussian_overlap_fraction": 0.9044192954543706
+          },
+          {
+            "jitter_sigma_ratio": 0.325,
+            "empirical_selected_sample_overlap_fraction": 0.8533333333333334,
+            "gaussian_overlap_fraction": 0.8760641943272575
+          },
+          {
+            "jitter_sigma_ratio": 0.35,
+            "empirical_selected_sample_overlap_fraction": 0.8366666666666667,
+            "gaussian_overlap_fraction": 0.8468725489803304
+          },
+          {
+            "jitter_sigma_ratio": 0.375,
+            "empirical_selected_sample_overlap_fraction": 0.82,
+            "gaussian_overlap_fraction": 0.8175775605482642
+          },
+          {
+            "jitter_sigma_ratio": 0.4,
+            "empirical_selected_sample_overlap_fraction": 0.8033333333333333,
+            "gaussian_overlap_fraction": 0.7887004526662894
+          },
+          {
+            "jitter_sigma_ratio": 0.42500000000000004,
+            "empirical_selected_sample_overlap_fraction": 0.7833333333333333,
+            "gaussian_overlap_fraction": 0.7605931212032105
+          },
+          {
+            "jitter_sigma_ratio": 0.45,
+            "empirical_selected_sample_overlap_fraction": 0.75,
+            "gaussian_overlap_fraction": 0.7334794741949892
+          },
+          {
+            "jitter_sigma_ratio": 0.475,
+            "empirical_selected_sample_overlap_fraction": 0.7333333333333333,
+            "gaussian_overlap_fraction": 0.7074901218161145
+          },
+          {
+            "jitter_sigma_ratio": 0.5,
+            "empirical_selected_sample_overlap_fraction": 0.71,
+            "gaussian_overlap_fraction": 0.6826894921370859
+          },
+          {
+            "jitter_sigma_ratio": 0.525,
+            "empirical_selected_sample_overlap_fraction": 0.6766666666666666,
+            "gaussian_overlap_fraction": 0.6590961840718697
+          },
+          {
+            "jitter_sigma_ratio": 0.55,
+            "empirical_selected_sample_overlap_fraction": 0.6633333333333333,
+            "gaussian_overlap_fraction": 0.6366978591131021
+          },
+          {
+            "jitter_sigma_ratio": 0.575,
+            "empirical_selected_sample_overlap_fraction": 0.6466666666666666,
+            "gaussian_overlap_fraction": 0.6154619470033766
+          },
+          {
+            "jitter_sigma_ratio": 0.6000000000000001,
+            "empirical_selected_sample_overlap_fraction": 0.6433333333333333,
+            "gaussian_overlap_fraction": 0.5953432380727138
+          },
+          {
+            "jitter_sigma_ratio": 0.625,
+            "empirical_selected_sample_overlap_fraction": 0.6266666666666667,
+            "gaussian_overlap_fraction": 0.5762892028332066
+          },
+          {
+            "jitter_sigma_ratio": 0.65,
+            "empirical_selected_sample_overlap_fraction": 0.61,
+            "gaussian_overlap_fraction": 0.5582436725750805
+          },
+          {
+            "jitter_sigma_ratio": 0.675,
+            "empirical_selected_sample_overlap_fraction": 0.6,
+            "gaussian_overlap_fraction": 0.5411493480705326
+          },
+          {
+            "jitter_sigma_ratio": 0.7,
+            "empirical_selected_sample_overlap_fraction": 0.5933333333333334,
+            "gaussian_overlap_fraction": 0.5249494759460469
+          },
+          {
+            "jitter_sigma_ratio": 0.7250000000000001,
+            "empirical_selected_sample_overlap_fraction": 0.5733333333333334,
+            "gaussian_overlap_fraction": 0.5095889374373901
+          },
+          {
+            "jitter_sigma_ratio": 0.75,
+            "empirical_selected_sample_overlap_fraction": 0.5566666666666666,
+            "gaussian_overlap_fraction": 0.4950149249061541
+          },
+          {
+            "jitter_sigma_ratio": 0.775,
+            "empirical_selected_sample_overlap_fraction": 0.5433333333333333,
+            "gaussian_overlap_fraction": 0.4811773313298092
+          },
+          {
+            "jitter_sigma_ratio": 0.8,
+            "empirical_selected_sample_overlap_fraction": 0.53,
+            "gaussian_overlap_fraction": 0.46802894190259886
+          },
+          {
+            "jitter_sigma_ratio": 0.8250000000000001,
+            "empirical_selected_sample_overlap_fraction": 0.5166666666666667,
+            "gaussian_overlap_fraction": 0.455525491036989
+          },
+          {
+            "jitter_sigma_ratio": 0.8500000000000001,
+            "empirical_selected_sample_overlap_fraction": 0.5133333333333333,
+            "gaussian_overlap_fraction": 0.44362562957309315
+          },
+          {
+            "jitter_sigma_ratio": 0.875,
+            "empirical_selected_sample_overlap_fraction": 0.49333333333333335,
+            "gaussian_overlap_fraction": 0.4322908338026474
+          },
+          {
+            "jitter_sigma_ratio": 0.9,
+            "empirical_selected_sample_overlap_fraction": 0.49,
+            "gaussian_overlap_fraction": 0.4214852784920559
+          },
+          {
+            "jitter_sigma_ratio": 0.925,
+            "empirical_selected_sample_overlap_fraction": 0.47333333333333333,
+            "gaussian_overlap_fraction": 0.41117568936834226
+          },
+          {
+            "jitter_sigma_ratio": 0.9500000000000001,
+            "empirical_selected_sample_overlap_fraction": 0.4666666666666667,
+            "gaussian_overlap_fraction": 0.40133118574223464
+          },
+          {
+            "jitter_sigma_ratio": 0.9750000000000001,
+            "empirical_selected_sample_overlap_fraction": 0.4533333333333333,
+            "gaussian_overlap_fraction": 0.3919231205340772
+          },
+          {
+            "jitter_sigma_ratio": 1.0,
+            "empirical_selected_sample_overlap_fraction": 0.44,
+            "gaussian_overlap_fraction": 0.3829249225480262
+          },
+          {
+            "jitter_sigma_ratio": 1.025,
+            "empirical_selected_sample_overlap_fraction": 0.43,
+            "gaussian_overlap_fraction": 0.37431194412743346
+          },
+          {
+            "jitter_sigma_ratio": 1.05,
+            "empirical_selected_sample_overlap_fraction": 0.4166666666666667,
+            "gaussian_overlap_fraction": 0.3660613161186542
+          },
+          {
+            "jitter_sigma_ratio": 1.0750000000000002,
+            "empirical_selected_sample_overlap_fraction": 0.41333333333333333,
+            "gaussian_overlap_fraction": 0.3581518112279254
+          },
+          {
+            "jitter_sigma_ratio": 1.1,
+            "empirical_selected_sample_overlap_fraction": 0.4066666666666667,
+            "gaussian_overlap_fraction": 0.35056371627324534
+          },
+          {
+            "jitter_sigma_ratio": 1.125,
+            "empirical_selected_sample_overlap_fraction": 0.39,
+            "gaussian_overlap_fraction": 0.34327871343622957
+          },
+          {
+            "jitter_sigma_ratio": 1.15,
+            "empirical_selected_sample_overlap_fraction": 0.38,
+            "gaussian_overlap_fraction": 0.33627977035439777
+          },
+          {
+            "jitter_sigma_ratio": 1.175,
+            "empirical_selected_sample_overlap_fraction": 0.37333333333333335,
+            "gaussian_overlap_fraction": 0.32955103872389385
+          },
+          {
+            "jitter_sigma_ratio": 1.2000000000000002,
+            "empirical_selected_sample_overlap_fraction": 0.36333333333333334,
+            "gaussian_overlap_fraction": 0.3230777609786206
+          },
+          {
+            "jitter_sigma_ratio": 1.225,
+            "empirical_selected_sample_overlap_fraction": 0.3566666666666667,
+            "gaussian_overlap_fraction": 0.31684618455429064
+          },
+          {
+            "jitter_sigma_ratio": 1.25,
+            "empirical_selected_sample_overlap_fraction": 0.3566666666666667,
+            "gaussian_overlap_fraction": 0.3108434832206483
+          },
+          {
+            "jitter_sigma_ratio": 1.2750000000000001,
+            "empirical_selected_sample_overlap_fraction": 0.35,
+            "gaussian_overlap_fraction": 0.3050576849618303
+          },
+          {
+            "jitter_sigma_ratio": 1.3,
+            "empirical_selected_sample_overlap_fraction": 0.34,
+            "gaussian_overlap_fraction": 0.2994776058961513
+          },
+          {
+            "jitter_sigma_ratio": 1.325,
+            "empirical_selected_sample_overlap_fraction": 0.33666666666666667,
+            "gaussian_overlap_fraction": 0.2940927897472899
+          },
+          {
+            "jitter_sigma_ratio": 1.35,
+            "empirical_selected_sample_overlap_fraction": 0.33,
+            "gaussian_overlap_fraction": 0.2888934524051961
+          },
+          {
+            "jitter_sigma_ratio": 1.375,
+            "empirical_selected_sample_overlap_fraction": 0.32666666666666666,
+            "gaussian_overlap_fraction": 0.28387043114443467
+          },
+          {
+            "jitter_sigma_ratio": 1.4000000000000001,
+            "empirical_selected_sample_overlap_fraction": 0.3233333333333333,
+            "gaussian_overlap_fraction": 0.27901513809832923
+          },
+          {
+            "jitter_sigma_ratio": 1.425,
+            "empirical_selected_sample_overlap_fraction": 0.32,
+            "gaussian_overlap_fraction": 0.2743195176179315
+          },
+          {
+            "jitter_sigma_ratio": 1.4500000000000002,
+            "empirical_selected_sample_overlap_fraction": 0.31666666666666665,
+            "gaussian_overlap_fraction": 0.26977600717471123
+          },
+          {
+            "jitter_sigma_ratio": 1.475,
+            "empirical_selected_sample_overlap_fraction": 0.31333333333333335,
+            "gaussian_overlap_fraction": 0.2653775014944156
+          },
+          {
+            "jitter_sigma_ratio": 1.5,
+            "empirical_selected_sample_overlap_fraction": 0.31,
+            "gaussian_overlap_fraction": 0.26111731963647267
+          },
+          {
+            "jitter_sigma_ratio": 1.5250000000000001,
+            "empirical_selected_sample_overlap_fraction": 0.30666666666666664,
+            "gaussian_overlap_fraction": 0.2569891747584606
+          },
+          {
+            "jitter_sigma_ratio": 1.55,
+            "empirical_selected_sample_overlap_fraction": 0.30666666666666664,
+            "gaussian_overlap_fraction": 0.25298714632845354
+          },
+          {
+            "jitter_sigma_ratio": 1.5750000000000002,
+            "empirical_selected_sample_overlap_fraction": 0.30333333333333334,
+            "gaussian_overlap_fraction": 0.24910565456951897
+          },
+          {
+            "jitter_sigma_ratio": 1.6,
+            "empirical_selected_sample_overlap_fraction": 0.30333333333333334,
+            "gaussian_overlap_fraction": 0.24533943694031413
+          },
+          {
+            "jitter_sigma_ratio": 1.625,
+            "empirical_selected_sample_overlap_fraction": 0.30333333333333334,
+            "gaussian_overlap_fraction": 0.24168352647370958
+          },
+          {
+            "jitter_sigma_ratio": 1.6500000000000001,
+            "empirical_selected_sample_overlap_fraction": 0.30333333333333334,
+            "gaussian_overlap_fraction": 0.23813323181175217
+          },
+          {
+            "jitter_sigma_ratio": 1.675,
+            "empirical_selected_sample_overlap_fraction": 0.30333333333333334,
+            "gaussian_overlap_fraction": 0.23468411879017553
+          },
+          {
+            "jitter_sigma_ratio": 1.7000000000000002,
+            "empirical_selected_sample_overlap_fraction": 0.30333333333333334,
+            "gaussian_overlap_fraction": 0.23133199343919128
+          },
+          {
+            "jitter_sigma_ratio": 1.725,
+            "empirical_selected_sample_overlap_fraction": 0.2966666666666667,
+            "gaussian_overlap_fraction": 0.22807288627955577
+          },
+          {
+            "jitter_sigma_ratio": 1.75,
+            "empirical_selected_sample_overlap_fraction": 0.29333333333333333,
+            "gaussian_overlap_fraction": 0.2249030378040153
+          },
+          {
+            "jitter_sigma_ratio": 1.7750000000000001,
+            "empirical_selected_sample_overlap_fraction": 0.29,
+            "gaussian_overlap_fraction": 0.22181888504428932
+          },
+          {
+            "jitter_sigma_ratio": 1.8,
+            "empirical_selected_sample_overlap_fraction": 0.2833333333333333,
+            "gaussian_overlap_fraction": 0.21881704913285
+          },
+          {
+            "jitter_sigma_ratio": 1.8250000000000002,
+            "empirical_selected_sample_overlap_fraction": 0.28,
+            "gaussian_overlap_fraction": 0.21589432377698972
+          },
+          {
+            "jitter_sigma_ratio": 1.85,
+            "empirical_selected_sample_overlap_fraction": 0.27,
+            "gaussian_overlap_fraction": 0.21304766457011595
+          },
+          {
+            "jitter_sigma_ratio": 1.875,
+            "empirical_selected_sample_overlap_fraction": 0.27,
+            "gaussian_overlap_fraction": 0.2102741790719497
+          },
+          {
+            "jitter_sigma_ratio": 1.9000000000000001,
+            "empirical_selected_sample_overlap_fraction": 0.26666666666666666,
+            "gaussian_overlap_fraction": 0.20757111759539992
+          },
+          {
+            "jitter_sigma_ratio": 1.925,
+            "empirical_selected_sample_overlap_fraction": 0.26666666666666666,
+            "gaussian_overlap_fraction": 0.2049358646434052
+          },
+          {
+            "jitter_sigma_ratio": 1.9500000000000002,
+            "empirical_selected_sample_overlap_fraction": 0.2633333333333333,
+            "gaussian_overlap_fraction": 0.20236593094402572
+          },
+          {
+            "jitter_sigma_ratio": 1.975,
+            "empirical_selected_sample_overlap_fraction": 0.2633333333333333,
+            "gaussian_overlap_fraction": 0.19985894603659643
+          },
+          {
+            "jitter_sigma_ratio": 2.0,
+            "empirical_selected_sample_overlap_fraction": 0.26,
+            "gaussian_overlap_fraction": 0.19741265136584743
+          }
+        ]
+      },
+      {
+        "acceptance_halfwidth_over_reference_SD": 1.0,
+        "records": [
+          {
+            "jitter_sigma_ratio": 0.25,
+            "empirical_selected_sample_overlap_fraction": 1.0,
+            "gaussian_overlap_fraction": 0.9999366575163338
+          },
+          {
+            "jitter_sigma_ratio": 0.275,
+            "empirical_selected_sample_overlap_fraction": 1.0,
+            "gaussian_overlap_fraction": 0.9997234860843619
+          },
+          {
+            "jitter_sigma_ratio": 0.3,
+            "empirical_selected_sample_overlap_fraction": 1.0,
+            "gaussian_overlap_fraction": 0.9991418793336063
+          },
+          {
+            "jitter_sigma_ratio": 0.325,
+            "empirical_selected_sample_overlap_fraction": 1.0,
+            "gaussian_overlap_fraction": 0.9979085073395225
+          },
+          {
+            "jitter_sigma_ratio": 0.35,
+            "empirical_selected_sample_overlap_fraction": 1.0,
+            "gaussian_overlap_fraction": 0.9957252660398275
+          },
+          {
+            "jitter_sigma_ratio": 0.375,
+            "empirical_selected_sample_overlap_fraction": 0.9966666666666667,
+            "gaussian_overlap_fraction": 0.9923392388648206
+          },
+          {
+            "jitter_sigma_ratio": 0.4,
+            "empirical_selected_sample_overlap_fraction": 0.99,
+            "gaussian_overlap_fraction": 0.9875806693484477
+          },
+          {
+            "jitter_sigma_ratio": 0.42500000000000004,
+            "empirical_selected_sample_overlap_fraction": 0.9733333333333334,
+            "gaussian_overlap_fraction": 0.9813744197125971
+          },
+          {
+            "jitter_sigma_ratio": 0.45,
+            "empirical_selected_sample_overlap_fraction": 0.9633333333333334,
+            "gaussian_overlap_fraction": 0.9737317086179578
+          },
+          {
+            "jitter_sigma_ratio": 0.475,
+            "empirical_selected_sample_overlap_fraction": 0.9466666666666667,
+            "gaussian_overlap_fraction": 0.9647315927732554
+          },
+          {
+            "jitter_sigma_ratio": 0.5,
+            "empirical_selected_sample_overlap_fraction": 0.9266666666666666,
+            "gaussian_overlap_fraction": 0.9544997361036416
+          },
+          {
+            "jitter_sigma_ratio": 0.525,
+            "empirical_selected_sample_overlap_fraction": 0.91,
+            "gaussian_overlap_fraction": 0.9431889720652724
+          },
+          {
+            "jitter_sigma_ratio": 0.55,
+            "empirical_selected_sample_overlap_fraction": 0.8966666666666666,
+            "gaussian_overlap_fraction": 0.9309636520055847
+          },
+          {
+            "jitter_sigma_ratio": 0.575,
+            "empirical_selected_sample_overlap_fraction": 0.8866666666666667,
+            "gaussian_overlap_fraction": 0.9179881776725048
+          },
+          {
+            "jitter_sigma_ratio": 0.6000000000000001,
+            "empirical_selected_sample_overlap_fraction": 0.8766666666666667,
+            "gaussian_overlap_fraction": 0.9044192954543705
+          },
+          {
+            "jitter_sigma_ratio": 0.625,
+            "empirical_selected_sample_overlap_fraction": 0.8733333333333333,
+            "gaussian_overlap_fraction": 0.890401416600884
+          },
+          {
+            "jitter_sigma_ratio": 0.65,
+            "empirical_selected_sample_overlap_fraction": 0.8533333333333334,
+            "gaussian_overlap_fraction": 0.8760641943272575
+          },
+          {
+            "jitter_sigma_ratio": 0.675,
+            "empirical_selected_sample_overlap_fraction": 0.8466666666666667,
+            "gaussian_overlap_fraction": 0.8615216839331794
+          },
+          {
+            "jitter_sigma_ratio": 0.7,
+            "empirical_selected_sample_overlap_fraction": 0.8366666666666667,
+            "gaussian_overlap_fraction": 0.8468725489803304
+          },
+          {
+            "jitter_sigma_ratio": 0.7250000000000001,
+            "empirical_selected_sample_overlap_fraction": 0.8266666666666667,
+            "gaussian_overlap_fraction": 0.8322009116445277
+          },
+          {
+            "jitter_sigma_ratio": 0.75,
+            "empirical_selected_sample_overlap_fraction": 0.82,
+            "gaussian_overlap_fraction": 0.8175775605482642
+          },
+          {
+            "jitter_sigma_ratio": 0.775,
+            "empirical_selected_sample_overlap_fraction": 0.82,
+            "gaussian_overlap_fraction": 0.8030613200479543
+          },
+          {
+            "jitter_sigma_ratio": 0.8,
+            "empirical_selected_sample_overlap_fraction": 0.8033333333333333,
+            "gaussian_overlap_fraction": 0.7887004526662894
+          },
+          {
+            "jitter_sigma_ratio": 0.8250000000000001,
+            "empirical_selected_sample_overlap_fraction": 0.7933333333333333,
+            "gaussian_overlap_fraction": 0.7745340149954928
+          },
+          {
+            "jitter_sigma_ratio": 0.8500000000000001,
+            "empirical_selected_sample_overlap_fraction": 0.7833333333333333,
+            "gaussian_overlap_fraction": 0.7605931212032105
+          },
+          {
+            "jitter_sigma_ratio": 0.875,
+            "empirical_selected_sample_overlap_fraction": 0.7766666666666666,
+            "gaussian_overlap_fraction": 0.7469020910528844
+          },
+          {
+            "jitter_sigma_ratio": 0.9,
+            "empirical_selected_sample_overlap_fraction": 0.75,
+            "gaussian_overlap_fraction": 0.7334794741949892
+          },
+          {
+            "jitter_sigma_ratio": 0.925,
+            "empirical_selected_sample_overlap_fraction": 0.7433333333333333,
+            "gaussian_overlap_fraction": 0.7203389517673048
+          },
+          {
+            "jitter_sigma_ratio": 0.9500000000000001,
+            "empirical_selected_sample_overlap_fraction": 0.7333333333333333,
+            "gaussian_overlap_fraction": 0.7074901218161144
+          },
+          {
+            "jitter_sigma_ratio": 0.9750000000000001,
+            "empirical_selected_sample_overlap_fraction": 0.7133333333333334,
+            "gaussian_overlap_fraction": 0.6949391779784471
+          },
+          {
+            "jitter_sigma_ratio": 1.0,
+            "empirical_selected_sample_overlap_fraction": 0.71,
+            "gaussian_overlap_fraction": 0.6826894921370859
+          },
+          {
+            "jitter_sigma_ratio": 1.025,
+            "empirical_selected_sample_overlap_fraction": 0.6866666666666666,
+            "gaussian_overlap_fraction": 0.6707421119891089
+          },
+          {
+            "jitter_sigma_ratio": 1.05,
+            "empirical_selected_sample_overlap_fraction": 0.6766666666666666,
+            "gaussian_overlap_fraction": 0.6590961840718697
+          },
+          {
+            "jitter_sigma_ratio": 1.0750000000000002,
+            "empirical_selected_sample_overlap_fraction": 0.6733333333333333,
+            "gaussian_overlap_fraction": 0.6477493120449233
+          },
+          {
+            "jitter_sigma_ratio": 1.1,
+            "empirical_selected_sample_overlap_fraction": 0.6633333333333333,
+            "gaussian_overlap_fraction": 0.6366978591131021
+          },
+          {
+            "jitter_sigma_ratio": 1.125,
+            "empirical_selected_sample_overlap_fraction": 0.66,
+            "gaussian_overlap_fraction": 0.6259372025091174
+          },
+          {
+            "jitter_sigma_ratio": 1.15,
+            "empirical_selected_sample_overlap_fraction": 0.6466666666666666,
+            "gaussian_overlap_fraction": 0.6154619470033766
+          },
+          {
+            "jitter_sigma_ratio": 1.175,
+            "empirical_selected_sample_overlap_fraction": 0.6466666666666666,
+            "gaussian_overlap_fraction": 0.6052661035140865
+          },
+          {
+            "jitter_sigma_ratio": 1.2000000000000002,
+            "empirical_selected_sample_overlap_fraction": 0.6433333333333333,
+            "gaussian_overlap_fraction": 0.5953432380727138
+          },
+          {
+            "jitter_sigma_ratio": 1.225,
+            "empirical_selected_sample_overlap_fraction": 0.63,
+            "gaussian_overlap_fraction": 0.5856865956666634
+          },
+          {
+            "jitter_sigma_ratio": 1.25,
+            "empirical_selected_sample_overlap_fraction": 0.6266666666666667,
+            "gaussian_overlap_fraction": 0.5762892028332066
+          },
+          {
+            "jitter_sigma_ratio": 1.2750000000000001,
+            "empirical_selected_sample_overlap_fraction": 0.62,
+            "gaussian_overlap_fraction": 0.5671439523123392
+          },
+          {
+            "jitter_sigma_ratio": 1.3,
+            "empirical_selected_sample_overlap_fraction": 0.61,
+            "gaussian_overlap_fraction": 0.5582436725750805
+          },
+          {
+            "jitter_sigma_ratio": 1.325,
+            "empirical_selected_sample_overlap_fraction": 0.6033333333333334,
+            "gaussian_overlap_fraction": 0.5495811846203709
+          },
+          {
+            "jitter_sigma_ratio": 1.35,
+            "empirical_selected_sample_overlap_fraction": 0.6,
+            "gaussian_overlap_fraction": 0.5411493480705326
+          },
+          {
+            "jitter_sigma_ratio": 1.375,
+            "empirical_selected_sample_overlap_fraction": 0.5966666666666667,
+            "gaussian_overlap_fraction": 0.5329410982848264
+          },
+          {
+            "jitter_sigma_ratio": 1.4000000000000001,
+            "empirical_selected_sample_overlap_fraction": 0.5933333333333334,
+            "gaussian_overlap_fraction": 0.5249494759460469
+          },
+          {
+            "jitter_sigma_ratio": 1.425,
+            "empirical_selected_sample_overlap_fraction": 0.5866666666666667,
+            "gaussian_overlap_fraction": 0.51716765035009
+          },
+          {
+            "jitter_sigma_ratio": 1.4500000000000002,
+            "empirical_selected_sample_overlap_fraction": 0.5733333333333334,
+            "gaussian_overlap_fraction": 0.5095889374373901
+          },
+          {
+            "jitter_sigma_ratio": 1.475,
+            "empirical_selected_sample_overlap_fraction": 0.5633333333333334,
+            "gaussian_overlap_fraction": 0.5022068134431577
+          },
+          {
+            "jitter_sigma_ratio": 1.5,
+            "empirical_selected_sample_overlap_fraction": 0.5566666666666666,
+            "gaussian_overlap_fraction": 0.4950149249061541
+          },
+          {
+            "jitter_sigma_ratio": 1.5250000000000001,
+            "empirical_selected_sample_overlap_fraction": 0.55,
+            "gaussian_overlap_fraction": 0.4880070956596278
+          },
+          {
+            "jitter_sigma_ratio": 1.55,
+            "empirical_selected_sample_overlap_fraction": 0.5433333333333333,
+            "gaussian_overlap_fraction": 0.4811773313298092
+          },
+          {
+            "jitter_sigma_ratio": 1.5750000000000002,
+            "empirical_selected_sample_overlap_fraction": 0.5366666666666666,
+            "gaussian_overlap_fraction": 0.4745198217843144
+          },
+          {
+            "jitter_sigma_ratio": 1.6,
+            "empirical_selected_sample_overlap_fraction": 0.53,
+            "gaussian_overlap_fraction": 0.46802894190259886
+          },
+          {
+            "jitter_sigma_ratio": 1.625,
+            "empirical_selected_sample_overlap_fraction": 0.5266666666666666,
+            "gaussian_overlap_fraction": 0.461699250981277
+          },
+          {
+            "jitter_sigma_ratio": 1.6500000000000001,
+            "empirical_selected_sample_overlap_fraction": 0.5166666666666667,
+            "gaussian_overlap_fraction": 0.455525491036989
+          },
+          {
+            "jitter_sigma_ratio": 1.675,
+            "empirical_selected_sample_overlap_fraction": 0.5166666666666667,
+            "gaussian_overlap_fraction": 0.4495025842271443
+          },
+          {
+            "jitter_sigma_ratio": 1.7000000000000002,
+            "empirical_selected_sample_overlap_fraction": 0.5133333333333333,
+            "gaussian_overlap_fraction": 0.44362562957309315
+          },
+          {
+            "jitter_sigma_ratio": 1.725,
+            "empirical_selected_sample_overlap_fraction": 0.5,
+            "gaussian_overlap_fraction": 0.4378898991400593
+          },
+          {
+            "jitter_sigma_ratio": 1.75,
+            "empirical_selected_sample_overlap_fraction": 0.49333333333333335,
+            "gaussian_overlap_fraction": 0.4322908338026474
+          },
+          {
+            "jitter_sigma_ratio": 1.7750000000000001,
+            "empirical_selected_sample_overlap_fraction": 0.49333333333333335,
+            "gaussian_overlap_fraction": 0.42682403870319563
+          },
+          {
+            "jitter_sigma_ratio": 1.8,
+            "empirical_selected_sample_overlap_fraction": 0.49,
+            "gaussian_overlap_fraction": 0.4214852784920559
+          },
+          {
+            "jitter_sigma_ratio": 1.8250000000000002,
+            "empirical_selected_sample_overlap_fraction": 0.4766666666666667,
+            "gaussian_overlap_fraction": 0.4162704724235416
+          },
+          {
+            "jitter_sigma_ratio": 1.85,
+            "empirical_selected_sample_overlap_fraction": 0.47333333333333333,
+            "gaussian_overlap_fraction": 0.41117568936834226
+          },
+          {
+            "jitter_sigma_ratio": 1.875,
+            "empirical_selected_sample_overlap_fraction": 0.47,
+            "gaussian_overlap_fraction": 0.40619714279229757
+          },
+          {
+            "jitter_sigma_ratio": 1.9000000000000001,
+            "empirical_selected_sample_overlap_fraction": 0.4666666666666667,
+            "gaussian_overlap_fraction": 0.40133118574223464
+          },
+          {
+            "jitter_sigma_ratio": 1.925,
+            "empirical_selected_sample_overlap_fraction": 0.45666666666666667,
+            "gaussian_overlap_fraction": 0.39657430587184533
+          },
+          {
+            "jitter_sigma_ratio": 1.9500000000000002,
+            "empirical_selected_sample_overlap_fraction": 0.4533333333333333,
+            "gaussian_overlap_fraction": 0.3919231205340772
+          },
+          {
+            "jitter_sigma_ratio": 1.975,
+            "empirical_selected_sample_overlap_fraction": 0.44666666666666666,
+            "gaussian_overlap_fraction": 0.3873743719610618
+          },
+          {
+            "jitter_sigma_ratio": 2.0,
+            "empirical_selected_sample_overlap_fraction": 0.44,
+            "gaussian_overlap_fraction": 0.3829249225480262
+          }
+        ]
+      },
+      {
+        "acceptance_halfwidth_over_reference_SD": 2.0,
+        "records": [
+          {
+            "jitter_sigma_ratio": 0.25,
+            "empirical_selected_sample_overlap_fraction": 1.0,
+            "gaussian_overlap_fraction": 0.9999999999999988
+          },
+          {
+            "jitter_sigma_ratio": 0.275,
+            "empirical_selected_sample_overlap_fraction": 1.0,
+            "gaussian_overlap_fraction": 0.9999999999996477
+          },
+          {
+            "jitter_sigma_ratio": 0.3,
+            "empirical_selected_sample_overlap_fraction": 1.0,
+            "gaussian_overlap_fraction": 0.9999999999738322
+          },
+          {
+            "jitter_sigma_ratio": 0.325,
+            "empirical_selected_sample_overlap_fraction": 1.0,
+            "gaussian_overlap_fraction": 0.9999999992437395
+          },
+          {
+            "jitter_sigma_ratio": 0.35,
+            "empirical_selected_sample_overlap_fraction": 1.0,
+            "gaussian_overlap_fraction": 0.9999999889834229
+          },
+          {
+            "jitter_sigma_ratio": 0.375,
+            "empirical_selected_sample_overlap_fraction": 1.0,
+            "gaussian_overlap_fraction": 0.9999999035739326
+          },
+          {
+            "jitter_sigma_ratio": 0.4,
+            "empirical_selected_sample_overlap_fraction": 1.0,
+            "gaussian_overlap_fraction": 0.9999994266968563
+          },
+          {
+            "jitter_sigma_ratio": 0.42500000000000004,
+            "empirical_selected_sample_overlap_fraction": 1.0,
+            "gaussian_overlap_fraction": 0.9999974722973466
+          },
+          {
+            "jitter_sigma_ratio": 0.45,
+            "empirical_selected_sample_overlap_fraction": 1.0,
+            "gaussian_overlap_fraction": 0.9999911880725948
+          },
+          {
+            "jitter_sigma_ratio": 0.475,
+            "empirical_selected_sample_overlap_fraction": 1.0,
+            "gaussian_overlap_fraction": 0.999974522355731
+          },
+          {
+            "jitter_sigma_ratio": 0.5,
+            "empirical_selected_sample_overlap_fraction": 1.0,
+            "gaussian_overlap_fraction": 0.9999366575163338
+          },
+          {
+            "jitter_sigma_ratio": 0.525,
+            "empirical_selected_sample_overlap_fraction": 1.0,
+            "gaussian_overlap_fraction": 0.9998607653014553
+          },
+          {
+            "jitter_sigma_ratio": 0.55,
+            "empirical_selected_sample_overlap_fraction": 1.0,
+            "gaussian_overlap_fraction": 0.9997234860843619
+          },
+          {
+            "jitter_sigma_ratio": 0.575,
+            "empirical_selected_sample_overlap_fraction": 1.0,
+            "gaussian_overlap_fraction": 0.9994953214900221
+          },
+          {
+            "jitter_sigma_ratio": 0.6000000000000001,
+            "empirical_selected_sample_overlap_fraction": 1.0,
+            "gaussian_overlap_fraction": 0.9991418793336063
+          },
+          {
+            "jitter_sigma_ratio": 0.625,
+            "empirical_selected_sample_overlap_fraction": 1.0,
+            "gaussian_overlap_fraction": 0.9986257241241683
+          },
+          {
+            "jitter_sigma_ratio": 0.65,
+            "empirical_selected_sample_overlap_fraction": 1.0,
+            "gaussian_overlap_fraction": 0.9979085073395225
+          },
+          {
+            "jitter_sigma_ratio": 0.675,
+            "empirical_selected_sample_overlap_fraction": 1.0,
+            "gaussian_overlap_fraction": 0.9969530677160003
+          },
+          {
+            "jitter_sigma_ratio": 0.7,
+            "empirical_selected_sample_overlap_fraction": 1.0,
+            "gaussian_overlap_fraction": 0.9957252660398275
+          },
+          {
+            "jitter_sigma_ratio": 0.7250000000000001,
+            "empirical_selected_sample_overlap_fraction": 1.0,
+            "gaussian_overlap_fraction": 0.9941954133323981
+          },
+          {
+            "jitter_sigma_ratio": 0.75,
+            "empirical_selected_sample_overlap_fraction": 0.9966666666666667,
+            "gaussian_overlap_fraction": 0.9923392388648206
+          },
+          {
+            "jitter_sigma_ratio": 0.775,
+            "empirical_selected_sample_overlap_fraction": 0.99,
+            "gaussian_overlap_fraction": 0.9901384113348634
+          },
+          {
+            "jitter_sigma_ratio": 0.8,
+            "empirical_selected_sample_overlap_fraction": 0.99,
+            "gaussian_overlap_fraction": 0.9875806693484477
+          },
+          {
+            "jitter_sigma_ratio": 0.8250000000000001,
+            "empirical_selected_sample_overlap_fraction": 0.9866666666666667,
+            "gaussian_overlap_fraction": 0.984659638758518
+          },
+          {
+            "jitter_sigma_ratio": 0.8500000000000001,
+            "empirical_selected_sample_overlap_fraction": 0.9733333333333334,
+            "gaussian_overlap_fraction": 0.9813744197125971
+          },
+          {
+            "jitter_sigma_ratio": 0.875,
+            "empirical_selected_sample_overlap_fraction": 0.9633333333333334,
+            "gaussian_overlap_fraction": 0.9777290210407672
+          },
+          {
+            "jitter_sigma_ratio": 0.9,
+            "empirical_selected_sample_overlap_fraction": 0.9633333333333334,
+            "gaussian_overlap_fraction": 0.9737317086179578
+          },
+          {
+            "jitter_sigma_ratio": 0.925,
+            "empirical_selected_sample_overlap_fraction": 0.9533333333333334,
+            "gaussian_overlap_fraction": 0.9693943210522524
+          },
+          {
+            "jitter_sigma_ratio": 0.9500000000000001,
+            "empirical_selected_sample_overlap_fraction": 0.9466666666666667,
+            "gaussian_overlap_fraction": 0.9647315927732554
+          },
+          {
+            "jitter_sigma_ratio": 0.9750000000000001,
+            "empirical_selected_sample_overlap_fraction": 0.9433333333333334,
+            "gaussian_overlap_fraction": 0.959760512633866
+          },
+          {
+            "jitter_sigma_ratio": 1.0,
+            "empirical_selected_sample_overlap_fraction": 0.9266666666666666,
+            "gaussian_overlap_fraction": 0.9544997361036416
+          },
+          {
+            "jitter_sigma_ratio": 1.025,
+            "empirical_selected_sample_overlap_fraction": 0.9166666666666666,
+            "gaussian_overlap_fraction": 0.9489690611711136
+          },
+          {
+            "jitter_sigma_ratio": 1.05,
+            "empirical_selected_sample_overlap_fraction": 0.91,
+            "gaussian_overlap_fraction": 0.9431889720652724
+          },
+          {
+            "jitter_sigma_ratio": 1.0750000000000002,
+            "empirical_selected_sample_overlap_fraction": 0.9066666666666666,
+            "gaussian_overlap_fraction": 0.9371802505970035
+          },
+          {
+            "jitter_sigma_ratio": 1.1,
+            "empirical_selected_sample_overlap_fraction": 0.8966666666666666,
+            "gaussian_overlap_fraction": 0.9309636520055847
+          },
+          {
+            "jitter_sigma_ratio": 1.125,
+            "empirical_selected_sample_overlap_fraction": 0.89,
+            "gaussian_overlap_fraction": 0.9245596403731995
+          },
+          {
+            "jitter_sigma_ratio": 1.15,
+            "empirical_selected_sample_overlap_fraction": 0.8866666666666667,
+            "gaussian_overlap_fraction": 0.9179881776725048
+          },
+          {
+            "jitter_sigma_ratio": 1.175,
+            "empirical_selected_sample_overlap_fraction": 0.88,
+            "gaussian_overlap_fraction": 0.9112685601115922
+          },
+          {
+            "jitter_sigma_ratio": 1.2000000000000002,
+            "empirical_selected_sample_overlap_fraction": 0.8766666666666667,
+            "gaussian_overlap_fraction": 0.9044192954543705
+          },
+          {
+            "jitter_sigma_ratio": 1.225,
+            "empirical_selected_sample_overlap_fraction": 0.8766666666666667,
+            "gaussian_overlap_fraction": 0.8974580152805005
+          },
+          {
+            "jitter_sigma_ratio": 1.25,
+            "empirical_selected_sample_overlap_fraction": 0.8733333333333333,
+            "gaussian_overlap_fraction": 0.890401416600884
+          },
+          {
+            "jitter_sigma_ratio": 1.2750000000000001,
+            "empirical_selected_sample_overlap_fraction": 0.8566666666666667,
+            "gaussian_overlap_fraction": 0.8832652277846793
+          },
+          {
+            "jitter_sigma_ratio": 1.3,
+            "empirical_selected_sample_overlap_fraction": 0.8533333333333334,
+            "gaussian_overlap_fraction": 0.8760641943272575
+          },
+          {
+            "jitter_sigma_ratio": 1.325,
+            "empirical_selected_sample_overlap_fraction": 0.85,
+            "gaussian_overlap_fraction": 0.8688120805584506
+          },
+          {
+            "jitter_sigma_ratio": 1.35,
+            "empirical_selected_sample_overlap_fraction": 0.8466666666666667,
+            "gaussian_overlap_fraction": 0.8615216839331794
+          },
+          {
+            "jitter_sigma_ratio": 1.375,
+            "empirical_selected_sample_overlap_fraction": 0.8366666666666667,
+            "gaussian_overlap_fraction": 0.8542048590480239
+          },
+          {
+            "jitter_sigma_ratio": 1.4000000000000001,
+            "empirical_selected_sample_overlap_fraction": 0.8366666666666667,
+            "gaussian_overlap_fraction": 0.8468725489803304
+          },
+          {
+            "jitter_sigma_ratio": 1.425,
+            "empirical_selected_sample_overlap_fraction": 0.8333333333333334,
+            "gaussian_overlap_fraction": 0.8395348219485695
+          },
+          {
+            "jitter_sigma_ratio": 1.4500000000000002,
+            "empirical_selected_sample_overlap_fraction": 0.8266666666666667,
+            "gaussian_overlap_fraction": 0.8322009116445277
+          },
+          {
+            "jitter_sigma_ratio": 1.475,
+            "empirical_selected_sample_overlap_fraction": 0.8233333333333334,
+            "gaussian_overlap_fraction": 0.8248792598921568
+          },
+          {
+            "jitter_sigma_ratio": 1.5,
+            "empirical_selected_sample_overlap_fraction": 0.82,
+            "gaussian_overlap_fraction": 0.8175775605482642
+          },
+          {
+            "jitter_sigma_ratio": 1.5250000000000001,
+            "empirical_selected_sample_overlap_fraction": 0.82,
+            "gaussian_overlap_fraction": 0.8103028037810233
+          },
+          {
+            "jitter_sigma_ratio": 1.55,
+            "empirical_selected_sample_overlap_fraction": 0.82,
+            "gaussian_overlap_fraction": 0.8030613200479543
+          },
+          {
+            "jitter_sigma_ratio": 1.5750000000000002,
+            "empirical_selected_sample_overlap_fraction": 0.8133333333333334,
+            "gaussian_overlap_fraction": 0.7958588232499594
+          },
+          {
+            "jitter_sigma_ratio": 1.6,
+            "empirical_selected_sample_overlap_fraction": 0.8033333333333333,
+            "gaussian_overlap_fraction": 0.7887004526662894
+          },
+          {
+            "jitter_sigma_ratio": 1.625,
+            "empirical_selected_sample_overlap_fraction": 0.8,
+            "gaussian_overlap_fraction": 0.7815908133807583
+          },
+          {
+            "jitter_sigma_ratio": 1.6500000000000001,
+            "empirical_selected_sample_overlap_fraction": 0.7933333333333333,
+            "gaussian_overlap_fraction": 0.7745340149954928
+          },
+          {
+            "jitter_sigma_ratio": 1.675,
+            "empirical_selected_sample_overlap_fraction": 0.79,
+            "gaussian_overlap_fraction": 0.7675337084980229
+          },
+          {
+            "jitter_sigma_ratio": 1.7000000000000002,
+            "empirical_selected_sample_overlap_fraction": 0.7833333333333333,
+            "gaussian_overlap_fraction": 0.7605931212032105
+          },
+          {
+            "jitter_sigma_ratio": 1.725,
+            "empirical_selected_sample_overlap_fraction": 0.78,
+            "gaussian_overlap_fraction": 0.7537150897356673
+          },
+          {
+            "jitter_sigma_ratio": 1.75,
+            "empirical_selected_sample_overlap_fraction": 0.7766666666666666,
+            "gaussian_overlap_fraction": 0.7469020910528844
+          },
+          {
+            "jitter_sigma_ratio": 1.7750000000000001,
+            "empirical_selected_sample_overlap_fraction": 0.7666666666666667,
+            "gaussian_overlap_fraction": 0.7401562715359606
+          },
+          {
+            "jitter_sigma_ratio": 1.8,
+            "empirical_selected_sample_overlap_fraction": 0.75,
+            "gaussian_overlap_fraction": 0.7334794741949892
+          },
+          {
+            "jitter_sigma_ratio": 1.8250000000000002,
+            "empirical_selected_sample_overlap_fraction": 0.7466666666666667,
+            "gaussian_overlap_fraction": 0.7268732640510444
+          },
+          {
+            "jitter_sigma_ratio": 1.85,
+            "empirical_selected_sample_overlap_fraction": 0.7433333333333333,
+            "gaussian_overlap_fraction": 0.7203389517673048
+          },
+          {
+            "jitter_sigma_ratio": 1.875,
+            "empirical_selected_sample_overlap_fraction": 0.7366666666666667,
+            "gaussian_overlap_fraction": 0.7138776156089819
+          },
+          {
+            "jitter_sigma_ratio": 1.9000000000000001,
+            "empirical_selected_sample_overlap_fraction": 0.7333333333333333,
+            "gaussian_overlap_fraction": 0.7074901218161144
+          },
+          {
+            "jitter_sigma_ratio": 1.925,
+            "empirical_selected_sample_overlap_fraction": 0.7266666666666667,
+            "gaussian_overlap_fraction": 0.7011771434754889
+          },
+          {
+            "jitter_sigma_ratio": 1.9500000000000002,
+            "empirical_selected_sample_overlap_fraction": 0.7133333333333334,
+            "gaussian_overlap_fraction": 0.6949391779784471
+          },
+          {
+            "jitter_sigma_ratio": 1.975,
+            "empirical_selected_sample_overlap_fraction": 0.7133333333333334,
+            "gaussian_overlap_fraction": 0.6887765631505294
+          },
+          {
+            "jitter_sigma_ratio": 2.0,
+            "empirical_selected_sample_overlap_fraction": 0.71,
+            "gaussian_overlap_fraction": 0.6826894921370859
+          }
+        ]
+      }
+    ],
+    "conditional_energy_examples": [
+      {
+        "failed_fired_energy_fraction": 0.0,
+        "extra_serial_preparation_over_baseline_cycle": 0.0,
+        "per_attempt_energy_ratio": 1.3981462247436724,
+        "per_time_energy_ratio": 1.3981462247436724,
+        "assumptions": "Centered 1D Gaussian; window=reference SD; halve jitter; fixed successful-pulse energy; readiness/firing unchanged"
+      },
+      {
+        "failed_fired_energy_fraction": 0.0,
+        "extra_serial_preparation_over_baseline_cycle": 0.5,
+        "per_attempt_energy_ratio": 1.3981462247436724,
+        "per_time_energy_ratio": 0.9320974831624483,
+        "assumptions": "Centered 1D Gaussian; window=reference SD; halve jitter; fixed successful-pulse energy; readiness/firing unchanged"
+      },
+      {
+        "failed_fired_energy_fraction": 0.0,
+        "extra_serial_preparation_over_baseline_cycle": 1.0,
+        "per_attempt_energy_ratio": 1.3981462247436724,
+        "per_time_energy_ratio": 0.6990731123718362,
+        "assumptions": "Centered 1D Gaussian; window=reference SD; halve jitter; fixed successful-pulse energy; readiness/firing unchanged"
+      },
+      {
+        "failed_fired_energy_fraction": 0.2,
+        "extra_serial_preparation_over_baseline_cycle": 0.0,
+        "per_attempt_energy_ratio": 1.2914262959516707,
+        "per_time_energy_ratio": 1.2914262959516707,
+        "assumptions": "Centered 1D Gaussian; window=reference SD; halve jitter; fixed successful-pulse energy; readiness/firing unchanged"
+      },
+      {
+        "failed_fired_energy_fraction": 0.2,
+        "extra_serial_preparation_over_baseline_cycle": 0.5,
+        "per_attempt_energy_ratio": 1.2914262959516707,
+        "per_time_energy_ratio": 0.8609508639677804,
+        "assumptions": "Centered 1D Gaussian; window=reference SD; halve jitter; fixed successful-pulse energy; readiness/firing unchanged"
+      },
+      {
+        "failed_fired_energy_fraction": 0.2,
+        "extra_serial_preparation_over_baseline_cycle": 1.0,
+        "per_attempt_energy_ratio": 1.2914262959516707,
+        "per_time_energy_ratio": 0.6457131479758353,
+        "assumptions": "Centered 1D Gaussian; window=reference SD; halve jitter; fixed successful-pulse energy; readiness/firing unchanged"
+      },
+      {
+        "failed_fired_energy_fraction": 1.0,
+        "extra_serial_preparation_over_baseline_cycle": 0.0,
+        "per_attempt_energy_ratio": 1.0,
+        "per_time_energy_ratio": 1.0,
+        "assumptions": "Centered 1D Gaussian; window=reference SD; halve jitter; fixed successful-pulse energy; readiness/firing unchanged"
+      },
+      {
+        "failed_fired_energy_fraction": 1.0,
+        "extra_serial_preparation_over_baseline_cycle": 0.5,
+        "per_attempt_energy_ratio": 1.0,
+        "per_time_energy_ratio": 0.6666666666666666,
+        "assumptions": "Centered 1D Gaussian; window=reference SD; halve jitter; fixed successful-pulse energy; readiness/firing unchanged"
+      },
+      {
+        "failed_fired_energy_fraction": 1.0,
+        "extra_serial_preparation_over_baseline_cycle": 1.0,
+        "per_attempt_energy_ratio": 1.0,
+        "per_time_energy_ratio": 0.5,
+        "assumptions": "Centered 1D Gaussian; window=reference SD; halve jitter; fixed successful-pulse energy; readiness/firing unchanged"
+      }
+    ],
+    "measured_centroid_source_SD_mrad": 4.884921848783424,
+    "assumed_acceptance_center_mrad": -90.75169697630832,
+    "narrowing_operation": "Scale selected measured deviations about their mean; preserve fixed center. No causal acoustic attribution.",
+    "helium_location_predictions": [
+      {
+        "E_MeV": 2.25,
+        "location_um_by_model": {
+          "linear": 0.639,
+          "exponential": 0.639,
+          "power_law": 0.639
+        },
+        "classification": "DERIVED_INTERPOLATION_BETWEEN_TWO_SAME_CONDITION_ANCHORS",
+        "scenario_model_spread_um": [
+          0.639,
+          0.639
+        ],
+        "confidence_interval": null
+      },
+      {
+        "E_MeV": 3.3,
+        "location_um_by_model": {
+          "linear": 0.6260484581497797,
+          "exponential": 0.6258924307498112,
+          "power_law": 0.6234720048332052
+        },
+        "classification": "DERIVED_INTERPOLATION_BETWEEN_TWO_SAME_CONDITION_ANCHORS",
+        "scenario_model_spread_um": [
+          0.6234720048332052,
+          0.6260484581497797
+        ],
+        "confidence_interval": null
+      },
+      {
+        "E_MeV": 3.9,
+        "location_um_by_model": {
+          "linear": 0.6186475770925111,
+          "exponential": 0.6185234649965631,
+          "power_law": 0.6168177164155482
+        },
+        "classification": "DERIVED_INTERPOLATION_BETWEEN_TWO_SAME_CONDITION_ANCHORS",
+        "scenario_model_spread_um": [
+          0.6168177164155482,
+          0.6186475770925111
+        ],
+        "confidence_interval": null
+      },
+      {
+        "E_MeV": 4.52,
+        "location_um_by_model": {
+          "linear": 0.611,
+          "exponential": 0.611,
+          "power_law": 0.611
+        },
+        "classification": "DERIVED_INTERPOLATION_BETWEEN_TWO_SAME_CONDITION_ANCHORS",
+        "scenario_model_spread_um": [
+          0.611,
+          0.611
+        ],
+        "confidence_interval": null
+      },
+      {
+        "E_MeV": 5.0,
+        "location_um_by_model": {
+          "linear": 0.605079295154185,
+          "exponential": 0.6052382889559891,
+          "power_law": 0.6070518602812189
+        },
+        "classification": "DERIVED_EXTRAPOLATION_OUTSIDE_RECOVERED_MEASUREMENTS",
+        "scenario_model_spread_um": [
+          0.605079295154185,
+          0.6070518602812189
+        ],
+        "confidence_interval": null
+      },
+      {
+        "E_MeV": 6.0,
+        "location_um_by_model": {
+          "linear": 0.5927444933920705,
+          "exponential": 0.5934086364064399,
+          "power_law": 0.5999841485561511
+        },
+        "classification": "DERIVED_EXTRAPOLATION_OUTSIDE_RECOVERED_MEASUREMENTS",
+        "scenario_model_spread_um": [
+          0.5927444933920705,
+          0.5999841485561511
+        ],
+        "confidence_interval": null
+      },
+      {
+        "E_MeV": 7.5,
+        "location_um_by_model": {
+          "linear": 0.5742422907488987,
+          "exponential": 0.5760962715562603,
+          "power_law": 0.5914458569518781
+        },
+        "classification": "DERIVED_EXTRAPOLATION_OUTSIDE_RECOVERED_MEASUREMENTS",
+        "scenario_model_spread_um": [
+          0.5742422907488987,
+          0.5914458569518781
+        ],
+        "confidence_interval": null
+      },
+      {
+        "E_MeV": 8.0,
+        "location_um_by_model": {
+          "linear": 0.5680748898678414,
+          "exponential": 0.5704384596108338,
+          "power_law": 0.588999106511503
+        },
+        "classification": "DERIVED_EXTRAPOLATION_OUTSIDE_RECOVERED_MEASUREMENTS",
+        "scenario_model_spread_um": [
+          0.5680748898678414,
+          0.588999106511503
+        ],
+        "confidence_interval": null
+      }
+    ],
+    "helium_7p5_endpoint_sensitivity_um": {
+      "linear": [
+        0.5678285714285716,
+        0.5797418032786883
+      ],
+      "exponential": [
+        0.5702026104291051,
+        0.5811994211300138
+      ],
+      "power_law": [
+        0.587670534723163,
+        0.5947121964362586
+      ]
+    },
+    "endpoint_sensitivity_semantics": "Source energy intervals used as corner sensitivities; printed locations +/-0.0005 um rounding allowance. Not statistical CI or comprehensive model uncertainty.",
+    "full_7p5_detector_response": null,
+    "Stars_net_electrical_output": null,
+    "acoustic_wall_energy": null,
+    "acoustic_CAPEX": null,
+    "adverse_case": "Lower jitter can reduce overlap for a misaligned mean; added serial prep can reduce output per time. Stability alone need not change mean energy."
+  }
+}
