@@ -1,0 +1,48 @@
+{
+  "schema": "stellar-forge-apparatus-lineage/0.1",
+  "date": "2026-10-29",
+  "policy": "Additive configurations; no historical overwrite or automatic supersession",
+  "apparatus": [
+    {
+      "apparatus_id": "STARS_REFERENCE_V1",
+      "label": "Stars / Stellar Forge reference",
+      "status": "EXISTING_REFERENCE_FAMILY",
+      "parent_apparatus_ids": [],
+      "retained_module_inventory": "research/stars_2_0/implementation/reference_evidence_v0_10/MODULE_COVERAGE.json",
+      "note": "A concrete run must pin its exact configuration and code; this family name is not a complete apparatus specification."
+    },
+    {
+      "apparatus_id": "HYBRID_PB_RESEARCH_V0_1",
+      "label": "Hybrid p-B research apparatus candidate",
+      "status": "PROPOSED_EXPLORATORY_APPARATUS",
+      "parent_apparatus_ids": [],
+      "informed_by": [
+        "EXL-50U suprathermal source/distribution research",
+        "Arun Kumar et al. hollow-sphere PIC/FLUKA geometry",
+        "Borealis PRISM fuel/ash-management concept",
+        "Stars readiness, transport and energy accounting"
+      ],
+      "exact_configuration": null,
+      "reported_run_artifacts": null,
+      "reported_output_status": "User reports exploratory hybrid modeling; configuration, equations, inputs and numerical outputs not yet supplied to this review",
+      "simulated_performance": null,
+      "physical_compatibility": "OPEN_STAGE_BY_STAGE_REVIEW_REQUIRED",
+      "note": "Distinct candidate; borrowing mechanisms does not inherit integrated performance."
+    },
+    {
+      "apparatus_id": "STARS_DESIGN_CANDIDATE_V0_1",
+      "label": "Stars revised design candidate",
+      "status": "PROPOSED_REVISION_NOT_FROZEN",
+      "parent_apparatus_ids": [
+        "STARS_REFERENCE_V1"
+      ],
+      "informed_by_apparatus_ids": [
+        "HYBRID_PB_RESEARCH_V0_1"
+      ],
+      "accepted_design_deltas": [],
+      "promotion_requirement": "Explicitly reviewed component changes with source/transfer evidence, operating envelope, interface and full-cycle cost; match reference comparisons where physically meaningful."
+    }
+  ],
+  "scientific_freeze": false,
+  "all_modules_retained": true
+}
