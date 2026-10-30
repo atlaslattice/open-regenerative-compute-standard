@@ -1,0 +1,13 @@
+{
+  "legacy_screening": {
+    "a_assumed_recovered_kg": 3.65,
+    "surplus_kg": 4.912000000000013,
+    "surplus_percent_B_burn": 7.78446909667197,
+    "tbr_b_break_even": 0.9421553090332805,
+    "qualified_usable_surplus_kg": null,
+    "evidence": "POTENTIAL-DERIVED"
+  },
+  "constant_inventory_tonnes": 426.96,
+  "all_physical_gates": "OPEN",
+  "blanket_envelope": "RETIRED as derived performance; retained only as historical unvalidated test range"
+}

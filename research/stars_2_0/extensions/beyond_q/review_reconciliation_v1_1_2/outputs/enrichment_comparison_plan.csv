@@ -1,0 +1,25 @@
+route,li6_atom_fraction,alloy,fixed_blanket_cm,candidate_blanket_cm,common_basis,tbr,optimized_geometry,status
+fixed_geometry,0.075,inconel_surrogate,90,90,"same source spectrum and normalization, stoichiometry, temperature, ports and scoring",,,UNRESOLVED: no transport data; no geometry optimum selected
+fixed_geometry,0.2,inconel_surrogate,90,90,"same source spectrum and normalization, stoichiometry, temperature, ports and scoring",,,UNRESOLVED: no transport data; no geometry optimum selected
+fixed_geometry,0.3,inconel_surrogate,90,90,"same source spectrum and normalization, stoichiometry, temperature, ports and scoring",,,UNRESOLVED: no transport data; no geometry optimum selected
+fixed_geometry,0.9,inconel_surrogate,90,90,"same source spectrum and normalization, stoichiometry, temperature, ports and scoring",,,UNRESOLVED: no transport data; no geometry optimum selected
+fixed_geometry,0.075,vanadium_4cr4ti,90,90,"same source spectrum and normalization, stoichiometry, temperature, ports and scoring",,,UNRESOLVED: no transport data; no geometry optimum selected
+fixed_geometry,0.2,vanadium_4cr4ti,90,90,"same source spectrum and normalization, stoichiometry, temperature, ports and scoring",,,UNRESOLVED: no transport data; no geometry optimum selected
+fixed_geometry,0.3,vanadium_4cr4ti,90,90,"same source spectrum and normalization, stoichiometry, temperature, ports and scoring",,,UNRESOLVED: no transport data; no geometry optimum selected
+fixed_geometry,0.9,vanadium_4cr4ti,90,90,"same source spectrum and normalization, stoichiometry, temperature, ports and scoring",,,UNRESOLVED: no transport data; no geometry optimum selected
+fixed_geometry,0.075,eurofer_surrogate,90,90,"same source spectrum and normalization, stoichiometry, temperature, ports and scoring",,,UNRESOLVED: no transport data; no geometry optimum selected
+fixed_geometry,0.2,eurofer_surrogate,90,90,"same source spectrum and normalization, stoichiometry, temperature, ports and scoring",,,UNRESOLVED: no transport data; no geometry optimum selected
+fixed_geometry,0.3,eurofer_surrogate,90,90,"same source spectrum and normalization, stoichiometry, temperature, ports and scoring",,,UNRESOLVED: no transport data; no geometry optimum selected
+fixed_geometry,0.9,eurofer_surrogate,90,90,"same source spectrum and normalization, stoichiometry, temperature, ports and scoring",,,UNRESOLVED: no transport data; no geometry optimum selected
+separately_optimized_geometry,0.075,inconel_surrogate,,85;90;100,"same source spectrum and normalization, stoichiometry, temperature, ports and scoring",,,UNRESOLVED: no transport data; no geometry optimum selected
+separately_optimized_geometry,0.2,inconel_surrogate,,85;90;100,"same source spectrum and normalization, stoichiometry, temperature, ports and scoring",,,UNRESOLVED: no transport data; no geometry optimum selected
+separately_optimized_geometry,0.3,inconel_surrogate,,85;90;100,"same source spectrum and normalization, stoichiometry, temperature, ports and scoring",,,UNRESOLVED: no transport data; no geometry optimum selected
+separately_optimized_geometry,0.9,inconel_surrogate,,85;90;100,"same source spectrum and normalization, stoichiometry, temperature, ports and scoring",,,UNRESOLVED: no transport data; no geometry optimum selected
+separately_optimized_geometry,0.075,vanadium_4cr4ti,,85;90;100,"same source spectrum and normalization, stoichiometry, temperature, ports and scoring",,,UNRESOLVED: no transport data; no geometry optimum selected
+separately_optimized_geometry,0.2,vanadium_4cr4ti,,85;90;100,"same source spectrum and normalization, stoichiometry, temperature, ports and scoring",,,UNRESOLVED: no transport data; no geometry optimum selected
+separately_optimized_geometry,0.3,vanadium_4cr4ti,,85;90;100,"same source spectrum and normalization, stoichiometry, temperature, ports and scoring",,,UNRESOLVED: no transport data; no geometry optimum selected
+separately_optimized_geometry,0.9,vanadium_4cr4ti,,85;90;100,"same source spectrum and normalization, stoichiometry, temperature, ports and scoring",,,UNRESOLVED: no transport data; no geometry optimum selected
+separately_optimized_geometry,0.075,eurofer_surrogate,,85;90;100,"same source spectrum and normalization, stoichiometry, temperature, ports and scoring",,,UNRESOLVED: no transport data; no geometry optimum selected
+separately_optimized_geometry,0.2,eurofer_surrogate,,85;90;100,"same source spectrum and normalization, stoichiometry, temperature, ports and scoring",,,UNRESOLVED: no transport data; no geometry optimum selected
+separately_optimized_geometry,0.3,eurofer_surrogate,,85;90;100,"same source spectrum and normalization, stoichiometry, temperature, ports and scoring",,,UNRESOLVED: no transport data; no geometry optimum selected
+separately_optimized_geometry,0.9,eurofer_surrogate,,85;90;100,"same source spectrum and normalization, stoichiometry, temperature, ports and scoring",,,UNRESOLVED: no transport data; no geometry optimum selected
