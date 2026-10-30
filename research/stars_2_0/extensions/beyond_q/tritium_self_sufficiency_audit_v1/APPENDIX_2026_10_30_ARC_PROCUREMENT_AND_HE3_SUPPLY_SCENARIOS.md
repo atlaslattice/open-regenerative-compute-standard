@@ -1,0 +1,14 @@
+# Beyond Q fuel-cycle appendix — ARC procurement and helium-3 alternatives (2026-10-30)
+**Research status:** External evidence watch; not a model recalibration. **Source:** [DeepSeek research convergence audit](https://github.com/atlaslattice/open-regenerative-compute-standard/blob/main/docs/fiction/iron_empire/DEEPSEEK_RESEARCH_CONVERGENCE_EVIDENCE_AUDIT_v0_1_2026-10-30.md).
+## CFS commercial reference
+CFS announced ARC DOE roadmap/design milestones, Fujikura HTS tape agreement (>10,000 km), and PJM interconnection application. These are milestones in design, procurement and market development, **not independently measured ARC electric production**.
+Primary: https://www.fujikura.co.jp/en/news/pressrelease/20260930cfsarc1km.html ; https://www.cfs.energy/news-and-media/commonwealth-fusion-systems-becomes-first-fusion-company-to-apply-to-pjm-interconnection-the-largest-u-s-wholesale-electricity-market
+**Comparison invariant:** Reactor B remains **1.13 GW D-T fusion power** and Reactor A **hypothetical 20 MW primary D-D**. The planned ARC ~400 MW net electricity figure is a separate project reference; do not silently substitute older 525 MW references. Compare opportunity costs only after reconciling input assumptions, electrical balance and technology readiness.
+## Helium-3 alternatives
+Pulsar/LH3M announced October 14 evaluation of recovery from Topaz gas reported at ~11.2–11.9 ppb He-3. **Reported concentration is not a production rate, reserve, yield, cost or assured supply.**
+Primary: https://www.globenewswire.com/news-release/2026/10/14/3380328/0/en/pulsar-helium-and-lunar-helium-3-mining-sign-evaluation-agreement-for-helium-3-recovery-assessment-at-topaz.html
+Compare sources: existing terrestrial inventory/recycling; Topaz conditional extraction; D-D coproduct capture; other isotope-generation methods; quantum architectures with lower isotope demand. Parameterize feed volume, separation, isotope purity, capture efficiency, recycling, downtime, output kg/yr, thermal load, power, costs, site/regulatory constraints.
+## Strategic caution / lunar case
+It is physically possible for D-D fusion branches to generate **He-3**, but that does **not** establish economically competitive or demand-matching industrial production. Lunar regolith deposits are another proposed supply route, not established as the sole alternative. Any moon mining scenario must include lunar environmental and heritage concerns, extraction energy and transport costs. The Moon's gravitational influence on tides is real; impacts of specific mining projects require separate physical calculation, not assertion.
+## Actions
+Add independent model sensitivities **without editing existing numerical scenarios**. Classify supplied estimates separately from lab verified data and simulated-derived values.
