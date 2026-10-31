@@ -1,0 +1,3 @@
+source,T_branch_fraction,He3_atoms_per_primary_DD_J,T_atoms_per_primary_DD_J,He3_gross_kg_per_primary_DD_GJ,T_gross_kg_per_primary_DD_GJ,reactor_annual_output_kg,scope
+inherited_equal_branch_DD,0.5,855001243076.8167,855001243076.8167,4.2820467348917065e-06,4.282075073218544e-06,,prescribed DD scenario convention; neither ARC nor laser prediction
+archived_WarpX_20keV_frozen_box,0.48095699615028314,890923836578.2029,825550193454.4994,4.461955507489401e-06,4.134576333902071e-06,,"actual 2ps collision sample; no laser drive, confinement or He3 secondary burn"
