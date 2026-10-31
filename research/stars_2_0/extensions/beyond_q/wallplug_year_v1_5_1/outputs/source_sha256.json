@@ -1,0 +1,13 @@
+{
+  "startup_year_v1_4_1/calculate.py": "a4d8abc0efadd3d05607bf2721aedc584c93485892cd7972a4da9e1c75e7fd03",
+  "startup_year_v1_4_1/outputs/A1_staged_year.csv": "af540cdadc540c496f72cee5d19832f260c269ab6baa86dbdbc6c39c383238c3",
+  "startup_year_v1_4_1/outputs/startup_policies.csv": "76b7a08d43818f01f496a3f2f63a116928ac945c903fae9f7dcbe11ff6703f6c",
+  "wallplug_checkpoint_v1_5/ledger.py": "e69c736fa6f8ef7a5dad57db39188912c56a63ca1675a9d91cea4575ff29683d",
+  "wallplug_checkpoint_v1_5/inputs.json": "bc01c89e94630aa78450326edb0c7faf287eb55ed334a2d7c6bc927327de602c",
+  "multiscale_v1_4/inputs/scenarios.json": "c8aa108d757caa57d37c52424addb4bb43b36c7574c282721ae1b75bee2ab3ce",
+  "multiscale_v1_4/fuelcycle/inventory.py": "ca99a37afdbac21cd077b4129b8004b08c9256331c216b4fb37448d38055d007",
+  "multiscale_v1_4/fuelcycle/model.py": "fd7cfef1dda46390ad4af65f96943a9e11a8b020c68fad3d7fb74bbf51f6fab4",
+  "multiscale_v1_4/fuelcycle/__init__.py": "4d71a8ba742ae35c26d55a27ebb4fb3ba26194b023f70e1327443aa4a232d1ad",
+  "multiscale_v1_4/fuelcycle/schedules.py": "149e65d6528e06dd61998b592cca56219f45eb649261f7853a46701680f36ed8",
+  "multiscale_v1_4/fuelcycle/physics.py": "73feeaefc1524be689aa945d4ba6e43fd15c933d616b3516bb88399dbd689da7"
+}

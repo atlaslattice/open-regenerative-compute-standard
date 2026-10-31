@@ -1,0 +1,13 @@
+{
+  "year.py": "40391b08468eb03e75cf0ad4a6a7185e77649a792b7149ffdf85996ecab2d08c",
+  "REPORT.md": "b71baa9dc0f6ee6cec0c398e509b4bbe6fa34565f45875593d2254db8b3f5ed0",
+  "AUDIT_HISTORY.jsonl": "4c6ed89146da3641b4bc885963a17ea02b7ea7db1386be78ab3106f694eb7c95",
+  "test_year.py": "605abd54dd20b914a991c25ca2580cbbae364535dbd70488682f8c9a76f5aba5",
+  ".gitignore": "862263fa1f46c20f0d1e4dac5ffcc75abd55c08211b2c3864c5f8764b9d87793",
+  "outputs/source_sha256.json": "233f1394c2efc47c59e3eaaf27d7671d007351c26edefe011d785f9a97bc3fd4",
+  "outputs/daily_reference.csv": "06d71cdb1e9934c5edde18698aee3befc9cbe4a4cbf9f920e95e23fb66ae91bd",
+  "outputs/checks.json": "9172f8bd8231bc5844e411986d8f4518da68fb4132b5bdb4552834fccf2129c0",
+  "outputs/phase_energy.csv": "040e4e887669b38d509f3603ecef901bcc52452b5fb88bc31b23a39f62107763",
+  "outputs/tests.txt": "448a0f966e28e8843f21fbf0c85fe49f8f6ae5086dbd458910e15873936aa575",
+  "outputs/import_price_sensitivity.csv": "9c7e0066a8e3fff5d9837e19d636193dac904c8a2aadfa8cf0aabb8b8ce63cc1"
+}

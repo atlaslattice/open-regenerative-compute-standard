@@ -1,0 +1,12 @@
+test_daily_sums (test_year.Checks.test_daily_sums) ... ok
+test_energy_and_hourly_import_balance (test_year.Checks.test_energy_and_hourly_import_balance) ... ok
+test_negative_counter_rejected (test_year.Checks.test_negative_counter_rejected) ... ok
+test_no_qualification_or_profit (test_year.Checks.test_no_qualification_or_profit) ... ok
+test_phase_clock (test_year.Checks.test_phase_clock) ... ok
+test_replay (test_year.Checks.test_replay) ... ok
+test_startup_B_has_no_energy (test_year.Checks.test_startup_B_has_no_energy) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.002s
+
+OK
