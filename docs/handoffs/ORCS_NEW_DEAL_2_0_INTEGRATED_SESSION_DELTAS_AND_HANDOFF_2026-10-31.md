@@ -72,6 +72,20 @@ The ORCS industrial simulation already cautions that the **2025 U.S. goods-and-s
 | Historical Microsoft claim | 138/144 claim versus 50+60+25=135 | **Open discrepancy:** 95.8% claimed vs approximate buckets imply 93.75%; cross-validate and reconcile |
 | Historical '30 gap-coverage spheres' | Council complementarity analysis | Specialist gap-fill count; **NOT** proven to equal human-reserved sphere count |
 
+### 3A. Restored Circle / USDC economics and merchant rollout
+
+**Dedicated cross-linked ledger:** [USDC × Circle settlement, merchant, reserve-float and 10× economics (2026-10-31)](../USDC_CIRCLE_SETTLEMENT_RESERVE_AND_MERCHANT_ECONOMICS_2026-10-31.md).
+
+These material numbers **were omitted from the original two session records and were restored after the owner's audit**:
+
+- **3M workers; $180B/year hypothetical gross payroll**, assumed 70% spendable × 60% local spend = **$75.6B annual merchant volume**; fee comparison **1.5%→0.5%** generates **$756M/year gross merchant avoided fees** before actual program costs.
+- **3,144 county hubs × 100 participating merchant endpoints = 314,400 endpoints**. At assumed **$59 readers** total **$18.5496M**, or at **$299 terminals** total **$94.0056M** of hardware alone.
+- **10× optional 30M-worker expansion:** **$1.8T payroll**, **$756B merchant volume**, **$7.56B gross avoided annual merchant fees** at an assumed 1pp fee improvement. Do **not** automatically assume 10× county hubs or merchant devices.
+- **Candidate average outstanding USDC:** **$750M/$3B/$9B/$18B** → **$26.25M/$105M/$315M/$630M gross annual reserve income** at assumed 3.5%. **This is Circle/issuer-side gross sensitivity, NOT ORCS or community income**, and neither annual payroll nor transaction value equals average backing reserves.
+- **Circle actual Q2 2026 (released Aug 5):** **$73.3B quarter-end circulating USDC**, **$76.5B quarter-average**, **3.5% reserve return rate**, **$668M reserve income**, **$701M revenue + reserve income**, **$412M distribution/transaction/other costs** (~59% of the revenue base), and **$48M GAAP continuing net income**. Official Oct 29 USDC outstanding snapshot is **$70.0B**, not $73.3B. Q3 report scheduled Nov 4, 2026.
+- The discussed **$3,000 per person/year/per-buyer analytics license sensitivity × 3M = $9B gross for one fully subscribed buyer**, an extreme **unsupported** scenario, **not** a USDC fee or observed analytics market demand.
+- **Circle reserves backing USDC are not an industrial-capital pool.** Circle is not contracted with ORCS, Circle Mint is institutional, fiat conversion and partner distribution economics require verified contracts, and public-chain payments are not anonymous.
+
 **Double-counting stop list:** Gross payroll ≠ GDP increment; USDC payment throughput ≠ economic surplus; a gross merchant quote ≠ certified live inventory; an individual participant ≠ independently priced transferable data asset; a housing shell ≠ move-in-ready dwelling; manufacturing headcount ≠ housing + construction + field workforce additive without deduplication; hypothetical avoided import spending ≠ saved domestic dollars net of forgone exports; multiple AI agreements ≠ independent physical validation; contracted net income ≠ public capital asset unless actually received and expended.
 
 ## 4. Prior Pantheon source recovery and epistemic distinctions
