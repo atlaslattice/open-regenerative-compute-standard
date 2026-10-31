@@ -4,7 +4,7 @@
 
 **Scope:** The full interconnected U.S. electricity system—transmission, distribution, substations, 60–80M distribution transformers, distributed generation, storage, interconnection, residential/industrial service and large AI/quantum loads. Apply an *interoperability/measurement/optimization protocol nationwide*; fit physical sensors and controls **where site-specific engineering justifies them**, not one sensor on every asset or one centralized AI empowered to operate the grid.
 
-Companion: [reproducible three-scenario Python model](national_grid_ai_scenarios.py); [Transformer 3.0 exploratory manufacturing RFQ](../manufacturing/TRANSFORMER_3_0_FULLY_ADDITIVE_SIC_SST_RFQ_COST_GATES_2026-10-31.md).
+Companion: [reproducible three-scenario Python model](national_grid_ai_scenarios.py); [national workforce and job-years addendum](WORKFORCE_AND_JOB_YEARS_2026-10-31.md); [Transformer 3.0 exploratory manufacturing RFQ](../manufacturing/TRANSFORMER_3_0_FULLY_ADDITIVE_SIC_SST_RFQ_COST_GATES_2026-10-31.md).
 
 ## 1. Verified national inputs and boundaries
 
