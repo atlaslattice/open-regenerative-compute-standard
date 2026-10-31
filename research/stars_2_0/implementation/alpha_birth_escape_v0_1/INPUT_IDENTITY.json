@@ -1,0 +1,12 @@
+{
+  "receiver": {
+    "path": "warpx_target_handoff_v0_2/run001/RESULTS.json",
+    "sha256": "afe996de27eb985f9c5a423c2ad968c6ca062d16c3f07e92ed0ef06def77e7c9",
+    "parent_commit": "ccd944f4496ae98c68c916269edc4fdd8dfed01a"
+  },
+  "masses": {
+    "path": "coupled_reference_v0_5/MASS_SOURCE.json",
+    "sha256": "ae8cd1bb6bb9a9aae17f00addc7badf65ef2e5565f44fae649a36b438c737136",
+    "alpha_MeV": 3727.3794118
+  }
+}

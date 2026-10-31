@@ -1,0 +1,147 @@
+{
+  "package": "alpha_birth_escape_v0_1",
+  "files": [
+    {
+      "path": "BANK_AUDIT.json",
+      "bytes": 8886,
+      "sha256": "47143cf3540f2da6f5e2c7afc9697800c020f1ff99eb92eb4d4c531877392b24"
+    },
+    {
+      "path": "DEPENDENCY_LOCK.json",
+      "bytes": 3658,
+      "sha256": "3d80eac0b525a5bbcfd8f985f41bbc0e1468bcd8159f16769d82886ec05abb6c"
+    },
+    {
+      "path": "HANDOFF.md",
+      "bytes": 1383,
+      "sha256": "9264de737ce21b902c94107784a789304deac8ae631d8dcb69fc780616e6bb33"
+    },
+    {
+      "path": "INPUT_IDENTITY.json",
+      "bytes": 417,
+      "sha256": "efa907b96a6d86f1361842488ca0cbe7cbde334a9036c1f73815727c9fd6cb7b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7422,
+      "sha256": "44452e7b8f6dd693d1ffc382d9660b5e912aa4d5d49a627e8db135585615e751"
+    },
+    {
+      "path": "RUN001.log",
+      "bytes": 720,
+      "sha256": "f90a897eac93f211837110b6988c98ad23a66936b3c5294c259113ba40c16426"
+    },
+    {
+      "path": "RUN002.log",
+      "bytes": 262,
+      "sha256": "671ecbd76108b48ce4dc79fae7abac3b7f81740a603b7235845045f94dcf823e"
+    },
+    {
+      "path": "RUN003.log",
+      "bytes": 260,
+      "sha256": "36b4b601cd84e715de59610b6f13406a7448bbcab7f899be4ed0c991fde0131e"
+    },
+    {
+      "path": "RUN004.log",
+      "bytes": 262,
+      "sha256": "671ecbd76108b48ce4dc79fae7abac3b7f81740a603b7235845045f94dcf823e"
+    },
+    {
+      "path": "TESTS.log",
+      "bytes": 1209,
+      "sha256": "eacdc208d3869609a6c4e03fd08194af766a693fe653d88a81f051ba6219c15b"
+    },
+    {
+      "path": "TESTS_RECHECK.log",
+      "bytes": 1209,
+      "sha256": "eacdc208d3869609a6c4e03fd08194af766a693fe653d88a81f051ba6219c15b"
+    },
+    {
+      "path": "audit_banks.py",
+      "bytes": 2749,
+      "sha256": "a46907c5321570fe199930f121e2c57959f0281ea613f490cefeb4525f4a4c9c"
+    },
+    {
+      "path": "event_banks.tar.gz",
+      "bytes": 1726627,
+      "sha256": "2cb360282361c652912ff68bffd5ee6157633a00cf53a780d9070533aa06c87a"
+    },
+    {
+      "path": "reproduce.py",
+      "bytes": 474,
+      "sha256": "4bc67bf947a65dab4058c8467cd7e905ea0dc2d5f56dbc320382c6aeb1558327"
+    },
+    {
+      "path": "run.py",
+      "bytes": 8935,
+      "sha256": "122acff9d897c306516a6caf3dfe48a0d061c863b5628f1590423beed3d97cd4"
+    },
+    {
+      "path": "run001/RECEIPT.json",
+      "bytes": 510,
+      "sha256": "b30356bf5b1343fd09e54598adb1d7e15868424779cc089fe3a719b8838438b7"
+    },
+    {
+      "path": "run001/RESULTS.json",
+      "bytes": 16696,
+      "sha256": "593cad64711ffee092d4acecb5876808132d9670e23ae76e901d9f617afce9b9"
+    },
+    {
+      "path": "run002/RECEIPT.json",
+      "bytes": 523,
+      "sha256": "cdae711b2c7b2bf32a249bfbaa0a25b4b20eb65bcd9f51ebc9e9ad812a3c5e60"
+    },
+    {
+      "path": "run002/RESULTS.json",
+      "bytes": 16701,
+      "sha256": "2e14ca7df541783a5a46b9ed055b4405c7cbdf13ec32f54f9a2606c4849f5382"
+    },
+    {
+      "path": "run003/RECEIPT.json",
+      "bytes": 523,
+      "sha256": "bdb8ed9534f59eb120ea168cb7160c94ae4d01ccf747b5a8f887160496f460f0"
+    },
+    {
+      "path": "run003/RESULTS.json",
+      "bytes": 16704,
+      "sha256": "8dfd982b14fdccb69fe941d2c5b57b6049bbd48e5bece23dfcb997e414c5b696"
+    },
+    {
+      "path": "run004/RECEIPT.json",
+      "bytes": 523,
+      "sha256": "cdae711b2c7b2bf32a249bfbaa0a25b4b20eb65bcd9f51ebc9e9ad812a3c5e60"
+    },
+    {
+      "path": "run004/RESULTS.json",
+      "bytes": 16701,
+      "sha256": "df6a982dd9bf1d018005963288aa8500436d0be57f2f792fffec21d1e491ace9"
+    },
+    {
+      "path": "run_refined.py",
+      "bytes": 8958,
+      "sha256": "b057c8aa57ea73d149b8014ac1d2fcfe064d9616211da7f74e8208423d3432a9"
+    },
+    {
+      "path": "test_transport.py",
+      "bytes": 2867,
+      "sha256": "d5b1d280e374c3731f342b8a428a3acb0b473e0444080e62fee39b575882b10b"
+    },
+    {
+      "path": "transport.py",
+      "bytes": 1688,
+      "sha256": "bcaf668e08851a44ff8c6ac78672612542207ffe0166748993c65a98de32690b"
+    },
+    {
+      "path": "transport_v002.py",
+      "bytes": 1815,
+      "sha256": "88207ad8770127d322fa18f44092a5c3e4fd0b56d8f0e4b917496dd1504c9183"
+    },
+    {
+      "path": "unpack_banks.py",
+      "bytes": 717,
+      "sha256": "29f54f7b640925930676f01c96ab47d8f6d487c0c59ab25ea586e0e59fb35dcc"
+    }
+  ],
+  "event_banks": "archived losslessly in event_banks.tar.gz; individual archive hashes in run receipts",
+  "scientific_freeze": false
+}

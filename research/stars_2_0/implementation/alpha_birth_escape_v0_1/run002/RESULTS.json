@@ -1,0 +1,493 @@
+{
+  "status": "CONDITIONAL_INFINITE_SLAB_ALPHA_ESCAPE",
+  "receiver_sha256": "afe996de27eb985f9c5a423c2ad968c6ca062d16c3f07e92ed0ef06def77e7c9",
+  "seed": 20261031,
+  "RNG": "NumPy default_rng PCG64",
+  "samples_per_cell": 128,
+  "total_proposals": 2048,
+  "source_cases": [
+    "PHASE_SPACE_NULL",
+    "COHERENT_L1_L3_RAW",
+    "INCOHERENT_RAW_ABLATION",
+    "PURE_L1_CONTROL",
+    "PURE_L3_CONTROL"
+  ],
+  "source_config": {
+    "primary_radius_fm": 5.022361472755478,
+    "secondary_radius_fm": 4.5,
+    "pair_level_above_threshold_MeV": 3.12884,
+    "pair_reduced_width_squared_MeV": 1.075,
+    "boundary_convention": "S_AT_DECLARED_PAIR_LEVEL",
+    "coulomb_phase_convention": "RELATIVE_TO_SIGMA0",
+    "basis_convention": "RAW_EQUATIONS_NOT_BRANCH_FRACTIONS",
+    "run_class": "EXPLORATORY_LITERATURE_MODEL"
+  },
+  "source_domain": "Exploratory isolated unpolarized2-minus candidate extended to each local receiver energy; not fitted across this energy interval",
+  "material": "COLD_ELEMENTAL_B11",
+  "geometry": "LATERALLY_INFINITE_SLAB_NORMAL_COLUMN_CONTROL_NOT_REAL_POCKET",
+  "lower_stopping_energy_MeV": 0.0040026029999999995,
+  "stopping_grid_steps": [
+    8192,
+    16384
+  ],
+  "maximum_stopping_refinement_difference_MeV": 2.5056518171417963e-07,
+  "refinement_status_changes": [],
+  "maximum_four_momentum_residual_MeV": 5.4569682106375694e-12,
+  "maximum_birth_energy_residual_MeV": 3.863576125695545e-12,
+  "cells": [
+    {
+      "cell": 0,
+      "E_proton_LAB_MeV": 0.674809989889764,
+      "normal_depth_atoms_cm2": 3.125e+16,
+      "expected_events": 0.0010106579406018257,
+      "importance_ESS_by_case": {
+        "PHASE_SPACE_NULL": 128.0,
+        "COHERENT_L1_L3_RAW": 44.89572543237675,
+        "INCOHERENT_RAW_ABLATION": 62.26825345285253,
+        "PURE_L1_CONTROL": 63.895369864846046,
+        "PURE_L3_CONTROL": 42.40503586971151
+      }
+    },
+    {
+      "cell": 1,
+      "E_proton_LAB_MeV": 0.6744298665896638,
+      "normal_depth_atoms_cm2": 9.375e+16,
+      "expected_events": 0.001011571424930801,
+      "importance_ESS_by_case": {
+        "PHASE_SPACE_NULL": 128.0,
+        "COHERENT_L1_L3_RAW": 48.05044642421558,
+        "INCOHERENT_RAW_ABLATION": 61.60494431952951,
+        "PURE_L1_CONTROL": 61.44713736064132,
+        "PURE_L3_CONTROL": 48.1174344430444
+      }
+    },
+    {
+      "cell": 2,
+      "E_proton_LAB_MeV": 0.6740496055406067,
+      "normal_depth_atoms_cm2": 1.5625e+17,
+      "expected_events": 0.0010124852400476719,
+      "importance_ESS_by_case": {
+        "PHASE_SPACE_NULL": 128.0,
+        "COHERENT_L1_L3_RAW": 46.733490605999776,
+        "INCOHERENT_RAW_ABLATION": 61.48833194501916,
+        "PURE_L1_CONTROL": 61.90805229399428,
+        "PURE_L3_CONTROL": 47.828491014831634
+      }
+    },
+    {
+      "cell": 3,
+      "E_proton_LAB_MeV": 0.6736692060734409,
+      "normal_depth_atoms_cm2": 2.1875e+17,
+      "expected_events": 0.0010133993875602895,
+      "importance_ESS_by_case": {
+        "PHASE_SPACE_NULL": 128.0,
+        "COHERENT_L1_L3_RAW": 41.83746602236674,
+        "INCOHERENT_RAW_ABLATION": 57.58999897066495,
+        "PURE_L1_CONTROL": 59.2007163976967,
+        "PURE_L3_CONTROL": 39.447498394144226
+      }
+    },
+    {
+      "cell": 4,
+      "E_proton_LAB_MeV": 0.6732886681129118,
+      "normal_depth_atoms_cm2": 2.8125e+17,
+      "expected_events": 0.0010143138676491352,
+      "importance_ESS_by_case": {
+        "PHASE_SPACE_NULL": 128.0,
+        "COHERENT_L1_L3_RAW": 50.93461013891843,
+        "INCOHERENT_RAW_ABLATION": 62.41901486186686,
+        "PURE_L1_CONTROL": 60.389356336550875,
+        "PURE_L3_CONTROL": 52.319075205395784
+      }
+    },
+    {
+      "cell": 5,
+      "E_proton_LAB_MeV": 0.6729079916085974,
+      "normal_depth_atoms_cm2": 3.4375e+17,
+      "expected_events": 0.001015228680435007,
+      "importance_ESS_by_case": {
+        "PHASE_SPACE_NULL": 128.0,
+        "COHERENT_L1_L3_RAW": 46.690533896174024,
+        "INCOHERENT_RAW_ABLATION": 60.35170989382371,
+        "PURE_L1_CONTROL": 59.152773523558885,
+        "PURE_L3_CONTROL": 49.01135552051511
+      }
+    },
+    {
+      "cell": 6,
+      "E_proton_LAB_MeV": 0.6725271765100576,
+      "normal_depth_atoms_cm2": 4.0625e+17,
+      "expected_events": 0.0010161438260387458,
+      "importance_ESS_by_case": {
+        "PHASE_SPACE_NULL": 128.0,
+        "COHERENT_L1_L3_RAW": 50.462908028202875,
+        "INCOHERENT_RAW_ABLATION": 63.936845341859886,
+        "PURE_L1_CONTROL": 63.36631424884531,
+        "PURE_L3_CONTROL": 49.09677604189272
+      }
+    },
+    {
+      "cell": 7,
+      "E_proton_LAB_MeV": 0.672146222766834,
+      "normal_depth_atoms_cm2": 4.6875e+17,
+      "expected_events": 0.0010170593045812366,
+      "importance_ESS_by_case": {
+        "PHASE_SPACE_NULL": 128.0,
+        "COHERENT_L1_L3_RAW": 52.4873796171629,
+        "INCOHERENT_RAW_ABLATION": 64.013693627346,
+        "PURE_L1_CONTROL": 63.05984869222413,
+        "PURE_L3_CONTROL": 49.3258938211892
+      }
+    },
+    {
+      "cell": 8,
+      "E_proton_LAB_MeV": 0.6717651303284498,
+      "normal_depth_atoms_cm2": 5.3125e+17,
+      "expected_events": 0.001017975116183408,
+      "importance_ESS_by_case": {
+        "PHASE_SPACE_NULL": 128.0,
+        "COHERENT_L1_L3_RAW": 43.94045491886016,
+        "INCOHERENT_RAW_ABLATION": 62.329352064355156,
+        "PURE_L1_CONTROL": 64.20205403424497,
+        "PURE_L3_CONTROL": 40.23780138656899
+      }
+    },
+    {
+      "cell": 9,
+      "E_proton_LAB_MeV": 0.6713838989448006,
+      "normal_depth_atoms_cm2": 5.9375e+17,
+      "expected_events": 0.001018891261445972,
+      "importance_ESS_by_case": {
+        "PHASE_SPACE_NULL": 128.0,
+        "COHERENT_L1_L3_RAW": 45.764503636510675,
+        "INCOHERENT_RAW_ABLATION": 65.30737534462624,
+        "PURE_L1_CONTROL": 65.68334096122375,
+        "PURE_L3_CONTROL": 42.98394107631927
+      }
+    },
+    {
+      "cell": 10,
+      "E_proton_LAB_MeV": 0.6710025278980919,
+      "normal_depth_atoms_cm2": 6.5625e+17,
+      "expected_events": 0.001019807742093683,
+      "importance_ESS_by_case": {
+        "PHASE_SPACE_NULL": 128.0,
+        "COHERENT_L1_L3_RAW": 45.28547183822434,
+        "INCOHERENT_RAW_ABLATION": 61.361070547685735,
+        "PURE_L1_CONTROL": 61.512222130392516,
+        "PURE_L3_CONTROL": 45.294458613176275
+      }
+    },
+    {
+      "cell": 11,
+      "E_proton_LAB_MeV": 0.6706210170835287,
+      "normal_depth_atoms_cm2": 7.1875e+17,
+      "expected_events": 0.0010207245583780152,
+      "importance_ESS_by_case": {
+        "PHASE_SPACE_NULL": 128.0,
+        "COHERENT_L1_L3_RAW": 49.66080656455772,
+        "INCOHERENT_RAW_ABLATION": 64.19857126496142,
+        "PURE_L1_CONTROL": 63.09429438115168,
+        "PURE_L3_CONTROL": 51.08506524065641
+      }
+    },
+    {
+      "cell": 12,
+      "E_proton_LAB_MeV": 0.6702393664498875,
+      "normal_depth_atoms_cm2": 7.8125e+17,
+      "expected_events": 0.0010216417104216907,
+      "importance_ESS_by_case": {
+        "PHASE_SPACE_NULL": 128.0,
+        "COHERENT_L1_L3_RAW": 47.938005167697206,
+        "INCOHERENT_RAW_ABLATION": 61.62837145343085,
+        "PURE_L1_CONTROL": 61.44701829913988,
+        "PURE_L3_CONTROL": 47.87657213969553
+      }
+    },
+    {
+      "cell": 13,
+      "E_proton_LAB_MeV": 0.6698575759459264,
+      "normal_depth_atoms_cm2": 8.4375e+17,
+      "expected_events": 0.001022559198347473,
+      "importance_ESS_by_case": {
+        "PHASE_SPACE_NULL": 128.0,
+        "COHERENT_L1_L3_RAW": 36.70697403062398,
+        "INCOHERENT_RAW_ABLATION": 53.171103949481015,
+        "PURE_L1_CONTROL": 54.631958530373204,
+        "PURE_L3_CONTROL": 38.49410508816574
+      }
+    },
+    {
+      "cell": 14,
+      "E_proton_LAB_MeV": 0.6694756455203846,
+      "normal_depth_atoms_cm2": 9.0625e+17,
+      "expected_events": 0.0010234770222781729,
+      "importance_ESS_by_case": {
+        "PHASE_SPACE_NULL": 128.0,
+        "COHERENT_L1_L3_RAW": 37.591581902901346,
+        "INCOHERENT_RAW_ABLATION": 51.83104001450245,
+        "PURE_L1_CONTROL": 52.86693662567551,
+        "PURE_L3_CONTROL": 38.50495213836413
+      }
+    },
+    {
+      "cell": 15,
+      "E_proton_LAB_MeV": 0.6690935751219828,
+      "normal_depth_atoms_cm2": 9.6875e+17,
+      "expected_events": 0.0010243951823366436,
+      "importance_ESS_by_case": {
+        "PHASE_SPACE_NULL": 128.0,
+        "COHERENT_L1_L3_RAW": 33.68207506515702,
+        "INCOHERENT_RAW_ABLATION": 47.66217970879024,
+        "PURE_L1_CONTROL": 48.184844157969785,
+        "PURE_L3_CONTROL": 34.86634333354236
+      }
+    }
+  ],
+  "results": [
+    {
+      "source": "PHASE_SPACE_NULL",
+      "evidence": "EXPLORATORY_SOURCE_AND_CALCULATED_COLD_STOPPING_NOT_CALIBRATED",
+      "expected_events": 0.01628033146332977,
+      "alpha_birth_weight": 0.0488409943899893,
+      "alpha_resolved_escape_weight": 0.048419552135598856,
+      "alpha_unresolved_weight": 0.00042144225439045494,
+      "birth_kinetic_MeV": 0.15229445967631097,
+      "resolved_escape_kinetic_MeV": 0.14904203643518618,
+      "material_transfer_lower_MeV": 0.003250736375093042,
+      "unresolved_kinetic_budget_MeV": 1.6868660317499977e-06,
+      "escape_energy_conditional_bounds_MeV": [
+        0.14904203643518618,
+        0.14904372330121793
+      ],
+      "rear_escape_kinetic_MeV": 0.08405212318452765,
+      "front_escape_kinetic_MeV": 0.06498991325065853,
+      "energy_budget_residual_MeV": -7.707999820014133e-19,
+      "count_budget_residual": -7.697835424647081e-18,
+      "physical_uncertainty": null,
+      "collector_electricity_J": null,
+      "facility_net_electricity_J": null,
+      "exit_position_time": null
+    },
+    {
+      "source": "COHERENT_L1_L3_RAW",
+      "evidence": "EXPLORATORY_SOURCE_AND_CALCULATED_COLD_STOPPING_NOT_CALIBRATED",
+      "expected_events": 0.016280331463329772,
+      "alpha_birth_weight": 0.04884099438998932,
+      "alpha_resolved_escape_weight": 0.04834183252586982,
+      "alpha_unresolved_weight": 0.0004991618641194864,
+      "birth_kinetic_MeV": 0.15229445967631078,
+      "resolved_escape_kinetic_MeV": 0.14895188413152322,
+      "material_transfer_lower_MeV": 0.003340577598012732,
+      "unresolved_kinetic_budget_MeV": 1.9979467748102484e-06,
+      "escape_energy_conditional_bounds_MeV": [
+        0.14895188413152322,
+        0.14895388207829802
+      ],
+      "rear_escape_kinetic_MeV": 0.08504375655878149,
+      "front_escape_kinetic_MeV": 0.06390812757274172,
+      "energy_budget_residual_MeV": 2.0271192493689916e-17,
+      "count_budget_residual": 9.75781955236954e-18,
+      "physical_uncertainty": null,
+      "collector_electricity_J": null,
+      "facility_net_electricity_J": null,
+      "exit_position_time": null
+    },
+    {
+      "source": "INCOHERENT_RAW_ABLATION",
+      "evidence": "EXPLORATORY_SOURCE_AND_CALCULATED_COLD_STOPPING_NOT_CALIBRATED",
+      "expected_events": 0.016280331463329772,
+      "alpha_birth_weight": 0.04884099438998932,
+      "alpha_resolved_escape_weight": 0.048375476112064705,
+      "alpha_unresolved_weight": 0.00046551827792460683,
+      "birth_kinetic_MeV": 0.15229445967631056,
+      "resolved_escape_kinetic_MeV": 0.14893044909312392,
+      "material_transfer_lower_MeV": 0.0033621472983308377,
+      "unresolved_kinetic_budget_MeV": 1.8632848557758648e-06,
+      "escape_energy_conditional_bounds_MeV": [
+        0.14893044909312392,
+        0.1489323123779797
+      ],
+      "rear_escape_kinetic_MeV": 0.08510141898560528,
+      "front_escape_kinetic_MeV": 0.06382903010751864,
+      "energy_budget_residual_MeV": 2.4926273813562737e-17,
+      "count_budget_residual": 5.149960319306146e-18,
+      "physical_uncertainty": null,
+      "collector_electricity_J": null,
+      "facility_net_electricity_J": null,
+      "exit_position_time": null
+    },
+    {
+      "source": "PURE_L1_CONTROL",
+      "evidence": "EXPLORATORY_SOURCE_AND_CALCULATED_COLD_STOPPING_NOT_CALIBRATED",
+      "expected_events": 0.016280331463329772,
+      "alpha_birth_weight": 0.04884099438998932,
+      "alpha_resolved_escape_weight": 0.048388626720873434,
+      "alpha_unresolved_weight": 0.00045236766911587226,
+      "birth_kinetic_MeV": 0.15229445967631045,
+      "resolved_escape_kinetic_MeV": 0.1489233203204839,
+      "material_transfer_lower_MeV": 0.003369328707637087,
+      "unresolved_kinetic_budget_MeV": 1.8106481895061976e-06,
+      "escape_energy_conditional_bounds_MeV": [
+        0.1489233203204839,
+        0.14892513096867338
+      ],
+      "rear_escape_kinetic_MeV": 0.08527014836834419,
+      "front_escape_kinetic_MeV": 0.0636531719521397,
+      "energy_budget_residual_MeV": -3.525711115474981e-17,
+      "count_budget_residual": 1.0625181290357943e-17,
+      "physical_uncertainty": null,
+      "collector_electricity_J": null,
+      "facility_net_electricity_J": null,
+      "exit_position_time": null
+    },
+    {
+      "source": "PURE_L3_CONTROL",
+      "evidence": "EXPLORATORY_SOURCE_AND_CALCULATED_COLD_STOPPING_NOT_CALIBRATED",
+      "expected_events": 0.016280331463329772,
+      "alpha_birth_weight": 0.04884099438998932,
+      "alpha_resolved_escape_weight": 0.048315709644812965,
+      "alpha_unresolved_weight": 0.0005252847451763482,
+      "birth_kinetic_MeV": 0.15229445967631083,
+      "resolved_escape_kinetic_MeV": 0.1489534729748113,
+      "material_transfer_lower_MeV": 0.0033388841952026603,
+      "unresolved_kinetic_budget_MeV": 2.102506296897087e-06,
+      "escape_energy_conditional_bounds_MeV": [
+        0.1489534729748113,
+        0.1489555754811082
+      ],
+      "rear_escape_kinetic_MeV": 0.0843719454260913,
+      "front_escape_kinetic_MeV": 0.06458152754871999,
+      "energy_budget_residual_MeV": -1.4276316809497605e-17,
+      "count_budget_residual": 3.7947076036992655e-18,
+      "physical_uncertainty": null,
+      "collector_electricity_J": null,
+      "facility_net_electricity_J": null,
+      "exit_position_time": null
+    }
+  ],
+  "checks": [
+    {
+      "name": "birth_four_momentum",
+      "passed": true
+    },
+    {
+      "name": "birth_mass_shell",
+      "passed": true
+    },
+    {
+      "name": "each_birth_kinetic_sum",
+      "passed": true
+    },
+    {
+      "name": "each_alpha_escape_budget",
+      "passed": true
+    },
+    {
+      "name": "stopping_refinement_1e_minus6_MeV",
+      "passed": true
+    },
+    {
+      "name": "PHASE_SPACE_NULL_reaction_normalization_fixed",
+      "passed": true
+    },
+    {
+      "name": "PHASE_SPACE_NULL_birth_energy_matches_receiver",
+      "passed": true
+    },
+    {
+      "name": "PHASE_SPACE_NULL_alpha_count_budget",
+      "passed": true
+    },
+    {
+      "name": "PHASE_SPACE_NULL_alpha_energy_budget",
+      "passed": true
+    },
+    {
+      "name": "PHASE_SPACE_NULL_no_net_power_promotion",
+      "passed": true
+    },
+    {
+      "name": "COHERENT_L1_L3_RAW_reaction_normalization_fixed",
+      "passed": true
+    },
+    {
+      "name": "COHERENT_L1_L3_RAW_birth_energy_matches_receiver",
+      "passed": true
+    },
+    {
+      "name": "COHERENT_L1_L3_RAW_alpha_count_budget",
+      "passed": true
+    },
+    {
+      "name": "COHERENT_L1_L3_RAW_alpha_energy_budget",
+      "passed": true
+    },
+    {
+      "name": "COHERENT_L1_L3_RAW_no_net_power_promotion",
+      "passed": true
+    },
+    {
+      "name": "INCOHERENT_RAW_ABLATION_reaction_normalization_fixed",
+      "passed": true
+    },
+    {
+      "name": "INCOHERENT_RAW_ABLATION_birth_energy_matches_receiver",
+      "passed": true
+    },
+    {
+      "name": "INCOHERENT_RAW_ABLATION_alpha_count_budget",
+      "passed": true
+    },
+    {
+      "name": "INCOHERENT_RAW_ABLATION_alpha_energy_budget",
+      "passed": true
+    },
+    {
+      "name": "INCOHERENT_RAW_ABLATION_no_net_power_promotion",
+      "passed": true
+    },
+    {
+      "name": "PURE_L1_CONTROL_reaction_normalization_fixed",
+      "passed": true
+    },
+    {
+      "name": "PURE_L1_CONTROL_birth_energy_matches_receiver",
+      "passed": true
+    },
+    {
+      "name": "PURE_L1_CONTROL_alpha_count_budget",
+      "passed": true
+    },
+    {
+      "name": "PURE_L1_CONTROL_alpha_energy_budget",
+      "passed": true
+    },
+    {
+      "name": "PURE_L1_CONTROL_no_net_power_promotion",
+      "passed": true
+    },
+    {
+      "name": "PURE_L3_CONTROL_reaction_normalization_fixed",
+      "passed": true
+    },
+    {
+      "name": "PURE_L3_CONTROL_birth_energy_matches_receiver",
+      "passed": true
+    },
+    {
+      "name": "PURE_L3_CONTROL_alpha_count_budget",
+      "passed": true
+    },
+    {
+      "name": "PURE_L3_CONTROL_alpha_energy_budget",
+      "passed": true
+    },
+    {
+      "name": "PURE_L3_CONTROL_no_net_power_promotion",
+      "passed": true
+    }
+  ],
+  "physical_uncertainty": "NOT_PROPAGATED; source conventions/material calibration unresolved; ESS is numerical diagnostic only",
+  "runtime_seconds": 3.3232614994049072
+}
