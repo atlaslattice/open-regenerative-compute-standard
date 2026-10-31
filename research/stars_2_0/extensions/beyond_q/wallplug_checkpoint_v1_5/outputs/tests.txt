@@ -1,0 +1,14 @@
+test_ambiguous_gain_basis_rejected (test_ledger.Checks.test_ambiguous_gain_basis_rejected) ... ok
+test_costs_do_not_become_profit (test_ledger.Checks.test_costs_do_not_become_profit) ... ok
+test_electric_balance (test_ledger.Checks.test_electric_balance) ... ok
+test_isotope_not_both_consumed_and_sold (test_ledger.Checks.test_isotope_not_both_consumed_and_sold) ... ok
+test_missing_gain_not_substituted (test_ledger.Checks.test_missing_gain_not_substituted) ... ok
+test_no_export_and_import_of_same_net_energy (test_ledger.Checks.test_no_export_and_import_of_same_net_energy) ... ok
+test_primary_and_secondary_are_disjoint (test_ledger.Checks.test_primary_and_secondary_are_disjoint) ... ok
+test_source_units_locked (test_ledger.Checks.test_source_units_locked) ... ok
+test_unfueled_scheduled_drive_is_charged (test_ledger.Checks.test_unfueled_scheduled_drive_is_charged) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.008s
+
+OK

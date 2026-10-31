@@ -1,0 +1,13 @@
+{
+  "measured_laser_on_target_energy_J": null,
+  "qualified_target_gains": null,
+  "independently_qualified_capture_efficiency": null,
+  "campus_load_W": null,
+  "maintenance_CAPEX_OPEX": null,
+  "qualified_T_sales_price_USD_per_kg": null,
+  "qualified_He3_capture_kg": null,
+  "qualified_He3_sales_price": null,
+  "market_absorption_limit": null,
+  "all_physical_gates": "OPEN",
+  "profit": null
+}

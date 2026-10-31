@@ -1,0 +1,15 @@
+{
+  "physical_validation": false,
+  "all_physical_gates": "OPEN",
+  "replay_max_absolute_difference": 0.0,
+  "hours": 8814,
+  "startup_hours": 48,
+  "B_operating_hours": 8766,
+  "B_unserved_burn_kg": 5.702469746404759e-15,
+  "maximum_mass_residual_kg": 5.661604518536478e-11,
+  "qualified_surplus_kg": null,
+  "profit_USD": null,
+  "source_commit": "3ed8d2029f14c4446527a53ed84c3114cc55c3fe",
+  "scenario": "dual_laser_1100_1100/A1/continuous",
+  "caveat": "Prescribed 1.1GW primary DD plus additional secondary DT for A; prescribed 1.1GW DT for B. Historical20MW/1130MW is separate. No laser simulation or new transport run."
+}
