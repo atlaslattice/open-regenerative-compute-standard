@@ -46,6 +46,9 @@ license_notice: "Original research; external source rights remain with respectiv
 
 # Beyond Q v2.3: Global Quantum-First Infrastructure & Fusion-Isotope Integration
 
+> **ACTIVE TWO-ARC CONFIGURATION CORRECTION (2026-10-31):** This v2.3 paper preserves its own **20 MW gross D–D** experimental sensitivity and **does NOT describe the owner's active proposal**. The current project design is **two ARC-class tokamaks, each 1.1 GW gross fusion**: A is D–D isotope refinery (historical +20 MW **NET ELECTRIC** projection), B is D–T power (~400 MWe ARC design comparator). **10–15% refers to modified component MASS, not a CAPEX percentage**; cost work separately explored $235M–$455M gross retrofit / circa $300M scope. Do not promote legacy 20 MW_gross isotope, tritium or net electricity estimates to the active scenario. See [corrected canonical configuration](../ARC_DUAL_REACTOR_CANONICAL_BASELINE_2026-10-31.md).
+
+
 **Open technical research, October 29, 2026.** A source-traced, reproducible screening investigation spanning **Google Quantum AI, Microsoft Majorana/topological qubits, Chinese neutral-atom/superconducting/photonic programs, Commonwealth Fusion Systems ARC, D-T electricity, speculative ARC-compatible D-D isotope production, He-3, tritium, helium-4 and quantum cryogenic loads**.
 
 > **Status:** Research proposal, not peer reviewed; not MIT, CFS, Google, Microsoft or Chinese-institution endorsed. A published ARC D-T design **is not** a demonstrated D-D retrofit. No 200–400 MW *quantum-only* electrical requirement is established. Existing STARS / Stellar Forge p-B11 research is a separate speculative branch and has **zero energy/isotope credit** in this baseline.
