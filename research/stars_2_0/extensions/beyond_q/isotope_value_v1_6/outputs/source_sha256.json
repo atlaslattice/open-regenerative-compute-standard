@@ -1,0 +1,54 @@
+{
+  "kinetic_source_v1_3/outputs/benchmark_summary.csv": {
+    "git_blob_sha1": "4e73f2086d99c5b6be4470d0375ae09e039c8750",
+    "sha256": "e3fd2ae5376f92f6c7d22329637ef9fdc4edfe063c0c0673d90d15b90310fa4a"
+  },
+  "multiscale_v1_4/fuelcycle/__init__.py": {
+    "git_blob_sha1": "b8bd83513daecf2fa16426007d5f5ee535905ad6",
+    "sha256": "de4cb617f5f61ab0079ad5b29ab30e5486524e22ede52be94b52867c2e5710ff"
+  },
+  "multiscale_v1_4/fuelcycle/inventory.py": {
+    "git_blob_sha1": "811406dbafa09d86118f19bb5e5eb44fca85c817",
+    "sha256": "1f38b8351b021be5f3fb3054807662d3785ec97ff8317e4bcdf60e58db8b2fb2"
+  },
+  "multiscale_v1_4/fuelcycle/model.py": {
+    "git_blob_sha1": "b0f09e297cf660302376c5d54194c0dcd8530b9c",
+    "sha256": "c7633c271948ec419d3877df8366d0e6add7dd7ad2557f3522682412b1379d19"
+  },
+  "multiscale_v1_4/fuelcycle/physics.py": {
+    "git_blob_sha1": "9cae119b06737eb72d0fcdf8e41e5334aac088f6",
+    "sha256": "2915ed1482de260bdd625df67b1ea14ec930f5303b8864c1c8fefcbbeb20cc5b"
+  },
+  "multiscale_v1_4/fuelcycle/schedules.py": {
+    "git_blob_sha1": "09391b729e776c35c92854d8690ac7230d911848",
+    "sha256": "d3d8a4d22dbdaa04df93a3a359bca8fda81c34a06a8fd2ecb25b2185d295bcc7"
+  },
+  "multiscale_v1_4/inputs/scenarios.json": {
+    "git_blob_sha1": "90020d178ac8e6bb82472274463a433f43632444",
+    "sha256": "89cb65b4a22434cc5a0d41f575dfe9c4ffdec5749d41c0dc07ae71c50df01f59"
+  },
+  "startup_year_v1_4_1/calculate.py": {
+    "git_blob_sha1": "c3546802af054ebfaf6919d258d8fe35f27b7276",
+    "sha256": "679a9fbe10c98a48217f665494cded6b68c2e12ee86a11eb846c9e552d962e3c"
+  },
+  "startup_year_v1_4_1/outputs/A1_staged_year.csv": {
+    "git_blob_sha1": "8c8e7a43100513d6d43bf2f168da562ccb399e69",
+    "sha256": "d87b68f4f027d4927c067b5ba0a3ccc9e147b1d88ff41808dec9272988f366d5"
+  },
+  "startup_year_v1_4_1/outputs/startup_policies.csv": {
+    "git_blob_sha1": "e1f79bd237df5bf83826b2a24a4e3a55d9e3ae2e",
+    "sha256": "4ad003b3cee2c8e600581f4d3575b7270414975dc1cb90b9af399953a3cb9ea3"
+  },
+  "wallplug_checkpoint_v1_5/inputs.json": {
+    "git_blob_sha1": "8b438f884ab7a7c9d45644a73224b576d5de03ad",
+    "sha256": "f122093dceb755a6b76dbbd791f4766feffc4285ba206cd18450120aa49a1426"
+  },
+  "wallplug_checkpoint_v1_5/ledger.py": {
+    "git_blob_sha1": "a18a85d575befccaf4bdd6d7744aea62fda2eeba",
+    "sha256": "3fbe3788c45d2743a1cf1ea79ae208db658d8428f0afb638e6746b40864bb577"
+  },
+  "wallplug_year_v1_5_1/year.py": {
+    "git_blob_sha1": "8a123625f669bd38b9cce9470d36d3865ad5ea59",
+    "sha256": "40391b08468eb03e75cf0ad4a6a7185e77649a792b7149ffdf85996ecab2d08c"
+  }
+}

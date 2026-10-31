@@ -1,0 +1,54 @@
+[
+  {
+    "path": "kinetic_source_v1_3/outputs/benchmark_summary.csv",
+    "git_blob_sha1": "4e73f2086d99c5b6be4470d0375ae09e039c8750"
+  },
+  {
+    "path": "multiscale_v1_4/fuelcycle/__init__.py",
+    "git_blob_sha1": "b8bd83513daecf2fa16426007d5f5ee535905ad6"
+  },
+  {
+    "path": "multiscale_v1_4/fuelcycle/inventory.py",
+    "git_blob_sha1": "811406dbafa09d86118f19bb5e5eb44fca85c817"
+  },
+  {
+    "path": "multiscale_v1_4/fuelcycle/model.py",
+    "git_blob_sha1": "b0f09e297cf660302376c5d54194c0dcd8530b9c"
+  },
+  {
+    "path": "multiscale_v1_4/fuelcycle/physics.py",
+    "git_blob_sha1": "9cae119b06737eb72d0fcdf8e41e5334aac088f6"
+  },
+  {
+    "path": "multiscale_v1_4/fuelcycle/schedules.py",
+    "git_blob_sha1": "09391b729e776c35c92854d8690ac7230d911848"
+  },
+  {
+    "path": "multiscale_v1_4/inputs/scenarios.json",
+    "git_blob_sha1": "90020d178ac8e6bb82472274463a433f43632444"
+  },
+  {
+    "path": "startup_year_v1_4_1/calculate.py",
+    "git_blob_sha1": "c3546802af054ebfaf6919d258d8fe35f27b7276"
+  },
+  {
+    "path": "startup_year_v1_4_1/outputs/A1_staged_year.csv",
+    "git_blob_sha1": "8c8e7a43100513d6d43bf2f168da562ccb399e69"
+  },
+  {
+    "path": "startup_year_v1_4_1/outputs/startup_policies.csv",
+    "git_blob_sha1": "e1f79bd237df5bf83826b2a24a4e3a55d9e3ae2e"
+  },
+  {
+    "path": "wallplug_checkpoint_v1_5/inputs.json",
+    "git_blob_sha1": "8b438f884ab7a7c9d45644a73224b576d5de03ad"
+  },
+  {
+    "path": "wallplug_checkpoint_v1_5/ledger.py",
+    "git_blob_sha1": "a18a85d575befccaf4bdd6d7744aea62fda2eeba"
+  },
+  {
+    "path": "wallplug_year_v1_5_1/year.py",
+    "git_blob_sha1": "8a123625f669bd38b9cce9470d36d3865ad5ea59"
+  }
+]

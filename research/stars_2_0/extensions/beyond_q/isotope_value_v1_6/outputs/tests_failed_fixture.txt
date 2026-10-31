@@ -1,0 +1,28 @@
+test_capture_zero_is_no_revenue_inventory (test_account.Checks.test_capture_zero_is_no_revenue_inventory) ... ok
+test_constant_source_analytic (test_account.Checks.test_constant_source_analytic) ... ok
+test_decay_atom_conversion_not_equal_mass (test_account.Checks.test_decay_atom_conversion_not_equal_mass) ... ok
+test_demand_cap_and_excess_qualification (test_account.Checks.test_demand_cap_and_excess_qualification) ... ok
+test_generation_is_not_sales (test_account.Checks.test_generation_is_not_sales) ... ok
+test_helium_no_source (test_account.Checks.test_helium_no_source) ... ok
+test_normalized_source_comparison (test_account.Checks.test_normalized_source_comparison) ... ok
+test_terminal_allocations_disjoint (test_account.Checks.test_terminal_allocations_disjoint) ... ERROR
+test_threshold_no_inventory (test_account.Checks.test_threshold_no_inventory) ... ok
+test_tritium_birth_sink_ledger (test_account.Checks.test_tritium_birth_sink_ledger) ... ok
+test_unqualified_is_not_revenue (test_account.Checks.test_unqualified_is_not_revenue) ... ok
+
+======================================================================
+ERROR: test_terminal_allocations_disjoint (test_account.Checks.test_terminal_allocations_disjoint)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/4524d3a10c71/repo/research/stars_2_0/extensions/beyond_q/isotope_value_v1_6/test_account.py", line 26, in test_terminal_allocations_disjoint
+    x=a.terminal_allocation(r,h,10,.5,.9)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/4524d3a10c71/repo/research/stars_2_0/extensions/beyond_q/isotope_value_v1_6/account.py", line 39, in terminal_allocation
+    T_actual_qualified_sale_kg=None,T_pipeline_held_kg=r['total_inventory']-available,He3_stored_before_kg=h['He3_stored_candidate_kg'],
+                                                       ~^^^^^^^^^^^^^^^^^^^
+KeyError: 'total_inventory'
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.001s
+
+FAILED (errors=1)

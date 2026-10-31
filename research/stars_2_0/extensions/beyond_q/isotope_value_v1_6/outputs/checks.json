@@ -1,0 +1,32 @@
+{
+  "cases": [
+    {
+      "A_case": "A0",
+      "startup_hours": 72,
+      "full_B_year_hours": 8766,
+      "unserved_B_burn_kg": 5.702469746404759e-15,
+      "max_T_mass_residual_kg": 5.0732751333271153e-11
+    },
+    {
+      "A_case": "A1",
+      "startup_hours": 48,
+      "full_B_year_hours": 8766,
+      "unserved_B_burn_kg": 5.702469746404759e-15,
+      "max_T_mass_residual_kg": 5.661604518536478e-11
+    },
+    {
+      "A_case": "A2",
+      "startup_hours": 46,
+      "full_B_year_hours": 8766,
+      "unserved_B_burn_kg": 5.702469746404759e-15,
+      "max_T_mass_residual_kg": 2.0196466721245088e-10
+    }
+  ],
+  "physical_validation": false,
+  "all_physical_gates": "OPEN",
+  "isotope_revenue_USD": null,
+  "profit_USD": null,
+  "ARC_vs_laser_yield_ratio": null,
+  "He3_D_burn": "UNRESOLVED; omitted in candidate survival scenario",
+  "source_commit": "bcc987d7ea9f796e3aae949dcddfdeb79d094d1a"
+}

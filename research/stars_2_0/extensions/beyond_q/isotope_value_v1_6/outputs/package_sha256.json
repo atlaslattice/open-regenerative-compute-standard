@@ -1,0 +1,21 @@
+{
+  ".gitignore": "862263fa1f46c20f0d1e4dac5ffcc75abd55c08211b2c3864c5f8764b9d87793",
+  "AUDIT_HISTORY.jsonl": "64272366a70c6268d84830ada072dfeceaedf8e42c943bbcd37a2b1adf1ada31",
+  "REPORT.md": "caa22dde653de9c16846e41e86632854817b6c191b048e82690ce25371b0ecc6",
+  "account.py": "9903c24fc5717ae5912d803d68528229d0f9a0b169fa8cf2ef48f55fa403730b",
+  "inputs.json": "11de13e6d1498d03f0c3f1f8dee1e5b916f4a9e31375b1d75813a338de1d20c8",
+  "outputs/He3_daily_reference.csv": "e1fd095624378caf2b25d759e2a1f71ff6960438e567f10a183c7a7d06585293",
+  "outputs/checks.json": "b3253a447b551b0492deaf223fd6093ac17bf01a3e41246722b310239ef3e509",
+  "outputs/execution.txt": "19f4ba082b7f4541042c1d70752425b6dfa4920e0328512083e4d134b72f0519",
+  "outputs/isotope_allocation.svg": "654e1d60d2406bcfdb3b97dc9626d24fe7e46293b93db1bcdcece7c351a67237",
+  "outputs/isotope_birth_sink_ledger.csv": "4f594684a47367fe07abc5ba74a817ba9c84c06c55d10d5c53db7c81235f334c",
+  "outputs/revenue_thresholds.csv": "a69177d46dec703c3e2c7d7d0f4745befdeb94293e75177ab25b79b78960eed0",
+  "outputs/source_comparison.csv": "a6c5b945ae69106df5a024b295ef449d79f0ab75ae45a365cff4bd64d83989d5",
+  "outputs/source_sha256.json": "f29d95d136612dd9a30bca0f3ddabee2b9120ace9928fa7d55a691327e7f92e3",
+  "outputs/terminal_allocations.csv": "120aae5443a7732ef91d3e36cbc8f2dedffb9dc5a959850fd4a1d091557aeee4",
+  "outputs/tests.txt": "4aaddec6e1b556938cf2f6af29f7e94a9b2504ac3630a3bebaefc6fbcbe7a363",
+  "outputs/tests_failed_fixture.txt": "f07497a045c9d805b7d33d257ea2fff16632990651b04e7c4f09777e267890c8",
+  "plot.py": "da4a72d18cf3c93aae5765518aa07afddb4d217addfc3f48aa76e27f5dd27a22",
+  "source_manifest.json": "8be91eeeb7fab082ba8a3600420383fc8370e6be05e5e00ce3079a4528b44cff",
+  "test_account.py": "0773c157067f419f690acc25d63f75b2e1a47ffbfe835a7c632fa9a7f9531d74"
+}
