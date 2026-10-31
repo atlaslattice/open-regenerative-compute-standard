@@ -1,0 +1,17 @@
+test_canonical_power_and_projection_separate (test_dispatch.Checks.test_canonical_power_and_projection_separate) ... ok
+test_energy_draw_and_interval_import_balance (test_dispatch.Checks.test_energy_draw_and_interval_import_balance) ... ok
+test_helium_and_T_case_conservation (test_dispatch.Checks.test_helium_and_T_case_conservation) ... ok
+test_no_T_sale_no_actual_revenue_or_profit (test_dispatch.Checks.test_no_T_sale_no_actual_revenue_or_profit) ... ok
+test_no_inventory_reset_at_new_year (test_dispatch.Checks.test_no_inventory_reset_at_new_year) ... ok
+test_policy_cannot_override_maintenance (test_dispatch.Checks.test_policy_cannot_override_maintenance) ... ok
+test_reserve_hysteresis_and_emergency (test_dispatch.Checks.test_reserve_hysteresis_and_emergency) ... ok
+test_reserve_only_reduces_A_runtime (test_dispatch.Checks.test_reserve_only_reduces_A_runtime) ... ok
+test_uncontrolled_engine_replay (test_dispatch.Checks.test_uncontrolled_engine_replay) ... ok
+test_unknown_A_energy_stays_unknown (test_dispatch.Checks.test_unknown_A_energy_stays_unknown) ... ok
+test_unreachable_production_target_is_visible (test_dispatch.Checks.test_unreachable_production_target_is_visible) ... ok
+test_yearly_T_closure (test_dispatch.Checks.test_yearly_T_closure) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.016s
+
+OK

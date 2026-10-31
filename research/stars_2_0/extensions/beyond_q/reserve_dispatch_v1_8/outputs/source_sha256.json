@@ -1,0 +1,38 @@
+{
+  "multiscale_v1_4/inputs/scenarios.json": {
+    "git_blob_sha1": "90020d178ac8e6bb82472274463a433f43632444",
+    "sha256": "89cb65b4a22434cc5a0d41f575dfe9c4ffdec5749d41c0dc07ae71c50df01f59"
+  },
+  "paired_annual_v1_7/compare.py": {
+    "git_blob_sha1": "0e760de23282171404b6eb2bc319af1b381c4e54",
+    "sha256": "be464dbd94497dc51ef9ce39325349b463001bb468f806ea5df6a5f8d50eeb76"
+  },
+  "paired_annual_v1_7/inputs.json": {
+    "git_blob_sha1": "1d9d25670c6a8ba0ef68f23215589d8286a40730",
+    "sha256": "392c61552df3e5f56e0ffd696699348b1795e27b05c6ee99b3f1d8a923dd343d"
+  },
+  "paired_annual_v1_7/pairedcycle/__init__.py": {
+    "git_blob_sha1": "b8bd83513daecf2fa16426007d5f5ee535905ad6",
+    "sha256": "de4cb617f5f61ab0079ad5b29ab30e5486524e22ede52be94b52867c2e5710ff"
+  },
+  "paired_annual_v1_7/pairedcycle/inventory.py": {
+    "git_blob_sha1": "811406dbafa09d86118f19bb5e5eb44fca85c817",
+    "sha256": "1f38b8351b021be5f3fb3054807662d3785ec97ff8317e4bcdf60e58db8b2fb2"
+  },
+  "paired_annual_v1_7/pairedcycle/model.py": {
+    "git_blob_sha1": "28c67cdeb9afae10ce5a08bc76d33cd74a8c66c8",
+    "sha256": "2ffafb3d54913c7624464467b9466626a9ce276fc49ca3c29467ab7f9a680539"
+  },
+  "paired_annual_v1_7/pairedcycle/physics.py": {
+    "git_blob_sha1": "9cae119b06737eb72d0fcdf8e41e5334aac088f6",
+    "sha256": "2915ed1482de260bdd625df67b1ea14ec930f5303b8864c1c8fefcbbeb20cc5b"
+  },
+  "paired_annual_v1_7/pairedcycle/schedules.py": {
+    "git_blob_sha1": "09391b729e776c35c92854d8690ac7230d911848",
+    "sha256": "d3d8a4d22dbdaa04df93a3a359bca8fda81c34a06a8fd2ecb25b2185d295bcc7"
+  },
+  "reserve_dispatch_v1_8/sources/ARC_CANONICAL_2026-10-31.md": {
+    "git_blob_sha1": "4be070fd7ce115e01c4667dee418168dbce6ecca",
+    "sha256": "b0d2d42de86a75beb7470b768158bbe1e718a31d4d2d9ab26cd69f6b90d96923"
+  }
+}
