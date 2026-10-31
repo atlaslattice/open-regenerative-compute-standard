@@ -1,0 +1,22 @@
+[
+  {
+    "case": "uniform_half_dt",
+    "returncode": 0,
+    "elapsed_s": 1.4110658168792725
+  },
+  {
+    "case": "mirror_losscone",
+    "returncode": 0,
+    "elapsed_s": 3.0487561225891113
+  },
+  {
+    "case": "mirror_reflect",
+    "returncode": 0,
+    "elapsed_s": 7.289206027984619
+  },
+  {
+    "case": "mirror_reflect_half_dt",
+    "returncode": 0,
+    "elapsed_s": 5.276106834411621
+  }
+]

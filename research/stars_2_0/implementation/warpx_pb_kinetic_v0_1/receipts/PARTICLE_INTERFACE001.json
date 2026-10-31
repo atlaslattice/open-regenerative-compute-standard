@@ -1,0 +1,80 @@
+[
+  {
+    "case": "uniform_half_dt",
+    "evidence": "SYNTHETIC_FIELD_VERIFICATION_EXECUTED_IN_WARPX",
+    "apparatus_id": null,
+    "frame": "LAB",
+    "diagnostic_sha256": "0fc45b733889e70f79f72297abdb6119da41330ef0a060e9d4fc840fd89bd048",
+    "remaining_packet": {
+      "species": "proton",
+      "weight": 1.0,
+      "position_m": [
+        0.0232701322067934,
+        -0.00703932817873063,
+        1.60732595760158
+      ],
+      "time_s": 2.00000000000003e-07,
+      "momentum_kg_m_s": [
+        1.11963659116199e-20,
+        -7.45623035366688e-21,
+        1.3451913645048e-20
+      ],
+      "unit_direction_LAB": [
+        0.5885427508425024,
+        -0.39194059553807187,
+        0.7071067811865486
+      ],
+      "kinetic_MeV": 0.6749999999999312,
+      "position_time_status": "ACTUAL_WARPX_DIAGNOSTIC_STATE_NOT_SOURCE_TAG"
+    },
+    "initial_weight": 1,
+    "escaped_weight": 0.0,
+    "escape_phase_space": "NOT_RECONSTRUCTED_FROM_LAST_ACTIVE_SAMPLE",
+    "facility_wall_input_J": null
+  },
+  {
+    "case": "mirror_losscone_fine",
+    "evidence": "SYNTHETIC_FIELD_VERIFICATION_EXECUTED_IN_WARPX",
+    "apparatus_id": null,
+    "frame": "LAB",
+    "diagnostic_sha256": "30819521e31c1d4a56cb56734336e6602da36c9cf5f13142d1b7cd4bbb15f5fb",
+    "remaining_packet": null,
+    "initial_weight": 1,
+    "escaped_weight": 1.0,
+    "escape_phase_space": "NOT_RECONSTRUCTED_FROM_LAST_ACTIVE_SAMPLE",
+    "facility_wall_input_J": null
+  },
+  {
+    "case": "mirror_reflect_fine",
+    "evidence": "SYNTHETIC_FIELD_VERIFICATION_EXECUTED_IN_WARPX",
+    "apparatus_id": null,
+    "frame": "LAB",
+    "diagnostic_sha256": "cdbb198eae67bb39af06b58fbc615a2ce06296e41c55290c27e1b1e38672b9de",
+    "remaining_packet": {
+      "species": "proton",
+      "weight": 1.0,
+      "position_m": [
+        0.00503808593330673,
+        -0.0698223202254095,
+        -1.64207365476099
+      ],
+      "time_s": 1.19999999999956e-06,
+      "momentum_kg_m_s": [
+        -1.59365836399789e-20,
+        -2.21087316711272e-21,
+        -1.01511232458559e-20
+      ],
+      "unit_direction_LAB": [
+        -0.837714741420751,
+        -0.11621568871610183,
+        -0.533599030829898
+      ],
+      "kinetic_MeV": 0.6749999999999351,
+      "position_time_status": "ACTUAL_WARPX_DIAGNOSTIC_STATE_NOT_SOURCE_TAG"
+    },
+    "initial_weight": 1,
+    "escaped_weight": 0.0,
+    "escape_phase_space": "NOT_RECONSTRUCTED_FROM_LAST_ACTIVE_SAMPLE",
+    "facility_wall_input_J": null
+  }
+]

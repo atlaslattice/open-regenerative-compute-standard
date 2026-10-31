@@ -1,0 +1,46 @@
+yt : [INFO     ] 2026-10-30 19:44:14,824 Parameters: current_time              = 1.9258332015464708e-09
+yt : [INFO     ] 2026-10-30 19:44:14,824 Parameters: domain_dimensions         = [ 8  8 16]
+yt : [INFO     ] 2026-10-30 19:44:14,825 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2026-10-30 19:44:14,825 Parameters: domain_right_edge         = [ 8.  8. 16.]
+[
+  {
+    "subtest": 1,
+    "alpha_macroparticles": 114546,
+    "weighted_alpha_births": 3.2318769096721635e-27,
+    "weighted_fusion_events": 1.0772923032240544e-27,
+    "weighted_alpha_kinetic_energy_J": 1.8688060056356312e-39,
+    "interpretation": "UPSTREAM_CONSTRUCTED_POPULATION_NOT_APPARATUS_OUTPUT"
+  },
+  {
+    "subtest": 2,
+    "alpha_macroparticles": 103014,
+    "weighted_alpha_births": 3.3922473857756623e+19,
+    "weighted_fusion_events": 1.1307491285918874e+19,
+    "weighted_alpha_kinetic_energy_J": 19998402.855058774,
+    "interpretation": "UPSTREAM_CONSTRUCTED_POPULATION_NOT_APPARATUS_OUTPUT"
+  },
+  {
+    "subtest": 3,
+    "alpha_macroparticles": 12594,
+    "weighted_alpha_births": 1.1044721439180793e+28,
+    "weighted_fusion_events": 3.6815738130602645e+27,
+    "weighted_alpha_kinetic_energy_J": 5307410567777858.0,
+    "interpretation": "UPSTREAM_CONSTRUCTED_POPULATION_NOT_APPARATUS_OUTPUT"
+  },
+  {
+    "subtest": 4,
+    "alpha_macroparticles": 614400,
+    "weighted_alpha_births": 3072.0,
+    "weighted_fusion_events": 1024.0,
+    "weighted_alpha_kinetic_energy_J": 1.5146204749665712e-09,
+    "interpretation": "UPSTREAM_CONSTRUCTED_POPULATION_NOT_APPARATUS_OUTPUT"
+  },
+  {
+    "subtest": 5,
+    "alpha_macroparticles": 614400,
+    "weighted_alpha_births": 3.072e-18,
+    "weighted_fusion_events": 1.024e-18,
+    "weighted_alpha_kinetic_energy_J": 1.5146204749665671e-30,
+    "interpretation": "UPSTREAM_CONSTRUCTED_POPULATION_NOT_APPARATUS_OUTPUT"
+  }
+]

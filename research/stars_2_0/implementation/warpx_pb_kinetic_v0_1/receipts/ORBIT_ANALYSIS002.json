@@ -1,0 +1,218 @@
+{
+  "qualified_cases": [
+    "uniform_dt",
+    "uniform_half_dt",
+    "mirror_losscone_fine",
+    "mirror_reflect_fine"
+  ],
+  "qualified_cases_pass": true,
+  "coarse_failures_retained": true,
+  "status": "NUMERICAL_FIELD_FIXTURES_ONLY",
+  "results": [
+    {
+      "case": "uniform_dt",
+      "active_diagnostic_samples": 101,
+      "final_weight": 1.0,
+      "escaped": false,
+      "parallel_momentum_reversed": false,
+      "first_turn_z_m": null,
+      "max_abs_z_m": 1.60732595760151,
+      "kinetic_energy_relative_drift": 7.105427357601002e-15,
+      "max_position_error_vs_independent_ODE_m": 0.0001947672760323856,
+      "max_relative_momentum_error_vs_independent_ODE": 0.0033066536469880657,
+      "mu_relative_range": 1.4583443164857605e-14,
+      "dt_s": 2e-10,
+      "last_active_time_s": 1.99999999999996e-07,
+      "end_time_s": 1.99999999999996e-07,
+      "reference_ODE_rtol": 2e-12,
+      "max_relative_momentum_error_vs_analytic_helix": 0.0033066536500860138
+    },
+    {
+      "case": "uniform_half_dt",
+      "active_diagnostic_samples": 201,
+      "final_weight": 1.0,
+      "escaped": false,
+      "parallel_momentum_reversed": false,
+      "first_turn_z_m": null,
+      "max_abs_z_m": 1.60732595760158,
+      "kinetic_energy_relative_drift": 8.326672684688674e-15,
+      "max_position_error_vs_independent_ODE_m": 4.8690851531572905e-05,
+      "max_relative_momentum_error_vs_independent_ODE": 0.0008268004348349108,
+      "mu_relative_range": 1.66834589805971e-14,
+      "dt_s": 1e-10,
+      "last_active_time_s": 2.00000000000003e-07,
+      "end_time_s": 2.00000000000003e-07,
+      "reference_ODE_rtol": 2e-12,
+      "max_relative_momentum_error_vs_analytic_helix": 0.0008268004379325789
+    },
+    {
+      "case": "mirror_losscone",
+      "active_diagnostic_samples": 229,
+      "final_weight": 0.0,
+      "escaped": true,
+      "parallel_momentum_reversed": false,
+      "first_turn_z_m": null,
+      "max_abs_z_m": 4.99420212012102,
+      "kinetic_energy_relative_drift": 1.0880185641326534e-14,
+      "max_position_error_vs_independent_ODE_m": 0.001188330804498791,
+      "max_relative_momentum_error_vs_independent_ODE": 0.0995019627722364,
+      "mu_relative_range": 0.0021687683812574325,
+      "dt_s": 2e-10,
+      "last_active_time_s": 4.5600000000001e-07,
+      "end_time_s": 1.20000000000007e-06,
+      "reference_ODE_rtol": 2e-12,
+      "adiabatic_pitch_threshold_deg": 26.56505117707799,
+      "adiabatic_guide_first_turn_z_m": null
+    },
+    {
+      "case": "mirror_reflect",
+      "active_diagnostic_samples": 601,
+      "final_weight": 1.0,
+      "escaped": false,
+      "parallel_momentum_reversed": true,
+      "first_turn_z_m": 2.4986535298368633,
+      "max_abs_z_m": 2.49865418874393,
+      "kinetic_energy_relative_drift": 1.6431300764452317e-14,
+      "max_position_error_vs_independent_ODE_m": 0.0037899048798806013,
+      "max_relative_momentum_error_vs_independent_ODE": 0.08302726473756693,
+      "mu_relative_range": 0.0011235481893464641,
+      "dt_s": 2e-10,
+      "last_active_time_s": 1.20000000000007e-06,
+      "end_time_s": 1.20000000000007e-06,
+      "reference_ODE_rtol": 2e-12,
+      "adiabatic_pitch_threshold_deg": 26.56505117707799,
+      "adiabatic_guide_first_turn_z_m": 2.5000000000000004
+    },
+    {
+      "case": "mirror_reflect_half_dt",
+      "active_diagnostic_samples": 1201,
+      "final_weight": 1.0,
+      "escaped": false,
+      "parallel_momentum_reversed": true,
+      "first_turn_z_m": 2.498657095146444,
+      "max_abs_z_m": 2.49865768296002,
+      "kinetic_energy_relative_drift": 1.5210055437364645e-14,
+      "max_position_error_vs_independent_ODE_m": 0.0009481916630118282,
+      "max_relative_momentum_error_vs_independent_ODE": 0.020774956747351078,
+      "mu_relative_range": 0.0011317447245609853,
+      "dt_s": 1e-10,
+      "last_active_time_s": 1.20000000000008e-06,
+      "end_time_s": 1.20000000000008e-06,
+      "reference_ODE_rtol": 2e-12,
+      "adiabatic_pitch_threshold_deg": 26.56505117707799,
+      "adiabatic_guide_first_turn_z_m": 2.5000000000000004
+    },
+    {
+      "case": "mirror_losscone_fine",
+      "active_diagnostic_samples": 914,
+      "final_weight": 0.0,
+      "escaped": true,
+      "parallel_momentum_reversed": false,
+      "first_turn_z_m": null,
+      "max_abs_z_m": 4.99943663154549,
+      "kinetic_energy_relative_drift": 1.354472090042691e-14,
+      "max_position_error_vs_independent_ODE_m": 7.491418377662701e-05,
+      "max_relative_momentum_error_vs_independent_ODE": 0.006300342475050817,
+      "mu_relative_range": 0.0021709653222610433,
+      "dt_s": 5e-11,
+      "last_active_time_s": 4.56500000000028e-07,
+      "end_time_s": 1.19999999999956e-06,
+      "reference_ODE_rtol": 2e-12,
+      "adiabatic_pitch_threshold_deg": 26.56505117707799,
+      "adiabatic_guide_first_turn_z_m": null
+    },
+    {
+      "case": "mirror_reflect_fine",
+      "active_diagnostic_samples": 2401,
+      "final_weight": 1.0,
+      "escaped": false,
+      "parallel_momentum_reversed": true,
+      "first_turn_z_m": 2.4986581649683024,
+      "max_abs_z_m": 2.49865853006615,
+      "kinetic_energy_relative_drift": 1.532107773982716e-14,
+      "max_position_error_vs_independent_ODE_m": 0.00023707766796932176,
+      "max_relative_momentum_error_vs_independent_ODE": 0.005194529884306984,
+      "mu_relative_range": 0.0011326336254851683,
+      "dt_s": 5e-11,
+      "last_active_time_s": 1.19999999999956e-06,
+      "end_time_s": 1.19999999999956e-06,
+      "reference_ODE_rtol": 2e-12,
+      "adiabatic_pitch_threshold_deg": 26.56505117707799,
+      "adiabatic_guide_first_turn_z_m": 2.5000000000000004
+    }
+  ],
+  "checks": [
+    {
+      "name": "uniform_dt_magnetic_no_work",
+      "passed": true
+    },
+    {
+      "name": "uniform_dt_lorentz_agreement",
+      "passed": true
+    },
+    {
+      "name": "uniform_half_dt_magnetic_no_work",
+      "passed": true
+    },
+    {
+      "name": "uniform_half_dt_lorentz_agreement",
+      "passed": true
+    },
+    {
+      "name": "mirror_losscone_magnetic_no_work",
+      "passed": true
+    },
+    {
+      "name": "mirror_losscone_lorentz_agreement",
+      "passed": false
+    },
+    {
+      "name": "mirror_reflect_magnetic_no_work",
+      "passed": true
+    },
+    {
+      "name": "mirror_reflect_lorentz_agreement",
+      "passed": false
+    },
+    {
+      "name": "mirror_reflect_half_dt_magnetic_no_work",
+      "passed": true
+    },
+    {
+      "name": "mirror_reflect_half_dt_lorentz_agreement",
+      "passed": false
+    },
+    {
+      "name": "mirror_losscone_fine_magnetic_no_work",
+      "passed": true
+    },
+    {
+      "name": "mirror_losscone_fine_lorentz_agreement",
+      "passed": true
+    },
+    {
+      "name": "mirror_reflect_fine_magnetic_no_work",
+      "passed": true
+    },
+    {
+      "name": "mirror_reflect_fine_lorentz_agreement",
+      "passed": true
+    },
+    {
+      "name": "uniform_halving_dt_reduces_momentum_error",
+      "passed": true
+    },
+    {
+      "name": "mirror_reflect_halving_dt_reduces_momentum_error",
+      "passed": true
+    },
+    {
+      "name": "losscone_escapes",
+      "passed": true
+    },
+    {
+      "name": "outside_losscone_reflects",
+      "passed": true
+    }
+  ]
+}

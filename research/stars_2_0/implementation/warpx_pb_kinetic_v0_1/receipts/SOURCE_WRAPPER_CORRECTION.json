@@ -1,0 +1,44 @@
+[
+  {
+    "path": "Examples/Tests/nuclear_fusion/inputs_test_3d_proton_boron_fusion",
+    "change": "remove one wrapper-added terminal newline; exact upstream blob recovered",
+    "before_sha256": "472a8c6b419049dfeb9795894c7388eab762352a070fafacf12bf8d161ff969d",
+    "after_sha256": "1d5ac5ff56f50296957d46a638fe753bc0330db37b5fcd9c657e6b797a0d2d41"
+  },
+  {
+    "path": "Examples/Tests/nuclear_fusion/analysis_proton_boron_fusion.py",
+    "change": "remove one wrapper-added terminal newline; exact upstream blob recovered",
+    "before_sha256": "771dedb34a6fbb755a6174f123cc4eeb08e153314dda38ced68cfb58fb232f62",
+    "after_sha256": "fcd89c01abe35d069bf6af777b65f363ba68bb9888b0c082326a364b3637bca7"
+  },
+  {
+    "path": "Examples/Tests/nuclear_fusion/inputs_test_2d_proton_boron_fusion",
+    "change": "remove one wrapper-added terminal newline; exact upstream blob recovered",
+    "before_sha256": "1ffea7397dd2b9f8ee07339a872474bef4c59e9cdf49fe684e87beed76498429",
+    "after_sha256": "7fcff0bfb128e653e640da9cfa8ff3ec1222cef9a9914db89d34743dedec4633"
+  },
+  {
+    "path": "Examples/Tests/nuclear_fusion/CMakeLists.txt",
+    "change": "remove one wrapper-added terminal newline; exact upstream blob recovered",
+    "before_sha256": "c29a41ee30fd4a9933f128f8ee7bdeefa83241d7b9e43dacc0150707089f1608",
+    "after_sha256": "6759906098e604875750ca907fd67c9b2c56ddc70a254b83741dcb4f5f628fb6"
+  },
+  {
+    "path": "LICENSE.txt",
+    "change": "remove one wrapper-added terminal newline; exact upstream blob recovered",
+    "before_sha256": "aea6f18bb086a536ec5e3334c1cf52d98f913a175f29271f7c0f1807e436b6ee",
+    "after_sha256": "73890f67d88fe4386822cc62be41e06ccbbf15748270f1d01b6499d9e900a922"
+  },
+  {
+    "path": "NOTICE.txt",
+    "change": "remove one wrapper-added terminal newline; exact upstream blob recovered",
+    "before_sha256": "c7bda42685d0c4eef05429a82cda665012ce6e7163572bcd042b2805d7068d87",
+    "after_sha256": "41fb260217bd453525445e8f8c86730a52df16a56fbd18b03952a5497e24a057"
+  },
+  {
+    "path": "Tools/Parser/input_file_parser.py",
+    "change": "remove one wrapper-added terminal newline; exact upstream blob recovered",
+    "before_sha256": "8d61c05712e03ab90498b0fa81e3177455409c8765e41def4baa69b7c86c4984",
+    "after_sha256": "bc7b06a997f7154729333a86a1cc86bced3aef623f7828e15fe49d86b27a4867"
+  }
+]

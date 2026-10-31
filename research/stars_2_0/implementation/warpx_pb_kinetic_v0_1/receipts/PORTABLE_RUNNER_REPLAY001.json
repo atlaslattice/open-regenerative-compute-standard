@@ -1,0 +1,113 @@
+{
+  "status": "PASS",
+  "entrypoint": "run_orbits.py",
+  "seven_executions_returncode": 0,
+  "raw_diagnostic_files": [
+    {
+      "path": "mirror_losscone002/diags/reducedfiles/energy.txt",
+      "sha256": "a60b3d90f06ca7d5627183abf764bf9f5dbe68ba4cc8ce0b15d25c13d94b890e",
+      "byte_identical": true
+    },
+    {
+      "path": "mirror_losscone002/diags/reducedfiles/extrema.txt",
+      "sha256": "efa36b7231efe0b6bc95244f0fe7da3cc12bb862c6097c2c90dd138e0babb026",
+      "byte_identical": true
+    },
+    {
+      "path": "mirror_losscone002/diags/reducedfiles/number.txt",
+      "sha256": "b1c5a7a996edd3019edfdaa625b47de112dd568a2d9a01c2d3f1f9daa7a70652",
+      "byte_identical": true
+    },
+    {
+      "path": "mirror_losscone_fine002/diags/reducedfiles/energy.txt",
+      "sha256": "fea01ac2d94b3452647c4a83274b6c62edbff3d957946af8dee6ea445586197a",
+      "byte_identical": true
+    },
+    {
+      "path": "mirror_losscone_fine002/diags/reducedfiles/extrema.txt",
+      "sha256": "30819521e31c1d4a56cb56734336e6602da36c9cf5f13142d1b7cd4bbb15f5fb",
+      "byte_identical": true
+    },
+    {
+      "path": "mirror_losscone_fine002/diags/reducedfiles/number.txt",
+      "sha256": "4f89ad4bfa8804a6a682d4427854fd1c7ab21e2ee87fac87a75fc4e21e275af3",
+      "byte_identical": true
+    },
+    {
+      "path": "mirror_reflect002/diags/reducedfiles/energy.txt",
+      "sha256": "dceebf911174838ed7c26d622072ac9bed897694e0c7a21a50d73f3b7e732c1a",
+      "byte_identical": true
+    },
+    {
+      "path": "mirror_reflect002/diags/reducedfiles/extrema.txt",
+      "sha256": "445929683fe470c5b61148169cdc3825fd51ad6047b4d7967ad37607374b4f84",
+      "byte_identical": true
+    },
+    {
+      "path": "mirror_reflect002/diags/reducedfiles/number.txt",
+      "sha256": "87a322ff2c97297623e4caf04a71a6636bb80ed32e6d37a15ecee70b4b094588",
+      "byte_identical": true
+    },
+    {
+      "path": "mirror_reflect_fine002/diags/reducedfiles/energy.txt",
+      "sha256": "086620f1940a1334837eca406e266f1d85e47b3df5ebe03bac2f955bfa2a588e",
+      "byte_identical": true
+    },
+    {
+      "path": "mirror_reflect_fine002/diags/reducedfiles/extrema.txt",
+      "sha256": "cdbb198eae67bb39af06b58fbc615a2ce06296e41c55290c27e1b1e38672b9de",
+      "byte_identical": true
+    },
+    {
+      "path": "mirror_reflect_fine002/diags/reducedfiles/number.txt",
+      "sha256": "c108c15739496f3c1acbf43d1e9855c66dd52fef3245335510a43a9b07318b2d",
+      "byte_identical": true
+    },
+    {
+      "path": "mirror_reflect_half_dt002/diags/reducedfiles/energy.txt",
+      "sha256": "8e37e8772dc9bedc4de63a83ac4674162d6b56ab18858e780d37974d3260e6f8",
+      "byte_identical": true
+    },
+    {
+      "path": "mirror_reflect_half_dt002/diags/reducedfiles/extrema.txt",
+      "sha256": "b1b6ba63c85dc21a128565f68facb29d6ea2ee34b856d32c7e1271173ea7c6c7",
+      "byte_identical": true
+    },
+    {
+      "path": "mirror_reflect_half_dt002/diags/reducedfiles/number.txt",
+      "sha256": "370950ba4fd04f92433f8db7ccd35fa6f5aab0ac64bf2359996846f9ea8f682f",
+      "byte_identical": true
+    },
+    {
+      "path": "uniform_dt002/diags/reducedfiles/energy.txt",
+      "sha256": "15e80ca2bfb5a042687db5830ad416396bfc7aec0070204396e844ab64f1b43f",
+      "byte_identical": true
+    },
+    {
+      "path": "uniform_dt002/diags/reducedfiles/extrema.txt",
+      "sha256": "47a4d2cb81edd90caffd15640292a813524eda8dd0b6563059fcb662e75196bb",
+      "byte_identical": true
+    },
+    {
+      "path": "uniform_dt002/diags/reducedfiles/number.txt",
+      "sha256": "7f6049ec5f7a74a0a190113d1b765edc6ba7d85c5c666ec0d3ff42fd0289c272",
+      "byte_identical": true
+    },
+    {
+      "path": "uniform_half_dt002/diags/reducedfiles/energy.txt",
+      "sha256": "9926900b3c921e626b6cc8f757f1602373c6b87b1aa6cb2790d9dca3bb4072e4",
+      "byte_identical": true
+    },
+    {
+      "path": "uniform_half_dt002/diags/reducedfiles/extrema.txt",
+      "sha256": "0fc45b733889e70f79f72297abdb6119da41330ef0a060e9d4fc840fd89bd048",
+      "byte_identical": true
+    },
+    {
+      "path": "uniform_half_dt002/diags/reducedfiles/number.txt",
+      "sha256": "b0c33ee9f2999b72f7cf4609291497bdd1856c5923346dfd4747c57ea46ad0aa",
+      "byte_identical": true
+    }
+  ],
+  "note": "Independent execution of all seven cases through portable runner; logs can differ in runtime."
+}

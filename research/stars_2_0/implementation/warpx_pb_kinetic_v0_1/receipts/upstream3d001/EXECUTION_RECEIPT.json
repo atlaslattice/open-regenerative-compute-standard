@@ -1,0 +1,11 @@
+{
+  "run_returncode": 0,
+  "analysis_returncode": 0,
+  "OMP_NUM_THREADS": 2,
+  "MPI": false,
+  "input_overrides": [],
+  "input_bytes": "exact native for run002; extra terminal newline in source_wrapper_attempt001 for run001",
+  "source_commit": "ec1660d961696c865c87c26728b7e248b5454082",
+  "complete_plotfiles_published": false,
+  "random_seed": "No input override; upstream defaults. No source-level random-stream audit."
+}
