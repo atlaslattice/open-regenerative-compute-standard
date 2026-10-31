@@ -1,0 +1,196 @@
+{
+  "status": "PRESCRIBED_UNIFORM_E_TEST_PARTICLE_ONLY",
+  "results": [
+    {
+      "case": "normal",
+      "dt_s": 1e-12,
+      "field_V_m": -100000000.0,
+      "mu": 1.0,
+      "max_position_error_m": 1.7536926771866135e-13,
+      "max_momentum_relative_error": 1.8671865170374606e-14,
+      "max_energy_potential_residual_MeV": 3.4797942305431206e-11,
+      "final_kinetic_MeV": 1.918229895375086,
+      "final_z_m": 0.00540885052329856,
+      "final_normal_momentum_kg_m_s": 6.39164558611908e-20,
+      "runtime_s": 0.1218714714050293
+    },
+    {
+      "case": "normal_half_dt",
+      "dt_s": 5e-13,
+      "field_V_m": -100000000.0,
+      "mu": 1.0,
+      "max_position_error_m": 4.563103367383192e-14,
+      "max_momentum_relative_error": 1.79189673812466e-14,
+      "max_energy_potential_residual_MeV": 8.624212455288216e-12,
+      "final_kinetic_MeV": 1.918229895375086,
+      "final_z_m": 0.00540885052316769,
+      "final_normal_momentum_kg_m_s": 6.39164558611908e-20,
+      "runtime_s": 0.09181857109069824
+    },
+    {
+      "case": "grazing",
+      "dt_s": 1e-12,
+      "field_V_m": -100000000.0,
+      "mu": 0.1,
+      "max_position_error_m": 7.332079821759097e-15,
+      "max_momentum_relative_error": 7.905426785844088e-16,
+      "max_energy_potential_residual_MeV": 9.690026558928366e-13,
+      "final_kinetic_MeV": 3.0002565554228275,
+      "final_z_m": -1.28277711417659e-06,
+      "final_normal_momentum_kg_m_s": -8.02794411988068e-21,
+      "runtime_s": 0.06340813636779785
+    },
+    {
+      "case": "grazing_half_dt",
+      "dt_s": 5e-13,
+      "field_V_m": -100000000.0,
+      "mu": 0.1,
+      "max_position_error_m": 3.850950591396951e-15,
+      "max_momentum_relative_error": 1.2046364626048134e-15,
+      "max_energy_potential_residual_MeV": 2.424727085781342e-13,
+      "final_kinetic_MeV": 3.000256555422829,
+      "final_z_m": -1.28277711415249e-06,
+      "final_normal_momentum_kg_m_s": -8.02794411988087e-21,
+      "runtime_s": 0.08587646484375
+    },
+    {
+      "case": "accelerating",
+      "dt_s": 1e-12,
+      "field_V_m": 100000000.0,
+      "mu": 1.0,
+      "max_position_error_m": 2.1301103242388209e-13,
+      "max_momentum_relative_error": 1.8521285612549005e-14,
+      "max_energy_potential_residual_MeV": 4.248246199267669e-11,
+      "final_kinetic_MeV": 4.322307518602732,
+      "final_z_m": 0.00661153759322607,
+      "final_normal_momentum_kg_m_s": 9.59599885411937e-20,
+      "runtime_s": 0.07167553901672363
+    },
+    {
+      "case": "zero_field",
+      "dt_s": 1e-12,
+      "field_V_m": 0.0,
+      "mu": 0.1,
+      "max_position_error_m": 4.0115480381963664e-18,
+      "max_momentum_relative_error": 3.764488945640042e-17,
+      "max_energy_potential_residual_MeV": 8.881784197001252e-16,
+      "final_kinetic_MeV": 2.999999999999999,
+      "final_z_m": 0.000601038782877877,
+      "final_normal_momentum_kg_m_s": 7.99382222011923e-21,
+      "runtime_s": 0.061377763748168945
+    }
+  ],
+  "checks": [
+    {
+      "name": "normal_pz_exact_uniform_force",
+      "passed": true
+    },
+    {
+      "name": "normal_px_conserved",
+      "passed": true
+    },
+    {
+      "name": "normal_trajectory_position",
+      "passed": true
+    },
+    {
+      "name": "normal_energy_plus_potential",
+      "passed": true
+    },
+    {
+      "name": "normal_half_dt_pz_exact_uniform_force",
+      "passed": true
+    },
+    {
+      "name": "normal_half_dt_px_conserved",
+      "passed": true
+    },
+    {
+      "name": "normal_half_dt_trajectory_position",
+      "passed": true
+    },
+    {
+      "name": "normal_half_dt_energy_plus_potential",
+      "passed": true
+    },
+    {
+      "name": "grazing_pz_exact_uniform_force",
+      "passed": true
+    },
+    {
+      "name": "grazing_px_conserved",
+      "passed": true
+    },
+    {
+      "name": "grazing_trajectory_position",
+      "passed": true
+    },
+    {
+      "name": "grazing_energy_plus_potential",
+      "passed": true
+    },
+    {
+      "name": "grazing_half_dt_pz_exact_uniform_force",
+      "passed": true
+    },
+    {
+      "name": "grazing_half_dt_px_conserved",
+      "passed": true
+    },
+    {
+      "name": "grazing_half_dt_trajectory_position",
+      "passed": true
+    },
+    {
+      "name": "grazing_half_dt_energy_plus_potential",
+      "passed": true
+    },
+    {
+      "name": "accelerating_pz_exact_uniform_force",
+      "passed": true
+    },
+    {
+      "name": "accelerating_px_conserved",
+      "passed": true
+    },
+    {
+      "name": "accelerating_trajectory_position",
+      "passed": true
+    },
+    {
+      "name": "accelerating_energy_plus_potential",
+      "passed": true
+    },
+    {
+      "name": "zero_field_pz_exact_uniform_force",
+      "passed": true
+    },
+    {
+      "name": "zero_field_px_conserved",
+      "passed": true
+    },
+    {
+      "name": "zero_field_trajectory_position",
+      "passed": true
+    },
+    {
+      "name": "zero_field_energy_plus_potential",
+      "passed": true
+    },
+    {
+      "name": "normal_position_error_refines",
+      "passed": true
+    },
+    {
+      "name": "grazing_position_error_refines",
+      "passed": false
+    },
+    {
+      "name": "grazing_particle_reflected",
+      "passed": true
+    }
+  ],
+  "executable_sha256": "647320362c1cd630c7d5665253e6ab44376d2c1a7e8bb0d4792ec6a40f6ea3cb",
+  "runner_sha256": "21d45377ab31cc05a2c319d500740e6980642670d74fda2b8475448fa26ea208",
+  "apparatus_net_power": null
+}

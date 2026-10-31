@@ -1,0 +1,18 @@
+test_acceleration_debits_circuit (test_collector.Tests.test_acceleration_debits_circuit) ... ok
+test_apparatus_still_blocked (test_collector.Tests.test_apparatus_still_blocked) ... ok
+test_bad_parameters (test_collector.Tests.test_bad_parameters) ... ok
+test_charge_zero_force_null (test_collector.Tests.test_charge_zero_force_null) ... ok
+test_marginal_not_silently_collected (test_collector.Tests.test_marginal_not_silently_collected) ... ok
+test_normal_incidence_recovery (test_collector.Tests.test_normal_incidence_recovery) ... ok
+test_potential_integration_refines (test_collector.Tests.test_potential_integration_refines) ... ok
+test_random_energy_ledger (test_collector.Tests.test_random_energy_ledger) ... ok
+test_reflected_normal_momentum_reverses (test_collector.Tests.test_reflected_normal_momentum_reverses) ... ok
+test_reflection_does_not_credit_turning_energy (test_collector.Tests.test_reflection_does_not_credit_turning_energy) ... ok
+test_transverse_mass_shell (test_collector.Tests.test_transverse_mass_shell) ... ok
+test_transverse_momentum_can_prevent_collection (test_collector.Tests.test_transverse_momentum_can_prevent_collection) ... ok
+test_zero_bias_is_heat_not_electricity (test_collector.Tests.test_zero_bias_is_heat_not_electricity) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.004s
+
+OK
