@@ -55,6 +55,24 @@ def installation():
         "warning": "These are NOT all field workers. Substation, line, excavation, QA and grid operations are separate; $4k install split, 60% wage share, 2/day output are invented."
     }
 
+def revised_project_jobs():
+    # Separate factory from field to avoid claiming the old 30% total
+    # transformer payroll assumption is still used. New assumptions sum
+    # to 40% of transformer installed capex; other scopes untouched.
+    field_fte = TOTAL_UNITS * TRANFORMER_FIELD_INSTALL_SHARE_USD * FIELD_LABOR_SHARE_OF_INSTALL / (YEARS * FIELD_LOADED_PAY)
+    factory_fte = TOTAL_UNITS * 4000 * .20 / (YEARS * FIELD_LOADED_PAY)  # assumed factory 20% payroll
+    line_fte = 158.3e9 * .30 / 140000 / YEARS # includes digging/line laying
+    digital_fte = 38.76545296e9 * .35 / 130000 / YEARS
+    digital_om_ramp_fte = 38.76545296e9 * .05 * .60 / 130000 * .60
+    return {"transformer_field_FTE_y":round(field_fte),
+            "transformer_factory_FTE_y":round(factory_fte),
+            "line_and_exacavation_FTE_y":round(line_fte),
+            "digital_construction_FTE_y":round(digital_fte),
+            "digital_operations_ramping_FTE_y":round(digital_om_ramp_fte),
+            "total_gross_FTE_y_including_all_categories":round(field_fte+factory_fte+line_fte+digital_fte+digital_om_ramp_fte),
+            "previous_model_226k_gross_y_superseded":True,
+            "IMPORTANT":"All are gross FTE support, not net-new permanent jobs. Not the one-million-field-workers-only count."}
+
 def training():
     n=sum(t[0] for t in TRAINING_STREAMS.values())
     budget=sum(number * unit_price for number,unit_price in TRAINING_STREAMS.values())/1e9+TRAINING_LABS_B
@@ -88,12 +106,15 @@ def main():
     print(json.dumps({"status":"SPECULATIVE industrial capacity ledger: no production or labor commitments",
         "print_cells_annual_average_7p7m":[{"effective_print_hours_per_unit":hours,"cells":printer_cells(hours)} for hours in [1,6,24]],
         "field_work":installation(),
+        "revised_job_category_allocation":revised_project_jobs(),
         "training":training(),
         "one_million_worker_interpretations":workforce_cases(),
         "trade":import_displacement()},indent=2))
 
 def tests():
+    assert printer_cells(1) == 2038
     assert printer_cells(6) == 12223
+    assert revised_project_jobs()["total_gross_FTE_y_including_all_categories"] == 299417
     assert training()["nonwage_training_capital_b"] == 15
     assert isclose(training()["former_program_38_5m_scenario_revised_budget_b"],520.06545296)
     assert isclose(installation()["field_labor_supported_FTE_per_year_at_120k"],154000)
