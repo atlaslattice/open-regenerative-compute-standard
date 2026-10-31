@@ -2,6 +2,8 @@
 
 **Status: RESEARCH/RFQ CONCEPT ONLY — unvalidated design, NOT a certified product, bill of material quote, or production cost estimate.**
 
+**National standardization follow-up (2026-10-31):** [Five-year ORCS transformer, panel and power-conditioning mobilization](../grid-intelligence-v0_1/FIVE_YEAR_STANDARDIZATION_TRAINING_AND_POWER_CONDITIONING_2026-10-31.md). DOE documented over 80,000 transformer design varieties from utility-specific requirements. The national proposal specifies a common platform with multiple independently qualified voltage/phase/kVA families. The present **480 V input, 50 kVA SST** is **not** a drop-in replacement for medium-voltage utility feeders; its 97% whole-stage efficiency target must be evaluated against 99%+ conventional transformer performance **and every conversion stage it might displace**, subject to equal safety/reliability requirements. Cost and performance remain UNVALIDATED.
+
 ## Objective
 Use an existing robotics-enabled, multi-process additive manufacturing facility to mass-produce 50 kVA-class solid-state transformers with integrated power quality, field-replaceable SiC electronics, and recovered feedstocks. Prioritize **qualified units per factory-month and total cost per qualified kVA**; test the assertion that design consolidation and robotic assembly outweigh printing time, material feedstock, post-processing and testing.
 
