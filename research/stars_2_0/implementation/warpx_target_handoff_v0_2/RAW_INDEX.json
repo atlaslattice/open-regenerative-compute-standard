@@ -1,0 +1,194 @@
+[
+  {
+    "path": "run001/runs/field_off/diags/reducedfiles/extrema.txt",
+    "sha256": "398d412c06b95b6b3a1c93973bda196dad53be00a55af99a37e4b9b4e1bff6c6"
+  },
+  {
+    "path": "run001/runs/field_off/diags/reducedfiles/number.txt",
+    "sha256": "632e5b91c37d0a9ff365615346500fc733d932e5be60480e197b920d1c0c2ce7"
+  },
+  {
+    "path": "run001/runs/field_off/diags/scrape/particles_at_xhi/openpmd_000400.h5",
+    "sha256": "52d3684e0534b8e437fa740f9fdfce3094690a9ac1e01018baf855f79eec6e19"
+  },
+  {
+    "path": "run001/runs/field_off/diags/scrape/particles_at_xhi/paraview.pmd",
+    "sha256": "70cdbee5690cb452b621ef5a3129fa9237410b4f93d41ec84ec2887b3f64e6cc"
+  },
+  {
+    "path": "run001/runs/field_off/diags/scrape/particles_at_zhi/openpmd_000400.h5",
+    "sha256": "d8e22d7633062dbc29f050f1a7bc5d06cbedc4654dd06afc07dd6e34c42cd6c0"
+  },
+  {
+    "path": "run001/runs/field_off/diags/scrape/particles_at_zhi/paraview.pmd",
+    "sha256": "70cdbee5690cb452b621ef5a3129fa9237410b4f93d41ec84ec2887b3f64e6cc"
+  },
+  {
+    "path": "run001/runs/field_off/diags/scrape/particles_at_zlo/openpmd_000400.h5",
+    "sha256": "394b2fa2a53d9c2315e06e0acd712f4e3f1419afdda0102126534f74efe6e436"
+  },
+  {
+    "path": "run001/runs/field_off/diags/scrape/particles_at_zlo/paraview.pmd",
+    "sha256": "70cdbee5690cb452b621ef5a3129fa9237410b4f93d41ec84ec2887b3f64e6cc"
+  },
+  {
+    "path": "run001/runs/field_on/diags/reducedfiles/extrema.txt",
+    "sha256": "6162070390f049243e6723599411c4fbbb692804bc34774e6ac2317964e254ea"
+  },
+  {
+    "path": "run001/runs/field_on/diags/reducedfiles/number.txt",
+    "sha256": "632e5b91c37d0a9ff365615346500fc733d932e5be60480e197b920d1c0c2ce7"
+  },
+  {
+    "path": "run001/runs/field_on/diags/scrape/particles_at_xhi/openpmd_000400.h5",
+    "sha256": "92c8f9390eb04944b5f868d41eb1f86f55b636ad27a0a55387ec471739bd8c08"
+  },
+  {
+    "path": "run001/runs/field_on/diags/scrape/particles_at_xhi/paraview.pmd",
+    "sha256": "70cdbee5690cb452b621ef5a3129fa9237410b4f93d41ec84ec2887b3f64e6cc"
+  },
+  {
+    "path": "run001/runs/field_on/diags/scrape/particles_at_zhi/openpmd_000400.h5",
+    "sha256": "e23c634a03c236e9688f489874fb7c9370590fae16d3c0d697a451aa91e3ddfe"
+  },
+  {
+    "path": "run001/runs/field_on/diags/scrape/particles_at_zhi/paraview.pmd",
+    "sha256": "70cdbee5690cb452b621ef5a3129fa9237410b4f93d41ec84ec2887b3f64e6cc"
+  },
+  {
+    "path": "run001/runs/field_on/diags/scrape/particles_at_zlo/openpmd_000400.h5",
+    "sha256": "adf8dbdc19a93e5fef6b328ff40df82d99e40de3d57070d4268caa1b4a9d72ba"
+  },
+  {
+    "path": "run001/runs/field_on/diags/scrape/particles_at_zlo/paraview.pmd",
+    "sha256": "70cdbee5690cb452b621ef5a3129fa9237410b4f93d41ec84ec2887b3f64e6cc"
+  },
+  {
+    "path": "run001/runs/half_dt/diags/reducedfiles/extrema.txt",
+    "sha256": "feb54f6825651ccdb4522760970d4d347da2bdadb9a611cb81f75baaeacf0325"
+  },
+  {
+    "path": "run001/runs/half_dt/diags/reducedfiles/number.txt",
+    "sha256": "1ec6e5bb00ccc34df8a1ce845ee5984fea16986c5f3ef24daf82e5ea7b6253ee"
+  },
+  {
+    "path": "run001/runs/half_dt/diags/scrape/particles_at_xhi/openpmd_000800.h5",
+    "sha256": "e7164cea24c0ead3d0ea6ac052f11b0eabf06ee9324203811701f0b5091b8a7d"
+  },
+  {
+    "path": "run001/runs/half_dt/diags/scrape/particles_at_xhi/paraview.pmd",
+    "sha256": "70cdbee5690cb452b621ef5a3129fa9237410b4f93d41ec84ec2887b3f64e6cc"
+  },
+  {
+    "path": "run001/runs/half_dt/diags/scrape/particles_at_zhi/openpmd_000800.h5",
+    "sha256": "d5e51b6d5e90490f660ad56bd5cbefe12a51c1bda0ff1afc91961cf999683ee0"
+  },
+  {
+    "path": "run001/runs/half_dt/diags/scrape/particles_at_zhi/paraview.pmd",
+    "sha256": "70cdbee5690cb452b621ef5a3129fa9237410b4f93d41ec84ec2887b3f64e6cc"
+  },
+  {
+    "path": "run001/runs/half_dt/diags/scrape/particles_at_zlo/openpmd_000800.h5",
+    "sha256": "7ff8ab2e15779d77f6ddad1bfe0da0ec963148c0051cf81f14e12bdf73af7842"
+  },
+  {
+    "path": "run001/runs/half_dt/diags/scrape/particles_at_zlo/paraview.pmd",
+    "sha256": "70cdbee5690cb452b621ef5a3129fa9237410b4f93d41ec84ec2887b3f64e6cc"
+  },
+  {
+    "path": "run002/runs/field_off/diags/reducedfiles/extrema.txt",
+    "sha256": "398d412c06b95b6b3a1c93973bda196dad53be00a55af99a37e4b9b4e1bff6c6"
+  },
+  {
+    "path": "run002/runs/field_off/diags/reducedfiles/number.txt",
+    "sha256": "632e5b91c37d0a9ff365615346500fc733d932e5be60480e197b920d1c0c2ce7"
+  },
+  {
+    "path": "run002/runs/field_off/diags/scrape/particles_at_xhi/openpmd_000400.h5",
+    "sha256": "d5efd1be919eb317767accc82b597ad5391c2febb0e64e828b7e7ca58b2b09d2"
+  },
+  {
+    "path": "run002/runs/field_off/diags/scrape/particles_at_xhi/paraview.pmd",
+    "sha256": "70cdbee5690cb452b621ef5a3129fa9237410b4f93d41ec84ec2887b3f64e6cc"
+  },
+  {
+    "path": "run002/runs/field_off/diags/scrape/particles_at_zhi/openpmd_000400.h5",
+    "sha256": "430e6a48da5c9da20189751cff61293b5ed62133f22e29988495ca4af430754b"
+  },
+  {
+    "path": "run002/runs/field_off/diags/scrape/particles_at_zhi/paraview.pmd",
+    "sha256": "70cdbee5690cb452b621ef5a3129fa9237410b4f93d41ec84ec2887b3f64e6cc"
+  },
+  {
+    "path": "run002/runs/field_off/diags/scrape/particles_at_zlo/openpmd_000400.h5",
+    "sha256": "ebe4c6115aa636961077c25067fa43c96f1d2c87ac4387e4a5f02b2921291817"
+  },
+  {
+    "path": "run002/runs/field_off/diags/scrape/particles_at_zlo/paraview.pmd",
+    "sha256": "70cdbee5690cb452b621ef5a3129fa9237410b4f93d41ec84ec2887b3f64e6cc"
+  },
+  {
+    "path": "run002/runs/field_on/diags/reducedfiles/extrema.txt",
+    "sha256": "6162070390f049243e6723599411c4fbbb692804bc34774e6ac2317964e254ea"
+  },
+  {
+    "path": "run002/runs/field_on/diags/reducedfiles/number.txt",
+    "sha256": "632e5b91c37d0a9ff365615346500fc733d932e5be60480e197b920d1c0c2ce7"
+  },
+  {
+    "path": "run002/runs/field_on/diags/scrape/particles_at_xhi/openpmd_000400.h5",
+    "sha256": "cdf2f7c48100684bfe7b21cd5c52d6b9ffdc81dfbcb3094f345be6fae638df5f"
+  },
+  {
+    "path": "run002/runs/field_on/diags/scrape/particles_at_xhi/paraview.pmd",
+    "sha256": "70cdbee5690cb452b621ef5a3129fa9237410b4f93d41ec84ec2887b3f64e6cc"
+  },
+  {
+    "path": "run002/runs/field_on/diags/scrape/particles_at_zhi/openpmd_000400.h5",
+    "sha256": "d6ffd7e66d1f24da3186dc69e9cbee3829c70341f3d6bd360106ae598550424c"
+  },
+  {
+    "path": "run002/runs/field_on/diags/scrape/particles_at_zhi/paraview.pmd",
+    "sha256": "70cdbee5690cb452b621ef5a3129fa9237410b4f93d41ec84ec2887b3f64e6cc"
+  },
+  {
+    "path": "run002/runs/field_on/diags/scrape/particles_at_zlo/openpmd_000400.h5",
+    "sha256": "49d9b944c855ba81052fa991a75a18c9e353edf1eecb4cd871778535b8c2c5c8"
+  },
+  {
+    "path": "run002/runs/field_on/diags/scrape/particles_at_zlo/paraview.pmd",
+    "sha256": "70cdbee5690cb452b621ef5a3129fa9237410b4f93d41ec84ec2887b3f64e6cc"
+  },
+  {
+    "path": "run002/runs/half_dt/diags/reducedfiles/extrema.txt",
+    "sha256": "feb54f6825651ccdb4522760970d4d347da2bdadb9a611cb81f75baaeacf0325"
+  },
+  {
+    "path": "run002/runs/half_dt/diags/reducedfiles/number.txt",
+    "sha256": "1ec6e5bb00ccc34df8a1ce845ee5984fea16986c5f3ef24daf82e5ea7b6253ee"
+  },
+  {
+    "path": "run002/runs/half_dt/diags/scrape/particles_at_xhi/openpmd_000800.h5",
+    "sha256": "5ea101e4463bdc6dd773e3ee478366546a12029361957610c00fcee03f0c5868"
+  },
+  {
+    "path": "run002/runs/half_dt/diags/scrape/particles_at_xhi/paraview.pmd",
+    "sha256": "70cdbee5690cb452b621ef5a3129fa9237410b4f93d41ec84ec2887b3f64e6cc"
+  },
+  {
+    "path": "run002/runs/half_dt/diags/scrape/particles_at_zhi/openpmd_000800.h5",
+    "sha256": "aa39a76cf03c63ec5abde4bff9df8777b9633ce1b3a4dba3d3341ed69bb29809"
+  },
+  {
+    "path": "run002/runs/half_dt/diags/scrape/particles_at_zhi/paraview.pmd",
+    "sha256": "70cdbee5690cb452b621ef5a3129fa9237410b4f93d41ec84ec2887b3f64e6cc"
+  },
+  {
+    "path": "run002/runs/half_dt/diags/scrape/particles_at_zlo/openpmd_000800.h5",
+    "sha256": "ba4c02d3ad98c571c885fe7a94ab5073b823910ad3f755c47fb3a655e2838b94"
+  },
+  {
+    "path": "run002/runs/half_dt/diags/scrape/particles_at_zlo/paraview.pmd",
+    "sha256": "70cdbee5690cb452b621ef5a3129fa9237410b4f93d41ec84ec2887b3f64e6cc"
+  }
+]

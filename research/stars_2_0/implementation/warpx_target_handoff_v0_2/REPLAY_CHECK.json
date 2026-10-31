@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "coupled_totals_and_residuals_reproduced": true,
+  "boundary_particle_fields_reproduced": true,
+  "raw_reduced_files_byte_identical": [
+    {
+      "path": "runs/field_off/diags/reducedfiles/extrema.txt",
+      "sha256": "398d412c06b95b6b3a1c93973bda196dad53be00a55af99a37e4b9b4e1bff6c6"
+    },
+    {
+      "path": "runs/field_off/diags/reducedfiles/number.txt",
+      "sha256": "632e5b91c37d0a9ff365615346500fc733d932e5be60480e197b920d1c0c2ce7"
+    },
+    {
+      "path": "runs/field_on/diags/reducedfiles/extrema.txt",
+      "sha256": "6162070390f049243e6723599411c4fbbb692804bc34774e6ac2317964e254ea"
+    },
+    {
+      "path": "runs/field_on/diags/reducedfiles/number.txt",
+      "sha256": "632e5b91c37d0a9ff365615346500fc733d932e5be60480e197b920d1c0c2ce7"
+    },
+    {
+      "path": "runs/half_dt/diags/reducedfiles/extrema.txt",
+      "sha256": "feb54f6825651ccdb4522760970d4d347da2bdadb9a611cb81f75baaeacf0325"
+    },
+    {
+      "path": "runs/half_dt/diags/reducedfiles/number.txt",
+      "sha256": "1ec6e5bb00ccc34df8a1ce845ee5984fea16986c5f3ef24daf82e5ea7b6253ee"
+    }
+  ],
+  "tests": 19,
+  "coupled_checks": 25,
+  "prior_unpublished_v01": "Raw files unavailable after reset; prior reported field-on expected reactions0.016280331463329765 are a transcribed comparison only",
+  "current_field_on": 0.01628033146332977,
+  "difference_from_prior_report": 3.469446951953614e-18
+}
