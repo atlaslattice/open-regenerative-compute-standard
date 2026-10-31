@@ -1,5 +1,8 @@
 # The Open Regenerative Compute Standard (ORCS)
 
+> **STELLAR FORGE / BEYOND Q configuration lock (2026-10-31):** [Two distinct 1.1 GW_fusion ARC-class reactors: D–D He-3/T refinery + D–T power](research/stars_2_0/extensions/beyond_q/ARC_DUAL_REACTOR_CANONICAL_BASELINE_2026-10-31.md). The earlier 20 MW D–D *fusion* references are older scenarios; the user's 20 MW for reactor A was projected **NET electricity**, not fusion power. **10–15% describes modified component MASS, not price**; earlier Gemini-assisted retrofit cost sensitivities were separate ~$235M–$455M gross, with ~ $300M recollection, not the cost of the paired reactors. Unvalidated, pre-feasibility only.
+
+
 
 ## New Deal 2.0 × ORCS — public-first AI, clean water, affordable food and energy (October 31, 2026)
 
