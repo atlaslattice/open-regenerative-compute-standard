@@ -1,0 +1,45 @@
+Host Name: c01803340adf
+=== If no file names and line numbers are shown below, one can run
+            addr2line -Cpfie my_exefile my_line_address
+    to convert `my_line_address` (e.g., 0x4a6b) into file name and line number.
+    Or one can use amrex/Tools/Backtrace/parse_bt.py.
+
+=== Please note that the line number reported by addr2line may not be accurate.
+    One can use
+            readelf -wl my_exefile | grep my_line_address'
+    to find out the offset for that line.
+
+ 0: /workspace/scratch/6126a9592c76/warpx_runtime_v0_1/env/bin/../lib/libamrex_3d.so(_ZN5amrex11BLBackTrace20print_backtrace_infoEP8_IO_FILE+0x47) [0x7f2af2214487]
+    ?? ??:0
+
+ 1: /workspace/scratch/6126a9592c76/warpx_runtime_v0_1/env/bin/../lib/libamrex_3d.so(_ZN5amrex11BLBackTrace7handlerEi+0x424) [0x7f2af2218774]
+    ?? ??:0
+
+ 2: /workspace/scratch/6126a9592c76/warpx_runtime_v0_1/env/bin/../lib/libamrex_3d.so(_ZN5amrex11Assert_hostEPKcS1_iS1_m+0x12f) [0x7f2af215dd2f]
+    ?? ??:0
+
+ 3: /workspace/scratch/6126a9592c76/warpx_runtime_v0_1/env/bin/warpx.3d(+0xe40013) [0x55f4f907f013]
+    ?? ??:0
+
+ 4: /workspace/scratch/6126a9592c76/warpx_runtime_v0_1/env/bin/warpx.3d(+0x4cefc9) [0x55f4f870dfc9]
+    ?? ??:0
+
+ 5: /workspace/scratch/6126a9592c76/warpx_runtime_v0_1/env/bin/warpx.3d(+0xce2240) [0x55f4f8f21240]
+    ?? ??:0
+
+ 6: /workspace/scratch/6126a9592c76/warpx_runtime_v0_1/env/bin/../lib/libamrex_3d.so(_ZN5amrex10InitializeERiRPPcbiRKSt8functionIFvvEERSoS9_PFvPKcEi+0x6fe) [0x7f2af215afbe]
+    ?? ??:0
+
+ 7: /workspace/scratch/6126a9592c76/warpx_runtime_v0_1/env/bin/warpx.3d(+0xcbc7c) [0x55f4f830ac7c]
+    ?? ??:0
+
+ 8: /lib/x86_64-linux-gnu/libc.so.6(+0x2a1ca) [0x7f2af12501ca]
+
+ 9: /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b) [0x7f2af125028b]
+
+10: /workspace/scratch/6126a9592c76/warpx_runtime_v0_1/env/bin/warpx.3d(+0xdee02) [0x55f4f831de02]
+    ?? ??:0
+
+
+===== TinyProfilers ======
+

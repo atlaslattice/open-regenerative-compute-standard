@@ -1,0 +1,5 @@
+0::Assertion `(particle_boundary_lo[idim] == ParticleBoundaryType::Periodic) && (particle_boundary_hi[idim] == ParticleBoundaryType::Periodic)' failed, file "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_warpx_1791106413/work/Source/Particles/ParticleBoundaries.cpp", line 43, Msg: 
+### ERROR   : field and particle boundary must be periodic in both lo and hi
+ !!!
+SIGABRT
+See Backtrace.0.0 file for details

@@ -1,0 +1,50 @@
+{
+  "upstream_analysis_exit_code": 0,
+  "source_input_overrides": [],
+  "layout": "NOMPI, OMP_NUM_THREADS=2; upstream CMake uses two MPI ranks",
+  "max_step": 1,
+  "particle_pushing": false,
+  "particle_deposition": false,
+  "subtests": [
+    {
+      "subtest": 1,
+      "alpha_macroparticles": 114546,
+      "weighted_alpha_births": 3.2318769096721635e-27,
+      "weighted_fusion_events": 1.0772923032240544e-27,
+      "weighted_alpha_kinetic_energy_J": 1.8688060056356312e-39,
+      "interpretation": "UPSTREAM_CONSTRUCTED_POPULATION_NOT_APPARATUS_OUTPUT"
+    },
+    {
+      "subtest": 2,
+      "alpha_macroparticles": 103014,
+      "weighted_alpha_births": 3.3922473857756623e+19,
+      "weighted_fusion_events": 1.1307491285918874e+19,
+      "weighted_alpha_kinetic_energy_J": 19998402.855058774,
+      "interpretation": "UPSTREAM_CONSTRUCTED_POPULATION_NOT_APPARATUS_OUTPUT"
+    },
+    {
+      "subtest": 3,
+      "alpha_macroparticles": 12594,
+      "weighted_alpha_births": 1.1044721439180793e+28,
+      "weighted_fusion_events": 3.6815738130602645e+27,
+      "weighted_alpha_kinetic_energy_J": 5307410567777858.0,
+      "interpretation": "UPSTREAM_CONSTRUCTED_POPULATION_NOT_APPARATUS_OUTPUT"
+    },
+    {
+      "subtest": 4,
+      "alpha_macroparticles": 614400,
+      "weighted_alpha_births": 3072.0,
+      "weighted_fusion_events": 1024.0,
+      "weighted_alpha_kinetic_energy_J": 1.5146204749665712e-09,
+      "interpretation": "UPSTREAM_CONSTRUCTED_POPULATION_NOT_APPARATUS_OUTPUT"
+    },
+    {
+      "subtest": 5,
+      "alpha_macroparticles": 614400,
+      "weighted_alpha_births": 3.072e-18,
+      "weighted_fusion_events": 1.024e-18,
+      "weighted_alpha_kinetic_energy_J": 1.5146204749665671e-30,
+      "interpretation": "UPSTREAM_CONSTRUCTED_POPULATION_NOT_APPARATUS_OUTPUT"
+    }
+  ]
+}

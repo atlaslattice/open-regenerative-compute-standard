@@ -1,0 +1,42 @@
+{
+  "release_source_commit": "ec1660d961696c865c87c26728b7e248b5454082",
+  "binary_embedded_git_revision": "Unknown",
+  "fixtures": [
+    {
+      "path": "Examples/Tests/nuclear_fusion/inputs_test_3d_proton_boron_fusion",
+      "git_blob_sha": "f2c4385620b51ae2be1b19abd69258b285dccd30",
+      "url": "https://github.com/BLAST-WarpX/warpx/blob/ec1660d961696c865c87c26728b7e248b5454082/Examples/Tests/nuclear_fusion/inputs_test_3d_proton_boron_fusion"
+    },
+    {
+      "path": "Examples/Tests/nuclear_fusion/analysis_proton_boron_fusion.py",
+      "git_blob_sha": "8e1227640872a5fcdf03a3d0f4dfc656fb55a8db",
+      "url": "https://github.com/BLAST-WarpX/warpx/blob/ec1660d961696c865c87c26728b7e248b5454082/Examples/Tests/nuclear_fusion/analysis_proton_boron_fusion.py"
+    },
+    {
+      "path": "Examples/Tests/nuclear_fusion/inputs_test_2d_proton_boron_fusion",
+      "git_blob_sha": "762d97ff2ce4243c835daaf962e88fd1f49d12b5",
+      "url": "https://github.com/BLAST-WarpX/warpx/blob/ec1660d961696c865c87c26728b7e248b5454082/Examples/Tests/nuclear_fusion/inputs_test_2d_proton_boron_fusion"
+    },
+    {
+      "path": "Examples/Tests/nuclear_fusion/CMakeLists.txt",
+      "git_blob_sha": "8e749d6ecf3bf6ebde7d4597892f450593d93fcd",
+      "url": "https://github.com/BLAST-WarpX/warpx/blob/ec1660d961696c865c87c26728b7e248b5454082/Examples/Tests/nuclear_fusion/CMakeLists.txt"
+    },
+    {
+      "path": "LICENSE.txt",
+      "git_blob_sha": "ba0df767288b4d3621d5a2bb9d47c787b6654642",
+      "url": "https://github.com/BLAST-WarpX/warpx/blob/ec1660d961696c865c87c26728b7e248b5454082/LICENSE.txt"
+    },
+    {
+      "path": "NOTICE.txt",
+      "git_blob_sha": "e556dddec6cff58c5832ef01a8ad0df91677a184",
+      "url": "https://github.com/BLAST-WarpX/warpx/blob/ec1660d961696c865c87c26728b7e248b5454082/NOTICE.txt"
+    },
+    {
+      "path": "Tools/Parser/input_file_parser.py",
+      "git_blob_sha": "4518b2b56772cb61ecebc48343e25da947d0434a",
+      "url": "https://github.com/BLAST-WarpX/warpx/blob/ec1660d961696c865c87c26728b7e248b5454082/Tools/Parser/input_file_parser.py"
+    }
+  ],
+  "scalar_comparison_note": "The four PR47 license/cross-section/constants blob IDs are identical between the development pin and 26.10 release source. This is not binary source-build attestation."
+}
