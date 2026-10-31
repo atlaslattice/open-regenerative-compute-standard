@@ -1,0 +1,48 @@
+--- v1.4/fuelcycle/model.py
++++ v1.7/pairedcycle/model.py
+@@ -34,6 +34,8 @@
+         nonnegative(**{key:p[key]})
+     if p['case']=='A0' and (p['a_dd_blanket_yield'] or p['a_dt_blanket_yield']):
+         raise ValueError('A0 has no breeding')
++    probability('a_source_duty',p['a_source_duty'])
++    probability('b_source_duty',p['b_source_duty'])
+     probability('a_fast_fraction',p.get('a_fast_fraction',0.))
+     if p['step_days'] <= 0 or p['half_life_years'] <= 0 or p['b_pass_burn_fraction'] <= 0:
+         raise ValueError('positive timestep, half life and B burn fraction required')
+@@ -44,7 +46,7 @@
+     if p.get('a_fast_fraction',0)+p.get('a_fast_escape_fraction',0)>1:raise ValueError('overlapping fast outcomes')
+     if p['case'] not in ('A0','A1','A2'):
+         raise ValueError('unknown case')
+-    locks={'historical_20_1130':(20.,1130.),'dual_laser_1100_1100':(1100.,1100.)}
++    locks={'historical_20_1130':(20.,1130.),'dual_laser_1100_1100':(1100.,1100.),'arc_1100_1130':(1100.,1130.),'arc_matched_1100_1100':(1100.,1100.)}
+     if p['configuration_id'] not in locks:raise ValueError('unknown power-basis identity')
+     expected=locks[p['configuration_id']]
+     if (p['power_a_dd_mw'],p['power_b_dt_mw'])!=expected:raise ValueError('power-basis lock mismatch')
+@@ -97,7 +99,7 @@
+                     c[route+'_process_loss']+=loss
+                 x[store]+=recovered
+             # Newly created DD T either burns or exits to processing.
+-            dd_birth=dd['t_atoms_s']*86400*T_KG_PER_ATOM*on_a
++            dd_birth=dd['t_atoms_s']*86400*T_KG_PER_ATOM*on_a*p['a_source_duty']
+             fast_burn=dd_birth*h*p.get('a_fast_fraction',0.)
+             x['a_plasma'], exits = advance(x['a_plasma'],dd_birth*(1-p.get('a_fast_fraction',0.)-p.get('a_fast_escape_fraction',0.)),
+                 {'burn':p['a_reaction_day']*on_a,'escape':p['a_escape_day'],'decay':decay},h)
+@@ -106,14 +108,14 @@
+             c['dd_birth']+=dd_birth*h
+             c['decay']+=exits['decay']
+             x['a_plasma_process']+=exits['escape']+dd_birth*h*p.get('a_fast_escape_fraction',0.)
+-            events=dd['events_s']*86400*h*on_a
+-            dd_n=dd['n_atoms_s']*86400*h*on_a
++            events=dd['events_s']*86400*h*on_a*p['a_source_duty']
++            dd_n=dd['n_atoms_s']*86400*h*on_a*p['a_source_duty']
+             c['dd_events']+=events
+-            c['dd_t_atoms']+=dd['t_atoms_s']*86400*h*on_a
++            c['dd_t_atoms']+=dd['t_atoms_s']*86400*h*on_a*p['a_source_duty']
+             # B feeder competes with A storage reserve policy; transfers are local.
+             moved=max(0.,x['a_store']-p['reserve_a_kg'])*(-math.expm1(-p['transfer_day']*h))
+             x['a_store']-=moved; x['b_store']+=moved; c['a_to_b']+=moved
+-            demand=dt_events(p['power_b_dt_mw'])*86400*T_KG_PER_ATOM*h*on_b
++            demand=dt_events(p['power_b_dt_mw'])*86400*T_KG_PER_ATOM*h*on_b*p['b_source_duty']
+             feed=min(x['b_store'],demand/p['b_pass_burn_fraction'])
+             b_burn=feed*p['b_pass_burn_fraction']
+             x['b_store']-=feed

@@ -1,0 +1,112 @@
+{
+  "source_commit": "fe10971566b35ae09b007a24ff8780d691ad31e7",
+  "configurations": [
+    {
+      "id": "arc_1100_1130",
+      "architecture": "ARC",
+      "A_primary_DD_MW": 1100,
+      "B_DT_MW": 1130,
+      "a_source_duty": 0.9375,
+      "b_source_duty": 0.9375,
+      "scope": "B published rounded flattop reference; A retrofit duty assumed"
+    },
+    {
+      "id": "arc_matched_1100_1100",
+      "architecture": "ARC",
+      "A_primary_DD_MW": 1100,
+      "B_DT_MW": 1100,
+      "a_source_duty": 0.9375,
+      "b_source_duty": 0.9375,
+      "scope": "power-matched counterfactual; B gross electricity scaled, not a new ARC design result"
+    },
+    {
+      "id": "dual_laser_1100_1100",
+      "architecture": "LASER",
+      "A_primary_DD_MW": 1100,
+      "B_DT_MW": 1100,
+      "a_source_duty": 1.0,
+      "b_source_duty": 1.0,
+      "scope": "prescribed fusion powers, not achieved laser yields"
+    },
+    {
+      "id": "laser_matched_duty_1100_1100",
+      "architecture": "LASER",
+      "engine_id": "dual_laser_1100_1100",
+      "A_primary_DD_MW": 1100,
+      "B_DT_MW": 1100,
+      "a_source_duty": 0.9375,
+      "b_source_duty": 0.9375,
+      "scope": "matched source-exposure control; duty is not a simulated laser pulse train"
+    }
+  ],
+  "calendar_hours": 8766,
+  "precharge_hours": 168,
+  "timestep_days": 0.010416666666666666,
+  "schedules": [
+    "continuous",
+    "independent_14day",
+    "correlated_14day",
+    "A_90day",
+    "B_90day",
+    "cold_start"
+  ],
+  "blanket_modes": [
+    "B_replacement_A1",
+    "B_replacement_A0",
+    "B_replacement_A2",
+    "inherited_A1",
+    "zero_breeding"
+  ],
+  "ARC_A_net_draw_MW_sensitivities": [
+    null,
+    100,
+    400,
+    800
+  ],
+  "ARC_B_gross_electric_reference_MW": 500,
+  "ARC_B_own_electric_MW": 100,
+  "ARC_B_reference_flattop_MW": 1130,
+  "ARC_A_shutdown_draw_MW": 5,
+  "ARC_B_shutdown_draw_MW": 5,
+  "additional_campus_and_isotope_processing_MW": 10,
+  "laser_gains": [
+    1,
+    10,
+    100
+  ],
+  "laser_wallplug_efficiencies": [
+    0.1,
+    0.2
+  ],
+  "laser_capture_fraction": 0.9,
+  "laser_conversion_efficiency": 0.4,
+  "laser_combined_auxiliary_MW": 50,
+  "helium_collection_day": 1,
+  "helium3_capture_fraction": 0.9,
+  "helium4_capture_fraction": 0.9,
+  "helium_quality_acceptance": 0.9,
+  "He3_retained_fraction": 0.5,
+  "assumed_He4_internal_allocation_kg": 10,
+  "T_external_sales_kg": 0,
+  "import_price_USD_per_kWh": 0.1,
+  "He3_assumed_price_USD_per_STP_L": [
+    500,
+    1000
+  ],
+  "He3_assumed_demand_STP_L": [
+    10000,
+    100000
+  ],
+  "CAPEX_USD": null,
+  "annual_non_electric_OPEX_USD": null,
+  "qualified_He3_output_kg": null,
+  "qualified_He4_output_kg": null,
+  "research_grade_certified": false,
+  "physical_validation": false,
+  "parameter_evidence": "Except identified ARC B reference and SI conventions, values are inherited candidates or ASSUMED stress inputs. No isotope market quotes or demand forecasts.",
+  "default_blanket_mode": "B_replacement_A1",
+  "B_reference_gross_TBR_assumed": 1.0,
+  "B_reference_policy": "Conservative assumed gross TBR1.0 replacement screen. Official ARC targets TBR>1 and some future-startup supply; precise V3A number unresolved. A supplies campus startup and loss makeup.",
+  "ARC_published_TBR_numeric": null,
+  "ARC_published_TBR_statement": "Greater than1 design goal; precise current V3A value not found in inspected official sources"
+}

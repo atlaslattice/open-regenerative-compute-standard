@@ -1,0 +1,18 @@
+{
+  "source_cases": 120,
+  "energy_cases": 600,
+  "economic_sensitivities": 2160,
+  "physical_validation": false,
+  "gates": {
+    "G1": "OPEN",
+    "G2": "OPEN",
+    "G3": "OPEN",
+    "G4": "OPEN",
+    "G5": "OPEN"
+  },
+  "actual_profit_USD": null,
+  "core_change": "Inherited v1.4 engine copied; add architecture-neutral source-power locks and explicit A/B source-duty factors; no changes to recovery kinetics",
+  "He4_scope": "A/B DT plasma He4 recovery candidate; blanket He4 birth assumes all modeled blanket T from Li6/Li7 pathways and is unavailable; D-He3 consumption omitted",
+  "calendar": "365.25 days after 7 day A-only precharge, except cold-start control",
+  "source_commit": "fe10971566b35ae09b007a24ff8780d691ad31e7"
+}
