@@ -1,5 +1,8 @@
 # ORCS — Five-Year National Grid Mobilization: Standardized Transformer Platform, AI/Human Certification and Power Quality
 
+**ADDITIVE/WORKFORCE EXTENSION (2026-10-31):** [24/7 robotic production, paid AI+human competency apprenticeships, 1M distinct participants, reused factories and waste feedstocks](ADDITIVE_FACTORY_MILLION_WORKER_DOMESTIC_PIVOT_2026-10-31.md). **Important:** the addendum's **$15B training** supersedes this file's illustrative **$6B training** in that alternate plan; the older **~226k/y gross employment** uses different labor-share assumptions than the addendum's **~299k/y** (includes manufacturing, digging and line laying). Do not add these scenarios or claim either is 1M permanent new field jobs.
+
+
 **October 31, 2026 | v0.2 PROPOSED program | Five-year planning horizon: 2027–2031**
 **Evidence level: scenario / engineering specification request. NOT installed hardware, DOE-certified product, funded federal program, guaranteed job creation, or confirmed price.**
 
