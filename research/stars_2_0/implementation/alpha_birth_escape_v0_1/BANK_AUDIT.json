@@ -1,0 +1,351 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "run001_bank_hash",
+      "passed": true
+    },
+    {
+      "name": "run001_finite_arrays",
+      "passed": true
+    },
+    {
+      "name": "run001_weights_nonnegative",
+      "passed": true
+    },
+    {
+      "name": "run001_energy_budget",
+      "passed": true
+    },
+    {
+      "name": "run001_PHASE_SPACE_NULL_resolved_escape_kinetic_MeV",
+      "passed": true
+    },
+    {
+      "name": "run001_PHASE_SPACE_NULL_material_transfer_lower_MeV",
+      "passed": true
+    },
+    {
+      "name": "run001_PHASE_SPACE_NULL_unresolved_kinetic_budget_MeV",
+      "passed": true
+    },
+    {
+      "name": "run001_COHERENT_L1_L3_RAW_resolved_escape_kinetic_MeV",
+      "passed": true
+    },
+    {
+      "name": "run001_COHERENT_L1_L3_RAW_material_transfer_lower_MeV",
+      "passed": true
+    },
+    {
+      "name": "run001_COHERENT_L1_L3_RAW_unresolved_kinetic_budget_MeV",
+      "passed": true
+    },
+    {
+      "name": "run001_INCOHERENT_RAW_ABLATION_resolved_escape_kinetic_MeV",
+      "passed": true
+    },
+    {
+      "name": "run001_INCOHERENT_RAW_ABLATION_material_transfer_lower_MeV",
+      "passed": true
+    },
+    {
+      "name": "run001_INCOHERENT_RAW_ABLATION_unresolved_kinetic_budget_MeV",
+      "passed": true
+    },
+    {
+      "name": "run001_PURE_L1_CONTROL_resolved_escape_kinetic_MeV",
+      "passed": true
+    },
+    {
+      "name": "run001_PURE_L1_CONTROL_material_transfer_lower_MeV",
+      "passed": true
+    },
+    {
+      "name": "run001_PURE_L1_CONTROL_unresolved_kinetic_budget_MeV",
+      "passed": true
+    },
+    {
+      "name": "run001_PURE_L3_CONTROL_resolved_escape_kinetic_MeV",
+      "passed": true
+    },
+    {
+      "name": "run001_PURE_L3_CONTROL_material_transfer_lower_MeV",
+      "passed": true
+    },
+    {
+      "name": "run001_PURE_L3_CONTROL_unresolved_kinetic_budget_MeV",
+      "passed": true
+    },
+    {
+      "name": "run002_bank_hash",
+      "passed": true
+    },
+    {
+      "name": "run002_finite_arrays",
+      "passed": true
+    },
+    {
+      "name": "run002_weights_nonnegative",
+      "passed": true
+    },
+    {
+      "name": "run002_energy_budget",
+      "passed": true
+    },
+    {
+      "name": "run002_PHASE_SPACE_NULL_resolved_escape_kinetic_MeV",
+      "passed": true
+    },
+    {
+      "name": "run002_PHASE_SPACE_NULL_material_transfer_lower_MeV",
+      "passed": true
+    },
+    {
+      "name": "run002_PHASE_SPACE_NULL_unresolved_kinetic_budget_MeV",
+      "passed": true
+    },
+    {
+      "name": "run002_COHERENT_L1_L3_RAW_resolved_escape_kinetic_MeV",
+      "passed": true
+    },
+    {
+      "name": "run002_COHERENT_L1_L3_RAW_material_transfer_lower_MeV",
+      "passed": true
+    },
+    {
+      "name": "run002_COHERENT_L1_L3_RAW_unresolved_kinetic_budget_MeV",
+      "passed": true
+    },
+    {
+      "name": "run002_INCOHERENT_RAW_ABLATION_resolved_escape_kinetic_MeV",
+      "passed": true
+    },
+    {
+      "name": "run002_INCOHERENT_RAW_ABLATION_material_transfer_lower_MeV",
+      "passed": true
+    },
+    {
+      "name": "run002_INCOHERENT_RAW_ABLATION_unresolved_kinetic_budget_MeV",
+      "passed": true
+    },
+    {
+      "name": "run002_PURE_L1_CONTROL_resolved_escape_kinetic_MeV",
+      "passed": true
+    },
+    {
+      "name": "run002_PURE_L1_CONTROL_material_transfer_lower_MeV",
+      "passed": true
+    },
+    {
+      "name": "run002_PURE_L1_CONTROL_unresolved_kinetic_budget_MeV",
+      "passed": true
+    },
+    {
+      "name": "run002_PURE_L3_CONTROL_resolved_escape_kinetic_MeV",
+      "passed": true
+    },
+    {
+      "name": "run002_PURE_L3_CONTROL_material_transfer_lower_MeV",
+      "passed": true
+    },
+    {
+      "name": "run002_PURE_L3_CONTROL_unresolved_kinetic_budget_MeV",
+      "passed": true
+    },
+    {
+      "name": "run003_bank_hash",
+      "passed": true
+    },
+    {
+      "name": "run003_finite_arrays",
+      "passed": true
+    },
+    {
+      "name": "run003_weights_nonnegative",
+      "passed": true
+    },
+    {
+      "name": "run003_energy_budget",
+      "passed": true
+    },
+    {
+      "name": "run003_PHASE_SPACE_NULL_resolved_escape_kinetic_MeV",
+      "passed": true
+    },
+    {
+      "name": "run003_PHASE_SPACE_NULL_material_transfer_lower_MeV",
+      "passed": true
+    },
+    {
+      "name": "run003_PHASE_SPACE_NULL_unresolved_kinetic_budget_MeV",
+      "passed": true
+    },
+    {
+      "name": "run003_COHERENT_L1_L3_RAW_resolved_escape_kinetic_MeV",
+      "passed": true
+    },
+    {
+      "name": "run003_COHERENT_L1_L3_RAW_material_transfer_lower_MeV",
+      "passed": true
+    },
+    {
+      "name": "run003_COHERENT_L1_L3_RAW_unresolved_kinetic_budget_MeV",
+      "passed": true
+    },
+    {
+      "name": "run003_INCOHERENT_RAW_ABLATION_resolved_escape_kinetic_MeV",
+      "passed": true
+    },
+    {
+      "name": "run003_INCOHERENT_RAW_ABLATION_material_transfer_lower_MeV",
+      "passed": true
+    },
+    {
+      "name": "run003_INCOHERENT_RAW_ABLATION_unresolved_kinetic_budget_MeV",
+      "passed": true
+    },
+    {
+      "name": "run003_PURE_L1_CONTROL_resolved_escape_kinetic_MeV",
+      "passed": true
+    },
+    {
+      "name": "run003_PURE_L1_CONTROL_material_transfer_lower_MeV",
+      "passed": true
+    },
+    {
+      "name": "run003_PURE_L1_CONTROL_unresolved_kinetic_budget_MeV",
+      "passed": true
+    },
+    {
+      "name": "run003_PURE_L3_CONTROL_resolved_escape_kinetic_MeV",
+      "passed": true
+    },
+    {
+      "name": "run003_PURE_L3_CONTROL_material_transfer_lower_MeV",
+      "passed": true
+    },
+    {
+      "name": "run003_PURE_L3_CONTROL_unresolved_kinetic_budget_MeV",
+      "passed": true
+    },
+    {
+      "name": "run004_bank_hash",
+      "passed": true
+    },
+    {
+      "name": "run004_finite_arrays",
+      "passed": true
+    },
+    {
+      "name": "run004_weights_nonnegative",
+      "passed": true
+    },
+    {
+      "name": "run004_energy_budget",
+      "passed": true
+    },
+    {
+      "name": "run004_PHASE_SPACE_NULL_resolved_escape_kinetic_MeV",
+      "passed": true
+    },
+    {
+      "name": "run004_PHASE_SPACE_NULL_material_transfer_lower_MeV",
+      "passed": true
+    },
+    {
+      "name": "run004_PHASE_SPACE_NULL_unresolved_kinetic_budget_MeV",
+      "passed": true
+    },
+    {
+      "name": "run004_COHERENT_L1_L3_RAW_resolved_escape_kinetic_MeV",
+      "passed": true
+    },
+    {
+      "name": "run004_COHERENT_L1_L3_RAW_material_transfer_lower_MeV",
+      "passed": true
+    },
+    {
+      "name": "run004_COHERENT_L1_L3_RAW_unresolved_kinetic_budget_MeV",
+      "passed": true
+    },
+    {
+      "name": "run004_INCOHERENT_RAW_ABLATION_resolved_escape_kinetic_MeV",
+      "passed": true
+    },
+    {
+      "name": "run004_INCOHERENT_RAW_ABLATION_material_transfer_lower_MeV",
+      "passed": true
+    },
+    {
+      "name": "run004_INCOHERENT_RAW_ABLATION_unresolved_kinetic_budget_MeV",
+      "passed": true
+    },
+    {
+      "name": "run004_PURE_L1_CONTROL_resolved_escape_kinetic_MeV",
+      "passed": true
+    },
+    {
+      "name": "run004_PURE_L1_CONTROL_material_transfer_lower_MeV",
+      "passed": true
+    },
+    {
+      "name": "run004_PURE_L1_CONTROL_unresolved_kinetic_budget_MeV",
+      "passed": true
+    },
+    {
+      "name": "run004_PURE_L3_CONTROL_resolved_escape_kinetic_MeV",
+      "passed": true
+    },
+    {
+      "name": "run004_PURE_L3_CONTROL_material_transfer_lower_MeV",
+      "passed": true
+    },
+    {
+      "name": "run004_PURE_L3_CONTROL_unresolved_kinetic_budget_MeV",
+      "passed": true
+    },
+    {
+      "name": "same_seed_scientific_json_exact",
+      "passed": true
+    },
+    {
+      "name": "same_seed_all_arrays_exact",
+      "passed": true
+    }
+  ],
+  "checks_passed": 78,
+  "seed_and_sample_sensitivity": [
+    {
+      "source": "PHASE_SPACE_NULL",
+      "escape_run002_MeV": 0.14904203643518618,
+      "escape_run003_MeV": 0.1490551133886996,
+      "relative_difference": 8.774003513495095e-05
+    },
+    {
+      "source": "COHERENT_L1_L3_RAW",
+      "escape_run002_MeV": 0.14895188413152322,
+      "escape_run003_MeV": 0.14900324702531845,
+      "relative_difference": 0.00034482876195025857
+    },
+    {
+      "source": "INCOHERENT_RAW_ABLATION",
+      "escape_run002_MeV": 0.14893044909312392,
+      "escape_run003_MeV": 0.14907022425138794,
+      "relative_difference": 0.000938526400176383
+    },
+    {
+      "source": "PURE_L1_CONTROL",
+      "escape_run002_MeV": 0.1489233203204839,
+      "escape_run003_MeV": 0.14908695349678253,
+      "relative_difference": 0.0010987746979217166
+    },
+    {
+      "source": "PURE_L3_CONTROL",
+      "escape_run002_MeV": 0.1489534729748113,
+      "escape_run003_MeV": 0.14899126170269203,
+      "relative_difference": 0.00025369484259778874
+    }
+  ],
+  "interpretation": "Different seed AND doubled sample count: sensitivity diagnostic, not isolated convergence rate or confidence interval. No source ranking established."
+}

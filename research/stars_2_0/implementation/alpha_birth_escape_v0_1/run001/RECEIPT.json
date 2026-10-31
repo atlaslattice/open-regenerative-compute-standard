@@ -1,0 +1,12 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "Coulomb_backend": "MICHEL_CPC_FROM_ORM_ZENODO1174079",
+  "CPC_library_sha256": "eaa03b015478950401504db6757bc4ba5a74aee5f821af95a10bc177c0148c62",
+  "code_sha256": {
+    "run.py": "122acff9d897c306516a6caf3dfe48a0d061c863b5628f1590423beed3d97cd4",
+    "transport.py": "bcaf668e08851a44ff8c6ac78672612542207ffe0166748993c65a98de32690b"
+  },
+  "event_bank_sha256": "44bcefb8147f05e61cee2326ddb6ee59bb7f99c366d76ce2aba0b372a32ca619",
+  "scientific_freeze": false
+}
