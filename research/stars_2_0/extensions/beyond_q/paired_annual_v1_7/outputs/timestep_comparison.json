@@ -1,0 +1,32 @@
+[
+  {
+    "configuration": "arc_1100_1130",
+    "coarse": {
+      "step_minutes": 15.0,
+      "unserved_T_kg": 12.620380232127438,
+      "final_T_kg": 49.06305271199063
+    },
+    "fine": {
+      "step_minutes": 7.5,
+      "unserved_T_kg": 12.618011777577715,
+      "final_T_kg": 49.060324772829034
+    },
+    "unserved_difference_kg": -0.002368454549722898,
+    "final_T_difference_kg": -0.002727939161594861
+  },
+  {
+    "configuration": "dual_laser_1100_1100",
+    "coarse": {
+      "step_minutes": 15.0,
+      "unserved_T_kg": 13.008919171493783,
+      "final_T_kg": 53.54005420855896
+    },
+    "fine": {
+      "step_minutes": 7.5,
+      "unserved_T_kg": 13.006536674444519,
+      "final_T_kg": 53.53729127908657
+    },
+    "unserved_difference_kg": -0.0023824970492647424,
+    "final_T_difference_kg": -0.002762929472396536
+  }
+]

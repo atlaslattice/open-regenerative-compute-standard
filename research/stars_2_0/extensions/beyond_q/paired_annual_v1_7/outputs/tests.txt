@@ -1,0 +1,21 @@
+test_B_reference_replaces_burn_without_startup_creation (test_compare.Checks.test_B_reference_replaces_burn_without_startup_creation) ... ok
+test_T_phase_mass_closure (test_compare.Checks.test_T_phase_mass_closure) ... ok
+test_arc_400_net_not_twice_averaged_or_debited (test_compare.Checks.test_arc_400_net_not_twice_averaged_or_debited) ... ok
+test_arc_unfueled_still_pays_own_load (test_compare.Checks.test_arc_unfueled_still_pays_own_load) ... ok
+test_demand_caps_not_unlimited_revenue (test_compare.Checks.test_demand_caps_not_unlimited_revenue) ... ok
+test_explicit_clock_and_duty (test_compare.Checks.test_explicit_clock_and_duty) ... ok
+test_fusion_energy_is_partitioned_once (test_compare.Checks.test_fusion_energy_is_partitioned_once) ... ok
+test_helium_DD_DT_sources_and_capture_closure (test_compare.Checks.test_helium_DD_DT_sources_and_capture_closure) ... ok
+test_interval_import_export_and_energy_closure (test_compare.Checks.test_interval_import_export_and_energy_closure) ... ok
+test_legacy_unit_duty_replay (test_compare.Checks.test_legacy_unit_duty_replay) ... ok
+test_matched_sources_are_driver_independent (test_compare.Checks.test_matched_sources_are_driver_independent) ... ok
+test_no_T_sales_or_profit_or_certification (test_compare.Checks.test_no_T_sales_or_profit_or_certification) ... ok
+test_outage_and_cold_start_falsification (test_compare.Checks.test_outage_and_cold_start_falsification) ... ok
+test_power_lock_rejects_electricity_as_fusion (test_compare.Checks.test_power_lock_rejects_electricity_as_fusion) ... ok
+test_unknown_arc_A_draw_stays_unknown (test_compare.Checks.test_unknown_arc_A_draw_stays_unknown) ... ok
+test_zero_helium_source (test_compare.Checks.test_zero_helium_source) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.032s
+
+OK

@@ -1,0 +1,1 @@
+Dashboard JS syntax and 120 selection combinations pass with mocked DOM/canvas.
