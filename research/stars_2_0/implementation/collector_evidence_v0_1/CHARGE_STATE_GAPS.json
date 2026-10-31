@@ -1,0 +1,13 @@
+{
+  "status": "NO_TARGET_MATCHED_NUMERICAL_PACKAGE_RECOVERED_IN_THIS_SEARCH",
+  "searched_date_UTC": "2026-10-31",
+  "queries": ["helium charge state distribution boron foil MeV alpha charge exchange experimental", "helium charge state boron nitride foil alpha particles measurement MeV", "helium boron charge-state fractions foil"],
+  "leads": [
+    {"source":"Armstrong et al. (1965)","doi":"10.1088/0370-1328/86/6/316","institutional_record":"https://ntrs.nasa.gov/citations/19660037748","scope":"0.2–6.5 MeV helium in carbon; bibliographic/abstract lead. Numeric fractions not recovered. Carbon is not B11/BN/B4C; external transmitted beam is not automatically a fusion-born alpha exit distribution."},
+    {"source":"Funsten, Ritzau & Harper (2001)","doi":"10.1103/PhysRevB.63.155416","scope":"Publisher abstract reports negative helium exiting carbon foil at 8–80 keV. Full figures access-restricted. No fraction transferred to B11/BN; useful warning against claiming the He0/He+/He2+ states are universally exhaustive."}
+  ],
+  "required_data": ["helium projectile, correct target composition/state (do not confuse boron projectile papers)","exit kinetic energy and angle, path/column and birth versus incident-beam conditions","absolute fractions or capture/loss cross sections with uncertainties, covariance and equilibrium applicability","charge-exchange/reionization conditions after exit and transport time","treatment of neutral and any relevant negative charge states, electron currents and secondary emission"],
+  "application_to_STARS": null,
+  "literature_absence_claim": false,
+  "do_not_transfer": ["carbon-foil fractions to boron or ceramic by citation alone","a mean effective stopping charge as an exit charge-state distribution","hypothetical +2e numerical controls as a measured population"]
+}

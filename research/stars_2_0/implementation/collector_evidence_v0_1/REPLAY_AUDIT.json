@@ -1,0 +1,194 @@
+{
+  "status": "PASS",
+  "checks_passed": 47,
+  "checks": [
+    {
+      "name": "RESULTS.json_byte_exact_replay",
+      "passed": true
+    },
+    {
+      "name": "FIGURE15_COLLECTOR_POINTS.csv_byte_exact_replay",
+      "passed": true
+    },
+    {
+      "name": "FIGURE15_RECOVERY.png_byte_exact_replay",
+      "passed": true
+    },
+    {
+      "name": "run001_source_checks",
+      "passed": true
+    },
+    {
+      "name": "run001_no_pB_net_claim",
+      "passed": true
+    },
+    {
+      "name": "run001_preserves_19_markers",
+      "passed": true
+    },
+    {
+      "name": "run001_0_digitization_bounds",
+      "passed": true
+    },
+    {
+      "name": "run001_1_digitization_bounds",
+      "passed": true
+    },
+    {
+      "name": "run001_2_digitization_bounds",
+      "passed": true
+    },
+    {
+      "name": "run001_3_digitization_bounds",
+      "passed": true
+    },
+    {
+      "name": "run001_4_digitization_bounds",
+      "passed": true
+    },
+    {
+      "name": "run001_5_digitization_bounds",
+      "passed": true
+    },
+    {
+      "name": "run001_6_digitization_bounds",
+      "passed": true
+    },
+    {
+      "name": "run001_7_digitization_bounds",
+      "passed": true
+    },
+    {
+      "name": "run001_8_digitization_bounds",
+      "passed": true
+    },
+    {
+      "name": "run001_9_digitization_bounds",
+      "passed": true
+    },
+    {
+      "name": "run001_10_digitization_bounds",
+      "passed": true
+    },
+    {
+      "name": "run001_11_digitization_bounds",
+      "passed": true
+    },
+    {
+      "name": "run001_12_digitization_bounds",
+      "passed": true
+    },
+    {
+      "name": "run001_13_digitization_bounds",
+      "passed": true
+    },
+    {
+      "name": "run001_14_digitization_bounds",
+      "passed": true
+    },
+    {
+      "name": "run001_15_digitization_bounds",
+      "passed": true
+    },
+    {
+      "name": "run001_16_digitization_bounds",
+      "passed": true
+    },
+    {
+      "name": "run001_17_digitization_bounds",
+      "passed": true
+    },
+    {
+      "name": "run001_18_digitization_bounds",
+      "passed": true
+    },
+    {
+      "name": "run002_source_checks",
+      "passed": true
+    },
+    {
+      "name": "run002_no_pB_net_claim",
+      "passed": true
+    },
+    {
+      "name": "run002_preserves_19_markers",
+      "passed": true
+    },
+    {
+      "name": "run002_0_digitization_bounds",
+      "passed": true
+    },
+    {
+      "name": "run002_1_digitization_bounds",
+      "passed": true
+    },
+    {
+      "name": "run002_2_digitization_bounds",
+      "passed": true
+    },
+    {
+      "name": "run002_3_digitization_bounds",
+      "passed": true
+    },
+    {
+      "name": "run002_4_digitization_bounds",
+      "passed": true
+    },
+    {
+      "name": "run002_5_digitization_bounds",
+      "passed": true
+    },
+    {
+      "name": "run002_6_digitization_bounds",
+      "passed": true
+    },
+    {
+      "name": "run002_7_digitization_bounds",
+      "passed": true
+    },
+    {
+      "name": "run002_8_digitization_bounds",
+      "passed": true
+    },
+    {
+      "name": "run002_9_digitization_bounds",
+      "passed": true
+    },
+    {
+      "name": "run002_10_digitization_bounds",
+      "passed": true
+    },
+    {
+      "name": "run002_11_digitization_bounds",
+      "passed": true
+    },
+    {
+      "name": "run002_12_digitization_bounds",
+      "passed": true
+    },
+    {
+      "name": "run002_13_digitization_bounds",
+      "passed": true
+    },
+    {
+      "name": "run002_14_digitization_bounds",
+      "passed": true
+    },
+    {
+      "name": "run002_15_digitization_bounds",
+      "passed": true
+    },
+    {
+      "name": "run002_16_digitization_bounds",
+      "passed": true
+    },
+    {
+      "name": "run002_17_digitization_bounds",
+      "passed": true
+    },
+    {
+      "name": "run002_18_digitization_bounds",
+      "passed": true
+    }
+  ]
+}

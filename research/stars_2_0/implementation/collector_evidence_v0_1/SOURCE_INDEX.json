@@ -1,0 +1,9 @@
+{
+  "retrieved_date_UTC":"2026-10-31",
+  "sources":[
+    {"id":"BARR_MOIR_1983","doi":"10.13182/FST83-A20820","publisher":"https://wx1.ans.org/pubs/journals/fst/a_20820","author_copy":"https://www.ralphmoir.com/wp-content/uploads/2012/10/fusion-science-and-technology.pdf","access":"Full author-hosted PDF recovered and hash-pinned; printed-page109/110 inspected visually. Publisher metadata/abstract cross-check.","use":"Condition-specific TMX measured current/power data, approximate curve and geometry; not a STARS efficiency."},
+    {"id":"ARMSTRONG1965","doi":"10.1088/0370-1328/86/6/316","institutional_catalogue":"https://ntrs.nasa.gov/citations/19660037748","access":"Indexed publisher/institutional metadata recovered; direct publisher retrieval restricted and NTRS open returned403; no full numerical dataset recovered.","use":"Carbon-foil charge-state data lead; no target-matched fractions imported."},
+    {"id":"FUNSTEN2001","doi":"10.1103/PhysRevB.63.155416","publisher":"https://journals.aps.org/prb/abstract/10.1103/PhysRevB.63.155416","access":"Publisher abstract recovered; full figures access-restricted.","use":"Negative helium in a specific carbon-foil low-energy experiment: state-space warning, no population transferred to STARS."}
+  ],
+  "raw_source_redistribution":false
+}

@@ -1,0 +1,19 @@
+{
+  "source_pdf_page_1based": 12,
+  "printed_page": 109,
+  "figure": 15,
+  "native_image_size_px": [2551, 3260],
+  "crop_native_px": [330, 1900, 1270, 2670],
+  "coordinate_convention": "x right, y down in crop; centers of ion-collector circular markers only",
+  "affine_anchors": [
+    {"pixel": [48.0, 756.5], "value": [0.0, 0.0]},
+    {"pixel": [738.5, 751.5], "value": [1000.0, 0.0]},
+    {"pixel": [45.5, 244.5], "value": [0.0, 0.15]}
+  ],
+  "coordinate_reading_bound_px": 3.0,
+  "bound_status": "Explicit analyst digitization tolerance, not a published measurement error or confidence interval",
+  "markers": [[46.46,243.54],[45.92,249.62],[114.5,278.67],[114.86,328.41],[327.5,243.71],[326.18,311.03],[468.0,244.0],[469.15,276.38],[469.5,343.0],[538.94,428.58],[539.0,443.83],[539.26,477.35],[538.82,511.35],[608.39,477.48],[610.06,545.51],[679.0,544.74],[749.66,579.94],[750.21,614.45],[750.53,631.69]],
+  "selection": "19 visible circular ion-collector markers checked visually. Closed white-hole centroids recovered from thresholded image where available; marker [468,244] has an open ring and was centered manually. Suppressor-grid squares/circles, fitted line and text holes excluded. No current outliers deleted.",
+  "source_model_annotation": {"plateau_A":0.14,"phi_V":565.0,"Ti_eV":364.0},
+  "model_scope": "Our exponential-tail reconstruction of the displayed curve; interpretation as ion temperature depends on source loss-cone assumptions. This is net terminal current, not a universal incident-ion PDF."
+}
