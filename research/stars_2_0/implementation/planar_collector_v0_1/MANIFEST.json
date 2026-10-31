@@ -1,0 +1,132 @@
+{
+  "package": "planar_collector_v0_1",
+  "files": [
+    {
+      "path": "AUDIT.json",
+      "bytes": 78209,
+      "sha256": "e300b12621e2d734dd4f2406fb39bd1c6106e844dd2a060c8ab235846d5448f8"
+    },
+    {
+      "path": "DEPENDENCY_LOCK.json",
+      "bytes": 1077,
+      "sha256": "2b2d29f74bd8f75dd2d20eeb538836061a9b4a86e1eb96f890b420b18fbb1c2b"
+    },
+    {
+      "path": "INTERPRETATION.json",
+      "bytes": 1636,
+      "sha256": "ee78e7e87379139d0e1ac962f2828abe17cd017fb09a3527ade0884905c839e8"
+    },
+    {
+      "path": "README.md",
+      "bytes": 9549,
+      "sha256": "12fd57477c0434a688e4fc33899e6398d46fe7209361bb9d3971736fd4d3affd"
+    },
+    {
+      "path": "RUN001.log",
+      "bytes": 15,
+      "sha256": "53decc9095495fc1914a0e1ce66d263f1c938207e52ff3e25e6f86dac2d09d2a"
+    },
+    {
+      "path": "RUN002.log",
+      "bytes": 15,
+      "sha256": "53decc9095495fc1914a0e1ce66d263f1c938207e52ff3e25e6f86dac2d09d2a"
+    },
+    {
+      "path": "TESTS.log",
+      "bytes": 1369,
+      "sha256": "00c6cb063c0f2e5ca05965e5534acb1286b2de13c8f2cff0ae95b0572b398973"
+    },
+    {
+      "path": "WARPX_RUN001.log",
+      "bytes": 1240,
+      "sha256": "701af26a9f241b740dde0af6eb497d9f2f7f7a68f04b6482291b9fb9a49581eb"
+    },
+    {
+      "path": "WARPX_RUN002.log",
+      "bytes": 218,
+      "sha256": "0e6b7d3528d5058b2593e746ac75d3ed07811a62728ca898a6bd3eb3cf40b852"
+    },
+    {
+      "path": "WARPX_RUN003.log",
+      "bytes": 218,
+      "sha256": "0e6b7d3528d5058b2593e746ac75d3ed07811a62728ca898a6bd3eb3cf40b852"
+    },
+    {
+      "path": "audit.py",
+      "bytes": 2214,
+      "sha256": "b29a003d4f6eb85acec1d1e50e020caccd7b0b5239ccb6a346ba4e8d417bf2ee"
+    },
+    {
+      "path": "collector.py",
+      "bytes": 2578,
+      "sha256": "3af3f3bd591b43cb16cedcafc4cf48446d5652e088a9fc3e59927cd3f9195ab4"
+    },
+    {
+      "path": "run.py",
+      "bytes": 5147,
+      "sha256": "c0ad16219ea9907bd335cf8bd54b128aa419ceedb97cd5d7297ede38aea03c18"
+    },
+    {
+      "path": "run001/RECEIPT.json",
+      "bytes": 285,
+      "sha256": "43488459b0ad85a1fc6d6184cbb7e9a285452554d6ec2f03b214fd227d587ae3"
+    },
+    {
+      "path": "run001/RESULTS.json",
+      "bytes": 252733,
+      "sha256": "735e3760f0a2b690f8bff79b4b4c41070c06488a2d53be8ea5e3e7ffe94fc37a"
+    },
+    {
+      "path": "run002/RECEIPT.json",
+      "bytes": 285,
+      "sha256": "43488459b0ad85a1fc6d6184cbb7e9a285452554d6ec2f03b214fd227d587ae3"
+    },
+    {
+      "path": "run002/RESULTS.json",
+      "bytes": 252733,
+      "sha256": "43ee35abc56ee5526e3eb2d8e355f06d76b3ed06624d19644b5f998c7ea477b3"
+    },
+    {
+      "path": "run_warpx.py",
+      "bytes": 4618,
+      "sha256": "21d45377ab31cc05a2c319d500740e6980642670d74fda2b8475448fa26ea208"
+    },
+    {
+      "path": "run_warpx_v002.py",
+      "bytes": 4636,
+      "sha256": "22deb77f539b1ff00388822ddeb04116ce57a1f3b2a8755f753d13e41b1c674f"
+    },
+    {
+      "path": "test_collector.py",
+      "bytes": 2774,
+      "sha256": "31de9f283490ecb47b07ca10e72fc700ecbc7102af36345187cc20ab3615c8ae"
+    },
+    {
+      "path": "unpack_traces.py",
+      "bytes": 694,
+      "sha256": "d9789fca568feb38a583b7c3af7f78c553107c220c9ef55ed24a534e935044df"
+    },
+    {
+      "path": "warpx_run001/RESULTS.json",
+      "bytes": 5379,
+      "sha256": "0b20016ee44e12fa78d2ef8c37b06d927919b71da364fca14c50e2a0a8d8c55c"
+    },
+    {
+      "path": "warpx_run002/RESULTS.json",
+      "bytes": 5381,
+      "sha256": "069423c10ec42ea6a96df2e8c1f5810725f95cdd87fdad7d1a5406dc240477e9"
+    },
+    {
+      "path": "warpx_run003/RESULTS.json",
+      "bytes": 5380,
+      "sha256": "5801fa4abc4cc2d478e0764f74ab379a9f9feef798fc4623bcdf251216aa20a3"
+    },
+    {
+      "path": "warpx_traces.tar.xz",
+      "bytes": 131080,
+      "sha256": "6d2ac9016a751c0c1d45dc8144ba0aa5d1f2517fd9b6a7c386fe596af7b6e517"
+    }
+  ],
+  "raw_traces": "Lossless warpx_traces.tar.xz, original input/used-input/log/trace files preserved",
+  "scientific_freeze": false
+}

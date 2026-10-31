@@ -1,0 +1,30 @@
+[
+  {
+    "path": "coupled_reference_v0_5/MASS_SOURCE.json",
+    "sha256": "ae8cd1bb6bb9a9aae17f00addc7badf65ef2e5565f44fae649a36b438c737136"
+  },
+  {
+    "path": "alpha_birth_escape_v0_1/run003/EVENT_BANK.npz",
+    "sha256": "a58cf76550a69241ce1341723f0999eb8a4069f4545ecc262601c5efad513a87"
+  },
+  {
+    "path": "alpha_birth_escape_v0_1/run003/RESULTS.json",
+    "sha256": "8dfd982b14fdccb69fe941d2c5b57b6049bbd48e5bece23dfcb997e414c5b696"
+  },
+  {
+    "path": "finite_alpha_transport_v0_1/run002/aspect_100.0.npz",
+    "sha256": "2963ebd08e8d26a2bbfedf344a69860dd9056b8c3158f24cc44f7c62f54c555a"
+  },
+  {
+    "path": "finite_alpha_transport_v0_1/run002/aspect_2.0.npz",
+    "sha256": "e14737552e57340f5c75e16290d3e41746c7b3af5458269c1fb16b7eba9843fa"
+  },
+  {
+    "path": "finite_alpha_transport_v0_1/run002/aspect_1000000.0.npz",
+    "sha256": "a3b4c3b5946a7a265d0dcc6657dfb07b522c557320909d694e201449c16082a3"
+  },
+  {
+    "path": "finite_alpha_transport_v0_1/run002/aspect_10.0.npz",
+    "sha256": "7a7385909eb683d73b482dd19e21a9671e86a5c43b2d5605cb1cb6e901ccc90e"
+  }
+]

@@ -1,0 +1,3646 @@
+{
+  "status": "PASS",
+  "checks_passed": 910,
+  "checks": [
+    {
+      "name": "run001_checks_pass",
+      "passed": true
+    },
+    {
+      "name": "run001_0_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_0_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_0_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_0_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run001_0_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_0_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run001_0_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_0_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_0_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_0_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_1_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_1_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_1_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_1_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run001_1_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_1_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run001_1_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_1_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_1_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_1_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_2_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_2_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_2_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_2_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run001_2_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_2_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run001_2_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_2_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_2_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_2_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_3_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_3_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_3_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_3_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run001_3_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_3_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run001_3_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_3_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_3_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_3_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_4_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_4_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_4_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_4_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run001_4_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_4_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run001_4_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_4_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_4_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_4_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_5_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_5_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_5_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_5_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run001_5_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_5_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run001_5_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_5_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_5_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_5_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_6_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_6_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_6_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_6_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run001_6_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_6_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run001_6_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_6_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_6_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_6_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_7_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_7_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_7_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_7_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run001_7_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_7_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run001_7_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_7_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_7_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_7_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_8_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_8_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_8_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_8_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run001_8_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_8_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run001_8_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_8_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_8_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_8_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_9_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_9_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_9_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_9_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run001_9_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_9_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run001_9_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_9_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_9_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_9_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_10_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_10_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_10_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_10_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run001_10_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_10_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run001_10_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_10_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_10_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_10_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_11_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_11_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_11_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_11_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run001_11_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_11_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run001_11_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_11_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_11_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_11_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_12_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_12_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_12_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_12_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run001_12_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_12_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run001_12_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_12_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_12_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_12_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_13_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_13_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_13_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_13_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run001_13_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_13_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run001_13_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_13_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_13_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_13_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_14_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_14_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_14_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_14_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run001_14_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_14_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run001_14_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_14_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_14_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_14_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_15_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_15_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_15_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_15_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run001_15_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_15_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run001_15_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_15_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_15_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_15_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_16_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_16_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_16_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_16_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run001_16_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_16_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run001_16_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_16_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_16_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_16_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_17_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_17_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_17_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_17_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run001_17_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_17_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run001_17_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_17_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_17_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_17_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_18_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_18_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_18_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_18_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run001_18_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_18_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run001_18_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_18_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_18_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_18_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_19_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_19_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_19_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_19_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run001_19_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_19_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run001_19_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_19_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_19_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_19_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_20_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_20_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_20_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_20_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run001_20_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_20_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run001_20_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_20_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_20_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_20_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_21_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_21_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_21_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_21_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run001_21_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_21_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run001_21_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_21_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_21_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_21_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_22_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_22_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_22_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_22_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run001_22_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_22_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run001_22_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_22_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_22_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_22_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_23_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_23_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_23_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_23_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run001_23_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_23_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run001_23_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_23_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_23_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_23_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_24_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_24_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_24_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_24_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run001_24_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_24_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run001_24_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_24_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_24_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_24_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_25_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_25_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_25_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_25_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run001_25_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_25_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run001_25_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_25_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_25_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_25_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_26_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_26_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_26_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_26_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run001_26_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_26_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run001_26_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_26_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_26_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_26_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_27_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_27_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_27_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_27_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run001_27_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_27_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run001_27_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_27_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_27_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_27_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_28_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_28_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_28_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_28_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run001_28_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_28_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run001_28_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_28_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_28_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_28_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_29_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_29_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_29_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_29_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run001_29_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_29_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run001_29_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_29_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_29_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_29_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_30_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_30_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_30_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_30_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run001_30_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_30_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run001_30_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_30_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_30_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_30_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_31_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_31_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_31_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_31_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run001_31_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_31_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run001_31_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_31_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_31_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_31_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_32_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_32_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_32_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_32_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run001_32_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_32_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run001_32_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_32_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_32_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_32_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_33_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_33_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_33_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_33_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run001_33_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_33_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run001_33_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_33_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_33_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_33_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_34_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_34_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_34_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_34_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run001_34_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_34_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run001_34_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_34_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_34_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_34_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_35_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_35_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_35_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_35_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run001_35_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_35_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run001_35_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_35_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_35_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_35_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_36_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_36_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_36_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_36_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run001_36_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_36_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run001_36_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_36_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_36_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_36_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_37_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_37_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_37_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_37_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run001_37_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_37_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run001_37_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_37_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_37_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_37_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_38_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_38_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_38_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_38_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run001_38_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_38_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run001_38_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_38_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_38_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_38_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_39_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_39_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_39_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_39_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run001_39_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_39_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run001_39_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_39_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_39_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_39_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_40_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_40_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_40_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_40_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run001_40_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_40_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run001_40_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_40_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_40_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_40_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_41_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_41_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_41_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_41_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run001_41_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_41_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run001_41_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_41_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_41_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_41_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_42_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_42_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_42_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_42_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run001_42_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_42_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run001_42_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_42_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_42_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_42_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_43_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_43_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_43_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_43_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run001_43_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_43_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run001_43_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_43_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run001_43_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run001_43_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_checks_pass",
+      "passed": true
+    },
+    {
+      "name": "run002_0_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_0_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_0_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_0_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run002_0_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_0_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run002_0_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_0_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_0_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_0_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_1_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_1_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_1_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_1_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run002_1_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_1_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run002_1_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_1_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_1_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_1_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_2_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_2_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_2_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_2_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run002_2_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_2_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run002_2_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_2_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_2_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_2_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_3_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_3_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_3_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_3_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run002_3_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_3_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run002_3_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_3_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_3_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_3_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_4_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_4_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_4_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_4_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run002_4_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_4_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run002_4_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_4_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_4_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_4_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_5_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_5_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_5_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_5_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run002_5_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_5_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run002_5_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_5_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_5_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_5_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_6_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_6_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_6_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_6_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run002_6_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_6_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run002_6_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_6_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_6_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_6_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_7_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_7_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_7_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_7_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run002_7_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_7_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run002_7_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_7_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_7_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_7_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_8_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_8_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_8_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_8_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run002_8_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_8_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run002_8_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_8_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_8_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_8_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_9_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_9_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_9_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_9_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run002_9_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_9_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run002_9_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_9_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_9_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_9_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_10_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_10_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_10_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_10_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run002_10_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_10_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run002_10_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_10_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_10_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_10_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_11_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_11_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_11_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_11_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run002_11_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_11_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run002_11_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_11_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_11_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_11_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_12_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_12_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_12_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_12_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run002_12_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_12_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run002_12_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_12_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_12_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_12_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_13_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_13_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_13_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_13_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run002_13_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_13_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run002_13_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_13_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_13_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_13_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_14_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_14_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_14_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_14_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run002_14_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_14_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run002_14_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_14_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_14_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_14_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_15_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_15_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_15_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_15_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run002_15_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_15_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run002_15_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_15_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_15_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_15_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_16_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_16_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_16_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_16_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run002_16_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_16_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run002_16_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_16_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_16_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_16_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_17_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_17_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_17_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_17_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run002_17_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_17_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run002_17_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_17_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_17_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_17_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_18_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_18_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_18_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_18_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run002_18_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_18_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run002_18_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_18_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_18_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_18_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_19_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_19_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_19_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_19_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run002_19_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_19_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run002_19_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_19_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_19_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_19_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_20_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_20_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_20_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_20_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run002_20_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_20_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run002_20_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_20_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_20_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_20_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_21_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_21_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_21_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_21_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run002_21_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_21_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run002_21_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_21_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_21_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_21_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_22_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_22_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_22_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_22_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run002_22_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_22_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run002_22_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_22_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_22_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_22_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_23_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_23_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_23_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_23_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run002_23_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_23_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run002_23_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_23_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_23_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_23_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_24_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_24_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_24_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_24_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run002_24_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_24_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run002_24_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_24_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_24_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_24_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_25_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_25_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_25_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_25_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run002_25_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_25_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run002_25_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_25_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_25_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_25_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_26_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_26_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_26_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_26_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run002_26_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_26_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run002_26_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_26_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_26_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_26_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_27_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_27_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_27_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_27_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run002_27_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_27_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run002_27_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_27_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_27_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_27_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_28_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_28_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_28_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_28_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run002_28_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_28_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run002_28_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_28_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_28_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_28_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_29_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_29_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_29_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_29_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run002_29_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_29_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run002_29_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_29_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_29_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_29_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_30_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_30_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_30_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_30_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run002_30_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_30_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run002_30_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_30_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_30_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_30_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_31_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_31_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_31_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_31_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run002_31_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_31_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run002_31_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_31_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_31_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_31_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_32_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_32_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_32_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_32_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run002_32_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_32_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run002_32_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_32_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_32_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_32_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_33_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_33_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_33_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_33_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run002_33_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_33_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run002_33_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_33_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_33_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_33_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_34_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_34_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_34_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_34_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run002_34_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_34_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run002_34_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_34_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_34_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_34_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_35_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_35_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_35_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_35_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run002_35_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_35_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run002_35_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_35_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_35_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_35_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_36_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_36_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_36_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_36_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run002_36_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_36_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run002_36_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_36_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_36_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_36_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_37_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_37_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_37_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_37_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run002_37_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_37_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run002_37_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_37_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_37_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_37_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_38_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_38_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_38_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_38_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run002_38_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_38_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run002_38_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_38_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_38_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_38_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_39_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_39_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_39_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_39_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run002_39_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_39_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run002_39_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_39_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_39_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_39_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_40_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_40_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_40_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_40_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run002_40_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_40_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run002_40_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_40_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_40_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_40_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_41_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_41_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_41_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_41_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run002_41_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_41_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run002_41_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_41_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_41_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_41_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_42_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_42_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_42_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_42_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run002_42_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_42_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run002_42_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_42_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_42_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_42_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_43_PHASE_SPACE_NULL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_43_PHASE_SPACE_NULL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_43_COHERENT_L1_L3_RAW_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_43_COHERENT_L1_L3_RAW_count",
+      "passed": true
+    },
+    {
+      "name": "run002_43_INCOHERENT_RAW_ABLATION_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_43_INCOHERENT_RAW_ABLATION_count",
+      "passed": true
+    },
+    {
+      "name": "run002_43_PURE_L1_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_43_PURE_L1_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "run002_43_PURE_L3_CONTROL_energy",
+      "passed": true
+    },
+    {
+      "name": "run002_43_PURE_L3_CONTROL_count",
+      "passed": true
+    },
+    {
+      "name": "bank_scientific_replay_exact",
+      "passed": true
+    },
+    {
+      "name": "warpx_run002_checks_pass",
+      "passed": true
+    },
+    {
+      "name": "warpx_run002_normal_particle_and_weight_retained",
+      "passed": true
+    },
+    {
+      "name": "warpx_run002_normal_half_dt_particle_and_weight_retained",
+      "passed": true
+    },
+    {
+      "name": "warpx_run002_grazing_particle_and_weight_retained",
+      "passed": true
+    },
+    {
+      "name": "warpx_run002_grazing_half_dt_particle_and_weight_retained",
+      "passed": true
+    },
+    {
+      "name": "warpx_run002_accelerating_particle_and_weight_retained",
+      "passed": true
+    },
+    {
+      "name": "warpx_run002_zero_field_particle_and_weight_retained",
+      "passed": true
+    },
+    {
+      "name": "warpx_run003_checks_pass",
+      "passed": true
+    },
+    {
+      "name": "warpx_run003_normal_particle_and_weight_retained",
+      "passed": true
+    },
+    {
+      "name": "warpx_run003_normal_half_dt_particle_and_weight_retained",
+      "passed": true
+    },
+    {
+      "name": "warpx_run003_grazing_particle_and_weight_retained",
+      "passed": true
+    },
+    {
+      "name": "warpx_run003_grazing_half_dt_particle_and_weight_retained",
+      "passed": true
+    },
+    {
+      "name": "warpx_run003_accelerating_particle_and_weight_retained",
+      "passed": true
+    },
+    {
+      "name": "warpx_run003_zero_field_particle_and_weight_retained",
+      "passed": true
+    },
+    {
+      "name": "warpx_summary_replay_exact",
+      "passed": true
+    },
+    {
+      "name": "normal_extrema_raw_replay_exact",
+      "passed": true
+    },
+    {
+      "name": "normal_number_raw_replay_exact",
+      "passed": true
+    },
+    {
+      "name": "normal_half_dt_extrema_raw_replay_exact",
+      "passed": true
+    },
+    {
+      "name": "normal_half_dt_number_raw_replay_exact",
+      "passed": true
+    },
+    {
+      "name": "grazing_extrema_raw_replay_exact",
+      "passed": true
+    },
+    {
+      "name": "grazing_number_raw_replay_exact",
+      "passed": true
+    },
+    {
+      "name": "grazing_half_dt_extrema_raw_replay_exact",
+      "passed": true
+    },
+    {
+      "name": "grazing_half_dt_number_raw_replay_exact",
+      "passed": true
+    },
+    {
+      "name": "accelerating_extrema_raw_replay_exact",
+      "passed": true
+    },
+    {
+      "name": "accelerating_number_raw_replay_exact",
+      "passed": true
+    },
+    {
+      "name": "zero_field_extrema_raw_replay_exact",
+      "passed": true
+    },
+    {
+      "name": "zero_field_number_raw_replay_exact",
+      "passed": true
+    }
+  ]
+}

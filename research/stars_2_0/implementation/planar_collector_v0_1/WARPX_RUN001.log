@@ -1,0 +1,12 @@
+normal 3.4797942305431206e-11
+normal_half_dt 8.624212455288216e-12
+grazing 9.690026558928366e-13
+grazing_half_dt 2.424727085781342e-13
+accelerating 4.248246199267669e-11
+zero_field 8.881784197001252e-16
+checks 26 / 27
+Traceback (most recent call last):
+  File "/workspace/scratch/6126a9592c76/planar_collector_v0_1/run_warpx.py", line 65, in <module>
+    (out/'RESULTS.json').write_text(json.dumps({'status':'PRESCRIBED_UNIFORM_E_TEST_PARTICLE_ONLY','results':rows,'checks':checks,'executable_sha256':hashlib.sha256((runtime/'bin/warpx.3d').read_bytes()).hexdigest(),'runner_sha256':hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),'apparatus_net_power':None},indent=2)+'\n');print('checks',sum(x['passed'] for x in checks),'/',len(checks));assert all(x['passed'] for x in checks)
+                                                                                                                                                                                                                                                                                                                                                                                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

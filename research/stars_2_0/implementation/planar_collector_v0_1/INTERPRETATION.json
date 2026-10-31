@@ -1,0 +1,42 @@
+{
+  "status": "CONDITIONAL_NUMERICAL_COMPARISON_ONLY",
+  "rows": [
+    {
+      "aspect": 2.0,
+      "source": "COHERENT_L1_L3_RAW",
+      "bias_MV": 1.0,
+      "resolved_escape_MeV": 0.1514654950139619,
+      "ideal_correct_circuit_transfer_MeV": 0.01074888765275388,
+      "deliberately_wrong_total_energy_criterion_transfer_MeV": 0.02325091712953029,
+      "wrong_over_correct": 2.1630998369932137
+    },
+    {
+      "aspect": 10.0,
+      "source": "COHERENT_L1_L3_RAW",
+      "bias_MV": 1.0,
+      "resolved_escape_MeV": 0.15060614598452726,
+      "ideal_correct_circuit_transfer_MeV": 0.010801900145078397,
+      "deliberately_wrong_total_energy_criterion_transfer_MeV": 0.03466027641082822,
+      "wrong_over_correct": 3.2087203126590897
+    },
+    {
+      "aspect": 100.0,
+      "source": "COHERENT_L1_L3_RAW",
+      "bias_MV": 1.0,
+      "resolved_escape_MeV": 0.1494157273994169,
+      "ideal_correct_circuit_transfer_MeV": 0.010801900145078397,
+      "deliberately_wrong_total_energy_criterion_transfer_MeV": 0.03755106031505484,
+      "wrong_over_correct": 3.4763384044208183
+    },
+    {
+      "aspect": 1000000.0,
+      "source": "COHERENT_L1_L3_RAW",
+      "bias_MV": 1.0,
+      "resolved_escape_MeV": 0.14900324702531845,
+      "ideal_correct_circuit_transfer_MeV": 0.010801900145078397,
+      "deliberately_wrong_total_energy_criterion_transfer_MeV": 0.03759653285398563,
+      "wrong_over_correct": 3.4805480840438525
+    }
+  ],
+  "warning": "The wrong total-energy formula is a deliberate mutation control, not an allegation that any historical model used it. No recommended voltage or physical efficiency inferred."
+}

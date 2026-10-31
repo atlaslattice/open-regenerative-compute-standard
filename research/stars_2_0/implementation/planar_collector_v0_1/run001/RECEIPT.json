@@ -1,0 +1,8 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "numpy": "2.3.5",
+  "code_sha256": {
+    "run.py": "c0ad16219ea9907bd335cf8bd54b128aa419ceedb97cd5d7297ede38aea03c18",
+    "collector.py": "3af3f3bd591b43cb16cedcafc4cf48446d5652e088a9fc3e59927cd3f9195ab4"
+  }
+}
