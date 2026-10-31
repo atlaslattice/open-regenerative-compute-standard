@@ -1,0 +1,36 @@
+{
+  "jointness": "JOINT_RECORDS",
+  "species": "proton",
+  "frame": "LAB",
+  "units": {
+    "position": "m",
+    "time": "s",
+    "kinetic_energy": "MeV",
+    "weight": "physical_particles"
+  },
+  "normalization": "ABSOLUTE_PHYSICAL_PARTICLES_PER_SNAPSHOT",
+  "evidence": {
+    "kind": "NUMERICAL_VERIFICATION",
+    "source_ref": "inputs/canonical_mm_675keV; new weight=7 verification choice",
+    "input_sha256": "bb421761f7b3089827462ef45a4d548f27da6624315d42d5ebf2664c4db8f0c7"
+  },
+  "snapshot_time_s": 0,
+  "records": [
+    {
+      "id": "verification_p1",
+      "weight": 7,
+      "kinetic_MeV": 0.675,
+      "position_m": [
+        0,
+        0.0002,
+        0.0025
+      ],
+      "unit_direction_LAB": [
+        0.5776085206644441,
+        0.0,
+        0.8163139082827344
+      ],
+      "time_s": 0
+    }
+  ]
+}

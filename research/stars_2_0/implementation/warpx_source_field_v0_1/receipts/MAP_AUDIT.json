@@ -1,0 +1,60 @@
+{
+  "original_grid_unit_SI": 1.0,
+  "original_grid_spacing": [
+    0.05,
+    0.05,
+    0.125
+  ],
+  "original_grid_offset": [
+    -1.15,
+    -1.15,
+    -0.375
+  ],
+  "original_axes": [
+    "x",
+    "y",
+    "z"
+  ],
+  "original_sha256": "f6845dd8046eed415face768abe98748bb624523ea4165ffe0f026d2498245eb",
+  "original_git_blob": "fddd0a849d8f5ffc8ce9cd00fdc3dedd4ff62161",
+  "source_FEM_length_units": "millimeters",
+  "B_component_unit_SI": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 1.0
+  },
+  "B_component_minmax_T": {
+    "x": [
+      -0.005216795392187118,
+      0.005216795392187119
+    ],
+    "y": [
+      -0.005216795392187118,
+      0.005216795392187119
+    ],
+    "z": [
+      -0.002135971266246488,
+      0.009181551467671347
+    ]
+  },
+  "interpretation": "SOURCE_UNIT_INCONSISTENCY_OR_UNDOCUMENTED_RESCALING; NOT A CLAIM OF AUTHOR INTENT OR LAB VALIDATION",
+  "derived_spatial_scale": 0.001,
+  "derived_variants": [
+    {
+      "variant": "metadata_only_mm",
+      "file": "maps/metadata_only_mm.h5",
+      "sha256": "73f5ba02e8778afeeed42fc97a5e34815273d4ed1a7ddb890ba3d9e1d7eb7e93",
+      "B_values_bit_identical": true,
+      "gridSpacing_multiplier": 1,
+      "gridUnitSI": 0.001
+    },
+    {
+      "variant": "canonical_mm",
+      "file": "maps/canonical_mm.h5",
+      "sha256": "3e196d21829d23f4ce94d76b87325404b31a99275db58d1e9623d3c3c7c9fcff",
+      "B_values_bit_identical": true,
+      "gridSpacing_multiplier": 0.001,
+      "gridUnitSI": 1
+    }
+  ]
+}

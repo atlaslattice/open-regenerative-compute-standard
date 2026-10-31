@@ -1,0 +1,86 @@
+[
+  {
+    "case": "original_low",
+    "final_weight": 1.0,
+    "last_active_time_s": 0.000132275371454728,
+    "last_active_position_m": [
+      0.122092631556671,
+      -0.0222040446373788,
+      4.34645143953277
+    ],
+    "parallel_z_reversal": true,
+    "run_time_s": 0.000132275371454728
+  },
+  {
+    "case": "metadata_only_negative_control",
+    "final_weight": 1.0,
+    "last_active_time_s": 0.000132275371454728,
+    "last_active_position_m": [
+      0.122092631556671,
+      -0.0222040446373788,
+      4.34645143953277
+    ],
+    "parallel_z_reversal": true,
+    "run_time_s": 0.000132275371454728
+  },
+  {
+    "case": "canonical_mm_low",
+    "final_weight": 0.0,
+    "last_active_time_s": 3.48325144830783e-08,
+    "last_active_position_m": [
+      0.000992914890624677,
+      0.000196800212170311,
+      0.0039028824443528
+    ],
+    "parallel_z_reversal": false,
+    "run_time_s": 1.32275371454727e-07
+  },
+  {
+    "case": "original_no_B",
+    "final_weight": 0.0,
+    "last_active_time_s": 3.48325144830783e-05,
+    "last_active_position_m": [
+      0.992743278534374,
+      0.2,
+      3.90300933353542
+    ],
+    "parallel_z_reversal": false,
+    "run_time_s": 0.000132275371454728
+  },
+  {
+    "case": "original_675keV",
+    "final_weight": 0.0,
+    "last_active_time_s": 1.52e-07,
+    "last_active_position_m": [
+      0.99850996917138,
+      0.185933795005191,
+      3.90965877016767
+    ],
+    "parallel_z_reversal": false,
+    "run_time_s": 3.00000000000001e-07
+  },
+  {
+    "case": "canonical_mm_675keV",
+    "final_weight": 0.0,
+    "last_active_time_s": 1.52e-10,
+    "last_active_position_m": [
+      0.000997852803737658,
+      0.000199985939411425,
+      0.00391022877891176
+    ],
+    "parallel_z_reversal": false,
+    "run_time_s": 2.99999999999999e-10
+  },
+  {
+    "case": "canonical_mm_low_half_dt",
+    "final_weight": 0.0,
+    "last_active_time_s": 3.50529734355028e-08,
+    "last_active_position_m": [
+      0.000999201574205986,
+      0.000196749017997355,
+      0.0039117596263374
+    ],
+    "parallel_z_reversal": false,
+    "run_time_s": 1.32275371454729e-07
+  }
+]

@@ -1,0 +1,195 @@
+{
+  "bundled": false,
+  "files": [
+    {
+      "path": "receipts/conservation/diags/diag1000000/Header",
+      "bytes": 170,
+      "sha256": "fffd0952980a25220c6dc39c1d8dd9471cad85f9c6bc8287219cc5e00ea90514"
+    },
+    {
+      "path": "receipts/conservation/diags/diag1000000/Level_0/Cell_D_00000",
+      "bytes": 650,
+      "sha256": "f9449545c1c2c550c7bc3515311ce48fa0a96d6f12ca7c88a965abdb0fa1bd92"
+    },
+    {
+      "path": "receipts/conservation/diags/diag1000000/Level_0/Cell_H",
+      "bytes": 502,
+      "sha256": "e1211e8928b0f79687748fa950e29fca5cecda1e9f03aaabdfa554bbfcac16c8"
+    },
+    {
+      "path": "receipts/conservation/diags/diag1000000/WarpXHeader",
+      "bytes": 257,
+      "sha256": "906700dd26c7c93ee6edb69a181dd85ee6e7266d33c7fa6208152600c85399a9"
+    },
+    {
+      "path": "receipts/conservation/diags/diag1000000/ionsA/Header",
+      "bytes": 96,
+      "sha256": "698987c381ad33c1cb6420db758b1239882ab84cd12ff44661973a339610533d"
+    },
+    {
+      "path": "receipts/conservation/diags/diag1000000/ionsA/Level_0/DATA_00000",
+      "bytes": 15360,
+      "sha256": "1982315b7dbba32415858793d7abb76b267c0886183bf8b693cd3bc32511133a"
+    },
+    {
+      "path": "receipts/conservation/diags/diag1000000/ionsA/Level_0/Particle_H",
+      "bytes": 21,
+      "sha256": "453b7f500cd1b543648045dbe345b9338c347f4b6d87aa36eb7642a5723574b0"
+    },
+    {
+      "path": "receipts/conservation/diags/diag1000000/ionsB/Header",
+      "bytes": 96,
+      "sha256": "698987c381ad33c1cb6420db758b1239882ab84cd12ff44661973a339610533d"
+    },
+    {
+      "path": "receipts/conservation/diags/diag1000000/ionsB/Level_0/DATA_00000",
+      "bytes": 15360,
+      "sha256": "b424e92b1bae3cb7f7605487d2ae364a68345268354fffa99f9afd023cdf75dd"
+    },
+    {
+      "path": "receipts/conservation/diags/diag1000000/ionsB/Level_0/Particle_H",
+      "bytes": 21,
+      "sha256": "453b7f500cd1b543648045dbe345b9338c347f4b6d87aa36eb7642a5723574b0"
+    },
+    {
+      "path": "receipts/conservation/diags/diag1000000/warpx_job_info",
+      "bytes": 7854,
+      "sha256": "3ddf9d34d5724f14c4d677fb62a6a58bacfdca97fed4c2a81e7ce92982b4b56e"
+    },
+    {
+      "path": "receipts/conservation/diags/diag1000010/Header",
+      "bytes": 214,
+      "sha256": "af1565fcec0cb1a2368ced39c5ff22b5aaa8b45028ec85a04f7107c3b1ab853f"
+    },
+    {
+      "path": "receipts/conservation/diags/diag1000010/Level_0/Cell_D_00000",
+      "bytes": 650,
+      "sha256": "f9449545c1c2c550c7bc3515311ce48fa0a96d6f12ca7c88a965abdb0fa1bd92"
+    },
+    {
+      "path": "receipts/conservation/diags/diag1000010/Level_0/Cell_H",
+      "bytes": 502,
+      "sha256": "e1211e8928b0f79687748fa950e29fca5cecda1e9f03aaabdfa554bbfcac16c8"
+    },
+    {
+      "path": "receipts/conservation/diags/diag1000010/WarpXHeader",
+      "bytes": 298,
+      "sha256": "b1c509decf0c95a0716550b65157ac277b793ec8af7385aa9ef6be48bcaf8e77"
+    },
+    {
+      "path": "receipts/conservation/diags/diag1000010/ionsA/Header",
+      "bytes": 96,
+      "sha256": "698987c381ad33c1cb6420db758b1239882ab84cd12ff44661973a339610533d"
+    },
+    {
+      "path": "receipts/conservation/diags/diag1000010/ionsA/Level_0/DATA_00000",
+      "bytes": 15360,
+      "sha256": "f992531f05d95ac1e6107febdb66af8fd4f9f3b21cd4002d21cc23e86a1702a6"
+    },
+    {
+      "path": "receipts/conservation/diags/diag1000010/ionsA/Level_0/Particle_H",
+      "bytes": 21,
+      "sha256": "453b7f500cd1b543648045dbe345b9338c347f4b6d87aa36eb7642a5723574b0"
+    },
+    {
+      "path": "receipts/conservation/diags/diag1000010/ionsB/Header",
+      "bytes": 96,
+      "sha256": "698987c381ad33c1cb6420db758b1239882ab84cd12ff44661973a339610533d"
+    },
+    {
+      "path": "receipts/conservation/diags/diag1000010/ionsB/Level_0/DATA_00000",
+      "bytes": 15360,
+      "sha256": "50e9f2e007074cb2de9837107241e830cf3e650f181daef71a673db3853bd44f"
+    },
+    {
+      "path": "receipts/conservation/diags/diag1000010/ionsB/Level_0/Particle_H",
+      "bytes": 21,
+      "sha256": "453b7f500cd1b543648045dbe345b9338c347f4b6d87aa36eb7642a5723574b0"
+    },
+    {
+      "path": "receipts/conservation/diags/diag1000010/warpx_job_info",
+      "bytes": 7854,
+      "sha256": "3ddf9d34d5724f14c4d677fb62a6a58bacfdca97fed4c2a81e7ce92982b4b56e"
+    },
+    {
+      "path": "receipts/relaxation/diags/diag1000000/Header",
+      "bytes": 180,
+      "sha256": "f85121a5b8c9b2b5cbf2568dedebac2f175720718b5b7bbd91a9bc280487f199"
+    },
+    {
+      "path": "receipts/relaxation/diags/diag1000000/Level_0/Cell_D_00000",
+      "bytes": 13112,
+      "sha256": "4048f652853a0595973ef019eff64a06f9c627860dbe4bf8b59104625bcfc6d7"
+    },
+    {
+      "path": "receipts/relaxation/diags/diag1000000/Level_0/Cell_H",
+      "bytes": 983,
+      "sha256": "eeb415468940add058482697436d080cc2eb19c99e6cbe18c522fa71fefba2a5"
+    },
+    {
+      "path": "receipts/relaxation/diags/diag1000000/WarpXHeader",
+      "bytes": 209,
+      "sha256": "a116f45fb8ac8f35979402a9571f44fac9cb1cc1d4d7a42deb916d04429adb17"
+    },
+    {
+      "path": "receipts/relaxation/diags/diag1000000/ions/Header",
+      "bytes": 120,
+      "sha256": "3f5b7f82c582a44f50b31f505edd83d7d0a933919ed1ab4b232c7a5b5b8ace6f"
+    },
+    {
+      "path": "receipts/relaxation/diags/diag1000000/ions/Level_0/DATA_00000",
+      "bytes": 6912000,
+      "sha256": "59089ce0b336746548003afc34904f0bbbb40a990ccc8a7037c0514802e33927"
+    },
+    {
+      "path": "receipts/relaxation/diags/diag1000000/ions/Level_0/Particle_H",
+      "bytes": 39,
+      "sha256": "ba368b4c97064ea407f5618dd330962e25ab323a1a46aba29585140fe7e56f0b"
+    },
+    {
+      "path": "receipts/relaxation/diags/diag1000000/warpx_job_info",
+      "bytes": 7393,
+      "sha256": "e54758d073384f23e9850b4b0f058072879200de42b4ca6a4b9c029c15d1095a"
+    },
+    {
+      "path": "receipts/relaxation/diags/diag1000600/Header",
+      "bytes": 226,
+      "sha256": "17c115793883c44d944a70b59b708109242cac79ab6743021c8a23cd54094e59"
+    },
+    {
+      "path": "receipts/relaxation/diags/diag1000600/Level_0/Cell_D_00000",
+      "bytes": 13112,
+      "sha256": "4048f652853a0595973ef019eff64a06f9c627860dbe4bf8b59104625bcfc6d7"
+    },
+    {
+      "path": "receipts/relaxation/diags/diag1000600/Level_0/Cell_H",
+      "bytes": 983,
+      "sha256": "eeb415468940add058482697436d080cc2eb19c99e6cbe18c522fa71fefba2a5"
+    },
+    {
+      "path": "receipts/relaxation/diags/diag1000600/WarpXHeader",
+      "bytes": 249,
+      "sha256": "c6ca37655907ba7c478e18a3a74f9837a4fc6b5fd43f4b69be5303aacb127d61"
+    },
+    {
+      "path": "receipts/relaxation/diags/diag1000600/ions/Header",
+      "bytes": 120,
+      "sha256": "b9383f7cc0c97f4b9dd37d0b237bb172690bd8d21fc31e65d671a860260f1c0d"
+    },
+    {
+      "path": "receipts/relaxation/diags/diag1000600/ions/Level_0/DATA_00000",
+      "bytes": 6912000,
+      "sha256": "cde594e20eecda68b138081e7ac58710a9eb0d0da669551298029ce1c68b6478"
+    },
+    {
+      "path": "receipts/relaxation/diags/diag1000600/ions/Level_0/Particle_H",
+      "bytes": 39,
+      "sha256": "ba368b4c97064ea407f5618dd330962e25ab323a1a46aba29585140fe7e56f0b"
+    },
+    {
+      "path": "receipts/relaxation/diags/diag1000600/warpx_job_info",
+      "bytes": 7393,
+      "sha256": "e54758d073384f23e9850b4b0f058072879200de42b4ca6a4b9c029c15d1095a"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "status": "NO_APPARATUS_YIELD_PREDICTION",
+  "fields": {
+    "complete_joint_absolute_proton_source": null,
+    "actual_STARS_PRISM_field_map": null,
+    "source_uncertainty_and_covariance": null,
+    "source_to_mirror_alignment_timing": null,
+    "plasma_electron_proton_boron_distributions": null,
+    "target_material_state_and_stopping": null,
+    "ceramic_pocket_specification": null,
+    "detector_and_collector_response": null,
+    "coil_drive_and_facility_wall_power": null
+  },
+  "allowed_derived_scenarios": "Separate names, explicit priors/transforms/uncertainties; no calibrated promotion"
+}
