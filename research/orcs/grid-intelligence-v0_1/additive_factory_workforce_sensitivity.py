@@ -38,6 +38,51 @@ def printer_cells(print_hours_per_unit, target_annual_units=TOTAL_UNITS / YEARS)
     if print_hours_per_unit <= 0: raise ValueError("Positive print-hours required")
     return ceil(target_annual_units * print_hours_per_unit / HOURS_PER_QUALIFIED_CELL_YEAR)
 
+def seven_day_robotic_factory():
+    # Factory machinery operating continuously for seven days/week. Humans
+    # each work five 8-hour days on staggered schedules including weekends.
+    # Output depends on uptime, first-pass yield and actual print-cell occupancy.
+    hours_per_year = 365 * 24
+    effective_hours = hours_per_year * FACTORY_OEE * PRINT_FIRST_PASS_YIELD
+    target_average = TOTAL_UNITS / YEARS
+    peak_final_y_units = 15_500_000
+    scenarios = []
+    for occupancy_h in [1,6,24]:
+        cells = ceil(target_average * occupancy_h / effective_hours)
+        peak_cells = ceil(peak_final_y_units * occupancy_h / effective_hours)
+        schedules = []
+        for machines_per_watch_post in [8,16]:
+            posts = ceil(cells / machines_per_watch_post)
+            # 168 monitored hours/week / 40 weekly worker hours = 4.2.
+            # Assume 5.25 FTE with leave/training/coverage; this is illustrative.
+            monitoring_FTE = ceil(posts * 5.25)
+            schedules.append({"machines_per_monitored_post":machines_per_watch_post,
+                              "monitoring_watch_posts_each_shift":posts,
+                              "steady_monitor_FTE_for_seven_day_coverage":monitoring_FTE})
+        scenarios.append({"print_cell_hours_per_qualified_unit": occupancy_h,
+                          "parallel_print_cells_average_year":cells,
+                          "parallel_print_cells_peak_final_year":peak_cells,
+                          "example_industrial_robots_at_two_per_print_cell":cells*2,
+                          "not_a_vendor_robot_bill_of_material":True,
+                          "monitoring_staff":schedules,
+                          "hypothetical_cell_capital_at_USD_500k_to_2m_b": [round(cells*.5/1000,3),round(cells*2/1000,3)]})
+    return {"factory_machine_scheduled_hours_per_year":hours_per_year,
+            "effective_qualified_machine_hours_per_year":effective_hours,
+            "min_staff_coverage_FTE_per_24_7_watch_post":168/40,
+            "planned_FTE_with_relief_per_24_7_watch_post":5.25,
+            "vs_former_250_day_assumption_station_capacity_multiplier":hours_per_year/SHIFTS_FACTORY_HOURS_YEAR,
+            "scenarios":scenarios,
+            "disclaimer":"Examples do not include robots per postprocess/test cell, equipment lead times, actual process quotes, maintenance/QA/engineering/material feedstock workers, or factory conversion."}
+
+def on_job_ai_training():
+    # 8-hour, five-day workweek. AI screening is training, not credentialing.
+    return {"hours_per_week":40,"weeks_for_2000_supervised_hours":50,
+            "example_supervised_40_week_hours":1600,
+            "yearly_training_cohort_starts_required_for_1m_people_over_5y":200000,
+            "illustrative_mentors_for_200k_trainees_at_5_to_1":40000,
+            "qualifications":"Separate graded permissions; registered competency/hybrid with qualified human assessors, supervised OJL, sponsoring registration agency and applicable licensing.",
+            "ai": "Task primers, validated knowledge tests, individualized fault-simulator practice and translation; AI does not issue safety certification."}
+
 def installation():
     annual_units = TOTAL_UNITS / YEARS
     workdays = 250
@@ -105,6 +150,8 @@ def import_displacement():
 def main():
     print(json.dumps({"status":"SPECULATIVE industrial capacity ledger: no production or labor commitments",
         "print_cells_annual_average_7p7m":[{"effective_print_hours_per_unit":hours,"cells":printer_cells(hours)} for hours in [1,6,24]],
+        "seven_day_factory":seven_day_robotic_factory(),
+        "ai_enabled_paid_on_the_job_training":on_job_ai_training(),
         "field_work":installation(),
         "revised_job_category_allocation":revised_project_jobs(),
         "training":training(),
@@ -112,6 +159,9 @@ def main():
         "trade":import_displacement()},indent=2))
 
 def tests():
+    assert seven_day_robotic_factory()["scenarios"][1]["parallel_print_cells_average_year"] == 8372
+    assert seven_day_robotic_factory()["scenarios"][1]["parallel_print_cells_peak_final_year"] == 16852
+    assert on_job_ai_training()["weeks_for_2000_supervised_hours"] == 50
     assert printer_cells(1) == 2038
     assert printer_cells(6) == 12223
     assert revised_project_jobs()["total_gross_FTE_y_including_all_categories"] == 299417
