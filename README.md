@@ -1,6 +1,11 @@
 # The Open Regenerative Compute Standard (ORCS)
 
 
+## New Deal 2.0 × ORCS — public-first AI, clean water, affordable food and energy (October 31, 2026)
+
+**[Read the newly published national integration white paper v0.1](docs/whitepapers/ORCS_NEW_DEAL_2_0_AI_WATER_FOOD_ENERGY_CIVILIAN_RESERVES_FUEL_AFFORDABILITY_v0_1_2026-10-31.md)**. Seven productive, human-supervised regenerative infrastructure modules plus a federated national resource/freight intelligence layer. Explicit **free certified residential drinking-water target**, community electricity affordability, agricultural water and fertilizer savings, grocery-price stability, circular construction using qualified recovered material, beautification TBD, trade and import-resilience goals, Hormuz/disaster/war civilian stress tests, and a proposed national multi-commodity civilian strategic reserve. Includes a separately modeled **$3/gallon gasoline target, one-time $100B oil modernization hypothesis and 20% reserve-before-export research gate**. All are **proposals / sensitivities, not achieved prices, signed contracts, government action, or demonstrated financing**.
+
+
 ## Beyond Q v2.3 — Quantum-First Global Research
 
 **[PUBLIC EXECUTIVE PITCH + TECHNICAL WHITE PAPER + REPRODUCIBLE SOURCE](research/stars_2_0/extensions/beyond_q/global_quantum_v2_3/README.md)** · [Executive review brief](research/stars_2_0/extensions/beyond_q/global_quantum_v2_3/EXECUTIVE_PITCH.md) · [Full 2026 technical screening white paper](research/stars_2_0/extensions/beyond_q/global_quantum_v2_3/TECHNICAL_WHITE_PAPER.md) · [Research model + assumptions + cited source registry](research/stars_2_0/extensions/beyond_q/global_quantum_v2_3/source/) · [Discovery keywords and citation](research/stars_2_0/extensions/beyond_q/global_quantum_v2_3/DISCOVERY_AND_METADATA.md).
