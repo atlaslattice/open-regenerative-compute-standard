@@ -46,7 +46,7 @@ For 38.5M installations in 5 years, production target **7.7M qualified units/yea
 
 | Assumed effective print cell hours/unit | Parallel stations for 7.7M/y |
 |---:|---:|
-| 1 hour | 2,037 |
+| 1 hour | 2,038 |
 | 6 hours | 12,223 |
 | 24 hours | 48,889 |
 
@@ -57,6 +57,8 @@ If printing just complex brackets/cooling channels in parallel instead of the wh
 For oldest-fleet 38.5M units / 5 years / 250 site days = **30,800 replacements per national working day**. With an *optimistic assumed* 3-person field crew replacing **2 qualified units/day**, only physical change-out crew headcount arithmetic implies **15,400 parallel crews / 46,200 crew workers at steady average annual throughput**. At only one unit per day, those numbers double. This ignores inspections, site access, switching, outage coordination, substation work, repair, logistics, safety and supervisory staff; costs differ greatly by pole/pad/vault complexity.
 
 Previous proposed $8,000 installed cost assumed (illustratively) $4,000 factory, $4,000 field install. If 60% of field-installed cost is **domestic loaded labor**, oldest-fleet replacements embed **$92.4B in changeout-worker payroll/burden**, or roughly **154,000 field FTE/year** over five years at $120k fully loaded. This is not an actual contractor quote; it illustrates why the million-job assertion cannot also be baked into the same price without reconciling payroll and work performed.
+
+**Employment ledger correction vs prior model:** The earlier 226k/year project estimate attributed just **30% of all transformer capex** to domestic workers across factory and field ($92.4B); the illustrative new split instead attributes **60% of $4k installation ($92.4B) to field labor PLUS 20% of $4k equipment ($30.8B) to separately counted manufacturing labor**. These new assumptions yield roughly **154k field transformer FTE/year, 51k transformer factory FTE/year, 68k line/hardening FTE/year (INCLUDING excavation/line laying), 21k digital-capex FTE/year, and 5k ramping digital O&M FTE/year = ~299k average gross supported FTE/year** during the first five years. Thus the old **226k** gross average is **superseded for this sensitivity**, not additive to the new **299k**, and 299k includes manufacturing/excavation unlike the owner's one-million-field-only objective. The total paid-labor share of transformer capital here becomes **40%**, not the earlier 30%. All labor allocations are assumptions.
 
 | Interpretation | Five-year field job-years | Average concurrent workers | Loaded employment cost at $120k/y |
 |---|---:|---:|---:|
