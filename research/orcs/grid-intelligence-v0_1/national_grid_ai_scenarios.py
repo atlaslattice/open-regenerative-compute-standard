@@ -88,6 +88,18 @@ def evaluate(s: Scenario) -> dict:
     # individualized grid constraints. This is NOT an investment-grade NPV.
     optimistic_npv_b = ((annual_benefit_b - annual_operating_b) * pv_annuity
                         - capex_b - pv_replacements_b)
+    # Ten-year linear deployment: construction cohorts in years 1..10, each
+    # providing proportional benefits from commissioning year onward. Every
+    # cohort receives a 35% technology refresh 10 and 20 years later.
+    # All annual outcomes are scenario assumptions, NOT utility forecasts.
+    staged_npv_b = 0.0
+    for year in range(1, YEARS + 1):
+        active_share = min(year / 10, 1.0)
+        construction_b = capex_b / 10 if year <= 10 else 0.0
+        cohort_refresh_b = (capex_b * REFRESH_RATE / 10
+                            if 11 <= year <= 30 else 0.0)
+        annual_net_b = (annual_benefit_b - annual_operating_b) * active_share
+        staged_npv_b += (annual_net_b - construction_b - cohort_refresh_b) / (1 + REAL_DISCOUNT)**year
     return {
         "scenario": s.name, "capital_b": round(capex_b,3),
         "capital_distribution_b": round(distribution_capital_b,3),
@@ -101,6 +113,7 @@ def evaluate(s: Scenario) -> dict:
         "annual_operating_cost_b": round(annual_operating_b,3),
         "pv_equipment_refresh_b": round(pv_replacements_b,3),
         "optimistic_steady_state_30year_npv_b": round(optimistic_npv_b,3),
+        "ten_year_linear_rollout_30year_npv_b": round(staged_npv_b,3),
         "unvalued": [
           "Dynamic line rating headroom (not incremental nationwide MWh)",
           "Dynamic transformer rating", "Topology and advanced power-flow control",
@@ -123,6 +136,7 @@ def test_invariants() -> None:
     assert isclose(cases[1]["capital_b"], 38.765, abs_tol=.002)
     assert isclose(cases[1]["annual_combined_illustrative_benefits_b"], 5.162, abs_tol=.002)
     assert isclose(cases[1]["optimistic_steady_state_30year_npv_b"], -2.651, abs_tol=.003)
+    assert isclose(cases[1]["ten_year_linear_rollout_30year_npv_b"], -2.956, abs_tol=.005)
 
 
 if __name__ == "__main__":
