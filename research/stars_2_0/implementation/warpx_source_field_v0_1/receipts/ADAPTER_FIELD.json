@@ -1,0 +1,26 @@
+{
+  "grid_unit_SI": 1,
+  "component_unit_SI": [
+    1,
+    1,
+    1
+  ],
+  "axis_labels": [
+    "x",
+    "y",
+    "z"
+  ],
+  "map_sha256": "3e196d21829d23f4ce94d76b87325404b31a99275db58d1e9623d3c3c7c9fcff",
+  "source_ref": "Derived canonical-mm interpretation of pinned FEMM map, not STARS field map",
+  "domain_lo_m": [
+    -0.001,
+    -0.001,
+    0
+  ],
+  "domain_hi_m": [
+    0.001,
+    0.001,
+    0.005
+  ],
+  "time_dependence": "STATIC"
+}

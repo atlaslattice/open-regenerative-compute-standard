@@ -1,0 +1,149 @@
+[
+  {
+    "case": "original_low",
+    "scale_m_per_source_length": 1.0,
+    "map": "example-femm-3d.original.h5",
+    "kinetic_energy_eV": 12.708505660277323,
+    "normalized_u": [
+      9.506735958279367e-05,
+      0,
+      0.00013435537232359165
+    ],
+    "initial_position_m": [
+      0,
+      0.2,
+      2.5
+    ],
+    "dt_s": 4.40917904849092e-07,
+    "steps": 300,
+    "returncode": 0,
+    "runtime_s": 0.26328587532043457,
+    "source_evidence": "UPSTREAM_NUMERICAL_PARTICLE_FIXTURE"
+  },
+  {
+    "case": "metadata_only_negative_control",
+    "scale_m_per_source_length": 1.0,
+    "map": "maps/metadata_only_mm.h5",
+    "kinetic_energy_eV": 12.708505660277323,
+    "normalized_u": [
+      9.506735958279367e-05,
+      0,
+      0.00013435537232359165
+    ],
+    "initial_position_m": [
+      0,
+      0.2,
+      2.5
+    ],
+    "dt_s": 4.40917904849092e-07,
+    "steps": 300,
+    "returncode": 0,
+    "runtime_s": 0.2597944736480713,
+    "source_evidence": "UPSTREAM_NUMERICAL_PARTICLE_FIXTURE"
+  },
+  {
+    "case": "canonical_mm_low",
+    "scale_m_per_source_length": 0.001,
+    "map": "maps/canonical_mm.h5",
+    "kinetic_energy_eV": 12.708505660277323,
+    "normalized_u": [
+      9.506735958279367e-05,
+      0,
+      0.00013435537232359165
+    ],
+    "initial_position_m": [
+      0,
+      0.0002,
+      0.0025
+    ],
+    "dt_s": 4.40917904849092e-10,
+    "steps": 300,
+    "returncode": 0,
+    "runtime_s": 0.22247767448425293,
+    "source_evidence": "UPSTREAM_NUMERICAL_PARTICLE_FIXTURE"
+  },
+  {
+    "case": "original_no_B",
+    "scale_m_per_source_length": 1.0,
+    "map": null,
+    "kinetic_energy_eV": 12.708505660277323,
+    "normalized_u": [
+      9.506735958279367e-05,
+      0,
+      0.00013435537232359165
+    ],
+    "initial_position_m": [
+      0,
+      0.2,
+      2.5
+    ],
+    "dt_s": 4.40917904849092e-07,
+    "steps": 300,
+    "returncode": 0,
+    "runtime_s": 0.0766301155090332,
+    "source_evidence": "UPSTREAM_NUMERICAL_PARTICLE_FIXTURE"
+  },
+  {
+    "case": "original_675keV",
+    "scale_m_per_source_length": 1.0,
+    "map": "example-femm-3d.original.h5",
+    "kinetic_energy_eV": 675000.0,
+    "normalized_u": [
+      0.021913622263230462,
+      0,
+      0.030969755456085598
+    ],
+    "initial_position_m": [
+      0,
+      0.2,
+      2.5
+    ],
+    "dt_s": 1e-09,
+    "steps": 300,
+    "returncode": 0,
+    "runtime_s": 0.2623281478881836,
+    "source_evidence": "NEW_675KEV_NUMERICAL_SENSITIVITY_NOT_MEASURED_BEAM"
+  },
+  {
+    "case": "canonical_mm_675keV",
+    "scale_m_per_source_length": 0.001,
+    "map": "maps/canonical_mm.h5",
+    "kinetic_energy_eV": 675000.0,
+    "normalized_u": [
+      0.021913622263230462,
+      0,
+      0.030969755456085598
+    ],
+    "initial_position_m": [
+      0,
+      0.0002,
+      0.0025
+    ],
+    "dt_s": 1e-12,
+    "steps": 300,
+    "returncode": 0,
+    "runtime_s": 0.2698974609375,
+    "source_evidence": "NEW_675KEV_NUMERICAL_SENSITIVITY_NOT_MEASURED_BEAM"
+  },
+  {
+    "case": "canonical_mm_low_half_dt",
+    "scale_m_per_source_length": 0.001,
+    "map": "maps/canonical_mm.h5",
+    "kinetic_energy_eV": 12.708505660277323,
+    "normalized_u": [
+      9.506735958279367e-05,
+      0,
+      0.00013435537232359165
+    ],
+    "initial_position_m": [
+      0,
+      0.0002,
+      0.0025
+    ],
+    "dt_s": 2.20458952424546e-10,
+    "steps": 600,
+    "returncode": 0,
+    "runtime_s": 0.48965978622436523,
+    "source_evidence": "UPSTREAM_NUMERICAL_PARTICLE_FIXTURE"
+  }
+]

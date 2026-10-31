@@ -1,0 +1,27 @@
+yt : [INFO     ] 2026-10-30 20:04:07,048 Parameters: current_time              = 0.0
+yt : [INFO     ] 2026-10-30 20:04:07,048 Parameters: domain_dimensions         = [8 1 1]
+yt : [INFO     ] 2026-10-30 20:04:07,048 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2026-10-30 20:04:07,048 Parameters: domain_right_edge         = [4.44444444e-04 1.00000000e+00 1.00000000e+00]
+yt : [INFO     ] 2026-10-30 20:04:07,085 Parameters: current_time              = 5e-13
+yt : [INFO     ] 2026-10-30 20:04:07,085 Parameters: domain_dimensions         = [8 1 1]
+yt : [INFO     ] 2026-10-30 20:04:07,085 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2026-10-30 20:04:07,085 Parameters: domain_right_edge         = [4.44444444e-04 1.00000000e+00 1.00000000e+00]
+step 0
+A momenta 0.11881196136345412 0.1864143515981162 57.6513890764451
+B momenta 2.1166680049992173 4.31157811800437 -2.4447443169088485
+step 1
+A momenta 0.07422678212563216 -0.5069382756201493 57.244527955199736
+B momenta 2.161253184237032 5.004930745222627 -2.0378831956635004
+totals 0    2.2354799663626714e+00   4.4979924696024858e+00   5.5206644759536253e+01
+totals 1    2.2354799663626643e+00   4.4979924696024778e+00   5.5206644759536232e+01
+relative momentum change -3.178479550036933e-15 -1.7771496576132707e-15 -3.3785329456162566e-16, tolerance 1e-14
+
+step 0
+A KE 19309058.460914858
+B KE 5655777.756384956
+step 1
+A KE 19208538.36897622
+B KE 5756297.847571472
+totals 0    2.4964836217299812e+07
+totals 1    2.4964836216547690e+07
+relative energy change -3.012729850084974e-11, tolerance 5e-10

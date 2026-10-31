@@ -1,0 +1,20 @@
+{
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.39",
+  "host_python": "3.12.14",
+  "host_numpy": "2.3.5",
+  "host_scipy": "1.17.0",
+  "solver_environment": "Exact recreated PR50 environment; sibling warpx_pb_kinetic_v0_1/receipts/ENVIRONMENT.json",
+  "execution": "NOMPI, OMP_NUM_THREADS=2",
+  "binary_hashes": [
+    {
+      "name": "warpx.1d",
+      "sha256": "7d4267c9d36970ec83f359ac76ef0bdbd39d9e151c3709add90a6c6b5f1c4926"
+    },
+    {
+      "name": "warpx.3d",
+      "sha256": "69f72bfdd75e188c57e116a6fdb5b8178243722184cf6c5872ea1feda407de15"
+    }
+  ],
+  "primary_map_blob": "fddd0a849d8f5ffc8ce9cd00fdc3dedd4ff62161",
+  "no_source_build_attestation": true
+}

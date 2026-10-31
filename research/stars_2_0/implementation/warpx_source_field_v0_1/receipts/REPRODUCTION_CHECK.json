@@ -1,0 +1,137 @@
+{
+  "status": "PASS",
+  "raw_reduced_files": [
+    {
+      "path": "receipts/admitted_weight7/diags/reducedfiles/extrema.txt",
+      "sha256": "2ce6cf6f51a203f7cb030dd372b3249278fe5dd9d2fc0609178f27de1466bd39",
+      "byte_identical": true
+    },
+    {
+      "path": "receipts/admitted_weight7/diags/reducedfiles/number.txt",
+      "sha256": "458fd439e6fedb03a0e62f27aeccb2db9e2e591a3b1dd5e141329cec47cee4be",
+      "byte_identical": true
+    },
+    {
+      "path": "receipts/canonical_mm_675keV/diags/reducedfiles/extrema.txt",
+      "sha256": "5e02aabeb7f8f9fbf802d88411f9ce28f9df1f699a6ebf053b2dfcb901d778c8",
+      "byte_identical": true
+    },
+    {
+      "path": "receipts/canonical_mm_675keV/diags/reducedfiles/number.txt",
+      "sha256": "f0b0ce8b26625fe7beef599838a3423800266c7109cc10e6d847959813005e40",
+      "byte_identical": true
+    },
+    {
+      "path": "receipts/canonical_mm_low/diags/reducedfiles/extrema.txt",
+      "sha256": "27412cace130b51f58c41d2b25771a1aaeec42b73b58e6effcfade8c4e340e79",
+      "byte_identical": true
+    },
+    {
+      "path": "receipts/canonical_mm_low/diags/reducedfiles/number.txt",
+      "sha256": "5483488106135af0d61f5f16290a426ba7e3e35fae82b1c05b8a90a25314dbfb",
+      "byte_identical": true
+    },
+    {
+      "path": "receipts/canonical_mm_low_half_dt/diags/reducedfiles/extrema.txt",
+      "sha256": "695e7408cf3dd32c34b553406c48477d05486f31a0a8dd5fc466563901f56498",
+      "byte_identical": true
+    },
+    {
+      "path": "receipts/canonical_mm_low_half_dt/diags/reducedfiles/number.txt",
+      "sha256": "b4ee614aa424774329169b353d473fc276fcbe6eba90d80a4896fab934b09420",
+      "byte_identical": true
+    },
+    {
+      "path": "receipts/metadata_only_negative_control/diags/reducedfiles/extrema.txt",
+      "sha256": "893441f5f369b800a709affc2bf611475f57cee82aa9a4b151d02edfb3ec6716",
+      "byte_identical": true
+    },
+    {
+      "path": "receipts/metadata_only_negative_control/diags/reducedfiles/number.txt",
+      "sha256": "dca0dc28135067dd110e01635ab768a3b80361dc05e25f437d94e983ab14aaa6",
+      "byte_identical": true
+    },
+    {
+      "path": "receipts/original_675keV/diags/reducedfiles/extrema.txt",
+      "sha256": "ff9e20a8c48e25027ed929e3ea23eab6d874573cffe07168015710451d79576a",
+      "byte_identical": true
+    },
+    {
+      "path": "receipts/original_675keV/diags/reducedfiles/number.txt",
+      "sha256": "8cda6c75fac9de73e9ffff7b3184a99a30ad95b07f14b8e672d5c0535722a5e5",
+      "byte_identical": true
+    },
+    {
+      "path": "receipts/original_low/diags/reducedfiles/extrema.txt",
+      "sha256": "893441f5f369b800a709affc2bf611475f57cee82aa9a4b151d02edfb3ec6716",
+      "byte_identical": true
+    },
+    {
+      "path": "receipts/original_low/diags/reducedfiles/number.txt",
+      "sha256": "dca0dc28135067dd110e01635ab768a3b80361dc05e25f437d94e983ab14aaa6",
+      "byte_identical": true
+    },
+    {
+      "path": "receipts/original_no_B/diags/reducedfiles/extrema.txt",
+      "sha256": "5d6edf7bf63bd048818dd7aef9ad11a566ef30e4fbb1838bba2a3f6fc205f0a5",
+      "byte_identical": true
+    },
+    {
+      "path": "receipts/original_no_B/diags/reducedfiles/number.txt",
+      "sha256": "1acfd9610f817b1497d872df38f69b0812f3cd5fcd1158abcd4f7da531262b0b",
+      "byte_identical": true
+    }
+  ],
+  "stage_receipt": {
+    "runtime": "/workspace/scratch/6126a9592c76/warpx_runtime_v0_1/env",
+    "stages": [
+      {
+        "command": [
+          "verify_sources.py"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "prepare_maps.py"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "run_collisions.py"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "run_maps.py"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "run_adapter_fixture.py"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "analyze_maps.py"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "-m",
+          "unittest",
+          "test_admission",
+          "-v"
+        ],
+        "returncode": 0
+      }
+    ]
+  },
+  "postprocess_v002": "PASS; corrects no-B reference-field diagnostic to zero/undefined radius; original analysis retained",
+  "map_summary_reproduced": true
+}

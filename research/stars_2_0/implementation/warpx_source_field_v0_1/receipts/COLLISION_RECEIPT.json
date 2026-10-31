@@ -1,0 +1,32 @@
+[
+  {
+    "case": "conservation",
+    "steps": [
+      {
+        "stage": "RUN",
+        "returncode": 0,
+        "elapsed_s": 0.05011439323425293
+      },
+      {
+        "stage": "ANALYSIS",
+        "returncode": 0,
+        "elapsed_s": 1.9240000247955322
+      }
+    ]
+  },
+  {
+    "case": "relaxation",
+    "steps": [
+      {
+        "stage": "RUN",
+        "returncode": 0,
+        "elapsed_s": 13.499713897705078
+      },
+      {
+        "stage": "ANALYSIS",
+        "returncode": 0,
+        "elapsed_s": 1.937652349472046
+      }
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+yt : [INFO     ] 2026-10-30 20:04:22,327 Parameters: current_time              = 2.999999999999992e-11
+yt : [INFO     ] 2026-10-30 20:04:22,327 Parameters: domain_dimensions         = [180   1   1]
+yt : [INFO     ] 2026-10-30 20:04:22,327 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2026-10-30 20:04:22,327 Parameters: domain_right_edge         = [0.01 1.   1.  ]
+TApar at 30ps error =  0.013212887696389793
+tolerance =  0.02

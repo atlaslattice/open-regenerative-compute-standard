@@ -1,0 +1,22 @@
+test_axis_order_rejected (test_admission.TestAdmission.test_axis_order_rejected) ... ok
+test_codegen_units (test_admission.TestAdmission.test_codegen_units) ... ok
+test_component_units_rejected (test_admission.TestAdmission.test_component_units_rejected) ... ok
+test_duplicate_ids (test_admission.TestAdmission.test_duplicate_ids) ... ok
+test_map_unit_metadata_rejected (test_admission.TestAdmission.test_map_unit_metadata_rejected) ... ok
+test_marginal_not_promoted (test_admission.TestAdmission.test_marginal_not_promoted) ... ok
+test_missing_not_zero (test_admission.TestAdmission.test_missing_not_zero) ... ok
+test_missing_source_lineage (test_admission.TestAdmission.test_missing_source_lineage) ... ok
+test_mixed_times_rejected (test_admission.TestAdmission.test_mixed_times_rejected) ... ok
+test_no_silent_normalization (test_admission.TestAdmission.test_no_silent_normalization) ... ok
+test_nonfinite_and_negative (test_admission.TestAdmission.test_nonfinite_and_negative) ... ok
+test_out_of_domain (test_admission.TestAdmission.test_out_of_domain) ... ok
+test_relative_not_absolute (test_admission.TestAdmission.test_relative_not_absolute) ... ok
+test_static_clock_rebase_explicit (test_admission.TestAdmission.test_static_clock_rebase_explicit) ... ok
+test_time_dependent_restart_rejected (test_admission.TestAdmission.test_time_dependent_restart_rejected) ... ok
+test_weight_and_energy_preserved (test_admission.TestAdmission.test_weight_and_energy_preserved) ... ok
+test_zero_retained (test_admission.TestAdmission.test_zero_retained) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.001s
+
+OK

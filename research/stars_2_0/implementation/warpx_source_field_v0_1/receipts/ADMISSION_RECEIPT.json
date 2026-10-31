@@ -1,0 +1,36 @@
+{
+  "status": "CONDITIONAL_SNAPSHOT_ADMITTED_NOT_APPARATUS_CALIBRATION",
+  "evidence": {
+    "kind": "NUMERICAL_VERIFICATION",
+    "source_ref": "inputs/canonical_mm_675keV; new weight=7 verification choice",
+    "input_sha256": "bb421761f7b3089827462ef45a4d548f27da6624315d42d5ebf2664c4db8f0c7"
+  },
+  "field_source": "Derived canonical-mm interpretation of pinned FEMM map, not STARS field map",
+  "field_sha256": "3e196d21829d23f4ce94d76b87325404b31a99275db58d1e9623d3c3c7c9fcff",
+  "simulation_clock_zero_corresponds_to_source_time_s": 0,
+  "physical_proton_weight": 7.0,
+  "weighted_kinetic_energy_J": 7.570284595650001e-13,
+  "packets": [
+    {
+      "id": "verification_p1",
+      "weight": 7,
+      "position_m": [
+        0,
+        0.0002,
+        0.0025
+      ],
+      "source_time_s": 0,
+      "kinetic_MeV": 0.675,
+      "normalized_u": [
+        0.021913622263231618,
+        0.0,
+        0.030969755456087232
+      ],
+      "momentum_kg_m_s": [
+        1.0988354442852614e-20,
+        0.0,
+        1.5529456785925715e-20
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "max_absolute_position_or_momentum_component_difference_SI": 7.979727989493313e-17,
+  "all_number_weights_exactly_scaled_by": 7,
+  "source_grade": "NUMERICAL_VERIFICATION",
+  "self_fields": false,
+  "physical_reaction_count": "NOT_MODELED"
+}

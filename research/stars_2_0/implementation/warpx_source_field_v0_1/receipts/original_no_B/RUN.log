@@ -1,0 +1,236 @@
+Initializing AMReX (26.10)...
+OMP initialized with 2 OMP threads
+AMReX (26.10) initialized
+PICSAR (26.10)
+WarpX (Unknown)
+
+                                   ___
+    __        __             ___  /  /
+    \ \      / /_ _ _ __ _ __\  \/  /
+     \ \ /\ / / _` | '__| '_ \\    /
+      \ V  V / (_| | |  | |_) /    \
+       \_/\_/ \__,_|_|  | .__/__/\  \
+                        |_|       \__\
+
+Level 0: dt = 4.409179048e-07 ; dx = 0.05 ; dy = 0.05 ; dz = 0.125
+
+Grids Summary:
+  Level 0   1 grids  64000 cells  100 % of domain
+
+-------------------------------------------------------------------------------
+--------------------------- MAIN EM PIC PARAMETERS ----------------------------
+-------------------------------------------------------------------------------
+Precision:            | DOUBLE
+Particle precision:   | DOUBLE
+Geometry:             | 3D (XYZ)
+Operation mode:       | Electromagnetic
+                      | - vacuum
+-------------------------------------------------------------------------------
+Current Deposition:   | Esirkepov 
+Guard cells           | - ng_alloc_J  = (1,1,1)
+ (allocated for J)    | 
+Guard cells           | - ng_alloc_EB = (2,2,2)
+ (allocated for E/B)  | 
+Particle Pusher:      | Boris 
+Charge Deposition:    | standard 
+Field Gathering:      | energy-conserving 
+Particle Shape Factor:| 1
+-------------------------------------------------------------------------------
+                      | - collocated grid 
+Guard cells           | - ng_alloc_EB = (2,2,2)
+ (allocated for E/B)  | 
+-------------------------------------------------------------------------------
+For full input parameters, see the file: warpx_used_inputs
+
+
+
+**** WARNINGS ******************************************************************
+* GLOBAL warning list  after  [ FIRST STEP ]
+*
+* No recorded warnings.
+********************************************************************************
+
+
+**** WARNINGS ******************************************************************
+* GLOBAL warning list  after  [ THE END ]
+*
+* No recorded warnings.
+********************************************************************************
+
+
+
+TinyProfiler total time across processes [min...avg...max]: 0.04662 ... 0.04662 ... 0.04662
+
+---------------------------------------------------------------------------------------------------------------------
+Name                                                                  NCalls  Excl. Min  Excl. Avg  Excl. Max   Max %
+---------------------------------------------------------------------------------------------------------------------
+WarpX::Evolve::step                                                      300    0.01529    0.01529    0.01529  32.80%
+MultiReducedDiags::ComputeDiags()                                        301   0.004983   0.004983   0.004983  10.69%
+PhysicalParticleContainer::PushP()                                       600   0.004128   0.004128   0.004128   8.86%
+PhysicalParticleContainer::Evolve()                                      300    0.00302    0.00302    0.00302   6.48%
+ParticleContainer::Redistribute_impl()                                   302   0.002923   0.002923   0.002923   6.27%
+amrex::unpackBuffer                                                      302   0.002434   0.002434   0.002434   5.22%
+FabArray::setVal()                                                        15   0.002341   0.002341   0.002341   5.02%
+WarpX::UpdateAuxiliaryData()                                             600   0.001901   0.001901   0.001901   4.08%
+MultiFab::Copy()                                                        3600   0.001396   0.001396   0.001396   3.00%
+WarpXParticleContainer::ApplyBoundaryConditions()                        300   0.001028   0.001028   0.001028   2.21%
+ParticleContainer::ReserveForRedistribute()                              302  0.0008048  0.0008048  0.0008048   1.73%
+FillBoundary_nowait()                                                   3600  0.0007976  0.0007976  0.0007976   1.71%
+WarpX::InitData()                                                          1  0.0006658  0.0006658  0.0006658   1.43%
+Redistribute_partition                                                   302  0.0005534  0.0005534  0.0005534   1.19%
+main()                                                                     1   0.000531   0.000531   0.000531   1.14%
+FillBoundary_nowait(Vector)                                             1200  0.0005215  0.0005215  0.0005215   1.12%
+FabArrayBase::getFB()                                                   3600  0.0004925  0.0004925  0.0004925   1.06%
+amrex::Copy()                                                           3600  0.0004404  0.0004404  0.0004404   0.94%
+ParticleCopyPlan::build                                                  302  0.0004339  0.0004339  0.0004339   0.93%
+ParticleCopyPlan::buildCopiesTwoPassHost                                 302  0.0002948  0.0002948  0.0002948   0.63%
+amrex::packBuffer                                                        302  0.0002218  0.0002218  0.0002218   0.48%
+WarpX::Evolve()                                                            1  0.0001336  0.0001336  0.0001336   0.29%
+FillBoundary_finish(Vector)                                             1200  0.0001261  0.0001261  0.0001261   0.27%
+MultiParticleContainer::doFieldIonization()                              300  0.0001161  0.0001161  0.0001161   0.25%
+WarpX::OneStep()                                                         300  0.0001068  0.0001068  0.0001068   0.23%
+ParticleBoundaryBuffer::gatherParticles                                  300  7.861e-05  7.861e-05  7.861e-05   0.17%
+MultiParticleContainer::doQedEvents()                                    300  7.728e-05  7.728e-05  7.728e-05   0.17%
+MultiParticleContainer::doCollisions()                                   300  6.193e-05  6.193e-05  6.193e-05   0.13%
+ParticleContainer::defineBufferMap                                       302  5.911e-05  5.911e-05  5.911e-05   0.13%
+ParticleCopyPlan::buildMPIFinish                                         302  5.441e-05  5.441e-05  5.441e-05   0.12%
+amrex::communicateParticlesFinish                                        302  5.166e-05  5.166e-05  5.166e-05   0.11%
+PhysicalParticleContainer::AddParticles()                                  1  2.816e-05  2.816e-05  2.816e-05   0.06%
+REG::WarpX::Evolve()                                                       1   9.38e-07   9.38e-07   9.38e-07   0.00%
+Other                                                                   2449  0.0004177  0.0004177  0.0004177   0.90%
+---------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------------
+Name                                                                  NCalls  Incl. Min  Incl. Avg  Incl. Max   Max %
+---------------------------------------------------------------------------------------------------------------------
+main()                                                                     1    0.04652    0.04652    0.04652  99.79%
+REG::WarpX::Evolve()                                                       1    0.04266    0.04266    0.04266  91.51%
+WarpX::Evolve()                                                            1    0.04266    0.04266    0.04266  91.51%
+WarpX::Evolve::step                                                      300    0.04252    0.04252    0.04252  91.22%
+ParticleContainer::Redistribute_impl()                                   302   0.007966   0.007966   0.007966  17.09%
+MultiReducedDiags::ComputeDiags()                                        301   0.004983   0.004983   0.004983  10.69%
+PhysicalParticleContainer::PushP()                                       600   0.004128   0.004128   0.004128   8.86%
+WarpX::UpdateAuxiliaryData()                                             600   0.003738   0.003738   0.003738   8.02%
+WarpX::InitData()                                                          1   0.003327   0.003327   0.003327   7.14%
+WarpX::OneStep()                                                         300   0.003277   0.003277   0.003277   7.03%
+PhysicalParticleContainer::Evolve()                                      300   0.003057   0.003057   0.003057   6.56%
+amrex::unpackBuffer                                                      302   0.002434   0.002434   0.002434   5.22%
+FabArray::setVal()                                                        15   0.002341   0.002341   0.002341   5.02%
+MultiFab::Copy()                                                        3600   0.001837   0.001837   0.001837   3.94%
+FillBoundary_nowait(Vector)                                             1200   0.001816   0.001816   0.001816   3.90%
+FillBoundary_nowait()                                                   3600   0.001294   0.001294   0.001294   2.78%
+WarpXParticleContainer::ApplyBoundaryConditions()                        300   0.001028   0.001028   0.001028   2.21%
+ParticleContainer::ReserveForRedistribute()                              302  0.0008048  0.0008048  0.0008048   1.73%
+ParticleCopyPlan::build                                                  302  0.0007777  0.0007777  0.0007777   1.67%
+Redistribute_partition                                                   302  0.0005534  0.0005534  0.0005534   1.19%
+FabArrayBase::getFB()                                                   3600  0.0004968  0.0004968  0.0004968   1.07%
+amrex::Copy()                                                           3600  0.0004404  0.0004404  0.0004404   0.94%
+ParticleCopyPlan::buildCopiesTwoPassHost                                 302  0.0002948  0.0002948  0.0002948   0.63%
+PhysicalParticleContainer::AddParticles()                                  1  0.0002337  0.0002337  0.0002337   0.50%
+amrex::packBuffer                                                        302  0.0002218  0.0002218  0.0002218   0.48%
+MultiParticleContainer::doQedEvents()                                    300  0.0001712  0.0001712  0.0001712   0.37%
+FillBoundary_finish(Vector)                                             1200  0.0001261  0.0001261  0.0001261   0.27%
+MultiParticleContainer::doFieldIonization()                              300  0.0001161  0.0001161  0.0001161   0.25%
+MultiParticleContainer::doCollisions()                                   300  0.0001132  0.0001132  0.0001132   0.24%
+ParticleBoundaryBuffer::gatherParticles                                  300  7.861e-05  7.861e-05  7.861e-05   0.17%
+ParticleContainer::defineBufferMap                                       302  6.532e-05  6.532e-05  6.532e-05   0.14%
+ParticleCopyPlan::buildMPIFinish                                         302  5.441e-05  5.441e-05  5.441e-05   0.12%
+amrex::communicateParticlesFinish                                        302  5.166e-05  5.166e-05  5.166e-05   0.11%
+Other                                                                   2449  0.0004224  0.0004224  0.0004224   0.91%
+---------------------------------------------------------------------------------------------------------------------
+
+
+
+BEGIN REGION WarpX::Evolve()
+
+---------------------------------------------------------------------------------------------------------------------
+Name                                                                  NCalls  Excl. Min  Excl. Avg  Excl. Max   Max %
+---------------------------------------------------------------------------------------------------------------------
+WarpX::Evolve::step                                                      300    0.01529    0.01529    0.01529  32.80%
+MultiReducedDiags::ComputeDiags()                                        300   0.004934   0.004934   0.004934  10.58%
+PhysicalParticleContainer::PushP()                                       600   0.004128   0.004128   0.004128   8.86%
+PhysicalParticleContainer::Evolve()                                      300    0.00302    0.00302    0.00302   6.48%
+ParticleContainer::Redistribute_impl()                                   300   0.002905   0.002905   0.002905   6.23%
+amrex::unpackBuffer                                                      300   0.002413   0.002413   0.002413   5.18%
+WarpX::UpdateAuxiliaryData()                                             600   0.001901   0.001901   0.001901   4.08%
+MultiFab::Copy()                                                        3600   0.001396   0.001396   0.001396   3.00%
+WarpXParticleContainer::ApplyBoundaryConditions()                        300   0.001028   0.001028   0.001028   2.21%
+FillBoundary_nowait()                                                   3600  0.0007976  0.0007976  0.0007976   1.71%
+ParticleContainer::ReserveForRedistribute()                              300  0.0007851  0.0007851  0.0007851   1.68%
+Redistribute_partition                                                   300  0.0005376  0.0005376  0.0005376   1.15%
+FillBoundary_nowait(Vector)                                             1200  0.0005215  0.0005215  0.0005215   1.12%
+FabArrayBase::getFB()                                                   3600  0.0004925  0.0004925  0.0004925   1.06%
+amrex::Copy()                                                           3600  0.0004404  0.0004404  0.0004404   0.94%
+ParticleCopyPlan::build                                                  300  0.0003245  0.0003245  0.0003245   0.70%
+ParticleCopyPlan::buildCopiesTwoPassHost                                 300  0.0002897  0.0002897  0.0002897   0.62%
+amrex::packBuffer                                                        300  0.0001888  0.0001888  0.0001888   0.41%
+WarpX::Evolve()                                                            1  0.0001336  0.0001336  0.0001336   0.29%
+FillBoundary_finish(Vector)                                             1200  0.0001261  0.0001261  0.0001261   0.27%
+MultiParticleContainer::doFieldIonization()                              300  0.0001161  0.0001161  0.0001161   0.25%
+WarpX::OneStep()                                                         300  0.0001068  0.0001068  0.0001068   0.23%
+ParticleBoundaryBuffer::gatherParticles                                  300  7.861e-05  7.861e-05  7.861e-05   0.17%
+MultiParticleContainer::doQedEvents()                                    300  7.728e-05  7.728e-05  7.728e-05   0.17%
+MultiParticleContainer::doCollisions()                                   300  6.193e-05  6.193e-05  6.193e-05   0.13%
+ParticleContainer::defineBufferMap                                       300  5.505e-05  5.505e-05  5.505e-05   0.12%
+ParticleCopyPlan::buildMPIFinish                                         300  5.368e-05  5.368e-05  5.368e-05   0.12%
+REG::WarpX::Evolve()                                                       1   9.38e-07   9.38e-07   9.38e-07   0.00%
+Other                                                                   2739  0.0004547  0.0004547  0.0004547   0.98%
+---------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------------
+Name                                                                  NCalls  Incl. Min  Incl. Avg  Incl. Max   Max %
+---------------------------------------------------------------------------------------------------------------------
+REG::WarpX::Evolve()                                                       1    0.04266    0.04266    0.04266  91.51%
+WarpX::Evolve()                                                            1    0.04266    0.04266    0.04266  91.51%
+WarpX::Evolve::step                                                      300    0.04252    0.04252    0.04252  91.22%
+ParticleContainer::Redistribute_impl()                                   300    0.00773    0.00773    0.00773  16.58%
+MultiReducedDiags::ComputeDiags()                                        300   0.004934   0.004934   0.004934  10.58%
+PhysicalParticleContainer::PushP()                                       600   0.004128   0.004128   0.004128   8.86%
+WarpX::UpdateAuxiliaryData()                                             600   0.003738   0.003738   0.003738   8.02%
+WarpX::OneStep()                                                         300   0.003277   0.003277   0.003277   7.03%
+PhysicalParticleContainer::Evolve()                                      300   0.003057   0.003057   0.003057   6.56%
+amrex::unpackBuffer                                                      300   0.002413   0.002413   0.002413   5.18%
+MultiFab::Copy()                                                        3600   0.001837   0.001837   0.001837   3.94%
+FillBoundary_nowait(Vector)                                             1200   0.001816   0.001816   0.001816   3.90%
+FillBoundary_nowait()                                                   3600   0.001294   0.001294   0.001294   2.78%
+WarpXParticleContainer::ApplyBoundaryConditions()                        300   0.001028   0.001028   0.001028   2.21%
+ParticleContainer::ReserveForRedistribute()                              300  0.0007851  0.0007851  0.0007851   1.68%
+ParticleCopyPlan::build                                                  300  0.0006619  0.0006619  0.0006619   1.42%
+Redistribute_partition                                                   300  0.0005376  0.0005376  0.0005376   1.15%
+FabArrayBase::getFB()                                                   3600  0.0004968  0.0004968  0.0004968   1.07%
+amrex::Copy()                                                           3600  0.0004404  0.0004404  0.0004404   0.94%
+ParticleCopyPlan::buildCopiesTwoPassHost                                 300  0.0002897  0.0002897  0.0002897   0.62%
+amrex::packBuffer                                                        300  0.0001888  0.0001888  0.0001888   0.41%
+MultiParticleContainer::doQedEvents()                                    300  0.0001712  0.0001712  0.0001712   0.37%
+FillBoundary_finish(Vector)                                             1200  0.0001261  0.0001261  0.0001261   0.27%
+MultiParticleContainer::doFieldIonization()                              300  0.0001161  0.0001161  0.0001161   0.25%
+MultiParticleContainer::doCollisions()                                   300  0.0001132  0.0001132  0.0001132   0.24%
+ParticleBoundaryBuffer::gatherParticles                                  300  7.861e-05  7.861e-05  7.861e-05   0.17%
+ParticleContainer::defineBufferMap                                       300  5.505e-05  5.505e-05  5.505e-05   0.12%
+ParticleCopyPlan::buildMPIFinish                                         300  5.368e-05  5.368e-05  5.368e-05   0.12%
+Other                                                                   2739  0.0004547  0.0004547  0.0004547   0.98%
+---------------------------------------------------------------------------------------------------------------------
+
+END REGION WarpX::Evolve()
+Pinned Memory Usage:
+---------------------------------------------------------------------
+Name                                       Nalloc    AvgMem    MaxMem
+---------------------------------------------------------------------
+The_Pinned_Arena::Initialize()                  1    76   B  8192 KiB
+main()                                         67  9276   B    10 KiB
+PhysicalParticleContainer::AddParticles()       8     8   B  2048   B
+Unprofiled                                     10     0   B   256   B
+WarpX::InitData()                               2     0   B   256   B
+---------------------------------------------------------------------
+
+Cpu Memory Usage:
+-----------------------------------------------------------------------
+Name                                         Nalloc    AvgMem    MaxMem
+-----------------------------------------------------------------------
+WarpX::InitData()                                 9  5019 KiB  6135 KiB
+ParticleContainer::ReserveForRedistribute()      16   346   B  2048   B
+PhysicalParticleContainer::AddParticles()         8     6   B  2048   B
+amrex::packBuffer                                 2     0   B   256   B
+-----------------------------------------------------------------------
+
+AMReX (26.10) finalized

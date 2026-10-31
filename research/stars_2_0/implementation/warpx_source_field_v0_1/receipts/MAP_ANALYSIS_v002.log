@@ -1,0 +1,203 @@
+{
+  "status": "SOURCE_DERIVED_NUMERICAL_CONTROLS",
+  "results": [
+    {
+      "case": "original_low",
+      "source_grade": "UPSTREAM_NUMERICAL_PARTICLE_FIXTURE",
+      "final_physical_weight": 1.0,
+      "axial_z_momentum_reversed": true,
+      "loss_time_bracket_s": null,
+      "final_or_last_active_position_m": [
+        0.122092631556671,
+        -0.0222040446373788,
+        4.34645143953277
+      ],
+      "relative_K_drift": 3.3306690738754696e-15,
+      "initial_B_magnitude_T": 0.001476292618765778,
+      "local_initial_gyroradius_estimate_m": 0.20154270683019032,
+      "local_gyroradius_over_domain_halfwidth": 0.20154270683019032,
+      "classification": "FINITE_TIME_NUMERICAL_MAP_CONTROL_NOT_APPARATUS_CAPTURE_FRACTION"
+    },
+    {
+      "case": "metadata_only_negative_control",
+      "source_grade": "UPSTREAM_NUMERICAL_PARTICLE_FIXTURE",
+      "final_physical_weight": 1.0,
+      "axial_z_momentum_reversed": true,
+      "loss_time_bracket_s": null,
+      "final_or_last_active_position_m": [
+        0.122092631556671,
+        -0.0222040446373788,
+        4.34645143953277
+      ],
+      "relative_K_drift": 3.3306690738754696e-15,
+      "initial_B_magnitude_T": 0.001476292618765778,
+      "local_initial_gyroradius_estimate_m": 0.20154270683019032,
+      "local_gyroradius_over_domain_halfwidth": 0.20154270683019032,
+      "classification": "FINITE_TIME_NUMERICAL_MAP_CONTROL_NOT_APPARATUS_CAPTURE_FRACTION"
+    },
+    {
+      "case": "canonical_mm_low",
+      "source_grade": "UPSTREAM_NUMERICAL_PARTICLE_FIXTURE",
+      "final_physical_weight": 0.0,
+      "axial_z_momentum_reversed": false,
+      "loss_time_bracket_s": [
+        3.48325144830783e-08,
+        3.52734323879273e-08
+      ],
+      "final_or_last_active_position_m": [
+        0.000992914890624677,
+        0.000196800212170311,
+        0.0039028824443528
+      ],
+      "relative_K_drift": 3.1086244689504383e-15,
+      "initial_B_magnitude_T": 0.001476292618765778,
+      "local_initial_gyroradius_estimate_m": 0.20154270683019032,
+      "local_gyroradius_over_domain_halfwidth": 201.54270683019033,
+      "classification": "FINITE_TIME_NUMERICAL_MAP_CONTROL_NOT_APPARATUS_CAPTURE_FRACTION"
+    },
+    {
+      "case": "original_no_B",
+      "source_grade": "UPSTREAM_NUMERICAL_PARTICLE_FIXTURE",
+      "final_physical_weight": 0.0,
+      "axial_z_momentum_reversed": false,
+      "loss_time_bracket_s": [
+        3.48325144830783e-05,
+        3.52734323879274e-05
+      ],
+      "final_or_last_active_position_m": [
+        0.992743278534374,
+        0.2,
+        3.90300933353542
+      ],
+      "relative_K_drift": 0.0,
+      "initial_B_magnitude_T": 0,
+      "local_initial_gyroradius_estimate_m": null,
+      "local_gyroradius_over_domain_halfwidth": null,
+      "classification": "FINITE_TIME_NUMERICAL_MAP_CONTROL_NOT_APPARATUS_CAPTURE_FRACTION"
+    },
+    {
+      "case": "original_675keV",
+      "source_grade": "NEW_675KEV_NUMERICAL_SENSITIVITY_NOT_MEASURED_BEAM",
+      "final_physical_weight": 0.0,
+      "axial_z_momentum_reversed": false,
+      "loss_time_bracket_s": [
+        1.52e-07,
+        1.53e-07
+      ],
+      "final_or_last_active_position_m": [
+        0.99850996917138,
+        0.185933795005191,
+        3.90965877016767
+      ],
+      "relative_K_drift": 9.547918011776346e-15,
+      "initial_B_magnitude_T": 0.001476292618765778,
+      "local_initial_gyroradius_estimate_m": 46.456857188081,
+      "local_gyroradius_over_domain_halfwidth": 46.456857188081,
+      "classification": "FINITE_TIME_NUMERICAL_MAP_CONTROL_NOT_APPARATUS_CAPTURE_FRACTION"
+    },
+    {
+      "case": "canonical_mm_675keV",
+      "source_grade": "NEW_675KEV_NUMERICAL_SENSITIVITY_NOT_MEASURED_BEAM",
+      "final_physical_weight": 0.0,
+      "axial_z_momentum_reversed": false,
+      "loss_time_bracket_s": [
+        1.52e-10,
+        1.53e-10
+      ],
+      "final_or_last_active_position_m": [
+        0.000997852803737658,
+        0.000199985939411425,
+        0.00391022877891176
+      ],
+      "relative_K_drift": 9.547918011776346e-15,
+      "initial_B_magnitude_T": 0.001476292618765778,
+      "local_initial_gyroradius_estimate_m": 46.456857188081,
+      "local_gyroradius_over_domain_halfwidth": 46456.857188081005,
+      "classification": "FINITE_TIME_NUMERICAL_MAP_CONTROL_NOT_APPARATUS_CAPTURE_FRACTION"
+    },
+    {
+      "case": "canonical_mm_low_half_dt",
+      "source_grade": "UPSTREAM_NUMERICAL_PARTICLE_FIXTURE",
+      "final_physical_weight": 0.0,
+      "axial_z_momentum_reversed": false,
+      "loss_time_bracket_s": [
+        3.50529734355028e-08,
+        3.52734323879274e-08
+      ],
+      "final_or_last_active_position_m": [
+        0.000999201574205986,
+        0.000196749017997355,
+        0.0039117596263374
+      ],
+      "relative_K_drift": 2.220446049250313e-15,
+      "initial_B_magnitude_T": 0.001476292618765778,
+      "local_initial_gyroradius_estimate_m": 0.20154270683019032,
+      "local_gyroradius_over_domain_halfwidth": 201.54270683019033,
+      "classification": "FINITE_TIME_NUMERICAL_MAP_CONTROL_NOT_APPARATUS_CAPTURE_FRACTION"
+    }
+  ],
+  "checks": [
+    {
+      "name": "metadata_only_control_trace_byte_identical_to_original",
+      "passed": true
+    },
+    {
+      "name": "original_metre_scale_low_energy_reflects",
+      "passed": true
+    },
+    {
+      "name": "no_B_control_escapes",
+      "passed": true
+    },
+    {
+      "name": "canonical_mm_low_escapes",
+      "passed": true
+    },
+    {
+      "name": "canonical_mm_low_half_dt_escapes",
+      "passed": true
+    },
+    {
+      "name": "original_675keV_escapes",
+      "passed": true
+    },
+    {
+      "name": "canonical_mm_675keV_escapes",
+      "passed": true
+    },
+    {
+      "name": "original_low_magnetic_no_work",
+      "passed": true
+    },
+    {
+      "name": "metadata_only_negative_control_magnetic_no_work",
+      "passed": true
+    },
+    {
+      "name": "canonical_mm_low_magnetic_no_work",
+      "passed": true
+    },
+    {
+      "name": "original_no_B_magnetic_no_work",
+      "passed": true
+    },
+    {
+      "name": "original_675keV_magnetic_no_work",
+      "passed": true
+    },
+    {
+      "name": "canonical_mm_675keV_magnetic_no_work",
+      "passed": true
+    },
+    {
+      "name": "canonical_mm_low_half_dt_magnetic_no_work",
+      "passed": true
+    },
+    {
+      "name": "low_mm_escape_time_brackets_overlap_on_halving_dt",
+      "passed": true
+    }
+  ],
+  "source_unit_interpretation": "Original file gridUnitSI=1 and numbers match FEM millimetres. Millimetre branch is separately derived, not an author-confirmed correction.",
+  "loader_scope": "Inspected WarpX26.10 ExternalFieldReader uses raw gridSpacing/offset. Negative control confirms metadata-only spatial unit change is ineffective in this tested path. Canonical explicit SI coordinates required."
+}

@@ -1,0 +1,36 @@
+# SOURCE-DERIVED MAP BENCHMARK; NOT STARS APPARATUS
+max_step = 300
+amr.n_cell = 40 40 40
+amr.max_grid_size = 40
+amr.max_level = 0
+geometry.dims = 3
+geometry.prob_lo = -0.001 -0.001 0
+geometry.prob_hi = 0.001 0.001 0.005
+boundary.field_lo = pec pec pec
+boundary.field_hi = pec pec pec
+boundary.particle_lo = absorbing absorbing absorbing
+boundary.particle_hi = absorbing absorbing absorbing
+warpx.const_dt = 1e-12
+warpx.verbose = 0
+warpx.use_filter = 0
+algo.maxwell_solver = none
+algo.particle_shape = 1
+algo.particle_pusher = boris
+warpx.grid_type = collocated
+particles.species_names = proton
+proton.mass = m_p
+proton.charge = q_e
+proton.injection_style = SingleParticle
+proton.single_particle_pos = 0 0.0002 0.0025
+proton.single_particle_u = 0.021913622263230462 0 0.030969755456085598
+proton.single_particle_weight = 1
+proton.do_not_deposit = 1
+particles.B_ext_particle_init_style = read_from_file
+particles.read_fields_from_path = "/workspace/scratch/6126a9592c76/warpx_source_field_v0_1/maps/canonical_mm.h5"
+
+warpx.reduced_diags_names = extrema number
+extrema.type = ParticleExtrema
+extrema.species = proton
+extrema.intervals = 1
+number.type = ParticleNumber
+number.intervals = 1
