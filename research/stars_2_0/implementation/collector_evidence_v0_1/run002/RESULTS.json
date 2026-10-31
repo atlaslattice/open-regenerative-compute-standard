@@ -1,0 +1,101 @@
+{
+  "status": "PUBLISHED_EXPERIMENT_FIGURE_DATA_AND_TERMINAL_ACCOUNTING_RECOVERED",
+  "source_pdf_sha256": "4ddb96bf515bef01167719eace252cc6e59dc73cfa2ade3f2418cf955a042dd3",
+  "native_image_sha256": "9b391adf747d3ea033f3901619276239093775d0b1b3253d93c9bfae1452b30e",
+  "abstract_arithmetic": {
+    "net_W": 67.0,
+    "net_over_declared_incident": 0.4855072463768116
+  },
+  "body_VI_arithmetic": {
+    "terminal_powers": [
+      {
+        "id": "collector",
+        "signed_power_out_W": 79.10000000000001
+      },
+      {
+        "id": "suppressor",
+        "signed_power_out_W": -12.5
+      }
+    ],
+    "terminal_gross_out_W": 79.10000000000001,
+    "terminal_external_draw_W": 12.5,
+    "net_terminal_out_W": 66.60000000000001,
+    "net_fraction_of_declared_incident_power": 0.47741935483870973,
+    "incident_minus_net_terminal_W": 72.89999999999999,
+    "remainder_interpretation": "Arithmetic remainder; not automatically heat. Missing loss channels and boundary definition must be resolved.",
+    "wall_plug_net_power_W": null
+  },
+  "source_model_rounded_ratio_eta": 0.4701075268817204,
+  "digitization_max_centroid_recheck_distance_px": 0.006247129735778652,
+  "digitization_bounds": "analyst \u00b13px on affine anchors and marker centers; no experimental uncertainty claim",
+  "curve_reconstruction": {
+    "published_annotation": [
+      0.14,
+      565.0,
+      364.0
+    ],
+    "heldout_groups": [
+      9,
+      10
+    ],
+    "train_points": 15,
+    "heldout_points": 4,
+    "fit_parameters_plateauA_phiV_TieV": [
+      0.14057326717320823,
+      599.6831293607014,
+      258.22401669308266
+    ],
+    "published_curve_RMSE_A": 0.011730174636317418,
+    "heldout_fit_RMSE_A": 0.016399963612293993,
+    "independence": "Within-figure voltage-group split, same experimental campaign; not independent experiment or calibration acceptance. No recovered point covariance or per-shot errors.",
+    "meaning": "Exploratory curve check of net terminal current, not a validated incoming alpha distribution"
+  },
+  "checks": [
+    {
+      "name": "all_19_collector_points_preserved",
+      "passed": true
+    },
+    {
+      "name": "18_closed_markers_match_source_pixels",
+      "passed": true
+    },
+    {
+      "name": "fit_numeric_solver_converged",
+      "passed": true
+    },
+    {
+      "name": "fit_no_parameter_at_computational_bound",
+      "passed": true
+    },
+    {
+      "name": "whole_voltage_groups_held_out",
+      "passed": true
+    },
+    {
+      "name": "net_terminal_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "abstract_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "published_rounded_model_eta",
+      "passed": true
+    },
+    {
+      "name": "apparatus_gain_not_assigned",
+      "passed": true
+    }
+  ],
+  "software": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "code_sha256": {
+    "recover.py": "fbd4b26d1110392c0d1c23ab4258d95d8f8fdad8ec0227a4e6d863ffa010f7cf",
+    "terminal_ledger.py": "10971009fe7f9e3c41d0bfb7405dedef97e31780e5b605abd49ca95bedc4cf3c"
+  },
+  "STARS_pB_net_wall_plug_W": null
+}

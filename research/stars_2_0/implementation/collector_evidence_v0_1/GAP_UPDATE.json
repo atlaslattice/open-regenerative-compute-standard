@@ -1,0 +1,8 @@
+{
+  "newly_available": ["published experimental collector terminal-current data: 19 digitized points", "reported collector/suppressor power and V–I accounting benchmark", "separate historical converter geometry for reference-only applicability checks", "signed current/power software with negative and missing outcomes preserved"],
+  "narrowed_not_closed": ["collector electrical accounting: arithmetic reproduced, full historical physics not reproduced", "current–voltage reconstruction: actual points recovered; within-figure holdout discrepancy and measurement covariance open"],
+  "still_open": ["original STARS ceramic particle-pocket definition and actual collector electrodes/circuit", "post-material helium charge-state fractions in the target-matched material/state", "gas ionization, electron/secondary emission, sheath and space-charge dynamics", "absolute shot normalization and complete source/facility energy ledger"],
+  "forbidden_automatic_transfer": "Do not multiply PR59 ideal circuit work or pB alpha energy by the TMX 48% efficiency. The source conditions and mechanisms are different; some acceptance losses would also be counted twice.",
+  "pB_wall_plug_net_power_W": null,
+  "scientific_freeze": false
+}

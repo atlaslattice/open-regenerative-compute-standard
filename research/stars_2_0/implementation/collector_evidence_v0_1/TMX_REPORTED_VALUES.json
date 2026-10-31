@@ -1,0 +1,10 @@
+{
+  "source_id": "BARR_MOIR_1983",
+  "doi": "10.13182/FST83-A20820",
+  "apparatus": "TMX_SINGLE_STAGE_END_LOSS_CONVERTER_NOT_STARS",
+  "abstract_record": {"incident_W":138.0,"collector_W":79.0,"suppressor_draw_W":12.0,"reported_net_fraction":0.48},
+  "body_VI_record": {"collector_V":565.0,"collector_V_reported_plusminus":20.0,"collector_A":0.14,"suppressor_V":-500.0,"suppressor_drain_A":0.025,"incident_ion_A":0.15,"average_ion_energy_eV":930.0,"reported_approx_incident_W":140.0,"reported_net_W":67.0,"reported_net_fraction":0.48,"reported_net_fraction_plusminus":0.02},
+  "body_model_rounded_current_ratios": {"collector_over_incident":0.88,"suppressor_over_incident":0.12},
+  "TMX_grid_geometry": {"wire_diameter_m":0.00005,"wire_pitch_m":0.0015,"aperture_diameter_m":0.13,"collector_load":"zener string with 102 V tap intervals"},
+  "regime_warning": "TMX section is not the distinct 100 keV beam-test geometry in sections II–VIII. No dimension or efficiency is transferred to Stellar Forge. Printed-page109 body and Figure14/15 checked visually; abstract printed-page98 retained separately."
+}

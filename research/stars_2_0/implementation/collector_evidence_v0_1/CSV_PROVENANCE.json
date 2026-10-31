@@ -1,0 +1,19 @@
+{
+  "source_doi": "10.13182/FST83-A20820",
+  "figure": 15,
+  "source_pdf_page_1based": 12,
+  "type": "PUBLISHED_EXPERIMENT_DIGITIZED_DERIVED_VALUES",
+  "condition": "TMX single-stage end-loss converter; not MeV alpha collector",
+  "files": [
+    {
+      "path": "run001/FIGURE15_COLLECTOR_POINTS.csv",
+      "sha256": "73f422685aa7cce9eb5858cea48e059398d28fa3cc07ec21b10508c9169de208"
+    },
+    {
+      "path": "run002/FIGURE15_COLLECTOR_POINTS.csv",
+      "sha256": "73f422685aa7cce9eb5858cea48e059398d28fa3cc07ec21b10508c9169de208"
+    }
+  ],
+  "marker_and_axes": "FIGURE15_MARKERS.json",
+  "uncertainty_scope": "Pixel-reading sensitivity only; source per-shot errors/covariance not recovered"
+}

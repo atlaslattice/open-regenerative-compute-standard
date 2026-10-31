@@ -1,0 +1,13 @@
+test_bad_inputs (test_ledger.Tests.test_bad_inputs) ... ok
+test_duplicate_is_rejected (test_ledger.Tests.test_duplicate_is_rejected) ... ok
+test_electron_current_reduces_output (test_ledger.Tests.test_electron_current_reduces_output) ... ok
+test_missing_is_not_zero_efficiency (test_ledger.Tests.test_missing_is_not_zero_efficiency) ... ok
+test_negative_voltage_negative_current_delivers (test_ledger.Tests.test_negative_voltage_negative_current_delivers) ... ok
+test_no_facility_promotion (test_ledger.Tests.test_no_facility_promotion) ... ok
+test_tmx_signed_terminals (test_ledger.Tests.test_tmx_signed_terminals) ... ok
+test_zero_incident_ratio_undefined (test_ledger.Tests.test_zero_incident_ratio_undefined) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.000s
+
+OK
