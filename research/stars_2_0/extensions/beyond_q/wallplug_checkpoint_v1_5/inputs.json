@@ -1,0 +1,74 @@
+[
+  {
+    "case_id": "gain1_eta0.1",
+    "gain_A_primary_DD": 1.0,
+    "gain_B_DT": 1.0,
+    "laser_wallplug_efficiency": 0.1,
+    "thermal_to_electric_efficiency": 0.4,
+    "captured_fusion_fraction": 0.9,
+    "auxiliary_electric_W": 50000000.0,
+    "gain_basis": "A_primary_DD_Q_only;B_DT_Q",
+    "B_drive_policy": "scheduled",
+    "status": "ASSUMED exploratory stress case, no technology forecast"
+  },
+  {
+    "case_id": "gain1_eta0.2",
+    "gain_A_primary_DD": 1.0,
+    "gain_B_DT": 1.0,
+    "laser_wallplug_efficiency": 0.2,
+    "thermal_to_electric_efficiency": 0.4,
+    "captured_fusion_fraction": 0.9,
+    "auxiliary_electric_W": 50000000.0,
+    "gain_basis": "A_primary_DD_Q_only;B_DT_Q",
+    "B_drive_policy": "scheduled",
+    "status": "ASSUMED exploratory stress case, no technology forecast"
+  },
+  {
+    "case_id": "gain10_eta0.1",
+    "gain_A_primary_DD": 10.0,
+    "gain_B_DT": 10.0,
+    "laser_wallplug_efficiency": 0.1,
+    "thermal_to_electric_efficiency": 0.4,
+    "captured_fusion_fraction": 0.9,
+    "auxiliary_electric_W": 50000000.0,
+    "gain_basis": "A_primary_DD_Q_only;B_DT_Q",
+    "B_drive_policy": "scheduled",
+    "status": "ASSUMED exploratory stress case, no technology forecast"
+  },
+  {
+    "case_id": "gain10_eta0.2",
+    "gain_A_primary_DD": 10.0,
+    "gain_B_DT": 10.0,
+    "laser_wallplug_efficiency": 0.2,
+    "thermal_to_electric_efficiency": 0.4,
+    "captured_fusion_fraction": 0.9,
+    "auxiliary_electric_W": 50000000.0,
+    "gain_basis": "A_primary_DD_Q_only;B_DT_Q",
+    "B_drive_policy": "scheduled",
+    "status": "ASSUMED exploratory stress case, no technology forecast"
+  },
+  {
+    "case_id": "gain100_eta0.1",
+    "gain_A_primary_DD": 100.0,
+    "gain_B_DT": 100.0,
+    "laser_wallplug_efficiency": 0.1,
+    "thermal_to_electric_efficiency": 0.4,
+    "captured_fusion_fraction": 0.9,
+    "auxiliary_electric_W": 50000000.0,
+    "gain_basis": "A_primary_DD_Q_only;B_DT_Q",
+    "B_drive_policy": "scheduled",
+    "status": "ASSUMED exploratory stress case, no technology forecast"
+  },
+  {
+    "case_id": "gain100_eta0.2",
+    "gain_A_primary_DD": 100.0,
+    "gain_B_DT": 100.0,
+    "laser_wallplug_efficiency": 0.2,
+    "thermal_to_electric_efficiency": 0.4,
+    "captured_fusion_fraction": 0.9,
+    "auxiliary_electric_W": 50000000.0,
+    "gain_basis": "A_primary_DD_Q_only;B_DT_Q",
+    "B_drive_policy": "scheduled",
+    "status": "ASSUMED exploratory stress case, no technology forecast"
+  }
+]

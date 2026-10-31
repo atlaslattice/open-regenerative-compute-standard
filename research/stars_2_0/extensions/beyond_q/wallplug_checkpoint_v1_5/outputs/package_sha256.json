@@ -1,0 +1,14 @@
+{
+  ".gitignore": "862263fa1f46c20f0d1e4dac5ffcc75abd55c08211b2c3864c5f8764b9d87793",
+  "AUDIT_HISTORY.jsonl": "dc8e7e99a9d82ee0671bb289ccf7d46abe05993c00b09ec04d20f588cadf3049",
+  "HANDOFF.md": "bdd9e423ed6584b8f974ab7b6e199e6c514d63798e34933f4c5f4daba3ec495f",
+  "README.md": "1ec2f1f9dd3afc9c50838744323c6acd93723a28e6a58510d02564ec43aac740",
+  "inputs.json": "f122093dceb755a6b76dbbd791f4766feffc4285ba206cd18450120aa49a1426",
+  "ledger.py": "3fbe3788c45d2743a1cf1ea79ae208db658d8428f0afb638e6746b40864bb577",
+  "outputs/check_status.json": "3c642e8588798bd399d8162aaac870fa6162ca35b1aedd9a85754bc8175f1963",
+  "outputs/cost_sensitivity.csv": "58ff4ffba4aa02ffb118cba8ff158b5d3271c935345fd4018f80d6a24af07959",
+  "outputs/electricity_scenarios.csv": "02aca8c3ad3417481f17e501de68a4e0027aef56e7e8ce5f24f8982175d8fb20",
+  "outputs/tests.txt": "3ac33a9975eb8be4dd12fdc3d240e993b985009b66d717cf06eda45b16b0a36e",
+  "outputs/unresolved.json": "845937306f273b0da0d2695c1548947c50beeb1c3c3a90436370d4547bacd6c0",
+  "test_ledger.py": "cc0dd268f5be6c5874e777660c04b453dd128e6a02d15e61c56fb64100c03b2f"
+}
