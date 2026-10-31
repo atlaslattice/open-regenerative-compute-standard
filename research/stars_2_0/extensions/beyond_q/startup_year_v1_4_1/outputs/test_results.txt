@@ -1,0 +1,13 @@
+test_all_physical_qualification_remains_null (test_startup.Planning.test_all_physical_qualification_remains_null) ... ok
+test_annual_power_and_mass (test_startup.Planning.test_annual_power_and_mass) ... ok
+test_bank_charge_dates_exist (test_startup.Planning.test_bank_charge_dates_exist) ... ok
+test_bank_has_explicit_sinks (test_startup.Planning.test_bank_has_explicit_sinks) ... ok
+test_calendar_and_bank_bounds (test_startup.Planning.test_calendar_and_bank_bounds) ... ok
+test_full_year_delivered_in_staged_cases (test_startup.Planning.test_full_year_delivered_in_staged_cases) ... ok
+test_preceding_hour_fails_A1_refined_boundary (test_startup.Planning.test_preceding_hour_fails_A1_refined_boundary) ... ok
+test_zero_breeding_control (test_startup.Planning.test_zero_breeding_control) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.001s
+
+OK

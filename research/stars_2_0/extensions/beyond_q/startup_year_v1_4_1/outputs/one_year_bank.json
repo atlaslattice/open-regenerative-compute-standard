@@ -1,0 +1,11 @@
+{
+  "lower_kg": 64.45846557617188,
+  "upper_kg": 64.459228515625,
+  "criterion": "One365.25day FPY, unserved burn<=1e-8kg, no A, B breeding=0, no regulatory reserve",
+  "B_burn_kg": 61.65398062583634,
+  "decay_kg": 1.817365445117083,
+  "processing_loss_kg": 0.11705101185531108,
+  "final_mobile_kg": 0.8708314328211926,
+  "max_mass_residual_kg": 6.156852805361268e-12,
+  "qualified_startup_inventory_kg": null
+}

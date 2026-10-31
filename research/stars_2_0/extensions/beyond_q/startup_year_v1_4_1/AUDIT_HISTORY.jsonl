@@ -1,0 +1,3 @@
+{"id": "Y141-001", "event": "User requested A-only startup accumulation and one-year B fuel planning. Newdirectory only; current1.1GW gross DD/DT inputs retained. Whole-year bank and replenishing operation are separate policies."}
+{"id": "Y141-002", "event": "Coarsehour startup boundary was conservative under15min refinement. Search now moves backward to the preceding failed whole-hour point. Boundarycheck retained; no claim of physical precision."}
+{"id": "Y141-003", "event": "Zero-breeding A0/Bcontrol remains positive for one modeled year under assumed sources/recovery. Banking64.46kg does not demonstrate indefinite operation or qualified annual surplus. Eight regressions pass."}
