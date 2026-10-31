@@ -1,0 +1,12 @@
+{
+  "identity": "ORIGINAL_DEEPSEEK_CERAMIC_BORON_PARTICLE_POCKET_UNRECOVERED",
+  "target_form": null,
+  "composition": null,
+  "number_density_atoms_cm3": null,
+  "physical_boundary_m": null,
+  "support_geometry_and_composition": null,
+  "incident_beam_position_distribution": null,
+  "birth_space_time_adapter": null,
+  "evidence": "Related reviewer digests recovered; exact original specification not established",
+  "not_substituted": ["P1", "P2", "P3", "hollow sphere", "4–6 micrometre film candidate"]
+}

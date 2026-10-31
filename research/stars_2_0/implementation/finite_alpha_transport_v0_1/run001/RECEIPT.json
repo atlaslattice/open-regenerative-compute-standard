@@ -1,0 +1,13 @@
+{
+  "code_sha256": {
+    "run.py": "4d95d715ac04bb3863c2eac304d10d5eea249ac36a9e360357bbc860d44dad8f",
+    "geometry.py": "86e58bb1878f6801ae48f789e99deedbf66520928a4b27e3504b2bf2f208adc5"
+  },
+  "numpy": "2.3.5",
+  "outputs_sha256": {
+    "aspect_100.0.npz": "974eef745ff7d49093987901272500af321b87f8cf9ffb3d8b5da9d307d423bc",
+    "aspect_2.0.npz": "e9a366770bc7ef512cf71b8b8c9b10eba276e85934e4734532d664f5aea66f19",
+    "aspect_1000000.0.npz": "e72dfbc0e57de2bf05e6842c07b6f2e8d5fc858b10b49cda9d4819dd8ffff9bd",
+    "aspect_10.0.npz": "b1698b344cdf78af6575d0eaa985e5dcd8b27f4a17e3c2f2a752813d15c69a48"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "retrieved_date_UTC": "2026-10-31",
+  "repository": "atlaslattice/open-regenerative-compute-standard",
+  "sources": [
+    {
+      "path": "research/stars_2_0/reviews/DEEPSEEK_V08_HYBRID_BORON_TARGET_FABRICATION_FOLLOWUP_2026-10-27.md",
+      "git_blob_sha": "49041e236401e06f835de5e97a3379dc8fd8b08d"
+    },
+    {
+      "path": "research/stars_2_0/reviews/DEEPSEEK_V08_CROSS_DOMAIN_ENGINEERING_AUDIT_2026-10-27.md",
+      "git_blob_sha": "a841613f27d95ee00a9fa0a6e1fff5e0c595f73c"
+    }
+  ],
+  "result": "Both are attributed reviewer digests. They distinguish a candidate 4–6 µm reaction film from printed supporting hardware and require full backing/areal-density characterization. Neither supplies the original ceramic boron-particle pocket drawing, composition, dimensions, number density, packing, supports or beam spatial distribution. P1/P2/P3 later proposals remain separate. No material parameter was recovered or inferred for actual-pocket execution."
+}

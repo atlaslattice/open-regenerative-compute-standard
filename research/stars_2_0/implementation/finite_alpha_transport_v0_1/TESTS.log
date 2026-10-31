@@ -1,0 +1,27 @@
+test_bad_axis_rejected (test_geometry.Tests.test_bad_axis_rejected) ... ok
+test_bad_scalar_rejected (test_geometry.Tests.test_bad_scalar_rejected) ... ok
+test_constant_loss_budget (test_geometry.Tests.test_constant_loss_budget) ... ok
+test_corner_reports_both_faces (test_geometry.Tests.test_corner_reports_both_faces) ... ok
+test_floor_crossing_unresolved (test_geometry.Tests.test_floor_crossing_unresolved) ... ok
+test_front (test_geometry.Tests.test_front) ... ok
+test_grazing_has_finite_edge (test_geometry.Tests.test_grazing_has_finite_edge) ... ok
+test_inverted_box_rejected (test_geometry.Tests.test_inverted_box_rejected) ... ok
+test_no_high_energy_extrapolation (test_geometry.Tests.test_no_high_energy_extrapolation) ... ok
+test_oblique_path (test_geometry.Tests.test_oblique_path) ... ok
+test_outside_is_rejected (test_geometry.Tests.test_outside_is_rejected) ... ok
+test_placeholder_blocked (test_geometry.Tests.test_placeholder_blocked) ... ok
+test_presence_does_not_validate_adapter (test_geometry.Tests.test_presence_does_not_validate_adapter) ... ok
+test_random_path_is_first_surface (test_geometry.Tests.test_random_path_is_first_surface) ... ok
+test_rear (test_geometry.Tests.test_rear) ... ok
+test_scale_covariance (test_geometry.Tests.test_scale_covariance) ... ok
+test_subfloor_birth (test_geometry.Tests.test_subfloor_birth) ... ok
+test_surface_inward (test_geometry.Tests.test_surface_inward) ... ok
+test_surface_outward_zero_path (test_geometry.Tests.test_surface_outward_zero_path) ... ok
+test_translation_covariance (test_geometry.Tests.test_translation_covariance) ... ok
+test_wider_box_path_nondecreasing (test_geometry.Tests.test_wider_box_path_nondecreasing) ... ok
+test_zero_path_subfloor (test_geometry.Tests.test_zero_path_subfloor) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.067s
+
+OK
