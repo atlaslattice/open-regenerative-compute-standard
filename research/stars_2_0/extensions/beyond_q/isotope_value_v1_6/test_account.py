@@ -24,8 +24,10 @@ class Checks(unittest.TestCase):
     def test_terminal_allocations_disjoint(self):
         r=dict(a_store=5,b_store=8,total_inventory=15);h=dict(He3_stored_candidate_kg=10)
         x=a.terminal_allocation(r,h,10,.5,.9)
-        self.assertEqual(x['T_terminal_sale_candidate_kg'],3)
-        self.assertEqual(x['T_storage_after_sale_kg'],10)
+        self.assertEqual(x['T_terminal_sale_candidate_kg'],0)
+        self.assertEqual(x['T_storage_above_assumed_reserve_kg'],3)
+        self.assertEqual(x['T_storage_after_sale_kg'],13)
+        self.assertEqual(a.terminal_allocation(r,h,10,.5,.9,T_policy='sell_terminal')['T_terminal_sale_candidate_kg'],3)
         self.assertEqual(x['He3_retained_kg']+x['He3_quality_held_kg']+x['He3_terminal_sale_candidate_kg'],10)
         self.assertEqual(a.terminal_allocation(r,h,100,.5,.9)['T_terminal_sale_candidate_kg'],0)
     def test_unqualified_is_not_revenue(self):
@@ -48,6 +50,13 @@ class Checks(unittest.TestCase):
         self.assertAlmostEqual(float(rows[0]['T_branch_fraction']),.5)
         self.assertNotEqual(float(rows[0]['T_branch_fraction']),float(rows[1]['T_branch_fraction']))
         self.assertEqual(rows[1]['reactor_annual_output_kg'],'')
+    def test_direct_capture_reference(self):
+        from direct_capture_reference import evaluate
+        r=evaluate('test',500,500,.85,.8)
+        self.assertAlmostEqual(r['He3_STP_L'],341442.9071558655,places=5)
+        self.assertAlmostEqual(r['T_atom_equivalent_STP_L'],2*r['T2_molecular_STP_L'])
+        self.assertEqual(r['decay_He3_credit_kg'],0)
+        self.assertGreater(r['direct_T_balance_before_internal_burn_delays_losses_reserves_kg'],0)
     def test_generation_is_not_sales(self):
         for r in csv.DictReader((a.OUT/'terminal_allocations.csv').read_text().splitlines()):
             self.assertEqual(r['realized_He3_revenue_USD'],'')

@@ -27,6 +27,8 @@
   "isotope_revenue_USD": null,
   "profit_USD": null,
   "ARC_vs_laser_yield_ratio": null,
+  "T_policy": "retain_for_DT",
+  "external_T_sales_kg": 0,
   "He3_D_burn": "UNRESOLVED; omitted in candidate survival scenario",
   "source_commit": "bcc987d7ea9f796e3aae949dcddfdeb79d094d1a"
 }

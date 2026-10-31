@@ -12,7 +12,7 @@ The unchanged fuel-cycle engine replays A0/A1/A2 staged startup plus one full
 B operating year. Tritium birth, internal consumption, blanket production,
 transfers, decay and permanent losses remain separate. A new He-3 compartment
 tracks direct D-D birth, collection holdup, capture losses, retained stock and
-conditional terminal-sale allocation. Every modeled T decay also creates one
+conditional terminal-sale allocation for He-3. Tritium is retained for D-T fuel and reserves by default. Every modeled T decay also creates one
 He-3 atom, recorded separately and credited **zero recovery** here.
 
 All sources use the inherited current dual-laser scenario identity: A=1.1 GW
@@ -20,6 +20,31 @@ All sources use the inherited current dual-laser scenario identity: A=1.1 GW
 are prescribed powers, not demonstrated laser yields. The historical
 A=20 MW primary D-D / B=1.13 GW D-T remains an independent preserved reference.
 No source power or recovery coefficient has been tuned to fund the campus.
+
+## Direct capture is the core source, not tritium decay
+
+The user correction is explicit: the intended retrofit captures the direct
+D-D coproducts, with tritium feeding B and He-3 providing the principal saleable
+coproduct. Decay-derived He-3 is a separate unavailable byproduct and supplies
+no revenue or justification for this architecture.
+
+`direct_capture_reference.py` reconstructs the older 500 MW A / 500 MW B scale
+at 85% availability and 80% capture: approximately **45.945 kg of each captured
+isotope**, or **341,443 STP liters of He-3**. That is consistent in scale with
+the recalled roughly 350,000-liter result; its precise historical input file
+has not yet been located. This reconstruction is not asserted to be that file.
+The same atom count is 341,443 atom-equivalent liters for T, but **170,721 liters
+of molecular T2**. Tritium is best budgeted in kg/atoms to avoid this factor of
+two. Equal D-D branching means equal born atom counts, not equal molecular gas
+volumes or equal delivered output after internal burn and recovery.
+
+The current 1.1 GW primary-DD reference, 100% availability and 90% capture,
+gives 133.780 kg each, approximately 994,201 STP L of He-3, before secondary
+consumption and downstream losses. This direct-source screen supplies
+approximately 72.127 kg more T than equal-power B burns per FPY, before those
+remaining deductions. The dynamic simulations include their candidate internal
+T burn and stock losses; no decay-produced He-3 is needed for the direct source.
+Do not confuse this newer power case with the older 500 MW reconstruction.
 
 ## ARC, laser and the actual kinetic sample
 
@@ -65,7 +90,7 @@ package consequently does **not** infer complete-network He-3 survival.
   omission can overstate survival and requires a coupled particle/energy model.
 - He-3 terminal candidates = captured stored stock × (1-retained fraction) ×
   assumed quality acceptance. The remaining stock stays in retained/held bins.
-- T terminal candidates = max(0, A storage + B storage - assumed reserve).
+- T external sales are disabled by default (`retain_for_DT`). Storage above an assumed reserve is reported separately and retained. Optional `sell_terminal` is a counterfactual accounting control, not the campus policy. Its terminal candidate = max(0, A storage + B storage - assumed reserve).
   Reserves 1/10/64.46 kg are sensitivity inputs, not qualified startup standards.
   T in plasma, blankets or processing cannot be sold by this allocation.
 - Sales are evaluated only at the **terminal boundary**, after the complete
@@ -118,10 +143,11 @@ A1 including its 48-hour startup, at assumed 90% capture, 50% retention and
 | Terminal quality hold |6.707|
 | Terminal sale candidate, unqualified |60.366|
 
-A1 has approximately 242.245 kg T in terminal storage; a 10 kg assumed storage
-reserve leaves 232.245 kg as a **terminal unqualified allocation candidate**,
-with other pipeline inventory still held. These large stocks depend strongly
-on inherited blanket assumptions and do not establish repeatable annual sales.
+A1 has approximately 242.245 kg T in terminal storage, all retained for future
+D-T fuel and reserves. A 10 kg assumed reserve leaves 232.245 kg above that
+arbitrary reserve, but external T sales remain zero. Other pipeline inventory
+is held separately. These large stocks depend strongly on inherited blanket
+assumptions and do not establish qualified or indefinitely renewable surplus.
 
 ## What would cover the electrical sink?
 
@@ -130,17 +156,17 @@ conversion 40%, combined auxiliaries 50 MW and import price $0.10/kWh, A1's
 startup plus B-year import charge is approximately **$270.902 million**.
 Under the full-sale assumption, the terminal candidates would require:
 
-| Electricity-cost boundary | He-3 alone | T alone |
-|---|---:|---:|
-| Campus net import charge |$4.488 million/kg|$1.166 million/kg|
-| A's laser electrical input charge only |$8.031 million/kg|not allocated here|
+| Electricity-cost boundary | He-3 alone | T allocation |
+|---|---:|---|
+| Campus net import charge |$4.488 million/kg|Retained for D-T, no sales credit|
+| A's laser electrical input charge only |$8.031 million/kg|Retained for D-T, no sales credit|
 
 These are **required price thresholds, not market quotations**. The A-only
 charge ($484.770 million) is an alternative gross-input screening boundary,
 not an additional charge to add to the campus net import charge. Generation
 and A/B electrical allocation must not be counted twice.
 
-For a mixed sale allocation, the screening frontier is:
+Default revenue screening uses He-3 only; the following general frontier supports a separately requested counterfactual T sale. In the default, T_sale_candidate=0:
 
 `P_He3 × min(H_candidate,H_qualified,H_demand) + P_T × min(T_candidate,T_qualified,T_demand) >= selected electricity charge`.
 
@@ -158,7 +184,7 @@ POTENTIAL-DERIVED: reactor-scale production, recovery and required-price scenari
 UNRESOLVED: ARC-versus-laser performance, achievable gains, D-He3 consumption,
 qualified recovery/purity/demand, full costs and sustained operation.
 
-Eleven new tests pass, covering zero sources, zero capture, an independent
+Twelve new tests pass, covering zero sources, zero capture, an independent
 analytic collection solution, isotope mass conversion, T/He-3 disjoint terminal
 allocations, demand caps, missing qualification, zero-inventory thresholds,
 T conservation and source normalization. All physical G1–G5 remain OPEN.
@@ -179,6 +205,7 @@ From this directory, Python standard library:
 
 ```bash
 python account.py
+python direct_capture_reference.py
 python -m unittest test_account -v
 ```
 

@@ -1,14 +1,34 @@
 {
   "evidence": "ASSUMED recovery and retention sensitivities; no qualified output or price",
   "helium_cases": [
-    {"case_id": "capture0", "collection_day": 1.0, "capture_fraction": 0.0},
-    {"case_id": "capture50", "collection_day": 1.0, "capture_fraction": 0.5},
-    {"case_id": "capture90", "collection_day": 1.0, "capture_fraction": 0.9}
+    {
+      "case_id": "capture0",
+      "collection_day": 1.0,
+      "capture_fraction": 0.0
+    },
+    {
+      "case_id": "capture50",
+      "collection_day": 1.0,
+      "capture_fraction": 0.5
+    },
+    {
+      "case_id": "capture90",
+      "collection_day": 1.0,
+      "capture_fraction": 0.9
+    }
   ],
   "retain_He3_fraction": 0.5,
   "quality_acceptance": 0.9,
-  "terminal_T_reserve_kg": [1.0, 10.0, 64.46],
-  "assumed_import_prices_USD_per_kWh": [0.05, 0.1, 0.2],
+  "terminal_T_reserve_kg": [
+    1.0,
+    10.0,
+    64.46
+  ],
+  "assumed_import_prices_USD_per_kWh": [
+    0.05,
+    0.1,
+    0.2
+  ],
   "qualified_He3_kg": null,
   "qualified_T_kg": null,
   "He3_market_demand_kg": null,
@@ -17,5 +37,8 @@
   "T_price_USD_per_kg": null,
   "He3_D_secondary_consumption": "omitted; requires residence and reactivity model, no assertion of survival",
   "T_decay_He3_capture_fraction": 0.0,
-  "physical_validation": false
+  "physical_validation": false,
+  "T_policy": "retain_for_DT",
+  "T_external_sales_kg": 0,
+  "purpose": "T feeds B; retain remaining T for future fuel/reserves. He3 is the economic coproduct."
 }

@@ -31,11 +31,13 @@ def helium(rows,collection_day,capture_fraction):
         prior=r
     return trajectory
 
-def terminal_allocation(r,h,reserve_T_kg,retain_He3_fraction,quality_acceptance):
+def terminal_allocation(r,h,reserve_T_kg,retain_He3_fraction,quality_acceptance,T_policy='retain_for_DT'):
     nonnegative(reserve_T_kg=reserve_T_kg);probability('retain_He3_fraction',retain_He3_fraction);probability('quality_acceptance',quality_acceptance)
     available=r['a_store']+r['b_store']
-    T_candidate=max(0.,available-reserve_T_kg)
-    return dict(T_storage_before_kg=available,T_terminal_sale_candidate_kg=T_candidate,T_storage_after_sale_kg=available-T_candidate,
+    if T_policy not in ('retain_for_DT','sell_terminal'):raise ValueError('unknown T allocation policy')
+    uncommitted=max(0.,available-reserve_T_kg)
+    T_candidate=uncommitted if T_policy=='sell_terminal' else 0.
+    return dict(T_policy=T_policy,T_storage_above_assumed_reserve_kg=uncommitted,T_storage_before_kg=available,T_terminal_sale_candidate_kg=T_candidate,T_storage_after_sale_kg=available-T_candidate,
       T_actual_qualified_sale_kg=None,T_pipeline_held_kg=r['total_inventory']-available,He3_stored_before_kg=h['He3_stored_candidate_kg'],
       He3_retained_kg=h['He3_stored_candidate_kg']*retain_He3_fraction,
       He3_quality_held_kg=h['He3_stored_candidate_kg']*(1-retain_He3_fraction)*(1-quality_acceptance),
@@ -109,7 +111,7 @@ def main():
             if case=='A1' and hcase['case_id']=='capture90':
                 daily=[dict(A_case=case,**r) for i,r in enumerate(hs) if (i+1)%24==0 or i==len(hs)-1]
             for reserve in inputs['terminal_T_reserve_kg']:
-                a=terminal_allocation(last,h,reserve,inputs['retain_He3_fraction'],inputs['quality_acceptance'])
+                a=terminal_allocation(last,h,reserve,inputs['retain_He3_fraction'],inputs['quality_acceptance'],inputs['T_policy'])
                 aid=dict(A_case=case,He3_case=hcase['case_id'],reserve_T_kg=reserve)
                 allocations.append(dict(**aid,**h,**a,realized_He3_revenue_USD=realized_revenue(a['He3_terminal_sale_candidate_kg'],None,None,None),realized_T_revenue_USD=None,
                   physical_validation=False,status='POTENTIAL-DERIVED terminal allocation; no sales during modeled year'))
@@ -128,7 +130,7 @@ def main():
     write('isotope_birth_sink_ledger.csv',ledgers);write('terminal_allocations.csv',allocations);write('revenue_thresholds.csv',frontiers);write('He3_daily_reference.csv',daily)
     comparisons=source_comparison()
     (OUT/'checks.json').write_text(json.dumps(dict(cases=checks,physical_validation=False,all_physical_gates='OPEN',isotope_revenue_USD=None,profit_USD=None,
-       ARC_vs_laser_yield_ratio=None,He3_D_burn='UNRESOLVED; omitted in candidate survival scenario',source_commit=SOURCE_COMMIT),indent=2)+'\n')
+       ARC_vs_laser_yield_ratio=None,T_policy=inputs['T_policy'],external_T_sales_kg=0,He3_D_burn='UNRESOLVED; omitted in candidate survival scenario',source_commit=SOURCE_COMMIT),indent=2)+'\n')
     print('rows',len(ledgers),len(allocations),len(frontiers),flush=True)
     print('He3 ratio at matched primary DD Q',comparisons[1]['He3_atoms_per_primary_DD_J']/comparisons[0]['He3_atoms_per_primary_DD_J'],flush=True)
     for r in frontiers:
