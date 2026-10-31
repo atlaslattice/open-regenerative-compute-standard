@@ -44,7 +44,7 @@ Each factory figure counts direct estimated purchased BOM, machine activity/prin
 |---|---:|---:|---:|---:|
 | Automated conventional lamination/winding | 98% | 0h | **$2,918** | No additive cells |
 | Hybrid robotic/additive (selected shapes) | 94% | 4h | **$3,298** | **5,344** additive cells |
-| Maximum-additive research concept | 85% | 18h | **$5,847** | **26,598** additive cells |
+| Maximum-additive research concept | 85% | 18h | **$5,847** | **26,592** additive cells |
 
 At assumed $100/print-hour, base hybrid needs print time to fall to **~0.43 hours per accepted attempt equivalent** to match conventional cost with all else held unchanged. Alternatively achieve lower material/assembly cost, better yield, lower print cost or materially greater life/functional system value. **This is a hypothesis-sensitivity, not proof additive cannot win**. Count 365-day 24/7 machines with assumed 70% OEE and process yield, stagger five-day human schedules with ~5.25 FTE per round-the-clock post. Quote six independent suppliers and 100/1,000/10,000 qualifying units before committing to million-unit claims.
 
