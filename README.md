@@ -2,6 +2,9 @@
 
 ## National Grid Intelligence 1.0 — full-system dynamic modernization (2026-10-31)
 
+**[Next domestic factory product: 3D-printed liquid-cooling modules, heat exchangers and robotic pump/CDU assemblies](research/orcs/manufacturing/NEXT_PRODUCT_MODULAR_COOLING_CDU_PRINTED_HEAT_EXCHANGERS_2026-10-31.md)**. 2026 import/trade categories, direct manufacturer/academic evidence, and test plan for reusing transformer factory robot/printing skills; nonoperational research and no factory order book.
+
+
 **[2026 labor, unemployment and welfare, goods-import accounting + three-process factory-cell benchmark](research/orcs/grid-intelligence-v0_1/FACTORY_BENCHMARK_LABOR_WELFARE_TRADE_2026-10-31.md)** · **[Reproducible benchmark script](research/orcs/grid-intelligence-v0_1/factory_cell_fiscal_trade_benchmark.py)**. Source-graded public stats; all manufacturing cost, hiring, benefits offsets, trade displacement and physical performance are explicitly ASSUMED or unvalidated.
 
 **[Robotic additive factories, 24/7 production, five-day human shifts, AI/on-job training and domestic feedstock](research/orcs/grid-intelligence-v0_1/ADDITIVE_FACTORY_MILLION_WORKER_DOMESTIC_PIVOT_2026-10-31.md)** · **[Reproducible production/certification/workforce model](research/orcs/grid-intelligence-v0_1/additive_factory_workforce_sensitivity.py)**. Proposed one-million distinct worker-participant challenge is separate from concurrent permanent employment and does **not** count manufacturing or trenching as field roles. 365-day/three-shift equipment coverage with staggered human five-day schedules. No factory order book, qualified all-printed unit, or zero-import BOM has been established.
