@@ -1,4 +1,7 @@
 # Beyond Q — Dual D-D / D-T Tritium Self-Sufficiency: A Reconciled Fuel-Cycle Audit
+
+**SUPERSEDED CONFIGURATION NOTICE (2026-10-31):** The 20 MW *gross* D–D Reactor A assumption in this preserved 2026-10-29 audit is a **legacy reduced-power sensitivity, NOT the project owner's active two-ARC architecture**. The active design specifies **two ARC-class reactors, each 1.1 GW gross fusion**: A D–D for He-3/T, B D–T for electricity; A's **20 MW is only a historical net electrical projection**. Previous production/sufficiency results do not apply to that full-scale pair. See [canonical ARC configuration](../ARC_DUAL_REACTOR_CANONICAL_BASELINE_2026-10-31.md).
+
 **Standalone research white paper v1.0 · 2026-10-29 · Atlas Lattice / STARS 2.0 / Beyond Q**
 
 **Status: analytical research; no integrated reactor, blanket neutron-transport model, or qualified production demonstration.**  
