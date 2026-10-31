@@ -1,0 +1,79 @@
+{
+  "status": "PASS",
+  "stages": [
+    {
+      "stage": "MAP",
+      "returncode": 0,
+      "command": [
+        "/workspace/scratch/6126a9592c76/restore_runtime/env/bin/python",
+        "/workspace/scratch/6126a9592c76/warpx_target_handoff_v0_2/run002/audit_map.py",
+        "/workspace/scratch/6126a9592c76/restore_runtime/maps/canonical_mm.h5",
+        "/workspace/scratch/6126a9592c76/warpx_target_handoff_v0_2/run002/MAP.json"
+      ],
+      "elapsed_s": 0.10942244529724121
+    },
+    {
+      "stage": "field_on",
+      "returncode": 0,
+      "command": [
+        "/workspace/scratch/6126a9592c76/restore_runtime/env/bin/warpx.3d",
+        "/workspace/scratch/6126a9592c76/warpx_target_handoff_v0_2/run002/inputs/field_on"
+      ],
+      "elapsed_s": 0.20159196853637695
+    },
+    {
+      "stage": "field_off",
+      "returncode": 0,
+      "command": [
+        "/workspace/scratch/6126a9592c76/restore_runtime/env/bin/warpx.3d",
+        "/workspace/scratch/6126a9592c76/warpx_target_handoff_v0_2/run002/inputs/field_off"
+      ],
+      "elapsed_s": 0.08249378204345703
+    },
+    {
+      "stage": "half_dt",
+      "returncode": 0,
+      "command": [
+        "/workspace/scratch/6126a9592c76/restore_runtime/env/bin/warpx.3d",
+        "/workspace/scratch/6126a9592c76/warpx_target_handoff_v0_2/run002/inputs/half_dt"
+      ],
+      "elapsed_s": 0.33672046661376953
+    },
+    {
+      "stage": "EXTRACT",
+      "returncode": 0,
+      "command": [
+        "/workspace/scratch/6126a9592c76/restore_runtime/env/bin/python",
+        "/workspace/scratch/6126a9592c76/warpx_target_handoff_v0_2/run002/read_scrapes.py",
+        "/workspace/scratch/6126a9592c76/warpx_target_handoff_v0_2/run002"
+      ],
+      "elapsed_s": 0.1583399772644043
+    },
+    {
+      "stage": "COUPLE",
+      "returncode": 0,
+      "command": [
+        "/workspace/scratch/6126a9592c76/restore_runtime/env/bin/python",
+        "/workspace/scratch/6126a9592c76/warpx_target_handoff_v0_2/run002/couple.py",
+        "/workspace/scratch/6126a9592c76/warpx_target_handoff_v0_2/run002"
+      ],
+      "elapsed_s": 0.19283342361450195
+    },
+    {
+      "stage": "TESTS",
+      "returncode": 0,
+      "command": [
+        "/workspace/scratch/6126a9592c76/restore_runtime/env/bin/python",
+        "-m",
+        "unittest",
+        "test_bridge",
+        "-v"
+      ],
+      "elapsed_s": 0.0477139949798584
+    }
+  ],
+  "executable_sha256": "647320362c1cd630c7d5665253e6ab44376d2c1a7e8bb0d4792ec6a40f6ea3cb",
+  "model_sha256": "cbb2ca13612dacea05329fa3fbd517cd1e2ab4fedfb25986a831bb8dcffe9d0b",
+  "map_sha256": "03d56612871c341b8aae8d8e43d22e12c64a4b89078e0f967a18df20285e6360",
+  "scientific_freeze": false
+}

@@ -1,0 +1,15 @@
+{
+  "map_sha256": "03d56612871c341b8aae8d8e43d22e12c64a4b89078e0f967a18df20285e6360",
+  "B_upper_T": 0.011778403783254648,
+  "lo_m": [
+    -0.001,
+    -0.001,
+    0
+  ],
+  "hi_m": [
+    0.001,
+    0.001,
+    0.0035
+  ],
+  "evidence": "SOURCE_DERIVED_MM_MAP_AND_NEW_VERIFICATION_TARGET_PLANE"
+}
