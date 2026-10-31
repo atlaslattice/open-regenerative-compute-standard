@@ -1,0 +1,442 @@
+{
+  "status": "FINITE_UNIFORM_BOX_NUMERICAL_CONTROLS_ONLY",
+  "bank_sha256": "a58cf76550a69241ce1341723f0999eb8a4069f4545ecc262601c5efad513a87",
+  "receiver_sha256": "afe996de27eb985f9c5a423c2ad968c6ca062d16c3f07e92ed0ef06def77e7c9",
+  "normal_column_atoms_cm2": 1e+18,
+  "material": "COLD_ELEMENTAL_B11",
+  "birth_position_model": "CENTROID_RAY_FROM_INHERITED_PROTON_DIRECTION_AND_MIDPOINT_DEPTH",
+  "physical_positions_m": null,
+  "exit_times_s": null,
+  "support_transport": "NOT_IMPLEMENTED",
+  "original_pocket_gate": {
+    "status": "BLOCKED_MISSING_APPARATUS_INPUTS",
+    "missing": [
+      "target_form",
+      "composition",
+      "number_density_atoms_cm3",
+      "physical_boundary_m",
+      "support_geometry_and_composition",
+      "incident_beam_position_distribution",
+      "birth_space_time_adapter"
+    ],
+    "net_electricity_J": null
+  },
+  "controls": [
+    {
+      "aspect_ratio_width_to_normal_thickness": 2.0,
+      "rows": [
+        {
+          "source": "PHASE_SPACE_NULL",
+          "expected_reactions": 0.01628033146332977,
+          "birth_kinetic_MeV": 0.152294459676311,
+          "resolved_escape_kinetic_MeV": 0.15146206271572887,
+          "material_transfer_lower_MeV": 0.0008323882884098172,
+          "unresolved_kinetic_budget_MeV": 8.672172322091974e-09,
+          "escape_conditional_bounds_MeV": [
+            0.15146206271572887,
+            0.1514620713879012
+          ],
+          "edge_crossing_alpha_weight": 0.02020076668754836,
+          "resolved_escape_difference_from_infinite_control_MeV": 0.002406949327029284,
+          "budget_residual_MeV": -1.239991880128639e-17,
+          "collector_electricity_J": null,
+          "net_electricity_J": null
+        },
+        {
+          "source": "COHERENT_L1_L3_RAW",
+          "expected_reactions": 0.016280331463329772,
+          "birth_kinetic_MeV": 0.1522944596763106,
+          "resolved_escape_kinetic_MeV": 0.1514654950139619,
+          "material_transfer_lower_MeV": 0.0008289640205779625,
+          "unresolved_kinetic_budget_MeV": 6.41770725617351e-10,
+          "escape_conditional_bounds_MeV": [
+            0.1514654950139619,
+            0.1514654956557326
+          ],
+          "edge_crossing_alpha_weight": 0.020052045842885773,
+          "resolved_escape_difference_from_infinite_control_MeV": 0.0024622479886434456,
+          "budget_residual_MeV": 3.092891889505603e-17,
+          "collector_electricity_J": null,
+          "net_electricity_J": null
+        },
+        {
+          "source": "INCOHERENT_RAW_ABLATION",
+          "expected_reactions": 0.016280331463329772,
+          "birth_kinetic_MeV": 0.15229445967631056,
+          "resolved_escape_kinetic_MeV": 0.15147202880920121,
+          "material_transfer_lower_MeV": 0.0008224304790030375,
+          "unresolved_kinetic_budget_MeV": 3.8810628682512073e-10,
+          "escape_conditional_bounds_MeV": [
+            0.15147202880920121,
+            0.1514720291973075
+          ],
+          "edge_crossing_alpha_weight": 0.020106369701227138,
+          "resolved_escape_difference_from_infinite_control_MeV": 0.002401804557813275,
+          "budget_residual_MeV": 1.732225933364174e-17,
+          "collector_electricity_J": null,
+          "net_electricity_J": null
+        },
+        {
+          "source": "PURE_L1_CONTROL",
+          "expected_reactions": 0.016280331463329772,
+          "birth_kinetic_MeV": 0.1522944596763105,
+          "resolved_escape_kinetic_MeV": 0.15147569485251455,
+          "material_transfer_lower_MeV": 0.0008187645683653416,
+          "unresolved_kinetic_budget_MeV": 2.5543060130703196e-10,
+          "escape_conditional_bounds_MeV": [
+            0.15147569485251455,
+            0.15147569510794515
+          ],
+          "edge_crossing_alpha_weight": 0.020121976393386455,
+          "resolved_escape_difference_from_infinite_control_MeV": 0.002388741355732027,
+          "budget_residual_MeV": 4.829873527195649e-18,
+          "collector_electricity_J": null,
+          "net_electricity_J": null
+        },
+        {
+          "source": "PURE_L3_CONTROL",
+          "expected_reactions": 0.016280331463329772,
+          "birth_kinetic_MeV": 0.15229445967631078,
+          "resolved_escape_kinetic_MeV": 0.15145557993979852,
+          "material_transfer_lower_MeV": 0.000838878720485022,
+          "unresolved_kinetic_budget_MeV": 1.0160272192895717e-09,
+          "escape_conditional_bounds_MeV": [
+            0.15145557993979852,
+            0.15145558095582573
+          ],
+          "edge_crossing_alpha_weight": 0.02004320006394318,
+          "resolved_escape_difference_from_infinite_control_MeV": 0.0024643182371064942,
+          "budget_residual_MeV": 1.3327148563288932e-17,
+          "collector_electricity_J": null,
+          "net_electricity_J": null
+        }
+      ]
+    },
+    {
+      "aspect_ratio_width_to_normal_thickness": 10.0,
+      "rows": [
+        {
+          "source": "PHASE_SPACE_NULL",
+          "expected_reactions": 0.01628033146332977,
+          "birth_kinetic_MeV": 0.152294459676311,
+          "resolved_escape_kinetic_MeV": 0.15060652239031105,
+          "material_transfer_lower_MeV": 0.001687896795691344,
+          "unresolved_kinetic_budget_MeV": 4.049030861085213e-08,
+          "escape_conditional_bounds_MeV": [
+            0.15060652239031105,
+            0.15060656288061966
+          ],
+          "edge_crossing_alpha_weight": 0.004475629014772217,
+          "resolved_escape_difference_from_infinite_control_MeV": 0.0015514090016114646,
+          "budget_residual_MeV": -8.343334087458962e-18,
+          "collector_electricity_J": null,
+          "net_electricity_J": null
+        },
+        {
+          "source": "COHERENT_L1_L3_RAW",
+          "expected_reactions": 0.016280331463329772,
+          "birth_kinetic_MeV": 0.1522944596763106,
+          "resolved_escape_kinetic_MeV": 0.15060614598452726,
+          "material_transfer_lower_MeV": 0.0016883034438946287,
+          "unresolved_kinetic_budget_MeV": 1.0247888694591969e-08,
+          "escape_conditional_bounds_MeV": [
+            0.15060614598452726,
+            0.15060615623241597
+          ],
+          "edge_crossing_alpha_weight": 0.0045851133482233825,
+          "resolved_escape_difference_from_infinite_control_MeV": 0.001602898959208815,
+          "budget_residual_MeV": 2.6400349369801635e-17,
+          "collector_electricity_J": null,
+          "net_electricity_J": null
+        },
+        {
+          "source": "INCOHERENT_RAW_ABLATION",
+          "expected_reactions": 0.016280331463329772,
+          "birth_kinetic_MeV": 0.15229445967631056,
+          "resolved_escape_kinetic_MeV": 0.1506247667728105,
+          "material_transfer_lower_MeV": 0.0016696863880247621,
+          "unresolved_kinetic_budget_MeV": 6.515475280534182e-09,
+          "escape_conditional_bounds_MeV": [
+            0.1506247667728105,
+            0.15062477328828577
+          ],
+          "edge_crossing_alpha_weight": 0.004498706452924623,
+          "resolved_escape_difference_from_infinite_control_MeV": 0.0015545425214225639,
+          "budget_residual_MeV": 1.02676655578064e-17,
+          "collector_electricity_J": null,
+          "net_electricity_J": null
+        },
+        {
+          "source": "PURE_L1_CONTROL",
+          "expected_reactions": 0.016280331463329772,
+          "birth_kinetic_MeV": 0.1522944596763105,
+          "resolved_escape_kinetic_MeV": 0.15063167875216374,
+          "material_transfer_lower_MeV": 0.0016627765505701168,
+          "unresolved_kinetic_budget_MeV": 4.373576648249661e-09,
+          "escape_conditional_bounds_MeV": [
+            0.15063167875216374,
+            0.15063168312574038
+          ],
+          "edge_crossing_alpha_weight": 0.004477400201963629,
+          "resolved_escape_difference_from_infinite_control_MeV": 0.001544725255381213,
+          "budget_residual_MeV": -3.307571014799437e-18,
+          "collector_electricity_J": null,
+          "net_electricity_J": null
+        },
+        {
+          "source": "PURE_L3_CONTROL",
+          "expected_reactions": 0.016280331463329772,
+          "birth_kinetic_MeV": 0.15229445967631078,
+          "resolved_escape_kinetic_MeV": 0.15059373231718795,
+          "material_transfer_lower_MeV": 0.001700710951601005,
+          "unresolved_kinetic_budget_MeV": 1.6407521793995933e-08,
+          "escape_conditional_bounds_MeV": [
+            0.15059373231718795,
+            0.15059374872470974
+          ],
+          "edge_crossing_alpha_weight": 0.0045898445234545775,
+          "resolved_escape_difference_from_infinite_control_MeV": 0.001602470614495921,
+          "budget_residual_MeV": 2.875007170504427e-17,
+          "collector_electricity_J": null,
+          "net_electricity_J": null
+        }
+      ]
+    },
+    {
+      "aspect_ratio_width_to_normal_thickness": 100.0,
+      "rows": [
+        {
+          "source": "PHASE_SPACE_NULL",
+          "expected_reactions": 0.01628033146332977,
+          "birth_kinetic_MeV": 0.152294459676311,
+          "resolved_escape_kinetic_MeV": 0.14944428087200906,
+          "material_transfer_lower_MeV": 0.0028496608404086276,
+          "unresolved_kinetic_budget_MeV": 5.17963893324516e-07,
+          "escape_conditional_bounds_MeV": [
+            0.14944428087200906,
+            0.1494447988359024
+          ],
+          "edge_crossing_alpha_weight": 0.0003696120329380466,
+          "resolved_escape_difference_from_infinite_control_MeV": 0.0003891674833094716,
+          "budget_residual_MeV": -1.2768704042503357e-17,
+          "collector_electricity_J": null,
+          "net_electricity_J": null
+        },
+        {
+          "source": "COHERENT_L1_L3_RAW",
+          "expected_reactions": 0.016280331463329772,
+          "birth_kinetic_MeV": 0.1522944596763106,
+          "resolved_escape_kinetic_MeV": 0.1494157273994169,
+          "material_transfer_lower_MeV": 0.0028779567091682043,
+          "unresolved_kinetic_budget_MeV": 7.755677255059529e-07,
+          "escape_conditional_bounds_MeV": [
+            0.1494157273994169,
+            0.1494165029671424
+          ],
+          "edge_crossing_alpha_weight": 0.00042485920266349106,
+          "resolved_escape_difference_from_infinite_control_MeV": 0.0004124803740984395,
+          "budget_residual_MeV": 1.4889780421546532e-17,
+          "collector_electricity_J": null,
+          "net_electricity_J": null
+        },
+        {
+          "source": "INCOHERENT_RAW_ABLATION",
+          "expected_reactions": 0.016280331463329772,
+          "birth_kinetic_MeV": 0.15229445967631056,
+          "resolved_escape_kinetic_MeV": 0.1494685623382415,
+          "material_transfer_lower_MeV": 0.0028253047168069556,
+          "unresolved_kinetic_budget_MeV": 5.926212620952926e-07,
+          "escape_conditional_bounds_MeV": [
+            0.1494685623382415,
+            0.14946915495950358
+          ],
+          "edge_crossing_alpha_weight": 0.00038755086879972743,
+          "resolved_escape_difference_from_infinite_control_MeV": 0.0003983380868535502,
+          "budget_residual_MeV": 1.5687685457860083e-17,
+          "collector_electricity_J": null,
+          "net_electricity_J": null
+        },
+        {
+          "source": "PURE_L1_CONTROL",
+          "expected_reactions": 0.016280331463329772,
+          "birth_kinetic_MeV": 0.1522944596763105,
+          "resolved_escape_kinetic_MeV": 0.14947763944723957,
+          "material_transfer_lower_MeV": 0.002816284729370586,
+          "unresolved_kinetic_budget_MeV": 5.354997003324473e-07,
+          "escape_conditional_bounds_MeV": [
+            0.14947763944723957,
+            0.1494781749469399
+          ],
+          "edge_crossing_alpha_weight": 0.0003788851914441373,
+          "resolved_escape_difference_from_infinite_control_MeV": 0.0003906859504570481,
+          "budget_residual_MeV": 7.979050363135509e-18,
+          "collector_electricity_J": null,
+          "net_electricity_J": null
+        },
+        {
+          "source": "PURE_L3_CONTROL",
+          "expected_reactions": 0.016280331463329772,
+          "birth_kinetic_MeV": 0.15229445967631078,
+          "resolved_escape_kinetic_MeV": 0.1494287398661206,
+          "material_transfer_lower_MeV": 0.0028648729715967875,
+          "unresolved_kinetic_budget_MeV": 8.468385933738535e-07,
+          "escape_conditional_bounds_MeV": [
+            0.1494287398661206,
+            0.14942958670471396
+          ],
+          "edge_crossing_alpha_weight": 0.00042884197961226875,
+          "resolved_escape_difference_from_infinite_control_MeV": 0.0004374781634285674,
+          "budget_residual_MeV": 2.018437161659635e-17,
+          "collector_electricity_J": null,
+          "net_electricity_J": null
+        }
+      ]
+    },
+    {
+      "aspect_ratio_width_to_normal_thickness": 1000000.0,
+      "rows": [
+        {
+          "source": "PHASE_SPACE_NULL",
+          "expected_reactions": 0.01628033146332977,
+          "birth_kinetic_MeV": 0.152294459676311,
+          "resolved_escape_kinetic_MeV": 0.1490551133886996,
+          "material_transfer_lower_MeV": 0.003238271884697632,
+          "unresolved_kinetic_budget_MeV": 1.0744029137669338e-06,
+          "escape_conditional_bounds_MeV": [
+            0.1490551133886996,
+            0.14905618779161336
+          ],
+          "edge_crossing_alpha_weight": 0.0,
+          "resolved_escape_difference_from_infinite_control_MeV": 0.0,
+          "budget_residual_MeV": 1.2009656642645097e-17,
+          "collector_electricity_J": null,
+          "net_electricity_J": null
+        },
+        {
+          "source": "COHERENT_L1_L3_RAW",
+          "expected_reactions": 0.016280331463329772,
+          "birth_kinetic_MeV": 0.1522944596763106,
+          "resolved_escape_kinetic_MeV": 0.14900324702531845,
+          "material_transfer_lower_MeV": 0.0032901318322327627,
+          "unresolved_kinetic_budget_MeV": 1.0808187593930532e-06,
+          "escape_conditional_bounds_MeV": [
+            0.14900324702531845,
+            0.14900432784407783
+          ],
+          "edge_crossing_alpha_weight": 0.0,
+          "resolved_escape_difference_from_infinite_control_MeV": 0.0,
+          "budget_residual_MeV": 8.895116495591035e-18,
+          "collector_electricity_J": null,
+          "net_electricity_J": null
+        },
+        {
+          "source": "INCOHERENT_RAW_ABLATION",
+          "expected_reactions": 0.016280331463329772,
+          "birth_kinetic_MeV": 0.15229445967631056,
+          "resolved_escape_kinetic_MeV": 0.14907022425138794,
+          "material_transfer_lower_MeV": 0.0032232949149970398,
+          "unresolved_kinetic_budget_MeV": 9.405099255816044e-07,
+          "escape_conditional_bounds_MeV": [
+            0.14907022425138794,
+            0.14907116476131352
+          ],
+          "edge_crossing_alpha_weight": 0.0,
+          "resolved_escape_difference_from_infinite_control_MeV": 0.0,
+          "budget_residual_MeV": -4.525061762469286e-18,
+          "collector_electricity_J": null,
+          "net_electricity_J": null
+        },
+        {
+          "source": "PURE_L1_CONTROL",
+          "expected_reactions": 0.016280331463329772,
+          "birth_kinetic_MeV": 0.1522944596763105,
+          "resolved_escape_kinetic_MeV": 0.14908695349678253,
+          "material_transfer_lower_MeV": 0.0032066285216666712,
+          "unresolved_kinetic_budget_MeV": 8.776578613098911e-07,
+          "escape_conditional_bounds_MeV": [
+            0.14908695349678253,
+            0.14908783115464383
+          ],
+          "edge_crossing_alpha_weight": 0.0,
+          "resolved_escape_difference_from_infinite_control_MeV": 0.0,
+          "budget_residual_MeV": -6.4420032012241744e-18,
+          "collector_electricity_J": null,
+          "net_electricity_J": null
+        },
+        {
+          "source": "PURE_L3_CONTROL",
+          "expected_reactions": 0.016280331463329772,
+          "birth_kinetic_MeV": 0.15229445967631078,
+          "resolved_escape_kinetic_MeV": 0.14899126170269203,
+          "material_transfer_lower_MeV": 0.0033019748904305163,
+          "unresolved_kinetic_budget_MeV": 1.2230831881997492e-06,
+          "escape_conditional_bounds_MeV": [
+            0.14899126170269203,
+            0.14899248478588023
+          ],
+          "edge_crossing_alpha_weight": 0.0,
+          "resolved_escape_difference_from_infinite_control_MeV": 0.0,
+          "budget_residual_MeV": 3.2878007364149295e-17,
+          "collector_electricity_J": null,
+          "net_electricity_J": null
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "name": "2.0_per_alpha_energy_budget",
+      "passed": true
+    },
+    {
+      "name": "2.0_fixed_reaction_counts",
+      "passed": true
+    },
+    {
+      "name": "10.0_per_alpha_energy_budget",
+      "passed": true
+    },
+    {
+      "name": "10.0_wider_target_does_not_increase_each_escape_energy",
+      "passed": true
+    },
+    {
+      "name": "10.0_fixed_reaction_counts",
+      "passed": true
+    },
+    {
+      "name": "100.0_per_alpha_energy_budget",
+      "passed": true
+    },
+    {
+      "name": "100.0_wider_target_does_not_increase_each_escape_energy",
+      "passed": true
+    },
+    {
+      "name": "100.0_fixed_reaction_counts",
+      "passed": true
+    },
+    {
+      "name": "1000000.0_per_alpha_energy_budget",
+      "passed": true
+    },
+    {
+      "name": "1000000.0_wider_target_does_not_increase_each_escape_energy",
+      "passed": true
+    },
+    {
+      "name": "1000000.0_fixed_reaction_counts",
+      "passed": true
+    },
+    {
+      "name": "ray_endpoint_residual",
+      "passed": true
+    },
+    {
+      "name": "wide_box_recovers_saved_infinite_slab_escape",
+      "passed": true
+    }
+  ],
+  "runtime_seconds": 2.3112688064575195,
+  "numerical_scope": "Not matched physical targets: fixed event bank and normal column, lateral boundaries only; not a full source/target rerun or pocket prediction."
+}

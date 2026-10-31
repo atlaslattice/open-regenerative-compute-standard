@@ -1,0 +1,650 @@
+{
+  "status": "PASS",
+  "checks_passed": 161,
+  "checks": [
+    {
+      "name": "run002_reported_checks",
+      "passed": true
+    },
+    {
+      "name": "run002_2.0_hash",
+      "passed": true
+    },
+    {
+      "name": "run002_2.0_unresolved_has_no_exit",
+      "passed": true
+    },
+    {
+      "name": "run002_2.0_resolved_exit_matches_candidate",
+      "passed": true
+    },
+    {
+      "name": "run002_2.0_unresolved_escape_energy_zero_placeholder",
+      "passed": true
+    },
+    {
+      "name": "run002_2.0_PHASE_SPACE_NULL_count_budget",
+      "passed": true
+    },
+    {
+      "name": "run002_2.0_PHASE_SPACE_NULL_energy_budget",
+      "passed": true
+    },
+    {
+      "name": "run002_2.0_PHASE_SPACE_NULL_not_electricity",
+      "passed": true
+    },
+    {
+      "name": "run002_2.0_COHERENT_L1_L3_RAW_count_budget",
+      "passed": true
+    },
+    {
+      "name": "run002_2.0_COHERENT_L1_L3_RAW_energy_budget",
+      "passed": true
+    },
+    {
+      "name": "run002_2.0_COHERENT_L1_L3_RAW_not_electricity",
+      "passed": true
+    },
+    {
+      "name": "run002_2.0_INCOHERENT_RAW_ABLATION_count_budget",
+      "passed": true
+    },
+    {
+      "name": "run002_2.0_INCOHERENT_RAW_ABLATION_energy_budget",
+      "passed": true
+    },
+    {
+      "name": "run002_2.0_INCOHERENT_RAW_ABLATION_not_electricity",
+      "passed": true
+    },
+    {
+      "name": "run002_2.0_PURE_L1_CONTROL_count_budget",
+      "passed": true
+    },
+    {
+      "name": "run002_2.0_PURE_L1_CONTROL_energy_budget",
+      "passed": true
+    },
+    {
+      "name": "run002_2.0_PURE_L1_CONTROL_not_electricity",
+      "passed": true
+    },
+    {
+      "name": "run002_2.0_PURE_L3_CONTROL_count_budget",
+      "passed": true
+    },
+    {
+      "name": "run002_2.0_PURE_L3_CONTROL_energy_budget",
+      "passed": true
+    },
+    {
+      "name": "run002_2.0_PURE_L3_CONTROL_not_electricity",
+      "passed": true
+    },
+    {
+      "name": "run002_10.0_hash",
+      "passed": true
+    },
+    {
+      "name": "run002_10.0_unresolved_has_no_exit",
+      "passed": true
+    },
+    {
+      "name": "run002_10.0_resolved_exit_matches_candidate",
+      "passed": true
+    },
+    {
+      "name": "run002_10.0_unresolved_escape_energy_zero_placeholder",
+      "passed": true
+    },
+    {
+      "name": "run002_10.0_PHASE_SPACE_NULL_count_budget",
+      "passed": true
+    },
+    {
+      "name": "run002_10.0_PHASE_SPACE_NULL_energy_budget",
+      "passed": true
+    },
+    {
+      "name": "run002_10.0_PHASE_SPACE_NULL_not_electricity",
+      "passed": true
+    },
+    {
+      "name": "run002_10.0_COHERENT_L1_L3_RAW_count_budget",
+      "passed": true
+    },
+    {
+      "name": "run002_10.0_COHERENT_L1_L3_RAW_energy_budget",
+      "passed": true
+    },
+    {
+      "name": "run002_10.0_COHERENT_L1_L3_RAW_not_electricity",
+      "passed": true
+    },
+    {
+      "name": "run002_10.0_INCOHERENT_RAW_ABLATION_count_budget",
+      "passed": true
+    },
+    {
+      "name": "run002_10.0_INCOHERENT_RAW_ABLATION_energy_budget",
+      "passed": true
+    },
+    {
+      "name": "run002_10.0_INCOHERENT_RAW_ABLATION_not_electricity",
+      "passed": true
+    },
+    {
+      "name": "run002_10.0_PURE_L1_CONTROL_count_budget",
+      "passed": true
+    },
+    {
+      "name": "run002_10.0_PURE_L1_CONTROL_energy_budget",
+      "passed": true
+    },
+    {
+      "name": "run002_10.0_PURE_L1_CONTROL_not_electricity",
+      "passed": true
+    },
+    {
+      "name": "run002_10.0_PURE_L3_CONTROL_count_budget",
+      "passed": true
+    },
+    {
+      "name": "run002_10.0_PURE_L3_CONTROL_energy_budget",
+      "passed": true
+    },
+    {
+      "name": "run002_10.0_PURE_L3_CONTROL_not_electricity",
+      "passed": true
+    },
+    {
+      "name": "run002_100.0_hash",
+      "passed": true
+    },
+    {
+      "name": "run002_100.0_unresolved_has_no_exit",
+      "passed": true
+    },
+    {
+      "name": "run002_100.0_resolved_exit_matches_candidate",
+      "passed": true
+    },
+    {
+      "name": "run002_100.0_unresolved_escape_energy_zero_placeholder",
+      "passed": true
+    },
+    {
+      "name": "run002_100.0_PHASE_SPACE_NULL_count_budget",
+      "passed": true
+    },
+    {
+      "name": "run002_100.0_PHASE_SPACE_NULL_energy_budget",
+      "passed": true
+    },
+    {
+      "name": "run002_100.0_PHASE_SPACE_NULL_not_electricity",
+      "passed": true
+    },
+    {
+      "name": "run002_100.0_COHERENT_L1_L3_RAW_count_budget",
+      "passed": true
+    },
+    {
+      "name": "run002_100.0_COHERENT_L1_L3_RAW_energy_budget",
+      "passed": true
+    },
+    {
+      "name": "run002_100.0_COHERENT_L1_L3_RAW_not_electricity",
+      "passed": true
+    },
+    {
+      "name": "run002_100.0_INCOHERENT_RAW_ABLATION_count_budget",
+      "passed": true
+    },
+    {
+      "name": "run002_100.0_INCOHERENT_RAW_ABLATION_energy_budget",
+      "passed": true
+    },
+    {
+      "name": "run002_100.0_INCOHERENT_RAW_ABLATION_not_electricity",
+      "passed": true
+    },
+    {
+      "name": "run002_100.0_PURE_L1_CONTROL_count_budget",
+      "passed": true
+    },
+    {
+      "name": "run002_100.0_PURE_L1_CONTROL_energy_budget",
+      "passed": true
+    },
+    {
+      "name": "run002_100.0_PURE_L1_CONTROL_not_electricity",
+      "passed": true
+    },
+    {
+      "name": "run002_100.0_PURE_L3_CONTROL_count_budget",
+      "passed": true
+    },
+    {
+      "name": "run002_100.0_PURE_L3_CONTROL_energy_budget",
+      "passed": true
+    },
+    {
+      "name": "run002_100.0_PURE_L3_CONTROL_not_electricity",
+      "passed": true
+    },
+    {
+      "name": "run002_1000000.0_hash",
+      "passed": true
+    },
+    {
+      "name": "run002_1000000.0_unresolved_has_no_exit",
+      "passed": true
+    },
+    {
+      "name": "run002_1000000.0_resolved_exit_matches_candidate",
+      "passed": true
+    },
+    {
+      "name": "run002_1000000.0_unresolved_escape_energy_zero_placeholder",
+      "passed": true
+    },
+    {
+      "name": "run002_1000000.0_PHASE_SPACE_NULL_count_budget",
+      "passed": true
+    },
+    {
+      "name": "run002_1000000.0_PHASE_SPACE_NULL_energy_budget",
+      "passed": true
+    },
+    {
+      "name": "run002_1000000.0_PHASE_SPACE_NULL_not_electricity",
+      "passed": true
+    },
+    {
+      "name": "run002_1000000.0_COHERENT_L1_L3_RAW_count_budget",
+      "passed": true
+    },
+    {
+      "name": "run002_1000000.0_COHERENT_L1_L3_RAW_energy_budget",
+      "passed": true
+    },
+    {
+      "name": "run002_1000000.0_COHERENT_L1_L3_RAW_not_electricity",
+      "passed": true
+    },
+    {
+      "name": "run002_1000000.0_INCOHERENT_RAW_ABLATION_count_budget",
+      "passed": true
+    },
+    {
+      "name": "run002_1000000.0_INCOHERENT_RAW_ABLATION_energy_budget",
+      "passed": true
+    },
+    {
+      "name": "run002_1000000.0_INCOHERENT_RAW_ABLATION_not_electricity",
+      "passed": true
+    },
+    {
+      "name": "run002_1000000.0_PURE_L1_CONTROL_count_budget",
+      "passed": true
+    },
+    {
+      "name": "run002_1000000.0_PURE_L1_CONTROL_energy_budget",
+      "passed": true
+    },
+    {
+      "name": "run002_1000000.0_PURE_L1_CONTROL_not_electricity",
+      "passed": true
+    },
+    {
+      "name": "run002_1000000.0_PURE_L3_CONTROL_count_budget",
+      "passed": true
+    },
+    {
+      "name": "run002_1000000.0_PURE_L3_CONTROL_energy_budget",
+      "passed": true
+    },
+    {
+      "name": "run002_1000000.0_PURE_L3_CONTROL_not_electricity",
+      "passed": true
+    },
+    {
+      "name": "run002_app_is_blocked",
+      "passed": true
+    },
+    {
+      "name": "run003_reported_checks",
+      "passed": true
+    },
+    {
+      "name": "run003_2.0_hash",
+      "passed": true
+    },
+    {
+      "name": "run003_2.0_unresolved_has_no_exit",
+      "passed": true
+    },
+    {
+      "name": "run003_2.0_resolved_exit_matches_candidate",
+      "passed": true
+    },
+    {
+      "name": "run003_2.0_unresolved_escape_energy_zero_placeholder",
+      "passed": true
+    },
+    {
+      "name": "run003_2.0_PHASE_SPACE_NULL_count_budget",
+      "passed": true
+    },
+    {
+      "name": "run003_2.0_PHASE_SPACE_NULL_energy_budget",
+      "passed": true
+    },
+    {
+      "name": "run003_2.0_PHASE_SPACE_NULL_not_electricity",
+      "passed": true
+    },
+    {
+      "name": "run003_2.0_COHERENT_L1_L3_RAW_count_budget",
+      "passed": true
+    },
+    {
+      "name": "run003_2.0_COHERENT_L1_L3_RAW_energy_budget",
+      "passed": true
+    },
+    {
+      "name": "run003_2.0_COHERENT_L1_L3_RAW_not_electricity",
+      "passed": true
+    },
+    {
+      "name": "run003_2.0_INCOHERENT_RAW_ABLATION_count_budget",
+      "passed": true
+    },
+    {
+      "name": "run003_2.0_INCOHERENT_RAW_ABLATION_energy_budget",
+      "passed": true
+    },
+    {
+      "name": "run003_2.0_INCOHERENT_RAW_ABLATION_not_electricity",
+      "passed": true
+    },
+    {
+      "name": "run003_2.0_PURE_L1_CONTROL_count_budget",
+      "passed": true
+    },
+    {
+      "name": "run003_2.0_PURE_L1_CONTROL_energy_budget",
+      "passed": true
+    },
+    {
+      "name": "run003_2.0_PURE_L1_CONTROL_not_electricity",
+      "passed": true
+    },
+    {
+      "name": "run003_2.0_PURE_L3_CONTROL_count_budget",
+      "passed": true
+    },
+    {
+      "name": "run003_2.0_PURE_L3_CONTROL_energy_budget",
+      "passed": true
+    },
+    {
+      "name": "run003_2.0_PURE_L3_CONTROL_not_electricity",
+      "passed": true
+    },
+    {
+      "name": "run003_10.0_hash",
+      "passed": true
+    },
+    {
+      "name": "run003_10.0_unresolved_has_no_exit",
+      "passed": true
+    },
+    {
+      "name": "run003_10.0_resolved_exit_matches_candidate",
+      "passed": true
+    },
+    {
+      "name": "run003_10.0_unresolved_escape_energy_zero_placeholder",
+      "passed": true
+    },
+    {
+      "name": "run003_10.0_PHASE_SPACE_NULL_count_budget",
+      "passed": true
+    },
+    {
+      "name": "run003_10.0_PHASE_SPACE_NULL_energy_budget",
+      "passed": true
+    },
+    {
+      "name": "run003_10.0_PHASE_SPACE_NULL_not_electricity",
+      "passed": true
+    },
+    {
+      "name": "run003_10.0_COHERENT_L1_L3_RAW_count_budget",
+      "passed": true
+    },
+    {
+      "name": "run003_10.0_COHERENT_L1_L3_RAW_energy_budget",
+      "passed": true
+    },
+    {
+      "name": "run003_10.0_COHERENT_L1_L3_RAW_not_electricity",
+      "passed": true
+    },
+    {
+      "name": "run003_10.0_INCOHERENT_RAW_ABLATION_count_budget",
+      "passed": true
+    },
+    {
+      "name": "run003_10.0_INCOHERENT_RAW_ABLATION_energy_budget",
+      "passed": true
+    },
+    {
+      "name": "run003_10.0_INCOHERENT_RAW_ABLATION_not_electricity",
+      "passed": true
+    },
+    {
+      "name": "run003_10.0_PURE_L1_CONTROL_count_budget",
+      "passed": true
+    },
+    {
+      "name": "run003_10.0_PURE_L1_CONTROL_energy_budget",
+      "passed": true
+    },
+    {
+      "name": "run003_10.0_PURE_L1_CONTROL_not_electricity",
+      "passed": true
+    },
+    {
+      "name": "run003_10.0_PURE_L3_CONTROL_count_budget",
+      "passed": true
+    },
+    {
+      "name": "run003_10.0_PURE_L3_CONTROL_energy_budget",
+      "passed": true
+    },
+    {
+      "name": "run003_10.0_PURE_L3_CONTROL_not_electricity",
+      "passed": true
+    },
+    {
+      "name": "run003_100.0_hash",
+      "passed": true
+    },
+    {
+      "name": "run003_100.0_unresolved_has_no_exit",
+      "passed": true
+    },
+    {
+      "name": "run003_100.0_resolved_exit_matches_candidate",
+      "passed": true
+    },
+    {
+      "name": "run003_100.0_unresolved_escape_energy_zero_placeholder",
+      "passed": true
+    },
+    {
+      "name": "run003_100.0_PHASE_SPACE_NULL_count_budget",
+      "passed": true
+    },
+    {
+      "name": "run003_100.0_PHASE_SPACE_NULL_energy_budget",
+      "passed": true
+    },
+    {
+      "name": "run003_100.0_PHASE_SPACE_NULL_not_electricity",
+      "passed": true
+    },
+    {
+      "name": "run003_100.0_COHERENT_L1_L3_RAW_count_budget",
+      "passed": true
+    },
+    {
+      "name": "run003_100.0_COHERENT_L1_L3_RAW_energy_budget",
+      "passed": true
+    },
+    {
+      "name": "run003_100.0_COHERENT_L1_L3_RAW_not_electricity",
+      "passed": true
+    },
+    {
+      "name": "run003_100.0_INCOHERENT_RAW_ABLATION_count_budget",
+      "passed": true
+    },
+    {
+      "name": "run003_100.0_INCOHERENT_RAW_ABLATION_energy_budget",
+      "passed": true
+    },
+    {
+      "name": "run003_100.0_INCOHERENT_RAW_ABLATION_not_electricity",
+      "passed": true
+    },
+    {
+      "name": "run003_100.0_PURE_L1_CONTROL_count_budget",
+      "passed": true
+    },
+    {
+      "name": "run003_100.0_PURE_L1_CONTROL_energy_budget",
+      "passed": true
+    },
+    {
+      "name": "run003_100.0_PURE_L1_CONTROL_not_electricity",
+      "passed": true
+    },
+    {
+      "name": "run003_100.0_PURE_L3_CONTROL_count_budget",
+      "passed": true
+    },
+    {
+      "name": "run003_100.0_PURE_L3_CONTROL_energy_budget",
+      "passed": true
+    },
+    {
+      "name": "run003_100.0_PURE_L3_CONTROL_not_electricity",
+      "passed": true
+    },
+    {
+      "name": "run003_1000000.0_hash",
+      "passed": true
+    },
+    {
+      "name": "run003_1000000.0_unresolved_has_no_exit",
+      "passed": true
+    },
+    {
+      "name": "run003_1000000.0_resolved_exit_matches_candidate",
+      "passed": true
+    },
+    {
+      "name": "run003_1000000.0_unresolved_escape_energy_zero_placeholder",
+      "passed": true
+    },
+    {
+      "name": "run003_1000000.0_PHASE_SPACE_NULL_count_budget",
+      "passed": true
+    },
+    {
+      "name": "run003_1000000.0_PHASE_SPACE_NULL_energy_budget",
+      "passed": true
+    },
+    {
+      "name": "run003_1000000.0_PHASE_SPACE_NULL_not_electricity",
+      "passed": true
+    },
+    {
+      "name": "run003_1000000.0_COHERENT_L1_L3_RAW_count_budget",
+      "passed": true
+    },
+    {
+      "name": "run003_1000000.0_COHERENT_L1_L3_RAW_energy_budget",
+      "passed": true
+    },
+    {
+      "name": "run003_1000000.0_COHERENT_L1_L3_RAW_not_electricity",
+      "passed": true
+    },
+    {
+      "name": "run003_1000000.0_INCOHERENT_RAW_ABLATION_count_budget",
+      "passed": true
+    },
+    {
+      "name": "run003_1000000.0_INCOHERENT_RAW_ABLATION_energy_budget",
+      "passed": true
+    },
+    {
+      "name": "run003_1000000.0_INCOHERENT_RAW_ABLATION_not_electricity",
+      "passed": true
+    },
+    {
+      "name": "run003_1000000.0_PURE_L1_CONTROL_count_budget",
+      "passed": true
+    },
+    {
+      "name": "run003_1000000.0_PURE_L1_CONTROL_energy_budget",
+      "passed": true
+    },
+    {
+      "name": "run003_1000000.0_PURE_L1_CONTROL_not_electricity",
+      "passed": true
+    },
+    {
+      "name": "run003_1000000.0_PURE_L3_CONTROL_count_budget",
+      "passed": true
+    },
+    {
+      "name": "run003_1000000.0_PURE_L3_CONTROL_energy_budget",
+      "passed": true
+    },
+    {
+      "name": "run003_1000000.0_PURE_L3_CONTROL_not_electricity",
+      "passed": true
+    },
+    {
+      "name": "run003_app_is_blocked",
+      "passed": true
+    },
+    {
+      "name": "same_input_scientific_json_exact",
+      "passed": true
+    },
+    {
+      "name": "same_input_arrays_aspect_100.0.npz",
+      "passed": true
+    },
+    {
+      "name": "same_input_arrays_aspect_2.0.npz",
+      "passed": true
+    },
+    {
+      "name": "same_input_arrays_aspect_1000000.0.npz",
+      "passed": true
+    },
+    {
+      "name": "same_input_arrays_aspect_10.0.npz",
+      "passed": true
+    }
+  ]
+}
