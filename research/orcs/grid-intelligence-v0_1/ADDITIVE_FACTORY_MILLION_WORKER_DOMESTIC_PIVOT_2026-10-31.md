@@ -1,5 +1,8 @@
 # ORCS Grid Mobilization 2.0 — Additive Manufacturing, One-Million-Worker Challenge and Permanent Domestic Factory Conversion
 
+**FACTORY + MACROECONOMIC BENCHMARK (2026-10-31):** [Three manufacturing architectures + federal welfare, employment and trade imports sensitivity](FACTORY_BENCHMARK_LABOR_WELFARE_TRADE_2026-10-31.md) · [Python cost/fiscal script](factory_cell_fiscal_trade_benchmark.py). 2025 BEA annual goods-and-services trade deficit is **$901.5B**, NOT $1.9T; total goods imports were **$3.438T**, with a $1.241T goods-only deficit. 2026 CBO projected a roughly $1.9T federal budget deficit, a different measure. The 1M unique trainees and the previous ~299k/y **gross** jobs scenario cannot be added to a separately hypothesized 1M **net new jobs** without identifying overlap.
+
+
 **2026-10-31 | Owner-directed sensitivity addendum | RESEARCH / DESIGN PROPOSAL ONLY.**
 **Not a federally authorized public utility, funded DPA mobilization, installed equipment, validated manufactured design, certified workforce, verified macroeconomic ROI or forecast of permanent jobs.**
 
