@@ -1,0 +1,16 @@
+{
+  "package": {
+    "name": "warpx",
+    "version": "26.10",
+    "build": "np2py314h0f05cbd_0",
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/warpx-26.10-np2py314h0f05cbd_0.conda",
+    "sha256": "825bc7220ab350105916924bfbc461c2a916bd0f4d1b9271e9e74a6b3b7e1bcb",
+    "md5": "d1bc200e63f4ac4a91328b1f406cc497",
+    "subdir": "linux-64"
+  },
+  "binary_sha256": "8bd957aaf862a13f2d2361721f382e6c44a68567eeb0b0305c7bfa9a7d9b1df7",
+  "embedded_WarpX_git_version": "Unknown",
+  "reference_source_commit": "ec1660d961696c865c87c26728b7e248b5454082",
+  "source_build_attestation": false,
+  "threads": 2
+}

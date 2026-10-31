@@ -1,0 +1,22 @@
+{
+  "G1": {
+    "physical_status": "OPEN",
+    "qualified_surplus_kg": null
+  },
+  "G2": {
+    "physical_status": "OPEN",
+    "qualified_surplus_kg": null
+  },
+  "G3": {
+    "physical_status": "OPEN",
+    "qualified_surplus_kg": null
+  },
+  "G4": {
+    "physical_status": "OPEN",
+    "qualified_surplus_kg": null
+  },
+  "G5": {
+    "physical_status": "OPEN",
+    "qualified_surplus_kg": null
+  }
+}
