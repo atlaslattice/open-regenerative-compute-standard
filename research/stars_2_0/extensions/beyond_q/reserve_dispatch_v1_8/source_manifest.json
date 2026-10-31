@@ -1,0 +1,40 @@
+[
+  {
+    "path": "multiscale_v1_4/inputs/scenarios.json",
+    "git_blob_sha1": "90020d178ac8e6bb82472274463a433f43632444"
+  },
+  {
+    "path": "paired_annual_v1_7/compare.py",
+    "git_blob_sha1": "0e760de23282171404b6eb2bc319af1b381c4e54"
+  },
+  {
+    "path": "paired_annual_v1_7/inputs.json",
+    "git_blob_sha1": "1d9d25670c6a8ba0ef68f23215589d8286a40730"
+  },
+  {
+    "path": "paired_annual_v1_7/pairedcycle/__init__.py",
+    "git_blob_sha1": "b8bd83513daecf2fa16426007d5f5ee535905ad6"
+  },
+  {
+    "path": "paired_annual_v1_7/pairedcycle/inventory.py",
+    "git_blob_sha1": "811406dbafa09d86118f19bb5e5eb44fca85c817"
+  },
+  {
+    "path": "paired_annual_v1_7/pairedcycle/model.py",
+    "git_blob_sha1": "28c67cdeb9afae10ce5a08bc76d33cd74a8c66c8"
+  },
+  {
+    "path": "paired_annual_v1_7/pairedcycle/physics.py",
+    "git_blob_sha1": "9cae119b06737eb72d0fcdf8e41e5334aac088f6"
+  },
+  {
+    "path": "paired_annual_v1_7/pairedcycle/schedules.py",
+    "git_blob_sha1": "09391b729e776c35c92854d8690ac7230d911848"
+  },
+  {
+    "path": "reserve_dispatch_v1_8/sources/ARC_CANONICAL_2026-10-31.md",
+    "git_blob_sha1": "4be070fd7ce115e01c4667dee418168dbce6ecca",
+    "origin_commit": "6fb057618d6d6ff0ce813a99d9edf9d1485561d5",
+    "origin_path": "research/stars_2_0/extensions/beyond_q/ARC_DUAL_REACTOR_CANONICAL_BASELINE_2026-10-31.md"
+  }
+]

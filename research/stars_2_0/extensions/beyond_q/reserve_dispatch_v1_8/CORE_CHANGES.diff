@@ -1,0 +1,24 @@
+--- v1.7/pairedcycle/model.py
++++ v1.8/dispatchcycle/model.py
+@@ -52,7 +52,7 @@
+     if (p['power_a_dd_mw'],p['power_b_dt_mw'])!=expected:raise ValueError('power-basis lock mismatch')
+     if p.get('A_gross_fusion_W')!=p['power_a_dd_mw']*1e6 or p.get('B_gross_fusion_W')!=p['power_b_dt_mw']*1e6:raise ValueError('gross power unit mismatch')
+ 
+-def simulate(p, schedule, component_schedule=None):
++def simulate(p, schedule, component_schedule=None, schedule_policy=None):
+     validate(p)
+     if len(schedule)!=p['schedule_slots'] or any(len(v)!=2 or any(x not in (0,1) for x in v) for v in schedule):
+         raise ValueError('schedule requires one binary A/B pair per day')
+@@ -75,6 +75,12 @@
+     dd = dd_source(p['power_a_dd_mw'],p['dd_t_branch'])
+     rows=[]
+     for day,(on_a,on_b) in enumerate(schedule):
++        if schedule_policy is not None:
++            allowed=(on_a,on_b)
++            proposed=schedule_policy(day,dict(x),dict(c),allowed)
++            if len(proposed)!=2 or any(v not in (0,1) for v in proposed) or any(v>a for v,a in zip(proposed,allowed)):
++                raise ValueError('policy must respect binary reactor permissions')
++            on_a,on_b=proposed
+         ext_a,ext_b,proc_a,proc_b=component_schedule[day]
+         t=0.
+         while t < p['schedule_interval_days']-1e-15:
