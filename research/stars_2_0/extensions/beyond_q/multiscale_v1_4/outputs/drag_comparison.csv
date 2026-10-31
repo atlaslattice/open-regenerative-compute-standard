@@ -1,0 +1,9 @@
+case,species,max_relative_error,duration_s,label
+drag_100,T_e,6.6673316849282735e-15,0.10000000000000007,Shared approximate-drag numerical comparison; not physical validation
+drag_100,T_i,1.641409055184029e-13,0.10000000000000007,Shared approximate-drag numerical comparison; not physical validation
+drag_100,T_both,8.69915338699483e-05,0.10000000000000007,Shared approximate-drag numerical comparison; not physical validation
+drag_100,T_control,2.328306436538696e-16,0.10000000000000007,Shared approximate-drag numerical comparison; not physical validation
+drag_200,T_e,1.4371803854178724e-14,0.10000000000000007,Shared approximate-drag numerical comparison; not physical validation
+drag_200,T_i,3.4509506517612637e-13,0.10000000000000007,Shared approximate-drag numerical comparison; not physical validation
+drag_200,T_both,4.348218793047248e-05,0.10000000000000007,Shared approximate-drag numerical comparison; not physical validation
+drag_200,T_control,2.328306436538696e-16,0.10000000000000007,Shared approximate-drag numerical comparison; not physical validation

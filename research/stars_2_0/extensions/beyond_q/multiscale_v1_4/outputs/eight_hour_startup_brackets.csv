@@ -1,0 +1,5 @@
+configuration_id,case,condition,initial_B_lower_kg,initial_B_upper_kg,criterion,qualified_startup_inventory_kg
+historical_20_1130,A1,continuous,0.6393623352050781,0.6393718719482422,"8h unmet burn<=1e-10kg, no regulatory floor",
+historical_20_1130,A1,processor_30min_outage,0.6536006927490234,0.6536102294921875,"8h unmet burn<=1e-10kg, no regulatory floor",
+dual_laser_1100_1100,A1,continuous,0.6223869323730469,0.6223964691162109,"8h unmet burn<=1e-10kg, no regulatory floor",
+dual_laser_1100_1100,A1,processor_30min_outage,0.6362438201904297,0.6362533569335938,"8h unmet burn<=1e-10kg, no regulatory floor",

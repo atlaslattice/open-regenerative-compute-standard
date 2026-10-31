@@ -1,0 +1,13 @@
+stopping on electrons error with constant =  [4.92264007e-11 4.92264007e-11 4.92264007e-11 3.69340114e-11]
+stopping on electrons error with parsed =  [9.94759830e-14 1.27897692e-13 1.27897692e-13 7.10542736e-14]
+stopping on ions error with constant =  [2.54374299e-12 2.54374299e-12 2.54374299e-12 2.72848411e-12]
+stopping on ions error with parsed =  [8.52651283e-14 1.42108547e-14 1.42108547e-14 2.84217094e-14]
+tolerance =  1e-07
+yt : [INFO     ] 2026-10-30 19:46:26,134 Parameters: current_time              = 0.0
+yt : [INFO     ] 2026-10-30 19:46:26,134 Parameters: domain_dimensions         = [8 8 8]
+yt : [INFO     ] 2026-10-30 19:46:26,134 Parameters: domain_left_edge          = [-1. -1. -1.]
+yt : [INFO     ] 2026-10-30 19:46:26,135 Parameters: domain_right_edge         = [1. 1. 1.]
+yt : [INFO     ] 2026-10-30 19:46:26,518 Parameters: current_time              = 3.370208102706323e-09
+yt : [INFO     ] 2026-10-30 19:46:26,518 Parameters: domain_dimensions         = [8 8 8]
+yt : [INFO     ] 2026-10-30 19:46:26,518 Parameters: domain_left_edge          = [-1. -1. -1.]
+yt : [INFO     ] 2026-10-30 19:46:26,518 Parameters: domain_right_edge         = [1. 1. 1.]

@@ -1,0 +1,24 @@
+test_8hour_case_count_and_mass (test_multiscale.Checks.test_8hour_case_count_and_mass) ... ok
+test_B_consumption_seconds_and_days (test_multiscale.Checks.test_B_consumption_seconds_and_days) ... ok
+test_actual_warpx_cases (test_multiscale.Checks.test_actual_warpx_cases) ... ok
+test_disjoint_fast_routes (test_multiscale.Checks.test_disjoint_fast_routes) ... ok
+test_drag_agreement_and_refinement (test_multiscale.Checks.test_drag_agreement_and_refinement) ... ok
+test_energy_variable_conversion (test_multiscale.Checks.test_energy_variable_conversion) ... ok
+test_failed_initialization_is_retained (test_multiscale.Checks.test_failed_initialization_is_retained) ... ok
+test_initial_kinetic_energy_is_not_zero (test_multiscale.Checks.test_initial_kinetic_energy_is_not_zero) ... ok
+test_invalid_kinetic_inputs (test_multiscale.Checks.test_invalid_kinetic_inputs) ... ok
+test_net_electric_assumption_does_not_become_fusion_source (test_multiscale.Checks.test_net_electric_assumption_does_not_become_fusion_source) ... ok
+test_no_source_no_new_T (test_multiscale.Checks.test_no_source_no_new_T) ... ok
+test_numerical_refinement_is_recorded (test_multiscale.Checks.test_numerical_refinement_is_recorded) ... ok
+test_open_background_energy_boundary (test_multiscale.Checks.test_open_background_energy_boundary) ... ok
+test_power_basis_identities (test_multiscale.Checks.test_power_basis_identities) ... ok
+test_probability_and_energy_ledgers (test_multiscale.Checks.test_probability_and_energy_ledgers) ... ok
+test_schedule_run_lengths_cover_actual_clock (test_multiscale.Checks.test_schedule_run_lengths_cover_actual_clock) ... ok
+test_secondary_off_keeps_primary_neutron_breeding (test_multiscale.Checks.test_secondary_off_keeps_primary_neutron_breeding) ... ok
+test_simultaneous_drag_and_DT_comparison (test_multiscale.Checks.test_simultaneous_drag_and_DT_comparison) ... ok
+test_zero_initial_B_cannot_fake_full_power (test_multiscale.Checks.test_zero_initial_B_cannot_fake_full_power) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.013s
+
+OK

@@ -1,0 +1,4 @@
+{
+  "status": "REJECTED_SETUP",
+  "reason": "Constant momentum used uz_m rather than parsed momentum; initial T kinetic energy zero, expected1MeV. Do not use these runs for fast-triton benchmark."
+}
