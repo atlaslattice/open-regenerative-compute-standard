@@ -1,0 +1,18 @@
+{
+  ".gitignore": "862263fa1f46c20f0d1e4dac5ffcc75abd55c08211b2c3864c5f8764b9d87793",
+  "AUDIT_HISTORY.jsonl": "3564fd881c5bc29974b397fb28f8a7e002d9ab0568f1ba7868617033561ede8a",
+  "README.md": "da5504a9e30f23dcb553482c5fca2f80fcd407f06e074488aa6de00d8c14bd38",
+  "calculate.py": "679a9fbe10c98a48217f665494cded6b68c2e12ee86a11eb846c9e552d962e3c",
+  "no_breeding_control.py": "5ac06f1b071c1a57fe03c12704513801439b3f9e90db74f682a333fe63a9a55a",
+  "outputs/A1_staged_year.csv": "9790d17edc8642439e06b159dad7d328482011b5decfad08a4a0c43e740a52f2",
+  "outputs/annual_screening.csv": "d7598830df5ce3c6f3fe216c6c874fc4a6f8f6e14b6c5ae170a6dd2bec4ca898",
+  "outputs/assumptions.json": "11b51d73a0f3327022b1517fb2ffcab5d69c66d1b030ee17edc8cbd34b400b00",
+  "outputs/bank_refinement.json": "f95f084bb23ec6fa0f6cda488ac57f68824b2142a0b24da599405fab738a2522",
+  "outputs/check_status.json": "62be09a85fdddf52d2e7c988a9ea87ba3e6ac846ea51689402a9d9f4a83af8b4",
+  "outputs/one_year_bank.json": "b994ced63a9d0ad1530d90f3bee5cadd8708ad9a913ad6c5bc1c5b8a42093a16",
+  "outputs/startup_boundary_check.csv": "e65d55a6d1bad3128be66ed83d4d00733be6c0fb80dd9e74ab15c814ca865c27",
+  "outputs/startup_policies.csv": "58340ebeb6b5c89af2f455864951530a37771cb8ac0c2ebfb176fe7b1b0705e4",
+  "outputs/test_results.txt": "1647f5ba81271ae6a1293c333f79d42106fb9f9e8e877eab7438b71e9e050691",
+  "outputs/zero_breeding_control.csv": "82aebe5669dc22a627c179d709824a4eb7fa9667ebe70be4f421cf4afbe2532b",
+  "test_startup.py": "be8c065e0f799605123d2cdc2069d0f3f69aab4d3b2e1b04ce9e446e9aee02f5"
+}

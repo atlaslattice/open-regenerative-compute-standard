@@ -1,0 +1,18 @@
+{
+  "reference": "v1.4 current dual_laser_1100_1100",
+  "A_gross_fusion_W": 1100000000.0,
+  "B_gross_fusion_W": 1100000000.0,
+  "FPY_days": 365.25,
+  "B_initial_inventory_source": "A-only DD production in staged scenarios; isolated bank-sizing run starts from explicit inventory",
+  "A_to_B_reserve_kg": 0.25,
+  "physical_validation": false,
+  "qualified_usable_surplus_kg": null,
+  "limits": [
+    "Prescribed fusion power; no demonstrated laser operating point",
+    "Uncalibrated plasma escape and recovery",
+    "Inherited unqualified spherical-testbed TBR",
+    "No outages in one-year reference",
+    "Hourly precharge search,15minute staged-year refinement",
+    "Finite-horizon condition cannot establish indefinite operation"
+  ]
+}

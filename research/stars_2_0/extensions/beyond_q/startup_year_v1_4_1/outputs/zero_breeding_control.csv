@@ -1,0 +1,2 @@
+A_case,B_TBR,A_gross_fusion_W,B_gross_fusion_W,A_only_precharge_hours,B_available_at_start_kg,B_burn_kg,unserved_burn_kg,stock_growth_B_year_kg,final_B_available_kg,maximum_mass_residual_kg,qualified_surplus_kg,evidence
+A0,0,1100000000.0,1100000000.0,76,0.6374530057128281,61.65398062588245,5.702469746404759e-15,70.0226053119799,69.83934778942184,6.562572707480285e-11,,Conditional arithmetic; prescribed gross fusion and assumed95percent A plasma recovery; no breeding credit
