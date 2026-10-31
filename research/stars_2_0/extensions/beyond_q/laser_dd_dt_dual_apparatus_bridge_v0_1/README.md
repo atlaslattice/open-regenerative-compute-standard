@@ -1,4 +1,7 @@
 # Laser / pulsed D–D → D–T dual-apparatus WarpX interface v0.1
+
+**SUPERSEDED BASELINE NOTICE (2026-10-31):** The 20 MW *gross* D–D Reactor A used below is an **older separate laser/software sensitivity, NOT the user's current full-scale paired-ARC reference**. Active design: **A = 1.1 GW gross D–D ARC-class tokamak**, **B = 1.1 GW gross D–T ARC-class tokamak**; the historical **20 MW A figure is net electric**, not fusion power. WarpX laser targets are experimental test variants, not an asserted change of ARC platform. See [canonical ARC configuration](../ARC_DUAL_REACTOR_CANONICAL_BASELINE_2026-10-31.md).
+
 **2026-10-30 · scenario prototype only · no WarpX PIC run / no experimental claim.**
 
 ## User-defined architecture (corrected and authoritative)
