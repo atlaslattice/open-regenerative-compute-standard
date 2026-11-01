@@ -1,0 +1,57 @@
+{
+  "access_date_UTC": "2026-11-01",
+  "precursor": {
+    "title": "Semi-catalyzed deuterium reactors for co-generation of3He and synfuels (the CoSCD concept)",
+    "report": "COO-2218-190",
+    "year": 1980,
+    "doi": "10.2172/6712040",
+    "url": "https://www.osti.gov/servlets/purl/6712040",
+    "catalog": "https://digital.library.unt.edu/ark:/67531/metadc1186582/",
+    "catalog_author": "Unknown",
+    "authors_attributed_in_Wisconsin_bibliography": [
+      "E.Greenspan",
+      "G.H.Miley"
+    ],
+    "attribution_source": "https://fti.neep.wisc.edu/fti.neep.wisc.edu/pdf/fdm935.pdf",
+    "download_status": 200,
+    "bytes": 283262,
+    "sha256": "35085cc049d34a1a12c25d80d842bfa9dcd999739b617f8e0c09642527a2baca",
+    "pdf_pages": 11,
+    "catalog_physical_pages": 9,
+    "extraction": "Scanned;pdftotext empty;Tesseract OCR followed by visual checking PDFpages5,6,7",
+    "locators": {
+      "energetic_basis": "PDFpage5 printed3",
+      "reaction_diagram": "PDFpage6 printed4",
+      "energy_diagram": "PDFpage7 printed5",
+      "proposed_study": "PDFpages10-11 printed8-9"
+    },
+    "scope": "Conceptual precursor, not1982 plasma calculation",
+    "redistributed": false
+  },
+  "GM1982": {
+    "doi": "10.13182/FST82-A20733",
+    "attempts": [
+      {
+        "url": "https://www.tandfonline.com/doi/pdf/10.13182/FST82-A20733",
+        "result": "HTTP403 viaurllib.request"
+      },
+      {
+        "url": "https://www.tandfonline.com/doi/full/10.13182/FST82-A20733",
+        "result": "web tool inaccessible"
+      },
+      {
+        "url": "https://www.ans.org/pubs/journals/download/article-20733/",
+        "result": "web tool inaccessible in previousv2.3 review"
+      }
+    ],
+    "abstract_available": true,
+    "full_text_obtained": false,
+    "benchmark_reproduced": false
+  },
+  "status_categories": {
+    "source": "SOURCE-TRACED",
+    "conditional_arithmetic": "VERIFIED-DERIVED",
+    "assumed_response_scenarios": "POTENTIAL-DERIVED",
+    "physical_recovery_and_benchmark": "UNRESOLVED"
+  }
+}

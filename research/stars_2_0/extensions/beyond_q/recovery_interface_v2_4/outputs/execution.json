@@ -1,0 +1,11 @@
+{
+  "cases": 5,
+  "GM1982_reproduced": false,
+  "parent_physics_changed": false,
+  "full_reactor_energy_closed": false,
+  "hashes": {
+    "model.py": "1ee159e2e20378c0221491a9b6f7a3b80a27ff37efeb69c94c91f5418bf18633",
+    "inputs.json": "381ab36d990910b761b2c56465029a94033006979d96f90c269f442f3c15a98e",
+    "run.py": "2641de1027af0fd4f4099a7689e59b1f08b472f2beab6d33eaed199bd91b9909"
+  }
+}

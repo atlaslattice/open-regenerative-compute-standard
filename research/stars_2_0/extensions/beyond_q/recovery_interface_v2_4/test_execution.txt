@@ -1,0 +1,16 @@
+test_independent_rk4_transient (test_model.ModelTests.test_independent_rk4_transient) ... ok
+test_invalid_parameter_rejected (test_model.ModelTests.test_invalid_parameter_rejected) ... ok
+test_ledger_and_consumption (test_model.ModelTests.test_ledger_and_consumption) ... ok
+test_no_birth_no_products (test_model.ModelTests.test_no_birth_no_products) ... ok
+test_overall_target_cannot_exceed_survival (test_model.ModelTests.test_overall_target_cannot_exceed_survival) ... ok
+test_refinement_and_steady_flow (test_model.ModelTests.test_refinement_and_steady_flow) ... ok
+test_scalar_solution_and_closure (test_model.ModelTests.test_scalar_solution_and_closure) ... ok
+test_secondary_burn_disabled (test_model.ModelTests.test_secondary_burn_disabled) ... ok
+test_shutdown_retains_inventory (test_model.ModelTests.test_shutdown_retains_inventory) ... ok
+test_tiny_and_stiff_hazards (test_model.ModelTests.test_tiny_and_stiff_hazards) ... ok
+test_zero_exhaust_and_zero_capture (test_model.ModelTests.test_zero_exhaust_and_zero_capture) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.028s
+
+OK

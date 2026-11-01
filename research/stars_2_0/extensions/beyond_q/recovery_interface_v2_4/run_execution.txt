@@ -1,0 +1,7 @@
+{
+  "cases": 5,
+  "source_split_check": "FAIL_UNRECONCILED_AT_DISPLAYED_OUTPUT_BOUNDARY",
+  "max_residual_mol": 7.166818249970675e-10,
+  "baseline_candidate_STP_L": 503074.873604972,
+  "refinement_fractional_difference_last_two": 1.1095991818476663e-13
+}

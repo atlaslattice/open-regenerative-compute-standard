@@ -1,0 +1,17 @@
+[
+  {
+    "step_days": 0.25,
+    "candidate_product_STP_L": 503074.873604972,
+    "max_abs_residual_mol": 4.638422979041934e-10
+  },
+  {
+    "step_days": 0.125,
+    "candidate_product_STP_L": 503074.87360498944,
+    "max_abs_residual_mol": 1.229636836796999e-09
+  },
+  {
+    "step_days": 0.0625,
+    "candidate_product_STP_L": 503074.8736049336,
+    "max_abs_residual_mol": 4.831235855817795e-09
+  }
+]
