@@ -66,3 +66,8 @@ Retain Beyond Q fuel-cycle baseline: Reactor B 1.13 GW D-T fusion, Reactor A hyp
 5. Funding eligibility survey and research partner outreach only after specific program confirmation.
 
 **Design invariant:** Expensive in-situ pathways may be justified by explicitly priced, independently reviewed habitat learning—not by hiding their costs in an ordinary industrial profit estimate.
+
+
+## 2026-11-01 Marius Hills lunar pit site evidence crosswalk
+
+Read [new site/geophysics and lunar habitat gates](https://github.com/atlaslattice/open-regenerative-compute-standard/blob/main/research/beyond_q/addenda/BQ_LUNAR_MARIUS_HILLS_PIT_SUBSURFACE_EVIDENCE_HABITAT_DESIGN_GATES_2026_11_01.md). NASA's Sep 30 2026 (corrected Oct 2) **GIMLI, Geophysical Instruments for Marius Lunar pit Investigation**, is selected to test void presence and approximate dimensions with ground radar/active-source seismic/gravimeter, **not a completed cave survey**. Existing LROC Marius Pit atlas at ~14.0917°N, 303.2299°E records **49–55m inner skylight / 79–92m funnel and ~40m stereo depth**; more detailed pit profiles report floor portions as deep as 50–60m. Orbital **JAXA SELENE radar + NASA GRAIL gravity** support candidate 50–60km-scale regional void anomalies but **no verified usable habitable area**, roof safety or nearby water ice. **Marius Hills at ~14°N ≠ lunar south-polar ice resource**. Maintain an **unknown ice** and **0 m² certified underground area** data-status gate, not a physical claim of no void; hold pressurized habitat, entry mechanism, water and crew deployment costing until in situ measurements. Keep Earth's Moon/Mars analog objective intact and do not turn modelled cavern 9km width into square-footage estimate.
