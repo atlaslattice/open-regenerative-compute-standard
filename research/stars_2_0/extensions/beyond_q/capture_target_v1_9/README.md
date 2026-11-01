@@ -19,3 +19,5 @@ python -m unittest test_target -v
 Standard library; optional matplotlib figure. Two proposed1100MW ARC-class
 fusion sources, with a separate laser energy variant. No qualified product,
 actual revenue or physical self-sufficiency is claimed. G1-G5 remain OPEN.
+
+[Original350k/350k benchmark reconciliation](CAPTURE_RECONCILIATION.md) traces equal branch births, route recovery and startup pipeline timing without changing the physics. Run `python reconcile_350k.py` and `python -m unittest discover -v` for the15-check combined audit.

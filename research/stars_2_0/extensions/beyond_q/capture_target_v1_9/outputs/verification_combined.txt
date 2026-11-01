@@ -1,0 +1,20 @@
+test_equal_births_and_separate_route_identities (test_reconciliation.ReconciliationChecks.test_equal_births_and_separate_route_identities) ... ok
+test_physics_inputs_and_controller_are_unchanged (test_reconciliation.ReconciliationChecks.test_physics_inputs_and_controller_are_unchanged) ... ok
+test_reconstruction_reproduces_existing_outputs (test_reconciliation.ReconciliationChecks.test_reconstruction_reproduces_existing_outputs) ... ok
+test_B_is_scheduled_every_post_start_hour (test_target.Checks.test_B_is_scheduled_every_post_start_hour) ... ok
+test_STP_and_molecular_factor_two (test_target.Checks.test_STP_and_molecular_factor_two) ... ok
+test_continuous_stocks (test_target.Checks.test_continuous_stocks) ... ok
+test_direct_delivery_minus_gross_burn_is_not_campus_surplus (test_target.Checks.test_direct_delivery_minus_gross_burn_is_not_campus_surplus) ... ok
+test_energy_and_no_qualified_revenue (test_target.Checks.test_energy_and_no_qualified_revenue) ... ok
+test_mass_checks_and_physical_status (test_target.Checks.test_mass_checks_and_physical_status) ... ok
+test_missing_volume_convention_rejected (test_target.Checks.test_missing_volume_convention_rejected) ... ok
+test_recovered_T_no_double_counting_across_horizon (test_target.Checks.test_recovered_T_no_double_counting_across_horizon) ... ok
+test_targets_met_in_reference (test_target.Checks.test_targets_met_in_reference) ... ok
+test_total_capture_targets_not_sales_targets (test_target.Checks.test_total_capture_targets_not_sales_targets) ... ok
+test_yearly_T_conservation (test_target.Checks.test_yearly_T_conservation) ... ok
+test_zero_breeding_control_produces_no_blanket_source (test_target.Checks.test_zero_breeding_control_produces_no_blanket_source) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.004s
+
+OK

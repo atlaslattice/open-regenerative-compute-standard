@@ -1,0 +1,18 @@
+{
+  "equal_branch": 0.5,
+  "total_capture_target_STP_L": 350000.0,
+  "equal_capture_fraction": 0.9,
+  "equal_branch_birth_needed_STP_L": 388888.8888888889,
+  "equal_path_reference_He3_STP_L": 350000.0,
+  "equal_path_reference_T_atom_STP_L": 350000.0,
+  "assumed_He3_eventual_capture_fraction": 0.9,
+  "candidate_T_eventual_recovery_fraction": 0.9004052084711107,
+  "candidate_eventual_T_to_He3_delivery_ratio": 1.0004502316345674,
+  "observed_year2_T_to_He3_ratio": 1.0004502336866155,
+  "finite_minus_asymptotic_ratio": 2.052048087008984e-09,
+  "max_route_replay_difference_kg": 1.1102230246251565e-16,
+  "physics_inputs_changed": false,
+  "original_exact_350k_input_sheet": "UNRESOLVED; do not assume the original or simulator is incorrect",
+  "target_is_controller_input": true,
+  "physical_validation": false
+}
