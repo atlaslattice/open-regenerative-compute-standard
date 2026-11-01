@@ -1,0 +1,50 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.39",
+  "profiles_sha256": "8256ed85a2fad764ebff1e8a4ebd67827b6ae7a683159312d953d6bde4e9748e",
+  "results": [
+    {
+      "profile": "PUBLISHED_FABRICATION_DERIVED_OUTER_DIAMETER",
+      "geometry_evidence": "Section2.1 approximately500um capsule diameter,18um wall,200um hole. Taking capsule diameter as OUTER is a derived convention; inner232um is derived. Not exact recovered CAD.",
+      "analytic_volume_m3": 1.2551494185562546e-11,
+      "material_gate": "BLOCKED_UNQUALIFIED",
+      "mesh_executed": true,
+      "material_gate_reason": "unqualified material: density_kg_m3",
+      "gmsh_version": "5.0.0",
+      "gmsh_distribution": "5.0.0.dev20261101+nox",
+      "volume_elements": 99902,
+      "min_scaled_jacobian": 0.9999999999999999,
+      "min_inverse_condition_number": 5.968293136436078e-13,
+      "mesh_volume_m3": 1.2549597249873204e-11,
+      "mesh_relative_error": 0.00015113226053387052,
+      "cad_volume_m3": 1.2551494185558843e-11,
+      "cad_relative_error": 2.949862576429041e-13
+    },
+    {
+      "profile": "PUBLISHED_PIC_CAVITY_RADIUS",
+      "geometry_evidence": "Section5 PIC cavity radius500um,wall20um,hole diameter200um. Inconsistent with experimental capsule diameter description; kept separate.",
+      "analytic_volume_m3": 6.474415834367814e-11,
+      "material_gate": "BLOCKED_UNQUALIFIED",
+      "mesh_executed": true,
+      "material_gate_reason": "unqualified material: density_kg_m3",
+      "gmsh_version": "5.0.0",
+      "gmsh_distribution": "5.0.0.dev20261101+nox",
+      "volume_elements": 374452,
+      "min_scaled_jacobian": 0.9999999999999999,
+      "min_inverse_condition_number": 0.12840243955753167,
+      "mesh_volume_m3": 6.474166352930636e-11,
+      "mesh_relative_error": 3.853342812076832e-05,
+      "cad_volume_m3": 6.47441583436844e-11,
+      "cad_relative_error": 9.681144774731365e-14
+    }
+  ],
+  "actual_apparatus_net_power_W": null,
+  "files_sha256": {
+    "PUBLISHED_FABRICATION_DERIVED_OUTER_DIAMETER/WARPX_GEOMETRY.json": "2974c621b29def8438bb9eaecff9edf959e2f095cf640f17d040628223675162",
+    "PUBLISHED_FABRICATION_DERIVED_OUTER_DIAMETER/target.geo": "088f002125676dfe842d8b04d4a51ba83d5bee5cbb15cecc14e574c785bae300",
+    "PUBLISHED_FABRICATION_DERIVED_OUTER_DIAMETER/target.msh": "3f0f7e70d2f40387da181c615e1df86fb09da36b3e7536508ec81ec4668c4f34",
+    "PUBLISHED_PIC_CAVITY_RADIUS/WARPX_GEOMETRY.json": "364a3e5220d41f62851d0eda0bdda2af77e879a563aed44c0b5a9d5fc96ef806",
+    "PUBLISHED_PIC_CAVITY_RADIUS/target.geo": "21a46cb197b82338cfc2f1e3027f40226d4ff2fbca046d472424121e2e9bf5a2",
+    "PUBLISHED_PIC_CAVITY_RADIUS/target.msh": "1c929d7253c9f5e15572fa076cb9e3f3527d70a235b2d9fa0c1f4c4fa38afe74"
+  }
+}

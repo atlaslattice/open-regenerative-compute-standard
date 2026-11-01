@@ -1,0 +1,19 @@
+{
+  "python": "3.12.14",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.39",
+  "gmsh_distribution": "5.0.0.dev20261101+nox",
+  "numpy": "2.3.5",
+  "index": "https://gmsh.info/python-packages-dev-nox",
+  "binary_sources_not_vendored": true,
+  "installed_files": {
+    "gmsh_env/lib/libgmsh.so.5.0": "b90319811c5939296396ce36a6ac2f59e6ba6eff6f7eb46e9ce2a11fcd5b3e40",
+    "gmsh_env/lib/python3.12/site-packages/gmsh.py": "f007123d79a2de8eb701a2b2a373d6f2ce7fbb63a29c964b632e6aeb65836b49"
+  },
+  "failed_install_attempts": [
+    "pip --target gmsh4.15.0 did not retain expected native library; discarded",
+    "gmsh4.15.0 in venv failed: libXft.so.2 missing",
+    "apt-get update failed: container setgroups/seteuid not permitted; no apt installation performed"
+  ],
+  "successful_fallback": "Official Gmsh headless development wheel, exact distribution pinned; not labeled stable.",
+  "gmsh_build_info": "Version: 5.0.0-nox-git-70f14d29c; License: GNU General Public License; Build OS: Linux64-sdk; Build date: 20261101; Build host: gmsh.info; Build options: 64Bit Bamg Blossom BoundaryLayers Cgns Dlopen DomHex Eigen[contrib] Gmm[contrib] HierarchicalBasis Hxt LinuxJoystick MathEx[contrib] Med Mesh Metis[contrib] Mmg MtMetis[contrib] Netgen Nii2mesh ONELAB ONELABMetamodel OctreeSizeField OpenCASCADE OpenMP OptHom Parser Plugins Post QuadMeshingTools QuadTri Solver TetGen/BR TinyXML2[contrib] Voro++[contrib] Zlib tinyobjloader; OCC version: 8.0.1; MED version: 6.0.1; Packaged by: root; Web site: https://gmsh.info; Issue tracker: https://gitlab.onelab.info/gmsh/gmsh/issues"
+}

@@ -1,0 +1,76 @@
+{
+  "version": "0.1",
+  "historical_files_preserved": true,
+  "rows": [
+    {
+      "component": "pocket_geometry_identity",
+      "old": "facility_integration_v0_1/MODULE_RETENTION.json original_pocket_definition:null",
+      "replacement": "PROFILES.json plus project-originator clarification",
+      "status": "SUPERSEDED_IDENTITY_METADATA_ONLY",
+      "gate": "Does not recover exact CAD or resolve published size discrepancy"
+    },
+    {
+      "component": "hollow_sphere_CAD_and_mesh",
+      "old": "manual geometry construction / no SI hollow-shell mesh in PR64",
+      "replacement": "Gmsh external CAD and3D meshing via geometry.py and run.py",
+      "status": "INTEGRATED_EXECUTED_QUALITY_GATED",
+      "gate": "See per-profile mesh gate; no FEM convergence claim"
+    },
+    {
+      "component": "finite_box_alpha_escape",
+      "old": "finite_alpha_transport_v0_1",
+      "replacement": "future source-qualified SI spherical transport",
+      "status": "RETAINED_NUMERICAL_CONTROL_NOT_YET_SUPERSEDED",
+      "gate": "Actual SI birth/direction/time, density, stopping, scattering and charge-state closure"
+    },
+    {
+      "component": "source_PIC",
+      "old": "source cohorts and prescribed source-field controls",
+      "replacement": "published FLASH-to-WarpX workflow / official tutorial",
+      "status": "CANDIDATE_PHYSICAL_SOURCE_REPLACEMENT",
+      "gate": "Recover actual experiment inputs/data; conserved hydrodynamic handoff; resolution and source spectrum comparison"
+    },
+    {
+      "component": "acoustic_response",
+      "old": "phase/crest/readiness surrogates",
+      "replacement": "Elmer measured-mode and forced-response model",
+      "status": "CANDIDATE_NOT_EXECUTED",
+      "gate": "Geometry, damping, mounting and material; held-out displacement/phase; stress is inferred; physical shot statistics"
+    },
+    {
+      "component": "collector",
+      "old": "planar_collector_v0_1 ideal retarder",
+      "replacement": "IBSimu finite geometry plus WarpX for transient sheath as required",
+      "status": "CANDIDATE_NOT_EXECUTED",
+      "gate": "Analytic limit, space-charge convergence, source current/exit charges, measured IV benchmark"
+    },
+    {
+      "component": "collector_circuit",
+      "old": "ideal circuit work accounting",
+      "replacement": "ngspice load/bias/capacitor model",
+      "status": "CANDIDATE_NOT_EXECUTED",
+      "gate": "Circuit flow and stored-energy balance, leakage, secondary emission model and field-solver coupling"
+    },
+    {
+      "component": "material_transport",
+      "old": "coldB11 conditional stopping / slab tests",
+      "replacement": "RustBCA or Geant4 qualified material case",
+      "status": "CANDIDATE_NOT_EXECUTED",
+      "gate": "Exact composition/state, stopping measurement, straggling/backscatter; effective charge is not measured exit charge fractions"
+    },
+    {
+      "component": "heat_recovery",
+      "old": "facility_integration_v0_1/accounting_v004.py explicit unknown recovery fractions",
+      "replacement": "TESPy+ExerPy per actual heat stream",
+      "status": "CANDIDATE_NOT_EXECUTED",
+      "gate": "Temperature, flow, sink, cycle, parasitics, disjoint energy streams; no automatic recovery credit"
+    },
+    {
+      "component": "facility_ledger_and_evidence",
+      "old": "facility_integration_v0_1/accounting_v004.py",
+      "replacement": null,
+      "status": "RETAINED_INTEGRATION_AUTHORITY",
+      "gate": "Solver outputs feed ledger; no solver replaces provenance or full facility accounting"
+    }
+  ]
+}

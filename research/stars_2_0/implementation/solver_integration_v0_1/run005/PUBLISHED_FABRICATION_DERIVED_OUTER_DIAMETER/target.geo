@@ -1,0 +1,17 @@
+SetFactory("OpenCASCADE");
+Geometry.Tolerance = 1e-10;
+Sphere(1) = {0,0,0,0.00025000000000000001};
+Sphere(2) = {0,0,0,0.000232};
+// Rotate CAD parameter seams only; spheres and physical geometry are unchanged.
+Rotate { {0,1,0}, {0,0,0}, Pi/7 } { Volume{1,2}; }
+shell[] = BooleanDifference{ Volume{1}; Delete; }{ Volume{2}; Delete; };
+Cylinder(3) = {0,0,0,0,0,0.00050000000000000001,0.0001};
+target[] = BooleanDifference{ Volume{shell[]}; Delete; }{ Volume{3}; Delete; };
+Physical Volume("target_shell", 1) = {target[]};
+boundary[] = Boundary{ Volume{target[]}; };
+Physical Surface("unassigned_target_boundary", 2) = {boundary[]};
+Mesh.CharacteristicLengthMin = 9.0000000000000002e-06;
+Mesh.CharacteristicLengthMax = 9.0000000000000002e-06;
+Mesh.Algorithm3D = 10;
+Mesh.OptimizeNetgen = 1;
+Mesh.MshFileVersion = 2.2;

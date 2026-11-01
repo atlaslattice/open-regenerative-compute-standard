@@ -1,0 +1,18 @@
+{
+  "units": "m",
+  "axis_convention": "entrance along +z",
+  "mask": "((x*x+y*y+z*z)>2.4999999999999999e-07)*((x*x+y*y+z*z)<2.7040000000000004e-07)*(1-((z>=0)*((x*x+y*y)<1e-08)))",
+  "density_per_m3": null,
+  "material": {
+    "id": "USER_BORON_CERAMIC_CANDIDATE",
+    "density_kg_m3": null,
+    "boron_mass_fraction": null,
+    "b11_atom_fraction": null,
+    "composition_citation": null,
+    "stopping_dataset": null,
+    "eos_dataset": null,
+    "evidence": "UNRESOLVED_MATERIAL_CONFIGURATION_NOT_PUBLISHED_SPHERE_MATERIAL"
+  },
+  "status": "GEOMETRY_ONLY_NOT_A_RUNNABLE_PHYSICS_DECK",
+  "no_legacy_column_bank_reinterpretation": true
+}

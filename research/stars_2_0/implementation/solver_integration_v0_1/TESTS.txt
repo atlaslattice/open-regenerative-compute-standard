@@ -1,0 +1,18 @@
+test_bad_aperture (test_geometry.GeometryTests.test_bad_aperture) ... ok
+test_center_void (test_geometry.GeometryTests.test_center_void) ... ok
+test_entrance_open (test_geometry.GeometryTests.test_entrance_open) ... ok
+test_equator_wall (test_geometry.GeometryTests.test_equator_wall) ... ok
+test_inner_boundary (test_geometry.GeometryTests.test_inner_boundary) ... ok
+test_mask_same_points (test_geometry.GeometryTests.test_mask_same_points) ... ok
+test_nonfinite (test_geometry.GeometryTests.test_nonfinite) ... ok
+test_opposite_wall_retained (test_geometry.GeometryTests.test_opposite_wall_retained) ... ok
+test_outside (test_geometry.GeometryTests.test_outside) ... ok
+test_si_scale (test_geometry.GeometryTests.test_si_scale) ... ok
+test_unknown_material (test_geometry.GeometryTests.test_unknown_material) ... ok
+test_unqualified_datasets (test_geometry.GeometryTests.test_unqualified_datasets) ... ok
+test_volume_bounds (test_geometry.GeometryTests.test_volume_bounds) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.001s
+
+OK

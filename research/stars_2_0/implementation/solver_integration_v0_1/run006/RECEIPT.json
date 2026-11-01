@@ -1,0 +1,68 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.39",
+  "profiles_sha256": "8256ed85a2fad764ebff1e8a4ebd67827b6ae7a683159312d953d6bde4e9748e",
+  "results": [
+    {
+      "profile": "PUBLISHED_FABRICATION_DERIVED_OUTER_DIAMETER",
+      "geometry_evidence": "Section2.1 approximately500um capsule diameter,18um wall,200um hole. Taking capsule diameter as OUTER is a derived convention; inner232um is derived. Not exact recovered CAD.",
+      "analytic_volume_m3": 1.2551494185562546e-11,
+      "material_gate": "BLOCKED_UNQUALIFIED",
+      "mesh_executed": true,
+      "material_gate_reason": "unqualified material: density_kg_m3",
+      "mesh_gate": "PASS_NUMERICAL_MESH_ONLY",
+      "classification_fixture_seed": 20261101,
+      "CAD_mask_comparison_points": 1000,
+      "CAD_mask_mismatches": 0,
+      "gmsh_version": "5.0.0",
+      "gmsh_distribution": "5.0.0.dev20261101+nox",
+      "volume_elements": 91529,
+      "min_scaled_jacobian": 0.9999999999999999,
+      "min_inverse_condition_number": 0.1523736207711397,
+      "mesh_volume_m3": 1.2550074723997063e-11,
+      "mesh_relative_error": 0.00011309104274737081,
+      "cad_volume_m3": 1.2551494323044978e-11,
+      "cad_relative_error": 1.095347146318204e-08,
+      "cad_length_unit_m": 1e-06,
+      "exported_mesh_length_unit_m": 1.0,
+      "exported_max_radius_m": 0.0002500000000000001
+    },
+    {
+      "profile": "PUBLISHED_PIC_CAVITY_RADIUS",
+      "geometry_evidence": "Section5 PIC cavity radius500um,wall20um,hole diameter200um. Inconsistent with experimental capsule diameter description; kept separate.",
+      "analytic_volume_m3": 6.474415834367814e-11,
+      "material_gate": "BLOCKED_UNQUALIFIED",
+      "mesh_executed": true,
+      "material_gate_reason": "unqualified material: density_kg_m3",
+      "mesh_gate": "PASS_NUMERICAL_MESH_ONLY",
+      "classification_fixture_seed": 20261101,
+      "CAD_mask_comparison_points": 1000,
+      "CAD_mask_mismatches": 0,
+      "gmsh_version": "5.0.0",
+      "gmsh_distribution": "5.0.0.dev20261101+nox",
+      "volume_elements": 341355,
+      "min_scaled_jacobian": 0.9999999999999999,
+      "min_inverse_condition_number": 0.3385924207802569,
+      "mesh_volume_m3": 6.474158708748644e-11,
+      "mesh_relative_error": 3.971410328706959e-05,
+      "cad_volume_m3": 6.47441584303298e-11,
+      "cad_relative_error": 1.3383705255165523e-09,
+      "cad_length_unit_m": 1e-06,
+      "exported_mesh_length_unit_m": 1.0,
+      "exported_max_radius_m": 0.0005200000000000003
+    }
+  ],
+  "actual_apparatus_net_power_W": null,
+  "files_sha256": {
+    "PUBLISHED_FABRICATION_DERIVED_OUTER_DIAMETER/WARPX_GEOMETRY.json": "2974c621b29def8438bb9eaecff9edf959e2f095cf640f17d040628223675162",
+    "PUBLISHED_FABRICATION_DERIVED_OUTER_DIAMETER/target.geo": "9150de208c5b42d4ec6f74aa3e9dc80e0299e6876eea9a71384f16da8b7b72f6",
+    "PUBLISHED_FABRICATION_DERIVED_OUTER_DIAMETER/target.msh": "a2235906897348d694dfcb2892f923a179ab4c3c46096e96cbd9ce092212fe9f",
+    "PUBLISHED_PIC_CAVITY_RADIUS/WARPX_GEOMETRY.json": "364a3e5220d41f62851d0eda0bdda2af77e879a563aed44c0b5a9d5fc96ef806",
+    "PUBLISHED_PIC_CAVITY_RADIUS/target.geo": "28c23f33fb9eb10b5ba06c11841bc23f7b544e062fdafd2c82c1853ba073c64f",
+    "PUBLISHED_PIC_CAVITY_RADIUS/target.msh": "e7bdd47193eca1a05791cf11d0fe344f655b3f00833bbfab1168748235f328a5"
+  },
+  "implementation_sha256": {
+    "run.py": "f4e4ba5f1b0c1faed5210909ae2568cfddce12ca45409d4ce90f611508799672",
+    "geometry.py": "c9e2261fc1e6586364bda4780e2209c21814cb529defae76edf4fb8b0932d3e9"
+  }
+}

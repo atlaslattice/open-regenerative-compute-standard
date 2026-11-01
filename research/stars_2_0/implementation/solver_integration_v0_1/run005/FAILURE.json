@@ -1,0 +1,8 @@
+{
+  "status": "FAILED_MESH_ATTEMPT_PRESERVED",
+  "stage": "first_geometry_HXT_mesh",
+  "message": "PLC Error: A vertex lies in a segment. HXT3D mesh failed.",
+  "change_from_run004": "CAD sphere parameter seams rotated; physical sphere unchanged",
+  "not_promoted_to_FEM_input": true,
+  "next_attempt": "run006 uses micrometre CAD coordinates and explicitly verifies metre-scaled mesh export"
+}
