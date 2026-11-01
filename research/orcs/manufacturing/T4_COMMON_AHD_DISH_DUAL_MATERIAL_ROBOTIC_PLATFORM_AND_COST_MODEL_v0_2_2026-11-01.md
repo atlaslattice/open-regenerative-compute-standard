@@ -142,3 +142,12 @@ Sources:
 ## Provenance
 
 This v0.2 appendix and its child product specifications reflect the November 1 owner-directed acceptance of a DeepSeek critique of [the preserved v0.1 original](TRANSFORMER_4_0_AHD_DISH_MODULAR_ROBOTIC_SPEC_v0_1_2026-11-01.md). Corrections incorporated: supplier-dialogue label, product split, an explicit bottom-up **assumption-only** cost-class comparator, DOI/DOE primary-source verification, and a falsifiable first product decision. No lab data or external endorsement is claimed.
+
+
+## November 1, 2026 — BattMan and battery R&D boundary (dated addendum)
+
+[DOE's October 28 Battery Manufacturing Accelerator (BattMan) launch](https://www.energy.gov/cmei/ammto/articles/doe-launches-battery-manufacturing-accelerator-strengthen-us-competitiveness) names PNNL, Argonne, ORNL and the National Laboratory of the Rockies; program focus is AI-assisted manufacturing-process sensing, digital twins and closed-loop experimentation. **E1 program launch**, not an ORCS partnership or demonstration of AHD/DISH battery production.
+
+**Separate experimental route BATT-AHD-01:** establish one transparent polymer/filler sample that can be manufactured by staged acoustics and photopolymerization; then only *if relevant electrochemical compatibility is independently established* investigate a real battery subpart. Controls: no acoustic vs acoustic-before-cure vs acoustic-during-cure; conventional cast/laminated control; measure particle concentration/geometry, UV cure completion, porosity, mechanical properties, bulk/interface electronic/ionic transport, electrolyte compatibility, thermal stability and cycling where applicable. Resistive printed photopolymer composites cannot be assumed to replace Cu/Al current collectors, active electrodes, separators or electrolyte. Reject on capacity fade, self-heating, contamination, dendrites or safety failure. Record direct process power, acoustic dwell and accepted unit cost; omit claimed Watt-hours and battery cycle life absent tests.
+
+**Priority unchanged:** AHD-D1 dielectric spacer G3 first. Battery pathway is a non-blocking research watch. [All November 1 sources and next actions](https://github.com/atlaslattice/open-regenerative-compute-standard/blob/main/research/ORCS_2026_11_01_CROSS_PROGRAM_NEWS_EVIDENCE_AND_IMPLEMENTATION_REGISTER.md).
