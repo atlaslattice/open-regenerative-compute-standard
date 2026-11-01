@@ -29,3 +29,8 @@ For every candidate pump, bearing, food input, membrane, soap ingredient, fertil
 ## Design policy
 Aim for increasing autonomy and eventual surplus capability, but do **not** force local manufacture if a hybrid solution is safer, more affordable, or robust. The strong twenty-year self-sufficiency vision is an *aspirational systems research target* and possible outcome—not permission to suppress contrary results.
 **No reactor baseline changes:** Reactor B = 1.13 GW D-T fusion power; Reactor A = hypothetical 20 MW primary D-D reference.
+
+
+## 2026-11-01 lunar Marius Hills geometry not resource certainty
+
+Refer to [Marius Hills geophysics/mission addendum](https://github.com/atlaslattice/open-regenerative-compute-standard/blob/main/research/beyond_q/addenda/BQ_LUNAR_MARIUS_HILLS_PIT_SUBSURFACE_EVIDENCE_HABITAT_DESIGN_GATES_2026_11_01.md): a ~50m pit opening and 79–92m surrounding funnel are **measured surface features**, NOT proven underground floor square footage. Orbital Kaguya/GRAIL indicate a possible massive subsurface void but existence, cross-section, continuity, accessible volume, stability and local H2O/ice remain unconfirmed. Compare (1) surface-delivered pressurized habitat, (2) candidate shielded site if safe void proven, and (3) polar-ice base on entirely separate site/transport ledgers. **No free subterranean building footprint or local ice in 20-year profit model until geophysical/in situ site data exist.** Historical reactor A 20MW scenario text in this file is *not* current program baseline; owner-current Reactor A is an unvalidated **1.10GW D-D fusion target** and Reactor B **1.13GW D-T**.
