@@ -1,0 +1,13 @@
+{
+  "largest_campus_T_residual_kg": 1.2601958587765694e-08,
+  "largest_equal_branch_atom_ratio_error": 5.483835607833498e-12,
+  "physical_validation": false,
+  "product_rows": 1440,
+  "stage_rows": 6120,
+  "parent_sha256": {
+    "module_fleet_v2_0/model.py": "e8853afa15cc3adbe14303aab8b9821d6746eb9a63f0daa76abb3178e9834d10",
+    "module_fleet_v2_0/finance.py": "d07ad28ac5dab09abfc16ed9b0cde1ad13f5d73db9654666cdea50b3da58a89f",
+    "module_fleet_v2_0/inputs.json": "a0a794b30df9a956dfb0f66b8d83a07a4ee38e4d2060612cd1cf484c58732414",
+    "module_fleet_v2_0/outputs/annual_products_finance.csv": "62c13104abeb99864735e022a5a035970e6a3e5d24d9f7e53830b19a97c62024"
+  }
+}

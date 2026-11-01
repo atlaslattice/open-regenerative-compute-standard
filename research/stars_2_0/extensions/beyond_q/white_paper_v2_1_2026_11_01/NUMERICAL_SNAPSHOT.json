@@ -1,0 +1,113 @@
+{
+  "paper_version": "2.1",
+  "date": "2026-11-01",
+  "implementation_base_commit": "971a94300d91d4ff514061a4918e44684277e78b",
+  "new_physical_execution": false,
+  "zero_retention_financial_recalculation": true,
+  "saved_physical_inputs_still_use_retention_fraction": 0.5,
+  "facts": {
+    "startup_threshold_kg": 71.65398062583695,
+    "years": 60,
+    "fixed_calendar_commissioning_interval_years": 0.1,
+    "predecessor_fuel_controller_executed": false,
+    "all_physical_gates": "G1-G5 OPEN"
+  },
+  "recalculation": [
+    {
+      "year": 1,
+      "He3_overall_recovery_assumed": 0.375,
+      "mandatory_He3_retention": 0.0,
+      "He3_product_candidate_STP_L": 335841.1971915884,
+      "assumed_full_qualified_He3_sale_receipts_USD": 503761795.7873826,
+      "conditional_T_export_kg": 20.0,
+      "conditional_T_receipts_USD": 30000000.0,
+      "partial_scope_debt_service_USD": 383803466.9736317,
+      "electricity_import_cost_USD": 62952000.0,
+      "remaining_before_unknown_costs_USD": 87006328.81375092,
+      "remaining_if_He3_sales_capped_350000_L_USD": 87006328.81375092,
+      "actual_profit_USD": null,
+      "actual_qualified_sales_USD": null
+    },
+    {
+      "year": 2,
+      "He3_overall_recovery_assumed": 0.375,
+      "mandatory_He3_retention": 0.0,
+      "He3_product_candidate_STP_L": 332089.3783209369,
+      "assumed_full_qualified_He3_sale_receipts_USD": 498134067.4814054,
+      "conditional_T_export_kg": 20.0,
+      "conditional_T_receipts_USD": 30000000.0,
+      "partial_scope_debt_service_USD": 383803466.9736317,
+      "electricity_import_cost_USD": 8532000.0,
+      "remaining_before_unknown_costs_USD": 135798600.5077737,
+      "remaining_if_He3_sales_capped_350000_L_USD": 135798600.5077737,
+      "actual_profit_USD": null,
+      "actual_qualified_sales_USD": null
+    },
+    {
+      "year": 1,
+      "He3_overall_recovery_assumed": 0.75,
+      "mandatory_He3_retention": 0.0,
+      "He3_product_candidate_STP_L": 671682.3943831768,
+      "assumed_full_qualified_He3_sale_receipts_USD": 1007523591.5747652,
+      "conditional_T_export_kg": 20.0,
+      "conditional_T_receipts_USD": 30000000.0,
+      "partial_scope_debt_service_USD": 383803466.9736317,
+      "electricity_import_cost_USD": 62952000.0,
+      "remaining_before_unknown_costs_USD": 590768124.6011336,
+      "remaining_if_He3_sales_capped_350000_L_USD": 108244533.02636832,
+      "actual_profit_USD": null,
+      "actual_qualified_sales_USD": null
+    },
+    {
+      "year": 2,
+      "He3_overall_recovery_assumed": 0.75,
+      "mandatory_He3_retention": 0.0,
+      "He3_product_candidate_STP_L": 664178.7566418739,
+      "assumed_full_qualified_He3_sale_receipts_USD": 996268134.9628108,
+      "conditional_T_export_kg": 20.0,
+      "conditional_T_receipts_USD": 30000000.0,
+      "partial_scope_debt_service_USD": 383803466.9736317,
+      "electricity_import_cost_USD": 8532000.0,
+      "remaining_before_unknown_costs_USD": 633932667.9891791,
+      "remaining_if_He3_sales_capped_350000_L_USD": 162664533.02636832,
+      "actual_profit_USD": null,
+      "actual_qualified_sales_USD": null
+    },
+    {
+      "year": 1,
+      "He3_overall_recovery_assumed": 0.9,
+      "mandatory_He3_retention": 0.0,
+      "He3_product_candidate_STP_L": 806018.8732598121,
+      "assumed_full_qualified_He3_sale_receipts_USD": 1209028309.8897183,
+      "conditional_T_export_kg": 20.0,
+      "conditional_T_receipts_USD": 30000000.0,
+      "partial_scope_debt_service_USD": 383803466.9736317,
+      "electricity_import_cost_USD": 62952000.0,
+      "remaining_before_unknown_costs_USD": 792272842.9160867,
+      "remaining_if_He3_sales_capped_350000_L_USD": 108244533.02636832,
+      "actual_profit_USD": null,
+      "actual_qualified_sales_USD": null
+    },
+    {
+      "year": 2,
+      "He3_overall_recovery_assumed": 0.9,
+      "mandatory_He3_retention": 0.0,
+      "He3_product_candidate_STP_L": 797014.5079702486,
+      "assumed_full_qualified_He3_sale_receipts_USD": 1195521761.9553728,
+      "conditional_T_export_kg": 20.0,
+      "conditional_T_receipts_USD": 30000000.0,
+      "partial_scope_debt_service_USD": 383803466.9736317,
+      "electricity_import_cost_USD": 8532000.0,
+      "remaining_before_unknown_costs_USD": 833186294.9817412,
+      "remaining_if_He3_sales_capped_350000_L_USD": 162664533.02636832,
+      "actual_profit_USD": null,
+      "actual_qualified_sales_USD": null
+    }
+  ],
+  "source_sha256": {
+    "module_fleet_v2_0/outputs/annual_products_finance.csv": "62c13104abeb99864735e022a5a035970e6a3e5d24d9f7e53830b19a97c62024",
+    "module_fleet_v2_0/model.py": "e8853afa15cc3adbe14303aab8b9821d6746eb9a63f0daa76abb3178e9834d10",
+    "module_fleet_v2_0/finance.py": "d07ad28ac5dab09abfc16ed9b0cde1ad13f5d73db9654666cdea50b3da58a89f",
+    "module_fleet_v2_0/inputs.json": "a0a794b30df9a956dfb0f66b8d83a07a4ee38e4d2060612cd1cf484c58732414"
+  }
+}
