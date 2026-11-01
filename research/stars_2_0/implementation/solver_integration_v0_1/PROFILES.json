@@ -1,0 +1,37 @@
+{
+  "version": "0.1",
+  "user_geometry_identity_clarification": "2026-11-01: ceramic pocket uses the cited hollow sphere; ceramic composition is a separate untested configuration",
+  "historical_parent_commit": "a080438ab6ff3321f13d8f8b29fcb00ec32c7f70",
+  "source": "https://www.cambridge.org/core/journals/high-power-laser-science-and-engineering/article/hydrogen-boron-fusion-in-confined-geometries/D273DDE00ABB65D29D2053845A22A887",
+  "geometry_profiles": [
+    {
+      "id": "PUBLISHED_FABRICATION_DERIVED_OUTER_DIAMETER",
+      "inner_radius_m": 0.000232,
+      "wall_m": 1.8e-05,
+      "aperture_radius_m": 0.0001,
+      "evidence": "Section2.1 approximately500um capsule diameter,18um wall,200um hole. Taking capsule diameter as OUTER is a derived convention; inner232um is derived. Not exact recovered CAD."
+    },
+    {
+      "id": "PUBLISHED_PIC_CAVITY_RADIUS",
+      "inner_radius_m": 0.0005,
+      "wall_m": 2e-05,
+      "aperture_radius_m": 0.0001,
+      "evidence": "Section5 PIC cavity radius500um,wall20um,hole diameter200um. Inconsistent with experimental capsule diameter description; kept separate."
+    }
+  ],
+  "shared_derived_conventions": {
+    "aperture": "one positive-z cylindrical bore; machining shape not specified by source",
+    "alignment": "origin at sphere center, laser enters from +z; no external mirror or rear opening inferred"
+  },
+  "ceramic_material": {
+    "id": "USER_BORON_CERAMIC_CANDIDATE",
+    "density_kg_m3": null,
+    "boron_mass_fraction": null,
+    "b11_atom_fraction": null,
+    "composition_citation": null,
+    "stopping_dataset": null,
+    "eos_dataset": null,
+    "evidence": "UNRESOLVED_MATERIAL_CONFIGURATION_NOT_PUBLISHED_SPHERE_MATERIAL"
+  },
+  "published_material_note": "Fabricated sphere is B2O3 nanopowder in polystyrene, not an established pure BN ceramic sphere. The paper reports composition nonuniformity. No yield gain transferred to ceramic."
+}

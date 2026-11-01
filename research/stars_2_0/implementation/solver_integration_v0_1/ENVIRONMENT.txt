@@ -1,0 +1,5 @@
+Python3.12.14
+NumPy2.3.5
+gmsh==5.0.0.dev20261101+nox
+Gmsh official index: https://gmsh.info/python-packages-dev-nox
+No external FEM/PIC/thermal/circuit solver executed in this increment.

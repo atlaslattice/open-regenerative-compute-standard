@@ -1,0 +1,12 @@
+{
+  "audit": {
+    "checks_passed": 19,
+    "omitted_generated_meshes": [
+      "PUBLISHED_FABRICATION_DERIVED_OUTER_DIAMETER/target.msh",
+      "PUBLISHED_PIC_CAVITY_RADIUS/target.msh"
+    ],
+    "status": "PASS_RECEIPT_AUDIT_NOT_PHYSICAL_VALIDATION"
+  },
+  "tests": "13/13 passed",
+  "generated_meshes_excluded": true
+}

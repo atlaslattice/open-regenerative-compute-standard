@@ -1,0 +1,11 @@
+SetFactory("OpenCASCADE");
+Geometry.Tolerance = 1e-10;
+Sphere(1) = {0,0,0,0.00052000000000000006};
+Sphere(2) = {0,0,0,0.00050000000000000001};
+shell[] = BooleanDifference{ Volume{1}; Delete; }{ Volume{2}; Delete; };
+Cylinder(3) = {0,0,0,0,0,0.0010400000000000001,0.0001};
+target[] = BooleanDifference{ Volume{shell[]}; Delete; }{ Volume{3}; Delete; };
+Physical Volume("target_shell", 1) = {target[]};
+Mesh.CharacteristicLengthMin = 1.0000000000000001e-05;
+Mesh.CharacteristicLengthMax = 1.0000000000000001e-05;
+Mesh.MshFileVersion = 2.2;

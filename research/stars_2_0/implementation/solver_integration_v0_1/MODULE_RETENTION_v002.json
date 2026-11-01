@@ -1,0 +1,179 @@
+{
+  "parent_registry": "abc_architecture_v0_1/ABC_REGISTRY.json",
+  "original_C_inventory": [
+    {
+      "module": "target_supply",
+      "status": "RETAINED_PHYSICAL_OR_SYSTEMS_INTERFACE_UNRESOLVED",
+      "gain_assigned": false,
+      "reason": "No component evidence or numerical benchmark silently becomes complete apparatus performance"
+    },
+    {
+      "module": "acoustic_preparation",
+      "status": "AVAILABLE_OPERATIONAL_TOOL_NO_CALIBRATED_PHYSICAL_COUPLING",
+      "gain_assigned": false,
+      "reason": "No component evidence or numerical benchmark silently becomes complete apparatus performance"
+    },
+    {
+      "module": "acoustic_sustain",
+      "status": "AVAILABLE_OPERATIONAL_TOOL_NO_CALIBRATED_PHYSICAL_COUPLING",
+      "gain_assigned": false,
+      "reason": "No component evidence or numerical benchmark silently becomes complete apparatus performance"
+    },
+    {
+      "module": "readiness",
+      "status": "AVAILABLE_OPERATIONAL_TOOL_NO_CALIBRATED_PHYSICAL_COUPLING",
+      "gain_assigned": false,
+      "reason": "No component evidence or numerical benchmark silently becomes complete apparatus performance"
+    },
+    {
+      "module": "laser_source",
+      "status": "RETAINED_PHYSICAL_OR_SYSTEMS_INTERFACE_UNRESOLVED",
+      "gain_assigned": false,
+      "reason": "No component evidence or numerical benchmark silently becomes complete apparatus performance"
+    },
+    {
+      "module": "accelerator_reference",
+      "status": "RETAINED_PHYSICAL_OR_SYSTEMS_INTERFACE_UNRESOLVED",
+      "gain_assigned": false,
+      "reason": "No component evidence or numerical benchmark silently becomes complete apparatus performance"
+    },
+    {
+      "module": "source_bunching",
+      "status": "RETAINED_PHYSICAL_OR_SYSTEMS_INTERFACE_UNRESOLVED",
+      "gain_assigned": false,
+      "reason": "No component evidence or numerical benchmark silently becomes complete apparatus performance"
+    },
+    {
+      "module": "target_geometry",
+      "status": "GEOMETRY_FAMILY_IDENTIFIED_CAD_ADAPTER_EXECUTED_NOT_APPARATUS_CALIBRATION",
+      "gain_assigned": false,
+      "reason": "No component evidence or numerical benchmark silently becomes complete apparatus performance"
+    },
+    {
+      "module": "spin_preparation",
+      "status": "RETAINED_PHYSICAL_OR_SYSTEMS_INTERFACE_UNRESOLVED",
+      "gain_assigned": false,
+      "reason": "No component evidence or numerical benchmark silently becomes complete apparatus performance"
+    },
+    {
+      "module": "nuclear_source",
+      "status": "CONNECTED_CONDITIONAL_CONTROL_ONLY",
+      "gain_assigned": false,
+      "reason": "No component evidence or numerical benchmark silently becomes complete apparatus performance"
+    },
+    {
+      "module": "correlated_events",
+      "status": "CONNECTED_CONDITIONAL_CONTROL_ONLY",
+      "gain_assigned": false,
+      "reason": "No component evidence or numerical benchmark silently becomes complete apparatus performance"
+    },
+    {
+      "module": "material_transport",
+      "status": "CONNECTED_CONDITIONAL_CONTROL_ONLY",
+      "gain_assigned": false,
+      "reason": "No component evidence or numerical benchmark silently becomes complete apparatus performance"
+    },
+    {
+      "module": "mechanical_thermal_history",
+      "status": "RETAINED_PHYSICAL_OR_SYSTEMS_INTERFACE_UNRESOLVED",
+      "gain_assigned": false,
+      "reason": "No component evidence or numerical benchmark silently becomes complete apparatus performance"
+    },
+    {
+      "module": "plasma_waves",
+      "status": "RETAINED_PHYSICAL_OR_SYSTEMS_INTERFACE_UNRESOLVED",
+      "gain_assigned": false,
+      "reason": "No component evidence or numerical benchmark silently becomes complete apparatus performance"
+    },
+    {
+      "module": "particle_fields",
+      "status": "CONNECTED_CONDITIONAL_CONTROL_ONLY",
+      "gain_assigned": false,
+      "reason": "No component evidence or numerical benchmark silently becomes complete apparatus performance"
+    },
+    {
+      "module": "collectors",
+      "status": "CONNECTED_CONDITIONAL_CONTROL_ONLY",
+      "gain_assigned": false,
+      "reason": "No component evidence or numerical benchmark silently becomes complete apparatus performance"
+    },
+    {
+      "module": "proton_reuse",
+      "status": "RETAINED_PHYSICAL_OR_SYSTEMS_INTERFACE_UNRESOLVED",
+      "gain_assigned": false,
+      "reason": "No component evidence or numerical benchmark silently becomes complete apparatus performance"
+    },
+    {
+      "module": "heat_recovery",
+      "status": "RETAINED_PHYSICAL_OR_SYSTEMS_INTERFACE_UNRESOLVED",
+      "gain_assigned": false,
+      "reason": "No component evidence or numerical benchmark silently becomes complete apparatus performance"
+    },
+    {
+      "module": "power_storage",
+      "status": "RETAINED_PHYSICAL_OR_SYSTEMS_INTERFACE_UNRESOLVED",
+      "gain_assigned": false,
+      "reason": "No component evidence or numerical benchmark silently becomes complete apparatus performance"
+    },
+    {
+      "module": "operating_tracks",
+      "status": "RETAINED_PHYSICAL_OR_SYSTEMS_INTERFACE_UNRESOLVED",
+      "gain_assigned": false,
+      "reason": "No component evidence or numerical benchmark silently becomes complete apparatus performance"
+    },
+    {
+      "module": "diagnostics",
+      "status": "AVAILABLE_OPERATIONAL_TOOL_NO_CALIBRATED_PHYSICAL_COUPLING",
+      "gain_assigned": false,
+      "reason": "No component evidence or numerical benchmark silently becomes complete apparatus performance"
+    },
+    {
+      "module": "side_products",
+      "status": "RETAINED_PHYSICAL_OR_SYSTEMS_INTERFACE_UNRESOLVED",
+      "gain_assigned": false,
+      "reason": "No component evidence or numerical benchmark silently becomes complete apparatus performance"
+    },
+    {
+      "module": "facility_services",
+      "status": "RETAINED_PHYSICAL_OR_SYSTEMS_INTERFACE_UNRESOLVED",
+      "gain_assigned": false,
+      "reason": "No component evidence or numerical benchmark silently becomes complete apparatus performance"
+    },
+    {
+      "module": "site_cryogenics",
+      "status": "RETAINED_PHYSICAL_OR_SYSTEMS_INTERFACE_UNRESOLVED",
+      "gain_assigned": false,
+      "reason": "No component evidence or numerical benchmark silently becomes complete apparatus performance"
+    },
+    {
+      "module": "experiments_optimization",
+      "status": "AVAILABLE_OPERATIONAL_TOOL_NO_CALIBRATED_PHYSICAL_COUPLING",
+      "gain_assigned": false,
+      "reason": "No component evidence or numerical benchmark silently becomes complete apparatus performance"
+    },
+    {
+      "module": "economics",
+      "status": "RETAINED_PHYSICAL_OR_SYSTEMS_INTERFACE_UNRESOLVED",
+      "gain_assigned": false,
+      "reason": "No component evidence or numerical benchmark silently becomes complete apparatus performance"
+    }
+  ],
+  "A_B_mapping_preserved": true,
+  "additional_A_modules": [
+    "new_hollow_sphere",
+    "new_prism",
+    "enn_fast_proton_coupling"
+  ],
+  "A_B_performance": null,
+  "no_all_alternatives_installed_claim": true,
+  "original_pocket_definition": {
+    "geometry_family": "cited hollow sphere",
+    "authority": "Project originator clarification 2026-11-01",
+    "profile_file": "PROFILES.json",
+    "size_discrepancy": "fabrication diameter versus PIC cavity radius retained as separate profiles",
+    "material_status": "BORON_CERAMIC_CONFIGURATION_UNCALIBRATED"
+  },
+  "version": "0.2_additive_geometry_identity",
+  "parent_commit": "a080438ab6ff3321f13d8f8b29fcb00ec32c7f70",
+  "geometry_identity_does_not_merge_ABC": true
+}

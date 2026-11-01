@@ -1,0 +1,37 @@
+[
+  {
+    "label": "warpx",
+    "repo": "BLAST-WarpX/warpx",
+    "discovery_head": "a389dc54a27136176bdd48f7bfd36da62a873a61",
+    "discovery_date": "2026-10-30T00:33:50Z",
+    "note": "Discovery snapshot only; not an executed solver version."
+  },
+  {
+    "label": "Elmer",
+    "repo": "ElmerCSC/elmerfem",
+    "discovery_head": "31f541c747376c2eebbac5ce171f77b4b3883683",
+    "discovery_date": "2026-10-29T08:39:36Z",
+    "note": "Discovery snapshot only; not an executed solver version."
+  },
+  {
+    "label": "RustBCA",
+    "repo": "lcpp-org/RustBCA",
+    "discovery_head": "51bee889956147e3287491d0c68957967235a33c",
+    "discovery_date": "2026-10-19T18:24:20Z",
+    "note": "Discovery snapshot only; not an executed solver version."
+  },
+  {
+    "label": "TESPy",
+    "repo": "oemof/tespy",
+    "discovery_head": "304b6e26fc63cc1ca773b07afbc752df665e990a",
+    "discovery_date": "2026-10-30T04:42:39Z",
+    "note": "Discovery snapshot only; not an executed solver version."
+  },
+  {
+    "label": "ExerPy",
+    "repo": "oemof/exerpy",
+    "discovery_head": "5e24396f81979444082655fdd27dde9c4df32690",
+    "discovery_date": "2026-10-27T14:08:03Z",
+    "note": "Discovery snapshot only; not an executed solver version."
+  }
+]
