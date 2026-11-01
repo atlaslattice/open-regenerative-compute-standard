@@ -73,3 +73,12 @@ Classify each source as A **currently disposed or incurring treatment charge**, 
 
 ## Provenance
 Source research above verified as of 2026-10-12. All realized commodity- or reserve-related claims and financial benefits = **unverified**, and no autonomous systems permitted to change national trade permissions. This is a national-level **policy/operating design**, NOT an existing export restriction. Prior [Import Atlas v0.1](./US_NATIONAL_INDUSTRIAL_AGRICULTURAL_IMPORT_SUPPLY_CHAIN_ATLAS_V0_1_2026-10-12.md) remains intact; this is its additive export/reserve/waste layer.
+
+
+## November 1, 2026 — added material stream segregation and primary evidence
+
+**E-waste/PV:** [Penn State's October 12 announcement](https://iee.psu.edu/news/startup-penn-state-research-scale-domestic-critical-mineral-recovery) describes Intel-E-Waste receiving **up to $2M** in a **first 10-month** NSF STRIDE prototype/de-risking period for metals recovery from discarded electronics/end-of-life solar panels. This is **research/prototype-stage**; NO industrial output mass, product grade, environmental yield or permanent recycling capacity is established by the award.
+
+**Oilfield produced-water lithium:** [ORNL's October 7 retrospective](https://www.ornl.gov/news/national-lab-partnership-helps-launch-u-s-lithium-supply-chain/) reports METALLIC separations work associated with Element3, with the facility milestone **February 2026** rather than a new October startup. Do not convert nameplate capacity into collected lithium sales or refinery yields.
+
+**Inventory addition:** keep **six nonfungible material-source classes**: (1) postconsumer MSW, (2) C&D waste, (3) e-waste (battery, Pb/metal hazards), (4) end-of-life PV (Cd/lead/laminate variation), (5) produced water (formation chemistry and industrial wastewater rules), (6) desalination brine (independent ion composition and concentrate handling). All are screened individually for incoming mass/chemistry, pollution control, sorting, collection cost, processing reagents/energy, tailings liability, qualified national demand, reserves and only then verified exportable surplus. The earlier reserve-first market gate remains unchanged. [Full research update](https://github.com/atlaslattice/open-regenerative-compute-standard/blob/main/research/ORCS_2026_11_01_CROSS_PROGRAM_NEWS_EVIDENCE_AND_IMPLEMENTATION_REGISTER.md).
