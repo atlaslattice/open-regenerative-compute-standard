@@ -1,0 +1,9 @@
+{
+  "STP": "0C,1atm;22.414 L/mol",
+  "target_He3_STP_L": 350000.0,
+  "He3_target_kg": 47.09602311211742,
+  "T_atom_equivalent_target_kg": 47.096334790755776,
+  "T2_molecular_350kL_target_kg": 94.19266958151155,
+  "B_1100MW_burn_full_FPY_kg": 61.653980625836944,
+  "B_burn_365_25day_clock_at_15_over_16_duty_kg": 57.80060683672213
+}

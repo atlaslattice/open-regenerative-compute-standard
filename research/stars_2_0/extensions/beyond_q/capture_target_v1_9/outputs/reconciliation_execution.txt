@@ -1,0 +1,21 @@
+{
+  "equal_branch": 0.5,
+  "total_capture_target_STP_L": 350000.0,
+  "equal_capture_fraction": 0.9,
+  "equal_branch_birth_needed_STP_L": 388888.8888888889,
+  "equal_path_reference_He3_STP_L": 350000.0,
+  "equal_path_reference_T_atom_STP_L": 350000.0,
+  "assumed_He3_eventual_capture_fraction": 0.9,
+  "candidate_T_eventual_recovery_fraction": 0.9004052084711107,
+  "candidate_eventual_T_to_He3_delivery_ratio": 1.0004502316345674,
+  "observed_year2_T_to_He3_ratio": 1.0004502336866155,
+  "finite_minus_asymptotic_ratio": 2.052048087008984e-09,
+  "max_route_replay_difference_kg": 1.1102230246251565e-16,
+  "physics_inputs_changed": false,
+  "original_exact_350k_input_sheet": "UNRESOLVED; do not assume the original or simulator is incorrect",
+  "target_is_controller_input": true,
+  "physical_validation": false
+}
+{'year': 1, 'gross_T_branch_atom_STP_L': 388921.0953520396, 'gross_He3_branch_STP_L': 388921.0953519467, 'T_secondary_burn_atom_STP_L': 20289.44723527079, 'T_processing_loss_atom_STP_L': 18465.16905349836, 'T_route_decay_atom_STP_L': 14.221963671646511, 'T_pipeline_start_minus_end_atom_STP_L': 685.9549170131268, 'T_recovered_atom_STP_L': 350838.2120164354, 'He3_birth_only_capture_STP_L': 350028.9858167521, 'He3_pipeline_carry_capture_STP_L': 2549.5246709391904, 'He3_captured_STP_L': 352578.51048769255, 'He3_minus_T_delivered_STP_L': 1740.2984712571488, 'T_identity_residual_STP_L': 1.7654383555054665e-07, 'He3_identity_residual_STP_L': -1.280568540096283e-09, 'He3_percent_above_350k': 0.7367172821978629, 'T_percent_above_350k': 0.23948914755296258}
+{'year': 2, 'gross_T_branch_atom_STP_L': 391756.4860831089, 'gross_He3_branch_STP_L': 391756.4860830706, 'T_secondary_burn_atom_STP_L': 20437.364680256986, 'T_processing_loss_atom_STP_L': 18565.241118129237, 'T_route_decay_atom_STP_L': 14.299040385580206, 'T_pipeline_start_minus_end_atom_STP_L': 0.0, 'T_recovered_atom_STP_L': 352739.5812450261, 'He3_birth_only_capture_STP_L': 352580.8374747635, 'He3_pipeline_carry_capture_STP_L': -3.860261641352414e-96, 'He3_captured_STP_L': 352580.8374747399, 'He3_minus_T_delivered_STP_L': -158.74377028620802, 'T_identity_residual_STP_L': -6.890040822327137e-07, 'He3_identity_residual_STP_L': 2.3632310330867767e-08, 'He3_percent_above_350k': 0.7373821356399635, 'T_percent_above_350k': 0.7827374985788893}
+{'year': 3, 'gross_T_branch_atom_STP_L': 391756.4860829894, 'gross_He3_branch_STP_L': 391756.48608307046, 'T_secondary_burn_atom_STP_L': 20437.36468027497, 'T_processing_loss_atom_STP_L': 18565.241118129285, 'T_route_decay_atom_STP_L': 14.299040385538007, 'T_pipeline_start_minus_end_atom_STP_L': 0.0, 'T_recovered_atom_STP_L': 352739.58124520135, 'He3_birth_only_capture_STP_L': 352580.8374747634, 'He3_pipeline_carry_capture_STP_L': 3.598685084141049e-110, 'He3_captured_STP_L': 352580.8374748569, 'He3_minus_T_delivered_STP_L': -158.7437703444739, 'T_identity_residual_STP_L': -1.001753844320774e-06, 'He3_identity_residual_STP_L': -9.348150342702866e-08, 'He3_percent_above_350k': 0.7373821356734034, 'T_percent_above_350k': 0.7827374986289604}
