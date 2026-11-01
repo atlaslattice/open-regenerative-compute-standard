@@ -1,0 +1,382 @@
+{
+  "status": "PASS",
+  "checks_passed": 94,
+  "checks": [
+    {
+      "name": "run001_checks_pass",
+      "passed": true
+    },
+    {
+      "name": "run001_partition_hash",
+      "passed": true
+    },
+    {
+      "name": "run001_per_alpha_partition",
+      "passed": true
+    },
+    {
+      "name": "run001_PHASE_SPACE_NULL_no_actual_net_claim",
+      "passed": true
+    },
+    {
+      "name": "run001_PHASE_SPACE_NULL_threshold_reconstruction",
+      "passed": true
+    },
+    {
+      "name": "run001_PHASE_SPACE_NULL_unknown_loads_remain_unknown",
+      "passed": true
+    },
+    {
+      "name": "run001_COHERENT_L1_L3_RAW_no_actual_net_claim",
+      "passed": true
+    },
+    {
+      "name": "run001_COHERENT_L1_L3_RAW_threshold_reconstruction",
+      "passed": true
+    },
+    {
+      "name": "run001_COHERENT_L1_L3_RAW_unknown_loads_remain_unknown",
+      "passed": true
+    },
+    {
+      "name": "run001_INCOHERENT_RAW_ABLATION_no_actual_net_claim",
+      "passed": true
+    },
+    {
+      "name": "run001_INCOHERENT_RAW_ABLATION_threshold_reconstruction",
+      "passed": true
+    },
+    {
+      "name": "run001_INCOHERENT_RAW_ABLATION_unknown_loads_remain_unknown",
+      "passed": true
+    },
+    {
+      "name": "run001_PURE_L1_CONTROL_no_actual_net_claim",
+      "passed": true
+    },
+    {
+      "name": "run001_PURE_L1_CONTROL_threshold_reconstruction",
+      "passed": true
+    },
+    {
+      "name": "run001_PURE_L1_CONTROL_unknown_loads_remain_unknown",
+      "passed": true
+    },
+    {
+      "name": "run001_PURE_L3_CONTROL_no_actual_net_claim",
+      "passed": true
+    },
+    {
+      "name": "run001_PURE_L3_CONTROL_threshold_reconstruction",
+      "passed": true
+    },
+    {
+      "name": "run001_PURE_L3_CONTROL_unknown_loads_remain_unknown",
+      "passed": true
+    },
+    {
+      "name": "run002_checks_pass",
+      "passed": true
+    },
+    {
+      "name": "run002_partition_hash",
+      "passed": true
+    },
+    {
+      "name": "run002_per_alpha_partition",
+      "passed": true
+    },
+    {
+      "name": "run002_PHASE_SPACE_NULL_no_actual_net_claim",
+      "passed": true
+    },
+    {
+      "name": "run002_PHASE_SPACE_NULL_threshold_reconstruction",
+      "passed": true
+    },
+    {
+      "name": "run002_PHASE_SPACE_NULL_unknown_loads_remain_unknown",
+      "passed": true
+    },
+    {
+      "name": "run002_COHERENT_L1_L3_RAW_no_actual_net_claim",
+      "passed": true
+    },
+    {
+      "name": "run002_COHERENT_L1_L3_RAW_threshold_reconstruction",
+      "passed": true
+    },
+    {
+      "name": "run002_COHERENT_L1_L3_RAW_unknown_loads_remain_unknown",
+      "passed": true
+    },
+    {
+      "name": "run002_INCOHERENT_RAW_ABLATION_no_actual_net_claim",
+      "passed": true
+    },
+    {
+      "name": "run002_INCOHERENT_RAW_ABLATION_threshold_reconstruction",
+      "passed": true
+    },
+    {
+      "name": "run002_INCOHERENT_RAW_ABLATION_unknown_loads_remain_unknown",
+      "passed": true
+    },
+    {
+      "name": "run002_PURE_L1_CONTROL_no_actual_net_claim",
+      "passed": true
+    },
+    {
+      "name": "run002_PURE_L1_CONTROL_threshold_reconstruction",
+      "passed": true
+    },
+    {
+      "name": "run002_PURE_L1_CONTROL_unknown_loads_remain_unknown",
+      "passed": true
+    },
+    {
+      "name": "run002_PURE_L3_CONTROL_no_actual_net_claim",
+      "passed": true
+    },
+    {
+      "name": "run002_PURE_L3_CONTROL_threshold_reconstruction",
+      "passed": true
+    },
+    {
+      "name": "run002_PURE_L3_CONTROL_unknown_loads_remain_unknown",
+      "passed": true
+    },
+    {
+      "name": "run003_checks_pass",
+      "passed": true
+    },
+    {
+      "name": "run003_partition_hash",
+      "passed": true
+    },
+    {
+      "name": "run003_per_alpha_partition",
+      "passed": true
+    },
+    {
+      "name": "run003_PHASE_SPACE_NULL_no_actual_net_claim",
+      "passed": true
+    },
+    {
+      "name": "run003_PHASE_SPACE_NULL_threshold_reconstruction",
+      "passed": true
+    },
+    {
+      "name": "run003_PHASE_SPACE_NULL_unknown_loads_remain_unknown",
+      "passed": true
+    },
+    {
+      "name": "run003_COHERENT_L1_L3_RAW_no_actual_net_claim",
+      "passed": true
+    },
+    {
+      "name": "run003_COHERENT_L1_L3_RAW_threshold_reconstruction",
+      "passed": true
+    },
+    {
+      "name": "run003_COHERENT_L1_L3_RAW_unknown_loads_remain_unknown",
+      "passed": true
+    },
+    {
+      "name": "run003_INCOHERENT_RAW_ABLATION_no_actual_net_claim",
+      "passed": true
+    },
+    {
+      "name": "run003_INCOHERENT_RAW_ABLATION_threshold_reconstruction",
+      "passed": true
+    },
+    {
+      "name": "run003_INCOHERENT_RAW_ABLATION_unknown_loads_remain_unknown",
+      "passed": true
+    },
+    {
+      "name": "run003_PURE_L1_CONTROL_no_actual_net_claim",
+      "passed": true
+    },
+    {
+      "name": "run003_PURE_L1_CONTROL_threshold_reconstruction",
+      "passed": true
+    },
+    {
+      "name": "run003_PURE_L1_CONTROL_unknown_loads_remain_unknown",
+      "passed": true
+    },
+    {
+      "name": "run003_PURE_L3_CONTROL_no_actual_net_claim",
+      "passed": true
+    },
+    {
+      "name": "run003_PURE_L3_CONTROL_threshold_reconstruction",
+      "passed": true
+    },
+    {
+      "name": "run003_PURE_L3_CONTROL_unknown_loads_remain_unknown",
+      "passed": true
+    },
+    {
+      "name": "pipeline_run001/integrated_checks_pass",
+      "passed": true
+    },
+    {
+      "name": "pipeline_run001/integrated_partition_hash",
+      "passed": true
+    },
+    {
+      "name": "pipeline_run001/integrated_per_alpha_partition",
+      "passed": true
+    },
+    {
+      "name": "pipeline_run001/integrated_PHASE_SPACE_NULL_no_actual_net_claim",
+      "passed": true
+    },
+    {
+      "name": "pipeline_run001/integrated_PHASE_SPACE_NULL_threshold_reconstruction",
+      "passed": true
+    },
+    {
+      "name": "pipeline_run001/integrated_PHASE_SPACE_NULL_unknown_loads_remain_unknown",
+      "passed": true
+    },
+    {
+      "name": "pipeline_run001/integrated_COHERENT_L1_L3_RAW_no_actual_net_claim",
+      "passed": true
+    },
+    {
+      "name": "pipeline_run001/integrated_COHERENT_L1_L3_RAW_threshold_reconstruction",
+      "passed": true
+    },
+    {
+      "name": "pipeline_run001/integrated_COHERENT_L1_L3_RAW_unknown_loads_remain_unknown",
+      "passed": true
+    },
+    {
+      "name": "pipeline_run001/integrated_INCOHERENT_RAW_ABLATION_no_actual_net_claim",
+      "passed": true
+    },
+    {
+      "name": "pipeline_run001/integrated_INCOHERENT_RAW_ABLATION_threshold_reconstruction",
+      "passed": true
+    },
+    {
+      "name": "pipeline_run001/integrated_INCOHERENT_RAW_ABLATION_unknown_loads_remain_unknown",
+      "passed": true
+    },
+    {
+      "name": "pipeline_run001/integrated_PURE_L1_CONTROL_no_actual_net_claim",
+      "passed": true
+    },
+    {
+      "name": "pipeline_run001/integrated_PURE_L1_CONTROL_threshold_reconstruction",
+      "passed": true
+    },
+    {
+      "name": "pipeline_run001/integrated_PURE_L1_CONTROL_unknown_loads_remain_unknown",
+      "passed": true
+    },
+    {
+      "name": "pipeline_run001/integrated_PURE_L3_CONTROL_no_actual_net_claim",
+      "passed": true
+    },
+    {
+      "name": "pipeline_run001/integrated_PURE_L3_CONTROL_threshold_reconstruction",
+      "passed": true
+    },
+    {
+      "name": "pipeline_run001/integrated_PURE_L3_CONTROL_unknown_loads_remain_unknown",
+      "passed": true
+    },
+    {
+      "name": "pipeline_run002/integrated_checks_pass",
+      "passed": true
+    },
+    {
+      "name": "pipeline_run002/integrated_partition_hash",
+      "passed": true
+    },
+    {
+      "name": "pipeline_run002/integrated_per_alpha_partition",
+      "passed": true
+    },
+    {
+      "name": "pipeline_run002/integrated_PHASE_SPACE_NULL_no_actual_net_claim",
+      "passed": true
+    },
+    {
+      "name": "pipeline_run002/integrated_PHASE_SPACE_NULL_threshold_reconstruction",
+      "passed": true
+    },
+    {
+      "name": "pipeline_run002/integrated_PHASE_SPACE_NULL_unknown_loads_remain_unknown",
+      "passed": true
+    },
+    {
+      "name": "pipeline_run002/integrated_COHERENT_L1_L3_RAW_no_actual_net_claim",
+      "passed": true
+    },
+    {
+      "name": "pipeline_run002/integrated_COHERENT_L1_L3_RAW_threshold_reconstruction",
+      "passed": true
+    },
+    {
+      "name": "pipeline_run002/integrated_COHERENT_L1_L3_RAW_unknown_loads_remain_unknown",
+      "passed": true
+    },
+    {
+      "name": "pipeline_run002/integrated_INCOHERENT_RAW_ABLATION_no_actual_net_claim",
+      "passed": true
+    },
+    {
+      "name": "pipeline_run002/integrated_INCOHERENT_RAW_ABLATION_threshold_reconstruction",
+      "passed": true
+    },
+    {
+      "name": "pipeline_run002/integrated_INCOHERENT_RAW_ABLATION_unknown_loads_remain_unknown",
+      "passed": true
+    },
+    {
+      "name": "pipeline_run002/integrated_PURE_L1_CONTROL_no_actual_net_claim",
+      "passed": true
+    },
+    {
+      "name": "pipeline_run002/integrated_PURE_L1_CONTROL_threshold_reconstruction",
+      "passed": true
+    },
+    {
+      "name": "pipeline_run002/integrated_PURE_L1_CONTROL_unknown_loads_remain_unknown",
+      "passed": true
+    },
+    {
+      "name": "pipeline_run002/integrated_PURE_L3_CONTROL_no_actual_net_claim",
+      "passed": true
+    },
+    {
+      "name": "pipeline_run002/integrated_PURE_L3_CONTROL_threshold_reconstruction",
+      "passed": true
+    },
+    {
+      "name": "pipeline_run002/integrated_PURE_L3_CONTROL_unknown_loads_remain_unknown",
+      "passed": true
+    },
+    {
+      "name": "integrated_same_code_replay_json_exact",
+      "passed": true
+    },
+    {
+      "name": "integrated_same_code_replay_arrays_exact",
+      "passed": true
+    },
+    {
+      "name": "fresh_chain_matches_saved_input_integration",
+      "passed": true
+    },
+    {
+      "name": "fresh_pipeline_replay_exact",
+      "passed": true
+    }
+  ]
+}

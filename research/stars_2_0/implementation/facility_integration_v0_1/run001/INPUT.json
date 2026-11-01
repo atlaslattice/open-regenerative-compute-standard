@@ -1,0 +1,81 @@
+{
+  "profile_id": "SF_C_INTEGRATED_INTERFACE_CONTROL_2026_11_01_V0_1",
+  "architecture_parent": "SF_C_ORIGINAL_STARS_V0_1",
+  "run_class": "INTEGRATED_CONDITIONAL_INTERFACE_CONTROL_NOT_PHYSICAL_APPARATUS",
+  "source_commit": "34c4a8c3f3994805958395a48787be9cda56f00c",
+  "finite_box_width_over_normal_thickness": 2.0,
+  "ideal_rear_collector_bias_MV": 1.0,
+  "hypothetical_exit_charge_e": 2.0,
+  "parameter_evidence": {
+    "source": "PR55 executed verification source: 0.675MeV, weights10000/20000/5000; NOT observed source",
+    "target": "Inherited cold B11 normal column1e18atoms/cm2; finite width/thickness2 is numerical geometry control",
+    "events": "Inherited correlated exploratory bank run003; coherent/incoherent/null/pure channels, not calibrated full source",
+    "collector": "PR59 ideal planar control at1MV, hypothetical+2e; no measured post-material charge fraction",
+    "coordinate_closure": "PIC source in metres \u2192 relative material-column box; no qualified SI geometry/exit-time adapter",
+    "facility": "All physical operating values unknown; bounds are evaluated separately with explicit optimistic assumptions"
+  },
+  "facility": {
+    "source_driver_physical_instance_id": "laser_source_driver",
+    "wall_to_beam_fraction": null,
+    "wall_to_laser_fraction": null,
+    "laser_to_beam_fraction": null,
+    "fired_fraction_per_attempt": null,
+    "attempt_rate_Hz": null,
+    "other_alpha_electric_recovery_fraction": null,
+    "non_alpha_electric_recovery_fraction": null,
+    "stored_energy_change_J_per_attempt": null,
+    "loads": [
+      {
+        "physical_instance_id": "acoustic_driver",
+        "wall_J_per_attempt": null,
+        "wall_J_per_fired": null,
+        "evidence": "UNRESOLVED_WALL_ELECTRIC_MEASUREMENT_OR_DERIVATION",
+        "scope": "No source beam energy or collector recovered work included here"
+      },
+      {
+        "physical_instance_id": "magnet_supply",
+        "wall_J_per_attempt": null,
+        "wall_J_per_fired": null,
+        "evidence": "UNRESOLVED_WALL_ELECTRIC_MEASUREMENT_OR_DERIVATION",
+        "scope": "No source beam energy or collector recovered work included here"
+      },
+      {
+        "physical_instance_id": "vacuum",
+        "wall_J_per_attempt": null,
+        "wall_J_per_fired": null,
+        "evidence": "UNRESOLVED_WALL_ELECTRIC_MEASUREMENT_OR_DERIVATION",
+        "scope": "No source beam energy or collector recovered work included here"
+      },
+      {
+        "physical_instance_id": "cooling",
+        "wall_J_per_attempt": null,
+        "wall_J_per_fired": null,
+        "evidence": "UNRESOLVED_WALL_ELECTRIC_MEASUREMENT_OR_DERIVATION",
+        "scope": "No source beam energy or collector recovered work included here"
+      },
+      {
+        "physical_instance_id": "HV_bias_leakage_and_suppressor",
+        "wall_J_per_attempt": null,
+        "wall_J_per_fired": null,
+        "evidence": "UNRESOLVED_WALL_ELECTRIC_MEASUREMENT_OR_DERIVATION",
+        "scope": "No source beam energy or collector recovered work included here"
+      },
+      {
+        "physical_instance_id": "target_handling_and_replacement",
+        "wall_J_per_attempt": null,
+        "wall_J_per_fired": null,
+        "evidence": "UNRESOLVED_WALL_ELECTRIC_MEASUREMENT_OR_DERIVATION",
+        "scope": "No source beam energy or collector recovered work included here"
+      },
+      {
+        "physical_instance_id": "diagnostics_controls",
+        "wall_J_per_attempt": null,
+        "wall_J_per_fired": null,
+        "evidence": "UNRESOLVED_WALL_ELECTRIC_MEASUREMENT_OR_DERIVATION",
+        "scope": "No source beam energy or collector recovered work included here"
+      }
+    ]
+  },
+  "actual_apparatus_dimensions": null,
+  "scientific_freeze": false
+}

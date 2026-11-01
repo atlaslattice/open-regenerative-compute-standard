@@ -1,0 +1,36 @@
+test_alpha_direct_only (test_accounting.Tests.test_alpha_direct_only) ... ok
+test_alternative_source_accounting_rejected (test_accounting.Tests.test_alternative_source_accounting_rejected) ... ok
+test_attempt_costs_not_removed_when_no_fire (test_accounting.Tests.test_attempt_costs_not_removed_when_no_fire) ... ok
+test_bad_efficiency_rejected (test_accounting.Tests.test_bad_efficiency_rejected) ... ok
+test_common_scale_preserves_frontier (test_accounting.Tests.test_common_scale_preserves_frontier) ... ok
+test_duplicate_physical_load_rejected (test_accounting.Tests.test_duplicate_physical_load_rejected) ... ok
+test_efficiency_threshold (test_accounting.Tests.test_efficiency_threshold) ... ok
+test_firing_throughput_does_not_change_per_fire_energy (test_accounting.Tests.test_firing_throughput_does_not_change_per_fire_energy) ... ok
+test_full_recovery_yields_Q_once (test_accounting.Tests.test_full_recovery_yields_Q_once) ... ok
+test_grid_and_source_not_counted_twice (test_accounting.Tests.test_grid_and_source_not_counted_twice) ... ok
+test_impossible_partition_rejected (test_accounting.Tests.test_impossible_partition_rejected) ... ok
+test_known_auxiliary_draw_reduces_net (test_accounting.Tests.test_known_auxiliary_draw_reduces_net) ... ok
+test_missing_load_is_not_zero (test_accounting.Tests.test_missing_load_is_not_zero) ... ok
+test_missing_source_efficiency_unknown (test_accounting.Tests.test_missing_source_efficiency_unknown) ... ok
+test_noncyclic_storage_has_no_steady_gain_claim (test_accounting.Tests.test_noncyclic_storage_has_no_steady_gain_claim) ... ok
+test_optical_chain_product (test_accounting.Tests.test_optical_chain_product) ... ok
+test_unknown_attempt_rate_preserves_energy_but_not_power (test_accounting.Tests.test_unknown_attempt_rate_preserves_energy_but_not_power) ... ok
+test_zero_reaction_limit (test_accounting.Tests.test_zero_reaction_limit) ... ok
+test_auxiliary_own_input_recovery_not_double_counted (test_recovery_boundaries.Recovery.test_auxiliary_own_input_recovery_not_double_counted) ... ok
+test_direct_alpha_only_not_rescued_by_source_loss_credit (test_recovery_boundaries.Recovery.test_direct_alpha_only_not_rescued_by_source_loss_credit) ... ok
+test_missing_recovery_is_not_zero_credit (test_recovery_boundaries.Recovery.test_missing_recovery_is_not_zero_credit) ... ok
+test_no_recovery_fraction_above_unity (test_recovery_boundaries.Recovery.test_no_recovery_fraction_above_unity) ... ok
+test_perfect_source_has_no_source_loss_credit (test_recovery_boundaries.Recovery.test_perfect_source_has_no_source_loss_credit) ... ok
+test_source_loss_recovery_can_change_boundary_conclusion (test_recovery_boundaries.Recovery.test_source_loss_recovery_can_change_boundary_conclusion) ... ok
+test_source_remainder_excludes_beam_energy (test_recovery_boundaries.Recovery.test_source_remainder_excludes_beam_energy) ... ok
+test_zero_source_loss_credit_is_scoped_threshold (test_recovery_boundaries.Recovery.test_zero_source_loss_credit_is_scoped_threshold) ... ok
+test_unregistered_collector_setting_rejected (test_runner_guard.Guard.test_unregistered_collector_setting_rejected) ... ok
+test_idle_loss_recovery_distinct (test_source_idle.Idle.test_idle_loss_recovery_distinct) ... ok
+test_missing_idle_wall_not_silently_zero (test_source_idle.Idle.test_missing_idle_wall_not_silently_zero) ... ok
+test_nonfiring_attempt_still_pays_source_preparation (test_source_idle.Idle.test_nonfiring_attempt_still_pays_source_preparation) ... ok
+test_perfect_all_input_recovery_conserves_energy (test_source_idle.Idle.test_perfect_all_input_recovery_conserves_energy) ... ok
+
+----------------------------------------------------------------------
+Ran 31 tests in 0.705s
+
+OK

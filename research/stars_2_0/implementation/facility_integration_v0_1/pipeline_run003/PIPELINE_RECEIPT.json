@@ -1,0 +1,15 @@
+{
+  "status": "PASS_FRESH_CONDITIONAL_CONTROL_PIPELINE",
+  "profile_sha256": "3b0d2db9fc713b88ef2b2a4147913abf0a0f2644e4d9f68e93992cd6896acec8",
+  "map_sha256": "5a81009df566414dd0e7ce5fa1218ec3b840198609ade6e171e48c5c4059369c",
+  "executable_sha256": "c5535158c58a00c75440d211722ab333e57bc00ab0bc985ca6b3b776c354a86f",
+  "outputs_sha256": {
+    "source_target/RESULTS.json": "afe996de27eb985f9c5a423c2ad968c6ca062d16c3f07e92ed0ef06def77e7c9",
+    "alpha/RESULTS.json": "f308ce8aad1dd86b82c0b96ecd257a9b8ec9c6be39114fe0126872cba0e8a34d",
+    "alpha/EVENT_BANK.npz": "a58cf76550a69241ce1341723f0999eb8a4069f4545ecc262601c5efad513a87",
+    "integrated/RESULTS.json": "6655b9cc0461f1cf6ebe91989362fc974bff2fe5059509be37034781ff756202",
+    "integrated/PARTITION.npz": "e5c503fc07674ec3714e9c81c46f90360400af14f0e3ab2ad4c379ef1a5a387e"
+  },
+  "scientific_freeze": false,
+  "actual_apparatus_net_power_W": null
+}

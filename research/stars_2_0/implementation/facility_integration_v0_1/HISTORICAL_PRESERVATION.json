@@ -1,0 +1,7 @@
+{
+  "original_commit": "34c4a8c3f3994805958395a48787be9cda56f00c",
+  "snapshot_files_checked": 2091,
+  "modified_or_deleted_original_files": [],
+  "replay_audit_sideeffect": "A legacy finite audit regenerated its checklist in a different filesystem order. The new replay audit is kept separately in restoration/FINITE_AUDIT_REPLAY.json; the original source record was restored byte-for-byte. Named checks and results were identical.",
+  "new_release_path": "research/stars_2_0/implementation/facility_integration_v0_1"
+}

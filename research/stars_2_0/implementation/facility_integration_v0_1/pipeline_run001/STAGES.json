@@ -1,0 +1,57 @@
+[
+  {
+    "stage": "source_target",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "/workspace/scratch/6126a9592c76/repository/research/stars_2_0/implementation/warpx_target_handoff_v0_2/run.py",
+      "--runtime",
+      "/workspace/scratch/6126a9592c76/runtime_restore/env",
+      "--map",
+      "/workspace/scratch/6126a9592c76/runtime_restore/map_builder/maps/canonical_mm.h5",
+      "--handoff-dir",
+      "/workspace/scratch/6126a9592c76/repository/research/stars_2_0/implementation/particle_handoff_v0_1",
+      "--out",
+      "/workspace/scratch/6126a9592c76/fresh_integrated_pipeline/source_target"
+    ],
+    "returncode": 0,
+    "elapsed_s": 1.4705193042755127
+  },
+  {
+    "stage": "alpha",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "/workspace/scratch/6126a9592c76/repository/research/stars_2_0/implementation/alpha_birth_escape_v0_1/run_refined.py",
+      "--receiver",
+      "/workspace/scratch/6126a9592c76/fresh_integrated_pipeline/source_target/RESULTS.json",
+      "--models",
+      "/workspace/scratch/6126a9592c76/repository/research/stars_2_0/implementation",
+      "--samples-per-cell",
+      "256",
+      "--seed",
+      "20261101",
+      "--out",
+      "/workspace/scratch/6126a9592c76/fresh_integrated_pipeline/alpha"
+    ],
+    "returncode": 0,
+    "elapsed_s": 7.627419948577881
+  },
+  {
+    "stage": "facility",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "/workspace/scratch/6126a9592c76/repository/research/stars_2_0/implementation/facility_integration_v0_1/run_v003.py",
+      "--models",
+      "/workspace/scratch/6126a9592c76/repository/research/stars_2_0/implementation",
+      "--profile",
+      "/workspace/scratch/6126a9592c76/repository/research/stars_2_0/implementation/facility_integration_v0_1/PROFILE.json",
+      "--receiver",
+      "/workspace/scratch/6126a9592c76/fresh_integrated_pipeline/source_target/RESULTS.json",
+      "--bank",
+      "/workspace/scratch/6126a9592c76/fresh_integrated_pipeline/alpha/EVENT_BANK.npz",
+      "--out",
+      "/workspace/scratch/6126a9592c76/fresh_integrated_pipeline/integrated"
+    ],
+    "returncode": 0,
+    "elapsed_s": 0.7421314716339111
+  }
+]

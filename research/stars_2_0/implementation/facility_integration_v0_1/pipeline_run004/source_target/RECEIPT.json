@@ -1,0 +1,79 @@
+{
+  "status": "PASS",
+  "stages": [
+    {
+      "stage": "MAP",
+      "returncode": 0,
+      "command": [
+        "/workspace/scratch/6126a9592c76/runtime_restore/env/bin/python",
+        "/workspace/scratch/6126a9592c76/fresh_integrated_pipeline_v004/source_target/audit_map.py",
+        "/workspace/scratch/6126a9592c76/runtime_restore/map_builder/maps/canonical_mm.h5",
+        "/workspace/scratch/6126a9592c76/fresh_integrated_pipeline_v004/source_target/MAP.json"
+      ],
+      "elapsed_s": 0.13301753997802734
+    },
+    {
+      "stage": "field_on",
+      "returncode": 0,
+      "command": [
+        "/workspace/scratch/6126a9592c76/runtime_restore/env/bin/warpx.3d",
+        "/workspace/scratch/6126a9592c76/fresh_integrated_pipeline_v004/source_target/inputs/field_on"
+      ],
+      "elapsed_s": 0.2364640235900879
+    },
+    {
+      "stage": "field_off",
+      "returncode": 0,
+      "command": [
+        "/workspace/scratch/6126a9592c76/runtime_restore/env/bin/warpx.3d",
+        "/workspace/scratch/6126a9592c76/fresh_integrated_pipeline_v004/source_target/inputs/field_off"
+      ],
+      "elapsed_s": 0.08582782745361328
+    },
+    {
+      "stage": "half_dt",
+      "returncode": 0,
+      "command": [
+        "/workspace/scratch/6126a9592c76/runtime_restore/env/bin/warpx.3d",
+        "/workspace/scratch/6126a9592c76/fresh_integrated_pipeline_v004/source_target/inputs/half_dt"
+      ],
+      "elapsed_s": 0.36493396759033203
+    },
+    {
+      "stage": "EXTRACT",
+      "returncode": 0,
+      "command": [
+        "/workspace/scratch/6126a9592c76/runtime_restore/env/bin/python",
+        "/workspace/scratch/6126a9592c76/fresh_integrated_pipeline_v004/source_target/read_scrapes.py",
+        "/workspace/scratch/6126a9592c76/fresh_integrated_pipeline_v004/source_target"
+      ],
+      "elapsed_s": 0.17366600036621094
+    },
+    {
+      "stage": "COUPLE",
+      "returncode": 0,
+      "command": [
+        "/workspace/scratch/6126a9592c76/runtime_restore/env/bin/python",
+        "/workspace/scratch/6126a9592c76/fresh_integrated_pipeline_v004/source_target/couple.py",
+        "/workspace/scratch/6126a9592c76/fresh_integrated_pipeline_v004/source_target"
+      ],
+      "elapsed_s": 0.21907925605773926
+    },
+    {
+      "stage": "TESTS",
+      "returncode": 0,
+      "command": [
+        "/workspace/scratch/6126a9592c76/runtime_restore/env/bin/python",
+        "-m",
+        "unittest",
+        "test_bridge",
+        "-v"
+      ],
+      "elapsed_s": 0.06794571876525879
+    }
+  ],
+  "executable_sha256": "c5535158c58a00c75440d211722ab333e57bc00ab0bc985ca6b3b776c354a86f",
+  "model_sha256": "cbb2ca13612dacea05329fa3fbd517cd1e2ab4fedfb25986a831bb8dcffe9d0b",
+  "map_sha256": "5a81009df566414dd0e7ce5fa1218ec3b840198609ade6e171e48c5c4059369c",
+  "scientific_freeze": false
+}
