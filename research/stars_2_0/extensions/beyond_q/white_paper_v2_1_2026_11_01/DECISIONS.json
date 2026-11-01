@@ -1,0 +1,62 @@
+{
+  "document_version": "white-paper-2.1",
+  "date": "2026-11-01",
+  "authority": "Project originator instructions in this conversation; scientific results retain independent evidence status",
+  "purpose": "Isotope-first dual-reactor module, with secondary available electricity; no dependence on a GPU/QPU campus",
+  "powers": {
+    "A_primary_DD_fusion_MW": 1100,
+    "B_default_matched_DT_fusion_MW": 1100,
+    "B_explicit_public_reference_DT_fusion_MW": 1130,
+    "A_historical_net_electric_projection_MW": 20,
+    "A_historical_projection_status": "UNRESOLVED; never interpret as 20 MW fusion"
+  },
+  "recovery": {
+    "He3_overall_eventual_birth_to_product_candidate_cases": [0.375, 0.75, 0.9],
+    "evidence": "ASSUMED conservative-potential/planning/optimistic scenarios, not measured bounds",
+    "apply_lumped_loss_once": true
+  },
+  "allocation": {
+    "next_version_default_He3_retained_fraction": 0.0,
+    "saved_v2_0_He3_retained_fraction": 0.5,
+    "saved_v2_0_inputs_unchanged": true,
+    "retention_optional": true,
+    "T_startup_and_operating_reserve_required": true,
+    "product_value_distinct_from_realized_sales": true,
+    "GPU_QPU_configuration_capital_financing_and_revenue": "EXCLUDED"
+  },
+  "financing": {
+    "each_new_campus_has_separate_external_project_financing": true,
+    "predecessor_cash_need_not_pay_recipient_CAPEX": true,
+    "illustrative_loan_years": 30,
+    "illustrative_annual_rate": 0.05,
+    "He3_price_USD_per_STP_L": 1500,
+    "T_price_USD_per_gram": 1500,
+    "A_and_B_housing_site_and_maintenance_costs_required": true,
+    "complete_installed_cost_and_profit": "UNRESOLVED"
+  },
+  "controlling_rollout_rule": {
+    "campus_2_fueled_by": [1],
+    "campus_3_fueled_by": [1, 2],
+    "campus_k_fueled_by": "Eligible operating predecessor campuses 1 through k-1",
+    "donor_fuel": "Qualified, physically available, uncommitted mobile T above own reserve floors",
+    "startup_requires": ["donor sustainability qualification", "recipient fuel readiness", "recipient financing readiness", "site and construction readiness"],
+    "shipments_debit_donors": true,
+    "reserved_fuel_cannot_be_committed_twice": true,
+    "transferred_T_cannot_also_be_sold": true,
+    "transport_and_decay_explicit": true,
+    "intercampus_payment_or_ownership_contract": "UNRESOLVED; do not presume free supply or invent receipts",
+    "growth_can_accelerate": true,
+    "exponential_growth_demonstrated": false,
+    "expansion_controller_executed": false
+  },
+  "saved_fleet_run": {
+    "years": 60,
+    "module_counts": [1, 50],
+    "commissioning_interval_years": 0.1,
+    "intermodule_transfers": false,
+    "represents_new_rollout_rule": false,
+    "He3_fleet_sales_cap_350000_L_is": "Illustrative demand stress case, not global market measurement"
+  },
+  "all_physical_gates": "G1-G5 OPEN",
+  "next_action_after_checkpoint": "Implement separately financed predecessor-fuel expansion controller and zero-default-He3-retention in a NEW version; compare against fixed-calendar and synchronized controls"
+}
