@@ -1,0 +1,102 @@
+{
+  "status": "POTENTIAL-DERIVED scenarios; VERIFIED-DERIVED arithmetic only",
+  "rates_assumed": {
+    "annual_interest": 0.05,
+    "years": 30,
+    "debt_fraction": 1,
+    "He3_USD_per_STP_L": 1500,
+    "T_USD_per_gram": 1500
+  },
+  "capital_recovery_factor": 0.06505143508027657,
+  "financing": [
+    {
+      "financed_USD": 5670000000.0,
+      "annual_debt_service_USD": 368841636.9051681,
+      "total_payments_USD": 11065249107.155043,
+      "total_interest_USD": 5395249107.155043
+    },
+    {
+      "financed_USD": 5900000000.0,
+      "annual_debt_service_USD": 383803466.9736317,
+      "total_payments_USD": 11514104009.20895,
+      "total_interest_USD": 5614104009.20895
+    },
+    {
+      "financed_USD": 8000000000.0,
+      "annual_debt_service_USD": 520411480.6422125,
+      "total_payments_USD": 15612344419.266375,
+      "total_interest_USD": 7612344419.266375
+    },
+    {
+      "financed_USD": 12000000000.0,
+      "annual_debt_service_USD": 780617220.9633187,
+      "total_payments_USD": 23418516628.899563,
+      "total_interest_USD": 11418516628.899563
+    }
+  ],
+  "isotope_cases": [
+    {
+      "He3_qualified_sold_STP_L": 175000,
+      "T_qualified_export_kg": 0,
+      "He3_revenue_USD": 262500000,
+      "T_revenue_USD": 0,
+      "gross_isotope_revenue_USD": 262500000,
+      "revenue_less_5_67B_debt_before_all_other_costs_USD": -106341636.90516812,
+      "net_profit_USD": null
+    },
+    {
+      "He3_qualified_sold_STP_L": 175000,
+      "T_qualified_export_kg": 5,
+      "He3_revenue_USD": 262500000,
+      "T_revenue_USD": 7500000,
+      "gross_isotope_revenue_USD": 270000000,
+      "revenue_less_5_67B_debt_before_all_other_costs_USD": -98841636.90516812,
+      "net_profit_USD": null
+    },
+    {
+      "He3_qualified_sold_STP_L": 175000,
+      "T_qualified_export_kg": 20,
+      "He3_revenue_USD": 262500000,
+      "T_revenue_USD": 30000000,
+      "gross_isotope_revenue_USD": 292500000,
+      "revenue_less_5_67B_debt_before_all_other_costs_USD": -76341636.90516812,
+      "net_profit_USD": null
+    },
+    {
+      "He3_qualified_sold_STP_L": 350000,
+      "T_qualified_export_kg": 0,
+      "He3_revenue_USD": 525000000,
+      "T_revenue_USD": 0,
+      "gross_isotope_revenue_USD": 525000000,
+      "revenue_less_5_67B_debt_before_all_other_costs_USD": 156158363.09483188,
+      "net_profit_USD": null
+    },
+    {
+      "He3_qualified_sold_STP_L": 350000,
+      "T_qualified_export_kg": 5,
+      "He3_revenue_USD": 525000000,
+      "T_revenue_USD": 7500000,
+      "gross_isotope_revenue_USD": 532500000,
+      "revenue_less_5_67B_debt_before_all_other_costs_USD": 163658363.09483188,
+      "net_profit_USD": null
+    },
+    {
+      "He3_qualified_sold_STP_L": 350000,
+      "T_qualified_export_kg": 20,
+      "He3_revenue_USD": 525000000,
+      "T_revenue_USD": 30000000,
+      "gross_isotope_revenue_USD": 555000000,
+      "revenue_less_5_67B_debt_before_all_other_costs_USD": 186158363.09483188,
+      "net_profit_USD": null
+    }
+  ],
+  "physical_validation": false,
+  "operating_cost_USD": null,
+  "GPU_margin_USD": null,
+  "notes": [
+    "Sales quantities are hypothetical qualified exports, not simulated saleable surplus.",
+    "5.67B is the corrected historical ledger, not a CFS quote; 5.9B=two assumed 2.8B chassis plus 0.3B gross adaptation, without turbine savings. Alternative scopes, never additive.",
+    "8B and 12B are cost stress cases, not estimates. Interest during construction, fees, taxes, working capital, replacement and OPEX are excluded.",
+    "Debt ends after year 30 only if fully amortized and no refinancing/new debt. Replacement and decommissioning obligations remain."
+  ]
+}

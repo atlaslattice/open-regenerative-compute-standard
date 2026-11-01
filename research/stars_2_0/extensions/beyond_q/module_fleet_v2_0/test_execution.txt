@@ -1,0 +1,21 @@
+test_50_independent_commissioning_and_one_market_cap (test_model.ResearchChecks.test_50_independent_commissioning_and_one_market_cap) ... ok
+test_compartment_matches_scalar_reference (test_model.ResearchChecks.test_compartment_matches_scalar_reference) ... ok
+test_financing_amortizes_and_costs_add_once (test_model.ResearchChecks.test_financing_amortizes_and_costs_add_once) ... ok
+test_fully_specified_cost_case_is_still_conditional (test_model.ResearchChecks.test_fully_specified_cost_case_is_still_conditional) ... ok
+test_invalid_market_and_recovery_fail_visibly (test_model.ResearchChecks.test_invalid_market_and_recovery_fail_visibly) ... ok
+test_market_cap_and_unsold_inventory (test_model.ResearchChecks.test_market_cap_and_unsold_inventory) ... ok
+test_missing_costs_never_become_profit (test_model.ResearchChecks.test_missing_costs_never_become_profit) ... ok
+test_negative_energy_case_stays_negative (test_model.ResearchChecks.test_negative_energy_case_stays_negative) ... ok
+test_no_B_breeding_does_not_remove_DD_neutrons (test_model.ResearchChecks.test_no_B_breeding_does_not_remove_DD_neutrons) ... ok
+test_no_secondary_T_burn_preserves_primary_source (test_model.ResearchChecks.test_no_secondary_T_burn_preserves_primary_source) ... ok
+test_no_source_no_products_or_B_start (test_model.ResearchChecks.test_no_source_no_products_or_B_start) ... ok
+test_recovery_applied_once (test_model.ResearchChecks.test_recovery_applied_once) ... ok
+test_source_energy_and_neutrons (test_model.ResearchChecks.test_source_energy_and_neutrons) ... ok
+test_startup_does_not_import_T (test_model.ResearchChecks.test_startup_does_not_import_T) ... ok
+test_timestep_refinement (test_model.ResearchChecks.test_timestep_refinement) ... ok
+test_tritium_export_is_a_sink (test_model.ResearchChecks.test_tritium_export_is_a_sink) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 2.464s
+
+OK

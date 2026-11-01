@@ -1,0 +1,32 @@
+[
+  {
+    "step_days": 0.25,
+    "final_T_kg": 228.2390415601054,
+    "B_burn_total_kg": 116.94633388729734,
+    "He3_pipeline_exit_kg": 344.2849623816739,
+    "startup_day": 246.0,
+    "net_MWh": 4361136.371681513,
+    "B_burn_relative_to_finest": -3.076428001236309e-13,
+    "final_T_relative_to_finest": 0.0002155776176357982
+  },
+  {
+    "step_days": 0.125,
+    "final_T_kg": 228.205243902106,
+    "B_burn_total_kg": 116.94633388729598,
+    "He3_pipeline_exit_kg": 344.31396665827197,
+    "startup_day": 246.0,
+    "net_MWh": 4361136.37168106,
+    "B_burn_relative_to_finest": -3.19300141882195e-13,
+    "final_T_relative_to_finest": 6.746560407777658e-05
+  },
+  {
+    "step_days": 0.0625,
+    "final_T_kg": 228.1898489361031,
+    "B_burn_total_kg": 116.94633388733332,
+    "He3_pipeline_exit_kg": 344.3270779197096,
+    "startup_day": 246.0,
+    "net_MWh": 4361136.3716817675,
+    "B_burn_relative_to_finest": 0.0,
+    "final_T_relative_to_finest": 0.0
+  }
+]
