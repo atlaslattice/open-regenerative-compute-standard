@@ -22,3 +22,10 @@ Steel, iron, stainless, aluminum, copper, brass, zinc, tin, lead, nickel, mangan
 
 ## Resume
 Read the [full white paper](https://github.com/atlaslattice/open-regenerative-compute-standard/blob/main/research/shreddernaut/2026-10-20-shreddernaut-20tpd-energy-materials-whitepaper-v0.1.md); do not promote old forecast revenues or capex to fact. Keep OPEN/MODELED/UNKNOWN labels and all earlier archived versions.
+
+
+## November 1, 2026 — e-waste solar and oilfield-brine boundary (new provenance)
+
+[Penn State / Intel-E-Waste's NSF-stage prototype program](https://iee.psu.edu/news/startup-penn-state-research-scale-domestic-critical-mineral-recovery) describes recovery of strategic metals from complex e-waste and end-of-life solar panels, with up to $2M initial 10-month support; this is **E3 research award/prototype development**, *not* measured Shreddernaut extraction performance. Pre-sort dedicated e-waste and PV intake; exclude uncontrolled lithium batteries/charged devices and hazardous lead/cadmium sources from a generic 20 t/day shredder feed. Audit dismantling, environmental permits, qualified hazardous transport/refiner handling, actual product purity and reject streams before any revenue estimate.
+
+[ORNL's October 7 oilfield-brine lithium update](https://www.ornl.gov/news/national-lab-partnership-helps-launch-u-s-lithium-supply-chain/) concerns a **chemically separate aqueous separation line**, with the underlying Element3 facility milestone in February 2026. Do not model brine as dry solids throughput in the 20 t/day Shreddernaut and do not add unmeasured lithium to the machine's output ledger. Brine processing and PV recycling go into connected specialized factories subject to actual feedstock assay and independent cost/energy/environmental analysis. [Nov 1 cross-program register](https://github.com/atlaslattice/open-regenerative-compute-standard/blob/main/research/ORCS_2026_11_01_CROSS_PROGRAM_NEWS_EVIDENCE_AND_IMPLEMENTATION_REGISTER.md).
