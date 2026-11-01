@@ -1,5 +1,6 @@
 # ORCS Transformer 4.0 — T4-S50 SiC Solid-State Transformer (Advanced Branch)
 ## Independently scoped R&D product specification · v0.2 · 2026-11-01
+> **November 1, 2026 v0.3 application split:** The v0.2 **single-phase 480 VAC → 120/240 VAC** design remains this advanced industrial AC research branch. For the distinct AI data-center **three-phase 480 VAC → 800 VDC, 50 kW power tile**, OCP standards crosswalk, 5+1 synthetic 250 kW rack, explicit AFE/DAB/matrix/partial-power alternatives and assumption-only $16k–$70k per-tile cost class, use the [new T4-S50-DC v0.3 application-specific spec](T4_S50_DC_800V_AI_FACTORY_SST_RETROFIT_AND_TOPOLOGY_SPEC_v0_3_2026-11-01.md). OCP's 5–10 MW MV input specification is a **different product class**; neither branch is a qualified product or commercial RFQ.
 
 **Status:** ADVANCED R&D / SYSTEM-ARCHITECTURE AND SUPPLIER-DIALOGUE-READY ONLY / UNBUILT / UNVALIDATED / UNCERTIFIED / UNFUNDED. **Not a utility distribution transformer replacement**, not a commercially validated data-center product, not an assertion of 97% measured efficiency. The candidate is not ready for a binding production RFQ.
 
