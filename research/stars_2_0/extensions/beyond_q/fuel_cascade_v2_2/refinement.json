@@ -1,0 +1,20 @@
+[
+  {
+    "step_days": 0.25,
+    "commission_days": [
+      1762.75
+    ],
+    "final_T_kg": 368.1756774340452,
+    "fuel_sent_kg": 85.09027970794779,
+    "pool_residual_kg": 4.565237077258644e-13
+  },
+  {
+    "step_days": 0.125,
+    "commission_days": [
+      1762.75
+    ],
+    "final_T_kg": 367.86773896688345,
+    "fuel_sent_kg": 85.09027970794779,
+    "pool_residual_kg": 8.490985692333197e-13
+  }
+]

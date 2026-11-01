@@ -1,0 +1,53 @@
+[
+  {
+    "scenario": "strict_unresolved",
+    "commissioned_by_horizon": 1,
+    "first_successor_commission_year": null,
+    "last_successor_commission_year": null,
+    "commissioned_50_year": null,
+    "max_pool_mass_residual_kg": 0.0,
+    "donor_floor_violations": 0,
+    "physical_validation": false
+  },
+  {
+    "scenario": "sequential_predecessors",
+    "commissioned_by_horizon": 15,
+    "first_successor_commission_year": 4.8261464750171115,
+    "last_successor_commission_year": 57.14647501711157,
+    "commissioned_50_year": null,
+    "max_pool_mass_residual_kg": 6.696199150724169e-12,
+    "donor_floor_violations": 0,
+    "physical_validation": false
+  },
+  {
+    "scenario": "eligible_pool",
+    "commissioned_by_horizon": 50,
+    "first_successor_commission_year": 4.8261464750171115,
+    "last_successor_commission_year": 42.279945242984255,
+    "commissioned_50_year": 42.279945242984255,
+    "max_pool_mass_residual_kg": 6.545386455059088e-11,
+    "donor_floor_violations": 0,
+    "physical_validation": false
+  },
+  {
+    "scenario": "fixed_calendar",
+    "commissioned_by_horizon": 50,
+    "first_successor_commission_year": null,
+    "last_successor_commission_year": null,
+    "commissioned_50_year": null,
+    "max_pool_mass_residual_kg": null,
+    "donor_floor_violations": null,
+    "physical_validation": false
+  },
+  {
+    "scenario": "synchronized_seeded_control",
+    "commissioned_by_horizon": 50,
+    "first_successor_commission_year": null,
+    "last_successor_commission_year": null,
+    "commissioned_50_year": null,
+    "max_pool_mass_residual_kg": null,
+    "donor_floor_violations": null,
+    "physical_validation": false
+  }
+]
+Independent shipment/custody sums reconcile.

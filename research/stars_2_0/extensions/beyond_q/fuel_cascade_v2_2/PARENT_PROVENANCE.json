@@ -1,0 +1,6 @@
+{
+  "parent_commit": "15df944c1d9c4ba284a7b86d894a6451c69b20da",
+  "kernel_basis": "module_fleet_v2_0/model.py",
+  "basis_sha256": "e8853afa15cc3adbe14303aab8b9821d6746eb9a63f0daa76abb3178e9834d10",
+  "changes": "Separate new copy, hooks for external inventory/commissioning controller; fuel_sent/received accounting. Prior files unchanged."
+}
