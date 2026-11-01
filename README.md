@@ -306,3 +306,10 @@ Fork. Adapt. Publish. The standard improves when more operators, researchers, an
 ## Wastewater public-health observability
 
 [Cross-cutting first-class integration standard v0.1](docs/wastewater-observability-v0_1/WASTEWATER_PUBLIC_HEALTH_OBSERVABILITY_v0_1.md) adds sampling, targeted assays, sequencing, optional chemical monitoring, public-health interpretation and separate reuse qualification interfaces. Verily/WastewaterSCAN are reference systems, not a claimed partnership. Malaria remains a research candidate; costs, workload and health outcomes are uncredited pending local validation.
+
+
+## November 1, 2026 — cross-program primary-source sweep and integration
+
+**[November 1 ORCS / New Deal 2.0 / Stars 2.0 evidence register](research/ORCS_2026_11_01_CROSS_PROGRAM_NEWS_EVIDENCE_AND_IMPLEMENTATION_REGISTER.md)** is the source-traced change index for **DOE Grid SCALED ($237M NOFO; Nov 20 concept deadline), Infineon 27-kW AI PSU, ICON construction robot and financing, Promise/D.R. Horton factory agreement, Penn State e-waste/PV metals, ORNL oilfield-brine lithium, Aligned/Munters cooling, Delta CDU, UK Data Centre Covenant, DOE BattMan, and PPPL/CFS SPARC digital twins**. These announcements are integrated as **dated addenda** in the original grid, Transformer 4.0, cooling, housing, national feedstock, Shreddernaut, water, HTAM and Stars/Beyond Q files; no completed funding, hardware qualification, partner contract, or validated fusion performance is implied. The [October 30 evidence index](research/OCTOBER_30_2026_THREE_SWEEP_MASTER_EVIDENCE_INDEX.md) is retained intact, with a crosslink to the newer register.
+
+**Immediate time gate:** [NETL Grid SCALED NOFO DE-FOA-0003641](https://netl.doe.gov/node/15694): eligibility and actual applicant/qualified OEM teaming **not yet established**; concept paper due **2026-11-20, 17:00 Eastern**, full application **2027-02-08, 17:00 Eastern**. Read the entire NOFO before any claimed application commitment. Follow event-state tracking from announced → independently demonstrated → commercially ordered → qualified production → measured operation; none is inferred from industry similarity.
