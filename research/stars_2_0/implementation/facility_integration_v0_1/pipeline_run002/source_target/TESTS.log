@@ -1,0 +1,24 @@
+test_EB_convention (test_bridge.Tests.test_EB_convention) ... ok
+test_aperture_ambiguity (test_bridge.Tests.test_aperture_ambiguity) ... ok
+test_charge (test_bridge.Tests.test_charge) ... ok
+test_clock (test_bridge.Tests.test_clock) ... ok
+test_duplicate (test_bridge.Tests.test_duplicate) ... ok
+test_far_overshoot (test_bridge.Tests.test_far_overshoot) ... ok
+test_id_precision (test_bridge.Tests.test_id_precision) ... ok
+test_incomplete_source (test_bridge.Tests.test_incomplete_source) ... ok
+test_inward (test_bridge.Tests.test_inward) ... ok
+test_known_zero_balance (test_bridge.Tests.test_known_zero_balance) ... ok
+test_mass (test_bridge.Tests.test_mass) ... ok
+test_missing_vs_empty (test_bridge.Tests.test_missing_vs_empty) ... ok
+test_nan_charge (test_bridge.Tests.test_nan_charge) ... ok
+test_nan_momentum (test_bridge.Tests.test_nan_momentum) ... ok
+test_nan_source (test_bridge.Tests.test_nan_source) ... ok
+test_negative_weight (test_bridge.Tests.test_negative_weight) ... ok
+test_projection_preserves_raw (test_bridge.Tests.test_projection_preserves_raw) ... ok
+test_side_loss (test_bridge.Tests.test_side_loss) ... ok
+test_wrong_energy (test_bridge.Tests.test_wrong_energy) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.001s
+
+OK

@@ -1,0 +1,15 @@
+{
+  "helper_url": "https://micro.mamba.pm/api/micromamba/linux-64/latest",
+  "helper_archive_sha256": "9a97976244929bbae28fb1fae504e74a3e7e6d1932870e3a03321f01b7fbd07b",
+  "recipe_sha256": "b1ea2aa0bc27de8b4037275c3464de544280907d4b171635fdbfb9c2dc504afa",
+  "command": [
+    "/workspace/scratch/6126a9592c76/runtime_restore/micromamba",
+    "create",
+    "-y",
+    "-p",
+    "/workspace/scratch/6126a9592c76/runtime_restore/env",
+    "-f",
+    "/workspace/scratch/6126a9592c76/repository/research/stars_2_0/implementation/warpx_pb_kinetic_v0_1/environment_install.txt"
+  ],
+  "returncode": 0
+}

@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "runs": [
+    {
+      "run": "pipeline_run001",
+      "target_scientific_exact": true,
+      "alpha_scientific_exact_excluding_runtime": true,
+      "event_bank_byte_exact": true
+    },
+    {
+      "run": "pipeline_run002",
+      "target_scientific_exact": true,
+      "alpha_scientific_exact_excluding_runtime": true,
+      "event_bank_byte_exact": true
+    },
+    {
+      "run": "pipeline_run003",
+      "target_scientific_exact": true,
+      "alpha_scientific_exact_excluding_runtime": true,
+      "event_bank_byte_exact": true
+    },
+    {
+      "run": "pipeline_run004",
+      "target_scientific_exact": true,
+      "alpha_scientific_exact_excluding_runtime": true,
+      "event_bank_byte_exact": true
+    }
+  ],
+  "event_bank_reference_sha256": "a58cf76550a69241ce1341723f0999eb8a4069f4545ecc262601c5efad513a87"
+}

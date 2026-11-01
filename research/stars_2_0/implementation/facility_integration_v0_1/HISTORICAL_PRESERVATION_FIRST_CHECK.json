@@ -1,0 +1,8 @@
+{
+  "original_commit": "34c4a8c3f3994805958395a48787be9cda56f00c",
+  "snapshot_files_checked": 2091,
+  "modified_or_deleted_original_files": [
+    "repository/research/stars_2_0/implementation/finite_alpha_transport_v0_1/AUDIT.json"
+  ],
+  "new_release_path": "research/stars_2_0/implementation/facility_integration_v0_1"
+}

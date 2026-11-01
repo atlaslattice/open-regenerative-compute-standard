@@ -1,0 +1,10 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "code_sha256": {
+    "run.py": "aba4de3c7ea97b3b2a0b6deeb5f62e70413732d5a68c6087aee3121fca02ef18",
+    "accounting.py": "6204226852c13cebd2f7a0e4f72091288de52b74009b1cbbcba29fe1329c1163"
+  },
+  "partition_sha256": "e5c503fc07674ec3714e9c81c46f90360400af14f0e3ab2ad4c379ef1a5a387e",
+  "profile_sha256": "ade8a89f6bc296e253afb3a6cf52727a0cc627abd926deb2f7c712bf8bc2c3ce"
+}

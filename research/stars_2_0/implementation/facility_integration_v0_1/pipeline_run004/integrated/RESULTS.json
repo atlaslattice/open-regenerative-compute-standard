@@ -1,0 +1,645 @@
+{
+  "status": "EXECUTED_INTEGRATED_CONTROL_FACILITY_PREDICTION_INCOMPLETE",
+  "input_artifact_sha256": {
+    "receiver": "afe996de27eb985f9c5a423c2ad968c6ca062d16c3f07e92ed0ef06def77e7c9",
+    "event_bank": "a58cf76550a69241ce1341723f0999eb8a4069f4545ecc262601c5efad513a87"
+  },
+  "profile_id": "SF_C_INTEGRATED_INTERFACE_CONTROL_2026_11_01_V0_3",
+  "architecture_parent": "SF_C_ORIGINAL_STARS_V0_1",
+  "scope": "INTEGRATED_CONDITIONAL_INTERFACE_CONTROL_NOT_PHYSICAL_APPARATUS",
+  "source_beam_kinetic_MeV": 23625.0,
+  "source_particle_weight": 35000,
+  "source_expected_reactions": 0.01628033146332977,
+  "results": [
+    {
+      "source_model": "PHASE_SPACE_NULL",
+      "expected_reactions": 0.01628033146332977,
+      "alpha_birth_MeV": 0.152294459676311,
+      "alpha_resolved_escape_MeV": 0.15146206271572887,
+      "ideal_alpha_circuit_MeV": 0.010716494397398798,
+      "alpha_energy_partition_MeV": {
+        "material_lower": 0.0008323882884098172,
+        "unresolved_tail": 8.672172322091974e-09,
+        "terminal_heat": 0.013656575813309306,
+        "returned": 0.0278796078750189,
+        "bypass": 0.09920938463000185,
+        "marginal_deferred": 0.0
+      },
+      "frontier": {
+        "beam_kinetic_input_J": 3.785142297825e-09,
+        "nuclear_release_J": 2.2647558351785656e-14,
+        "alpha_birth_kinetic_J": 2.440026247810407e-14,
+        "ideal_alpha_circuit_J": 1.7169716921904266e-15,
+        "non_alpha_energy_by_conservation_J": 3.785140545120874e-09,
+        "maximum_downstream_beam_plus_nuclear_output_J": 3.785164945383352e-09,
+        "nuclear_release_over_beam_kinetic": 5.983277924531208e-06,
+        "source_loss_uncredited_necessary_eta_for_nonnegative_net": 0.9999940167578748,
+        "source_loss_uncredited_threshold_scope": "Downstream recovery perfect, source-conversion-loss electric credit zero, auxiliary net draw zero, cyclic storage; not universal whole-facility bound",
+        "all_input_recovery_energy_only_net_upper_bound_J": 2.2647558351785656e-14,
+        "all_input_recovery_scope": "Perfect electrical return of source/auxiliary conversion losses AND all downstream beam energy, no stored-energy depletion, no unmodeled energy sources. Energy-only upper bound; thermal/exergy feasibility NOT established.",
+        "alpha_direct_only_no_other_credits_required_source_efficiency": 2204545.5466980385,
+        "alpha_direct_only_possible_even_if_source_losses_fully_electrically_recovered": false
+      },
+      "facility": {
+        "status": "INCOMPLETE_FACILITY_INPUTS",
+        "missing": [
+          "acoustic_driver.own_wall_loss_electric_recovery_fraction",
+          "acoustic_driver.wall_J_per_attempt",
+          "acoustic_driver.wall_J_per_fired",
+          "magnet_supply.own_wall_loss_electric_recovery_fraction",
+          "magnet_supply.wall_J_per_attempt",
+          "magnet_supply.wall_J_per_fired",
+          "vacuum.own_wall_loss_electric_recovery_fraction",
+          "vacuum.wall_J_per_attempt",
+          "vacuum.wall_J_per_fired",
+          "cooling.own_wall_loss_electric_recovery_fraction",
+          "cooling.wall_J_per_attempt",
+          "cooling.wall_J_per_fired",
+          "HV_bias_leakage_and_suppressor.own_wall_loss_electric_recovery_fraction",
+          "HV_bias_leakage_and_suppressor.wall_J_per_attempt",
+          "HV_bias_leakage_and_suppressor.wall_J_per_fired",
+          "target_handling_and_replacement.own_wall_loss_electric_recovery_fraction",
+          "target_handling_and_replacement.wall_J_per_attempt",
+          "target_handling_and_replacement.wall_J_per_fired",
+          "diagnostics_controls.own_wall_loss_electric_recovery_fraction",
+          "diagnostics_controls.wall_J_per_attempt",
+          "diagnostics_controls.wall_J_per_fired",
+          "wall_to_beam_efficiency_or_complete_chain",
+          "fired_fraction_per_attempt",
+          "attempt_rate_Hz",
+          "other_alpha_recovery",
+          "non_alpha_recovery",
+          "source_conversion_loss_recovery",
+          "source_driver_idle_preparation_wall",
+          "source_idle_loss_recovery",
+          "stored_energy_change"
+        ],
+        "source_driver_idle_preparation_wall_J_per_attempt": null,
+        "source_idle_electric_recovery_J_per_attempt": null,
+        "source_efficiency": null,
+        "source_gross_wall_J_per_fired": null,
+        "source_conversion_energy_remainder_J_per_fired": null,
+        "source_conversion_electric_recovery_J_per_fired": null,
+        "downstream_electric_J_per_fired": null,
+        "known_auxiliary_wall_subtotal_J_per_attempt": 0.0,
+        "known_auxiliary_wall_subtotal_J_per_fired": 0.0,
+        "known_auxiliary_own_loss_recovery_J_per_attempt": 0.0,
+        "known_auxiliary_own_loss_recovery_J_per_fired": 0.0,
+        "wall_electric_J_per_attempt": null,
+        "output_electric_J_per_attempt": null,
+        "raw_net_electric_J_per_attempt": null,
+        "formal_storage_correction_if_all_flows_were_measured_J": null,
+        "noncyclic_storage_adapter_required": false,
+        "storage_neutral_net_J_per_attempt": null,
+        "storage_neutral_net_W": null,
+        "recovery_scope": "Source and auxiliary credits recover only their OWN wall-input remainder; do not re-credit beam/alpha heat here. No remainder is automatically heat or electricity. Thermal/exergy applicability remains unresolved.",
+        "readiness_interpretation": "Firing changes throughput and amortizes attempt costs; changed per-fired source/target conditions require a new physics run."
+      },
+      "optimistic_bound_probes": [
+        {
+          "wall_to_beam_efficiency_probe": 1.0,
+          "net_upper_bound_if_source_conversion_losses_uncredited_J": 2.2647558351785656e-14,
+          "all_input_recovery_energy_only_net_upper_bound_J": 2.2647558351785656e-14,
+          "required_source_loss_electric_recovery_if_other_beam_recovery_perfect": null,
+          "probe_role": "NUMERICAL_BOUND_EVALUATION_NOT_APPARATUS_PARAMETER"
+        },
+        {
+          "wall_to_beam_efficiency_probe": 0.5,
+          "net_upper_bound_if_source_conversion_losses_uncredited_J": -3.785119650266648e-09,
+          "all_input_recovery_energy_only_net_upper_bound_J": 2.2647558351785656e-14,
+          "required_source_loss_electric_recovery_if_other_beam_recovery_perfect": 0.9999940167220754,
+          "probe_role": "NUMERICAL_BOUND_EVALUATION_NOT_APPARATUS_PARAMETER"
+        },
+        {
+          "wall_to_beam_efficiency_probe": 0.1,
+          "net_upper_bound_if_source_conversion_losses_uncredited_J": -3.406625803286665e-08,
+          "all_input_recovery_energy_only_net_upper_bound_J": 2.2647558351785656e-14,
+          "required_source_loss_electric_recovery_if_other_beam_recovery_perfect": 0.9999993351913418,
+          "probe_role": "NUMERICAL_BOUND_EVALUATION_NOT_APPARATUS_PARAMETER"
+        }
+      ]
+    },
+    {
+      "source_model": "COHERENT_L1_L3_RAW",
+      "expected_reactions": 0.016280331463329772,
+      "alpha_birth_MeV": 0.1522944596763106,
+      "alpha_resolved_escape_MeV": 0.1514654950139619,
+      "ideal_alpha_circuit_MeV": 0.01074888765275388,
+      "alpha_energy_partition_MeV": {
+        "material_lower": 0.0008289640205779625,
+        "unresolved_tail": 6.41770725617351e-10,
+        "terminal_heat": 0.012905426626648604,
+        "returned": 0.0288227916380809,
+        "bypass": 0.09898838909647853,
+        "marginal_deferred": 0.0
+      },
+      "frontier": {
+        "beam_kinetic_input_J": 3.785142297825e-09,
+        "nuclear_release_J": 2.2647558351785656e-14,
+        "alpha_birth_kinetic_J": 2.4400262478104006e-14,
+        "ideal_alpha_circuit_J": 1.7221616638733375e-15,
+        "non_alpha_energy_by_conservation_J": 3.785140545120874e-09,
+        "maximum_downstream_beam_plus_nuclear_output_J": 3.785164945383352e-09,
+        "nuclear_release_over_beam_kinetic": 5.983277924531208e-06,
+        "source_loss_uncredited_necessary_eta_for_nonnegative_net": 0.9999940167578748,
+        "source_loss_uncredited_threshold_scope": "Downstream recovery perfect, source-conversion-loss electric credit zero, auxiliary net draw zero, cyclic storage; not universal whole-facility bound",
+        "all_input_recovery_energy_only_net_upper_bound_J": 2.2647558351785656e-14,
+        "all_input_recovery_scope": "Perfect electrical return of source/auxiliary conversion losses AND all downstream beam energy, no stored-energy depletion, no unmodeled energy sources. Energy-only upper bound; thermal/exergy feasibility NOT established.",
+        "alpha_direct_only_no_other_credits_required_source_efficiency": 2197901.8446571296,
+        "alpha_direct_only_possible_even_if_source_losses_fully_electrically_recovered": false
+      },
+      "facility": {
+        "status": "INCOMPLETE_FACILITY_INPUTS",
+        "missing": [
+          "acoustic_driver.own_wall_loss_electric_recovery_fraction",
+          "acoustic_driver.wall_J_per_attempt",
+          "acoustic_driver.wall_J_per_fired",
+          "magnet_supply.own_wall_loss_electric_recovery_fraction",
+          "magnet_supply.wall_J_per_attempt",
+          "magnet_supply.wall_J_per_fired",
+          "vacuum.own_wall_loss_electric_recovery_fraction",
+          "vacuum.wall_J_per_attempt",
+          "vacuum.wall_J_per_fired",
+          "cooling.own_wall_loss_electric_recovery_fraction",
+          "cooling.wall_J_per_attempt",
+          "cooling.wall_J_per_fired",
+          "HV_bias_leakage_and_suppressor.own_wall_loss_electric_recovery_fraction",
+          "HV_bias_leakage_and_suppressor.wall_J_per_attempt",
+          "HV_bias_leakage_and_suppressor.wall_J_per_fired",
+          "target_handling_and_replacement.own_wall_loss_electric_recovery_fraction",
+          "target_handling_and_replacement.wall_J_per_attempt",
+          "target_handling_and_replacement.wall_J_per_fired",
+          "diagnostics_controls.own_wall_loss_electric_recovery_fraction",
+          "diagnostics_controls.wall_J_per_attempt",
+          "diagnostics_controls.wall_J_per_fired",
+          "wall_to_beam_efficiency_or_complete_chain",
+          "fired_fraction_per_attempt",
+          "attempt_rate_Hz",
+          "other_alpha_recovery",
+          "non_alpha_recovery",
+          "source_conversion_loss_recovery",
+          "source_driver_idle_preparation_wall",
+          "source_idle_loss_recovery",
+          "stored_energy_change"
+        ],
+        "source_driver_idle_preparation_wall_J_per_attempt": null,
+        "source_idle_electric_recovery_J_per_attempt": null,
+        "source_efficiency": null,
+        "source_gross_wall_J_per_fired": null,
+        "source_conversion_energy_remainder_J_per_fired": null,
+        "source_conversion_electric_recovery_J_per_fired": null,
+        "downstream_electric_J_per_fired": null,
+        "known_auxiliary_wall_subtotal_J_per_attempt": 0.0,
+        "known_auxiliary_wall_subtotal_J_per_fired": 0.0,
+        "known_auxiliary_own_loss_recovery_J_per_attempt": 0.0,
+        "known_auxiliary_own_loss_recovery_J_per_fired": 0.0,
+        "wall_electric_J_per_attempt": null,
+        "output_electric_J_per_attempt": null,
+        "raw_net_electric_J_per_attempt": null,
+        "formal_storage_correction_if_all_flows_were_measured_J": null,
+        "noncyclic_storage_adapter_required": false,
+        "storage_neutral_net_J_per_attempt": null,
+        "storage_neutral_net_W": null,
+        "recovery_scope": "Source and auxiliary credits recover only their OWN wall-input remainder; do not re-credit beam/alpha heat here. No remainder is automatically heat or electricity. Thermal/exergy applicability remains unresolved.",
+        "readiness_interpretation": "Firing changes throughput and amortizes attempt costs; changed per-fired source/target conditions require a new physics run."
+      },
+      "optimistic_bound_probes": [
+        {
+          "wall_to_beam_efficiency_probe": 1.0,
+          "net_upper_bound_if_source_conversion_losses_uncredited_J": 2.2647558351785656e-14,
+          "all_input_recovery_energy_only_net_upper_bound_J": 2.2647558351785656e-14,
+          "required_source_loss_electric_recovery_if_other_beam_recovery_perfect": null,
+          "probe_role": "NUMERICAL_BOUND_EVALUATION_NOT_APPARATUS_PARAMETER"
+        },
+        {
+          "wall_to_beam_efficiency_probe": 0.5,
+          "net_upper_bound_if_source_conversion_losses_uncredited_J": -3.785119650266648e-09,
+          "all_input_recovery_energy_only_net_upper_bound_J": 2.2647558351785656e-14,
+          "required_source_loss_electric_recovery_if_other_beam_recovery_perfect": 0.9999940167220754,
+          "probe_role": "NUMERICAL_BOUND_EVALUATION_NOT_APPARATUS_PARAMETER"
+        },
+        {
+          "wall_to_beam_efficiency_probe": 0.1,
+          "net_upper_bound_if_source_conversion_losses_uncredited_J": -3.406625803286665e-08,
+          "all_input_recovery_energy_only_net_upper_bound_J": 2.2647558351785656e-14,
+          "required_source_loss_electric_recovery_if_other_beam_recovery_perfect": 0.9999993351913418,
+          "probe_role": "NUMERICAL_BOUND_EVALUATION_NOT_APPARATUS_PARAMETER"
+        }
+      ]
+    },
+    {
+      "source_model": "INCOHERENT_RAW_ABLATION",
+      "expected_reactions": 0.016280331463329772,
+      "alpha_birth_MeV": 0.15229445967631056,
+      "alpha_resolved_escape_MeV": 0.15147202880920121,
+      "ideal_alpha_circuit_MeV": 0.010745742102357155,
+      "alpha_energy_partition_MeV": {
+        "material_lower": 0.0008224304790030375,
+        "unresolved_tail": 3.8810628682512073e-10,
+        "terminal_heat": 0.012493148695723738,
+        "returned": 0.029395779204075236,
+        "bypass": 0.09883735880704508,
+        "marginal_deferred": 0.0
+      },
+      "frontier": {
+        "beam_kinetic_input_J": 3.785142297825e-09,
+        "nuclear_release_J": 2.2647558351785656e-14,
+        "alpha_birth_kinetic_J": 2.4400262478104e-14,
+        "ideal_alpha_circuit_J": 1.7216576911386671e-15,
+        "non_alpha_energy_by_conservation_J": 3.785140545120874e-09,
+        "maximum_downstream_beam_plus_nuclear_output_J": 3.785164945383352e-09,
+        "nuclear_release_over_beam_kinetic": 5.983277924531208e-06,
+        "source_loss_uncredited_necessary_eta_for_nonnegative_net": 0.9999940167578748,
+        "source_loss_uncredited_threshold_scope": "Downstream recovery perfect, source-conversion-loss electric credit zero, auxiliary net draw zero, cyclic storage; not universal whole-facility bound",
+        "all_input_recovery_energy_only_net_upper_bound_J": 2.2647558351785656e-14,
+        "all_input_recovery_scope": "Perfect electrical return of source/auxiliary conversion losses AND all downstream beam energy, no stored-energy depletion, no unmodeled energy sources. Energy-only upper bound; thermal/exergy feasibility NOT established.",
+        "alpha_direct_only_no_other_credits_required_source_efficiency": 2198545.226096361,
+        "alpha_direct_only_possible_even_if_source_losses_fully_electrically_recovered": false
+      },
+      "facility": {
+        "status": "INCOMPLETE_FACILITY_INPUTS",
+        "missing": [
+          "acoustic_driver.own_wall_loss_electric_recovery_fraction",
+          "acoustic_driver.wall_J_per_attempt",
+          "acoustic_driver.wall_J_per_fired",
+          "magnet_supply.own_wall_loss_electric_recovery_fraction",
+          "magnet_supply.wall_J_per_attempt",
+          "magnet_supply.wall_J_per_fired",
+          "vacuum.own_wall_loss_electric_recovery_fraction",
+          "vacuum.wall_J_per_attempt",
+          "vacuum.wall_J_per_fired",
+          "cooling.own_wall_loss_electric_recovery_fraction",
+          "cooling.wall_J_per_attempt",
+          "cooling.wall_J_per_fired",
+          "HV_bias_leakage_and_suppressor.own_wall_loss_electric_recovery_fraction",
+          "HV_bias_leakage_and_suppressor.wall_J_per_attempt",
+          "HV_bias_leakage_and_suppressor.wall_J_per_fired",
+          "target_handling_and_replacement.own_wall_loss_electric_recovery_fraction",
+          "target_handling_and_replacement.wall_J_per_attempt",
+          "target_handling_and_replacement.wall_J_per_fired",
+          "diagnostics_controls.own_wall_loss_electric_recovery_fraction",
+          "diagnostics_controls.wall_J_per_attempt",
+          "diagnostics_controls.wall_J_per_fired",
+          "wall_to_beam_efficiency_or_complete_chain",
+          "fired_fraction_per_attempt",
+          "attempt_rate_Hz",
+          "other_alpha_recovery",
+          "non_alpha_recovery",
+          "source_conversion_loss_recovery",
+          "source_driver_idle_preparation_wall",
+          "source_idle_loss_recovery",
+          "stored_energy_change"
+        ],
+        "source_driver_idle_preparation_wall_J_per_attempt": null,
+        "source_idle_electric_recovery_J_per_attempt": null,
+        "source_efficiency": null,
+        "source_gross_wall_J_per_fired": null,
+        "source_conversion_energy_remainder_J_per_fired": null,
+        "source_conversion_electric_recovery_J_per_fired": null,
+        "downstream_electric_J_per_fired": null,
+        "known_auxiliary_wall_subtotal_J_per_attempt": 0.0,
+        "known_auxiliary_wall_subtotal_J_per_fired": 0.0,
+        "known_auxiliary_own_loss_recovery_J_per_attempt": 0.0,
+        "known_auxiliary_own_loss_recovery_J_per_fired": 0.0,
+        "wall_electric_J_per_attempt": null,
+        "output_electric_J_per_attempt": null,
+        "raw_net_electric_J_per_attempt": null,
+        "formal_storage_correction_if_all_flows_were_measured_J": null,
+        "noncyclic_storage_adapter_required": false,
+        "storage_neutral_net_J_per_attempt": null,
+        "storage_neutral_net_W": null,
+        "recovery_scope": "Source and auxiliary credits recover only their OWN wall-input remainder; do not re-credit beam/alpha heat here. No remainder is automatically heat or electricity. Thermal/exergy applicability remains unresolved.",
+        "readiness_interpretation": "Firing changes throughput and amortizes attempt costs; changed per-fired source/target conditions require a new physics run."
+      },
+      "optimistic_bound_probes": [
+        {
+          "wall_to_beam_efficiency_probe": 1.0,
+          "net_upper_bound_if_source_conversion_losses_uncredited_J": 2.2647558351785656e-14,
+          "all_input_recovery_energy_only_net_upper_bound_J": 2.2647558351785656e-14,
+          "required_source_loss_electric_recovery_if_other_beam_recovery_perfect": null,
+          "probe_role": "NUMERICAL_BOUND_EVALUATION_NOT_APPARATUS_PARAMETER"
+        },
+        {
+          "wall_to_beam_efficiency_probe": 0.5,
+          "net_upper_bound_if_source_conversion_losses_uncredited_J": -3.785119650266648e-09,
+          "all_input_recovery_energy_only_net_upper_bound_J": 2.2647558351785656e-14,
+          "required_source_loss_electric_recovery_if_other_beam_recovery_perfect": 0.9999940167220754,
+          "probe_role": "NUMERICAL_BOUND_EVALUATION_NOT_APPARATUS_PARAMETER"
+        },
+        {
+          "wall_to_beam_efficiency_probe": 0.1,
+          "net_upper_bound_if_source_conversion_losses_uncredited_J": -3.406625803286665e-08,
+          "all_input_recovery_energy_only_net_upper_bound_J": 2.2647558351785656e-14,
+          "required_source_loss_electric_recovery_if_other_beam_recovery_perfect": 0.9999993351913418,
+          "probe_role": "NUMERICAL_BOUND_EVALUATION_NOT_APPARATUS_PARAMETER"
+        }
+      ]
+    },
+    {
+      "source_model": "PURE_L1_CONTROL",
+      "expected_reactions": 0.016280331463329772,
+      "alpha_birth_MeV": 0.1522944596763105,
+      "alpha_resolved_escape_MeV": 0.15147569485251455,
+      "ideal_alpha_circuit_MeV": 0.010745280937360832,
+      "alpha_energy_partition_MeV": {
+        "material_lower": 0.0008187645683653416,
+        "unresolved_tail": 2.5543060130703196e-10,
+        "terminal_heat": 0.012250753112789468,
+        "returned": 0.029683588011154543,
+        "bypass": 0.0987960727912097,
+        "marginal_deferred": 0.0
+      },
+      "frontier": {
+        "beam_kinetic_input_J": 3.785142297825e-09,
+        "nuclear_release_J": 2.2647558351785656e-14,
+        "alpha_birth_kinetic_J": 2.440026247810399e-14,
+        "ideal_alpha_circuit_J": 1.7215838043605144e-15,
+        "non_alpha_energy_by_conservation_J": 3.785140545120874e-09,
+        "maximum_downstream_beam_plus_nuclear_output_J": 3.785164945383352e-09,
+        "nuclear_release_over_beam_kinetic": 5.983277924531208e-06,
+        "source_loss_uncredited_necessary_eta_for_nonnegative_net": 0.9999940167578748,
+        "source_loss_uncredited_threshold_scope": "Downstream recovery perfect, source-conversion-loss electric credit zero, auxiliary net draw zero, cyclic storage; not universal whole-facility bound",
+        "all_input_recovery_energy_only_net_upper_bound_J": 2.2647558351785656e-14,
+        "all_input_recovery_scope": "Perfect electrical return of source/auxiliary conversion losses AND all downstream beam energy, no stored-energy depletion, no unmodeled energy sources. Energy-only upper bound; thermal/exergy feasibility NOT established.",
+        "alpha_direct_only_no_other_credits_required_source_efficiency": 2198639.5830617137,
+        "alpha_direct_only_possible_even_if_source_losses_fully_electrically_recovered": false
+      },
+      "facility": {
+        "status": "INCOMPLETE_FACILITY_INPUTS",
+        "missing": [
+          "acoustic_driver.own_wall_loss_electric_recovery_fraction",
+          "acoustic_driver.wall_J_per_attempt",
+          "acoustic_driver.wall_J_per_fired",
+          "magnet_supply.own_wall_loss_electric_recovery_fraction",
+          "magnet_supply.wall_J_per_attempt",
+          "magnet_supply.wall_J_per_fired",
+          "vacuum.own_wall_loss_electric_recovery_fraction",
+          "vacuum.wall_J_per_attempt",
+          "vacuum.wall_J_per_fired",
+          "cooling.own_wall_loss_electric_recovery_fraction",
+          "cooling.wall_J_per_attempt",
+          "cooling.wall_J_per_fired",
+          "HV_bias_leakage_and_suppressor.own_wall_loss_electric_recovery_fraction",
+          "HV_bias_leakage_and_suppressor.wall_J_per_attempt",
+          "HV_bias_leakage_and_suppressor.wall_J_per_fired",
+          "target_handling_and_replacement.own_wall_loss_electric_recovery_fraction",
+          "target_handling_and_replacement.wall_J_per_attempt",
+          "target_handling_and_replacement.wall_J_per_fired",
+          "diagnostics_controls.own_wall_loss_electric_recovery_fraction",
+          "diagnostics_controls.wall_J_per_attempt",
+          "diagnostics_controls.wall_J_per_fired",
+          "wall_to_beam_efficiency_or_complete_chain",
+          "fired_fraction_per_attempt",
+          "attempt_rate_Hz",
+          "other_alpha_recovery",
+          "non_alpha_recovery",
+          "source_conversion_loss_recovery",
+          "source_driver_idle_preparation_wall",
+          "source_idle_loss_recovery",
+          "stored_energy_change"
+        ],
+        "source_driver_idle_preparation_wall_J_per_attempt": null,
+        "source_idle_electric_recovery_J_per_attempt": null,
+        "source_efficiency": null,
+        "source_gross_wall_J_per_fired": null,
+        "source_conversion_energy_remainder_J_per_fired": null,
+        "source_conversion_electric_recovery_J_per_fired": null,
+        "downstream_electric_J_per_fired": null,
+        "known_auxiliary_wall_subtotal_J_per_attempt": 0.0,
+        "known_auxiliary_wall_subtotal_J_per_fired": 0.0,
+        "known_auxiliary_own_loss_recovery_J_per_attempt": 0.0,
+        "known_auxiliary_own_loss_recovery_J_per_fired": 0.0,
+        "wall_electric_J_per_attempt": null,
+        "output_electric_J_per_attempt": null,
+        "raw_net_electric_J_per_attempt": null,
+        "formal_storage_correction_if_all_flows_were_measured_J": null,
+        "noncyclic_storage_adapter_required": false,
+        "storage_neutral_net_J_per_attempt": null,
+        "storage_neutral_net_W": null,
+        "recovery_scope": "Source and auxiliary credits recover only their OWN wall-input remainder; do not re-credit beam/alpha heat here. No remainder is automatically heat or electricity. Thermal/exergy applicability remains unresolved.",
+        "readiness_interpretation": "Firing changes throughput and amortizes attempt costs; changed per-fired source/target conditions require a new physics run."
+      },
+      "optimistic_bound_probes": [
+        {
+          "wall_to_beam_efficiency_probe": 1.0,
+          "net_upper_bound_if_source_conversion_losses_uncredited_J": 2.2647558351785656e-14,
+          "all_input_recovery_energy_only_net_upper_bound_J": 2.2647558351785656e-14,
+          "required_source_loss_electric_recovery_if_other_beam_recovery_perfect": null,
+          "probe_role": "NUMERICAL_BOUND_EVALUATION_NOT_APPARATUS_PARAMETER"
+        },
+        {
+          "wall_to_beam_efficiency_probe": 0.5,
+          "net_upper_bound_if_source_conversion_losses_uncredited_J": -3.785119650266648e-09,
+          "all_input_recovery_energy_only_net_upper_bound_J": 2.2647558351785656e-14,
+          "required_source_loss_electric_recovery_if_other_beam_recovery_perfect": 0.9999940167220754,
+          "probe_role": "NUMERICAL_BOUND_EVALUATION_NOT_APPARATUS_PARAMETER"
+        },
+        {
+          "wall_to_beam_efficiency_probe": 0.1,
+          "net_upper_bound_if_source_conversion_losses_uncredited_J": -3.406625803286665e-08,
+          "all_input_recovery_energy_only_net_upper_bound_J": 2.2647558351785656e-14,
+          "required_source_loss_electric_recovery_if_other_beam_recovery_perfect": 0.9999993351913418,
+          "probe_role": "NUMERICAL_BOUND_EVALUATION_NOT_APPARATUS_PARAMETER"
+        }
+      ]
+    },
+    {
+      "source_model": "PURE_L3_CONTROL",
+      "expected_reactions": 0.016280331463329772,
+      "alpha_birth_MeV": 0.15229445967631078,
+      "alpha_resolved_escape_MeV": 0.15145557993979852,
+      "ideal_alpha_circuit_MeV": 0.010751016051379486,
+      "alpha_energy_partition_MeV": {
+        "material_lower": 0.000838878720485022,
+        "unresolved_tail": 1.0160272192895717e-09,
+        "terminal_heat": 0.013584244945512705,
+        "returned": 0.028089669210057823,
+        "bypass": 0.0990306497328485,
+        "marginal_deferred": 0.0
+      },
+      "frontier": {
+        "beam_kinetic_input_J": 3.785142297825e-09,
+        "nuclear_release_J": 2.2647558351785656e-14,
+        "alpha_birth_kinetic_J": 2.4400262478104035e-14,
+        "ideal_alpha_circuit_J": 1.7225026709279158e-15,
+        "non_alpha_energy_by_conservation_J": 3.785140545120874e-09,
+        "maximum_downstream_beam_plus_nuclear_output_J": 3.785164945383352e-09,
+        "nuclear_release_over_beam_kinetic": 5.983277924531208e-06,
+        "source_loss_uncredited_necessary_eta_for_nonnegative_net": 0.9999940167578748,
+        "source_loss_uncredited_threshold_scope": "Downstream recovery perfect, source-conversion-loss electric credit zero, auxiliary net draw zero, cyclic storage; not universal whole-facility bound",
+        "all_input_recovery_energy_only_net_upper_bound_J": 2.2647558351785656e-14,
+        "all_input_recovery_scope": "Perfect electrical return of source/auxiliary conversion losses AND all downstream beam energy, no stored-energy depletion, no unmodeled energy sources. Energy-only upper bound; thermal/exergy feasibility NOT established.",
+        "alpha_direct_only_no_other_credits_required_source_efficiency": 2197466.7219447247,
+        "alpha_direct_only_possible_even_if_source_losses_fully_electrically_recovered": false
+      },
+      "facility": {
+        "status": "INCOMPLETE_FACILITY_INPUTS",
+        "missing": [
+          "acoustic_driver.own_wall_loss_electric_recovery_fraction",
+          "acoustic_driver.wall_J_per_attempt",
+          "acoustic_driver.wall_J_per_fired",
+          "magnet_supply.own_wall_loss_electric_recovery_fraction",
+          "magnet_supply.wall_J_per_attempt",
+          "magnet_supply.wall_J_per_fired",
+          "vacuum.own_wall_loss_electric_recovery_fraction",
+          "vacuum.wall_J_per_attempt",
+          "vacuum.wall_J_per_fired",
+          "cooling.own_wall_loss_electric_recovery_fraction",
+          "cooling.wall_J_per_attempt",
+          "cooling.wall_J_per_fired",
+          "HV_bias_leakage_and_suppressor.own_wall_loss_electric_recovery_fraction",
+          "HV_bias_leakage_and_suppressor.wall_J_per_attempt",
+          "HV_bias_leakage_and_suppressor.wall_J_per_fired",
+          "target_handling_and_replacement.own_wall_loss_electric_recovery_fraction",
+          "target_handling_and_replacement.wall_J_per_attempt",
+          "target_handling_and_replacement.wall_J_per_fired",
+          "diagnostics_controls.own_wall_loss_electric_recovery_fraction",
+          "diagnostics_controls.wall_J_per_attempt",
+          "diagnostics_controls.wall_J_per_fired",
+          "wall_to_beam_efficiency_or_complete_chain",
+          "fired_fraction_per_attempt",
+          "attempt_rate_Hz",
+          "other_alpha_recovery",
+          "non_alpha_recovery",
+          "source_conversion_loss_recovery",
+          "source_driver_idle_preparation_wall",
+          "source_idle_loss_recovery",
+          "stored_energy_change"
+        ],
+        "source_driver_idle_preparation_wall_J_per_attempt": null,
+        "source_idle_electric_recovery_J_per_attempt": null,
+        "source_efficiency": null,
+        "source_gross_wall_J_per_fired": null,
+        "source_conversion_energy_remainder_J_per_fired": null,
+        "source_conversion_electric_recovery_J_per_fired": null,
+        "downstream_electric_J_per_fired": null,
+        "known_auxiliary_wall_subtotal_J_per_attempt": 0.0,
+        "known_auxiliary_wall_subtotal_J_per_fired": 0.0,
+        "known_auxiliary_own_loss_recovery_J_per_attempt": 0.0,
+        "known_auxiliary_own_loss_recovery_J_per_fired": 0.0,
+        "wall_electric_J_per_attempt": null,
+        "output_electric_J_per_attempt": null,
+        "raw_net_electric_J_per_attempt": null,
+        "formal_storage_correction_if_all_flows_were_measured_J": null,
+        "noncyclic_storage_adapter_required": false,
+        "storage_neutral_net_J_per_attempt": null,
+        "storage_neutral_net_W": null,
+        "recovery_scope": "Source and auxiliary credits recover only their OWN wall-input remainder; do not re-credit beam/alpha heat here. No remainder is automatically heat or electricity. Thermal/exergy applicability remains unresolved.",
+        "readiness_interpretation": "Firing changes throughput and amortizes attempt costs; changed per-fired source/target conditions require a new physics run."
+      },
+      "optimistic_bound_probes": [
+        {
+          "wall_to_beam_efficiency_probe": 1.0,
+          "net_upper_bound_if_source_conversion_losses_uncredited_J": 2.2647558351785656e-14,
+          "all_input_recovery_energy_only_net_upper_bound_J": 2.2647558351785656e-14,
+          "required_source_loss_electric_recovery_if_other_beam_recovery_perfect": null,
+          "probe_role": "NUMERICAL_BOUND_EVALUATION_NOT_APPARATUS_PARAMETER"
+        },
+        {
+          "wall_to_beam_efficiency_probe": 0.5,
+          "net_upper_bound_if_source_conversion_losses_uncredited_J": -3.785119650266648e-09,
+          "all_input_recovery_energy_only_net_upper_bound_J": 2.2647558351785656e-14,
+          "required_source_loss_electric_recovery_if_other_beam_recovery_perfect": 0.9999940167220754,
+          "probe_role": "NUMERICAL_BOUND_EVALUATION_NOT_APPARATUS_PARAMETER"
+        },
+        {
+          "wall_to_beam_efficiency_probe": 0.1,
+          "net_upper_bound_if_source_conversion_losses_uncredited_J": -3.406625803286665e-08,
+          "all_input_recovery_energy_only_net_upper_bound_J": 2.2647558351785656e-14,
+          "required_source_loss_electric_recovery_if_other_beam_recovery_perfect": 0.9999993351913418,
+          "probe_role": "NUMERICAL_BOUND_EVALUATION_NOT_APPARATUS_PARAMETER"
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "name": "per_alpha_budget",
+      "passed": true
+    },
+    {
+      "name": "PHASE_SPACE_NULL_fixed_event_count",
+      "passed": true
+    },
+    {
+      "name": "PHASE_SPACE_NULL_birth_matches_receiver",
+      "passed": true
+    },
+    {
+      "name": "PHASE_SPACE_NULL_saved_collector_reproduced",
+      "passed": true
+    },
+    {
+      "name": "PHASE_SPACE_NULL_all_energy_partition",
+      "passed": true
+    },
+    {
+      "name": "COHERENT_L1_L3_RAW_fixed_event_count",
+      "passed": true
+    },
+    {
+      "name": "COHERENT_L1_L3_RAW_birth_matches_receiver",
+      "passed": true
+    },
+    {
+      "name": "COHERENT_L1_L3_RAW_saved_collector_reproduced",
+      "passed": true
+    },
+    {
+      "name": "COHERENT_L1_L3_RAW_all_energy_partition",
+      "passed": true
+    },
+    {
+      "name": "INCOHERENT_RAW_ABLATION_fixed_event_count",
+      "passed": true
+    },
+    {
+      "name": "INCOHERENT_RAW_ABLATION_birth_matches_receiver",
+      "passed": true
+    },
+    {
+      "name": "INCOHERENT_RAW_ABLATION_saved_collector_reproduced",
+      "passed": true
+    },
+    {
+      "name": "INCOHERENT_RAW_ABLATION_all_energy_partition",
+      "passed": true
+    },
+    {
+      "name": "PURE_L1_CONTROL_fixed_event_count",
+      "passed": true
+    },
+    {
+      "name": "PURE_L1_CONTROL_birth_matches_receiver",
+      "passed": true
+    },
+    {
+      "name": "PURE_L1_CONTROL_saved_collector_reproduced",
+      "passed": true
+    },
+    {
+      "name": "PURE_L1_CONTROL_all_energy_partition",
+      "passed": true
+    },
+    {
+      "name": "PURE_L3_CONTROL_fixed_event_count",
+      "passed": true
+    },
+    {
+      "name": "PURE_L3_CONTROL_birth_matches_receiver",
+      "passed": true
+    },
+    {
+      "name": "PURE_L3_CONTROL_saved_collector_reproduced",
+      "passed": true
+    },
+    {
+      "name": "PURE_L3_CONTROL_all_energy_partition",
+      "passed": true
+    }
+  ],
+  "actual_apparatus_net_power_W": null,
+  "physical_geometry_closure": "OPEN: finite alpha box in column coordinates is not embedded in the source PIC SI geometry; original pocket and real collector not recovered",
+  "storage_sign": "storage_neutral_net = load - wall + (U_end-U_start); discharging storage is not nuclear gain",
+  "new_source_or_full_hybrid_simulation": false
+}

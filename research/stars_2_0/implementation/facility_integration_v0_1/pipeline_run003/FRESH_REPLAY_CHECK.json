@@ -1,0 +1,9 @@
+{
+  "saved_source_target_exact": true,
+  "alpha_scientific_exact_except_runtime": true,
+  "alpha_arrays_exact": true,
+  "fresh_bank_sha256": "a58cf76550a69241ce1341723f0999eb8a4069f4545ecc262601c5efad513a87",
+  "saved_bank_sha256": "a58cf76550a69241ce1341723f0999eb8a4069f4545ecc262601c5efad513a87",
+  "saved_bank_path": "alpha_birth_escape_v0_1/run003/EVENT_BANK.npz",
+  "duplicate_bank_not_redistributed": true
+}

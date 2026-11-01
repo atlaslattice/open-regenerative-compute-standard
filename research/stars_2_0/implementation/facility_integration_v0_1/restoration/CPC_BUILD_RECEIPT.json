@@ -1,0 +1,15 @@
+{
+  "upstream_url": "https://zenodo.org/records/1174079/files/ORM-v1.0-be2fbae9fe05ddb3647071f29c3b963359e65103.zip",
+  "upstream_archive_sha256": "12a2d7de9f8ece865a4c87987b16bf8e3e921b01f5334cf94acc4b69743f7e3c",
+  "library_sha256": "eaa03b015478950401504db6757bc4ba5a74aee5f821af95a10bc177c0148c62",
+  "compiler": "c++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0",
+  "source_sha256": {
+    "external/cpc/src/cwfcomp.cpp": "9f8035ea641bb1f3faf116d4bc3a32bbe7900068f2511056a39b16348da032f8",
+    "external/cpc/include/cpc/cwfcomp.h": "8115e1acaedc8c0c6fc643196e067f3d7b11a4fbc5750e8277ac38935058c686",
+    "external/cpc/include/cpc/complex_functions.h": "8809cc83cb4d731864d2a0f3f70be825183bdbee41144f7cd199d29f115895b2",
+    "LICENSE": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+  },
+  "wrapper_sha256": "8d9968384d25dafd7a622fbdad64a76b3ac11bf3186442ff8d3cf3fa054fa016",
+  "license": "upstream ORM archive GPL3-or-later; upstream files kept with their notices",
+  "GSL_coulomb_used": false
+}
