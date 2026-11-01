@@ -1,5 +1,6 @@
 # ORCS Transformer 4.0 — T4-S50-DC / 800 VDC AI-Factory Power Tile
 ## Market-specific engineering decision, topology trades, cost-class and reproducible load case · v0.3 · 2026-11-01
+> **2026-11-01 standards-alignment successor:** [T4-S50-DC v0.4 — OCP Mt. Diablo v1.0.0 / LVDC / MV SST scope reconciliation and cloud-first QPU architecture](T4_S50_DC_OCP_MT_DIABLO_800VDC_STANDARDS_AND_QPU_INTEGRATION_SPEC_v0_4_2026-11-01.md). The v0.3 250-kW 5+1 case remains a **synthetic test rig**, not an OCP rack SKU. October 8 OCP Mt. Diablo v1.0.0 (480 VAC three-phase → **differential 800 VDC**, 800 kW–1.1 MW+) supersedes the v0.3 generic 800-VDC interpretation for near-term retrofit. The June OCP v0.3 MV SST 5/10 MW reference remains a **separate future product**, not the same 50-kW converter. This older source retains its original hypotheses and cost envelopes as historical assumptions.
 
 **Status:** ENGINEERING RESEARCH / STANDARDS-ALIGNED DESIGN TARGET / SUPPLIER-DIALOGUE-READY / NOT PROTOTYPED, CERTIFIED, FUNDED, PRICE-QUOTED, ORDERED OR ENDORSED. This document does NOT state that OpenAI/Stargate, NVIDIA, Google, Microsoft, OCP or any power-system vendor has adopted ORCS equipment. All "T4" marks are working project names, not a recognized industry standard.
 
