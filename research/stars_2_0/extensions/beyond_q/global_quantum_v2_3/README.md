@@ -128,3 +128,10 @@ Fusion plasma physics, nuclear engineering, tritium fuel-cycle, FLiBe/liquid bla
 
 ### Research contact and credits
 Atlas Lattice independent open research. Please open a GitHub issue or submit a pull request with exact physical assumptions, public references, executable reproduction steps, a falsifying result, or a correction. Retain author, document version, data/source provenance, and dissenting findings.
+
+
+## November 1, 2026 — Beyond Q quantum and digital twin integration watch (external source)
+
+The [PPPL/CFS Oct 8 SPARC/Genesis digital-twin program](https://www.pppl.gov/news/2026/pppl-data-simulation-codes-and-compute-power-will-be-used-phase-ii-genesis-mission) is a *methodological comparator*: tokamak plasma experiment integration, simulation/surrogates, planned <20min between-pulse predictions and separate validation on NSTX-U. There is **no public proof** it validates the ORCS Beyond Q 1.10GW D-D, 1.13GW D-T, helium-3/tritium mass balances or our original WarpX/OpenMC coupling.
+
+**Design request, not completed action:** retain cloud-first QPU adapter/benchmark for batch hybrid work; local deterministic QPU↔GPU controls only where measured real-time error-correction or data-access latency warrants it. Build a **separate quantum vs classical objective** with measured accuracy, uncertainty, end-to-end wall-clock and spend. No published Stargate QPU-node installation is established by this source. Track PPPL's model validation and experimental availability independently of our isotopic ledgers. [Nov 1 evidence register](https://github.com/atlaslattice/open-regenerative-compute-standard/blob/main/research/ORCS_2026_11_01_CROSS_PROGRAM_NEWS_EVIDENCE_AND_IMPLEMENTATION_REGISTER.md).
