@@ -42,7 +42,7 @@ Three separate product **classes** must not be conflated:
 |---|---|---|
 | Input | 480 V L-L RMS, three-phase, 60 Hz; input tolerances TBD | Grounding, neutral if any, transient, harmonics, protection, upstream transformer, actual site |
 | Rated output | **50 kW at 800 VDC nominal**, nominal **62.5 A DC** | Define allowed DC voltage window, polarity, upstream source impedance and bus protection |
-| Approx nominal input current | At 50 kW real DC, **~61.4 A/phase** at assumed 98% efficiency and PF=0.99 | \`50,000/(sqrt(3)*480*0.98*0.99) ≈ 61.4 A\` (rounded), not a cable-sizing instruction |
+| Approx nominal input current | At 50 kW real DC, **~62.0 A/phase** at assumed 98% efficiency and PF=0.99 | \`50,000/(sqrt(3)*480*0.98*0.99) ≈ 62.0 A\` (rounded), not a cable-sizing instruction |
 | Isolation | Galvanic with HF magnetic stage in A/B, or qualifying alternate | Rated impulse, barriers, creepage/clearance, continuous insulation monitor where applicable |
 | Conversion | Option A: 3φ AFE/PFC → HVDC link → isolated DAB to 800 V | Actual DC link voltage, SiC ratings, thermal and controller topology **TBD** |
 | Efficiency | Compete on **measured full-system** curve at 10/25/50/75/100% including coolant, fans and controllers | Do **not** quote 98% OCP MV SST power-train as proof T4-S50 achieved it |
