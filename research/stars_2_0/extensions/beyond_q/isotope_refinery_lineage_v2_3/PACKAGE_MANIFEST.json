@@ -1,0 +1,18 @@
+{
+  "version": "2.3.0",
+  "python": "3.12.14",
+  "files": {
+    "AUDIT_HISTORY.jsonl": "0f184f274e2238b13e59a0daaa60f5dd2214a7d91514a9b032ef7cec5142d6d9",
+    "HANDOFF.md": "32160249068210d3eebff309ad072f865607690416422f7ff74bb6b0047ce764",
+    "README.md": "9dd1a961ef7e05019d1e42b926ca154844c0c4e0e08077d55c75ceaf8e6275d3",
+    "REPORT.md": "b404eb39f49997ea37fc73bb5331aa672992d5f1be2aed4f44468713a7fdbd87",
+    "audit.py": "473d7e02214d1476658e6f84f255218286fe5aa0ad523fcf3a187751f8199315",
+    "decay_comparator.json": "d525507aa72d4effdd3f540ff69eda4aee50cb95ca64959e15052bbc46e14c05",
+    "execution.json": "58971c97db3d9e80facdf022e21fe646f3f1faa3786f7092c2bd61113aaa01c9",
+    "inputs.json": "9cb94c340bd59659d7a1aa4db133634673d38eccd3ff52d8eee08b4d8248693a",
+    "normalization.csv": "a9bda9335b1aec586ae0fa1f12ad53e4d756b30e304e3cc5e5bc6193df62d266",
+    "sources.json": "faa6a2051b2cfdb32548356cf50d10deecd88bc86283d69a9a787c72be977202",
+    "test_audit.py": "27d4374282c13ff0da5718428c976e696f35f673e86cdddf069d47d1cd643df0",
+    "test_execution.txt": "a76252b30e111d610a4d13c53954214a3d4c8f6b201c8acba59e9aa831b605fb"
+  }
+}

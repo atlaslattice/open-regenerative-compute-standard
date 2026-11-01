@@ -1,0 +1,31 @@
+{
+  "schema_version": "2.3.0",
+  "parent_commit": "50c4c322c239874f43a9908b7a4522007b621af8",
+  "primary_DD_MW": 1100.0,
+  "mean_primary_DD_MeV": 3.65,
+  "He3_branch_fraction_assumed": 0.5,
+  "days_per_year": 365.25,
+  "molar_volume_STP_L": 22.414,
+  "STP_convention": "273.15 K, 101325 Pa; rounded ideal-gas molar volume matching parent",
+  "avogadro_per_mol": 6.02214076e23,
+  "joules_per_MeV": 1.602176634e-13,
+  "effective_exposure_paste": 0.85,
+  "parent_macro_availability": 0.85,
+  "parent_source_duty": 0.9375,
+  "overall_recovery_cases_assumed": [0.375, 0.75, 0.9],
+  "T_half_life_years": 12.32,
+  "T_molar_mass_g": 3.01604928,
+  "He3_molar_mass_g": 3.0160293201,
+  "Kronos_T_input_kg_year_illustration": 4.0,
+  "Kronos_He3_flow_kg_year_company_projection": 1.97,
+  "historical_benchmark": {
+    "source_id": "GM1982",
+    "driven_plasma_recoverable_fraction_approx": 0.70,
+    "ignited_studied_upper_fraction_approx": 0.80,
+    "reported_driven_fusion_MeV_per_recovered_atom": 70,
+    "reported_ignited_fusion_MeV_per_recovered_atom": 50,
+    "status": "SOURCE-TRACED abstract only; NOT A REPRODUCED BENCHMARK",
+    "calibration_enabled": false,
+    "missing": ["Full article equations and parameter tables", "Definition of recovery boundary and fusion energy denominator", "Plasma profiles, confinement and loss assumptions", "Comparable independently implemented plasma solution"]
+  }
+}

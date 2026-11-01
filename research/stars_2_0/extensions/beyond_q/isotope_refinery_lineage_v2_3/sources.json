@@ -1,0 +1,76 @@
+{
+  "retrieved_UTC": "2026-11-01",
+  "sources": [
+    {
+      "id": "GM1982",
+      "authors": ["E. Greenspan", "G. H. Miley"],
+      "title": "Deuterium-Based Plasmas as a Source for Helium-3",
+      "publication": "Nuclear Technology - Fusion 2(1), 43-54, January 1982",
+      "doi": "10.13182/FST82-A20733",
+      "url": "https://www.tandfonline.com/doi/abs/10.13182/FST82-A20733",
+      "metadata_url": "https://www.ans.org/pubs/journals/fst/volume-2/",
+      "locator": "Publisher abstract; ANS Volume 2 contents",
+      "status": "SOURCE-TRACED theoretical study; abstract accessed; full text not obtained",
+      "used": "Approximately 70% recoverable He3 in studied driven SCD plasmas; approximately 80% ignited-plasma bound; respective 70 and 50 MeV fusion energy per recovered atom",
+      "transfer_limit": "Plasma conditions and recovery boundary cannot be reconstructed from abstract. Not a downstream equipment efficiency or ARC validation. 2017 online posting is not original publication year."
+    },
+    {
+      "id": "HELION2025",
+      "author": "Lily Hale, Fuel Cycle Team Manager, Helion Energy",
+      "title": "How to engineer a renewable deuterium-helium-3 fusion fuel cycle",
+      "date": "2025-03-28",
+      "url": "https://www.helionenergy.com/blog/how-to-engineer-a-renewable-deuterium-helium-3-fusion-fuel-cycle",
+      "locator": "Engineering the fuel cycle; Demonstrating the complete fuel cycle",
+      "status": "SOURCE-TRACED company engineering description",
+      "used": "Direct DD and tritium-decay pathways; separation and getter storage interfaces",
+      "transfer_limit": "Pulsed FRC fuel recycling differs from ARC tokamak exhaust. No transferable measured overall He3 recovery supplied."
+    },
+    {
+      "id": "HELION2026",
+      "author": "Bryce Alexander, Fuel Cycle Manager, Helion Energy",
+      "title": "Fusion fuel: where does it go after fusion occurs?",
+      "date": "2026-06-18",
+      "url": "https://www.helionenergy.com/blog/fusion-fuel-where-does-it-go-after-fusion-occurs",
+      "locator": "Exhaust is analyzed; Separation; Recycling fuel",
+      "status": "SOURCE-TRACED company process description",
+      "used": "Diagnostic accountancy, separate hydrogen/helium/impurity streams, helium isotope separation, present batch and proposed continuous operation",
+      "transfer_limit": "Listed methods are not a qualified Beyond Q process flowsheet or quantified capture/purity guarantee."
+    },
+    {
+      "id": "HELION_PATENT",
+      "inventors": ["John Thomas Slough", "David Edwin Kirtley", "Christopher James Pihl"],
+      "assignee": "Helion Energy Inc",
+      "title": "Advanced fuel cycle and fusion reactors utilizing the same",
+      "publication_number": "US11469003B2",
+      "priority_date_listed": "2014-02-07",
+      "publication_date": "2022-10-11",
+      "url": "https://patents.google.com/patent/US11469003B2/en",
+      "locator": "Bibliographic header; Summary; Detailed description; claims",
+      "status": "SOURCE-TRACED patent disclosure",
+      "used": "DD He3/T production, pulsed extraction before DT consumption, tritium storage/decay and later reuse",
+      "transfer_limit": "Does not demonstrate reactor operation, determine ARC integration, or establish patentability/freedom to operate. Do not import its approximate 11-year decay wording into the 12.32-year model."
+    },
+    {
+      "id": "KRONOS2026",
+      "author": "Kronos Fusion Energy, Inc.",
+      "title": "The fuel cycle, in depth",
+      "date": "Undated page; displayed canon 2026-08-27",
+      "url": "https://www.kronosfusionenergy.com/learn/the-staged-fuel-cycle-deep-dive",
+      "locator": "Breeder fuel; main fuel-cycle paragraph; correction note",
+      "status": "SOURCE-TRACED company concept and projected quantities",
+      "used": "Purpose-built DT breeder and D-He3 burner; aging T inventory; about 4 kg/year T and 1.97 kg/year He3 company figures",
+      "transfer_limit": "The page does not reconcile the aging inventory and time origin for the quoted flow. TBR scan values are design assumptions. Not direct-DD He3 or demonstrated output."
+    },
+    {
+      "id": "ARC_EXHAUST2026",
+      "title": "Power and particle exhaust for the ARC fusion power plant",
+      "publication": "Journal of Plasma Physics 92(3), E66, June 2026",
+      "doi": "10.1017/S002237782610155X",
+      "url": "https://www.cambridge.org/core/journals/journal-of-plasma-physics/article/power-and-particle-exhaust-for-the-arc-fusion-power-plant/EE21BB8586540AACDA3B624D9058EFF3",
+      "locator": "Sections 5.2-5.3, equations 5.4-5.6, conclusions",
+      "status": "SOURCE-TRACED preliminary design modeling",
+      "used": "Helium exhaust interface; proposed transport/SPARC validation; direct internal recycling as a possible improvement",
+      "transfer_limit": "DT He4 ash exhaust is not DD He3 product recovery. Equation 5.4 printed rate discrepancy retained in report. No 37.5/75/90% product efficiency follows from ash concentration."
+    }
+  ]
+}

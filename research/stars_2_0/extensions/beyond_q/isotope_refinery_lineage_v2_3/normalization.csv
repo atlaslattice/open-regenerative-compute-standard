@@ -1,0 +1,7 @@
+case,effective_exposure,gross_He3_STP_L_year,overall_recovery_assumed,product_candidate_STP_L_year,lumped_loss_STP_L_year,closure_residual_STP_L,status
+paste_85pct_effective,0.85,938967.9946786303,0.375,352112.9980044863,586854.996674144,0.0,POTENTIAL-DERIVED; no separate secondary He3 burn; not qualified sales
+paste_85pct_effective,0.85,938967.9946786303,0.75,704225.9960089726,234741.99866965762,0.0,POTENTIAL-DERIVED; no separate secondary He3 burn; not qualified sales
+paste_85pct_effective,0.85,938967.9946786303,0.9,845071.1952107672,93896.79946786305,0.0,POTENTIAL-DERIVED; no separate secondary He3 burn; not qualified sales
+parent_expected_before_replacement,0.796875,880282.4950112159,0.375,330105.93562920595,550176.55938201,0.0,POTENTIAL-DERIVED; no separate secondary He3 burn; not qualified sales
+parent_expected_before_replacement,0.796875,880282.4950112159,0.75,660211.8712584119,220070.623752804,0.0,POTENTIAL-DERIVED; no separate secondary He3 burn; not qualified sales
+parent_expected_before_replacement,0.796875,880282.4950112159,0.9,792254.2455100943,88028.24950112158,0.0,POTENTIAL-DERIVED; no separate secondary He3 burn; not qualified sales
