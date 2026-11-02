@@ -10,8 +10,8 @@ recovered_he3_fraction,0.375,ASSUMED
 recovered_tritium_fraction,0.375,ASSUMED
 he3_reference_price_usd_per_stp_liter,18000,ASSUMED
 tritium_reference_price_usd_per_gram,30000,ASSUMED
-he3_volume_price_usd_per_stp_liter,1500,ASSUMED
-tritium_volume_price_usd_per_gram,1500,ASSUMED
+he3_volume_price_usd_per_stp_liter,15000,ASSUMED
+tritium_volume_price_usd_per_gram,15000,ASSUMED
 wall_plug_mw,,ASSUMED
 electricity_price_usd_per_mwh,65,ASSUMED
 chassis_each_usd,2800000000,ASSUMED
