@@ -98,6 +98,7 @@ def validate(a:Assumptions, r:dict):
 
 def main():
     folder=Path(__file__).parent
+    raise SystemExit('ARCHIVED 20 MW GROSS CASE: prohibited as an active Beyond Q baseline. Active A/B = 1130 MW GROSS each; 20 MW is only an unvalidated A NET ELECTRIC estimate. To reproduce archived research, import model(Assumptions()) explicitly; do not publish it as current.')
     a=Assumptions()
     r=model(a)
     validate(a,r)
