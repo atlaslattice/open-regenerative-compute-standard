@@ -1,3 +1,5 @@
+> **ACTIVE BASELINE OVERRIDE — 2026-11-01:** Reactor A = **1,130 MW gross D–D fusion**, Reactor B = **1,130 MW gross D–T fusion**. The historical **20 MW refers ONLY to an unverified NET ELECTRICAL projection for A**, NEVER its gross fusion power. Any historical 20 MW gross D–D scenario below is ARCHIVED, NOT THE PROJECT BASELINE and MUST NOT drive current cash-flow, tritium, He-3, power, or outreach conclusions. Conservative isotope valuation inputs: **He-3 $1,500 per standard gas liter**; **tritium $1,500 per gram**. Keep wall-plug input, thermal power, gross fusion power and net electricity separate.
+
 ---
 title: "Beyond Q v2.3 Executive Pitch — Quantum-First Fusion Infrastructure"
 description: "MIT-grade external review request for global Google/Microsoft/China quantum compute infrastructure, CFS ARC D-T power and hypothetical D-D strategic isotope refinery."
