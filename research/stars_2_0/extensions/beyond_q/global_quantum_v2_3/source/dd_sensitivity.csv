@@ -1,3 +1,2 @@
-scenario,A_DD_gross_fusion_MW,B_DT_gross_fusion_MW,He3_recovered_STP_L,T_recovered_g,He3_value_USD,T_value_USD
-volume_discount,1130,1130,361636.81690426613,48662.20762131309,5424552253.563992,729933114.3196964
-quoted_price_upside,1130,1130,361636.81690426613,48662.20762131309,6509462704.276791,1459866228.6393929
+scenario,reported_value,status
+public_model,0,WITHDRAWN_BY_OWNER_NOT_A_CALCULATION
