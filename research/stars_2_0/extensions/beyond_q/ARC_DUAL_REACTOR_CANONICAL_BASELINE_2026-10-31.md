@@ -1,4 +1,4 @@
-> **ACTIVE BASELINE OVERRIDE — 2026-11-01:** Reactor A = **1,130 MW gross D–D fusion**, Reactor B = **1,130 MW gross D–T fusion**. The historical **20 MW refers ONLY to an unverified NET ELECTRICAL projection for A**, NEVER its gross fusion power. Any historical 20 MW gross D–D scenario below is ARCHIVED, NOT THE PROJECT BASELINE and MUST NOT drive current cash-flow, tritium, He-3, power, or outreach conclusions. Owner-selected high-volume pricing scenario: **He-3 $1,500 per STP liter; tritium $1,500 per gram**; distinct quoted-price upside $18,000/L and $30,000/g. Keep wall-plug input, thermal power, gross fusion power and net electricity separate.
+> **ACTIVE BASELINE OVERRIDE — 2026-11-01:** Reactor A = **1,130 MW gross D–D fusion**, Reactor B = **1,130 MW gross D–T fusion**. The historical **20 MW refers ONLY to an unverified NET ELECTRICAL projection for A**, NEVER its gross fusion power. Any historical 20 MW gross D–D scenario below is ARCHIVED, NOT THE PROJECT BASELINE and MUST NOT drive current cash-flow, tritium, He-3, power, or outreach conclusions. Owner-selected high-volume pricing scenario: **He-3 $15,000 per STP liter; tritium $15,000 per gram**; distinct quoted-price upside $18,000/L and $30,000/g. Keep wall-plug input, thermal power, gross fusion power and net electricity separate.
 
 # Stellar Forge / Beyond Q — ACTIVE TWO-ARC REACTOR DESIGN LOCK
 
@@ -78,4 +78,4 @@ The historical A=20 MW_fusion scenario produces ~2.7 kg of He-3 and T/FPY and **
 
 
 ## Conservative valuation lock (2026-11-01)
-He-3 = **$1,500/STP liter**; tritium = **$1,500/gram**. The higher quoted $18,000/L and $30,000/g cases are NOT the base case. Validate distinct recoveries, B demand and saleable volumes before recognizing revenue. This lock supersedes earlier price premises.
+He-3 = **$15,000/STP liter**; tritium = **$15,000/gram**. The higher quoted $18,000/L and $30,000/g cases are NOT the base case. Validate distinct recoveries, B demand and saleable volumes before recognizing revenue. This lock supersedes earlier price premises.
