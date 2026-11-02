@@ -1,21 +1,2 @@
-parameter,value,status
-reactor_a_dd_gross_fusion_mw,1130,ASSUMED
-reactor_b_dt_gross_fusion_mw,1130,ASSUMED
-dd_tritium_branch_fraction,0.5,ASSUMED
-dd_tritium_branch_q_mev,4.0327,PUBLISHED NUCLEAR CONSTANT
-dd_he3_branch_q_mev,3.2689,PUBLISHED NUCLEAR CONSTANT
-dt_q_mev,17.589,PUBLISHED NUCLEAR CONSTANT
-availability,0.85,ASSUMED
-recovered_he3_fraction,0.375,ASSUMED
-recovered_tritium_fraction,0.375,ASSUMED
-he3_reference_price_usd_per_stp_liter,18000,ASSUMED
-tritium_reference_price_usd_per_gram,30000,ASSUMED
-he3_volume_price_usd_per_stp_liter,15000,ASSUMED
-tritium_volume_price_usd_per_gram,15000,ASSUMED
-wall_plug_mw,,ASSUMED
-electricity_price_usd_per_mwh,65,ASSUMED
-chassis_each_usd,2800000000,ASSUMED
-reactor_a_modification_usd,300000000,ASSUMED
-financing_apr,0.07,ASSUMED
-financing_years,30,ASSUMED
-t_b_dedicated_breeding_fraction,,ASSUMED
+status,reported_value
+OWNER_SUSPENDED,0
