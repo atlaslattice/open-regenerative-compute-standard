@@ -1,0 +1,60 @@
+{
+  "initial_mol_nuclei": {
+    "He3": 100.0,
+    "T": 100.0,
+    "D": 1000.0,
+    "He4": 0.0,
+    "H": 0.0
+  },
+  "post_secondary_reaction_mol_nuclei": {
+    "He3": 70.0,
+    "He4": 30.0,
+    "T": 100.0,
+    "D": 970.0,
+    "H": 30.0
+  },
+  "secondary_He3_consumed_mol": 30.0,
+  "additional_He4_born_mol": 30.0,
+  "purified_candidate_mol_nuclei": {
+    "He3": 37.20087,
+    "He4": 0.177147,
+    "T": 0.059049000000000004,
+    "D": 0.5727753000000001,
+    "H": 0.017714700000000003
+  },
+  "destinations": {
+    "recycle_bank": {
+      "He3": 16.399565000000003,
+      "He4": 24.4576815,
+      "T": 86.31112550000002,
+      "D": 837.2179173500001,
+      "H": 25.893337650000003
+    },
+    "permanent_loss": {
+      "He3": 6.559826000000001,
+      "He4": 2.0673366,
+      "T": 5.4227702,
+      "D": 52.60087094,
+      "H": 1.6268310600000002
+    },
+    "retained": {
+      "He3": 47.040608999999996,
+      "He4": 3.474981900000001,
+      "T": 8.266104299999984,
+      "D": 80.18121170999989,
+      "H": 2.4798312899999964
+    }
+  },
+  "max_species_residual_mol": 0.0,
+  "reaction_baryon_residual_mol": 0.0,
+  "reaction_charge_residual_mol": 0.0,
+  "assay": {
+    "He3_fraction_of_helium_atoms": 0.9952606635071091,
+    "T_atoms_per_He3_atom": 0.0015873015873015873,
+    "conditional_screen": "UNRESOLVED",
+    "actual_qualified_product_mol": null,
+    "note": "Computed synthetic feed composition is not an observed assay; other impurity criteria also unresolved"
+  },
+  "complete_process_energy_kWh": null,
+  "scope": "Single synthetic batch routing. Banked recycle is not automatically re-fed; no hardware or continuous-plant calibration."
+}

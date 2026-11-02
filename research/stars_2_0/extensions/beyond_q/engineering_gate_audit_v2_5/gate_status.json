@@ -1,0 +1,52 @@
+[
+  {
+    "gate": "software_conventions",
+    "status": "PASS",
+    "basis": "Ten software checks pass; not reactor validation"
+  },
+  {
+    "gate": "synthetic_contamination_screen",
+    "status": "FAIL",
+    "basis": "Test fixtureHe3=100,He4=1,T=.1 mol;assumedHe3/He>=.999 andT/He3<=1e-6;NOT real feed"
+  },
+  {
+    "gate": "historical_1982_reproduction",
+    "status": "UNRESOLVED",
+    "basis": "Full equations and operating points unavailable"
+  },
+  {
+    "gate": "G1",
+    "status": "UNRESOLVED",
+    "basis": "DD plasma feasibility and coupled secondary burn"
+  },
+  {
+    "gate": "G2",
+    "status": "UNRESOLVED",
+    "basis": "Geometry-qualified transport,breeding,shielding"
+  },
+  {
+    "gate": "G3",
+    "status": "UNRESOLVED",
+    "basis": "Extraction,pumping,isotope processing,qualification"
+  },
+  {
+    "gate": "G4",
+    "status": "UNRESOLVED",
+    "basis": "Measured inventory limits,startup and independent downtime"
+  },
+  {
+    "gate": "G5",
+    "status": "UNRESOLVED",
+    "basis": "Complete electrical and thermal boundary"
+  },
+  {
+    "gate": "ARC_retrofit",
+    "status": "UNRESOLVED",
+    "basis": "Geometry,materials,service capacity and lifetime"
+  },
+  {
+    "gate": "full_cost_economics",
+    "status": "UNRESOLVED",
+    "basis": "Validated capital,operating cost,qualified product and offtake"
+  }
+]

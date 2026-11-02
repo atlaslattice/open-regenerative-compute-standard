@@ -1,0 +1,9 @@
+stage,status,reason,energy_kWh,capacity_qualified,replacement_interval_days
+secondary_He3_consumption,UNRESOLVED,Missing measured routing/operating data or product assay,,False,
+plasma_exhaust,UNRESOLVED,Missing measured routing/operating data or product assay,,False,
+divertor_capture,UNRESOLVED,Missing measured routing/operating data or product assay,,False,
+vacuum_pumping,UNRESOLVED,Missing measured routing/operating data or product assay,,False,
+hydrogen_helium_separation,UNRESOLVED,Missing measured routing/operating data or product assay,,False,
+He3_He4_separation,UNRESOLVED,Missing measured routing/operating data or product assay,,False,
+purification,UNRESOLVED,Missing measured routing/operating data or product assay,,False,
+qualified_storage,UNRESOLVED,Missing measured routing/operating data or product assay,,False,

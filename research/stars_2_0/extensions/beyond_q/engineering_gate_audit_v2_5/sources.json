@@ -1,0 +1,82 @@
+{
+  "sources": [
+    {
+      "id": "GM1982",
+      "authors": [
+        "E.Greenspan",
+        "G.H.Miley"
+      ],
+      "title": "Deuterium-Based Plasmas as a Source for Helium-3",
+      "journal": "Nuclear Technology-Fusion2(1),43-54(1982)",
+      "doi": "10.13182/FST82-A20733",
+      "url": "https://www.tandfonline.com/doi/abs/10.13182/FST82-A20733",
+      "access_scope": "Publisher abstract and earlier failed full-text retrieval recorded inv2.4",
+      "limits": "No numerical plasma operating points reconstructed. Study fractions not equipment recovery."
+    },
+    {
+      "id": "UWFDM935",
+      "authors": [
+        "J.C.Crabb",
+        "S.W.White",
+        "L.P.Wainwright",
+        "S.E.Kratz",
+        "G.L.Kulcinski"
+      ],
+      "title": "Fifty Years of Research in Helium-3 Fusion and Helium-3 Resources",
+      "report": "UWFDM-935",
+      "publication_date": "December1993 revisedMay1994",
+      "url": "https://fti.neep.wisc.edu/fti.neep.wisc.edu/pdf/fdm935.pdf",
+      "pdf_sha256": "2ce1960f845683a6da16e9b37ee32e1bbc170c1652303c57aec4ff93f55a53cf",
+      "bytes": 1617121,
+      "pages": 134,
+      "locators": [
+        "Cover",
+        "Introductory library description",
+        "PDFpage66 entries111-112",
+        "PDFpage93 entry227"
+      ],
+      "inspection": "Full PDF text extracted; relevant bibliography visually checked. No plasma model reproduced.",
+      "limits": "Bibliography confirms lineage, not recovery calibration. PDF not redistributed."
+    },
+    {
+      "id": "NIST_CODATA2022",
+      "author": "NIST",
+      "title": "Fundamental Physical Constants\u2014Complete Listing,2022CODATA adjustment",
+      "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+      "locators": [
+        "Avogadro constant",
+        "elementary charge",
+        "Boltzmann constant",
+        "molar gas constant"
+      ],
+      "access_scope": "Full text accessible via web tool; direct urllib returned403",
+      "limits": "Defines gas and reaction-energy conversion constants; isotope masses retain existing explicitly pinned parent convention."
+    },
+    {
+      "id": "DD_PRIMARY",
+      "title": "DOE-hosted source,sectionII.2 Reaction H2(d,n)He3",
+      "url": "https://www.osti.gov/servlets/purl/4618039",
+      "access_scope": "Search-indexed section confirms3.27MeV neutron branch and4.03MeV proton branch; direct webopen502",
+      "limits": "Bibliographic metadata not fully recovered. Used only for rounded branch-energy cross-check, not reactor modeling."
+    },
+    {
+      "id": "PARENT",
+      "url": "https://github.com/atlaslattice/open-regenerative-compute-standard/commit/156d32353c0655e9d8d487c84aebc1a88ba6abb8",
+      "used": [
+        "v2.3source register",
+        "v2.4model,report andsource acquisition evidence",
+        "v2.2inputs andkernel",
+        "v1.6accounting andv1.4physics",
+        "v2.1white paper conventions"
+      ],
+      "limits": "Historical research artifacts, not hardware qualification"
+    }
+  ],
+  "evidence_categories": [
+    "SOURCE-TRACED",
+    "VERIFIED-DERIVED",
+    "POTENTIAL-DERIVED",
+    "UNRESOLVED"
+  ],
+  "no_new_WarpX_or_OpenMC": true
+}

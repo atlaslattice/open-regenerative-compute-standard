@@ -1,0 +1,7 @@
+{
+  "stage_ledger_rows": 35,
+  "max_species_residual_mol": 0.0,
+  "physical_calibration": false,
+  "B_reference_MW": 1130,
+  "prior_parent_B_MW": 1100
+}
