@@ -1,21 +1,23 @@
+> **ACTIVE BASELINE OVERRIDE — 2026-11-01:** Reactor A = **1,130 MW gross D–D fusion**, Reactor B = **1,130 MW gross D–T fusion**. The historical **20 MW refers ONLY to an unverified NET ELECTRICAL projection for A**, NEVER its gross fusion power. Any historical 20 MW gross D–D scenario below is ARCHIVED, NOT THE PROJECT BASELINE and MUST NOT drive current cash-flow, tritium, He-3, power, or outreach conclusions. Conservative isotope valuation inputs: **He-3 $1,500 per standard gas liter**; **tritium $1,500 per gram**. Keep wall-plug input, thermal power, gross fusion power and net electricity separate.
+
 # Stellar Forge / Beyond Q — ACTIVE TWO-ARC REACTOR DESIGN LOCK
 
 **2026-10-31 | Owner-corrected active research configuration | PROPOSED, NOT CFS-VALIDATED OR OPERATIONAL**
 
 ## The architecture (MUST NOT BE MISSTATED)
 
-**TWO separate ARC-class high-field tokamak reactors, each targeting 1.1 GW of GROSS NUCLEAR FUSION POWER (2.2 GW combined).**
+**TWO separate ARC-class high-field tokamak reactors, each targeting 1.13 GW of GROSS NUCLEAR FUSION POWER (2.2 GW combined).**
 
 | Distinction | A: D–D ARC isotope refinery | B: D–T ARC power unit |
 |---|---|---|
-| Fusion-power target | **1,100 MW_fusion** | **1,100 MW_fusion** |
+| Fusion-power target | **1,130 MW_fusion** | **1,130 MW_fusion** |
 | Nuclear fuel | D + D | D + T |
 | Purpose | Helium-3 and tritium production; isotope resource economics | Net electricity, with separately accounted tritium breeding |
-| Historical electrical projection | **~20 MW_e NET**, owner-reported estimate, not independently validated | **~400 MW_e NET** design comparator from published ARC D–T at ~1.13 GW_fusion; not demonstrated output or exact for 1.1 GW |
+| Historical electrical projection | **~20 MW_e NET**, owner-reported estimate, not independently validated | **~400 MW_e NET** design comparator from published ARC D–T at ~1.13 GW_fusion; not demonstrated output or exact for 1.13 GW |
 
-**NEVER interpret the 20 MW_e net electricity estimate as 20 MW D–D fusion power.** Earlier calculations that used 20 MW_fusion as A are an archived, distinct sensitivity, not this owner's full-size reactor design. The October 30 commit [dual-laser power-basis lock](https://github.com/atlaslattice/open-regenerative-compute-standard/commit/674eb174ff935bcfc9829109b57c1187d25dc710) captured two 1.1 GW gross fusion source powers but described **LASER reactors**; subsequent owner clarification specifies **ARC-class tokamak reactors** instead. Laser/pulsed WarpX experimental studies are independent research tools or variants, not automatic replacement of the ARC physical platform.
+**NEVER interpret the 20 MW_e net electricity estimate as 20 MW D–D fusion power.** Earlier calculations that used 20 MW_fusion as A are an archived, distinct sensitivity, not this owner's full-size reactor design. The October 30 commit [dual-laser power-basis lock](https://github.com/atlaslattice/open-regenerative-compute-standard/commit/674eb174ff935bcfc9829109b57c1187d25dc710) captured two 1.13 GW gross fusion source powers but described **LASER reactors**; subsequent owner clarification specifies **ARC-class tokamak reactors** instead. Laser/pulsed WarpX experimental studies are independent research tools or variants, not automatic replacement of the ARC physical platform.
 
-The full-power D–D conversion is **hypothetical**. ARC D–T design publications do not establish a feasible 1.1 GW D–D operating point, required heating, confinement, wall-plug efficiency, neutron loads, engineering viability or He-3/T separation yield. B is likewise a published design, not a currently operating commercial ARC plant.
+The full-power D–D conversion is **hypothetical**. ARC D–T design publications do not establish a feasible 1.13 GW D–D operating point, required heating, confinement, wall-plug efficiency, neutron loads, engineering viability or He-3/T separation yield. B is likewise a published design, not a currently operating commercial ARC plant.
 
 ## Modularity, mass and PRICE — THREE DISTINCT QUANTITIES
 
@@ -49,27 +51,31 @@ The historical scenario register separately included **$75M low / $150M base / $
 
 ## Correct conditional gross nuclear isotope ledger
 
-Assume hypothetical continuous full-power operation for **1.1 GW primary D–D fusion** at 50:50 T+p and He-3+n branches (mean reaction energy ~3.6508 MeV), **1.1 GW primary D–T fusion** (17.589 MeV/reaction), 365.25 days full-power year and no in-core D–D-born T secondary burn.
+Assume hypothetical continuous full-power operation for **1.13 GW primary D–D fusion** at 50:50 T+p and He-3+n branches (mean reaction energy ~3.6508 MeV), **1.13 GW primary D–T fusion** (17.589 MeV/reaction), 365.25 days full-power year and no in-core D–D-born T secondary burn.
 
 | Flow | Gross nuclear accounting, BEFORE losses |
 |---|---:|
-| A direct helium-3 births | ~148.6 kg/FPY |
-| A direct tritium births | ~148.6 kg/FPY |
+| A direct helium-3 births | ~152.7 kg/FPY |
+| A direct tritium births | ~152.7 kg/FPY |
 | B plasma tritium consumption | ~61.7 kg/FPY |
 | B helium-4 births | ~81.9 kg/FPY |
-| A born tritium / B burn | ~2.41× *gross conditional ratio*, NOT proof of self-sufficient delivery |
+| A born tritium / B burn | ~2.47× *gross conditional ratio*, NOT proof of self-sufficient delivery |
 
-At illustrative 85% common calendar availability: He-3 and T born in A ~126.3 kg/year each; B T burn ~52.4 kg/year; B He-4 ~69.6 kg/year. Time-resolved recovery, fuel processing, internal secondary burns, reserve buildup, decay, downtime mismatch, qualified He-3/T product, and B's separate lithium blanket breeding remain OPEN. Only actual qualified surplus after ALL internal consumption may be sold; isotope value or theoretical gross mass is not available cash.
+At illustrative 85% common calendar availability: He-3 and T born in A ~129.8 kg/year each; B T burn ~52.4 kg/year; B He-4 ~69.6 kg/year. Time-resolved recovery, fuel processing, internal secondary burns, reserve buildup, decay, downtime mismatch, qualified He-3/T product, and B's separate lithium blanket breeding remain OPEN. Only actual qualified surplus after ALL internal consumption may be sold; isotope value or theoretical gross mass is not available cash.
 
 The historical A=20 MW_fusion scenario produces ~2.7 kg of He-3 and T/FPY and **is ~55 times smaller** than the present A source power. Old 20 MW_fusion cost/power/self-sufficiency conclusions **must not be ported** into this configuration without a fresh physical model.
 
 ## Validation and handoff rules
 
-1. All new dual-ARC datasets MUST use distinct keys: A.fusion_power_MW=1100, A.projected_net_electric_MW=20, B.fusion_power_MW=1100. Mark A projected net as historical/unvalidated.
-2. Model 1.1 GW D–D physics and ARC vessel engineering explicitly, not by assuming D–T physics transfers unchanged.
+1. All new dual-ARC datasets MUST use distinct keys: A.fusion_power_MW=1130, A.projected_net_electric_MW=20, B.fusion_power_MW=1130. Mark A projected net as historical/unvalidated.
+2. Model 1.13 GW D–D physics and ARC vessel engineering explicitly, not by assuming D–T physics transfers unchanged.
 3. Keep experimental laser/WarpX efforts separate from ARC apparatus definitions while comparing validated reaction-rate or diagnostic outputs when appropriate.
 4. Reconcile the full detailed Gemini-derived cost table and the owner's ~$300M recollection, component mass scope and 3% vessel reference; do not silently alter 2026-10-29 historical calculation files.
 5. Determine D–D whole-plant NET power from distinct heat sources, electricity conversion, external heating/current drive, cryogenic and auxiliary loads; do not infer +20 MWe from gross source rating.
 6. Recompute He-3/T birth, actual recovery, B tritium breeding, demand, reserves and 20/30/50-year finances. Preserve error messages on incompatible power inputs.
 
-**Mandatory one-line handoff:** TWO ARC-class reactors, each 1.1 GW proposed gross fusion; A D–D isotope refinery with historical +20 MWe net projection, B D–T electricity with ~400 MWe published-design comparator; 10–15% is modified MASS not cost; ~$300M is a user-recalled retrofit-scale estimate, not paired-reactor total purchase.
+**Mandatory one-line handoff:** TWO ARC-class reactors, each 1.13 GW proposed gross fusion; A D–D isotope refinery with historical +20 MWe net projection, B D–T electricity with ~400 MWe published-design comparator; 10–15% is modified MASS not cost; ~$300M is a user-recalled retrofit-scale estimate, not paired-reactor total purchase.
+
+
+## Conservative valuation lock (2026-11-01)
+He-3 = **$1,500/STP liter**; tritium = **$1,500/gram**. The higher quoted $18,000/L and $30,000/g cases are NOT the base case. Validate distinct recoveries, B demand and saleable volumes before recognizing revenue. This lock supersedes earlier price premises.
