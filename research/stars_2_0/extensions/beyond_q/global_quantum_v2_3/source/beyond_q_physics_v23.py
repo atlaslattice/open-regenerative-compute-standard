@@ -25,8 +25,8 @@ class Assumptions:
     recovered_tritium_fraction: float=0.375 # independently unvalidated illustration
     he3_reference_price_usd_per_stp_liter: float=18000.0 # upside quoted-price sensitivity, not durable offtake
     tritium_reference_price_usd_per_gram: float=30000.0 # upside procurement sensitivity, not sales
-    he3_volume_price_usd_per_stp_liter: float=150000.0 # owner-selected aggressive market-expansion scenario
-    tritium_volume_price_usd_per_gram: float=150000.0 # owner-selected scenario
+    he3_volume_price_usd_per_stp_liter: float=15000.0 # owner-selected aggressive market-expansion scenario
+    tritium_volume_price_usd_per_gram: float=15000.0 # owner-selected scenario
     wall_plug_mw: float|None=None  # UNKNOWN; don't infer from fusion or net electricity
     electricity_price_usd_per_mwh: float=65.0
     chassis_each_usd: float=2800000000.0 # unvalidated quote
