@@ -1,0 +1,15 @@
+test_all_attempt_cost (test_sweep.SweepTests.test_all_attempt_cost) ... ok
+test_coil_cost (test_sweep.SweepTests.test_coil_cost) ... ok
+test_continuous_hold_rate (test_sweep.SweepTests.test_continuous_hold_rate) ... ok
+test_duplicate_containment_rejected (test_sweep.SweepTests.test_duplicate_containment_rejected) ... ok
+test_no_nuclear_no_free_energy (test_sweep.SweepTests.test_no_nuclear_no_free_energy) ... ok
+test_optical_chain (test_sweep.SweepTests.test_optical_chain) ... ok
+test_pinned_ratio (test_sweep.SweepTests.test_pinned_ratio) ... ok
+test_pulsed_recovery (test_sweep.SweepTests.test_pulsed_recovery) ... ok
+test_steady_storage_not_power (test_sweep.SweepTests.test_steady_storage_not_power) ... ok
+test_zero_efficiency_rejected (test_sweep.SweepTests.test_zero_efficiency_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.003s
+
+OK

@@ -1,0 +1,16 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "input_sha256": {
+    "facility_integration_v0_1/accounting_v004.py": "c149e0406f07d51ef91c5d73c20685344f99c61bb9a22a74e2ebf10c29848b04",
+    "facility_integration_v0_1/PROFILE_v003.json": "067dff89cd0feae21ca00bb60cf3143031f538f2f25eb44257bde50b3e0146a1",
+    "facility_integration_v0_1/pipeline_run004/integrated/RESULTS.json": "bb583347ddaa65bd76579ba332ba7f88b8bdee8fa135686b9fe85400e3391afd",
+    "wall_plug_sweep_v0_1/run.py": "2fa0ff6914e1bf09e12b10975e6c7c1b088f3d9fcc70db63bc5d5c4aa029b75e"
+  },
+  "output_sha256": {
+    "EFFICIENCY_SWEEP.csv": "5de67e110d1ba13b1cb20accee7210d1532ebec3cb231bf8dc06cef2808326a2",
+    "OPERATIONS_SWEEP.csv": "9d95716bf57c9e026f28e030574e38ebe20aa666e56d2bef551dc23f5ce00672",
+    "SUMMARY.json": "9ab0cb819fb706e1b003a0539aef55fcda89506b310faea5cc39788d07371763"
+  },
+  "fresh_PIC_executed": false,
+  "parent_commit": "604158962fada3c5605339ce67539432ec94b2a7"
+}
