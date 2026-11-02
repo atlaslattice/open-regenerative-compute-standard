@@ -1,0 +1,12 @@
+test_chain_losses_close (test_audit.AuditTests.test_chain_losses_close) ... ok
+test_decay_inventory_and_delay (test_audit.AuditTests.test_decay_inventory_and_delay) ... ok
+test_historical_claim_not_enabled_calibration (test_audit.AuditTests.test_historical_claim_not_enabled_calibration) ... ok
+test_no_double_recovery (test_audit.AuditTests.test_no_double_recovery) ... ok
+test_parent_separate_duty (test_audit.AuditTests.test_parent_separate_duty) ... ok
+test_paste_normalization (test_audit.AuditTests.test_paste_normalization) ... ok
+test_zero_source_and_invalid_survival (test_audit.AuditTests.test_zero_source_and_invalid_survival) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.001s
+
+OK

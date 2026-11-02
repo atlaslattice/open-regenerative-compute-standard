@@ -1,0 +1,9 @@
+{
+  "assumed_net_T_feed_kg_year": 4.0,
+  "target_He3_flow_kg_year": 1.97,
+  "required_T_aging_inventory_kg": 35.01501744612999,
+  "empty_store_years_to_target_flow": 12.05548390927989,
+  "first_year_He3_mass_kg": 0.11044224207045474,
+  "boundary": "Illustrative constant net feed, zero initial inventory; not reconstruction of Kronos design",
+  "evidence": "VERIFIED-DERIVED conditional arithmetic; company operating point UNRESOLVED"
+}

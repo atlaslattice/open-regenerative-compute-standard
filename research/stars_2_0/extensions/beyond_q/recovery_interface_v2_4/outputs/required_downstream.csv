@@ -1,0 +1,10 @@
+plasma_survival_scenario,overall_target,required_fraction,feasible,evidence
+0.7,0.375,0.5357142857142857,True,conditional arithmetic; not universal plasma bounds
+0.7,0.75,1.0714285714285714,False,conditional arithmetic; not universal plasma bounds
+0.7,0.9,1.2857142857142858,False,conditional arithmetic; not universal plasma bounds
+0.8,0.375,0.46875,True,conditional arithmetic; not universal plasma bounds
+0.8,0.75,0.9375,True,conditional arithmetic; not universal plasma bounds
+0.8,0.9,1.125,False,conditional arithmetic; not universal plasma bounds
+1.0,0.375,0.375,True,conditional arithmetic; not universal plasma bounds
+1.0,0.75,0.75,True,conditional arithmetic; not universal plasma bounds
+1.0,0.9,0.9,True,conditional arithmetic; not universal plasma bounds

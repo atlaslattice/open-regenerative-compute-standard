@@ -1,0 +1,37 @@
+{
+  "version": "2.4.0",
+  "parent_commit": "3b5cfe43513f51dd65321ee40d0fd5109a5b5710",
+  "duration_days": 365.25,
+  "step_days": 0.25,
+  "gross_He3_STP_L_per_year_from_v2_3": 938967.9946786303,
+  "source_scope": "1100MW primary DD,85% effective exposure supplied as constant averaged He3 mol/day. Source-off windows add an explicitly separate adverse outage. Not a reactor-performance prediction.",
+  "overall_baseline_recoveries_unchanged": [0.375, 0.75, 0.9],
+  "staged_case_scope": "Separate diagnostic sensitivities; never multiply these into parent overall recoveries or add this He4/energy to parent outputs.",
+  "assumed_base_stage_parameters": {
+    "plasma_burn_day": 0.42857142857142855,
+    "plasma_exhaust_day": 1.0,
+    "exhaust_delivery_fraction": 0.9,
+    "pump_release_day": 1.0,
+    "pump_capture_regeneration_fraction": 0.9,
+    "purifier_release_day": 4.0,
+    "purifier_yield": 0.95,
+    "source_off": [],
+    "pump_off": [],
+    "purifier_off": []
+  },
+  "rate_evidence": "All stage rates and yields are assumed illustration.0.7 plasma escape fraction is imposed by a hazard ratio, NOT independently reproduced from Greenspan-Miley.",
+  "benchmark_status": {
+    "GM1982": "BLOCKED: full journal equations and numerical cases unavailable; PDF403",
+    "CoSCD1980": "DOWNLOADED AND VISUALLY CHECKED: conceptual precursor energetic arithmetic only; does not supply1982 plasma operating points",
+    "physics_calibration_enabled": false
+  },
+  "required_engineering_interfaces": [
+    "Species-resolved DD exhaust composition and uncertainty includingHe3/He4/D/T/impurities",
+    "Plasma He3 reaction and exhaust residence distributions with operating-point provenance",
+    "Pump inlet pressure,temperature,conductance,capacity and regeneration schedule",
+    "He capture/regeneration yield,cross-contamination and cyclic degradation",
+    "Purification feed composition,recovery,energy and product assay specification",
+    "Recycle/rejection destinations and independent processing outage schedules",
+    "Calibration covariance,validated range and extrapolation flags"
+  ]
+}

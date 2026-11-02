@@ -1,0 +1,26 @@
+{
+  "version": "2.5.0",
+  "python": "3.12.14",
+  "files": {
+    "AUDIT_HISTORY.jsonl": "940664ddae6ed454eeb16d2a7243013c87a389ff1c7a2af7eea5aa3e9186160d",
+    "HANDOFF.md": "1ed15347440ccc28d52be2066641370e7a6771ded630f3211d683ff000174731",
+    "README.md": "0ad90f85825eea2e2cc3665930e4dc2912b28fcb30b8951e6411fd2176439279",
+    "TECHNICAL_APPENDIX.md": "662651b43323994d01e73cbb02d695aee2dc6302d026fdd4ff6af0d0debc21ac",
+    "audit.py": "54daae6606b24e303dee2b3a1f09fa89408b2ce064d6a7c27e4d7ba3105ae274",
+    "audit_execution.txt": "fdf610660fcde9037588c72fc1f3295e43c569bd517b1ecb912d192973e735ac",
+    "engineering_inputs.json": "ece03e80409253425c829a03694bc2bb00c6ba405d7efefaa2f70e4cc2394d5c",
+    "gate_status.json": "17fe2d8fd9f2cc3e46017127d2aba6bd5f7af6e93ebb88873fc2cee5592bfd21",
+    "outputs/B_reference_comparison.csv": "6b8a1f78cb03c8397bd08065886f03b27e0fbf06fcfda74995a1e5689159cb29",
+    "outputs/branch_energy_audit.csv": "e98b7c010bd452926fb7ca82a780ba6f7f7122ce17af440d4f123b3632a7eef1",
+    "outputs/engineering_stage_status.csv": "f46cb33865faffcfd2c1aa4826eb655abe65d7b7ff506521adc9b7dfcc108ce9",
+    "outputs/parent_audit_hashes.json": "aa972632e7e9e3ab31e69309b074b71a86fa6423c35c45d52e2a3b3c0fd06d23",
+    "outputs/product_finance_boundaries.csv": "91b24f3f6ac4ca6cc9eefee29e6726ea4effa0a9736a4bccd16a81acd93b6042",
+    "outputs/synthetic_account.json": "a20b79183ce996aecee91ab366ede659ba01542a6d545bd3308e7fe3d7d611ec",
+    "outputs/synthetic_stage_ledger.csv": "1b27deff18c6046eb090018b5b13f4bca8987cc75d4cc1e745a57ff78b30d509",
+    "outputs/volume_conventions.csv": "f83c6346f78b27f801e679381ad5f28f9528c0700f6fedb70593f22e362b72a6",
+    "routing.py": "3db2b0078c9b7ccfd87d8f82f7037d85d02768ae3d13e654a421c9f2293d02a4",
+    "sources.json": "7072291a3a446f8c83f0e6217c6ed2aa76818fbdc065b46acffe89c4915d838d",
+    "test_audit.py": "87c1a4e00f8edbc179ae43727215e6e10f4c6104cb06c7b20409d4d9f8e64687",
+    "test_execution.txt": "246474c0b9f274f9d839c963db4c4fd6a3b54888acbc43d4be6f02cb8083fac5"
+  }
+}

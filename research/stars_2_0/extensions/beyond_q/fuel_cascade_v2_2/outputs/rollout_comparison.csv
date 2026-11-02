@@ -1,0 +1,6 @@
+scenario,commissioned_by_horizon,first_successor_commission_year,last_successor_commission_year,commissioned_50_year,max_pool_mass_residual_kg,donor_floor_violations,physical_validation
+strict_unresolved,1,,,,0.0,0,False
+sequential_predecessors,15,4.8261464750171115,57.14647501711157,,6.696199150724169e-12,0,False
+eligible_pool,50,4.8261464750171115,42.279945242984255,42.279945242984255,6.545386455059088e-11,0,False
+fixed_calendar,50,,,,,,False
+synchronized_seeded_control,50,,,,,,False

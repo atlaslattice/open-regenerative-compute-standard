@@ -1,0 +1,4 @@
+{"event": "Append-only work-order coverage audit", "parent_commit": "156d32353c0655e9d8d487c84aebc1a88ba6abb8", "changes": ["Separate all requested downstream routing interfaces", "Missing real parameters remainnull", "Read Wisconsin134-page bibliography and visually verify relevant references", "Branch/STP regression and B1130 reference comparison"], "prior_results_changed": false}
+{"event": "Canonical-reference reconciliation", "B_reference_MW": 1130, "B_preserved_prior_executed_sensitivity_MW": 1100, "A_primary_DD_MW": 1100, "note": "No old fleet run relabeled; no new B1130 fleet result claimed."}
+{"event": "Software execution", "tests_passed": 10, "synthetic_species_ledger_rows": 35, "max_species_residual_mol": 0.0, "physical_gates": "G1-G5UNRESOLVED"}
+{"event": "Pending input boundaries", "physical_stage_data": "UNRESOLVED", "actual_qualified_sales": null, "full_cost_profit": null, "complete_recycle_dynamics": "UNRESOLVED", "1982_fulltext": "UNRESOLVED"}

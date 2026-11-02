@@ -1,0 +1,26 @@
+{
+  "stocks_mol": {
+    "plasma": 80.28589204630663,
+    "pump": 72.25730284167594,
+    "purifier": 16.257893139377085,
+    "candidate_storage": 22444.67179463603
+  },
+  "cumulative_mol": {
+    "born": 41892.03152844789,
+    "secondary_burn": 12543.523690920132,
+    "exhaust_loss": 2926.822194548059,
+    "pump_loss": 2626.9142448091156,
+    "purification_loss": 1181.298515507153,
+    "exhausted": 29268.221945480447,
+    "pump_released": 26269.14244809178,
+    "purified": 22444.67179463603
+  },
+  "max_abs_residual_mol": 4.638422979041934e-10,
+  "candidate_product_STP_L": 503074.873604972,
+  "qualified_product_STP_L": null,
+  "additional_He4_born_mol": 12543.523690920132,
+  "additional_deuterium_consumed_mol": 12543.523690920132,
+  "DHe3_reactions_mol": 12543.523690920132,
+  "energy_J": null,
+  "evidence": "POTENTIAL-DERIVED assumed compartment response; NOT PLASMA CALIBRATION"
+}

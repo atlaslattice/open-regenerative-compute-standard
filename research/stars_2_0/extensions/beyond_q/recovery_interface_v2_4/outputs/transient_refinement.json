@@ -1,0 +1,18 @@
+[
+  {
+    "step_days": 0.25,
+    "first_day_candidate_STP_L": 112.3729318945057
+  },
+  {
+    "step_days": 0.125,
+    "first_day_candidate_STP_L": 108.05146370430349
+  },
+  {
+    "step_days": 0.0625,
+    "first_day_candidate_STP_L": 106.95791921969142
+  },
+  {
+    "step_days": 0.03125,
+    "first_day_candidate_STP_L": 106.68371199698439
+  }
+]

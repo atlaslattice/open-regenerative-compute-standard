@@ -1,0 +1,15 @@
+test_all_predecessor_gate_differs_from_eligible_pool (test_cascade.CascadeChecks.test_all_predecessor_gate_differs_from_eligible_pool) ... ok
+test_decay_loss_and_receipt_close_and_start_stock_is_sufficient (test_cascade.CascadeChecks.test_decay_loss_and_receipt_close_and_start_stock_is_sufficient) ... ok
+test_negative_trailing_energy_blocks_donors (test_cascade.CascadeChecks.test_negative_trailing_energy_blocks_donors) ... ok
+test_no_surplus_does_not_create_a_shipment (test_cascade.CascadeChecks.test_no_surplus_does_not_create_a_shipment) ... ok
+test_parent_physics_regression_when_controller_disabled (test_cascade.CascadeChecks.test_parent_physics_regression_when_controller_disabled) ... ok
+test_reservation_blocks_duplicate_spending (test_cascade.CascadeChecks.test_reservation_blocks_duplicate_spending) ... ok
+test_separate_recipient_financing_is_mandatory (test_cascade.CascadeChecks.test_separate_recipient_financing_is_mandatory) ... ok
+test_strict_readiness_blocks_unknown_full_costs (test_cascade.CascadeChecks.test_strict_readiness_blocks_unknown_full_costs) ... ok
+test_third_campus_can_receive_from_both_predecessors (test_cascade.CascadeChecks.test_third_campus_can_receive_from_both_predecessors) ... ok
+test_zero_retention_is_default_and_cash_is_not_doubled (test_cascade.CascadeChecks.test_zero_retention_is_default_and_cash_is_not_doubled) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 1.033s
+
+OK

@@ -1,0 +1,15 @@
+test_T2_factor_two_and_STP (test_audit.Checks.test_T2_factor_two_and_STP) ... ok
+test_branch_labels_visible_off_midpoint (test_audit.Checks.test_branch_labels_visible_off_midpoint) ... ok
+test_capacity_and_shutdown_preserve_unprocessed (test_audit.Checks.test_capacity_and_shutdown_preserve_unprocessed) ... ok
+test_contamination_and_assay (test_audit.Checks.test_contamination_and_assay) ... ok
+test_no_double_spend_consumed_He3 (test_audit.Checks.test_no_double_spend_consumed_He3) ... ok
+test_reject_overlapping_destinations (test_audit.Checks.test_reject_overlapping_destinations) ... ok
+test_requires_deuterium (test_audit.Checks.test_requires_deuterium) ... ok
+test_species_and_reaction_closure (test_audit.Checks.test_species_and_reaction_closure) ... ok
+test_unknown_does_not_become_perfect (test_audit.Checks.test_unknown_does_not_become_perfect) ... ok
+test_zero_birth_no_output (test_audit.Checks.test_zero_birth_no_output) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.001s
+
+OK

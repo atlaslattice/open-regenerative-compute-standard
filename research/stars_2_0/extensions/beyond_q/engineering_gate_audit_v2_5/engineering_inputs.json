@@ -1,0 +1,25 @@
+{
+  "version": "2.5.0",
+  "parent_commit": "156d32353c0655e9d8d487c84aebc1a88ba6abb8",
+  "comparison_A_primary_DD_MW": 1100,
+  "comparison_B_DT_MW": 1130,
+  "preserved_B_matched_comparator_MW": 1100,
+  "overall_He3_potential_recovery_cases": [0.375, 0.75, 0.9],
+  "default_He3_retention_fraction": 0.0,
+  "assumed_He3_price_USD_per_STP_L": 1500,
+  "assumed_T_price_USD_per_gram": 1500,
+  "He3_buyer_min_fraction_of_helium_atoms": null,
+  "buyer_max_T_atoms_per_He3_atom": null,
+  "stage_definition_scope": "Each coefficient set must specify forward,recycle_bank,permanent_loss for every tracked species. Missing coefficients stay unknown. Capacity is a numerical mol-nuclei service constraint, not a physical vacuum-pump rating.",
+  "stages": [
+    {"name":"secondary_He3_consumption","reaction_extent_mol":null},
+    {"name":"plasma_exhaust","species_coefficients":null,"capacity_mol_nuclei_day":null,"energy_kWh_per_mol_nuclei":null,"replacement_interval_days":null,"online_fraction":null},
+    {"name":"divertor_capture","species_coefficients":null,"capacity_mol_nuclei_day":null,"energy_kWh_per_mol_nuclei":null,"replacement_interval_days":null,"online_fraction":null},
+    {"name":"vacuum_pumping","species_coefficients":null,"capacity_mol_nuclei_day":null,"energy_kWh_per_mol_nuclei":null,"replacement_interval_days":null,"online_fraction":null},
+    {"name":"hydrogen_helium_separation","species_coefficients":null,"capacity_mol_nuclei_day":null,"energy_kWh_per_mol_nuclei":null,"replacement_interval_days":null,"online_fraction":null},
+    {"name":"He3_He4_separation","species_coefficients":null,"capacity_mol_nuclei_day":null,"energy_kWh_per_mol_nuclei":null,"replacement_interval_days":null,"online_fraction":null},
+    {"name":"purification","species_coefficients":null,"capacity_mol_nuclei_day":null,"energy_kWh_per_mol_nuclei":null,"replacement_interval_days":null,"online_fraction":null},
+    {"name":"qualified_storage","assay_specification_source":null,"measured_batch_assay":null,"status":"UNRESOLVED"}
+  ],
+  "impurity_species_scope": "H,D,T,He3,He4 nucleus ledgers only. Other chemical impurities, molecular speciation, adsorption and activity conversion require separate inputs; absent here."
+}
