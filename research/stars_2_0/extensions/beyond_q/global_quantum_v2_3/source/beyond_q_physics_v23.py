@@ -1,124 +1,68 @@
 #!/usr/bin/env python3
-"""ARCHIVED 20 MW GROSS SCREENING ONLY — DO NOT USE FOR ACTIVE DUAL ARC DESIGN.
-ACTIVE: A = 1130 MW gross D-D; B = 1130 MW gross D-T.
-20 MW applies ONLY to an unvalidated historical A NET ELECTRICAL estimate.
-CONSERVATIVE VALUES: He3 $1500/STP liter; T $1500/gram.
-This archived standalone physics model is deliberately NOT rescaled to 1130 MW without wall-plug and plasma validation.
-
-Beyond Q v2.3 transparent algebraic screening model.
-NOT a tokamak plasma solver, neutron-transport model, operational forecast, or investment model.
-All quantitative cases are sensitivity illustrations unless explicitly labeled sourced.
+"""Beyond Q active dual-ARC isotope source ledger (2026-11-01).
+SCREENING ONLY: fusion powers are hypothetical achieved gross nuclear outputs,
+NOT validated SPARC/ARC D-D performance. No invented wall-plug output.
 """
-from __future__ import annotations
-import csv, json, math
 from dataclasses import dataclass, asdict
 from pathlib import Path
-AVOGADRO = 6.02214076e23
-MEV_J = 1.602176634e-13
-T_MOLAR_G = 3.01605
-HE3_MOLAR_G = 3.01603
-STP_L_PER_MOL = 22.414 # 0 C and 1 atm, not 1 bar
-SECONDS_PER_YEAR = 365.0 * 24 * 3600
-
+import json, csv, math
+AVOGADRO=6.02214076e23
+MEV_J=1.602176634e-13
+STP_L_MOL=22.414
+HE3_G_MOL=3.01603
+TRITIUM_G_MOL=3.01605
+SECONDS_YEAR=365.25*86400
 @dataclass(frozen=True)
 class Assumptions:
-    dd_primary_mw: float = 20.0
-    dd_branch_t: float = 0.5
-    dd_q_neutron_mev: float = 3.2689   # D(d,p)T
-    dd_q_he3_mev: float = 4.0327       # D(d,n)He3
-    dt_q_mev: float = 17.589
-    li6_capture_q_mev: float = 4.783
-    secondary_t_burn_fraction: float = 0.28
-    he3_secondary_burn_fraction: float = 0.0   # placeholder, not empirically constrained
-    neutron_capture_fraction: float = 0.5       # effective per primary neutron, no multiplication
-    blanket_tritium_recovery_fraction: float = 0.85
-    divertor_tritium_recovery_fraction: float = 0.78
-    plasma_he3_recovery_fraction: float = 0.75
-    rf_delivered_mw: float = 80.0
-    rf_wall_plug_efficiency: float = 0.70
-    rf_deposited_fraction: float = 0.9
-    other_aux_mwe: float = 15.0
-    thermal_collection_fraction: float = 0.85
-    thermal_to_electric_efficiency: float = 0.40
-    capacity_factor: float = 0.85
-    lost_dt_opportunity_mwe: float = 400.0
-    power_price_usd_mwh: float = 65.0
-    t_bank_input_kg_year: float = 1.9
-    t_half_life_years: float = 12.32
-    years: int = 20
-
-def model(a: Assumptions) -> dict:
-    q_dd = a.dd_branch_t*a.dd_q_neutron_mev + (1-a.dd_branch_t)*a.dd_q_he3_mev
-    dd_events_s = a.dd_primary_mw*1e6 / (q_dd*MEV_J)
-    t_born_s = a.dd_branch_t*dd_events_s
-    he3_born_s = (1-a.dd_branch_t)*dd_events_s
-    dt_secondary_s = a.secondary_t_burn_fraction*t_born_s
-    dt_secondary_mw = dt_secondary_s*a.dt_q_mev*MEV_J/1e6
-    dd_neutrons_s = he3_born_s
-    dt_neutrons_s = dt_secondary_s
-    captured_s = a.neutron_capture_fraction*(dd_neutrons_s+dt_neutrons_s)
-    li6_q_mw = captured_s*a.li6_capture_q_mev*MEV_J/1e6
-    nuclear_q_mw = a.dd_primary_mw+dt_secondary_mw+li6_q_mw
-    delivered_rf_deposited_mw = a.rf_delivered_mw*a.rf_deposited_fraction
-    deposited_thermal_mw = nuclear_q_mw+delivered_rf_deposited_mw
-    converter_thermal_mw = deposited_thermal_mw*a.thermal_collection_fraction
-    gross_e_mwe = converter_thermal_mw*a.thermal_to_electric_efficiency
-    rf_wall_mwe = a.rf_delivered_mw/a.rf_wall_plug_efficiency
-    aux_mwe = rf_wall_mwe+a.other_aux_mwe
-    dd_net_mwe = gross_e_mwe-aux_mwe
-    opportunity_mwe = a.lost_dt_opportunity_mwe-dd_net_mwe
-    foregone_energy_gwh_year = opportunity_mwe*8760*a.capacity_factor/1000
-    electricity_value_musd_year = foregone_energy_gwh_year*1000*a.power_price_usd_mwh/1e6
-    sec_cal_year = SECONDS_PER_YEAR*a.capacity_factor
-    t_born_kg_y = t_born_s*sec_cal_year/AVOGADRO*T_MOLAR_G/1000
-    he3_born_stp_l_y = he3_born_s*sec_cal_year/AVOGADRO*STP_L_PER_MOL
-    t_exhaust_rec_kg_y = (t_born_s-dt_secondary_s)*sec_cal_year/AVOGADRO*T_MOLAR_G/1000*a.divertor_tritium_recovery_fraction
-    t_blanket_rec_kg_y = captured_s*sec_cal_year/AVOGADRO*T_MOLAR_G/1000*a.blanket_tritium_recovery_fraction
-    he3_rec_l_y = he3_born_stp_l_y*(1-a.he3_secondary_burn_fraction)*a.plasma_he3_recovery_fraction
-    # Overall gross-to-net conservation check ignoring detailed locations/energy leakage destinations.
-    ext_energy_mw = rf_wall_mwe + a.other_aux_mwe
-    heat_and_non_electric_mw = ext_energy_mw+nuclear_q_mw-gross_e_mwe
-    # Tritium bank mathematical consequence only; do not add to isotope mass balance if source exceeds recovered T.
-    lam=math.log(2)/a.t_half_life_years
-    bank_rows=[]
-    for y in range(0,a.years+1):
-        inventory=a.t_bank_input_kg_year/lam*(-math.expm1(-lam*y))
-        decayed=a.t_bank_input_kg_year*y-inventory
-        bank_rows.append({"year":y,"t_active_kg":inventory,"t_decayed_cumulative_kg":decayed,"he3_decay_cumulative_stp_l":decayed*1000/T_MOLAR_G*STP_L_PER_MOL,"he3_decay_rate_stp_l_year":(lam*inventory)*1000/T_MOLAR_G*STP_L_PER_MOL})
-    return {"assumptions":asdict(a),"dd_events_s":dd_events_s,"t_born_s":t_born_s,"dd_primary_mw":a.dd_primary_mw,"secondary_dt_mw":dt_secondary_mw,"dd_neutron_mw":dd_neutrons_s*2.45*MEV_J/1e6,"li6_capture_q_mw":li6_q_mw,"nuclear_q_mw":nuclear_q_mw,"delivered_rf_mw":a.rf_delivered_mw,"rf_deposited_mw":delivered_rf_deposited_mw,"deposited_thermal_mw":deposited_thermal_mw,"thermal_to_converter_mw":converter_thermal_mw,"gross_e_mwe":gross_e_mwe,"rf_wall_mwe":rf_wall_mwe,"other_aux_mwe":a.other_aux_mwe,"aux_mwe":aux_mwe,"dd_net_mwe":dd_net_mwe,"unconverted_and_local_energy_mw":heat_and_non_electric_mw,"opportunity_mwe":opportunity_mwe,"opportunity_gwh_y":foregone_energy_gwh_year,"opportunity_musd_y":electricity_value_musd_year,"t_born_kg_y":t_born_kg_y,"he3_born_l_y":he3_born_stp_l_y,"t_exhaust_recovered_kg_y":t_exhaust_rec_kg_y,"t_blanket_recovered_kg_y":t_blanket_rec_kg_y,"t_total_recovered_kg_y":t_exhaust_rec_kg_y+t_blanket_rec_kg_y,"he3_plasma_recovered_l_y":he3_rec_l_y,"bank_20y":bank_rows}
-
-def validate(a:Assumptions, r:dict):
-    assert abs(r['dd_net_mwe']-(r['gross_e_mwe']-r['aux_mwe']))<1e-9
-    assert abs(r['nuclear_q_mw']-(a.dd_primary_mw+r['secondary_dt_mw']+r['li6_capture_q_mw']))<1e-9
-    assert abs(r['dd_net_mwe']+r['unconverted_and_local_energy_mw']-r['nuclear_q_mw'])<1e-8
-    assert 0 <= r['t_exhaust_recovered_kg_y'] <= r['t_born_kg_y']
-    assert 0 <= r['he3_plasma_recovered_l_y'] <= r['he3_born_l_y']
-    assert abs(r['bank_20y'][-1]['t_active_kg']+r['bank_20y'][-1]['t_decayed_cumulative_kg']-a.t_bank_input_kg_year*a.years)<1e-8
-    assert all(r['bank_20y'][i+1]['he3_decay_cumulative_stp_l']>=r['bank_20y'][i]['he3_decay_cumulative_stp_l'] for i in range(a.years))
-
+    reactor_a_dd_gross_fusion_mw: float=1130.0
+    reactor_b_dt_gross_fusion_mw: float=1130.0
+    dd_tritium_branch_fraction: float=0.5
+    dd_tritium_branch_q_mev: float=4.0327  # D(d,p)T
+    dd_he3_branch_q_mev: float=3.2689     # D(d,n)He3
+    dt_q_mev: float=17.589
+    availability: float=0.85
+    recovered_he3_fraction: float=0.375 # unvalidated whole-process illustration
+    recovered_tritium_fraction: float=0.375 # independently unvalidated illustration
+    he3_reference_price_usd_per_stp_liter: float=18000.0 # upside quoted-price sensitivity, not durable offtake
+    tritium_reference_price_usd_per_gram: float=30000.0 # upside procurement sensitivity, not sales
+    he3_volume_price_usd_per_stp_liter: float=1500.0 # owner-selected aggressive market-expansion scenario
+    tritium_volume_price_usd_per_gram: float=1500.0 # owner-selected scenario
+    wall_plug_mw: float|None=None  # UNKNOWN; don't infer from fusion or net electricity
+    electricity_price_usd_per_mwh: float=65.0
+    chassis_each_usd: float=2800000000.0 # unvalidated quote
+    reactor_a_modification_usd: float=300000000.0 # unvalidated gross estimate
+    financing_apr: float=0.07
+    financing_years: int=30
+    t_b_dedicated_breeding_fraction: float|None=None # unknown
+def model(a=Assumptions()):
+    assert a.reactor_a_dd_gross_fusion_mw==1130 and a.reactor_b_dt_gross_fusion_mw==1130, "ACTIVE DESIGN: BOTH REACTORS 1130 MW GROSS"
+    q=a.dd_tritium_branch_fraction*a.dd_tritium_branch_q_mev+(1-a.dd_tritium_branch_fraction)*a.dd_he3_branch_q_mev
+    events=a.reactor_a_dd_gross_fusion_mw*1e6/(q*MEV_J)*SECONDS_YEAR*a.availability
+    t_birth=events*a.dd_tritium_branch_fraction/AVOGADRO*TRITIUM_G_MOL
+    he_birth=events*(1-a.dd_tritium_branch_fraction)/AVOGADRO*HE3_G_MOL
+    he_l=he_birth/HE3_G_MOL*STP_L_MOL*a.recovered_he3_fraction
+    t_g=t_birth*a.recovered_tritium_fraction
+    b_t_burn_g=a.reactor_b_dt_gross_fusion_mw*1e6/(a.dt_q_mev*MEV_J)*SECONDS_YEAR*a.availability/AVOGADRO*TRITIUM_G_MOL
+    capex=2*a.chassis_each_usd+a.reactor_a_modification_usd
+    f=a.financing_apr; n=a.financing_years
+    debt=capex*f/(1-(1+f)**(-n))
+    return dict(reactor_a_gross_fusion_mw=a.reactor_a_dd_gross_fusion_mw,reactor_b_gross_fusion_mw=a.reactor_b_dt_gross_fusion_mw,
+       calendar_availability=a.availability,dd_he3_born_g=he_birth,dd_t_born_g=t_birth,
+       recovered_he3_stp_liters=he_l,recovered_t_grams=t_g,reactor_b_t_burn_gross_grams=b_t_burn_g,
+       high_quote_he3_usd=he_l*a.he3_reference_price_usd_per_stp_liter,
+       high_quote_t_value_usd=t_g*a.tritium_reference_price_usd_per_gram,
+       volume_case_he3_usd=he_l*a.he3_volume_price_usd_per_stp_liter,
+       volume_case_t_value_usd=t_g*a.tritium_volume_price_usd_per_gram,
+       illustrative_annual_debt_service_usd=debt,
+       wall_plug_mw=a.wall_plug_mw,
+       power_purchase_usd=None if a.wall_plug_mw is None else a.wall_plug_mw*a.availability*8766*a.electricity_price_usd_per_mwh,
+       net_cash_flow_usd=None, status="UNVALIDATED FUSION POINT; UNVALIDATED RECOVERIES; NO MARKET CLEARING OR NET CASH FLOW")
 def main():
-    folder=Path(__file__).parent
-    raise SystemExit('ARCHIVED 20 MW GROSS CASE: prohibited as an active Beyond Q baseline. Active A/B = 1130 MW GROSS each; 20 MW is only an unvalidated A NET ELECTRIC estimate. To reproduce archived research, import model(Assumptions()) explicitly; do not publish it as current.')
-    a=Assumptions()
-    r=model(a)
-    validate(a,r)
-    with (folder/'screening_results.json').open('w') as f:json.dump({k:v for k,v in r.items() if k not in ('assumptions',)},f,indent=2)
-    with (folder/'tritium_bank_20y.csv').open('w',newline='') as f:
-        writer=csv.DictWriter(f,fieldnames=list(r['bank_20y'][0]));writer.writeheader();writer.writerows(r['bank_20y'])
-    with (folder/'assumptions.csv').open('w',newline='') as f:
-        w=csv.writer(f);w.writerow(['parameter','value','status','interpretation'])
-        for key,value in asdict(a).items():w.writerow([key,value,'POTENTIAL-DERIVED' if key not in ('t_half_life_years','dd_q_neutron_mev','dd_q_he3_mev','dt_q_mev','li6_capture_q_mev') else 'SOURCE-TRACED CONSTANT','Illustrative screening input; not calibrated to ARC-DD'])
-    rows=[]
-    for fb in [0.0,0.1,0.28,0.373]:
-      for fc in [0.0,0.5,1.0]:
-        b=Assumptions(secondary_t_burn_fraction=fb,neutron_capture_fraction=fc)
-        v=model(b);validate(b,v)
-        rows.append({'T_burn_fraction':fb,'Li6_capture_fraction':fc,'secondary_DT_MW':round(v['secondary_dt_mw'],4),'Li6_Q_MW':round(v['li6_capture_q_mw'],4),'gross_nuclear_MW':round(v['nuclear_q_mw'],4),'gross_electric_MWe':round(v['gross_e_mwe'],4),'DD_net_MWe':round(v['dd_net_mwe'],4),'opportunity_MWe':round(v['opportunity_mwe'],4),'T_born_kg_y':round(v['t_born_kg_y'],4),'T_recovered_kg_y':round(v['t_total_recovered_kg_y'],4),'He3_recovered_L_y':round(v['he3_plasma_recovered_l_y'],2)})
-    with (folder/'dd_sensitivity.csv').open('w',newline='') as f:
-        w=csv.DictWriter(f,fieldnames=list(rows[0]));w.writeheader();w.writerows(rows)
-    with (folder/'model_checks.txt').open('w') as f:f.write('PASS: electrical net identity\nPASS: nuclear Q identity\nPASS: plant boundary identity\nPASS: recovered isotope not exceeding birth\nPASS: tritium stock and decay conservation\nPASS: cumulative decay monotonic\n')
-    print('SCENARIO SCREENING OUTPUTS\n');
-    for k in ['secondary_dt_mw','li6_capture_q_mw','nuclear_q_mw','deposited_thermal_mw','gross_e_mwe','rf_wall_mwe','aux_mwe','dd_net_mwe','opportunity_mwe','opportunity_musd_y','t_born_kg_y','he3_born_l_y','t_total_recovered_kg_y','he3_plasma_recovered_l_y']:
-        print(k,round(r[k],4))
-    print('T bank at 20y:',r['bank_20y'][-1]);print('checks 6 PASS')
+    a=Assumptions(); r=model(a)
+    root=Path(__file__).parent
+    (root/'screening_results.json').write_text(json.dumps(r,indent=2)+'\n')
+    with (root/'assumptions.csv').open('w',newline='') as f:
+        w=csv.writer(f);w.writerow(['parameter','value','status'])
+        for k,v in asdict(a).items():w.writerow([k,v,'ASSUMED' if k not in ['dd_tritium_branch_q_mev','dd_he3_branch_q_mev','dt_q_mev'] else 'PUBLISHED NUCLEAR CONSTANT'])
+    print(json.dumps(r,indent=2))
 if __name__=='__main__':main()
