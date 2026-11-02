@@ -1,0 +1,6 @@
+{
+  "checks_passed": 10,
+  "isolated_replay": "SUMMARY and both CSV files byte-identical",
+  "new_PIC_run": false,
+  "unit_tests_passed": 10
+}
