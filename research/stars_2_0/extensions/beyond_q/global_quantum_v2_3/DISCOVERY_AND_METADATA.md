@@ -1,5 +1,3 @@
-# Temporarily withdrawn by project owner
+# Owner-controlled research suspended
 
-The public isotope-yield, tritium-production, helium-3 pricing, reactor economics, and supporting simulation details in this document are withdrawn pending owner review. No zero placeholder represents an experimental or physical finding.
-
-**Status:** PUBLIC ANALYSIS SUSPENDED. Restore only with the owner's explicit authorization.
+Public details related to D-D isotope yield, tritium, helium-3, reactor economics and executable modeling are withdrawn until the owner explicitly authorizes restoration.
