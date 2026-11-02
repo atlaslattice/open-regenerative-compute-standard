@@ -1,15 +1,6 @@
 {
-  "reactor_a_dd_gross_fusion_mw": 1130,
-  "reactor_b_dt_gross_fusion_mw": 1130,
-  "he3_recovered_stp_l": 361636.81690426613,
-  "tritium_recovered_g": 48662.20762131309,
-  "he3_volume_price_usd_per_stp_liter": 15000,
-  "tritium_volume_price_usd_per_gram": 15000,
-  "he3_volume_case_value_usd": 5424552253.563992,
-  "tritium_volume_case_value_usd": 729933114.3196964,
-  "he3_high_quote_value_usd": 6509462704.276791,
-  "tritium_high_quote_value_usd": 1459866228.6393929,
-  "wall_plug_mw": null,
-  "net_cash_flow_usd": null,
-  "validation": "Screening only; no verified plasma point, capture rate, offtake or wall-plug model"
+  "status": "WITHDRAWN_BY_OWNER",
+  "reported_value": 0,
+  "result_valid": false,
+  "note": "Placeholder only, not a scientific measurement."
 }
