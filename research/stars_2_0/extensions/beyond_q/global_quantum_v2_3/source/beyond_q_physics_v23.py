@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-"""Beyond Q v2.3 transparent algebraic screening model.
+"""ARCHIVED 20 MW GROSS SCREENING ONLY — DO NOT USE FOR ACTIVE DUAL ARC DESIGN.
+ACTIVE: A = 1130 MW gross D-D; B = 1130 MW gross D-T.
+20 MW applies ONLY to an unvalidated historical A NET ELECTRICAL estimate.
+CONSERVATIVE VALUES: He3 $1500/STP liter; T $1500/gram.
+This archived standalone physics model is deliberately NOT rescaled to 1130 MW without wall-plug and plasma validation.
+
+Beyond Q v2.3 transparent algebraic screening model.
 NOT a tokamak plasma solver, neutron-transport model, operational forecast, or investment model.
 All quantitative cases are sensitivity illustrations unless explicitly labeled sourced.
 """
