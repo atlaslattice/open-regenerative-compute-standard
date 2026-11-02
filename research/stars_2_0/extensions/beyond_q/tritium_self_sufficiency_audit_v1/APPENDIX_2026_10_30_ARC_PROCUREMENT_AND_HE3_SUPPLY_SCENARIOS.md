@@ -1,21 +1,5 @@
-# Beyond Q fuel-cycle appendix — ARC procurement and helium-3 alternatives (2026-10-30)
-**Research status:** External evidence watch; not a model recalibration. **Source:** [DeepSeek research convergence audit](https://github.com/atlaslattice/open-regenerative-compute-standard/blob/main/docs/fiction/iron_empire/DEEPSEEK_RESEARCH_CONVERGENCE_EVIDENCE_AUDIT_v0_1_2026-10-30.md).
-## CFS commercial reference
-CFS announced ARC DOE roadmap/design milestones, Fujikura HTS tape agreement (>10,000 km), and PJM interconnection application. These are milestones in design, procurement and market development, **not independently measured ARC electric production**.
-Primary: https://www.fujikura.co.jp/en/news/pressrelease/20260930cfsarc1km.html ; https://www.cfs.energy/news-and-media/commonwealth-fusion-systems-becomes-first-fusion-company-to-apply-to-pjm-interconnection-the-largest-u-s-wholesale-electricity-market
-**Comparison invariant:** Reactor B remains **1.13 GW D-T fusion power** and Reactor A **hypothetical 20 MW primary D-D**. The planned ARC ~400 MW net electricity figure is a separate project reference; do not silently substitute older 525 MW references. Compare opportunity costs only after reconciling input assumptions, electrical balance and technology readiness.
-## Helium-3 alternatives
-Pulsar/LH3M announced October 14 evaluation of recovery from Topaz gas reported at ~11.2–11.9 ppb He-3. **Reported concentration is not a production rate, reserve, yield, cost or assured supply.**
-Primary: https://www.globenewswire.com/news-release/2026/10/14/3380328/0/en/pulsar-helium-and-lunar-helium-3-mining-sign-evaluation-agreement-for-helium-3-recovery-assessment-at-topaz.html
-Compare sources: existing terrestrial inventory/recycling; Topaz conditional extraction; D-D coproduct capture; other isotope-generation methods; quantum architectures with lower isotope demand. Parameterize feed volume, separation, isotope purity, capture efficiency, recycling, downtime, output kg/yr, thermal load, power, costs, site/regulatory constraints.
-## Strategic caution / lunar case
-It is physically possible for D-D fusion branches to generate **He-3**, but that does **not** establish economically competitive or demand-matching industrial production. Lunar regolith deposits are another proposed supply route, not established as the sole alternative. Any moon mining scenario must include lunar environmental and heritage concerns, extraction energy and transport costs. The Moon's gravitational influence on tides is real; impacts of specific mining projects require separate physical calculation, not assertion.
-## Actions
-Add independent model sensitivities **without editing existing numerical scenarios**. Classify supplied estimates separately from lab verified data and simulated-derived values.
+# Temporarily withdrawn by project owner
 
+The public isotope-yield, tritium-production, helium-3 pricing, reactor economics, and supporting simulation details in this document are withdrawn pending owner review. No zero placeholder represents an experimental or physical finding.
 
-## 2026-11-01 Topaz whole-gas to helium-3 yield correction (source-traced)
-
-**Read the [new isotope/abundance appendix](https://github.com/atlaslattice/open-regenerative-compute-standard/blob/main/research/stars_2_0/extensions/beyond_q/tritium_self_sufficiency_audit_v1/APPENDIX_2026_11_01_TOPAZ_ISOTOPE_MATERIAL_BALANCE_AND_ABUNDANCE_PRICE_SCENARIOS.md)**. Topaz is a **CO2-rich, methane-poor primary helium gas project**, **NOT LNG**. USGS/LLNL verified **11.2–11.9 parts per billion He-3** in Jetstream #1 gas with roughly **7.7–8.0% He-4**. Pulsar's 2026 Chart/Baker Hughes *nameplate* **200 million standard cubic feet/year He-4-gas equivalent** would, **only if** fed by the same isotope ratio with uninterrupted throughput and perfect isotope capture, correspond to roughly **800–900 standard gaseous liters He-3/year**, not a verified production estimate. Product *purity goal ≥95%* in LH3M evaluation is **not recovery yield**. Plannable revenue and reserve need separate verified flow, extraction cost and declining-price sensitivities; never count 7.5 million liters of **liquid He-4** as 7.5 million liters of **gaseous He-3**.
-
-The owner's **Reactor A 1.10 GW D-D** and **Reactor B 1.13 GW D-T** references and 350,000 gaseous L/year He-3+T goals remain **unproven engineering scenario targets**. Add **topaz success/failure, $/kg falling with abundance, high quantum-demand / closed-loop refill**, plus geological depletion and net-power energy comparison; do not claim either output pathway established. An observed narrow commodity market price is not permanent demand curve and no evidence supports intentional supply restriction. The historical 20MW A case is **not** the owner-current 1.10GW baseline.
+**Status:** PUBLIC ANALYSIS SUSPENDED. Restore only with the owner's explicit authorization.
