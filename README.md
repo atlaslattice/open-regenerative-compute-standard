@@ -1,5 +1,10 @@
 # The Open Regenerative Compute Standard (ORCS)
 
+## Somalia Nutrition Sovereignty — Unity Gel 24-factory open feasibility white paper (2026-11-03)
+
+**[Read the public Somalia nutrition-sovereignty white paper and Convergence Club review invitation](research/unity-gel-somalia-24-factory-local-nutrition-transition-whitepaper-v0.1-2026-11-03.md)** — a Somali-owned local-food manufacturing network sized at 24 nominal 132-t/day facilities for an *illustrative* 5.4M daily ration-equivalents; $2/2,000-kcal-day is an **unverified target**, not a validated food or factory price. Compares 2022–2026 humanitarian **appeals**, reported **funding**, and documented **WFP expenses** without conflating them; requests independent scrutiny from Somali manufacturers and agencies including SoDMA, WFP, FAO, UNICEF and OCHA. No partner endorsement, deployment or short-run savings asserted.
+
+
 ## National Grid Intelligence 1.0 — full-system dynamic modernization (2026-10-31)
 
 **[Next domestic factory product: 3D-printed liquid-cooling modules, heat exchangers and robotic pump/CDU assemblies](research/orcs/manufacturing/NEXT_PRODUCT_MODULAR_COOLING_CDU_PRINTED_HEAT_EXCHANGERS_2026-10-31.md)**. 2026 import/trade categories, direct manufacturer/academic evidence, and test plan for reusing transformer factory robot/printing skills; nonoperational research and no factory order book.
