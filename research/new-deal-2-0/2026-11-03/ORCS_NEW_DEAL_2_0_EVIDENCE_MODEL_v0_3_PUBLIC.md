@@ -2,7 +2,7 @@
 **3 November 2026 · Public research working paper · Atlas Lattice / ORCS**
 
 **STATUS: PROPOSED / UNFUNDED / SIMULATED / NOT DEPLOYED / NO CONTRACTED REVENUE.**
-This companion publication converts the November 2026 21-page research paper and 13-sheet workbook into a GitHub-readable text digest. All numerical scenario outputs are *illustrative* and depend on editable, currently unverified assumptions. It does not replace earlier ORCS work or claim company/government endorsement. Prior work remains in [October 31 national employment, personal AI and local dividends](../../docs/whitepapers/ORCS_NEW_DEAL_2_0_EMPLOYMENT_PERSONAL_AI_LOCAL_COMMUNITY_DIVIDEND_WP_v0_1_2026-10-31.md).
+This companion publication converts the November 2026 21-page research paper and 13-sheet workbook into a GitHub-readable text digest. All numerical scenario outputs are *illustrative* and depend on editable, currently unverified assumptions. It does not replace earlier ORCS work or claim company/government endorsement. Prior work remains in [October 31 national employment, personal AI and local dividends](../../../docs/whitepapers/ORCS_NEW_DEAL_2_0_EMPLOYMENT_PERSONAL_AI_LOCAL_COMMUNITY_DIVIDEND_WP_v0_1_2026-10-31.md).
 
 ## 1. Problem and program boundary
 ORCS is a proposed 30-year, $1.5T national productive infrastructure financing architecture targeting **3 million net-new active paid jobs and 3 million finished, habitable $200k-all-in homes by 31 December 2030**, subject to physical, financial and legal verification. County participation is a local benefit guarantee, not an arbitrary one-factory mandate. Component streams include modular manufacturing, robotics, grid work, recovered domestic materials, wastewater modernization, agriculture/nutrient recovery, housing and community-positive AI/infrastructure nodes.
@@ -63,6 +63,6 @@ No county-by-county QCEW/CBP records, individual plant audits, signed processing
 - [Three-sector numerical scenario summary](./three_sector_scenarios_v0_3.csv)
 - [Editable assumptions in text format](./three_sector_assumptions_v0_3.csv)
 - [Complementary workforce / county community-service sectors v0.4](./symbiotic_workforce_and_community_services_v0_4.md)
-- [Original comprehensive ORCS October 31 employment paper](../../docs/whitepapers/ORCS_NEW_DEAL_2_0_EMPLOYMENT_PERSONAL_AI_LOCAL_COMMUNITY_DIVIDEND_WP_v0_1_2026-10-31.md)
+- [Original comprehensive ORCS October 31 employment paper](../../../docs/whitepapers/ORCS_NEW_DEAL_2_0_EMPLOYMENT_PERSONAL_AI_LOCAL_COMMUNITY_DIVIDEND_WP_v0_1_2026-10-31.md)
 
 Publication note: this GitHub edition is a portable **Markdown and CSV representation of the research**, not a byte-for-byte copy of the original PDF, DOCX or XLSX. Any later binary uploads should be checked against the versioned source and should preserve this disclosure.
