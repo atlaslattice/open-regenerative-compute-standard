@@ -1,0 +1,12 @@
+Sector,Scale driver,Low gross FTE,High gross FTE,Incremental employment restriction
+County independent audit,3 to 6 posts x 3144 jurisdictions,9432,18864,Independent payroll and no overlap with factory QA
+Regulatory and environmental compliance,2 to 5 posts x 3144,6288,15720,Exclude inspections in field construction contract
+Vocational educators and independent assessors,6 to 16 posts x 3144,18864,50304,Do not double count in-plant mentors
+Recruitment and public information,2 to 4 posts x 3144,6288,12576,Link to funded vacancies and retained hires
+Property and shared-service managers,3M homes divided by 300 to 100 homes per FTE,10000,30000,Only occupied homes and contracted services
+Residential repairs and preventative maintenance,3M homes divided by 150 to 75 homes per FTE,20000,40000,Net of existing contractors and warranties
+Landscape and grounds operations,3M homes divided by 100 to 40 homes per FTE,30000,75000,Adjust for shared grounds and xeriscaping
+Optional housekeeping,3M homes x uptake x monthly service hours x 12 divided by 1800,10000,60000,Household fee and uptake dependent
+Voluntary wellness and recreation coaching,3M workers x membership fraction divided by members per FTE,2250,9000,Exclude clinical roles and require consent
+Software AI and cyber operations,National engineering and support assumption,5000,20000,Subtract roles already in plant and central payroll
+TOTAL GROSS SENSITIVITY,Not net new or automatically additive,118122,331464,Separate recurring funding and overlap reconciliation
