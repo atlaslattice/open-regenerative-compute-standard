@@ -1,0 +1,24 @@
+Assumption,Unit,Conservative,Central,Accelerated,Status
+Productive hours per FTE,hours,1800,1800,1800,ASSUMED
+Annual fully loaded labor cost,USD,70000,70000,70000,ASSUMED
+Materials module annual nameplate,short tons,250000,250000,250000,TARGET
+Materials module utilization,fraction,0.65,0.80,0.90,ASSUMED
+Materials annual inbound,million short tons,29,72.5,145,ASSUMED
+Materials labor intensity,productive hours per inbound ton,1.25,0.75,0.45,ASSUMED
+Materials newly hired share,fraction,0.30,0.50,0.60,ASSUMED
+Materials qualified yield,fraction,0.45,0.60,0.70,ASSUMED
+Qualified sale price,USD per qualified ton,50,85,125,ASSUMED
+Tipping fee eligible share,fraction,0.25,0.35,0.50,ASSUMED
+Realized tipping fee,USD per eligible ton,25,35,45,ASSUMED
+Materials nonlabor opex,USD per inbound ton,25,18,20,ASSUMED
+Materials module CAPEX,USD millions,60,45,40,ASSUMED
+Materials debt rate,annual fraction,0.07,0.07,0.07,ASSUMED
+Materials debt term,years,20,20,20,ASSUMED
+Water annual executed capex,USD billions,5,15,30,ASSUMED
+Water construction direct jobs,job-years per USD million,2,3.5,5,ASSUMED
+Water net-new construction fraction,fraction,0.25,0.45,0.60,ASSUMED
+Water added permanent O&M,FTE,500,2500,7500,ASSUMED
+Grid annual executed capex,USD billions,15,40,80,ASSUMED
+Grid direct field construction,job-years per USD million,1.5,2.5,3.5,ASSUMED
+Grid net-new construction fraction,fraction,0.25,0.40,0.55,ASSUMED
+Grid added permanent O&M,FTE,1000,5000,15000,ASSUMED
