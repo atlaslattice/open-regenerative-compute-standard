@@ -1,5 +1,10 @@
 # The Open Regenerative Compute Standard (ORCS)
 
+## ORCS / New Deal 2.0 — public evidence model, county jobs and service ecosystem (November 3, 2026)
+
+**[Read the v0.3 three-sector evidence and workforce model](research/new-deal-2-0/2026-11-03/ORCS_NEW_DEAL_2_0_EVIDENCE_MODEL_v0_3_PUBLIC.md)** · **[Complementary county audit, education, robotics, housing property-services and AI workforces v0.4](research/new-deal-2-0/2026-11-03/symbiotic_workforce_and_community_services_v0_4.md)** · **[Assumptions CSV](research/new-deal-2-0/2026-11-03/three_sector_assumptions_v0_3.csv)** · **[Scenarios CSV](research/new-deal-2-0/2026-11-03/three_sector_scenarios_v0_3.csv)** · **[Reproduction script](research/new-deal-2-0/2026-11-03/reproduce_three_sector_v0_3.py)** · **[Complementary workforce CSV](research/new-deal-2-0/2026-11-03/symbiotic_workforce_scenarios_v0_4.csv)**. Proposed/unfunded; 3M paid jobs by 2030 remains a TARGET. Scenario values are not observed national employment; sources, formulas, negative central-case waste economics and open validation gates are disclosed. Existing technical papers are preserved.
+
+
 ## Somalia Nutrition Sovereignty — Unity Gel 24-factory open feasibility white paper (2026-11-03)
 
 **[Read the public Somalia nutrition-sovereignty white paper and Convergence Club review invitation](research/unity-gel-somalia-24-factory-local-nutrition-transition-whitepaper-v0.1-2026-11-03.md)** — a Somali-owned local-food manufacturing network sized at 24 nominal 132-t/day facilities for an *illustrative* 5.4M daily ration-equivalents; $2/2,000-kcal-day is an **unverified target**, not a validated food or factory price. Compares 2022–2026 humanitarian **appeals**, reported **funding**, and documented **WFP expenses** without conflating them; requests independent scrutiny from Somali manufacturers and agencies including SoDMA, WFP, FAO, UNICEF and OCHA. No partner endorsement, deployment or short-run savings asserted.
