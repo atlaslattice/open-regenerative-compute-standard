@@ -1,0 +1,18 @@
+Metric,Unit,Conservative,Central,Accelerated,Status
+Materials actual annual throughput,million short tons,29,72.5,145,ASSUMED
+Materials modules,modules,179,363,645,DERIVED
+Materials processing direct FTE,FTE,20138.89,30208.33,36250,DERIVED
+Materials net-new assumed FTE,FTE,6041.67,15104.17,21750,DERIVED_ASSUMED_SHARE
+Water annual capex,USD billions,5,15,30,ASSUMED
+Water construction job-year FTE,FTE year,10000,52500,150000,DERIVED_ASSUMED_COEFFICIENT
+Water additional O&M FTE,FTE,500,2500,7500,ASSUMED
+Water gross annual positions,FTE/year,10500,55000,157500,DERIVED
+Water potentially net-new,FTE/year,3000,26125,97500,DERIVED_ASSUMED_SHARE
+Grid annual field capex,USD billions,15,40,80,ASSUMED
+Grid field construction job-year FTE,FTE year,22500,100000,280000,DERIVED_ASSUMED_COEFFICIENT
+Grid added O&M FTE,FTE,1000,5000,15000,ASSUMED
+Grid gross annual positions,FTE/year,23500,105000,295000,DERIVED
+Grid potentially net-new,FTE/year,6625,45000,169000,DERIVED_ASSUMED_SHARE
+Three-sector gross,FTE/year,54138.89,190208.33,488750,DERIVED
+Three-sector potentially net-new,FTE/year,15666.67,86229.17,288250,DERIVED_ASSUMED_SHARE
+Waste contribution after annualized capital charge,USD billions,-2.31475,-0.37587,8.07716,DERIVED_ASSUMED_UNIT_ECONOMICS
