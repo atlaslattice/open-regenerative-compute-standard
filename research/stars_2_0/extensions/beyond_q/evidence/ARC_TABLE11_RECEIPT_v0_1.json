@@ -1,0 +1,17 @@
+{
+  "source": "https://arxiv.org/pdf/1409.3540v2",
+  "source_pdf_sha256": "a03e380701a0a8ce515250ca6b35d647c9948e119e53221d88d41acd44ee3346",
+  "source_bytes": 4770370,
+  "version": "v2 2015-08-16",
+  "table": 11,
+  "PDF_page": 30,
+  "method": "pdftotext -layout plus rendered page visual inspection",
+  "scope": "transcription, not independent costing validation",
+  "notes": [
+    "preprint Table 11 rounded subtotals preserved",
+    "Table 11 excludes balance of plant",
+    "Section 6.2 fabrication scaling 1.06 MUSD/tonne FY2014",
+    "Divertor excluded from table; Section 6.3 separately gives rough 17.5 MUSD fabricated estimate",
+    "No inflation escalation, D-D adaptation or plant commonality inferred"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "code_sha256": "7e7e73aa9c1dcb8ab3fc17a00c5013aa6dd950fd5b87479a4eebb96e15b88e35",
+  "assumptions_sha256": "d980b77bfac858081c415965659854e179d751b2debdad5d50167121ad427142",
+  "outputs": {
+    "arc_cost_share_v0_1.json": "90b453fec95086cf2cf4ea5254f2d0d822d56676abb16b295bb76ce3c85a624b",
+    "primary_balance_v0_1.json": "4fb908834869f66cbf73f7d34920e766e973c95cedeae4a9d9e6863a950feba9",
+    "survival_recovery_sensitivity_v0_1.csv": "3ce461d6f6107e0f9396ff4076b6b0f0f9dea8ed70af5831bc47bcc611d89e02",
+    "twenty_year_primary_only_v0_1.csv": "080828e7220e66728b7517e9fb88754e1a60ceaacc0102dc15970c91a1d9a38a"
+  },
+  "scope": "arithmetic and conditional stoichiometry only; no engineering validation",
+  "inputs": {
+    "version": "0.1",
+    "architecture": "paired D-D refinery / D-T power; retained baseline",
+    "DD_primary_power_MW": 25,
+    "DT_fusion_power_MW": 525,
+    "capacity_factor_each": 0.85,
+    "DD_He3_branch_fraction": 0.5,
+    "recovery_and_qualification": 0.8,
+    "secondary_isotope_survival_base_case": 1.0,
+    "secondary_survival_status": "primary-only accounting simplification, not predicted survival",
+    "lithium_breeding_credit": 0,
+    "lithium_status": "unqualified module; zero credited, not proof of zero physical production",
+    "internal_He3_allocation": 0.5,
+    "external_He3_allocation": 0.5,
+    "external_sales": "UNKNOWN",
+    "source_reaction_model": "https://ukaea.github.io/PROCESS/physics-models/fusion_reactions/plasma_reactions/",
+    "DD_heating_wall_power_MW": null,
+    "isotope_separation_CAPEX_ancestor_USD": 120000000,
+    "isotope_separation_CAPEX_status": "ASSUMED; scope/overlap with adaptation unresolved",
+    "startup_inventory": null,
+    "processing_latency": null,
+    "reserve_inventory": null,
+    "neutron_transport": null,
+    "system_validation": "NOT_ESTABLISHED"
+  }
+}
