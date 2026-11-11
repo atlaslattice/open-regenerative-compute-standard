@@ -1,0 +1,52 @@
+{
+  "status": "TEXT_ACCOUNTING_ONLY",
+  "python": "3.12.14",
+  "source_commit": "4512e9bb8505591ea207d28c2f0689ab5aecae9f",
+  "script_sha256": "d0c851b5f6032d6b312304c243aecf894eba36279bc6715f0391170b81982641",
+  "verified_paper_blobs": 8,
+  "unrecovered_whitepaper": "v0.1",
+  "pairs": [
+    {
+      "from": "research/stars_2_0/whitepapers/STARS_2_0_RF_v0_2_updated_whitepaper.md",
+      "to": "research/stars-2-0-modular-pb11-acousto-optical-energy-conversion-whitepaper-v0.3-2026-10-27.md",
+      "removed_lines": 31,
+      "added_lines": 79
+    },
+    {
+      "from": "research/stars-2-0-modular-pb11-acousto-optical-energy-conversion-whitepaper-v0.3-2026-10-27.md",
+      "to": "research/stars-2-0-modular-pb11-electroacoustic-alpha-recovery-whitepaper-v0.4-2026-10-27.md",
+      "removed_lines": 2,
+      "added_lines": 103
+    },
+    {
+      "from": "research/stars-2-0-modular-pb11-electroacoustic-alpha-recovery-whitepaper-v0.4-2026-10-27.md",
+      "to": "research/stars-2-0-v0.5-evidence-integration-2026-10-27.md",
+      "removed_lines": 177,
+      "added_lines": 57
+    },
+    {
+      "from": "research/stars-2-0-v0.5-evidence-integration-2026-10-27.md",
+      "to": "research/stars_2_0/whitepapers/STARS_2_0_v0_6_WP_B_AUDIT_AND_INTEGRATED_RESEARCH_WHITEPAPER_2026-10-27.md",
+      "removed_lines": 57,
+      "added_lines": 185
+    },
+    {
+      "from": "research/stars_2_0/whitepapers/STARS_2_0_v0_6_WP_B_AUDIT_AND_INTEGRATED_RESEARCH_WHITEPAPER_2026-10-27.md",
+      "to": "research/stars_2_0/whitepapers/STARS_2_0_v0_7_ACOUSTIC_AB_EVIDENCE_AND_INTEGRATED_REVIEW_2026-10-27.md",
+      "removed_lines": 171,
+      "added_lines": 261
+    },
+    {
+      "from": "research/stars_2_0/whitepapers/STARS_2_0_v0_7_ACOUSTIC_AB_EVIDENCE_AND_INTEGRATED_REVIEW_2026-10-27.md",
+      "to": "research/stars_2_0/whitepapers/STARS_2_0_v0_8_REFERENCE_DATA_CALIBRATION_AND_INTERFACE_VALIDATION_2026-10-27.md",
+      "removed_lines": 262,
+      "added_lines": 206
+    },
+    {
+      "from": "research/stars_2_0/whitepapers/STARS_2_0_v0_8_REFERENCE_DATA_CALIBRATION_AND_INTERFACE_VALIDATION_2026-10-27.md",
+      "to": "research/stars_2_0/whitepapers/STARS_2_0_v0_9_PRE_SIMULATION_MULTI_AGENT_SYNTHESIS_AND_HARMONIC_ANALYSIS_2026-10-27.md",
+      "removed_lines": 186,
+      "added_lines": 164
+    }
+  ]
+}
