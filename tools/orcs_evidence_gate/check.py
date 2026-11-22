@@ -5,6 +5,21 @@ from pathlib import Path
 STATES = ('authority','funding','construction','commissioning','operation','measured_output','delivered_benefit')
 VALUES = {'UNKNOWN','NOT_APPLICABLE','PROPOSED','DOCUMENTED','VERIFIED'}
 
+def _unique_pairs(pairs):
+    """Reject overwritten JSON fields at any nesting depth."""
+    result = {}
+    for key, value in pairs:
+        if key in result:
+            raise ValueError(f'duplicate JSON key: {key}')
+        result[key] = value
+    return result
+
+def loads_strict(text):
+    """Reject ambiguous duplicate keys and nonstandard nonfinite JSON values."""
+    return json.loads(text, object_pairs_hook=_unique_pairs,
+                      parse_constant=lambda value: (_ for _ in ()).throw(
+                          ValueError(f'nonfinite JSON constant: {value}')))
+
 def validate(data):
     errors=[]
     if not isinstance(data,dict) or not isinstance(data.get('claims'),list):
@@ -26,7 +41,7 @@ def validate(data):
         if not isinstance(states,dict):errors.append(f'{p}: states object required');continue
         for key in STATES:
             s=states.get(key)
-            if not isinstance(s,dict) or s.get('status') not in VALUES: errors.append(f'{p}: invalid {key} state');continue
+            if not isinstance(s,dict) or not isinstance(s.get('status'),str) or s['status'] not in VALUES: errors.append(f'{p}: invalid {key} state');continue
             if s['status']=='VERIFIED' and any(
                 not isinstance(s.get(field), str) or not s[field].strip()
                 for field in ('evidence_ref', 'observation')
@@ -38,7 +53,7 @@ def validate(data):
 
 def main():
     if len(sys.argv)!=2:print('usage: python check.py ledger.json',file=sys.stderr);return 2
-    try: data=json.loads(Path(sys.argv[1]).read_text())
+    try: data=loads_strict(Path(sys.argv[1]).read_text(encoding='utf-8'))
     except (OSError,ValueError) as e: print(f'INVALID INPUT: {e}',file=sys.stderr);return 2
     errors=validate(data)
     print(json.dumps({'status':'PASS_LEDGER_SCHEMA_ONLY' if not errors else 'FAIL','claim_count':len(data['claims']) if isinstance(data,dict) and isinstance(data.get('claims'),list) else None,'errors':errors},indent=2))
