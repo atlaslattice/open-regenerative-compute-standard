@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Beyond Q — Fuel inventory</title>
+<style>
+:root{color-scheme:light dark}body{font:16px system-ui;max-width:1050px;margin:32px auto;padding:0 20px;line-height:1.5}h1{font-size:1.7rem}label{display:inline-block;margin:8px 12px 8px 0}select,input{font:inherit;padding:6px}svg{width:100%;height:auto}text{fill:CanvasText;font:13px system-ui}.grid{stroke:GrayText;opacity:.3}.line{fill:none;stroke:Highlight;stroke-width:2.5}.point{fill:Highlight}.muted{color:GrayText}output{display:block;font-variant-numeric:tabular-nums}table{border-collapse:collapse;width:100%}th,td{padding:8px;text-align:left;border-bottom:1px solid GrayText}button{font:inherit;padding:8px;margin-top:16px}
+</style></head><body><h1>Beyond Q · Dynamic fuel inventory</h1>
+<p>Candidate v1.1 · B 1.13 GW D-T · A hypothetical 20 MW primary D-D</p>
+<p><strong>POTENTIAL-DERIVED. All five physical research gates remain open.</strong> A2 is an assumed surrogate, not an optimized blanket. Inventory is not qualified usable surplus.</p>
+<label>Case <select id="case"><option>A0</option><option selected>A1</option><option>A2</option></select></label>
+<label>Measure <select id="metric"><option value="total_inventory">Total T inventory (kg)</option><option value="b_store">B available storage (kg)</option><option value="b_unserved_burn">Cumulative unserved B burn (kg)</option></select></label>
+<svg id="plot" role="img" aria-label="Daily fuel inventory trajectory"></svg>
+<label for="day">Day <span id="dayLabel"></span></label><input id="day" type="range" min="0" value="0" style="width:100%">
+<output id="detail" aria-live="polite"></output>
+<button id="download" type="button">Download displayed series CSV</button>
+<p class="muted">Explore computed daily results. These controls select existing results; they do not rerun the Python model.</p>
+<script>
+const data=__TRAJECTORIES__;
+const select=document.getElementById('case'),metric=document.getElementById('metric'),day=document.getElementById('day'),svg=document.getElementById('plot');
+const ns='http://www.w3.org/2000/svg';
+function element(tag,attrs,text){const e=document.createElementNS(ns,tag);for(const [k,v] of Object.entries(attrs))e.setAttribute(k,v);if(text!==undefined)e.textContent=text;svg.appendChild(e);return e}
+function draw(){const rows=data[select.value],key=metric.value;day.max=rows.length-1;day.value=Math.min(+day.value,rows.length-1);const i=+day.value,r=rows[i];
+ const w=Math.max(320,svg.clientWidth),h=330,l=65,right=w-18,top=15,bottom=270;
+ svg.setAttribute('viewBox',`0 0 ${w} ${h}`);svg.replaceChildren();
+ let low=Math.min(...rows.map(x=>x[key])),high=Math.max(...rows.map(x=>x[key]));const pad=Math.max(.05,(high-low)*.08);low-=pad;high+=pad;
+ const X=x=>l+x/rows[rows.length-1].day*(right-l),Y=y=>bottom-(y-low)/(high-low)*(bottom-top);
+ for(let j=0;j<=4;j++){const y=low+(high-low)*j/4;element('line',{x1:l,x2:right,y1:Y(y),y2:Y(y),class:'grid'});element('text',{x:l-8,y:Y(y)+4,'text-anchor':'end'},y.toFixed(2));}
+ for(let j=0;j<=3;j++){const d=rows[rows.length-1].day*j/3;element('text',{x:X(d),y:bottom+23,'text-anchor':j===3?'end':j===0?'start':'middle'},d.toFixed(0));}
+ element('text',{x:(l+right)/2,y:bottom+50,'text-anchor':'middle'},'Calendar day');
+ element('text',{x:16,y:145,transform:'rotate(-90 16 145)','text-anchor':'middle'},'kg-T');
+ element('path',{d:rows.map((r,i)=>(i?'L':'M')+X(r.day)+','+Y(r[key])).join(' '),class:'line'});
+ element('line',{x1:X(r.day),x2:X(r.day),y1:top,y2:bottom,class:'grid'});element('circle',{cx:X(r.day),cy:Y(r[key]),r:5,class:'point'});
+ document.getElementById('dayLabel').textContent=r.day;
+ document.getElementById('detail').textContent=`${select.value} · Day ${r.day} · Total ${r.total_inventory.toFixed(4)} kg-T · B storage ${r.b_store.toFixed(4)} kg-T · Unserved burn ${r.b_unserved_burn.toFixed(4)} kg-T`;
+}
+for(const e of [select,metric,day])e.addEventListener('input',draw);
+document.getElementById('download').addEventListener('click',()=>{const rows=data[select.value],k=metric.value;const blob=new Blob(['day,'+k+'\n'+rows.map(r=>r.day+','+r[k]).join('\n')],{type:'text/csv'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=select.value+'_'+k+'.csv';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)});
+new ResizeObserver(draw).observe(svg);draw();
+</script></body></html>

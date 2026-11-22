@@ -1,0 +1,8 @@
+{
+  "status": "SOURCE-TRACED to supplied Argon message; physical validity UNRESOLVED",
+  "exact_secondary_burn_equation": "f_fast + (1-f_fast)*(n_D*<sigma v>_DT*tau_p,T)/(1+n_D*<sigma v>_DT*tau_p,T)",
+  "exact_flibe_equations": "dI/dt=TBR_B*B(t)-(epsilon_ext/tau_loop+lambda+k_perm)*I; I_ss=TBR_B*B/(epsilon_ext/tau_loop+lambda+k_perm); eta=(epsilon_ext/tau_loop)/(epsilon_ext/tau_loop+lambda+k_perm)*(1-f_ISS_loss)",
+  "reason": "Exact proposal supplied by user during implementation on 2026-10-29 America/Chicago.",
+  "attribution_policy": "Credit candidate equations to Gemini Argon as supplied by Dave Sheldon. Do not claim independent literature derivation or physical validation.",
+  "generic_alternatives": ["fixed exposure 1-exp(-n_D*reactivity*tau)", "competing hazards reaction/(reaction+escape)", "linear well-mixed extraction inventory ODE"]
+}

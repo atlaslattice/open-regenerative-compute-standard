@@ -1,0 +1,20 @@
+{
+  "label": "Assumption-conditioned ensemble quantiles; not confidence/credible bounds",
+  "samples": 64,
+  "metrics": {
+    "final_kg": {
+      "0": 8.53991092017847,
+      "0.05": 10.152297392066973,
+      "0.5": 16.228017657114485,
+      "0.95": 23.819786044219843,
+      "1": 24.854696978583704
+    },
+    "unserved_burn_kg": {
+      "0": 0.0,
+      "0.05": 0.0,
+      "0.5": 0.0,
+      "0.95": 0.0,
+      "1": 0.0
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "status": "POTENTIAL-DERIVED: illustrative epistemic ranges; not fitted",
+  "seed": 6119,
+  "uniform_ranges": {
+    "tbr_b": [
+      0.95,
+      1.1
+    ],
+    "tbr_a": [
+      0.35,
+      0.7
+    ],
+    "extract_b_day": [
+      4.8,
+      122.4
+    ],
+    "permeation_day": [
+      0.0,
+      0.001
+    ],
+    "process_recovery": [
+      0.999,
+      0.99999
+    ],
+    "a_reaction_day": [
+      0,
+      2000
+    ],
+    "common_outage": [
+      0.0,
+      0.15
+    ]
+  },
+  "dependence": "Parameter ranges independent; schedules correlated only through explicit common shocks. Physical covariance unavailable."
+}
