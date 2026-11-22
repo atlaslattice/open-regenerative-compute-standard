@@ -1,5 +1,5 @@
 import unittest
-from check import validate,STATES
+from check import validate,STATES,loads_strict
 
 def record():
     return {'claims':[{'id':'sample','subject':'synthetic diesel shipment','scope':'test only','observed_at':'2026-11-22','source_url':'https://example.org/synthetic','states':{k:{'status':'UNKNOWN'} for k in STATES}}]}
@@ -38,4 +38,21 @@ class GateTests(unittest.TestCase):
                     }
                     r['claims'][0]['states']['operation'][field]=malformed
                     self.assertIn('claims[0]: VERIFIED operation requires evidence_ref and observation', validate(r))
+    def test_unhashable_nested_status_is_held_without_exception(self):
+        for bad in ([], {}, ['VERIFIED'], {'status':'VERIFIED'}):
+            with self.subTest(status=repr(bad)):
+                r=record();r['claims'][0]['states']['operation']={'status':bad}
+                self.assertIn('claims[0]: invalid operation state',validate(r))
+    def test_duplicate_json_keys_cannot_mask_evidence(self):
+        for raw in ('{"claims":[],"claims":[]}',
+                    '{"claims":[{"id":"a","id":"b"}]}',
+                    '{"claims":[{"states":{"operation":{"status":"UNKNOWN","status":"VERIFIED"}}}]}'):
+            with self.subTest(raw=raw):
+                with self.assertRaisesRegex(ValueError,'duplicate JSON key'):
+                    loads_strict(raw)
+    def test_nonfinite_nonstandard_json_is_not_accepted(self):
+        for value in ('NaN','Infinity','-Infinity'):
+            with self.subTest(value=value):
+                with self.assertRaisesRegex(ValueError,'nonfinite JSON constant'):
+                    loads_strict('{"claims":[],"untrusted":'+value+'}')
 if __name__=='__main__':unittest.main()
