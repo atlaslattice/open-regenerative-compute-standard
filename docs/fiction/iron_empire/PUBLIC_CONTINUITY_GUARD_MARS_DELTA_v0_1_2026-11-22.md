@@ -10,12 +10,26 @@ This file is a small additive companion to the public Iron Empire story sources.
 | --- | --- | --- |
 | Distant anomaly and Imperial arrival | Public six-film treatment v0.4 | Human anomaly detection in **2062**; damaged fleet unexpectedly emerges in **2069** |
 | Full Imperial accounting audit | Author correction v0.5 | **Film II**, expressly published on the Emperor's authority after reconciliation |
-| Ancient Mars | Author correction dated **2026-11-06** | **Film II** partly prequel: ancient gardens, bug invasion, self-glassing, exile and agricultural amnesia |
-| Major restoration of Mars | Same **2026-11-06** correction | **Film III**: Steve and former executioner/Minister of Trees work with Cydonian and other partners; ecologies recover slowly |
+| Ancient Mars / film structure | November 6 correction, clarified directly by author November 22 | **Film II is predominantly flashbacks**, not merely a Film II present-day restoration episode: ancient gardens and Cydonian life, invasion, planetary self-glassing and the loss of agriculture, with selective forward jumps through the long aftermath |
+| The process of bringing Mars back | November 6 correction + November 22 author clarification | **Film II includes some fast-forwards that show the restoration process**, not just a promise of future restoration. **Film III remains the sustained major restoration storyline** with Steve, the former executioner/Minister of Trees, Cydonian and other partners; recovery is gradual |
 | Emperor assassinated and heir exiled | v0.5 | **Film III**; these events can coexist with Mars restoration, exact in-film order still open |
 | Prince remains uncrowned | v0.5 | **Film V**, even after the prince stops a rogue strike with independent allies |
 | Coronation and adversary species' self-name | v0.4 + v0.5 + v0.6 | **Film VI only**; no premature official naming |
 | Prince's age | v0.6 | Extended fictional physiology plus substantial suspended animation; exact dates not adopted |
+
+## Film II structure — author clarification, November 22, 2026
+
+**Author-directed development note, proposed fiction, not ratified canon.** Film II is **largely flashbacks**. The audience lives with the ancient Martian civilization while its ecology and culture still exist. Time then advances to show the planet being glassed, the collapse and exile that follow, and selected later glimpses of **the process to bring Mars back**. This is a braided timeline rather than a single historical prologue followed by a present-day lecture. The precise length and order of each temporal jump remain editorial choices.
+
+**Suggested three-time visual braid (optional staging; not an authorized shot list):**
+
+1. **Before:** gardens, inhabitants and ecological relationships in the remote Martian past. Cydonians and other local peoples have distinct identities, not merely a backdrop to the Empire.
+2. **Rupture:** the bug invasion, the Empire's catastrophic decision to glass its own planet, and the cultural consequences of abandoning agriculture. Glassing is *seen*, not just described in an archival monologue.
+3. **Return:** forward jumps to evidence gathering, contested restoration planning, field trials and early visible ecological recovery. Show difficult work and time passing; do not present a magical instant reset.
+
+**Present-day spine:** The Film II economic audit still culminates in the Emperor **personally authorizing public disclosure**. Present-day investigation and the ancient flashbacks illuminate each other. The future-restoration glimpses can foreshadow or overlap Film III's longer Mars rebuilding arc; they do **not** move the Film III assassination into Film II or make the whole planet fully healed by the end of Film II.
+
+**Continuity boundary:** Film III still carries major collaborative Mars restoration, the Emperor's assassination, the contested coup and the prince's rescue/exile; Film V still leaves the prince uncrowned; Film VI alone holds his coronation and the enemy's chosen species self-name. The Nov 22 clarification supersedes the phrase "partly prequel" **as a description of Film II's emphasis**, but does not rewrite any of the original source documents. Source: directly supplied user story clarification dated 2026-11-22, alongside the earlier public November 6 correction.
 
 **Specific unresolved collision:** Film III must carry both the largest Mars restoration storyline and the Emperor's assassination/coup. Neither needs to happen instantaneously. The prince's rescue, treatment of surviving Cydonian jurisdictions and restoration consent rules still need authored ordering. The newer Mars delta says **AUTHOR-DIRECTED CONTINUITY DELTA / NOT APPLIED TO EXISTING BIBLE**, so do not silently rewrite v0.4.
 
