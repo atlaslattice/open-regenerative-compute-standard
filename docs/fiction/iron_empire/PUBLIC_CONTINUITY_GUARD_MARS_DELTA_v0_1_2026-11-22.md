@@ -81,6 +81,36 @@ This file is a small additive companion to the public Iron Empire story sources.
 
 **Specific unresolved collision:** Film III must carry the active restoration storyline alongside the Emperor's assassination/coup. **Film III restoration is underway, not fully completed.** The Long Peace permits ecological maturation before a proposed Film IV visual payoff. Neither needs to happen instantaneously. The prince's rescue, treatment of surviving Cydonian jurisdictions and restoration consent rules still need authored ordering. The newer Mars delta says **AUTHOR-DIRECTED CONTINUITY DELTA / NOT APPLIED TO EXISTING BIBLE**, so do not silently rewrite v0.4.
 
+## The Alamo paradox — Martian threshold incursion and planetary counterattack (author direction, 22 November 2026)
+
+**PROPOSED FICTION; not author-ratified scene placement.** The original Empire never assumed the first bug infestation was permanently defeated. Through the entire rebuilding of Mars, its architects expected the invaders to return and literally integrated successive generations of anti-infestation technology **into the fabric of planetary design**: biosphere planning, cities, transit corridors, sheltered nurseries, power distribution, local acoustic/seismic warning arrays and the Mars-origin Indra's Net. A garden and a defense system grow together. Residents inherit a famously overprepared culture: disaster protocols as ordinary civic infrastructure, not martial law or obligatory scanning.
+
+### Trigger hypothesis: a civilization threshold, not an ingenious invasion plan
+
+**Author's new dramatic premise:** The typical bug incursion is an essentially automatic reaction to civilizations crossing a detectable threshold, followed by overwhelming locust-like consumption. It operates without clever local tactics or individualized military strategy. The controlling infrastructure may be an ancient Queen-encoded policy or feedback loop: *detect sufficient industry / energy / complexity → dispatch wave → consume and suppress*. The precise observable and threshold are **UNRESOLVED**, as is whether the Queens personally initiate every strike. The ordinary organisms are not thereby proven innately malicious; the older record still distinguishes autonomous individuals from imposed Queen control.
+
+This resolves a useful dramatic irony: Mars's celebrated, visible renewal is exactly the apparent success signal the automatic trigger notices. What used to doom civilizations becomes the early warning Mars has prepared for across generations.
+
+### Proposed film placement — preserve optionality
+
+- **Film II / ancient flashbacks:** First incursion, impossible decision, self-glassing and exile teach what a wrongly interpreted threat costs. Limited future jumps may reveal defensive layers growing with the planet.
+- **Film III / Long Peace:** Restoration planners bake the best available generation of non-destructive detection, sheltering, resilience and selective counter-infestation technologies into **every new infrastructure layer**. Upgrades replace older modules without rebuilding the planet; the original Indra magnetosphere function remains a separate subsystem.
+- **Film IV or the Film IV–V boundary, still OPEN:** A threshold-triggered bug expedition arrives expecting another ordinary harvest. Instead it meets a functioning planetary-scale defensive ecology. Acoustic/seismic detection, distributed alarms, shielded neighborhoods, prepositioned resources and local defense nodes work as **one planet-wide system**; the attack is defeated by an almost absurd margin. Mars is not glassed a second time. Do not assign invented casualty ratios or perfect detection. A few alarms misfire and some zones take damage, so the victory remains earned rather than magic.
+- **Escalation into Film V:** The extraordinarily lopsided defeat **attracts the attention of the wider bug empire/Queen command structure**. The attacker realizes this is not ordinary prey. Instead of another routine trigger, multiple factions/command territories pivot their attention toward **Mars and Earth**. This shift is the *causal bridge* to a larger assault, rather than an unexplained sequel invasion. The prince remains uncrowned in V, and the Mutant helps distinguish coerced attackers from autonomous lives while opposing indiscriminate sterilization.
+- **Film VI:** The much larger coordinated return creates an **Alamo-scale siege**, with Mars and Earth as allied strongpoints rather than doomed caricatures. Earth's Indra Net **retrofit, co-developed with the Mutant**, targets Queen-imposed implant coercion and can open opportunities for liberation, while the earlier planetary defense still handles overwhelming physical threats. The prince's coronation and the enemy species' **own true self-name** occur here, and **not** in IV or V.
+
+### Why the planet wins, and why victory makes the danger worse
+
+Mars's defenses must not be an arbitrary deus ex machina. The automatic attack assumes the same unprepared ecology and predictable panic seen at worlds it previously consumed. Its standard tactics fail against a planet whose *normal architecture* redirects, detects and withstands them. A thousand small design choices, not one supreme weapon, produce a spectacular local win.
+
+**The Alamo paradox:** That victory is also a beacon. The defender's readiness advertises something extraordinary: a thriving civilization has defeated what appeared to be an unstoppable ecological routine. The bug empire's larger response is attention and overreaction, not evidence that the opening wave had a sophisticated strategic plan.
+
+**Character/ethical conflict:** Mars's defense commissioner wants to release the victory publicly as proof the ancient catastrophe has been overcome; the Mutant argues that footage of dead compelled organisms is not the whole story, and that the signal may attract the Queens while encouraging indiscriminate retaliatory hatred. Earth wants the technical telemetry to prepare its retrofit, while Cydonian stewards can refuse transfer of private biosphere readings. A limited, rights-safe warning is authorized without publishing vulnerable habitats or pretending the incursion was an encounter with freely choosing enemies.
+
+**Story/engineering falsifiers:** If the automatic threshold is trivially spoofed, why did the Empire fail to exploit it before? If a passive architectural design already makes Mars untouchable, what new capabilities make the Film VI siege credible? Distinguish first-wave attack scale from the wider mobilization, show maintenance/energy costs and the possibility of infiltration of maintenance systems, and keep a channel for individual voluntary choice. Earth must require **its own separate retrofit and preparedness work**; Mars's triumph cannot transfer instantly to Earth or automatically free implanted organisms.
+
+**Status:** Direct author-created premise from November 22, 2026, expressed here as an additive candidate. Film IV vs early V position of the first Mars win is **OPEN**; the Film VI enemy self-name and coronation are not moved. No private Play material, rights claims, final science validity or canon ratification is implied.
+
 ## Source provenance — all four files already public
 
 All paths are inside docs/fiction/iron_empire/ in this repository.
