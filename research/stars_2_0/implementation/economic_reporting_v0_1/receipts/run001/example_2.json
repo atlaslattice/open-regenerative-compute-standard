@@ -1,0 +1,33 @@
+{
+  "experiment_id": "g0b-design-v0.1-economic-placeholder",
+  "scientific_outcome": "NOT_TESTED",
+  "economic_as_of": "2026-10-28",
+  "currency": "USD",
+  "products": [],
+  "priced_subset_potential_gross_USD": "0",
+  "all_products_valued": true,
+  "known_cost_USD": "0",
+  "missing_cost_categories": [
+    "electricity",
+    "extraction",
+    "purification",
+    "storage",
+    "transport",
+    "capital_allocation",
+    "other_operations"
+  ],
+  "costs_USD": {
+    "electricity": null,
+    "extraction": null,
+    "purification": null,
+    "storage": null,
+    "transport": null,
+    "capital_allocation": null,
+    "other_operations": null
+  },
+  "potential_net_USD": null,
+  "realized_revenue_USD": null,
+  "realized_revenue_status": "NOT_RECORDED_BY_SCENARIO_MODULE",
+  "energy_credit": "NONE; heat is not automatically electricity",
+  "scope": "ONE declared experiment interval; no live market or inventory dynamics"
+}

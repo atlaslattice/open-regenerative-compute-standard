@@ -1,0 +1,14 @@
+test_aged_quote_visible (test_reporting.Tests.test_aged_quote_visible) ... ok
+test_bad_price_fields_rejected (test_reporting.Tests.test_bad_price_fields_rejected) ... ok
+test_birth_not_saleable (test_reporting.Tests.test_birth_not_saleable) ... ok
+test_duplicate_stock_rejected (test_reporting.Tests.test_duplicate_stock_rejected) ... ok
+test_failure_kept_with_positive_potential_value (test_reporting.Tests.test_failure_kept_with_positive_potential_value) ... ok
+test_missing_cost_not_profit (test_reporting.Tests.test_missing_cost_not_profit) ... ok
+test_negative_inventory_rejected (test_reporting.Tests.test_negative_inventory_rejected) ... ok
+test_overallocated_inventory_rejected (test_reporting.Tests.test_overallocated_inventory_rejected) ... ok
+test_unpriced_not_zero (test_reporting.Tests.test_unpriced_not_zero) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.001s
+
+OK

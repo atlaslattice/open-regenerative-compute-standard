@@ -1,0 +1,12 @@
+{
+  "python": "3.12.14",
+  "randomness": "none",
+  "tests_returncode": 0,
+  "physical_validation": "NOT_RUN",
+  "actual_market_quotes_ingested": 0,
+  "code_sha256": {
+    "reporting.py": "e5db88ff1301fe5ee7b30568fe0c12701ddc6519374edb148f18ce6621973202",
+    "test_reporting.py": "917f8791c508c14005aa328d666ed4d49bb7082aa865a10c3988842643bce807",
+    "run_examples.py": "c2c6467d6ed362c37ba98c3dbd534fd1b745dae4a49a40cd1d3b027fcb43b54c"
+  }
+}
