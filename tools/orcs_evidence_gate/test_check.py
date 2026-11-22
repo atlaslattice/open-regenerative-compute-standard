@@ -1,0 +1,58 @@
+import unittest
+from check import validate,STATES,loads_strict
+
+def record():
+    return {'claims':[{'id':'sample','subject':'synthetic diesel shipment','scope':'test only','observed_at':'2026-11-22','source_url':'https://example.org/synthetic','states':{k:{'status':'UNKNOWN'} for k in STATES}}]}
+class GateTests(unittest.TestCase):
+    def test_unknown_is_valid(self):self.assertEqual(validate(record()),[])
+    def test_missing_state_rejected(self):
+        r=record();del r['claims'][0]['states']['operation'];self.assertTrue(validate(r))
+    def test_verified_without_evidence_rejected(self):
+        r=record();r['claims'][0]['states']['operation']={'status':'VERIFIED'};self.assertTrue(validate(r))
+    def test_verified_with_evidence(self):
+        r=record();r['claims'][0]['states']['operation']={'status':'VERIFIED','evidence_ref':'source:1','observation':'meter read'};self.assertEqual(validate(r),[])
+    def test_no_unscoped_reserve_days(self):
+        r=record();r['claims'][0]['reserve_days']=90;self.assertTrue(validate(r))
+    def test_duplicate_ids(self):
+        r=record();r['claims'].append(r['claims'][0].copy());self.assertTrue(validate(r))
+    def test_missing_provenance(self):
+        r=record();r['claims'][0]['source_url']='';self.assertTrue(validate(r))
+    def test_empty_claims(self):self.assertEqual(validate({'claims':[]}),[])
+    def test_unhashable_claim_ids_must_fail_closed(self):
+        for cid in ([], {}):
+            with self.subTest(id=repr(cid)):
+                r=record();r['claims'][0]['id']=cid
+                self.assertIn('claims[0]: unique nonempty id required',validate(r))
+    def test_bad_scalar_claim_ids_must_fail_closed(self):
+        for cid in (None,42,True,''):
+            with self.subTest(id=repr(cid)):
+                r=record();r['claims'][0]['id']=cid
+                self.assertIn('claims[0]: unique nonempty id required',validate(r))
+    def test_verified_requires_typed_nonempty_evidence(self):
+        for field in ('evidence_ref', 'observation'):
+            for malformed in (123, True, ['source:1'], {'source':'x'}, '  '):
+                with self.subTest(field=field, malformed=repr(malformed)):
+                    r=record()
+                    r['claims'][0]['states']['operation']={
+                        'status':'VERIFIED','evidence_ref':'source:1','observation':'synthetic reading'
+                    }
+                    r['claims'][0]['states']['operation'][field]=malformed
+                    self.assertIn('claims[0]: VERIFIED operation requires evidence_ref and observation', validate(r))
+    def test_unhashable_nested_status_is_held_without_exception(self):
+        for bad in ([], {}, ['VERIFIED'], {'status':'VERIFIED'}):
+            with self.subTest(status=repr(bad)):
+                r=record();r['claims'][0]['states']['operation']={'status':bad}
+                self.assertIn('claims[0]: invalid operation state',validate(r))
+    def test_duplicate_json_keys_cannot_mask_evidence(self):
+        for raw in ('{"claims":[],"claims":[]}',
+                    '{"claims":[{"id":"a","id":"b"}]}',
+                    '{"claims":[{"states":{"operation":{"status":"UNKNOWN","status":"VERIFIED"}}}]}'):
+            with self.subTest(raw=raw):
+                with self.assertRaisesRegex(ValueError,'duplicate JSON key'):
+                    loads_strict(raw)
+    def test_nonfinite_nonstandard_json_is_not_accepted(self):
+        for value in ('NaN','Infinity','-Infinity'):
+            with self.subTest(value=value):
+                with self.assertRaisesRegex(ValueError,'nonfinite JSON constant'):
+                    loads_strict('{"claims":[],"untrusted":'+value+'}')
+if __name__=='__main__':unittest.main()
