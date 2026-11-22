@@ -18,4 +18,14 @@ class GateTests(unittest.TestCase):
     def test_missing_provenance(self):
         r=record();r['claims'][0]['source_url']='';self.assertTrue(validate(r))
     def test_empty_claims(self):self.assertEqual(validate({'claims':[]}),[])
+    def test_unhashable_claim_ids_must_fail_closed(self):
+        for cid in ([], {}):
+            with self.subTest(id=repr(cid)):
+                r=record();r['claims'][0]['id']=cid
+                self.assertIn('claims[0]: unique nonempty id required',validate(r))
+    def test_bad_scalar_claim_ids_must_fail_closed(self):
+        for cid in (None,42,True,''):
+            with self.subTest(id=repr(cid)):
+                r=record();r['claims'][0]['id']=cid
+                self.assertIn('claims[0]: unique nonempty id required',validate(r))
 if __name__=='__main__':unittest.main()
