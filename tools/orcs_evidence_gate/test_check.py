@@ -28,4 +28,14 @@ class GateTests(unittest.TestCase):
             with self.subTest(id=repr(cid)):
                 r=record();r['claims'][0]['id']=cid
                 self.assertIn('claims[0]: unique nonempty id required',validate(r))
+    def test_verified_requires_typed_nonempty_evidence(self):
+        for field in ('evidence_ref', 'observation'):
+            for malformed in (123, True, ['source:1'], {'source':'x'}, '  '):
+                with self.subTest(field=field, malformed=repr(malformed)):
+                    r=record()
+                    r['claims'][0]['states']['operation']={
+                        'status':'VERIFIED','evidence_ref':'source:1','observation':'synthetic reading'
+                    }
+                    r['claims'][0]['states']['operation'][field]=malformed
+                    self.assertIn('claims[0]: VERIFIED operation requires evidence_ref and observation', validate(r))
 if __name__=='__main__':unittest.main()
