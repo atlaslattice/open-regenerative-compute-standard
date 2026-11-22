@@ -1,0 +1,291 @@
+{
+  "status": "VERIFICATION_DEMO_COMPLETED",
+  "physical_prediction": "BLOCKED_UNQUALIFIED_NUCLEAR_SOURCE_STOPPING_BEAM_AND_RESPONSE",
+  "scientific_outcome": "NOT_TESTED",
+  "transmission": [
+    {
+      "species": "proton",
+      "input_energy_MeV": 1.0,
+      "output_energy_MeV": 0.6,
+      "primary_energy_loss_MeV": 0.4,
+      "closure_residual_MeV": 0.0,
+      "layer_ledger": [
+        {
+          "layer_id": "fixture-layer",
+          "material_id": "SYNTHETIC_A",
+          "normal_areal_mass_g_cm2": 0.2,
+          "path_areal_mass_g_cm2": 0.2,
+          "input_energy_MeV": 1.0,
+          "output_energy_MeV": 0.6,
+          "primary_energy_loss_MeV": 0.4,
+          "range_dataset_id": "fixture:SYNTHETIC_A:proton"
+        }
+      ],
+      "model": "planar straight-track CSDA, linear range interpolation",
+      "scope": "conditional primary transport only; primary energy loss is not measured heat; secondary escape/storage unresolved; no nuclear reactions, scattering or straggling"
+    },
+    {
+      "species": "proton",
+      "input_energy_MeV": 2.0,
+      "output_energy_MeV": 1.2,
+      "primary_energy_loss_MeV": 0.8,
+      "closure_residual_MeV": 0.0,
+      "layer_ledger": [
+        {
+          "layer_id": "fixture-layer",
+          "material_id": "SYNTHETIC_A",
+          "normal_areal_mass_g_cm2": 0.2,
+          "path_areal_mass_g_cm2": 0.4,
+          "input_energy_MeV": 2.0,
+          "output_energy_MeV": 1.2,
+          "primary_energy_loss_MeV": 0.8,
+          "range_dataset_id": "fixture:SYNTHETIC_A:proton"
+        }
+      ],
+      "model": "planar straight-track CSDA, linear range interpolation",
+      "scope": "conditional primary transport only; primary energy loss is not measured heat; secondary escape/storage unresolved; no nuclear reactions, scattering or straggling"
+    }
+  ],
+  "transported_alpha_fixtures": [
+    {
+      "species": "alpha",
+      "input_energy_MeV": 1.0,
+      "output_energy_MeV": 0.9,
+      "primary_energy_loss_MeV": 0.09999999999999998,
+      "closure_residual_MeV": 0.0,
+      "layer_ledger": [
+        {
+          "layer_id": "fixture-layer",
+          "material_id": "SYNTHETIC_A",
+          "normal_areal_mass_g_cm2": 0.1,
+          "path_areal_mass_g_cm2": 0.1,
+          "input_energy_MeV": 1.0,
+          "output_energy_MeV": 0.9,
+          "primary_energy_loss_MeV": 0.09999999999999998,
+          "range_dataset_id": "fixture:SYNTHETIC_A:alpha"
+        }
+      ],
+      "model": "planar straight-track CSDA, linear range interpolation",
+      "scope": "conditional primary transport only; primary energy loss is not measured heat; secondary escape/storage unresolved; no nuclear reactions, scattering or straggling",
+      "exit_face": "beam_downstream",
+      "geometric_direction_face": "beam_downstream",
+      "birth_layer_id": "fixture-layer",
+      "birth_depth_fraction": 0.5,
+      "fixture_id": "a1",
+      "weight": 100.0
+    },
+    {
+      "species": "alpha",
+      "input_energy_MeV": 2.0,
+      "output_energy_MeV": 1.9,
+      "primary_energy_loss_MeV": 0.10000000000000009,
+      "closure_residual_MeV": 0.0,
+      "layer_ledger": [
+        {
+          "layer_id": "fixture-layer",
+          "material_id": "SYNTHETIC_A",
+          "normal_areal_mass_g_cm2": 0.1,
+          "path_areal_mass_g_cm2": 0.1,
+          "input_energy_MeV": 2.0,
+          "output_energy_MeV": 1.9,
+          "primary_energy_loss_MeV": 0.10000000000000009,
+          "range_dataset_id": "fixture:SYNTHETIC_A:alpha"
+        }
+      ],
+      "model": "planar straight-track CSDA, linear range interpolation",
+      "scope": "conditional primary transport only; primary energy loss is not measured heat; secondary escape/storage unresolved; no nuclear reactions, scattering or straggling",
+      "exit_face": "beam_upstream",
+      "geometric_direction_face": "beam_upstream",
+      "birth_layer_id": "fixture-layer",
+      "birth_depth_fraction": 0.5,
+      "fixture_id": "a2",
+      "weight": 50.0
+    }
+  ],
+  "alpha_fixture_scope": "externally supplied independent weighted rays; NOT correlated reaction events",
+  "stopped_alpha_fixture_weight": 0.0,
+  "detector": {
+    "response_id": "SYNTHETIC_RESPONSE",
+    "species": "alpha",
+    "signal_expected_counts": [
+      75.0,
+      50.0
+    ],
+    "background_expected_counts": [
+      3.0,
+      4.0
+    ],
+    "total_expected_counts": [
+      78.0,
+      54.0
+    ],
+    "undetected_expected_counts": 25.00000000000001,
+    "true_expected_counts": 150.0,
+    "count_closure_residual": -1.0658141036401503e-14,
+    "statistical_scope": "expected values only; no Poisson-independence or calibrated likelihood asserted"
+  },
+  "source_audit": {
+    "status": "NOT_RUN_NO_SOURCE_FILE",
+    "event_normalization": "BLOCKED"
+  },
+  "synthetic_identifiability": {
+    "joint_rank": {
+      "rank": 3,
+      "parameter_count": 5,
+      "rank_cutoff": 5.6546703876508997e-14,
+      "singular_values": [
+        50.93274290145514,
+        23.77827621257627,
+        18.20498566643009
+      ],
+      "condition_number": null,
+      "condition_status": "rank_deficient",
+      "scaled_parameter_sd": null,
+      "weakest_scaled_direction": [
+        -0.3779644730092272,
+        0.37796447300922725,
+        0.3779644730092272,
+        -0.3110177634953864,
+        0.6889822365046135
+      ],
+      "null_scaled_directions": [
+        [
+          -0.3779644730092272,
+          0.37796447300922725,
+          0.3779644730092272,
+          0.6889822365046135,
+          -0.3110177634953864
+        ],
+        [
+          -0.3779644730092272,
+          0.37796447300922725,
+          0.3779644730092272,
+          -0.3110177634953864,
+          0.6889822365046135
+        ]
+      ],
+      "scope": "local linear Gaussian likelihood, no priors; not a calibration acceptance decision"
+    },
+    "with_calibration_rank": {
+      "rank": 5,
+      "parameter_count": 5,
+      "rank_cutoff": 7.5090627976535e-14,
+      "singular_values": [
+        67.63562483482791,
+        29.177903453707373,
+        27.346543048007234,
+        18.13716331433286,
+        10.64210109440175
+      ],
+      "condition_number": 6.355476633313271,
+      "condition_status": "finite",
+      "scaled_parameter_sd": [
+        0.020000000000000007,
+        0.03605551275463988,
+        0.05385164807134507,
+        0.09165151389911678,
+        0.04
+      ],
+      "weakest_scaled_direction": [
+        0.052288337988865265,
+        -0.05822293698689219,
+        -0.07294036611870032,
+        -0.9707723207934792,
+        0.2148413914744893
+      ],
+      "null_scaled_directions": [],
+      "scope": "local linear Gaussian likelihood, no priors; not a calibration acceptance decision"
+    },
+    "scope": "independent scalar log-linear toy, not spectral calibration"
+  },
+  "energy_scenario": {
+    "mode": "CONTINUOUSLY_DRIVEN",
+    "cycle_duration_s": 2,
+    "fusion_energy_input_assumption_J": 100,
+    "startup_wall_J": 10,
+    "sustaining_wall_J": 100,
+    "auxiliary_wall_J": 10,
+    "alpha_self_heat_J": 30.0,
+    "alpha_unallocated_J": 19.999999999999996,
+    "collector_loss_J": 30.0,
+    "gross_electric_J": 20.0,
+    "wall_input_J": 120,
+    "net_electric_J": -100.0,
+    "cycle_average_net_W": -50.0,
+    "fusion_J_required_for_electric_breakeven": 600.0,
+    "ignition_status": "NOT_EVALUATED_REQUIRES_TIME_DEPENDENT_PHYSICS",
+    "physical_status": "SYNTHETIC_OR_EXTERNALLY_SUPPLIED_INPUTS_ONLY",
+    "heat_credit_J": 0,
+    "stored_energy_change_status": "NOT_MODELED_CYCLE_RESET_REQUIRED",
+    "requested_track": "GRID_ASSISTED_BURN_HYPOTHESIS",
+    "connection_to_transport": "NONE: separate assumed energy scenario, NOT derived from alpha fixture"
+  },
+  "economic_scenario": {
+    "experiment_id": "pb11-verification-fixture-001",
+    "scientific_outcome": "NOT_TESTED",
+    "economic_as_of": "2026-10-28",
+    "currency": "USD",
+    "products": [],
+    "priced_subset_potential_gross_USD": "0",
+    "all_products_valued": true,
+    "known_cost_USD": "0",
+    "missing_cost_categories": [
+      "electricity",
+      "extraction",
+      "purification",
+      "storage",
+      "transport",
+      "capital_allocation",
+      "other_operations"
+    ],
+    "costs_USD": {
+      "electricity": null,
+      "extraction": null,
+      "purification": null,
+      "storage": null,
+      "transport": null,
+      "capital_allocation": null,
+      "other_operations": null
+    },
+    "potential_net_USD": null,
+    "realized_revenue_USD": null,
+    "realized_revenue_status": "NOT_RECORDED_BY_SCENARIO_MODULE",
+    "energy_credit": "NONE; heat is not automatically electricity",
+    "scope": "ONE declared experiment interval; no live market or inventory dynamics"
+  },
+  "capital": {
+    "known_installed_capex_USD": "0",
+    "missing_assets": [
+      "UNASSESSED_FACILITY"
+    ],
+    "total_installed_capex_USD": null,
+    "financing_and_replacement_costs": "NOT_CALCULATED"
+  },
+  "missing_vs_zero_fixture": [
+    {
+      "status": "measured",
+      "value": "0",
+      "reason": null
+    },
+    {
+      "status": "missing",
+      "value": null,
+      "reason": "synthetic missing-outcome illustration"
+    }
+  ],
+  "zero_ratio_fixture": {
+    "value": null,
+    "reason": "zero_denominator"
+  },
+  "unimplemented": [
+    "physical mass-correct correlated event generation",
+    "connected nuclear event rates",
+    "scattering/straggling",
+    "dynamic burn and ignition",
+    "all-shot causal inference",
+    "grouped experimental validation",
+    "full-cycle storage ledger",
+    "complete reaction/decay/recovery network",
+    "qualified market prices and full CAPEX"
+  ]
+}

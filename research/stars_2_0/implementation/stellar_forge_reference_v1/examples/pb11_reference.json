@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.1",
+  "experiment_id": "pb11-verification-fixture-001",
+  "run_class": "VERIFICATION_DEMO",
+  "scientific_outcome": "NOT_TESTED",
+  "economic_as_of": "2026-10-28",
+  "layers": [{"layer_id": "fixture-layer", "material_id": "SYNTHETIC_A", "areal_mass_g_cm2": 0.2}],
+  "ranges": [
+    {"material_id": "SYNTHETIC_A", "species": "proton", "energy_MeV": [0, 1, 2, 4], "csda_range_g_cm2": [0, 0.5, 1, 2]},
+    {"material_id": "SYNTHETIC_A", "species": "alpha", "energy_MeV": [0, 1, 2, 4], "csda_range_g_cm2": [0, 1, 2, 4]}
+  ],
+  "protons": [{"energy_MeV": 1, "mu": 1}, {"energy_MeV": 2, "mu": 0.5}],
+  "alpha_fixture": [
+    {"fixture_id": "a1", "energy_MeV": 1, "mu": 1, "birth_layer_index": 0, "birth_depth_fraction": 0.5, "weight": 100},
+    {"fixture_id": "a2", "energy_MeV": 2, "mu": -1, "birth_layer_index": 0, "birth_depth_fraction": 0.5, "weight": 50}
+  ],
+  "detector": {"response_id": "SYNTHETIC_RESPONSE", "species": "alpha", "true_edges_mev": [0, 1.5, 4], "measured_edges_mev": [0, 1.5, 4], "probabilities": [[0.7, 0.1], [0.2, 0.6]], "evidence_state": "SYNTHETIC", "background_counts": [3, 4]},
+  "source_audit": {"raw_csv_path": null, "sha256": null},
+  "operating_track": "GRID_ASSISTED_BURN_HYPOTHESIS",
+  "energy_scenario": {"startup_wall_J": 10, "sustaining_wall_J": 100, "auxiliary_wall_J": 10, "fusion_J": 100, "alpha_self_heat_fraction": 0.3, "alpha_collection_fraction": 0.5, "conversion_efficiency": 0.4, "duration_s": 2},
+  "components": [{"asset_id": "UNASSESSED_FACILITY", "currency": "USD", "installed_cost_USD": null}],
+  "products": [],
+  "costs_USD": {"electricity": null, "extraction": null, "purification": null, "storage": null, "transport": null, "capital_allocation": null, "other_operations": null}
+}

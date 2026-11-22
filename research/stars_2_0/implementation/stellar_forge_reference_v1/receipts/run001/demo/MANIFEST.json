@@ -1,0 +1,39 @@
+{
+  "code_sha256": {
+    "VENDOR_LOCK.json": "57713a6a9fb2120cb54123c8354faee9a8048e9f0bf7974d8537f24d484666bd",
+    "__init__.py": "27e8febb48ada44153ea2add9969a2c50a9831a74d9755fdd53c549a888b1cc2",
+    "cli.py": "41e421086dced4560e82ad34025b312e8b145c3ced697f411571c8b55ca2286f",
+    "runner.py": "5891d89d5a6f0c1feb2e55a8116d4eb921852ef3a22975c488ecd3ab6333deeb",
+    "vendor/__init__.py": "2f5b5c623fdcaf38124db83d074fdd500c919d2ef66f5dfe838e21262fbaa661",
+    "vendor/costs.py": "300b67a355f2810274fdd811865214e96bac9974d5a8028b3ffd67d8e688877d",
+    "vendor/detector.py": "f53fa649cf7c9a32ab40f20ae5870bbd81bc5632fffb6889a73f28f88b76550d",
+    "vendor/identifiability.py": "039eef52e9b6aa67d24999f55f5650260be2763ceffd3ee70a7e534e8c5c7127",
+    "vendor/observables.py": "543280eb2d859b2e7fc44c1108c8c940eca073ed018b74e21bcf5507cc23ccd4",
+    "vendor/reporting.py": "e5db88ff1301fe5ee7b30568fe0c12701ddc6519374edb148f18ce6621973202",
+    "vendor/screen.py": "81aaad09b8067165bc48d7876f13298269e2e31c076ba5e0a5cf6542088502a9",
+    "vendor/transport.py": "f3a43e6781da00bdc47b9f31605817e11fe28a5ae12149538f2787e5a8d6439e"
+  },
+  "input_config_sha256": "0a16944a0cc0031f5754970c95cc0f9b26ecbb0461749dec655bf280be35167c",
+  "numpy": "2.3.5",
+  "output_sha256": {
+    "CONFIG.json": "134c1dc2d8ad8673ca0709b3817df2e7b70cf50961d7408bdeeeb755d046d8a6",
+    "REPORT.md": "d212bd1302e2ddb8f95c105ed8f0c85047a7f77152af6da831d61eb0bfca303f",
+    "RESULTS.json": "aa3cd65fc3cd50e467d85a2b481f863c6bb586f12584dc8b9fe0a82be8f60f84",
+    "transmission.svg": "3f0d48f1c19ed98db7f5833379fce45517c0b445a733ff36bbdadde4b3930757"
+  },
+  "package_version": "1.0.0",
+  "python": "3.12.14",
+  "randomness": "none",
+  "sources": [
+    {
+      "evidence": "SYNTHETIC",
+      "id": "SYNTHETIC_A:proton",
+      "sha256": "fbee8255cf97fdd145c737c54928561baa4682aea90c23e03c7fca3a131b25a9"
+    },
+    {
+      "evidence": "SYNTHETIC",
+      "id": "SYNTHETIC_A:alpha",
+      "sha256": "4287a1ce7ee0c27a334d896a721adddda66667d45b2b63e56a2bbddbafab75c8"
+    }
+  ]
+}
