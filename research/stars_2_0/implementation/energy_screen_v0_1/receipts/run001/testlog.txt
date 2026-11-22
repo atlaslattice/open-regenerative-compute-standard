@@ -1,0 +1,16 @@
+test_dated_synthetic_costs (test_costs.Costs.test_dated_synthetic_costs) ... ok
+test_shared_asset_not_twice (test_costs.Costs.test_shared_asset_not_twice) ... ok
+test_unknown_not_free (test_costs.Costs.test_unknown_not_free) ... ok
+test_hidden_sustaining_drive_rejected (test_screen.Tests.test_hidden_sustaining_drive_rejected) ... ok
+test_independent_arithmetic (test_screen.Tests.test_independent_arithmetic) ... ok
+test_invalid_inputs (test_screen.Tests.test_invalid_inputs) ... ok
+test_no_double_alpha_credit (test_screen.Tests.test_no_double_alpha_credit) ... ok
+test_positive_screen_never_proves_ignition (test_screen.Tests.test_positive_screen_never_proves_ignition) ... ok
+test_startup_not_omitted (test_screen.Tests.test_startup_not_omitted) ... ok
+test_zero_conversion_undefined_threshold (test_screen.Tests.test_zero_conversion_undefined_threshold) ... ok
+test_zero_fusion_no_output (test_screen.Tests.test_zero_fusion_no_output) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.001s
+
+OK

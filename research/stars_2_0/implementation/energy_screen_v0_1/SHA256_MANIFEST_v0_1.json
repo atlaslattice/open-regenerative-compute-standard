@@ -1,0 +1,11 @@
+{
+  "COMPONENT_TEMPLATE_v0_1.json": "b4ef350b2e600f7b6522de98f2d014d0a909ab50374dfced09e6af6646dff95a",
+  "README.md": "6e2b7bb99cd679c11f9f9ce2c73508a3782ea770022bb083f058a2b8bcf05045",
+  "costs.py": "300b67a355f2810274fdd811865214e96bac9974d5a8028b3ffd67d8e688877d",
+  "receipts/run001/RECEIPT.json": "9be23bc14a5d685da091e77f53fce689d89ae4472577659fab02807fbe34a886",
+  "receipts/run001/SYNTHETIC_EXAMPLES.json": "207d952107baac10a12119dfd44d917a7d2fae795cf5fc1e2acaedd8002b605a",
+  "receipts/run001/testlog.txt": "648fe48c97cf59e38d6468b6c396e2c2ac477e1a2399624f2bc878870327b3cc",
+  "screen.py": "81aaad09b8067165bc48d7876f13298269e2e31c076ba5e0a5cf6542088502a9",
+  "test_costs.py": "0ba91c459bd1af182e5fc0e8cc242b2b3007767b4e57890050b978f6e46e84f2",
+  "test_screen.py": "5ac0a18be9b38fbd6f8bc59ac80d3071c228dbc61a3ee01683e68453743a4493"
+}
