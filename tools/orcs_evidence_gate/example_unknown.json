@@ -1,0 +1,34 @@
+{
+  "claims": [
+    {
+      "id": "synthetic-example-001",
+      "subject": "Illustrative diesel logistics scenario — no actual cargo",
+      "scope": "SYNTHETIC_ONLY; no reserve credit",
+      "observed_at": "2026-11-22",
+      "source_url": "https://example.org/synthetic-not-evidence",
+      "states": {
+        "authority": {
+          "status": "UNKNOWN"
+        },
+        "funding": {
+          "status": "UNKNOWN"
+        },
+        "construction": {
+          "status": "UNKNOWN"
+        },
+        "commissioning": {
+          "status": "UNKNOWN"
+        },
+        "operation": {
+          "status": "UNKNOWN"
+        },
+        "measured_output": {
+          "status": "UNKNOWN"
+        },
+        "delivered_benefit": {
+          "status": "UNKNOWN"
+        }
+      }
+    }
+  ]
+}
