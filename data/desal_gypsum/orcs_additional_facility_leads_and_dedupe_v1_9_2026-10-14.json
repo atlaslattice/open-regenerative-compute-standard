@@ -1,0 +1,83 @@
+{
+  "count": 7,
+  "rows": [
+    {
+      "name": "City of Punta Gorda Shell Creek Reverse Osmosis Facility",
+      "state": "FL",
+      "county": "Charlotte",
+      "source_type": "brackish groundwater",
+      "published_capacity_mgd": 4,
+      "source_url": "https://www.swfwmd.state.fl.us/sites/default/files/medias/documents/2025%20RWSP%20Southern%20PR%20Public%20Draft%20FINAL.pdf",
+      "evidence_status": "DOCUMENTED_EXISTING_2024_PLAN",
+      "physical_plant_distinct_unconfirmed": false,
+      "gypsum_tpy": null
+    },
+    {
+      "name": "City of Camarillo North Pleasant Valley Desalter",
+      "state": "CA",
+      "county": "Ventura",
+      "source_type": "brackish groundwater",
+      "published_capacity_mgd": null,
+      "source_url": "https://www.cityofcamarillo.org/departments/public_works/water_division/desalter.php",
+      "evidence_status": "FACILITY_DOCUMENTED_OPERATING_STATUS_RECHECK",
+      "physical_plant_distinct_unconfirmed": true,
+      "gypsum_tpy": null
+    },
+    {
+      "name": "City of Oceanside Mission Basin Groundwater Purification Facility",
+      "state": "CA",
+      "county": "San Diego",
+      "source_type": "brackish groundwater",
+      "published_capacity_mgd": null,
+      "source_url": "https://www.ci.oceanside.ca.us/government/water-utilities/water-production/groundwater-purification-facility",
+      "evidence_status": "FACILITY_DOCUMENTED_STATUS_RECHECK",
+      "physical_plant_distinct_unconfirmed": true,
+      "gypsum_tpy": null
+    },
+    {
+      "name": "City of Corona Temescal Desalter",
+      "state": "CA",
+      "county": "Riverside",
+      "source_type": "brackish groundwater",
+      "published_capacity_mgd": null,
+      "source_url": "https://www.coronaca.gov/government/departments-divisions/utilities/utilities-services/drinking-water",
+      "evidence_status": "FACILITY_DOCUMENTED_STATUS_RECHECK",
+      "physical_plant_distinct_unconfirmed": true,
+      "gypsum_tpy": null
+    },
+    {
+      "name": "City of Torrance Goldsworthy Desalter",
+      "state": "CA",
+      "county": "Los Angeles",
+      "source_type": "brackish groundwater",
+      "published_capacity_mgd": null,
+      "source_url": "https://www.torranceca.gov/government/departments/public-works/water-services",
+      "evidence_status": "FACILITY_DOCUMENTED_STATUS_RECHECK",
+      "physical_plant_distinct_unconfirmed": true,
+      "gypsum_tpy": null
+    },
+    {
+      "name": "Alameda County Water District Newark Desalination Facility",
+      "state": "CA",
+      "county": "Alameda",
+      "source_type": "brackish groundwater",
+      "published_capacity_mgd": 10,
+      "source_url": "https://water.ca.gov/-/media/DWR-Website/Web-Pages/Programs/Groundwater-Management/Data-and-Tools/Files/Statewide-Reports/WAFR/Final/Appendix-C-for-Water-Available-for-Replenishment_ay_19.pdf",
+      "evidence_status": "POSSIBLE_DUPLICATE_NEWARK_DO_NOT_COUNT",
+      "physical_plant_distinct_unconfirmed": false,
+      "gypsum_tpy": null
+    },
+    {
+      "name": "Chino Basin Desalter Authority Concentrate Reduction Facility",
+      "state": "CA",
+      "county": "Riverside",
+      "source_type": "brackish groundwater",
+      "published_capacity_mgd": null,
+      "source_url": "https://www.chinodesalter.org/97/Facilities",
+      "evidence_status": "COMPONENT_OF_CHINO_II_DO_NOT_COUNT",
+      "physical_plant_distinct_unconfirmed": false,
+      "gypsum_tpy": null
+    }
+  ],
+  "note": "Do not sum leads into verified physical-site count without primary source and dedupe review"
+}

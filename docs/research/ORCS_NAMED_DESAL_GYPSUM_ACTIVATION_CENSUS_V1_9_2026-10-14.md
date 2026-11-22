@@ -1,0 +1,22 @@
+# ORCS v1.9 — Real named desalination facility census, U.S. gypsum activation
+
+**14 October 2026 | Additive | Unmerged draft | No fabricated infrastructure or gypsum production**
+
+## Verified work product this turn
+
+1. The existing v1.8 67-record JSON register was fetched from the GitHub draft branch and confirmed to contain 67 physical plant/project names (including several proposed or idle entries).
+2. Added **24 separately sourced names** from South Florida Water Management District and California Department of Water Resources inventories, plus the 2025 Stock Island seawater RO opening notice. Data: [new source-based tranche](../../data/desal_gypsum/orcs_source_verified_additional_24_named_sites_v1_9_2026-10-14.json). Fourteen named Florida sites come from an agency's **2020 presentation**, not a 2026 plant-by-plant operating check. Florida names were annotated as brackish facilities; published MGD are from the historical government table. California DWR uses a 2020 facility inventory; names and operating status must be date-stamped to 2020 unless a current water utility source is found. Chino I and II have specific operating authority publications. Stock Island opened in 2025 for emergency/peak use, not daily seawater production.
+3. Added [seven distinct candidate name and duplication-check records](../../data/desal_gypsum/orcs_additional_facility_leads_and_dedupe_v1_9_2026-10-14.json), including an **explicit duplicate Newark facility reference** and **Chino II concentrate recovery facility as a component, not a separate desalter**. Other candidate names require independent precise source verification before promotion.
+4. Therefore **91 named entries (67 + 24) have been recorded in separate source-anchored tables**, not 91 confirmed presently operating facilities and *not* 91 confirmed recoverable calcium sulfate streams. Only 9 additional distinct and evidenced site entries would meet the numerical research-target of 100 *names*, but 100 operating plants and 100 qualified mineral outputs require far more rigorous vetting.
+5. South Florida water-management district independently states **41 brackish and 2 seawater operating plants in 2024**, with ~296 MGD aggregate potable output capacity. This is a **regional total** and MUST NOT be added as 43 unnamed/unique rows to the 91 named list. https://www.sfwmd.gov/our-work/alternative-water-supply/desalination
+6. Chino Basin Desalter Authority confirms **Chino I 14 MGD, Chino II 23 MGD** current design capacity, including Chino II concentrate reduction process started 2017 using chemical softening and secondary RO, increasing recovery to as much as 95%. **The technology already exists, but that does not mean gypsum crystals are recovered and sold there.** https://www.chinodesalter.org/97/Facilities
+7. Florida Kermit H. Lewin Stock Island seawater RO opening announced May 2025: https://www.flgov.com/eog/news/press/2025/governor-ron-desantis-announces-opening-new-reverse-osmosis-facility-florida-keys
+
+## Discarded inference
+**No nationwide capacity or gypsum tonnes are credited** for these 24 because feedwater chemistry and plant concentrate assays are unverified; the Harbor Island 0.733 Mt/y theoretical gypsum ceiling cannot be linearly applied to brackish water plants. The U.S. supply / reserve first-year 15.6 Mt proposed planning target remains unreconciled with actual incremental recoverable gypsum streams.
+
+## Industrial residue integration next
+Retain baseline **17 Mt/year synthetic gypsum already utilized**, **not** spare inventory; EPA FGD gypsum use is a tested industrial practice with contaminant requirements. Identify specific coal stations with FGD gypsum onsite and unutilized stockpiles, and evaluate separate phosphogypsum only under current EPA radionuclide restrictions. First priority is a source-backed facility-level mass balance, not recycling existing production twice.
+
+## Next acceptance criteria
+100 deduplicated named physical facilities, each with source, location/county, feed classification, operating versus historical status; then measured reject Ca/SO4, recovered mineral yield, qualified gypsum grade, owner/permit permission, competing process uses, water/environmental impact and actual delivered logistics. Prior U.S. first domestic supply, regional/national reserve, affordability, then possible surplus exports gate continues. No external operator adoption claimed.

@@ -1,0 +1,74 @@
+{
+  "title": "ORCS empirical electricity data source registry v0.5",
+  "updated_date": "2026-10-14",
+  "data_connected_now": false,
+  "sources": [
+    {
+      "id": "eia860_annual",
+      "name": "EIA-860 capacity by state and technology",
+      "url": "https://www.eia.gov/electricity/data/state/",
+      "period": "2025 final annual available",
+      "access": "public downloadable",
+      "status": "DOCUMENTED_NOT_INGESTED"
+    },
+    {
+      "id": "eia923_annual",
+      "name": "EIA-923 net generation by state and source",
+      "url": "https://www.eia.gov/electricity/data/state/",
+      "period": "2025 final annual available",
+      "access": "public downloadable",
+      "status": "DOCUMENTED_NOT_INGESTED"
+    },
+    {
+      "id": "eia930_hourly",
+      "name": "EIA-930 balancing authority demand generation fuel mix interchange",
+      "url": "https://www.eia.gov/electricity/gridmonitor/",
+      "period": "hourly delayed",
+      "access": "public exports; API key route to verify",
+      "status": "DOCUMENTED_NOT_INGESTED"
+    },
+    {
+      "id": "eia861_reliability",
+      "name": "EIA-861 utilities reliability",
+      "url": "https://www.eia.gov/electricity/data/eia861/",
+      "access": "public",
+      "status": "DOCUMENTED_NOT_INGESTED"
+    },
+    {
+      "id": "doe417_incidents",
+      "name": "DOE-417 electric disturbances",
+      "url": "https://doe417.energy.gov/",
+      "access": "public historic summary",
+      "status": "DOCUMENTED_NOT_INGESTED"
+    },
+    {
+      "id": "pnnl_event_outages",
+      "name": "PNNL event-correlated outage history",
+      "url": "https://catalog.data.gov/dataset/event-correlated-outage-dataset-in-america",
+      "period": "2014–2023",
+      "access": "public",
+      "status": "DOCUMENTED_NOT_INGESTED"
+    },
+    {
+      "id": "doe_microgrid",
+      "name": "DOE microgrid guidance",
+      "url": "https://www.energy.gov/oe/microgrid-systems",
+      "access": "public",
+      "status": "DESIGN_REFERENCE_NOT_LIVE"
+    },
+    {
+      "id": "iso_rto",
+      "name": "ISO/RTO operational data",
+      "url": null,
+      "access": "public subset and possibly accounts",
+      "status": "ACCESS_REVIEW"
+    },
+    {
+      "id": "site_engineering",
+      "name": "Microgrid site engineering",
+      "url": null,
+      "access": "owner approval",
+      "status": "UNKNOWN_RESTRICTED"
+    }
+  ]
+}

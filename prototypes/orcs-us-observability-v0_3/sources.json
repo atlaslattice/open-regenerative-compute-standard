@@ -1,0 +1,104 @@
+{
+  "version": "0.3",
+  "status": "RESEARCH_SOURCES_NOT_REAL_TIME",
+  "feeds": [
+    {
+      "id": "usgs_quakes",
+      "category": "earthquake",
+      "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
+      "access": "public",
+      "format": "geojson",
+      "prior_snapshot_2026_10_13": true
+    },
+    {
+      "id": "noaa_swpc_kp",
+      "category": "geomagnetic",
+      "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index.json",
+      "access": "public",
+      "format": "array",
+      "prior_snapshot_2026_10_13": true
+    },
+    {
+      "id": "nws_point_example",
+      "category": "weather_metadata",
+      "url": "https://api.weather.gov/points/30.2672,-97.7431",
+      "access": "public",
+      "format": "nws_point",
+      "prior_snapshot_2026_10_13": true
+    },
+    {
+      "id": "fema_disasters",
+      "category": "disaster_declarations",
+      "url": "https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries?$top=1",
+      "access": "public",
+      "format": "fema",
+      "prior_snapshot_2026_10_13": true
+    },
+    {
+      "id": "nws_alerts_tx",
+      "category": "weather_alert",
+      "url": "https://api.weather.gov/alerts/active?area=TX",
+      "access": "public",
+      "format": "geojson",
+      "connection": "NOT_VERIFIED"
+    },
+    {
+      "id": "eonet_wildfires",
+      "category": "wildfire",
+      "url": "https://eonet.gsfc.nasa.gov/api/v3/events/geojson?category=wildfires&status=open&limit=20",
+      "access": "public",
+      "format": "geojson",
+      "connection": "NOT_VERIFIED"
+    },
+    {
+      "id": "celestrak_stations",
+      "category": "orbital_elements",
+      "url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=STATIONS&FORMAT=JSON",
+      "access": "public_rate_limited",
+      "format": "array",
+      "connection": "NOT_VERIFIED"
+    },
+    {
+      "id": "eia_api",
+      "category": "fuel_supply",
+      "url": null,
+      "access": "free_api_key_or_bulk",
+      "connection": "NOT_CONNECTED"
+    },
+    {
+      "id": "bts_faf",
+      "category": "freight_hist",
+      "url": null,
+      "access": "public_download",
+      "connection": "NOT_CONNECTED"
+    },
+    {
+      "id": "space_track",
+      "category": "space_catalog",
+      "url": null,
+      "access": "registered_and_use_restricted",
+      "connection": "NOT_CONNECTED"
+    },
+    {
+      "id": "private_transport",
+      "category": "spare_capacity",
+      "url": null,
+      "access": "owner_authorization",
+      "connection": "NOT_CONNECTED"
+    },
+    {
+      "id": "deep_earth_spectral",
+      "category": "seismic_spectral",
+      "url": null,
+      "access": "instrument_specific",
+      "connection": "UNKNOWN"
+    },
+    {
+      "id": "faa_status",
+      "category": "aviation_status",
+      "url": null,
+      "access": "review",
+      "connection": "UNKNOWN"
+    }
+  ]
+}
