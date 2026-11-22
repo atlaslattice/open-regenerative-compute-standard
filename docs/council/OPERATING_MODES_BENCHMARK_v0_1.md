@@ -1,0 +1,55 @@
+# ORCS Council v0.1 — Operating modes and testable five-model hypothesis
+
+**Status: public-safe INTERNAL RESEARCH PROTOCOL CANDIDATE / NOT CANON / NOT DEPLOYED / AUTHORITY NONE.**
+
+Source: [ORCS issue #1](https://github.com/atlaslattice/open-regenerative-compute-standard/issues/1) and its existing draft role cards and 1–5 rubric. The issue is a *testable hypothesis*, not evidence that councils already outperform single-model systems. Source comments are preserved; this file does not rewrite their historical attributions.
+
+## Two separate operating modes
+
+- **Ambient deliberation:** loosely structured research triage, concept incubation, weak signals and civil discussion. Discovery may be creatively speculative; it must be labeled and cannot publish an unverified result as a fact.
+- **Formal adversarial deliberation:** a bounded, reviewable trial with independent first passes, cross critique, evidence-class tags, blinded independent human rating, dissent preservation, and a human-root decision before any consequential release.
+
+These modes cannot be used to impersonate independent agents or to import private Play/Imagine/Quiet memories into Work. Output is never a signed CANON vote or an authorized external action.
+
+## Five *role archetypes*, not forced model identities
+
+| Role | Typical proposed provider/seat | Task | Failure to test |
+|---|---|---|---|
+| Calibration | GPT | Source/claim taxonomy, contradiction checking, final hardening | Overpruning novel ideas |
+| Governance | Claude | Modular governance, legal and institutional legibility | Elegant unsupported framing |
+| Adversarial | Grok | Disconfirming alternatives and stress tests | Pressure without supporting evidence |
+| Ecosystem | Gemini | Broad technical scanning and cross-domain synthesis | Confusing breadth with verification |
+| Enterprise translation | Copilot/DeepSeek/Qwen/Alexa depending on task and consent | Implementation vocabulary and operational translation | Stakeholder gloss over data gaps |
+
+The table is role guidance, **not** a claim that any provider has participated, consented, or endorsed this project. One provider or user cannot attest a separate resident's identity. Every source must carry its independent pointer and rights.
+
+## Pre-registered benchmark design
+
+For every task, create identical source material and compare three arms in a randomized, counterbalanced presentation: **single-model**, **unstructured multi-model discussion**, and **formal structured council**. Separate the source discovery and evaluation samples. Specify model/configuration dates, tools, token and cost budgets, task timestamps, stopping criteria, and human assessor recruitment *before* viewing results. Keep first-pass outputs independent and preserve critique order, negative results and dissent. Exclude a trial if the task cannot be evaluated without unconsented private data.
+
+Use task categories spanning reasoning puzzles, source-grounded policy memos, standards drafts, engineering design reviews, and adversarial red-team cases. A minimum pilot should include multiple tasks, models, blinded assessors, and independently retrievable gold references; the provided code accepts two tasks for development fixtures but **does not claim two is a statistically sufficient sample**. Do not publish benchmark-set answers from privileged or restricted sources.
+
+**Primary hypothesis:** structured councils improve accuracy, source fidelity and contradiction detection relative to both comparison arms at matched budgets. **Null:** no positive effect or worse outcomes. Qualify any result with measured uncertainty, contamination analysis, and predeclared failure boundaries. The system must not compute a p-value or proclaim causal superiority based on repeated synthetic counters.
+
+## Non-canceling human rubric
+
+Six independent 1–5 ratings: correctness, hallucination resistance, evidence clarity, contradiction detection, institutional legibility and usefulness. Store negative ratings; a high aesthetic score must not cancel an unverified citation or rights violation. Reviewer identities, actual independence, sources and consent must be authenticated *outside* the offline validator. The validator rejects missing evidence refs, missing arms, duplicates, forged numeric representations, private-body import or claimed automatic CANON.
+
+## Trial state and acceptance
+
+- **PLANNED**: all three arms and tasks defined before any measurement.
+- **COLLECTING**: independently executed provider sessions with consent, data scope, cost and provenance receipts.
+- **UNATTESTED_HUMAN_RATINGS_ADVISORY_ONLY**: parser accepts source-reported scores but does not authenticate the grader.
+- **HOLD**: absent evidence, invalid schema, missing consent, leaked labels, reused private records, noncomparable budgets or contradictory artifacts.
+- **REVIEWED**: requires an external, properly authenticated human review—not a JSON field generated by a model.
+
+Nothing is automatically merged, accepted, ratified, published or purchased by this evaluator.
+
+## Reproduce the pure protocol tests
+
+```bash
+python -m pytest -q tests/test_council_benchmark_protocol.py
+python tools/council_benchmark_protocol.py <your_proposed_protocol.json>
+```
+
+No API keys, network calls, hosted agents, or external writes are required. All included test values are **synthetic** and intentionally cannot validate the five-model performance hypothesis.
