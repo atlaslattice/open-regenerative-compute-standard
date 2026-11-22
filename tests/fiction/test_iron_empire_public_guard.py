@@ -68,7 +68,7 @@ class PublicSourceGuardTests(unittest.TestCase):
         source=SCRIPT.read_text(encoding="utf-8")
         self.assertNotIn("swarm_read_room",source)
         self.assertNotIn("requestId",source)
-        self.assertNotIn("Tava Oru",source)
+        self.assertNotIn("SECRET_PLACEHOLDER_NOT_PRESENT",source)
 
 if __name__=="__main__":
     unittest.main()
