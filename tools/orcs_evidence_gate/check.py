@@ -27,7 +27,10 @@ def validate(data):
         for key in STATES:
             s=states.get(key)
             if not isinstance(s,dict) or s.get('status') not in VALUES: errors.append(f'{p}: invalid {key} state');continue
-            if s['status']=='VERIFIED' and (not s.get('evidence_ref') or not s.get('observation')):
+            if s['status']=='VERIFIED' and any(
+                not isinstance(s.get(field), str) or not s[field].strip()
+                for field in ('evidence_ref', 'observation')
+            ):
                 errors.append(f'{p}: VERIFIED {key} requires evidence_ref and observation')
         if claim.get('reserve_days') is not None:
             errors.append(f'{p}: reserve_days must be derived in a separate region/product-specific calculation')
