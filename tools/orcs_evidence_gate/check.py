@@ -14,8 +14,12 @@ def validate(data):
         p=f'claims[{n}]'
         if not isinstance(claim,dict): errors.append(f'{p}: object required');continue
         cid=claim.get('id')
-        if not isinstance(cid,str) or not cid.strip() or cid in ids: errors.append(f'{p}: unique nonempty id required')
-        ids.add(cid)
+        if not isinstance(cid,str) or not cid.strip():
+            errors.append(f'{p}: unique nonempty id required')
+        elif cid in ids:
+            errors.append(f'{p}: unique nonempty id required')
+        else:
+            ids.add(cid)
         for key in ('subject','scope','observed_at','source_url'):
             if not isinstance(claim.get(key),str) or not claim[key].strip(): errors.append(f'{p}: missing {key}')
         states=claim.get('states')
