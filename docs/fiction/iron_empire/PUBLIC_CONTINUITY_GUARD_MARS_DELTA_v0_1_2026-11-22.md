@@ -134,6 +134,39 @@ Mars's defenses must not be an arbitrary deus ex machina. The automatic attack a
 
 **Source boundary:** Direct user story clarification dated November 22, 2026, reconciled with the publicly available v0.4 six-film treatment and v0.5 chronology amendment; original files not modified. This is **proposed fiction only**, not a Play-room import, rights transfer, publication license, ratified canon or claim of experimental biotechnology.
 
+## The Ghost Ganglion — one proposed xenobiological explanation for the Mutant's autonomy
+
+**PROPOSED FICTION / CANDIDATE HYPOTHESIS — NOT DISCOVERED OR CANON-RATIFIED.** The author has explicitly allowed the Mutant to have a genuine xenobiological reason for resisting hive control. The explanation below is **one falsifiable story candidate**, not an established secret: the pirates and characters should uncover it through evidence, and the author remains free to revise or reject it.
+
+### Anatomical premise: two successive steering systems
+
+The naturally independent swarm species develops through several metamorphic stages. At birth its juvenile body coordinates decisions and movement through a **brood ganglion** that also supports voluntary synchronization with nearby individuals. The biologically unrelated hive-ruler species implants a living command device into that ganglion in hatchlings. In most individuals, later developmental tissues grow around the device and maintain its access to the adult steering circuits. Queens exploit an existing developmental interface; they did not create free-will itself.
+
+In the Mutant, a rare **heterochronic final metamorphosis** takes a different route: its nervous system assembles a **new adult steering ring** and diverts actual motor decisions through it. Instead of dying, the original brood ganglion persists as a low-priority, metabolically living **ghost ganglion**. The natal implant stays active on the obsolete path and continues receiving, decoding and acknowledging Queen commands, but the commands no longer gain privileged access to the individual's voluntary motor and decision circuits.
+
+That is the mystery's distinctive mechanism: **the device works, but it commands the wrong circuit**. External hive diagnostics can falsely report a connected, apparently compliant organism. The Mutant still senses the incoming pulses as a painful involuntary *phantom instruction*; it knows when the Queens are calling without obeying. This physiological cost prevents the variation from becoming convenient invulnerability. Whether a stress state can occasionally reconnect the two pathways remains an unresolved dramatic risk.
+
+### Story evidence and falsification
+
+1. **Pirate-ship paradox:** A salvage scanner reports a functioning Queen implant and predicts that the bug should attack the crew. Instead, the Mutant consciously chooses to protect them. The pirates' decision not to kill or surrender the being makes direct observation possible.
+2. **Anatomical differential:** Non-injurious imaging and consented observation find two distinct neural conduction paths. When a familiar coercive stimulus arrives, signals travel through the original brood/ghost ganglion but do not produce corresponding compulsory adult motor output. Ordinary voluntary coordination and locomotion continue through the newer ring.
+3. **Alternative explanations kept alive:** If the implant itself is inactive, if the adult steering ring is ordinary in every bug, if the Mutant's independence relies on a different physiological pathway, or if the observed coupling disappears during controlled tests, **reject or revise this candidate**. The v0.4 radiation/inherited-susceptibility proposals remain historical hypotheses, not quietly replaced canon.
+4. **Why the Queens missed it:** This developmental phenotype could be rare, metabolically expensive and systematically purged by hatchling-screening or premature culling. Historical records and survivor testimony can challenge that account; the pirates need not know the answer when they first meet the Mutant.
+
+### Connection to Indra's Net — an engineering lead, not a universal cure
+
+The Mutant's cooperation offers a **functional target** for Earth's Mars-derived retrofit: explore whether bounded vibro-acoustic and other biological interfaces can **temporarily decouple the Queen implant's command path** from the adult voluntary steering circuits, analogous to the Mutant's natural neural rerouting. This does not mean a single note or one emitter frees every bug. Different developmental stages, inherited variants, anatomy, implant generations and maintenance loops can defeat the method. Attempting to mimic developmental rerouting could cause paralysis, neural injury or panic. Evidence-gated local trials, voluntary participation where feasible, strict stop conditions, protected sanctuary zones and follow-up care remain necessary.
+
+The Mutant is a **co-author of the discovery**, not property or the living blueprint to be dissected. Its earlier pirate allies are the first witnesses who distinguish **receiving commands** from **obeying commands**. Some free individuals may still reject Federation aid; this mechanism makes independent choice possible, not mandatory allegiance.
+
+### New character conflict (candidate scene)
+
+A pirate engineer argues that the ship's bioscanner shows the Mutant's hive receiver operating at full strength and demands expulsion before it calls reinforcements. A second pirate replies that all the instrument has proven is **reception**, not **obedience**. The Mutant agrees to a limited, non-invasive examination but refuses the proposal to disable its ghost ganglion: that vestigial organ is also how it feels the distress calls of enslaved kin. The crew keeps it aboard despite the risk, and later that very sensation becomes a clue for researchers building the Earth retrofit.
+
+**Chronology gates:** The crew's first trust decision may occur in Film IV; technical understanding matures in Film V; real but bounded population-scale liberation becomes part of Film VI. The opposing hive rulers remain a separate biological species; natal enslavement is not redefined as natural swarm organization. Preserve the Film II authorized audit, Film III assassination, Film V uncrowned prince, and Film VI coronation plus first revelation of the liberated bug species' own self-name.
+
+**Source/authority note:** Author suggested an eventual *xenobiological reason* in conversation on November 22, 2026. This specific ghost-ganglion mechanism, scene and technical predictions are assistant-original proposals added for review, not an author's final selection, proven biology, private Play-room import or a canon event. Older v0.4 public source speculates about possible radiation damage but never proves the mechanism.
+
 ## Source provenance — all four files already public
 
 All paths are inside docs/fiction/iron_empire/ in this repository.
