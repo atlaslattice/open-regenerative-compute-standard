@@ -1,0 +1,215 @@
+{
+  "diagnostic_status": "PASS",
+  "historical_admin_coupling_hypothesis": "FAIL_FOR_THESE_WINDOWED_MATRICES",
+  "TCSS_full_operator": "BLOCKED_MISSING_FINITE_TERM_DEFINITIONS",
+  "source_repository": "atlaslattice/element-145",
+  "source_revision": "42e640e8b79bdc8d58af19946d3b9ede825af042",
+  "source_paths": {
+    "core": "shugs/shugs_core.py",
+    "packaged": "element145/shugs/operator.py"
+  },
+  "source_sha256": {
+    "core": "05ec9fbcaec930f954b581af67d460c7105909270735292e8c5cd63c80c1bfee",
+    "packaged": "731e9aa6be6be27b3d2685d755175530a6d0ab62580e555567df335fc9fbca3b"
+  },
+  "runs": {
+    "core:N=144:seed=None": {
+      "hermiticity_fro": 6.302601158079933e-17,
+      "eigensystem_relative_residual": 1.2522072686252337e-15,
+      "eigenvalue_min": 0.0,
+      "eigenvalue_max": 16.21175036306597,
+      "zero_rows_at_1e_minus_12": 2,
+      "last_node_offdiagonal_l1": 0.0,
+      "last_node_diagonal": 0.0,
+      "last_node_to_others_resolvent_l2": 0.0,
+      "legacy_core_GUE_KS": 0.29418192114969266,
+      "score_scope": "historical metric only; no KS p-value validity or universality claim"
+    },
+    "packaged:N=144:seed=None": {
+      "hermiticity_fro": 0.0,
+      "eigensystem_relative_residual": 1.2660242403969128e-15,
+      "eigenvalue_min": 0.0,
+      "eigenvalue_max": 16.204867354783914,
+      "zero_rows_at_1e_minus_12": 2,
+      "last_node_offdiagonal_l1": 0.0,
+      "last_node_diagonal": 0.0,
+      "last_node_to_others_resolvent_l2": 0.0,
+      "legacy_core_GUE_KS": 0.24245636728251235,
+      "score_scope": "historical metric only; no KS p-value validity or universality claim"
+    },
+    "core:N=144:seed=42": {
+      "hermiticity_fro": 6.302601158079933e-17,
+      "eigensystem_relative_residual": 1.2429411456708509e-15,
+      "eigenvalue_min": -0.07663701006823767,
+      "eigenvalue_max": 16.21624327625641,
+      "zero_rows_at_1e_minus_12": 0,
+      "last_node_offdiagonal_l1": 0.0,
+      "last_node_diagonal": 0.008802620017326273,
+      "last_node_to_others_resolvent_l2": 0.0,
+      "legacy_core_GUE_KS": 0.32037928892290246,
+      "score_scope": "historical metric only; no KS p-value validity or universality claim"
+    },
+    "packaged:N=144:seed=42": {
+      "hermiticity_fro": 0.0,
+      "eigensystem_relative_residual": 1.2673305072543017e-15,
+      "eigenvalue_min": -0.045646130109029716,
+      "eigenvalue_max": 16.208664855041256,
+      "zero_rows_at_1e_minus_12": 0,
+      "last_node_offdiagonal_l1": 0.0,
+      "last_node_diagonal": 0.005600194626038728,
+      "last_node_to_others_resolvent_l2": 0.0,
+      "legacy_core_GUE_KS": 0.24081289355463698,
+      "score_scope": "historical metric only; no KS p-value validity or universality claim"
+    },
+    "core:N=145:seed=None": {
+      "hermiticity_fro": 6.329739452823844e-17,
+      "eigensystem_relative_residual": 1.2779745859784765e-15,
+      "eigenvalue_min": 0.0,
+      "eigenvalue_max": 16.20678663026279,
+      "zero_rows_at_1e_minus_12": 2,
+      "last_node_offdiagonal_l1": 0.0,
+      "last_node_diagonal": 0.0,
+      "last_node_to_others_resolvent_l2": 0.0,
+      "legacy_core_GUE_KS": 0.2669144127452739,
+      "score_scope": "historical metric only; no KS p-value validity or universality claim"
+    },
+    "packaged:N=145:seed=None": {
+      "hermiticity_fro": 0.0,
+      "eigensystem_relative_residual": 1.2839347632256133e-15,
+      "eigenvalue_min": 0.0,
+      "eigenvalue_max": 16.20325424523833,
+      "zero_rows_at_1e_minus_12": 2,
+      "last_node_offdiagonal_l1": 0.0,
+      "last_node_diagonal": 0.0,
+      "last_node_to_others_resolvent_l2": 0.0,
+      "legacy_core_GUE_KS": 0.1822648250715347,
+      "score_scope": "historical metric only; no KS p-value validity or universality claim"
+    },
+    "core:N=145:seed=42": {
+      "hermiticity_fro": 6.329739452823844e-17,
+      "eigensystem_relative_residual": 1.2395359169004544e-15,
+      "eigenvalue_min": -0.07773219015310964,
+      "eigenvalue_max": 16.20799685967739,
+      "zero_rows_at_1e_minus_12": 0,
+      "last_node_offdiagonal_l1": 0.0,
+      "last_node_diagonal": 0.012570783175312473,
+      "last_node_to_others_resolvent_l2": 0.0,
+      "legacy_core_GUE_KS": 0.26746345450369646,
+      "score_scope": "historical metric only; no KS p-value validity or universality claim"
+    },
+    "packaged:N=145:seed=42": {
+      "hermiticity_fro": 0.0,
+      "eigensystem_relative_residual": 1.310244123688044e-15,
+      "eigenvalue_min": -0.036491184666477404,
+      "eigenvalue_max": 16.204835983295954,
+      "zero_rows_at_1e_minus_12": 0,
+      "last_node_offdiagonal_l1": 0.0,
+      "last_node_diagonal": 0.007882596612123063,
+      "last_node_to_others_resolvent_l2": 0.0,
+      "legacy_core_GUE_KS": 0.24589467875417237,
+      "score_scope": "historical metric only; no KS p-value validity or universality claim"
+    }
+  },
+  "N145_matrix_relative_frobenius_difference": 0.2795994311795104,
+  "N145_sorted_eigenvalue_max_difference": 3.1436914428868175,
+  "factorial_scale_window": {
+    "bare_VM:hann": {
+      "hermiticity_fro": 0.0,
+      "eigensystem_relative_residual": 1.3167993718487174e-15,
+      "eigenvalue_min": 0.0,
+      "eigenvalue_max": 16.199435420208054,
+      "zero_rows_at_1e_minus_12": 2,
+      "last_node_offdiagonal_l1": 0.0,
+      "last_node_diagonal": 0.0,
+      "last_node_to_others_resolvent_l2": 0.0,
+      "legacy_core_GUE_KS": 0.266383262131279,
+      "score_scope": "historical metric only; no KS p-value validity or universality claim"
+    },
+    "bare_VM:sqrt_hann": {
+      "hermiticity_fro": 0.0,
+      "eigensystem_relative_residual": 1.286355924009416e-15,
+      "eigenvalue_min": 0.0,
+      "eigenvalue_max": 16.203254245238323,
+      "zero_rows_at_1e_minus_12": 2,
+      "last_node_offdiagonal_l1": 0.0,
+      "last_node_diagonal": 0.0,
+      "last_node_to_others_resolvent_l2": 0.0,
+      "legacy_core_GUE_KS": 0.18226482507151331,
+      "score_scope": "historical metric only; no KS p-value validity or universality claim"
+    },
+    "completed_diagonal:hann": {
+      "hermiticity_fro": 0.0,
+      "eigensystem_relative_residual": 1.2603030002791442e-15,
+      "eigenvalue_min": 0.0,
+      "eigenvalue_max": 16.206786630262787,
+      "zero_rows_at_1e_minus_12": 2,
+      "last_node_offdiagonal_l1": 0.0,
+      "last_node_diagonal": 0.0,
+      "last_node_to_others_resolvent_l2": 0.0,
+      "legacy_core_GUE_KS": 0.2669144127452517,
+      "score_scope": "historical metric only; no KS p-value validity or universality claim"
+    },
+    "completed_diagonal:sqrt_hann": {
+      "hermiticity_fro": 0.0,
+      "eigensystem_relative_residual": 1.3294203385033435e-15,
+      "eigenvalue_min": 0.0,
+      "eigenvalue_max": 16.213355589703443,
+      "zero_rows_at_1e_minus_12": 2,
+      "last_node_offdiagonal_l1": 0.0,
+      "last_node_diagonal": 0.0,
+      "last_node_to_others_resolvent_l2": 0.0,
+      "legacy_core_GUE_KS": 0.1817232551747957,
+      "score_scope": "historical metric only; no KS p-value validity or universality claim"
+    }
+  },
+  "packaged_no_window_control": {
+    "hermiticity_fro": 0.0,
+    "eigensystem_relative_residual": 1.025363507819981e-15,
+    "eigenvalue_min": 5.526524287424801,
+    "eigenvalue_max": 16.620445568116196,
+    "zero_rows_at_1e_minus_12": 0,
+    "last_node_offdiagonal_l1": 0.9081990265877963,
+    "last_node_diagonal": 5.876947844173668,
+    "last_node_to_others_resolvent_l2": 0.0015240884367571706,
+    "legacy_core_GUE_KS": 0.4261545853564653,
+    "score_scope": "historical metric only; no KS p-value validity or universality claim"
+  },
+  "N145_scaling_values": {
+    "bare_VM_sd": 1.5165676194377147,
+    "completed_diagonal_sd": 2.4185485637221498
+  },
+  "prior_probe_rounded_score_absolute_differences": {
+    "core:N=144:seed=None": 1.9211496926629934e-06,
+    "core:N=145:seed=None": 4.412745273907337e-06,
+    "packaged:N=144:seed=None": 3.632717487656034e-06,
+    "packaged:N=145:seed=None": 4.825071534680925e-06
+  },
+  "checks": {
+    "original_sources_loaded_only_after_hash_check": true,
+    "all_eigensystem_residuals_below_1e_minus_12": true,
+    "both_sources_isolate_last_node_even_with_jitter": true,
+    "both_sources_have_zero_cross_node_resolvent": true,
+    "packaged_admin_helper_returns_twelve_zeros": true,
+    "removing_packaged_window_restores_coupling": true,
+    "factorized_core_reconstructs_source": true,
+    "factorized_packaged_reconstructs_source": true,
+    "prior_reconstruction_scores_agree_to_reported_precision": true
+  },
+  "elapsed_seconds": 2.964562834999981,
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "sympy": "1.14.0"
+  },
+  "script_sha256": "464bdc08df734ce0b8bfadf6b0424e440c5c9f17478d7a02c80bdf6f29761b73",
+  "limits": [
+    "No full 1728 TCSS H_B reconstruction",
+    "No physical membrane or routing simulation",
+    "Legacy degree-5 unfolding and spacing filtering are preserved, not statistically qualified",
+    "Zeta zeros are inputs to these matrices; no independent prediction of those zeros",
+    "Hann window multiplication alone establishes no physical absorption or damping",
+    "Resolvent is an algebraic connectivity check at shift i, not a mechanical transfer function",
+    "No full historical ensemble, KS=0.0527 claim, or N145 architectural optimum reproduced"
+  ]
+}

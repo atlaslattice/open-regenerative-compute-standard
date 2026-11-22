@@ -1,0 +1,83 @@
+{
+  "status": "PASS",
+  "scope": "Definition-gate examples only; NOT the historical H_B, not a candidate full H_B",
+  "historical_reconstruction_status": "BLOCKED_MISSING_TERM_DEFINITIONS",
+  "ABCD": {
+    "A_physical_model": "NOT_RUN_NO_SPECIMEN_MODEL",
+    "B_plain_graph": "Previously tested separately; not a new full benchmark here",
+    "C_historical_TCSS": "BLOCKED_MISSING_Hxp_AND_Lz",
+    "D_historical_Path_B": "BLOCKED_MISSING_Hxp_Lz_Xz"
+  },
+  "parameters": {
+    "N": 12,
+    "tensor_dimension": 1728,
+    "illustrative_spacing": 1,
+    "illustrative_hbar": 1,
+    "tolerance": 1e-11,
+    "randomness": "none"
+  },
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "script_sha256": "c5acd49b761209bb8be74813b4538abbed64f7e0ae9c9665988e4c1f07a56923",
+  "metrics": {
+    "tensor_commutator_max_abs": 0.0,
+    "tensor_product_hermiticity_max_abs": 0.0,
+    "noncommuting_product_hermiticity_max_abs": 2.0,
+    "noncommuting_product_eigenvalues_imag": [
+      1.0,
+      -1.0
+    ],
+    "finite_commutator_trace_abs": 0.0,
+    "canonical_commutator_residual_fro": 8.831760866327848,
+    "canonical_commutator_universal_lower_bound_fro": 3.4641016151377544,
+    "central_momentum_zero_modes": 2,
+    "graph_laplacian_zero_modes": 1,
+    "P_squared_minus_graph_L_max_abs": 1.5,
+    "consistent_seam_translation_max_abs": 0.0,
+    "degenerate_parity_basis_odd_expectations": [
+      0.0,
+      0.0
+    ],
+    "degenerate_rotated_basis_odd_expectations": [
+      0.9999999999999998,
+      -0.9999999999999998
+    ],
+    "delta_cancellation_example": [
+      {
+        "value": 0.0,
+        "reason": null
+      },
+      {
+        "value": 0.0,
+        "reason": null
+      }
+    ],
+    "delta_zero_denominator_example": [
+      {
+        "value": null,
+        "reason": "zero_denominator"
+      },
+      {
+        "value": 1.0,
+        "reason": null
+      }
+    ]
+  },
+  "checks": {
+    "tensor_factors_commute": true,
+    "commuting_hermitian_product_is_hermitian": true,
+    "noncommuting_product_rejected_before_eigh": true,
+    "commutator_trace_zero": true,
+    "canonical_commutator_cannot_equal_iI": true,
+    "even_central_difference_has_extra_null_mode": true,
+    "momentum_square_not_graph_laplacian": true,
+    "consistent_coordinate_relabeling_preserved": true,
+    "degenerate_eigenbasis_changes_odd_expectations": true,
+    "delta_zero_need_not_mean_zero_operator": true,
+    "undefined_delta_not_fabricated_zero": true
+  },
+  "elapsed_seconds": 0.007200551000096311
+}
