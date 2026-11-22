@@ -1,0 +1,26 @@
+test_identity_response (test_transport.DetectorTests.test_identity_response) ... ok
+test_migration_efficiency_and_background_oracle (test_transport.DetectorTests.test_migration_efficiency_and_background_oracle) ... ok
+test_non_detection_not_renormalized (test_transport.DetectorTests.test_non_detection_not_renormalized) ... ok
+test_overflow_is_refused (test_transport.DetectorTests.test_overflow_is_refused) ... ok
+test_probability_and_species_guards (test_transport.DetectorTests.test_probability_and_species_guards) ... ok
+test_zero_source_preserves_measured_background (test_transport.DetectorTests.test_zero_source_preserves_measured_background) ... ok
+test_bad_tables_and_projected_range_header_rejected (test_transport.TransportTests.test_bad_tables_and_projected_range_header_rejected) ... ok
+test_birth_faces_and_substrate_orientation (test_transport.TransportTests.test_birth_faces_and_substrate_orientation) ... ok
+test_calibrated_mode_refuses_synthetic (test_transport.TransportTests.test_calibrated_mode_refuses_synthetic) ... ok
+test_constant_stopping_independent_oracle (test_transport.TransportTests.test_constant_stopping_independent_oracle) ... ok
+test_explicit_thickness_units (test_transport.TransportTests.test_explicit_thickness_units) ... ok
+test_hash_mutation_rejected (test_transport.TransportTests.test_hash_mutation_rejected) ... ok
+test_invalid_birth_location (test_transport.TransportTests.test_invalid_birth_location) ... ok
+test_invalid_geometry_and_floating_overflow_refused (test_transport.TransportTests.test_invalid_geometry_and_floating_overflow_refused) ... ok
+test_material_specific_stack_and_loss (test_transport.TransportTests.test_material_specific_stack_and_loss) ... ok
+test_missing_or_mismatched_species_material_blocked (test_transport.TransportTests.test_missing_or_mismatched_species_material_blocked) ... ok
+test_no_extrapolation_or_invented_low_energy_tail (test_transport.TransportTests.test_no_extrapolation_or_invented_low_energy_tail) ... ok
+test_scalar_angle_material_mutations_detected (test_transport.TransportTests.test_scalar_angle_material_mutations_detected) ... ok
+test_split_layer_invariance (test_transport.TransportTests.test_split_layer_invariance) ... ok
+test_uniform_isotropic_slab_against_analytic_oracle (test_transport.TransportTests.test_uniform_isotropic_slab_against_analytic_oracle) ... ok
+test_vacuum_and_stopped_input (test_transport.TransportTests.test_vacuum_and_stopped_input) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.225s
+
+OK

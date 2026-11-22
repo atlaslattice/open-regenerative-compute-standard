@@ -1,0 +1,34 @@
+{
+  "artifact_id": "G0B_TRANSPORT_REFERENCE_SCOPE_ALIGNMENT_v0_1",
+  "scope_source": "research/stars_2_0/STARS_PHYSICS_ONLY_SHUGS_OPERATOR_SCOPE_v0_1_2026-10-28.md",
+  "scope_revision": "ec5192122ceb6715f2090327e78fd6da03341e36",
+  "components": [
+    {
+      "path": "transport.py",
+      "classification": "PHYSICAL_CANDIDATE",
+      "evidence": "Analytical software verification only; no physical material calibration"
+    },
+    {
+      "path": "detector.py",
+      "classification": "PHYSICAL_CANDIDATE",
+      "evidence": "Synthetic response checks only; no measured detector calibration"
+    },
+    {
+      "path": "run_reference.py",
+      "classification": "PHYSICAL_CANDIDATE",
+      "data_class": "SYNTHETIC_ONLY",
+      "role": "Offline verification harness; no physical predictions"
+    },
+    {
+      "path": "test_transport.py",
+      "classification": "PHYSICAL_CANDIDATE",
+      "data_class": "SYNTHETIC_ONLY",
+      "role": "Analytic/mutation/refusal tests"
+    }
+  ],
+  "physical_validated_components": [],
+  "external_shugs_dependencies": [],
+  "physical_prediction_status": "BLOCKED_UNQUALIFIED_INPUTS",
+  "latest_hash_manifest": "SHA256_MANIFEST_v0_2.json",
+  "note": "Late scope alignment after main advanced during implementation. Prior manifest and receipts preserved."
+}

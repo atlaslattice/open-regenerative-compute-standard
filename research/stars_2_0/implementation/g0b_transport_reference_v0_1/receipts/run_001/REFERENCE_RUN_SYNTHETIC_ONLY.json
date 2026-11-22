@@ -1,0 +1,368 @@
+{
+  "software_verification": "PASS",
+  "physical_G0B_prediction": "BLOCKED_UNQUALIFIED_INPUTS",
+  "data_class": "SYNTHETIC_ONLY_NOT_BORON_OR_BN",
+  "tests_run": 21,
+  "failures": 0,
+  "errors": 0,
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5"
+  },
+  "random_seed": null,
+  "randomness": "none; deterministic fixtures and quadrature",
+  "tolerances": {
+    "constant_stopping_oracle": "13 decimal places in MeV for fixture scale",
+    "slab_escape_probability": "absolute error <2/n, conservative grid-cell sanity bound",
+    "calibration": "none asserted; facility thresholds require measured uncertainties"
+  },
+  "source_input_sha256": {
+    "TEST_A:proton": "15d5f93e99409fb890ca0f7029833a56761ee6dc3e531c054d799f0c2edffbb3",
+    "TEST_A:alpha": "15d5f93e99409fb890ca0f7029833a56761ee6dc3e531c054d799f0c2edffbb3",
+    "TEST_B:proton": "9bd56f5a9d6c45ecad2f6973e1b55759b1019c376d9feeaeded6df95749c31cc",
+    "TEST_B:alpha": "9bd56f5a9d6c45ecad2f6973e1b55759b1019c376d9feeaeded6df95749c31cc"
+  },
+  "code_sha256": {
+    "detector.py": "f53fa649cf7c9a32ab40f20ae5870bbd81bc5632fffb6889a73f28f88b76550d",
+    "run_reference.py": "64a9d03d3e242b7ed9c4a15868f6e9a1093d30674bfd9b7c502de26b19751fe4",
+    "test_transport.py": "5d54c0e638c57c6aefa36c1ef725716a9aeac510c15076ff7c725adacff1fcd1",
+    "transport.py": "71869658dc84403d36ed26572d07cd9d7b4e1191c508159c3209936c7a15a9d7"
+  },
+  "test_log_sha256": "74f77c6b0147f42af8d720e5e80890bfbf74f891841bcbcefb09817ef78d7ca0",
+  "transmission_cases": [
+    {
+      "energy_MeV": 1.0,
+      "mu": 0.5,
+      "predicted": {
+        "species": "proton",
+        "input_energy_MeV": 1.0,
+        "output_energy_MeV": 0.0,
+        "primary_energy_loss_MeV": 1.0,
+        "closure_residual_MeV": 0.0,
+        "layer_ledger": [
+          {
+            "layer_id": "L1",
+            "material_id": "TEST_A",
+            "normal_areal_mass_g_cm2": 0.2,
+            "path_areal_mass_g_cm2": 0.4,
+            "input_energy_MeV": 1.0,
+            "output_energy_MeV": 0.19999999999999996,
+            "primary_energy_loss_MeV": 0.8,
+            "range_dataset_id": "SYNTHETIC:TEST_A:proton"
+          },
+          {
+            "layer_id": "L2",
+            "material_id": "TEST_B",
+            "normal_areal_mass_g_cm2": 0.3,
+            "path_areal_mass_g_cm2": 0.6,
+            "input_energy_MeV": 0.19999999999999996,
+            "output_energy_MeV": 0.0,
+            "primary_energy_loss_MeV": 0.19999999999999996,
+            "range_dataset_id": "SYNTHETIC:TEST_B:proton"
+          }
+        ],
+        "model": "planar straight-track CSDA, linear range interpolation",
+        "scope": "conditional primary transport only; primary energy loss is not measured heat; secondary escape/storage unresolved; no nuclear reactions, scattering or straggling"
+      },
+      "independent_constant_stopping_oracle_MeV": 0
+    },
+    {
+      "energy_MeV": 1.0,
+      "mu": 1.0,
+      "predicted": {
+        "species": "proton",
+        "input_energy_MeV": 1.0,
+        "output_energy_MeV": 0.0,
+        "primary_energy_loss_MeV": 1.0,
+        "closure_residual_MeV": 0.0,
+        "layer_ledger": [
+          {
+            "layer_id": "L1",
+            "material_id": "TEST_A",
+            "normal_areal_mass_g_cm2": 0.2,
+            "path_areal_mass_g_cm2": 0.2,
+            "input_energy_MeV": 1.0,
+            "output_energy_MeV": 0.6,
+            "primary_energy_loss_MeV": 0.4,
+            "range_dataset_id": "SYNTHETIC:TEST_A:proton"
+          },
+          {
+            "layer_id": "L2",
+            "material_id": "TEST_B",
+            "normal_areal_mass_g_cm2": 0.3,
+            "path_areal_mass_g_cm2": 0.3,
+            "input_energy_MeV": 0.6,
+            "output_energy_MeV": 0.0,
+            "primary_energy_loss_MeV": 0.6,
+            "range_dataset_id": "SYNTHETIC:TEST_B:proton"
+          }
+        ],
+        "model": "planar straight-track CSDA, linear range interpolation",
+        "scope": "conditional primary transport only; primary energy loss is not measured heat; secondary escape/storage unresolved; no nuclear reactions, scattering or straggling"
+      },
+      "independent_constant_stopping_oracle_MeV": 0
+    },
+    {
+      "energy_MeV": 2.0,
+      "mu": 0.5,
+      "predicted": {
+        "species": "proton",
+        "input_energy_MeV": 2.0,
+        "output_energy_MeV": 0.0,
+        "primary_energy_loss_MeV": 2.0,
+        "closure_residual_MeV": 0.0,
+        "layer_ledger": [
+          {
+            "layer_id": "L1",
+            "material_id": "TEST_A",
+            "normal_areal_mass_g_cm2": 0.2,
+            "path_areal_mass_g_cm2": 0.4,
+            "input_energy_MeV": 2.0,
+            "output_energy_MeV": 1.2,
+            "primary_energy_loss_MeV": 0.8,
+            "range_dataset_id": "SYNTHETIC:TEST_A:proton"
+          },
+          {
+            "layer_id": "L2",
+            "material_id": "TEST_B",
+            "normal_areal_mass_g_cm2": 0.3,
+            "path_areal_mass_g_cm2": 0.6,
+            "input_energy_MeV": 1.2,
+            "output_energy_MeV": 0.0,
+            "primary_energy_loss_MeV": 1.2,
+            "range_dataset_id": "SYNTHETIC:TEST_B:proton"
+          }
+        ],
+        "model": "planar straight-track CSDA, linear range interpolation",
+        "scope": "conditional primary transport only; primary energy loss is not measured heat; secondary escape/storage unresolved; no nuclear reactions, scattering or straggling"
+      },
+      "independent_constant_stopping_oracle_MeV": 0
+    },
+    {
+      "energy_MeV": 2.0,
+      "mu": 1.0,
+      "predicted": {
+        "species": "proton",
+        "input_energy_MeV": 2.0,
+        "output_energy_MeV": 0.7000000000000001,
+        "primary_energy_loss_MeV": 1.2999999999999998,
+        "closure_residual_MeV": 0.0,
+        "layer_ledger": [
+          {
+            "layer_id": "L1",
+            "material_id": "TEST_A",
+            "normal_areal_mass_g_cm2": 0.2,
+            "path_areal_mass_g_cm2": 0.2,
+            "input_energy_MeV": 2.0,
+            "output_energy_MeV": 1.6,
+            "primary_energy_loss_MeV": 0.3999999999999999,
+            "range_dataset_id": "SYNTHETIC:TEST_A:proton"
+          },
+          {
+            "layer_id": "L2",
+            "material_id": "TEST_B",
+            "normal_areal_mass_g_cm2": 0.3,
+            "path_areal_mass_g_cm2": 0.3,
+            "input_energy_MeV": 1.6,
+            "output_energy_MeV": 0.7000000000000001,
+            "primary_energy_loss_MeV": 0.9,
+            "range_dataset_id": "SYNTHETIC:TEST_B:proton"
+          }
+        ],
+        "model": "planar straight-track CSDA, linear range interpolation",
+        "scope": "conditional primary transport only; primary energy loss is not measured heat; secondary escape/storage unresolved; no nuclear reactions, scattering or straggling"
+      },
+      "independent_constant_stopping_oracle_MeV": 0.7000000000000002
+    },
+    {
+      "energy_MeV": 4.0,
+      "mu": 0.5,
+      "predicted": {
+        "species": "proton",
+        "input_energy_MeV": 4.0,
+        "output_energy_MeV": 1.4000000000000001,
+        "primary_energy_loss_MeV": 2.5999999999999996,
+        "closure_residual_MeV": 0.0,
+        "layer_ledger": [
+          {
+            "layer_id": "L1",
+            "material_id": "TEST_A",
+            "normal_areal_mass_g_cm2": 0.2,
+            "path_areal_mass_g_cm2": 0.4,
+            "input_energy_MeV": 4.0,
+            "output_energy_MeV": 3.2,
+            "primary_energy_loss_MeV": 0.7999999999999998,
+            "range_dataset_id": "SYNTHETIC:TEST_A:proton"
+          },
+          {
+            "layer_id": "L2",
+            "material_id": "TEST_B",
+            "normal_areal_mass_g_cm2": 0.3,
+            "path_areal_mass_g_cm2": 0.6,
+            "input_energy_MeV": 3.2,
+            "output_energy_MeV": 1.4000000000000001,
+            "primary_energy_loss_MeV": 1.8,
+            "range_dataset_id": "SYNTHETIC:TEST_B:proton"
+          }
+        ],
+        "model": "planar straight-track CSDA, linear range interpolation",
+        "scope": "conditional primary transport only; primary energy loss is not measured heat; secondary escape/storage unresolved; no nuclear reactions, scattering or straggling"
+      },
+      "independent_constant_stopping_oracle_MeV": 1.4000000000000004
+    },
+    {
+      "energy_MeV": 4.0,
+      "mu": 1.0,
+      "predicted": {
+        "species": "proton",
+        "input_energy_MeV": 4.0,
+        "output_energy_MeV": 2.6999999999999997,
+        "primary_energy_loss_MeV": 1.3000000000000003,
+        "closure_residual_MeV": 0.0,
+        "layer_ledger": [
+          {
+            "layer_id": "L1",
+            "material_id": "TEST_A",
+            "normal_areal_mass_g_cm2": 0.2,
+            "path_areal_mass_g_cm2": 0.2,
+            "input_energy_MeV": 4.0,
+            "output_energy_MeV": 3.6,
+            "primary_energy_loss_MeV": 0.3999999999999999,
+            "range_dataset_id": "SYNTHETIC:TEST_A:proton"
+          },
+          {
+            "layer_id": "L2",
+            "material_id": "TEST_B",
+            "normal_areal_mass_g_cm2": 0.3,
+            "path_areal_mass_g_cm2": 0.3,
+            "input_energy_MeV": 3.6,
+            "output_energy_MeV": 2.6999999999999997,
+            "primary_energy_loss_MeV": 0.9000000000000004,
+            "range_dataset_id": "SYNTHETIC:TEST_B:proton"
+          }
+        ],
+        "model": "planar straight-track CSDA, linear range interpolation",
+        "scope": "conditional primary transport only; primary energy loss is not measured heat; secondary escape/storage unresolved; no nuclear reactions, scattering or straggling"
+      },
+      "independent_constant_stopping_oracle_MeV": 2.7
+    }
+  ],
+  "slab_grid_checks": [
+    {
+      "grid_per_axis": 30,
+      "slab_areal_mass_g_cm2": 0.5,
+      "range_g_cm2": 2.0,
+      "both_face_escape_probability": 0.8755555555555555,
+      "analytic_oracle": 0.875,
+      "absolute_error": 0.0005555555555555314
+    },
+    {
+      "grid_per_axis": 30,
+      "slab_areal_mass_g_cm2": 2.0,
+      "range_g_cm2": 2.0,
+      "both_face_escape_probability": 0.49,
+      "analytic_oracle": 0.5,
+      "absolute_error": 0.010000000000000009
+    },
+    {
+      "grid_per_axis": 30,
+      "slab_areal_mass_g_cm2": 4.0,
+      "range_g_cm2": 2.0,
+      "both_face_escape_probability": 0.25,
+      "analytic_oracle": 0.25,
+      "absolute_error": 0.0
+    },
+    {
+      "grid_per_axis": 60,
+      "slab_areal_mass_g_cm2": 0.5,
+      "range_g_cm2": 2.0,
+      "both_face_escape_probability": 0.875,
+      "analytic_oracle": 0.875,
+      "absolute_error": 0.0
+    },
+    {
+      "grid_per_axis": 60,
+      "slab_areal_mass_g_cm2": 2.0,
+      "range_g_cm2": 2.0,
+      "both_face_escape_probability": 0.49527777777777776,
+      "analytic_oracle": 0.5,
+      "absolute_error": 0.004722222222222239
+    },
+    {
+      "grid_per_axis": 60,
+      "slab_areal_mass_g_cm2": 4.0,
+      "range_g_cm2": 2.0,
+      "both_face_escape_probability": 0.25,
+      "analytic_oracle": 0.25,
+      "absolute_error": 0.0
+    },
+    {
+      "grid_per_axis": 120,
+      "slab_areal_mass_g_cm2": 0.5,
+      "range_g_cm2": 2.0,
+      "both_face_escape_probability": 0.875,
+      "analytic_oracle": 0.875,
+      "absolute_error": 0.0
+    },
+    {
+      "grid_per_axis": 120,
+      "slab_areal_mass_g_cm2": 2.0,
+      "range_g_cm2": 2.0,
+      "both_face_escape_probability": 0.4976388888888889,
+      "analytic_oracle": 0.5,
+      "absolute_error": 0.0023611111111110916
+    },
+    {
+      "grid_per_axis": 120,
+      "slab_areal_mass_g_cm2": 4.0,
+      "range_g_cm2": 2.0,
+      "both_face_escape_probability": 0.25,
+      "analytic_oracle": 0.25,
+      "absolute_error": 0.0
+    }
+  ],
+  "detector_example": {
+    "response_id": "SYNTHETIC:response",
+    "species": "alpha",
+    "signal_expected_counts": [
+      75.0,
+      50.0
+    ],
+    "background_expected_counts": [
+      3.0,
+      4.0
+    ],
+    "total_expected_counts": [
+      78.0,
+      54.0
+    ],
+    "undetected_expected_counts": 25.00000000000001,
+    "true_expected_counts": 150.0,
+    "count_closure_residual": -1.0658141036401503e-14,
+    "statistical_scope": "expected values only; no Poisson-independence or calibrated likelihood asserted"
+  },
+  "missing_BN_refusal": {
+    "status": "BLOCKED",
+    "reason": "Missing material/species range table: ('BN_UNQUALIFIED', 'proton')",
+    "physical_prediction": null
+  },
+  "method_sources": [
+    "https://physics.nist.gov/PhysRefData/Star/Text/appendix.html",
+    "https://physics.nist.gov/PhysRefData/Star/Text/programs.html"
+  ],
+  "source_acquisition_attempt": {
+    "url": "https://physics.nist.gov/PhysRefData/Star/Text/PSTAR-t.html",
+    "direct_urllib_result": "HTTP 403 Forbidden; no stopping table acquired",
+    "note": "Public documentation was retrieved through web search; this failed request is not proof that BN data do not exist."
+  },
+  "limitations": [
+    "No physical stopping tables or measured beam/response ingested",
+    "Planar infinite slab; no scattering, straggling or lateral escape",
+    "No nuclear reaction probability or alpha birth generator",
+    "Linear range interpolation; no domain extrapolation or invented low-energy tail",
+    "Primary energy loss not equated to local heat or recoverable energy",
+    "Single-hit response expected counts only; no calibrated counting likelihood",
+    "Source evidence labels are supplied declarations, not independent certification",
+    "Full covariance propagation and independent physical holdouts remain unimplemented"
+  ]
+}
