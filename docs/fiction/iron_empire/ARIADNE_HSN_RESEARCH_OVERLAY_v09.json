@@ -1,0 +1,319 @@
+{
+  "schema": "iron-empire.ariadne-house-review-overlay/v0.9",
+  "registryEdition": "Ariadne v0.7",
+  "registryDigest": "07533cf7a6b6f567259962bf73efee9b22b47cbacb429499787800e07864e5a6",
+  "totalHouseSlots": 12,
+  "totalSphereSlots": 144,
+  "totalNodePositions": 1728,
+  "domainSphereSlots": 84,
+  "methodSphereSlots": 60,
+  "empiricalOpenAlexResultsFetched": 0,
+  "approvedTopicLinks": 0,
+  "completedFilmEdits": 0,
+  "residentAppointments": 0,
+  "canonChanged": false,
+  "status": "AUTHOR_REVIEW_REQUIRED",
+  "sourceOriginalBytesEmbedded": false,
+  "houses": [
+    {
+      "house": "H01",
+      "name": "Energy & Matter",
+      "reviewLens": "energy_conservation",
+      "domainSphereSlots": [
+        "H01.S01",
+        "H01.S02",
+        "H01.S03",
+        "H01.S04",
+        "H01.S05",
+        "H01.S06",
+        "H01.S07"
+      ],
+      "epistemicSphereSlots": [
+        "H01.S08",
+        "H01.S09",
+        "H01.S10",
+        "H01.S11",
+        "H01.S12"
+      ],
+      "nodePositions": 144,
+      "sourceSemanticsVerified": false,
+      "reviewStatus": "PROPOSED_ONLY",
+      "editorialAuthority": "NONE"
+    },
+    {
+      "house": "H02",
+      "name": "Water & Food",
+      "reviewLens": "water_sovereignty",
+      "domainSphereSlots": [
+        "H02.S01",
+        "H02.S02",
+        "H02.S03",
+        "H02.S04",
+        "H02.S05",
+        "H02.S06",
+        "H02.S07"
+      ],
+      "epistemicSphereSlots": [
+        "H02.S08",
+        "H02.S09",
+        "H02.S10",
+        "H02.S11",
+        "H02.S12"
+      ],
+      "nodePositions": 144,
+      "sourceSemanticsVerified": false,
+      "reviewStatus": "PROPOSED_ONLY",
+      "editorialAuthority": "NONE"
+    },
+    {
+      "house": "H03",
+      "name": "Ecology, Environment & Infrastructure",
+      "reviewLens": "ecological_timeline",
+      "domainSphereSlots": [
+        "H03.S01",
+        "H03.S02",
+        "H03.S03",
+        "H03.S04",
+        "H03.S05",
+        "H03.S06",
+        "H03.S07"
+      ],
+      "epistemicSphereSlots": [
+        "H03.S08",
+        "H03.S09",
+        "H03.S10",
+        "H03.S11",
+        "H03.S12"
+      ],
+      "nodePositions": 144,
+      "sourceSemanticsVerified": false,
+      "reviewStatus": "PROPOSED_ONLY",
+      "editorialAuthority": "NONE"
+    },
+    {
+      "house": "H04",
+      "name": "Health & Medicine",
+      "reviewLens": "care_access",
+      "domainSphereSlots": [
+        "H04.S01",
+        "H04.S02",
+        "H04.S03",
+        "H04.S04",
+        "H04.S05",
+        "H04.S06",
+        "H04.S07"
+      ],
+      "epistemicSphereSlots": [
+        "H04.S08",
+        "H04.S09",
+        "H04.S10",
+        "H04.S11",
+        "H04.S12"
+      ],
+      "nodePositions": 144,
+      "sourceSemanticsVerified": false,
+      "reviewStatus": "PROPOSED_ONLY",
+      "editorialAuthority": "NONE"
+    },
+    {
+      "house": "H05",
+      "name": "Education & Knowledge",
+      "reviewLens": "archive_provenance",
+      "domainSphereSlots": [
+        "H05.S01",
+        "H05.S02",
+        "H05.S03",
+        "H05.S04",
+        "H05.S05",
+        "H05.S06",
+        "H05.S07"
+      ],
+      "epistemicSphereSlots": [
+        "H05.S08",
+        "H05.S09",
+        "H05.S10",
+        "H05.S11",
+        "H05.S12"
+      ],
+      "nodePositions": 144,
+      "sourceSemanticsVerified": false,
+      "reviewStatus": "PROPOSED_ONLY",
+      "editorialAuthority": "NONE"
+    },
+    {
+      "house": "H06",
+      "name": "Security",
+      "reviewLens": "civilian_warning",
+      "domainSphereSlots": [
+        "H06.S01",
+        "H06.S02",
+        "H06.S03",
+        "H06.S04",
+        "H06.S05",
+        "H06.S06",
+        "H06.S07"
+      ],
+      "epistemicSphereSlots": [
+        "H06.S08",
+        "H06.S09",
+        "H06.S10",
+        "H06.S11",
+        "H06.S12"
+      ],
+      "nodePositions": 144,
+      "sourceSemanticsVerified": false,
+      "reviewStatus": "PROPOSED_ONLY",
+      "editorialAuthority": "NONE"
+    },
+    {
+      "house": "H07",
+      "name": "Business, Finance & Governance",
+      "reviewLens": "accountable_procurement",
+      "domainSphereSlots": [
+        "H07.S01",
+        "H07.S02",
+        "H07.S03",
+        "H07.S04",
+        "H07.S05",
+        "H07.S06",
+        "H07.S07"
+      ],
+      "epistemicSphereSlots": [
+        "H07.S08",
+        "H07.S09",
+        "H07.S10",
+        "H07.S11",
+        "H07.S12"
+      ],
+      "nodePositions": 144,
+      "sourceSemanticsVerified": false,
+      "reviewStatus": "PROPOSED_ONLY",
+      "editorialAuthority": "NONE"
+    },
+    {
+      "house": "H08",
+      "name": "Humanities, Arts & Culture",
+      "reviewLens": "plural_creative_custody",
+      "domainSphereSlots": [
+        "H08.S01",
+        "H08.S02",
+        "H08.S03",
+        "H08.S04",
+        "H08.S05",
+        "H08.S06",
+        "H08.S07"
+      ],
+      "epistemicSphereSlots": [
+        "H08.S08",
+        "H08.S09",
+        "H08.S10",
+        "H08.S11",
+        "H08.S12"
+      ],
+      "nodePositions": 144,
+      "sourceSemanticsVerified": false,
+      "reviewStatus": "PROPOSED_ONLY",
+      "editorialAuthority": "NONE"
+    },
+    {
+      "house": "H09",
+      "name": "Philosophy, Psychology & Religion",
+      "reviewLens": "agency_questions",
+      "domainSphereSlots": [
+        "H09.S01",
+        "H09.S02",
+        "H09.S03",
+        "H09.S04",
+        "H09.S05",
+        "H09.S06",
+        "H09.S07"
+      ],
+      "epistemicSphereSlots": [
+        "H09.S08",
+        "H09.S09",
+        "H09.S10",
+        "H09.S11",
+        "H09.S12"
+      ],
+      "nodePositions": 144,
+      "sourceSemanticsVerified": false,
+      "reviewStatus": "PROPOSED_ONLY",
+      "editorialAuthority": "NONE"
+    },
+    {
+      "house": "H10",
+      "name": "Indigenous Peoples, Society & Community",
+      "reviewLens": "community_sovereignty",
+      "domainSphereSlots": [
+        "H10.S01",
+        "H10.S02",
+        "H10.S03",
+        "H10.S04",
+        "H10.S05",
+        "H10.S06",
+        "H10.S07"
+      ],
+      "epistemicSphereSlots": [
+        "H10.S08",
+        "H10.S09",
+        "H10.S10",
+        "H10.S11",
+        "H10.S12"
+      ],
+      "nodePositions": 144,
+      "sourceSemanticsVerified": false,
+      "reviewStatus": "PROPOSED_ONLY",
+      "editorialAuthority": "NONE"
+    },
+    {
+      "house": "H11",
+      "name": "Protection & Rights",
+      "reviewLens": "species_independent_rights",
+      "domainSphereSlots": [
+        "H11.S01",
+        "H11.S02",
+        "H11.S03",
+        "H11.S04",
+        "H11.S05",
+        "H11.S06",
+        "H11.S07"
+      ],
+      "epistemicSphereSlots": [
+        "H11.S08",
+        "H11.S09",
+        "H11.S10",
+        "H11.S11",
+        "H11.S12"
+      ],
+      "nodePositions": 144,
+      "sourceSemanticsVerified": false,
+      "reviewStatus": "PROPOSED_ONLY",
+      "editorialAuthority": "NONE"
+    },
+    {
+      "house": "H12",
+      "name": "Space & Aerospace",
+      "reviewLens": "mission_failure_modes",
+      "domainSphereSlots": [
+        "H12.S01",
+        "H12.S02",
+        "H12.S03",
+        "H12.S04",
+        "H12.S05",
+        "H12.S06",
+        "H12.S07"
+      ],
+      "epistemicSphereSlots": [
+        "H12.S08",
+        "H12.S09",
+        "H12.S10",
+        "H12.S11",
+        "H12.S12"
+      ],
+      "nodePositions": 144,
+      "sourceSemanticsVerified": false,
+      "reviewStatus": "PROPOSED_ONLY",
+      "editorialAuthority": "NONE"
+    }
+  ]
+}
